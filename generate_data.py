@@ -1,8 +1,9 @@
 import google.generativeai as genai
 import json
 from utils import load_dataset, generate_inference, save_inferences_to_json, compile_training_dataset
+from prompts import initial_prompt, self_correcting_prompt
 
-def generate_dataset(dataset_path, model_name, output_path, dataset_format="json"):
+def generate_dataset(dataset_path, model_name, output_path, number_of_rounds, dataset_format="json"):
     """
     Main routine to handle external datasets, generate inferences, and compile training data.
 
@@ -21,9 +22,19 @@ def generate_dataset(dataset_path, model_name, output_path, dataset_format="json
     # Generate inferences
     inferences = []
     for entry in dataset:
-        inference = generate_inference(entry["question"], model_name)
+        question = entry["question"]
+        
+        # First query with initial prompt
+        inference = generate_inference(f"{initial_prompt}\n{question}", model_name)
         inference["ground_truth"] = entry.get("answer", None)  # Include ground truth if available
         inferences.append(inference)
+        
+        # Subsequent queries with self-correcting prompt
+        # TODO: make range dynamic based on how many inferences are in "{answer:...}{inference 1:...}{inference 2:...}..." 
+        for _ in range(number_of_rounds):  # Adjust the range for more iterations if needed
+            inference = generate_inference(f"{self_correcting_prompt}\n{inference['inference']}", model_name)
+            inference["ground_truth"] = entry.get("answer", None)  # Include ground truth if available
+            inferences.append(inference)
 
     # Save inferences to a structured JSON file
     save_inferences_to_json(inferences, f"{output_path}_inferences.json")
@@ -38,11 +49,10 @@ def generate_dataset(dataset_path, model_name, output_path, dataset_format="json
     print(f"Processed dataset saved at {output_path}_compiled.json.")
     return training_dataset
 
-
 # Example usage with a JSON dataset in GSM8K format
 training_dataset = generate_dataset(
     dataset_path="gsm8k.json",
-    model_name="gemini-flash-1.0",
+    model_name="gemini-1.5-flash",
     output_path="processed_dataset",
     dataset_format="json"
 )
@@ -50,7 +60,7 @@ training_dataset = generate_dataset(
 # Example usage with a CSV dataset in TheVault format
 training_dataset = generate_dataset(
     dataset_path="thevault.csv",
-    model_name="gemini-flash-1.0",
+    model_name="gemini-1.5-flash",
     output_path="processed_dataset",
     dataset_format="csv"
 )

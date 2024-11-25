@@ -69,7 +69,7 @@ original_data = [
 
 # Train using STaR
 final_model = train_with_star(
-    base_model="gemini-flash-1.0",
+    base_model="gemini-1.5-flash",
     original_data=original_data,
     iterations=3,
     epochs=50,

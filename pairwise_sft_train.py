@@ -54,7 +54,7 @@ example_dataset = [
 ]
 
 final_model_name = train_with_pairwise_sft(
-    base_model="gemini-flash-1.0",
+    base_model="gemini-1.5-flash",
     dataset=example_dataset,
     epochs=50,
     learning_rate=0.001
