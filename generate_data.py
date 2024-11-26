@@ -1,9 +1,11 @@
 import json
 import os
 import pickle
+import argparse
 from utils import dataloader, load_one_data, generate_inference, save_inferences_to_json, compile_training_dataset
 from prompts import initial_prompt, self_correcting_prompt, MATH_initial_prompt, MATH_self_correcting_prompt
 
+# This function dies midway because of token limit on free tier of Gemini API
 # def generate_dataset(dataset_path, model_name, output_path, number_of_rounds, init_prompt=initial_prompt, self_corr_prompt=self_correcting_prompt, dataset_format="json"):
 #     """
 #     Main routine to handle external datasets, generate inferences, and compile training data.
@@ -175,40 +177,66 @@ def generate_dataset(dataset_path, model_name, output_path, number_of_rounds, in
     return training_dataset
 
 # Example usage
+
 if __name__ == "__main__":
-    dataset_path = "./data/GSM8K_train.jsonl"
     MODEL_NAME = "gemini-1.5-flash-8b"
-
-    # Example usage with a JSONL dataset
-    # gsm8k_training_dataset = generate_dataset(
-    #     dataset_path=dataset_path,
-    #     model_name=MODEL_NAME,
-    #     output_path="processed_dataset",
-    #     number_of_rounds=1,
-    #     init_prompt=initial_prompt,
-    #     self_corr_prompt=self_correcting_prompt,
-    #     dataset_format="jsonl"
-    # )
-
     dataset_path = "./data/MATH/train/precalculus"
-    MATH_verification_dataset = generate_dataset(
-        dataset_path=dataset_path,
-        model_name=MODEL_NAME,
-        output_path="processed_dataset/MATH/train/precalculus",
-        number_of_rounds=1,
-        init_prompt=MATH_initial_prompt,
-        self_corr_prompt=MATH_self_correcting_prompt,
-        dataset_format="json"
+    output_path="generated_dataset/MATH/train/precalculus"
+
+    parser = argparse.ArgumentParser(description="Generate dataset with inferences.")
+    parser.add_argument("--dataset_path", type=str, default="./generated_dataset", required=True, help="Path to the external dataset file.")
+    parser.add_argument("--model_name", type=str, default=MODEL_NAME, required=True, help="Gemini model name for inference generation.")
+    parser.add_argument("--output_path", type=str, default="./data", required=True, help="Path to save the processed dataset.")
+    parser.add_argument("--number_of_rounds", type=int, default=1, help="Number of self-correcting rounds.")
+    parser.add_argument("--init_prompt", type=str, default=initial_prompt, help="Initial prompt to use for generating inferences.")
+    parser.add_argument("--self_corr_prompt", type=str, default=self_correcting_prompt, help="Self-correcting prompt to use for subsequent inferences.")
+    parser.add_argument("--dataset_format", type=str, default="json", help="Format of the input dataset ('json', 'csv', or 'jsonl').")
+
+    args = parser.parse_args()
+
+    generate_dataset(
+        dataset_path=args.dataset_path,
+        model_name=args.model_name,
+        output_path=args.output_path,
+        number_of_rounds=args.number_of_rounds,
+        init_prompt=args.init_prompt,
+        self_corr_prompt=args.self_corr_prompt,
+        dataset_format=args.dataset_format
     )
 
 
+'''
+Manual call to generate_dataset running F5 on this file in VSCode
+'''
+# if __name__ == "__main__":
+#     dataset_path = "./data/GSM8K_train.jsonl"
+#     MODEL_NAME = "gemini-1.5-flash-8b"
 
+#     # Example usage with a JSONL dataset
+#     # gsm8k_training_dataset = generate_dataset(
+#     #     dataset_path=dataset_path,
+#     #     model_name=MODEL_NAME,
+#     #     output_path="processed_dataset",
+#     #     number_of_rounds=1,
+#     #     init_prompt=initial_prompt,
+#     #     self_corr_prompt=self_correcting_prompt,
+#     #     dataset_format="jsonl"
+#     # )
 
+#     MATH_verification_dataset = generate_dataset(
+#         dataset_path=dataset_path,
+#         model_name=MODEL_NAME,
+#         output_path="processed_dataset/MATH/train/precalculus",
+#         number_of_rounds=1,
+#         init_prompt=MATH_initial_prompt,
+#         self_corr_prompt=MATH_self_correcting_prompt,
+#         dataset_format="json"
+#     )
 
-
-
-
-
+'''
+Below is a batched approach that doesn't work, because the same model is used in a single runtime
+splitting up the calls into batches will still continue onto the next batch with the same instance
+'''
 # def generate_dataset(dataset_path, model_name, output_path, number_of_rounds, init_prompt=initial_prompt, self_corr_prompt=self_correcting_prompt, dataset_format="json"):
 #     """
 #     Main routine to handle external datasets, generate inferences, and compile training data.
