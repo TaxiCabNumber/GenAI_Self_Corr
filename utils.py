@@ -1,11 +1,58 @@
 '''
 This file contains utility functions for integrating external datasets for generating the finetuning dataset
 '''
+from key import google_api_key 
 import google.generativeai as genai
 import json
 import csv
-from key import google_api_key 
 import random
+import os
+
+def load_one_data(dataset_path, dataset_format="json"):
+    """
+    Loads a dataset from the given path and format.
+
+    Args:
+        dataset_path (str): Path to the dataset file.
+        dataset_format (str): Format of the dataset ("json", "csv", or "jsonl").
+
+    Returns:
+        list: A list of dictionary entries with "question" and "answer" fields.
+    """
+    if os.path.isdir(dataset_path):
+        # If the path is a directory, load all JSON files in the directory
+        for file_name in os.listdir(dataset_path):
+            if file_name.endswith(".json"):
+                file_path = os.path.join(dataset_path, file_name)
+                with open(file_path, "r") as json_file:
+                    data = json.load(json_file)
+                    if isinstance(data, list):
+                        for entry in data:
+                            yield entry
+                    else:
+                        yield data
+    else:
+        # If the path is a file, load the dataset based on the specified format
+        if dataset_format == "json":
+            with open(dataset_path, "r") as json_file:
+                data = json.load(json_file)
+                if isinstance(data, list):
+                    for entry in data:
+                        yield entry
+                else:
+                    yield data
+        elif dataset_format == "csv":
+            with open(dataset_path, "r") as csv_file:
+                reader = csv.DictReader(csv_file)
+                for row in reader:
+                    yield {"question": row["question"], "answer": row.get("answer")}
+        elif dataset_format == "jsonl":
+            with open(dataset_path, "r") as jsonl_file:
+                for line in jsonl_file:
+                    yield json.loads(line)
+        else:
+            raise ValueError(f"Unsupported dataset format: {dataset_format}")
+
 
 def load_dataset(dataset_path, dataset_format="json"):
     """
@@ -19,24 +66,42 @@ def load_dataset(dataset_path, dataset_format="json"):
         list: A list of dictionary entries with "question" and "answer" fields.
     """
     dataset = []
-    if dataset_format == "json":
-        with open(dataset_path, "r") as json_file:
-            dataset = json.load(json_file)
-    elif dataset_format == "csv":
-        with open(dataset_path, "r") as csv_file:
-            reader = csv.DictReader(csv_file)
-            dataset = [{"question": row["question"], "answer": row.get("answer")} for row in reader]
-    elif dataset_format == "jsonl":
-        with open(dataset_path, "r") as jsonl_file:
-            dataset = [json.loads(line) for line in jsonl_file]
+    if os.path.isdir(dataset_path):
+        # If the path is a directory, load all JSON files in the directory
+        for file_name in os.listdir(dataset_path):
+            if file_name.endswith(".json"):
+                file_path = os.path.join(dataset_path, file_name)
+                with open(file_path, "r") as json_file:
+                    data = json.load(json_file)
+                    if isinstance(data, list):
+                        dataset.extend(data)
+                    else:
+                        dataset.append(data)
     else:
-        raise ValueError(f"Unsupported dataset format: {dataset_format}")
+        # If the path is a file, load the dataset based on the specified format
+        if dataset_format == "json":
+            with open(dataset_path, "r") as json_file:
+                data = json.load(json_file)
+                if isinstance(data, list):
+                    dataset = data
+                else:
+                    dataset = [data]
+        elif dataset_format == "csv":
+            with open(dataset_path, "r") as csv_file:
+                reader = csv.DictReader(csv_file)
+                dataset = [{"question": row["question"], "answer": row.get("answer")} for row in reader]
+        elif dataset_format == "jsonl":
+            with open(dataset_path, "r") as jsonl_file:
+                dataset = [json.loads(line) for line in jsonl_file]
+        else:
+            raise ValueError(f"Unsupported dataset format: {dataset_format}")
 
     print(f"Loaded {len(dataset)} entries from {dataset_path}.")
     return dataset
 
 
-def dataloader(dataset_path, dataset_format="jsonl", batch_size=32):
+
+def dataloader(dataset_path, dataset_format="jsonl", batch_size=2):
     """
     Loads a dataset and returns it in batches.
 
@@ -65,15 +130,39 @@ def generate_inference(question, model_name):
         dict: A dictionary containing the question and its generated response.
     """
     genai.configure(api_key=google_api_key) # api_key = userdata.get('GOOGLE_API_KEY')
-    model = genai.GenerativeModel(model_name=model_name)
+    model = genai.GenerativeModel(model_name=model_name)    
     response = model.generate_content(question)
 
-    # This may clutter your computer.
+    # This may clutter your terminal.
     print(f"question: {question} \n inference: {response.text}")
     return {
         "question": question,
         "inference": response.text
     }
+
+
+# think about using classes
+# def MATH_ generate_inference(question, model_name):
+#     """
+#     Generates an inference from the Gemini model for the given question.
+
+#     Args:
+#         question (str): The question for which the inference is generated.
+#         model_name (str): The Gemini model name.
+
+#     Returns:
+#         dict: A dictionary containing the question and its generated response.
+#     """
+#     genai.configure(api_key=google_api_key) # api_key = userdata.get('GOOGLE_API_KEY')
+#     model = genai.GenerativeModel(model_name=model_name)
+#     response = model.generate_content(question)
+
+#     # This may clutter your terminal.
+#     print(f"question: {question} \n inference: {response.text}")
+#     return {
+#         "question": question,
+#         "inference": response.text
+#     }
 
 
 # def save_inferences_to_json(inference, file_path):
