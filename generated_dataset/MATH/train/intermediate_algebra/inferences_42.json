@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nTwo reals $a$ and $b$ are such that $a+b=7$ and $a^3+b^3=91$. Compute $ab$.",
+        "inference": "We have $a+b = 7$ and $a^3 + b^3 = 91$.\nWe know that $a^3 + b^3 = (a+b)(a^2 - ab + b^2) = (a+b)((a+b)^2 - 3ab)$.\nSubstituting the given values, we have $91 = (7)(7^2 - 3ab) = 7(49-3ab)$.\nDividing both sides by 7, we get $13 = 49 - 3ab$.\nRearranging the equation, we have $3ab = 49 - 13 = 36$.\nTherefore, $ab = 36/3 = 12$.\n\nFinal Answer: $\\boxed{12}$\n",
+        "ground_truth": "We have $91=a^3+b^3=(a+b)(a^2-ab+b^2)=(a+b)((a+b)^2-3ab)=7\\cdot (49-3ab)$, from which $ab=\\boxed{12}$."
+    },
+    {
+        "question": "We have $a+b = 7$ and $a^3 + b^3 = 91$.\nWe know that $a^3 + b^3 = (a+b)(a^2 - ab + b^2) = (a+b)((a+b)^2 - 3ab)$.\nSubstituting the given values, we have $91 = (7)(7^2 - 3ab) = 7(49-3ab)$.\nDividing both sides by 7, we get $13 = 49 - 3ab$.\nRearranging the equation, we have $3ab = 49 - 13 = 36$.\nTherefore, $ab = 36/3 = 12$.\n\nFinal Answer: $\\boxed{12}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "We have $a+b=7$ and $a^3 + b^3 = 91$.\nWe know $a^3 + b^3 = (a+b)(a^2 - ab + b^2) = (a+b)((a+b)^2 - 3ab)$.\nSubstituting the given values, we have $91 = (7)((7)^2 - 3ab) = 7(49-3ab)$.\nDividing both sides by 7, we get $13 = 49 - 3ab$.\nRearranging the equation, we have $3ab = 49 - 13 = 36$.\nTherefore, $ab = \\frac{36}{3} = 12$.\n\nFinal Answer: $\\boxed{12}$",
+        "ground_truth": "We have $91=a^3+b^3=(a+b)(a^2-ab+b^2)=(a+b)((a+b)^2-3ab)=7\\cdot (49-3ab)$, from which $ab=\\boxed{12}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the greatest possible value of $x+y$ such that $x^{2} + y^{2} =90$ and $xy=27$?",
+        "inference": "We are given that $x^2 + y^2 = 90$ and $xy = 27$.\nWe want to maximize $x+y$.\nWe know that $(x+y)^2 = x^2 + 2xy + y^2$.\nSubstituting the given values, we have\n$(x+y)^2 = 90 + 2(27) = 90 + 54 = 144$.\nTaking the square root of both sides, we get\n$x+y = \\pm\\sqrt{144} = \\pm 12$.\nSince we want the greatest possible value of $x+y$, we take the positive value.\nFinal Answer: $\\boxed{12}$\n",
+        "ground_truth": "We have $(x+y)^2=x^2+y^2+2xy=90+2\\cdot27=144$, so $x+y=12$ or $x+y=-12$. We want the larger value, or $x+y=\\boxed{12}$."
+    },
+    {
+        "question": "We are given that $x^2 + y^2 = 90$ and $xy = 27$.\nWe want to maximize $x+y$.\nWe know that $(x+y)^2 = x^2 + 2xy + y^2$.\nSubstituting the given values, we have\n$(x+y)^2 = 90 + 2(27) = 90 + 54 = 144$.\nTaking the square root of both sides, we get\n$x+y = \\pm\\sqrt{144} = \\pm 12$.\nSince we want the greatest possible value of $x+y$, we take the positive value.\nFinal Answer: $\\boxed{12}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Let $x$ and $y$ be real numbers such that $x^2 + y^2 = 90$ and $xy = 27$.\nWe want to maximize $x+y$.\nWe have $(x+y)^2 = x^2 + 2xy + y^2 = (x^2+y^2) + 2xy$.\nSubstituting the given values, we get $(x+y)^2 = 90 + 2(27) = 90 + 54 = 144$.\nTaking the square root of both sides, we have $x+y = \\pm\\sqrt{144} = \\pm 12$.\nSince we want to maximize $x+y$, the maximum value is 12.\n\nFinal Answer: $\\boxed{12}$",
+        "ground_truth": "We have $(x+y)^2=x^2+y^2+2xy=90+2\\cdot27=144$, so $x+y=12$ or $x+y=-12$. We want the larger value, or $x+y=\\boxed{12}$."
+    }
+]

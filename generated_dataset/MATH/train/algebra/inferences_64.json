@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSuppose $d\\not=0$.  We can write $\\left(12d+13+14d^2\\right)+\\left(2d+1\\right)$, in the form $ad+b+cd^2$, where $a$, $b$, and $c$ are integers.  Find $a+b+c$.",
+        "inference": "$(12d+13+14d^2)+(2d+1) = 14d^2 + (12d+2d) + (13+1) = 14d^2 + 14d + 14$\n$a=14$, $b=14$, $c=14$\n$a+b+c = 14+14+14 = 42$\nFinal Answer: $\\boxed{42}$\n",
+        "ground_truth": "Adding the $d$ terms gives us $14d$.  Adding the constant terms gives us $14$.  Adding the $d^2$ terms gives us $14d^2$.  Adding the terms together gives us ${14d+14+14d^2}$, so $a+b+c = \\boxed{42}$."
+    },
+    {
+        "question": "$(12d+13+14d^2)+(2d+1) = 14d^2 + (12d+2d) + (13+1) = 14d^2 + 14d + 14$\n$a=14$, $b=14$, $c=14$\n$a+b+c = 14+14+14 = 42$\nFinal Answer: $\\boxed{42}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The given expression is $(12d+13+14d^2)+(2d+1)$.\nCombining like terms, we have\n$14d^2 + (12d+2d) + (13+1) = 14d^2 + 14d + 14$.\nComparing this with the standard quadratic form $ad^2 + bd + c$, we have $a=14$, $b=14$, and $c=14$.\nWe are asked to find $a+b+c$. Thus, $a+b+c = 14+14+14 = 42$.\n\nFinal Answer: $\\boxed{42}$",
+        "ground_truth": "Adding the $d$ terms gives us $14d$.  Adding the constant terms gives us $14$.  Adding the $d^2$ terms gives us $14d^2$.  Adding the terms together gives us ${14d+14+14d^2}$, so $a+b+c = \\boxed{42}$."
+    }
+]

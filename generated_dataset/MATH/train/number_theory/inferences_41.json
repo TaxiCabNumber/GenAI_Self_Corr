@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the modulo $13$ residue of $247+5 \\cdot 39 + 7 \\cdot 143 +4 \\cdot 15?$",
+        "inference": "$247 \\equiv 247 \\pmod{13}$\n$247 = 13 \\cdot 19 + 0$\n$247 \\equiv 0 \\pmod{13}$\n$5 \\cdot 39 = 195$\n$195 = 13 \\cdot 15 + 0$\n$5 \\cdot 39 \\equiv 0 \\pmod{13}$\n$7 \\cdot 143 = 1001$\n$1001 = 13 \\cdot 77 + 0$\n$7 \\cdot 143 \\equiv 0 \\pmod{13}$\n$4 \\cdot 15 = 60$\n$60 = 13 \\cdot 4 + 8$\n$4 \\cdot 15 \\equiv 8 \\pmod{13}$\n$247 + 5 \\cdot 39 + 7 \\cdot 143 + 4 \\cdot 15 \\equiv 0 + 0 + 0 + 8 \\equiv 8 \\pmod{13}$\nFinal Answer: $\\boxed{8}$\n",
+        "ground_truth": "Since $247, 39,$ and $143$ are all divisible by $13$, the residues for $247+ 5 \\cdot 39 + 7 \\cdot 143$ is just $0$.\n\nTherefore, $247+5 \\cdot 39 + 7 \\cdot 143 +4 \\cdot 15 \\equiv 4 \\cdot 15 \\equiv 60 \\equiv \\boxed{8} \\pmod{13}$."
+    },
+    {
+        "question": "$247 \\equiv 247 \\pmod{13}$\n$247 = 13 \\cdot 19 + 0$\n$247 \\equiv 0 \\pmod{13}$\n$5 \\cdot 39 = 195$\n$195 = 13 \\cdot 15 + 0$\n$5 \\cdot 39 \\equiv 0 \\pmod{13}$\n$7 \\cdot 143 = 1001$\n$1001 = 13 \\cdot 77 + 0$\n$7 \\cdot 143 \\equiv 0 \\pmod{13}$\n$4 \\cdot 15 = 60$\n$60 = 13 \\cdot 4 + 8$\n$4 \\cdot 15 \\equiv 8 \\pmod{13}$\n$247 + 5 \\cdot 39 + 7 \\cdot 143 + 4 \\cdot 15 \\equiv 0 + 0 + 0 + 8 \\equiv 8 \\pmod{13}$\nFinal Answer: $\\boxed{8}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "247 + 5 * 39 + 7 * 143 + 4 * 15 = 247 + 195 + 1001 + 60\n247 = 13 * 19\n195 = 13 * 15\n1001 = 13 * 77\n60 = 13 * 4 + 8\n247 + 195 + 1001 + 60\n247 \u2261 0 (mod 13)\n195 \u2261 0 (mod 13)\n1001 \u2261 0 (mod 13)\n60 \u2261 8 (mod 13)\n247 + 195 + 1001 + 60 \u2261 0 + 0 + 0 + 8 \u2261 8 (mod 13)\n\n$\\boxed{8}$\n",
+        "ground_truth": "Since $247, 39,$ and $143$ are all divisible by $13$, the residues for $247+ 5 \\cdot 39 + 7 \\cdot 143$ is just $0$.\n\nTherefore, $247+5 \\cdot 39 + 7 \\cdot 143 +4 \\cdot 15 \\equiv 4 \\cdot 15 \\equiv 60 \\equiv \\boxed{8} \\pmod{13}$."
+    }
+]

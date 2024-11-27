@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf the system of equations  \\begin{align*}\n3x+y&=a,\\\\\n2x+5y&=2a,\n\\end{align*} has a solution $(x,y)$ when $x=2$, compute $a$.",
+        "inference": "Substitute $x=2$ into the first equation:\n$3(2)+y = a$\n$6+y=a$\n$y = a-6$\nSubstitute $x=2$ and $y=a-6$ into the second equation:\n$2(2)+5(a-6)=2a$\n$4+5a-30=2a$\n$5a-26=2a$\n$3a=26$\n$a = \\frac{26}{3}$\nFinal Answer: $\\boxed{\\frac{26}{3}}$ I hope it is correct.",
+        "ground_truth": "Substituting in $x=2$, we obtain the equations\n\n\\begin{align*}\ny+6&=a,\\\\\n5y+4&=2a.\n\\end{align*}\n\nMultiplying the first equation by $5$ and subtracting it from the second equation, we find\n\n$$-26=-3a\\Rightarrow a=\\boxed{\\frac{26}{3}}.$$"
+    },
+    {
+        "question": "Substitute $x=2$ into the first equation:\n$3(2)+y = a$\n$6+y=a$\n$y = a-6$\nSubstitute $x=2$ and $y=a-6$ into the second equation:\n$2(2)+5(a-6)=2a$\n$4+5a-30=2a$\n$5a-26=2a$\n$3a=26$\n$a = \\frac{26}{3}$\nFinal Answer: $\\boxed{\\frac{26}{3}}$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{\\frac{26}{3}}$\n",
+        "ground_truth": "Substituting in $x=2$, we obtain the equations\n\n\\begin{align*}\ny+6&=a,\\\\\n5y+4&=2a.\n\\end{align*}\n\nMultiplying the first equation by $5$ and subtracting it from the second equation, we find\n\n$$-26=-3a\\Rightarrow a=\\boxed{\\frac{26}{3}}.$$"
+    }
+]
