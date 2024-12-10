@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA jar contains two red marbles, three green marbles, ten white marbles and no other marbles. Two marbles are randomly drawn from this jar without replacement. What is the probability that these two marbles drawn will both be red? Express your answer as a common fraction.",
+        "inference": "There are a total of 2 + 3 + 10 = 15 marbles.\nThe number of ways to choose 2 marbles from 15 is $\\binom{15}{2} = \\frac{15 \\times 14}{2} = 105$.\nThe number of ways to choose 2 red marbles from 2 red marbles is $\\binom{2}{2} = 1$.\nThe probability of choosing 2 red marbles is $\\frac{\\binom{2}{2}}{\\binom{15}{2}} = \\frac{1}{105}$.\nFinal Answer: $\\boxed{\\frac{1}{105}}$ I hope it is correct.\n",
+        "ground_truth": "The total number of marbles is $2+3+10=15$.  The probability that the first marble drawn will be red is $2/15$.  Then, there will be one red left, out of 14.  Therefore, the probability of drawing out two red marbles will be: $$\\frac{2}{15}\\cdot\\frac{1}{14}=\\boxed{\\frac{1}{105}}$$"
+    },
+    {
+        "question": "There are a total of 2 + 3 + 10 = 15 marbles.\nThe number of ways to choose 2 marbles from 15 is $\\binom{15}{2} = \\frac{15 \\times 14}{2} = 105$.\nThe number of ways to choose 2 red marbles from 2 red marbles is $\\binom{2}{2} = 1$.\nThe probability of choosing 2 red marbles is $\\frac{\\binom{2}{2}}{\\binom{15}{2}} = \\frac{1}{105}$.\nFinal Answer: $\\boxed{\\frac{1}{105}}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{\\frac{1}{105}}$\n",
+        "ground_truth": "The total number of marbles is $2+3+10=15$.  The probability that the first marble drawn will be red is $2/15$.  Then, there will be one red left, out of 14.  Therefore, the probability of drawing out two red marbles will be: $$\\frac{2}{15}\\cdot\\frac{1}{14}=\\boxed{\\frac{1}{105}}$$"
+    }
+]

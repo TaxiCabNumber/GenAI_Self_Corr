@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe distribution of populations in a group of counties is shown in this pie chart. What percent of the counties have fewer than 100,000 residents?\n\n[asy]\ndraw(Circle((0,0),25),linewidth(1));\ndraw((-24,-7)--(0,0)--(24,-7),linewidth(1));\ndraw((0,0)--(7,-24),linewidth(1));\nlabel(\"59\\%\",(0,12));\nlabel(\"25\\%\",(-10,-10));\nlabel(\"16\\%\",(10,-10));\nlabel(\"\\textbf{Distribution of County Populations}\",(0,25),N);\nlabel(\"\\tiny{10,000 to 99,999}\",(30,15),N);\nlabel(\"\\tiny{less than 10,000}\",(-30,-15),S);\nlabel(\"\\tiny{100,000 or more}\",(30,-15),S);\nlabel(\"\\tiny{residents}\",(30,13),N);\nlabel(\"\\tiny{residents}\",(-30,-17),S);\nlabel(\"\\tiny{residents}\",(30,-17),S);\n[/asy]",
+        "inference": "The pie chart shows that 59% of counties have 10,000 to 99,999 residents, and 25% have fewer than 10,000 residents.  To find the percentage of counties with fewer than 100,000 residents, add the percentages for the \"less than 10,000\" and \"10,000 to 99,999\" categories.  25% + 59% = 84%.\n\nFinal Answer: $\\boxed{84%}$\n",
+        "ground_truth": "This is the percent that has either fewer than 10,000 or 10,000 to 99,999 residents, so we add those two percentages, giving $25\\%+59\\%=\\boxed{84\\%}$."
+    },
+    {
+        "question": "The pie chart shows that 59% of counties have 10,000 to 99,999 residents, and 25% have fewer than 10,000 residents.  To find the percentage of counties with fewer than 100,000 residents, add the percentages for the \"less than 10,000\" and \"10,000 to 99,999\" categories.  25% + 59% = 84%.\n\nFinal Answer: $\\boxed{84%}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution correctly identifies that the percentages for \"less than 10,000\" and \"10,000 to 99,999\" categories need to be added.  The calculation is correct: 25% + 59% = 84%.\n\n$\\boxed{84%}$\n",
+        "ground_truth": "This is the percent that has either fewer than 10,000 or 10,000 to 99,999 residents, so we add those two percentages, giving $25\\%+59\\%=\\boxed{84\\%}$."
+    }
+]

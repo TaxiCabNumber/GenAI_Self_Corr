@@ -53,7 +53,6 @@ def load_one_data(dataset_path, dataset_format="json"):
         else:
             raise ValueError(f"Unsupported dataset format: {dataset_format}")
 
-
 def load_dataset(dataset_path, dataset_format="json"):
     """
     Loads a dataset from the given path and format.
@@ -71,7 +70,6 @@ def load_dataset(dataset_path, dataset_format="json"):
         for file_name in os.listdir(dataset_path):
             if file_name.endswith(".json"):
                 file_path = os.path.join(dataset_path, file_name)
-                pri
                 with open(file_path, "r") as json_file:
                     data = json.load(json_file)
                     if isinstance(data, list):
@@ -100,8 +98,6 @@ def load_dataset(dataset_path, dataset_format="json"):
     print(f"Loaded {len(dataset)} entries from {dataset_path}.")
     return dataset
 
-
-
 def dataloader(dataset_path, dataset_format="jsonl", batch_size=2):
     """
     Loads a dataset and returns it in batches.
@@ -118,7 +114,6 @@ def dataloader(dataset_path, dataset_format="jsonl", batch_size=2):
     batches = [dataset[i:i + batch_size] for i in range(0, len(dataset), batch_size)]
     return batches
 
-
 def generate_inference(question, model_name):
     """
     Generates an inference from the Gemini model for the given question.
@@ -130,8 +125,8 @@ def generate_inference(question, model_name):
     Returns:
         dict: A dictionary containing the question and its generated response.
     """
-    genai.configure(api_key=google_api_key) # api_key = userdata.get('GOOGLE_API_KEY')
-    model = genai.GenerativeModel(model_name=model_name)    
+    genai.configure(api_key=google_api_key)
+    model = genai.GenerativeModel(model_name=model_name)
     response = model.generate_content(question)
 
     # This may clutter your terminal.
@@ -190,7 +185,6 @@ def save_inferences_to_json(inferences, file_path):
     with open(file_path, "w") as json_file:
         json.dump(inferences, json_file, indent=4)
     print(f"Inferences saved to {file_path}.")
-
 
 def compile_training_dataset(original_data, inferences):
     """

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCompute $2 \\times 2^5 - 8^{58} \\div 8^{56}$",
+        "inference": "$2 \\times 2^5 - 8^{58} \\div 8^{56} = 2^1 \\times 2^5 - (2^3)^{58} \\div (2^3)^{56} = 2^{1+5} - 2^{3 \\times 58} \\div 2^{3 \\times 56} = 2^6 - 2^{174} \\div 2^{168} = 2^6 - 2^{174-168} = 2^6 - 2^6 = 64 - 64 = 0$\nFinal Answer: $\\boxed{0}$ I hope it is correct.\n",
+        "ground_truth": "Using the product of powers property and the quotient of powers property, we have \\[2 \\times 2^5 - 8^{58} \\div 8^{56} = 2^{1+5} - 8^{58-56} = 2^6 - 8^2 = 64 - 64 = \\boxed{0}.\\]"
+    },
+    {
+        "question": "$2 \\times 2^5 - 8^{58} \\div 8^{56} = 2^1 \\times 2^5 - (2^3)^{58} \\div (2^3)^{56} = 2^{1+5} - 2^{3 \\times 58} \\div 2^{3 \\times 56} = 2^6 - 2^{174} \\div 2^{168} = 2^6 - 2^{174-168} = 2^6 - 2^6 = 64 - 64 = 0$\nFinal Answer: $\\boxed{0}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$2 \\times 2^5 - 8^{58} \\div 8^{56} = 2^1 \\times 2^5 - (2^3)^{58} \\div (2^3)^{56} = 2^{1+5} - 2^{3 \\times 58} \\div 2^{3 \\times 56} = 2^6 - 2^{174} \\div 2^{168} = 2^6 - 2^{174-168} = 2^6 - 2^6 = 64 - 64 = 0$\n\nThe solution is correct.\n\n$\\boxed{0}$\n",
+        "ground_truth": "Using the product of powers property and the quotient of powers property, we have \\[2 \\times 2^5 - 8^{58} \\div 8^{56} = 2^{1+5} - 8^{58-56} = 2^6 - 8^2 = 64 - 64 = \\boxed{0}.\\]"
+    }
+]

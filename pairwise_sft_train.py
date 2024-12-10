@@ -1,5 +1,7 @@
 import google.generativeai as genai
 import random
+import json
+import os
 
 def train_with_pairwise_sft(base_model, dataset, epochs=100, learning_rate=0.001):
     """
@@ -17,10 +19,12 @@ def train_with_pairwise_sft(base_model, dataset, epochs=100, learning_rate=0.001
     Returns:
         str: Name of the fine-tuned model.
     """
-    # Prepare training data in pairwise format
+    # Prepare training data in pairwise format  # This isn't pair-wise
+    # use different file
     training_data = [
         {
-            "text_input": f"Prompt: {entry['prompt']}\nFirst Inference: {entry['inference_1']}",
+            "text_input": f"Prompt: {entry['question']}"
+            "output": f": {entry['inference_1']}",
             "output": entry["inference_2"]
         }
         for entry in dataset
@@ -40,6 +44,7 @@ def train_with_pairwise_sft(base_model, dataset, epochs=100, learning_rate=0.001
     print(f"Pairwise SFT training completed. Model name: {model_name}")
     return model_name
 
+'''
 example_dataset = [
     {
         "prompt": "What is 3 + 5?",
@@ -52,11 +57,28 @@ example_dataset = [
         "inference_2": "The simplification is (x + 1)^2."
     }
 ]
+'''
 
-final_model_name = train_with_pairwise_sft(
-    base_model="gemini-1.5-flash",
-    dataset=example_dataset,
-    epochs=50,
-    learning_rate=0.001
-)
-print(f"Final trained model: {final_model_name}")
+def load_dataset_from_directory(directory_path):
+    dataset = []
+    for file_name in os.listdir(directory_path):
+        if file_name.endswith(".json"):
+            file_path = os.path.join(directory_path, file_name)
+            with open(file_path, 'r') as file:
+                data = json.load(file)
+                dataset.extend(data)
+    return dataset
+
+
+if __name__ == "__main__":
+    base_model = "gemini-1.5-flash-8b"
+    dataset_file = "inferences_0.json"  # Change this to the path of your JSON file
+    dataset = load_dataset_from_json(dataset_file)
+    
+    final_model_name = train_with_pairwise_sft(
+        base_model=base_model,
+        dataset=dataset,
+        epochs=50,
+        learning_rate=0.001
+    )
+    print(f"Final trained model: {final_model_name}")

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nTwo dice are tossed. What is the probability that the sum is greater than three?",
+        "inference": "1. Total possible outcomes when tossing two dice: 6 * 6 = 36\n2. Outcomes where the sum is less than or equal to three:\n   - (1,1)  Sum = 2\n   - (1,2)  Sum = 3\n   - (2,1)  Sum = 3\n   Total outcomes with sum \u2264 3 = 3\n3. Outcomes where the sum is greater than three: Total outcomes - Outcomes where the sum is \u22643 = 36 - 3 = 33\n4. Probability = (Favorable outcomes) / (Total possible outcomes) = 33/36\n5. Simplify the fraction: 33/36 = 11/12\nFinal Answer: $\\boxed{\\frac{11}{12}}$\n",
+        "ground_truth": "We compute the probability that the sum is three or less and subtract from 1. A sum of 2 or 3 can be obtained only with the following tosses: $(1,1), (2,1), (1,2)$. There are 36 total toss possibilities, so the probability of getting a sum of 2 or 3 is $\\frac{3}{36} = \\frac{1}{12}$. Therefore, the probability of getting a sum greater than 3 is $1-\\frac{1}{12} = \\boxed{\\frac{11}{12}}$."
+    },
+    {
+        "question": "1. Total possible outcomes when tossing two dice: 6 * 6 = 36\n2. Outcomes where the sum is less than or equal to three:\n   - (1,1)  Sum = 2\n   - (1,2)  Sum = 3\n   - (2,1)  Sum = 3\n   Total outcomes with sum \u2264 3 = 3\n3. Outcomes where the sum is greater than three: Total outcomes - Outcomes where the sum is \u22643 = 36 - 3 = 33\n4. Probability = (Favorable outcomes) / (Total possible outcomes) = 33/36\n5. Simplify the fraction: 33/36 = 11/12\nFinal Answer: $\\boxed{\\frac{11}{12}}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{\\frac{11}{12}}$\n",
+        "ground_truth": "We compute the probability that the sum is three or less and subtract from 1. A sum of 2 or 3 can be obtained only with the following tosses: $(1,1), (2,1), (1,2)$. There are 36 total toss possibilities, so the probability of getting a sum of 2 or 3 is $\\frac{3}{36} = \\frac{1}{12}$. Therefore, the probability of getting a sum greater than 3 is $1-\\frac{1}{12} = \\boxed{\\frac{11}{12}}$."
+    }
+]

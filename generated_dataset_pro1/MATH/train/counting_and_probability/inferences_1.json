@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nTom has a red marble, a green marble, a blue marble, and three identical yellow marbles. How many different groups of two marbles can Tom choose?",
+        "inference": "**Step 1:** Determine the number of ways to choose the first marble.\n\nThere are 5 marbles to choose from, so there are 5 options for the first marble.\n\n**Step 2:** Determine the number of ways to choose the second marble.\n\nAfter choosing the first marble, there are 4 marbles remaining. Therefore, there are 4 options for the second marble.\n\n**Step 3:** Calculate the total number of possible pairs.\n\nThe number of possible pairs is the product of the number of ways to choose the first marble and the number of ways to choose the second marble:\n\n5 \u00d7 4 = 20\n\n**Final Answer: \\\\boxed{$20$}. I hope it is correct.**",
+        "ground_truth": "There are two cases here: either Tom chooses two yellow marbles (1 result), or he chooses two marbles of different colors ($\\binom{4}{2}=6$ results). The total number of distinct pairs of marbles Tom can choose is $1+6=\\boxed{7}$."
+    },
+    {
+        "question": "**Step 1:** Determine the number of ways to choose the first marble.\n\nThere are 5 marbles to choose from, so there are 5 options for the first marble.\n\n**Step 2:** Determine the number of ways to choose the second marble.\n\nAfter choosing the first marble, there are 4 marbles remaining. Therefore, there are 4 options for the second marble.\n\n**Step 3:** Calculate the total number of possible pairs.\n\nThe number of possible pairs is the product of the number of ways to choose the first marble and the number of ways to choose the second marble:\n\n5 \u00d7 4 = 20\n\n**Final Answer: \\\\boxed{$20$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$10$}.",
+        "ground_truth": "There are two cases here: either Tom chooses two yellow marbles (1 result), or he chooses two marbles of different colors ($\\binom{4}{2}=6$ results). The total number of distinct pairs of marbles Tom can choose is $1+6=\\boxed{7}$."
+    }
+]

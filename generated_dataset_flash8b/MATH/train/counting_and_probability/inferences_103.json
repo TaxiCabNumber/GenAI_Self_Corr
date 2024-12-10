@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA bag has 3 red marbles and 5 white marbles.  Two marbles are drawn from the bag and not replaced.  What is the probability that the first marble is red and the second marble is white?",
+        "inference": "1. Probability of drawing a red marble first: There are 3 red marbles and a total of 8 marbles.  So the probability is 3/8.\n\n2. Probability of drawing a white marble second, given that the first marble was red: After drawing one red marble, there are 2 red marbles and 5 white marbles left, for a total of 7 marbles.  So the probability is 5/7.\n\n3. Multiply the probabilities: (3/8) * (5/7) = 15/56.\n\nFinal Answer: $\\boxed{\\frac{15}{56}}$. I hope it is correct.\n",
+        "ground_truth": "The probability that the first is red is $\\dfrac38$.  Now with 7 remaining, the probability that the second is white is $\\dfrac57$. The answer is $\\dfrac38 \\times \\dfrac57 = \\boxed{\\dfrac{15}{56}}$."
+    },
+    {
+        "question": "1. Probability of drawing a red marble first: There are 3 red marbles and a total of 8 marbles.  So the probability is 3/8.\n\n2. Probability of drawing a white marble second, given that the first marble was red: After drawing one red marble, there are 2 red marbles and 5 white marbles left, for a total of 7 marbles.  So the probability is 5/7.\n\n3. Multiply the probabilities: (3/8) * (5/7) = 15/56.\n\nFinal Answer: $\\boxed{\\frac{15}{56}}$. I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{\\frac{15}{56}}$\n",
+        "ground_truth": "The probability that the first is red is $\\dfrac38$.  Now with 7 remaining, the probability that the second is white is $\\dfrac57$. The answer is $\\dfrac38 \\times \\dfrac57 = \\boxed{\\dfrac{15}{56}}$."
+    }
+]

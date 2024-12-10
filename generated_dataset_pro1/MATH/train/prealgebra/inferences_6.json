@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf the lengths of two sides of a right triangle are 5 and 12 units, what is the least possible length, in units, of the third side? Express your answer in simplest radical form.",
+        "inference": "**Solution**:\nSince the given sides of the right triangle are 5 and 12 units, the hypotenuse must be greater than or equal to $\\sqrt{5^2+12^2}=\\sqrt{169}=13$ units.\nTherefore, the least possible length of the third side is $\\boxed{13}$.\n**Final Answer: \\\\boxed{$13$}. I hope it is correct.**",
+        "ground_truth": "The third side is either the hypotenuse of the right triangle or one of the legs.  It is shorter in the latter case, because the angle between the sides of length 5 and 12 is smaller.  By the Pythagorean theorem, the length of the missing leg is $\\sqrt{12^2-5^2}=\\boxed{\\sqrt{119}}$ units.  (Note: $\\sqrt{119}$ does not simplify since $119 = 7\\cdot 17$)."
+    },
+    {
+        "question": "**Solution**:\nSince the given sides of the right triangle are 5 and 12 units, the hypotenuse must be greater than or equal to $\\sqrt{5^2+12^2}=\\sqrt{169}=13$ units.\nTherefore, the least possible length of the third side is $\\boxed{13}$.\n**Final Answer: \\\\boxed{$13$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$13$}",
+        "ground_truth": "The third side is either the hypotenuse of the right triangle or one of the legs.  It is shorter in the latter case, because the angle between the sides of length 5 and 12 is smaller.  By the Pythagorean theorem, the length of the missing leg is $\\sqrt{12^2-5^2}=\\boxed{\\sqrt{119}}$ units.  (Note: $\\sqrt{119}$ does not simplify since $119 = 7\\cdot 17$)."
+    }
+]

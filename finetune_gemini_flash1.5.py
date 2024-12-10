@@ -4,7 +4,9 @@ import json
 import re
 from generate_data import generate_dataset
 from prompts import initial_prompt, self_correcting_prompt 
-
+from key import google_api_key 
+import csv
+import os
 
 '''
 The code uses the following outline generate a new dataset to train self correction 
@@ -25,22 +27,22 @@ Train the LLM using the REINFORCE algorithm to optimize self-correction behavior
 Validate the model's final inferences against actual answers to measure accuracy.
 
 '''
-dataset_path = "gsm8k.json"
-model_name = "gemini-1.5-flash"
+dataset_path = "./generated_dataset/MATH/train"
+model_name = "gemini-1.5-flash-8b"
 output_path = "gsm8k_processed"
 
 
 def main():
     # Define paths and model name
     dataset_path = "gsm8k.json"
-    model_name = "gemini-1.5-flash"
+    model_name = "gemini-1.5-flash-8b"
     output_path = "gsm8k_processed"
     
     ## TODO
     evaluation_data_path = "evaluation_data.json" 
 
     # Step 1: Generate Inference
-    generate_dataset(dataset_path, model_name, output_path, dataset_format="json")
+    # generate_dataset(dataset_path, model_name, output_path, dataset_format="json")
 
     # Load the generated dataset
     with open(output_path, "r") as file:
@@ -124,7 +126,7 @@ def MATH_evaluate_accuracy(model_name, evaluation_data):
 
     # \\boxed{2008}$.
     for item in evaluation_data:
-        response = model.generate_content(item["problem"]).text
+        response = model.generate_content(item["question"]).text
         # Extract the part of the response after "Answer" or "... Final Answer:"
         if "boxed:" in response:
             extracted_response = response.split("boxed{")[-1].strip()

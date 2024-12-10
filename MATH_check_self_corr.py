@@ -90,7 +90,11 @@ def plot_correctness_one_round(first_results, next_results, folder_path="./proce
 
     first_accuracy = sum(first_results) / len(first_results)
     second_accuracy = sum(flattened_next_results) / len(flattened_next_results)
-    print(f"First time accuracy: {first_accuracy} \nNext time accuracy: {second_accuracy} \nImprovement: {second_accuracy - first_accuracy}")
+    improvement = second_accuracy - first_accuracy
+    print(f"First time accuracy: {first_accuracy} \nNext time accuracy: {second_accuracy} \nImprovement: {improvement}")
+
+    # Find indices where first_results == 0 and next_results == 1
+    improvement_indices = [i for i, (first, next_) in enumerate(zip(first_results, next_results)) if first == 0 and 1 in next_]
 
     # Plotting
     plt.figure(figsize=(10, 6))
@@ -110,6 +114,18 @@ def plot_correctness_one_round(first_results, next_results, folder_path="./proce
     # Ensure the results directory exists
     results_dir = "results"
     os.makedirs(results_dir, exist_ok=True)
+    
+
+    txt_filename = os.path.basename(folder_path) + "_acc_sum.txt"
+    results_file = os.path.join(results_dir, txt_filename)
+    with open(results_file, "w") as file:
+        file.write(f"Folder Path: {folder_path}\n")
+        file.write(f"First Accuracy: {first_accuracy}\n")
+        file.write(f"Second Accuracy: {second_accuracy}\n")
+        file.write(f"Improvement: {improvement}\n")
+        file.write(f"Improvement Indices: {improvement_indices}\n")
+
+    print(f"Results saved to {results_file}")
 
     # Save plot to the results directory
     filename = os.path.basename(folder_path) + "_accuracy.png"
