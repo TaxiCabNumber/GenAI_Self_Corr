@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the equation whose graph is a parabola with vertex $(2,4)$, vertical axis of symmetry, and contains the point $(1,1)$. Express your answer in the form \"$ax^2+bx+c$\".",
+        "inference": "The equation of a parabola with a vertical axis of symmetry is $y=a(x-h)^2+k$, where $(h,k)$ is the vertex. Substituting the given vertex $(2,4)$, we get $y=a(x-2)^2+4$.\n\nTo find $a$, we can use the point $(1,1)$: $1=a(1-2)^2+4$. Solving for $a$, we get $a=-1$.\n\nTherefore, the equation of the parabola is $\\boxed{y=-(x-2)^2+4}$.\nFinal Answer: $\\boxed{y=-(x-2)^2+4}$. I hope it is correct.",
+        "ground_truth": "Since the axis of symmetry is vertical and the vertex is $(2,4)$, the parabola may also be written as  \\[y=a(x-2)^2+4\\] for some value of $a$.  Plugging the point $(1,1)$ into this expression gives  \\[1=a(1-2)^2+4=a+4.\\] This tells us $a=-3$.\n\nOur equation is  \\[y=-3(x-2)^2+4.\\] Putting it $y=ax^2+bx+c$ form requires expanding the square, so we get  \\[y=-3(x^2-4x+4)+4=\\boxed{-3x^2+12x-8}.\\]"
+    },
+    {
+        "question": "The equation of a parabola with a vertical axis of symmetry is $y=a(x-h)^2+k$, where $(h,k)$ is the vertex. Substituting the given vertex $(2,4)$, we get $y=a(x-2)^2+4$.\n\nTo find $a$, we can use the point $(1,1)$: $1=a(1-2)^2+4$. Solving for $a$, we get $a=-1$.\n\nTherefore, the equation of the parabola is $\\boxed{y=-(x-2)^2+4}$.\nFinal Answer: $\\boxed{y=-(x-2)^2+4}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$y=-(x-2)^2+4$}",
+        "ground_truth": "Since the axis of symmetry is vertical and the vertex is $(2,4)$, the parabola may also be written as  \\[y=a(x-2)^2+4\\] for some value of $a$.  Plugging the point $(1,1)$ into this expression gives  \\[1=a(1-2)^2+4=a+4.\\] This tells us $a=-3$.\n\nOur equation is  \\[y=-3(x-2)^2+4.\\] Putting it $y=ax^2+bx+c$ form requires expanding the square, so we get  \\[y=-3(x^2-4x+4)+4=\\boxed{-3x^2+12x-8}.\\]"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe caretaker of the docks needs to buy some new line. He wants 3 feet of line for every foot of dock. Right now, there is 200 feet of dock, and he has 6 feet of new line. How many feet of line does he need to buy in total?",
+        "inference": "1. Calculate the total line needed for the dock: 200 feet of dock * 3 feet of line/foot of dock = 600 feet of line.\n2. Calculate the remaining line needed: 600 feet of line - 6 feet of line = 594 feet of line.\n\nI hope it is correct: 594 $answer$\n",
+        "ground_truth": "200*3 = <<200*3=600>>600 feet of line.\nThe caretaker needs to buy 600-6 = <<600-6=594>>594 feet of line.\n#### 594"
+    },
+    {
+        "question": "1. Calculate the total line needed for the dock: 200 feet of dock * 3 feet of line/foot of dock = 600 feet of line.\n2. Calculate the remaining line needed: 600 feet of line - 6 feet of line = 594 feet of line.\n\nI hope it is correct: 594 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 594\n",
+        "ground_truth": "200*3 = <<200*3=600>>600 feet of line.\nThe caretaker needs to buy 600-6 = <<600-6=594>>594 feet of line.\n#### 594"
+    }
+]

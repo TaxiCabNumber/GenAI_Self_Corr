@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are some oranges in a basket. Ana spends 3 minutes peeling an orange and Jane spends 4 minutes doing the same. If Ana and Jane start picking oranges from this basket to peel at the same time, how many more oranges will Ana have peeled than Jane after an hour?",
+        "inference": "Ana peels an orange in 3 minutes.\nJane peels an orange in 4 minutes.\nIn an hour (60 minutes), Ana can peel 60/3 = 20 oranges.\nIn an hour (60 minutes), Jane can peel 60/4 = 15 oranges.\nThe difference in the number of oranges peeled is 20 - 15 = 5.\nI hope it is correct: 5 $oranges$\n",
+        "ground_truth": "There are 60 minutes in an hour. Ana peels an orange in 3 minutes so she will peel 60/3 = <<60/3=20>>20 oranges in an hour\nJane peels an orange in 4 minutes so she will peel 60/4 = <<60/4=15>>15 oranges in an hour\nAna will have peeled 20-15 = <<20-15=5>>5 more oranges\n#### 5"
+    },
+    {
+        "question": "Ana peels an orange in 3 minutes.\nJane peels an orange in 4 minutes.\nIn an hour (60 minutes), Ana can peel 60/3 = 20 oranges.\nIn an hour (60 minutes), Jane can peel 60/4 = 15 oranges.\nThe difference in the number of oranges peeled is 20 - 15 = 5.\nI hope it is correct: 5 $oranges$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "Ana peels an orange in 3 minutes.\nJane peels an orange in 4 minutes.\nIn 60 minutes, Ana can peel 60 minutes / 3 minutes/orange = 20 oranges.\nIn 60 minutes, Jane can peel 60 minutes / 4 minutes/orange = 15 oranges.\nThe difference in the number of oranges peeled is 20 - 15 = 5 oranges.\n\n#### $5$\n",
+        "ground_truth": "There are 60 minutes in an hour. Ana peels an orange in 3 minutes so she will peel 60/3 = <<60/3=20>>20 oranges in an hour\nJane peels an orange in 4 minutes so she will peel 60/4 = <<60/4=15>>15 oranges in an hour\nAna will have peeled 20-15 = <<20-15=5>>5 more oranges\n#### 5"
+    }
+]

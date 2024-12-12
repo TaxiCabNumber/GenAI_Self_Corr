@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJames is putting together 4 tables.  Each table has 4 legs and each leg needs 2 screws.  He has 40 screws.  How many screws will he have left over?",
+        "inference": "1. Tables: 4\n2. Legs per table: 4\n3. Total legs: 4 tables * 4 legs/table = 16 legs\n4. Screws per leg: 2\n5. Total screws needed: 16 legs * 2 screws/leg = 32 screws\n6. Screws left over: 40 screws - 32 screws = 8 screws\n\nI hope it is correct: 8 $answer$\n",
+        "ground_truth": "Each table will take 4*2=<<4*2=8>>8 screws\nSo he needs 8*4=<<8*4=32>>32 screws\nThat means he will have 40-32=<<40-32=8>>8 screws left over\n#### 8"
+    },
+    {
+        "question": "1. Tables: 4\n2. Legs per table: 4\n3. Total legs: 4 tables * 4 legs/table = 16 legs\n4. Screws per leg: 2\n5. Total screws needed: 16 legs * 2 screws/leg = 32 screws\n6. Screws left over: 40 screws - 32 screws = 8 screws\n\nI hope it is correct: 8 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 8\n",
+        "ground_truth": "Each table will take 4*2=<<4*2=8>>8 screws\nSo he needs 8*4=<<8*4=32>>32 screws\nThat means he will have 40-32=<<40-32=8>>8 screws left over\n#### 8"
+    }
+]

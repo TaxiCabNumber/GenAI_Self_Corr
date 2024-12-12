@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the ratio of $x$ to $y$ if: $\\frac{10x-3y}{13x-2y} = \\frac{3}{5}$? Express your answer as a common fraction.",
+        "inference": "$$\\frac{10x-3y}{13x-2y} = \\frac{3}{5}$$\n\nMultiply both sides by $65(13x-2y)$ to clear fractions:\n\n$$65(10x-3y) = 39(13x-2y)$$\n\nDistribute:\n\n$$650x-195y = 507x-78y$$\n\nSubtract $507x$ from both sides:\n\n$$143x - 195y = -78y$$\n\nAdd $78y$ to both sides:\n\n$$143x = -117y$$\n\nDivide both sides by $-117$:\n\n$$x = \\frac{-117y}{-117} = \\boxed{y}$$\n\nFinal Answer: $\\boxed{1}$. I hope it is correct.",
+        "ground_truth": "Multiply both sides of the given equation by both denominators to obtain \\begin{align*}\n5(10x-3y)&=3(13x-2y) \\implies \\\\\n50x-15y&=39x-6y.\n\\end{align*} Collect like terms by adding $15y$ and $-39x$ to both sides to obtain $11x=9y$. Finally, divide both sides by $11y$ to find that $\\dfrac{x}{y}=\\boxed{\\frac{9}{11}}$."
+    },
+    {
+        "question": "$$\\frac{10x-3y}{13x-2y} = \\frac{3}{5}$$\n\nMultiply both sides by $65(13x-2y)$ to clear fractions:\n\n$$65(10x-3y) = 39(13x-2y)$$\n\nDistribute:\n\n$$650x-195y = 507x-78y$$\n\nSubtract $507x$ from both sides:\n\n$$143x - 195y = -78y$$\n\nAdd $78y$ to both sides:\n\n$$143x = -117y$$\n\nDivide both sides by $-117$:\n\n$$x = \\frac{-117y}{-117} = \\boxed{y}$$\n\nFinal Answer: $\\boxed{1}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{1}$$",
+        "ground_truth": "Multiply both sides of the given equation by both denominators to obtain \\begin{align*}\n5(10x-3y)&=3(13x-2y) \\implies \\\\\n50x-15y&=39x-6y.\n\\end{align*} Collect like terms by adding $15y$ and $-39x$ to both sides to obtain $11x=9y$. Finally, divide both sides by $11y$ to find that $\\dfrac{x}{y}=\\boxed{\\frac{9}{11}}$."
+    }
+]

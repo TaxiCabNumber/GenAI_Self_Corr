@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe expression $12y^2-65y+42$ can be written as $(Ay-14)(By-3),$ where $A$ and $B$ are integers. What is $AB + A$?",
+        "inference": "$$12y^2-65y+42=\\qquad \\qquad (4y-14)(3y-3)$$\nThe terms we are interested in are the ones that sum to $-65y$ and multiply to $42$. By inspection, these terms are $-21y$ and $-44y$:\n$$12y^2-65y+42=\\qquad \\qquad (4y-14)(-5y-3)$$\nSo, $A=4, B=-5, AB+A=4\\cdot(-5)+4= \\boxed{-16}$.\nFinal Answer: \\boxed{-16}. I hope it is correct.",
+        "ground_truth": "We see that $12y^2-65y+42=(3y-14)(4y-3)$, thus $A = 3$ and $B = 4$. Hence, $AB + A = \\boxed{15}.$"
+    },
+    {
+        "question": "$$12y^2-65y+42=\\qquad \\qquad (4y-14)(3y-3)$$\nThe terms we are interested in are the ones that sum to $-65y$ and multiply to $42$. By inspection, these terms are $-21y$ and $-44y$:\n$$12y^2-65y+42=\\qquad \\qquad (4y-14)(-5y-3)$$\nSo, $A=4, B=-5, AB+A=4\\cdot(-5)+4= \\boxed{-16}$.\nFinal Answer: \\boxed{-16}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{-21}",
+        "ground_truth": "We see that $12y^2-65y+42=(3y-14)(4y-3)$, thus $A = 3$ and $B = 4$. Hence, $AB + A = \\boxed{15}.$"
+    }
+]

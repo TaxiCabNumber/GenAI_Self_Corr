@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA company produces chocolate in bars. In one day, it can produce 5000 bars. The company sells all the produced bars for $2 per bar. How much money will the company receive for selling produced chocolate bars during two weeks?",
+        "inference": "1. Two weeks have 14 days.\n2. In 14 days, the company produces 5000 bars/day * 14 days = 70000 bars.\n3. The selling price per bar is $2.\n4. Total money received = 70000 bars * $2/bar = $140000.\n\nI hope it is correct: $140000\n",
+        "ground_truth": "During two weeks the company can produce 14 * 5000 = <<14*5000=70000>>70000.\nIf the price of 1 bar is $2, the company will be able to make 70000 * 2 = $<<70000*2=140000>>140000 from the sales.\n#### 140000"
+    },
+    {
+        "question": "1. Two weeks have 14 days.\n2. In 14 days, the company produces 5000 bars/day * 14 days = 70000 bars.\n3. The selling price per bar is $2.\n4. Total money received = 70000 bars * $2/bar = $140000.\n\nI hope it is correct: $140000\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $140000\n",
+        "ground_truth": "During two weeks the company can produce 14 * 5000 = <<14*5000=70000>>70000.\nIf the price of 1 bar is $2, the company will be able to make 70000 * 2 = $<<70000*2=140000>>140000 from the sales.\n#### 140000"
+    }
+]

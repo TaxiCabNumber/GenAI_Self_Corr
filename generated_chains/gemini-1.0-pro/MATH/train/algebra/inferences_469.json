@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nExpand $(2t^2 -3t+2)(-3t^2 + t-5)$.",
+        "inference": "$(2t^2 -3t+2)(-3t^2 + t-5)$\n=$-6t^4 + 2t^3 -10t^2 + 9t^3 -3t^2 +15t -6t^2 +3t -10$\n=$-6t^4 + 11t^3 -19t^2 +18t -10$\nFinal Answer: $\\boxed{-6t^4 + 11t^3 -19t^2 +18t -10}$. I hope it is correct.",
+        "ground_truth": "We use the distributive property to find \\begin{align*}\n&(2t^2 -3t+2)(-3t^2 + t-5)\\\\\n&=2t^2(-3t^2 + t-5) -3t(-3t^2 + t-5) + 2(-3t^2 + t-5)\\\\\n&=(-6t^4 + 2t^3-10t^2) +(9t^3 - 3t^2+15t) + (-6t^2 + 2t-10)\\\\\n&=-6t^4 + (2+9)t^3 + (-10 -3 -6)t^2 + (15+2)t - 10\\\\\n&=\\boxed{-6t^4 +11t^3 -19t^2 +17t -10}.\n\\end{align*}"
+    },
+    {
+        "question": "$(2t^2 -3t+2)(-3t^2 + t-5)$\n=$-6t^4 + 2t^3 -10t^2 + 9t^3 -3t^2 +15t -6t^2 +3t -10$\n=$-6t^4 + 11t^3 -19t^2 +18t -10$\nFinal Answer: $\\boxed{-6t^4 + 11t^3 -19t^2 +18t -10}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{-6t^4 + 11t^3 -19t^2 +18t -10}$",
+        "ground_truth": "We use the distributive property to find \\begin{align*}\n&(2t^2 -3t+2)(-3t^2 + t-5)\\\\\n&=2t^2(-3t^2 + t-5) -3t(-3t^2 + t-5) + 2(-3t^2 + t-5)\\\\\n&=(-6t^4 + 2t^3-10t^2) +(9t^3 - 3t^2+15t) + (-6t^2 + 2t-10)\\\\\n&=-6t^4 + (2+9)t^3 + (-10 -3 -6)t^2 + (15+2)t - 10\\\\\n&=\\boxed{-6t^4 +11t^3 -19t^2 +17t -10}.\n\\end{align*}"
+    }
+]

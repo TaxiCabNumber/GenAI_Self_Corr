@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind all solutions to the equation $\\sqrt{5+2z} = 11$.",
+        "inference": "$$\\begin{split} \\sqrt{5+2z} &= 11 \\\\\\ 5+2z &= 121 \\\\\\ 2z &= 116 \\\\\\ z &= 58 \\\\\\  \\end{split}$$\n\nFinal Answer: $\\boxed{58}$. I hope it is correct.",
+        "ground_truth": "We square both sides to get rid of the square root sign.  This gives us $5+2z = 121$.  Solving for $z$ gives $z = \\boxed{58}$.  We squared an equation, so we have to test our solution to make sure it isn't extraneous.  We have\n\\[\\sqrt{5 +2 \\cdot 58} =\\sqrt{121} = 11\\]so our solution is valid."
+    },
+    {
+        "question": "$$\\begin{split} \\sqrt{5+2z} &= 11 \\\\\\ 5+2z &= 121 \\\\\\ 2z &= 116 \\\\\\ z &= 58 \\\\\\  \\end{split}$$\n\nFinal Answer: $\\boxed{58}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\begin{split} \\sqrt{5+2z} &= 11 \\\\\\ 5+2z &= 121 \\\\\\ 2z &= 116 \\\\\\ z &= \\boxed{58} \\\\\\  \\end{split}$$",
+        "ground_truth": "We square both sides to get rid of the square root sign.  This gives us $5+2z = 121$.  Solving for $z$ gives $z = \\boxed{58}$.  We squared an equation, so we have to test our solution to make sure it isn't extraneous.  We have\n\\[\\sqrt{5 +2 \\cdot 58} =\\sqrt{121} = 11\\]so our solution is valid."
+    }
+]

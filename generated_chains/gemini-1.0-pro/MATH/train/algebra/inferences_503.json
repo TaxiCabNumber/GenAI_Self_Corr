@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\n$361+2(19)(6)+36=x$. Solve for $x$.",
+        "inference": "$361+2(114)+36=x$\n$361+228+36=x$\n$625=x$\nFinal Answer: \\boxed{$625$}. I hope it is correct.",
+        "ground_truth": "We note that $361=19^2$ and $36=6^2$, so $x=19^2+2(19)(6)+6^2$. This is just the binomial expansion of $(19+6)^2=25^2=\\boxed{625}$."
+    },
+    {
+        "question": "$361+2(114)+36=x$\n$361+228+36=x$\n$625=x$\nFinal Answer: \\boxed{$625$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$625$}.",
+        "ground_truth": "We note that $361=19^2$ and $36=6^2$, so $x=19^2+2(19)(6)+6^2$. This is just the binomial expansion of $(19+6)^2=25^2=\\boxed{625}$."
+    }
+]

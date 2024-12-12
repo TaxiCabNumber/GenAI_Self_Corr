@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMark's car breaks down and he needs to get a new radiator.  The cost for a new radiator is $400 but he goes to get it at a junk shop and gets it for 80% off.  He then hires a mechanic to install it and it takes 3 hours at $50 an hour.  How much did he pay?",
+        "inference": "1. Discount on radiator: $400 * 0.80 = $320\n2. Mechanic cost: 3 hours * $50/hour = $150\n3. Total cost: $320 + $150 = $470\n\nI hope it is correct: $470\n",
+        "ground_truth": "The discount on the radiator was 400*.8=$<<400*.8=320>>320\nSo he paid 400-320=$<<400-320=80>>80\nThe mechanic charges 3*50=$<<3*50=150>>150\nSo in total he paid 80+150=$<<80+150=230>>230\n#### 230"
+    },
+    {
+        "question": "1. Discount on radiator: $400 * 0.80 = $320\n2. Mechanic cost: 3 hours * $50/hour = $150\n3. Total cost: $320 + $150 = $470\n\nI hope it is correct: $470\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $470\n",
+        "ground_truth": "The discount on the radiator was 400*.8=$<<400*.8=320>>320\nSo he paid 400-320=$<<400-320=80>>80\nThe mechanic charges 3*50=$<<3*50=150>>150\nSo in total he paid 80+150=$<<80+150=230>>230\n#### 230"
+    }
+]

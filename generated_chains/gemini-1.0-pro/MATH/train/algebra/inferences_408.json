@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf we express $2x^2 + 6x + 11$ in the form $a(x - h)^2 + k$, then what is $h$?",
+        "inference": "We can rewrite the given quadratic as follows:\n\n$$2x^2 + 6x + 11 = 2(x^2 + 3x) + 11$$\n\n$$= 2(x^2 + 3x + \\frac{9}{4} - \\frac{9}{4}) + 11$$\n\n$$=2(x + \\frac{3}{2})^2 - \\frac{9}{2} + 11$$\n\n$$=2(x + \\frac{3}{2})^2 + \\frac{13}{2}$$\n\n$$=2(x + \\frac{3}{2})^2 + 2(\\frac{13}{4})$$\n\n$$=2(x + \\frac{3}{2})^2 + 2(\\frac{13}{4} - \\frac{13}{4})**$$\n\n$$=2(x + \\frac{3}{2})^2 + 2(0)**$$\n\n$$=2(x + \\frac{3}{2})^2 + 0**$$\n\n$$=\\boxed{2(x + \\frac{3}{2})^2 + 0}.$$\n\nFinal Answer: $\\boxed{2(x + \\frac{3}{2})^2 + 0}.$ I hope it is correct.",
+        "ground_truth": "We complete the square.  First, we factor 2 out of the terms $2x^2 + 6x$ to get $2(x^2 + 3x)$.  We can square $x + 3/2$ to get $x^2 + 3x + 9/4$, so $h = \\boxed{-\\frac{3}{2}}$."
+    },
+    {
+        "question": "We can rewrite the given quadratic as follows:\n\n$$2x^2 + 6x + 11 = 2(x^2 + 3x) + 11$$\n\n$$= 2(x^2 + 3x + \\frac{9}{4} - \\frac{9}{4}) + 11$$\n\n$$=2(x + \\frac{3}{2})^2 - \\frac{9}{2} + 11$$\n\n$$=2(x + \\frac{3}{2})^2 + \\frac{13}{2}$$\n\n$$=2(x + \\frac{3}{2})^2 + 2(\\frac{13}{4})$$\n\n$$=2(x + \\frac{3}{2})^2 + 2(\\frac{13}{4} - \\frac{13}{4})**$$\n\n$$=2(x + \\frac{3}{2})^2 + 2(0)**$$\n\n$$=2(x + \\frac{3}{2})^2 + 0**$$\n\n$$=\\boxed{2(x + \\frac{3}{2})^2 + 0}.$$\n\nFinal Answer: $\\boxed{2(x + \\frac{3}{2})^2 + 0}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$2(x + \\frac{3}{2})^2$}",
+        "ground_truth": "We complete the square.  First, we factor 2 out of the terms $2x^2 + 6x$ to get $2(x^2 + 3x)$.  We can square $x + 3/2$ to get $x^2 + 3x + 9/4$, so $h = \\boxed{-\\frac{3}{2}}$."
+    }
+]

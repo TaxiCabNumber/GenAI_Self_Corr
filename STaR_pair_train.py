@@ -9,7 +9,8 @@ import matplotlib.pyplot as plt
 
 
 base_name = "models/gemini-1.5-flash-001-tuning"
-id = "math-train-002"
+tuned_name = "math-train"
+id = 1 # increment this number for each new model
 
 from key import google_api_key 
 genai.configure(api_key=google_api_key) # api_key = userdata.get('GOOGLE_API_KEY')
@@ -29,6 +30,9 @@ def extract_content_from_json(file_path):
 
 def process_directory(input_directory, output_directory):
     global initialize_model  # Add this line
+    global id
+    global tuned_name
+    global base_name 
     if not os.path.exists(output_directory):
         os.makedirs(output_directory)
 
@@ -45,27 +49,29 @@ def process_directory(input_directory, output_directory):
                         operation = genai.create_tuned_model(
                         display_name="Flash 1.5 8B MATH",
                         source_model=base_name,
-                        id=id,
+                        id=f"{tuned_name}-{id}",
                         epoch_count=5,
                         batch_size=2,
                         learning_rate=0.001,
                         training_data=extracted_data,
                         )
                         initialize_model = False # toggle to false
-
+                        print(f"generated {tuned_name}-{id}")
                         for status in operation.wait_bar():
                             time.sleep(10)
 
-                    else: # use your new model
+                    elif extracted_data: # use your new model
                         operation = genai.create_tuned_model(
                         display_name="Flash 1.5 8B MATH",
-                        source_model=f"tunedModels/{id}",
-                        id=id,
+                        source_model=f"tunedModels/{tuned_name}-{id}",
+                        id=f"{tuned_name}-{id+1}",
                         epoch_count=5,
                         batch_size=2,
                         learning_rate=0.001,
                         training_data=extracted_data,
                         )
+                        id = id + 1 # increment this
+                        print(f"generated {tuned_name}-{id}")
 
                         for status in operation.wait_bar():
                             time.sleep(10)

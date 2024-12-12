@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe operation $*$ is defined for non-zero integers as follows: $a * b = \\frac{1}{a} + \\frac{1}{b}$. If $a+b = 9$ and $ a \\times b = 20$, what is the value of $a*b$? Express your answer as a common fraction.",
+        "inference": "$$a + b = 9 \\implies b = 9 - a$$\n\n$$a * b = \\frac{1}{a} + \\frac{1}{b}$$ \n$$a * b = \\frac{1}{a} + \\frac{1}{9 - a}$$\n\n$$a \\times b = 20 \\implies a = 4 \\ or \\ a = 5$$\n\n**Case 1**: a = 4\n$$4 * b = \\frac{1}{4} + \\frac{1}{9 - 4} = \\frac{1}{4} + \\frac{1}{5} = \\frac{9}{20}$$\n\n**Case 2**: a = 5\n$$5 * b = \\frac{1}{5} + \\frac{1}{9 - 5} = \\frac{1}{5} + \\frac{1}{4} = \\frac{9}{20}$$\n\nHence, the value of $a*b$ is $\\frac{9}{20}$.\n\nFinal Answer: $\\boxed{\\frac{9}{20}}$. I hope it is correct.",
+        "ground_truth": "Note that $a * b = \\frac{1}{a} + \\frac{1}{b} = \\frac{a + b}{ab}$. We are given that $a + b = 9$ and $ab = 20$. If we substitute these values into $\\frac{a + b}{ab}$, we can see that $a * b = \\boxed{\\frac{9}{20}}$."
+    },
+    {
+        "question": "$$a + b = 9 \\implies b = 9 - a$$\n\n$$a * b = \\frac{1}{a} + \\frac{1}{b}$$ \n$$a * b = \\frac{1}{a} + \\frac{1}{9 - a}$$\n\n$$a \\times b = 20 \\implies a = 4 \\ or \\ a = 5$$\n\n**Case 1**: a = 4\n$$4 * b = \\frac{1}{4} + \\frac{1}{9 - 4} = \\frac{1}{4} + \\frac{1}{5} = \\frac{9}{20}$$\n\n**Case 2**: a = 5\n$$5 * b = \\frac{1}{5} + \\frac{1}{9 - 5} = \\frac{1}{5} + \\frac{1}{4} = \\frac{9}{20}$$\n\nHence, the value of $a*b$ is $\\frac{9}{20}$.\n\nFinal Answer: $\\boxed{\\frac{9}{20}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$\\frac{9}{20}$}.",
+        "ground_truth": "Note that $a * b = \\frac{1}{a} + \\frac{1}{b} = \\frac{a + b}{ab}$. We are given that $a + b = 9$ and $ab = 20$. If we substitute these values into $\\frac{a + b}{ab}$, we can see that $a * b = \\boxed{\\frac{9}{20}}$."
+    }
+]

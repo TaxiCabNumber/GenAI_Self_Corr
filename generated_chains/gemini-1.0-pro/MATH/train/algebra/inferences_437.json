@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSolve for $r$: $\\frac{r+9}{r-3} = \\frac{r-2}{r+5}$",
+        "inference": "$$\\frac{r+9}{r-3} = \\frac{r-2}{r+5}$$\n\n$$(r+9)(r+5) = (r-2)(r-3)$$\n\n$$r^2 + 5r + 9r + 45 = r^2 -3r -2r + 6$$\n\n$$13r+45 = -5r + 6$$\n\n$$13r+5r = 6-45$$\n\n$$18r = -39$$\n\n$$r = -39/18$$\n\n$$r = \\boxed{-7/3}$$\nFinal Answer: \\boxed{-7/3}. I hope it is correct.",
+        "ground_truth": "Cross-multiplying (which is the same as multiplying both sides by $r-3$ and by $r+5$) gives \\[(r+9)(r+5) = (r-2)(r-3).\\]Expanding the products on both sides gives  \\[r^2 + 9r + 5r + 45 = r^2 -2r - 3r + 6.\\]Simplifying both sides gives $r^2 + 14r + 45 = r^2 - 5r + 6$.  Simplifying this equation gives $19r = -39$, so $r = \\boxed{-\\frac{39}{19}}$."
+    },
+    {
+        "question": "$$\\frac{r+9}{r-3} = \\frac{r-2}{r+5}$$\n\n$$(r+9)(r+5) = (r-2)(r-3)$$\n\n$$r^2 + 5r + 9r + 45 = r^2 -3r -2r + 6$$\n\n$$13r+45 = -5r + 6$$\n\n$$13r+5r = 6-45$$\n\n$$18r = -39$$\n\n$$r = -39/18$$\n\n$$r = \\boxed{-7/3}$$\nFinal Answer: \\boxed{-7/3}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\frac{r+9}{r-3} = \\frac{r-2}{r+5}$$\n\n$$(r+9)(r+5) = (r-2)(r-3)$$\n\n$$r^2 + 5r + 9r + 45 = r^2 -3r -2r + 6$$\n\n$$r^2 + 14r+45 = r^2 -5r + 6$$\n\n$$14r+45 = -5r + 6$$\n\n$$14r+5r = 6-45$$\n\n$$19r = -39$$\n\n$$r = -39/19$$\n\n$$r = \\boxed{-3/2}$$\nFinal Answer: \\boxed{-3/2}.",
+        "ground_truth": "Cross-multiplying (which is the same as multiplying both sides by $r-3$ and by $r+5$) gives \\[(r+9)(r+5) = (r-2)(r-3).\\]Expanding the products on both sides gives  \\[r^2 + 9r + 5r + 45 = r^2 -2r - 3r + 6.\\]Simplifying both sides gives $r^2 + 14r + 45 = r^2 - 5r + 6$.  Simplifying this equation gives $19r = -39$, so $r = \\boxed{-\\frac{39}{19}}$."
+    }
+]

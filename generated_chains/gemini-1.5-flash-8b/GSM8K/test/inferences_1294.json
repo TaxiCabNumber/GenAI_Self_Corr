@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJake is shopping at a clothing store. The store has a buy one get one 50% off deal on T-shirts. Jake buys 2 T-shirts. The original price of each T-shirt is $8. Then, Jake buys a pair of shoes that is 40% off the original price. The original price of the shoes is $40. What is the total amount of money Jake spends at the store?",
+        "inference": "1. T-shirt cost: $8\n2. Buy one get one 50% off means the second t-shirt costs $8 * 0.50 = $4\n3. Total T-shirt cost: $8 + $4 = $12\n4. Shoes original price: $40\n5. Shoes discount: $40 * 0.40 = $16\n6. Shoes final price: $40 - $16 = $24\n7. Total spent: $12 + $24 = $36\n\nI hope it is correct: $36\n",
+        "ground_truth": "The cost of a T-shirt after 50% is taken off of the original price is $8 * 0.50 = $<<8*0.50=4>>4\nThe total cost of the T-shirts is $8 + $4 = $<<8+4=12>>12\nThe amount of money taken off from the original price of the shoes is $40 * 0.40 = $<<40*0.4=16>>16\nThe cost of the shoes after the sale is $40 - $16 = $<<40-16=24>>24\nThe total amount of money Jake spends at the store is $12 + $24 = $<<12+24=36>>36\n#### 36"
+    },
+    {
+        "question": "1. T-shirt cost: $8\n2. Buy one get one 50% off means the second t-shirt costs $8 * 0.50 = $4\n3. Total T-shirt cost: $8 + $4 = $12\n4. Shoes original price: $40\n5. Shoes discount: $40 * 0.40 = $16\n6. Shoes final price: $40 - $16 = $24\n7. Total spent: $12 + $24 = $36\n\nI hope it is correct: $36\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $36\n",
+        "ground_truth": "The cost of a T-shirt after 50% is taken off of the original price is $8 * 0.50 = $<<8*0.50=4>>4\nThe total cost of the T-shirts is $8 + $4 = $<<8+4=12>>12\nThe amount of money taken off from the original price of the shoes is $40 * 0.40 = $<<40*0.4=16>>16\nThe cost of the shoes after the sale is $40 - $16 = $<<40-16=24>>24\nThe total amount of money Jake spends at the store is $12 + $24 = $<<12+24=36>>36\n#### 36"
+    }
+]

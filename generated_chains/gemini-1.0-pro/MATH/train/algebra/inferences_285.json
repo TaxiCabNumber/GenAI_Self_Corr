@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the sum of the solutions of the equation $(3x+5)(2x-9) = 0$? Express your answer as a common fraction.",
+        "inference": "Since the equation is equal to zero, then either $(3x+5)=0$ or $(2x-9)=0$.\n\n1. $(3x+5)=0$ \n$$\\Rightarrow 3x=-5 \\Rightarrow x=-\\frac{5}{3}$$\n\n2. $(2x-9)=0$ \n$$\\Rightarrow 2x=9 \\Rightarrow x=\\frac{9}{2}$$\n\nTherefore, the sum of the solutions is\n\n$$\\boxed{-\\frac{5}{3} + \\frac{9}{2} = \\frac{-10}{6} + \\frac{27}{6} = \\frac{17}{6} }$$\n\nFinal Answer: \\boxed{${\\frac{17}{6}}$}. I hope it is correct.",
+        "ground_truth": "Expanding the left hand side of the given equation, we have $6x^2-17x-45=0$. Since for a quadratic with the equation $ax^2+bx+c=0$, the sum of the solutions is $-b/a$, the sum of the solutions of the given equation is $-\\frac{-17}{6}=\\boxed{\\frac{17}{6}}$.  (We also could have simply noted that the roots are $-5/3$ and $9/2$, and added these, but who likes adding fractions?)"
+    },
+    {
+        "question": "Since the equation is equal to zero, then either $(3x+5)=0$ or $(2x-9)=0$.\n\n1. $(3x+5)=0$ \n$$\\Rightarrow 3x=-5 \\Rightarrow x=-\\frac{5}{3}$$\n\n2. $(2x-9)=0$ \n$$\\Rightarrow 2x=9 \\Rightarrow x=\\frac{9}{2}$$\n\nTherefore, the sum of the solutions is\n\n$$\\boxed{-\\frac{5}{3} + \\frac{9}{2} = \\frac{-10}{6} + \\frac{27}{6} = \\frac{17}{6} }$$\n\nFinal Answer: \\boxed{${\\frac{17}{6}}$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$-\\frac{5}{3} + \\frac{9}{2} = \\frac{-10}{6} + \\frac{27}{6} = \\boxed{\\frac{17}{6} }$$",
+        "ground_truth": "Expanding the left hand side of the given equation, we have $6x^2-17x-45=0$. Since for a quadratic with the equation $ax^2+bx+c=0$, the sum of the solutions is $-b/a$, the sum of the solutions of the given equation is $-\\frac{-17}{6}=\\boxed{\\frac{17}{6}}$.  (We also could have simply noted that the roots are $-5/3$ and $9/2$, and added these, but who likes adding fractions?)"
+    }
+]

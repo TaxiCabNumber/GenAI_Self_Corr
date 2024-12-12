@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nGiven that $A = (\\sqrt{2008}+\\sqrt{2009}),$ $B = (-\\sqrt{2008}-\\sqrt{2009}),$ $C = (\\sqrt{2008}-\\sqrt{2009}),$ and $D = (\\sqrt{2009}-\\sqrt{2008}),$ find $ABCD.$",
+        "inference": "**Solution:**\n\n$$**Step 1**$$\n\n**Product of binomials with opposite first terms:**\n\n$$(A+B)(A-B)=(A^2)-(B^2)$$\n\nUsing this formula we have:\n\n$$ABCD=(A+B)(A+C)(A+D)(B+C)(B+D)(C+D)$$\n\n$$=(A^2-B^2)(A^2-C^2)(A^2-D^2)(B^2-C^2)(B^2-D^2)(C^2-D^2)$$\n\n$$=(4016-2008)(4016-2009)(4016-4016)$$\n\n$$=(2008)(2007)(0)$$\n\n$$**Final Answer: \\boxed{0}. I hope it is correct.**$$",
+        "ground_truth": "We can use difference of squares to see that  $$(\\sqrt{2009}+\\sqrt{2008})(\\sqrt{2009}-\\sqrt{2008})=2009-2008=1$$ Also,  $$(-\\sqrt{2009}+\\sqrt{2008})(-\\sqrt{2009}-\\sqrt{2008})=2009-2008=1$$ So the product is $\\boxed{1}$."
+    },
+    {
+        "question": "**Solution:**\n\n$$**Step 1**$$\n\n**Product of binomials with opposite first terms:**\n\n$$(A+B)(A-B)=(A^2)-(B^2)$$\n\nUsing this formula we have:\n\n$$ABCD=(A+B)(A+C)(A+D)(B+C)(B+D)(C+D)$$\n\n$$=(A^2-B^2)(A^2-C^2)(A^2-D^2)(B^2-C^2)(B^2-D^2)(C^2-D^2)$$\n\n$$=(4016-2008)(4016-2009)(4016-4016)$$\n\n$$=(2008)(2007)(0)$$\n\n$$**Final Answer: \\boxed{0}. I hope it is correct.**$$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{0}$$",
+        "ground_truth": "We can use difference of squares to see that  $$(\\sqrt{2009}+\\sqrt{2008})(\\sqrt{2009}-\\sqrt{2008})=2009-2008=1$$ Also,  $$(-\\sqrt{2009}+\\sqrt{2008})(-\\sqrt{2009}-\\sqrt{2008})=2009-2008=1$$ So the product is $\\boxed{1}$."
+    }
+]

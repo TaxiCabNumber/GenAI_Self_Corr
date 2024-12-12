@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the value of $x$ if $|x-1| = |x-2|$? Express your answer as a common fraction.",
+        "inference": "$$|x-1| = |x-2|$$\n$$x-1 = \\pm (x-2)$$\n$$x-1 = x-2 \\text{ or } x-1 = -(x-2)$$\n$$x-1 = x-2 \\text{ or } x-1 = -x+2$$\n$$x-x = -1+2 \\text{ or } x+x = 1+2$$\n$$0 = 1 \\text{ or }  2x = 3$$\n$$2x = 3$$\n$$x = \\frac{3}{2}$$\n$$\\text{Final Answer: }\\boxed{\\frac{3}{2}}.$$\n**I hope it is correct.**",
+        "ground_truth": "The equation implies that either \\[\nx-1 = x-2\\]or \\[ x-1 = -(x-2).\\]The first equation has no solution; the second equation has solution $x= \\boxed{\\frac{3}{2}}$."
+    },
+    {
+        "question": "$$|x-1| = |x-2|$$\n$$x-1 = \\pm (x-2)$$\n$$x-1 = x-2 \\text{ or } x-1 = -(x-2)$$\n$$x-1 = x-2 \\text{ or } x-1 = -x+2$$\n$$x-x = -1+2 \\text{ or } x+x = 1+2$$\n$$0 = 1 \\text{ or }  2x = 3$$\n$$2x = 3$$\n$$x = \\frac{3}{2}$$\n$$\\text{Final Answer: }\\boxed{\\frac{3}{2}}.$$\n**I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{x = \\frac{3}{2}}$$",
+        "ground_truth": "The equation implies that either \\[\nx-1 = x-2\\]or \\[ x-1 = -(x-2).\\]The first equation has no solution; the second equation has solution $x= \\boxed{\\frac{3}{2}}$."
+    }
+]

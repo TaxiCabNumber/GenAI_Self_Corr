@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJackie grew 3\" over the summer.  She is now 2\" shorter than Anne, who is twice the size of Albert.  If Albert is 36\" tall, how tall was Jackie before summer?",
+        "inference": "1. Anne's height: Albert's height * 2 = 36\" * 2 = 72\"\n\n2. Jackie's height: Anne's height - 2\" = 72\" - 2\" = 70\"\n\n3. Jackie's height before summer: Jackie's current height - 3\" = 70\" - 3\" = 67\"\n\nI hope it is correct: 67 $inches$\n",
+        "ground_truth": "Anne is twice the size of Albert, who is 36\", so Anne is 2*36 = <<72=72>>72\" tall\nAnne is 72\" tall and Jackie is 2\" shorter than Anne, so Jackie is 72-2 = <<72-2=70>>70\" tall\nJackie is currently 70\" tall and grew 3\" over summer, so before summer she was 70-3= <<70-3=67>>67\" tall\n#### 67"
+    },
+    {
+        "question": "1. Anne's height: Albert's height * 2 = 36\" * 2 = 72\"\n\n2. Jackie's height: Anne's height - 2\" = 72\" - 2\" = 70\"\n\n3. Jackie's height before summer: Jackie's current height - 3\" = 70\" - 3\" = 67\"\n\nI hope it is correct: 67 $inches$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 67 inches\n",
+        "ground_truth": "Anne is twice the size of Albert, who is 36\", so Anne is 2*36 = <<72=72>>72\" tall\nAnne is 72\" tall and Jackie is 2\" shorter than Anne, so Jackie is 72-2 = <<72-2=70>>70\" tall\nJackie is currently 70\" tall and grew 3\" over summer, so before summer she was 70-3= <<70-3=67>>67\" tall\n#### 67"
+    }
+]

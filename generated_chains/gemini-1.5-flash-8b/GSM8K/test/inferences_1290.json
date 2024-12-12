@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA small sunflower has 3 dozen seeds and a large sunflower has 50% more seeds than a small sunflower.  How many sunflower seeds are there altogether?",
+        "inference": "Small sunflower seeds: 3 dozen = 3 * 12 = 36 seeds\nLarge sunflower seeds: 36 * 1.5 = 54 seeds\nTotal seeds: 36 + 54 = 90 seeds\nI hope it is correct: 90 $answer$\n",
+        "ground_truth": "The small sunflower has 3 x 12 = <<3*12=36>>36 seeds.\nThe large sunflower has 36 x 50% = <<36*50*.01=18>>18 more seeds than the small sunflower.\nThe large sunflower has 36 + 18 = <<36+18=54>>54 seeds.\nTogether, the two sunflowers have a total of 36 + 54 = <<36+54=90>>90 seeds.\n#### 90"
+    },
+    {
+        "question": "Small sunflower seeds: 3 dozen = 3 * 12 = 36 seeds\nLarge sunflower seeds: 36 * 1.5 = 54 seeds\nTotal seeds: 36 + 54 = 90 seeds\nI hope it is correct: 90 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $90$\n",
+        "ground_truth": "The small sunflower has 3 x 12 = <<3*12=36>>36 seeds.\nThe large sunflower has 36 x 50% = <<36*50*.01=18>>18 more seeds than the small sunflower.\nThe large sunflower has 36 + 18 = <<36+18=54>>54 seeds.\nTogether, the two sunflowers have a total of 36 + 54 = <<36+54=90>>90 seeds.\n#### 90"
+    }
+]

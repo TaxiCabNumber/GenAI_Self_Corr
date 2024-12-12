@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the fraction that equals $0.\\overline{73}$.",
+        "inference": "$$0.\\overline{73}=0.737373...$$\n\n$$1000\\times0.\\overline{73}=737.373373...$$\n\n$$1000\\times0.\\overline{73}-0.\\overline{73}=737.373373...-0.737373...$$\n\n$$999\\times0.\\overline{73}=736.636$$\n\n$$0.\\overline{73}=\\frac{736.636}{999}=\\frac{736636}{999000}$$\n\n$$=\\frac{113856}{153000}$$\n\n$$=\\frac{37952}{51000}$$\n\n$$=\\frac{75904}{102000}$$\n\nFinal Answer: $\\boxed{\\frac{75904}{102000}}$ I hope it is correct.",
+        "ground_truth": "We have \\[0.\\overline{73} = \\frac{73}{100} + \\frac{73}{10000} + \\frac{73}{1000000} + \\cdots.\\]This infinite geometric series has first term $73/100$ and common ratio $1/100$, so we have \\[0.\\overline{73} = \\frac{73/100}{1-1/100} = \\boxed{\\frac{73}{99}}.\\]"
+    },
+    {
+        "question": "$$0.\\overline{73}=0.737373...$$\n\n$$1000\\times0.\\overline{73}=737.373373...$$\n\n$$1000\\times0.\\overline{73}-0.\\overline{73}=737.373373...-0.737373...$$\n\n$$999\\times0.\\overline{73}=736.636$$\n\n$$0.\\overline{73}=\\frac{736.636}{999}=\\frac{736636}{999000}$$\n\n$$=\\frac{113856}{153000}$$\n\n$$=\\frac{37952}{51000}$$\n\n$$=\\frac{75904}{102000}$$\n\nFinal Answer: $\\boxed{\\frac{75904}{102000}}$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{\\frac{75904}{102000}}$$",
+        "ground_truth": "We have \\[0.\\overline{73} = \\frac{73}{100} + \\frac{73}{10000} + \\frac{73}{1000000} + \\cdots.\\]This infinite geometric series has first term $73/100$ and common ratio $1/100$, so we have \\[0.\\overline{73} = \\frac{73/100}{1-1/100} = \\boxed{\\frac{73}{99}}.\\]"
+    }
+]

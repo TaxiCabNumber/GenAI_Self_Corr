@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJosh runs a car shop and services 3 cars a day.  He is open every day of the week except Sunday and Wednesday.  He gets paid $4 per car.  How much does he make in 2 weeks?",
+        "inference": "Josh is open 5 days a week (Monday-Friday).\nHe services 3 cars per day.\nHe gets paid $4 per car.\nSo per day, he earns 3 cars * $4/car = $12.\nIn a week, he earns $12/day * 5 days = $60.\nIn 2 weeks, he earns $60/week * 2 weeks = $120.\nI hope it is correct: $120\n",
+        "ground_truth": "He runs 7-2=<<7-2=5>>5 days a week\nThat means he serves 5*3=<<5*3=15>>15 cars a week\nSo he makes 15*4=$<<15*4=60>>60 a week\nSo he makes 60*2=$<<60*2=120>>120 in 2 weeks\n#### 120"
+    },
+    {
+        "question": "Josh is open 5 days a week (Monday-Friday).\nHe services 3 cars per day.\nHe gets paid $4 per car.\nSo per day, he earns 3 cars * $4/car = $12.\nIn a week, he earns $12/day * 5 days = $60.\nIn 2 weeks, he earns $60/week * 2 weeks = $120.\nI hope it is correct: $120\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $120\n",
+        "ground_truth": "He runs 7-2=<<7-2=5>>5 days a week\nThat means he serves 5*3=<<5*3=15>>15 cars a week\nSo he makes 15*4=$<<15*4=60>>60 a week\nSo he makes 60*2=$<<60*2=120>>120 in 2 weeks\n#### 120"
+    }
+]

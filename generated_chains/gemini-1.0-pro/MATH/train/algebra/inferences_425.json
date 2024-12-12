@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $f(x) = 3x^2 - 7$ and $g(f(4)) = 9$.  What is $g(f(-4))$?",
+        "inference": "$$g(f(4)) = 9 \\Rightarrow f(4) = 3$$\n\n$$f(x) = 3x^2 - 7 \\Rightarrow f(-4) = 3(-4)^2 - 7 = 3(16) - 7 = 48 - 7 = 41$$\n\n$$g(f(-4)) = g(41)$$\n\n**Final Answer: $\\boxed{g(41)}$**. I hope it is correct.",
+        "ground_truth": "We have $f(-4) = 3(-4)^2 -7 =41$, so we seek $g(f(-4)) = g(41)$.  But what's $g(41)$? So, we turn to the other information we are given, $g(f(4)) = 9$. Since $f(4) = 3(4)^2 - 7=41$, this equation gives us $g(41) = \\boxed{9}$."
+    },
+    {
+        "question": "$$g(f(4)) = 9 \\Rightarrow f(4) = 3$$\n\n$$f(x) = 3x^2 - 7 \\Rightarrow f(-4) = 3(-4)^2 - 7 = 3(16) - 7 = 48 - 7 = 41$$\n\n$$g(f(-4)) = g(41)$$\n\n**Final Answer: $\\boxed{g(41)}$**. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{g(41)}$$",
+        "ground_truth": "We have $f(-4) = 3(-4)^2 -7 =41$, so we seek $g(f(-4)) = g(41)$.  But what's $g(41)$? So, we turn to the other information we are given, $g(f(4)) = 9$. Since $f(4) = 3(4)^2 - 7=41$, this equation gives us $g(41) = \\boxed{9}$."
+    }
+]

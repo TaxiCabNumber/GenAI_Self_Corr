@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nFarmer Brown has 20 animals on his farm, all either chickens or cows. They have a total of 70 legs, all together. How many of the animals are chickens?",
+        "inference": "Let 'c' be the number of chickens and 'w' be the number of cows.\nWe know:\nc + w = 20  (Equation 1)\n2c + 4w = 70 (Equation 2)  (Chickens have 2 legs, cows have 4)\n\nFrom Equation 1, we can express w in terms of c:\nw = 20 - c\n\nSubstitute this into Equation 2:\n2c + 4(20 - c) = 70\n2c + 80 - 4c = 70\n-2c = -10\nc = 5\n\nNow, substitute c = 5 back into Equation 1 to find w:\n5 + w = 20\nw = 15\n\nTherefore, there are 5 chickens.\n\nI hope it is correct: 5 $chickens$\n",
+        "ground_truth": "Let C be the number of chickens.\nThere are 20-C cows.\nThe cows have 4*(20-C) legs.\nThe cows have 2C legs.\nThe total number of legs is 2C+4(20-C)=70.\n2C+80-4C=70\n2C=10\nC=<<5=5>>5\n#### 5"
+    },
+    {
+        "question": "Let 'c' be the number of chickens and 'w' be the number of cows.\nWe know:\nc + w = 20  (Equation 1)\n2c + 4w = 70 (Equation 2)  (Chickens have 2 legs, cows have 4)\n\nFrom Equation 1, we can express w in terms of c:\nw = 20 - c\n\nSubstitute this into Equation 2:\n2c + 4(20 - c) = 70\n2c + 80 - 4c = 70\n-2c = -10\nc = 5\n\nNow, substitute c = 5 back into Equation 1 to find w:\n5 + w = 20\nw = 15\n\nTherefore, there are 5 chickens.\n\nI hope it is correct: 5 $chickens$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 5 chickens\n",
+        "ground_truth": "Let C be the number of chickens.\nThere are 20-C cows.\nThe cows have 4*(20-C) legs.\nThe cows have 2C legs.\nThe total number of legs is 2C+4(20-C)=70.\n2C+80-4C=70\n2C=10\nC=<<5=5>>5\n#### 5"
+    }
+]

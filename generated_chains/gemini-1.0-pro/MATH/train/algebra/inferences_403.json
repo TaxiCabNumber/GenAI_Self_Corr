@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the positive difference between the $2000^{\\mathrm{th}}$ term and the $2005^{\\mathrm{th}}$ term of the arithmetic sequence $-8,$ $-2,$ $4,$ $10,$ $\\ldots$?",
+        "inference": "The common difference of the sequence is $d = 4 - (-2) = 10 - 4 = 6$. \n\nThe $2000^{\\mathrm{th}}$ term is $a_{2000} = -8 + (2000-1) \\times 6 = -8 + 11994 = 11986$.\n\nThe $2005^{\\mathrm{th}}$ term is $a_{2005} = -8 + (2005-1) \\times 6 = -8 + 11994 = 11986$.\n\nTherefore, the positive difference between the $2000^{\\mathrm{th}}$ and $2005^{\\mathrm{th}}$ terms is $a_{2005} - a_{2000} = 11986 - 11986 = \\boxed{0}$.\nFinal Answer: $\\boxed{0}$. I hope it is correct.",
+        "ground_truth": "The common difference in this arithmetic sequence is $-2 - (-8) = 6$.  The $2000^{\\text{th}}$ term is $a + 1999d$, and the $2005^{\\text{th}}$ term is $a + 2004d$, so the positive difference between these two term is $(a + 2004d) - (a + 1999d) = 5d = 5 \\cdot 6 = \\boxed{30}$."
+    },
+    {
+        "question": "The common difference of the sequence is $d = 4 - (-2) = 10 - 4 = 6$. \n\nThe $2000^{\\mathrm{th}}$ term is $a_{2000} = -8 + (2000-1) \\times 6 = -8 + 11994 = 11986$.\n\nThe $2005^{\\mathrm{th}}$ term is $a_{2005} = -8 + (2005-1) \\times 6 = -8 + 11994 = 11986$.\n\nTherefore, the positive difference between the $2000^{\\mathrm{th}}$ and $2005^{\\mathrm{th}}$ terms is $a_{2005} - a_{2000} = 11986 - 11986 = \\boxed{0}$.\nFinal Answer: $\\boxed{0}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$0$}",
+        "ground_truth": "The common difference in this arithmetic sequence is $-2 - (-8) = 6$.  The $2000^{\\text{th}}$ term is $a + 1999d$, and the $2005^{\\text{th}}$ term is $a + 2004d$, so the positive difference between these two term is $(a + 2004d) - (a + 1999d) = 5d = 5 \\cdot 6 = \\boxed{30}$."
+    }
+]
