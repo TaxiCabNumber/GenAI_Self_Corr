@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAbigail is trying a new recipe for a cold drink. It uses 1/4 of a cup of iced tea and 1 and 1/4 of a cup of lemonade to make one drink. If she fills a pitcher with 18 total cups of this drink, how many cups of lemonade are in the pitcher?",
+        "inference": "1 and 1/4 cups of lemonade = 5/4 cups of lemonade.\nFor every 1 drink, there are 5/4 cups of lemonade.\nThe total amount of lemonade in the pitcher is (5/4) * 18.\n(5/4) * 18 = (5 * 18) / 4 = 90 / 4 = 22.5.\nI hope it is correct: 22.5 $cups$\n",
+        "ground_truth": "Each drink uses 1.5 cups because 1/4 cup + 1 and 1/4 cup = <<1.5=1.5>>1.5 cups\nThe pitcher contains 12 total drinks because 18 / 1.5 = <<18/1.5=12>>12\nThere are 15 cups of lemonade in the pitcher because 12 x 1 and 1/4 = 15\n#### 15"
+    },
+    {
+        "question": "1 and 1/4 cups of lemonade = 5/4 cups of lemonade.\nFor every 1 drink, there are 5/4 cups of lemonade.\nThe total amount of lemonade in the pitcher is (5/4) * 18.\n(5/4) * 18 = (5 * 18) / 4 = 90 / 4 = 22.5.\nI hope it is correct: 22.5 $cups$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 22.5 cups\n",
+        "ground_truth": "Each drink uses 1.5 cups because 1/4 cup + 1 and 1/4 cup = <<1.5=1.5>>1.5 cups\nThe pitcher contains 12 total drinks because 18 / 1.5 = <<18/1.5=12>>12\nThere are 15 cups of lemonade in the pitcher because 12 x 1 and 1/4 = 15\n#### 15"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBert fills out the daily crossword puzzle in the newspaper every day. He uses up a pencil to fill out the puzzles every two weeks. On average, it takes him 1050 words to use up a pencil. How many words are in each crossword puzzle on average?",
+        "inference": "Two weeks = 14 days\nPencil used every 14 days.\nAverage words per pencil = 1050\nNumber of crossword puzzles per pencil = 14 days / 1 puzzle/day = 14 puzzles\nAverage words per crossword puzzle = 1050 words / 14 puzzles = 75 words/puzzle\n\nI hope it is correct: 75 $answer$\n",
+        "ground_truth": "At 7 days a week, it takes Bert 2 * 7 = <<2*7=14>>14 days of daily crossword puzzles to use up a pencil.\nSince Bert does one puzzle a day, each crossword puzzle has 1050 / 14 = <<1050/14=75>>75 words.\n#### 75"
+    },
+    {
+        "question": "Two weeks = 14 days\nPencil used every 14 days.\nAverage words per pencil = 1050\nNumber of crossword puzzles per pencil = 14 days / 1 puzzle/day = 14 puzzles\nAverage words per crossword puzzle = 1050 words / 14 puzzles = 75 words/puzzle\n\nI hope it is correct: 75 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 75\n",
+        "ground_truth": "At 7 days a week, it takes Bert 2 * 7 = <<2*7=14>>14 days of daily crossword puzzles to use up a pencil.\nSince Bert does one puzzle a day, each crossword puzzle has 1050 / 14 = <<1050/14=75>>75 words.\n#### 75"
+    }
+]

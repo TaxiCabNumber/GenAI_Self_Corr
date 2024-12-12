@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nHazel walked 2 kilometers in the first hour. If she walked twice as far in the second hour, how far did she walk for 2 hours?",
+        "inference": "Hazel walked 2 km in the first hour.\nIn the second hour, she walked twice as far, which is 2 * 2 = 4 km.\nTotal distance walked in 2 hours = 2 km + 4 km = 6 km.\nI hope it is correct: 6 $km$\n",
+        "ground_truth": "Hazel walked 2 x 2 = <<2*2=4>>4 kilometers in the second hour.\nSo, she walked 2 + 4 = <<2+4=6>>6 kilometers for 2 hours.\n#### 6"
+    },
+    {
+        "question": "Hazel walked 2 km in the first hour.\nIn the second hour, she walked twice as far, which is 2 * 2 = 4 km.\nTotal distance walked in 2 hours = 2 km + 4 km = 6 km.\nI hope it is correct: 6 $km$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 6 km\n",
+        "ground_truth": "Hazel walked 2 x 2 = <<2*2=4>>4 kilometers in the second hour.\nSo, she walked 2 + 4 = <<2+4=6>>6 kilometers for 2 hours.\n#### 6"
+    }
+]

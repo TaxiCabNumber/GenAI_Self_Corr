@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nOlivia earns $9 per hour.  She worked 4 hours on Monday, 3 hours on Wednesday and 6 hours on Friday.  How much money did Olivia make this week?",
+        "inference": "Monday earnings: $9/hour * 4 hours = $36\nWednesday earnings: $9/hour * 3 hours = $27\nFriday earnings: $9/hour * 6 hours = $54\nTotal earnings: $36 + $27 + $54 = $117\nI hope it is correct: $117\n",
+        "ground_truth": "Olivia made $9 * 4 hours = $<<9*4=36>>36 on Monday.\nOlivia made $9 * 3 = $<<9*3=27>>27 on Wednesday.\nOlivia made $9 * 6 hours = $<<9*6=54>>54 on Friday.\nFor the week Olivia made $36 + $27 + $54 = $<<36+27+54=117>>117.\n#### 117"
+    },
+    {
+        "question": "Monday earnings: $9/hour * 4 hours = $36\nWednesday earnings: $9/hour * 3 hours = $27\nFriday earnings: $9/hour * 6 hours = $54\nTotal earnings: $36 + $27 + $54 = $117\nI hope it is correct: $117\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $117\n",
+        "ground_truth": "Olivia made $9 * 4 hours = $<<9*4=36>>36 on Monday.\nOlivia made $9 * 3 = $<<9*3=27>>27 on Wednesday.\nOlivia made $9 * 6 hours = $<<9*6=54>>54 on Friday.\nFor the week Olivia made $36 + $27 + $54 = $<<36+27+54=117>>117.\n#### 117"
+    }
+]

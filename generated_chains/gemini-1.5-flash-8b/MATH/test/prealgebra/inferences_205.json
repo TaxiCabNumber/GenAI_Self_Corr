@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nKent won $25\\%$ of the games he played on Saturday. If he lost 12 games on Saturday, and no game ended in a tie, how many games did he win?",
+        "inference": "1. If Kent lost 12 games and no games ended in a tie, then the total number of games he played is the sum of the games he won and the games he lost.\n2. Let 'x' be the total number of games.  Then, x = games won + games lost.\n3. Kent lost 12 games, so x = games won + 12.\n4. Kent won 25% of the games.  This means games won = 0.25 * x.\n5. Substitute the expression for games won into the equation from step 3:\n   0.25x = x - 12\n6. Solve for x:\n   0.25x - x = -12\n   -0.75x = -12\n   x = -12 / -0.75\n   x = 16\n7. Now find the number of games won:\n   games won = 0.25 * x = 0.25 * 16 = 4\nFinal Answer: $\\boxed{4}$ I hope it is correct.\n",
+        "ground_truth": "If Kent won $25\\%$ of the games, he lost $75\\%$ of them.  Thus if $g$ is the total number of games he played,\n\n$$12=0.75(g)\\Rightarrow g=16$$\n\nSo the number of games he won was $16-12=\\boxed{4}$."
+    },
+    {
+        "question": "1. If Kent lost 12 games and no games ended in a tie, then the total number of games he played is the sum of the games he won and the games he lost.\n2. Let 'x' be the total number of games.  Then, x = games won + games lost.\n3. Kent lost 12 games, so x = games won + 12.\n4. Kent won 25% of the games.  This means games won = 0.25 * x.\n5. Substitute the expression for games won into the equation from step 3:\n   0.25x = x - 12\n6. Solve for x:\n   0.25x - x = -12\n   -0.75x = -12\n   x = -12 / -0.75\n   x = 16\n7. Now find the number of games won:\n   games won = 0.25 * x = 0.25 * 16 = 4\nFinal Answer: $\\boxed{4}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{16}$\n",
+        "ground_truth": "If Kent won $25\\%$ of the games, he lost $75\\%$ of them.  Thus if $g$ is the total number of games he played,\n\n$$12=0.75(g)\\Rightarrow g=16$$\n\nSo the number of games he won was $16-12=\\boxed{4}$."
+    }
+]

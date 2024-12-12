@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA luxury bag costs $3000. A reseller wants to get a 15% profit. How much should she sell the bag?",
+        "inference": "1. Calculate the profit amount: 15% of $3000 is (15/100) * $3000 = $450.\n2. Calculate the selling price: $3000 (original price) + $450 (profit) = $3450.\n\nI hope it is correct: $3450\n",
+        "ground_truth": "The reseller wants to get $3000 x 15/100 = $<<3000*15/100=450>>450 profit.\nThus, she needs to sell it for $3000 + $450 = $<<3000+450=3450>>3450.\n#### 3450"
+    },
+    {
+        "question": "1. Calculate the profit amount: 15% of $3000 is (15/100) * $3000 = $450.\n2. Calculate the selling price: $3000 (original price) + $450 (profit) = $3450.\n\nI hope it is correct: $3450\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $3450\n",
+        "ground_truth": "The reseller wants to get $3000 x 15/100 = $<<3000*15/100=450>>450 profit.\nThus, she needs to sell it for $3000 + $450 = $<<3000+450=3450>>3450.\n#### 3450"
+    }
+]

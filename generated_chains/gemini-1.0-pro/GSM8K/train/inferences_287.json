@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBran's tuition fee is $90. He does a part-time job that pays him $15 per month and he has a scholarship that takes care of 30% of his tuition fee. If he needs to pay his tuition fee within 3 months, how much does Bran still need to pay?",
+        "inference": "1. Calculate the amount of the scholarship: $90 x 30% = $27\n2. Subtract the scholarship amount from the total tuition fee: $90 - $27 = $63\n3. Determine the amount Bran earns in 3 months from the part-time job: $15 x 3 = $45\n4. Subtract the amount earned from the remaining tuition fee: $63 - $45 = $18\nI hope it is correct: $18$",
+        "ground_truth": "Bran's scholarship pays $90 x 0.30 = $<<90*0.30=27>>27 to his tuition fee.\nSo, the total amount he still needs to pay is $90 - $27 = $<<90-27=63>>63.\nAnd Bran will be able to earn $15 x 3 = $<<15*3=45>>45 after working for 3 months.\nTherefore, the total amount he still needs to pay is $63 - $45 = $<<63-45=18>>18.\n#### 18"
+    },
+    {
+        "question": "1. Calculate the amount of the scholarship: $90 x 30% = $27\n2. Subtract the scholarship amount from the total tuition fee: $90 - $27 = $63\n3. Determine the amount Bran earns in 3 months from the part-time job: $15 x 3 = $45\n4. Subtract the amount earned from the remaining tuition fee: $63 - $45 = $18\nI hope it is correct: $18$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$    $18$",
+        "ground_truth": "Bran's scholarship pays $90 x 0.30 = $<<90*0.30=27>>27 to his tuition fee.\nSo, the total amount he still needs to pay is $90 - $27 = $<<90-27=63>>63.\nAnd Bran will be able to earn $15 x 3 = $<<15*3=45>>45 after working for 3 months.\nTherefore, the total amount he still needs to pay is $63 - $45 = $<<63-45=18>>18.\n#### 18"
+    }
+]

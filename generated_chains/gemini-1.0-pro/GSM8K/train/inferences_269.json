@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn earned $18 on Saturday but he only managed to earn half that amount on Sunday. He earned $20 the previous weekend. How much more money does he need to earn to give him the $60 he needs to buy a new pogo stick?",
+        "inference": "1. John earned $18 on Saturday and half of that on Sunday, which is $18/2 = $9.\n2. He earned a total of $18 + $9 = $27 over the weekend.\n3. He earned $20 the previous weekend, so he has earned a total of $27 + $20 = $47 so far.\n4. He needs to earn $60 - $47 = $13 more to buy the pogo stick.\n\nI hope it is correct: $13$",
+        "ground_truth": "John earnt $18 / 2 = $<<18/2=9>>9 on Sunday.\nIn total, John made $18 + $9 + $20 = $<<18+9+20=47>>47 over the two weekends.\nJohn needs $60 - $47 = $<<60-47=13>>13 extra to buy the pogo stick.\n#### 13"
+    },
+    {
+        "question": "1. John earned $18 on Saturday and half of that on Sunday, which is $18/2 = $9.\n2. He earned a total of $18 + $9 = $27 over the weekend.\n3. He earned $20 the previous weekend, so he has earned a total of $27 + $20 = $47 so far.\n4. He needs to earn $60 - $47 = $13 more to buy the pogo stick.\n\nI hope it is correct: $13$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$13",
+        "ground_truth": "John earnt $18 / 2 = $<<18/2=9>>9 on Sunday.\nIn total, John made $18 + $9 + $20 = $<<18+9+20=47>>47 over the two weekends.\nJohn needs $60 - $47 = $<<60-47=13>>13 extra to buy the pogo stick.\n#### 13"
+    }
+]

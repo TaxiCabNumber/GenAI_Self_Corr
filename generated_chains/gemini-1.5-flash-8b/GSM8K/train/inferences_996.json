@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA club opens up and charges $20 to enter.  James buys 2 rounds for his 5 friends.  He also buys 6 drinks for himself. Drinks cost $6 each.  He decides to eat some food so he orders some fried chicken which costs $14.  He leaves a 30% tip on everything he orders.  How much did he spend for the night?",
+        "inference": "1. Entrance fee: $20\n2. Drinks cost: 6 drinks * $6/drink = $36\n3. Food cost: $14\n4. Total cost before tip: $20 + $36 + $14 = $70\n5. Tip amount: $70 * 0.30 = $21\n6. Total cost including tip: $70 + $21 = $91\n\nI hope it is correct: $91\n",
+        "ground_truth": "He buys 2*5=<<2*5=10>>10 drinks for his friends\nSo he orders 10+6=<<10+6=16>>16 total drinks.\nThe cost of the drinks was 16*6=$<<16*6=96>>96\nSo his order came out to 96+14=$<<96+14=110>>110\nThe tip came out to 110*.3=$<<110*.3=33>>33\nSo his order cost 110+33=$<<110+33=143>>143\nAdding in the cover charge means it cost 143+20=$<<143+20=163>>163\n#### 163"
+    },
+    {
+        "question": "1. Entrance fee: $20\n2. Drinks cost: 6 drinks * $6/drink = $36\n3. Food cost: $14\n4. Total cost before tip: $20 + $36 + $14 = $70\n5. Tip amount: $70 * 0.30 = $21\n6. Total cost including tip: $70 + $21 = $91\n\nI hope it is correct: $91\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $91\n",
+        "ground_truth": "He buys 2*5=<<2*5=10>>10 drinks for his friends\nSo he orders 10+6=<<10+6=16>>16 total drinks.\nThe cost of the drinks was 16*6=$<<16*6=96>>96\nSo his order came out to 96+14=$<<96+14=110>>110\nThe tip came out to 110*.3=$<<110*.3=33>>33\nSo his order cost 110+33=$<<110+33=143>>143\nAdding in the cover charge means it cost 143+20=$<<143+20=163>>163\n#### 163"
+    }
+]

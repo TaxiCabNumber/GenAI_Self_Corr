@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJames watched 2 episodes of Jeopardy and 2 episodes of Wheel of Fortune.  Jeopardy is 20 minutes and Wheel of Fortune is twice as long.  How many hours did he watch TV?",
+        "inference": "4 episodes x (20 mins + 40 mins) = 4 episodes x 60 mins = 240 mins = 4 hours\nI hope it is correct: 4 hours",
+        "ground_truth": "He watched 2*20=<<2*20=40>>40 minutes of Jeopardy.\nWheel of Fortune is 2*20=<<2*20=40>>40 minutes each.\nSo he watched it for 40*2=<<40*2=80>>80 minutes.\nSo he watched 40+80=<<40+80=120>>120 minutes of TV.\nThat means he watched 120/60=<<120/60=2>>2 hours of TV.\n#### 2"
+    },
+    {
+        "question": "4 episodes x (20 mins + 40 mins) = 4 episodes x 60 mins = 240 mins = 4 hours\nI hope it is correct: 4 hours\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 4 hours",
+        "ground_truth": "He watched 2*20=<<2*20=40>>40 minutes of Jeopardy.\nWheel of Fortune is 2*20=<<2*20=40>>40 minutes each.\nSo he watched it for 40*2=<<40*2=80>>80 minutes.\nSo he watched 40+80=<<40+80=120>>120 minutes of TV.\nThat means he watched 120/60=<<120/60=2>>2 hours of TV.\n#### 2"
+    }
+]

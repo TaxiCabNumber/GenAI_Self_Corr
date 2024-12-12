@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nOleg is an event organizer. He is organizing an event with 80 guests where 40 of them are men, half the number of men are women, and the rest are children. If he added 10 children to the guest list, how many children will there be at the event?",
+        "inference": "1. Men: 40\n2. Women: 40 / 2 = 20\n3. Children: 80 - 40 - 20 = 20\n4. Children + 10: 20 + 10 = 30\n\nI hope it is correct: 30 $children$\n",
+        "ground_truth": "There are 40/2= <<40/2=20>>20 women at the event.\nHence, there are a total of 40 + 20 = <<40+20=60>>60 men and women at the event.\nSo, the total number of children at the event is 80 - 60 = <<80-60=20>>20.\nAfter Oleg added 10 children to the guest list, there are a total of 20 + 10 = <<20+10=30>>30 children.\n#### 30"
+    },
+    {
+        "question": "1. Men: 40\n2. Women: 40 / 2 = 20\n3. Children: 80 - 40 - 20 = 20\n4. Children + 10: 20 + 10 = 30\n\nI hope it is correct: 30 $children$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 30\n",
+        "ground_truth": "There are 40/2= <<40/2=20>>20 women at the event.\nHence, there are a total of 40 + 20 = <<40+20=60>>60 men and women at the event.\nSo, the total number of children at the event is 80 - 60 = <<80-60=20>>20.\nAfter Oleg added 10 children to the guest list, there are a total of 20 + 10 = <<20+10=30>>30 children.\n#### 30"
+    }
+]

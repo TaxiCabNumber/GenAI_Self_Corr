@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJack is running a bake sale to help pay for his basketball team's uniforms. He's already sold 4 brownies for $3 each and 5 lemon squares for $2 each. If Jack's goal is to make $50 and he sells cookies for $4 each, how many cookies does he need to sell to reach his goal?",
+        "inference": "1. Brownies sold: 4 brownies * $3/brownie = $12\n2. Lemon squares sold: 5 lemon squares * $2/lemon square = $10\n3. Total money from brownies and lemon squares: $12 + $10 = $22\n4. Money needed to reach goal: $50 - $22 = $28\n5. Cookies needed to reach goal: $28 / $4/cookie = 7 cookies\n\nI hope it is correct: 7 cookies\n",
+        "ground_truth": "Jack earned from the brownies $3 per brownie * 4 brownies = $<<3*4=12>>12.\nJack earned from the lemon squares $2 per square * 5 squares = $<<2*5=10>>10.\nHe still needs to earn $50 - $12 - $10 = $<<50-12-10=28>>28.\nHe sells cookies for $4 each, so Jack still needs to sell $28 / $4 = <<28/4=7>>7 cookies.\n#### 7"
+    },
+    {
+        "question": "1. Brownies sold: 4 brownies * $3/brownie = $12\n2. Lemon squares sold: 5 lemon squares * $2/lemon square = $10\n3. Total money from brownies and lemon squares: $12 + $10 = $22\n4. Money needed to reach goal: $50 - $22 = $28\n5. Cookies needed to reach goal: $28 / $4/cookie = 7 cookies\n\nI hope it is correct: 7 cookies\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $7\n",
+        "ground_truth": "Jack earned from the brownies $3 per brownie * 4 brownies = $<<3*4=12>>12.\nJack earned from the lemon squares $2 per square * 5 squares = $<<2*5=10>>10.\nHe still needs to earn $50 - $12 - $10 = $<<50-12-10=28>>28.\nHe sells cookies for $4 each, so Jack still needs to sell $28 / $4 = <<28/4=7>>7 cookies.\n#### 7"
+    }
+]

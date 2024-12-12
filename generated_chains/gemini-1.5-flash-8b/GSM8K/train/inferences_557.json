@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAndy harvests all the tomatoes from 18 plants that have 7 tomatoes each. If he dries half the tomatoes and turns a third of the remainder into marinara sauce, how many tomatoes are left?",
+        "inference": "1. Total tomatoes: 18 plants * 7 tomatoes/plant = 126 tomatoes\n2. Dried tomatoes: 126 tomatoes / 2 = 63 tomatoes\n3. Remaining tomatoes after drying: 126 tomatoes - 63 tomatoes = 63 tomatoes\n4. Tomatoes for marinara sauce: 63 tomatoes * (1/3) = 21 tomatoes\n5. Tomatoes left: 63 tomatoes - 21 tomatoes = 42 tomatoes\n\nI hope it is correct: 42 $tomatoes$\n",
+        "ground_truth": "First find the total number of tomatoes harvested: 18 plants * 7 tomatoes/plant = <<18*7=126>>126 tomatoes\nThen divide that number by 2 to find how many tomatoes are left undried: 126 tomatoes / 2 = <<126/2=63>>63 tomatoes\nThen divide that number by 3 to find how many tomatoes are turned into sauce: 63 tomatoes / 3 = <<63/3=21>>21 tomatoes\nThen subtract that number from the number of undried tomatoes to find the remaining number of tomatoes: 63 tomatoes - 21 tomatoes = <<63-21=42>>42 tomatoes\n#### 42"
+    },
+    {
+        "question": "1. Total tomatoes: 18 plants * 7 tomatoes/plant = 126 tomatoes\n2. Dried tomatoes: 126 tomatoes / 2 = 63 tomatoes\n3. Remaining tomatoes after drying: 126 tomatoes - 63 tomatoes = 63 tomatoes\n4. Tomatoes for marinara sauce: 63 tomatoes * (1/3) = 21 tomatoes\n5. Tomatoes left: 63 tomatoes - 21 tomatoes = 42 tomatoes\n\nI hope it is correct: 42 $tomatoes$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 42 tomatoes\n",
+        "ground_truth": "First find the total number of tomatoes harvested: 18 plants * 7 tomatoes/plant = <<18*7=126>>126 tomatoes\nThen divide that number by 2 to find how many tomatoes are left undried: 126 tomatoes / 2 = <<126/2=63>>63 tomatoes\nThen divide that number by 3 to find how many tomatoes are turned into sauce: 63 tomatoes / 3 = <<63/3=21>>21 tomatoes\nThen subtract that number from the number of undried tomatoes to find the remaining number of tomatoes: 63 tomatoes - 21 tomatoes = <<63-21=42>>42 tomatoes\n#### 42"
+    }
+]

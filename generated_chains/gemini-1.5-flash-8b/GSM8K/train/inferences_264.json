@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAn Italian restaurant earns $600 every weekday and twice as much on the weekend. How much money does it earn by the end of the month?",
+        "inference": "Weekday earnings per day: $600\nWeekend earnings per day: $600 * 2 = $1200\nNumber of weekdays in a month: 5 (assuming a typical 30-day month)\nNumber of weekend days in a month: 2 (assuming a typical 30-day month)\nTotal weekday earnings: $600 * 5 = $3000\nTotal weekend earnings: $1200 * 2 = $2400\nTotal earnings for the month: $3000 + $2400 = $5400\nI hope it is correct: $5400\n",
+        "ground_truth": "On weekdays it earns $600/weekday * 5 weekdays = $<<600*5=3000>>3000\nDuring the weekend it earns twice as much each day so it makes ($600 * 2)/weekend day * 2 weekend days = $<<(600*2)*2=2400>>2400\nEvery week it earns $3000 + $2400 = $<<3000+2400=5400>>5400\nBy the end of the month, it earns $5400/week * 4 weeks = $21600\n#### 21600"
+    },
+    {
+        "question": "Weekday earnings per day: $600\nWeekend earnings per day: $600 * 2 = $1200\nNumber of weekdays in a month: 5 (assuming a typical 30-day month)\nNumber of weekend days in a month: 2 (assuming a typical 30-day month)\nTotal weekday earnings: $600 * 5 = $3000\nTotal weekend earnings: $1200 * 2 = $2400\nTotal earnings for the month: $3000 + $2400 = $5400\nI hope it is correct: $5400\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $5400\n",
+        "ground_truth": "On weekdays it earns $600/weekday * 5 weekdays = $<<600*5=3000>>3000\nDuring the weekend it earns twice as much each day so it makes ($600 * 2)/weekend day * 2 weekend days = $<<(600*2)*2=2400>>2400\nEvery week it earns $3000 + $2400 = $<<3000+2400=5400>>5400\nBy the end of the month, it earns $5400/week * 4 weeks = $21600\n#### 21600"
+    }
+]

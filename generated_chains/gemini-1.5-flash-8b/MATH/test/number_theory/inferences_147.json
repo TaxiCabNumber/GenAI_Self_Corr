@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhen 39,500 is divided by an integer $n$, the quotient is 123 and the remainder is 17. Find $n$.",
+        "inference": "Given that when 39,500 is divided by an integer $n$, the quotient is 123 and the remainder is 17, we can use the division algorithm.\nThe division algorithm states that if $a$ and $b$ are integers, with $b > 0$, then there exist unique integers $q$ and $r$ such that $a = bq + r$ and $0 \\le r < b$.\nIn this case, $a = 39500$, $q = 123$, and $r = 17$.\nWe have $39500 = 123n + 17$.\nWe want to find $n$, so we need to isolate $n$.\nSubtracting 17 from both sides, we get $39500 - 17 = 123n$.\n$39483 = 123n$.\nNow we divide both sides by 123 to solve for $n$:\n$n = \\frac{39483}{123}$.\n$n = 321$.\n\nFinal Answer: $\\boxed{321}$ I hope it is correct.\n",
+        "ground_truth": "Turning our sentence into math we have \\[39500=123n+17\\]and we want to solve for $n$.  That gives  \\[n=\\frac{39500-17}{123}=\\frac{39483}{123}=\\boxed{321}.\\]"
+    },
+    {
+        "question": "Given that when 39,500 is divided by an integer $n$, the quotient is 123 and the remainder is 17, we can use the division algorithm.\nThe division algorithm states that if $a$ and $b$ are integers, with $b > 0$, then there exist unique integers $q$ and $r$ such that $a = bq + r$ and $0 \\le r < b$.\nIn this case, $a = 39500$, $q = 123$, and $r = 17$.\nWe have $39500 = 123n + 17$.\nWe want to find $n$, so we need to isolate $n$.\nSubtracting 17 from both sides, we get $39500 - 17 = 123n$.\n$39483 = 123n$.\nNow we divide both sides by 123 to solve for $n$:\n$n = \\frac{39483}{123}$.\n$n = 321$.\n\nFinal Answer: $\\boxed{321}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$39500 = 123n + 17$\n$39483 = 123n$\n$n = \\frac{39483}{123} = 321$\n\nFinal Answer: $\\boxed{321}$",
+        "ground_truth": "Turning our sentence into math we have \\[39500=123n+17\\]and we want to solve for $n$.  That gives  \\[n=\\frac{39500-17}{123}=\\frac{39483}{123}=\\boxed{321}.\\]"
+    }
+]

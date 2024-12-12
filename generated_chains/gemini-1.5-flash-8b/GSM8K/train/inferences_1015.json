@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nOranges have 80 calories and cost $1.20 each. If Timmy has $10 and needs to make sure he gets 400 calories, how much money will he have left after he buys the oranges he needs?",
+        "inference": "Calories per orange: 80\nTotal calories needed: 400\nNumber of oranges needed: 400 calories / 80 calories/orange = 5 oranges\nCost per orange: $1.20\nTotal cost of oranges: 5 oranges * $1.20/orange = $6.00\nMoney Timmy has: $10\nMoney left: $10 - $6.00 = $4.00\n\nI hope it is correct: $4.00\n",
+        "ground_truth": "He needs to buy 5 oranges because 400 / 80 = <<400/80=5>>5\nThese will cost $6 because 5 x 1.2 = <<5*1.2=6>>6\nHe will have $4 left because 10 - 6 = <<10-6=4>>4\n#### 4"
+    },
+    {
+        "question": "Calories per orange: 80\nTotal calories needed: 400\nNumber of oranges needed: 400 calories / 80 calories/orange = 5 oranges\nCost per orange: $1.20\nTotal cost of oranges: 5 oranges * $1.20/orange = $6.00\nMoney Timmy has: $10\nMoney left: $10 - $6.00 = $4.00\n\nI hope it is correct: $4.00\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $4.00\n",
+        "ground_truth": "He needs to buy 5 oranges because 400 / 80 = <<400/80=5>>5\nThese will cost $6 because 5 x 1.2 = <<5*1.2=6>>6\nHe will have $4 left because 10 - 6 = <<10-6=4>>4\n#### 4"
+    }
+]

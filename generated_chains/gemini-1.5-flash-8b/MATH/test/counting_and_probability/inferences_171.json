@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nHow many possible distinct 5 card hands can be dealt from a standard 52 card deck? The order in which the cards are dealt doesn't matter.",
+        "inference": "We need to find the number of ways to choose 5 cards from a standard 52-card deck without regard to the order in which they are dealt. This is a combination problem.\nThe number of ways to choose 5 cards from 52 cards is given by the combination formula:\n$$ \\binom{n}{k} = \\frac{n!}{k!(n-k)!} $$\nIn this case, n = 52 and k = 5.\n$$ \\binom{52}{5} = \\frac{52!}{5!(52-5)!} = \\frac{52!}{5!47!} = \\frac{52 \\times 51 \\times 50 \\times 49 \\times 48}{5 \\times 4 \\times 3 \\times 2 \\times 1} $$\n$$ \\binom{52}{5} = \\frac{52 \\times 51 \\times 50 \\times 49 \\times 48}{120} = \\frac{311,875,200}{120} = 2,598,960 $$\nFinal Answer: $\\boxed{2,598,960}$ I hope it is correct.\n",
+        "ground_truth": "We're selecting 5 cards out of 52 total which is represented by ${{52}\\choose{5}}=\\boxed{2,\\!598,\\!960}$"
+    },
+    {
+        "question": "We need to find the number of ways to choose 5 cards from a standard 52-card deck without regard to the order in which they are dealt. This is a combination problem.\nThe number of ways to choose 5 cards from 52 cards is given by the combination formula:\n$$ \\binom{n}{k} = \\frac{n!}{k!(n-k)!} $$\nIn this case, n = 52 and k = 5.\n$$ \\binom{52}{5} = \\frac{52!}{5!(52-5)!} = \\frac{52!}{5!47!} = \\frac{52 \\times 51 \\times 50 \\times 49 \\times 48}{5 \\times 4 \\times 3 \\times 2 \\times 1} $$\n$$ \\binom{52}{5} = \\frac{52 \\times 51 \\times 50 \\times 49 \\times 48}{120} = \\frac{311,875,200}{120} = 2,598,960 $$\nFinal Answer: $\\boxed{2,598,960}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{2,598,960}$\n",
+        "ground_truth": "We're selecting 5 cards out of 52 total which is represented by ${{52}\\choose{5}}=\\boxed{2,\\!598,\\!960}$"
+    }
+]

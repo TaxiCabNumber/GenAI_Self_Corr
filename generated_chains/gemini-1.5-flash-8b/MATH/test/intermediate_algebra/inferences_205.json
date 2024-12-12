@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $f(x) = x^7 + ax^3 + cx$  If $f(5) = 3,$ then find $f(-5).$",
+        "inference": "$f(x) = x^7 + ax^3 + cx$\n$f(5) = 5^7 + a(5^3) + c(5) = 3$\n$f(-5) = (-5)^7 + a(-5)^3 + c(-5)$\n$f(-5) = -5^7 + a(-5)^3 - 5c$\n$f(-5) = -5^7 - 5^3a - 5c$\nSince $f(5) = 5^7 + 5^3a + 5c = 3$\n$f(-5) = -(5^7 + 5^3a + 5c) = -3$\nFinal Answer: $\\boxed{-3}$ I hope it is correct.\n",
+        "ground_truth": "$f$ is an odd function, hence $f(x) = -f(-x)$. So $f(5) = -f(-5)$, which means $f(-5) = -f(5) = \\boxed{-3}.$"
+    },
+    {
+        "question": "$f(x) = x^7 + ax^3 + cx$\n$f(5) = 5^7 + a(5^3) + c(5) = 3$\n$f(-5) = (-5)^7 + a(-5)^3 + c(-5)$\n$f(-5) = -5^7 + a(-5)^3 - 5c$\n$f(-5) = -5^7 - 5^3a - 5c$\nSince $f(5) = 5^7 + 5^3a + 5c = 3$\n$f(-5) = -(5^7 + 5^3a + 5c) = -3$\nFinal Answer: $\\boxed{-3}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Given $f(x) = x^7 + ax^3 + cx$, and $f(5) = 3$. We want to find $f(-5)$.\n\n$f(5) = 5^7 + a(5^3) + c(5) = 3$\n$f(-5) = (-5)^7 + a(-5)^3 + c(-5) = -5^7 - 5^3a - 5c = -(5^7 + a(5^3) + c(5)) = -f(5) = -3$.\n\nThus, $f(-5) = -3$.\n\n$\\boxed{-3}$\n",
+        "ground_truth": "$f$ is an odd function, hence $f(x) = -f(-x)$. So $f(5) = -f(-5)$, which means $f(-5) = -f(5) = \\boxed{-3}.$"
+    }
+]

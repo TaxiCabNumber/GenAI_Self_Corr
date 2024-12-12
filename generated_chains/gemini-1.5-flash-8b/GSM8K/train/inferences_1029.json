@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nFarmer Red has three milk cows: Bess, Brownie, and Daisy. Bess, the smallest cow, gives him two pails of milk every day. Brownie, the largest cow, produces three times that amount. Then Daisy makes one pail more than Bess. How many pails of milk does Farmer Red get from them each week?",
+        "inference": "1. Bess gives 2 pails/day.\n2. Brownie gives 2 pails/day * 3 = 6 pails/day.\n3. Daisy gives 2 pails/day + 1 pail/day = 3 pails/day.\n4. Total pails/day = 2 + 6 + 3 = 11 pails/day.\n5. Total pails/week = 11 pails/day * 7 days/week = 77 pails/week.\n\nI hope it is correct: 77 $pails$\n",
+        "ground_truth": "Bess produces 2 pails every day.\nBrownie produces 3 times as much * 2 = <<3*2=6>>6 pails every day.\nDaisy produces 2 + 1 more pail than Bess = <<2+1=3>>3 pails every day.\nBess, Brownie, and Daisy together produce 2 + 6 + 3 = <<2+6+3=11>>11 pails every day.\nA week is 7 days, so Farmer Red gets 11 * 7 = <<11*7=77>>77 pails each week.\n#### 77"
+    },
+    {
+        "question": "1. Bess gives 2 pails/day.\n2. Brownie gives 2 pails/day * 3 = 6 pails/day.\n3. Daisy gives 2 pails/day + 1 pail/day = 3 pails/day.\n4. Total pails/day = 2 + 6 + 3 = 11 pails/day.\n5. Total pails/week = 11 pails/day * 7 days/week = 77 pails/week.\n\nI hope it is correct: 77 $pails$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 77\n",
+        "ground_truth": "Bess produces 2 pails every day.\nBrownie produces 3 times as much * 2 = <<3*2=6>>6 pails every day.\nDaisy produces 2 + 1 more pail than Bess = <<2+1=3>>3 pails every day.\nBess, Brownie, and Daisy together produce 2 + 6 + 3 = <<2+6+3=11>>11 pails every day.\nA week is 7 days, so Farmer Red gets 11 * 7 = <<11*7=77>>77 pails each week.\n#### 77"
+    }
+]

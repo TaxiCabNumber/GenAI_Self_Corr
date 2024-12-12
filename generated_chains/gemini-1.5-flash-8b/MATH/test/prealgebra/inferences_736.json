@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA woman 5-feet tall casts an 8-foot shadow. At the same time of day, the shadow of a tree nearby is 120 feet long. In feet, how tall is the tree?",
+        "inference": "The woman and her shadow form a right triangle.  The ratio of height to shadow length is constant for similar triangles.  Therefore, height/shadow length = 5/8.\n\nLet the height of the tree be 'x'.\nThe ratio of the tree's height to its shadow length is also 5/8.\nSo x/120 = 5/8\n\nx = (5/8) * 120\nx = 75\n\nFinal Answer: $\\boxed{75}$ I hope it is correct.\n",
+        "ground_truth": "The ratio of the height of an object to the length of its shadow is a constant at a given time of day.  Therefore,  \\[\n\\frac{5}{8}=\\frac{h}{120},\n\\]where $h$ is the height of the tree. Since $8\\times15=120$, $h=5\\times15=\\boxed{75}$ feet."
+    },
+    {
+        "question": "The woman and her shadow form a right triangle.  The ratio of height to shadow length is constant for similar triangles.  Therefore, height/shadow length = 5/8.\n\nLet the height of the tree be 'x'.\nThe ratio of the tree's height to its shadow length is also 5/8.\nSo x/120 = 5/8\n\nx = (5/8) * 120\nx = 75\n\nFinal Answer: $\\boxed{75}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The ratio of the woman's height to her shadow length is 5/8.  The tree's shadow is 120 feet long.  The ratio of the tree's height to its shadow is also 5/8.  Let the tree's height be x.  Then x/120 = 5/8.  Solving for x, x = (5/8) * 120 = 75.\n\n$\\boxed{75}$\n",
+        "ground_truth": "The ratio of the height of an object to the length of its shadow is a constant at a given time of day.  Therefore,  \\[\n\\frac{5}{8}=\\frac{h}{120},\n\\]where $h$ is the height of the tree. Since $8\\times15=120$, $h=5\\times15=\\boxed{75}$ feet."
+    }
+]

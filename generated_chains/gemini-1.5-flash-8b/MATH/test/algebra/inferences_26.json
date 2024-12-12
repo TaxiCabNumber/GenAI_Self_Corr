@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $(2x+5)(x-3)=14$, find the sum of the possible values of $x$.",
+        "inference": "Expanding the left side gives\n$$2x^2 - 6x + 5x - 15 = 14$$\n$$2x^2 - x - 15 = 14$$\n$$2x^2 - x - 29 = 0$$\nUsing the quadratic formula,\n$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} = \\frac{-(-1) \\pm \\sqrt{(-1)^2 - 4(2)(-29)}}{2(2)}$$\n$$x = \\frac{1 \\pm \\sqrt{1 + 232}}{4} = \\frac{1 \\pm \\sqrt{233}}{4}$$\nThe two possible values of $x$ are $\\frac{1 + \\sqrt{233}}{4}$ and $\\frac{1 - \\sqrt{233}}{4}$.\nThe sum of the possible values of $x$ is\n$$ \\frac{1+\\sqrt{233}}{4} + \\frac{1-\\sqrt{233}}{4} = \\frac{1+\\sqrt{233}+1-\\sqrt{233}}{4} = \\frac{2}{4} = \\frac{1}{2} $$\nFinal Answer: $\\boxed{\\frac{1}{2}}$\n",
+        "ground_truth": "Expanding the left side of the given equation, we have $2x^2-x-15=14 \\Rightarrow 2x^2-x-29=0$. Since in a quadratic with equation of the form $ax^2+bx+c=0$ the sum of the roots is $-b/a$, the sum of the roots of the given equation is $1/2=\\boxed{.5}$."
+    },
+    {
+        "question": "Expanding the left side gives\n$$2x^2 - 6x + 5x - 15 = 14$$\n$$2x^2 - x - 15 = 14$$\n$$2x^2 - x - 29 = 0$$\nUsing the quadratic formula,\n$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} = \\frac{-(-1) \\pm \\sqrt{(-1)^2 - 4(2)(-29)}}{2(2)}$$\n$$x = \\frac{1 \\pm \\sqrt{1 + 232}}{4} = \\frac{1 \\pm \\sqrt{233}}{4}$$\nThe two possible values of $x$ are $\\frac{1 + \\sqrt{233}}{4}$ and $\\frac{1 - \\sqrt{233}}{4}$.\nThe sum of the possible values of $x$ is\n$$ \\frac{1+\\sqrt{233}}{4} + \\frac{1-\\sqrt{233}}{4} = \\frac{1+\\sqrt{233}+1-\\sqrt{233}}{4} = \\frac{2}{4} = \\frac{1}{2} $$\nFinal Answer: $\\boxed{\\frac{1}{2}}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct.\n\n$\\boxed{\\frac{1}{2}}$\n",
+        "ground_truth": "Expanding the left side of the given equation, we have $2x^2-x-15=14 \\Rightarrow 2x^2-x-29=0$. Since in a quadratic with equation of the form $ax^2+bx+c=0$ the sum of the roots is $-b/a$, the sum of the roots of the given equation is $1/2=\\boxed{.5}$."
+    }
+]

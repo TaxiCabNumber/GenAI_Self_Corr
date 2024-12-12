@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAdam goes to a small school, which teaches 80 students in three classes. 40% of the students are in class A, and class B has 21 students fewer than class A. The rest are in class C. How many students are in this class?",
+        "inference": "1. Students in class A: 80 * 0.40 = 32 students\n2. Students in class B: 32 - 21 = 11 students\n3. Students in class C: 80 - 32 - 11 = 37 students\n\nI hope it is correct: 37 $students$\n",
+        "ground_truth": "In class A, there are 40/100 * 80 = <<40/100*80=32>>32 students.\nIn class B, the number of students is less by 21, which means class B has 32 - 21 = <<32-21=11>>11 students.\nThat means 80 - 32 - 11 = <<80-32-11=37>>37 students are in class C.\n#### 37"
+    },
+    {
+        "question": "1. Students in class A: 80 * 0.40 = 32 students\n2. Students in class B: 32 - 21 = 11 students\n3. Students in class C: 80 - 32 - 11 = 37 students\n\nI hope it is correct: 37 $students$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 37 students\n",
+        "ground_truth": "In class A, there are 40/100 * 80 = <<40/100*80=32>>32 students.\nIn class B, the number of students is less by 21, which means class B has 32 - 21 = <<32-21=11>>11 students.\nThat means 80 - 32 - 11 = <<80-32-11=37>>37 students are in class C.\n#### 37"
+    }
+]

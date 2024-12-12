@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe half-hour newscast includes 12 minutes of national news, 5 minutes of international news, 5 minutes of sports, and 2 minutes of weather forecasts. The rest is advertisements. How many minutes of advertising are in the newscast?",
+        "inference": "1. Total newscast time = 30 minutes\n2. Total news time = 12 + 5 + 5 = 22 minutes\n3. Advertisement time = 30 - 22 = 8 minutes\n\nI hope it is correct: 8 $minutes$\n",
+        "ground_truth": "12+5+5+2=<<12+5+5+2=24>>24 minutes are accounted for.\nThere are 30-24=<<30-24=6>>6 minutes of ads.\n#### 6"
+    },
+    {
+        "question": "1. Total newscast time = 30 minutes\n2. Total news time = 12 + 5 + 5 = 22 minutes\n3. Advertisement time = 30 - 22 = 8 minutes\n\nI hope it is correct: 8 $minutes$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 8 minutes\n",
+        "ground_truth": "12+5+5+2=<<12+5+5+2=24>>24 minutes are accounted for.\nThere are 30-24=<<30-24=6>>6 minutes of ads.\n#### 6"
+    }
+]

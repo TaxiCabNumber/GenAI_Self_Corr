@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nOn a school trip to the seashore, Alan and his friends collected shells. Alan collected four times as many shells as Ben did. Ben got a late start and only collected a third of what Laurie did. If Laurie collected 36 shells how many did Alan collect?",
+        "inference": "1. Laurie collected 36 shells.\n2. Ben collected a third of Laurie's shells: 36 / 3 = 12 shells.\n3. Alan collected four times as many as Ben: 12 * 4 = 48 shells.\n\nI hope it is correct: 48 $answer$\n",
+        "ground_truth": "Ben collected 36/3=<<36/3=12>>12 shells\nAlan collected 12*4=<<12*4=48>>48 shells\n#### 48"
+    },
+    {
+        "question": "1. Laurie collected 36 shells.\n2. Ben collected a third of Laurie's shells: 36 / 3 = 12 shells.\n3. Alan collected four times as many as Ben: 12 * 4 = 48 shells.\n\nI hope it is correct: 48 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 48\n",
+        "ground_truth": "Ben collected 36/3=<<36/3=12>>12 shells\nAlan collected 12*4=<<12*4=48>>48 shells\n#### 48"
+    }
+]

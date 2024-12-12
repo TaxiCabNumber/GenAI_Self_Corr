@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nAt the candy store, a chocolate bar costs $c$ dollars and a vanilla bar costs $2$ dollars more than a chocolate bar. Jamie buys a chocolate bar and three vanilla bars, and Kevin buys five chocolate bars. How much money, in total, do Jamie and Kevin spend at the candy store in terms of $c$?",
+        "inference": "Jamie buys 1 chocolate bar and 3 vanilla bars.\nThe cost of a chocolate bar is $c$ dollars.\nThe cost of a vanilla bar is $c + 2$ dollars.\nThe cost of 1 chocolate bar is $c$.\nThe cost of 3 vanilla bars is $3(c+2) = 3c+6$.\nThe total cost for Jamie is $c + 3c + 6 = 4c + 6$.\n\nKevin buys 5 chocolate bars.\nThe cost of 5 chocolate bars is $5c$.\nThe total cost for Kevin is $5c$.\n\nThe total cost for Jamie and Kevin is $(4c+6) + 5c = 9c + 6$.\n\nFinal Answer: $\\boxed{9c+6}$ I hope it is correct.\n",
+        "ground_truth": "Since each chocolate bar costs $c$ dollars, each vanilla bar costs $c+2$ dollars. Jamie spends $c+3(c+2)$ dollars, and Kevin spends $5c$ dollars. Their total, in dollars, is thus \\[c+3(c+2)+5c=c+3c+6+5c=\\boxed{9c+6}.\\]"
+    },
+    {
+        "question": "Jamie buys 1 chocolate bar and 3 vanilla bars.\nThe cost of a chocolate bar is $c$ dollars.\nThe cost of a vanilla bar is $c + 2$ dollars.\nThe cost of 1 chocolate bar is $c$.\nThe cost of 3 vanilla bars is $3(c+2) = 3c+6$.\nThe total cost for Jamie is $c + 3c + 6 = 4c + 6$.\n\nKevin buys 5 chocolate bars.\nThe cost of 5 chocolate bars is $5c$.\nThe total cost for Kevin is $5c$.\n\nThe total cost for Jamie and Kevin is $(4c+6) + 5c = 9c + 6$.\n\nFinal Answer: $\\boxed{9c+6}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{9c+6}$\n",
+        "ground_truth": "Since each chocolate bar costs $c$ dollars, each vanilla bar costs $c+2$ dollars. Jamie spends $c+3(c+2)$ dollars, and Kevin spends $5c$ dollars. Their total, in dollars, is thus \\[c+3(c+2)+5c=c+3c+6+5c=\\boxed{9c+6}.\\]"
+    }
+]

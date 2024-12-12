@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 110 calories in a serving of cheese.  Rick buys the large blocks that have 16 servings per block.  If Rick has already eaten 5 servings of cheese, how many calories are remaining in the block?",
+        "inference": "1. Calories per block: 110 calories/serving * 16 servings/block = 1760 calories/block\n2. Calories eaten: 110 calories/serving * 5 servings = 550 calories\n3. Calories remaining: 1760 calories - 550 calories = 1210 calories\n\nI hope it is correct: 1210 $calories$\n",
+        "ground_truth": "The block has 16 servings and he has eaten 5 servings leaving 16-5 = <<16-5=11>>11 servings of cheese\nThere are 11 servings of cheese left and each serving is 110 calories for a total of 11*110 = <<11*110=1210>>1,210 calories\n#### 1210"
+    },
+    {
+        "question": "1. Calories per block: 110 calories/serving * 16 servings/block = 1760 calories/block\n2. Calories eaten: 110 calories/serving * 5 servings = 550 calories\n3. Calories remaining: 1760 calories - 550 calories = 1210 calories\n\nI hope it is correct: 1210 $calories$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 1210 calories\n",
+        "ground_truth": "The block has 16 servings and he has eaten 5 servings leaving 16-5 = <<16-5=11>>11 servings of cheese\nThere are 11 servings of cheese left and each serving is 110 calories for a total of 11*110 = <<11*110=1210>>1,210 calories\n#### 1210"
+    }
+]

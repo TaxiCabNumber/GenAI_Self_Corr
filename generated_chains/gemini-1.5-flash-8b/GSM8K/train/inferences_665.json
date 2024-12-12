@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBill picked 50 apples from the orchard with his wife and two children.  He sends each of his kids to school with 3 apples for their two favorite teachers.  His wife Jill bakes two apple pies, using 10 apples per pie. How many apples does Bill have left?",
+        "inference": "1. Apples for kids: 3 apples/child * 2 children = 6 apples\n2. Apples for teachers: 6 apples * 2 teachers = 12 apples\n3. Apples for pies: 10 apples/pie * 2 pies = 20 apples\n4. Total apples used: 12 apples + 20 apples = 32 apples\n5. Apples left: 50 apples - 32 apples = 18 apples\n\nI hope it is correct: 18 $apples$\n",
+        "ground_truth": "Bill gives each of his children 3 apples, so since he has two children this is 3*2=<<3*2=6>>6 apples.\nJill bakes 2 apple pies, using 10 apples each so this means she uses 10*2=<<2*10=20>>20 apples.\nIn total, this means 20+6=<<20+6=26>>26 apples were used.\nSince Bill began with 50 apples, this means there are 50-26=<<50-26=24>>24 apples remaining.\n#### 24"
+    },
+    {
+        "question": "1. Apples for kids: 3 apples/child * 2 children = 6 apples\n2. Apples for teachers: 6 apples * 2 teachers = 12 apples\n3. Apples for pies: 10 apples/pie * 2 pies = 20 apples\n4. Total apples used: 12 apples + 20 apples = 32 apples\n5. Apples left: 50 apples - 32 apples = 18 apples\n\nI hope it is correct: 18 $apples$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 18 apples\n",
+        "ground_truth": "Bill gives each of his children 3 apples, so since he has two children this is 3*2=<<3*2=6>>6 apples.\nJill bakes 2 apple pies, using 10 apples each so this means she uses 10*2=<<2*10=20>>20 apples.\nIn total, this means 20+6=<<20+6=26>>26 apples were used.\nSince Bill began with 50 apples, this means there are 50-26=<<50-26=24>>24 apples remaining.\n#### 24"
+    }
+]

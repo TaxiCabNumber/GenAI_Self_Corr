@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIvan has a bird feeder in his yard that holds two cups of birdseed. Every week, he has to refill the emptied feeder. Each cup of birdseed can feed fourteen birds, but Ivan is constantly chasing away a hungry squirrel that steals half a cup of birdseed from the feeder every week. How many birds does Ivan\u2019s bird feeder feed weekly?",
+        "inference": "1. Feeder capacity: 2 cups\n2. Seed per cup: 14 birds\n3. Total birds fed if no squirrel: 2 cups * 14 birds/cup = 28 birds\n4. Squirrel theft: 0.5 cups\n5. Remaining seed: 2 cups - 0.5 cups = 1.5 cups\n6. Birds fed with remaining seed: 1.5 cups * 14 birds/cup = 21 birds\n\nI hope it is correct: 21 birds\n",
+        "ground_truth": "The squirrel steals 1/2 cup of birdseed every week, so the birds eat 2 - 1/2 = 1 1/2 cups of birdseed.\nEach cup feeds 14 birds, so Ivan\u2019s bird feeder feeds 14 * 1 1/2 = 21 birds weekly.\n#### 21"
+    },
+    {
+        "question": "1. Feeder capacity: 2 cups\n2. Seed per cup: 14 birds\n3. Total birds fed if no squirrel: 2 cups * 14 birds/cup = 28 birds\n4. Squirrel theft: 0.5 cups\n5. Remaining seed: 2 cups - 0.5 cups = 1.5 cups\n6. Birds fed with remaining seed: 1.5 cups * 14 birds/cup = 21 birds\n\nI hope it is correct: 21 birds\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 21 birds\n",
+        "ground_truth": "The squirrel steals 1/2 cup of birdseed every week, so the birds eat 2 - 1/2 = 1 1/2 cups of birdseed.\nEach cup feeds 14 birds, so Ivan\u2019s bird feeder feeds 14 * 1 1/2 = 21 birds weekly.\n#### 21"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nDuring a race transmitted on television, five advertisements were shown, lasting 3 minutes each. One minute of advertising costs $4000. What was the cost of transmitting these advertisements during the race?",
+        "inference": "1. Total advertising time = 5 advertisements * 3 minutes/advertisement = 15 minutes\n2. Total cost per minute = $4000\n3. Total cost = 15 minutes * $4000/minute = $60000\n\nI hope it is correct: $60000\n",
+        "ground_truth": "During the race, there were five ads, lasting 3 minutes each, so in total, they lasted 5 * 3 = <<5*3=15>>15 minutes.\nSo the total cost of these ads was 15 * 4000 = $<<15*4000=60000>>60000.\n#### 60000"
+    },
+    {
+        "question": "1. Total advertising time = 5 advertisements * 3 minutes/advertisement = 15 minutes\n2. Total cost per minute = $4000\n3. Total cost = 15 minutes * $4000/minute = $60000\n\nI hope it is correct: $60000\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $60000\n",
+        "ground_truth": "During the race, there were five ads, lasting 3 minutes each, so in total, they lasted 5 * 3 = <<5*3=15>>15 minutes.\nSo the total cost of these ads was 15 * 4000 = $<<15*4000=60000>>60000.\n#### 60000"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA farmer has twice as many pigs as cows, and 4 more cows than goats.  If the farmer has 56 animals total, how many goats does he have?",
+        "inference": "Let 'x' be the number of goats.\nThe farmer has 4 more cows than goats, so the number of cows is x + 4.\nThe farmer has twice as many pigs as cows, so the number of pigs is 2 * (x + 4) = 2x + 8.\nThe total number of animals is 56, so:\nx + (x + 4) + (2x + 8) = 56\nCombining like terms:\n4x + 12 = 56\nSubtracting 12 from both sides:\n4x = 44\nDividing both sides by 4:\nx = 11\nThe farmer has 11 goats.\n\nI hope it is correct: 11 $goats$\n",
+        "ground_truth": "Let x be the number of goats\nCows:4+x\nPigs:2(4+x)=8+2x\nTotal:x+4+x+8+2x=56\n4x+12=56\n4x=44\nx=<<11=11>>11 goats\n#### 11"
+    },
+    {
+        "question": "Let 'x' be the number of goats.\nThe farmer has 4 more cows than goats, so the number of cows is x + 4.\nThe farmer has twice as many pigs as cows, so the number of pigs is 2 * (x + 4) = 2x + 8.\nThe total number of animals is 56, so:\nx + (x + 4) + (2x + 8) = 56\nCombining like terms:\n4x + 12 = 56\nSubtracting 12 from both sides:\n4x = 44\nDividing both sides by 4:\nx = 11\nThe farmer has 11 goats.\n\nI hope it is correct: 11 $goats$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 11 goats\n",
+        "ground_truth": "Let x be the number of goats\nCows:4+x\nPigs:2(4+x)=8+2x\nTotal:x+4+x+8+2x=56\n4x+12=56\n4x=44\nx=<<11=11>>11 goats\n#### 11"
+    }
+]

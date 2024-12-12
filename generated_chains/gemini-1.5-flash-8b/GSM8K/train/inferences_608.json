@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nZhang is twice as old as Li.  Li is 12 years old.  Zhang's brother Jung is 2 years older than Zhang.  How old is Jung?",
+        "inference": "1. Li's age: 12 years old\n2. Zhang's age: 12 years * 2 = 24 years old\n3. Jung's age: 24 years + 2 years = 26 years old\n\nI hope it is correct: 26 $answer$\n",
+        "ground_truth": "Zhang is 2 * 12 years old = <<2*12=24>>24 years old.\nJung is 2 years + 24 years = <<2+24=26>>26 years old.\n#### 26"
+    },
+    {
+        "question": "1. Li's age: 12 years old\n2. Zhang's age: 12 years * 2 = 24 years old\n3. Jung's age: 24 years + 2 years = 26 years old\n\nI hope it is correct: 26 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 26\n",
+        "ground_truth": "Zhang is 2 * 12 years old = <<2*12=24>>24 years old.\nJung is 2 years + 24 years = <<2+24=26>>26 years old.\n#### 26"
+    }
+]

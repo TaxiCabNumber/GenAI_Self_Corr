@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nHarrison buys a regular croissant on Saturdays for $3.50 and an almond croissant for $5.50 on Sundays.  How much does he spend on croissants in a year?",
+        "inference": "There are 52 weeks in a year.\nHarrison buys a regular croissant on Saturdays, so he buys 52 croissants at $3.50 each.\n52 * $3.50 = $182.00\nHe buys an almond croissant on Sundays, so he buys 52 croissants at $5.50 each.\n52 * $5.50 = $286.00\nTotal spent = $182.00 + $286.00 = $468.00\nI hope it is correct: $468.00\n",
+        "ground_truth": "He buys a plain croissant for $3.50 and an almond croissant for $5.50 for a total of $3.50 + $5.50 = $<<3.5+5.5=9.00>>9.00 on pastries per weekend\nIn one year, which is 52 weeks, he spends 52*$9 = $<<52*9=468.00>>468.00 on pastries\n#### 468"
+    },
+    {
+        "question": "There are 52 weeks in a year.\nHarrison buys a regular croissant on Saturdays, so he buys 52 croissants at $3.50 each.\n52 * $3.50 = $182.00\nHe buys an almond croissant on Sundays, so he buys 52 croissants at $5.50 each.\n52 * $5.50 = $286.00\nTotal spent = $182.00 + $286.00 = $468.00\nI hope it is correct: $468.00\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $468.00\n",
+        "ground_truth": "He buys a plain croissant for $3.50 and an almond croissant for $5.50 for a total of $3.50 + $5.50 = $<<3.5+5.5=9.00>>9.00 on pastries per weekend\nIn one year, which is 52 weeks, he spends 52*$9 = $<<52*9=468.00>>468.00 on pastries\n#### 468"
+    }
+]

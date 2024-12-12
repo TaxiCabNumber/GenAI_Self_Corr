@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nFour people lost a total of 103 kilograms of weight. The first person lost 27 kilograms. The second person lost 7 kilograms less than the first person. The two remaining people lost the same amount. How many kilograms did each of the last two people lose?",
+        "inference": "1. First person lost 27 kg.\n2. Second person lost 27 - 7 = 20 kg.\n3. Total lost by the first two people = 27 + 20 = 47 kg.\n4. Remaining weight lost by the last two people = 103 - 47 = 56 kg.\n5. Since the last two people lost the same amount, each lost 56 kg / 2 = 28 kg.\n\nI hope it is correct: 28 $kg$\n",
+        "ground_truth": "Second person = 27 - 7 = <<27-7=20>>20 kg\n103 - 27 - 20 = <<103-27-20=56>>56 kg\n56/2 = <<56/2=28>>28 kg\nThe last two people each lost 28 kilograms of weight.\n#### 28"
+    },
+    {
+        "question": "1. First person lost 27 kg.\n2. Second person lost 27 - 7 = 20 kg.\n3. Total lost by the first two people = 27 + 20 = 47 kg.\n4. Remaining weight lost by the last two people = 103 - 47 = 56 kg.\n5. Since the last two people lost the same amount, each lost 56 kg / 2 = 28 kg.\n\nI hope it is correct: 28 $kg$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "The problem statement is incomplete and ambiguous.  There's no information about the weight of the first two people or a clear relationship between the weight lost.  Without more context, a precise solution cannot be determined.\n\n#### $Cannot be determined$\n",
+        "ground_truth": "Second person = 27 - 7 = <<27-7=20>>20 kg\n103 - 27 - 20 = <<103-27-20=56>>56 kg\n56/2 = <<56/2=28>>28 kg\nThe last two people each lost 28 kilograms of weight.\n#### 28"
+    }
+]

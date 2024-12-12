@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe ratio of boys to girls in a family is 5:7. The total number of children in the family is 180. If the boys are given $3900 to share, how much money does each boy receive?",
+        "inference": "1. Find the total number of boys in the family:\nTotal number of children = 180\nRatio of boys to girls = 5:7\nLet the number of boys be 5x and the number of girls be 7x\nSo, 5x + 7x = 180\n12x = 180\nx = 15\nTherefore, the total number of boys = 5x = 5 * 15 = 75\n\n2. Find the amount of money each boy receives:\nTotal amount of money given to boys = $3900\nNumber of boys = 75\nAmount of money each boy receives = $3900 / 75 = $52\nI hope it is correct: #### $52$",
+        "ground_truth": "The total ratio representing the number of children in the family is 5+7 = <<5+7=12>>12\nFrom the total ratio of children in the family, 5/12 represent the number of boys, meaning that the number of boys in the family is 5/12*180 = <<5/12*180=75>>75\nIf the boys are given $3900 to share, each boy receives $3900/75 = $<<3900/75=52>>52\n#### 52"
+    },
+    {
+        "question": "1. Find the total number of boys in the family:\nTotal number of children = 180\nRatio of boys to girls = 5:7\nLet the number of boys be 5x and the number of girls be 7x\nSo, 5x + 7x = 180\n12x = 180\nx = 15\nTherefore, the total number of boys = 5x = 5 * 15 = 75\n\n2. Find the amount of money each boy receives:\nTotal amount of money given to boys = $3900\nNumber of boys = 75\nAmount of money each boy receives = $3900 / 75 = $52\nI hope it is correct: #### $52$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $52$",
+        "ground_truth": "The total ratio representing the number of children in the family is 5+7 = <<5+7=12>>12\nFrom the total ratio of children in the family, 5/12 represent the number of boys, meaning that the number of boys in the family is 5/12*180 = <<5/12*180=75>>75\nIf the boys are given $3900 to share, each boy receives $3900/75 = $<<3900/75=52>>52\n#### 52"
+    }
+]

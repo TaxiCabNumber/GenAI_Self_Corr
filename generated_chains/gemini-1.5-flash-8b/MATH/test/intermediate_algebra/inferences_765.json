@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nHow many integers satisfy the equation: $3n^3-12n = 0$ ?",
+        "inference": "$3n^3 - 12n = 0$\n$3n(n^2 - 4) = 0$\n$3n(n-2)(n+2) = 0$\n$3n = 0$ or $n-2 = 0$ or $n+2 = 0$\n$n = 0$ or $n = 2$ or $n = -2$\n\nThe integers that satisfy the equation are 0, 2, and -2.\nThere are 3 integers.\n\nFinal Answer: $\\boxed{3}$\n",
+        "ground_truth": "We factor the polynomial to get $3n(n^2-4)=0$. The product equals $0$ if $n=0$ or $n^2-4=0 \\Rightarrow n=\\pm 2$. The integers $0,2,-2$ satisfy the equation, so there are $\\boxed{3}$ integers."
+    },
+    {
+        "question": "$3n^3 - 12n = 0$\n$3n(n^2 - 4) = 0$\n$3n(n-2)(n+2) = 0$\n$3n = 0$ or $n-2 = 0$ or $n+2 = 0$\n$n = 0$ or $n = 2$ or $n = -2$\n\nThe integers that satisfy the equation are 0, 2, and -2.\nThere are 3 integers.\n\nFinal Answer: $\\boxed{3}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct.\n\n$\\boxed{3}$\n",
+        "ground_truth": "We factor the polynomial to get $3n(n^2-4)=0$. The product equals $0$ if $n=0$ or $n^2-4=0 \\Rightarrow n=\\pm 2$. The integers $0,2,-2$ satisfy the equation, so there are $\\boxed{3}$ integers."
+    }
+]

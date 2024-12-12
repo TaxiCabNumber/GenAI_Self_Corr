@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nGiven that $a+b=5$ and $a^2+b^2=15$, find $a^3+b^3$.",
+        "inference": "We have $a+b=5$ and $a^2+b^2=15$.\nWe know that $(a+b)^2 = a^2+2ab+b^2$.\nSubstituting the given values, we have $5^2 = 15 + 2ab$, so $25 = 15 + 2ab$.\nThis gives us $2ab = 10$, so $ab = 5$.\nNow, we have $a^3+b^3 = (a+b)(a^2-ab+b^2)$.\nWe have $a+b=5$ and $a^2+b^2=15$.\n$a^3+b^3 = (a+b)(a^2-ab+b^2)$.\nSubstituting the values we know,\n$a^3+b^3 = (5)(15-5) = 5(10) = 50$.\nFinal Answer: $\\boxed{50}$\n",
+        "ground_truth": "We know that $(a+b)^2=a^2+2ab+b^2$. Therefore, we plug in the given values to get $5^2=15+2ab$. Solving, we get that $ab=5$. We also have the sum of cubes factorization $a^3+b^3=(a+b)(a^2-ab+b^2)$. Plugging in the values given and solving, we get that $a^3+b^3=(5)(15-5)=(5)(10)=\\boxed{50}$."
+    },
+    {
+        "question": "We have $a+b=5$ and $a^2+b^2=15$.\nWe know that $(a+b)^2 = a^2+2ab+b^2$.\nSubstituting the given values, we have $5^2 = 15 + 2ab$, so $25 = 15 + 2ab$.\nThis gives us $2ab = 10$, so $ab = 5$.\nNow, we have $a^3+b^3 = (a+b)(a^2-ab+b^2)$.\nWe have $a+b=5$ and $a^2+b^2=15$.\n$a^3+b^3 = (a+b)(a^2-ab+b^2)$.\nSubstituting the values we know,\n$a^3+b^3 = (5)(15-5) = 5(10) = 50$.\nFinal Answer: $\\boxed{50}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Given $a+b = 5$ and $a^2+b^2 = 15$.\nWe have $(a+b)^2 = a^2+2ab+b^2$.\nSubstituting the given values, we have $5^2 = 15 + 2ab$.\nThis gives us $25 = 15 + 2ab$, so $2ab = 10$, which means $ab = 5$.\nWe want to find $a^3+b^3$.\nWe have $a^3+b^3 = (a+b)(a^2-ab+b^2)$.\nSubstituting the given values, we have\n$a^3+b^3 = (5)(15-5) = 5(10) = 50$.\n\nFinal Answer: $\\boxed{50}$",
+        "ground_truth": "We know that $(a+b)^2=a^2+2ab+b^2$. Therefore, we plug in the given values to get $5^2=15+2ab$. Solving, we get that $ab=5$. We also have the sum of cubes factorization $a^3+b^3=(a+b)(a^2-ab+b^2)$. Plugging in the values given and solving, we get that $a^3+b^3=(5)(15-5)=(5)(10)=\\boxed{50}$."
+    }
+]

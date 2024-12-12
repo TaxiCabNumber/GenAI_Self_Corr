@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $\\displaystyle\\frac{x}{y} = 3$, $\\displaystyle\\frac{y}{z} = 8$, and $\\displaystyle \\frac{z}{w} = \\frac{1}{2}$, then what is $\\displaystyle\\frac{w}{x}$?",
+        "inference": "$\\frac{x}{y} = 3 \\implies y = \\frac{x}{3}$\n$\\frac{y}{z} = 8 \\implies z = \\frac{y}{8} = \\frac{x}{3 \\times 8} = \\frac{x}{24}$\n$\\frac{z}{w} = \\frac{1}{2} \\implies w = 2z = 2\\left(\\frac{x}{24}\\right) = \\frac{x}{12}$\n$\\frac{w}{x} = \\frac{\\frac{x}{12}}{x} = \\frac{x}{12} \\times \\frac{1}{x} = \\frac{1}{12}$\nFinal Answer: $\\boxed{\\frac{1}{12}}$ I hope it is correct.\n",
+        "ground_truth": "Multiplying all three gives equations gives us \\[\\frac{x}{y} \\cdot\\frac{y}{z}\\cdot \\frac{z}{w} = 3\\cdot 8\\cdot \\frac{1}{2}\\implies \\frac{x}{w}= 12.\\] Taking the reciprocal of both sides of this equation gives $w/x = \\boxed{\\frac{1}{12}}$."
+    },
+    {
+        "question": "$\\frac{x}{y} = 3 \\implies y = \\frac{x}{3}$\n$\\frac{y}{z} = 8 \\implies z = \\frac{y}{8} = \\frac{x}{3 \\times 8} = \\frac{x}{24}$\n$\\frac{z}{w} = \\frac{1}{2} \\implies w = 2z = 2\\left(\\frac{x}{24}\\right) = \\frac{x}{12}$\n$\\frac{w}{x} = \\frac{\\frac{x}{12}}{x} = \\frac{x}{12} \\times \\frac{1}{x} = \\frac{1}{12}$\nFinal Answer: $\\boxed{\\frac{1}{12}}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\frac{x}{y} = 3 \\implies y = \\frac{x}{3}$\n$\\frac{y}{z} = 8 \\implies z = \\frac{y}{8} = \\frac{x/3}{8} = \\frac{x}{24}$\n$\\frac{z}{w} = \\frac{1}{2} \\implies w = 2z = 2\\left(\\frac{x}{24}\\right) = \\frac{x}{12}$\n$\\frac{w}{x} = \\frac{x/12}{x} = \\frac{1}{12}$\n\nFinal Answer: $\\boxed{\\frac{1}{12}}$",
+        "ground_truth": "Multiplying all three gives equations gives us \\[\\frac{x}{y} \\cdot\\frac{y}{z}\\cdot \\frac{z}{w} = 3\\cdot 8\\cdot \\frac{1}{2}\\implies \\frac{x}{w}= 12.\\] Taking the reciprocal of both sides of this equation gives $w/x = \\boxed{\\frac{1}{12}}$."
+    }
+]

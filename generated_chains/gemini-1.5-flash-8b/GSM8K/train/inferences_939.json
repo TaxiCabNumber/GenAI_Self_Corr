@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 20 students in the class. Half of them play basketball. Two-fifths play volleyball and one-tenth play both basketball and volleyball.  How many students in this class do not play either game?",
+        "inference": "1. Students playing basketball: 20 * 1/2 = 10\n2. Students playing volleyball: 20 * 2/5 = 8\n3. Students playing both: 20 * 1/10 = 2\n4. Students playing either basketball or volleyball (or both): 10 + 8 - 2 = 16\n5. Students not playing either: 20 - 16 = 4\n\nI hope it is correct: 4 $students$\n",
+        "ground_truth": "Half of the students are playing basketball, which means 20 / 2 = <<20/2=10>>10 students play basketball.\nTwo-fifths plays volleyball, which leaves us with 20 * 2/5 = <<20*2/5=8>>8 students.\nOne-tenth play both games, which means 20 * 1/10 = <<20*1/10=2>>2 students.\nThere are 10 + 8 = <<10+8=18>>18 students who play basketball or volleyball.\nAmong these 18 students, 2 of them are playing both games, so that means 18 - 2 = <<18-2=16>>16 students play only one of the two games.\nSo finally, 20 - 16 = <<20-16=4>>4 students do not play either game.\n#### 4"
+    },
+    {
+        "question": "1. Students playing basketball: 20 * 1/2 = 10\n2. Students playing volleyball: 20 * 2/5 = 8\n3. Students playing both: 20 * 1/10 = 2\n4. Students playing either basketball or volleyball (or both): 10 + 8 - 2 = 16\n5. Students not playing either: 20 - 16 = 4\n\nI hope it is correct: 4 $students$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 4\n",
+        "ground_truth": "Half of the students are playing basketball, which means 20 / 2 = <<20/2=10>>10 students play basketball.\nTwo-fifths plays volleyball, which leaves us with 20 * 2/5 = <<20*2/5=8>>8 students.\nOne-tenth play both games, which means 20 * 1/10 = <<20*1/10=2>>2 students.\nThere are 10 + 8 = <<10+8=18>>18 students who play basketball or volleyball.\nAmong these 18 students, 2 of them are playing both games, so that means 18 - 2 = <<18-2=16>>16 students play only one of the two games.\nSo finally, 20 - 16 = <<20-16=4>>4 students do not play either game.\n#### 4"
+    }
+]

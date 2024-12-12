@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nCaleb picked a handful of dandelion puffs. He gave 3 to his mom, another 3 to his sister, 5 to his grandmother, and 2 to his dog. Then, he divided the remaining dandelion puffs equally among his 3 friends. How many dandelion puffs did each friend receive if he originally picked 40 dandelion puffs?",
+        "inference": "- Caleb gave away $3 + 3 + 5 + 2 = 13$ dandelion puffs to his family.\n- He then had $40 - 13 = 27$ dandelion puffs left.\n- He divided these equally among his 3 friends, so each friend received $27 \\div 3 = 9$ dandelion puffs.\nI hope it is correct: 9",
+        "ground_truth": "Caleb was left with 40 - 3 - 3 - 5 - 2 = <<40-3-3-5-2=27>>27 dandelion puffs to give to his friends.\nThey each received 27/3 = <<27/3=9>>9 dandelion puffs\n#### 9"
+    },
+    {
+        "question": "- Caleb gave away $3 + 3 + 5 + 2 = 13$ dandelion puffs to his family.\n- He then had $40 - 13 = 27$ dandelion puffs left.\n- He divided these equally among his 3 friends, so each friend received $27 \\div 3 = 9$ dandelion puffs.\nI hope it is correct: 9\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$9",
+        "ground_truth": "Caleb was left with 40 - 3 - 3 - 5 - 2 = <<40-3-3-5-2=27>>27 dandelion puffs to give to his friends.\nThey each received 27/3 = <<27/3=9>>9 dandelion puffs\n#### 9"
+    }
+]

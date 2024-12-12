@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nEden, Mary and Iris gather sand to fill their sandbox. Eden carried 4 buckets of sand. Mary carried 3 more buckets of sand than Eden. Iris carried 1 less bucket of sand than Mary. If each bucket contains 2 pounds of sand, how many pounds of sand did they collect in total?",
+        "inference": "1. Eden carried 4 buckets.\n2. Mary carried 3 more buckets than Eden, so Mary carried 4 + 3 = 7 buckets.\n3. Iris carried 1 less bucket than Mary, so Iris carried 7 - 1 = 6 buckets.\n4. Total buckets = 4 + 7 + 6 = 17 buckets.\n5. Each bucket contains 2 pounds of sand, so the total amount of sand is 17 * 2 = 34 pounds.\n\nI hope it is correct: 34 $pounds$\n",
+        "ground_truth": "Mary carried 4 + 3 = <<4+3=7>>7 buckets of sand.\nIris carried 7 \u2013 1 = <<7-1=6>>6 buckets of sand.\nAll together, they carried 4 + 7 + 6 = <<4+7+6=17>>17 buckets of sand.\nThe sand weighed a total of 17 * 2 = <<17*2=34>>34 pounds.\n#### 34"
+    },
+    {
+        "question": "1. Eden carried 4 buckets.\n2. Mary carried 3 more buckets than Eden, so Mary carried 4 + 3 = 7 buckets.\n3. Iris carried 1 less bucket than Mary, so Iris carried 7 - 1 = 6 buckets.\n4. Total buckets = 4 + 7 + 6 = 17 buckets.\n5. Each bucket contains 2 pounds of sand, so the total amount of sand is 17 * 2 = 34 pounds.\n\nI hope it is correct: 34 $pounds$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 34 pounds\n",
+        "ground_truth": "Mary carried 4 + 3 = <<4+3=7>>7 buckets of sand.\nIris carried 7 \u2013 1 = <<7-1=6>>6 buckets of sand.\nAll together, they carried 4 + 7 + 6 = <<4+7+6=17>>17 buckets of sand.\nThe sand weighed a total of 17 * 2 = <<17*2=34>>34 pounds.\n#### 34"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBobby needed to make some trips with his truck and had only 12 gallons of gasoline. He drives to a supermarket 5 miles away and then drives back home. Then he headed to his farm which was 6 miles away. Two miles into the journey, he turned around and drove back home to retrieve some farming tools he forgot to take earlier and drove down to the farm. If he now has exactly 2 gallons of gasoline left, at what rate in miles per gallon has his truck been consuming gasoline?",
+        "inference": "1) Total distance travelled to the supermarket and back: 5 + 5 = 10 miles\n2) Distance travelled to the farm and back to collect tools: 6 + 4 = 10 miles\n3) Total distance travelled: 10 + 10 = 20 miles\n4) Miles per gallon: 12 gallons / 20 miles = 0.6 miles per gallon\nI hope it is correct: 0.6 $miles$ $per$ $gallon$",
+        "ground_truth": "The trip to the supermarket and back home covers 5+5=<<5+5=10>>10 miles.\nThe round trip of two miles each before he actually went to the farm covers 2+2=<<2+2=4>>4 miles.\nSix miles to the farm and the total mileage is 10+4+6=<<10+4+6=20>>20 miles.\nThe truck consumed 12-2=<<12-2=10>>10 gallons of gasoline for the total journey.\nSo, the rate is 20/10= <<20/10=2>>2 miles per gallon.\n#### 2"
+    },
+    {
+        "question": "1) Total distance travelled to the supermarket and back: 5 + 5 = 10 miles\n2) Distance travelled to the farm and back to collect tools: 6 + 4 = 10 miles\n3) Total distance travelled: 10 + 10 = 20 miles\n4) Miles per gallon: 12 gallons / 20 miles = 0.6 miles per gallon\nI hope it is correct: 0.6 $miles$ $per$ $gallon$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 0.6",
+        "ground_truth": "The trip to the supermarket and back home covers 5+5=<<5+5=10>>10 miles.\nThe round trip of two miles each before he actually went to the farm covers 2+2=<<2+2=4>>4 miles.\nSix miles to the farm and the total mileage is 10+4+6=<<10+4+6=20>>20 miles.\nThe truck consumed 12-2=<<12-2=10>>10 gallons of gasoline for the total journey.\nSo, the rate is 20/10= <<20/10=2>>2 miles per gallon.\n#### 2"
+    }
+]

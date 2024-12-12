@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA boxer weighs 97 kg at 4 months from a fight. He is on a diet that allows him to lose 3 kg per month until the day of the fight. How much will he weigh on the day of the fight?",
+        "inference": "1. The boxer starts at 97 kg.\n2. The fight is in 4 months.\n3. He loses 3 kg per month.\n4. Total weight loss = 3 kg/month * 4 months = 12 kg\n5. Weight on the day of the fight = 97 kg - 12 kg = 85 kg\n\nI hope it is correct: 85 $kg$\n",
+        "ground_truth": "In 4 months, he will lose 3 x 4 = <<3*4=12>>12 kilograms.\nSo his weight will be 97 \u2013 12 = <<97-12=85>>85 kilograms.\n#### 85"
+    },
+    {
+        "question": "1. The boxer starts at 97 kg.\n2. The fight is in 4 months.\n3. He loses 3 kg per month.\n4. Total weight loss = 3 kg/month * 4 months = 12 kg\n5. Weight on the day of the fight = 97 kg - 12 kg = 85 kg\n\nI hope it is correct: 85 $kg$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 85 kg\n",
+        "ground_truth": "In 4 months, he will lose 3 x 4 = <<3*4=12>>12 kilograms.\nSo his weight will be 97 \u2013 12 = <<97-12=85>>85 kilograms.\n#### 85"
+    }
+]

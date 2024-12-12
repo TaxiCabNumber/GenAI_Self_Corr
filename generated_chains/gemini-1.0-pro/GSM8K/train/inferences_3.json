@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJulie is reading a 120-page book. Yesterday, she was able to read 12 pages and today, she read twice as many pages as yesterday. If she wants to read half of the remaining pages tomorrow, how many pages should she read?",
+        "inference": "1. Julie read 12 pages yesterday.\n2. Today, she read twice as many pages as yesterday, so she read 12 * 2 = 24 pages today.\n3. So far, she has read 12 + 24 = 36 pages.\n4. There are 120 - 36 = 84 pages remaining.\n5. She wants to read half of the remaining pages tomorrow, so she should read 84 / 2 = 42 pages tomorrow.\nI hope it is correct: 42",
+        "ground_truth": "Maila read 12 x 2 = <<12*2=24>>24 pages today.\nSo she was able to read a total of 12 + 24 = <<12+24=36>>36 pages since yesterday.\nThere are 120 - 36 = <<120-36=84>>84 pages left to be read.\nSince she wants to read half of the remaining pages tomorrow, then she should read 84/2 = <<84/2=42>>42 pages.\n#### 42"
+    },
+    {
+        "question": "1. Julie read 12 pages yesterday.\n2. Today, she read twice as many pages as yesterday, so she read 12 * 2 = 24 pages today.\n3. So far, she has read 12 + 24 = 36 pages.\n4. There are 120 - 36 = 84 pages remaining.\n5. She wants to read half of the remaining pages tomorrow, so she should read 84 / 2 = 42 pages tomorrow.\nI hope it is correct: 42\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$42",
+        "ground_truth": "Maila read 12 x 2 = <<12*2=24>>24 pages today.\nSo she was able to read a total of 12 + 24 = <<12+24=36>>36 pages since yesterday.\nThere are 120 - 36 = <<120-36=84>>84 pages left to be read.\nSince she wants to read half of the remaining pages tomorrow, then she should read 84/2 = <<84/2=42>>42 pages.\n#### 42"
+    }
+]

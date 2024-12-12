@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nLenny bought 20 boxes of pens. Each box contained  5 pens. She gave 40% of the pens to her close friends and one-fourth of what's left to her classmates. How many pens were left for Lenny?",
+        "inference": "1. Total pens: 20 boxes * 5 pens/box = 100 pens\n\n2. Pens given to friends: 100 pens * 0.40 = 40 pens\n\n3. Pens remaining after giving to friends: 100 pens - 40 pens = 60 pens\n\n4. Pens given to classmates: 60 pens * (1/4) = 15 pens\n\n5. Pens left for Lenny: 60 pens - 15 pens = 45 pens\n\nI hope it is correct: 45 $pens$\n",
+        "ground_truth": "Lenny has 20 x 5 = <<20*5=100>>100 pens.\nShe gave her close friends 100 x 40% = <<100*40*.01=40>>40 pens.\nSo, 100 - 40 = <<100-40=60>>60 pens were left.\nHalf of 60 is 60/4= <<60/4=15>>15 pens.\nThus, Lenny has 60 - 15 = <<60-15=45>>45 pens left.\n#### 45"
+    },
+    {
+        "question": "1. Total pens: 20 boxes * 5 pens/box = 100 pens\n\n2. Pens given to friends: 100 pens * 0.40 = 40 pens\n\n3. Pens remaining after giving to friends: 100 pens - 40 pens = 60 pens\n\n4. Pens given to classmates: 60 pens * (1/4) = 15 pens\n\n5. Pens left for Lenny: 60 pens - 15 pens = 45 pens\n\nI hope it is correct: 45 $pens$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 45\n",
+        "ground_truth": "Lenny has 20 x 5 = <<20*5=100>>100 pens.\nShe gave her close friends 100 x 40% = <<100*40*.01=40>>40 pens.\nSo, 100 - 40 = <<100-40=60>>60 pens were left.\nHalf of 60 is 60/4= <<60/4=15>>15 pens.\nThus, Lenny has 60 - 15 = <<60-15=45>>45 pens left.\n#### 45"
+    }
+]

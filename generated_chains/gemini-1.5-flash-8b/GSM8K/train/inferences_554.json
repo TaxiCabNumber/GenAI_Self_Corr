@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIf 24 out of every 60 individuals like football and out of those that like it, 50% play it, how many people would you expect play football out of a group of 250?",
+        "inference": "1. Percentage of individuals who like football: (24/60) * 100% = 40%\n2. Percentage of football-liking individuals who play: 50%\n3. Combined percentage of individuals who both like and play football: 40% * 50% = 20%\n4. Expected number of people who play football out of 250: 250 * 20% = 50\n\nI hope it is correct: 50 $answer$\n",
+        "ground_truth": "If 50% of individuals that like football play it, and there are 24 out of 60 individuals that like it, then 24*50% = 12 out of 60 individuals play it\nIf 12 individuals play it out of 60 individuals then that means only 12/60 = 1/5 or 20% play it\nIf 20% of individuals play football out of a group of 250 people, one would expect 250*20% = <<250*20*.01=50>>50 individuals to play it\n#### 50"
+    },
+    {
+        "question": "1. Percentage of individuals who like football: (24/60) * 100% = 40%\n2. Percentage of football-liking individuals who play: 50%\n3. Combined percentage of individuals who both like and play football: 40% * 50% = 20%\n4. Expected number of people who play football out of 250: 250 * 20% = 50\n\nI hope it is correct: 50 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 50\n",
+        "ground_truth": "If 50% of individuals that like football play it, and there are 24 out of 60 individuals that like it, then 24*50% = 12 out of 60 individuals play it\nIf 12 individuals play it out of 60 individuals then that means only 12/60 = 1/5 or 20% play it\nIf 20% of individuals play football out of a group of 250 people, one would expect 250*20% = <<250*20*.01=50>>50 individuals to play it\n#### 50"
+    }
+]

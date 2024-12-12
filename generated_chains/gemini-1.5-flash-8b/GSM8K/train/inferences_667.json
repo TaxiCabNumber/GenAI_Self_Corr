@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMadison takes her dog to the dog park. Counting Madison's dog, half the dogs have spots and 1/5 have pointy ears. If 15 dogs have spots, how many have pointy ears?",
+        "inference": "1. If 15 dogs have spots, and half the dogs have spots, then there are 15 * 2 = 30 dogs total.\n2. 1/5 of the dogs have pointy ears.\n3. 30 dogs * (1/5) = 6 dogs have pointy ears.\n\nI hope it is correct: 6 $dogs$\n",
+        "ground_truth": "First double the number of dogs with spots to find the total number of dogs: 15 dogs * 2 = <<15*2=30>>30 dogs\nThen multiply that number by 1/5 to find the number that have pointy ears: 30 dogs * 1/5 = <<30*1/5=6>>6 dogs\n#### 6"
+    },
+    {
+        "question": "1. If 15 dogs have spots, and half the dogs have spots, then there are 15 * 2 = 30 dogs total.\n2. 1/5 of the dogs have pointy ears.\n3. 30 dogs * (1/5) = 6 dogs have pointy ears.\n\nI hope it is correct: 6 $dogs$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "If half the dogs have spots, and there are 15 dogs with spots, then there are 15 * 2 = 30 dogs total.\n1/5 of the dogs have pointy ears.\n30 dogs * (1/5) = 6 dogs have pointy ears.\n\n#### $6$\n",
+        "ground_truth": "First double the number of dogs with spots to find the total number of dogs: 15 dogs * 2 = <<15*2=30>>30 dogs\nThen multiply that number by 1/5 to find the number that have pointy ears: 30 dogs * 1/5 = <<30*1/5=6>>6 dogs\n#### 6"
+    }
+]

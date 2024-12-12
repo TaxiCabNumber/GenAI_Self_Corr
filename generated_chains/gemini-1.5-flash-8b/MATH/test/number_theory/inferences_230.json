@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat integer $n$ satisfies $0\\le n<{101}$ and $$123456\\equiv n\\pmod {101}~?$$",
+        "inference": "To find the integer $n$ such that $0\\le n<{101}$ and $123456\\equiv n\\pmod{101}$, we need to find the remainder when 123456 is divided by 101.\nWe perform long division:\n$123456 = 101 \\times 1220 + 36$\nSo $123456 \\equiv 36 \\pmod{101}$.\nThus, $n=36$.\n\nFinal Answer: $\\boxed{36}$\n",
+        "ground_truth": "Notice that $100\\equiv-1\\pmod{101}$.  Therefore  \\[120000\\equiv-1200\\equiv12\\pmod{101}.\\]Likewise  \\[3400\\equiv-34\\pmod{101}.\\]Combining these lets us write  \\[123456\\equiv 12-34+56\\pmod{101}\\]or  \\[123456\\equiv\\boxed{34}\\pmod{101}.\\]"
+    },
+    {
+        "question": "To find the integer $n$ such that $0\\le n<{101}$ and $123456\\equiv n\\pmod{101}$, we need to find the remainder when 123456 is divided by 101.\nWe perform long division:\n$123456 = 101 \\times 1220 + 36$\nSo $123456 \\equiv 36 \\pmod{101}$.\nThus, $n=36$.\n\nFinal Answer: $\\boxed{36}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "To find the integer $n$ such that $0\\le n < 101$ and $123456 \\equiv n \\pmod{101}$, we need to find the remainder when 123456 is divided by 101.\nWe perform long division:\n$123456 = 101 \\times 1220 + 36$\nSo $123456 \\equiv 36 \\pmod{101}$.\nThus, $n=36$.\n\nFinal Answer: $\\boxed{36}$",
+        "ground_truth": "Notice that $100\\equiv-1\\pmod{101}$.  Therefore  \\[120000\\equiv-1200\\equiv12\\pmod{101}.\\]Likewise  \\[3400\\equiv-34\\pmod{101}.\\]Combining these lets us write  \\[123456\\equiv 12-34+56\\pmod{101}\\]or  \\[123456\\equiv\\boxed{34}\\pmod{101}.\\]"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nPaityn has 20 red hats and 24 blue hats. Her friend Zola has 4/5 times as many red hats as she has and twice the number of blue hats. If they combine all the hats together and share them equally between themselves, calculate the number of hats each gets.",
+        "inference": "Paityn has 20 red hats,\nZola has (4/5 * 20) = 16 red hats. \nPaityn has 24 blue hats,\nZola has (2 * 24) = 48 blue hats.\nTotal = (20 + 16) + (24 + 48) = 108\nEach gets = 108 / 2 = 54 hats.\nI hope it is correct: 54 $hats$",
+        "ground_truth": "Paityn has a total of 20 hats + 24 hats = <<20+24=44>>44 hats.\nThe number of red hats that Zola has is 4/5 * 20 hats = <<4/5*20=16>>16 hats\nZola also has 2 * 24 hats = <<2*24=48>>48 blue hats.\nZola has a total of 48 hats + 16 hats = <<48+16=64>>64 hats.\nWhen they combine their hats, they have 64 hats + 44 hats = <<64+44=108>>108 hats\nIf they share the hats equally, each get 108 hats / 2 people = <<108/2=54>>54 hats/person\n#### 54"
+    },
+    {
+        "question": "Paityn has 20 red hats,\nZola has (4/5 * 20) = 16 red hats. \nPaityn has 24 blue hats,\nZola has (2 * 24) = 48 blue hats.\nTotal = (20 + 16) + (24 + 48) = 108\nEach gets = 108 / 2 = 54 hats.\nI hope it is correct: 54 $hats$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 54",
+        "ground_truth": "Paityn has a total of 20 hats + 24 hats = <<20+24=44>>44 hats.\nThe number of red hats that Zola has is 4/5 * 20 hats = <<4/5*20=16>>16 hats\nZola also has 2 * 24 hats = <<2*24=48>>48 blue hats.\nZola has a total of 48 hats + 16 hats = <<48+16=64>>64 hats.\nWhen they combine their hats, they have 64 hats + 44 hats = <<64+44=108>>108 hats\nIf they share the hats equally, each get 108 hats / 2 people = <<108/2=54>>54 hats/person\n#### 54"
+    }
+]

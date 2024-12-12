@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 32 tables in a hall. Half the tables have 2 chairs each, 5 have 3 chairs each and the rest have 4 chairs each. How many chairs in total are in the hall?",
+        "inference": "1. Tables with 2 chairs each: 32 / 2 = 16 tables\n2. Chairs from 2-chair tables: 16 tables * 2 chairs/table = 32 chairs\n3. Tables with 3 chairs each: 5 tables\n4. Chairs from 3-chair tables: 5 tables * 3 chairs/table = 15 chairs\n5. Tables with 4 chairs each: 32 tables - 16 tables - 5 tables = 11 tables\n6. Chairs from 4-chair tables: 11 tables * 4 chairs/table = 44 chairs\n7. Total chairs: 32 chairs + 15 chairs + 44 chairs = 91 chairs\n\nI hope it is correct: 91 $chairs$\n",
+        "ground_truth": "Half of 32 tables is 32*(1/2) = <<32*(1/2)=16>>16 tables\n16 tables have 2 chairs each for a total of 16*2 = <<16*2=32>>32 chairs\n5 tables have 3 chairs each for a total of 5*3 = <<5*3=15>>15 chairs\nThere are 32-(16+5) = <<32-(16+5)=11>>11 tables left\n11 tables have 4 chairs each for a total of 11*4 = <<11*4=44>>44 chairs\nThe total number of chairs is 32+15+44 = <<32+15+44=91>>91 chairs\n#### 91"
+    },
+    {
+        "question": "1. Tables with 2 chairs each: 32 / 2 = 16 tables\n2. Chairs from 2-chair tables: 16 tables * 2 chairs/table = 32 chairs\n3. Tables with 3 chairs each: 5 tables\n4. Chairs from 3-chair tables: 5 tables * 3 chairs/table = 15 chairs\n5. Tables with 4 chairs each: 32 tables - 16 tables - 5 tables = 11 tables\n6. Chairs from 4-chair tables: 11 tables * 4 chairs/table = 44 chairs\n7. Total chairs: 32 chairs + 15 chairs + 44 chairs = 91 chairs\n\nI hope it is correct: 91 $chairs$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 91\n",
+        "ground_truth": "Half of 32 tables is 32*(1/2) = <<32*(1/2)=16>>16 tables\n16 tables have 2 chairs each for a total of 16*2 = <<16*2=32>>32 chairs\n5 tables have 3 chairs each for a total of 5*3 = <<5*3=15>>15 chairs\nThere are 32-(16+5) = <<32-(16+5)=11>>11 tables left\n11 tables have 4 chairs each for a total of 11*4 = <<11*4=44>>44 chairs\nThe total number of chairs is 32+15+44 = <<32+15+44=91>>91 chairs\n#### 91"
+    }
+]

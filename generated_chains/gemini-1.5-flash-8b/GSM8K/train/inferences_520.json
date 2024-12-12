@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 25 different layers of rock in a canyon\u2019s strata. Five of the layers are limestone. Half of the rest are sandstone. Four of the remaining are quartz. Half of the rest are shale. The rest are all different kinds of rock. How many kinds of rock make up only one layer in the canyon\u2019s strata?",
+        "inference": "1. Limestone layers: 5\n2. Remaining layers: 25 - 5 = 20\n3. Sandstone layers: 20 / 2 = 10\n4. Remaining layers: 20 - 10 = 10\n5. Quartz layers: 4\n6. Remaining layers: 10 - 4 = 6\n7. Shale layers: 6 / 2 = 3\n8. Remaining layers: 6 - 3 = 3\n9. Different kinds of rock: 3\n\nI hope it is correct: 3 $answer$\n",
+        "ground_truth": "There are 25 - 5 = <<25-5=20>>20 layers of rock that are not limestone.\nHalf of those 20 are sandstone, so there are 20 / 2 = <<20/2=10>>10 that are not limestone or sandstone.\nFour of those are quartz, so 10 - 4 = <<10-4=6>>6 layers are not limestone, sandstone, or quartz.\nHalf of the rest are shale, so 6 / 2 = <<6/2=3>>3 kinds of rock remain that make up only one layer in the strata.\n#### 3"
+    },
+    {
+        "question": "1. Limestone layers: 5\n2. Remaining layers: 25 - 5 = 20\n3. Sandstone layers: 20 / 2 = 10\n4. Remaining layers: 20 - 10 = 10\n5. Quartz layers: 4\n6. Remaining layers: 10 - 4 = 6\n7. Shale layers: 6 / 2 = 3\n8. Remaining layers: 6 - 3 = 3\n9. Different kinds of rock: 3\n\nI hope it is correct: 3 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $3$\n",
+        "ground_truth": "There are 25 - 5 = <<25-5=20>>20 layers of rock that are not limestone.\nHalf of those 20 are sandstone, so there are 20 / 2 = <<20/2=10>>10 that are not limestone or sandstone.\nFour of those are quartz, so 10 - 4 = <<10-4=6>>6 layers are not limestone, sandstone, or quartz.\nHalf of the rest are shale, so 6 / 2 = <<6/2=3>>3 kinds of rock remain that make up only one layer in the strata.\n#### 3"
+    }
+]

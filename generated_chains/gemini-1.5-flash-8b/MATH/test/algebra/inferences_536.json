@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSolve for the smallest value of $x$ such that $24x^2 + 17x - 20 = 0.$ Express your answer as a simplified common fraction.",
+        "inference": "Using the quadratic formula, $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$ for $ax^2 + bx + c = 0$, we have $a = 24$, $b = 17$, and $c = -20$. Plugging in the values, we get\n$$x = \\frac{-17 \\pm \\sqrt{17^2 - 4(24)(-20)}}{2(24)} = \\frac{-17 \\pm \\sqrt{289 + 1920}}{48} = \\frac{-17 \\pm \\sqrt{2209}}{48} = \\frac{-17 \\pm 47}{48}.$$\nThe two solutions are\n$$x_1 = \\frac{-17 + 47}{48} = \\frac{30}{48} = \\frac{5}{8}$$\nand\n$$x_2 = \\frac{-17 - 47}{48} = \\frac{-64}{48} = -\\frac{4}{3}.$$\nThe smallest value of $x$ is $-\\frac{4}{3}$.\nFinal Answer: $\\boxed{-\\frac{4}{3}}$\n",
+        "ground_truth": "Factoring, we have that $24x^2 + 17x - 20 =(3x+4)(8x-5) = 0.$ Therefore, the possible values of $x$ are $x = -\\dfrac{4}{3}$ and $x = \\dfrac{5}{8}.$ Of these, the lesser value is $\\boxed{-\\dfrac{4}{3}}.$"
+    },
+    {
+        "question": "Using the quadratic formula, $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$ for $ax^2 + bx + c = 0$, we have $a = 24$, $b = 17$, and $c = -20$. Plugging in the values, we get\n$$x = \\frac{-17 \\pm \\sqrt{17^2 - 4(24)(-20)}}{2(24)} = \\frac{-17 \\pm \\sqrt{289 + 1920}}{48} = \\frac{-17 \\pm \\sqrt{2209}}{48} = \\frac{-17 \\pm 47}{48}.$$\nThe two solutions are\n$$x_1 = \\frac{-17 + 47}{48} = \\frac{30}{48} = \\frac{5}{8}$$\nand\n$$x_2 = \\frac{-17 - 47}{48} = \\frac{-64}{48} = -\\frac{4}{3}.$$\nThe smallest value of $x$ is $-\\frac{4}{3}$.\nFinal Answer: $\\boxed{-\\frac{4}{3}}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct.\n\n$\\boxed{-\\frac{4}{3}}$\n",
+        "ground_truth": "Factoring, we have that $24x^2 + 17x - 20 =(3x+4)(8x-5) = 0.$ Therefore, the possible values of $x$ are $x = -\\dfrac{4}{3}$ and $x = \\dfrac{5}{8}.$ Of these, the lesser value is $\\boxed{-\\dfrac{4}{3}}.$"
+    }
+]

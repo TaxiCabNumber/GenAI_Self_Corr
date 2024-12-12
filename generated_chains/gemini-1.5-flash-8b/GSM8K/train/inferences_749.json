@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAnya has 4 times as many erasers as Andrea. If Andrea has 4 erasers, how many more erasers does Anya have than Andrea?",
+        "inference": "Andrea has 4 erasers.\nAnya has 4 times as many erasers as Andrea.\nAnya has 4 * 4 = 16 erasers.\nAnya has 16 - 4 = 12 more erasers than Andrea.\nI hope it is correct: 12 $answer$\n",
+        "ground_truth": "Anya has 4 x 4 = <<4*4=16>>16 erasers.\nThus, Anya has 16 - 4 = <<16-4=12>>12 more erasers than Andrea.\n#### 12"
+    },
+    {
+        "question": "Andrea has 4 erasers.\nAnya has 4 times as many erasers as Andrea.\nAnya has 4 * 4 = 16 erasers.\nAnya has 16 - 4 = 12 more erasers than Andrea.\nI hope it is correct: 12 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 12\n",
+        "ground_truth": "Anya has 4 x 4 = <<4*4=16>>16 erasers.\nThus, Anya has 16 - 4 = <<16-4=12>>12 more erasers than Andrea.\n#### 12"
+    }
+]

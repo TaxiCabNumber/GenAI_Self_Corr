@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nOn Monday Buddy has 30 baseball cards. On Tuesday Buddy loses half of them. On Wednesday Buddy buys 12 baseball cards. On Thursday he buys a third of what he had on Tuesday. How many baseball cards does he have on Thursday?",
+        "inference": "1. On Tuesday Buddy loses half of them. So, 30/2 = 15 cards.\n\n2. On Wednesday Buddy buys 12 baseball cards. So, 15 + 12 = 27 cards.\n\n3. On Thursday he buys a third of what he had on Tuesday. So, 15/3 = 5 cards.\n\n4. So, 27 + 5 = 32 cards.\nI hope it is correct: 32 $cards$",
+        "ground_truth": "On Tuesday Buddy has 30/2 = <<30/2=15>>15 baseball cards.\nOn Wednesday Buddy has 15+12 = <<15+12=27>>27 baseball cards.\nOn Thursday Buddy buys 15/3 = <<15/3=5>>5 baseball cards.\nOn Thursday Buddy has a total of 27+5 = <<27+5=32>>32 baseball cards.\n#### 32"
+    },
+    {
+        "question": "1. On Tuesday Buddy loses half of them. So, 30/2 = 15 cards.\n\n2. On Wednesday Buddy buys 12 baseball cards. So, 15 + 12 = 27 cards.\n\n3. On Thursday he buys a third of what he had on Tuesday. So, 15/3 = 5 cards.\n\n4. So, 27 + 5 = 32 cards.\nI hope it is correct: 32 $cards$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 32",
+        "ground_truth": "On Tuesday Buddy has 30/2 = <<30/2=15>>15 baseball cards.\nOn Wednesday Buddy has 15+12 = <<15+12=27>>27 baseball cards.\nOn Thursday Buddy buys 15/3 = <<15/3=5>>5 baseball cards.\nOn Thursday Buddy has a total of 27+5 = <<27+5=32>>32 baseball cards.\n#### 32"
+    }
+]

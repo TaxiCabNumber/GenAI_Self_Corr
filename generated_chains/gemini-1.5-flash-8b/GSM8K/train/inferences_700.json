@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTwo white socks cost 25 cents more than a single brown sock. If two white socks cost 45 cents, how much would you pay for 15 brown socks?",
+        "inference": "Two white socks cost 45 cents.\nOne white sock costs 45 cents / 2 = 22.5 cents.\nTwo white socks cost 25 cents more than a single brown sock.\nSo, 22.5 cents * 2 = 45 cents\n45 cents = brown sock price + 25 cents\nBrown sock price = 45 cents - 25 cents = 20 cents\n15 brown socks cost 20 cents/sock * 15 socks = 300 cents\n300 cents = $3.00\nI hope it is correct: $3.00\n",
+        "ground_truth": "Two white socks cost 25 cents more than a single brown sock, meaning a brown sock is sold at $0.45-$0.25=$0.20\nThe cost of buying 15 brown socks is 15*$0.20=$<<15*0.20=3>>3\n#### 3"
+    },
+    {
+        "question": "Two white socks cost 45 cents.\nOne white sock costs 45 cents / 2 = 22.5 cents.\nTwo white socks cost 25 cents more than a single brown sock.\nSo, 22.5 cents * 2 = 45 cents\n45 cents = brown sock price + 25 cents\nBrown sock price = 45 cents - 25 cents = 20 cents\n15 brown socks cost 20 cents/sock * 15 socks = 300 cents\n300 cents = $3.00\nI hope it is correct: $3.00\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $3.00\n",
+        "ground_truth": "Two white socks cost 25 cents more than a single brown sock, meaning a brown sock is sold at $0.45-$0.25=$0.20\nThe cost of buying 15 brown socks is 15*$0.20=$<<15*0.20=3>>3\n#### 3"
+    }
+]

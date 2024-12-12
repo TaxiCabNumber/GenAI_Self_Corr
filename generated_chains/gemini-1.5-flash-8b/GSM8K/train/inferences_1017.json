@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nStacy has 2 more than triple as many berries as Steve. Steve has one half as many berries as Skylar. If Skylar has 20 berries, how many berries does Stacy have?",
+        "inference": "1. Skylar has 20 berries.\n2. Steve has one half as many as Skylar, so Steve has 20/2 = 10 berries.\n3. Stacy has 2 more than triple as many berries as Steve, so Stacy has 3 * 10 + 2 = 32 berries.\n\nI hope it is correct: 32 $answer$\n",
+        "ground_truth": "Steve has (1/2)(20)=10 berries\nStacy has 2+3(10)=32 berries\n#### 32"
+    },
+    {
+        "question": "1. Skylar has 20 berries.\n2. Steve has one half as many as Skylar, so Steve has 20/2 = 10 berries.\n3. Stacy has 2 more than triple as many berries as Steve, so Stacy has 3 * 10 + 2 = 32 berries.\n\nI hope it is correct: 32 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "Stacy has 2 more than triple the number of berries Steve has. Steve has 10 berries.  3 * 10 + 2 = 32.\n\n#### $32$\n",
+        "ground_truth": "Steve has (1/2)(20)=10 berries\nStacy has 2+3(10)=32 berries\n#### 32"
+    }
+]

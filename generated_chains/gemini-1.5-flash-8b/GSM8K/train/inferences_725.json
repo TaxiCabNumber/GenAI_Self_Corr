@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTim has 30 toads. Jim has 20 more toads than Tim does. Sarah has twice as many toads as Jim does. How many toads does Sarah have?",
+        "inference": "1. Jim has 20 more toads than Tim: 30 + 20 = 50 toads\n2. Sarah has twice as many toads as Jim: 50 * 2 = 100 toads\n\nI hope it is correct: 100 $toads$\n",
+        "ground_truth": "Jim has 30+20 = <<30+20=50>>50 toads\nSarah has 50*2 = <<50*2=100>>100 toads\n#### 100"
+    },
+    {
+        "question": "1. Jim has 20 more toads than Tim: 30 + 20 = 50 toads\n2. Sarah has twice as many toads as Jim: 50 * 2 = 100 toads\n\nI hope it is correct: 100 $toads$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 100 toads\n",
+        "ground_truth": "Jim has 30+20 = <<30+20=50>>50 toads\nSarah has 50*2 = <<50*2=100>>100 toads\n#### 100"
+    }
+]

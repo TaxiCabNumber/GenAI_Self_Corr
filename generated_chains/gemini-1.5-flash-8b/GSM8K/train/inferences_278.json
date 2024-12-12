@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe price of a home is $98 per square foot (sq ft).  The house is 2,400 sq ft and the barn out back is 1,000 sq ft.  How much is this property?",
+        "inference": "1. Calculate the total square footage of the house and barn: 2400 sq ft + 1000 sq ft = 3400 sq ft\n2. Calculate the total cost of the house: 3400 sq ft * $98/sq ft = $333,200\nI hope it is correct: $333,200\n",
+        "ground_truth": "The house is 2,400 sq ft and the barn is 1,000 sq ft so it's 2400+1000 = <<2400+1000=3400>>3,400 sq ft\nThe price is $98 per sq ft and it's 3,400 sq ft big so the property costs 98*3400 = $<<98*3400=333200.00>>333,200.00\n#### 333200"
+    },
+    {
+        "question": "1. Calculate the total square footage of the house and barn: 2400 sq ft + 1000 sq ft = 3400 sq ft\n2. Calculate the total cost of the house: 3400 sq ft * $98/sq ft = $333,200\nI hope it is correct: $333,200\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $333200\n",
+        "ground_truth": "The house is 2,400 sq ft and the barn is 1,000 sq ft so it's 2400+1000 = <<2400+1000=3400>>3,400 sq ft\nThe price is $98 per sq ft and it's 3,400 sq ft big so the property costs 98*3400 = $<<98*3400=333200.00>>333,200.00\n#### 333200"
+    }
+]

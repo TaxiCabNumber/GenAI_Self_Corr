@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTim has 30 less apples than Martha, and Harry has half as many apples as Tim. If Martha has 68 apples, how many apples does Harry have?",
+        "inference": "1. Martha has 68 apples.\n2. Tim has 30 less apples than Martha, so Tim has 68 - 30 = 38 apples.\n3. Harry has half as many apples as Tim, so Harry has 38 / 2 = 19 apples.\nI hope it is correct: 19",
+        "ground_truth": "Tim has 68-30 = <<68-30=38>>38 apples.\nHarry has 38/2 = <<38/2=19>>19 apples.\n#### 19"
+    },
+    {
+        "question": "1. Martha has 68 apples.\n2. Tim has 30 less apples than Martha, so Tim has 68 - 30 = 38 apples.\n3. Harry has half as many apples as Tim, so Harry has 38 / 2 = 19 apples.\nI hope it is correct: 19\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$19",
+        "ground_truth": "Tim has 68-30 = <<68-30=38>>38 apples.\nHarry has 38/2 = <<38/2=19>>19 apples.\n#### 19"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIt takes Roque two hours to walk to work and one hour to ride his bike to work. Roque walks to and from work three times a week and rides his bike to and from work twice a week. How many hours in total does he take to get to and from work a week with walking and biking?",
+        "inference": "Walking: 2 hours/trip * 2 trips/day * 3 days/week = 12 hours/week\nBiking: 1 hour/trip * 2 trips/day * 2 days/week = 4 hours/week\nTotal: 12 hours + 4 hours = 16 hours\nI hope it is correct: 16 $hours$\n",
+        "ground_truth": "Roque takes 2*3 = <<2*3=6>>6 hours a week to walk to work.\nRoque takes 6*2 = <<6*2=12>>12 hours a week to walk to and from work.\nRoque takes 1*2 = <<1*2=2>>2 hours a week to bike to work.\nRoque takes 2*2 = <<2*2=4>>4 hours a week to bike to and from work.\nIn total, Roque takes 12+4 = <<12+4=16>>16 hour a week to go to and from work.\n#### 16"
+    },
+    {
+        "question": "Walking: 2 hours/trip * 2 trips/day * 3 days/week = 12 hours/week\nBiking: 1 hour/trip * 2 trips/day * 2 days/week = 4 hours/week\nTotal: 12 hours + 4 hours = 16 hours\nI hope it is correct: 16 $hours$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 16 hours\n",
+        "ground_truth": "Roque takes 2*3 = <<2*3=6>>6 hours a week to walk to work.\nRoque takes 6*2 = <<6*2=12>>12 hours a week to walk to and from work.\nRoque takes 1*2 = <<1*2=2>>2 hours a week to bike to work.\nRoque takes 2*2 = <<2*2=4>>4 hours a week to bike to and from work.\nIn total, Roque takes 12+4 = <<12+4=16>>16 hour a week to go to and from work.\n#### 16"
+    }
+]

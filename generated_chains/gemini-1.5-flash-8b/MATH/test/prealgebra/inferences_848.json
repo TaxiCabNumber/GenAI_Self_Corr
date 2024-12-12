@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA convex pentagon has three right angles. The other two angles are congruent to each other. What is the measure, in degrees, of one of these other angles?",
+        "inference": "The sum of the interior angles of a pentagon is (5-2)*180 = 540 degrees.\nLet the three right angles be 90 degrees each.\nLet the two congruent angles be x degrees each.\nThen 3*90 + 2*x = 540\n270 + 2x = 540\n2x = 540 - 270\n2x = 270\nx = 135\nFinal Answer: $\\boxed{135}$ I hope it is correct.\n",
+        "ground_truth": "The sum of the interior angles of an $n$-gon measures $180^\\circ(n-2)$.  The five angles of a pentagon sum to 540 degrees, so if a pentagon has three right angles and two other angles each of which measures $x$ degrees, then  \\[\n3\\cdot90+2x=540.\n\\] Solving, we find $x=\\boxed{135}$ degrees."
+    },
+    {
+        "question": "The sum of the interior angles of a pentagon is (5-2)*180 = 540 degrees.\nLet the three right angles be 90 degrees each.\nLet the two congruent angles be x degrees each.\nThen 3*90 + 2*x = 540\n270 + 2x = 540\n2x = 540 - 270\n2x = 270\nx = 135\nFinal Answer: $\\boxed{135}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Let the three right angles be 90 degrees each.  Let the two congruent angles be x degrees each.  The sum of the interior angles of a pentagon is (5-2)*180 = 540 degrees.\nThus, 3(90) + 2x = 540\n270 + 2x = 540\n2x = 270\nx = 135\n\nFinal Answer: $\\boxed{135}$",
+        "ground_truth": "The sum of the interior angles of an $n$-gon measures $180^\\circ(n-2)$.  The five angles of a pentagon sum to 540 degrees, so if a pentagon has three right angles and two other angles each of which measures $x$ degrees, then  \\[\n3\\cdot90+2x=540.\n\\] Solving, we find $x=\\boxed{135}$ degrees."
+    }
+]

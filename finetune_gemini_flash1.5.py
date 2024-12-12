@@ -27,7 +27,7 @@ Train the LLM using the REINFORCE algorithm to optimize self-correction behavior
 Validate the model's final inferences against actual answers to measure accuracy.
 
 '''
-dataset_path = "./generated_dataset/MATH/train"
+dataset_path = "./generated_chains/MATH/train"
 model_name = "gemini-1.5-flash-8b"
 output_path = "gsm8k_processed"
 

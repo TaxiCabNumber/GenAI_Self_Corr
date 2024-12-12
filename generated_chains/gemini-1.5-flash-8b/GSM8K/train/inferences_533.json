@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere were 100 jelly beans in a bag to be given away on Halloween. Out of the 40 children taking part in the Halloween celebration, 80% were allowed to draw jelly beans from the bag. Each child drew two jelly beans out of the bag. How many jelly beans remained in the bag after the children took their share?",
+        "inference": "1. Calculate the number of children allowed to draw jelly beans: 40 children * 80% = 32 children\n2. Calculate the total number of jelly beans drawn: 32 children * 2 jelly beans/child = 64 jelly beans\n3. Calculate the number of jelly beans remaining: 100 jelly beans - 64 jelly beans = 36 jelly beans\n\nI hope it is correct: 36 $jelly beans$\n",
+        "ground_truth": "Out of the 40 children taking part in the Halloween celebration, 80% were allowed to draw jelly beans from the bag, a total of 80/100*40=<<80/100*40=32>>32 children.\nIf each of the 32 children drew two jelly beans out of the bag, they drew a total of 32*2=<<32*2=64>>64 jelly beans from the bag.\nThe total number of jelly beans that remained is 100-64=<<100-64=36>>36\n#### 36"
+    },
+    {
+        "question": "1. Calculate the number of children allowed to draw jelly beans: 40 children * 80% = 32 children\n2. Calculate the total number of jelly beans drawn: 32 children * 2 jelly beans/child = 64 jelly beans\n3. Calculate the number of jelly beans remaining: 100 jelly beans - 64 jelly beans = 36 jelly beans\n\nI hope it is correct: 36 $jelly beans$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 36 jelly beans\n",
+        "ground_truth": "Out of the 40 children taking part in the Halloween celebration, 80% were allowed to draw jelly beans from the bag, a total of 80/100*40=<<80/100*40=32>>32 children.\nIf each of the 32 children drew two jelly beans out of the bag, they drew a total of 32*2=<<32*2=64>>64 jelly beans from the bag.\nThe total number of jelly beans that remained is 100-64=<<100-64=36>>36\n#### 36"
+    }
+]

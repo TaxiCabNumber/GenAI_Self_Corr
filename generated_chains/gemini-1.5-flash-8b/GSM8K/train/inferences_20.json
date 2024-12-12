@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBella bought stamps at the post office. Some of the stamps had a snowflake design, some had a truck design, and some had a rose design. Bella bought 11 snowflake stamps. She bought 9 more truck stamps than snowflake stamps, and 13 fewer rose stamps than truck stamps. How many stamps did Bella buy in all?",
+        "inference": "1. Snowflake stamps: 11\n2. Truck stamps: 11 + 9 = 20\n3. Rose stamps: 20 - 13 = 7\n4. Total stamps: 11 + 20 + 7 = 38\n\nI hope it is correct: 38 $\n",
+        "ground_truth": "The number of truck stamps is 11 + 9 = <<11+9=20>>20.\nThe number of rose stamps is 20 \u2212 13 = <<20-13=7>>7.\nBella bought 11 + 20 + 7 = <<11+20+7=38>>38 stamps in all.\n#### 38"
+    },
+    {
+        "question": "1. Snowflake stamps: 11\n2. Truck stamps: 11 + 9 = 20\n3. Rose stamps: 20 - 13 = 7\n4. Total stamps: 11 + 20 + 7 = 38\n\nI hope it is correct: 38 $\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $38\n",
+        "ground_truth": "The number of truck stamps is 11 + 9 = <<11+9=20>>20.\nThe number of rose stamps is 20 \u2212 13 = <<20-13=7>>7.\nBella bought 11 + 20 + 7 = <<11+20+7=38>>38 stamps in all.\n#### 38"
+    }
+]

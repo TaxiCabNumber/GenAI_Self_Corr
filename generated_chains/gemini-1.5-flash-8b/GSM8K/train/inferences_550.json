@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRandy had $3,000. Smith gave him another $200. Randy then gave Sally $1,200 and kept the rest. What was the value, in dollars, of the rest?",
+        "inference": "1. Randy started with $3,000.\n2. Smith gave him $200, so Randy had $3,000 + $200 = $3,200.\n3. Randy gave Sally $1,200.\n4. The rest Randy kept is $3,200 - $1,200 = $2,000.\n\nI hope it is correct: $2000\n",
+        "ground_truth": "After Smith gave him $200, Randy had 3000+200=<<3000+200=3200>>3200 dollars.\nThe value of the rest of the money is 3200-1200=<<3200-1200=2000>>2000 dollars.\n#### 2000"
+    },
+    {
+        "question": "1. Randy started with $3,000.\n2. Smith gave him $200, so Randy had $3,000 + $200 = $3,200.\n3. Randy gave Sally $1,200.\n4. The rest Randy kept is $3,200 - $1,200 = $2,000.\n\nI hope it is correct: $2000\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $2000\n",
+        "ground_truth": "After Smith gave him $200, Randy had 3000+200=<<3000+200=3200>>3200 dollars.\nThe value of the rest of the money is 3200-1200=<<3200-1200=2000>>2000 dollars.\n#### 2000"
+    }
+]

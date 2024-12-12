@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nCupcakes are sold in packages of 10 and 15. Jean bought 4 packs of 15 cupcakes.  If she will give one cupcake each to 100 children in the orphanage, how many packs of 10 cupcakes should she need to buy?",
+        "inference": "1. Cupcakes in 4 packs of 15: 4 packs * 15 cupcakes/pack = 60 cupcakes\n2. Cupcakes needed to give to 100 children: 100 children * 1 cupcake/child = 100 cupcakes\n3. Cupcakes still needed: 100 cupcakes - 60 cupcakes = 40 cupcakes\n4. Packs of 10 cupcakes needed: 40 cupcakes / 10 cupcakes/pack = 4 packs\n\nI hope it is correct: 4 $packs$\n",
+        "ground_truth": "Jean already bought 15 cupcakes x 4 packs = <<15*4=60>>60 cupcakes.\nShe needs 100 - 60 = <<100-60=40>>40 more cupcakes.\nThus, she needs to buy 40/10 = <<40/10=4>>4 packs of 10 cupcakes.\n#### 4"
+    },
+    {
+        "question": "1. Cupcakes in 4 packs of 15: 4 packs * 15 cupcakes/pack = 60 cupcakes\n2. Cupcakes needed to give to 100 children: 100 children * 1 cupcake/child = 100 cupcakes\n3. Cupcakes still needed: 100 cupcakes - 60 cupcakes = 40 cupcakes\n4. Packs of 10 cupcakes needed: 40 cupcakes / 10 cupcakes/pack = 4 packs\n\nI hope it is correct: 4 $packs$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 4\n",
+        "ground_truth": "Jean already bought 15 cupcakes x 4 packs = <<15*4=60>>60 cupcakes.\nShe needs 100 - 60 = <<100-60=40>>40 more cupcakes.\nThus, she needs to buy 40/10 = <<40/10=4>>4 packs of 10 cupcakes.\n#### 4"
+    }
+]

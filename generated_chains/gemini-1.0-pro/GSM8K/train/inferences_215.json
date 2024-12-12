@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA church has 120 members. 40% are adults. The rest are children. How many children more children are there than adults?",
+        "inference": "1. Find 40% of 120: 120 * 0.4 = 48\n2. The church has 48 adults.\n3. Therefore, there are 120 - 48 = 72 children.\n4. The difference between the number of children and adults is 72 - 48 = 24.\nI hope it is correct: 24",
+        "ground_truth": "There are 48 adults because 120 x .4 = <<120*.4=48>>48\n60% of members are children because 100 - 40 = <<100-40=60>>60\nThere are 72 children because 120 x .6 = <<120*.6=72>>72\nThere are 24 more children than adults because 72 - 48 = <<72-48=24>>24\n#### 24"
+    },
+    {
+        "question": "1. Find 40% of 120: 120 * 0.4 = 48\n2. The church has 48 adults.\n3. Therefore, there are 120 - 48 = 72 children.\n4. The difference between the number of children and adults is 72 - 48 = 24.\nI hope it is correct: 24\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$24",
+        "ground_truth": "There are 48 adults because 120 x .4 = <<120*.4=48>>48\n60% of members are children because 100 - 40 = <<100-40=60>>60\nThere are 72 children because 120 x .6 = <<120*.6=72>>72\nThere are 24 more children than adults because 72 - 48 = <<72-48=24>>24\n#### 24"
+    }
+]

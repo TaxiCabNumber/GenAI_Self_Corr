@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMr. Caiden wants to do repairs to his house and requires 300 feet of metal roofing to do this. If each foot of roofing costs $8, and the supplier of the metal roofing brings in 250 feet of metal roofing for free, how much money is Mr. Caiden required to pay for the remaining metal roofing?",
+        "inference": "1. Calculate the amount of roofing needed after the free portion: 300 feet - 250 feet = 50 feet\n\n2. Calculate the cost of the remaining roofing: 50 feet * $8/foot = $400\n\nI hope it is correct: $400\n",
+        "ground_truth": "The supplier brought 300 ft - 250 ft = <<300-250=50>>50 fewer feet of metal roofing.\nTherefore the total amount of money Mr. Caiden has to pay for the remaining metal roofings is 50 feet * $8/foot = $<<50*8=400>>400\n#### 400"
+    },
+    {
+        "question": "1. Calculate the amount of roofing needed after the free portion: 300 feet - 250 feet = 50 feet\n\n2. Calculate the cost of the remaining roofing: 50 feet * $8/foot = $400\n\nI hope it is correct: $400\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $400\n",
+        "ground_truth": "The supplier brought 300 ft - 250 ft = <<300-250=50>>50 fewer feet of metal roofing.\nTherefore the total amount of money Mr. Caiden has to pay for the remaining metal roofings is 50 feet * $8/foot = $<<50*8=400>>400\n#### 400"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJanice's office is on the third floor, and she has to walk up 3 flights of stairs to get to her office.  In a single day, she goes up the three flights of stairs 5 times, down the the three flights of stairs 3 times, and uses the elevator the remainder of the time.  How many flights of stairs does Janice walk (up and down) in a single day?",
+        "inference": "1) Janice goes up 3 flights of stairs 5 times: $5 \\times 3 = 15$\n2) Janice goes down 3 flights of stairs 3 times: $3 \\times 3 = 9$\n3) Janice walks (up and down) $15 + 9 = 24$ flights of stairs in a single day.\n\nI hope it is correct: $24$",
+        "ground_truth": "Janice walks up 3 flights of stairs 5 times per day, for a total of 3*5 = <<3*5=15>>15 flights of stairs\nJanice walks down 3 flights of stairs 3 times per day, for a total of 3*3 = <<3*3=9>>9 flights of stairs\nIn total, she walks 15+9=<<15+9=24>>24 flights of stairs in a single day\n#### 24"
+    },
+    {
+        "question": "1) Janice goes up 3 flights of stairs 5 times: $5 \\times 3 = 15$\n2) Janice goes down 3 flights of stairs 3 times: $3 \\times 3 = 9$\n3) Janice walks (up and down) $15 + 9 = 24$ flights of stairs in a single day.\n\nI hope it is correct: $24$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$24",
+        "ground_truth": "Janice walks up 3 flights of stairs 5 times per day, for a total of 3*5 = <<3*5=15>>15 flights of stairs\nJanice walks down 3 flights of stairs 3 times per day, for a total of 3*3 = <<3*3=9>>9 flights of stairs\nIn total, she walks 15+9=<<15+9=24>>24 flights of stairs in a single day\n#### 24"
+    }
+]

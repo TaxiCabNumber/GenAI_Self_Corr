@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe solution to $-4 < 2(x - 1) < 8$ is expressed in the form $a < x < b$. Find the value of $a + b$.",
+        "inference": "Divide the inequality by 2:\n$-4 < 2(x - 1) < 8$\n$\\frac{-4}{2} < \\frac{2(x - 1)}{2} < \\frac{8}{2}$\n$-2 < x - 1 < 4$\nAdd 1 to all parts of the inequality:\n$-2 + 1 < x - 1 + 1 < 4 + 1$\n$-1 < x < 5$\nThus, $a = -1$ and $b = 5$.\n$a + b = -1 + 5 = 4$\nFinal Answer: $\\boxed{4}$ I hope it is correct.\n",
+        "ground_truth": "Since everything in sight is even, we should begin by dividing by 2.  That gives \\[-2<x-1<4.\\] To isolate $x$, we add 1, so \\[-1<x<5.\\] Since $a=-1$ and $b=5$, we get $a+b=-1+5=\\boxed{4}$."
+    },
+    {
+        "question": "Divide the inequality by 2:\n$-4 < 2(x - 1) < 8$\n$\\frac{-4}{2} < \\frac{2(x - 1)}{2} < \\frac{8}{2}$\n$-2 < x - 1 < 4$\nAdd 1 to all parts of the inequality:\n$-2 + 1 < x - 1 + 1 < 4 + 1$\n$-1 < x < 5$\nThus, $a = -1$ and $b = 5$.\n$a + b = -1 + 5 = 4$\nFinal Answer: $\\boxed{4}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$-4 < 2(x-1) < 8$\nDivide by 2:\n$-2 < x-1 < 4$\nAdd 1 to all parts:\n$-2+1 < x-1+1 < 4+1$\n$-1 < x < 5$\n$a = -1, b = 5$\n$a+b = -1 + 5 = 4$\n\n$\\boxed{4}$\n",
+        "ground_truth": "Since everything in sight is even, we should begin by dividing by 2.  That gives \\[-2<x-1<4.\\] To isolate $x$, we add 1, so \\[-1<x<5.\\] Since $a=-1$ and $b=5$, we get $a+b=-1+5=\\boxed{4}$."
+    }
+]

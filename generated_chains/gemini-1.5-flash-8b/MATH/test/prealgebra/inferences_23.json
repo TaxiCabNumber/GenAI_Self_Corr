@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSimplify the fraction $\\frac{16}{20}$.",
+        "inference": "1. Find the greatest common divisor (GCD) of 16 and 20.  The factors of 16 are 1, 2, 4, 8, 16. The factors of 20 are 1, 2, 4, 5, 10, 20. The greatest common factor is 4.\n2. Divide both the numerator and denominator by the GCD: $\\frac{16}{4} = 4$ and $\\frac{20}{4} = 5$.\nFinal Answer: $\\boxed{\\frac{4}{5}}$\n",
+        "ground_truth": "Since 16 and 20 have a common factor of 4, we can simplify \\[\n\\frac{16}{20}=\\frac{4\\cdot 4}{5\\cdot 4}=\\frac{4\\cdot \\cancel{4}}{5\\cdot \\cancel{4}}=\\boxed{\\frac{4}{5}}.\n\\]"
+    },
+    {
+        "question": "1. Find the greatest common divisor (GCD) of 16 and 20.  The factors of 16 are 1, 2, 4, 8, 16. The factors of 20 are 1, 2, 4, 5, 10, 20. The greatest common factor is 4.\n2. Divide both the numerator and denominator by the GCD: $\\frac{16}{4} = 4$ and $\\frac{20}{4} = 5$.\nFinal Answer: $\\boxed{\\frac{4}{5}}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "1. The greatest common divisor (GCD) of 16 and 20 is 4.\n2. Dividing both the numerator and denominator by the GCD, we get $\\frac{16}{4} = 4$ and $\\frac{20}{4} = 5$.\n\nFinal Answer: $\\boxed{\\frac{4}{5}}$",
+        "ground_truth": "Since 16 and 20 have a common factor of 4, we can simplify \\[\n\\frac{16}{20}=\\frac{4\\cdot 4}{5\\cdot 4}=\\frac{4\\cdot \\cancel{4}}{5\\cdot \\cancel{4}}=\\boxed{\\frac{4}{5}}.\n\\]"
+    }
+]

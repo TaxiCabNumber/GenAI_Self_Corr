@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMatt buys a massager.  At the lowest setting, it vibrates at 1600 vibrations per second.  At the highest setting, it vibrates 60% faster.  Matt uses it for 5 minutes at the highest setting.  How many vibrations does he experience?",
+        "inference": "1. Calculate the number of vibrations per second at the highest setting.\n60% faster means 160 % of the original 1600 vibrations per second.\n160% of 1600 = 1.6 x 1600 = 2560 vibrations per second.\n\n2. Convert 5 minutes to seconds.\n5 minutes = 5 * 60 = 300 seconds.\n\n3. Calculate the total number of vibrations.\nTotal vibrations = vibrations per second x number of seconds\nTotal vibrations = 2560 vibrations per second x 300 seconds = 768,000 vibrations\n\nI hope it is correct: 768,000",
+        "ground_truth": "At the highest setting, it vibrates 1600*.6=<<1600*.6=960>>960 vibrations per second faster than the lowest setting\nSo it vibrates at 1600+960=<<1600+960=2560>>2560 vibrations per second\nMatt uses it for 5 minutes so that is 5*60=<<5*60=300>>300 seconds\nThat means he experienced 2560*300=<<2560*300=768000>>768,000 vibrations\n#### 768000"
+    },
+    {
+        "question": "1. Calculate the number of vibrations per second at the highest setting.\n60% faster means 160 % of the original 1600 vibrations per second.\n160% of 1600 = 1.6 x 1600 = 2560 vibrations per second.\n\n2. Convert 5 minutes to seconds.\n5 minutes = 5 * 60 = 300 seconds.\n\n3. Calculate the total number of vibrations.\nTotal vibrations = vibrations per second x number of seconds\nTotal vibrations = 2560 vibrations per second x 300 seconds = 768,000 vibrations\n\nI hope it is correct: 768,000\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$768,000",
+        "ground_truth": "At the highest setting, it vibrates 1600*.6=<<1600*.6=960>>960 vibrations per second faster than the lowest setting\nSo it vibrates at 1600+960=<<1600+960=2560>>2560 vibrations per second\nMatt uses it for 5 minutes so that is 5*60=<<5*60=300>>300 seconds\nThat means he experienced 2560*300=<<2560*300=768000>>768,000 vibrations\n#### 768000"
+    }
+]

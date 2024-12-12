@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA number $x$ is 3 larger than its reciprocal.  What is the value of $\\left(x-\\frac{1}{x}\\right)^4$?",
+        "inference": "Let $x$ be a number such that $x$ is 3 larger than its reciprocal.\nThis means $x = \\frac{1}{x} + 3$.\nMultiply both sides by $x$ to get $x^2 = 1 + 3x$.\nRearranging gives $x^2 - 3x - 1 = 0$.\nWe want to find the value of $\\left(x-\\frac{1}{x}\\right)^4$.\nFirst, we find $x - \\frac{1}{x}$.\nFrom $x^2 - 3x - 1 = 0$, we can write $x^2 = 3x + 1$.\nDividing by $x$ gives $x - \\frac{1}{x} = \\frac{x^2 - 1}{x} = \\frac{3x + 1 - 1}{x} = \\frac{3x}{x} = 3$.\nThen $\\left(x-\\frac{1}{x}\\right)^4 = 3^4 = 81$.\nFinal Answer: $\\boxed{81}$\n",
+        "ground_truth": "The sentence is telling us, in algebra,  $$x=3+\\frac{1}{x}$$ A more useful form for us is $$x-\\frac{1}{x}=3$$ From there, we can bring both sides to the fourth power: $$\\left(x-\\frac{1}{x}\\right)^4=\\boxed{81}$$"
+    },
+    {
+        "question": "Let $x$ be a number such that $x$ is 3 larger than its reciprocal.\nThis means $x = \\frac{1}{x} + 3$.\nMultiply both sides by $x$ to get $x^2 = 1 + 3x$.\nRearranging gives $x^2 - 3x - 1 = 0$.\nWe want to find the value of $\\left(x-\\frac{1}{x}\\right)^4$.\nFirst, we find $x - \\frac{1}{x}$.\nFrom $x^2 - 3x - 1 = 0$, we can write $x^2 = 3x + 1$.\nDividing by $x$ gives $x - \\frac{1}{x} = \\frac{x^2 - 1}{x} = \\frac{3x + 1 - 1}{x} = \\frac{3x}{x} = 3$.\nThen $\\left(x-\\frac{1}{x}\\right)^4 = 3^4 = 81$.\nFinal Answer: $\\boxed{81}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "From $x = \\frac{1}{x} + 3$, we have $x - \\frac{1}{x} = 3$.\nThen $\\left(x - \\frac{1}{x}\\right)^2 = 3^2 = 9$.\nExpanding, we get $x^2 - 2 + \\frac{1}{x^2} = 9$.\nSo $x^2 + \\frac{1}{x^2} = 11$.\nThen $\\left(x-\\frac{1}{x}\\right)^4 = (3)^4 = 81$.\n\nFinal Answer: $\\boxed{81}$",
+        "ground_truth": "The sentence is telling us, in algebra,  $$x=3+\\frac{1}{x}$$ A more useful form for us is $$x-\\frac{1}{x}=3$$ From there, we can bring both sides to the fourth power: $$\\left(x-\\frac{1}{x}\\right)^4=\\boxed{81}$$"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIn ten years, I'll be twice my brother's age. The sum of our ages will then be 45 years old. How old am I now?",
+        "inference": "Let my current age be 'x' and my brother's current age be 'y'.\n\nIn ten years, my age will be x + 10 and my brother's age will be y + 10.\n\nGiven:\n1) x + 10 = 2(y + 10)  (I'll be twice my brother's age in 10 years)\n2) (x + 10) + (y + 10) = 45  (The sum of our ages in 10 years will be 45)\n\nFrom equation 2):\nx + y + 20 = 45\nx + y = 25\n\nFrom equation 1):\nx + 10 = 2y + 20\nx = 2y + 10\n\nSubstitute x = 2y + 10 into x + y = 25:\n2y + 10 + y = 25\n3y = 15\ny = 5\n\nNow find x:\nx = 2y + 10 = 2(5) + 10 = 20\n\nMy current age is 20.\n\nI hope it is correct: 20 $answer$\n",
+        "ground_truth": "Let X be my age now.\nIn ten years, I'll be X+<<+10=10>>10 years old.\nIn ten years, my brother will be (X+10)*1/2 years old.\nIn ten years, (X+10) + (X+10)*1/2 = 45.\nSo (X+10)*3/2 = 45.\nX+10 = 45 * 2/3 = 30.\nX = 30 - 10 = <<30-10=20>>20 years old.\n#### 20"
+    },
+    {
+        "question": "Let my current age be 'x' and my brother's current age be 'y'.\n\nIn ten years, my age will be x + 10 and my brother's age will be y + 10.\n\nGiven:\n1) x + 10 = 2(y + 10)  (I'll be twice my brother's age in 10 years)\n2) (x + 10) + (y + 10) = 45  (The sum of our ages in 10 years will be 45)\n\nFrom equation 2):\nx + y + 20 = 45\nx + y = 25\n\nFrom equation 1):\nx + 10 = 2y + 20\nx = 2y + 10\n\nSubstitute x = 2y + 10 into x + y = 25:\n2y + 10 + y = 25\n3y = 15\ny = 5\n\nNow find x:\nx = 2y + 10 = 2(5) + 10 = 20\n\nMy current age is 20.\n\nI hope it is correct: 20 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 20\n",
+        "ground_truth": "Let X be my age now.\nIn ten years, I'll be X+<<+10=10>>10 years old.\nIn ten years, my brother will be (X+10)*1/2 years old.\nIn ten years, (X+10) + (X+10)*1/2 = 45.\nSo (X+10)*3/2 = 45.\nX+10 = 45 * 2/3 = 30.\nX = 30 - 10 = <<30-10=20>>20 years old.\n#### 20"
+    }
+]

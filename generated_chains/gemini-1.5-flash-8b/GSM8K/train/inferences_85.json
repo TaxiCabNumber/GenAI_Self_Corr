@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nFour classmates were comparing their ages based on their birth month. They found out that Jolyn is 2 months older than Therese while Therese is 5 months older than Aivo. Then, Leon is 2 months older than Aivo. How much older in months is Jolyn than Leon?",
+        "inference": "1. Jolyn is 2 months older than Therese.\n2. Therese is 5 months older than Aivo.\n3. Leon is 2 months older than Aivo.\n\nFrom step 2, Therese's age = Aivo's age + 5 months.\nFrom step 1, Jolyn's age = Therese's age + 2 months = (Aivo's age + 5 months) + 2 months = Aivo's age + 7 months.\nFrom step 3, Leon's age = Aivo's age + 2 months.\n\nTo find how much older Jolyn is than Leon, we subtract Leon's age from Jolyn's age:\nJolyn's age - Leon's age = (Aivo's age + 7 months) - (Aivo's age + 2 months) = 5 months.\n\nI hope it is correct: 5 $months$\n",
+        "ground_truth": "Jolyn is 2 + 5 = <<2+5=7>>7 months older than Aivo.\nSince Leon is 2 months older than Aivo, then Jolyn is 7 - 2 = 5 months older than Leon.\n#### 5"
+    },
+    {
+        "question": "1. Jolyn is 2 months older than Therese.\n2. Therese is 5 months older than Aivo.\n3. Leon is 2 months older than Aivo.\n\nFrom step 2, Therese's age = Aivo's age + 5 months.\nFrom step 1, Jolyn's age = Therese's age + 2 months = (Aivo's age + 5 months) + 2 months = Aivo's age + 7 months.\nFrom step 3, Leon's age = Aivo's age + 2 months.\n\nTo find how much older Jolyn is than Leon, we subtract Leon's age from Jolyn's age:\nJolyn's age - Leon's age = (Aivo's age + 7 months) - (Aivo's age + 2 months) = 5 months.\n\nI hope it is correct: 5 $months$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 5 months\n",
+        "ground_truth": "Jolyn is 2 + 5 = <<2+5=7>>7 months older than Aivo.\nSince Leon is 2 months older than Aivo, then Jolyn is 7 - 2 = 5 months older than Leon.\n#### 5"
+    }
+]

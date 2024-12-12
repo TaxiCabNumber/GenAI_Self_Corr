@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nOn Monday Samson ate 3 sandwiches at lunch and ate twice as many at dinner. The next morning, he felt sick from eating all those sandwiches, so he only ate one sandwich for breakfast. How many more sandwiches in total did Samson eat on Monday than Tuesday?",
+        "inference": "Sandwiches at lunch: 3\nSandwiches at dinner: 3 * 2 = 6\nTotal sandwiches on Monday: 3 + 6 = 9\nSandwiches on Tuesday: 1\nDifference: 9 - 1 = 8\n\nI hope it is correct: 8\n",
+        "ground_truth": "Samson ate 3 sandwiches x 2 = <<3*2=6>>6 sandwiches at dinner on Monday\nHe ate 3 sandwiches + 6 sandwiches = <<3+6=9>>9 sandwiches total on Monday\nTherefore, he ate 9 sandwiches - 1 sandwich = 8 more sandwiches on Monday than Tuesday\n#### 8"
+    },
+    {
+        "question": "Sandwiches at lunch: 3\nSandwiches at dinner: 3 * 2 = 6\nTotal sandwiches on Monday: 3 + 6 = 9\nSandwiches on Tuesday: 1\nDifference: 9 - 1 = 8\n\nI hope it is correct: 8\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $8$\n",
+        "ground_truth": "Samson ate 3 sandwiches x 2 = <<3*2=6>>6 sandwiches at dinner on Monday\nHe ate 3 sandwiches + 6 sandwiches = <<3+6=9>>9 sandwiches total on Monday\nTherefore, he ate 9 sandwiches - 1 sandwich = 8 more sandwiches on Monday than Tuesday\n#### 8"
+    }
+]

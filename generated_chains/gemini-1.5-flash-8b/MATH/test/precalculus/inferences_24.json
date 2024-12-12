@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe curve parameterized by $(x,y) = (2t + 5, 12t^2 - 8t - 7)$ is a parabola, where $t$ is a real number.  Find the equation of the parabola.  Enter the equation in the form \"$y = ax^2 + bx + c$\".",
+        "inference": "1.  We have $x = 2t + 5$.  Solving for $t$, we get $t = \\frac{x-5}{2}$.\n\n2. Substitute this expression for $t$ into the equation for $y$:\n$y = 12\\left(\\frac{x-5}{2}\\right)^2 - 8\\left(\\frac{x-5}{2}\\right) - 7$.\n\n3. Simplify:\n$y = 12\\left(\\frac{x^2 - 10x + 25}{4}\\right) - 4(x-5) - 7$\n$y = 3x^2 - 30x + 75 - 4x + 20 - 7$\n$y = 3x^2 - 34x + 88$\n\nFinal Answer: $\\boxed{y = 3x^2 - 34x + 88}$\n",
+        "ground_truth": "Let $x = 2t + 5$ and $y = 12t^2 - 8t - 7.$  Then $t = \\frac{x - 5}{2},$ and\n\\begin{align*}\ny &= 12t^2 - 8t - 7 \\\\\n&= 12 \\left( \\frac{x - 5}{2} \\right)^2 - 8 \\cdot \\frac{x - 5}{2} - 7 \\\\\n&= 3x^2 - 34x + 88.\n\\end{align*}Thus, the equation of the parabola is $\\boxed{y = 3x^2 - 34x + 88}.$"
+    },
+    {
+        "question": "1.  We have $x = 2t + 5$.  Solving for $t$, we get $t = \\frac{x-5}{2}$.\n\n2. Substitute this expression for $t$ into the equation for $y$:\n$y = 12\\left(\\frac{x-5}{2}\\right)^2 - 8\\left(\\frac{x-5}{2}\\right) - 7$.\n\n3. Simplify:\n$y = 12\\left(\\frac{x^2 - 10x + 25}{4}\\right) - 4(x-5) - 7$\n$y = 3x^2 - 30x + 75 - 4x + 20 - 7$\n$y = 3x^2 - 34x + 88$\n\nFinal Answer: $\\boxed{y = 3x^2 - 34x + 88}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{y = 3x^2 - 34x + 88}$\n",
+        "ground_truth": "Let $x = 2t + 5$ and $y = 12t^2 - 8t - 7.$  Then $t = \\frac{x - 5}{2},$ and\n\\begin{align*}\ny &= 12t^2 - 8t - 7 \\\\\n&= 12 \\left( \\frac{x - 5}{2} \\right)^2 - 8 \\cdot \\frac{x - 5}{2} - 7 \\\\\n&= 3x^2 - 34x + 88.\n\\end{align*}Thus, the equation of the parabola is $\\boxed{y = 3x^2 - 34x + 88}.$"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe file, 90 megabytes in size, downloads at the rate of 5 megabytes per second for its first 60 megabytes, and then 10 megabytes per second thereafter. How long, in seconds, does it take to download entirely?",
+        "inference": "- Time to download for the first 60 megabytes = (60 megabytes) / (5 megabytes per second) = 12 seconds\n\n- Time to download for the last 30 megabytes = (30 megabytes) / (10 megabytes per second) = 3 seconds\n\n- Total time to download the file = (12 seconds) + (3 seconds) = 15 seconds.\n\nI hope it is correct: $15 seconds$",
+        "ground_truth": "The first 60 megabytes take 60/5=<<60/5=12>>12 seconds.\nThere are 90-60=<<90-60=30>>30 remaining megabytes.\nThe remaining 30 megabytes take 30/10=<<30/10=3>>3 seconds.\nAnd 12+3=<<12+3=15>>15 seconds.\n#### 15"
+    },
+    {
+        "question": "- Time to download for the first 60 megabytes = (60 megabytes) / (5 megabytes per second) = 12 seconds\n\n- Time to download for the last 30 megabytes = (30 megabytes) / (10 megabytes per second) = 3 seconds\n\n- Total time to download the file = (12 seconds) + (3 seconds) = 15 seconds.\n\nI hope it is correct: $15 seconds$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $15 seconds$",
+        "ground_truth": "The first 60 megabytes take 60/5=<<60/5=12>>12 seconds.\nThere are 90-60=<<90-60=30>>30 remaining megabytes.\nThe remaining 30 megabytes take 30/10=<<30/10=3>>3 seconds.\nAnd 12+3=<<12+3=15>>15 seconds.\n#### 15"
+    }
+]

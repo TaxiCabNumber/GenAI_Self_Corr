@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe number 1341 can be written as the sum of three consecutive positive integers. What is the largest of these integers?",
+        "inference": "Let the three consecutive positive integers be $n-1, n, n+1$.\nTheir sum is $(n-1) + n + (n+1) = 3n$.\nWe are given that the sum is 1341.\nSo $3n = 1341$.\n$n = \\frac{1341}{3} = 447$.\nThe three consecutive integers are $447-1 = 446$, $447$, $447+1 = 448$.\nThe largest of these integers is 448.\nFinal Answer: $\\boxed{448}$\n",
+        "ground_truth": "Let the three integers be $n-1$, $n$, $n+1$.  We have  $$(n-1)+n+(n+1) = 1341,$$ so $3n=1341$, which gives $n=447$.\n\nThe largest of the three numbers is $n+1=\\boxed{448}$."
+    },
+    {
+        "question": "Let the three consecutive positive integers be $n-1, n, n+1$.\nTheir sum is $(n-1) + n + (n+1) = 3n$.\nWe are given that the sum is 1341.\nSo $3n = 1341$.\n$n = \\frac{1341}{3} = 447$.\nThe three consecutive integers are $447-1 = 446$, $447$, $447+1 = 448$.\nThe largest of these integers is 448.\nFinal Answer: $\\boxed{448}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The problem states that the three consecutive positive integers are $n-1, n, n+1$. Their sum is given by $(n-1)+n+(n+1) = 3n$.\nWe are given that the sum is 1341, so $3n = 1341$.\nSolving for $n$, we get $n = \\frac{1341}{3} = 447$.\nThe three consecutive integers are $n-1 = 446$, $n = 447$, and $n+1 = 448$.\nThe largest of these integers is 448.\n\nFinal Answer: $\\boxed{448}$",
+        "ground_truth": "Let the three integers be $n-1$, $n$, $n+1$.  We have  $$(n-1)+n+(n+1) = 1341,$$ so $3n=1341$, which gives $n=447$.\n\nThe largest of the three numbers is $n+1=\\boxed{448}$."
+    }
+]

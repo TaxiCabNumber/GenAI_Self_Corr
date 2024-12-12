@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJames has a rainwater collection barrel.  For each inch of rain he collects 15 gallons.  On Monday it rained 4 inches and on Tuesday it rained 3 inches.  He can sell water for $1.2 per gallon.  How much money did he make from selling all the water?",
+        "inference": "1. Rain on Monday: 4 inches * 15 gallons/inch = 60 gallons\n2. Rain on Tuesday: 3 inches * 15 gallons/inch = 45 gallons\n3. Total gallons collected: 60 gallons + 45 gallons = 105 gallons\n4. Total money made: 105 gallons * $1.2/gallon = $126\n\nI hope it is correct: $126\n",
+        "ground_truth": "It rained 3+4=<<3+4=7>>7 inches\nSo he collected 7*15=<<7*15=105>>105 gallons\nSo he makes 105*1.2=$<<105*1.2=126>>126 from selling the water\n#### 126"
+    },
+    {
+        "question": "1. Rain on Monday: 4 inches * 15 gallons/inch = 60 gallons\n2. Rain on Tuesday: 3 inches * 15 gallons/inch = 45 gallons\n3. Total gallons collected: 60 gallons + 45 gallons = 105 gallons\n4. Total money made: 105 gallons * $1.2/gallon = $126\n\nI hope it is correct: $126\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $126\n",
+        "ground_truth": "It rained 3+4=<<3+4=7>>7 inches\nSo he collected 7*15=<<7*15=105>>105 gallons\nSo he makes 105*1.2=$<<105*1.2=126>>126 from selling the water\n#### 126"
+    }
+]

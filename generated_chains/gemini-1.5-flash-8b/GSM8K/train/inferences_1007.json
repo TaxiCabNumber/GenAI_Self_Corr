@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRajesh walked 10 kilometers less than 4 times the distance that Hiro walked. Together they walked 25 kilometers. How many kilometers did Rajesh walk?",
+        "inference": "Let 'x' be the distance Hiro walked.\nRajesh walked 4x - 10 kilometers.\nTogether they walked 25 kilometers, so x + (4x - 10) = 25\n5x - 10 = 25\n5x = 35\nx = 7\nRajesh walked 4x - 10 = 4(7) - 10 = 28 - 10 = 18 kilometers.\nI hope it is correct: 18 $kilometers$\n",
+        "ground_truth": "Let H = distance Hiro walked\n4H - 10 = distance Rajesh walked\nH + 4H - 10 = 25\n5H - 10 = 25\n5H = 35\nHiro walked 7 km so Rajesh walked 4(7) - 10 = <<7*4-10=18>>18 km\nRajesh walked <<18=18>>18 kilometers.\n#### 18"
+    },
+    {
+        "question": "Let 'x' be the distance Hiro walked.\nRajesh walked 4x - 10 kilometers.\nTogether they walked 25 kilometers, so x + (4x - 10) = 25\n5x - 10 = 25\n5x = 35\nx = 7\nRajesh walked 4x - 10 = 4(7) - 10 = 28 - 10 = 18 kilometers.\nI hope it is correct: 18 $kilometers$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 18 kilometers\n",
+        "ground_truth": "Let H = distance Hiro walked\n4H - 10 = distance Rajesh walked\nH + 4H - 10 = 25\n5H - 10 = 25\n5H = 35\nHiro walked 7 km so Rajesh walked 4(7) - 10 = <<7*4-10=18>>18 km\nRajesh walked <<18=18>>18 kilometers.\n#### 18"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $d$ and $e$ denote the solutions of $2x^2 + 3x - 5=0$. What is the value of $(d-1)(e-1)$?",
+        "inference": "We have the quadratic equation $2x^2 + 3x - 5 = 0$.\nBy Vieta's formulas, the sum of the roots is $d+e = -\\frac{3}{2}$ and the product of the roots is $de = -\\frac{5}{2}$.\nWe want to find $(d-1)(e-1)$.\nExpanding the expression, we get\n$(d-1)(e-1) = de - d - e + 1$.\nSubstituting the values of $d+e$ and $de$, we have\n$(d-1)(e-1) = \\left(-\\frac{5}{2}\\right) - \\left(-\\frac{3}{2}\\right) + 1 = -\\frac{5}{2} + \\frac{3}{2} + 1 = -\\frac{2}{2} + 1 = -1 + 1 = 0$.\n\nFinal Answer: $\\boxed{0}$. I hope it is correct.\n",
+        "ground_truth": "Since $0 = 2x^2 + 3x -5 = (2x+5)(x-1)$, we have $d = -\\frac{5}{2}$ and $e = 1.$\n\nSo $(d-1)(e-1) =\\boxed{0}$."
+    },
+    {
+        "question": "We have the quadratic equation $2x^2 + 3x - 5 = 0$.\nBy Vieta's formulas, the sum of the roots is $d+e = -\\frac{3}{2}$ and the product of the roots is $de = -\\frac{5}{2}$.\nWe want to find $(d-1)(e-1)$.\nExpanding the expression, we get\n$(d-1)(e-1) = de - d - e + 1$.\nSubstituting the values of $d+e$ and $de$, we have\n$(d-1)(e-1) = \\left(-\\frac{5}{2}\\right) - \\left(-\\frac{3}{2}\\right) + 1 = -\\frac{5}{2} + \\frac{3}{2} + 1 = -\\frac{2}{2} + 1 = -1 + 1 = 0$.\n\nFinal Answer: $\\boxed{0}$. I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$(d-1)(e-1) = de - d - e + 1 = de - (d+e) + 1$.\n$de = -\\frac{5}{2}$ and $d+e = -\\frac{3}{2}$.\n$(d-1)(e-1) = -\\frac{5}{2} - (-\\frac{3}{2}) + 1 = -\\frac{5}{2} + \\frac{3}{2} + 1 = -\\frac{2}{2} + 1 = -1 + 1 = 0$.\n\nFinal Answer: $\\boxed{0}$",
+        "ground_truth": "Since $0 = 2x^2 + 3x -5 = (2x+5)(x-1)$, we have $d = -\\frac{5}{2}$ and $e = 1.$\n\nSo $(d-1)(e-1) =\\boxed{0}$."
+    }
+]

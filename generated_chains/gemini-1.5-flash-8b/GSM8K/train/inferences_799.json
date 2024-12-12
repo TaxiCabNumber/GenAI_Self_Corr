@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere is a very large room that has 4 tables, 1 sofa and 2 chairs that have 4 legs each.  There are also 3 tables with 3 legs each, 1 table with 1 leg, and 1 rocking chair with 2 legs.  How many legs are there in the room?",
+        "inference": "4 tables * 4 legs/table + 1 sofa * 0 legs/sofa + 2 chairs * 4 legs/chair + 3 tables * 3 legs/table + 1 table * 1 leg/table + 1 rocking chair * 2 legs/rocking chair = 16 + 0 + 8 + 9 + 1 + 2 = 36\n\nI hope it is correct: 36 $legs$\n",
+        "ground_truth": "There are 4 tables, 1 sofa and 2 chairs that have 4 legs each so 4+1+2 =<<4+1+2=7>>7 pieces of furniture\nThese 7 pieces have 4 legs each so they have 7*4 = <<7*4=28>>28 legs\nThere are 3 tables with 3 legs each so they have 3*3 = <<3*3=9>>9 legs\nWe have 28 legs and 9 legs as well a 1 leg on a table and 2 on a rocking chair for a total of 28+9+1+2 = <<28+9+1+2=40>>40 legs\n#### 40"
+    },
+    {
+        "question": "4 tables * 4 legs/table + 1 sofa * 0 legs/sofa + 2 chairs * 4 legs/chair + 3 tables * 3 legs/table + 1 table * 1 leg/table + 1 rocking chair * 2 legs/rocking chair = 16 + 0 + 8 + 9 + 1 + 2 = 36\n\nI hope it is correct: 36 $legs$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "4 tables * 4 legs/table = 16 legs\n1 sofa * 0 legs/sofa = 0 legs\n2 chairs * 4 legs/chair = 8 legs\n3 tables * 3 legs/table = 9 legs\n1 table * 1 leg/table = 1 leg\n1 rocking chair * 2 legs/rocking chair = 2 legs\n\nTotal legs = 16 + 0 + 8 + 9 + 1 + 2 = 36\n\n#### 36 legs\n",
+        "ground_truth": "There are 4 tables, 1 sofa and 2 chairs that have 4 legs each so 4+1+2 =<<4+1+2=7>>7 pieces of furniture\nThese 7 pieces have 4 legs each so they have 7*4 = <<7*4=28>>28 legs\nThere are 3 tables with 3 legs each so they have 3*3 = <<3*3=9>>9 legs\nWe have 28 legs and 9 legs as well a 1 leg on a table and 2 on a rocking chair for a total of 28+9+1+2 = <<28+9+1+2=40>>40 legs\n#### 40"
+    }
+]

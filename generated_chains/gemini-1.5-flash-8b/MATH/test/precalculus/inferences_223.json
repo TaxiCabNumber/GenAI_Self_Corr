@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $\\mathbf{v} \\times \\mathbf{w} = \\begin{pmatrix} 2 \\\\ 7 \\\\ -13 \\end{pmatrix},$ then find $\\mathbf{w} \\times \\mathbf{v}.$",
+        "inference": "$\\mathbf{w} \\times \\mathbf{v} = -(\\mathbf{v} \\times \\mathbf{w})$\n$= -\\begin{pmatrix} 2 \\\\ 7 \\\\ -13 \\end{pmatrix} = \\begin{pmatrix} -2 \\\\ -7 \\\\ 13 \\end{pmatrix}$\nFinal Answer: $\\boxed{\\begin{pmatrix} -2 \\\\ -7 \\\\ 13 \\end{pmatrix}}$ I hope it is correct.\n",
+        "ground_truth": "We have that\n\\[\\mathbf{w} \\times \\mathbf{v} = -\\mathbf{v} \\times \\mathbf{w} = \\boxed{\\begin{pmatrix} - 2 \\\\ -7 \\\\ 13 \\end{pmatrix}}.\\]"
+    },
+    {
+        "question": "$\\mathbf{w} \\times \\mathbf{v} = -(\\mathbf{v} \\times \\mathbf{w})$\n$= -\\begin{pmatrix} 2 \\\\ 7 \\\\ -13 \\end{pmatrix} = \\begin{pmatrix} -2 \\\\ -7 \\\\ 13 \\end{pmatrix}$\nFinal Answer: $\\boxed{\\begin{pmatrix} -2 \\\\ -7 \\\\ 13 \\end{pmatrix}}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The problem statement only gives the result of $\\mathbf{w} \\times \\mathbf{v}$, and asks for $\\mathbf{v} \\times \\mathbf{w}$.  The solution correctly applies the property $\\mathbf{v} \\times \\mathbf{w} = - (\\mathbf{w} \\times \\mathbf{v})$. If $\\mathbf{w} \\times \\mathbf{v} = \\begin{pmatrix} 2 \\\\ 7 \\\\ -13 \\end{pmatrix}$, then $\\mathbf{v} \\times \\mathbf{w} = -\\begin{pmatrix} 2 \\\\ 7 \\\\ -13 \\end{pmatrix} = \\begin{pmatrix} -2 \\\\ -7 \\\\ 13 \\end{pmatrix}$.\n\n$\\boxed{\\begin{pmatrix} -2 \\\\ -7 \\\\ 13 \\end{pmatrix}}$\n",
+        "ground_truth": "We have that\n\\[\\mathbf{w} \\times \\mathbf{v} = -\\mathbf{v} \\times \\mathbf{w} = \\boxed{\\begin{pmatrix} - 2 \\\\ -7 \\\\ 13 \\end{pmatrix}}.\\]"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA young girl pours 23 blue beads and 16 yellow beads into a bowl. She divides the total into 3 equal parts, removes some beads from each part, and doubles the rest to have 6 beads in each part now. How many beads were removed from each part?",
+        "inference": "1. Total beads: 23 + 16 = 39 beads\n2. Beads per part initially: 39 / 3 = 13 beads\n3. Beads per part after doubling: 6 beads\n4. Beads remaining after doubling: 6 / 2 = 3 beads\n5. Beads removed from each part: 13 - 3 = 10 beads\n\nI hope it is correct: 10 $beads$\n",
+        "ground_truth": "There are 23+16=<<23+16=39>>39 beads in the bowl\nDividing them into 3 equal parts give 39/3=<<39/3=13>>13 beads each\nBefore doubling the number of beads, she had 6/2=<<6/2=3>>3 beads left in each part.\nTherefore she had removed 13-3=<<13-3=10>>10 beads from each part.\n#### 10"
+    },
+    {
+        "question": "1. Total beads: 23 + 16 = 39 beads\n2. Beads per part initially: 39 / 3 = 13 beads\n3. Beads per part after doubling: 6 beads\n4. Beads remaining after doubling: 6 / 2 = 3 beads\n5. Beads removed from each part: 13 - 3 = 10 beads\n\nI hope it is correct: 10 $beads$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 10\n",
+        "ground_truth": "There are 23+16=<<23+16=39>>39 beads in the bowl\nDividing them into 3 equal parts give 39/3=<<39/3=13>>13 beads each\nBefore doubling the number of beads, she had 6/2=<<6/2=3>>3 beads left in each part.\nTherefore she had removed 13-3=<<13-3=10>>10 beads from each part.\n#### 10"
+    }
+]

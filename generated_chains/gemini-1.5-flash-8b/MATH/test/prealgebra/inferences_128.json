@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA shirt's sale price is marked $\\$14.40$, which is $60\\%$ off the original price. How many dollars was the original price of the shirt?",
+        "inference": "Let the original price of the shirt be $x$ dollars.\nThe sale price is $60\\%$ off the original price, which means the sale price is $100\\% - 60\\% = 40\\%$ of the original price.\nSo, the sale price is $0.40x$.\nThe sale price is $\\$14.40$.\nThus, $0.40x = 14.40$.\nDividing both sides by $0.40$, we get\n$x = \\frac{14.40}{0.40} = \\frac{1440}{40} = 36$.\nThe original price of the shirt was $\\$36$.\nFinal Answer: $\\boxed{36}$\n",
+        "ground_truth": "If the shirt is $60\\%$ off, it is currently $.4$ of the original price.  Thus the original price was\n\n$$\\frac{\\$14.40}{.4}=\\boxed{\\$36}$$"
+    },
+    {
+        "question": "Let the original price of the shirt be $x$ dollars.\nThe sale price is $60\\%$ off the original price, which means the sale price is $100\\% - 60\\% = 40\\%$ of the original price.\nSo, the sale price is $0.40x$.\nThe sale price is $\\$14.40$.\nThus, $0.40x = 14.40$.\nDividing both sides by $0.40$, we get\n$x = \\frac{14.40}{0.40} = \\frac{1440}{40} = 36$.\nThe original price of the shirt was $\\$36$.\nFinal Answer: $\\boxed{36}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The sale price is $60\\%$ off the original price, so the sale price is $100\\% - 60\\% = 40\\%$ of the original price.  The sale price is $14.40.\n\nSo $0.40x = 14.40$.\n\nDividing both sides by 0.40 gives $x = \\frac{14.40}{0.40} = 36$.\n\nThe original price of the shirt was $36.\n\nFinal Answer: $\\boxed{36}$",
+        "ground_truth": "If the shirt is $60\\%$ off, it is currently $.4$ of the original price.  Thus the original price was\n\n$$\\frac{\\$14.40}{.4}=\\boxed{\\$36}$$"
+    }
+]

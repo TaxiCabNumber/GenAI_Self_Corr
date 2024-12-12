@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJoan is at the grocery store. She has a total of $60 to spend. She is going to purchase 2 containers of hummus, which are $5 each. She is going to purchase chicken for $20, bacon for $10, and vegetables for $10. She wants to purchase apples which are $2 each. With her remaining money, how many apples can she purchase?",
+        "inference": "1. Hummus cost: 2 containers * $5/container = $10\n2. Total cost of other items: $20 (chicken) + $10 (bacon) + $10 (vegetables) = $40\n3. Remaining money: $60 (total) - $10 (hummus) - $40 (other items) = $10\n4. Apples per dollar: $10 / $2/apple = 5 apples\n\nI hope it is correct: 5 apples\n",
+        "ground_truth": "The total cost of the hummus is 2 * $5 = $<<2*5=10>>10\nThe total cost of the chicken, bacon, and vegetables is $20 + $10 + $10 = $<<20+10+10=40>>40\nThe remaining money she has is $60 - $10 - $40 = $<<60-10-40=10>>10\nThe amount of apples she can purchase is $10 / $2 = <<10/2=5>>5\n#### 5"
+    },
+    {
+        "question": "1. Hummus cost: 2 containers * $5/container = $10\n2. Total cost of other items: $20 (chicken) + $10 (bacon) + $10 (vegetables) = $40\n3. Remaining money: $60 (total) - $10 (hummus) - $40 (other items) = $10\n4. Apples per dollar: $10 / $2/apple = 5 apples\n\nI hope it is correct: 5 apples\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $5\n",
+        "ground_truth": "The total cost of the hummus is 2 * $5 = $<<2*5=10>>10\nThe total cost of the chicken, bacon, and vegetables is $20 + $10 + $10 = $<<20+10+10=40>>40\nThe remaining money she has is $60 - $10 - $40 = $<<60-10-40=10>>10\nThe amount of apples she can purchase is $10 / $2 = <<10/2=5>>5\n#### 5"
+    }
+]

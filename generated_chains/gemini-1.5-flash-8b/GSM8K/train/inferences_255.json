@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBush and Matt are brothers. Bush is younger than Matt by 3 years. This year Bush will be 12 years old. What will be Matt's age 10 years from now?",
+        "inference": "Bush's age this year = 12 years\nBush is younger than Matt by 3 years.\nMatt's age this year = Bush's age + 3 = 12 + 3 = 15 years\nMatt's age 10 years from now = Matt's age this year + 10 = 15 + 10 = 25 years\n\nI hope it is correct: 25 $answer$\n",
+        "ground_truth": "Bush is younger than Matt by 3 years, so if Bush is 12 years old then Matt is 12+3 = <<12+3=15>>15 years old\nIn 10 years' time, Matt will be 10+15 = <<10+15=25>>25 years old\n#### 25"
+    },
+    {
+        "question": "Bush's age this year = 12 years\nBush is younger than Matt by 3 years.\nMatt's age this year = Bush's age + 3 = 12 + 3 = 15 years\nMatt's age 10 years from now = Matt's age this year + 10 = 15 + 10 = 25 years\n\nI hope it is correct: 25 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 25\n",
+        "ground_truth": "Bush is younger than Matt by 3 years, so if Bush is 12 years old then Matt is 12+3 = <<12+3=15>>15 years old\nIn 10 years' time, Matt will be 10+15 = <<10+15=25>>25 years old\n#### 25"
+    }
+]

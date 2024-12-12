@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBen works 8-hour shifts in a furniture shop.  It takes him 5 hours to build 1 rocking chair.  How many chairs can he build in 10 days?",
+        "inference": "Ben works 8 hours/shift.\n10 days * 8 hours/shift/day = 80 hours\nIt takes 5 hours to build 1 chair.\n80 hours / 5 hours/chair = 16 chairs\nI hope it is correct: 16 chairs\n",
+        "ground_truth": "He works 8 hours a day for 10 days means he works 8*10 = <<8*10=80>>80 hours\nIt takes him 5 hours to build one rocking chair so over 80 hours he builds 80/5 = <<80/5=16>>16 rocking chairs\n#### 16"
+    },
+    {
+        "question": "Ben works 8 hours/shift.\n10 days * 8 hours/shift/day = 80 hours\nIt takes 5 hours to build 1 chair.\n80 hours / 5 hours/chair = 16 chairs\nI hope it is correct: 16 chairs\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 16\n",
+        "ground_truth": "He works 8 hours a day for 10 days means he works 8*10 = <<8*10=80>>80 hours\nIt takes him 5 hours to build one rocking chair so over 80 hours he builds 80/5 = <<80/5=16>>16 rocking chairs\n#### 16"
+    }
+]

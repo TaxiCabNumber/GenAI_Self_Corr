@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nKim's TV uses 125 watts of electricity per hour.  She runs it for 4 hours a day.  If electricity cost 14 cents per kw/h how many cents does her TV cost to run for a week?",
+        "inference": "**125 watts is 0.125 kW**\n**Per day, 0.125 kW x 4 hours = 0.5 kWh**\n**Per week, 0.5 kWh x 7 days = 3.5 kWh**\n**3.5 kWh x $0.14/kWh = $0.49**\nI hope it is correct: $0.49$",
+        "ground_truth": "She uses 4 hours/day * 125 watts/hour=<<4*125=500>>500 watt hours/day\nThat means she uses 500 watt hours/day * 7 days/week = <<500*7=3500>>3500 watt hours/week\nThis is 3500 watt hours / 1000 watts/kw = <<3500/1000=3.5>>3.5 kw hours\nSo her TV cost 3.5 kw hours/week * $0.14/kw hour = $<<3.5*0.14=0.49>>0.49/week\n#### 49"
+    },
+    {
+        "question": "**125 watts is 0.125 kW**\n**Per day, 0.125 kW x 4 hours = 0.5 kWh**\n**Per week, 0.5 kWh x 7 days = 3.5 kWh**\n**3.5 kWh x $0.14/kWh = $0.49**\nI hope it is correct: $0.49$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$0.49",
+        "ground_truth": "She uses 4 hours/day * 125 watts/hour=<<4*125=500>>500 watt hours/day\nThat means she uses 500 watt hours/day * 7 days/week = <<500*7=3500>>3500 watt hours/week\nThis is 3500 watt hours / 1000 watts/kw = <<3500/1000=3.5>>3.5 kw hours\nSo her TV cost 3.5 kw hours/week * $0.14/kw hour = $<<3.5*0.14=0.49>>0.49/week\n#### 49"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe selling price of a bicycle that had sold for $220 last year was increased by 15%. What is the new price?",
+        "inference": "1. Calculate the increase amount: 220 * 0.15 = 33\n\n2. Add the increase amount to the original price: 220 + 33 = 253\n\nI hope it is correct: 253 $answer$\n",
+        "ground_truth": "The price of the bicycle increased by $220 * 15/100 = $<<220*15/100=33>>33.\nAdding the increment price, the new price is $220 + $33 = $<<220+33=253>>253.\n#### 253"
+    },
+    {
+        "question": "1. Calculate the increase amount: 220 * 0.15 = 33\n\n2. Add the increase amount to the original price: 220 + 33 = 253\n\nI hope it is correct: 253 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $253\n",
+        "ground_truth": "The price of the bicycle increased by $220 * 15/100 = $<<220*15/100=33>>33.\nAdding the increment price, the new price is $220 + $33 = $<<220+33=253>>253.\n#### 253"
+    }
+]

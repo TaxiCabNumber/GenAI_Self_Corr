@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA building has four floors with ten rooms each. Legacy has to clean each room, and it takes her 6 hours to clean one room. If she earns $15 per hour of work, calculate the total amount of money she makes from cleaning all the floors in the building.",
+        "inference": "1. Calculate the total number of rooms in the building: 4 floors \u00d7 10 rooms/floor = 40 rooms\n2. Calculate the total number of hours it takes Legacy to clean all the rooms: 40 rooms \u00d7 6 hours/room = 240 hours\n3. Calculate the total amount of money Legacy earns from cleaning all the rooms: 240 hours \u00d7 $15/hour = $3,600\nI hope it is correct: $3,600$",
+        "ground_truth": "Since the building has four floors with ten rooms each, the total number of rooms in the building is 4*10 = <<4*10=40>>40.\nIf it takes Legacy 6 hours to clean each room, she will take 40*6 = <<40*6=240>>240 hours to clean all the rooms in the building.\nSince she is making $15 per hour of work, she will earn $15*240 = $<<15*240=3600>>3600 after cleaning all the rooms.\n#### 3600"
+    },
+    {
+        "question": "1. Calculate the total number of rooms in the building: 4 floors \u00d7 10 rooms/floor = 40 rooms\n2. Calculate the total number of hours it takes Legacy to clean all the rooms: 40 rooms \u00d7 6 hours/room = 240 hours\n3. Calculate the total amount of money Legacy earns from cleaning all the rooms: 240 hours \u00d7 $15/hour = $3,600\nI hope it is correct: $3,600$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$3,600$",
+        "ground_truth": "Since the building has four floors with ten rooms each, the total number of rooms in the building is 4*10 = <<4*10=40>>40.\nIf it takes Legacy 6 hours to clean each room, she will take 40*6 = <<40*6=240>>240 hours to clean all the rooms in the building.\nSince she is making $15 per hour of work, she will earn $15*240 = $<<15*240=3600>>3600 after cleaning all the rooms.\n#### 3600"
+    }
+]

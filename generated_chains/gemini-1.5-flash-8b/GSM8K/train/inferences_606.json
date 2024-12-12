@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIn a big box, there are marbles in 4 colors. Inside, there are 20 red marbles.  There are three times more green marbles than red.  Yellow marbles make up 20% of the green marbles. How many marbles are of a different color if the total of all marbles in the box is three times more than the number of green marbles?",
+        "inference": "1. Green marbles: 20 red marbles * 3 = 60 green marbles\n2. Yellow marbles: 60 green marbles * 0.20 = 12 yellow marbles\n3. Total marbles: 60 green marbles * 3 = 180 marbles\n4. Marbles of other colors: 180 total marbles - (20 red + 60 green + 12 yellow) = 180 - 92 = 88 marbles\n\nI hope it is correct: 88 $answer$\n",
+        "ground_truth": "There are 3 * 20 = <<3*20=60>>60 green marbles.\nThere are 60 * 20/100 = <<60*20/100=12>>12 yellow marbles\nIn total there are 3 * 60 = <<3*60=180>>180 marbles.\nThat leaves 180 - 20 - 60 - 12 = <<180-20-60-12=88>>88 marbles of another color in the box.\n#### 88"
+    },
+    {
+        "question": "1. Green marbles: 20 red marbles * 3 = 60 green marbles\n2. Yellow marbles: 60 green marbles * 0.20 = 12 yellow marbles\n3. Total marbles: 60 green marbles * 3 = 180 marbles\n4. Marbles of other colors: 180 total marbles - (20 red + 60 green + 12 yellow) = 180 - 92 = 88 marbles\n\nI hope it is correct: 88 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 88\n",
+        "ground_truth": "There are 3 * 20 = <<3*20=60>>60 green marbles.\nThere are 60 * 20/100 = <<60*20/100=12>>12 yellow marbles\nIn total there are 3 * 60 = <<3*60=180>>180 marbles.\nThat leaves 180 - 20 - 60 - 12 = <<180-20-60-12=88>>88 marbles of another color in the box.\n#### 88"
+    }
+]

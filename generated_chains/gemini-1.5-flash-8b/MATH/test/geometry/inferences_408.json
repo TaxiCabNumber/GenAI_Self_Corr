@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe point  $(-3,2)$ is rotated $90^{\\circ}$ clockwise around the origin to point $B$.  Point $B$ is then reflected in the line $y=x$ to point $C$. What are the coordinates of $C$?",
+        "inference": "1. Rotating $(-3,2)$ 90 degrees clockwise around the origin gives $(2,3)$.\n2. Reflecting $(2,3)$ in the line $y=x$ swaps the x and y coordinates, giving $(3,2)$.\n\nFinal Answer: $\\boxed{(3,2)}$ I hope it is correct.\n",
+        "ground_truth": "The rotation takes $(-3,2)$ into $B=(2,3)$, and the reflection takes $B$ into $C=\\boxed{(3,2)}$.\n\n[asy]\nunitsize(0.5cm);\ndraw((-4,0)--(4,0),linewidth(0.7));\ndraw((0,-2)--(0,5),linewidth(0.7));\ndraw((-3,2)--(0,0)--(2,3),linewidth(0.7));\ndot((-3,2));\ndot((2,3));\ndot((3,2));\ndraw((0,0)--(4,4));\ndraw((2,3)--(3,2),dashed);\nlabel(\"$A$\",(-3,2),NW);\nlabel(\"$(-3,2)$\",(-3,2),SW);\nlabel(\"$B$\",(2,3),N);\nlabel(\"$(2,3)$\",(2,3),W);\nlabel(\"$C$\",(3,2),NE);\nlabel(\"$(3,2)$\",(3,2),SE);\n[/asy]"
+    },
+    {
+        "question": "1. Rotating $(-3,2)$ 90 degrees clockwise around the origin gives $(2,3)$.\n2. Reflecting $(2,3)$ in the line $y=x$ swaps the x and y coordinates, giving $(3,2)$.\n\nFinal Answer: $\\boxed{(3,2)}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Rotating a point $(-3, 2)$ 90 degrees clockwise about the origin results in the point $(2, 3)$.  Reflecting $(2, 3)$ across the line $y=x$ results in the point $(3, 2)$.\n\n$\\boxed{(3, 2)}$\n",
+        "ground_truth": "The rotation takes $(-3,2)$ into $B=(2,3)$, and the reflection takes $B$ into $C=\\boxed{(3,2)}$.\n\n[asy]\nunitsize(0.5cm);\ndraw((-4,0)--(4,0),linewidth(0.7));\ndraw((0,-2)--(0,5),linewidth(0.7));\ndraw((-3,2)--(0,0)--(2,3),linewidth(0.7));\ndot((-3,2));\ndot((2,3));\ndot((3,2));\ndraw((0,0)--(4,4));\ndraw((2,3)--(3,2),dashed);\nlabel(\"$A$\",(-3,2),NW);\nlabel(\"$(-3,2)$\",(-3,2),SW);\nlabel(\"$B$\",(2,3),N);\nlabel(\"$(2,3)$\",(2,3),W);\nlabel(\"$C$\",(3,2),NE);\nlabel(\"$(3,2)$\",(3,2),SE);\n[/asy]"
+    }
+]

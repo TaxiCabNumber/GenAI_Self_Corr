@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRavi has some coins. He has 2 more quarters than nickels and 4 more dimes than quarters. If he has 6 nickels, how much money does he have?",
+        "inference": "Ravi has 6 nickels.\nHe has 2 more quarters than nickels, so he has 6 + 2 = 8 quarters.\nHe has 4 more dimes than quarters, so he has 8 + 4 = 12 dimes.\n\n1 nickel = $0.05\n1 quarter = $0.25\n1 dime = $0.10\n\nTotal amount of money = (6 * $0.05) + (8 * $0.25) + (12 * $0.10)\n= $0.30 + $2.00 + $1.20\n= $3.50\n\nI hope it is correct: $3.50",
+        "ground_truth": "Ravi has 6 + 2 = <<6+2=8>>8 quarters.\nHe has also 8 + 4 = <<8+4=12>>12 dimes.\nA nickel is worth 5 cents so Ravi's nickels amount to 6 x 5 = <<6*5=30>>30 cents.\nA quarter is worth 25 cents so his quarters amount to 8 x 25 = <<8*25=200>>200 cents.\nA dime is worth 10 cents so his dimes amount to 12 x 10 = <<12*10=120>>120 cents.\ntherefore, Ravi has 30 + 200 + 120 = <<30+200+120=350>>350 cents.\n#### 350"
+    },
+    {
+        "question": "Ravi has 6 nickels.\nHe has 2 more quarters than nickels, so he has 6 + 2 = 8 quarters.\nHe has 4 more dimes than quarters, so he has 8 + 4 = 12 dimes.\n\n1 nickel = $0.05\n1 quarter = $0.25\n1 dime = $0.10\n\nTotal amount of money = (6 * $0.05) + (8 * $0.25) + (12 * $0.10)\n= $0.30 + $2.00 + $1.20\n= $3.50\n\nI hope it is correct: $3.50\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$3.50",
+        "ground_truth": "Ravi has 6 + 2 = <<6+2=8>>8 quarters.\nHe has also 8 + 4 = <<8+4=12>>12 dimes.\nA nickel is worth 5 cents so Ravi's nickels amount to 6 x 5 = <<6*5=30>>30 cents.\nA quarter is worth 25 cents so his quarters amount to 8 x 25 = <<8*25=200>>200 cents.\nA dime is worth 10 cents so his dimes amount to 12 x 10 = <<12*10=120>>120 cents.\ntherefore, Ravi has 30 + 200 + 120 = <<30+200+120=350>>350 cents.\n#### 350"
+    }
+]

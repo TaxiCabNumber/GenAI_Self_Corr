@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nArchibald eats 1 apple a day for two weeks. Over the next three weeks, he eats the same number of apples as the total of the first two weeks. Over the next two weeks, he eats 3 apples a day. Over these 7 weeks, how many apples does he average a week?",
+        "inference": "1. First two weeks: 1 apple/day * 14 days = 14 apples\n2. Next three weeks: 14 apples\n3. Total apples in first 5 weeks: 14 + 14 = 28 apples\n4. Next two weeks: 3 apples/day * 14 days = 42 apples\n5. Total apples in 7 weeks: 28 + 42 = 70 apples\n6. Average apples per week: 70 apples / 7 weeks = 10 apples/week\n\nI hope it is correct: 10 $apples/week$\n",
+        "ground_truth": "He ate 14 apples the first two weeks because 14 x 1 = 14\nHe ate 14 apples in the next three weeks because 14 = <<14=14>>14\nHe ate 42 apples in the final two weeks because 14 x 3 = <<14*3=42>>42\nHe ate 70 apples in total.\nHe averaged 10 apples a week because 70 / 7 = <<70/7=10>>10\n#### 10"
+    },
+    {
+        "question": "1. First two weeks: 1 apple/day * 14 days = 14 apples\n2. Next three weeks: 14 apples\n3. Total apples in first 5 weeks: 14 + 14 = 28 apples\n4. Next two weeks: 3 apples/day * 14 days = 42 apples\n5. Total apples in 7 weeks: 28 + 42 = 70 apples\n6. Average apples per week: 70 apples / 7 weeks = 10 apples/week\n\nI hope it is correct: 10 $apples/week$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 10 apples/week\n",
+        "ground_truth": "He ate 14 apples the first two weeks because 14 x 1 = 14\nHe ate 14 apples in the next three weeks because 14 = <<14=14>>14\nHe ate 42 apples in the final two weeks because 14 x 3 = <<14*3=42>>42\nHe ate 70 apples in total.\nHe averaged 10 apples a week because 70 / 7 = <<70/7=10>>10\n#### 10"
+    }
+]

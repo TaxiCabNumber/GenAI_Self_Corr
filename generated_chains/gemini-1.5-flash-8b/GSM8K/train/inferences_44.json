@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJames is a first-year student at a University in Chicago. He has a budget of $1000 per semester. He spends 30% of his money on food, 15% on accommodation, 25% on entertainment, and the rest on coursework materials. How much money does he spend on coursework materials?",
+        "inference": "1. Food: $1000 * 0.30 = $300\n2. Accommodation: $1000 * 0.15 = $150\n3. Entertainment: $1000 * 0.25 = $250\n4. Total spent on food, accommodation, and entertainment: $300 + $150 + $250 = $700\n5. Money left for coursework materials: $1000 - $700 = $300\n\nI hope it is correct: $300\n",
+        "ground_truth": "Accommodation is 15% * $1000=$<<15*.01*1000=150>>150\nFood is          30% * $1000=$<<30*.01*1000=300>>300\nEntertainment is   25% * $1000=$<<25*.01*1000=250>>250\nCoursework materials are thus $1000-($150+$300+$250) = $300\n#### 300"
+    },
+    {
+        "question": "1. Food: $1000 * 0.30 = $300\n2. Accommodation: $1000 * 0.15 = $150\n3. Entertainment: $1000 * 0.25 = $250\n4. Total spent on food, accommodation, and entertainment: $300 + $150 + $250 = $700\n5. Money left for coursework materials: $1000 - $700 = $300\n\nI hope it is correct: $300\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $300\n",
+        "ground_truth": "Accommodation is 15% * $1000=$<<15*.01*1000=150>>150\nFood is          30% * $1000=$<<30*.01*1000=300>>300\nEntertainment is   25% * $1000=$<<25*.01*1000=250>>250\nCoursework materials are thus $1000-($150+$300+$250) = $300\n#### 300"
+    }
+]

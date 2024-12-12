@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nFrank bakes two trays of cookies per day, for 6 days. Frank eats one cookie each day to make sure they taste good. Ted comes over on the sixth day and eats 4 cookies. If each tray makes 12 cookies, how many cookies are left when Ted leaves?",
+        "inference": "1. Two trays per day * 6 days = 12 trays total.\n2. 12 trays * 12 cookies/tray = 144 cookies total.\n3. Frank eats 1 cookie/day * 6 days = 6 cookies.\n4. 144 cookies - 6 cookies = 138 cookies remaining.\n5. Ted eats 4 cookies.\n6. 138 cookies - 4 cookies = 134 cookies remaining.\n\nI hope it is correct: 134 $cookies$\n",
+        "ground_truth": "Frank bakes 2 * 12 = <<2*12=24>>24 cookies per day.\nFrank bakes a total of 24 * 6 = <<24*6=144>>144 cookies.\nFrank eats 1 * 6 = <<1*6=6>>6 cookies.\nAfter Ted leaves, there are 144 - 6 - 4 = <<144-6-4=134>>134\n#### 134"
+    },
+    {
+        "question": "1. Two trays per day * 6 days = 12 trays total.\n2. 12 trays * 12 cookies/tray = 144 cookies total.\n3. Frank eats 1 cookie/day * 6 days = 6 cookies.\n4. 144 cookies - 6 cookies = 138 cookies remaining.\n5. Ted eats 4 cookies.\n6. 138 cookies - 4 cookies = 134 cookies remaining.\n\nI hope it is correct: 134 $cookies$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 134 cookies\n",
+        "ground_truth": "Frank bakes 2 * 12 = <<2*12=24>>24 cookies per day.\nFrank bakes a total of 24 * 6 = <<24*6=144>>144 cookies.\nFrank eats 1 * 6 = <<1*6=6>>6 cookies.\nAfter Ted leaves, there are 144 - 6 - 4 = <<144-6-4=134>>134\n#### 134"
+    }
+]

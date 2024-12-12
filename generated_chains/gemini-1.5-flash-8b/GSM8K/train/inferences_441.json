@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMartin is organizing a party, and he invited many of his colleagues. He invited 5 people from his hometown and twice as many people from his school. Martin invited also as many people from his sports club as the sum of people invited from his hometown and his school. The remaining invitations represent 20% of the total previously mentioned. How many people can potentially come to the party Martin is organizing?",
+        "inference": "1. People from hometown: 5\n2. People from school: 5 * 2 = 10\n3. People from sports club: 5 + 10 = 15\n4. Total from hometown, school, and sports club: 5 + 10 + 15 = 30\n5. Remaining invitations: 20% of 30 = 0.2 * 30 = 6\n6. Total invited: 30 + 6 = 36\n\nI hope it is correct: 36 $people$\n",
+        "ground_truth": "Martin invited 5 * 2 = <<5*2=10>>10 people from his school.\nPeople from the sports club got 5 + 10 = <<5+10=15>>15 invitations.\nSo in total from the sports club, hometown and school, Martin invited 5 + 10 + 15 = <<5+10+15=30>>30 people.\nAll other invitations are 20% of the previous total, which means 20/100 * 30 = <<20/100*30=6>>6.\nThat means Martin invited to his party 30 + 6 = <<30+6=36>>36 people.\n#### 36"
+    },
+    {
+        "question": "1. People from hometown: 5\n2. People from school: 5 * 2 = 10\n3. People from sports club: 5 + 10 = 15\n4. Total from hometown, school, and sports club: 5 + 10 + 15 = 30\n5. Remaining invitations: 20% of 30 = 0.2 * 30 = 6\n6. Total invited: 30 + 6 = 36\n\nI hope it is correct: 36 $people$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 36\n",
+        "ground_truth": "Martin invited 5 * 2 = <<5*2=10>>10 people from his school.\nPeople from the sports club got 5 + 10 = <<5+10=15>>15 invitations.\nSo in total from the sports club, hometown and school, Martin invited 5 + 10 + 15 = <<5+10+15=30>>30 people.\nAll other invitations are 20% of the previous total, which means 20/100 * 30 = <<20/100*30=6>>6.\nThat means Martin invited to his party 30 + 6 = <<30+6=36>>36 people.\n#### 36"
+    }
+]

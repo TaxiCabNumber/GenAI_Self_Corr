@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nExpress $321_7-321_5$ in base 10.",
+        "inference": "$321_7 = 3 \\cdot 7^2 + 2 \\cdot 7^1 + 1 \\cdot 7^0 = 3 \\cdot 49 + 2 \\cdot 7 + 1 = 147 + 14 + 1 = 162$\n$321_5 = 3 \\cdot 5^2 + 2 \\cdot 5^1 + 1 \\cdot 5^0 = 3 \\cdot 25 + 2 \\cdot 5 + 1 = 75 + 10 + 1 = 86$\n$321_7 - 321_5 = 162 - 86 = 76$\nFinal Answer: $\\boxed{76}$ I hope it is correct.\n",
+        "ground_truth": "We subtract  $$\n\\begin{array}{cccccc}\n&3\\cdot 7^2 &+& 2 \\cdot 7 &+& 1 \\\\\n-&(3\\cdot 5^2 &+& 2 \\cdot 5 &+& 1) \\\\ \\hline\n&3\\cdot(7^2-5^2)&+&2\\cdot 2 & &\n\\end{array}\n$$Evaluating $ 3\\cdot(7^2-5^2)+2\\cdot 2$, we get $\\boxed{76}$."
+    },
+    {
+        "question": "$321_7 = 3 \\cdot 7^2 + 2 \\cdot 7^1 + 1 \\cdot 7^0 = 3 \\cdot 49 + 2 \\cdot 7 + 1 = 147 + 14 + 1 = 162$\n$321_5 = 3 \\cdot 5^2 + 2 \\cdot 5^1 + 1 \\cdot 5^0 = 3 \\cdot 25 + 2 \\cdot 5 + 1 = 75 + 10 + 1 = 86$\n$321_7 - 321_5 = 162 - 86 = 76$\nFinal Answer: $\\boxed{76}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The problem asks for $321_7 - 321_5$.\n$321_7 = 3 \\times 7^2 + 2 \\times 7^1 + 1 \\times 7^0 = 3 \\times 49 + 2 \\times 7 + 1 = 147 + 14 + 1 = 162$\n$321_5 = 3 \\times 5^2 + 2 \\times 5^1 + 1 \\times 5^0 = 3 \\times 25 + 2 \\times 5 + 1 = 75 + 10 + 1 = 86$\n$321_7 - 321_5 = 162 - 86 = 76$\n\nFinal Answer: $\\boxed{76}$",
+        "ground_truth": "We subtract  $$\n\\begin{array}{cccccc}\n&3\\cdot 7^2 &+& 2 \\cdot 7 &+& 1 \\\\\n-&(3\\cdot 5^2 &+& 2 \\cdot 5 &+& 1) \\\\ \\hline\n&3\\cdot(7^2-5^2)&+&2\\cdot 2 & &\n\\end{array}\n$$Evaluating $ 3\\cdot(7^2-5^2)+2\\cdot 2$, we get $\\boxed{76}$."
+    }
+]

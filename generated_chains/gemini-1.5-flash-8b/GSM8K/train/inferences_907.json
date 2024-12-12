@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA store received 20 pallets of paper products to stock. Half the pallets were paper towels, a quarter were tissues, and a fifth were paper plates. The rest were paper cups. How many pallets of paper cups did the store receive?",
+        "inference": "1. Paper towels: 20 pallets * 1/2 = 10 pallets\n2. Tissues: 20 pallets * 1/4 = 5 pallets\n3. Paper plates: 20 pallets * 1/5 = 4 pallets\n4. Paper cups: 20 pallets - (10 + 5 + 4) = 20 - 19 = 1 pallet\n\nI hope it is correct: 1 $pallet$\n",
+        "ground_truth": "The store received 20 / 2 = <<20/2=10>>10 pallets of paper towels.\nThey received 20 / 4 = <<20/4=5>>5 pallets of tissues.\nThey received 20 / 5 = <<20/5=4>>4 pallets of paper plates.\nThus, the store received 20 - 10 - 5 - 4 = <<20-10-5-4=1>>1 pallet of paper cups.\n#### 1"
+    },
+    {
+        "question": "1. Paper towels: 20 pallets * 1/2 = 10 pallets\n2. Tissues: 20 pallets * 1/4 = 5 pallets\n3. Paper plates: 20 pallets * 1/5 = 4 pallets\n4. Paper cups: 20 pallets - (10 + 5 + 4) = 20 - 19 = 1 pallet\n\nI hope it is correct: 1 $pallet$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 1 pallet\n",
+        "ground_truth": "The store received 20 / 2 = <<20/2=10>>10 pallets of paper towels.\nThey received 20 / 4 = <<20/4=5>>5 pallets of tissues.\nThey received 20 / 5 = <<20/5=4>>4 pallets of paper plates.\nThus, the store received 20 - 10 - 5 - 4 = <<20-10-5-4=1>>1 pallet of paper cups.\n#### 1"
+    }
+]

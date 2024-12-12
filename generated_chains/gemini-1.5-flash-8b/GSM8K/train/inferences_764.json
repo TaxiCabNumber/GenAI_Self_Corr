@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA dietitian ate three-fourths of her lunch during her lunch break. If the total amount of food she had prepared for lunch had 40 calories, and the recommended calorie intake by the FDA is 25, how many more calories than the recommended amount did she eat?",
+        "inference": "Calories eaten = (3/4) * 40 = 30\nDifference = 30 - 25 = 5\nI hope it is correct: 5 $answer$\n",
+        "ground_truth": "A dietitian ate three-fourths of her lunch during her lunch break, containing 3/4*40=<<3/4*40=30>>30 calories.\nIf the recommended calorie intake by the FDA is 25, the dietitian ate 30-25=5 more calories than the recommended amount.\n#### 5"
+    },
+    {
+        "question": "Calories eaten = (3/4) * 40 = 30\nDifference = 30 - 25 = 5\nI hope it is correct: 5 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $5$\n",
+        "ground_truth": "A dietitian ate three-fourths of her lunch during her lunch break, containing 3/4*40=<<3/4*40=30>>30 calories.\nIf the recommended calorie intake by the FDA is 25, the dietitian ate 30-25=5 more calories than the recommended amount.\n#### 5"
+    }
+]

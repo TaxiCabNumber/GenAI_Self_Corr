@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nStudying for her test, Mitchell had read ten chapters of a book before 4 o'clock. When it clocked 4, Mitchell had read 20 pages of the 11th chapter of the book she was studying from. After 4 o'clock, she didn't read the remaining pages of chapter eleven but proceeded and read 2 more chapters of the book. If each chapter in the book had 40 pages, calculate the total number of pages that Mitchell had read altogether?",
+        "inference": "1. Mitchell had read ten chapters before 4 o'clock. 10 x 40 = 400 pages.\n\n2. Mitchell had read 20 pages of the 11th chapter before 4 o'clock.\n\n3. Mitchell read 2 more chapters after 4 o'clock. 2 x 40 = 80 pages.\n\n4. Mitchell read a total of 400 + 20 + 80 = 500 pages.\n\nI hope it is correct: 500",
+        "ground_truth": "Since each chapter of the book has 40 pages, Mitchell had read 10*40 = <<10*40=400>>400 pages from the first ten chapters.\nAfter reading 20 pages of the eleventh chapter, the total number of pages that Mitchell had read is 400+20 = <<400+20=420>>420\nThe next two chapters that she read had 2*40 = <<2*40=80>>80 pages.\nIn total, Mitchell read 420+80 = <<420+80=500>>500 pages of the book that day.\n#### 500"
+    },
+    {
+        "question": "1. Mitchell had read ten chapters before 4 o'clock. 10 x 40 = 400 pages.\n\n2. Mitchell had read 20 pages of the 11th chapter before 4 o'clock.\n\n3. Mitchell read 2 more chapters after 4 o'clock. 2 x 40 = 80 pages.\n\n4. Mitchell read a total of 400 + 20 + 80 = 500 pages.\n\nI hope it is correct: 500\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$500",
+        "ground_truth": "Since each chapter of the book has 40 pages, Mitchell had read 10*40 = <<10*40=400>>400 pages from the first ten chapters.\nAfter reading 20 pages of the eleventh chapter, the total number of pages that Mitchell had read is 400+20 = <<400+20=420>>420\nThe next two chapters that she read had 2*40 = <<2*40=80>>80 pages.\nIn total, Mitchell read 420+80 = <<420+80=500>>500 pages of the book that day.\n#### 500"
+    }
+]

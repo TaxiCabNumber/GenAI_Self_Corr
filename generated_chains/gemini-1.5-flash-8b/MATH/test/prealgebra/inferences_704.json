@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSimplify $\\sqrt{30\\cdot 21\\cdot 70}$.",
+        "inference": "$\\sqrt{30\\cdot 21\\cdot 70} = \\sqrt{2\\cdot 3\\cdot 7\\cdot 3\\cdot 7\\cdot 2\\cdot 5\\cdot 7} = \\sqrt{2^2\\cdot 3^2\\cdot 7^3\\cdot 5} = \\sqrt{2^2}\\cdot\\sqrt{3^2}\\cdot\\sqrt{7^2}\\cdot\\sqrt{7}\\cdot\\sqrt{5} = 2\\cdot 3\\cdot 7\\cdot \\sqrt{7\\cdot 5} = 42\\sqrt{35}$\n\nFinal Answer: $\\boxed{42\\sqrt{35}}$\n",
+        "ground_truth": "Notice that $30\\cdot70 = 2100 = 21\\cdot 100$. The square root is thus $\\sqrt{21^2 \\cdot 10^2}$, which simplifies to $\\boxed{210}$."
+    },
+    {
+        "question": "$\\sqrt{30\\cdot 21\\cdot 70} = \\sqrt{2\\cdot 3\\cdot 7\\cdot 3\\cdot 7\\cdot 2\\cdot 5\\cdot 7} = \\sqrt{2^2\\cdot 3^2\\cdot 7^3\\cdot 5} = \\sqrt{2^2}\\cdot\\sqrt{3^2}\\cdot\\sqrt{7^2}\\cdot\\sqrt{7}\\cdot\\sqrt{5} = 2\\cdot 3\\cdot 7\\cdot \\sqrt{7\\cdot 5} = 42\\sqrt{35}$\n\nFinal Answer: $\\boxed{42\\sqrt{35}}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\sqrt{30\\cdot 21\\cdot 70} = \\sqrt{(2\\cdot 3\\cdot 5)(3\\cdot 7)(2\\cdot 5\\cdot 7)} = \\sqrt{2^2\\cdot 3^2\\cdot 5^2\\cdot 7^2} = \\sqrt{(2\\cdot 3\\cdot 5\\cdot 7)^2} = 2\\cdot 3\\cdot 5\\cdot 7 = 210$\n\nFinal Answer: $\\boxed{210}$",
+        "ground_truth": "Notice that $30\\cdot70 = 2100 = 21\\cdot 100$. The square root is thus $\\sqrt{21^2 \\cdot 10^2}$, which simplifies to $\\boxed{210}$."
+    }
+]

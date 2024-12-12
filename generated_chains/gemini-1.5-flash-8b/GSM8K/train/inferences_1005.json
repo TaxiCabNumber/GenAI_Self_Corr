@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\n4 friends went to buy from a clothes shop. Every item was 50% off.  All four friends decided to buy a t-shirt. The original price of the t-shirt was 20 dollars. How much money did they spend in total?",
+        "inference": "1. Original price of one t-shirt: $20\n2. Discount: 50% off\n3. Discounted price of one t-shirt: $20 * 0.5 = $10\n4. Number of friends: 4\n5. Total spent: $10 * 4 = $40\n\nI hope it is correct: $40\n",
+        "ground_truth": "After the 50% discount, the t-shirt cost 20 * 0.5 = $<<20*0.5=10>>10.\nSo in all, the 4 friends spent 4 * $10 = $<<4*10=40>>40.\n#### 40"
+    },
+    {
+        "question": "1. Original price of one t-shirt: $20\n2. Discount: 50% off\n3. Discounted price of one t-shirt: $20 * 0.5 = $10\n4. Number of friends: 4\n5. Total spent: $10 * 4 = $40\n\nI hope it is correct: $40\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $40\n",
+        "ground_truth": "After the 50% discount, the t-shirt cost 20 * 0.5 = $<<20*0.5=10>>10.\nSo in all, the 4 friends spent 4 * $10 = $<<4*10=40>>40.\n#### 40"
+    }
+]

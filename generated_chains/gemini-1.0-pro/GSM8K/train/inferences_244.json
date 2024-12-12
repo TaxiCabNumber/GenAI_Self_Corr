@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA fox can run at the maximum speed of 50 kilometers per hour. Considering the fox would run at a constant speed, what distance would he make during 120 minutes?",
+        "inference": "1. Convert 120 minutes to hours: 120 minutes = 120/60 = 2 hours\n2. Multiply the fox's speed (50 km/h) by the time (2 hours) to find the distance: 50 km/h * 2 h = 100 km\nI hope it is correct: 100 $km$",
+        "ground_truth": "1 hour is 60 minutes, so 120 minutes is 120 / 60 = <<120/60=2>>2 hours.\nDuring one hour a fox can make 50 kilometers, so during two hours, he would be able to run 50 * 2 = <<50*2=100>>100 kilometers.\n#### 100"
+    },
+    {
+        "question": "1. Convert 120 minutes to hours: 120 minutes = 120/60 = 2 hours\n2. Multiply the fox's speed (50 km/h) by the time (2 hours) to find the distance: 50 km/h * 2 h = 100 km\nI hope it is correct: 100 $km$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 100 $km$",
+        "ground_truth": "1 hour is 60 minutes, so 120 minutes is 120 / 60 = <<120/60=2>>2 hours.\nDuring one hour a fox can make 50 kilometers, so during two hours, he would be able to run 50 * 2 = <<50*2=100>>100 kilometers.\n#### 100"
+    }
+]

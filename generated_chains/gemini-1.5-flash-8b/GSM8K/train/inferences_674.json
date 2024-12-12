@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA parking garage near Nora's house is 4 stories tall. There are 100 spots per level. There are 58 open parking spots on the first level. There are 2 more open parking spots on the second level than on the first level, and there are 5 more open parking spots on the third level than on the second level. There are 31 open parking spots on the fourth level. How many full parking spots are there in all?",
+        "inference": "1. First level: 58 open spots\n2. Second level: 58 + 2 = 60 open spots\n3. Third level: 60 + 5 = 65 open spots\n4. Fourth level: 31 open spots\n\n5. Total open spots: 58 + 60 + 65 + 31 = 214 open spots\n\n6. Total spots: 4 levels * 100 spots/level = 400 spots\n\n7. Full spots: 400 spots - 214 open spots = 186 full spots\n\nI hope it is correct: 186 $spots$\n",
+        "ground_truth": "There are 4 levels * 100 spots = <<4*100=400>>400 possible parking spots.\nThe second level has 58 open spots + 2 = <<58+2=60>>60 open spots.\nThe third level has 60 open spots + 5 = <<60+5=65>>65 open spots.\nTotal open spots are 58 + 60 + 65 + 31 = <<58+60+65+31=214>>214 open spots.\nIf there are 400 possible spots \u2013 214 open spots = <<400-214=186>>186 full spots.\n#### 186"
+    },
+    {
+        "question": "1. First level: 58 open spots\n2. Second level: 58 + 2 = 60 open spots\n3. Third level: 60 + 5 = 65 open spots\n4. Fourth level: 31 open spots\n\n5. Total open spots: 58 + 60 + 65 + 31 = 214 open spots\n\n6. Total spots: 4 levels * 100 spots/level = 400 spots\n\n7. Full spots: 400 spots - 214 open spots = 186 full spots\n\nI hope it is correct: 186 $spots$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 186\n",
+        "ground_truth": "There are 4 levels * 100 spots = <<4*100=400>>400 possible parking spots.\nThe second level has 58 open spots + 2 = <<58+2=60>>60 open spots.\nThe third level has 60 open spots + 5 = <<60+5=65>>65 open spots.\nTotal open spots are 58 + 60 + 65 + 31 = <<58+60+65+31=214>>214 open spots.\nIf there are 400 possible spots \u2013 214 open spots = <<400-214=186>>186 full spots.\n#### 186"
+    }
+]

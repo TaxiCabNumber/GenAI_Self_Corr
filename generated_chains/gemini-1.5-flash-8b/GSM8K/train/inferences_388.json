@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn sublets his apartment to 3 people who each pay $400 per month.  He rents the apartment for $900 a month.  How much profit does he make in a year?",
+        "inference": "1. Monthly profit per person = $900 (rent) - $400 (sublet payment) = $500\n2. Total monthly profit from 3 people = $500/person * 3 people = $1500\n3. Yearly profit = $1500/month * 12 months = $18000\n\nI hope it is correct: $18000\n",
+        "ground_truth": "He gets 3*$400=$<<3*400=1200>>1200 per month\nSo he gets 1200*12=$<<1200*12=14400>>14,400 per year\nSo he pays 12*900=$<<12*900=10800>>10800 a year\nThat means his profit is 14400-10800=$<<14400-10800=3600>>3600 per year\n#### 3600"
+    },
+    {
+        "question": "1. Monthly profit per person = $900 (rent) - $400 (sublet payment) = $500\n2. Total monthly profit from 3 people = $500/person * 3 people = $1500\n3. Yearly profit = $1500/month * 12 months = $18000\n\nI hope it is correct: $18000\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $18000\n",
+        "ground_truth": "He gets 3*$400=$<<3*400=1200>>1200 per month\nSo he gets 1200*12=$<<1200*12=14400>>14,400 per year\nSo he pays 12*900=$<<12*900=10800>>10800 a year\nThat means his profit is 14400-10800=$<<14400-10800=3600>>3600 per year\n#### 3600"
+    }
+]

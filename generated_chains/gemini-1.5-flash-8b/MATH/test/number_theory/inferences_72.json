@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nAlexa has a mixture consisting of 8 ounces of red jelly beans and 13 ounces of green jelly beans. What is the minimum number of ounces of white jelly beans she must buy so that, when added to the old mixture, her new mixture is an integer number of pounds?",
+        "inference": "1 pound = 16 ounces.\nThe current mixture weighs 8 + 13 = 21 ounces.\nTo get an integer number of pounds, the total weight must be a multiple of 16 ounces.\nThe next multiple of 16 after 21 is 32.\nSo we need 32 - 21 = 11 more ounces of white jelly beans.\nFinal Answer: $\\boxed{11}$\n",
+        "ground_truth": "Since 8+13=21 ounces and there are 16 ounces in a pound, the minimum number of ounces Alexa must add to have an integer number of pounds is $2\\cdot16-21=32-21=\\boxed{11}$."
+    },
+    {
+        "question": "1 pound = 16 ounces.\nThe current mixture weighs 8 + 13 = 21 ounces.\nTo get an integer number of pounds, the total weight must be a multiple of 16 ounces.\nThe next multiple of 16 after 21 is 32.\nSo we need 32 - 21 = 11 more ounces of white jelly beans.\nFinal Answer: $\\boxed{11}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Let $x$ be the number of ounces of white jelly beans needed.\nThe current mixture weighs 8 + 13 = 21 ounces.\nWe want to add $x$ ounces of white jelly beans to the mixture so that the total weight is a multiple of 16 ounces.\nThe current weight is 21 ounces. The next multiple of 16 after 21 is 32.\nTo reach a weight of 32 ounces, we need 32 - 21 = 11 more ounces.\nTherefore, we need to add 11 ounces of white jelly beans.\n\nFinal Answer: $\\boxed{11}$",
+        "ground_truth": "Since 8+13=21 ounces and there are 16 ounces in a pound, the minimum number of ounces Alexa must add to have an integer number of pounds is $2\\cdot16-21=32-21=\\boxed{11}$."
+    }
+]

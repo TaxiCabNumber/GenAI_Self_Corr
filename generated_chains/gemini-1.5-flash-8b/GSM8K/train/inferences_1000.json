@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn buys a heating pad for $30.  He uses it 3 times a week for 2 weeks.  How much does he spend on each use?",
+        "inference": "1. Total cost of heating pad: $30\n2. Total weeks of use: 2 weeks\n3. Total uses: 2 weeks * 3 uses/week = 6 uses\n4. Cost per use: $30 / 6 uses = $5/use\n\nI hope it is correct: $5\n",
+        "ground_truth": "He uses it 3*2=<<3*2=6>>6 times\nSo he pays 30/6=$<<30/6=5>>5\n#### 5"
+    },
+    {
+        "question": "1. Total cost of heating pad: $30\n2. Total weeks of use: 2 weeks\n3. Total uses: 2 weeks * 3 uses/week = 6 uses\n4. Cost per use: $30 / 6 uses = $5/use\n\nI hope it is correct: $5\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $5\n",
+        "ground_truth": "He uses it 3*2=<<3*2=6>>6 times\nSo he pays 30/6=$<<30/6=5>>5\n#### 5"
+    }
+]

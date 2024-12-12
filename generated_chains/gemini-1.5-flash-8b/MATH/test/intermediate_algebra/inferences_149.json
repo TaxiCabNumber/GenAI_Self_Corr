@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCompute: $1-2+3-4+5- \\dots +99-100$.",
+        "inference": "We have the sum $1-2+3-4+5- \\dots +99-100$.\nWe can group the terms:\n$(1-2)+(3-4)+(5-6)+ \\dots +(99-100)$.\nEach pair of consecutive terms adds up to $-1$.\nThere are 50 pairs of terms.\nSo the sum is $50 \\times (-1) = -50$.\nFinal Answer: $\\boxed{-50}$. I hope it is correct.\n",
+        "ground_truth": "$(1-2)+(3-4)+ \\dots +(97-98)+(99-100) = 50(-1) = \\boxed{-50}.$"
+    },
+    {
+        "question": "We have the sum $1-2+3-4+5- \\dots +99-100$.\nWe can group the terms:\n$(1-2)+(3-4)+(5-6)+ \\dots +(99-100)$.\nEach pair of consecutive terms adds up to $-1$.\nThere are 50 pairs of terms.\nSo the sum is $50 \\times (-1) = -50$.\nFinal Answer: $\\boxed{-50}$. I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The sum is $1-2+3-4+5- \\dots +99-100$.\nWe can group the terms as $(1-2) + (3-4) + (5-6) + \\dots + (99-100)$.\nThere are 50 pairs of consecutive terms.\nEach pair sums to $-1$.\nThus, the sum is $50 \\times (-1) = -50$.\nFinal Answer: $\\boxed{-50}$",
+        "ground_truth": "$(1-2)+(3-4)+ \\dots +(97-98)+(99-100) = 50(-1) = \\boxed{-50}.$"
+    }
+]

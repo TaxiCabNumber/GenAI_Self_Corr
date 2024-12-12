@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nOscar wants to train for a marathon. He plans to add 2/3 of a mile each week until he reaches a 20-mile run. How many weeks before the marathon should he start training if he has already run 2 miles?",
+        "inference": "1. Calculate the remaining distance: 20 miles - 2 miles = 18 miles\n2. Calculate the weekly increase: 2/3 mile\n3. Calculate the number of weeks needed: 18 miles / (2/3 mile/week) = 18 miles * (3/2 week/mile) = 27 weeks\n\nI hope it is correct: 27 $weeks$\n",
+        "ground_truth": "Oscar needs to increase his maximum running time from 20 - 2 = <<20-2=18>>18 miles.\nOscar will need a total of 18 / ( 2 / 3 ) = <<18/(2/3)=27>>27 weeks to prepare.\n#### 27"
+    },
+    {
+        "question": "1. Calculate the remaining distance: 20 miles - 2 miles = 18 miles\n2. Calculate the weekly increase: 2/3 mile\n3. Calculate the number of weeks needed: 18 miles / (2/3 mile/week) = 18 miles * (3/2 week/mile) = 27 weeks\n\nI hope it is correct: 27 $weeks$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 27 weeks\n",
+        "ground_truth": "Oscar needs to increase his maximum running time from 20 - 2 = <<20-2=18>>18 miles.\nOscar will need a total of 18 / ( 2 / 3 ) = <<18/(2/3)=27>>27 weeks to prepare.\n#### 27"
+    }
+]

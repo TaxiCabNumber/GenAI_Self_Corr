@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nForty percent of the students have elected to learn from home during the pandemic. The remaining students are divided into two equal groups, only one of which is physically in school on any day. What percent of students are present in school?",
+        "inference": "Forty percent are learning from home.  That leaves 60% in school.  Those in school are split evenly, so half of 60% are in school on any given day.  Half of 60% is 30%.  I hope it is correct: 30 $answer$\n",
+        "ground_truth": "100-40=<<100-40=60>>60 percent of students are remaining.\n60/2=<<60/2=30>>30 percent are present in school.\n#### 30"
+    },
+    {
+        "question": "Forty percent are learning from home.  That leaves 60% in school.  Those in school are split evenly, so half of 60% are in school on any given day.  Half of 60% is 30%.  I hope it is correct: 30 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "30%\n\n#### 30%\n",
+        "ground_truth": "100-40=<<100-40=60>>60 percent of students are remaining.\n60/2=<<60/2=30>>30 percent are present in school.\n#### 30"
+    }
+]

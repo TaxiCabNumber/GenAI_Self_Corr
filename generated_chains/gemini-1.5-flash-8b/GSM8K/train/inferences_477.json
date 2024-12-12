@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA couple's wedding reception had 180 people. The bride and groom had each invited 20 couples from their side of the family. The remaining guests were friends. How many friends attended the reception?",
+        "inference": "1. Couples from the bride's side: 20 couples * 2 people/couple = 40 people\n2. Couples from the groom's side: 20 couples * 2 people/couple = 40 people\n3. Total people from families: 40 people + 40 people = 80 people\n4. People from friends: 180 people - 80 people = 100 people\n\nI hope it is correct: 100 $answer$\n",
+        "ground_truth": "From the bride's side, 20 couples * 2 guests/couple = <<20*2=40>>40 guests attended\nFrom the groom's side, 20 couples * 2 guests/couple = <<20*2=40>>40 guests attended\nTherefore 180 guests - (40 guests + 40 guests) = <<180-(40+40)=100>>100 friends attended the reception\n#### 100"
+    },
+    {
+        "question": "1. Couples from the bride's side: 20 couples * 2 people/couple = 40 people\n2. Couples from the groom's side: 20 couples * 2 people/couple = 40 people\n3. Total people from families: 40 people + 40 people = 80 people\n4. People from friends: 180 people - 80 people = 100 people\n\nI hope it is correct: 100 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 100\n",
+        "ground_truth": "From the bride's side, 20 couples * 2 guests/couple = <<20*2=40>>40 guests attended\nFrom the groom's side, 20 couples * 2 guests/couple = <<20*2=40>>40 guests attended\nTherefore 180 guests - (40 guests + 40 guests) = <<180-(40+40)=100>>100 friends attended the reception\n#### 100"
+    }
+]

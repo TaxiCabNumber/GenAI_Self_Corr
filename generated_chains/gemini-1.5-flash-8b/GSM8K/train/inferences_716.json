@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nLance has 70 cents, Margaret has three-fourths of a dollar, Guy has two quarters and a dime, and Bill has six dimes. How many cents do they have combined?",
+        "inference": "Lance: 70 cents\nMargaret: (3/4) * $1 = 75 cents\nGuy: (2 * 25 cents) + 10 cents = 60 cents\nBill: 6 * 10 cents = 60 cents\n\nTotal: 70 + 75 + 60 + 60 = 265 cents\n\nI hope it is correct: 265 $answer$\n",
+        "ground_truth": "Margaret has 100 * 0.75 = $0.75.\nGuy has $0.25 + $0.25 + $0.10 = $<<0.25+0.25+0.10=0.60>>0.60.\nBill has 6 * $0.10 = $<<6*0.10=0.60>>0.60.\nLance, Margaret, Guy and Bill have $0.70 + $0.75 + $0.60 + $0.60 = $<<0.70+0.75+0.60+0.60=2.65>>2.65.\nThus they have $2.65 * 100 = <<2.65*100=265>>265 cents.\n#### 265"
+    },
+    {
+        "question": "Lance: 70 cents\nMargaret: (3/4) * $1 = 75 cents\nGuy: (2 * 25 cents) + 10 cents = 60 cents\nBill: 6 * 10 cents = 60 cents\n\nTotal: 70 + 75 + 60 + 60 = 265 cents\n\nI hope it is correct: 265 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $2.65\n",
+        "ground_truth": "Margaret has 100 * 0.75 = $0.75.\nGuy has $0.25 + $0.25 + $0.10 = $<<0.25+0.25+0.10=0.60>>0.60.\nBill has 6 * $0.10 = $<<6*0.10=0.60>>0.60.\nLance, Margaret, Guy and Bill have $0.70 + $0.75 + $0.60 + $0.60 = $<<0.70+0.75+0.60+0.60=2.65>>2.65.\nThus they have $2.65 * 100 = <<2.65*100=265>>265 cents.\n#### 265"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIn a class of 25 students, students were asked if they like French fries, burgers, or neither. 15 students said they like French fries and 10 said they like burgers, with these statistics including the responses of 6 students who said they like both French fries and burgers. How many students do not like either food?",
+        "inference": "1. Students who like only French fries: 15 - 6 = 9\n2. Students who like only burgers: 10 - 6 = 4\n3. Total students who like either French fries, burgers, or both: 9 + 4 + 6 = 19\n4. Students who do not like either food: 25 - 19 = 6\n\nI hope it is correct: 6\n",
+        "ground_truth": "There are 15 - 6 = <<15-6=9>>9 students who like French fries only.\nThere are 10 - 6 = <<10-6=4>>4 students who like burgers only.\nSo, 9 + 4 + 6 = <<9+4+6=19>>19 students like either French fries, burgers, or both.\nHence, 25 - 19 = <<25-19=6>>6 students do not like either fries or burgers.\n#### 6"
+    },
+    {
+        "question": "1. Students who like only French fries: 15 - 6 = 9\n2. Students who like only burgers: 10 - 6 = 4\n3. Total students who like either French fries, burgers, or both: 9 + 4 + 6 = 19\n4. Students who do not like either food: 25 - 19 = 6\n\nI hope it is correct: 6\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 6\n",
+        "ground_truth": "There are 15 - 6 = <<15-6=9>>9 students who like French fries only.\nThere are 10 - 6 = <<10-6=4>>4 students who like burgers only.\nSo, 9 + 4 + 6 = <<9+4+6=19>>19 students like either French fries, burgers, or both.\nHence, 25 - 19 = <<25-19=6>>6 students do not like either fries or burgers.\n#### 6"
+    }
+]

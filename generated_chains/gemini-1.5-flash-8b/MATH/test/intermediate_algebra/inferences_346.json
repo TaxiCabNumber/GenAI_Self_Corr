@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA certain ellipse is defined by\n\\[PF_1 + PF_2 = d.\\]The equation of the ellipse is $4x^2 - 8x + y^2 + 4y - 8 = 0.$  Find $d.$",
+        "inference": "Completing the square, we get\n\\begin{align*} 4x^2 - 8x + y^2 + 4y - 8 &= 0 \\\\ 4(x^2 - 2x) + (y^2 + 4y) &= 8 \\\\ 4(x^2 - 2x + 1) + (y^2 + 4y + 4) &= 8 + 4 + 4 \\\\ 4(x - 1)^2 + (y + 2)^2 &= 16 \\\\ \\frac{(x - 1)^2}{4} + \\frac{(y + 2)^2}{16} &= 1 \\end{align*}This is an ellipse centered at $(1, -2).$ The semi-major axis is $a = 4$ and the semi-minor axis is $b = 2.$  The foci are located at $(1, -2 \\pm c),$ where $c^2 = a^2 - b^2 = 16 - 4 = 12.$  Thus, $c = 2 \\sqrt{3}.$\nThe sum of the distances from a point on the ellipse to the foci is $2a = 2(4) = 8.$  Therefore, $d = 8.$\n\nFinal Answer: $\\boxed{8}$",
+        "ground_truth": "Completing the square in $x$ and $y,$ we get\n\\[4(x - 1)^2 + (y + 2)^2 = 16.\\]Then\n\\[\\frac{(x - 1)^2}{4} + \\frac{(y + 2)^2}{16} = 1.\\]Hence, $d = 2 \\cdot 4 = \\boxed{8}.$"
+    },
+    {
+        "question": "Completing the square, we get\n\\begin{align*} 4x^2 - 8x + y^2 + 4y - 8 &= 0 \\\\ 4(x^2 - 2x) + (y^2 + 4y) &= 8 \\\\ 4(x^2 - 2x + 1) + (y^2 + 4y + 4) &= 8 + 4 + 4 \\\\ 4(x - 1)^2 + (y + 2)^2 &= 16 \\\\ \\frac{(x - 1)^2}{4} + \\frac{(y + 2)^2}{16} &= 1 \\end{align*}This is an ellipse centered at $(1, -2).$ The semi-major axis is $a = 4$ and the semi-minor axis is $b = 2.$  The foci are located at $(1, -2 \\pm c),$ where $c^2 = a^2 - b^2 = 16 - 4 = 12.$  Thus, $c = 2 \\sqrt{3}.$\nThe sum of the distances from a point on the ellipse to the foci is $2a = 2(4) = 8.$  Therefore, $d = 8.$\n\nFinal Answer: $\\boxed{8}$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{8}$\n",
+        "ground_truth": "Completing the square in $x$ and $y,$ we get\n\\[4(x - 1)^2 + (y + 2)^2 = 16.\\]Then\n\\[\\frac{(x - 1)^2}{4} + \\frac{(y + 2)^2}{16} = 1.\\]Hence, $d = 2 \\cdot 4 = \\boxed{8}.$"
+    }
+]

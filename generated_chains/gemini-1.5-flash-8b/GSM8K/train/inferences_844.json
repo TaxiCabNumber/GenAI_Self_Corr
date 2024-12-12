@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIn 5 years, Andy will be twice as old as Rahim is now. Rahim is 6 now. How much older is Andy than Rahim, right now, in years?",
+        "inference": "Rahim's age now = 6 years\nIn 5 years, Rahim's age will be 6 + 5 = 11 years\nAndy's age in 5 years will be twice Rahim's age now, so Andy's age in 5 years = 2 * 6 = 12 years\nAndy's current age = Andy's age in 5 years - 5 = 12 - 5 = 7 years\nDifference in age = Andy's age - Rahim's age = 7 - 6 = 1 year\nI hope it is correct: 1 $year$\n",
+        "ground_truth": "Andy will be 2*6=<<2*6=12>>12.\nNow he is 12-5=<<12-5=7>>7.\nSo Andy is 7-6=<<7-6=1>>1 year older than Rahim.\n#### 1"
+    },
+    {
+        "question": "Rahim's age now = 6 years\nIn 5 years, Rahim's age will be 6 + 5 = 11 years\nAndy's age in 5 years will be twice Rahim's age now, so Andy's age in 5 years = 2 * 6 = 12 years\nAndy's current age = Andy's age in 5 years - 5 = 12 - 5 = 7 years\nDifference in age = Andy's age - Rahim's age = 7 - 6 = 1 year\nI hope it is correct: 1 $year$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 1 year\n",
+        "ground_truth": "Andy will be 2*6=<<2*6=12>>12.\nNow he is 12-5=<<12-5=7>>7.\nSo Andy is 7-6=<<7-6=1>>1 year older than Rahim.\n#### 1"
+    }
+]

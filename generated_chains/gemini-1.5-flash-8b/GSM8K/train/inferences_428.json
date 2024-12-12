@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA frog lays her eggs over a series of 4 days.  The first day she lays 50 eggs.  The second day, she doubles her production of eggs.  The third day she lays 20 more than the second day, and the last day she doubles the first three days total.  How many eggs did the frog lay over the span of the 4 days?",
+        "inference": "1. Day 1: 50 eggs\n2. Day 2: 50 * 2 = 100 eggs\n3. Day 3: 100 + 20 = 120 eggs\n4. Day 4: (50 + 100 + 120) * 2 = 270 * 2 = 540 eggs\nTotal eggs = 50 + 100 + 120 + 540 = 780 eggs\n\nI hope it is correct: 780 $eggs$\n",
+        "ground_truth": "Day 1:50\nDay 2:50(2)=100\nDay 3:100+20=<<100+20=120>>120\nDay 4:2(50+100+120)=540\nTotal:50+100+120+540=<<50+100+120+540=810>>810 eggs\n#### 810"
+    },
+    {
+        "question": "1. Day 1: 50 eggs\n2. Day 2: 50 * 2 = 100 eggs\n3. Day 3: 100 + 20 = 120 eggs\n4. Day 4: (50 + 100 + 120) * 2 = 270 * 2 = 540 eggs\nTotal eggs = 50 + 100 + 120 + 540 = 780 eggs\n\nI hope it is correct: 780 $eggs$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 780\n",
+        "ground_truth": "Day 1:50\nDay 2:50(2)=100\nDay 3:100+20=<<100+20=120>>120\nDay 4:2(50+100+120)=540\nTotal:50+100+120+540=<<50+100+120+540=810>>810 eggs\n#### 810"
+    }
+]

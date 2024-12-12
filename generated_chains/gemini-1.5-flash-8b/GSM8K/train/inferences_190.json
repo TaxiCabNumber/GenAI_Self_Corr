@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nLast year Dallas was 3 times the age of his sister Darcy. Darcy is twice as old as Dexter who is 8 right now. How old is Dallas now?",
+        "inference": "Dexter is 8.\nDarcy is 2 * 8 = 16.\nDallas was 3 * 16 = 48 last year.\nDallas is 48 + 1 = 49 now.\nI hope it is correct: 49 $answer$\n",
+        "ground_truth": "Darcy = 2*Dexter = 2*8 = 16\nLast year Darcy was 16 - 1 = <<16-1=15>>15\nDallas was 3 times Darcy last year = 3*15 = <<3*15=45>>45\nDallas is a year older now = 45 + 1 = <<45+1=46>>46\nDallas is 46 years old now.\n#### 46"
+    },
+    {
+        "question": "Dexter is 8.\nDarcy is 2 * 8 = 16.\nDallas was 3 * 16 = 48 last year.\nDallas is 48 + 1 = 49 now.\nI hope it is correct: 49 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 49\n",
+        "ground_truth": "Darcy = 2*Dexter = 2*8 = 16\nLast year Darcy was 16 - 1 = <<16-1=15>>15\nDallas was 3 times Darcy last year = 3*15 = <<3*15=45>>45\nDallas is a year older now = 45 + 1 = <<45+1=46>>46\nDallas is 46 years old now.\n#### 46"
+    }
+]

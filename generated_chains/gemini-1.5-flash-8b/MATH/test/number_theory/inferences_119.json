@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the largest integer less than 1000 which is divisible by 11?",
+        "inference": "To find the largest integer less than 1000 divisible by 11, we need to divide 1000 by 11 and find the largest integer quotient.\n$1000 \\div 11 \\approx 90.909...$\nThe largest integer less than 90.909... is 90.\nThus, the largest integer less than 1000 divisible by 11 is $90 \\times 11 = 990$.\nFinal Answer: $\\boxed{990}$ I hope it is correct.\n",
+        "ground_truth": "We find that 1000 gives a quotient of 90 and a remainder of 10 when divided by 11. Therefore, if we subtract 10 from 1000 we should subtract 10 from the remainder as well, which gives us zero. This means that $1000-10 = \\boxed{990}$ is divisible by 11, while the next number divisible by 11 is $990+11 = 1001.$"
+    },
+    {
+        "question": "To find the largest integer less than 1000 divisible by 11, we need to divide 1000 by 11 and find the largest integer quotient.\n$1000 \\div 11 \\approx 90.909...$\nThe largest integer less than 90.909... is 90.\nThus, the largest integer less than 1000 divisible by 11 is $90 \\times 11 = 990$.\nFinal Answer: $\\boxed{990}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "To find the largest integer less than 1000 divisible by 11, we need to find the largest multiple of 11 that is less than 1000.\nDividing 1000 by 11, we get $1000 \\div 11 \\approx 90.909...$\nThe largest integer less than or equal to this quotient is 90.\nThus, the largest integer less than 1000 divisible by 11 is $90 \\times 11 = 990$.\n\nFinal Answer: $\\boxed{990}$",
+        "ground_truth": "We find that 1000 gives a quotient of 90 and a remainder of 10 when divided by 11. Therefore, if we subtract 10 from 1000 we should subtract 10 from the remainder as well, which gives us zero. This means that $1000-10 = \\boxed{990}$ is divisible by 11, while the next number divisible by 11 is $990+11 = 1001.$"
+    }
+]

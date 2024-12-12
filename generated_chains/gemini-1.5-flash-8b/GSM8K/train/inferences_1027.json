@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn commissions an artist to make him a 9 by 13 drawing.  A black and white drawing that size would cost $160.  He wants a color drawing so that is 50% more expensive.  How much did he pay?",
+        "inference": "1. Calculate the increase in cost: $160 * 0.50 = $80\n2. Calculate the total cost: $160 + $80 = $240\n\nI hope it is correct: $240\n",
+        "ground_truth": "The extra cost for coloring is 160*.5=$<<160*.5=80>>80\nSo the total cost was 160+80=$<<160+80=240>>240\n#### 240"
+    },
+    {
+        "question": "1. Calculate the increase in cost: $160 * 0.50 = $80\n2. Calculate the total cost: $160 + $80 = $240\n\nI hope it is correct: $240\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $240\n",
+        "ground_truth": "The extra cost for coloring is 160*.5=$<<160*.5=80>>80\nSo the total cost was 160+80=$<<160+80=240>>240\n#### 240"
+    }
+]

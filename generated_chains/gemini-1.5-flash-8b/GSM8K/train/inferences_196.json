@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nHerbert is 10 years younger than Kris. If Kris is 24 years old now, how old will Herbert be next year?",
+        "inference": "Kris's age = 24 years\nHerbert is 10 years younger than Kris, so Herbert's current age = 24 - 10 = 14 years\nNext year, Herbert's age will be 14 + 1 = 15 years\nI hope it is correct: 15 $answer$\n",
+        "ground_truth": "Herbert is 24 - 10 = <<24-10=14>>14 years old now.\nThus, Herbert will be 14 + 1 = <<14+1=15>>15 years old next year.\n#### 15"
+    },
+    {
+        "question": "Kris's age = 24 years\nHerbert is 10 years younger than Kris, so Herbert's current age = 24 - 10 = 14 years\nNext year, Herbert's age will be 14 + 1 = 15 years\nI hope it is correct: 15 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 15\n",
+        "ground_truth": "Herbert is 24 - 10 = <<24-10=14>>14 years old now.\nThus, Herbert will be 14 + 1 = <<14+1=15>>15 years old next year.\n#### 15"
+    }
+]

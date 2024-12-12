@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nOmi is twice as old as Kimiko. Arlette is 3/4 times as old as Kimiko. If Kimiko is 28 years old, calculate the average age of the three?",
+        "inference": "1. Omi's age: Omi is twice Kimiko's age, so Omi = 2 * 28 = 56 years old.\n2. Arlette's age: Arlette is 3/4 times Kimiko's age, so Arlette = (3/4) * 28 = 21 years old.\n3. Average age: The average age is (Kimiko's age + Omi's age + Arlette's age) / 3 = (28 + 56 + 21) / 3 = 105 / 3 = 35 years old.\n\nI hope it is correct: 35 $\n",
+        "ground_truth": "If Kimiko is 28, Omi is 2 * 28 years = <<28*2=56>>56 years old.\nArlette is 3/4 * 28 years = <<3/4*28=21>>21 years old.\nIf you add up their ages, it sums to 21 years + 56 years + 28 years = <<21+56+28=105>>105 years\nThe average age for the three is 105 years / 3 people = <<105/3=35>>35 years/person\n#### 35"
+    },
+    {
+        "question": "1. Omi's age: Omi is twice Kimiko's age, so Omi = 2 * 28 = 56 years old.\n2. Arlette's age: Arlette is 3/4 times Kimiko's age, so Arlette = (3/4) * 28 = 21 years old.\n3. Average age: The average age is (Kimiko's age + Omi's age + Arlette's age) / 3 = (28 + 56 + 21) / 3 = 105 / 3 = 35 years old.\n\nI hope it is correct: 35 $\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 35\n",
+        "ground_truth": "If Kimiko is 28, Omi is 2 * 28 years = <<28*2=56>>56 years old.\nArlette is 3/4 * 28 years = <<3/4*28=21>>21 years old.\nIf you add up their ages, it sums to 21 years + 56 years + 28 years = <<21+56+28=105>>105 years\nThe average age for the three is 105 years / 3 people = <<105/3=35>>35 years/person\n#### 35"
+    }
+]

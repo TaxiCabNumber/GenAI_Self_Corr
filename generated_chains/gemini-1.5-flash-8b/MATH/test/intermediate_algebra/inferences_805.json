@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $a,$ $b,$ $c$ be the roots of $x^3 + 2x^2 + 5x + 7 = 0.$  Compute\n\\[\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c}.\\]",
+        "inference": "By Vieta's formulas, we have\n\\begin{align*} a + b + c &= -2, \\\\ ab + ac + bc &= 5, \\\\ abc &= -7. \\end{align*}Then\n\\begin{align*} \\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} &= \\frac{ab + ac + bc}{abc} \\\\ &= \\frac{5}{-7} \\\\ &= -\\frac{5}{7}. \\end{align*}Final Answer: $\\boxed{-\\frac{5}{7}}$",
+        "ground_truth": "By Vieta's formulas, $ab + ac + bc = 5$ and $abc = -7,$ so\n\\[\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} = \\frac{ab + ac + bc}{abc} = \\boxed{-\\frac{5}{7}}.\\]"
+    },
+    {
+        "question": "By Vieta's formulas, we have\n\\begin{align*} a + b + c &= -2, \\\\ ab + ac + bc &= 5, \\\\ abc &= -7. \\end{align*}Then\n\\begin{align*} \\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} &= \\frac{ab + ac + bc}{abc} \\\\ &= \\frac{5}{-7} \\\\ &= -\\frac{5}{7}. \\end{align*}Final Answer: $\\boxed{-\\frac{5}{7}}$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct.\n\nFinal Answer: $\\boxed{-\\frac{5}{7}}$",
+        "ground_truth": "By Vieta's formulas, $ab + ac + bc = 5$ and $abc = -7,$ so\n\\[\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} = \\frac{ab + ac + bc}{abc} = \\boxed{-\\frac{5}{7}}.\\]"
+    }
+]

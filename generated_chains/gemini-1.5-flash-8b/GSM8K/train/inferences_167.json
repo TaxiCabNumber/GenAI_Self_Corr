@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJanet filmed a new movie that is 60% longer than her previous 2-hour long movie.  Her previous movie cost $50 per minute to film, and the newest movie cost twice as much per minute to film as the previous movie.  What was the total amount of money required to film Janet's entire newest film?",
+        "inference": "1. The previous movie was 2 hours long, which is 2 * 60 = 120 minutes.\n\n2. The new movie is 60% longer than the previous one.  60% of 120 minutes is 0.60 * 120 = 72 minutes.\n\n3. The new movie's length is 120 minutes + 72 minutes = 192 minutes.\n\n4. The previous movie cost $50 per minute to film.\n\n5. The new movie cost twice as much, so it cost $50 * 2 = $100 per minute.\n\n6. The total cost to film the new movie is 192 minutes * $100/minute = $19,200.\n\nI hope it is correct: $19200\n",
+        "ground_truth": "The first movie was 2*60=<<2*60=120>>120 minutes\nSo this movie is 120*.6=<<120*.6=72>>72 minutes longer\nSo this movie is 192 minutes\nIt also cost 50*2=$<<50*2=100>>100 per minute to film\nSo it cost 192*100=$1920\n#### 1920"
+    },
+    {
+        "question": "1. The previous movie was 2 hours long, which is 2 * 60 = 120 minutes.\n\n2. The new movie is 60% longer than the previous one.  60% of 120 minutes is 0.60 * 120 = 72 minutes.\n\n3. The new movie's length is 120 minutes + 72 minutes = 192 minutes.\n\n4. The previous movie cost $50 per minute to film.\n\n5. The new movie cost twice as much, so it cost $50 * 2 = $100 per minute.\n\n6. The total cost to film the new movie is 192 minutes * $100/minute = $19,200.\n\nI hope it is correct: $19200\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $19200\n",
+        "ground_truth": "The first movie was 2*60=<<2*60=120>>120 minutes\nSo this movie is 120*.6=<<120*.6=72>>72 minutes longer\nSo this movie is 192 minutes\nIt also cost 50*2=$<<50*2=100>>100 per minute to film\nSo it cost 192*100=$1920\n#### 1920"
+    }
+]

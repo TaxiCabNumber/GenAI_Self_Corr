@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSimplify\n\\[\\frac{\\sec x}{\\sin x} - \\frac{\\sin x}{\\cos x}.\\]",
+        "inference": "\\[\\frac{\\sec x}{\\sin x} - \\frac{\\sin x}{\\cos x} = \\frac{\\frac{1}{\\cos x}}{\\sin x} - \\frac{\\sin x}{\\cos x} = \\frac{1}{\\sin x \\cos x} - \\frac{\\sin x}{\\cos x} = \\frac{1}{\\sin x \\cos x} - \\frac{\\sin^2 x}{\\sin x \\cos x} = \\frac{1 - \\sin^2 x}{\\sin x \\cos x} = \\frac{\\cos^2 x}{\\sin x \\cos x} = \\frac{\\cos x}{\\sin x} = \\cot x.\\]\nFinal Answer: $\\boxed{\\cot x}$",
+        "ground_truth": "We can write\n\\begin{align*}\n\\frac{\\sec x}{\\sin x} - \\frac{\\sin x}{\\cos x} &= \\frac{1}{\\cos x \\sin x} - \\frac{\\sin x}{\\cos x} \\\\\n&= \\frac{1 - \\sin^2 x}{\\cos x \\sin x} \\\\\n&= \\frac{\\cos^2 x}{\\cos x \\sin x} \\\\\n&= \\frac{\\cos x}{\\sin x} \\\\\n&= \\boxed{\\cot x}.\n\\end{align*}"
+    },
+    {
+        "question": "\\[\\frac{\\sec x}{\\sin x} - \\frac{\\sin x}{\\cos x} = \\frac{\\frac{1}{\\cos x}}{\\sin x} - \\frac{\\sin x}{\\cos x} = \\frac{1}{\\sin x \\cos x} - \\frac{\\sin x}{\\cos x} = \\frac{1}{\\sin x \\cos x} - \\frac{\\sin^2 x}{\\sin x \\cos x} = \\frac{1 - \\sin^2 x}{\\sin x \\cos x} = \\frac{\\cos^2 x}{\\sin x \\cos x} = \\frac{\\cos x}{\\sin x} = \\cot x.\\]\nFinal Answer: $\\boxed{\\cot x}$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\[\\frac{\\sec x}{\\sin x} - \\frac{\\sin x}{\\cos x} = \\frac{1}{\\sin x \\cos x} - \\frac{\\sin^2 x}{\\sin x \\cos x} = \\frac{1-\\sin^2 x}{\\sin x \\cos x} = \\frac{\\cos^2 x}{\\sin x \\cos x} = \\frac{\\cos x}{\\sin x} = \\cot x\\]\nFinal Answer: $\\boxed{\\cot x}$",
+        "ground_truth": "We can write\n\\begin{align*}\n\\frac{\\sec x}{\\sin x} - \\frac{\\sin x}{\\cos x} &= \\frac{1}{\\cos x \\sin x} - \\frac{\\sin x}{\\cos x} \\\\\n&= \\frac{1 - \\sin^2 x}{\\cos x \\sin x} \\\\\n&= \\frac{\\cos^2 x}{\\cos x \\sin x} \\\\\n&= \\frac{\\cos x}{\\sin x} \\\\\n&= \\boxed{\\cot x}.\n\\end{align*}"
+    }
+]

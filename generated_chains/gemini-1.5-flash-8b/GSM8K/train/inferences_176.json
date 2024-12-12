@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA store sells 20 packets of 100 grams of sugar every week. How many kilograms of sugar does it sell every week?",
+        "inference": "20 packets * 100 grams/packet = 2000 grams\n2000 grams / 1000 grams/kg = 2 kg\nI hope it is correct: 2 $kg$\n",
+        "ground_truth": "A total of 20 x 100 = <<20*100=2000>>2000 grams are sold every week.\nSince 1 kilogram is equal to 1000 grams, then 2000/1000 = <<2000/1000=2>>2 kilograms of sugar are sold every week.\n#### 2"
+    },
+    {
+        "question": "20 packets * 100 grams/packet = 2000 grams\n2000 grams / 1000 grams/kg = 2 kg\nI hope it is correct: 2 $kg$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 2 kg\n",
+        "ground_truth": "A total of 20 x 100 = <<20*100=2000>>2000 grams are sold every week.\nSince 1 kilogram is equal to 1000 grams, then 2000/1000 = <<2000/1000=2>>2 kilograms of sugar are sold every week.\n#### 2"
+    }
+]

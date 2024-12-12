@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nHash has nine more than half as many toys as Bill has. If Bill has 60 toys, how many total toys do the boys have?",
+        "inference": "1. Half of Bill's toys: 60 / 2 = 30\n2. Hash's toys: 30 + 9 = 39\n3. Total toys: 60 + 39 = 99\nI hope it is correct: 99 $\n",
+        "ground_truth": "First we need to know what half of Bills toys are, 60 toys / 2 = <<60/2=30>>30 toys.\nHash has 9 toys + 30 toys = <<9+30=39>>39 toys.\nTogether the boys have 60 toys + 39 toys = <<60+39=99>>99 toys.\n#### 99"
+    },
+    {
+        "question": "1. Half of Bill's toys: 60 / 2 = 30\n2. Hash's toys: 30 + 9 = 39\n3. Total toys: 60 + 39 = 99\nI hope it is correct: 99 $\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $99\n",
+        "ground_truth": "First we need to know what half of Bills toys are, 60 toys / 2 = <<60/2=30>>30 toys.\nHash has 9 toys + 30 toys = <<9+30=39>>39 toys.\nTogether the boys have 60 toys + 39 toys = <<60+39=99>>99 toys.\n#### 99"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the simplified value of $\\frac{10! + 11! + 12!}{10! + 11!}$?",
+        "inference": "We are asked to simplify the expression $\\frac{10! + 11! + 12!}{10! + 11!}$.\nWe can factor out $10!$ from the numerator and denominator.\nNumerator: $10! + 11! + 12! = 10! + 11 \\times 10! + 12 \\times 11 \\times 10! = 10! (1 + 11 + 132) = 10!(144)$.\nDenominator: $10! + 11! = 10! + 11 \\times 10! = 10!(1 + 11) = 10!(12)$.\nSo, the expression becomes\n$$\\frac{10!(144)}{10!(12)} = \\frac{144}{12} = 12.$$\nFinal Answer: $\\boxed{12}$ I hope it is correct.\n",
+        "ground_truth": "We do a little factoring, taking advantage of the properties of factorials:\n\\[\\frac{10! + 11! + 12!}{10! + 11!} = \\frac{10!(1+11+11\\cdot 12)}{10!(1+11)} = \\frac{1+11+11\\cdot 12}{12} = \\frac{12 + 11 \\cdot 12}{12} = \\frac{12\\cdot 12}{12} = \\boxed{12}.\\]"
+    },
+    {
+        "question": "We are asked to simplify the expression $\\frac{10! + 11! + 12!}{10! + 11!}$.\nWe can factor out $10!$ from the numerator and denominator.\nNumerator: $10! + 11! + 12! = 10! + 11 \\times 10! + 12 \\times 11 \\times 10! = 10! (1 + 11 + 132) = 10!(144)$.\nDenominator: $10! + 11! = 10! + 11 \\times 10! = 10!(1 + 11) = 10!(12)$.\nSo, the expression becomes\n$$\\frac{10!(144)}{10!(12)} = \\frac{144}{12} = 12.$$\nFinal Answer: $\\boxed{12}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\frac{10! + 11! + 12!}{10! + 11!} = \\frac{10! + 11 \\times 10! + 12 \\times 11 \\times 10!}{10! + 11 \\times 10!} = \\frac{10!(1 + 11 + 12 \\times 11)}{10!(1 + 11)} = \\frac{10!(1 + 11 + 132)}{10!(1 + 11)} = \\frac{10!(144)}{10!(12)} = \\frac{144}{12} = 12$.\nFinal Answer: $\\boxed{12}$",
+        "ground_truth": "We do a little factoring, taking advantage of the properties of factorials:\n\\[\\frac{10! + 11! + 12!}{10! + 11!} = \\frac{10!(1+11+11\\cdot 12)}{10!(1+11)} = \\frac{1+11+11\\cdot 12}{12} = \\frac{12 + 11 \\cdot 12}{12} = \\frac{12\\cdot 12}{12} = \\boxed{12}.\\]"
+    }
+]

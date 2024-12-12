@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBenny bought  2 soft drinks for$ 4 each and 5 candy bars. He spent a total of 28 dollars. How much did each candy bar cost?",
+        "inference": "1. Cost of soft drinks: 2 drinks * $4/drink = $8\n\n2. Money spent on candy bars: $28 (total) - $8 (soft drinks) = $20\n\n3. Cost of each candy bar: $20 (candy bars) / 5 candy bars = $4/candy bar\n\nI hope it is correct: $4\n",
+        "ground_truth": "Benny spent 2 * $4 = $<<2*4=8>>8 on soft drinks.\nBenny spent a total of $28 - $8 on soft drinks = $<<28-8=20>>20 on candy bars.\nBenny spent $20 / 5 candy bars = $<<20/5=4>>4 for each candy bar.\n#### 4"
+    },
+    {
+        "question": "1. Cost of soft drinks: 2 drinks * $4/drink = $8\n\n2. Money spent on candy bars: $28 (total) - $8 (soft drinks) = $20\n\n3. Cost of each candy bar: $20 (candy bars) / 5 candy bars = $4/candy bar\n\nI hope it is correct: $4\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $4\n",
+        "ground_truth": "Benny spent 2 * $4 = $<<2*4=8>>8 on soft drinks.\nBenny spent a total of $28 - $8 on soft drinks = $<<28-8=20>>20 on candy bars.\nBenny spent $20 / 5 candy bars = $<<20/5=4>>4 for each candy bar.\n#### 4"
+    }
+]

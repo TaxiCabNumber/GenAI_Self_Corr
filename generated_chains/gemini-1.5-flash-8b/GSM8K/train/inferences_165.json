@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nManex is a tour bus driver. He has to drive 55 miles to the destination and drive going back to the starting point on a different way that is 10 miles farther. If he can drive 1 mile for 2 minutes and stayed 2 hours at the destination, how long will it take the bus driver to do the entire tour in hours?",
+        "inference": "1. Driving to the destination: 55 miles * 2 minutes/mile = 110 minutes\n\n2. Staying at destination: 2 hours * 60 minutes/hour = 120 minutes\n\n3. Driving back: 65 miles * 2 minutes/mile = 130 minutes\n\n4. Total time: 110 minutes + 120 minutes + 130 minutes = 360 minutes\n\n5. Convert to hours: 360 minutes / 60 minutes/hour = 6 hours\n\nI hope it is correct: 6 $hours$\n",
+        "ground_truth": "The bus traveled 55 + 10 = <<55+10=65>>65 miles going back to the starting point.\nSo, the bus traveled a total of 55 + 65 = <<55+65=120>>120 miles.\nIt took 120 x 2 = <<120*2=240>>240 minutes to travel.\nSince there are 60 minutes in 1 hour, then the bus traveled for 240/60 = <<240/60=4>>4 hours.\nTherefore, the entire tour took 4 + 2 = <<4+2=6>>6 hours.\n#### 6"
+    },
+    {
+        "question": "1. Driving to the destination: 55 miles * 2 minutes/mile = 110 minutes\n\n2. Staying at destination: 2 hours * 60 minutes/hour = 120 minutes\n\n3. Driving back: 65 miles * 2 minutes/mile = 130 minutes\n\n4. Total time: 110 minutes + 120 minutes + 130 minutes = 360 minutes\n\n5. Convert to hours: 360 minutes / 60 minutes/hour = 6 hours\n\nI hope it is correct: 6 $hours$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 6 hours\n",
+        "ground_truth": "The bus traveled 55 + 10 = <<55+10=65>>65 miles going back to the starting point.\nSo, the bus traveled a total of 55 + 65 = <<55+65=120>>120 miles.\nIt took 120 x 2 = <<120*2=240>>240 minutes to travel.\nSince there are 60 minutes in 1 hour, then the bus traveled for 240/60 = <<240/60=4>>4 hours.\nTherefore, the entire tour took 4 + 2 = <<4+2=6>>6 hours.\n#### 6"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSimplify $\\sqrt{64^3}$.",
+        "inference": "$\\sqrt{64^3} = \\sqrt{(8^2)^3} = \\sqrt{8^{2\\times3}} = \\sqrt{8^6} = 8^{6/2} = 8^3 = 8\\times8\\times8 = 64\\times8 = 512$\n\nFinal Answer: $\\boxed{512}$\n",
+        "ground_truth": "\\[\\sqrt{64^3}=\\sqrt{(2^6)^3}=\\sqrt{2^{18}}=2^9=\\boxed{512}.\\]"
+    },
+    {
+        "question": "$\\sqrt{64^3} = \\sqrt{(8^2)^3} = \\sqrt{8^{2\\times3}} = \\sqrt{8^6} = 8^{6/2} = 8^3 = 8\\times8\\times8 = 64\\times8 = 512$\n\nFinal Answer: $\\boxed{512}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\sqrt{64^3} = (64^3)^{1/2} = 64^{3/2} = (64^{1/2})^3 = (8)^3 = 8\\times8\\times8 = 512$\n\nFinal Answer: $\\boxed{512}$",
+        "ground_truth": "\\[\\sqrt{64^3}=\\sqrt{(2^6)^3}=\\sqrt{2^{18}}=2^9=\\boxed{512}.\\]"
+    }
+]

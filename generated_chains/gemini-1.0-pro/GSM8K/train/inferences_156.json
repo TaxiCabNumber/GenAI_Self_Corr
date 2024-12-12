@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nGeorge bought some food for his trip: a bottle of juice, a sandwich, and a bottle of milk. The sandwich was for $4, and the juice was two times more expensive. The bottle of milk cost was 75% of the total cost of the sandwich and juice. How much did George pay for his food?",
+        "inference": "1. The juice costs $4 x 2 = $8$\n2. The milk costs $ (4 + 8) x 0,75 = $9$\n3. The total cost is $4 + $8 + $9 = $21$\nI hope it is correct: 21",
+        "ground_truth": "The juice was two times more expensive than the sandwich, so it was 4 * 2 = $<<2*4=8>>8.\nThe juice and the sandwich in total were a cost of 4 + 8 = $<<4+8=12>>12.\nSo the cost of one bottle of milk was 75/100 * 12 = $<<75/100*12=9>>9.\nIn total for all the food, George paid 12 + 9 = $<<12+9=21>>21.\n#### 21"
+    },
+    {
+        "question": "1. The juice costs $4 x 2 = $8$\n2. The milk costs $ (4 + 8) x 0,75 = $9$\n3. The total cost is $4 + $8 + $9 = $21$\nI hope it is correct: 21\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $21$",
+        "ground_truth": "The juice was two times more expensive than the sandwich, so it was 4 * 2 = $<<2*4=8>>8.\nThe juice and the sandwich in total were a cost of 4 + 8 = $<<4+8=12>>12.\nSo the cost of one bottle of milk was 75/100 * 12 = $<<75/100*12=9>>9.\nIn total for all the food, George paid 12 + 9 = $<<12+9=21>>21.\n#### 21"
+    }
+]

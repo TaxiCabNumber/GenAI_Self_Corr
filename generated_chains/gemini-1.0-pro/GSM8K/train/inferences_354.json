@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSeth bought some boxes of oranges. He gave a box to his mother. He then gave away half of the remaining boxes. If Seth has 4 boxes of oranges left, how many boxes did he buy in the first place?",
+        "inference": "1. Let's assume that the initial number of boxes is 'x'.\n\n2. After giving a box to his mother, Seth has (x - 1) boxes left.\n\n3. He then gives away half of the remaining boxes, which is ((x - 1) / 2) boxes.\n\n4. So, the number of boxes he has left is (x - 1) - ((x - 1) / 2) = 4.\n\n5. Solving for 'x', we get:\n(x - 1) - ((x - 1) / 2) = 4\n(2x - 2) / 2 - (x - 1) / 2 = 4\n(2x - 2 - x + 1) / 2 = 4\nx - 1 = 8\nx = 9\n\nI hope it is correct: 9 $boxes$",
+        "ground_truth": "After giving a box to his mom, Seth had 4*2=<<4*2=8>>8 boxes left.\nSeth bought 8+1=<<8+1=9>>9 boxes of oranges.\n#### 9"
+    },
+    {
+        "question": "1. Let's assume that the initial number of boxes is 'x'.\n\n2. After giving a box to his mother, Seth has (x - 1) boxes left.\n\n3. He then gives away half of the remaining boxes, which is ((x - 1) / 2) boxes.\n\n4. So, the number of boxes he has left is (x - 1) - ((x - 1) / 2) = 4.\n\n5. Solving for 'x', we get:\n(x - 1) - ((x - 1) / 2) = 4\n(2x - 2) / 2 - (x - 1) / 2 = 4\n(2x - 2 - x + 1) / 2 = 4\nx - 1 = 8\nx = 9\n\nI hope it is correct: 9 $boxes$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 9",
+        "ground_truth": "After giving a box to his mom, Seth had 4*2=<<4*2=8>>8 boxes left.\nSeth bought 8+1=<<8+1=9>>9 boxes of oranges.\n#### 9"
+    }
+]

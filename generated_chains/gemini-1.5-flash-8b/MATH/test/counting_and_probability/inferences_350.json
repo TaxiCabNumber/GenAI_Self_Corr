@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the greatest integer less than $10.3^3$ without using a calculator.",
+        "inference": "$10.3^3 = (10 + 0.3)^3 = 10^3 + 3(10^2)(0.3) + 3(10)(0.3^2) + 0.3^3$\n$= 1000 + 3(100)(0.3) + 3(10)(0.09) + 0.027$\n$= 1000 + 90 + 2.7 + 0.027$\n$= 1092.727$\n\nThe greatest integer less than $10.3^3$ is 1092.\nFinal Answer: $\\boxed{1092}$ I hope it is correct.",
+        "ground_truth": "In general, \\[(a+b)^3=a^3+3a^2b+3ab^2+b^3\\]\n\nConsider the decimal part separately, so we're trying to find the greatest integer less than $(10+0.3)^3$. By the Binomial Theorem in the above expansion, this is equal to  \\[10^3+3(10^2)(.3)+3(10)(.3^2)+.3^3\\] Expanding these terms, we have that $(10.3)^3=1000+90+2.7+.027$. From this, we find that the greatest integer less than this quantity is $\\boxed{1092}$."
+    },
+    {
+        "question": "$10.3^3 = (10 + 0.3)^3 = 10^3 + 3(10^2)(0.3) + 3(10)(0.3^2) + 0.3^3$\n$= 1000 + 3(100)(0.3) + 3(10)(0.09) + 0.027$\n$= 1000 + 90 + 2.7 + 0.027$\n$= 1092.727$\n\nThe greatest integer less than $10.3^3$ is 1092.\nFinal Answer: $\\boxed{1092}$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$10.3^3 = (10.3)(10.3)(10.3) = 1060.829$. The greatest integer less than $10.3^3$ is 1092.727.\nThe greatest integer less than $10.3^3$ is 1092.\n\n$10.3^3 = (10.3)(10.3)(10.3) = 1092.727$\nThe greatest integer less than $10.3^3$ is 1092.\n\nFinal Answer: $\\boxed{1092}$",
+        "ground_truth": "In general, \\[(a+b)^3=a^3+3a^2b+3ab^2+b^3\\]\n\nConsider the decimal part separately, so we're trying to find the greatest integer less than $(10+0.3)^3$. By the Binomial Theorem in the above expansion, this is equal to  \\[10^3+3(10^2)(.3)+3(10)(.3^2)+.3^3\\] Expanding these terms, we have that $(10.3)^3=1000+90+2.7+.027$. From this, we find that the greatest integer less than this quantity is $\\boxed{1092}$."
+    }
+]

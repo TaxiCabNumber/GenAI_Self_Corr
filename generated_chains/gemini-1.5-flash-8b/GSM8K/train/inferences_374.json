@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 40 more buyers in the grocery store today than yesterday. There were half the number of buyers yesterday as there were the day before, and the day before had 50 buyers. Nobody visited the store on more than one day. What's the total number of buyers who've visited the store in the three days?",
+        "inference": "1. The day before yesterday had 50 buyers.\n2. Yesterday had half that number: 50 / 2 = 25 buyers.\n3. Today had 40 more buyers than yesterday: 25 + 40 = 65 buyers.\n4. Total buyers in the three days: 50 + 25 + 65 = 140 buyers.\n\nI hope it is correct: 140 $answer$\n",
+        "ground_truth": "If yesterday the number of buyers was half the number of buyers the day before, then yesterday there were 1/2*50 = <<1/2*50=25>>25 buyers.\nToday has 40 more buyers than yesterday, so there were 40+25 = <<40+25=65>>65 buyers today.\nThe total number of buyers in the store for the three days will be 65+25+50 = <<65+25+50=140>>140 buyers\n#### 140"
+    },
+    {
+        "question": "1. The day before yesterday had 50 buyers.\n2. Yesterday had half that number: 50 / 2 = 25 buyers.\n3. Today had 40 more buyers than yesterday: 25 + 40 = 65 buyers.\n4. Total buyers in the three days: 50 + 25 + 65 = 140 buyers.\n\nI hope it is correct: 140 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 140\n",
+        "ground_truth": "If yesterday the number of buyers was half the number of buyers the day before, then yesterday there were 1/2*50 = <<1/2*50=25>>25 buyers.\nToday has 40 more buyers than yesterday, so there were 40+25 = <<40+25=65>>65 buyers today.\nThe total number of buyers in the store for the three days will be 65+25+50 = <<65+25+50=140>>140 buyers\n#### 140"
+    }
+]

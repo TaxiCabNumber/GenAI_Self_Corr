@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMr. Sam shared a certain amount of money between his two sons, Ken and Tony. If Ken got $1750, and Tony got twice as much as Ken, how much was the money shared?",
+        "inference": "1. Ken got $1750.\n2. Tony got twice as much as Ken, so Tony got 2 * $1750 = $3500.\n3. Total shared money = Ken's share + Tony's share = $1750 + $3500 = $5250.\n\nI hope it is correct: 5250$\n",
+        "ground_truth": "Tony got twice $1750 which is 2*$1750 = $<<2*1750=3500>>3500\nThe total amount shared was $1750+$3500 = $<<1750+3500=5250>>5250\n#### 5250"
+    },
+    {
+        "question": "1. Ken got $1750.\n2. Tony got twice as much as Ken, so Tony got 2 * $1750 = $3500.\n3. Total shared money = Ken's share + Tony's share = $1750 + $3500 = $5250.\n\nI hope it is correct: 5250$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $5250\n",
+        "ground_truth": "Tony got twice $1750 which is 2*$1750 = $<<2*1750=3500>>3500\nThe total amount shared was $1750+$3500 = $<<1750+3500=5250>>5250\n#### 5250"
+    }
+]

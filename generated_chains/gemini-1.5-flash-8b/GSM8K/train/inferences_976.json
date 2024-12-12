@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nLudwig works 7 days a week and he usually works half of the day during Friday, Saturday, and Sunday. If his daily salary is $10, how much does he earn every week?",
+        "inference": "1. Friday, Saturday, and Sunday each have half-day work.  So, he works 3/2 days in those 3 days.\n2. Total days worked per week = 7 (full days) + 3/2 (half days) = 7 + 1.5 = 8.5 days\n3. Earnings per day = $10\n4. Total weekly earnings = 8.5 days * $10/day = $85\n\nI hope it is correct: $85\n",
+        "ground_truth": "Ludwig earns a total of $10 x 4 = $<<10*4=40>>40 from Monday to Thursday.\nHe earns $10/2= $<<10/2=5>>5 per day on Friday, Saturday, and Sunday.\nSo, his total salary for Friday, Saturday, Sunday is $5 x 3 = $<<5*3=15>>15.\nTherefore, his total weekly salary is $40 + $15 = $<<40+15=55>>55.\n#### 55"
+    },
+    {
+        "question": "1. Friday, Saturday, and Sunday each have half-day work.  So, he works 3/2 days in those 3 days.\n2. Total days worked per week = 7 (full days) + 3/2 (half days) = 7 + 1.5 = 8.5 days\n3. Earnings per day = $10\n4. Total weekly earnings = 8.5 days * $10/day = $85\n\nI hope it is correct: $85\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $85\n",
+        "ground_truth": "Ludwig earns a total of $10 x 4 = $<<10*4=40>>40 from Monday to Thursday.\nHe earns $10/2= $<<10/2=5>>5 per day on Friday, Saturday, and Sunday.\nSo, his total salary for Friday, Saturday, Sunday is $5 x 3 = $<<5*3=15>>15.\nTherefore, his total weekly salary is $40 + $15 = $<<40+15=55>>55.\n#### 55"
+    }
+]

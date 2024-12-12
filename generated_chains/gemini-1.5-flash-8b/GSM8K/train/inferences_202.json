@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSusie has $200 in her piggy bank. If she puts 20% more money into her piggy bank, how much money she will have?",
+        "inference": "20% of 200 = 200 * 0.20 = 40\n200 + 40 = 240\nI hope it is correct: 240 $answer$\n",
+        "ground_truth": "If Susie puts 20% more money into her piggy bank, she'll have 20/100*200 = $<<20/100*200=40>>40 more in her piggy bank.\nThe total amount of money in Susie's piggy bank will increase to $200+$40=$<<200+40=240>>240\n#### 240"
+    },
+    {
+        "question": "20% of 200 = 200 * 0.20 = 40\n200 + 40 = 240\nI hope it is correct: 240 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $240$\n",
+        "ground_truth": "If Susie puts 20% more money into her piggy bank, she'll have 20/100*200 = $<<20/100*200=40>>40 more in her piggy bank.\nThe total amount of money in Susie's piggy bank will increase to $200+$40=$<<200+40=240>>240\n#### 240"
+    }
+]

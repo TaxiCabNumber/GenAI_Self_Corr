@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBill put his french fries in the oven after it finished heating.  The recommended time was 5 minutes for them to be fully cooked.  He put them in for 45 seconds.  How many seconds remained?",
+        "inference": "5 minutes = 5 * 60 seconds = 300 seconds\n\nTime elapsed = 45 seconds\n\nTime remaining = 300 seconds - 45 seconds = 255 seconds\n\nI hope it is correct: 255 $seconds$\n",
+        "ground_truth": "Each minute last 60 seconds, so that means for the fries to be fully cooked Bill needs to cook them for 5*60=<<5*60=300>>300 seconds\nSince Bill had the fries in the oven for 45 seconds so far, that means they need to stay in the oven for another 300-45= <<300-45=255>>255 seconds.\n#### 255"
+    },
+    {
+        "question": "5 minutes = 5 * 60 seconds = 300 seconds\n\nTime elapsed = 45 seconds\n\nTime remaining = 300 seconds - 45 seconds = 255 seconds\n\nI hope it is correct: 255 $seconds$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 255 seconds\n",
+        "ground_truth": "Each minute last 60 seconds, so that means for the fries to be fully cooked Bill needs to cook them for 5*60=<<5*60=300>>300 seconds\nSince Bill had the fries in the oven for 45 seconds so far, that means they need to stay in the oven for another 300-45= <<300-45=255>>255 seconds.\n#### 255"
+    }
+]

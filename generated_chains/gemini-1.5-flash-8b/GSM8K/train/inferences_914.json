@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are six more white birds next to a cage than grey birds in the cage. If the number of grey birds in the cage is 40, and after ten minutes, half of the birds in the cage are freed and fly away, calculate the total number of birds remaining.",
+        "inference": "1. White birds next to cage = Grey birds in cage + 6\n2. White birds next to cage = 40 + 6 = 46\n3. Total birds initially = Grey birds + White birds = 40 + 46 = 86\n4. Birds freed = (Total birds) / 2 = 86 / 2 = 43\n5. Birds remaining = Total birds - Birds freed = 86 - 43 = 43\n\nI hope it is correct: 43 $\n",
+        "ground_truth": "If the number of grey birds is 40, there are 40+6 = <<40+6=46>>46 white birds near the cage.\nWhen half of the grey birds fly away, the number that remains is 1/2*40 = <<1/2*40=20>>20\nThe total number of birds is 20+46 = <<20+46=66>>66 in and next to the cage.\n#### 66"
+    },
+    {
+        "question": "1. White birds next to cage = Grey birds in cage + 6\n2. White birds next to cage = 40 + 6 = 46\n3. Total birds initially = Grey birds + White birds = 40 + 46 = 86\n4. Birds freed = (Total birds) / 2 = 86 / 2 = 43\n5. Birds remaining = Total birds - Birds freed = 86 - 43 = 43\n\nI hope it is correct: 43 $\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 43\n",
+        "ground_truth": "If the number of grey birds is 40, there are 40+6 = <<40+6=46>>46 white birds near the cage.\nWhen half of the grey birds fly away, the number that remains is 1/2*40 = <<1/2*40=20>>20\nThe total number of birds is 20+46 = <<20+46=66>>66 in and next to the cage.\n#### 66"
+    }
+]

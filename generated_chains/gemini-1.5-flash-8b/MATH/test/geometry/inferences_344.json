@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFor triangle $ABC$, points $D$ and $E$ are   the midpoints of sides $AB$ and $AC$,  respectively.  Side $BC$ measures six inches.   What is the measure of segment $DE$ in inches?\n\n[asy]\ndraw((-5,-5)--(10,3)--(0,10)--cycle);\ndraw((-2.5,2.5)--(2.5,-1));\nlabel(\"$A$\",(-5,-5),SW);\nlabel(\"$B$\",(0,10),N);\nlabel(\"$C$\",(10,3),SE);\nlabel(\"$D$\",(-2.5,2.5),NW);\nlabel(\"$E$\",(2.5,-1),SE);\n[/asy]",
+        "inference": "The segment $DE$ is half the length of segment $BC$.  Therefore, $DE = \\frac{1}{2}BC = \\frac{1}{2}(6) = 3$.\nFinal Answer: $\\boxed{3}$",
+        "ground_truth": "Since $AE:AC$ and $AD:AB$ are both $1:2$, we have $\\triangle ADE \\sim \\triangle ABC$ by SAS similarity. Since the triangles are similar in a $1:2$ ratio, $DE=BC/2=6/2=\\boxed{3}$ inches."
+    },
+    {
+        "question": "The segment $DE$ is half the length of segment $BC$.  Therefore, $DE = \\frac{1}{2}BC = \\frac{1}{2}(6) = 3$.\nFinal Answer: $\\boxed{3}$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{3}$\n",
+        "ground_truth": "Since $AE:AC$ and $AD:AB$ are both $1:2$, we have $\\triangle ADE \\sim \\triangle ABC$ by SAS similarity. Since the triangles are similar in a $1:2$ ratio, $DE=BC/2=6/2=\\boxed{3}$ inches."
+    }
+]

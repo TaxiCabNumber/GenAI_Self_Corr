@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere is a 5,200 sq. ft. house and a 7,300 sq. ft. house next to each other. The smaller house is being expanded. If the new total square footage of both houses is 16,000 sq. ft., how much is the smaller house being expanded by, in sq. ft.?",
+        "inference": "1. Find the current total square footage of both houses: 5200 + 7300 = 12500 sq ft\n2. Find the difference between the new total square footage and the current total square footage: 16000 - 12500 = 3500 sq ft\n3. The expansion of the smaller house is equal to the difference found in step 2.\nI hope it is correct: 3500 $sq. ft$\n",
+        "ground_truth": "Originally, the houses are 7300+5200=<<7300+5200=12500>>12500 sq. ft. in total.\nThe smaller house will be expanded by 16000-12500=<<16000-12500=3500>>3500 sq. ft.\n#### 3500"
+    },
+    {
+        "question": "1. Find the current total square footage of both houses: 5200 + 7300 = 12500 sq ft\n2. Find the difference between the new total square footage and the current total square footage: 16000 - 12500 = 3500 sq ft\n3. The expansion of the smaller house is equal to the difference found in step 2.\nI hope it is correct: 3500 $sq. ft$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 3500 sq ft\n",
+        "ground_truth": "Originally, the houses are 7300+5200=<<7300+5200=12500>>12500 sq. ft. in total.\nThe smaller house will be expanded by 16000-12500=<<16000-12500=3500>>3500 sq. ft.\n#### 3500"
+    }
+]

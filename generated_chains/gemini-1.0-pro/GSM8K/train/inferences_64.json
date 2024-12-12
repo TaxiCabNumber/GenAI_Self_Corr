@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJames earns $20 an hour while working at his main job.  He earns 20% less while working his second job.  He works 30 hours at his main job and half that much at his second job.  How much does he earn per week?",
+        "inference": "1. Calculate the hourly rate for the second job.\n* Hourly rate for the second job = $20 - (20% of $20) = $16\n\n2. Calculate the total hours worked per week.\n* Total hours worked per week = 30 hours (main job) + 15 hours (second job) = 45 hours\n\n3. Calculate the total earnings per week.\n* Total earnings per week = Hourly rate for the main job * Hours worked at the main job + Hourly rate for the second job * Hours worked at the second job\n* Total earnings per week = $20 * 30 + $16 * 15 = $600 + $240 = $840\n\nI hope it is correct: $840",
+        "ground_truth": "James earns 20*.2=$<<20*.2=4>>4 less while working his second job\nSo he earns 20-4=$<<20-4=16>>16 an hour\nAt his first job he earns 20*30=$<<20*30=600>>600\nHe works 30/2=<<30/2=15>>15 hours at his second job\nSo he earns 15*16=$<<15*16=240>>240\nSo he earns 600+240=$<<600+240=840>>840 a week\n#### 840"
+    },
+    {
+        "question": "1. Calculate the hourly rate for the second job.\n* Hourly rate for the second job = $20 - (20% of $20) = $16\n\n2. Calculate the total hours worked per week.\n* Total hours worked per week = 30 hours (main job) + 15 hours (second job) = 45 hours\n\n3. Calculate the total earnings per week.\n* Total earnings per week = Hourly rate for the main job * Hours worked at the main job + Hourly rate for the second job * Hours worked at the second job\n* Total earnings per week = $20 * 30 + $16 * 15 = $600 + $240 = $840\n\nI hope it is correct: $840\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $840",
+        "ground_truth": "James earns 20*.2=$<<20*.2=4>>4 less while working his second job\nSo he earns 20-4=$<<20-4=16>>16 an hour\nAt his first job he earns 20*30=$<<20*30=600>>600\nHe works 30/2=<<30/2=15>>15 hours at his second job\nSo he earns 15*16=$<<15*16=240>>240\nSo he earns 600+240=$<<600+240=840>>840 a week\n#### 840"
+    }
+]

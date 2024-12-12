@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nDetermine the sum of all single-digit replacements for $n$ such that the number ${42{,}789{,}n37}$ is divisible by 3.",
+        "inference": "The sum of the digits is $4+2+7+8+9+n+3+7 = 30+n$.\nFor the number to be divisible by 3, the sum of the digits must be divisible by 3.\n$30+n$ must be divisible by 3.\nPossible values of $n$ are 0, 3, 6, 9.\nThe sum of the possible values is $0+3+6+9=18$.\nFinal Answer: $\\boxed{18}$\n",
+        "ground_truth": "For a number to be divisible by 3, the sum of its digits must be divisible by 3. Since $4+2+7+8+9+3+7=40$, the single-digit replacements for $n$ that make the sum divisible by 3 are $2$, $5$, or $8$. The sums would be $42$, $45$, and $48$, respectively, which are all multiples of 3. Therefore, the sum of all single-digit replacements for $n$ is $2+5+8=\\boxed{15}$."
+    },
+    {
+        "question": "The sum of the digits is $4+2+7+8+9+n+3+7 = 30+n$.\nFor the number to be divisible by 3, the sum of the digits must be divisible by 3.\n$30+n$ must be divisible by 3.\nPossible values of $n$ are 0, 3, 6, 9.\nThe sum of the possible values is $0+3+6+9=18$.\nFinal Answer: $\\boxed{18}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The sum of the digits is $4+2+7+8+9+n+3+7 = 30+n$.\nFor the number to be divisible by 3, the sum of the digits must be divisible by 3.\nWe want to find the possible values of $n$ such that $30+n$ is divisible by 3.\nWe need to find the integers $n$ such that $0 \\le n \\le 9$.\nThe possible values of $n$ are 0, 3, 6, 9.\nThe sum of the possible values is $0+3+6+9=18$.\n\nFinal Answer: $\\boxed{18}$",
+        "ground_truth": "For a number to be divisible by 3, the sum of its digits must be divisible by 3. Since $4+2+7+8+9+3+7=40$, the single-digit replacements for $n$ that make the sum divisible by 3 are $2$, $5$, or $8$. The sums would be $42$, $45$, and $48$, respectively, which are all multiples of 3. Therefore, the sum of all single-digit replacements for $n$ is $2+5+8=\\boxed{15}$."
+    }
+]

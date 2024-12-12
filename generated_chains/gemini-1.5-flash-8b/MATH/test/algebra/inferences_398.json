@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe sum of seven consecutive integers is 49. What is the smallest of the seven integers?",
+        "inference": "Let the seven consecutive integers be $n, n+1, n+2, n+3, n+4, n+5, n+6$.\nTheir sum is $n + (n+1) + (n+2) + (n+3) + (n+4) + (n+5) + (n+6) = 7n + 21$.\nWe are given that the sum is 49.\nSo $7n + 21 = 49$.\n$7n = 49 - 21 = 28$.\n$n = \\frac{28}{7} = 4$.\nThe smallest of the seven integers is $n = 4$.\nFinal Answer: $\\boxed{4}$\n",
+        "ground_truth": "Let the smallest of these consecutive integers be $a-3$, and thus the largest will be $a+3$. The sum of all seven  integers is equal to the average of the first and last term, multiplied by the number of terms, which is $7a = 49$. Thus, $a=7$. The smallest of the seven integers is $a-3=7-3=\\boxed{4}$."
+    },
+    {
+        "question": "Let the seven consecutive integers be $n, n+1, n+2, n+3, n+4, n+5, n+6$.\nTheir sum is $n + (n+1) + (n+2) + (n+3) + (n+4) + (n+5) + (n+6) = 7n + 21$.\nWe are given that the sum is 49.\nSo $7n + 21 = 49$.\n$7n = 49 - 21 = 28$.\n$n = \\frac{28}{7} = 4$.\nThe smallest of the seven integers is $n = 4$.\nFinal Answer: $\\boxed{4}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The seven consecutive integers are $n, n+1, n+2, n+3, n+4, n+5, n+6$.\nTheir sum is $n + (n+1) + (n+2) + (n+3) + (n+4) + (n+5) + (n+6) = 7n + 21$.\nWe are given that the sum is 49.\nSo $7n + 21 = 49$.\n$7n = 49 - 21 = 28$.\n$n = \\frac{28}{7} = 4$.\nThe smallest of the seven integers is $n = 4$.\nThe integers are 4, 5, 6, 7, 8, 9, 10.  The sum is $4+5+6+7+8+9+10 = 49$.\nFinal Answer: $\\boxed{4}$",
+        "ground_truth": "Let the smallest of these consecutive integers be $a-3$, and thus the largest will be $a+3$. The sum of all seven  integers is equal to the average of the first and last term, multiplied by the number of terms, which is $7a = 49$. Thus, $a=7$. The smallest of the seven integers is $a-3=7-3=\\boxed{4}$."
+    }
+]

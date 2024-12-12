@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIf Lucy would give Linda $5, Lucy would have the same amount of money as Linda. If Lucy originally had $20, how much money did Linda have at the beginning?",
+        "inference": "1. Let L be the amount of money Lucy has and Li be the amount of money Linda has.\n2. We are given that if Lucy gives Linda $5, she will have the same amount of money as Linda. This can be written as: L - 5 = Li + 5\n3. We are also given that Lucy originally had $20. So L = 20.\n4. Substitute L = 20 into the equation from step 2: 20 - 5 = Li + 5\n5. Simplify the equation: 15 = Li + 5\n6. Solve for Li: Li = 15 - 5\n7. Calculate Li: Li = 10\nI hope it is correct: 10$\n",
+        "ground_truth": "After giving $5, Lucy has $20 - $5 = $<<20-5=15>>15 left.\nSince Linda has $15 after receiving $5, then she had $15 - $5 = $<<15-5=10>>10 at the beginning.\n#### 10"
+    },
+    {
+        "question": "1. Let L be the amount of money Lucy has and Li be the amount of money Linda has.\n2. We are given that if Lucy gives Linda $5, she will have the same amount of money as Linda. This can be written as: L - 5 = Li + 5\n3. We are also given that Lucy originally had $20. So L = 20.\n4. Substitute L = 20 into the equation from step 2: 20 - 5 = Li + 5\n5. Simplify the equation: 15 = Li + 5\n6. Solve for Li: Li = 15 - 5\n7. Calculate Li: Li = 10\nI hope it is correct: 10$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $10\n",
+        "ground_truth": "After giving $5, Lucy has $20 - $5 = $<<20-5=15>>15 left.\nSince Linda has $15 after receiving $5, then she had $15 - $5 = $<<15-5=10>>10 at the beginning.\n#### 10"
+    }
+]

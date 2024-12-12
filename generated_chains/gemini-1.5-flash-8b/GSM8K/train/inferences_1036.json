@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAlia has 2 times as many markers as Austin. Austin has one-third as many markers as Steve does. If Steve has 60 markers, how many does Alia have?",
+        "inference": "1. Steve has 60 markers.\n2. Austin has one-third as many as Steve, so Austin has 60 / 3 = 20 markers.\n3. Alia has 2 times as many as Austin, so Alia has 20 * 2 = 40 markers.\nI hope it is correct: 40 $answer$\n",
+        "ground_truth": "Austin has 60/3=<<60/3=20>>20 markers\nAlia has 20*2=<<20*2=40>>40 markers\n#### 40"
+    },
+    {
+        "question": "1. Steve has 60 markers.\n2. Austin has one-third as many as Steve, so Austin has 60 / 3 = 20 markers.\n3. Alia has 2 times as many as Austin, so Alia has 20 * 2 = 40 markers.\nI hope it is correct: 40 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 40\n",
+        "ground_truth": "Austin has 60/3=<<60/3=20>>20 markers\nAlia has 20*2=<<20*2=40>>40 markers\n#### 40"
+    }
+]

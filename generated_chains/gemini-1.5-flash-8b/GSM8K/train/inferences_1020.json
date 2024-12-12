@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMatt can write 10 words a minute with his right hand and 7 words a minute with his left hand. How many words would Matt write in 5 minutes with his right hand than with his left?",
+        "inference": "Right hand words per minute = 10\nLeft hand words per minute = 7\nTime = 5 minutes\n\nRight hand words in 5 minutes = 10 words/minute * 5 minutes = 50 words\nLeft hand words in 5 minutes = 7 words/minute * 5 minutes = 35 words\n\nDifference = 50 words - 35 words = 15 words\n\nI hope it is correct: 15 $words$\n",
+        "ground_truth": "The difference in writing speed is 10 words/minute - 7 words/minute = <<10-7=3>>3 words/minute\nMatt can write 3 words/minute x 5 minutes = <<3*5=15>>15 more words with his right hand.\n#### 15"
+    },
+    {
+        "question": "Right hand words per minute = 10\nLeft hand words per minute = 7\nTime = 5 minutes\n\nRight hand words in 5 minutes = 10 words/minute * 5 minutes = 50 words\nLeft hand words in 5 minutes = 7 words/minute * 5 minutes = 35 words\n\nDifference = 50 words - 35 words = 15 words\n\nI hope it is correct: 15 $words$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 15 words\n",
+        "ground_truth": "The difference in writing speed is 10 words/minute - 7 words/minute = <<10-7=3>>3 words/minute\nMatt can write 3 words/minute x 5 minutes = <<3*5=15>>15 more words with his right hand.\n#### 15"
+    }
+]

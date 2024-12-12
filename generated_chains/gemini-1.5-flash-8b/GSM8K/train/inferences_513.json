@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJennifer has ten pears, 20 oranges, and twice as many apples as pears. If she gives her sister two of each fruit, how many fruits does she have left?",
+        "inference": "1. Apples: Jennifer has twice as many apples as pears, so she has 10 pears * 2 = 20 apples.\n2. Pears remaining: Jennifer gives away 2 pears, so she has 10 pears - 2 pears = 8 pears left.\n3. Oranges remaining: Jennifer gives away 2 oranges, so she has 20 oranges - 2 oranges = 18 oranges left.\n4. Apples remaining: Jennifer gives away 2 apples, so she has 20 apples - 2 apples = 18 apples left.\n5. Total fruits remaining: Jennifer has 8 pears + 18 oranges + 18 apples = 44 fruits left.\n\nI hope it is correct: 44 $fruits$\n",
+        "ground_truth": "Jennifer has 2*10 = <<2*10=20>>20 apples.\nShe has a total of 10+20+20 = <<10+20+20=50>>50 fruits.\nShe gives her sister 2 pears+2 oranges+2 apples = <<2+2+2=6>>6 fruits.\nAfter giving her sister 2 of each fruit, she has 50-6 = <<50-6=44>>44 fruits left.\n#### 44"
+    },
+    {
+        "question": "1. Apples: Jennifer has twice as many apples as pears, so she has 10 pears * 2 = 20 apples.\n2. Pears remaining: Jennifer gives away 2 pears, so she has 10 pears - 2 pears = 8 pears left.\n3. Oranges remaining: Jennifer gives away 2 oranges, so she has 20 oranges - 2 oranges = 18 oranges left.\n4. Apples remaining: Jennifer gives away 2 apples, so she has 20 apples - 2 apples = 18 apples left.\n5. Total fruits remaining: Jennifer has 8 pears + 18 oranges + 18 apples = 44 fruits left.\n\nI hope it is correct: 44 $fruits$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 44\n",
+        "ground_truth": "Jennifer has 2*10 = <<2*10=20>>20 apples.\nShe has a total of 10+20+20 = <<10+20+20=50>>50 fruits.\nShe gives her sister 2 pears+2 oranges+2 apples = <<2+2+2=6>>6 fruits.\nAfter giving her sister 2 of each fruit, she has 50-6 = <<50-6=44>>44 fruits left.\n#### 44"
+    }
+]

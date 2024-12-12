@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $\\frac{\\sqrt[3]{2x-4}}{\\sqrt[3]{x+4}} = 2$, then find $x$.",
+        "inference": "$\\frac{\\sqrt[3]{2x-4}}{\\sqrt[3]{x+4}} = 2$\n$(\\sqrt[3]{2x-4})^3 = 2^3(\\sqrt[3]{x+4})^3$\n$2x-4 = 8(x+4)$\n$2x-4 = 8x+32$\n$2x-8x = 32+4$\n$-6x = 36$\n$x = \\frac{36}{-6}$\n$x = -6$\n\nFinal Answer: $\\boxed{-6}$ I hope it is correct.\n",
+        "ground_truth": "First, multiply both sides by the denominator to obtain $\\sqrt[3]{2x-4} = 2\\sqrt[3]{x+4}$. Cubing both sides, $$2x-4 = 8 \\cdot (x+4) = 8x + 32.$$Thus, $6x = -36 \\Longrightarrow x = \\boxed{-6}$."
+    },
+    {
+        "question": "$\\frac{\\sqrt[3]{2x-4}}{\\sqrt[3]{x+4}} = 2$\n$(\\sqrt[3]{2x-4})^3 = 2^3(\\sqrt[3]{x+4})^3$\n$2x-4 = 8(x+4)$\n$2x-4 = 8x+32$\n$2x-8x = 32+4$\n$-6x = 36$\n$x = \\frac{36}{-6}$\n$x = -6$\n\nFinal Answer: $\\boxed{-6}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\frac{\\sqrt[3]{2x-4}}{\\sqrt[3]{x+4}} = 2$\n$\\sqrt[3]{\\frac{2x-4}{x+4}} = 2$\nCubing both sides:\n$\\frac{2x-4}{x+4} = 2^3 = 8$\n$2x-4 = 8(x+4)$\n$2x-4 = 8x+32$\n$2x-8x = 32+4$\n$-6x = 36$\n$x = -6$\nNow we check if $x=-6$ is valid.\n$2x-4 = 2(-6)-4 = -12-4 = -16$\n$x+4 = -6+4 = -2$\n$\\sqrt[3]{2x-4} = \\sqrt[3]{-16} = \\sqrt[3]{-8 \\cdot 2} = -2\\sqrt[3]{2}$\n$\\sqrt[3]{x+4} = \\sqrt[3]{-2}$\n$\\frac{\\sqrt[3]{2x-4}}{\\sqrt[3]{x+4}} = \\frac{-2\\sqrt[3]{2}}{\\sqrt[3]{-2}} = \\frac{-2\\sqrt[3]{2}}{-\\sqrt[3]{2}} = 2$\nThe solution is valid.\n\n$\\boxed{-6}$\n",
+        "ground_truth": "First, multiply both sides by the denominator to obtain $\\sqrt[3]{2x-4} = 2\\sqrt[3]{x+4}$. Cubing both sides, $$2x-4 = 8 \\cdot (x+4) = 8x + 32.$$Thus, $6x = -36 \\Longrightarrow x = \\boxed{-6}$."
+    }
+]

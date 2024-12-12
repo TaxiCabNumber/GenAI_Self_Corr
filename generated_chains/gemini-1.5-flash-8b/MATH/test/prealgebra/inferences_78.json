@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCompute $49{,}994\\div 7 + 20{,}006\\div 7$.",
+        "inference": "$49{,}994\\div 7 + 20{,}006\\div 7 = \\frac{49{,}994}{7} + \\frac{20{,}006}{7} = \\frac{49{,}994 + 20{,}006}{7} = \\frac{69{,}998}{7} = 9999.7142857\\dots$\n$49,994\\div 7 = 7142$\n$20,006\\div 7 = 2858$\n$7142+2858=10000$\nFinal Answer: $\\boxed{10000}$\n",
+        "ground_truth": "Instead of doing each division separately and then adding, recall that  $x\\div d + y\\div d = (x+y)\\div d $ if $d$ is nonzero.  Using this fact, we can compute as follows: \\begin{align*}\n49{,}994\\div 7 + 20{,}006\\div 7 &= (49{,}994 + 20{,}006) \\div 7\\\\\n&= 70{,}000\\div 7\\\\\n&=\\boxed{10{,}000}.\n\\end{align*}"
+    },
+    {
+        "question": "$49{,}994\\div 7 + 20{,}006\\div 7 = \\frac{49{,}994}{7} + \\frac{20{,}006}{7} = \\frac{49{,}994 + 20{,}006}{7} = \\frac{69{,}998}{7} = 9999.7142857\\dots$\n$49,994\\div 7 = 7142$\n$20,006\\div 7 = 2858$\n$7142+2858=10000$\nFinal Answer: $\\boxed{10000}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$49,994 \\div 7 + 20,006 \\div 7 = \\frac{49994}{7} + \\frac{20006}{7} = \\frac{49994 + 20006}{7} = \\frac{69998}{7} = 9999.7142857\\dots$\n\n$49,994 \\div 7 = 7142$\n$20,006 \\div 7 = 2858$\n\n$7142 + 2858 = 10000$\n\nThe mistake in the original solution is rounding. The decimal part is dropped instead of accurately calculating the sum.  The correct calculation is $7142 + 2858 = 10000$.\n\n\n$\\boxed{10000}$\n",
+        "ground_truth": "Instead of doing each division separately and then adding, recall that  $x\\div d + y\\div d = (x+y)\\div d $ if $d$ is nonzero.  Using this fact, we can compute as follows: \\begin{align*}\n49{,}994\\div 7 + 20{,}006\\div 7 &= (49{,}994 + 20{,}006) \\div 7\\\\\n&= 70{,}000\\div 7\\\\\n&=\\boxed{10{,}000}.\n\\end{align*}"
+    }
+]

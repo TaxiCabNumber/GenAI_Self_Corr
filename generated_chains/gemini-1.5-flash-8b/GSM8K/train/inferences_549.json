@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIn his company, Kenzo has 80 office chairs with five legs each and 20 round tables with three legs each. If after a month 40% of the chairs are damaged and have to be disposed of, calculate the total number of legs of furniture Kenzo has remaining in his company.",
+        "inference": "1. Chairs: 80 chairs * 5 legs/chair = 400 legs initially.\n2. Damaged chairs: 80 chairs * 40% = 32 damaged chairs.\n3. Remaining chairs: 80 chairs - 32 chairs = 48 chairs.\n4. Remaining chair legs: 48 chairs * 5 legs/chair = 240 legs.\n5. Tables: 20 tables * 3 legs/table = 60 legs initially.\n6. Total legs remaining: 240 legs (chairs) + 60 legs (tables) = 300 legs.\nI hope it is correct: 300 $\n",
+        "ground_truth": "The number of chairs that are disposed of after they're found to be damaged is 40/100*80 = <<40/100*80=32>>32.\nThe number of chairs in good condition in Kenzo's company is 80-32 = <<80-32=48>>48\nThe 48 chairs have 48*5 = <<48*5=240>>240 legs.\nThe round tables also have 20*3 = <<20*3=60>>60 legs.\nIn total, the furniture in Kenzo's company has 60+240 = <<60+240=300>>300 legs.\n#### 300"
+    },
+    {
+        "question": "1. Chairs: 80 chairs * 5 legs/chair = 400 legs initially.\n2. Damaged chairs: 80 chairs * 40% = 32 damaged chairs.\n3. Remaining chairs: 80 chairs - 32 chairs = 48 chairs.\n4. Remaining chair legs: 48 chairs * 5 legs/chair = 240 legs.\n5. Tables: 20 tables * 3 legs/table = 60 legs initially.\n6. Total legs remaining: 240 legs (chairs) + 60 legs (tables) = 300 legs.\nI hope it is correct: 300 $\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $300\n",
+        "ground_truth": "The number of chairs that are disposed of after they're found to be damaged is 40/100*80 = <<40/100*80=32>>32.\nThe number of chairs in good condition in Kenzo's company is 80-32 = <<80-32=48>>48\nThe 48 chairs have 48*5 = <<48*5=240>>240 legs.\nThe round tables also have 20*3 = <<20*3=60>>60 legs.\nIn total, the furniture in Kenzo's company has 60+240 = <<60+240=300>>300 legs.\n#### 300"
+    }
+]

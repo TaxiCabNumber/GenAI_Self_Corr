@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSimplify $\\frac{100}{180}$.",
+        "inference": "1. Find the greatest common divisor (GCD) of 100 and 180.\nThe factors of 100 are 1, 2, 4, 5, 10, 20, 25, 50, 100.\nThe factors of 180 are 1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 18, 20, 30, 36, 45, 60, 90, 180.\nThe common factors are 1, 2, 5, 10, 20. The greatest common factor is 20.\n\n2. Divide both the numerator and the denominator by the GCD.\n$\\frac{100}{20} = 5$\n$\\frac{180}{20} = 9$\n\n3. Write the simplified fraction.\n$\\frac{100}{180} = \\frac{5}{9}$\n\nFinal Answer: $\\boxed{\\frac{5}{9}}$. I hope it is correct.\n",
+        "ground_truth": "Since $100$ and $180$ have a common factor of $20$, we can simplify as follows $$\\frac{100}{180}=\\frac{20\\cdot 5}{20\\cdot 9}=\\frac{\\cancel{20}\\cdot 5}{\\cancel{20}\\cdot 9}=\\boxed{\\frac{5}{9}}.$$"
+    },
+    {
+        "question": "1. Find the greatest common divisor (GCD) of 100 and 180.\nThe factors of 100 are 1, 2, 4, 5, 10, 20, 25, 50, 100.\nThe factors of 180 are 1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 18, 20, 30, 36, 45, 60, 90, 180.\nThe common factors are 1, 2, 5, 10, 20. The greatest common factor is 20.\n\n2. Divide both the numerator and the denominator by the GCD.\n$\\frac{100}{20} = 5$\n$\\frac{180}{20} = 9$\n\n3. Write the simplified fraction.\n$\\frac{100}{180} = \\frac{5}{9}$\n\nFinal Answer: $\\boxed{\\frac{5}{9}}$. I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{\\frac{5}{9}}$\n",
+        "ground_truth": "Since $100$ and $180$ have a common factor of $20$, we can simplify as follows $$\\frac{100}{180}=\\frac{20\\cdot 5}{20\\cdot 9}=\\frac{\\cancel{20}\\cdot 5}{\\cancel{20}\\cdot 9}=\\boxed{\\frac{5}{9}}.$$"
+    }
+]

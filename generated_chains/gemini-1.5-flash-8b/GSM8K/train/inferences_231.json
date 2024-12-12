@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA laboratory has 22 beakers of liquid in a fume hood, and 8 of the beakers have copper ions in them. Adding three drops of a solution will turn the liquid in a beaker blue if there are copper ions present. If the beakers are tested one by one for copper ions and 45 drops are used before all 8 beakers with copper ions are found, how many beakers without copper ions were tested?",
+        "inference": "8 beakers have copper ions.\n45 drops were used.\nEach beaker with copper ions needs 3 drops.\nNumber of beakers with copper ions found = 45 drops / 3 drops/beaker = 15 beakers.\nSince only 8 beakers have copper ions, 15 - 8 = 7 beakers without copper ions were tested.\nI hope it is correct: 7 $beaker$\n",
+        "ground_truth": "There were 45 / 3 = <<45/3=15>>15 beakers tested to find all the beakers with copper ions.\nThus, 15 - 8 = <<15-8=7>>7 beakers without copper ions were tested.\n#### 7"
+    },
+    {
+        "question": "8 beakers have copper ions.\n45 drops were used.\nEach beaker with copper ions needs 3 drops.\nNumber of beakers with copper ions found = 45 drops / 3 drops/beaker = 15 beakers.\nSince only 8 beakers have copper ions, 15 - 8 = 7 beakers without copper ions were tested.\nI hope it is correct: 7 $beaker$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "The problem states that 8 beakers *have* copper ions.  The question likely asks how many *additional* beakers were tested that did *not* contain copper ions.  The problem statement is unclear.\n\n#### $answer$\n",
+        "ground_truth": "There were 45 / 3 = <<45/3=15>>15 beakers tested to find all the beakers with copper ions.\nThus, 15 - 8 = <<15-8=7>>7 beakers without copper ions were tested.\n#### 7"
+    }
+]

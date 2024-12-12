@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nLeo's assignment was divided into three parts. He finished the first part of his assignment in 25 minutes. It took him twice as long to finish the second part. If he was able to finish his assignment in 2 hours, how many minutes did Leo finish the third part of the assignment?",
+        "inference": "1. Time for the second part = 25 minutes * 2 = 50 minutes\n\n2. Total time for the first two parts = 25 minutes + 50 minutes = 75 minutes\n\n3. Total time in hours to minutes = 2 hours * 60 minutes/hour = 120 minutes\n\n4. Time for the third part = 120 minutes - 75 minutes = 45 minutes\n\nI hope it is correct: 45 $minutes$\n",
+        "ground_truth": "It took Leo 25 x 2 = <<25*2=50>>50 minutes to finish the second part of the assignment.\nLeo finished the first and second parts of the assignment in 25 + 50 = <<25+50=75>>75 minutes.\nHe finished the entire assignment in 60 x 2 = <<60*2=120>>120 minutes.\nTherefore, it took Leo 120 - 75 = <<120-75=45>>45 minutes to finish the third part of the assignment.\n#### 45"
+    },
+    {
+        "question": "1. Time for the second part = 25 minutes * 2 = 50 minutes\n\n2. Total time for the first two parts = 25 minutes + 50 minutes = 75 minutes\n\n3. Total time in hours to minutes = 2 hours * 60 minutes/hour = 120 minutes\n\n4. Time for the third part = 120 minutes - 75 minutes = 45 minutes\n\nI hope it is correct: 45 $minutes$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 45 minutes\n",
+        "ground_truth": "It took Leo 25 x 2 = <<25*2=50>>50 minutes to finish the second part of the assignment.\nLeo finished the first and second parts of the assignment in 25 + 50 = <<25+50=75>>75 minutes.\nHe finished the entire assignment in 60 x 2 = <<60*2=120>>120 minutes.\nTherefore, it took Leo 120 - 75 = <<120-75=45>>45 minutes to finish the third part of the assignment.\n#### 45"
+    }
+]

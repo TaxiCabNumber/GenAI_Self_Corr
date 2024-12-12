@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe point $(0,0)$ is reflected over the vertical line $x=1$.  When its image is then reflected over the line $y=2$, what is the resulting point?\n\nWrite your answer in the form $(x, y)$ where $x$ and $y$ are real numbers.",
+        "inference": "Reflecting the point (0,0) over the vertical line x=1 gives the point (2,0).\nReflecting (2,0) over the line y=2 gives the point (2,4).\n\nFinal Answer: $\\boxed{(2,4)}$\n",
+        "ground_truth": "When $(0,0)$ is reflected over the line $x=1$, the image is $(2,0)$. [asy]\ndraw((-2, 0)--(6, 0), Arrow); draw((0, -2)--(0, 6), Arrow);\nlabel(\"$x$\", (6, 0), E); label(\"$y$\", (0, 6), N);\nlabel(\"$(0, 0)$\", (0, 0), SW); label(\"$(2, 0)$\", (2, 0), SE);\nlabel(\"$(2, 4)$\", (2, 4), NE);\nlabel(\"$y = 2$\", (6, 2), E); label(\"$x = 1$\", (1, -2), S);\ndraw((-2, 2)--(6, 2), dashed); draw((1, -2)--(1, 6), dashed);\ndot((0, 0)); dot((2, 0)); dot((2, 4));\n[/asy] When $(2,0)$ is reflected over the line $y=2$, the image is $\\boxed{(2,4)}$."
+    },
+    {
+        "question": "Reflecting the point (0,0) over the vertical line x=1 gives the point (2,0).\nReflecting (2,0) over the line y=2 gives the point (2,4).\n\nFinal Answer: $\\boxed{(2,4)}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Reflecting (0,0) over the line x=1 gives (2,0).\nReflecting (2,0) over the line y=2 gives (2,4).\n\nFinal Answer: $\\boxed{(2,4)}$",
+        "ground_truth": "When $(0,0)$ is reflected over the line $x=1$, the image is $(2,0)$. [asy]\ndraw((-2, 0)--(6, 0), Arrow); draw((0, -2)--(0, 6), Arrow);\nlabel(\"$x$\", (6, 0), E); label(\"$y$\", (0, 6), N);\nlabel(\"$(0, 0)$\", (0, 0), SW); label(\"$(2, 0)$\", (2, 0), SE);\nlabel(\"$(2, 4)$\", (2, 4), NE);\nlabel(\"$y = 2$\", (6, 2), E); label(\"$x = 1$\", (1, -2), S);\ndraw((-2, 2)--(6, 2), dashed); draw((1, -2)--(1, 6), dashed);\ndot((0, 0)); dot((2, 0)); dot((2, 4));\n[/asy] When $(2,0)$ is reflected over the line $y=2$, the image is $\\boxed{(2,4)}$."
+    }
+]

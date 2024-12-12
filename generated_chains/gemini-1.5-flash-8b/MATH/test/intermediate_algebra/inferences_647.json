@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind a quadratic with real coefficients and quadratic term $x^2$ that has $5-4i$ as a root.",
+        "inference": "Since the coefficients are real, the complex conjugate $5+4i$ must also be a root.\nThe quadratic can be written as $(x-(5-4i))(x-(5+4i)) = 0$.\nExpanding, we get\n$(x-5+4i)(x-5-4i) = (x-5)^2 - (4i)^2 = x^2 - 10x + 25 - 16i^2 = x^2 - 10x + 25 - 16(-1) = x^2 - 10x + 25 + 16 = x^2 - 10x + 41$.\nFinal Answer: $\\boxed{x^2-10x+41}$\n",
+        "ground_truth": "Since the root $5-4i$ is nonreal but the coefficients of the quadratic are real, the roots must form a conjugate pair. Therefore, the other root is $\\overline{5-4i} = 5+4i.$\n\nTo find the quadratic, we can note that the sum of the roots is $5-4i+5+4i=10$ and the product is $(5-4i)(5+4i) = 25+16=41.$ Then by Vieta's formulas, we know that the quadratic $\\boxed{x^2-10x+41}$ has $5-4i$ as a root."
+    },
+    {
+        "question": "Since the coefficients are real, the complex conjugate $5+4i$ must also be a root.\nThe quadratic can be written as $(x-(5-4i))(x-(5+4i)) = 0$.\nExpanding, we get\n$(x-5+4i)(x-5-4i) = (x-5)^2 - (4i)^2 = x^2 - 10x + 25 - 16i^2 = x^2 - 10x + 25 - 16(-1) = x^2 - 10x + 25 + 16 = x^2 - 10x + 41$.\nFinal Answer: $\\boxed{x^2-10x+41}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{x^2 - 10x + 41}$\n",
+        "ground_truth": "Since the root $5-4i$ is nonreal but the coefficients of the quadratic are real, the roots must form a conjugate pair. Therefore, the other root is $\\overline{5-4i} = 5+4i.$\n\nTo find the quadratic, we can note that the sum of the roots is $5-4i+5+4i=10$ and the product is $(5-4i)(5+4i) = 25+16=41.$ Then by Vieta's formulas, we know that the quadratic $\\boxed{x^2-10x+41}$ has $5-4i$ as a root."
+    }
+]

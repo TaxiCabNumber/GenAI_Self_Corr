@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nPing pong balls sell for $.10 each.  Johnny buys 10000 for a prank.  He gets a 30% discount for buying in such large bulk.  How much does he pay?",
+        "inference": "1. Calculate the original price for 10000 balls: 10000 balls * $0.10/ball = $1000\n2. Calculate the discount amount: $1000 * 0.30 = $300\n3. Calculate the final price: $1000 - $300 = $700\n\nI hope it is correct: $700\n",
+        "ground_truth": "The ping pong balls cost 10000*.10=$<<10000*.10=1000>>1000\nSo the discount is 1000*.30=$<<1000*.30=300>>300\nSo he pays 1000-300=$<<1000-300=700>>700.\n#### 700"
+    },
+    {
+        "question": "1. Calculate the original price for 10000 balls: 10000 balls * $0.10/ball = $1000\n2. Calculate the discount amount: $1000 * 0.30 = $300\n3. Calculate the final price: $1000 - $300 = $700\n\nI hope it is correct: $700\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $700\n",
+        "ground_truth": "The ping pong balls cost 10000*.10=$<<10000*.10=1000>>1000\nSo the discount is 1000*.30=$<<1000*.30=300>>300\nSo he pays 1000-300=$<<1000-300=700>>700.\n#### 700"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJames decides to buy a new bed and bed frame.  The bed frame is $75 and the bed is 10 times that price.  He gets a deal for 20% off.  How much does he pay for everything?",
+        "inference": "1. Price of the bed: $75 * 10 = $750\n2. Total cost before discount: $75 + $750 = $825\n3. Discount amount: $825 * 0.20 = $165\n4. Final cost: $825 - $165 = $660\n\nI hope it is correct: $660\n",
+        "ground_truth": "The bed cost 75*10=$<<75*10=750>>750\nSo everything cost 750+75=$<<750+75=825>>825\nHe gets 825*.2=$<<825*.2=165>>165 off\nSo that means he pays 825-165=$<<825-165=660>>660\n#### 660"
+    },
+    {
+        "question": "1. Price of the bed: $75 * 10 = $750\n2. Total cost before discount: $75 + $750 = $825\n3. Discount amount: $825 * 0.20 = $165\n4. Final cost: $825 - $165 = $660\n\nI hope it is correct: $660\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $660\n",
+        "ground_truth": "The bed cost 75*10=$<<75*10=750>>750\nSo everything cost 750+75=$<<750+75=825>>825\nHe gets 825*.2=$<<825*.2=165>>165 off\nSo that means he pays 825-165=$<<825-165=660>>660\n#### 660"
+    }
+]

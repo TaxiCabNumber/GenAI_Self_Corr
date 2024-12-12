@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn's cow weighs 400 pounds.  It increased its weight to 1.5 times its starting weight.  He is able to sell the cow for $3 per pound.  How much more is it worth after gaining the weight?",
+        "inference": "1) 400 * 1.5 = 600\n2) $3 * 600 = $1800\n3) $1800 - $1200 = $600\n I hope it is correct: 600",
+        "ground_truth": "The cow initially weighs 400*1.5=<<400*1.5=600>>600 pounds\nSo it gained 600 - 400 = <<600-400=200>>200 pounds\nSo its value increased by 200*$3 = $<<200*3=600>>600\n#### 600"
+    },
+    {
+        "question": "1) 400 * 1.5 = 600\n2) $3 * 600 = $1800\n3) $1800 - $1200 = $600\n I hope it is correct: 600\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ 600",
+        "ground_truth": "The cow initially weighs 400*1.5=<<400*1.5=600>>600 pounds\nSo it gained 600 - 400 = <<600-400=200>>200 pounds\nSo its value increased by 200*$3 = $<<200*3=600>>600\n#### 600"
+    }
+]

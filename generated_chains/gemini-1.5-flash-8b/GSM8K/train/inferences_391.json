@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTony decided he wanted to be an astronaut.  He went to college for 4 years to get a degree in science.  He then went on to get 2 more degrees in other fields for the same period of time.  He also got a graduate degree in physics, which took another 2 years.  How many years in total did Tony go to school to be an astronaut?",
+        "inference": "College: 4 years\n2 more degrees: 2 * 4 years = 8 years\nGraduate degree: 2 years\nTotal years: 4 + 8 + 2 = 14 years\n\nI hope it is correct: 14 $years$\n",
+        "ground_truth": "Tony got 3 degrees which each took 4 years, for 3*4=<<3*4=12>>12 years spent.\nHe then got his graduate degree, which was another 2 years added to the previous total, for 12+2=<<12+2=14>>14 years in total.\n#### 14"
+    },
+    {
+        "question": "College: 4 years\n2 more degrees: 2 * 4 years = 8 years\nGraduate degree: 2 years\nTotal years: 4 + 8 + 2 = 14 years\n\nI hope it is correct: 14 $years$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 14 years\n",
+        "ground_truth": "Tony got 3 degrees which each took 4 years, for 3*4=<<3*4=12>>12 years spent.\nHe then got his graduate degree, which was another 2 years added to the previous total, for 12+2=<<12+2=14>>14 years in total.\n#### 14"
+    }
+]

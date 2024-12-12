@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn jogs at a speed of 4 miles per hour when he runs alone, but runs at 6 miles per hour when he is being dragged by his 100-pound German Shepherd dog. If John and his dog go on a run together for 30 minutes, and then John runs for an additional 30 minutes by himself, how far will John have traveled?",
+        "inference": "1. John's speed alone: 4 mph\n2. John's speed with dog: 6 mph\n3. Time with dog: 30 minutes = 0.5 hours\n4. Distance with dog: speed \u00d7 time = 6 mph \u00d7 0.5 hours = 3 miles\n5. Time alone: 30 minutes = 0.5 hours\n6. Distance alone: speed \u00d7 time = 4 mph \u00d7 0.5 hours = 2 miles\n7. Total distance: distance with dog + distance alone = 3 miles + 2 miles = 5 miles\nI hope it is correct: 5 $miles$\n",
+        "ground_truth": "John runs at 6 miles per hour for 0.5 hours, for a distance of 6*0.5=<<6*0.5=3>>3 miles.\nThen John runs at 4 miles per hour for 0.5 hours, for a distance of 4*0.5=<<4*0.5=2>>2 miles.\nIn total, John runs 3+2=<<3+2=5>>5 miles.\n#### 5"
+    },
+    {
+        "question": "1. John's speed alone: 4 mph\n2. John's speed with dog: 6 mph\n3. Time with dog: 30 minutes = 0.5 hours\n4. Distance with dog: speed \u00d7 time = 6 mph \u00d7 0.5 hours = 3 miles\n5. Time alone: 30 minutes = 0.5 hours\n6. Distance alone: speed \u00d7 time = 4 mph \u00d7 0.5 hours = 2 miles\n7. Total distance: distance with dog + distance alone = 3 miles + 2 miles = 5 miles\nI hope it is correct: 5 $miles$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 5 miles\n",
+        "ground_truth": "John runs at 6 miles per hour for 0.5 hours, for a distance of 6*0.5=<<6*0.5=3>>3 miles.\nThen John runs at 4 miles per hour for 0.5 hours, for a distance of 4*0.5=<<4*0.5=2>>2 miles.\nIn total, John runs 3+2=<<3+2=5>>5 miles.\n#### 5"
+    }
+]

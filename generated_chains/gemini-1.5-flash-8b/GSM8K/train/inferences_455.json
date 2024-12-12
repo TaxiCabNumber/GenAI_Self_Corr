@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAn amoeba reproduces by fission, splitting itself into two separate amoebae. An amoeba reproduces every two days. How many days will it take one amoeba to divide into 16 amoebae?",
+        "inference": "1. One amoeba splits into 2 after 2 days.\n2. Two amoebae split into 4 after another 2 days.\n3. Four amoebae split into 8 after another 2 days.\n4. Eight amoebae split into 16 after another 2 days.\n\nTherefore, it will take 8 days.\nI hope it is correct: 8 $days$\n",
+        "ground_truth": "The amoeba will divide into 1 * 2 = <<1*2=2>>2 amoebae after 2 days.\nThe amoeba will divide into 2 * 2 = <<2*2=4>>4 amoebae after 4 days.\nThe amoeba will divide into 4 * 2 = <<4*2=8>>8 amoebae after 6 days.\nThe amoeba will divide into 8 * 2 = <<8*2=16>>16 amoebae after 8 days.\n#### 8"
+    },
+    {
+        "question": "1. One amoeba splits into 2 after 2 days.\n2. Two amoebae split into 4 after another 2 days.\n3. Four amoebae split into 8 after another 2 days.\n4. Eight amoebae split into 16 after another 2 days.\n\nTherefore, it will take 8 days.\nI hope it is correct: 8 $days$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "The problem describes exponential growth.  Each doubling takes 2 days.  To get to a certain number of amoebae, we need to determine how many doublings are required. The pattern is:\n1 amoeba -> 2 amoebae -> 4 amoebae -> 8 amoebae -> 16 amoebae ...\n\nWe want to know how many days it takes to get 16 amoebae.  This is the 4th doubling, which takes 4 * 2 = 8 days.\n\n#### $8$\n",
+        "ground_truth": "The amoeba will divide into 1 * 2 = <<1*2=2>>2 amoebae after 2 days.\nThe amoeba will divide into 2 * 2 = <<2*2=4>>4 amoebae after 4 days.\nThe amoeba will divide into 4 * 2 = <<4*2=8>>8 amoebae after 6 days.\nThe amoeba will divide into 8 * 2 = <<8*2=16>>16 amoebae after 8 days.\n#### 8"
+    }
+]

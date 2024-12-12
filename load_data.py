@@ -18,7 +18,7 @@ def load_inferences_from_directory(directory_path):
         list: List of dictionaries with "question" and "inference" keys.
     """
     training_data = []
-    for filename in os.listdir(directory_path):
+    for filename in os.listdir(directory_path): # loops through all files in directory
         if filename.endswith(".json"):
             file_path = os.path.join(directory_path, filename)
             with open(file_path, "r") as file:
@@ -38,12 +38,6 @@ def load_inferences_from_directory(directory_path):
              {
              'question': '...',
              'inference': '...',
-        },{
-             'question': '...',
-             'inference': '...',
-        },{
-             'question': '...',
-             'inference': '...',
         }]
 '''
 
@@ -57,13 +51,13 @@ for file in directory
 
 '''
 
-dataset_directory = "./generated_dataset/MATH/train"
+dataset_directory = "./generated_chains/MATH/train"
 model_name = "gemini-1.5-flash-8b"
 output_path = "MATH_processed"
 
 def main():
     # Define paths and model name
-    dataset_directory = "./generated_dataset/MATH/train"
+    dataset_directory = "./generated_chains/MATH/train"
     model_name = "gemini-1.5-flash-8b"
     output_path = "MATH_processed"
     

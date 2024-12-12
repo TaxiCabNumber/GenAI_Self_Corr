@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCompute: $\\dfrac{2^{10}-2^8}{2^7-2^6}$. Express your answer in simplest form.",
+        "inference": "$\\dfrac{2^{10}-2^8}{2^7-2^6} = \\dfrac{2^8(2^2-1)}{2^6(2^1-1)} = \\dfrac{2^8(4-1)}{2^6(2-1)} = \\dfrac{2^8(3)}{2^6(1)} = 2^{8-6} \\times 3 = 2^2 \\times 3 = 4 \\times 3 = 12$\nFinal Answer: $\\boxed{12}$\n",
+        "ground_truth": "Cancel some factors of 2 before subtracting: \\begin{align*}\n\\frac{2^{10}-2^8}{2^7-2^6}&=\\frac{2^8(2^{2}-1)}{2^6(2^1-1)} \\\\\n&=2^2\\left(\\frac{3}{1}\\right) \\\\\n&=\\boxed{12}.\n\\end{align*}"
+    },
+    {
+        "question": "$\\dfrac{2^{10}-2^8}{2^7-2^6} = \\dfrac{2^8(2^2-1)}{2^6(2^1-1)} = \\dfrac{2^8(4-1)}{2^6(2-1)} = \\dfrac{2^8(3)}{2^6(1)} = 2^{8-6} \\times 3 = 2^2 \\times 3 = 4 \\times 3 = 12$\nFinal Answer: $\\boxed{12}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\dfrac{2^{10}-2^8}{2^7-2^6} = \\dfrac{2^8(2^2-1)}{2^6(2-1)} = \\dfrac{2^8(4-1)}{2^6(1)} = \\dfrac{2^8(3)}{2^6} = 2^{8-6} \\times 3 = 2^2 \\times 3 = 4 \\times 3 = 12$\n$\\boxed{12}$\n\n",
+        "ground_truth": "Cancel some factors of 2 before subtracting: \\begin{align*}\n\\frac{2^{10}-2^8}{2^7-2^6}&=\\frac{2^8(2^{2}-1)}{2^6(2^1-1)} \\\\\n&=2^2\\left(\\frac{3}{1}\\right) \\\\\n&=\\boxed{12}.\n\\end{align*}"
+    }
+]

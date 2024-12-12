@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nFor a project, a builder purchased 7 boxes of bolts with each box containing 11 bolts.  He purchased 3 boxes of nuts with each box containing 15 nuts. He ended up finishing the project 6 days early and with 3 bolts and 6 nuts left over. How many bolts and nuts did he use for the project?",
+        "inference": "1. Bolts: 7 boxes * 11 bolts/box = 77 bolts\n2. Nuts: 3 boxes * 15 nuts/box = 45 nuts\n3. Total bolts available: 77 bolts\n4. Total nuts available: 45 nuts\n5. Bolts remaining: 3 bolts\n6. Nuts remaining: 6 nuts\n7. Bolts used: 77 bolts - 3 bolts = 74 bolts\n8. Nuts used: 45 nuts - 6 nuts = 39 nuts\n\nI hope it is correct: 74 bolts, 39 nuts\n",
+        "ground_truth": "The builder purchased 7 boxes * 11 bolts = <<7*11=77>>77 bolts.\nHe used 77 bolts - 3 left over = <<77-3=74>>74 bolts for the project.\nThe builder purchased 3 boxes * 15 nuts = <<3*15=45>>45 nuts.\nHe used 45 nuts - 6 left over = <<45-6=39>>39 nuts for the project.\nTotal for the project he used 74 bolts + 39 nuts = <<74+39=113>>113 nuts and bolts.\n#### 113"
+    },
+    {
+        "question": "1. Bolts: 7 boxes * 11 bolts/box = 77 bolts\n2. Nuts: 3 boxes * 15 nuts/box = 45 nuts\n3. Total bolts available: 77 bolts\n4. Total nuts available: 45 nuts\n5. Bolts remaining: 3 bolts\n6. Nuts remaining: 6 nuts\n7. Bolts used: 77 bolts - 3 bolts = 74 bolts\n8. Nuts used: 45 nuts - 6 nuts = 39 nuts\n\nI hope it is correct: 74 bolts, 39 nuts\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 74 bolts, 39 nuts\n",
+        "ground_truth": "The builder purchased 7 boxes * 11 bolts = <<7*11=77>>77 bolts.\nHe used 77 bolts - 3 left over = <<77-3=74>>74 bolts for the project.\nThe builder purchased 3 boxes * 15 nuts = <<3*15=45>>45 nuts.\nHe used 45 nuts - 6 left over = <<45-6=39>>39 nuts for the project.\nTotal for the project he used 74 bolts + 39 nuts = <<74+39=113>>113 nuts and bolts.\n#### 113"
+    }
+]

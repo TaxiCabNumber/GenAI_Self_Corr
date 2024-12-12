@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA club has 20 members, 12 boys and 8 girls.  Two of the members are chosen at random.  What is the probability that a boy and a girl are chosen?",
+        "inference": "1. Total number of ways to choose 2 members from 20 is $\\binom{20}{2} = \\frac{20 \\times 19}{2} = 190$.\n\n2. Number of ways to choose 1 boy from 12 is $\\binom{12}{1} = 12$.\n\n3. Number of ways to choose 1 girl from 8 is $\\binom{8}{1} = 8$.\n\n4. Number of ways to choose 1 boy and 1 girl is $\\binom{12}{1} \\times \\binom{8}{1} = 12 \\times 8 = 96$.\n\n5. Probability of choosing a boy and a girl is $\\frac{96}{190} = \\frac{48}{95}$.\n\nFinal Answer: $\\boxed{\\frac{48}{95}}$. I hope it is correct.\n",
+        "ground_truth": "There are $\\binom{20}{2} = 190$ ways to choose two members of the group. There are $12$ ways to choose a boy and $8$ ways to choose a girl for a total of $12 \\cdot 8 = 96$ ways to choose a boy and a girl.  This means that there is a $\\dfrac{96}{190} = \\boxed{\\dfrac{48}{95}}$ chance that the two random members of the group are a boy and a girl."
+    },
+    {
+        "question": "1. Total number of ways to choose 2 members from 20 is $\\binom{20}{2} = \\frac{20 \\times 19}{2} = 190$.\n\n2. Number of ways to choose 1 boy from 12 is $\\binom{12}{1} = 12$.\n\n3. Number of ways to choose 1 girl from 8 is $\\binom{8}{1} = 8$.\n\n4. Number of ways to choose 1 boy and 1 girl is $\\binom{12}{1} \\times \\binom{8}{1} = 12 \\times 8 = 96$.\n\n5. Probability of choosing a boy and a girl is $\\frac{96}{190} = \\frac{48}{95}$.\n\nFinal Answer: $\\boxed{\\frac{48}{95}}$. I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{\\frac{48}{95}}$\n",
+        "ground_truth": "There are $\\binom{20}{2} = 190$ ways to choose two members of the group. There are $12$ ways to choose a boy and $8$ ways to choose a girl for a total of $12 \\cdot 8 = 96$ ways to choose a boy and a girl.  This means that there is a $\\dfrac{96}{190} = \\boxed{\\dfrac{48}{95}}$ chance that the two random members of the group are a boy and a girl."
+    }
+]

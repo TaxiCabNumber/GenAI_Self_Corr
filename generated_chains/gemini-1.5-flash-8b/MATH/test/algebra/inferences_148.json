@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $f(x)=2x-4$ and $g(x)=x^2+3$. What is $f(g(2))$?",
+        "inference": "1. First, we find $g(2)$:\n   $g(2) = (2)^2 + 3 = 4 + 3 = 7$\n\n2. Now, we find $f(g(2))$, which is $f(7)$:\n   $f(7) = 2(7) - 4 = 14 - 4 = 10$\n\nFinal Answer: $\\boxed{10}$\n",
+        "ground_truth": "We note that $g(2)=2^2+3=7$, so $f(g(2))=f(7)=2\\cdot7-4=10.$ Therefore our answer is $\\boxed{10}$."
+    },
+    {
+        "question": "1. First, we find $g(2)$:\n   $g(2) = (2)^2 + 3 = 4 + 3 = 7$\n\n2. Now, we find $f(g(2))$, which is $f(7)$:\n   $f(7) = 2(7) - 4 = 14 - 4 = 10$\n\nFinal Answer: $\\boxed{10}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{10}$\n",
+        "ground_truth": "We note that $g(2)=2^2+3=7$, so $f(g(2))=f(7)=2\\cdot7-4=10.$ Therefore our answer is $\\boxed{10}$."
+    }
+]

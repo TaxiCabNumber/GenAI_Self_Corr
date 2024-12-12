@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe range of the function $f(x)$ is $[-3,5].$  Let $h(x) = 2f(x) - 7.$  Find the range of the function $h(x).$",
+        "inference": "The range of $f(x)$ is $[-3,5]$.  This means that $-3 \\le f(x) \\le 5$.  We want to find the range of $h(x) = 2f(x) - 7$.\nTo find the range of $h(x)$, we consider the possible values of $2f(x) - 7$ as $f(x)$ ranges from $-3$ to $5$.\n\nIf $f(x) = -3$, then $h(x) = 2(-3) - 7 = -6 - 7 = -13$.\nIf $f(x) = 5$, then $h(x) = 2(5) - 7 = 10 - 7 = 3$.\n\nThus, the smallest possible value of $h(x)$ is $-13$ and the largest possible value of $h(x)$ is $3$. Therefore, the range of $h(x)$ is $[-13, 3]$.\n\nFinal Answer: $\\boxed{[-13, 3]}$\n",
+        "ground_truth": "Let $y = f(x),$ so $y$ can take on any value from $-3$ to 5, inclusive.  Then $2y - 7$ can take on any value from $2(-3) - 7 = -13$ to $2(5) - 7 = 3,$ inclusive.  Therefore, the range of $h(x)$ is $\\boxed{[-13,3]}.$"
+    },
+    {
+        "question": "The range of $f(x)$ is $[-3,5]$.  This means that $-3 \\le f(x) \\le 5$.  We want to find the range of $h(x) = 2f(x) - 7$.\nTo find the range of $h(x)$, we consider the possible values of $2f(x) - 7$ as $f(x)$ ranges from $-3$ to $5$.\n\nIf $f(x) = -3$, then $h(x) = 2(-3) - 7 = -6 - 7 = -13$.\nIf $f(x) = 5$, then $h(x) = 2(5) - 7 = 10 - 7 = 3$.\n\nThus, the smallest possible value of $h(x)$ is $-13$ and the largest possible value of $h(x)$ is $3$. Therefore, the range of $h(x)$ is $[-13, 3]$.\n\nFinal Answer: $\\boxed{[-13, 3]}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "If $-3 \\le f(x) \\le 5$, then multiplying by 2 gives $-6 \\le 2f(x) \\le 10$.  Subtracting 7 from all parts of the inequality gives $-6-7 \\le 2f(x)-7 \\le 10-7$, which is $-13 \\le 2f(x)-7 \\le 3$.  Therefore, the range of $h(x)$ is $[-13, 3]$.\n\nFinal Answer: $\\boxed{[-13, 3]}$",
+        "ground_truth": "Let $y = f(x),$ so $y$ can take on any value from $-3$ to 5, inclusive.  Then $2y - 7$ can take on any value from $2(-3) - 7 = -13$ to $2(5) - 7 = 3,$ inclusive.  Therefore, the range of $h(x)$ is $\\boxed{[-13,3]}.$"
+    }
+]

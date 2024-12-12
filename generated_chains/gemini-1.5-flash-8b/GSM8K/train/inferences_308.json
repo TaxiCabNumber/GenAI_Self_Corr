@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJason is mixing a batch of black paint. He needs to add 2 grams of charcoal for every 30 ml of water. If he adds 900 ml of water, how much charcoal does he add?",
+        "inference": "1. Ratio of charcoal to water: 2 grams / 30 ml\n\n2. Calculate the amount of charcoal needed for 900 ml of water: (2 grams / 30 ml) * 900 ml = 60 grams\n\nI hope it is correct: 60 $grams$\n",
+        "ground_truth": "First find how many ml of water Jason needs for 1 gram of charcoal: 30 ml / 2 grams = <<30/2=15>>15 ml/g\nThen divide the amount of water Jason uses by the amount of water per gram of charcoal to find how much charcoal he uses: 900 ml / 15 ml/g = <<900/15=60>>60 g\n#### 60"
+    },
+    {
+        "question": "1. Ratio of charcoal to water: 2 grams / 30 ml\n\n2. Calculate the amount of charcoal needed for 900 ml of water: (2 grams / 30 ml) * 900 ml = 60 grams\n\nI hope it is correct: 60 $grams$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 60 grams\n",
+        "ground_truth": "First find how many ml of water Jason needs for 1 gram of charcoal: 30 ml / 2 grams = <<30/2=15>>15 ml/g\nThen divide the amount of water Jason uses by the amount of water per gram of charcoal to find how much charcoal he uses: 900 ml / 15 ml/g = <<900/15=60>>60 g\n#### 60"
+    }
+]

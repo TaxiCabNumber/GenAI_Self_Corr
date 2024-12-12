@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIn a conference room, 40 chairs with a capacity of 2 people each were arranged in rows in preparation for the board meeting of a company, whose number of members was the same as the chairs' capacity. If 2/5 of the chairs were not occupied, and the rest each had two people, calculate the number of board members who did attend the meeting.",
+        "inference": "1. **Determine the total capacity of the chairs:** 40 chairs * 2 people per chair = 80 people\n2. **Calculate the number of chairs not occupied:** 2/5 * 40 chairs = 16 chairs\n3. **Calculate the number of chairs occupied:** 40 chairs - 16 chairs = 24 chairs\n4. **Calculate the number of people who attended the meeting:** 24 chairs * 2 people per chair = 48 people\n\nI hope it is correct: 48",
+        "ground_truth": "The total capacity of the 40 chairs was 40*2=<<40*2=80>>80 people.\nIf 2/5 of the chairs were unoccupied, 2/5*80=<<2/5*80=32>>32 people missed the board meeting since the number of members was the same as the chair's capacity.\nThe number of board members who attended the meeting was 80-32=<<80-32=48>>48\n#### 48"
+    },
+    {
+        "question": "1. **Determine the total capacity of the chairs:** 40 chairs * 2 people per chair = 80 people\n2. **Calculate the number of chairs not occupied:** 2/5 * 40 chairs = 16 chairs\n3. **Calculate the number of chairs occupied:** 40 chairs - 16 chairs = 24 chairs\n4. **Calculate the number of people who attended the meeting:** 24 chairs * 2 people per chair = 48 people\n\nI hope it is correct: 48\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$48",
+        "ground_truth": "The total capacity of the 40 chairs was 40*2=<<40*2=80>>80 people.\nIf 2/5 of the chairs were unoccupied, 2/5*80=<<2/5*80=32>>32 people missed the board meeting since the number of members was the same as the chair's capacity.\nThe number of board members who attended the meeting was 80-32=<<80-32=48>>48\n#### 48"
+    }
+]

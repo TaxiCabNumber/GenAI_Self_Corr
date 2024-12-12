@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nConvert the repeating decimal $3.283283283\\ldots$ to an improper fraction.",
+        "inference": "Let $x = 3.283283283...$.\nThen $1000x = 3283.283283283...$\nSubtracting the first equation from the second equation gives:\n$1000x - x = 3283.283283283... - 3.283283283...$\n$999x = 3280$\n$x = \\frac{3280}{999}$\n\nFinal Answer: $\\boxed{\\frac{3280}{999}}$ I hope it is correct.",
+        "ground_truth": "We can express the decimal as a geometric series, with first term $.283$, and common ratio $.001$.\n\nLet S denote the sum of this infinite geometric series:\n\n$S = .283 + .000283 + \\dots$\n\nThen,\n\n$1000S = 283.283283283\\dots$\n\nThus,\n\n$999S = 283$\n\nand\n\n$S = \\frac{283}{999}$\n\nThus, $3.283283\\dots = 3 + \\frac{283}{999} = \\boxed{\\frac{3280}{999}}$"
+    },
+    {
+        "question": "Let $x = 3.283283283...$.\nThen $1000x = 3283.283283283...$\nSubtracting the first equation from the second equation gives:\n$1000x - x = 3283.283283283... - 3.283283283...$\n$999x = 3280$\n$x = \\frac{3280}{999}$\n\nFinal Answer: $\\boxed{\\frac{3280}{999}}$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Let $x = 3.283283283...$.\nWe can write $x = 3.\\overline{283}$.\nMultiplying by $10^3 = 1000$, we get\n$1000x = 3283.283283283... = 3283.\\overline{283}$.\nSubtracting the first equation from the second equation, we get\n$$1000x - x = 3283.\\overline{283} - 3.\\overline{283}$$\n$$999x = 3280$$\n$$x = \\frac{3280}{999}$$\n\nFinal Answer: $\\boxed{\\frac{3280}{999}}$",
+        "ground_truth": "We can express the decimal as a geometric series, with first term $.283$, and common ratio $.001$.\n\nLet S denote the sum of this infinite geometric series:\n\n$S = .283 + .000283 + \\dots$\n\nThen,\n\n$1000S = 283.283283283\\dots$\n\nThus,\n\n$999S = 283$\n\nand\n\n$S = \\frac{283}{999}$\n\nThus, $3.283283\\dots = 3 + \\frac{283}{999} = \\boxed{\\frac{3280}{999}}$"
+    }
+]

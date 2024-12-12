@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nToby is counting goldfish in the local pond. He knows that only 25% of goldfish are at the surface and the rest are too deep below the surface to be able to see. If he counts 15 goldfish, how many are below the surface?",
+        "inference": "1. 25% of goldfish are at the surface.\n2. This means 75% are below the surface.\n3. 75% of 15 goldfish = (75/100) * 15 = 0.75 * 15 = 11.25\n4. Since you can't have a fraction of a goldfish, round to the nearest whole number.\nI hope it is correct: 11 $answer$\n",
+        "ground_truth": "There are 60 goldfish because 15 / .25 = <<15/.25=60>>60\n75% of the fish are below the surface because 100 - 25 = <<100-25=75>>75\nThere are 45 goldfish below the surface because 60 x .75 = <<60*.75=45>>45\n#### 45"
+    },
+    {
+        "question": "1. 25% of goldfish are at the surface.\n2. This means 75% are below the surface.\n3. 75% of 15 goldfish = (75/100) * 15 = 0.75 * 15 = 11.25\n4. Since you can't have a fraction of a goldfish, round to the nearest whole number.\nI hope it is correct: 11 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 11\n",
+        "ground_truth": "There are 60 goldfish because 15 / .25 = <<15/.25=60>>60\n75% of the fish are below the surface because 100 - 25 = <<100-25=75>>75\nThere are 45 goldfish below the surface because 60 x .75 = <<60*.75=45>>45\n#### 45"
+    }
+]

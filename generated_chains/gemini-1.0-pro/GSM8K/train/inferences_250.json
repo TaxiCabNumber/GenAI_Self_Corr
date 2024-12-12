@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTom uses 10 weight plates each weighing 30 pounds on an exercise machine.  This exercise machine uses special technology to make the weights 20% heavier on the lowering portion.  How heavy did the weights feel when being lowered?",
+        "inference": "**Solution**\n\n- Determine the weight of all 10 plates combined.\n \n$$10\\times30=300$$\n\n- Determine the 20% heavier weight. \n\n$$300\\times0.20=60$$\n\n- Add the 20% heavier weight to the original weight.\n\n$$300+60=360$$\n\nI hope it is correct: 360",
+        "ground_truth": "The weight stack weighed 10*30=<<10*30=300>>300 pounds\nSo the added weight made it 300*.2=<<300*.2=60>>60 pounds heavier\nSo when he lowered the weight it was 300+60=<<300+60=360>>360 pounds\n#### 360"
+    },
+    {
+        "question": "**Solution**\n\n- Determine the weight of all 10 plates combined.\n \n$$10\\times30=300$$\n\n- Determine the 20% heavier weight. \n\n$$300\\times0.20=60$$\n\n- Add the 20% heavier weight to the original weight.\n\n$$300+60=360$$\n\nI hope it is correct: 360\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 360",
+        "ground_truth": "The weight stack weighed 10*30=<<10*30=300>>300 pounds\nSo the added weight made it 300*.2=<<300*.2=60>>60 pounds heavier\nSo when he lowered the weight it was 300+60=<<300+60=360>>360 pounds\n#### 360"
+    }
+]

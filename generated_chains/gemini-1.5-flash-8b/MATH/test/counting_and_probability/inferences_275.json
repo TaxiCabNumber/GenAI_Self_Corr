@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nDetermine the number of ways to arrange the letters of the word MISSISSIPPI.",
+        "inference": "The word MISSISSIPPI has 11 letters.\nThe letters are M, I, S, S, I, S, S, I, P, P, I.\nThe counts of each letter are:\nM: 1\nI: 4\nS: 4\nP: 2\nThe total number of arrangements is given by the multinomial coefficient:\n$$\\frac{11!}{1!4!4!2!} = \\frac{11 \\times 10 \\times 9 \\times 8 \\times 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1}{(1)(4 \\times 3 \\times 2 \\times 1)(4 \\times 3 \\times 2 \\times 1)(2 \\times 1)}$$\n$$\\frac{11!}{1!4!4!2!} = \\frac{39916800}{(1)(24)(24)(2)} = \\frac{39916800}{1152} = 34650$$\nFinal Answer: $\\boxed{34650}$\n",
+        "ground_truth": "First we count the arrangements if all the letters are unique, which is $11!$. Then since the I's, S's and the P's are not unique, we divide by $4!$, $4!$, and $2!$ for the arrangements of I's, S's, and P's, for an answer of $\\dfrac{11!}{4! \\times 4! \\times 2!} = \\boxed{34,\\!650}$."
+    },
+    {
+        "question": "The word MISSISSIPPI has 11 letters.\nThe letters are M, I, S, S, I, S, S, I, P, P, I.\nThe counts of each letter are:\nM: 1\nI: 4\nS: 4\nP: 2\nThe total number of arrangements is given by the multinomial coefficient:\n$$\\frac{11!}{1!4!4!2!} = \\frac{11 \\times 10 \\times 9 \\times 8 \\times 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1}{(1)(4 \\times 3 \\times 2 \\times 1)(4 \\times 3 \\times 2 \\times 1)(2 \\times 1)}$$\n$$\\frac{11!}{1!4!4!2!} = \\frac{39916800}{(1)(24)(24)(2)} = \\frac{39916800}{1152} = 34650$$\nFinal Answer: $\\boxed{34650}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "34650\n",
+        "ground_truth": "First we count the arrangements if all the letters are unique, which is $11!$. Then since the I's, S's and the P's are not unique, we divide by $4!$, $4!$, and $2!$ for the arrangements of I's, S's, and P's, for an answer of $\\dfrac{11!}{4! \\times 4! \\times 2!} = \\boxed{34,\\!650}$."
+    }
+]

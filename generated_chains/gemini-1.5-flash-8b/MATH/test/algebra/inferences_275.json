@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind $\\left\\lceil \\sqrt[3]{-25}\\right\\rceil$.",
+        "inference": "$\\sqrt[3]{-25}$ is between $-3$ and $-2$ since $(-3)^3 = -27$ and $(-2)^3 = -8$.  \n$-27 < -25 < -8$\n$\\sqrt[3]{-27} = -3$\n$\\sqrt[3]{-25}$ is between -3 and -2.\nSince $\\sqrt[3]{-25}$ is between -3 and -2, $\\left\\lceil \\sqrt[3]{-25}\\right\\rceil$ is -2.\nFinal Answer: $\\boxed{-2}$\n",
+        "ground_truth": "We notice that $-27 = (-3)^3 < -25 < -8 = (-2)^3$. Thus, $-3 < \\sqrt[3]{-25} < -2$. The ceiling of this value will be the smallest integer greater than $\\sqrt[3]{-25}$, which is $\\boxed{-2}$."
+    },
+    {
+        "question": "$\\sqrt[3]{-25}$ is between $-3$ and $-2$ since $(-3)^3 = -27$ and $(-2)^3 = -8$.  \n$-27 < -25 < -8$\n$\\sqrt[3]{-27} = -3$\n$\\sqrt[3]{-25}$ is between -3 and -2.\nSince $\\sqrt[3]{-25}$ is between -3 and -2, $\\left\\lceil \\sqrt[3]{-25}\\right\\rceil$ is -2.\nFinal Answer: $\\boxed{-2}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\sqrt[3]{-25}$ is between $-3$ and $-2$ since $(-3)^3 = -27$ and $(-2)^3 = -8$.  \nSince $-27 < -25 < -8$, we have $-3 < \\sqrt[3]{-25} < -2$.\nThe ceiling function, $\\lceil x \\rceil$, is the smallest integer greater than or equal to $x$.\nSince $-3 < \\sqrt[3]{-25} < -2$, the smallest integer greater than or equal to $\\sqrt[3]{-25}$ is $-2$.\nThus, $\\left\\lceil \\sqrt[3]{-25}\\right\\rceil = -2$.\n\nFinal Answer: $\\boxed{-2}$",
+        "ground_truth": "We notice that $-27 = (-3)^3 < -25 < -8 = (-2)^3$. Thus, $-3 < \\sqrt[3]{-25} < -2$. The ceiling of this value will be the smallest integer greater than $\\sqrt[3]{-25}$, which is $\\boxed{-2}$."
+    }
+]

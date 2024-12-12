@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nWhile cultivating a small farm, a farmer spent $50 on corn seeds, $35 on fertilizers and pesticides, and $15 on labor. After a successful harvest, he was able to gather 10 bags of corn. How much should he sell each bag, if he wants to make a profit of 10%?",
+        "inference": "1. Calculate the total cost: $50 (seeds) + $35 (fertilizers/pesticides) + $15 (labor) = $100\n\n2. Calculate the desired profit: $100 * 0.10 = $10\n\n3. Calculate the total amount needed to cover costs and profit: $100 + $10 = $110\n\n4. Calculate the selling price per bag: $110 / 10 bags = $11\n\nI hope it is correct: $11\n",
+        "ground_truth": "His total expenditure so far is $50+$35+$15 = $<<50+35+15=100>>100\nTo make a profit of 10%, he has to make a total of $100+($100*(10/100) = $<<100+(100*(10/100))=110>>110 from sales\nTo make $110 from the sales of 10 bags, each bag should cost $110/10 = $<<110/10=11>>11\n#### 11"
+    },
+    {
+        "question": "1. Calculate the total cost: $50 (seeds) + $35 (fertilizers/pesticides) + $15 (labor) = $100\n\n2. Calculate the desired profit: $100 * 0.10 = $10\n\n3. Calculate the total amount needed to cover costs and profit: $100 + $10 = $110\n\n4. Calculate the selling price per bag: $110 / 10 bags = $11\n\nI hope it is correct: $11\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $11\n",
+        "ground_truth": "His total expenditure so far is $50+$35+$15 = $<<50+35+15=100>>100\nTo make a profit of 10%, he has to make a total of $100+($100*(10/100) = $<<100+(100*(10/100))=110>>110 from sales\nTo make $110 from the sales of 10 bags, each bag should cost $110/10 = $<<110/10=11>>11\n#### 11"
+    }
+]

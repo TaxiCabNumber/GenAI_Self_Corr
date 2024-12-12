@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn buys a box of 40 light bulbs.  He uses 16 of them and then gives half of what is left to a friend.  How many does he have left?",
+        "inference": "1. Bulbs initially: 40\n2. Bulbs used: 16\n3. Bulbs remaining: 40 - 16 = 24\n4. Bulbs given to friend: 24 / 2 = 12\n5. Bulbs left: 24 - 12 = 12\n\nI hope it is correct: 12 $\n",
+        "ground_truth": "He had 40-16=<<40-16=24>>24 left after using some\nThen after giving some away he is left with 24/2=<<24/2=12>>12\n#### 12"
+    },
+    {
+        "question": "1. Bulbs initially: 40\n2. Bulbs used: 16\n3. Bulbs remaining: 40 - 16 = 24\n4. Bulbs given to friend: 24 / 2 = 12\n5. Bulbs left: 24 - 12 = 12\n\nI hope it is correct: 12 $\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $12\n",
+        "ground_truth": "He had 40-16=<<40-16=24>>24 left after using some\nThen after giving some away he is left with 24/2=<<24/2=12>>12\n#### 12"
+    }
+]

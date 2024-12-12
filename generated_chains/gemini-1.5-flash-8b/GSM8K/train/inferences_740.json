@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAngie bought three times as many pretzels at the mall as Shelly did. Shelly bought half as many pretzels as Barry. If Barry bought 12 pretzels, how many did Angie buy?",
+        "inference": "1. Barry bought 12 pretzels.\n2. Shelly bought half as many as Barry, so Shelly bought 12 / 2 = 6 pretzels.\n3. Angie bought three times as many as Shelly, so Angie bought 6 * 3 = 18 pretzels.\nI hope it is correct: 18 $pretzels$\n",
+        "ground_truth": "Shelly bought 12/2=<<12/2=6>>6 pretzels\nAngie bought 6*3=<<6*3=18>>18 pretzels\n#### 18"
+    },
+    {
+        "question": "1. Barry bought 12 pretzels.\n2. Shelly bought half as many as Barry, so Shelly bought 12 / 2 = 6 pretzels.\n3. Angie bought three times as many as Shelly, so Angie bought 6 * 3 = 18 pretzels.\nI hope it is correct: 18 $pretzels$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 18 pretzels\n",
+        "ground_truth": "Shelly bought 12/2=<<12/2=6>>6 pretzels\nAngie bought 6*3=<<6*3=18>>18 pretzels\n#### 18"
+    }
+]

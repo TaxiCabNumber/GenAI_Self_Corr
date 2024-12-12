@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJames goes out to eat.  He orders a steak and egg meal for $16.  He is with his friend, who orders chicken fried steak for $14.  His friend pays for half the bill and James pays the tip along with his half of the bill. They tip 20%.  How much did James pay?",
+        "inference": "1. Total bill: $16 + $14 = $30\n\n2. Friend's half: $30 / 2 = $15\n\n3. James's half: $15\n\n4. Tip: $30 * 0.20 = $6\n\n5. James's total payment: $15 + $6 = $21\n\nI hope it is correct: $21\n",
+        "ground_truth": "The meals cost 16+14=$<<16+14=30>>30\nSo each paid 30/2=$<<30/2=15>>15\nJames left a tip of 30*.2=$<<30*.2=6>>6\nSo James paid 15+6=$<<15+6=21>>21\n#### 21"
+    },
+    {
+        "question": "1. Total bill: $16 + $14 = $30\n\n2. Friend's half: $30 / 2 = $15\n\n3. James's half: $15\n\n4. Tip: $30 * 0.20 = $6\n\n5. James's total payment: $15 + $6 = $21\n\nI hope it is correct: $21\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $21\n",
+        "ground_truth": "The meals cost 16+14=$<<16+14=30>>30\nSo each paid 30/2=$<<30/2=15>>15\nJames left a tip of 30*.2=$<<30*.2=6>>6\nSo James paid 15+6=$<<15+6=21>>21\n#### 21"
+    }
+]

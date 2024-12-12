@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSue works in a factory and every 30 minutes, a machine she oversees produces 30 cans of soda. How many cans of soda can one machine produce in 8 hours?",
+        "inference": "1.  8 hours is equal to 8 * 60 = 480 minutes.\n\n2.  The machine produces 30 cans every 30 minutes.\n\n3.  To find the total cans produced in 480 minutes, divide 480 by 30: 480 / 30 = 16\n\n4.  Therefore, the machine produces 16 * 30 = 480 cans in 8 hours.\n\nI hope it is correct: 480 $cans$\n",
+        "ground_truth": "Since there are 2 sets of 30 minutes in an hour, then in 8 hours there are 8 x 2 = <<8*2=16>>16 sets of 30 minutes.\nHence, a machine that Sue oversees can produce 30 cans x 16 = <<30*16=480>>480 cans of soda in 8 hours.\n#### 480"
+    },
+    {
+        "question": "1.  8 hours is equal to 8 * 60 = 480 minutes.\n\n2.  The machine produces 30 cans every 30 minutes.\n\n3.  To find the total cans produced in 480 minutes, divide 480 by 30: 480 / 30 = 16\n\n4.  Therefore, the machine produces 16 * 30 = 480 cans in 8 hours.\n\nI hope it is correct: 480 $cans$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 480 cans\n",
+        "ground_truth": "Since there are 2 sets of 30 minutes in an hour, then in 8 hours there are 8 x 2 = <<8*2=16>>16 sets of 30 minutes.\nHence, a machine that Sue oversees can produce 30 cans x 16 = <<30*16=480>>480 cans of soda in 8 hours.\n#### 480"
+    }
+]

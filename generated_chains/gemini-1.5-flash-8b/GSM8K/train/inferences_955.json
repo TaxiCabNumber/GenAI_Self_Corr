@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMr. Williams bought 10 gallons of juice for a party. Each gallon has 10 cups. At the party, 5 cups of juice were left. How many cups of juice were drunk?",
+        "inference": "10 gallons * 10 cups/gallon = 100 cups of juice initially.\n100 cups - 5 cups = 95 cups of juice drunk.\nI hope it is correct: 95 $cups$\n",
+        "ground_truth": "Mr. Williams bought 10 x 10 = <<10*10=100>>100 cups of juice.\nSince 5 cups were left, then 100 - 5 = <<100-5=95>>95 cups were drunk.\n#### 95"
+    },
+    {
+        "question": "10 gallons * 10 cups/gallon = 100 cups of juice initially.\n100 cups - 5 cups = 95 cups of juice drunk.\nI hope it is correct: 95 $cups$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 95 cups\n",
+        "ground_truth": "Mr. Williams bought 10 x 10 = <<10*10=100>>100 cups of juice.\nSince 5 cups were left, then 100 - 5 = <<100-5=95>>95 cups were drunk.\n#### 95"
+    }
+]

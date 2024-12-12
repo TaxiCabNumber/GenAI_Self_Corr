@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $500 - 90 + 7 = 400 - 60 + 5 + N$, what is the value of $N$?",
+        "inference": "$500 - 90 + 7 = 417$\n$400 - 60 + 5 = 345$\n$417 = 345 + N$\n$N = 417 - 345$\n$N = 72$\nFinal Answer: $\\boxed{72}$\n",
+        "ground_truth": "Manipulating terms, $(500 - 400) + (7-5) = (90 - 60) + N$, so $102 = 30 + N$, and $N = \\boxed{72}$."
+    },
+    {
+        "question": "$500 - 90 + 7 = 417$\n$400 - 60 + 5 = 345$\n$417 = 345 + N$\n$N = 417 - 345$\n$N = 72$\nFinal Answer: $\\boxed{72}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The problem likely wants to find the value of N such that the pattern is consistent.  The first two equations show a pattern of subtracting the tens digit from the hundreds digit and adding the ones digit.\nThe given equations show:\n$500 - 90 + 7 = 417$\n$400 - 60 + 5 = 345$\nWe are looking for $N$ such that $417 - 345 = N$.\n$417 - 345 = 72$.\n\nFinal Answer: $\\boxed{72}$",
+        "ground_truth": "Manipulating terms, $(500 - 400) + (7-5) = (90 - 60) + N$, so $102 = 30 + N$, and $N = \\boxed{72}$."
+    }
+]

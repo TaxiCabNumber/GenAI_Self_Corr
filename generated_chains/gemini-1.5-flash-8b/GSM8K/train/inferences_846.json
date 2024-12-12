@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nKurt's old refrigerator cost $0.85 a day in electricity.  He recently bought a new energy-efficient refrigerator that only cost $0.45 a day in electricity.  How much money does Kurt save in a 30-day month with his new refrigerator?",
+        "inference": "Difference in daily cost = $0.85 - $0.45 = $0.40\nSavings per month = $0.40/day * 30 days = $12.00\nI hope it is correct: $12.00\n",
+        "ground_truth": "The old refrigerator costs $0.85 a day so for 30 days it costs .85*30 = $<<0.85*30=25.50>>25.50\nThe new refrigerator costs $0.45 a day so for 30 days it costs .45*30 =$<<0.45*30=13.50>>13.50\nOver 30 days, Kurt saves 25.50-13.50 = $<<25.50-13.50=12.00>>12.00 a month with his new refrigerator\n#### 12"
+    },
+    {
+        "question": "Difference in daily cost = $0.85 - $0.45 = $0.40\nSavings per month = $0.40/day * 30 days = $12.00\nI hope it is correct: $12.00\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $12.00\n",
+        "ground_truth": "The old refrigerator costs $0.85 a day so for 30 days it costs .85*30 = $<<0.85*30=25.50>>25.50\nThe new refrigerator costs $0.45 a day so for 30 days it costs .45*30 =$<<0.45*30=13.50>>13.50\nOver 30 days, Kurt saves 25.50-13.50 = $<<25.50-13.50=12.00>>12.00 a month with his new refrigerator\n#### 12"
+    }
+]

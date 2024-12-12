@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the value of the following expression: $100 - 99 +98 - 97 + 96 - 95 + \\cdots + 4 - 3 +2 - 1$?",
+        "inference": "The expression is $100 - 99 + 98 - 97 + 96 - 95 + \\cdots + 4 - 3 + 2 - 1$.\nWe can group the terms as follows:\n$(100 - 99) + (98 - 97) + (96 - 95) + \\cdots + (4 - 3) + (2 - 1)$.\nThere are 50 pairs of terms, each pair summing to 1.\nSo, the sum is $1 + 1 + 1 + \\cdots + 1 + 1 = 50 \\times 1 = 50$.\n\nFinal Answer: $\\boxed{50}$ I hope it is correct.\n",
+        "ground_truth": "Each pair of consecutive terms makes 1 (for example, $100-99=1$). Since there are $100/2=50$ such pairs, the entire expression is equal to $1\\cdot50=\\boxed{50}$."
+    },
+    {
+        "question": "The expression is $100 - 99 + 98 - 97 + 96 - 95 + \\cdots + 4 - 3 + 2 - 1$.\nWe can group the terms as follows:\n$(100 - 99) + (98 - 97) + (96 - 95) + \\cdots + (4 - 3) + (2 - 1)$.\nThere are 50 pairs of terms, each pair summing to 1.\nSo, the sum is $1 + 1 + 1 + \\cdots + 1 + 1 = 50 \\times 1 = 50$.\n\nFinal Answer: $\\boxed{50}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The given expression is $100 - 99 + 98 - 97 + 96 - 95 + \\cdots + 4 - 3 + 2 - 1$.\nWe can group the terms as follows:\n$(100 - 99) + (98 - 97) + (96 - 95) + \\cdots + (4 - 3) + (2 - 1)$.\nThere are 50 pairs of terms, each pair summing to 1.\nSo, the sum is $1 + 1 + 1 + \\cdots + 1 + 1 = 50 \\times 1 = 50$.\n\nFinal Answer: $\\boxed{50}$",
+        "ground_truth": "Each pair of consecutive terms makes 1 (for example, $100-99=1$). Since there are $100/2=50$ such pairs, the entire expression is equal to $1\\cdot50=\\boxed{50}$."
+    }
+]

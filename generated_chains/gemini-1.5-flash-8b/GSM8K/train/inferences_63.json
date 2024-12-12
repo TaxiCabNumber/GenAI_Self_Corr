@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nShawna's workout goal is 30 situps. On Monday, Shawna was only able to do 12 situps, so she decided that she would make up for the rest on Tuesday. However, she was only able to do 19 situps on Tuesday. How many situps would Shawna have to do on Wednesday to meet her minimum goal and make up for the ones she didn't do?",
+        "inference": "1. Situps needed on Tuesday: 30 - 12 = 18\n2. Situps needed on Wednesday: 18 - 19 = -1\n3. Shawna already surpassed her Monday goal. No more situps needed.\n\nI hope it is correct: 0 $situps$\n",
+        "ground_truth": "On Monday, Shawna was short of 30 - 12 = <<30-12=18>>18 situps\nOn Tuesday, Shawna was short of 30 - 19 = <<30-19=11>>11 situps\nOn Wednesday, Shawna would have to do 30 + 18 + 11 = <<30+18+11=59>>59 situps\n#### 59"
+    },
+    {
+        "question": "1. Situps needed on Tuesday: 30 - 12 = 18\n2. Situps needed on Wednesday: 18 - 19 = -1\n3. Shawna already surpassed her Monday goal. No more situps needed.\n\nI hope it is correct: 0 $situps$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 18 situps\n",
+        "ground_truth": "On Monday, Shawna was short of 30 - 12 = <<30-12=18>>18 situps\nOn Tuesday, Shawna was short of 30 - 19 = <<30-19=11>>11 situps\nOn Wednesday, Shawna would have to do 30 + 18 + 11 = <<30+18+11=59>>59 situps\n#### 59"
+    }
+]

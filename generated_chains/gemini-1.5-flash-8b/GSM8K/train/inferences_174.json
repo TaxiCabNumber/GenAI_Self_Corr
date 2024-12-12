@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMovie tickets cost $5 each on a Monday, twice as much on a Wednesday, and five times as much as Monday on a Saturday. If Glenn goes to the movie theater on Wednesday and Saturday, how much does he spend?",
+        "inference": "Wednesday tickets cost $5 * 2 = $10 each.\nSaturday tickets cost $5 * 5 = $25 each.\nGlenn spends $10 + $25 = $35.\nI hope it is correct: 35 $\n",
+        "ground_truth": "He spends 5*2=$<<5*2=10>>10 on Wednesday to pay for a movie ticket.\nHe spends 5*5=$<<5*5=25>>25 on Saturday to pay for a movie ticket.\nHe spends a total of 10+25=$<<10+25=35>>35.\n#### 35"
+    },
+    {
+        "question": "Wednesday tickets cost $5 * 2 = $10 each.\nSaturday tickets cost $5 * 5 = $25 each.\nGlenn spends $10 + $25 = $35.\nI hope it is correct: 35 $\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $35\n",
+        "ground_truth": "He spends 5*2=$<<5*2=10>>10 on Wednesday to pay for a movie ticket.\nHe spends 5*5=$<<5*5=25>>25 on Saturday to pay for a movie ticket.\nHe spends a total of 10+25=$<<10+25=35>>35.\n#### 35"
+    }
+]

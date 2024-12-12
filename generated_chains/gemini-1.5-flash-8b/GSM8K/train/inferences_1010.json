@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nErin works in the school cafeteria serving soup. Each bowl of soup has 10 ounces, and Erin can serve 5 bowls per minute. If the pot of soup has 6 gallons of soup, how long will it take Erin to serve all the soup, rounded to the nearest minute? (There are 128 ounces to a gallon.)",
+        "inference": "1. Convert gallons to ounces: 6 gallons * 128 ounces/gallon = 768 ounces\n\n2. Calculate the total number of bowls: 768 ounces / 10 ounces/bowl = 76.8 bowls\n\n3. Round up to the nearest whole bowl: 77 bowls\n\n4. Calculate the time in minutes: 77 bowls / 5 bowls/minute = 15.4 minutes\n\n5. Round to the nearest minute: 15 minutes\n\nI hope it is correct: 15 $minutes$\n",
+        "ground_truth": "First find the number of ounces Erin serves per minute: 10 ounces/bowl * 5 bowls/minute = <<10*5=50>>50 ounces/minute\nThen find the number of ounces in the pot: 6 gallons * 128 ounces/gallon = <<6*128=768>>768 ounces\nThen divide the total amount of soup by the amount of soup Erin serves per minute: 768 minutes / 50 ounces/minute = <<768/50=15.36>>15.36 minutes, which rounds down to 15 minutes\n#### 15"
+    },
+    {
+        "question": "1. Convert gallons to ounces: 6 gallons * 128 ounces/gallon = 768 ounces\n\n2. Calculate the total number of bowls: 768 ounces / 10 ounces/bowl = 76.8 bowls\n\n3. Round up to the nearest whole bowl: 77 bowls\n\n4. Calculate the time in minutes: 77 bowls / 5 bowls/minute = 15.4 minutes\n\n5. Round to the nearest minute: 15 minutes\n\nI hope it is correct: 15 $minutes$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 15 minutes\n",
+        "ground_truth": "First find the number of ounces Erin serves per minute: 10 ounces/bowl * 5 bowls/minute = <<10*5=50>>50 ounces/minute\nThen find the number of ounces in the pot: 6 gallons * 128 ounces/gallon = <<6*128=768>>768 ounces\nThen divide the total amount of soup by the amount of soup Erin serves per minute: 768 minutes / 50 ounces/minute = <<768/50=15.36>>15.36 minutes, which rounds down to 15 minutes\n#### 15"
+    }
+]

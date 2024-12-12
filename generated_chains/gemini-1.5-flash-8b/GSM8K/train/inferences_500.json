@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJoe played catch with Derek and Tammy. He caught the ball 23 times. Derek made four less than double the catches Joe did. Tammy caught the ball sixteen more than a third of the times Derek did. How many times did Tammy catch the ball?",
+        "inference": "1. Joe caught 23 times.\n2. Derek caught 2 * 23 - 4 = 42 times.\n3. Tammy caught (42 / 3) + 16 = 14 + 16 = 30 times.\nI hope it is correct: 30 $answer$\n",
+        "ground_truth": "Derek caught the ball 2 * 23 - 4 = 46 - 4 = <<2*23-4=42>>42 times.\nTammy caught the ball 42 / 3 + 16 = 14 + 16 = <<42/3+16=30>>30 times.\n#### 30"
+    },
+    {
+        "question": "1. Joe caught 23 times.\n2. Derek caught 2 * 23 - 4 = 42 times.\n3. Tammy caught (42 / 3) + 16 = 14 + 16 = 30 times.\nI hope it is correct: 30 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $30$\n",
+        "ground_truth": "Derek caught the ball 2 * 23 - 4 = 46 - 4 = <<2*23-4=42>>42 times.\nTammy caught the ball 42 / 3 + 16 = 14 + 16 = <<42/3+16=30>>30 times.\n#### 30"
+    }
+]

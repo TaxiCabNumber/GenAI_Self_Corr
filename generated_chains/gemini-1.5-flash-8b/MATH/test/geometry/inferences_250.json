@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nPoints $A(0, 0)$, $B(6, 0)$, $C(6, 10)$ and $D(0, 10)$ are vertices of rectangle $ABCD$, and $E$ is on segment $CD$ at $(2, 10)$. What is the ratio of the area of triangle $ADE$ to the area of quadrilateral $ABCE$? Express your answer as a common fraction.",
+        "inference": "1. Area of rectangle ABCD: $6 \\times 10 = 60$.\n2. Area of triangle ADE: $\\frac{1}{2} \\times base \\times height = \\frac{1}{2} \\times 4 \\times 10 = 20$\n3. Area of triangle CDE: $\\frac{1}{2} \\times 4 \\times 10 = 20$.\n4. Area of quadrilateral ABCE: Area of rectangle ABCD - Area of triangle CDE = $60 - 20 = 40$\n5. Ratio of triangle ADE to quadrilateral ABCE: $\\frac{20}{40} = \\frac{1}{2}$.\n\nFinal Answer: $\\boxed{\\frac{1}{2}}$. I hope it is correct.",
+        "ground_truth": "The area of triangle $ADE$ is $\\frac{1}{2}(10)(2)=10$ square units, and the area of rectangle $ABCD$ is $(6)(10)=60$ square units.  Subtracting, we find that the area of $ABCE$ is 50 square units.  Therefore, the ratio of the area of triangle $ADE$ to the area of quadrilateral $ABCE$ is $10/50=\\boxed{\\frac{1}{5}}$."
+    },
+    {
+        "question": "1. Area of rectangle ABCD: $6 \\times 10 = 60$.\n2. Area of triangle ADE: $\\frac{1}{2} \\times base \\times height = \\frac{1}{2} \\times 4 \\times 10 = 20$\n3. Area of triangle CDE: $\\frac{1}{2} \\times 4 \\times 10 = 20$.\n4. Area of quadrilateral ABCE: Area of rectangle ABCD - Area of triangle CDE = $60 - 20 = 40$\n5. Ratio of triangle ADE to quadrilateral ABCE: $\\frac{20}{40} = \\frac{1}{2}$.\n\nFinal Answer: $\\boxed{\\frac{1}{2}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{\\frac{1}{2}}$\n",
+        "ground_truth": "The area of triangle $ADE$ is $\\frac{1}{2}(10)(2)=10$ square units, and the area of rectangle $ABCD$ is $(6)(10)=60$ square units.  Subtracting, we find that the area of $ABCE$ is 50 square units.  Therefore, the ratio of the area of triangle $ADE$ to the area of quadrilateral $ABCE$ is $10/50=\\boxed{\\frac{1}{5}}$."
+    }
+]

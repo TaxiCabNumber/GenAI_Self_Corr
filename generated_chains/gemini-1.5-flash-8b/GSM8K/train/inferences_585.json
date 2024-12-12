@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMaddy's 4th grade class needs to make 1000 Valentine's Day cards to get a pizza party. There are 30 kids in the class. If everyone makes 8, how many more cards will they need to make to get a pizza party?",
+        "inference": "1. Total cards needed: 1000\n2. Number of students: 30\n3. Cards per student: 8\n4. Total cards made by students: 30 * 8 = 240\n5. Cards remaining to make: 1000 - 240 = 760\n\nI hope it is correct: 760 $cards$\n",
+        "ground_truth": "If 30 kids each make 8 cards, they will have made 240 cards because 30*8 = <<30*8=240>>240.\nSince 1000-240 = <<1000-240=760>>760, they need to make 760 more cards.\n#### 760"
+    },
+    {
+        "question": "1. Total cards needed: 1000\n2. Number of students: 30\n3. Cards per student: 8\n4. Total cards made by students: 30 * 8 = 240\n5. Cards remaining to make: 1000 - 240 = 760\n\nI hope it is correct: 760 $cards$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 760\n",
+        "ground_truth": "If 30 kids each make 8 cards, they will have made 240 cards because 30*8 = <<30*8=240>>240.\nSince 1000-240 = <<1000-240=760>>760, they need to make 760 more cards.\n#### 760"
+    }
+]

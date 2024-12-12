@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nEmily makes $1,000,000 per year. If she has 10 employees who make $20,000 per year, how much would her salary be if she took part of her salary to make sure all of her employees make $35,000 per year.",
+        "inference": "1. Emily's current employee cost: 10 employees * $20,000/employee = $200,000\n\n2. Desired employee cost: 10 employees * $35,000/employee = $350,000\n\n3. Additional salary needed: $350,000 - $200,000 = $150,000\n\n4. Emily's new salary: $1,000,000 + $150,000 = $1,150,000\n\nI hope it is correct: 1,150,000$\n",
+        "ground_truth": "Each employee needs $35,000-$20,000=$<<35000-20000=15000>>15,000 more per year.\nIn total, Emily needs to pay $15,000*10=$<<15000*10=150000>>150,000 extra.\nEmily will need to have a new salary of $1,000,000-$150,000=$<<1000000-150000=850000>>850,000 per year.\n#### 850,000"
+    },
+    {
+        "question": "1. Emily's current employee cost: 10 employees * $20,000/employee = $200,000\n\n2. Desired employee cost: 10 employees * $35,000/employee = $350,000\n\n3. Additional salary needed: $350,000 - $200,000 = $150,000\n\n4. Emily's new salary: $1,000,000 + $150,000 = $1,150,000\n\nI hope it is correct: 1,150,000$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $1,150,000\n",
+        "ground_truth": "Each employee needs $35,000-$20,000=$<<35000-20000=15000>>15,000 more per year.\nIn total, Emily needs to pay $15,000*10=$<<15000*10=150000>>150,000 extra.\nEmily will need to have a new salary of $1,000,000-$150,000=$<<1000000-150000=850000>>850,000 per year.\n#### 850,000"
+    }
+]

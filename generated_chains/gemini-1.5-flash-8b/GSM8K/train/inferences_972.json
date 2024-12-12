@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAn elevator is on the 9th floor. It goes down 7 floors, then up 3  floors, then up 8 floors. If the elevator is on the top floor, how many floors are there in the building?",
+        "inference": "1. Start at the 9th floor.\n2. Go down 7 floors: 9 - 7 = 2nd floor\n3. Go up 3 floors: 2 + 3 = 5th floor\n4. Go up 8 floors: 5 + 8 = 13th floor\nSince the elevator is on the top floor, there are 13 floors.\n\nI hope it is correct: 13$ floors\n",
+        "ground_truth": "From the 9th floor, the elevator went down to the 9 - 7 = <<9-7=2>>2nd floor.\nThen went up to the 2 + 3 = <<2+3=5>>5th floor.\nThen, went up to the 5 + 8 = <<5+8=13>>13th floor; hence there are 13 floors in the building.\n#### 13"
+    },
+    {
+        "question": "1. Start at the 9th floor.\n2. Go down 7 floors: 9 - 7 = 2nd floor\n3. Go up 3 floors: 2 + 3 = 5th floor\n4. Go up 8 floors: 5 + 8 = 13th floor\nSince the elevator is on the top floor, there are 13 floors.\n\nI hope it is correct: 13$ floors\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 13\n",
+        "ground_truth": "From the 9th floor, the elevator went down to the 9 - 7 = <<9-7=2>>2nd floor.\nThen went up to the 2 + 3 = <<2+3=5>>5th floor.\nThen, went up to the 5 + 8 = <<5+8=13>>13th floor; hence there are 13 floors in the building.\n#### 13"
+    }
+]

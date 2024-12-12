@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJason is mixing a batch of black paint. He needs to add 2 grams of charcoal for every 30 ml of water. If he adds 900 ml of water, how much charcoal does he add?",
+        "inference": "1. Determine the ratio of charcoal to water: 2 grams of charcoal / 30 ml of water\n2. Convert the amount of water from ml to grams: 900 ml * 1 gram / 1 ml = 900 grams\n3. Use the ratio to calculate the amount of charcoal needed: 900 grams of water * (2 grams of charcoal / 30 grams of water) = 60 grams of charcoal\nI hope it is correct: 60 grams",
+        "ground_truth": "First find how many ml of water Jason needs for 1 gram of charcoal: 30 ml / 2 grams = <<30/2=15>>15 ml/g\nThen divide the amount of water Jason uses by the amount of water per gram of charcoal to find how much charcoal he uses: 900 ml / 15 ml/g = <<900/15=60>>60 g\n#### 60"
+    },
+    {
+        "question": "1. Determine the ratio of charcoal to water: 2 grams of charcoal / 30 ml of water\n2. Convert the amount of water from ml to grams: 900 ml * 1 gram / 1 ml = 900 grams\n3. Use the ratio to calculate the amount of charcoal needed: 900 grams of water * (2 grams of charcoal / 30 grams of water) = 60 grams of charcoal\nI hope it is correct: 60 grams\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$60",
+        "ground_truth": "First find how many ml of water Jason needs for 1 gram of charcoal: 30 ml / 2 grams = <<30/2=15>>15 ml/g\nThen divide the amount of water Jason uses by the amount of water per gram of charcoal to find how much charcoal he uses: 900 ml / 15 ml/g = <<900/15=60>>60 g\n#### 60"
+    }
+]

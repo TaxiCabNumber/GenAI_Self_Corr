@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nFred spent half of his allowance going to the movies. He washed the family car and earned 6 dollars. What is his weekly allowance if he ended with 14 dollars?",
+        "inference": "1. Fred ended with $14.\n2.  Subtracting the earned $6 from his ending amount: $14 - $6 = $8\n3.  This $8 represents half of his allowance.\n4.  Multiplying by 2 to find his full allowance: $8 * 2 = $16\n\nI hope it is correct: $16\n",
+        "ground_truth": "Before washing the car Fred had $14 - $6 = $<<14-6=8>>8.\nFred spent half his allowance for the movies, so 2 * $8 = $<<2*8=16>>16 allowance.\n#### 16"
+    },
+    {
+        "question": "1. Fred ended with $14.\n2.  Subtracting the earned $6 from his ending amount: $14 - $6 = $8\n3.  This $8 represents half of his allowance.\n4.  Multiplying by 2 to find his full allowance: $8 * 2 = $16\n\nI hope it is correct: $16\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $16\n",
+        "ground_truth": "Before washing the car Fred had $14 - $6 = $<<14-6=8>>8.\nFred spent half his allowance for the movies, so 2 * $8 = $<<2*8=16>>16 allowance.\n#### 16"
+    }
+]

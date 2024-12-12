@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nHow many numbers between 100 and 200 (inclusive) are not perfect squares?",
+        "inference": "Perfect squares between 100 and 200 are $10^2 = 100$, $11^2 = 121$, $12^2 = 144$, $13^2 = 169$, $14^2 = 196$.\nThere are 5 perfect squares between 100 and 200 inclusive.\nThe numbers between 100 and 200 inclusive are 101 to 200.\nThe total numbers between 100 and 200 inclusive are $200 - 100 + 1 = 101$.\nThe number of numbers that are not perfect squares is $101 - 5 = 96$.\nFinal Answer: $\\boxed{96}$ I hope it is correct.",
+        "ground_truth": "There are $200-100+1 = 101$ numbers in the list $100, 101, \\ldots, 200$.  We can find 5 perfect squares in the list, namely $10^2,\\ldots,14^2$.  So the number of non-perfect-squares in the list is $101-5=\\boxed{96}$."
+    },
+    {
+        "question": "Perfect squares between 100 and 200 are $10^2 = 100$, $11^2 = 121$, $12^2 = 144$, $13^2 = 169$, $14^2 = 196$.\nThere are 5 perfect squares between 100 and 200 inclusive.\nThe numbers between 100 and 200 inclusive are 101 to 200.\nThe total numbers between 100 and 200 inclusive are $200 - 100 + 1 = 101$.\nThe number of numbers that are not perfect squares is $101 - 5 = 96$.\nFinal Answer: $\\boxed{96}$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The perfect squares between 100 and 200 inclusive are $10^2 = 100$, $11^2 = 121$, $12^2 = 144$, $13^2 = 169$, $14^2 = 196$.\nThere are 5 perfect squares between 100 and 200 inclusive.\nThe numbers between 100 and 200 inclusive are from 100 to 200.\nThe total numbers between 100 and 200 inclusive are $200 - 100 + 1 = 101$.\nThe number of numbers that are not perfect squares is $101 - 5 = 96$.\n\nFinal Answer: $\\boxed{96}$",
+        "ground_truth": "There are $200-100+1 = 101$ numbers in the list $100, 101, \\ldots, 200$.  We can find 5 perfect squares in the list, namely $10^2,\\ldots,14^2$.  So the number of non-perfect-squares in the list is $101-5=\\boxed{96}$."
+    }
+]

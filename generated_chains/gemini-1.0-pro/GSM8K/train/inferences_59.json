@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nEvery hour Joanne has to collect the coins out of the fountain inside the mall. During the first hour, she collected 15 coins. For the next two hours, she collected 35 coins from the fountain. In the fourth hour, she collected 50 coins from the fountain but she gave 15 of them to her coworker so she could buy a soda. How many coins did she have after the fourth hour?",
+        "inference": "1st hour: she collected 15 coins\n2nd hour: she collected 35 coins\n3rd hour: she collected 35 coins\n4th hour: she collected 50 coins and she gave 15 of them to her coworker, so she collected only 50 - 15 = 35 coins.\n\nTotal coins: 15 + 35 + 35 + 35 = 120 coins.\nI hope it is correct: 120",
+        "ground_truth": "15 coins collected in hour one\n35 coins collected in hour two\n35 coins collected in hour three\n50 coins collected in hour four\nBefore giving her coworker some coins there were 15+35+35+50=<<15+35+35+50=135>>135 coins\nThe number of coins after given 15 to her coworker is 135-15=<<135-15=120>>120\n#### 120"
+    },
+    {
+        "question": "1st hour: she collected 15 coins\n2nd hour: she collected 35 coins\n3rd hour: she collected 35 coins\n4th hour: she collected 50 coins and she gave 15 of them to her coworker, so she collected only 50 - 15 = 35 coins.\n\nTotal coins: 15 + 35 + 35 + 35 = 120 coins.\nI hope it is correct: 120\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$120",
+        "ground_truth": "15 coins collected in hour one\n35 coins collected in hour two\n35 coins collected in hour three\n50 coins collected in hour four\nBefore giving her coworker some coins there were 15+35+35+50=<<15+35+35+50=135>>135 coins\nThe number of coins after given 15 to her coworker is 135-15=<<135-15=120>>120\n#### 120"
+    }
+]

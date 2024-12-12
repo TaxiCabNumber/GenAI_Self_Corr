@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMarcy's grade is electing their class president. Marcy got three times as many votes as Barry, who got twice as many as 3 more than the number of votes Joey got. If Joey got 8 votes, how many votes did Marcy get?",
+        "inference": "Joey got 8 votes.\nBarry got twice as many as 3 more than the number of votes Joey got.\nBarry's votes = 2 * (Joey's votes + 3) = 2 * (8 + 3) = 2 * 11 = 22 votes.\nMarcy got three times as many votes as Barry.\nMarcy's votes = 3 * Barry's votes = 3 * 22 = 66 votes.\nI hope it is correct: 66 $votes$\n",
+        "ground_truth": "First, add three to Joey's vote total: 8 votes + 3 votes = <<8+3=11>>11 votes\nThen double that number to find the number of votes Barry got: 11 votes * 2 = <<11*2=22>>22 votes\nThen triple that number to find Marcy's vote total: 22 votes * 3 = <<22*3=66>>66 votes\n#### 66"
+    },
+    {
+        "question": "Joey got 8 votes.\nBarry got twice as many as 3 more than the number of votes Joey got.\nBarry's votes = 2 * (Joey's votes + 3) = 2 * (8 + 3) = 2 * 11 = 22 votes.\nMarcy got three times as many votes as Barry.\nMarcy's votes = 3 * Barry's votes = 3 * 22 = 66 votes.\nI hope it is correct: 66 $votes$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "Joey got 8 votes.\nBarry got twice as many as 3 more than the number of votes Joey got.\nBarry's votes = 2 * (Joey's votes + 3) = 2 * (8 + 3) = 2 * 11 = 22 votes.\nMarcy got three times as many votes as Barry.\nMarcy's votes = 3 * Barry's votes = 3 * 22 = 66 votes.\n\n#### 66\n",
+        "ground_truth": "First, add three to Joey's vote total: 8 votes + 3 votes = <<8+3=11>>11 votes\nThen double that number to find the number of votes Barry got: 11 votes * 2 = <<11*2=22>>22 votes\nThen triple that number to find Marcy's vote total: 22 votes * 3 = <<22*3=66>>66 votes\n#### 66"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAn 18-month magazine subscription is normally $34. The magazine is currently running a promotion for $0.25 off each twice-a-month issue when signing up for the 18-month subscription. How many dollars cheaper is the promotional subscription than the normal one?",
+        "inference": "18 months = 18 * 2 = 36 issues\nDiscount per issue = $0.25\nTotal discount = 36 issues * $0.25/issue = $9\nNormal price = $34\nPromotional price = $34 - $9 = $25\nDifference = $34 - $25 = $9\n\nI hope it is correct: $9\n",
+        "ground_truth": "The subscription sends twice monthly issues, so there are 2 * 18 = <<2*18=36>>36 issues.\nThus, the promotional offer is 36 * 0.25 = $<<36*0.25=9>>9 cheaper than the normal subscription.\n#### 9"
+    },
+    {
+        "question": "18 months = 18 * 2 = 36 issues\nDiscount per issue = $0.25\nTotal discount = 36 issues * $0.25/issue = $9\nNormal price = $34\nPromotional price = $34 - $9 = $25\nDifference = $34 - $25 = $9\n\nI hope it is correct: $9\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $9\n",
+        "ground_truth": "The subscription sends twice monthly issues, so there are 2 * 18 = <<2*18=36>>36 issues.\nThus, the promotional offer is 36 * 0.25 = $<<36*0.25=9>>9 cheaper than the normal subscription.\n#### 9"
+    }
+]

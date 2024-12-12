@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn worked 8 hours a day every day from the 3rd to the 8th, including the 3rd and not including the 8th.  How many hours did he work?",
+        "inference": "Days worked: 3rd, 4th, 5th, 6th, 7th.  There are 5 days.\nHours per day: 8 hours\nTotal hours = 5 days * 8 hours/day = 40 hours\nI hope it is correct: 40 $hours$\n",
+        "ground_truth": "He worked for 8-3=<<8-3=5>>5 days\nSo he worked for 5*8=<<5*8=40>>40 hours\n#### 40"
+    },
+    {
+        "question": "Days worked: 3rd, 4th, 5th, 6th, 7th.  There are 5 days.\nHours per day: 8 hours\nTotal hours = 5 days * 8 hours/day = 40 hours\nI hope it is correct: 40 $hours$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 40 hours\n",
+        "ground_truth": "He worked for 8-3=<<8-3=5>>5 days\nSo he worked for 5*8=<<5*8=40>>40 hours\n#### 40"
+    }
+]

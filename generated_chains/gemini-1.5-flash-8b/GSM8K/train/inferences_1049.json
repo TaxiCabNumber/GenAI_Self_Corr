@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIn a math test, Mark scored twice as much as the least score. If the highest score is 98 and the range of the scores is 75, what was Mark's score?",
+        "inference": "1. Range = Highest score - Lowest score\n2. 75 = 98 - Lowest score\n3. Lowest score = 98 - 75 = 23\n4. Mark's score = 2 * Lowest score\n5. Mark's score = 2 * 23 = 46\nI hope it is correct: 46 $answer$\n",
+        "ground_truth": "The range of scores is the difference between the highest and the least score so 75 = 98 - least score\nThen the least score = 98-75 = <<98-75=23>>23\nMark scored twice as much as the least score which is 2*23 = <<2*23=46>>46\n#### 46"
+    },
+    {
+        "question": "1. Range = Highest score - Lowest score\n2. 75 = 98 - Lowest score\n3. Lowest score = 98 - 75 = 23\n4. Mark's score = 2 * Lowest score\n5. Mark's score = 2 * 23 = 46\nI hope it is correct: 46 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $46$\n",
+        "ground_truth": "The range of scores is the difference between the highest and the least score so 75 = 98 - least score\nThen the least score = 98-75 = <<98-75=23>>23\nMark scored twice as much as the least score which is 2*23 = <<2*23=46>>46\n#### 46"
+    }
+]

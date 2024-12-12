@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAbe finds 4 ants on the sidewalk.  Beth sees 50% more ants than Abe.  CeCe watches twice as many ants as Abe.  Duke discovers half as many ants as Abe.  How many ants do the four children find together?",
+        "inference": "1. Abe finds 4 ants.\n2. Beth sees 50% more than Abe: 4 ants * 1.50 = 6 ants\n3. CeCe watches twice as many as Abe: 4 ants * 2 = 8 ants\n4. Duke discovers half as many as Abe: 4 ants / 2 = 2 ants\n5. Total ants: 4 + 6 + 8 + 2 = 20 ants\n\nI hope it is correct: 20 $ants$\n",
+        "ground_truth": "Beth finds 4 + 2 = <<4+2=6>>6 ants.\nCeCe finds 4 x 2 = <<4*2=8>>8 ants.\nDuke finds 4 / 2 = <<4/2=2>>2 ants.\nThe four children find 4 + 6 + 8 + 2 = <<4+6+8+2=20>>20 ants.\n#### 20"
+    },
+    {
+        "question": "1. Abe finds 4 ants.\n2. Beth sees 50% more than Abe: 4 ants * 1.50 = 6 ants\n3. CeCe watches twice as many as Abe: 4 ants * 2 = 8 ants\n4. Duke discovers half as many as Abe: 4 ants / 2 = 2 ants\n5. Total ants: 4 + 6 + 8 + 2 = 20 ants\n\nI hope it is correct: 20 $ants$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 20 ants\n",
+        "ground_truth": "Beth finds 4 + 2 = <<4+2=6>>6 ants.\nCeCe finds 4 x 2 = <<4*2=8>>8 ants.\nDuke finds 4 / 2 = <<4/2=2>>2 ants.\nThe four children find 4 + 6 + 8 + 2 = <<4+6+8+2=20>>20 ants.\n#### 20"
+    }
+]

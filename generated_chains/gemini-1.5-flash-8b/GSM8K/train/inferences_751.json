@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nHarry is joining a marathon that's why he practices and varies his workouts from day to day. He ran 10 meters per hour on Monday. From Tuesday to Thursday he ran 50% faster than on Monday. Then on Friday, he ran 60% faster than he ran on Thursday. How fast did Harry run on Friday?",
+        "inference": "1. Monday's speed: 10 meters per hour.\n2. Tuesday to Thursday's speed increase: 50% of 10 m/h = 0.5 * 10 = 5 m/h.\n3. Tuesday to Thursday's speed: 10 m/h + 5 m/h = 15 m/h.\n4. Thursday's speed: 15 m/h.\n5. Friday's speed increase: 60% of 15 m/h = 0.6 * 15 = 9 m/h.\n6. Friday's speed: 15 m/h + 9 m/h = 24 m/h.\n\nI hope it is correct: 24 $meters/hour$\n",
+        "ground_truth": "Harry ran 10 x 50/100 = <<10*50/100=5>>5 meters per hour faster on Tuesday to Wednesday.\nSo he ran 10 + 5 = <<10+5=15>>15 meters per hour from Tuesday to Thursday.\nThen on Friday, he ran 15 x 60/100 = <<15*60/100=9>>9 meters per hour more.\nTherefore, he ran 15 + 9 = <<15+9=24>>24 meters per hour on Friday.\n#### 24"
+    },
+    {
+        "question": "1. Monday's speed: 10 meters per hour.\n2. Tuesday to Thursday's speed increase: 50% of 10 m/h = 0.5 * 10 = 5 m/h.\n3. Tuesday to Thursday's speed: 10 m/h + 5 m/h = 15 m/h.\n4. Thursday's speed: 15 m/h.\n5. Friday's speed increase: 60% of 15 m/h = 0.6 * 15 = 9 m/h.\n6. Friday's speed: 15 m/h + 9 m/h = 24 m/h.\n\nI hope it is correct: 24 $meters/hour$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 24 meters/hour\n",
+        "ground_truth": "Harry ran 10 x 50/100 = <<10*50/100=5>>5 meters per hour faster on Tuesday to Wednesday.\nSo he ran 10 + 5 = <<10+5=15>>15 meters per hour from Tuesday to Thursday.\nThen on Friday, he ran 15 x 60/100 = <<15*60/100=9>>9 meters per hour more.\nTherefore, he ran 15 + 9 = <<15+9=24>>24 meters per hour on Friday.\n#### 24"
+    }
+]

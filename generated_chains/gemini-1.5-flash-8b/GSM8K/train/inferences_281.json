@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nGina has two bank accounts. Each account has a quarter of the balance in Betty's account. If Betty's account balance is $3,456, what is the combined balance of both Gina's accounts?",
+        "inference": "1. Betty's account balance is $3,456.\n2. Each Gina's account has a quarter of Betty's balance.\n   2.1 Quarter of $3,456 = $3,456 / 4 = $864\n3. Gina has two accounts, so the combined balance is $864 * 2 = $1,728\nI hope it is correct: $1728\n",
+        "ground_truth": "Each of Gina's account has $3456 / 4 accounts = $<<3456/4=864>>864/account\nHer combined account balance is therefore $864 + $864 = $<<864+864=1728>>1728\n#### 1728"
+    },
+    {
+        "question": "1. Betty's account balance is $3,456.\n2. Each Gina's account has a quarter of Betty's balance.\n   2.1 Quarter of $3,456 = $3,456 / 4 = $864\n3. Gina has two accounts, so the combined balance is $864 * 2 = $1,728\nI hope it is correct: $1728\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $1728\n",
+        "ground_truth": "Each of Gina's account has $3456 / 4 accounts = $<<3456/4=864>>864/account\nHer combined account balance is therefore $864 + $864 = $<<864+864=1728>>1728\n#### 1728"
+    }
+]

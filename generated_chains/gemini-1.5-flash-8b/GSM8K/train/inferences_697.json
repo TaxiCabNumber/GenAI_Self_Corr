@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJoey studies for his SAT exams 2 hours per night 5 nights a week.  On the weekends, he studies 3 hours a day.  If his SAT exam is 6 weeks away, how much time will Joey spend studying?",
+        "inference": "5 nights a week * 2 hours/night = 10 hours/week\n10 hours/week * 6 weeks = 60 hours\nWeekends: 2 weekends/week * 3 hours/weekend = 6 hours/week\n6 hours/week * 6 weeks = 36 hours\nTotal study time: 60 hours + 36 hours = 96 hours\nI hope it is correct: 96 $hours$\n",
+        "ground_truth": "Joey studies 2 hours a night 5 nights a week so that's 2*5 = <<2*5=10>>10 hours\nHe studies 3 hours a day on the weekends so that's 3*2 = <<3*2=6>>6 hours\nIn one week, Joey studies 10+6 = <<10+6=16>>16 hours\nHe has 6 weeks till his exams and he studies for 16 hours a week so that's 6*16 = <<6*16=96>>96 hours of studying\n#### 96"
+    },
+    {
+        "question": "5 nights a week * 2 hours/night = 10 hours/week\n10 hours/week * 6 weeks = 60 hours\nWeekends: 2 weekends/week * 3 hours/weekend = 6 hours/week\n6 hours/week * 6 weeks = 36 hours\nTotal study time: 60 hours + 36 hours = 96 hours\nI hope it is correct: 96 $hours$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 96 hours\n",
+        "ground_truth": "Joey studies 2 hours a night 5 nights a week so that's 2*5 = <<2*5=10>>10 hours\nHe studies 3 hours a day on the weekends so that's 3*2 = <<3*2=6>>6 hours\nIn one week, Joey studies 10+6 = <<10+6=16>>16 hours\nHe has 6 weeks till his exams and he studies for 16 hours a week so that's 6*16 = <<6*16=96>>96 hours of studying\n#### 96"
+    }
+]

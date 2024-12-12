@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA carpenter is building a house. He needs 80 woodblocks to build it. If he has 8 logs that can make five woodblocks each, how many logs does the carpenter still need?",
+        "inference": "8 logs * 5 woodblocks/log = 40 woodblocks\n80 woodblocks - 40 woodblocks = 40 woodblocks\n40 woodblocks / 5 woodblocks/log = 8 logs\n\nI hope it is correct: 8 $logs$\n",
+        "ground_truth": "The carpenter initially has 8 x 5 = <<8*5=40>>40 blocks of wood.\nSo he still lacks 80 - 40 = <<80-40=40>>40 blocks of wood.\nTherefore he still needs 40 / 5 = <<40/5=8>>8 logs of wood.\n#### 8"
+    },
+    {
+        "question": "8 logs * 5 woodblocks/log = 40 woodblocks\n80 woodblocks - 40 woodblocks = 40 woodblocks\n40 woodblocks / 5 woodblocks/log = 8 logs\n\nI hope it is correct: 8 $logs$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 8 logs\n",
+        "ground_truth": "The carpenter initially has 8 x 5 = <<8*5=40>>40 blocks of wood.\nSo he still lacks 80 - 40 = <<80-40=40>>40 blocks of wood.\nTherefore he still needs 40 / 5 = <<40/5=8>>8 logs of wood.\n#### 8"
+    }
+]

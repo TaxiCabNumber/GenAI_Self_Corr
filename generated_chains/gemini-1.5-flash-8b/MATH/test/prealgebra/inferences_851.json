@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn triangle $ABC$, the measure of angle $A$ is $x$ degrees, the measure of angle $B$ is $2x$ degrees and the measure of angle $C$ is $5x$ degrees. What is the value of $x$? Express your answer as a decimal to the nearest tenth.",
+        "inference": "The sum of the angles in a triangle is 180 degrees.\n$x + 2x + 5x = 180$\n$8x = 180$\n$x = \\frac{180}{8}$\n$x = 22.5$\n\nFinal Answer: $\\boxed{22.5}$ I hope it is correct.\n",
+        "ground_truth": "The sum of the interior angles in a triangle is 180 degrees, so we have the equation $x+2x+5x=180$, so $x=\\boxed{22.5}$."
+    },
+    {
+        "question": "The sum of the angles in a triangle is 180 degrees.\n$x + 2x + 5x = 180$\n$8x = 180$\n$x = \\frac{180}{8}$\n$x = 22.5$\n\nFinal Answer: $\\boxed{22.5}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The sum of the angles in a triangle is 180 degrees.  If the angles are in the ratio 1:2:5, then let the angles be $x$, $2x$, and $5x$.\n$$x + 2x + 5x = 180$$\n$$8x = 180$$\n$$x = \\frac{180}{8} = 22.5$$\nThe angles are $22.5^\\circ$, $2(22.5)^\\circ = 45^\\circ$, and $5(22.5)^\\circ = 112.5^\\circ$.\nThe sum is $22.5 + 45 + 112.5 = 180$.\n$\\boxed{22.5}$\n",
+        "ground_truth": "The sum of the interior angles in a triangle is 180 degrees, so we have the equation $x+2x+5x=180$, so $x=\\boxed{22.5}$."
+    }
+]

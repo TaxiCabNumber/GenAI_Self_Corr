@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nTriangle $ABC$ is similar to triangle $XYZ$ with side $AB$ measuring 4 units, side $BC$ measuring 6 units and side $XY$ measuring 14 units. What is the measure of side $YZ?$",
+        "inference": "Since triangle $ABC$ is similar to triangle $XYZ$, the ratios of corresponding sides are equal.\n$\\frac{AB}{XY} = \\frac{BC}{YZ} = \\frac{AC}{XZ}$\nWe are given $AB = 4$, $BC = 6$, and $XY = 14$.\nWe have $\\frac{4}{14} = \\frac{6}{YZ}$.\nSolving for $YZ$, we have\n$4 \\times YZ = 6 \\times 14$\n$4 \\times YZ = 84$\n$YZ = \\frac{84}{4}$\n$YZ = 21$\nFinal Answer: $\\boxed{21}$ I hope it is correct.\n",
+        "ground_truth": "Because triangle $ABC$ is similar to triangle $XYZ,$ $\\frac{AB}{XY}=\\frac{BC}{YZ}.$ Plugging in the values we are given yields \\begin{align*}\n\\frac{4}{14} &= \\frac{6}{YZ}\\\\\n\\Rightarrow\\qquad \\frac{4\\cdot YZ}{14} &= 6\\\\\n\\Rightarrow\\qquad 4\\cdot YZ &= 84\\\\\n\\Rightarrow\\qquad YZ &= \\boxed{21}.\n\\end{align*}"
+    },
+    {
+        "question": "Since triangle $ABC$ is similar to triangle $XYZ$, the ratios of corresponding sides are equal.\n$\\frac{AB}{XY} = \\frac{BC}{YZ} = \\frac{AC}{XZ}$\nWe are given $AB = 4$, $BC = 6$, and $XY = 14$.\nWe have $\\frac{4}{14} = \\frac{6}{YZ}$.\nSolving for $YZ$, we have\n$4 \\times YZ = 6 \\times 14$\n$4 \\times YZ = 84$\n$YZ = \\frac{84}{4}$\n$YZ = 21$\nFinal Answer: $\\boxed{21}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\frac{AB}{XY} = \\frac{BC}{YZ} = \\frac{AC}{XZ}$\nGiven $AB = 4$, $BC = 6$, $XY = 14$.\n$\\frac{4}{14} = \\frac{6}{YZ}$\n$4 \\times YZ = 14 \\times 6$\n$4 \\times YZ = 84$\n$YZ = \\frac{84}{4}$\n$YZ = 21$\n\nFinal Answer: $\\boxed{21}$",
+        "ground_truth": "Because triangle $ABC$ is similar to triangle $XYZ,$ $\\frac{AB}{XY}=\\frac{BC}{YZ}.$ Plugging in the values we are given yields \\begin{align*}\n\\frac{4}{14} &= \\frac{6}{YZ}\\\\\n\\Rightarrow\\qquad \\frac{4\\cdot YZ}{14} &= 6\\\\\n\\Rightarrow\\qquad 4\\cdot YZ &= 84\\\\\n\\Rightarrow\\qquad YZ &= \\boxed{21}.\n\\end{align*}"
+    }
+]

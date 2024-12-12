@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are some lions in Londolozi at first. Lion cubs are born at the rate of 5 per month and lions die at the rate of 1 per month. If there are 148 lions in Londolozi after 1 year, how many lions were there in Londolozi at first?",
+        "inference": "Let 'x' be the initial number of lions.\nLions born in a year = 5 lions/month * 12 months/year = 60 lions\nLions died in a year = 1 lion/month * 12 months/year = 12 lions\nNet increase in lions in a year = 60 - 12 = 48 lions\nTotal lions after 1 year = initial lions + net increase\n148 = x + 48\nx = 148 - 48\nx = 100\n\nI hope it is correct: 100 $lions$\n",
+        "ground_truth": "There are 5-1=<<5-1=4>>4 more lions each month.\nThere will be 4*12=<<4*12=48>>48 more lions after 1 year.\nThere were 148-48=<<148-48=100>>100 lions in Londolozi at first.\n#### 100"
+    },
+    {
+        "question": "Let 'x' be the initial number of lions.\nLions born in a year = 5 lions/month * 12 months/year = 60 lions\nLions died in a year = 1 lion/month * 12 months/year = 12 lions\nNet increase in lions in a year = 60 - 12 = 48 lions\nTotal lions after 1 year = initial lions + net increase\n148 = x + 48\nx = 148 - 48\nx = 100\n\nI hope it is correct: 100 $lions$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 100\n",
+        "ground_truth": "There are 5-1=<<5-1=4>>4 more lions each month.\nThere will be 4*12=<<4*12=48>>48 more lions after 1 year.\nThere were 148-48=<<148-48=100>>100 lions in Londolozi at first.\n#### 100"
+    }
+]

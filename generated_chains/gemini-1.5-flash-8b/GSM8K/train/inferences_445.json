@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nCarla bought 2 bags of mini peanut butter cups on clearance.  Each bag was $6.00 but was 75% off. How much did she spend on 2 bags of candy?",
+        "inference": "1. Discount per bag: $6.00 * 0.75 = $4.50\n\n2. Cost of 1 bag: $6.00 - $4.50 = $1.50\n\n3. Cost of 2 bags: $1.50 * 2 = $3.00\n\nI hope it is correct: $3.00\n",
+        "ground_truth": "Each bag was $6.00 but was marked down 75% for clearance so that's 6*.75 = $<<6*.75=4.50>>4.50 discount\nEach bag was $6.00 and there is a $4.50 discount so each bag is 6-4.50 = $<<6-4.50=1.50>>1.50\nEach bag was marked down to $1.50 a bag and she bought 2 bags for a total of 1.5*2 = $<<1.5*2=3.00>>3.00\n#### 3"
+    },
+    {
+        "question": "1. Discount per bag: $6.00 * 0.75 = $4.50\n\n2. Cost of 1 bag: $6.00 - $4.50 = $1.50\n\n3. Cost of 2 bags: $1.50 * 2 = $3.00\n\nI hope it is correct: $3.00\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $3.00\n",
+        "ground_truth": "Each bag was $6.00 but was marked down 75% for clearance so that's 6*.75 = $<<6*.75=4.50>>4.50 discount\nEach bag was $6.00 and there is a $4.50 discount so each bag is 6-4.50 = $<<6-4.50=1.50>>1.50\nEach bag was marked down to $1.50 a bag and she bought 2 bags for a total of 1.5*2 = $<<1.5*2=3.00>>3.00\n#### 3"
+    }
+]

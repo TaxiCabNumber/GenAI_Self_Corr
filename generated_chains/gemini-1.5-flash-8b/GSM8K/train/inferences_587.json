@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJeff spends three times as many hours on the weekend catching up with his Facebook pals as he does working. Monday through Friday, however, he spends four times as many hours working as he does catching up. If he spends 3 hours every day catching up, how many hours does he spend working in an entire week?",
+        "inference": "1. Weekend catching up: 3 hours/day * 3 days = 9 hours\n2. Weekend working: 9 hours / 3 = 3 hours\n3. Daily working: 3 hours/day * 4 = 12 hours\n4. Weekly working: 12 hours/day * 5 days = 60 hours\n5. Total weekly working: 3 hours + 60 hours = 63 hours\n\nI hope it is correct: 63 $hours$\n",
+        "ground_truth": "On the weekend, Jeff works 3 / 3 = <<3/3=1>>1 hour each day.\nOn the weekdays, he spends 4 * 3 = <<4*3=12>>12 hours working each day.\nThus, he spends 2 * 1 + 5 * 12 = <<2*1+5*12=62>>62 hours working each week.\n#### 62"
+    },
+    {
+        "question": "1. Weekend catching up: 3 hours/day * 3 days = 9 hours\n2. Weekend working: 9 hours / 3 = 3 hours\n3. Daily working: 3 hours/day * 4 = 12 hours\n4. Weekly working: 12 hours/day * 5 days = 60 hours\n5. Total weekly working: 3 hours + 60 hours = 63 hours\n\nI hope it is correct: 63 $hours$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 63 hours\n",
+        "ground_truth": "On the weekend, Jeff works 3 / 3 = <<3/3=1>>1 hour each day.\nOn the weekdays, he spends 4 * 3 = <<4*3=12>>12 hours working each day.\nThus, he spends 2 * 1 + 5 * 12 = <<2*1+5*12=62>>62 hours working each week.\n#### 62"
+    }
+]

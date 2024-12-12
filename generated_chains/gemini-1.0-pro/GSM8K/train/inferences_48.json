@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSam memorized six more digits of pi than Carlos memorized. Mina memorized six times as many digits of pi as Carlos memorized. If Mina memorized 24 digits of pi, how many digits did Sam memorize?",
+        "inference": "1. MINA memorized 24 digits of pi.\n2. CARLOS memorized 24 / 6 = 4 digits of pi.\n3. SAM memorized 4 + 6 = 10 digits of pi.\nI hope it is correct: 10",
+        "ground_truth": "Carlos memorized 24/6=<<24/6=4>>4 digits of pi.\nSam memorized 4+6=10 digits of pi.\n#### 10"
+    },
+    {
+        "question": "1. MINA memorized 24 digits of pi.\n2. CARLOS memorized 24 / 6 = 4 digits of pi.\n3. SAM memorized 4 + 6 = 10 digits of pi.\nI hope it is correct: 10\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 10",
+        "ground_truth": "Carlos memorized 24/6=<<24/6=4>>4 digits of pi.\nSam memorized 4+6=10 digits of pi.\n#### 10"
+    }
+]

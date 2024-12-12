@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nDerek has $960 to buy his books for the semester. He spends half of that on his textbooks, and he spends a quarter of what is left on his school supplies. What is the amount of money Derek has left?",
+        "inference": "1. Derek spends half of $960 on textbooks: 960 / 2 = $480\n2. Derek has $960 - $480 = $480 left.\n3. Derek spends a quarter of $480 on school supplies: 480 / 4 = $120\n4. Derek has $480 - $120 = $360 left.\n\nI hope it is correct: $360\n",
+        "ground_truth": "Amount spent on textbooks is 960/2 = <<960/2=480>>480 dollars.\nAmount spent on school supplies is 480/4 = <<480/4=120>>120 dollars.\nAmount Derek has left 960-480-120 = <<960-480-120=360>>360 dollars.\n#### 360"
+    },
+    {
+        "question": "1. Derek spends half of $960 on textbooks: 960 / 2 = $480\n2. Derek has $960 - $480 = $480 left.\n3. Derek spends a quarter of $480 on school supplies: 480 / 4 = $120\n4. Derek has $480 - $120 = $360 left.\n\nI hope it is correct: $360\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $360\n",
+        "ground_truth": "Amount spent on textbooks is 960/2 = <<960/2=480>>480 dollars.\nAmount spent on school supplies is 480/4 = <<480/4=120>>120 dollars.\nAmount Derek has left 960-480-120 = <<960-480-120=360>>360 dollars.\n#### 360"
+    }
+]

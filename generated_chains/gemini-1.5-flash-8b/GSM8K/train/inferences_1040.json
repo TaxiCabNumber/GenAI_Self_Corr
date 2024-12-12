@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 66 goats at a farm and twice as many chickens. If the number of ducks is half of the total of the goats and chickens, and the number of pigs is a third of the number of ducks, how many more goats are there than pigs?",
+        "inference": "1. Chickens: 66 goats * 2 = 132 chickens\n2. Goats + Chickens = 66 + 132 = 198\n3. Ducks: 198 / 2 = 99 ducks\n4. Pigs: 99 ducks / 3 = 33 pigs\n5. Difference: 66 goats - 33 pigs = 33\n\nI hope it is correct: 33 $goats$\n",
+        "ground_truth": "There are 66 x 2 = <<66*2=132>>132 chickens\nThere are 66 + 132 = <<66+132=198>>198 goats and chickens\nThere are are 198/2 = <<198/2=99>>99 ducks\nThere are 99/3 = <<99/3=33>>33 pigs\nThere are 66 - 33 = <<66-33=33>>33 more goats than pigs\n#### 33"
+    },
+    {
+        "question": "1. Chickens: 66 goats * 2 = 132 chickens\n2. Goats + Chickens = 66 + 132 = 198\n3. Ducks: 198 / 2 = 99 ducks\n4. Pigs: 99 ducks / 3 = 33 pigs\n5. Difference: 66 goats - 33 pigs = 33\n\nI hope it is correct: 33 $goats$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 33\n",
+        "ground_truth": "There are 66 x 2 = <<66*2=132>>132 chickens\nThere are 66 + 132 = <<66+132=198>>198 goats and chickens\nThere are are 198/2 = <<198/2=99>>99 ducks\nThere are 99/3 = <<99/3=33>>33 pigs\nThere are 66 - 33 = <<66-33=33>>33 more goats than pigs\n#### 33"
+    }
+]

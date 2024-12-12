@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJan buys 1000 feet of cable.  She splits it up into 25-foot sections.  She gives 1/4 of that to a friend.  She then puts half of the rest in storage. How much does she keep on hand?",
+        "inference": "1. **Sections:** 1000 feet / 25 feet/section = 40 sections\n2. **Friend's share:** 40 sections * (1/4) = 10 sections\n3. **Remaining sections:** 40 sections - 10 sections = 30 sections\n4. **Sections in storage:** 30 sections * (1/2) = 15 sections\n5. **Sections kept:** 30 sections - 15 sections = 15 sections\n6. **Feet kept:** 15 sections * 25 feet/section = 375 feet\n\nI hope it is correct: 375 $feet$\n",
+        "ground_truth": "She gets 1000/25=<<1000/25=40>>40 sections\nShe gives away 40/4=<<40/4=10>>10 sections\nSo she keeps 40-10=<<40-10=30>>30 sections\nShe keeps 30/2=<<30/2=15>>15 sections on hand\n#### 15"
+    },
+    {
+        "question": "1. **Sections:** 1000 feet / 25 feet/section = 40 sections\n2. **Friend's share:** 40 sections * (1/4) = 10 sections\n3. **Remaining sections:** 40 sections - 10 sections = 30 sections\n4. **Sections in storage:** 30 sections * (1/2) = 15 sections\n5. **Sections kept:** 30 sections - 15 sections = 15 sections\n6. **Feet kept:** 15 sections * 25 feet/section = 375 feet\n\nI hope it is correct: 375 $feet$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 375 feet\n",
+        "ground_truth": "She gets 1000/25=<<1000/25=40>>40 sections\nShe gives away 40/4=<<40/4=10>>10 sections\nSo she keeps 40-10=<<40-10=30>>30 sections\nShe keeps 30/2=<<30/2=15>>15 sections on hand\n#### 15"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJacob has half the number of shoes Edward has. Edward has 3 times the number of shoes Brian has. If Brian has 22 pairs of shoes, how many pairs of shoes do they have in total?",
+        "inference": "1. Brian has 22 pairs of shoes.\n2. Edward has 3 times as many shoes as Brian, so Edward has 22 * 3 = 66 pairs of shoes.\n3. Jacob has half the number of shoes as Edward, so Jacob has 66 / 2 = 33 pairs of shoes.\n4. Total pairs of shoes: 22 + 66 + 33 = 121 pairs.\n\nI hope it is correct: 121 $pairs$\n",
+        "ground_truth": "Edward has 3 * 22 = <<3*22=66>>66 pairs of shoes.\nJacob has 66 / 2 = <<66/2=33>>33 pairs of shoes.\nAll of them have 22 + 66 + 33 = <<22+66+33=121>>121 pairs of shoes in total.\n#### 121"
+    },
+    {
+        "question": "1. Brian has 22 pairs of shoes.\n2. Edward has 3 times as many shoes as Brian, so Edward has 22 * 3 = 66 pairs of shoes.\n3. Jacob has half the number of shoes as Edward, so Jacob has 66 / 2 = 33 pairs of shoes.\n4. Total pairs of shoes: 22 + 66 + 33 = 121 pairs.\n\nI hope it is correct: 121 $pairs$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 121\n",
+        "ground_truth": "Edward has 3 * 22 = <<3*22=66>>66 pairs of shoes.\nJacob has 66 / 2 = <<66/2=33>>33 pairs of shoes.\nAll of them have 22 + 66 + 33 = <<22+66+33=121>>121 pairs of shoes in total.\n#### 121"
+    }
+]

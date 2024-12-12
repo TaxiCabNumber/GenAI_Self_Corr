@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nKim's dad would buy her 2 candy bars a week.  She would eat 1 candy bar every 4 weeks, saving the rest.  After 16 weeks, how many candy bars did Kim have saved?",
+        "inference": "1. Candy bars per week: 2\n2. Candy bars eaten every 4 weeks: 1\n3. Number of 4-week cycles in 16 weeks: 16 weeks / 4 weeks/cycle = 4 cycles\n4. Candy bars eaten in 16 weeks: 1 candy bar/cycle * 4 cycles = 4 candy bars\n5. Total candy bars bought in 16 weeks: 2 candy bars/week * 16 weeks = 32 candy bars\n6. Candy bars saved: 32 candy bars - 4 candy bars = 28 candy bars\n\nI hope it is correct: 28 $answer$\n",
+        "ground_truth": "Kim got 2 candy bars a week for 16 weeks so she got 2*16 = <<2*16=32>>32 candy bars\nShe would only eat 1 candy bar every 4 weeks so in 16 weeks she only ate 16/4 = <<16/4=4>>4 candy bars\nShe saved 32 candy bars and only ate 4 so she still has 32-4 = <<32-4=28>>28 candy bars\n#### 28"
+    },
+    {
+        "question": "1. Candy bars per week: 2\n2. Candy bars eaten every 4 weeks: 1\n3. Number of 4-week cycles in 16 weeks: 16 weeks / 4 weeks/cycle = 4 cycles\n4. Candy bars eaten in 16 weeks: 1 candy bar/cycle * 4 cycles = 4 candy bars\n5. Total candy bars bought in 16 weeks: 2 candy bars/week * 16 weeks = 32 candy bars\n6. Candy bars saved: 32 candy bars - 4 candy bars = 28 candy bars\n\nI hope it is correct: 28 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 28\n",
+        "ground_truth": "Kim got 2 candy bars a week for 16 weeks so she got 2*16 = <<2*16=32>>32 candy bars\nShe would only eat 1 candy bar every 4 weeks so in 16 weeks she only ate 16/4 = <<16/4=4>>4 candy bars\nShe saved 32 candy bars and only ate 4 so she still has 32-4 = <<32-4=28>>28 candy bars\n#### 28"
+    }
+]

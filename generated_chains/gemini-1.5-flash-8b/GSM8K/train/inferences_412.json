@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nUncle Jude baked 256 cookies. He gave 15 cookies to Tim, 23 cookies to Mike, kept some in the fridge and gave the rest to Anna. How many cookies did he put in the fridge if he gave twice as many cookies as he gave Tim to Anna?",
+        "inference": "1. Cookies given to Tim: 15\n2. Cookies given to Mike: 23\n3. Total cookies given to Tim and Mike: 15 + 23 = 38\n4. Cookies given to Anna are twice the cookies given to Tim: 15 * 2 = 30\n5. Total cookies given to Anna and Tim and Mike: 38 + 30 = 68\n6. Cookies left in the fridge: 256 - 68 = 188\n\nI hope it is correct: 188 $cookies$\n",
+        "ground_truth": "He gave twice 15 cookies to Anna which is 2*15 = <<2*15=30>>30 cookies\nHe gave out a total of 15+23+30 = <<15+23+30=68>>68 cookies\nThe remainder in the fridge is 256-68 = <<256-68=188>>188 cookies\n#### 188"
+    },
+    {
+        "question": "1. Cookies given to Tim: 15\n2. Cookies given to Mike: 23\n3. Total cookies given to Tim and Mike: 15 + 23 = 38\n4. Cookies given to Anna are twice the cookies given to Tim: 15 * 2 = 30\n5. Total cookies given to Anna and Tim and Mike: 38 + 30 = 68\n6. Cookies left in the fridge: 256 - 68 = 188\n\nI hope it is correct: 188 $cookies$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 188\n",
+        "ground_truth": "He gave twice 15 cookies to Anna which is 2*15 = <<2*15=30>>30 cookies\nHe gave out a total of 15+23+30 = <<15+23+30=68>>68 cookies\nThe remainder in the fridge is 256-68 = <<256-68=188>>188 cookies\n#### 188"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nEmma buys 2 containers of milk every school day for lunch. She does not go to school on the weekends. How many containers of milk does she buy in 3 weeks?",
+        "inference": "1. School days in a week: 5\n2. School days in 3 weeks: 5 days/week * 3 weeks = 15 days\n3. Milk containers per school day: 2 containers\n4. Total milk containers in 3 weeks: 15 days * 2 containers/day = 30 containers\n\nI hope it is correct: 30 $containers$\n",
+        "ground_truth": "There are 5 school days in a week: 5 days/week x 2 containers of milk/day = 10 containers of milk every week\nFinally the number of container for 3 weeks is 3 weeks x 10 containers/week = <<3*10=30>>30 containers\n#### 30"
+    },
+    {
+        "question": "1. School days in a week: 5\n2. School days in 3 weeks: 5 days/week * 3 weeks = 15 days\n3. Milk containers per school day: 2 containers\n4. Total milk containers in 3 weeks: 15 days * 2 containers/day = 30 containers\n\nI hope it is correct: 30 $containers$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 30\n",
+        "ground_truth": "There are 5 school days in a week: 5 days/week x 2 containers of milk/day = 10 containers of milk every week\nFinally the number of container for 3 weeks is 3 weeks x 10 containers/week = <<3*10=30>>30 containers\n#### 30"
+    }
+]

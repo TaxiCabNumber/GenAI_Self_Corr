@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSimplify: $92 - 45 \\div (3 \\times 5) - 5^2$.",
+        "inference": "1. Calculate $3 \\times 5 = 15$.\n2. Calculate $5^2 = 25$.\n3. Calculate $45 \\div 15 = 3$.\n4. Substitute the values into the expression: $92 - 3 - 25$.\n5. Calculate $92 - 3 = 89$.\n6. Calculate $89 - 25 = 64$.\n\nFinal Answer: $\\boxed{64}$. I hope it is correct.\n",
+        "ground_truth": "We follow the order of operations:  \\begin{align*}\n92 - 45 \\div (3\\times 5) - 5^2 &= 92 - 45 \\div 15 - 5^2 \\\\\n&= 92 - 45\\div 15 -25 \\\\\n&= 92 - 3 - 25=89-25 = \\boxed{64}.\n\\end{align*}"
+    },
+    {
+        "question": "1. Calculate $3 \\times 5 = 15$.\n2. Calculate $5^2 = 25$.\n3. Calculate $45 \\div 15 = 3$.\n4. Substitute the values into the expression: $92 - 3 - 25$.\n5. Calculate $92 - 3 = 89$.\n6. Calculate $89 - 25 = 64$.\n\nFinal Answer: $\\boxed{64}$. I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{64}$\n",
+        "ground_truth": "We follow the order of operations:  \\begin{align*}\n92 - 45 \\div (3\\times 5) - 5^2 &= 92 - 45 \\div 15 - 5^2 \\\\\n&= 92 - 45\\div 15 -25 \\\\\n&= 92 - 3 - 25=89-25 = \\boxed{64}.\n\\end{align*}"
+    }
+]

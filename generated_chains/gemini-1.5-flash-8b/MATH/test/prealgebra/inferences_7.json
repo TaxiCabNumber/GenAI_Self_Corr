@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThere are $4$ separate large boxes, and inside each large box there are $3$ separate small boxes, and inside each of these small boxes there are $2$ separate smaller boxes. How many boxes, counting all sizes, are there altogether?",
+        "inference": "Large boxes: 4\nSmall boxes in each large box: 3\nSmaller boxes in each small box: 2\n\nLarge boxes: $4 \\times 1 = 4$\nSmall boxes: $4 \\times 3 = 12$\nSmaller boxes: $12 \\times 2 = 24$\n\nTotal boxes: $4 + 12 + 24 = 40$\n\nFinal Answer: $\\boxed{40}$\n",
+        "ground_truth": "$$\n\\begin{array}{|c|c|c|c|c|}\n\\hline\n\\textbf{Type of Box} & \\textbf{Large} & \\textbf{Small} & \\textbf{Smaller} & \\textbf{Total} \\\\\n\\hline\n\\textbf{Number} & 4 & 12 & 24 & 40 \\\\\n\\hline\n\\end{array}\n$$ Therefore the answer is $\\boxed{40}.$"
+    },
+    {
+        "question": "Large boxes: 4\nSmall boxes in each large box: 3\nSmaller boxes in each small box: 2\n\nLarge boxes: $4 \\times 1 = 4$\nSmall boxes: $4 \\times 3 = 12$\nSmaller boxes: $12 \\times 2 = 24$\n\nTotal boxes: $4 + 12 + 24 = 40$\n\nFinal Answer: $\\boxed{40}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Large boxes: 4\nSmall boxes in each large box: 3\nSmaller boxes in each small box: 2\n\nTotal small boxes = $4 \\times 3 = 12$\nTotal smaller boxes = $12 \\times 2 = 24$\n\nTotal boxes = $4 + 12 + 24 = 40$\n\n$\\boxed{40}$\n",
+        "ground_truth": "$$\n\\begin{array}{|c|c|c|c|c|}\n\\hline\n\\textbf{Type of Box} & \\textbf{Large} & \\textbf{Small} & \\textbf{Smaller} & \\textbf{Total} \\\\\n\\hline\n\\textbf{Number} & 4 & 12 & 24 & 40 \\\\\n\\hline\n\\end{array}\n$$ Therefore the answer is $\\boxed{40}.$"
+    }
+]

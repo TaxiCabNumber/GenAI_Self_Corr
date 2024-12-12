@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nHenrietta is repainting her house. The walls in the living room take up 600 square feet. She has three bedrooms. The walls in each bedroom take up 400 square feet. If one gallon of paint can cover 600 square feet, how many gallons of paint does Henrietta need to paint her house?",
+        "inference": "Living room: 600 sq ft\nBedrooms: 3 * 400 sq ft/bedroom = 1200 sq ft\nTotal area: 600 sq ft + 1200 sq ft = 1800 sq ft\nGallons needed: 1800 sq ft / 600 sq ft/gallon = 3 gallons\nI hope it is correct: 3 gallons\n",
+        "ground_truth": "The total square footage from the three bedrooms is 3 * 400 = <<3*400=1200>>1200 square feet.\nThe total square footage of the house is 1200 + 600 = <<1200+600=1800>>1800 square feet\nHenrietta needs 1800 / 600 = <<1800/600=3>>3 gallons of paint\n#### 3"
+    },
+    {
+        "question": "Living room: 600 sq ft\nBedrooms: 3 * 400 sq ft/bedroom = 1200 sq ft\nTotal area: 600 sq ft + 1200 sq ft = 1800 sq ft\nGallons needed: 1800 sq ft / 600 sq ft/gallon = 3 gallons\nI hope it is correct: 3 gallons\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 3 gallons\n",
+        "ground_truth": "The total square footage from the three bedrooms is 3 * 400 = <<3*400=1200>>1200 square feet.\nThe total square footage of the house is 1200 + 600 = <<1200+600=1800>>1800 square feet\nHenrietta needs 1800 / 600 = <<1800/600=3>>3 gallons of paint\n#### 3"
+    }
+]

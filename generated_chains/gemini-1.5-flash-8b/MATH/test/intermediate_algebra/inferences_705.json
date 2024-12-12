@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nEvaluate $|2\\omega^2-4\\omega-30|$ if $\\omega=1-5i$.",
+        "inference": "$\\omega = 1-5i$\n\n$2\\omega^2 - 4\\omega - 30$\n$2(1-5i)^2 - 4(1-5i) - 30$\n$2(1 - 10i + 25i^2) - 4 + 20i - 30$\n$2(1 - 10i - 25) - 34 + 20i$\n$2(-24 - 10i) - 34 + 20i$\n$-48 - 20i - 34 + 20i$\n$-82$\n\n$|2\\omega^2 - 4\\omega - 30| = |-82| = 82$\n\nFinal Answer: $\\boxed{82}$\n",
+        "ground_truth": "It's certainly possible to just calculate the complex number $2\\omega^2-4\\omega-30$ by just plugging in the value of $\\omega$, but it's computationally simpler to use the fact that $|ab|=|a||b|$ and our knowledge of factoring quadratics: \\begin{align*}\n|2\\omega^2-4\\omega-30|&=|2(\\omega-5)(\\omega+3)|\\\\\n&=2|\\omega-5|\\cdot|\\omega+3|\\\\\n&=2|-4-5i|\\cdot|4-5i|\\\\\n&=2\\sqrt{(-4)^2+5^2}\\sqrt{4^2+5^2}\\\\\n&=\\boxed{82}\n\\end{align*}"
+    },
+    {
+        "question": "$\\omega = 1-5i$\n\n$2\\omega^2 - 4\\omega - 30$\n$2(1-5i)^2 - 4(1-5i) - 30$\n$2(1 - 10i + 25i^2) - 4 + 20i - 30$\n$2(1 - 10i - 25) - 34 + 20i$\n$2(-24 - 10i) - 34 + 20i$\n$-48 - 20i - 34 + 20i$\n$-82$\n\n$|2\\omega^2 - 4\\omega - 30| = |-82| = 82$\n\nFinal Answer: $\\boxed{82}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$2\\omega^2 - 4\\omega - 30$\n$2(1-5i)^2 - 4(1-5i) - 30$\n$2(1 - 10i + 25i^2) - 4 + 20i - 30$\n$2(1 - 10i - 25) - 34 + 20i$\n$2(-24 - 10i) - 34 + 20i$\n$-48 - 20i - 34 + 20i$\n$-82$\n$|-82| = 82$\n\nFinal Answer: $\\boxed{82}$",
+        "ground_truth": "It's certainly possible to just calculate the complex number $2\\omega^2-4\\omega-30$ by just plugging in the value of $\\omega$, but it's computationally simpler to use the fact that $|ab|=|a||b|$ and our knowledge of factoring quadratics: \\begin{align*}\n|2\\omega^2-4\\omega-30|&=|2(\\omega-5)(\\omega+3)|\\\\\n&=2|\\omega-5|\\cdot|\\omega+3|\\\\\n&=2|-4-5i|\\cdot|4-5i|\\\\\n&=2\\sqrt{(-4)^2+5^2}\\sqrt{4^2+5^2}\\\\\n&=\\boxed{82}\n\\end{align*}"
+    }
+]

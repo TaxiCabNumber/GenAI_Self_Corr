@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJay & Gloria were hosting a 4th of July party at their house.  Jay invited 22 people and Gloria invited 36.  They wanted to buy small American flags for everyone.  The craft store was having a sale on small flags, 5 flags for $1.00.  If they wanted all of their guests to have a flag and they also wanted 1 flag each, how much would they spend at the craft store?",
+        "inference": "1. Calculate the total number of guests: 22 + 36 = 58\n\n2. Calculate the number of flags needed: 58 + 2 = 60\n\n3. Calculate the number of 5-packs of flags needed: 60/5 = 12\n\n4. Calculate the cost of the 12 5-packs of flags: 12 x $1.00 = $12.00\n\nI hope it is correct: 12.00",
+        "ground_truth": "Jay invited 22 guests and Gloria invited 36 so they invited 22+36 = <<22+36=58>>58 guests\nThey also each wanted a flag so in total they would need 1+1+58 = <<1+1+58=60>>60 flags\nThe craft store has them on sale at 5 for $1.00 and they need 60 flags so the flags will cost them 60/5 = $12.00\n#### 12"
+    },
+    {
+        "question": "1. Calculate the total number of guests: 22 + 36 = 58\n\n2. Calculate the number of flags needed: 58 + 2 = 60\n\n3. Calculate the number of 5-packs of flags needed: 60/5 = 12\n\n4. Calculate the cost of the 12 5-packs of flags: 12 x $1.00 = $12.00\n\nI hope it is correct: 12.00\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$12.00",
+        "ground_truth": "Jay invited 22 guests and Gloria invited 36 so they invited 22+36 = <<22+36=58>>58 guests\nThey also each wanted a flag so in total they would need 1+1+58 = <<1+1+58=60>>60 flags\nThe craft store has them on sale at 5 for $1.00 and they need 60 flags so the flags will cost them 60/5 = $12.00\n#### 12"
+    }
+]

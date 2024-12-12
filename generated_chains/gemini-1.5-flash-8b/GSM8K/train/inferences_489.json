@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAt a certain bookstore, the best-selling book, \"TOP,\" costs $8. The least-selling book, \"ABC,\" costs $23. Thirteen \"TOP\" books and four \"ABC\" books were sold last week. What is the difference in the bookstore's earnings on these two books last week?",
+        "inference": "Earnings from \"TOP\" books: 13 books * $8/book = $104\nEarnings from \"ABC\" books: 4 books * $23/book = $92\nDifference in earnings: $104 - $92 = $12\nI hope it is correct: $12\n",
+        "ground_truth": "On \"TOP\" books the bookstore made 13 * 8 = $<<13*8=104>>104.\nThe \"ABC\" books, on the other hand, were sold for a total of 4 * 23 = $<<4*23=92>>92.\nThe difference between earnings from these two books is 104 - 92 = $<<104-92=12>>12.\n#### 12"
+    },
+    {
+        "question": "Earnings from \"TOP\" books: 13 books * $8/book = $104\nEarnings from \"ABC\" books: 4 books * $23/book = $92\nDifference in earnings: $104 - $92 = $12\nI hope it is correct: $12\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $12\n",
+        "ground_truth": "On \"TOP\" books the bookstore made 13 * 8 = $<<13*8=104>>104.\nThe \"ABC\" books, on the other hand, were sold for a total of 4 * 23 = $<<4*23=92>>92.\nThe difference between earnings from these two books is 104 - 92 = $<<104-92=12>>12.\n#### 12"
+    }
+]

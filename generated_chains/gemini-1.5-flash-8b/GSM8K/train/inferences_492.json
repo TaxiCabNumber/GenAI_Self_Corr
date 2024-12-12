@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 40 Judges in the state of Rhode Island.  10 percent of Judges are under 30 years old.  60 percent of Judges are 30-50 years old.  The rest of the Judges are over 50 years old.  How many Judges are over 50 years old?",
+        "inference": "1. Judges under 30: 40 Judges * 0.10 = 4 Judges\n2. Judges 30-50: 40 Judges * 0.60 = 24 Judges\n3. Judges over 50: 40 Judges - 4 Judges - 24 Judges = 12 Judges\n\nI hope it is correct: 12 $Judges$\n",
+        "ground_truth": "Under 30: 40(.10)=4\n30-50 years old:40(.60)=24\nOver 50:40-4-24=12 Judges\n#### 12"
+    },
+    {
+        "question": "1. Judges under 30: 40 Judges * 0.10 = 4 Judges\n2. Judges 30-50: 40 Judges * 0.60 = 24 Judges\n3. Judges over 50: 40 Judges - 4 Judges - 24 Judges = 12 Judges\n\nI hope it is correct: 12 $Judges$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 12 Judges\n",
+        "ground_truth": "Under 30: 40(.10)=4\n30-50 years old:40(.60)=24\nOver 50:40-4-24=12 Judges\n#### 12"
+    }
+]

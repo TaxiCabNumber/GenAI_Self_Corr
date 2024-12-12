@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA church has 120 members. 40% are adults. The rest are children. How many children more children are there than adults?",
+        "inference": "1. Calculate the number of adults: 120 members * 0.40 = 48 adults\n2. Calculate the number of children: 120 members - 48 adults = 72 children\n3. Calculate the difference between children and adults: 72 children - 48 adults = 24 children\n\nI hope it is correct: 24 $children$\n",
+        "ground_truth": "There are 48 adults because 120 x .4 = <<120*.4=48>>48\n60% of members are children because 100 - 40 = <<100-40=60>>60\nThere are 72 children because 120 x .6 = <<120*.6=72>>72\nThere are 24 more children than adults because 72 - 48 = <<72-48=24>>24\n#### 24"
+    },
+    {
+        "question": "1. Calculate the number of adults: 120 members * 0.40 = 48 adults\n2. Calculate the number of children: 120 members - 48 adults = 72 children\n3. Calculate the difference between children and adults: 72 children - 48 adults = 24 children\n\nI hope it is correct: 24 $children$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 24\n",
+        "ground_truth": "There are 48 adults because 120 x .4 = <<120*.4=48>>48\n60% of members are children because 100 - 40 = <<100-40=60>>60\nThere are 72 children because 120 x .6 = <<120*.6=72>>72\nThere are 24 more children than adults because 72 - 48 = <<72-48=24>>24\n#### 24"
+    }
+]

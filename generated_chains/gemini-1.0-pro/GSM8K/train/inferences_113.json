@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBaez has 25 marbles. She loses 20% of them one day. Then a friend sees her and gives her double the amount that Baez has after she lost them. How many marbles does Baez end up with?",
+        "inference": "1. Baez loses 20% of her marbles, so she has 25 - (25 * 20/100) = 20 marbles left.\n2. Her friend gives her double the amount that she has after she lost them, so she gets 2 * 20 = 40 marbles.\n3. Therefore, Baez ends up with 20 + 40 = 60 marbles.\nI hope it is correct: 60",
+        "ground_truth": "She loses 5 marbles because 25 x .2 = <<25*.2=5>>5\nShe has 20 marbles after this because 25 - 5 = <<25-5=20>>20\nHer friend gives her 40 marbles because 20 x 2 = <<20*2=40>>40\nAdding those marbles to the 20 she had before, she ends up with 40 marbles + 20 marbles = <<40+20=60>>60 marbles\n#### 60"
+    },
+    {
+        "question": "1. Baez loses 20% of her marbles, so she has 25 - (25 * 20/100) = 20 marbles left.\n2. Her friend gives her double the amount that she has after she lost them, so she gets 2 * 20 = 40 marbles.\n3. Therefore, Baez ends up with 20 + 40 = 60 marbles.\nI hope it is correct: 60\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$60",
+        "ground_truth": "She loses 5 marbles because 25 x .2 = <<25*.2=5>>5\nShe has 20 marbles after this because 25 - 5 = <<25-5=20>>20\nHer friend gives her 40 marbles because 20 x 2 = <<20*2=40>>40\nAdding those marbles to the 20 she had before, she ends up with 40 marbles + 20 marbles = <<40+20=60>>60 marbles\n#### 60"
+    }
+]

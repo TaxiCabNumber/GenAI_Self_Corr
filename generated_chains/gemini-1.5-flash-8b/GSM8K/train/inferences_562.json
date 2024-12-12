@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJoy fosters dogs.  The mom foster dog eats 1.5 cups of food, three times a day.  The puppies each eat 1/2 cup of food, twice a day.  There are 5 puppies.  How much food will Joy need for the next 6 days?",
+        "inference": "Mom dog food per day: 1.5 cups/day * 3 meals/day = 4.5 cups/day\nPuppies food per day: 0.5 cups/puppy/day * 2 meals/day * 5 puppies = 5 cups/day\nTotal food per day: 4.5 cups + 5 cups = 9.5 cups/day\nTotal food for 6 days: 9.5 cups/day * 6 days = 57 cups\n\nI hope it is correct: 57 $cups$\n",
+        "ground_truth": "The mom dog eats 1.5 cups of food * 3 = <<1.5*3=4.5>>4.5 cups per day.\nFor 6 days the mom dog will need 6 * 4.5 cups = <<6*4.5=27>>27 cups of food.\nThe puppies eat 1/2 cup of food * 2 = <<1/2*2=1>>1 cup per day.\nThere are 5 puppies * 1 cup = <<5*1=5>>5 cups per day for the puppies.\nFor the 6 days, the puppies will need 5 cups * 6 = <<5*6=30>>30 cups of food.\nCombined the dogs will need 27 cups + 30 cups = <<27+30=57>>57 cups.\n#### 57"
+    },
+    {
+        "question": "Mom dog food per day: 1.5 cups/day * 3 meals/day = 4.5 cups/day\nPuppies food per day: 0.5 cups/puppy/day * 2 meals/day * 5 puppies = 5 cups/day\nTotal food per day: 4.5 cups + 5 cups = 9.5 cups/day\nTotal food for 6 days: 9.5 cups/day * 6 days = 57 cups\n\nI hope it is correct: 57 $cups$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 57 cups\n",
+        "ground_truth": "The mom dog eats 1.5 cups of food * 3 = <<1.5*3=4.5>>4.5 cups per day.\nFor 6 days the mom dog will need 6 * 4.5 cups = <<6*4.5=27>>27 cups of food.\nThe puppies eat 1/2 cup of food * 2 = <<1/2*2=1>>1 cup per day.\nThere are 5 puppies * 1 cup = <<5*1=5>>5 cups per day for the puppies.\nFor the 6 days, the puppies will need 5 cups * 6 = <<5*6=30>>30 cups of food.\nCombined the dogs will need 27 cups + 30 cups = <<27+30=57>>57 cups.\n#### 57"
+    }
+]

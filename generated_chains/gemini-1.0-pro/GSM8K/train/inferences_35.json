@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMr. Sanchez found out that 40% of his Grade 5  students got a final grade below B. How many of his students got a final grade of B and above if he has 60 students in Grade 5?",
+        "inference": "1. Find 40% of 60 students: 0.40 * 60 = 24 students.\n2. Subtract the number of students who got a final grade below B from the total number of students: 60 - 24 = 36 students.\n\nI hope it is correct: 36 students.",
+        "ground_truth": "Since 40% of his students got below B, 100% - 40% = 60% of Mr. Sanchez's students got B and above.\nThus, 60 x 60/100 = <<60*60/100=36>>36 students got B and above in their final grade.\n#### 36"
+    },
+    {
+        "question": "1. Find 40% of 60 students: 0.40 * 60 = 24 students.\n2. Subtract the number of students who got a final grade below B from the total number of students: 60 - 24 = 36 students.\n\nI hope it is correct: 36 students.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 36",
+        "ground_truth": "Since 40% of his students got below B, 100% - 40% = 60% of Mr. Sanchez's students got B and above.\nThus, 60 x 60/100 = <<60*60/100=36>>36 students got B and above in their final grade.\n#### 36"
+    }
+]

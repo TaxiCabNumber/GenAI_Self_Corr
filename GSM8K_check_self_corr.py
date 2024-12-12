@@ -96,7 +96,7 @@ def GSM8K_evaluate_accuracy(folder_path):
 
     return first_results, next_results
 
-def plot_correctness_one_round(first_results, next_results, folder_path="./processed_dataset/GSM8K/train"):
+def plot_correctness_one_round(first_results, next_results, folder_path="./processed_dataset/GSM8K/train", model_name="gemini-1.5-flash-8b", mode="test"):
     # Example usage
     first_results, next_results = GSM8K_evaluate_accuracy(folder_path)
     print(f"First results: {first_results}")
@@ -136,11 +136,12 @@ def plot_correctness_one_round(first_results, next_results, folder_path="./proce
 
     # Ensure the results directory exists
     results_dir = "results"
-    os.makedirs(results_dir, exist_ok=True)
+    config_dir = model_name + "/" + mode + "/"
+    results_dir = os.path.join(results_dir, config_dir) # does not automatically adds slash
+    os.makedirs(results_dir, exist_ok=True) # has to be called last to verify its existence
     
-
-    txt_filename = os.path.basename(folder_path) + "_acc_sum.txt"
-    results_file = os.path.join(results_dir, txt_filename)
+    txt_filename = os.path.basename(folder_path) + "_acc_sum.txt" # take last part of the path after last slash
+    results_file = os.path.join(results_dir, txt_filename) # can only write to existing directory
     with open(results_file, "w") as file:
         file.write(f"Folder Path: {folder_path}\n")
         file.write(f"First Accuracy: {first_accuracy}\n")
@@ -168,10 +169,14 @@ Manual run with F5
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Evaluate model accuracy and plot results.")
     parser.add_argument("--folder_path", type=str, required=True, help="Path to the folder containing JSON files.")
+    parser.add_argument("--model_name", type=str, required=True, help="Path to the folder containing JSON files.")
+    parser.add_argument("--mode", type=str, required=True, help="Path to the folder containing JSON files.")
     args = parser.parse_args()
 
     folder_path = args.folder_path
+    model_name = args.model_name
+    mode = args.mode # train or test, specify as string
 
     # Call the function to evaluate accuracy and plot results
     first_results, next_results = GSM8K_evaluate_accuracy(folder_path)
-    plot_correctness_one_round(first_results, next_results, folder_path)
+    plot_correctness_one_round(first_results, next_results, folder_path, model_name, mode)

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAmoli and Anayet must travel 369 miles together. Amoli drove 42 miles an hour for 3 hours and Anayet drove at 61 miles an hour for 2 hours. How many miles do they still need to travel?",
+        "inference": "Amoli's distance = speed \u00d7 time = 42 mph \u00d7 3 hours = 126 miles\nAnayet's distance = speed \u00d7 time = 61 mph \u00d7 2 hours = 122 miles\nTotal distance traveled = 126 miles + 122 miles = 248 miles\nRemaining distance = 369 miles - 248 miles = 121 miles\nI hope it is correct: 121 $miles$\n",
+        "ground_truth": "Amoli = 42 * 3 = <<42*3=126>>126 miles\nAnayet = 61 * 2 = <<61*2=122>>122\nTogether = 126 + 122 = <<126+122=248>>248 miles\n369 - 248 = <<369-248=121>>121 miles\nThey still have 121 miles to travel.\n#### 121"
+    },
+    {
+        "question": "Amoli's distance = speed \u00d7 time = 42 mph \u00d7 3 hours = 126 miles\nAnayet's distance = speed \u00d7 time = 61 mph \u00d7 2 hours = 122 miles\nTotal distance traveled = 126 miles + 122 miles = 248 miles\nRemaining distance = 369 miles - 248 miles = 121 miles\nI hope it is correct: 121 $miles$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 121 miles\n",
+        "ground_truth": "Amoli = 42 * 3 = <<42*3=126>>126 miles\nAnayet = 61 * 2 = <<61*2=122>>122\nTogether = 126 + 122 = <<126+122=248>>248 miles\n369 - 248 = <<369-248=121>>121 miles\nThey still have 121 miles to travel.\n#### 121"
+    }
+]

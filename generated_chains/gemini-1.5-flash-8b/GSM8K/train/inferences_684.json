@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nGrace can read a 200-page book in 20 hours. How long would it take her to finish reading a 250-page book at this constant rate?",
+        "inference": "Grace reads 200 pages in 20 hours.\nRate = pages/hour = 200 pages / 20 hours = 10 pages/hour.\nIf the book has 250 pages, and Grace reads at a rate of 10 pages/hour, time = pages / rate = 250 pages / 10 pages/hour = 25 hours.\nI hope it is correct: 25 $hours$\n",
+        "ground_truth": "Grace can read 200/20 = <<200/20=10>>10 pages in 1 hour.\nSo she can finish a 250-page book in 250/10 = <<250/10=25>>25 hours.\n#### 25"
+    },
+    {
+        "question": "Grace reads 200 pages in 20 hours.\nRate = pages/hour = 200 pages / 20 hours = 10 pages/hour.\nIf the book has 250 pages, and Grace reads at a rate of 10 pages/hour, time = pages / rate = 250 pages / 10 pages/hour = 25 hours.\nI hope it is correct: 25 $hours$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 25 hours\n",
+        "ground_truth": "Grace can read 200/20 = <<200/20=10>>10 pages in 1 hour.\nSo she can finish a 250-page book in 250/10 = <<250/10=25>>25 hours.\n#### 25"
+    }
+]

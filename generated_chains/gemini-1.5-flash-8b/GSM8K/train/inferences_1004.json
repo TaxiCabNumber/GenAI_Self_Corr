@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nKamil wants to renovate his kitchen at home. For this purpose, he hired two professionals who work for him 6 hours a day for 7 days. What does it cost Kamil to hire these professionals if one of them is paid $15 per hour of work?",
+        "inference": "1. Two professionals work for 6 hours a day for 7 days.\n2. Total hours worked by one professional: 6 hours/day * 7 days = 42 hours\n3. Total hours worked by two professionals: 42 hours/professional * 2 professionals = 84 hours\n4. Cost for one professional: $15/hour\n5. Total cost for one professional: $15/hour * 42 hours = $630\n6. Total cost for two professionals: $630/professional * 2 professionals = $1260\n\nI hope it is correct: $1260\n",
+        "ground_truth": "Two professionals work together 6 * 2 = <<6*2=12>>12 hours per day.\nThey work for 7 days, so in total it means 7 * 12 = <<7*12=84>>84 hours.\nThe cost of hiring these persons is 84 * 15 = $<<84*15=1260>>1260.\n#### 1260"
+    },
+    {
+        "question": "1. Two professionals work for 6 hours a day for 7 days.\n2. Total hours worked by one professional: 6 hours/day * 7 days = 42 hours\n3. Total hours worked by two professionals: 42 hours/professional * 2 professionals = 84 hours\n4. Cost for one professional: $15/hour\n5. Total cost for one professional: $15/hour * 42 hours = $630\n6. Total cost for two professionals: $630/professional * 2 professionals = $1260\n\nI hope it is correct: $1260\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $1260\n",
+        "ground_truth": "Two professionals work together 6 * 2 = <<6*2=12>>12 hours per day.\nThey work for 7 days, so in total it means 7 * 12 = <<7*12=84>>84 hours.\nThe cost of hiring these persons is 84 * 15 = $<<84*15=1260>>1260.\n#### 1260"
+    }
+]

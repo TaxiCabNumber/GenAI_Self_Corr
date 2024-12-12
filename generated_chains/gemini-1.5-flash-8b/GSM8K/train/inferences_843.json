@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRandy has $30. He spent $10 buying his lunch. He spent a quarter of the money he had left on an ice cream cone. What is the amount of money, in dollars, Randy has left?",
+        "inference": "1. Randy started with $30.\n2. He spent $10 on lunch, so he had $30 - $10 = $20 left.\n3. He spent a quarter of the remaining $20 on ice cream.  A quarter of $20 is $20 * (1/4) = $5.\n4. Randy has $20 - $5 = $15 left.\n\nI hope it is correct: $15\n",
+        "ground_truth": "Randy has 30-10=<<30-10=20>>20 dollars left after buying lunch.\nRandy spent 20/4=<<20/4=5>>5 dollars on the ice cream cone.\nRandy has 20-5=<<20-5=15>>15 dollars left.\n#### 15"
+    },
+    {
+        "question": "1. Randy started with $30.\n2. He spent $10 on lunch, so he had $30 - $10 = $20 left.\n3. He spent a quarter of the remaining $20 on ice cream.  A quarter of $20 is $20 * (1/4) = $5.\n4. Randy has $20 - $5 = $15 left.\n\nI hope it is correct: $15\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $15\n",
+        "ground_truth": "Randy has 30-10=<<30-10=20>>20 dollars left after buying lunch.\nRandy spent 20/4=<<20/4=5>>5 dollars on the ice cream cone.\nRandy has 20-5=<<20-5=15>>15 dollars left.\n#### 15"
+    }
+]

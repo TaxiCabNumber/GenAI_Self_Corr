@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the probability that flipping a fair coin three times produces fewer than two heads? Express your answer as a common fraction.",
+        "inference": "Possible outcomes when flipping a fair coin three times are:\nHHH, HHT, HTH, THH, HTT, THT, TTH, TTT\nThere are 8 possible outcomes.\n\nOutcomes with fewer than two heads:\nHTT, THT, TTH, TTT\nThere are 4 outcomes with fewer than two heads.\n\nProbability = (Number of favorable outcomes) / (Total number of possible outcomes)\nProbability = 4/8 = 1/2\n\nFinal Answer: $\\boxed{\\frac{1}{2}}$. I hope it is correct.\n",
+        "ground_truth": "This is the probability of flipping no heads (three tails) or one head (two tails). This is the same as the probability of flipping two heads (one tail) or three heads (no tails), since we can just interchange heads and tails. Since all outcomes are covered, both probabilities add up to 1, so the desired probability is $\\boxed{\\frac{1}{2}}$."
+    },
+    {
+        "question": "Possible outcomes when flipping a fair coin three times are:\nHHH, HHT, HTH, THH, HTT, THT, TTH, TTT\nThere are 8 possible outcomes.\n\nOutcomes with fewer than two heads:\nHTT, THT, TTH, TTT\nThere are 4 outcomes with fewer than two heads.\n\nProbability = (Number of favorable outcomes) / (Total number of possible outcomes)\nProbability = 4/8 = 1/2\n\nFinal Answer: $\\boxed{\\frac{1}{2}}$. I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct.\n\n$\\boxed{\\frac{1}{2}}$\n",
+        "ground_truth": "This is the probability of flipping no heads (three tails) or one head (two tails). This is the same as the probability of flipping two heads (one tail) or three heads (no tails), since we can just interchange heads and tails. Since all outcomes are covered, both probabilities add up to 1, so the desired probability is $\\boxed{\\frac{1}{2}}$."
+    }
+]

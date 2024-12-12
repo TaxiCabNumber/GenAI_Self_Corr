@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere were sweets on the table. Jack came and took half of all the candies and 4 more candies. Then Paul came and took the remaining 7 sweets. How many sweets were on the table at first?",
+        "inference": "Let the initial number of candies be x.\nJack took half of the candies, which is x/2, and 4 more candies. So, Jack took a total of x/2 + 4 candies.\nAfter Jack took his candies, there were x/2 - 4 candies left.\nPaul took the remaining 7 candies. So, there were a total of x/2 - 4 - 7 = x/2 - 11 candies left after both Jack and Paul took their candies.\nSince there were no candies left on the table, we have:\nx/2 - 11 = 0\nSolving for x, we get:\nx/2 = 11\nx = 11 * 2\nx = 22\nI hope it is correct: 22",
+        "ground_truth": "Jack took 4 more candies than the half, and Paul took the rest, which means 7 + 4 = 11 candies were half of all candies.\nThat means at first there were 11 * 2 = <<11*2=22>>22 candies.\n#### 22"
+    },
+    {
+        "question": "Let the initial number of candies be x.\nJack took half of the candies, which is x/2, and 4 more candies. So, Jack took a total of x/2 + 4 candies.\nAfter Jack took his candies, there were x/2 - 4 candies left.\nPaul took the remaining 7 candies. So, there were a total of x/2 - 4 - 7 = x/2 - 11 candies left after both Jack and Paul took their candies.\nSince there were no candies left on the table, we have:\nx/2 - 11 = 0\nSolving for x, we get:\nx/2 = 11\nx = 11 * 2\nx = 22\nI hope it is correct: 22\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 22",
+        "ground_truth": "Jack took 4 more candies than the half, and Paul took the rest, which means 7 + 4 = 11 candies were half of all candies.\nThat means at first there were 11 * 2 = <<11*2=22>>22 candies.\n#### 22"
+    }
+]

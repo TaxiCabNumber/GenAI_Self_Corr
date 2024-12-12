@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA particular cubic box has edge length two inches. If the box has no top, what is the external surface area of the box?",
+        "inference": "A cubic box with edge length 2 inches has 6 faces.\nSince the box has no top, it has 5 faces.\nThe area of each face is 2 inches * 2 inches = 4 square inches.\nThe total surface area of the box is 5 * 4 square inches = 20 square inches.\nFinal Answer: $\\boxed{20}$ inches. I hope it is correct.\n",
+        "ground_truth": "The box has five square faces, each of which has edge length 2 inches.  Hence each square has an area of 4 square inches, and our total area is $5\\cdot 4 = \\boxed{20}$ square inches."
+    },
+    {
+        "question": "A cubic box with edge length 2 inches has 6 faces.\nSince the box has no top, it has 5 faces.\nThe area of each face is 2 inches * 2 inches = 4 square inches.\nThe total surface area of the box is 5 * 4 square inches = 20 square inches.\nFinal Answer: $\\boxed{20}$ inches. I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "A cubic box with edge length 2 inches has 6 faces.\nSince the box has no top, it has 5 faces.\nThe area of each face (except the top) is 2 inches * 2 inches = 4 square inches.\nThe area of the bottom face is also 4 square inches.\nThe total surface area of the box is 4 * 4 + 4 * 1 = 16 + 4 = 20 square inches.\nFinal Answer: $\\boxed{20}$\n",
+        "ground_truth": "The box has five square faces, each of which has edge length 2 inches.  Hence each square has an area of 4 square inches, and our total area is $5\\cdot 4 = \\boxed{20}$ square inches."
+    }
+]

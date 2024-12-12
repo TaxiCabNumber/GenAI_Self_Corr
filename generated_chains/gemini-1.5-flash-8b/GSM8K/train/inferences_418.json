@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nKen had fifty pencils, and he wanted to share some of them with his two friends, Manny and Nilo. Ken gave ten pencils to Manny and ten more pencils to Nilo than he gave to Manny. He kept the rest of the pencils. How many pencils did Ken keep?",
+        "inference": "Manny received 10 pencils.\nNilo received 10 + 10 = 20 pencils.\nTotal pencils given away: 10 + 20 = 30 pencils.\nPencils Ken kept: 50 - 30 = 20 pencils.\n\nI hope it is correct: 20 $answer$\n",
+        "ground_truth": "Nilo received 10 + 10 = <<10+10=20>>20.\nThus, Ken gave a total of 10 + 20 = <<10+20=30>>30.\nTherefore, Ken kept 50 - 30 = <<50-30=20>>20 pencils.\n#### 20"
+    },
+    {
+        "question": "Manny received 10 pencils.\nNilo received 10 + 10 = 20 pencils.\nTotal pencils given away: 10 + 20 = 30 pencils.\nPencils Ken kept: 50 - 30 = 20 pencils.\n\nI hope it is correct: 20 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 20\n",
+        "ground_truth": "Nilo received 10 + 10 = <<10+10=20>>20.\nThus, Ken gave a total of 10 + 20 = <<10+20=30>>30.\nTherefore, Ken kept 50 - 30 = <<50-30=20>>20 pencils.\n#### 20"
+    }
+]

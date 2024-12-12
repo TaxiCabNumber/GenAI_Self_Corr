@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTom swims for 2 hours at a speed of 2 miles per hour.  He then runs for half the time at 4 times the speed.  How many miles did he cover?",
+        "inference": "Tom swims for 2 hours at 2 mph.  Distance = speed \u00d7 time = 2 mph \u00d7 2 hours = 4 miles.\nHe runs for half the time, which is 2 hours / 2 = 1 hour.\nHis running speed is 4 times the swimming speed, so it is 2 mph \u00d7 4 = 8 mph.\nRunning distance = speed \u00d7 time = 8 mph \u00d7 1 hour = 8 miles.\nTotal distance = swimming distance + running distance = 4 miles + 8 miles = 12 miles.\nI hope it is correct: 12 $miles$\n",
+        "ground_truth": "He swam 2*2=<<2*2=4>>4 miles\nHe ran for 2/2=<<2/2=1>>1 hour\nHis running speed was 2*4=<<2*4=8>>8 mph\nSo he ran 8*1=<<8*1=8>>8 miles\nSo his total distance was 8+4=<<8+4=12>>12 miles\n#### 12"
+    },
+    {
+        "question": "Tom swims for 2 hours at 2 mph.  Distance = speed \u00d7 time = 2 mph \u00d7 2 hours = 4 miles.\nHe runs for half the time, which is 2 hours / 2 = 1 hour.\nHis running speed is 4 times the swimming speed, so it is 2 mph \u00d7 4 = 8 mph.\nRunning distance = speed \u00d7 time = 8 mph \u00d7 1 hour = 8 miles.\nTotal distance = swimming distance + running distance = 4 miles + 8 miles = 12 miles.\nI hope it is correct: 12 $miles$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 12 miles\n",
+        "ground_truth": "He swam 2*2=<<2*2=4>>4 miles\nHe ran for 2/2=<<2/2=1>>1 hour\nHis running speed was 2*4=<<2*4=8>>8 mph\nSo he ran 8*1=<<8*1=8>>8 miles\nSo his total distance was 8+4=<<8+4=12>>12 miles\n#### 12"
+    }
+]

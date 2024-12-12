@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSeth bought some boxes of oranges. He gave a box to his mother. He then gave away half of the remaining boxes. If Seth has 4 boxes of oranges left, how many boxes did he buy in the first place?",
+        "inference": "1. Seth has 4 boxes left.\n2. This means that half of the remaining boxes were given away.  Therefore, 4 boxes represent half of the boxes that were left after giving a box to his mother.\n3. If 4 boxes are half of the remaining boxes, then the remaining boxes were 4 * 2 = 8 boxes.\n4. Seth gave one box to his mother, so before giving the box to his mother, he had 8 + 1 = 9 boxes.\n\nI hope it is correct: 9 $boxes$\n",
+        "ground_truth": "After giving a box to his mom, Seth had 4*2=<<4*2=8>>8 boxes left.\nSeth bought 8+1=<<8+1=9>>9 boxes of oranges.\n#### 9"
+    },
+    {
+        "question": "1. Seth has 4 boxes left.\n2. This means that half of the remaining boxes were given away.  Therefore, 4 boxes represent half of the boxes that were left after giving a box to his mother.\n3. If 4 boxes are half of the remaining boxes, then the remaining boxes were 4 * 2 = 8 boxes.\n4. Seth gave one box to his mother, so before giving the box to his mother, he had 8 + 1 = 9 boxes.\n\nI hope it is correct: 9 $boxes$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 9\n",
+        "ground_truth": "After giving a box to his mom, Seth had 4*2=<<4*2=8>>8 boxes left.\nSeth bought 8+1=<<8+1=9>>9 boxes of oranges.\n#### 9"
+    }
+]

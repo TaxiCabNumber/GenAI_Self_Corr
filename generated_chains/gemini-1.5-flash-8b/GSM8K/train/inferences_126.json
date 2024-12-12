@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn has five more roommates than twice as many as Bob. If Bob has 10 roommates, how many roommates does John have?",
+        "inference": "Bob has 10 roommates.\nTwice as many as Bob is 2 * 10 = 20\nFive more than twice as many as Bob is 20 + 5 = 25\n\nI hope it is correct: 25 $roommates$\n",
+        "ground_truth": "Twice ten roommates is 2*10 = <<2*10=20>>20\nJohn has 5 more than 20 roommates which is 20+5 = <<5+20=25>>25 roommates\n#### 25"
+    },
+    {
+        "question": "Bob has 10 roommates.\nTwice as many as Bob is 2 * 10 = 20\nFive more than twice as many as Bob is 20 + 5 = 25\n\nI hope it is correct: 25 $roommates$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 25 roommates\n",
+        "ground_truth": "Twice ten roommates is 2*10 = <<2*10=20>>20\nJohn has 5 more than 20 roommates which is 20+5 = <<5+20=25>>25 roommates\n#### 25"
+    }
+]

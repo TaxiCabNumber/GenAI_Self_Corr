@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA boat carrying 20 sheep, 10 cows and 14 dogs capsized.  3 of the sheep drowned.  Twice as many cows drowned as did sheep.  All of the dogs made it to shore.  How many total animals made it to the shore?",
+        "inference": "Sheep drowned: 3\nCows drowned: 3 * 2 = 6\nSheep survived: 20 - 3 = 17\nCows survived: 10 - 6 = 4\nDogs survived: 14\nTotal animals to shore: 17 + 4 + 14 = 35\nI hope it is correct: 35 $\n",
+        "ground_truth": "The boat had 20 - 3 = <<20-3=17>>17 sheep make it to shore.\n3 sheep drowned, so 2 * 3 = <<2*3=6>>6 cows drowned.\n10 cows on the boat - 6 drowned = <<10-6=4>>4 cows made it to the shore.\n17 sheep + 4 cows + 14 dogs = <<17+4+14=35>>35 animals made it to shore.\n#### 35"
+    },
+    {
+        "question": "Sheep drowned: 3\nCows drowned: 3 * 2 = 6\nSheep survived: 20 - 3 = 17\nCows survived: 10 - 6 = 4\nDogs survived: 14\nTotal animals to shore: 17 + 4 + 14 = 35\nI hope it is correct: 35 $\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 35\n",
+        "ground_truth": "The boat had 20 - 3 = <<20-3=17>>17 sheep make it to shore.\n3 sheep drowned, so 2 * 3 = <<2*3=6>>6 cows drowned.\n10 cows on the boat - 6 drowned = <<10-6=4>>4 cows made it to the shore.\n17 sheep + 4 cows + 14 dogs = <<17+4+14=35>>35 animals made it to shore.\n#### 35"
+    }
+]

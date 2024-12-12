@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMrs. Wilsborough saved $500 to buy concert tickets for her family. She bought 2 VIP tickets at $100 each and 3 regular tickets at $50 each. How much of her savings does Mrs. Wilsborough have after she buys the tickets?",
+        "inference": "1. VIP tickets cost: 2 tickets * $100/ticket = $200\n2. Regular tickets cost: 3 tickets * $50/ticket = $150\n3. Total cost of tickets: $200 + $150 = $350\n4. Remaining savings: $500 - $350 = $150\n\nI hope it is correct: $150\n",
+        "ground_truth": "The 2 VIP tickets amount to $100 x 2 = $<<100*2=200>>200.\nThe 3 regular tickets amount to $50 x 3 = $<<50*3=150>>150.\nThus, the total cost of the tickets is $200 + $150 = $<<200+150=350>>350.\nTherefore, Mrs. Wilsborough is left with $500 - $350 = $<<500-350=150>>150 of her savings.\n#### 150"
+    },
+    {
+        "question": "1. VIP tickets cost: 2 tickets * $100/ticket = $200\n2. Regular tickets cost: 3 tickets * $50/ticket = $150\n3. Total cost of tickets: $200 + $150 = $350\n4. Remaining savings: $500 - $350 = $150\n\nI hope it is correct: $150\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $150\n",
+        "ground_truth": "The 2 VIP tickets amount to $100 x 2 = $<<100*2=200>>200.\nThe 3 regular tickets amount to $50 x 3 = $<<50*3=150>>150.\nThus, the total cost of the tickets is $200 + $150 = $<<200+150=350>>350.\nTherefore, Mrs. Wilsborough is left with $500 - $350 = $<<500-350=150>>150 of her savings.\n#### 150"
+    }
+]

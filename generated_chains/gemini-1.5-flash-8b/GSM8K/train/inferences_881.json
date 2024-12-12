@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMark loves to see shows in theaters. He decided to visit the theater at least once a week. One performance lasts 3 hours. The price of the ticket depends on the time spent in the theater and stands at $5 for each hour. How much will Mark spend on visits to the theater in 6 weeks?",
+        "inference": "1. Mark visits the theater at least once a week for 6 weeks, so he visits the theater at least 6 times.\n2. Each performance lasts 3 hours.\n3. The price of the ticket is $5 per hour.\n4. The cost of one performance is 3 hours * $5/hour = $15.\n5. The total cost for 6 visits is 6 visits * $15/visit = $90.\n\nI hope it is correct: $90\n",
+        "ground_truth": "The price of one performance is 3 * $5 = $<<3*5=15>>15.\nMark intends to go to the theater once a week, so in 9 weeks he will spend 6 * $15 = $<<6*15=90>>90.\n#### 90"
+    },
+    {
+        "question": "1. Mark visits the theater at least once a week for 6 weeks, so he visits the theater at least 6 times.\n2. Each performance lasts 3 hours.\n3. The price of the ticket is $5 per hour.\n4. The cost of one performance is 3 hours * $5/hour = $15.\n5. The total cost for 6 visits is 6 visits * $15/visit = $90.\n\nI hope it is correct: $90\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $90\n",
+        "ground_truth": "The price of one performance is 3 * $5 = $<<3*5=15>>15.\nMark intends to go to the theater once a week, so in 9 weeks he will spend 6 * $15 = $<<6*15=90>>90.\n#### 90"
+    }
+]

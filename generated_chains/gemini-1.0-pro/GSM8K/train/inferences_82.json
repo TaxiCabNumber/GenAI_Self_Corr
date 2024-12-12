@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIrene earns $500 if she works for 40 hours a week and gets an extra $20 for every hour of overtime. If she worked 50 hours last week, calculate her total income.",
+        "inference": "- Irene earns $500 for 40 hours, so she earns $500/40 = $12.50 per hour.\n- She worked 50 hours last week, so she earned $12.50 * 50 = $625 for the regular hours.\n- She worked 10 hours overtime, so she earned $20 * 10 = $200 for the overtime hours.\n- Her total income is $625 + $200 = $825.\nI hope it is correct: $825$",
+        "ground_truth": "If Irene worked 50 hours last week, the total number of hours counting as overtime is 50-40 = <<50-40=10>>10 hours.\nSince she's given $20 for every hour of overtime, she earned 10*$20 = $<<10*20=200>>200 in overtime.\nHer total income, including the overtime, is $500+$200= $<<500+200=700>>700\n#### 700"
+    },
+    {
+        "question": "- Irene earns $500 for 40 hours, so she earns $500/40 = $12.50 per hour.\n- She worked 50 hours last week, so she earned $12.50 * 50 = $625 for the regular hours.\n- She worked 10 hours overtime, so she earned $20 * 10 = $200 for the overtime hours.\n- Her total income is $625 + $200 = $825.\nI hope it is correct: $825$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$825",
+        "ground_truth": "If Irene worked 50 hours last week, the total number of hours counting as overtime is 50-40 = <<50-40=10>>10 hours.\nSince she's given $20 for every hour of overtime, she earned 10*$20 = $<<10*20=200>>200 in overtime.\nHer total income, including the overtime, is $500+$200= $<<500+200=700>>700\n#### 700"
+    }
+]

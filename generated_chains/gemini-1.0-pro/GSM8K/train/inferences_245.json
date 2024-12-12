@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 12 crates that each contain 150 oranges. There are 16 boxes that each hold 30 nectarines. How many pieces of fruit are in the crates and the boxes in total?",
+        "inference": "12 * 150 = 1800 oranges\n16 * 30 = 480 nectarines\n1800 + 480 = 2280 pieces of fruit\nI hope it is correct: 2280",
+        "ground_truth": "Oranges = 12 * 150 = <<12*150=1800>>1800\nNectarines = 16 * 30 = <<16*30=480>>480\n1800 + 480 = <<1800+480=2280>>2280\nThere are 2280 pieces of fruit in total.\n#### 2280"
+    },
+    {
+        "question": "12 * 150 = 1800 oranges\n16 * 30 = 480 nectarines\n1800 + 480 = 2280 pieces of fruit\nI hope it is correct: 2280\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 2280",
+        "ground_truth": "Oranges = 12 * 150 = <<12*150=1800>>1800\nNectarines = 16 * 30 = <<16*30=480>>480\n1800 + 480 = <<1800+480=2280>>2280\nThere are 2280 pieces of fruit in total.\n#### 2280"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMark wants to set the record for most consecutive ropes jumped.  The record is 54,000.  He can jump 3 times a second.  How many hours would he need to jump rope?",
+        "inference": "54,000 jumps / 3 jumps/second = 18,000 seconds\n\n18,000 seconds / 60 seconds/minute = 300 minutes\n\n300 minutes / 60 minutes/hour = 5 hours\n\nI hope it is correct: 5 $hours$\n",
+        "ground_truth": "He can jump 3*60=<<3*60=180>>180 times per minute\nSo he can jump 180*60=<<180*60=10800>>10,800 per hour\nSo it would take him 54,000/10,800=<<54000/10800=5>>5 hours\n#### 5"
+    },
+    {
+        "question": "54,000 jumps / 3 jumps/second = 18,000 seconds\n\n18,000 seconds / 60 seconds/minute = 300 minutes\n\n300 minutes / 60 minutes/hour = 5 hours\n\nI hope it is correct: 5 $hours$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 5 hours\n",
+        "ground_truth": "He can jump 3*60=<<3*60=180>>180 times per minute\nSo he can jump 180*60=<<180*60=10800>>10,800 per hour\nSo it would take him 54,000/10,800=<<54000/10800=5>>5 hours\n#### 5"
+    }
+]

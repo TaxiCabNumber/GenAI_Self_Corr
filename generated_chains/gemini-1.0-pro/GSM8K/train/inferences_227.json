@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIan won $100 in the lottery.  He decided to use the money to pay off debts. He paid $20 to Colin. He then paid twice as much to Helen, as he had paid to Colin. Then finally, he paid half as much to Benedict, as he had paid to Helen.  How much money, in dollars, does he have left after paying off debts?",
+        "inference": "- Ian paid $20 to Colin \n- Ian paid $20 x 2 = $40 to Helen\n- Ian paid $40 / 2 = $20 to Benedict \n\nIan spent $20 + $40 + $20 = $80 on debts. \nHe has $100 - $80 = $20 left. \n\nI hope it is correct: $20$",
+        "ground_truth": "Starting with $100, he paid $20 to Colin, leaving him with $100-$20=$<<100-20=80>>80.\nTwice as much as $20 is 2*$20=$<<2*20=40>>40.\nThus, he paid $40 to Helen, leaving him with $80-$40=$<<80-40=40>>40.\nHalf as much to Benedict as he had paid to Helen is $40/2=$<<40/2=20>>20.\nThus, he paid $20 to Benedict, leaving him with $40-$20=$20 after paying off all debts.\n#### 20"
+    },
+    {
+        "question": "- Ian paid $20 to Colin \n- Ian paid $20 x 2 = $40 to Helen\n- Ian paid $40 / 2 = $20 to Benedict \n\nIan spent $20 + $40 + $20 = $80 on debts. \nHe has $100 - $80 = $20 left. \n\nI hope it is correct: $20$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$20",
+        "ground_truth": "Starting with $100, he paid $20 to Colin, leaving him with $100-$20=$<<100-20=80>>80.\nTwice as much as $20 is 2*$20=$<<2*20=40>>40.\nThus, he paid $40 to Helen, leaving him with $80-$40=$<<80-40=40>>40.\nHalf as much to Benedict as he had paid to Helen is $40/2=$<<40/2=20>>20.\nThus, he paid $20 to Benedict, leaving him with $40-$20=$20 after paying off all debts.\n#### 20"
+    }
+]

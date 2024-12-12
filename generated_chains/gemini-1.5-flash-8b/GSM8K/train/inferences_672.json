@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nHarris feeds his dog 1 large organic carrot over the course of 1 day.  There are 5 carrots in a 1 pound bag and each bag costs $2.00.  In one year, how much will Harris spend on carrots?",
+        "inference": "1 bag = 5 carrots\nCost of 1 bag = $2.00\nCarrots per day = 1\nDays in a year = 365\nBags needed per year = 365 days / 5 carrots/bag = 73 bags\nTotal cost = 73 bags * $2.00/bag = $146.00\n\nI hope it is correct: $146.00\n",
+        "ground_truth": "His dog gets 1 carrot a day and there are 365 days in a year, so his dog eats 1*365 = <<1*365=365>>365 carrots\nThere are 5 carrots per bag and he will need 365 carrots, so that's 365/5 = 73 bags of carrots\nThe bags cost $2.00 and he will need 73 bags so that's $2*73 = $<<2*73=146.00>>146.00 worth of organic carrots\n#### 146"
+    },
+    {
+        "question": "1 bag = 5 carrots\nCost of 1 bag = $2.00\nCarrots per day = 1\nDays in a year = 365\nBags needed per year = 365 days / 5 carrots/bag = 73 bags\nTotal cost = 73 bags * $2.00/bag = $146.00\n\nI hope it is correct: $146.00\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $146.00\n",
+        "ground_truth": "His dog gets 1 carrot a day and there are 365 days in a year, so his dog eats 1*365 = <<1*365=365>>365 carrots\nThere are 5 carrots per bag and he will need 365 carrots, so that's 365/5 = 73 bags of carrots\nThe bags cost $2.00 and he will need 73 bags so that's $2*73 = $<<2*73=146.00>>146.00 worth of organic carrots\n#### 146"
+    }
+]

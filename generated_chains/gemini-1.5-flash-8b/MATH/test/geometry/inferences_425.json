@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFrom his base camp at the equator, Bruce hiked on flat terrain $13$ kilometers due north, then $24$ km due east, and finally $6$ km due south. Using a direct route, how many kilometers would Bruce be from base camp?  (Assume the Earth is flat for this problem.)",
+        "inference": "1. Bruce hiked 13 km north.\n2. Then 24 km east.\n3. Finally 6 km south.\n\nThe north and south components cancel each other out, leaving a net displacement of 13 km - 6 km = 7 km north.\n\nThe east component remains unchanged at 24 km east.\n\nNow we have a right triangle with legs of length 7 km and 24 km.  Using the Pythagorean Theorem, we find the hypotenuse:\n\n$c^2 = a^2 + b^2 = 7^2 + 24^2 = 49 + 576 = 625$\n\n$c = \\sqrt{625} = 25$\n\nFinal Answer: $\\boxed{25}$\n",
+        "ground_truth": "After travelling $13$ km north and $6$ km south, he has effectively traveled $7$ km north. In addition, he has traveled a total of $24$ km east. Applying the Pythagorean theorem, Bruce has ended up $\\sqrt{7^2+24^2} = \\boxed{25 \\, \\text{km}}$ from his origin."
+    },
+    {
+        "question": "1. Bruce hiked 13 km north.\n2. Then 24 km east.\n3. Finally 6 km south.\n\nThe north and south components cancel each other out, leaving a net displacement of 13 km - 6 km = 7 km north.\n\nThe east component remains unchanged at 24 km east.\n\nNow we have a right triangle with legs of length 7 km and 24 km.  Using the Pythagorean Theorem, we find the hypotenuse:\n\n$c^2 = a^2 + b^2 = 7^2 + 24^2 = 49 + 576 = 625$\n\n$c = \\sqrt{625} = 25$\n\nFinal Answer: $\\boxed{25}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Using the Pythagorean theorem, the total distance is $\\sqrt{24^2 + 7^2} = \\sqrt{576 + 49} = \\sqrt{625} = 25$ km.\n\nFinal Answer: $\\boxed{25}$",
+        "ground_truth": "After travelling $13$ km north and $6$ km south, he has effectively traveled $7$ km north. In addition, he has traveled a total of $24$ km east. Applying the Pythagorean theorem, Bruce has ended up $\\sqrt{7^2+24^2} = \\boxed{25 \\, \\text{km}}$ from his origin."
+    }
+]

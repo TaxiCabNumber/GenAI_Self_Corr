@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMary does her grocery shopping on Saturday. She does her shopping only at a specific store where she is allowed a credit of $100, which must be paid in full before her next shopping trip. That week she spent the full credit limit and paid $15 of it on Tuesday and $23 of it on Thursday. How much credit will Mary need to pay before her next shopping trip?",
+        "inference": "Mary spent $100.\nShe paid $15 on Tuesday and $23 on Thursday.\nTotal paid = $15 + $23 = $38.\nRemaining credit = $100 - $38 = $62.\nI hope it is correct: 62 $\n",
+        "ground_truth": "So far, Mary has paid back $15 +$23=$<<15+23=38>>38 of the credit.\nSo she still needs to pay $100-$38=$<<100-38=62>>62\n#### 62"
+    },
+    {
+        "question": "Mary spent $100.\nShe paid $15 on Tuesday and $23 on Thursday.\nTotal paid = $15 + $23 = $38.\nRemaining credit = $100 - $38 = $62.\nI hope it is correct: 62 $\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $62\n",
+        "ground_truth": "So far, Mary has paid back $15 +$23=$<<15+23=38>>38 of the credit.\nSo she still needs to pay $100-$38=$<<100-38=62>>62\n#### 62"
+    }
+]

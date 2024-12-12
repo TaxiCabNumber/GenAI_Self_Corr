@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA rectangular quilt's length is twice the length of a rectangular picture, and the quilt's width is three times the width of the same picture. The area of the picture is 2 square feet. What is the area of the quilt, in square feet?",
+        "inference": "Let the length of the picture be $l_p$ and the width of the picture be $w_p$.\nThe area of the picture is $l_p \\times w_p = 2$.\nThe length of the quilt is $l_q = 2 l_p$ and the width of the quilt is $w_q = 3 w_p$.\nThe area of the quilt is $l_q \\times w_q = (2 l_p) \\times (3 w_p) = 6 l_p w_p = 6 \\times 2 = 12$.\nFinal Answer: $\\boxed{12}$ I hope it is correct.\n",
+        "ground_truth": "Since the quilt is twice as long, the area is twice as large when only considering that dimension.  Since it is also 3 times as wide, the area then triples (including the doubling of size due to the length).  Thus, the area of the quilt is $2 \\times 3 = 6$ times larger, making for an area of $\\boxed{12}$ square feet."
+    },
+    {
+        "question": "Let the length of the picture be $l_p$ and the width of the picture be $w_p$.\nThe area of the picture is $l_p \\times w_p = 2$.\nThe length of the quilt is $l_q = 2 l_p$ and the width of the quilt is $w_q = 3 w_p$.\nThe area of the quilt is $l_q \\times w_q = (2 l_p) \\times (3 w_p) = 6 l_p w_p = 6 \\times 2 = 12$.\nFinal Answer: $\\boxed{12}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The area of the picture is $l_p w_p = 2$.\nThe length of the quilt is $l_q = 2l_p$ and the width of the quilt is $w_q = 3w_p$.\nThe area of the quilt is $l_q w_q = (2l_p)(3w_p) = 6l_p w_p = 6(2) = 12$.\n\nFinal Answer: $\\boxed{12}$",
+        "ground_truth": "Since the quilt is twice as long, the area is twice as large when only considering that dimension.  Since it is also 3 times as wide, the area then triples (including the doubling of size due to the length).  Thus, the area of the quilt is $2 \\times 3 = 6$ times larger, making for an area of $\\boxed{12}$ square feet."
+    }
+]

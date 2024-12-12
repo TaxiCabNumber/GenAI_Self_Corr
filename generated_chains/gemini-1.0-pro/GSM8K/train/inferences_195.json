@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMary bought 5 boxes of drinks at $6 each box and 10 boxes of pizzas at $14 each box for her pizza party. She paid $200 for all the items. How much change did she get back?",
+        "inference": "1. Calculate the total cost of the drinks: 5 x $6 = $30\n2. Calculate the total cost of the pizzas: 10 x $14 = $140\n3. Add the total cost of the drinks and the pizzas: $30 + $140 = $170\n4. Subtract the total cost of the items from the amount paid: $200 - $170 = $30\nI hope it is correct: $30",
+        "ground_truth": "Mary spent 5 x $6 = $<<5*6=30>>30 on drinks.\nShe spent 10 x $14 = $<<10*14=140>>140 on pizzas.\nShe spent a total amount of $30 + $140 = $<<30+140=170>>170.\nTherefore, Mary got a change of $200 - $170 = $<<200-170=30>>30 after paying all the items for her pizza party.\n#### 30"
+    },
+    {
+        "question": "1. Calculate the total cost of the drinks: 5 x $6 = $30\n2. Calculate the total cost of the pizzas: 10 x $14 = $140\n3. Add the total cost of the drinks and the pizzas: $30 + $140 = $170\n4. Subtract the total cost of the items from the amount paid: $200 - $170 = $30\nI hope it is correct: $30\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$30",
+        "ground_truth": "Mary spent 5 x $6 = $<<5*6=30>>30 on drinks.\nShe spent 10 x $14 = $<<10*14=140>>140 on pizzas.\nShe spent a total amount of $30 + $140 = $<<30+140=170>>170.\nTherefore, Mary got a change of $200 - $170 = $<<200-170=30>>30 after paying all the items for her pizza party.\n#### 30"
+    }
+]

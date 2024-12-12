@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAyla has a customer care job whose primary role is to hear complaints from customers and advise them on the best way to solve their problems. She talks with each customer for a limited amount of time, and each phone call is charged five cents per minute. If each call lasts 1 hour, what's the phone bill at the end of the month if she manages to talk to 50 customers a week?",
+        "inference": "1 hour = 60 minutes.\nThe cost of each call = 5 cents per minute.\nThe cost of 1 hour call = 60 * 5 cents = 300 cents = $3.\nThe cost of 50 calls per week = 50 * $3 = $150.\nThe cost of 4 weeks per month = 4 * $150 = $600.\nI hope it is correct: $600",
+        "ground_truth": "An hour has 60 minutes.\nIf each call lasts an hour, the total amount of money charged is 60*.05 = $<<60*.05=3>>3 for 1 customer.\nWhen she talks to 50 clients in a week, the total amount of money charged is 50*3 = $<<50*3=150>>150.\nIn a month of 4 weeks, the phone bill is 150*4 = $<<150*4=600>>600.\n#### 600"
+    },
+    {
+        "question": "1 hour = 60 minutes.\nThe cost of each call = 5 cents per minute.\nThe cost of 1 hour call = 60 * 5 cents = 300 cents = $3.\nThe cost of 50 calls per week = 50 * $3 = $150.\nThe cost of 4 weeks per month = 4 * $150 = $600.\nI hope it is correct: $600\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $600",
+        "ground_truth": "An hour has 60 minutes.\nIf each call lasts an hour, the total amount of money charged is 60*.05 = $<<60*.05=3>>3 for 1 customer.\nWhen she talks to 50 clients in a week, the total amount of money charged is 50*3 = $<<50*3=150>>150.\nIn a month of 4 weeks, the phone bill is 150*4 = $<<150*4=600>>600.\n#### 600"
+    }
+]

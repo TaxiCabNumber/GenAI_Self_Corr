@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the least value of $x$ that is a solution of $|{-x+3}|=7$?",
+        "inference": "$|{-x+3}|=7$\nCase 1: $-x+3=7$\n$-x = 7-3$\n$-x=4$\n$x=-4$\nCase 2: $-x+3=-7$\n$-x=-7-3$\n$-x=-10$\n$x=10$\nThe two solutions are $x=-4$ and $x=10$. The least value is $-4$.\nFinal Answer: $\\boxed{-4}$ I hope it is correct.\n",
+        "ground_truth": "In order to have $|{-x+3}| = 7$, we must have $-x + 3 = 7$ or $-x +3 = -7$.  The first equation gives us $x=-4$ as a solution and the second gives us $x = 10$, so the least value of $x$ that satisfies the equation is $\\boxed{-4}$."
+    },
+    {
+        "question": "$|{-x+3}|=7$\nCase 1: $-x+3=7$\n$-x = 7-3$\n$-x=4$\n$x=-4$\nCase 2: $-x+3=-7$\n$-x=-7-3$\n$-x=-10$\n$x=10$\nThe two solutions are $x=-4$ and $x=10$. The least value is $-4$.\nFinal Answer: $\\boxed{-4}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\left|-x+3\\right|=7$\n\nCase 1: $-x+3=7$\n$-x=4$\n$x=-4$\n\nCase 2: $-x+3=-7$\n$-x=-10$\n$x=10$\n\nThe two solutions are $x=-4$ and $x=10$. The least value is $-4$.\n\n$\\boxed{-4}$\n",
+        "ground_truth": "In order to have $|{-x+3}| = 7$, we must have $-x + 3 = 7$ or $-x +3 = -7$.  The first equation gives us $x=-4$ as a solution and the second gives us $x = 10$, so the least value of $x$ that satisfies the equation is $\\boxed{-4}$."
+    }
+]

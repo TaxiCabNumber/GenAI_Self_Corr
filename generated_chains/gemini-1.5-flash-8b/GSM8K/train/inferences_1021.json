@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nPorche has 3 hours to get all her homework done. Her math homework takes her 45 minutes. Her English homework takes her 30 minutes. Her science homework takes her 50 minutes. Her history homework takes her 25 minutes. She also has a special project due the next day. How much time does she have left to get that project done?",
+        "inference": "1. Calculate the total time spent on homework: 45 + 30 + 50 + 25 = 150 minutes\n\n2. Convert the total homework time to hours: 150 minutes / 60 minutes/hour = 2.5 hours\n\n3. Calculate the time remaining: 3 hours - 2.5 hours = 0.5 hours\n\n4. Convert the remaining time to minutes: 0.5 hours * 60 minutes/hour = 30 minutes\n\nI hope it is correct: 30 $minutes$\n",
+        "ground_truth": "She has 180 minutes to do work because 3 times 60 equals <<3*60=180>>180\nShe has already spent 150 minutes on homework because 45 plus 30 plus 50 plus 25 equals <<45+30+50+25=150>>150\nShe has 30 minutes to finish her project because 180 minus 150 equals <<180-150=30>>30.\n#### 30"
+    },
+    {
+        "question": "1. Calculate the total time spent on homework: 45 + 30 + 50 + 25 = 150 minutes\n\n2. Convert the total homework time to hours: 150 minutes / 60 minutes/hour = 2.5 hours\n\n3. Calculate the time remaining: 3 hours - 2.5 hours = 0.5 hours\n\n4. Convert the remaining time to minutes: 0.5 hours * 60 minutes/hour = 30 minutes\n\nI hope it is correct: 30 $minutes$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 30 minutes\n",
+        "ground_truth": "She has 180 minutes to do work because 3 times 60 equals <<3*60=180>>180\nShe has already spent 150 minutes on homework because 45 plus 30 plus 50 plus 25 equals <<45+30+50+25=150>>150\nShe has 30 minutes to finish her project because 180 minus 150 equals <<180-150=30>>30.\n#### 30"
+    }
+]

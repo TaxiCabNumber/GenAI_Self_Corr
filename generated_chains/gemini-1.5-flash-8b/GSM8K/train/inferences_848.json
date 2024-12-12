@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nOn a farm, on average every 6 cows produce 108 liters of milk per week. In five weeks the cows produced 2160 liters of milk. How many cows are on the farm?",
+        "inference": "1.  **Average milk per cow per week:** 108 liters / 6 cows = 18 liters/cow/week\n\n2.  **Total milk produced in five weeks:** 2160 liters\n\n3. **Total milk produced per cow in five weeks:** 2160 liters / 5 weeks = 432 liters/cow\n\n4. **Number of cows:** 432 liters/cow / 18 liters/cow/week = 24 cows\n\nI hope it is correct: 24 $cows$\n",
+        "ground_truth": "Per week, one cow produces 108 liters / 6 cows = <<108/6=18>>18 liters/cow.\nThe cows produced 2160 liters of milk over 5 weeks. So we have 2160 liters / 18 liters/cow = <<2160/18=120>>120 cows.\nFurther, we have to divide 120 cows / 5 weeks = <<120/5=24>>24 cows.\n#### 24"
+    },
+    {
+        "question": "1.  **Average milk per cow per week:** 108 liters / 6 cows = 18 liters/cow/week\n\n2.  **Total milk produced in five weeks:** 2160 liters\n\n3. **Total milk produced per cow in five weeks:** 2160 liters / 5 weeks = 432 liters/cow\n\n4. **Number of cows:** 432 liters/cow / 18 liters/cow/week = 24 cows\n\nI hope it is correct: 24 $cows$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 24\n",
+        "ground_truth": "Per week, one cow produces 108 liters / 6 cows = <<108/6=18>>18 liters/cow.\nThe cows produced 2160 liters of milk over 5 weeks. So we have 2160 liters / 18 liters/cow = <<2160/18=120>>120 cows.\nFurther, we have to divide 120 cows / 5 weeks = <<120/5=24>>24 cows.\n#### 24"
+    }
+]

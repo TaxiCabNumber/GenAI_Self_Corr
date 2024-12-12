@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAlice and Bob decided to bake cookies for their first date. Alice baked 74 chocolate chip cookies and Bob baked 7 peanut butter cookies. After accidentally throwing some on the floor, Alice baked 5 more cookies and Bob baked 36 more. If they had 93 edible cookies at the end, how many were accidentally thrown on the floor?",
+        "inference": "1. Initial cookies: Alice - 74, Bob - 7\n2. Additional cookies: Alice +5, Bob +36\n3. Total baked: Alice - 74 + 5 = 79, Bob - 7 + 36 = 43\n4. Total baked cookies: 79 + 43 = 122\n5. Edible cookies: 93\n6. Cookies thrown on the floor: 122 - 93 = 29\n\nI hope it is correct: 29 $cookies$\n",
+        "ground_truth": "Before throwing the cookies, Alice and Bob baked 74 + 7 = <<74+7=81>>81 cookies.\nAfter throwing the cookies, they baked 5 + 36 = <<5+36=41>>41 cookies.\nIn total, they baked 81 + 41 = <<81+41=122>>122 cookies\nThey threw 122 - 93 = <<122-93=29>>29 cookies on the floor.\n#### 29"
+    },
+    {
+        "question": "1. Initial cookies: Alice - 74, Bob - 7\n2. Additional cookies: Alice +5, Bob +36\n3. Total baked: Alice - 74 + 5 = 79, Bob - 7 + 36 = 43\n4. Total baked cookies: 79 + 43 = 122\n5. Edible cookies: 93\n6. Cookies thrown on the floor: 122 - 93 = 29\n\nI hope it is correct: 29 $cookies$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 29\n",
+        "ground_truth": "Before throwing the cookies, Alice and Bob baked 74 + 7 = <<74+7=81>>81 cookies.\nAfter throwing the cookies, they baked 5 + 36 = <<5+36=41>>41 cookies.\nIn total, they baked 81 + 41 = <<81+41=122>>122 cookies\nThey threw 122 - 93 = <<122-93=29>>29 cookies on the floor.\n#### 29"
+    }
+]

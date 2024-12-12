@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $3 \\times 11 \\times 13 \\times 21 = 2005 +b$, what is the value of $b$?",
+        "inference": "$3 \\times 11 \\times 13 \\times 21 = 9 \\times 11 \\times 13 \\times 7 = 99 \\times 91 = 8991$.\n$8991 = 2005 + b$\n$b = 8991 - 2005 = 6986$\nFinal Answer: $\\boxed{6986}$\n",
+        "ground_truth": "To multiply the left-hand side quickly, we note that among the 4 numbers, we have $11 \\times 13 \\times 7 = 11 \\times 91 = 1001$.  Then, we have 9 left over, so the total product is 9009, and subtracting 2005, we get $\\boxed{7004}$."
+    },
+    {
+        "question": "$3 \\times 11 \\times 13 \\times 21 = 9 \\times 11 \\times 13 \\times 7 = 99 \\times 91 = 8991$.\n$8991 = 2005 + b$\n$b = 8991 - 2005 = 6986$\nFinal Answer: $\\boxed{6986}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The problem is asking for the value of $b$.\n$3 \\times 11 \\times 13 \\times 21 = 3 \\times 11 \\times 13 \\times (3 \\times 7) = 3^2 \\times 7 \\times 11 \\times 13 = 9 \\times 7 \\times 11 \\times 13 = 63 \\times 143 = 9009 - 9009 - 63 + 63 = 9009$\n\n$9009 = 2005 + b$\n$b = 9009 - 2005 = 7004$\n\nFinal Answer: $\\boxed{7004}$",
+        "ground_truth": "To multiply the left-hand side quickly, we note that among the 4 numbers, we have $11 \\times 13 \\times 7 = 11 \\times 91 = 1001$.  Then, we have 9 left over, so the total product is 9009, and subtracting 2005, we get $\\boxed{7004}$."
+    }
+]

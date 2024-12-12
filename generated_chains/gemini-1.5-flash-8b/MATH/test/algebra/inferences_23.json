@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nAt constant temperature, the pressure of a sample of gas is inversely proportional to its volume. I have some hydrogen in a 3.67 liter container with a pressure of 4 kPa. If I move all of it to a 1.835 liter container at the same temperature, what will the new pressure be in kPa?",
+        "inference": "Pressure * Volume = Constant\n\nInitial pressure * Initial volume = Constant\n4 kPa * 3.67 L = 14.68 kPa*L\n\nNew volume = 1.835 L\nNew pressure * 1.835 L = 14.68 kPa*L\nNew pressure = (14.68 kPa*L) / 1.835 L\nNew pressure = 8 kPa\n\nFinal Answer: $\\boxed{8}$\n",
+        "ground_truth": "Since the pressure $p$ of the hydrogen and the volume $v$ are inversely proportional, $pv=k$ for some constant $k$. From the first container, we know that $k=3.67\\cdot4=14.68$. Consequently, when we move it to the 1.835 liter container, we get that $1.835p=14.68$, so $p=\\boxed{8}$ kPa."
+    },
+    {
+        "question": "Pressure * Volume = Constant\n\nInitial pressure * Initial volume = Constant\n4 kPa * 3.67 L = 14.68 kPa*L\n\nNew volume = 1.835 L\nNew pressure * 1.835 L = 14.68 kPa*L\nNew pressure = (14.68 kPa*L) / 1.835 L\nNew pressure = 8 kPa\n\nFinal Answer: $\\boxed{8}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Initial pressure * Initial volume = Final pressure * Final volume\n\n(4 kPa) * (3.67 L) = (Final pressure) * (1.835 L)\n\nFinal pressure = (4 kPa * 3.67 L) / (1.835 L)\n\nFinal pressure = 8 kPa\n\n$\\boxed{8}$\n",
+        "ground_truth": "Since the pressure $p$ of the hydrogen and the volume $v$ are inversely proportional, $pv=k$ for some constant $k$. From the first container, we know that $k=3.67\\cdot4=14.68$. Consequently, when we move it to the 1.835 liter container, we get that $1.835p=14.68$, so $p=\\boxed{8}$ kPa."
+    }
+]

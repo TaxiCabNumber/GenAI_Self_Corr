@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIn Mary's class, there are 25 students. Their teacher told them they could pay $50 each to finance a big science project that they and their society would benefit greatly from. They all paid the full amount except for 4 students, who paid half. How much was the class able to gather together?",
+        "inference": "25 students * $50/student = $1250 (total expected amount)\n4 students paid half, meaning they paid $50/2 = $25 each.\n4 students * $25/student = $100 (amount from the 4 students who paid half)\n$1250 (total expected) - $100 (amount paid by 4 students) = $1150\n\nI hope it is correct: $1150\n",
+        "ground_truth": "The original amount is $50 so half is $50/2 = $<<50/2=25>>25\n4 students paid half ($25) for a total of 4*$25 = $<<4*25=100>>100\nThere are 25-4 = <<25-4=21>>21 students left\n21 students paid the full amount ($50) for a total of 21*$50 = $<<21*50=1050>>1050\nThey were able to gather a total of $100+$1050 = $<<100+1050=1150>>1150\n#### 1150"
+    },
+    {
+        "question": "25 students * $50/student = $1250 (total expected amount)\n4 students paid half, meaning they paid $50/2 = $25 each.\n4 students * $25/student = $100 (amount from the 4 students who paid half)\n$1250 (total expected) - $100 (amount paid by 4 students) = $1150\n\nI hope it is correct: $1150\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $1150\n",
+        "ground_truth": "The original amount is $50 so half is $50/2 = $<<50/2=25>>25\n4 students paid half ($25) for a total of 4*$25 = $<<4*25=100>>100\nThere are 25-4 = <<25-4=21>>21 students left\n21 students paid the full amount ($50) for a total of 21*$50 = $<<21*50=1050>>1050\nThey were able to gather a total of $100+$1050 = $<<100+1050=1150>>1150\n#### 1150"
+    }
+]

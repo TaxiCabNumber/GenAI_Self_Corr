@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBucky earns money each weekend catching and selling fish. He wants to save up for a new video game, which costs $60. Last weekend he earned $35. He can earn $5 from trout and $4 from blue-gill. He caught five fish this Sunday. If 60% were trout, and the rest were blue-gill, how much more does he need to save before he can buy the game?",
+        "inference": "1. Trout caught: 0.60 * 5 = 3 trout\n2. Bluegill caught: 5 - 3 = 2 bluegill\n3. Money earned from trout: 3 * $5 = $15\n4. Money earned from bluegill: 2 * $4 = $8\n5. Total money earned this weekend: $15 + $8 = $23\n6. Total money saved so far: $35 + $23 = $58\n7. Money needed to buy the game: $60 - $58 = $2\n\nI hope it is correct: $2\n",
+        "ground_truth": "He is $25 short for the game because 60 - 35 = <<60-35=25>>25\nHe caught 3 trout because 5 x .6 = <<5*.6=3>>3\nHe caught 2 blue-gill because 5 - 3 = <<5-3=2>>2\nHe earned $15 from the trout because 3 x 5 = <<3*5=15>>15\nHe earned $8 from the blue-gill because 2 x 4 = <<2*4=8>>8\nHe earned $23 total because 15 + 8 = <<15+8=23>>23\nHe is $2 short because 25 - 23 = <<25-23=2>>2\n#### 2"
+    },
+    {
+        "question": "1. Trout caught: 0.60 * 5 = 3 trout\n2. Bluegill caught: 5 - 3 = 2 bluegill\n3. Money earned from trout: 3 * $5 = $15\n4. Money earned from bluegill: 2 * $4 = $8\n5. Total money earned this weekend: $15 + $8 = $23\n6. Total money saved so far: $35 + $23 = $58\n7. Money needed to buy the game: $60 - $58 = $2\n\nI hope it is correct: $2\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $2\n",
+        "ground_truth": "He is $25 short for the game because 60 - 35 = <<60-35=25>>25\nHe caught 3 trout because 5 x .6 = <<5*.6=3>>3\nHe caught 2 blue-gill because 5 - 3 = <<5-3=2>>2\nHe earned $15 from the trout because 3 x 5 = <<3*5=15>>15\nHe earned $8 from the blue-gill because 2 x 4 = <<2*4=8>>8\nHe earned $23 total because 15 + 8 = <<15+8=23>>23\nHe is $2 short because 25 - 23 = <<25-23=2>>2\n#### 2"
+    }
+]

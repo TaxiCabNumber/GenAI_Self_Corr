@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFactor $7x^3 - 21x^2 + 14x$.",
+        "inference": "1. Factor out the greatest common factor (GCF) from the terms:\n   The GCF of 7, -21, and 14 is 7.\n   The GCF of $x^3, x^2, x$ is $x$.\n   So the GCF is $7x$.\n\n2. Factor out the GCF from the expression:\n   $7x^3 - 21x^2 + 14x = 7x(x^2 - 3x + 2)$\n\n3. Factor the quadratic expression inside the parentheses:\n   We need to find two numbers that multiply to 2 and add to -3.\n   The numbers are -1 and -2.\n   $x^2 - 3x + 2 = (x - 1)(x - 2)$\n\n4. Substitute the factored quadratic back into the expression:\n   $7x(x^2 - 3x + 2) = 7x(x - 1)(x - 2)$\n\nFinal Answer: $\\boxed{7x(x-1)(x-2)}$\nI hope it is correct.\n",
+        "ground_truth": "Both 7 and $x$ are factors of each term, so we can factor out $7x$: \\[7x^3 -21x^2 + 14x = (7x)\\cdot(x^2) - (7x)\\cdot (3x) + (7x)\\cdot 2 = 7x(x^2 - 3x + 2).\\]We can factor $x^2 - 3x + 2$ into $(x-1)(x-2)$, to get our answer of $\\boxed{7x(x-1)(x-2)}$."
+    },
+    {
+        "question": "1. Factor out the greatest common factor (GCF) from the terms:\n   The GCF of 7, -21, and 14 is 7.\n   The GCF of $x^3, x^2, x$ is $x$.\n   So the GCF is $7x$.\n\n2. Factor out the GCF from the expression:\n   $7x^3 - 21x^2 + 14x = 7x(x^2 - 3x + 2)$\n\n3. Factor the quadratic expression inside the parentheses:\n   We need to find two numbers that multiply to 2 and add to -3.\n   The numbers are -1 and -2.\n   $x^2 - 3x + 2 = (x - 1)(x - 2)$\n\n4. Substitute the factored quadratic back into the expression:\n   $7x(x^2 - 3x + 2) = 7x(x - 1)(x - 2)$\n\nFinal Answer: $\\boxed{7x(x-1)(x-2)}$\nI hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{7x(x-1)(x-2)}$\n",
+        "ground_truth": "Both 7 and $x$ are factors of each term, so we can factor out $7x$: \\[7x^3 -21x^2 + 14x = (7x)\\cdot(x^2) - (7x)\\cdot (3x) + (7x)\\cdot 2 = 7x(x^2 - 3x + 2).\\]We can factor $x^2 - 3x + 2$ into $(x-1)(x-2)$, to get our answer of $\\boxed{7x(x-1)(x-2)}$."
+    }
+]

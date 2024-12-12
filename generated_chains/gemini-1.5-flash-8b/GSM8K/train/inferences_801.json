@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAlex gets paid $500 a week and 10% of his weekly income is deducted as tax. He also pays his weekly water bill for $55 and gives away another 10% of his weekly income as a tithe. How much money does Alex have left?",
+        "inference": "1. Tax deduction: 10% of $500 = $500 * 0.10 = $50\n2. Money after tax: $500 - $50 = $450\n3. Money after water bill: $450 - $55 = $395\n4. Tithe deduction: 10% of $500 = $500 * 0.10 = $50\n5. Money after tithe: $395 - $50 = $345\n\nI hope it is correct: $345\n",
+        "ground_truth": "His income tax is 10% of 500 which is 500*10% = $<<500*10*.01=50>>50.\nHis tithe costs 10% of $500 which is 500*10% = $<<500*10*.01=50>>50.\nThe total expenses are 50 + 55 + 50 = $155\nHe is then left with $500 - $ 155= $<<500-155=345>>345.\n#### 345"
+    },
+    {
+        "question": "1. Tax deduction: 10% of $500 = $500 * 0.10 = $50\n2. Money after tax: $500 - $50 = $450\n3. Money after water bill: $450 - $55 = $395\n4. Tithe deduction: 10% of $500 = $500 * 0.10 = $50\n5. Money after tithe: $395 - $50 = $345\n\nI hope it is correct: $345\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $345\n",
+        "ground_truth": "His income tax is 10% of 500 which is 500*10% = $<<500*10*.01=50>>50.\nHis tithe costs 10% of $500 which is 500*10% = $<<500*10*.01=50>>50.\nThe total expenses are 50 + 55 + 50 = $155\nHe is then left with $500 - $ 155= $<<500-155=345>>345.\n#### 345"
+    }
+]

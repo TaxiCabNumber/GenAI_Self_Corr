@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $a,$ $b,$ $c$ be positive real numbers.  Find the minimum value of\n\\[\\frac{(a + b)(a + c)(b + c)}{abc}.\\]",
+        "inference": "By AM-GM,\n$$ \\frac{a+b}{2} \\ge \\sqrt{ab} $$\n$$ \\frac{a+c}{2} \\ge \\sqrt{ac} $$\n$$ \\frac{b+c}{2} \\ge \\sqrt{bc} $$\nThus\n$$ \\frac{(a+b)(a+c)(b+c)}{abc} \\ge \\frac{2\\sqrt{ab} \\cdot 2\\sqrt{ac} \\cdot 2\\sqrt{bc}}{abc} = \\frac{8\\sqrt{a^2b^2c^2}}{abc} = \\frac{8abc}{abc} = 8 $$\nEquality holds when $a=b=c$. Thus the minimum value is 8.\nFinal Answer: $\\boxed{8}$",
+        "ground_truth": "By AM-GM,\n\\begin{align*}\na + b \\ge 2 \\sqrt{ab}, \\\\\na + c \\ge 2 \\sqrt{ac}, \\\\\nb + c \\ge 2 \\sqrt{bc},\n\\end{align*}so\n\\[\\frac{(a + b)(a + c)(b + c)}{abc} \\ge \\frac{2 \\sqrt{ab} \\cdot 2 \\sqrt{ac} \\cdot 2 \\sqrt{bc}}{abc} = 8.\\]Equality occurs when $a = b = c,$ so the minimum value is $\\boxed{8}.$"
+    },
+    {
+        "question": "By AM-GM,\n$$ \\frac{a+b}{2} \\ge \\sqrt{ab} $$\n$$ \\frac{a+c}{2} \\ge \\sqrt{ac} $$\n$$ \\frac{b+c}{2} \\ge \\sqrt{bc} $$\nThus\n$$ \\frac{(a+b)(a+c)(b+c)}{abc} \\ge \\frac{2\\sqrt{ab} \\cdot 2\\sqrt{ac} \\cdot 2\\sqrt{bc}}{abc} = \\frac{8\\sqrt{a^2b^2c^2}}{abc} = \\frac{8abc}{abc} = 8 $$\nEquality holds when $a=b=c$. Thus the minimum value is 8.\nFinal Answer: $\\boxed{8}$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Let $a, b, c > 0$. By AM-GM inequality,\n$$ \\frac{a+b}{2} \\ge \\sqrt{ab} \\implies (a+b)(a+c)(b+c) \\ge 8abc $$\n$$ \\frac{a+c}{2} \\ge \\sqrt{ac} \\implies (a+b)(a+c)(b+c) \\ge 8abc $$\nThus $\\frac{(a+b)(a+c)(b+c)}{abc} \\ge 8$.\nEquality holds when $a=b=c$.\n\nFinal Answer: $\\boxed{8}$",
+        "ground_truth": "By AM-GM,\n\\begin{align*}\na + b \\ge 2 \\sqrt{ab}, \\\\\na + c \\ge 2 \\sqrt{ac}, \\\\\nb + c \\ge 2 \\sqrt{bc},\n\\end{align*}so\n\\[\\frac{(a + b)(a + c)(b + c)}{abc} \\ge \\frac{2 \\sqrt{ab} \\cdot 2 \\sqrt{ac} \\cdot 2 \\sqrt{bc}}{abc} = 8.\\]Equality occurs when $a = b = c,$ so the minimum value is $\\boxed{8}.$"
+    }
+]

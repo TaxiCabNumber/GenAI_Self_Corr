@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the sum of the two values of $x$ for which $(x+3)^2 = 121$?",
+        "inference": "$(x+3)^2 = 121$\nTaking the square root of both sides:\n$x+3 = \\pm \\sqrt{121}$\n$x+3 = \\pm 11$\nCase 1: $x+3 = 11$\n$x = 11-3$\n$x = 8$\nCase 2: $x+3 = -11$\n$x = -11-3$\n$x = -14$\nThe two values of $x$ are $8$ and $-14$.\nTheir sum is $8 + (-14) = -6$\nFinal Answer: $\\boxed{-6}$ I hope it is correct.\n",
+        "ground_truth": "Expanding the left side, we have $x^2+6x+9=121 \\Rightarrow x^2+6x-112=0$. For a quadratic with the equation $ax^2+bx+c=0$, the sum of the roots is $-b/a$. Applying this formula to the problem, we have that the sum of the two roots is $-6/1=\\boxed{-6}$."
+    },
+    {
+        "question": "$(x+3)^2 = 121$\nTaking the square root of both sides:\n$x+3 = \\pm \\sqrt{121}$\n$x+3 = \\pm 11$\nCase 1: $x+3 = 11$\n$x = 11-3$\n$x = 8$\nCase 2: $x+3 = -11$\n$x = -11-3$\n$x = -14$\nThe two values of $x$ are $8$ and $-14$.\nTheir sum is $8 + (-14) = -6$\nFinal Answer: $\\boxed{-6}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$x+3 = \\pm \\sqrt{121}$\n$x+3 = \\pm 11$\n$x = -3 \\pm 11$\n$x = -3 + 11 = 8$ or $x = -3 - 11 = -14$\nThe two values of x are 8 and -14.\nTheir sum is 8 + (-14) = -6\n\n$\\boxed{-6}$\n",
+        "ground_truth": "Expanding the left side, we have $x^2+6x+9=121 \\Rightarrow x^2+6x-112=0$. For a quadratic with the equation $ax^2+bx+c=0$, the sum of the roots is $-b/a$. Applying this formula to the problem, we have that the sum of the two roots is $-6/1=\\boxed{-6}$."
+    }
+]

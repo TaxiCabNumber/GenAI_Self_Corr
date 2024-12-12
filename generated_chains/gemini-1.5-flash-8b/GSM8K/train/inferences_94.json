@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn writes 20 pages a day.  How long will it take him to write 3 books that are 400 pages each?",
+        "inference": "1. Total pages in 3 books: 3 books * 400 pages/book = 1200 pages\n2. Pages per day: 20 pages/day\n3. Number of days: 1200 pages / 20 pages/day = 60 days\n\nI hope it is correct: 60 $days$\n",
+        "ground_truth": "He wants to write 3*400=<<3*400=1200>>1200 pages\nSo it will take him 1200/20=<<1200/20=60>>60 days\n#### 60"
+    },
+    {
+        "question": "1. Total pages in 3 books: 3 books * 400 pages/book = 1200 pages\n2. Pages per day: 20 pages/day\n3. Number of days: 1200 pages / 20 pages/day = 60 days\n\nI hope it is correct: 60 $days$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 60\n",
+        "ground_truth": "He wants to write 3*400=<<3*400=1200>>1200 pages\nSo it will take him 1200/20=<<1200/20=60>>60 days\n#### 60"
+    }
+]

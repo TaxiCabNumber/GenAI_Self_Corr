@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMary has 26 blue shirts and 36 brown shirts. If she gives away half of her blue shirts and a third of her brown shirts, how many shirts does she have left?",
+        "inference": "1. Blue shirts given away: 26 / 2 = 13\n2. Brown shirts given away: 36 / 3 = 12\n3. Total shirts given away: 13 + 12 = 25\n4. Total shirts she started with: 26 + 36 = 62\n5. Shirts left: 62 - 25 = 37\n\nI hope it is correct: 37 $shirts$\n",
+        "ground_truth": "Mary gives away 26/2 = <<26/2=13>>13 blue shirts.\nMary gives away 36/3 = <<36/3=12>>12 brown shirts.\nMary has 26-13 = <<26-13=13>>13 blue shirts left.\nMary has 36-12 = <<36-12=24>>24 brown shirts left.\nMary has 13+24 = <<13+24=37>>37 shirts left.\n#### 37"
+    },
+    {
+        "question": "1. Blue shirts given away: 26 / 2 = 13\n2. Brown shirts given away: 36 / 3 = 12\n3. Total shirts given away: 13 + 12 = 25\n4. Total shirts she started with: 26 + 36 = 62\n5. Shirts left: 62 - 25 = 37\n\nI hope it is correct: 37 $shirts$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 37\n",
+        "ground_truth": "Mary gives away 26/2 = <<26/2=13>>13 blue shirts.\nMary gives away 36/3 = <<36/3=12>>12 brown shirts.\nMary has 26-13 = <<26-13=13>>13 blue shirts left.\nMary has 36-12 = <<36-12=24>>24 brown shirts left.\nMary has 13+24 = <<13+24=37>>37 shirts left.\n#### 37"
+    }
+]

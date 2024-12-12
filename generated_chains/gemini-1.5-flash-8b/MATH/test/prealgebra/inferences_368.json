@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf no one shares an office, in how many ways can 3 people be assigned to 5 different offices? (Each person gets exactly one office).",
+        "inference": "There are 5 choices for the first person.\nOnce the first person is assigned, there are 4 choices for the second person.\nOnce the first two people are assigned, there are 3 choices for the third person.\nThe number of ways is $5 \\times 4 \\times 3 = 60$.\n\nFinal Answer: $\\boxed{60}$\n",
+        "ground_truth": "If we number the three people 1, 2, and 3, there are $5$ offices that person 1 can be assigned to, $4$ offices that person 2 can be assigned to, and $3$ offices that person 3 can be assigned to. This gives us $5 \\times 4 \\times 3 = \\boxed{60}$ ways to assign the three people to offices."
+    },
+    {
+        "question": "There are 5 choices for the first person.\nOnce the first person is assigned, there are 4 choices for the second person.\nOnce the first two people are assigned, there are 3 choices for the third person.\nThe number of ways is $5 \\times 4 \\times 3 = 60$.\n\nFinal Answer: $\\boxed{60}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Let $n$ be the number of people and $m$ be the number of available positions.\nIf we have 5 people and 3 positions, then we have 5 choices for the first position, 4 choices for the second position, and 3 choices for the third position.\nThe number of ways to assign 3 people to 3 positions is $5 \\times 4 \\times 3 = 60$.\n\nFinal Answer: $\\boxed{60}$",
+        "ground_truth": "If we number the three people 1, 2, and 3, there are $5$ offices that person 1 can be assigned to, $4$ offices that person 2 can be assigned to, and $3$ offices that person 3 can be assigned to. This gives us $5 \\times 4 \\times 3 = \\boxed{60}$ ways to assign the three people to offices."
+    }
+]

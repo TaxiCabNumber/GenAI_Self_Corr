@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTina is getting $20 for each book she sells. If she realizes a $120 profit on her sales, how many people have she sold the books to if each book costs $5 to make and every customer buys 2 at a time?",
+        "inference": "1. Profit = Revenue - Cost\n2. Profit = ($20/book * books sold) - ($5/book * books sold)\n3. $120 = ($15/book * books sold)\n4. Books sold = $120 / $15/book = 8 books\n5. Customers = books sold / 2 books/customer = 8 books / 2 books/customer = 4 customers\n\nI hope it is correct: 4 $customers$\n",
+        "ground_truth": "First, we need to determine the profit per book. To do this, we perform 20-5=<<20-5=15>>15 dollars in profit per book.\nNext, we divide the total sales by the profit per book, performing 120/15=<<120/15=8>>8 books sold in total.\nSince the books are sold 2 at a time, we divide the number sold by 2 to find the total number of people sold to, performing 8/2=<<8/2=4>>4 people in total.\n#### 4"
+    },
+    {
+        "question": "1. Profit = Revenue - Cost\n2. Profit = ($20/book * books sold) - ($5/book * books sold)\n3. $120 = ($15/book * books sold)\n4. Books sold = $120 / $15/book = 8 books\n5. Customers = books sold / 2 books/customer = 8 books / 2 books/customer = 4 customers\n\nI hope it is correct: 4 $customers$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 4 customers\n",
+        "ground_truth": "First, we need to determine the profit per book. To do this, we perform 20-5=<<20-5=15>>15 dollars in profit per book.\nNext, we divide the total sales by the profit per book, performing 120/15=<<120/15=8>>8 books sold in total.\nSince the books are sold 2 at a time, we divide the number sold by 2 to find the total number of people sold to, performing 8/2=<<8/2=4>>4 people in total.\n#### 4"
+    }
+]

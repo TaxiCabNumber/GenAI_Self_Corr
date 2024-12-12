@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nPhillip's mother asked him to go to the supermarket to buy some things and gave him $95, so he spent $14 on oranges, $25 on apples and $6 on candy. How much money does he have left?",
+        "inference": "1. Total amount of money spent on oranges, apples and candy = $14 + $25 + $6 = $45\n2. Amount of money left = $95 - $45 = $50\nI hope it is correct: $50$",
+        "ground_truth": "If we add everything Phillip bought, we will have: $14 + $25 + $6 = $<<14+25+6=45>>45\nHe spent $45, and we know that he had $95 dollars, so now we have to subtract: $95 - $45 = $<<95-45=50>>50\n#### 50"
+    },
+    {
+        "question": "1. Total amount of money spent on oranges, apples and candy = $14 + $25 + $6 = $45\n2. Amount of money left = $95 - $45 = $50\nI hope it is correct: $50$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $50$",
+        "ground_truth": "If we add everything Phillip bought, we will have: $14 + $25 + $6 = $<<14+25+6=45>>45\nHe spent $45, and we know that he had $95 dollars, so now we have to subtract: $95 - $45 = $<<95-45=50>>50\n#### 50"
+    }
+]

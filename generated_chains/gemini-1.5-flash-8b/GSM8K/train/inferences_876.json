@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA choir was singing a song that involved 30 singers. In the first verse, only half of them sang. In the second verse, a third of the remaining singers joined in. How many people joined in the final third verse that the whole choir sang together?",
+        "inference": "1. First verse: Half of 30 singers sang, which is 30 / 2 = 15 singers.\n2. Singers remaining after the first verse: 30 - 15 = 15 singers.\n3. Second verse: A third of the remaining singers joined in, which is 15 / 3 = 5 singers.\n4. Total singers who sang in the first two verses: 15 + 5 = 20 singers.\n5. Singers remaining to sing in the third verse: 30 - 20 = 10 singers.\nI hope it is correct: 10 $\n",
+        "ground_truth": "In the first verse, 30 / 2 = <<30/2=15>>15 singers sang.\nIn the second verse, 15 / 3 = <<15/3=5>>5 singers joined in.\nIn the final verse, 30 - 15 - 5 = <<30-15-5=10>>10 singers joined for the whole choir to sing together.\n#### 10"
+    },
+    {
+        "question": "1. First verse: Half of 30 singers sang, which is 30 / 2 = 15 singers.\n2. Singers remaining after the first verse: 30 - 15 = 15 singers.\n3. Second verse: A third of the remaining singers joined in, which is 15 / 3 = 5 singers.\n4. Total singers who sang in the first two verses: 15 + 5 = 20 singers.\n5. Singers remaining to sing in the third verse: 30 - 20 = 10 singers.\nI hope it is correct: 10 $\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 10\n",
+        "ground_truth": "In the first verse, 30 / 2 = <<30/2=15>>15 singers sang.\nIn the second verse, 15 / 3 = <<15/3=5>>5 singers joined in.\nIn the final verse, 30 - 15 - 5 = <<30-15-5=10>>10 singers joined for the whole choir to sing together.\n#### 10"
+    }
+]

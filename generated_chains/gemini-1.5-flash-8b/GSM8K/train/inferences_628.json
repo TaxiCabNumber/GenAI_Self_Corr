@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAlani earned $45 for 3 hours of baby-sitting. At the same rate, for how many hours would she need to baby-sit to earn $75?",
+        "inference": "1.  Find Alani's hourly rate: $45 / 3 hours = $15/hour.\n2.  Divide the desired earnings by the hourly rate: $75 / $15/hour = 5 hours.\n\nI hope it is correct: 5 $hours$\n",
+        "ground_truth": "The rate is $45/3=$<<45/3=15>>15/hr.\nShe would need to baby-sit for $75/$15=<<75/15=5>>5 hours.\n#### 5"
+    },
+    {
+        "question": "1.  Find Alani's hourly rate: $45 / 3 hours = $15/hour.\n2.  Divide the desired earnings by the hourly rate: $75 / $15/hour = 5 hours.\n\nI hope it is correct: 5 $hours$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 5 hours\n",
+        "ground_truth": "The rate is $45/3=$<<45/3=15>>15/hr.\nShe would need to baby-sit for $75/$15=<<75/15=5>>5 hours.\n#### 5"
+    }
+]

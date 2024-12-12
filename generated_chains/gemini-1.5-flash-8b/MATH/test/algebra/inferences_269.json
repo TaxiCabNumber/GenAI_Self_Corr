@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nHow many units long is a segment whose endpoints are $(-4,1)$ and $(1,13)$?",
+        "inference": "Using the distance formula, the distance between two points $(x_1, y_1)$ and $(x_2, y_2)$ is given by $\\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$.\nIn this case, the points are $(-4, 1)$ and $(1, 13)$.\nSo $x_1 = -4$, $y_1 = 1$, $x_2 = 1$, and $y_2 = 13$.\nThe distance is $\\sqrt{(1 - (-4))^2 + (13 - 1)^2} = \\sqrt{(1 + 4)^2 + (12)^2} = \\sqrt{(5)^2 + (12)^2} = \\sqrt{25 + 144} = \\sqrt{169} = 13$.\nFinal Answer: $\\boxed{13}$ I hope it is correct.\n",
+        "ground_truth": "We use the distance formula: $\\sqrt{(-4 - 1)^2 + (1 - 13)^2},$ which is $\\sqrt{25 + 144} = \\sqrt{169} = \\boxed{13}$.\n\n- OR -\n\nWe note that the points $(-4,1)$, $(1,13)$, and $(1,1)$ form a right triangle with legs of length 5 and 12. $(5,12,13)$ is a Pythagorean triple, so the hypotenuse has length $\\boxed{13}$."
+    },
+    {
+        "question": "Using the distance formula, the distance between two points $(x_1, y_1)$ and $(x_2, y_2)$ is given by $\\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$.\nIn this case, the points are $(-4, 1)$ and $(1, 13)$.\nSo $x_1 = -4$, $y_1 = 1$, $x_2 = 1$, and $y_2 = 13$.\nThe distance is $\\sqrt{(1 - (-4))^2 + (13 - 1)^2} = \\sqrt{(1 + 4)^2 + (12)^2} = \\sqrt{(5)^2 + (12)^2} = \\sqrt{25 + 144} = \\sqrt{169} = 13$.\nFinal Answer: $\\boxed{13}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{13}$\n",
+        "ground_truth": "We use the distance formula: $\\sqrt{(-4 - 1)^2 + (1 - 13)^2},$ which is $\\sqrt{25 + 144} = \\sqrt{169} = \\boxed{13}$.\n\n- OR -\n\nWe note that the points $(-4,1)$, $(1,13)$, and $(1,1)$ form a right triangle with legs of length 5 and 12. $(5,12,13)$ is a Pythagorean triple, so the hypotenuse has length $\\boxed{13}$."
+    }
+]

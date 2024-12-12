@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSally and Bob have made plans to go on a trip at the end of the year. They both decide to work as babysitters and save half of what they've earned for their trip. If Sally makes $6 per day and Bob makes $4 per day, how much money will they both have saved for their trip after a year?",
+        "inference": "1. Determine the amount of money Sally will earn in a year: $6 per day x 365 days = $2,190\n2. Determine the amount of money Bob will earn in a year: $4 per day x 365 days = $1,460\n3. Calculate the total amount of money they will earn in a year: $2,190 + $1,460 = $3,650\n4. Calculate the amount of money they will save for their trip: $3,650 / 2 = $1,825\nI hope it is correct: $1,825$",
+        "ground_truth": "Saly saves 1/2 * $6/day = $<<1/2*6=3>>3/day.\nSince each year have 365 days, the total amount of money Sally will save in a year is $3/day * 365 days/year = $<<3*365=1095>>1095/year\nBob saves 1/2 * $4/day = $<<1/2*4=2>>2/day.\nThe total amount of money Bob will have saved in a year is $2/day * 365 days/year = $<<2*365=730>>730/year\nIn total, Sally and Bob would have saved $730 + $1095 = $<<730+1095=1825>>1825\n#### 1825"
+    },
+    {
+        "question": "1. Determine the amount of money Sally will earn in a year: $6 per day x 365 days = $2,190\n2. Determine the amount of money Bob will earn in a year: $4 per day x 365 days = $1,460\n3. Calculate the total amount of money they will earn in a year: $2,190 + $1,460 = $3,650\n4. Calculate the amount of money they will save for their trip: $3,650 / 2 = $1,825\nI hope it is correct: $1,825$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $1,825$",
+        "ground_truth": "Saly saves 1/2 * $6/day = $<<1/2*6=3>>3/day.\nSince each year have 365 days, the total amount of money Sally will save in a year is $3/day * 365 days/year = $<<3*365=1095>>1095/year\nBob saves 1/2 * $4/day = $<<1/2*4=2>>2/day.\nThe total amount of money Bob will have saved in a year is $2/day * 365 days/year = $<<2*365=730>>730/year\nIn total, Sally and Bob would have saved $730 + $1095 = $<<730+1095=1825>>1825\n#### 1825"
+    }
+]

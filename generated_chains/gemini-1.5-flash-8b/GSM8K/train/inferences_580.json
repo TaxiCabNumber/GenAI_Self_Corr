@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nLibby is building an igloo in her backyard using bricks of snow. She builds her igloo in rows, using a total of 10 rows of bricks of snow. The bottom half of the igloo has 12 bricks of snow in each row while the top half of the igloo has 8 bricks of snow in each row. How many bricks of snow did Libby use for her igloo?",
+        "inference": "Bottom half rows: 10 rows / 2 = 5 rows\nBricks in bottom half: 5 rows * 12 bricks/row = 60 bricks\nTop half rows: 5 rows\nBricks in top half: 5 rows * 8 bricks/row = 40 bricks\nTotal bricks: 60 bricks + 40 bricks = 100 bricks\nI hope it is correct: 100 $bricks$\n",
+        "ground_truth": "In the bottom half of the igloo, there are 10 rows / 2 = <<10/2=5>>5 rows of bricks of snow.\nSo in the bottom half of the igloo, there are 5 rows * 12 bricks of snow in each row = <<5*12=60>>60 bricks of snow.\nIn the top half of the igloo, there are 5 rows * 8 bricks of snow in each row = <<5*8=40>>40 bricks of snow.\nThere is therefore a total of 60 + 40 = <<60+40=100>>100 bricks of snow in the igloo.\n#### 100"
+    },
+    {
+        "question": "Bottom half rows: 10 rows / 2 = 5 rows\nBricks in bottom half: 5 rows * 12 bricks/row = 60 bricks\nTop half rows: 5 rows\nBricks in top half: 5 rows * 8 bricks/row = 40 bricks\nTotal bricks: 60 bricks + 40 bricks = 100 bricks\nI hope it is correct: 100 $bricks$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 100 bricks\n",
+        "ground_truth": "In the bottom half of the igloo, there are 10 rows / 2 = <<10/2=5>>5 rows of bricks of snow.\nSo in the bottom half of the igloo, there are 5 rows * 12 bricks of snow in each row = <<5*12=60>>60 bricks of snow.\nIn the top half of the igloo, there are 5 rows * 8 bricks of snow in each row = <<5*8=40>>40 bricks of snow.\nThere is therefore a total of 60 + 40 = <<60+40=100>>100 bricks of snow in the igloo.\n#### 100"
+    }
+]

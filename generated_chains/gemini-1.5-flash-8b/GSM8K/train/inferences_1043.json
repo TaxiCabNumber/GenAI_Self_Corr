@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJames decides to buy a living room set.  The coach cost $2500 and the sectional cost $3500 and everything else has a combined cost of $2000.  He gets a 10% discount on everything.  How much did he pay?",
+        "inference": "1. Calculate the total cost before the discount: $2500 + $3500 + $2000 = $8000\n\n2. Calculate the discount amount: $8000 * 0.10 = $800\n\n3. Calculate the final cost after the discount: $8000 - $800 = $7200\n\nI hope it is correct: $7200\n",
+        "ground_truth": "The combined cost of everything was 2500+3500+2000=$<<2500+3500+2000=8000>>8000\nSo he gets an 8000*.1=$<<8000*.1=800>>800 discount\nThat means he pays 8000-800=$<<8000-800=7200>>7200\n#### 7200"
+    },
+    {
+        "question": "1. Calculate the total cost before the discount: $2500 + $3500 + $2000 = $8000\n\n2. Calculate the discount amount: $8000 * 0.10 = $800\n\n3. Calculate the final cost after the discount: $8000 - $800 = $7200\n\nI hope it is correct: $7200\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $7200\n",
+        "ground_truth": "The combined cost of everything was 2500+3500+2000=$<<2500+3500+2000=8000>>8000\nSo he gets an 8000*.1=$<<8000*.1=800>>800 discount\nThat means he pays 8000-800=$<<8000-800=7200>>7200\n#### 7200"
+    }
+]

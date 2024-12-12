@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAndy and Bob went to the canteen to buy snacks. They spent the same amount. Andy bought a can of soda at $1 and two hamburgers at $2 each.  Bob ordered two sandwiches for $3 and a can of fruit drink.  How much did Bob's fruit drink cost?",
+        "inference": "Andy spent $1 + (2 * $2) = $5.\nBob spent the same amount, so Bob spent $5.\nBob spent $3 + (cost of fruit drink) = $5\nCost of fruit drink = $5 - $3 = $2\nI hope it is correct: $2$\n",
+        "ground_truth": "Two hamburger cost 2 x $2 = $<<2*2=4>>4.\nSo, Andy spent $1 + $4 = $<<1+4=5>>5.\nTherefore, Bob's fruit drink cost $5 - $3 = $<<5-3=2>>2.\n#### 2"
+    },
+    {
+        "question": "Andy spent $1 + (2 * $2) = $5.\nBob spent the same amount, so Bob spent $5.\nBob spent $3 + (cost of fruit drink) = $5\nCost of fruit drink = $5 - $3 = $2\nI hope it is correct: $2$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $2\n",
+        "ground_truth": "Two hamburger cost 2 x $2 = $<<2*2=4>>4.\nSo, Andy spent $1 + $4 = $<<1+4=5>>5.\nTherefore, Bob's fruit drink cost $5 - $3 = $<<5-3=2>>2.\n#### 2"
+    }
+]

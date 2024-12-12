@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTom decides to renovate a house.  There are 3 bedrooms and each bedroom takes 4 hours to renovate.  The kitchen takes 50% longer than each bedroom.  The living room took twice as much time as everything else combined.  How long did everything take?",
+        "inference": "1. Time to renovate each bedroom: 4 hours\n2. Time to renovate the kitchen: 4 hours * 1.5 = 6 hours (50% longer)\n3. Total time for bedrooms and kitchen: 4 hours/bedroom * 3 bedrooms + 6 hours = 12 hours + 6 hours = 18 hours\n4. Time to renovate the living room: 18 hours * 2 = 36 hours\n5. Total renovation time: 18 hours + 36 hours = 54 hours\n\nI hope it is correct: 54 $hours$\n",
+        "ground_truth": "The kitchen took 4 * .5 = <<4*.5=2>>2 hours longer than the bedrooms\nSo the kitchen took 4 + 2 = <<4+2=6>>6 hours\nThe bedrooms took 3 * 4 = <<3*4=12>>12 hours\nSo the kitchen and bedrooms combined took 12 + 6 = <<12+6=18>>18 hours\nThe living room took 18 * 2 = <<18*2=36>>36 hours\nSo everything took a total of 18 + 36 = <<18+36=54>>54 hours\n#### 54"
+    },
+    {
+        "question": "1. Time to renovate each bedroom: 4 hours\n2. Time to renovate the kitchen: 4 hours * 1.5 = 6 hours (50% longer)\n3. Total time for bedrooms and kitchen: 4 hours/bedroom * 3 bedrooms + 6 hours = 12 hours + 6 hours = 18 hours\n4. Time to renovate the living room: 18 hours * 2 = 36 hours\n5. Total renovation time: 18 hours + 36 hours = 54 hours\n\nI hope it is correct: 54 $hours$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 54 hours\n",
+        "ground_truth": "The kitchen took 4 * .5 = <<4*.5=2>>2 hours longer than the bedrooms\nSo the kitchen took 4 + 2 = <<4+2=6>>6 hours\nThe bedrooms took 3 * 4 = <<3*4=12>>12 hours\nSo the kitchen and bedrooms combined took 12 + 6 = <<12+6=18>>18 hours\nThe living room took 18 * 2 = <<18*2=36>>36 hours\nSo everything took a total of 18 + 36 = <<18+36=54>>54 hours\n#### 54"
+    }
+]

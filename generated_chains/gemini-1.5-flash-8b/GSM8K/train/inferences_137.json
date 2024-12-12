@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\n3 families of 4 people shared a vacation rental for 7 days.  Everyone uses 1 oversized beach towel a day before getting a new one.  The washing machine can hold 14 oversized beach towels per load.  How many loads of laundry will it take to wash all the oversized beach towels?",
+        "inference": "1. Families: 3\n2. People per family: 4\n3. Total people: 3 * 4 = 12\n4. Towels per person per day: 1\n5. Total towels used per day: 12\n6. Total towels used in 7 days: 12 * 7 = 84\n7. Towels per load: 14\n8. Number of loads: 84 / 14 = 6\n\nI hope it is correct: 6 $loads$\n",
+        "ground_truth": "There are 3 families of 4 meaning there are 3*4 =<<3*4=12>>12 people in the vacation rental\nThey all use 1 oversized beach towel a day so they use 1*12 = <<1*12=12>>12 towels a day\nThey use 12 towels a day for 7 days so in one week they use 12*7 = <<12*7=84>>84 beach towels\nThe washing machine can only hold 14 towels and they have 84 towels to wash which means there are 84/14 =<<84/14=6>>6 loads of laundry\n#### 6"
+    },
+    {
+        "question": "1. Families: 3\n2. People per family: 4\n3. Total people: 3 * 4 = 12\n4. Towels per person per day: 1\n5. Total towels used per day: 12\n6. Total towels used in 7 days: 12 * 7 = 84\n7. Towels per load: 14\n8. Number of loads: 84 / 14 = 6\n\nI hope it is correct: 6 $loads$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 6\n",
+        "ground_truth": "There are 3 families of 4 meaning there are 3*4 =<<3*4=12>>12 people in the vacation rental\nThey all use 1 oversized beach towel a day so they use 1*12 = <<1*12=12>>12 towels a day\nThey use 12 towels a day for 7 days so in one week they use 12*7 = <<12*7=84>>84 beach towels\nThe washing machine can only hold 14 towels and they have 84 towels to wash which means there are 84/14 =<<84/14=6>>6 loads of laundry\n#### 6"
+    }
+]

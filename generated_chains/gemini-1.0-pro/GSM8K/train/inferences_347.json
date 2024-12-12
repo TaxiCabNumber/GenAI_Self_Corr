@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJeremy listened to five fewer songs yesterday than today. Yesterday, he listened to nine songs. How many songs did Jeremy listen to in two days?",
+        "inference": "1. Yesterday, Jeremy listened to nine songs.\n2. Today, Jeremy listened to five more songs than yesterday.\n3.  So, today Jeremy listened to 9 + 5 = 14 songs.\n4. In two days, Jeremy listened to 9 + 14 = 23 songs.\nI hope it is correct: 23",
+        "ground_truth": "Jeremy listened to 9 + 5 = <<9+5=14>>14 songs today.\nThus, he listened to 9 + 14 = <<9+14=23>>23 songs in two days.\n#### 23"
+    },
+    {
+        "question": "1. Yesterday, Jeremy listened to nine songs.\n2. Today, Jeremy listened to five more songs than yesterday.\n3.  So, today Jeremy listened to 9 + 5 = 14 songs.\n4. In two days, Jeremy listened to 9 + 14 = 23 songs.\nI hope it is correct: 23\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ 14",
+        "ground_truth": "Jeremy listened to 9 + 5 = <<9+5=14>>14 songs today.\nThus, he listened to 9 + 14 = <<9+14=23>>23 songs in two days.\n#### 23"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $z$ and $w$ be complex numbers such that $|z| = 2$ and $|w| = 5.$  Find the largest possible value of $|z + w|.$",
+        "inference": "By the triangle inequality, $|z+w| \\le |z| + |w|$.  In this case, $|z| = 2$ and $|w| = 5$, so $|z+w| \\le 2 + 5 = 7$.  Equality holds if $z$ and $w$ lie on the same ray from the origin.  In that case, $z$ and $w$ are multiples of each other, say $z = 2e^{i\\theta}$ and $w = 5e^{i\\theta}$.  Then $z + w = 7e^{i\\theta}$.  Then $|z+w| = 7$.\nFinal Answer: $\\boxed{7}$",
+        "ground_truth": "By the Triangle Inequality,\n\\[|z + w| \\le |z| + |w| = 2 + 5 = 7.\\]We can achieve this bound by taking $z = 2$ and $w = 5,$ so the largest possible value is $\\boxed{7}.$"
+    },
+    {
+        "question": "By the triangle inequality, $|z+w| \\le |z| + |w|$.  In this case, $|z| = 2$ and $|w| = 5$, so $|z+w| \\le 2 + 5 = 7$.  Equality holds if $z$ and $w$ lie on the same ray from the origin.  In that case, $z$ and $w$ are multiples of each other, say $z = 2e^{i\\theta}$ and $w = 5e^{i\\theta}$.  Then $z + w = 7e^{i\\theta}$.  Then $|z+w| = 7$.\nFinal Answer: $\\boxed{7}$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The triangle inequality states that for any complex numbers $z$ and $w$, $|z+w| \\le |z| + |w|$.  Given $|z| = 2$ and $|w| = 5$, by the triangle inequality, $|z+w| \\le |z|+|w| = 2+5 = 7$.\nThe maximum value of $|z+w|$ is 7.\n\nFinal Answer: $\\boxed{7}$",
+        "ground_truth": "By the Triangle Inequality,\n\\[|z + w| \\le |z| + |w| = 2 + 5 = 7.\\]We can achieve this bound by taking $z = 2$ and $w = 5,$ so the largest possible value is $\\boxed{7}.$"
+    }
+]

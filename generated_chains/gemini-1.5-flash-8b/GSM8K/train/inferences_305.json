@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTommy wants to earn enough money to buy 8 new books. Each book costs $5. If Tommy already has $13, how much does he need to save up?",
+        "inference": "1. Cost of 8 books: 8 books * $5/book = $40\n2. Money Tommy needs: $40 - $13 = $27\n\nI hope it is correct: $27\n",
+        "ground_truth": "The books will cost $40 because 8 x 5 = <<8*5=40>>40\nHe needs to save up $27 because 40 - 13 = <<40-13=27>>27\n#### 27"
+    },
+    {
+        "question": "1. Cost of 8 books: 8 books * $5/book = $40\n2. Money Tommy needs: $40 - $13 = $27\n\nI hope it is correct: $27\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $27\n",
+        "ground_truth": "The books will cost $40 because 8 x 5 = <<8*5=40>>40\nHe needs to save up $27 because 40 - 13 = <<40-13=27>>27\n#### 27"
+    }
+]

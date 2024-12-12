@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFor how many different values of $x$ does $x^5 = x^4 + 72x^3$?",
+        "inference": "To find the values of $x$ for which $x^5 = x^4 + 72x^3$, we can rewrite the equation as\n$x^5 - x^4 - 72x^3 = 0$.\nFactoring out $x^3$, we get\n$x^3(x^2 - x - 72) = 0$.\nThe first factor gives us $x^3 = 0$, which implies $x = 0$.\nThe second factor is a quadratic equation $x^2 - x - 72 = 0$. We can factor this quadratic as\n$(x-9)(x+8) = 0$.\nThis gives us two solutions: $x-9=0$ which means $x=9$, and $x+8=0$ which means $x=-8$.\nThus, the values of $x$ are $0, 9, -8$.\nThere are 3 different values of $x$.\nFinal Answer: $\\boxed{3}$ I hope it is correct.\n",
+        "ground_truth": "Move every term to the left-hand side and factor to find \\begin{align*}\nx^3(x^2-x-72)&=0 \\\\\nx^3(x-9)(x+8)&=0 \\\\\nx^3(x-9)(x+8)&=0.\n\\end{align*}Setting $x^3=0$, $x-9=0$ and $x+8=0$, we find that there are $\\boxed{3}$ solutions: $x=0$, $x-9$ and $x=-8$."
+    },
+    {
+        "question": "To find the values of $x$ for which $x^5 = x^4 + 72x^3$, we can rewrite the equation as\n$x^5 - x^4 - 72x^3 = 0$.\nFactoring out $x^3$, we get\n$x^3(x^2 - x - 72) = 0$.\nThe first factor gives us $x^3 = 0$, which implies $x = 0$.\nThe second factor is a quadratic equation $x^2 - x - 72 = 0$. We can factor this quadratic as\n$(x-9)(x+8) = 0$.\nThis gives us two solutions: $x-9=0$ which means $x=9$, and $x+8=0$ which means $x=-8$.\nThus, the values of $x$ are $0, 9, -8$.\nThere are 3 different values of $x$.\nFinal Answer: $\\boxed{3}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct.\nFinal Answer: $\\boxed{3}$",
+        "ground_truth": "Move every term to the left-hand side and factor to find \\begin{align*}\nx^3(x^2-x-72)&=0 \\\\\nx^3(x-9)(x+8)&=0 \\\\\nx^3(x-9)(x+8)&=0.\n\\end{align*}Setting $x^3=0$, $x-9=0$ and $x+8=0$, we find that there are $\\boxed{3}$ solutions: $x=0$, $x-9$ and $x=-8$."
+    }
+]

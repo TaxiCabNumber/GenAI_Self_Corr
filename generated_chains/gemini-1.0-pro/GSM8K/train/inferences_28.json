@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 5 houses on a street, and each of the first four houses has 3 gnomes in the garden. If there are a total of 20 gnomes on the street, how many gnomes does the fifth house have?",
+        "inference": "1. The first four houses have 3 gnomes each, so they have a total of 4*3 = 12 gnomes.\n\n2. If there are a total of 20 gnomes on the street, then the fifth house must have 20 - 12 = 8 gnomes.\n\nI hope it is correct: $8$",
+        "ground_truth": "In the first four houses, there are a total of 4 houses * 3 gnomes = <<4*3=12>>12 gnomes.\nTherefore, the fifth house had 20 total gnomes \u2013 12 gnomes = <<20-12=8>>8 gnomes.\n#### 8"
+    },
+    {
+        "question": "1. The first four houses have 3 gnomes each, so they have a total of 4*3 = 12 gnomes.\n\n2. If there are a total of 20 gnomes on the street, then the fifth house must have 20 - 12 = 8 gnomes.\n\nI hope it is correct: $8$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$8$",
+        "ground_truth": "In the first four houses, there are a total of 4 houses * 3 gnomes = <<4*3=12>>12 gnomes.\nTherefore, the fifth house had 20 total gnomes \u2013 12 gnomes = <<20-12=8>>8 gnomes.\n#### 8"
+    }
+]

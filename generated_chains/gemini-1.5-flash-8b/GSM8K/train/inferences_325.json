@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBob was creating a math test for an online platform.  He created 13 questions in the first hour.  Bob then doubled his rate for the second hour, and doubled his second hour rate for the third hour.  How many questions did Bob create in the three hours?",
+        "inference": "1st hour: 13 questions\n2nd hour: 13 * 2 = 26 questions\n3rd hour: 26 * 2 = 52 questions\n\nTotal questions: 13 + 26 + 52 = 91\n\nI hope it is correct: 91 $answer$\n",
+        "ground_truth": "First hour: <<13=13>>13\nSecond hour:13(2)=26\nThird hour: 26(2)=52\nTotal:13+26+52=<<13+26+52=91>>91 questions\n#### 91"
+    },
+    {
+        "question": "1st hour: 13 questions\n2nd hour: 13 * 2 = 26 questions\n3rd hour: 26 * 2 = 52 questions\n\nTotal questions: 13 + 26 + 52 = 91\n\nI hope it is correct: 91 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "The pattern is not clear.  We need more context.  Assuming the number of questions doubles each hour, the solution is correct.\n\n#### 91\n",
+        "ground_truth": "First hour: <<13=13>>13\nSecond hour:13(2)=26\nThird hour: 26(2)=52\nTotal:13+26+52=<<13+26+52=91>>91 questions\n#### 91"
+    }
+]

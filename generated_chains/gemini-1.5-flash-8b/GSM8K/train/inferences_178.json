@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSimon wanted to buy flowers that his mom could plant for Mother's Day.  The garden center was offering 10% off all purchases.  He bought 5 pansies at $2.50 each, one hydrangea that cost $12.50 and 5 petunias that cost $1.00 each.  If he paid with a $50 bill, how much change would Simon receive back from his purchase?",
+        "inference": "1. Cost of pansies: 5 pansies * $2.50/pansy = $12.50\n2. Cost of hydrangea: $12.50\n3. Cost of petunias: 5 petunias * $1.00/petunia = $5.00\n4. Total cost before discount: $12.50 + $12.50 + $5.00 = $30.00\n5. Discount amount: $30.00 * 0.10 = $3.00\n6. Total cost after discount: $30.00 - $3.00 = $27.00\n7. Change received: $50.00 - $27.00 = $23.00\n\nI hope it is correct: $23.00\n",
+        "ground_truth": "5 pansies at $2.50 each is 5*2.50 = $<<5*2.5=12.50>>12.50\n5 petunias at $1.00 each 5*1 = $<<5*1=5.00>>5.00\nAll total he spends 12.50+12.50+5.00 = $<<12.50+12.50+5.00=30.00>>30.00\nThe sale is 10% off so 30*.10 = $<<30*.10=3.00>>3.00\nThe purchase total now comes to 30-3 = $<<30-3=27.00>>27.00\nHe pays with a $50 bill so 50-27 = $<<50-27=23.00>>23.00\n#### 23"
+    },
+    {
+        "question": "1. Cost of pansies: 5 pansies * $2.50/pansy = $12.50\n2. Cost of hydrangea: $12.50\n3. Cost of petunias: 5 petunias * $1.00/petunia = $5.00\n4. Total cost before discount: $12.50 + $12.50 + $5.00 = $30.00\n5. Discount amount: $30.00 * 0.10 = $3.00\n6. Total cost after discount: $30.00 - $3.00 = $27.00\n7. Change received: $50.00 - $27.00 = $23.00\n\nI hope it is correct: $23.00\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $23.00\n",
+        "ground_truth": "5 pansies at $2.50 each is 5*2.50 = $<<5*2.5=12.50>>12.50\n5 petunias at $1.00 each 5*1 = $<<5*1=5.00>>5.00\nAll total he spends 12.50+12.50+5.00 = $<<12.50+12.50+5.00=30.00>>30.00\nThe sale is 10% off so 30*.10 = $<<30*.10=3.00>>3.00\nThe purchase total now comes to 30-3 = $<<30-3=27.00>>27.00\nHe pays with a $50 bill so 50-27 = $<<50-27=23.00>>23.00\n#### 23"
+    }
+]

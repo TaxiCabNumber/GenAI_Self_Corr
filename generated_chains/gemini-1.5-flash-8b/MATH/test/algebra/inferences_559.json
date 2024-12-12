@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf the system of equations  \\begin{align*}\n4x-3y&=2a,\\\\\n2x+y&=3a,\n\\end{align*}has a solution $(x,y)$ when $x=3$, compute $a$.",
+        "inference": "Given the system of equations\n$$4x-3y=2a$$\n$$2x+y=3a$$\nIf $x=3$, substitute this into the second equation:\n$$2(3)+y=3a$$\n$$6+y=3a$$\n$$y=3a-6$$\nSubstitute $x=3$ and $y=3a-6$ into the first equation:\n$$4(3)-3(3a-6)=2a$$\n$$12-9a+18=2a$$\n$$30-9a=2a$$\n$$30=11a$$\n$$a=\\frac{30}{11}$$\nFinal Answer: $\\boxed{\\frac{30}{11}}$ I hope it is correct.",
+        "ground_truth": "Substituting in $x=3$, we obtain the equations \\begin{align*}\n12-3y&=2a,\\\\\n6+y&=3a.\n\\end{align*}Multiplying the second equation by $3$ and adding it to the first equation, we find $$30=11a\\Rightarrow a=\\boxed{\\frac{30}{11}}.$$"
+    },
+    {
+        "question": "Given the system of equations\n$$4x-3y=2a$$\n$$2x+y=3a$$\nIf $x=3$, substitute this into the second equation:\n$$2(3)+y=3a$$\n$$6+y=3a$$\n$$y=3a-6$$\nSubstitute $x=3$ and $y=3a-6$ into the first equation:\n$$4(3)-3(3a-6)=2a$$\n$$12-9a+18=2a$$\n$$30-9a=2a$$\n$$30=11a$$\n$$a=\\frac{30}{11}$$\nFinal Answer: $\\boxed{\\frac{30}{11}}$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Given the system of equations\n$$4x-3y=2a$$\n$$2x+y=3a$$\nFrom the second equation, we have $y = 3a - 2x$.\nSubstituting this into the first equation, we get\n$$4x - 3(3a-2x) = 2a$$\n$$4x - 9a + 6x = 2a$$\n$$10x = 11a$$\n$$x = \\frac{11a}{10}$$\nIf $x=3$, then $3 = \\frac{11a}{10}$ which means $30 = 11a$ and $a = \\frac{30}{11}$.\n\nFinal Answer: $\\boxed{\\frac{30}{11}}$",
+        "ground_truth": "Substituting in $x=3$, we obtain the equations \\begin{align*}\n12-3y&=2a,\\\\\n6+y&=3a.\n\\end{align*}Multiplying the second equation by $3$ and adding it to the first equation, we find $$30=11a\\Rightarrow a=\\boxed{\\frac{30}{11}}.$$"
+    }
+]

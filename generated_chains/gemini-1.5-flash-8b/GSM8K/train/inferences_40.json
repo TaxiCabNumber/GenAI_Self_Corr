@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA concert ticket costs $40. Mr. Benson bought 12 tickets and received a 5% discount for every ticket bought that exceeds 10. How much did Mr. Benson pay in all?",
+        "inference": "1. Cost per ticket: $40\n2. Number of tickets exceeding 10: 12 - 10 = 2\n3. Discount per ticket exceeding 10: 5% of $40 = $2\n4. Total discount for extra tickets: 2 tickets * $2/ticket = $4\n5. Price of 10 tickets: 10 tickets * $40/ticket = $400\n6. Price of extra 2 tickets: 2 tickets * ($40 - $2) = 2 * $38 = $76\n7. Total cost: $400 + $76 = $476\n\nI hope it is correct: $476\n",
+        "ground_truth": "Mr. Benson had a 5% discount for each of the 12 - 10 = <<12-10=2>>2 tickets.\nSo, those two tickets had a $40 x 5/100 = $<<40*5/100=2>>2 discount each.\nHence, each ticket cost $40 - $2 = $<<40-2=38>>38 each.\nThus, two discounted tickets amount to $38 x 2 = $<<38*2=76>>76.\nAnd the other ten tickets amount to $40 x 10 = $<<40*10=400>>400.\nHence, Mr. Benson paid a total of $400 + $76 = $<<400+76=476>>476.\n#### 476"
+    },
+    {
+        "question": "1. Cost per ticket: $40\n2. Number of tickets exceeding 10: 12 - 10 = 2\n3. Discount per ticket exceeding 10: 5% of $40 = $2\n4. Total discount for extra tickets: 2 tickets * $2/ticket = $4\n5. Price of 10 tickets: 10 tickets * $40/ticket = $400\n6. Price of extra 2 tickets: 2 tickets * ($40 - $2) = 2 * $38 = $76\n7. Total cost: $400 + $76 = $476\n\nI hope it is correct: $476\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $476\n",
+        "ground_truth": "Mr. Benson had a 5% discount for each of the 12 - 10 = <<12-10=2>>2 tickets.\nSo, those two tickets had a $40 x 5/100 = $<<40*5/100=2>>2 discount each.\nHence, each ticket cost $40 - $2 = $<<40-2=38>>38 each.\nThus, two discounted tickets amount to $38 x 2 = $<<38*2=76>>76.\nAnd the other ten tickets amount to $40 x 10 = $<<40*10=400>>400.\nHence, Mr. Benson paid a total of $400 + $76 = $<<400+76=476>>476.\n#### 476"
+    }
+]

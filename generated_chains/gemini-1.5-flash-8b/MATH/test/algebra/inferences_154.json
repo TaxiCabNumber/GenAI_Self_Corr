@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $\\frac{x}{y}= 2$ and $\\frac{z}{x}= 4$, what is the value of $\\frac{z}{y}$?",
+        "inference": "Given $\\frac{x}{y}= 2$ and $\\frac{z}{x}= 4$.\nWe want to find $\\frac{z}{y}$.\n\nFrom $\\frac{x}{y}= 2$, we can write $x = 2y$.\nFrom $\\frac{z}{x}= 4$, we can write $z = 4x$.\n\nSubstituting $x = 2y$ into the expression for $z$, we have\n$z = 4(2y) = 8y$.\n\nNow we can find $\\frac{z}{y}$ by substituting $z=8y$:\n$\\frac{z}{y} = \\frac{8y}{y} = 8$.\n\nFinal Answer: $\\boxed{8}$ I hope it is correct.\n",
+        "ground_truth": "$\\frac z y=\\frac z x\\cdot\\frac x y=4\\cdot2=\\boxed{8}$."
+    },
+    {
+        "question": "Given $\\frac{x}{y}= 2$ and $\\frac{z}{x}= 4$.\nWe want to find $\\frac{z}{y}$.\n\nFrom $\\frac{x}{y}= 2$, we can write $x = 2y$.\nFrom $\\frac{z}{x}= 4$, we can write $z = 4x$.\n\nSubstituting $x = 2y$ into the expression for $z$, we have\n$z = 4(2y) = 8y$.\n\nNow we can find $\\frac{z}{y}$ by substituting $z=8y$:\n$\\frac{z}{y} = \\frac{8y}{y} = 8$.\n\nFinal Answer: $\\boxed{8}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\frac{z}{y} = \\frac{z}{x} \\times \\frac{x}{y} = 4 \\times 2 = 8$.\n\nFinal Answer: $\\boxed{8}$",
+        "ground_truth": "$\\frac z y=\\frac z x\\cdot\\frac x y=4\\cdot2=\\boxed{8}$."
+    }
+]

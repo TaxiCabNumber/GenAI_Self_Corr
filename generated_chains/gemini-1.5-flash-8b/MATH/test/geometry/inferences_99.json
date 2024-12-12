@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe points $A(2,5), B(6,5), C(5,2)$ and $D(1,2)$ are the vertices of a parallelogram. If the parallelogram is translated down 2 units and right three units, what will be the coordinates of the final image of point $B$?",
+        "inference": "1. The translation is down 2 units and right 3 units. This means we subtract 2 from the y-coordinate and add 3 to the x-coordinate.\n\n2. The coordinates of point B are (6,5).\n\n3. Applying the translation:\n   x-coordinate: 6 + 3 = 9\n   y-coordinate: 5 - 2 = 3\n\n4. The final coordinates of point B are (9,3).\n\nFinal Answer: $\\boxed{(9,3)}$ I hope it is correct.\n",
+        "ground_truth": "When an image is translated to the right we just add the number of units it is being translated to the original $x$-coordinate. When an image is translated down we just subtract that number of units from the $y$-coordinate. In this case we'll subtract 2 from the $y$-coordinates and add 3 to the   $x$-coordinates. This will make point $B(6, 5)$ move to $B'(6 + 3, 5 - 2) = \\boxed{(9, 3)}$."
+    },
+    {
+        "question": "1. The translation is down 2 units and right 3 units. This means we subtract 2 from the y-coordinate and add 3 to the x-coordinate.\n\n2. The coordinates of point B are (6,5).\n\n3. Applying the translation:\n   x-coordinate: 6 + 3 = 9\n   y-coordinate: 5 - 2 = 3\n\n4. The final coordinates of point B are (9,3).\n\nFinal Answer: $\\boxed{(9,3)}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{(9,3)}$\n",
+        "ground_truth": "When an image is translated to the right we just add the number of units it is being translated to the original $x$-coordinate. When an image is translated down we just subtract that number of units from the $y$-coordinate. In this case we'll subtract 2 from the $y$-coordinates and add 3 to the   $x$-coordinates. This will make point $B(6, 5)$ move to $B'(6 + 3, 5 - 2) = \\boxed{(9, 3)}$."
+    }
+]

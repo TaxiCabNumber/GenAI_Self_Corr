@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJavier is an Olympic javelin thrower.  In the last Olympics, he threw the javelin three times.  The first throw, he threw the javelin twice as far as he threw the javelin on his second throw, but only half as far as he threw it the third throw.  If the sum of all three throws was 1050 meters, then how far, in meters, did he throw the javelin on his first throw?",
+        "inference": "Let the distance of the second throw be 'x'.\nThe first throw is twice the second throw, so it is 2x.\nThe third throw is twice the first throw, so it is 2(2x) = 4x.\nThe sum of all three throws is 1050 meters.\n2x + x + 4x = 1050\n7x = 1050\nx = 1050 / 7\nx = 150\nThe first throw is 2x = 2 * 150 = 300 meters.\nI hope it is correct: 300 $meters$\n",
+        "ground_truth": "Let x be the distance he threw the javelin on the first throw.\nThus, the sum of his three throws is x+0.5x+2x=1050 meters.\nThus, 3.5x=1050.\nAnd we find the distance he threw the javelin on the first throw is x=<<300=300>>300 meters.\n#### 300"
+    },
+    {
+        "question": "Let the distance of the second throw be 'x'.\nThe first throw is twice the second throw, so it is 2x.\nThe third throw is twice the first throw, so it is 2(2x) = 4x.\nThe sum of all three throws is 1050 meters.\n2x + x + 4x = 1050\n7x = 1050\nx = 1050 / 7\nx = 150\nThe first throw is 2x = 2 * 150 = 300 meters.\nI hope it is correct: 300 $meters$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "Let the distance of the second throw be 'x'.\nThe first throw is twice the second throw, so it is 2x.\nThe third throw is twice the first throw, so it is 2(2x) = 4x.\nThe sum of all three throws is 1050 meters.\n2x + x + 4x = 1050\n7x = 1050\nx = 150\nThe second throw is x = 150 meters.\nThe first throw is 2x = 2 * 150 = 300 meters.\nThe third throw is 4x = 4 * 150 = 600 meters.\n\n#### $300$\n",
+        "ground_truth": "Let x be the distance he threw the javelin on the first throw.\nThus, the sum of his three throws is x+0.5x+2x=1050 meters.\nThus, 3.5x=1050.\nAnd we find the distance he threw the javelin on the first throw is x=<<300=300>>300 meters.\n#### 300"
+    }
+]

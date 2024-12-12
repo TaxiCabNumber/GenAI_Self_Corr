@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn hits 70% of his free throws.  For every foul he gets 2 shots.  He gets fouled 5 times a game.  How many free throws does he get if he plays in 80% of the 20 games the team plays?",
+        "inference": "1. Free throws per foul: 2 shots/foul\n2. Fouls per game: 5 fouls/game\n3. Free throws per game: 2 shots/foul * 5 fouls/game = 10 shots/game\n4. Games played: 0.80 * 20 games = 16 games\n5. Total free throws: 10 shots/game * 16 games = 160 free throws\n\nI hope it is correct: 160 $free throws$\n",
+        "ground_truth": "John plays in 20*.8=<<20*.8=16>>16 games\nThat means he gets fouled 16*5=<<16*5=80>>80 fouls\nSo he gets 80*2=<<80*2=160>>160 foul shots\nSo he makes 160*.7=<<160*.7=112>>112 free throws\n#### 112"
+    },
+    {
+        "question": "1. Free throws per foul: 2 shots/foul\n2. Fouls per game: 5 fouls/game\n3. Free throws per game: 2 shots/foul * 5 fouls/game = 10 shots/game\n4. Games played: 0.80 * 20 games = 16 games\n5. Total free throws: 10 shots/game * 16 games = 160 free throws\n\nI hope it is correct: 160 $free throws$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 160\n",
+        "ground_truth": "John plays in 20*.8=<<20*.8=16>>16 games\nThat means he gets fouled 16*5=<<16*5=80>>80 fouls\nSo he gets 80*2=<<80*2=160>>160 foul shots\nSo he makes 160*.7=<<160*.7=112>>112 free throws\n#### 112"
+    }
+]

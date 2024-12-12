@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nFarmer Brown raises emus, large birds. His flock has a total of 60 heads and legs. How many emus are in his flock?",
+        "inference": "Emus have 2 legs and 1 head.\nLet 'e' be the number of emus.\nThe total number of heads is 'e'.\nThe total number of legs is 2e.\nThe total heads and legs is e + 2e = 60.\n3e = 60\ne = 60/3\ne = 20\n\nI hope it is correct: 20 $answer$\n",
+        "ground_truth": "Each emu has 1+2=<<1+2=3>>3 heads and legs.\nThen the flock has 60/3=<<60/3=20>>20 animals.\n#### 20"
+    },
+    {
+        "question": "Emus have 2 legs and 1 head.\nLet 'e' be the number of emus.\nThe total number of heads is 'e'.\nThe total number of legs is 2e.\nThe total heads and legs is e + 2e = 60.\n3e = 60\ne = 60/3\ne = 20\n\nI hope it is correct: 20 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 20\n",
+        "ground_truth": "Each emu has 1+2=<<1+2=3>>3 heads and legs.\nThen the flock has 60/3=<<60/3=20>>20 animals.\n#### 20"
+    }
+]

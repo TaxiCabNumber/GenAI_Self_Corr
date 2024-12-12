@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSteve owns a lake shop that sells fish. He has a stock of 200 fish. He sells 50 fish and because his refrigerators stop working a third of the remaining fish become spoiled. A new stock of 200 more fish arrives. How many fish does he have in stock now?",
+        "inference": "1. Fish initially: 200\n2. Fish sold: 50\n3. Remaining fish: 200 - 50 = 150\n4. Spoiled fish: (1/3) * 150 = 50\n5. Fish remaining after spoilage: 150 - 50 = 100\n6. New stock arrives: 200\n7. Total fish now: 100 + 200 = 300\n\nI hope it is correct: 300 $answer$\n",
+        "ground_truth": "If he had 200 fish and sells 50, he is left with 200 - 50 = <<200-50=150>>150 fish\nIf a third of them get spoiled 1/3 * 150 = <<150*1/3=50>>50 fish get spoiled\nThe remaining number of fish is now 150 - 50 = <<150-50=100>>100\nHe then gets 200 more to make 100 + 200 = <<100+200=300>>300 fish\n#### 300"
+    },
+    {
+        "question": "1. Fish initially: 200\n2. Fish sold: 50\n3. Remaining fish: 200 - 50 = 150\n4. Spoiled fish: (1/3) * 150 = 50\n5. Fish remaining after spoilage: 150 - 50 = 100\n6. New stock arrives: 200\n7. Total fish now: 100 + 200 = 300\n\nI hope it is correct: 300 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $300$\n",
+        "ground_truth": "If he had 200 fish and sells 50, he is left with 200 - 50 = <<200-50=150>>150 fish\nIf a third of them get spoiled 1/3 * 150 = <<150*1/3=50>>50 fish get spoiled\nThe remaining number of fish is now 150 - 50 = <<150-50=100>>100\nHe then gets 200 more to make 100 + 200 = <<100+200=300>>300 fish\n#### 300"
+    }
+]

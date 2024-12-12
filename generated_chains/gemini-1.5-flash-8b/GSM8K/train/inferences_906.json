@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe bus started its route. At its first stop, 7 people got on. At the second stop, 3 people got off, and 5 people got on. At the third stop, 2 people got off, and 4 people got on. How many passengers are now on the bus?",
+        "inference": "1. Initial passengers: 0\n2. Stop 1: 0 + 7 = 7 passengers\n3. Stop 2: 7 - 3 + 5 = 9 passengers\n4. Stop 3: 9 - 2 + 4 = 11 passengers\n\nI hope it is correct: 11 $passengers$\n",
+        "ground_truth": "There are 7 people on the bus after the first stop.\nThere are 7+5-3=<<7+5-3=9>>9 people on the bus after the second stop.\nThere are 9+4-2=<<9+4-2=11>>11 people on the bus after the third stop.\n11 passengers are now on the bus.\n#### 11"
+    },
+    {
+        "question": "1. Initial passengers: 0\n2. Stop 1: 0 + 7 = 7 passengers\n3. Stop 2: 7 - 3 + 5 = 9 passengers\n4. Stop 3: 9 - 2 + 4 = 11 passengers\n\nI hope it is correct: 11 $passengers$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 11 passengers\n",
+        "ground_truth": "There are 7 people on the bus after the first stop.\nThere are 7+5-3=<<7+5-3=9>>9 people on the bus after the second stop.\nThere are 9+4-2=<<9+4-2=11>>11 people on the bus after the third stop.\n11 passengers are now on the bus.\n#### 11"
+    }
+]

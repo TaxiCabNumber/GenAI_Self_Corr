@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\n25 students average 84 on a test. Another group of 20 students averages 66. Find the overall average.",
+        "inference": "25 students average 84.  Total score for these students is 25 * 84 = 2100.\n20 students average 66. Total score for these students is 20 * 66 = 1320.\nTotal number of students is 25 + 20 = 45.\nTotal score for all students is 2100 + 1320 = 3420.\nOverall average is 3420 / 45 = 76.\nFinal Answer: $\\boxed{76}$\n",
+        "ground_truth": "To find the overall average, we find the total of all of the students' scores and then divide that sum by the total number of students. The average score is then equal to $$\\frac{(25)(84)+(20)(66)}{25+20}=\\frac{2100+1320}{45}=\\frac{3420}{45}=\\boxed{76}.$$"
+    },
+    {
+        "question": "25 students average 84.  Total score for these students is 25 * 84 = 2100.\n20 students average 66. Total score for these students is 20 * 66 = 1320.\nTotal number of students is 25 + 20 = 45.\nTotal score for all students is 2100 + 1320 = 3420.\nOverall average is 3420 / 45 = 76.\nFinal Answer: $\\boxed{76}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Let $S_1$ be the sum of scores of the first group of 25 students, and $S_2$ be the sum of scores of the second group of 20 students.\nThe average score of the first group of 25 students is 84. So, $\\frac{S_1}{25} = 84$, which means $S_1 = 25 \\times 84 = 2100$.\nThe average score of the second group of 20 students is 66. So, $\\frac{S_2}{20} = 66$, which means $S_2 = 20 \\times 66 = 1320$.\nThe total number of students is $25 + 20 = 45$.\nThe total sum of scores for all students is $S_1 + S_2 = 2100 + 1320 = 3420$.\nThe overall average score is $\\frac{3420}{45} = 76$.\n\nFinal Answer: $\\boxed{76}$",
+        "ground_truth": "To find the overall average, we find the total of all of the students' scores and then divide that sum by the total number of students. The average score is then equal to $$\\frac{(25)(84)+(20)(66)}{25+20}=\\frac{2100+1320}{45}=\\frac{3420}{45}=\\boxed{76}.$$"
+    }
+]

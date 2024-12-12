@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are some jelly beans in a jar. Three fourths of the jelly beans are red, and one quarter of the red jelly beans are coconut flavored. If 750 jelly beans are coconut flavored, how many jelly beans are there in the jar?",
+        "inference": "1. If 1/4 of the red jelly beans are coconut flavored, and 750 jelly beans are coconut flavored, then 750 jelly beans * 4 = 3000 red jelly beans.\n2. If 3/4 of the total jelly beans are red, and there are 3000 red jelly beans, then 3/4 * total jelly beans = 3000.\n3. To find the total number of jelly beans, we can solve for the total jelly beans: total jelly beans = 3000 * (4/3) = 4000.\n\nI hope it is correct: 4000 $answer$\n",
+        "ground_truth": "There are 750*4=<<750*4=3000>>3000 red jelly beans.\nThere are 3000/3*4=<<3000/3*4=4000>>4000 jelly beans in the jar.\n#### 4000"
+    },
+    {
+        "question": "1. If 1/4 of the red jelly beans are coconut flavored, and 750 jelly beans are coconut flavored, then 750 jelly beans * 4 = 3000 red jelly beans.\n2. If 3/4 of the total jelly beans are red, and there are 3000 red jelly beans, then 3/4 * total jelly beans = 3000.\n3. To find the total number of jelly beans, we can solve for the total jelly beans: total jelly beans = 3000 * (4/3) = 4000.\n\nI hope it is correct: 4000 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 4000\n",
+        "ground_truth": "There are 750*4=<<750*4=3000>>3000 red jelly beans.\nThere are 3000/3*4=<<3000/3*4=4000>>4000 jelly beans in the jar.\n#### 4000"
+    }
+]

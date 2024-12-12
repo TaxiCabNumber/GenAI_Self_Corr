@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRandy has some money in his piggy bank. He spends 2 dollars every time he goes to the store. He makes 4 trips to the store every month. If he had $104 dollars left in his piggy bank after a year, how much money, in dollars, did he have at first?",
+        "inference": "1. Money spent per month = $2/trip * 4 trips/month = $8/month\n2. Money spent per year = $8/month * 12 months/year = $96\n3. Initial amount = money left + money spent = $104 + $96 = $200\nI hope it is correct: 200$answer\n",
+        "ground_truth": "Randy spends 2*4=<<2*4=8>>8 dollars every month.\nRandy spends 8*12=<<8*12=96>>96 dollars in a year.\nRandy had 96+104=<<96+104=200>>200 dollars in his piggy bank at first.\n#### 200"
+    },
+    {
+        "question": "1. Money spent per month = $2/trip * 4 trips/month = $8/month\n2. Money spent per year = $8/month * 12 months/year = $96\n3. Initial amount = money left + money spent = $104 + $96 = $200\nI hope it is correct: 200$answer\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $200\n",
+        "ground_truth": "Randy spends 2*4=<<2*4=8>>8 dollars every month.\nRandy spends 8*12=<<8*12=96>>96 dollars in a year.\nRandy had 96+104=<<96+104=200>>200 dollars in his piggy bank at first.\n#### 200"
+    }
+]

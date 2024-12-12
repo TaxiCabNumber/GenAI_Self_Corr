@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAmanda needs 12 more marbles to have twice as many marbles as Katrina, and Mabel has 5 times as many marbles as Katrina. If Mabel has 85 marbles, how many more marbles does Mabel have than Amanda?",
+        "inference": "1. If Katrina has x marbles, then Amanda has x + 12 marbles and Mabel has 5x marbles.\n2. Since Mabel has 85 marbles, we can solve for x:\n5x = 85\nx = 17\n3. Therefore, Amanda has 17 + 12 = 29 marbles.\n4. Mabel has 85 marbles, so she has 85 - 29 = 56 more marbles than Amanda.\nI hope it is correct: 56",
+        "ground_truth": "Katrina has 85/5 = <<85/5=17>>17 marbles.\nTwice as many marbles as Katrina is 17 x 2 = <<17*2=34>>34\nAmanda has 34 -12 = <<34-12=22>>22 marbles.\nMabel has 85 - 22 = <<85-22=63>>63 more marbles than Amanda\n#### 63"
+    },
+    {
+        "question": "1. If Katrina has x marbles, then Amanda has x + 12 marbles and Mabel has 5x marbles.\n2. Since Mabel has 85 marbles, we can solve for x:\n5x = 85\nx = 17\n3. Therefore, Amanda has 17 + 12 = 29 marbles.\n4. Mabel has 85 marbles, so she has 85 - 29 = 56 more marbles than Amanda.\nI hope it is correct: 56\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$56",
+        "ground_truth": "Katrina has 85/5 = <<85/5=17>>17 marbles.\nTwice as many marbles as Katrina is 17 x 2 = <<17*2=34>>34\nAmanda has 34 -12 = <<34-12=22>>22 marbles.\nMabel has 85 - 22 = <<85-22=63>>63 more marbles than Amanda\n#### 63"
+    }
+]

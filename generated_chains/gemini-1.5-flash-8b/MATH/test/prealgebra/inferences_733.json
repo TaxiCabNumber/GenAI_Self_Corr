@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLine $l$ is a straight line. What is the value of $x$ in the diagram? [asy]\nsize(150); defaultpen(linewidth(0.8)); import geometry;\ndraw(origin--(10,0),Arrows);\npair X = (5,0) + 5*dir(80);\ndraw((5,0)--X,EndArrow);\nlabel(\"$x$\",(5.4,0),NE);\nlabel(\"$x+20^\\circ$\",(5,0),NW);\nlabel(\"$l$\",(0,0),NW);\n[/asy]",
+        "inference": "The angle labeled $x$ and the angle labeled $x+20^\\circ$ are adjacent angles on a straight line.  The sum of these angles is $180^\\circ$. Therefore,\n$x + (x + 20^\\circ) = 180^\\circ$\n$2x + 20^\\circ = 180^\\circ$\n$2x = 160^\\circ$\n$x = 80^\\circ$\n\nFinal Answer: $\\boxed{80}$",
+        "ground_truth": "Since the two angles together form a line, we have $x+ (x+20^\\circ) = 180^\\circ$.  Simplifying gives $2x + 20^\\circ = 180^\\circ$, so $2x = 160^\\circ$ and $x = \\boxed{80^\\circ}$."
+    },
+    {
+        "question": "The angle labeled $x$ and the angle labeled $x+20^\\circ$ are adjacent angles on a straight line.  The sum of these angles is $180^\\circ$. Therefore,\n$x + (x + 20^\\circ) = 180^\\circ$\n$2x + 20^\\circ = 180^\\circ$\n$2x = 160^\\circ$\n$x = 80^\\circ$\n\nFinal Answer: $\\boxed{80}$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The given information states that the angles $x$ and $x+20^\\circ$ are adjacent angles on a straight line.  This means they form a straight angle, so their sum is $180^\\circ$.\nThus, $x + (x + 20^\\circ) = 180^\\circ$.  \n$2x + 20^\\circ = 180^\\circ$\n$2x = 160^\\circ$\n$x = 80^\\circ$\n\nFinal Answer: $\\boxed{80}$",
+        "ground_truth": "Since the two angles together form a line, we have $x+ (x+20^\\circ) = 180^\\circ$.  Simplifying gives $2x + 20^\\circ = 180^\\circ$, so $2x = 160^\\circ$ and $x = \\boxed{80^\\circ}$."
+    }
+]

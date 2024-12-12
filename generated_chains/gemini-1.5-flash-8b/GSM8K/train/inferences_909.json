@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIn a compound, the number of cats is 20% less than the number of dogs. There are also twice as many frogs as the number of dogs in the compound. Calculate the total number of animals present in the compound if there are 160 frogs.",
+        "inference": "1. If there are 160 frogs, and frogs are twice the number of dogs, then there are 160 / 2 = 80 dogs.\n\n2. Cats are 20% less than dogs, meaning there are 80 * (1 - 0.20) = 80 * 0.80 = 64 cats.\n\n3. Total animals: 80 (dogs) + 64 (cats) + 160 (frogs) = 304\n\nI hope it is correct: 304 $\n",
+        "ground_truth": "There are twice as many frogs as dogs in the compound, meaning there are 160/2 = <<160/2=80>>80 dogs.\nThe total number of frogs and dogs in the compound is 80+160 = <<80+160=240>>240\nThe number of cats is less than 20% of the number of dogs, which means there are 20/100*80 = <<20/100*80=16>>16 dogs more than the number of cats.\nTherefore, the number of cats is 80-16 = <<80-16=64>>64 cats\nThe total number of animals in the compound is 64 cats +240 dogs and frogs = <<64+240=304>>304 animals.\n#### 304"
+    },
+    {
+        "question": "1. If there are 160 frogs, and frogs are twice the number of dogs, then there are 160 / 2 = 80 dogs.\n\n2. Cats are 20% less than dogs, meaning there are 80 * (1 - 0.20) = 80 * 0.80 = 64 cats.\n\n3. Total animals: 80 (dogs) + 64 (cats) + 160 (frogs) = 304\n\nI hope it is correct: 304 $\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 304\n",
+        "ground_truth": "There are twice as many frogs as dogs in the compound, meaning there are 160/2 = <<160/2=80>>80 dogs.\nThe total number of frogs and dogs in the compound is 80+160 = <<80+160=240>>240\nThe number of cats is less than 20% of the number of dogs, which means there are 20/100*80 = <<20/100*80=16>>16 dogs more than the number of cats.\nTherefore, the number of cats is 80-16 = <<80-16=64>>64 cats\nThe total number of animals in the compound is 64 cats +240 dogs and frogs = <<64+240=304>>304 animals.\n#### 304"
+    }
+]

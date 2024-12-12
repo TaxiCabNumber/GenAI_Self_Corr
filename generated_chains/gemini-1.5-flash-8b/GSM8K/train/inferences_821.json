@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSammy can eat 15 pickle slices.  His twin sister Tammy can eat twice as much as Sammy.  Their older brother Ron eats 20% fewer pickles slices than Tammy.  How many pickle slices does Ron eat?",
+        "inference": "1. Sammy eats 15 pickle slices.\n2. Tammy eats twice as much as Sammy, so Tammy eats 15 * 2 = 30 pickle slices.\n3. Ron eats 20% fewer pickle slices than Tammy.  20% of 30 is (20/100) * 30 = 6 pickle slices.\n4. Ron eats 30 - 6 = 24 pickle slices.\nI hope it is correct: 24 $\n",
+        "ground_truth": "Tammy can eat twice as many pickle slices as Sammy who eats 15 so Tammy can eat 15*2 = <<15*2=30>>30 pickle slices\nRon eats 20% fewer pickle slices than Tammy who eats 30 pickle slices so that's .20*30 = <<20*.01*30=6>>6 fewer slices than Tammy\nTammy eats 30 slices and Ron eats 6 less, then Ron eats 30-6 = <<30-6=24>>24 pickle slices\n#### 24"
+    },
+    {
+        "question": "1. Sammy eats 15 pickle slices.\n2. Tammy eats twice as much as Sammy, so Tammy eats 15 * 2 = 30 pickle slices.\n3. Ron eats 20% fewer pickle slices than Tammy.  20% of 30 is (20/100) * 30 = 6 pickle slices.\n4. Ron eats 30 - 6 = 24 pickle slices.\nI hope it is correct: 24 $\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 24\n",
+        "ground_truth": "Tammy can eat twice as many pickle slices as Sammy who eats 15 so Tammy can eat 15*2 = <<15*2=30>>30 pickle slices\nRon eats 20% fewer pickle slices than Tammy who eats 30 pickle slices so that's .20*30 = <<20*.01*30=6>>6 fewer slices than Tammy\nTammy eats 30 slices and Ron eats 6 less, then Ron eats 30-6 = <<30-6=24>>24 pickle slices\n#### 24"
+    }
+]

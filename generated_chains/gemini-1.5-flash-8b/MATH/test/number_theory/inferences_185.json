@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe least common multiple of two numbers is 3720, and their greatest common divisor is 8. Given that one of the numbers is 120, what is the other number?",
+        "inference": "Let the two numbers be $a$ and $b$.\nWe are given that $\\text{lcm}(a, b) = 3720$ and $\\text{gcd}(a, b) = 8$.\nAlso, $a = 120$.\nWe know that $\\text{lcm}(a, b) \\times \\text{gcd}(a, b) = a \\times b$.\nThus, $3720 \\times 8 = 120 \\times b$.\n$29760 = 120 \\times b$.\n$b = \\frac{29760}{120}$.\n$b = 248$.\nFinal Answer: $\\boxed{248}$\n",
+        "ground_truth": "We know that $\\gcd(a,b) \\cdot \\mathop{\\text{lcm}}[a,b] = ab$ for all positive integers $a$ and $b$.  Hence, in this case, the other number is $8 \\cdot 3720/120 = \\boxed{248}$."
+    },
+    {
+        "question": "Let the two numbers be $a$ and $b$.\nWe are given that $\\text{lcm}(a, b) = 3720$ and $\\text{gcd}(a, b) = 8$.\nAlso, $a = 120$.\nWe know that $\\text{lcm}(a, b) \\times \\text{gcd}(a, b) = a \\times b$.\nThus, $3720 \\times 8 = 120 \\times b$.\n$29760 = 120 \\times b$.\n$b = \\frac{29760}{120}$.\n$b = 248$.\nFinal Answer: $\\boxed{248}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "We are given that $\\text{lcm}(a, b) = 3720$, $\\text{gcd}(a, b) = 8$, and $a = 120$. We know that $\\text{lcm}(a, b) \\times \\text{gcd}(a, b) = a \\times b$.\nPlugging in the given values, we have $3720 \\times 8 = 120 \\times b$.\n$29760 = 120b$.\n$b = \\frac{29760}{120} = 248$.\n\nFinal Answer: $\\boxed{248}$",
+        "ground_truth": "We know that $\\gcd(a,b) \\cdot \\mathop{\\text{lcm}}[a,b] = ab$ for all positive integers $a$ and $b$.  Hence, in this case, the other number is $8 \\cdot 3720/120 = \\boxed{248}$."
+    }
+]

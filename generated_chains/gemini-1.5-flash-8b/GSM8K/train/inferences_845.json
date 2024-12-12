@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIn a show, there can be 5 actors at a time. Every actor is in the show for about 15 minutes, and then another 5 actors come in. How many actors can there be on the show in 1 hour?",
+        "inference": "1 hour = 60 minutes.\nEach actor is on for 15 minutes.\nIn 15 minutes, 5 actors can be on the show.\nIn 60 minutes (1 hour), there are 60 minutes / 15 minutes/actor = 4 sets of 15 minutes.\nIn each set of 15 minutes, 5 actors can be on the show.\nSo, in 1 hour, there can be 5 actors * 4 sets = 20 actors.\nI hope it is correct: 20 $actors$\n",
+        "ground_truth": "One hour is 60 minutes, so there can be 60 / 15 = <<60/15=4>>4 different sets of actors.\nThis means, that during one hour there can be 4 * 5 = <<4*5=20>>20 different actors in the show.\n#### 20"
+    },
+    {
+        "question": "1 hour = 60 minutes.\nEach actor is on for 15 minutes.\nIn 15 minutes, 5 actors can be on the show.\nIn 60 minutes (1 hour), there are 60 minutes / 15 minutes/actor = 4 sets of 15 minutes.\nIn each set of 15 minutes, 5 actors can be on the show.\nSo, in 1 hour, there can be 5 actors * 4 sets = 20 actors.\nI hope it is correct: 20 $actors$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 20\n",
+        "ground_truth": "One hour is 60 minutes, so there can be 60 / 15 = <<60/15=4>>4 different sets of actors.\nThis means, that during one hour there can be 4 * 5 = <<4*5=20>>20 different actors in the show.\n#### 20"
+    }
+]

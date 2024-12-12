@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn any month with a Friday the Thirteenth, what day of the week is the first day of the same month?",
+        "inference": "1. A Friday the 13th means that the 13th day of the month falls on a Friday.\n2. Since the week repeats every 7 days, the 6th day of the month falls 7 days prior to the 13th, which is a Friday - 7 = Monday.\n3. The 6th day of the month is one day after the 5th, which is two days after the 4th, etc. Each day is a difference of one day before the previous day.\n4. Thus, the first day of the month is the day which is 5 days prior to the 6th day, which is Monday - 5 = Saturday.\n\nFinal Answer: $\\boxed{Saturday}$ I hope it is correct.\n",
+        "ground_truth": "If the 13th is a Friday, then the 14th is a Saturday, and the 15th is a Sunday.  Subtracting 14 days (which is two weeks), we find that the first of the month is also a $\\boxed{\\text{Sunday}}$."
+    },
+    {
+        "question": "1. A Friday the 13th means that the 13th day of the month falls on a Friday.\n2. Since the week repeats every 7 days, the 6th day of the month falls 7 days prior to the 13th, which is a Friday - 7 = Monday.\n3. The 6th day of the month is one day after the 5th, which is two days after the 4th, etc. Each day is a difference of one day before the previous day.\n4. Thus, the first day of the month is the day which is 5 days prior to the 6th day, which is Monday - 5 = Saturday.\n\nFinal Answer: $\\boxed{Saturday}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct.\n\n$\\boxed{Saturday}$\n",
+        "ground_truth": "If the 13th is a Friday, then the 14th is a Saturday, and the 15th is a Sunday.  Subtracting 14 days (which is two weeks), we find that the first of the month is also a $\\boxed{\\text{Sunday}}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA coffee shop brews 10 coffee cups per hour on a weekday and 120 coffee cups in total over the weekend. If the coffee shop is open 5 hours a day every single day, how many coffee cups are brewed in 1 week?",
+        "inference": "Weekday coffee cups per day: 10 cups/hour * 5 hours/day = 50 cups/day\nWeekday coffee cups per week: 50 cups/day * 5 days/week = 250 cups\nWeekend coffee cups per week: 120 cups\n\nTotal coffee cups per week: 250 cups + 120 cups = 370 cups\n\nI hope it is correct: 370 $answer$\n",
+        "ground_truth": "On a weekday, the shop produces 10 coffee cups per hour * 5 hours per weekday = <<10*5=50>>50 coffee cups.\nThe coffee shop therefore brewed 50 coffee cups per day * 5 weekdays in a week = <<50*5=250>>250 coffee cups.\nSo in total, the coffee shop brewed a total of 250 weekday coffee cups + 120 weekend coffee cups = <<250+120=370>>370 coffee cups in 1 week.\n#### 370"
+    },
+    {
+        "question": "Weekday coffee cups per day: 10 cups/hour * 5 hours/day = 50 cups/day\nWeekday coffee cups per week: 50 cups/day * 5 days/week = 250 cups\nWeekend coffee cups per week: 120 cups\n\nTotal coffee cups per week: 250 cups + 120 cups = 370 cups\n\nI hope it is correct: 370 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 370\n",
+        "ground_truth": "On a weekday, the shop produces 10 coffee cups per hour * 5 hours per weekday = <<10*5=50>>50 coffee cups.\nThe coffee shop therefore brewed 50 coffee cups per day * 5 weekdays in a week = <<50*5=250>>250 coffee cups.\nSo in total, the coffee shop brewed a total of 250 weekday coffee cups + 120 weekend coffee cups = <<250+120=370>>370 coffee cups in 1 week.\n#### 370"
+    }
+]

@@ -18,8 +18,6 @@ def load_idx(output_path):
 
 
 
-
-
 def generate_dataset(dataset_path, model_name, output_path, number_of_rounds, init_prompt=initial_prompt, self_corr_prompt=self_correcting_prompt, dataset_format="json"):
     """
     Main routine to handle external datasets, generate inferences, and compile training data.
@@ -111,10 +109,10 @@ def generate_dataset(dataset_path, model_name, output_path, number_of_rounds, in
 if __name__ == "__main__":
     MODEL_NAME = "gemini-1.5-flash-8b"
     dataset_path = "./data/MATH/train/precalculus"
-    output_path="generated_dataset/MATH/train/precalculus"
+    output_path="generated_chains/MATH/train/precalculus"
 
     parser = argparse.ArgumentParser(description="Generate dataset with inferences.")
-    parser.add_argument("--dataset_path", type=str, default="./generated_dataset", required=True, help="Path to the external dataset file.")
+    parser.add_argument("--dataset_path", type=str, default="./generated_chains", required=True, help="Path to the external dataset file.")
     parser.add_argument("--model_name", type=str, default=MODEL_NAME, required=True, help="Gemini model name for inference generation.")
     parser.add_argument("--output_path", type=str, default="./data", required=True, help="Path to save the processed dataset.")
     parser.add_argument("--number_of_rounds", type=int, default=1, help="Number of self-correcting rounds.")

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIn a card game, you are awarded 10 points if you win one round. While playing, Jane ends up with 60 points. If she lost 20 points, then how many rounds did she play?",
+        "inference": "Jane's total points: 60\nPoints lost: 20\nPoints gained per round: 10\nPoints before losing 20: 60 + 20 = 80\nNumber of rounds won: 80 / 10 = 8\nI hope it is correct: 8 $rounds$\n",
+        "ground_truth": "If Jane got 60 points and lost 20 points then the total number of points she accumulated in all the rounds was 60+20 = <<60+20=80>>80 points.\nIf each round is awarded 10 points, then the number of rounds will be 80/10 = <<80/10=8>>8 rounds.\n#### 8"
+    },
+    {
+        "question": "Jane's total points: 60\nPoints lost: 20\nPoints gained per round: 10\nPoints before losing 20: 60 + 20 = 80\nNumber of rounds won: 80 / 10 = 8\nI hope it is correct: 8 $rounds$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "Jane's total points: 60\nPoints lost: 20\nPoints gained per round: 10\n\nPoints before losing 20:  60 + 20 = 80\nPoints lost are NOT part of the calculation to find the number of rounds won.  We need to find the number of rounds *after* the loss to determine the number of rounds played.\n\nOriginal points + points gained from rounds = 60\nNumber of rounds won: 60 / 10 = 6\n#### $6$\n",
+        "ground_truth": "If Jane got 60 points and lost 20 points then the total number of points she accumulated in all the rounds was 60+20 = <<60+20=80>>80 points.\nIf each round is awarded 10 points, then the number of rounds will be 80/10 = <<80/10=8>>8 rounds.\n#### 8"
+    }
+]

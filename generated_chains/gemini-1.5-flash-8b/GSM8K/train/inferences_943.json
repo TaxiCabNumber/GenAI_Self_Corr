@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJavier is selling donuts to raise money for a new game. He wants to raise $96. He buys each dozen donuts for $2.40 and then sells each donut for $1. How many dozen donuts does he need to buy and sell to reach his goal?",
+        "inference": "1. Calculate the profit per dozen:  $1/donut * 12 donuts/dozen = $12/dozen\n2. Calculate the profit margin per dozen: $12/dozen - $2.40/dozen = $9.60/dozen\n3. Divide the fundraising goal by the profit per dozen: $96/$9.60/dozen = 10 dozen\nI hope it is correct: 10 $dozen\n",
+        "ground_truth": "Every donut costs him $.2 because 2.4 divided by 12 equals <<2.4/12=.2>>.2\nSo he makes $.8 for every donut he sells because $1 minus $.2 equals .8\nHe needs to sell 120 donuts because 96 divided by .8 equals <<96/.8=120>>120.\nHe needs to buy and sell 10 dozen donuts because 120 divided by 12 equals <<120/12=10>>10\n#### 10"
+    },
+    {
+        "question": "1. Calculate the profit per dozen:  $1/donut * 12 donuts/dozen = $12/dozen\n2. Calculate the profit margin per dozen: $12/dozen - $2.40/dozen = $9.60/dozen\n3. Divide the fundraising goal by the profit per dozen: $96/$9.60/dozen = 10 dozen\nI hope it is correct: 10 $dozen\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $10 dozen\n",
+        "ground_truth": "Every donut costs him $.2 because 2.4 divided by 12 equals <<2.4/12=.2>>.2\nSo he makes $.8 for every donut he sells because $1 minus $.2 equals .8\nHe needs to sell 120 donuts because 96 divided by .8 equals <<96/.8=120>>120.\nHe needs to buy and sell 10 dozen donuts because 120 divided by 12 equals <<120/12=10>>10\n#### 10"
+    }
+]

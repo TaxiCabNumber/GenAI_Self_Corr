@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAmanda needs 12 more marbles to have twice as many marbles as Katrina, and Mabel has 5 times as many marbles as Katrina. If Mabel has 85 marbles, how many more marbles does Mabel have than Amanda?",
+        "inference": "1. Mabel has 85 marbles, and Mabel has 5 times as many marbles as Katrina.  Therefore, Katrina has 85/5 = 17 marbles.\n\n2. Amanda needs 12 more marbles to have twice as many marbles as Katrina.  Katrina has 17 marbles, so Amanda needs 17 * 2 = 34 marbles.  Amanda currently has 34 - 12 = 22 marbles.\n\n3. Mabel has 85 marbles, and Amanda has 22 marbles.  The difference is 85 - 22 = 63 marbles.\n\nI hope it is correct: 63 $marbles$\n",
+        "ground_truth": "Katrina has 85/5 = <<85/5=17>>17 marbles.\nTwice as many marbles as Katrina is 17 x 2 = <<17*2=34>>34\nAmanda has 34 -12 = <<34-12=22>>22 marbles.\nMabel has 85 - 22 = <<85-22=63>>63 more marbles than Amanda\n#### 63"
+    },
+    {
+        "question": "1. Mabel has 85 marbles, and Mabel has 5 times as many marbles as Katrina.  Therefore, Katrina has 85/5 = 17 marbles.\n\n2. Amanda needs 12 more marbles to have twice as many marbles as Katrina.  Katrina has 17 marbles, so Amanda needs 17 * 2 = 34 marbles.  Amanda currently has 34 - 12 = 22 marbles.\n\n3. Mabel has 85 marbles, and Amanda has 22 marbles.  The difference is 85 - 22 = 63 marbles.\n\nI hope it is correct: 63 $marbles$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 63\n",
+        "ground_truth": "Katrina has 85/5 = <<85/5=17>>17 marbles.\nTwice as many marbles as Katrina is 17 x 2 = <<17*2=34>>34\nAmanda has 34 -12 = <<34-12=22>>22 marbles.\nMabel has 85 - 22 = <<85-22=63>>63 more marbles than Amanda\n#### 63"
+    }
+]

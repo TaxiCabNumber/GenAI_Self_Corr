@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJames buys 3 dirt bikes for $150 each and 4 off-road vehicles for $300 each.  It also cost him $25 to register each of these.  How much did he pay for everything?",
+        "inference": "1. Cost of dirt bikes: 3 dirt bikes * $150/dirt bike = $450\n2. Cost of off-road vehicles: 4 off-road vehicles * $300/off-road vehicle = $1200\n3. Total cost of bikes and vehicles: $450 + $1200 = $1650\n4. Registration cost: (3 + 4) dirt bikes and off-road vehicles * $25/vehicle = 7 * $25 = $175\n5. Total cost: $1650 + $175 = $1825\n\nI hope it is correct: $1825\n",
+        "ground_truth": "The dirtbikes cost 3*150=$<<3*150=450>>450\nThe off-road vehicles cost 300*4=$<<300*4=1200>>1200\nHe had to register 3+4=<<3+4=7>>7 vehicles\nThat means registration cost 25*7=$<<25*7=175>>175\nSo the total cost of everything was 450+1200+175=$<<450+1200+175=1825>>1825\n#### 1825"
+    },
+    {
+        "question": "1. Cost of dirt bikes: 3 dirt bikes * $150/dirt bike = $450\n2. Cost of off-road vehicles: 4 off-road vehicles * $300/off-road vehicle = $1200\n3. Total cost of bikes and vehicles: $450 + $1200 = $1650\n4. Registration cost: (3 + 4) dirt bikes and off-road vehicles * $25/vehicle = 7 * $25 = $175\n5. Total cost: $1650 + $175 = $1825\n\nI hope it is correct: $1825\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $1825\n",
+        "ground_truth": "The dirtbikes cost 3*150=$<<3*150=450>>450\nThe off-road vehicles cost 300*4=$<<300*4=1200>>1200\nHe had to register 3+4=<<3+4=7>>7 vehicles\nThat means registration cost 25*7=$<<25*7=175>>175\nSo the total cost of everything was 450+1200+175=$<<450+1200+175=1825>>1825\n#### 1825"
+    }
+]

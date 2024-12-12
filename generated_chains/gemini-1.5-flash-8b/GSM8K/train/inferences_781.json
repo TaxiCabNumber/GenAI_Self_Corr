@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nI went to the music shop and there were CDs of The Life Journey for $100, A Day a Life for $50, and When You Rescind for $85 on display. If I bought 3 of each CD to share with my friends, what's the total amount of money I spent in the shop?",
+        "inference": "1. The Life Journey CDs cost $100 each.  3 CDs cost 3 * $100 = $300.\n2. A Day a Life CDs cost $50 each. 3 CDs cost 3 * $50 = $150.\n3. When You Rescind CDs cost $85 each. 3 CDs cost 3 * $85 = $255.\n4. Total spent: $300 + $150 + $255 = $705.\n\nI hope it is correct: $705\n",
+        "ground_truth": "The total cost of The Life Journey is 3 \u00d7 $100 = $<<3*100=300>>300.\nThe total cost of When You Rescind is 3 \u00d7 $85 = $<<3*85=255>>255.\nThe total cost of A Day a Life is 3 \u00d7 $50 = $<<3*50=150>>150.\nThe total cost for all the CDs is $150 + $255 + $300 = $<<150+255+300=705>>705.\n#### 705"
+    },
+    {
+        "question": "1. The Life Journey CDs cost $100 each.  3 CDs cost 3 * $100 = $300.\n2. A Day a Life CDs cost $50 each. 3 CDs cost 3 * $50 = $150.\n3. When You Rescind CDs cost $85 each. 3 CDs cost 3 * $85 = $255.\n4. Total spent: $300 + $150 + $255 = $705.\n\nI hope it is correct: $705\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $705\n",
+        "ground_truth": "The total cost of The Life Journey is 3 \u00d7 $100 = $<<3*100=300>>300.\nThe total cost of When You Rescind is 3 \u00d7 $85 = $<<3*85=255>>255.\nThe total cost of A Day a Life is 3 \u00d7 $50 = $<<3*50=150>>150.\nThe total cost for all the CDs is $150 + $255 + $300 = $<<150+255+300=705>>705.\n#### 705"
+    }
+]

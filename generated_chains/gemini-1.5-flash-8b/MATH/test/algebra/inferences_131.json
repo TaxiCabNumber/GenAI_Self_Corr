@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nGiven that $2x - 3y = 8$ and $4x + 3y = -2$, what is the product of $x$ and $y$?",
+        "inference": "Adding the two equations gives\n$$(2x - 3y) + (4x + 3y) = 8 + (-2)$$\n$$6x = 6$$\n$$x = 1$$\nSubstituting $x=1$ into $2x - 3y = 8$, we get\n$$2(1) - 3y = 8$$\n$$2 - 3y = 8$$\n$$-3y = 6$$\n$$y = -2$$\nThe product of $x$ and $y$ is\n$$xy = (1)(-2) = -2$$\nFinal Answer: $\\boxed{-2}$ I hope it is correct.\n",
+        "ground_truth": "Adding the two equations gives $6x = 6$, so $x=1$.  Substituting this into the first equation gives $2 - 3y = 8$.  Solving for $y$ gives $y=-2$, so $xy = \\boxed{-2}$."
+    },
+    {
+        "question": "Adding the two equations gives\n$$(2x - 3y) + (4x + 3y) = 8 + (-2)$$\n$$6x = 6$$\n$$x = 1$$\nSubstituting $x=1$ into $2x - 3y = 8$, we get\n$$2(1) - 3y = 8$$\n$$2 - 3y = 8$$\n$$-3y = 6$$\n$$y = -2$$\nThe product of $x$ and $y$ is\n$$xy = (1)(-2) = -2$$\nFinal Answer: $\\boxed{-2}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct.\n\n$\\boxed{-2}$\n",
+        "ground_truth": "Adding the two equations gives $6x = 6$, so $x=1$.  Substituting this into the first equation gives $2 - 3y = 8$.  Solving for $y$ gives $y=-2$, so $xy = \\boxed{-2}$."
+    }
+]

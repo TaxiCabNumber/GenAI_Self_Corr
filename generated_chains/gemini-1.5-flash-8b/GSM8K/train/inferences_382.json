@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIt takes David 10 minutes to wash 4 windows.  David's house has 64 windows.  How many minutes will it take David to wash all of the windows?",
+        "inference": "1. Calculate the time to wash one window: 10 minutes / 4 windows = 2.5 minutes/window.\n2. Calculate the total time to wash all windows: 2.5 minutes/window * 64 windows = 160 minutes.\n\nI hope it is correct: 160 $minutes$\n",
+        "ground_truth": "It takes 10 minutes to wash 4 windows and he has 64 windows so that breaks down to 64/4 = 16 units\nIt takes 10 minutes to wash a unit of windows and he has 16 units so 10*16 = <<10*16=160>>160 minutes\n#### 160"
+    },
+    {
+        "question": "1. Calculate the time to wash one window: 10 minutes / 4 windows = 2.5 minutes/window.\n2. Calculate the total time to wash all windows: 2.5 minutes/window * 64 windows = 160 minutes.\n\nI hope it is correct: 160 $minutes$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 160 minutes\n",
+        "ground_truth": "It takes 10 minutes to wash 4 windows and he has 64 windows so that breaks down to 64/4 = 16 units\nIt takes 10 minutes to wash a unit of windows and he has 16 units so 10*16 = <<10*16=160>>160 minutes\n#### 160"
+    }
+]

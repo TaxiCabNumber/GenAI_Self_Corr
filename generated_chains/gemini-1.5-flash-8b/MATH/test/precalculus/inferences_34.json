@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} = -8,$ then find\n\\[\\begin{vmatrix} b & a \\\\ d & c \\end{vmatrix}.\\]",
+        "inference": "The determinant of a 2x2 matrix $\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ is $ad - bc$. We are given that $\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} = -8.$\nWe have $ad - bc = -8$.\nWe want to find $\\begin{vmatrix} b & a \\\\ d & c \\end{vmatrix}$.\nThe determinant of the matrix $\\begin{pmatrix} b & a \\\\ d & c \\end{pmatrix}$ is $bc - ad$.\nSince $ad - bc = -8$, then $bc - ad = -(ad - bc) = -(-8) = 8$.\nFinal Answer: $\\boxed{8}$",
+        "ground_truth": "Since $\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} = -8,$ $ad - bc = -8.$  Then\n\\[\\begin{vmatrix} b & a \\\\ d & c \\end{vmatrix} = bc - ad = \\boxed{8}.\\](Why does this make sense geometrically?)"
+    },
+    {
+        "question": "The determinant of a 2x2 matrix $\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ is $ad - bc$. We are given that $\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} = -8.$\nWe have $ad - bc = -8$.\nWe want to find $\\begin{vmatrix} b & a \\\\ d & c \\end{vmatrix}$.\nThe determinant of the matrix $\\begin{pmatrix} b & a \\\\ d & c \\end{pmatrix}$ is $bc - ad$.\nSince $ad - bc = -8$, then $bc - ad = -(ad - bc) = -(-8) = 8$.\nFinal Answer: $\\boxed{8}$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The determinant of the matrix $\\begin{pmatrix} b & a \\\\ d & c \\end{pmatrix}$ is $bc - ad$.  Given $ad - bc = -8$, we have $bc - ad = -(ad - bc) = -(-8) = 8$.\n\nFinal Answer: $\\boxed{8}$",
+        "ground_truth": "Since $\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} = -8,$ $ad - bc = -8.$  Then\n\\[\\begin{vmatrix} b & a \\\\ d & c \\end{vmatrix} = bc - ad = \\boxed{8}.\\](Why does this make sense geometrically?)"
+    }
+]

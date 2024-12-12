@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJar A has 28 marbles. Jar B has 12 more marbles than jar A. Jar C has twice as many marbles as jar B. How many marbles are there altogether?",
+        "inference": "1. Marbles in Jar B: 28 + 12 = 40\n2. Marbles in Jar C: 40 * 2 = 80\n3. Total marbles: 28 + 40 + 80 = 148\n\nI hope it is correct: 148 $answer$\n",
+        "ground_truth": "Jar B has 28 + 12 = <<28+12=40>>40 marbles.\nJar C has 2 x 40 = <<2*40=80>>80 marbles.\nTherefore, there are 28 + 40 + 80 = <<28+40+80=148>>148 marbles altogether.\n#### 148"
+    },
+    {
+        "question": "1. Marbles in Jar B: 28 + 12 = 40\n2. Marbles in Jar C: 40 * 2 = 80\n3. Total marbles: 28 + 40 + 80 = 148\n\nI hope it is correct: 148 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 148\n",
+        "ground_truth": "Jar B has 28 + 12 = <<28+12=40>>40 marbles.\nJar C has 2 x 40 = <<2*40=80>>80 marbles.\nTherefore, there are 28 + 40 + 80 = <<28+40+80=148>>148 marbles altogether.\n#### 148"
+    }
+]

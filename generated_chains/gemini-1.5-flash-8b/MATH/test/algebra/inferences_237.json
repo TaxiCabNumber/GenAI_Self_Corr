@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is $1 + 2 + 3 + \\cdots + 98 + 99 + 100$?",
+        "inference": "The sum of the first $n$ natural numbers is given by the formula $\\frac{n(n+1)}{2}$.\nIn this case, $n = 100$.\nSo the sum is $\\frac{100(100+1)}{2} = \\frac{100(101)}{2} = 50(101) = 5050$.\nFinal Answer: $\\boxed{5050}$\n",
+        "ground_truth": "For all $n$, $1 + 2 + \\dots + n = n(n + 1)/2$, so $1 + 2 + \\dots + 100 = 100 \\cdot 101/2 = \\boxed{5050}$."
+    },
+    {
+        "question": "The sum of the first $n$ natural numbers is given by the formula $\\frac{n(n+1)}{2}$.\nIn this case, $n = 100$.\nSo the sum is $\\frac{100(100+1)}{2} = \\frac{100(101)}{2} = 50(101) = 5050$.\nFinal Answer: $\\boxed{5050}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The sum of the first $n$ natural numbers is given by the formula $\\frac{n(n+1)}{2}$.\nIn this case, $n = 100$.\nThe sum is $\\frac{100(100+1)}{2} = \\frac{100(101)}{2} = 50(101) = 5050$.\n\n$\\boxed{5050}$\n",
+        "ground_truth": "For all $n$, $1 + 2 + \\dots + n = n(n + 1)/2$, so $1 + 2 + \\dots + 100 = 100 \\cdot 101/2 = \\boxed{5050}$."
+    }
+]

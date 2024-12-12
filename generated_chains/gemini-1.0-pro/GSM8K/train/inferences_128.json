@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA school principal is booking hotel rooms for a class of 30 students to stay at during an overnight field trip.  Each of the hotel's rooms has two queen size beds, which can fit two students each, and a pull-out couch, which can fit one student.  How many rooms does the principal need to book to fit all of the students in the class?",
+        "inference": "Each room can fit 2 students in each queen size bed and one student in the pull-out couch for a total of 5 students per room.\n\n30 students / 5 students per room = 6 rooms\n\nI hope it is correct: 6 $rooms$.",
+        "ground_truth": "Each room can fit 2*2 + 1 = <<2*2+1=5>>5 students.\nThus, the principal needs to book 30/5 = <<30/5=6>>6 rooms to fit everyone.\n#### 6"
+    },
+    {
+        "question": "Each room can fit 2 students in each queen size bed and one student in the pull-out couch for a total of 5 students per room.\n\n30 students / 5 students per room = 6 rooms\n\nI hope it is correct: 6 $rooms$.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 6 $rooms$",
+        "ground_truth": "Each room can fit 2*2 + 1 = <<2*2+1=5>>5 students.\nThus, the principal needs to book 30/5 = <<30/5=6>>6 rooms to fit everyone.\n#### 6"
+    }
+]

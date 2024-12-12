@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAt the beginning of the day there were 74 apples in a basket. If Ricki removes 14 apples and Samson removes twice as many as Ricki. How many apples are left in the basket by the end of the day?",
+        "inference": "Ricki removed 14 apples.\nSamson removed twice as many as Ricki, so Samson removed 14 * 2 = 28 apples.\nTotal apples removed = 14 + 28 = 42 apples.\nTotal apples left = 74 - 42 = 32 apples.\nI hope it is correct: 32 $apples$\n",
+        "ground_truth": "There are 74-14 = <<74-14=60>>60 apples left after Ricki removes some.\nSamson removes 14*2 = <<14*2=28>>28 apples.\nThere are 60-28 = <<60-28=32>>32 apples left after Samson removes some.\n#### 32"
+    },
+    {
+        "question": "Ricki removed 14 apples.\nSamson removed twice as many as Ricki, so Samson removed 14 * 2 = 28 apples.\nTotal apples removed = 14 + 28 = 42 apples.\nTotal apples left = 74 - 42 = 32 apples.\nI hope it is correct: 32 $apples$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 32 apples\n",
+        "ground_truth": "There are 74-14 = <<74-14=60>>60 apples left after Ricki removes some.\nSamson removes 14*2 = <<14*2=28>>28 apples.\nThere are 60-28 = <<60-28=32>>32 apples left after Samson removes some.\n#### 32"
+    }
+]

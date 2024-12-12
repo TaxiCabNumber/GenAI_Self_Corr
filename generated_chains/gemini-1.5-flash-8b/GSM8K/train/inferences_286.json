@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere were 18 students assigned in a minibus for a field trip. Eight of these students were boys. On the day of the field trip, the number of girls and boys was the same since some of the girls were not able to join the trip. How many girls were not able to join the field trip?",
+        "inference": "1. Total students = 18\n2. Boys = 8\n3. Girls = 18 - 8 = 10\n4. On the trip, girls = boys\n5. Boys on trip = 8\n6. Girls on trip = 8\n7. Girls not able to join = Total girls - Girls on trip = 10 - 8 = 2\n\nI hope it is correct: 2 $girls$\n",
+        "ground_truth": "8 boys + 8 girls = <<8+8=16>>16 students joined the field trip.\nThus, 18 - 16 = <<18-16=2>>2 girls were not able to join the field trip.\n#### 2"
+    },
+    {
+        "question": "1. Total students = 18\n2. Boys = 8\n3. Girls = 18 - 8 = 10\n4. On the trip, girls = boys\n5. Boys on trip = 8\n6. Girls on trip = 8\n7. Girls not able to join = Total girls - Girls on trip = 10 - 8 = 2\n\nI hope it is correct: 2 $girls$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 2\n",
+        "ground_truth": "8 boys + 8 girls = <<8+8=16>>16 students joined the field trip.\nThus, 18 - 16 = <<18-16=2>>2 girls were not able to join the field trip.\n#### 2"
+    }
+]

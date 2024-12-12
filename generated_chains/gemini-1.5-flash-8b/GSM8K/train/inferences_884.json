@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTwo vampires have come to the sleepy village of Willowton, population 300. Every night, each vampire turns 5 more people into vampires. How many vampires are there after two nights?",
+        "inference": "1. Night 1: 2 vampires * 5 new vampires/vampire = 10 new vampires. Total vampires = 2 + 10 = 12 vampires.\n2. Night 2: 12 vampires * 5 new vampires/vampire = 60 new vampires. Total vampires = 12 + 60 = 72 vampires.\n\nI hope it is correct: 72 $answer$\n",
+        "ground_truth": "First find the number of new vampires after one night: 5 people/vampire * 2 vampires = <<5*2=10>>10 people\nAdd that to the starting number of vampires to find the total number of vampires after one night: 10 vampires + 2 vampires = <<10+2=12>>12 vampires\nThen find the number of new vampires on the second night: 5 people/vampire * 12 vampires = <<5*12=60>>60 people\nAdd that number to the starting number of vampires on the second night to find the total number of vampires after two nights: 60 vampires + 12 vampires = <<60+12=72>>72 vampires\n#### 72"
+    },
+    {
+        "question": "1. Night 1: 2 vampires * 5 new vampires/vampire = 10 new vampires. Total vampires = 2 + 10 = 12 vampires.\n2. Night 2: 12 vampires * 5 new vampires/vampire = 60 new vampires. Total vampires = 12 + 60 = 72 vampires.\n\nI hope it is correct: 72 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 72\n",
+        "ground_truth": "First find the number of new vampires after one night: 5 people/vampire * 2 vampires = <<5*2=10>>10 people\nAdd that to the starting number of vampires to find the total number of vampires after one night: 10 vampires + 2 vampires = <<10+2=12>>12 vampires\nThen find the number of new vampires on the second night: 5 people/vampire * 12 vampires = <<5*12=60>>60 people\nAdd that number to the starting number of vampires on the second night to find the total number of vampires after two nights: 60 vampires + 12 vampires = <<60+12=72>>72 vampires\n#### 72"
+    }
+]

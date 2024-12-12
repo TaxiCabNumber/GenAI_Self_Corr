@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJamal bought 4 half dozen colored crayons at $2 per crayon. What was the total cost of the crayons that she bought?",
+        "inference": "1 half dozen = 12 crayons\n4 half dozens = 4 * 12 = 48 crayons\nCost per crayon = $2\nTotal cost = 48 crayons * $2/crayon = $96\n\nI hope it is correct: $96\n",
+        "ground_truth": "Since a dozen has 12 items, a half dozen has 1/2*12=<<6=6>>6 items.\nSince Jamal bought four half dozen colored crayons, he bought 4*6 = <<4*6=24>>24 colored crayons.\nIf each crayon's cost was $2, Jamal paid $2*24 = $<<2*24=48>>48 for all the crayons he bought.\n#### 48"
+    },
+    {
+        "question": "1 half dozen = 12 crayons\n4 half dozens = 4 * 12 = 48 crayons\nCost per crayon = $2\nTotal cost = 48 crayons * $2/crayon = $96\n\nI hope it is correct: $96\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $96\n",
+        "ground_truth": "Since a dozen has 12 items, a half dozen has 1/2*12=<<6=6>>6 items.\nSince Jamal bought four half dozen colored crayons, he bought 4*6 = <<4*6=24>>24 colored crayons.\nIf each crayon's cost was $2, Jamal paid $2*24 = $<<2*24=48>>48 for all the crayons he bought.\n#### 48"
+    }
+]

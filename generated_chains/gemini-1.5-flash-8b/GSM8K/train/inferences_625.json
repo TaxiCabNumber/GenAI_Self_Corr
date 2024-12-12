@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA town is trying to clear litter from its streets. The council pays for adding 14 trash cans to the streets and also pays for adding twice as many trash cans to the back of stores. How many trash cans has the town paid for?",
+        "inference": "1. Trash cans added to streets: 14\n2. Trash cans added to back of stores: 14 * 2 = 28\n3. Total trash cans: 14 + 28 = 42\n\nI hope it is correct: 42 $trash cans$\n",
+        "ground_truth": "At the back of stores, the town has paid for 14 trash cans on the streets * 2 = <<14*2=28>>28 trash cans.\nThe town has therefore added 14 trash cans on the streets + 28 trash cans at the back of stores = <<14+28=42>>42 trash cans.\n#### 42"
+    },
+    {
+        "question": "1. Trash cans added to streets: 14\n2. Trash cans added to back of stores: 14 * 2 = 28\n3. Total trash cans: 14 + 28 = 42\n\nI hope it is correct: 42 $trash cans$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 42 trash cans\n",
+        "ground_truth": "At the back of stores, the town has paid for 14 trash cans on the streets * 2 = <<14*2=28>>28 trash cans.\nThe town has therefore added 14 trash cans on the streets + 28 trash cans at the back of stores = <<14+28=42>>42 trash cans.\n#### 42"
+    }
+]

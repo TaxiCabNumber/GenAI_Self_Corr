@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTim gets 6 hours of sleep 2 days in a row.  To make up for it he sleeps 10 hours the next 2 days.  How much sleep did he get?",
+        "inference": "6 hours * 2 days = 12 hours\n10 hours * 2 days = 20 hours\n12 hours + 20 hours = 32 hours\nI hope it is correct: 32 $hours$\n",
+        "ground_truth": "He got 2*6=<<2*6=12>>12 hours the first 2 days.\nThe next 2 days he gets 2*10=<<2*10=20>>20 hours.\nSo he got 12+20=<<12+20=32>>32 hours.\n#### 32"
+    },
+    {
+        "question": "6 hours * 2 days = 12 hours\n10 hours * 2 days = 20 hours\n12 hours + 20 hours = 32 hours\nI hope it is correct: 32 $hours$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 32 hours\n",
+        "ground_truth": "He got 2*6=<<2*6=12>>12 hours the first 2 days.\nThe next 2 days he gets 2*10=<<2*10=20>>20 hours.\nSo he got 12+20=<<12+20=32>>32 hours.\n#### 32"
+    }
+]

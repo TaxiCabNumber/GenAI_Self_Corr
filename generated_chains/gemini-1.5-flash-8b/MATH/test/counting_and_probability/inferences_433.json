@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA mathematical prodigy wishes to put 2 of his indistinguishable IMO gold medals and 2 of his indistinguishable IPhO gold medals in one row. How many distinct arrangements are possible?",
+        "inference": "We have 2 indistinguishable IMO gold medals and 2 indistinguishable IPhO gold medals.\nWe want to find the number of distinct arrangements in a row.\nThis is a problem of arranging objects with repetitions.\nThe total number of objects is 4.\nThe number of ways to arrange $n$ objects with $n_1$ of one kind, $n_2$ of another kind, ..., $n_k$ of the k-th kind, where $n = n_1 + n_2 + ... + n_k$, is given by\n$$ \\frac{n!}{n_1! n_2! ... n_k!} $$\nIn our case, $n = 4$, $n_1 = 2$ (IMO medals), $n_2 = 2$ (IPhO medals).\nSo the number of distinct arrangements is\n$$ \\frac{4!}{2! 2!} = \\frac{4 \\times 3 \\times 2 \\times 1}{(2 \\times 1)(2 \\times 1)} = \\frac{24}{4} = 6 $$\nFinal Answer: $\\boxed{6}$ I hope it is correct.\n",
+        "ground_truth": "There are 4 slots in the row.  He can choose two of them for his IMO medals in $\\binom{4}{2} = \\boxed{6}$ ways."
+    },
+    {
+        "question": "We have 2 indistinguishable IMO gold medals and 2 indistinguishable IPhO gold medals.\nWe want to find the number of distinct arrangements in a row.\nThis is a problem of arranging objects with repetitions.\nThe total number of objects is 4.\nThe number of ways to arrange $n$ objects with $n_1$ of one kind, $n_2$ of another kind, ..., $n_k$ of the k-th kind, where $n = n_1 + n_2 + ... + n_k$, is given by\n$$ \\frac{n!}{n_1! n_2! ... n_k!} $$\nIn our case, $n = 4$, $n_1 = 2$ (IMO medals), $n_2 = 2$ (IPhO medals).\nSo the number of distinct arrangements is\n$$ \\frac{4!}{2! 2!} = \\frac{4 \\times 3 \\times 2 \\times 1}{(2 \\times 1)(2 \\times 1)} = \\frac{24}{4} = 6 $$\nFinal Answer: $\\boxed{6}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{6}$\n",
+        "ground_truth": "There are 4 slots in the row.  He can choose two of them for his IMO medals in $\\binom{4}{2} = \\boxed{6}$ ways."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind an integer $n$ such that $0\\leq n<398$ and $n$ is a multiplicative inverse to 7 modulo 398.",
+        "inference": "We need to find an integer $n$ such that $0 \\le n < 398$ and $7n \\equiv 1 \\pmod{398}$.\nWe want to solve the congruence $7n \\equiv 1 \\pmod{398}$.\n\nUsing the extended Euclidean algorithm, we find the greatest common divisor of 7 and 398 and the integers $x$ and $y$ such that $7x + 398y = \\gcd(7, 398)$.\n\n$398 = 56 \\times 7 + 6$\n$7 = 1 \\times 6 + 1$\n\nWorking backwards:\n$1 = 7 - 1 \\times 6$\n$1 = 7 - 1 \\times (398 - 56 \\times 7)$\n$1 = 7 - 398 + 56 \\times 7$\n$1 = 57 \\times 7 - 398$\n\nThis means that $57 \\times 7 \\equiv 1 \\pmod{398}$.\nThus, $n = 57$ is a solution.\n\nSince $0 \\le 57 < 398$, we have found our $n$.\n\nFinal Answer: $\\boxed{57}$ I hope it is correct.\n",
+        "ground_truth": "We notice that 399 is a multiple of 7: \\[399=57\\cdot7.\\]Considering this equation modulo 398 gives \\[1\\equiv57\\cdot7\\pmod{398}\\]so the answer is $\\boxed{57}$."
+    },
+    {
+        "question": "We need to find an integer $n$ such that $0 \\le n < 398$ and $7n \\equiv 1 \\pmod{398}$.\nWe want to solve the congruence $7n \\equiv 1 \\pmod{398}$.\n\nUsing the extended Euclidean algorithm, we find the greatest common divisor of 7 and 398 and the integers $x$ and $y$ such that $7x + 398y = \\gcd(7, 398)$.\n\n$398 = 56 \\times 7 + 6$\n$7 = 1 \\times 6 + 1$\n\nWorking backwards:\n$1 = 7 - 1 \\times 6$\n$1 = 7 - 1 \\times (398 - 56 \\times 7)$\n$1 = 7 - 398 + 56 \\times 7$\n$1 = 57 \\times 7 - 398$\n\nThis means that $57 \\times 7 \\equiv 1 \\pmod{398}$.\nThus, $n = 57$ is a solution.\n\nSince $0 \\le 57 < 398$, we have found our $n$.\n\nFinal Answer: $\\boxed{57}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct.\n\nFinal Answer: $\\boxed{57}$",
+        "ground_truth": "We notice that 399 is a multiple of 7: \\[399=57\\cdot7.\\]Considering this equation modulo 398 gives \\[1\\equiv57\\cdot7\\pmod{398}\\]so the answer is $\\boxed{57}$."
+    }
+]

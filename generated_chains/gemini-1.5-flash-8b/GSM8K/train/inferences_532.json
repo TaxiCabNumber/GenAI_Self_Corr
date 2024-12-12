@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe batting cage sells golf balls by the dozen. They charge $30 for 3 dozen. Dan buys 5 dozen, Gus buys 2 dozen, and Chris buys 48 golf balls. How many golf balls do they purchase in total, assuming 12 golf balls are 1 dozen?",
+        "inference": "1. Dan buys 5 dozen, which is 5 * 12 = 60 golf balls.\n2. Gus buys 2 dozen, which is 2 * 12 = 24 golf balls.\n3. Chris buys 48 golf balls.\n4. Total golf balls purchased: 60 + 24 + 48 = 132 golf balls.\n\nI hope it is correct: 132 $answer$\n",
+        "ground_truth": "Dan gets 5*12 = <<5*12=60>>60 golf balls.\nGus gets 2*12 = <<2*12=24>>24 golf balls.\nIn total they purchase 60+24+48 = <<60+24+48=132>>132 golf balls\n#### 132"
+    },
+    {
+        "question": "1. Dan buys 5 dozen, which is 5 * 12 = 60 golf balls.\n2. Gus buys 2 dozen, which is 2 * 12 = 24 golf balls.\n3. Chris buys 48 golf balls.\n4. Total golf balls purchased: 60 + 24 + 48 = 132 golf balls.\n\nI hope it is correct: 132 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 132\n",
+        "ground_truth": "Dan gets 5*12 = <<5*12=60>>60 golf balls.\nGus gets 2*12 = <<2*12=24>>24 golf balls.\nIn total they purchase 60+24+48 = <<60+24+48=132>>132 golf balls\n#### 132"
+    }
+]
