@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA crocodile grows 8 inches long in 4 years. At this rate, how many inches will it grow in 13 years?",
+        "inference": "8 inches / 4 years = 2 inches/year\n\n2 inches/year * 13 years = 26 inches\n\nI hope it is correct: 26 $inches$\n",
+        "ground_truth": "Crocodile grows 8/4 = <<8/4=2>>2 inches a year.\nCrocodile grows 13*2 = <<13*2=26>>26 inches in 13 years.\n#### 26"
+    },
+    {
+        "question": "8 inches / 4 years = 2 inches/year\n\n2 inches/year * 13 years = 26 inches\n\nI hope it is correct: 26 $inches$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 26 inches\n",
+        "ground_truth": "Crocodile grows 8/4 = <<8/4=2>>2 inches a year.\nCrocodile grows 13*2 = <<13*2=26>>26 inches in 13 years.\n#### 26"
+    }
+]

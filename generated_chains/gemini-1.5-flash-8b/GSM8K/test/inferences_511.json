@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nGerald works at a daycare that pays him $30 every day. He worked for an entire week and spent a total of $100. How much does he have left?",
+        "inference": "1. A week has 7 days.\n2. Gerald earns $30/day * 7 days/week = $210.\n3. Gerald has $210 - $100 = $110 left.\nI hope it is correct: $110\n",
+        "ground_truth": "He earns $30 daily for a week (7 days) for a total earnings of $30*7 = $<<30*7=210>>210\nHe spent $100 leaving him with $210-$100 = $110\n#### 110"
+    },
+    {
+        "question": "1. A week has 7 days.\n2. Gerald earns $30/day * 7 days/week = $210.\n3. Gerald has $210 - $100 = $110 left.\nI hope it is correct: $110\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $110\n",
+        "ground_truth": "He earns $30 daily for a week (7 days) for a total earnings of $30*7 = $<<30*7=210>>210\nHe spent $100 leaving him with $210-$100 = $110\n#### 110"
+    }
+]

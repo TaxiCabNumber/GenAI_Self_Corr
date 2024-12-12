@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nDexter has five pigs. Each one eats 4 pounds of feed, twice a day. If Dexter ordered 300 pounds of feed, how many pounds of feed is left after a week?",
+        "inference": "1. Pigs per day: 5 pigs * 4 pounds/pig = 20 pounds/day\n2. Pigs per feeding period: 20 pounds/day * 2 feedings/day = 40 pounds/feeding period\n3. Pigs per week: 40 pounds/feeding period * 7 days/week = 280 pounds/week\n4. Feed remaining: 300 pounds - 280 pounds = 20 pounds\n\nI hope it is correct: 20 $pounds$\n",
+        "ground_truth": "In a day, one pig consumes 4 x 2 = <<4*2=8>>8 pounds of feed.\nIn a day, five pigs consume 8 x 5 = <<8*5=40>>40 pounds.\nIn a week, five pigs consume 40 x 7 = <<40*7=280>>280 pounds.\nSo, there are 300 - 280 = <<300-280=20>>20 pounds of feed left.\n#### 20"
+    },
+    {
+        "question": "1. Pigs per day: 5 pigs * 4 pounds/pig = 20 pounds/day\n2. Pigs per feeding period: 20 pounds/day * 2 feedings/day = 40 pounds/feeding period\n3. Pigs per week: 40 pounds/feeding period * 7 days/week = 280 pounds/week\n4. Feed remaining: 300 pounds - 280 pounds = 20 pounds\n\nI hope it is correct: 20 $pounds$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 20 pounds\n",
+        "ground_truth": "In a day, one pig consumes 4 x 2 = <<4*2=8>>8 pounds of feed.\nIn a day, five pigs consume 8 x 5 = <<8*5=40>>40 pounds.\nIn a week, five pigs consume 40 x 7 = <<40*7=280>>280 pounds.\nSo, there are 300 - 280 = <<300-280=20>>20 pounds of feed left.\n#### 20"
+    }
+]

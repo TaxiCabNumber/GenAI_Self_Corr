@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCompute without using a calculator: $8!-7!$",
+        "inference": "$8! = 8 \\times 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1$\n$7! = 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1$\n$8! - 7! = (8 \\times 7!) - 7! = (8-1) \\times 7! = 7 \\times 7! = 7 \\times (7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1)$\n$7! = 5040$\n$7 \\times 7! = 7 \\times 5040 = 35280$\nFinal Answer: $\\boxed{35280}$ I hope it is correct.",
+        "ground_truth": "$8! - 7! = 8 \\times 7! - 7! = 7!(8 - 1) = 7! \\times 7 = 5040 \\times 7 = \\boxed{35,\\!280}$."
+    },
+    {
+        "question": "$8! = 8 \\times 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1$\n$7! = 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1$\n$8! - 7! = (8 \\times 7!) - 7! = (8-1) \\times 7! = 7 \\times 7! = 7 \\times (7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1)$\n$7! = 5040$\n$7 \\times 7! = 7 \\times 5040 = 35280$\nFinal Answer: $\\boxed{35280}$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$8! = 8 \\times 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1$\n$7! = 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1$\n$8! - 7! = (8 \\times 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1) - (7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1)$\n$8! - 7! = (8 \\times 7!) - 7! = (8-1) \\times 7! = 7 \\times 7!$\n$7! = 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1 = 5040$\n$7 \\times 7! = 7 \\times 5040 = 35280$\n\nFinal Answer: $\\boxed{35280}$",
+        "ground_truth": "$8! - 7! = 8 \\times 7! - 7! = 7!(8 - 1) = 7! \\times 7 = 5040 \\times 7 = \\boxed{35,\\!280}$."
+    }
+]

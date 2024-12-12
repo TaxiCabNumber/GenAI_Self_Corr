@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nCindy's math and science books weigh 2 pounds each.  Her French book weighs 4 pounds and her English book weighs 3 pounds.  Her history book weighs twice as much as her English book.  If Cindy carries all of her books at once, what will be the total weight of the books she is carrying?",
+        "inference": "1. Math and science books: 2 pounds each * 2 books = 4 pounds\n2. French book: 4 pounds\n3. English book: 3 pounds\n4. History book: 3 pounds * 2 = 6 pounds\n5. Total weight: 4 pounds + 4 pounds + 3 pounds + 6 pounds = 17 pounds\n\nI hope it is correct: 17 $pounds$\n",
+        "ground_truth": "The math and science book weigh 2 pounds each so they weigh 2*2 = <<2*2=4>>4 pounds\nHer history books weighs twice the amount of her 3 pound English book so it weighs 2*3 = <<2*3=6>>6 pounds\nWhen you add the weight of all of her textbooks together, they weight 4 +4+3+6 = <<4+4+3+6=17>>17 pounds\n#### 17"
+    },
+    {
+        "question": "1. Math and science books: 2 pounds each * 2 books = 4 pounds\n2. French book: 4 pounds\n3. English book: 3 pounds\n4. History book: 3 pounds * 2 = 6 pounds\n5. Total weight: 4 pounds + 4 pounds + 3 pounds + 6 pounds = 17 pounds\n\nI hope it is correct: 17 $pounds$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 17 pounds\n",
+        "ground_truth": "The math and science book weigh 2 pounds each so they weigh 2*2 = <<2*2=4>>4 pounds\nHer history books weighs twice the amount of her 3 pound English book so it weighs 2*3 = <<2*3=6>>6 pounds\nWhen you add the weight of all of her textbooks together, they weight 4 +4+3+6 = <<4+4+3+6=17>>17 pounds\n#### 17"
+    }
+]

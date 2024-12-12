@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAdam bought himself some new trousers for $30. His mother gave him $6 for this purpose, and his father gave him twice as much. How much money did Adam have to contribute from his savings?",
+        "inference": "Father's contribution: $6 * 2 = $12\nTotal contribution from parents: $6 + $12 = $18\nAmount Adam needs to contribute: $30 - $18 = $12\nI hope it is correct: $12\n",
+        "ground_truth": "Adam's father gave him $6 * 2 = $<<6*2=12>>12.\nSo considering the price Adam needed to pay $30 - $12 - $6 = $<<30-12-6=12>>12 for his trousers from his savings.\n#### 12"
+    },
+    {
+        "question": "Father's contribution: $6 * 2 = $12\nTotal contribution from parents: $6 + $12 = $18\nAmount Adam needs to contribute: $30 - $18 = $12\nI hope it is correct: $12\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $12\n",
+        "ground_truth": "Adam's father gave him $6 * 2 = $<<6*2=12>>12.\nSo considering the price Adam needed to pay $30 - $12 - $6 = $<<30-12-6=12>>12 for his trousers from his savings.\n#### 12"
+    }
+]

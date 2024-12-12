@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 90 rooms at the KozyInn Motel. It takes housekeeping 20 minutes to clean each room. How many hours would it take to clean one-half of the rooms?",
+        "inference": "1. Half of the rooms are 90 rooms / 2 = 45 rooms.\n2. 45 rooms * 20 minutes/room = 900 minutes\n3. 900 minutes / 60 minutes/hour = 15 hours\n\nI hope it is correct: 15 $hours$\n",
+        "ground_truth": "90 * 20 = <<90*20=1800>>1800 minutes\n1800/2 = <<1800/2=900>>900 minutes\n900 minutes = <<900/60=15>>15 hours\nIt would take 15 hours to clean 45 rooms at the KozyInn Motel.\n#### 15"
+    },
+    {
+        "question": "1. Half of the rooms are 90 rooms / 2 = 45 rooms.\n2. 45 rooms * 20 minutes/room = 900 minutes\n3. 900 minutes / 60 minutes/hour = 15 hours\n\nI hope it is correct: 15 $hours$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 15 hours\n",
+        "ground_truth": "90 * 20 = <<90*20=1800>>1800 minutes\n1800/2 = <<1800/2=900>>900 minutes\n900 minutes = <<900/60=15>>15 hours\nIt would take 15 hours to clean 45 rooms at the KozyInn Motel.\n#### 15"
+    }
+]

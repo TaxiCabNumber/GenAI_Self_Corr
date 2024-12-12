@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA farmer extracts 5 liters of milk a day from a cow. Since he has 3 cows, how many more cows does he need to have to produce 25 liters of milk a day?",
+        "inference": "3 cows * 5 liters/cow = 15 liters/day\n\n25 liters/day - 15 liters/day = 10 liters/day\n\n10 liters/day / 5 liters/cow = 2 cows\n\nI hope it is correct: 2 $cows$\n",
+        "ground_truth": "He extracts 5*3=<<5*3=15>>15 liters of milk in a day.\nHe should extract 25-15=<<25-15=10>>10 liters more in a day.\nFor that, he needs 10/5=<<10/5=2>>2 more cows.\n#### 2"
+    },
+    {
+        "question": "3 cows * 5 liters/cow = 15 liters/day\n\n25 liters/day - 15 liters/day = 10 liters/day\n\n10 liters/day / 5 liters/cow = 2 cows\n\nI hope it is correct: 2 $cows$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 2 cows\n",
+        "ground_truth": "He extracts 5*3=<<5*3=15>>15 liters of milk in a day.\nHe should extract 25-15=<<25-15=10>>10 liters more in a day.\nFor that, he needs 10/5=<<10/5=2>>2 more cows.\n#### 2"
+    }
+]

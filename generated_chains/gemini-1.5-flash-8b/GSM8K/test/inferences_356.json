@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nDean's mother gave him $28 to go to the toy store. Dean bought 6 toy cars and 5 teddy bears. Each toy car cost $2 and each teddy bear cost $1. His mother then feels generous and decides to give him an extra $10. How much money does Dean have left?",
+        "inference": "1. Cost of toy cars: 6 cars * $2/car = $12\n2. Cost of teddy bears: 5 bears * $1/bear = $5\n3. Total cost of toys: $12 + $5 = $17\n4. Initial money plus extra money: $28 + $10 = $38\n5. Money left: $38 - $17 = $21\n\nI hope it is correct: 21 $\n",
+        "ground_truth": "The cost of the toy cars is 6 cars \u00d7 $2/car = $<<6*2=12>>12.\nThe cost of the teddy bears is 5 bears \u00d7 $1/bear = $<<5*1=5>>5.\nThe total cost of the toys is $12 + $5 = $<<12+5=17>>17.\nAdding the two amounts of money his mother gave him, we find that Dean has $28 + $10 = $<<28+10=38>>38 to spend.\nDean has $38 \u2212 $17 = $21 left.\n#### 21"
+    },
+    {
+        "question": "1. Cost of toy cars: 6 cars * $2/car = $12\n2. Cost of teddy bears: 5 bears * $1/bear = $5\n3. Total cost of toys: $12 + $5 = $17\n4. Initial money plus extra money: $28 + $10 = $38\n5. Money left: $38 - $17 = $21\n\nI hope it is correct: 21 $\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $21\n",
+        "ground_truth": "The cost of the toy cars is 6 cars \u00d7 $2/car = $<<6*2=12>>12.\nThe cost of the teddy bears is 5 bears \u00d7 $1/bear = $<<5*1=5>>5.\nThe total cost of the toys is $12 + $5 = $<<12+5=17>>17.\nAdding the two amounts of money his mother gave him, we find that Dean has $28 + $10 = $<<28+10=38>>38 to spend.\nDean has $38 \u2212 $17 = $21 left.\n#### 21"
+    }
+]

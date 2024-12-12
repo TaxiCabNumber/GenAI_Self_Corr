@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFactor the expression $2x(x-3) + 3(x-3)$.",
+        "inference": "$$2x(x-3) + 3(x-3)$$\n$$=(x-3)(2x+3)$$\n$$=\\boxed{(x-3)(2x+3)}$$\nFinal Answer: $\\boxed{(x-3)(2x+3)}$. I hope it is correct.",
+        "ground_truth": "We can factor the expression $x-3$ out of each term: \\[2x(x-3) + 3(x-3) = 2x\\cdot (x-3) + 3\\cdot (x-3) = \\boxed{(2x+3)(x-3)}.\\] If you don't quite see how this works, suppose we put $A$ in place of $x-3$ everywhere in the original expression. Then we can see the factoring more clearly: \\[2xA +3A = 2x\\cdot A + 3\\cdot A = (2x+3)A.\\] Putting $x-3$ back in for $A$, we have our factorization: $(2x+3)(x-3)$."
+    },
+    {
+        "question": "$$2x(x-3) + 3(x-3)$$\n$$=(x-3)(2x+3)$$\n$$=\\boxed{(x-3)(2x+3)}$$\nFinal Answer: $\\boxed{(x-3)(2x+3)}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{(x-3)(2x+3)}$$",
+        "ground_truth": "We can factor the expression $x-3$ out of each term: \\[2x(x-3) + 3(x-3) = 2x\\cdot (x-3) + 3\\cdot (x-3) = \\boxed{(2x+3)(x-3)}.\\] If you don't quite see how this works, suppose we put $A$ in place of $x-3$ everywhere in the original expression. Then we can see the factoring more clearly: \\[2xA +3A = 2x\\cdot A + 3\\cdot A = (2x+3)A.\\] Putting $x-3$ back in for $A$, we have our factorization: $(2x+3)(x-3)$."
+    }
+]

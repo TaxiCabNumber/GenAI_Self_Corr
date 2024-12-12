@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nLindsay is doing the laundry, and thinks she has missed some socks. There are 50 socks that need washing. If she washes 10 pairs of socks and 15 loose socks, how many socks has Lindsay missed?",
+        "inference": "10 pairs of socks = 10 * 2 = 20 socks\nTotal socks washed = 20 + 15 = 35 socks\nSocks missed = 50 - 35 = 15\n\nI hope it is correct: 15 $answer$\n",
+        "ground_truth": "Splitting the pairs shows there were 10 pairs of socks * 2 socks/pair = <<10*2=20>>20 socks paired together.\nThis means she has washed a total of 20 paired socks + 15 loose socks = <<20+15=35>>35 socks.\nShe has therefore missed 50 socks \u2013 35 socks = <<50-35=15>>15 socks.\n#### 15"
+    },
+    {
+        "question": "10 pairs of socks = 10 * 2 = 20 socks\nTotal socks washed = 20 + 15 = 35 socks\nSocks missed = 50 - 35 = 15\n\nI hope it is correct: 15 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 15\n",
+        "ground_truth": "Splitting the pairs shows there were 10 pairs of socks * 2 socks/pair = <<10*2=20>>20 socks paired together.\nThis means she has washed a total of 20 paired socks + 15 loose socks = <<20+15=35>>35 socks.\nShe has therefore missed 50 socks \u2013 35 socks = <<50-35=15>>15 socks.\n#### 15"
+    }
+]

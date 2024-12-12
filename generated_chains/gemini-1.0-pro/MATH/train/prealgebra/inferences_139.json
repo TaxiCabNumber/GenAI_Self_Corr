@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nEvaluate: $5-7\\left(8-3^2\\right)4.$",
+        "inference": "$5-7\\left(8-3^2\\right)4$\n$=5-7\\left(8-9\\right)4$\n$=5-7(-1)4$\n$=5+28$\n$=33.$\nFinal Answer: $\\boxed{33}.$ I hope it is correct.",
+        "ground_truth": "Following the order of operations, we have \\begin{align*}\n5-7(8-3^2)4&=5-7(8-9)4\\\\\n&=5-7(-1)(4)\\\\\n&= 5-(-28)\\\\\n&=5+28 = \\boxed{33}.\n\\end{align*}"
+    },
+    {
+        "question": "$5-7\\left(8-3^2\\right)4$\n$=5-7\\left(8-9\\right)4$\n$=5-7(-1)4$\n$=5+28$\n$=33.$\nFinal Answer: $\\boxed{33}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$33$}.",
+        "ground_truth": "Following the order of operations, we have \\begin{align*}\n5-7(8-3^2)4&=5-7(8-9)4\\\\\n&=5-7(-1)(4)\\\\\n&= 5-(-28)\\\\\n&=5+28 = \\boxed{33}.\n\\end{align*}"
+    }
+]

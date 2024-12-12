@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA factory used to make tractors, but now makes silos. When they made tractors, they sold 10 tractors a day and made $100 per tractor. Now, they sell 5 silos a day, and make $220 per silo. What percentage more are they making per day now?",
+        "inference": "1. Calculate daily tractor revenue: 10 tractors/day * $100/tractor = $1000/day\n\n2. Calculate daily silo revenue: 5 silos/day * $220/silo = $1100/day\n\n3. Calculate the difference in daily revenue: $1100/day - $1000/day = $100/day\n\n4. Calculate the percentage increase: ($100/day / $1000/day) * 100% = 10%\n\nI hope it is correct: 10%\n",
+        "ground_truth": "They used to make $1,000 a day because 10 x 100 = <<10*100=1000>>1,000\nThey now make 1,100 a day because 5 x 220 = <<5*220=1100>>1,100\nThey make 10% more per day because 1000 +(1000 x (X/100)) = 1,100 if X = 10\n#### 10"
+    },
+    {
+        "question": "1. Calculate daily tractor revenue: 10 tractors/day * $100/tractor = $1000/day\n\n2. Calculate daily silo revenue: 5 silos/day * $220/silo = $1100/day\n\n3. Calculate the difference in daily revenue: $1100/day - $1000/day = $100/day\n\n4. Calculate the percentage increase: ($100/day / $1000/day) * 100% = 10%\n\nI hope it is correct: 10%\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $10\n",
+        "ground_truth": "They used to make $1,000 a day because 10 x 100 = <<10*100=1000>>1,000\nThey now make 1,100 a day because 5 x 220 = <<5*220=1100>>1,100\nThey make 10% more per day because 1000 +(1000 x (X/100)) = 1,100 if X = 10\n#### 10"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+        "inference": "1. Tasks per cycle: 5\n2. Pay per task: $1.20\n3. Pay per cycle: 5 tasks * $1.20/task = $6.00\n4. Cycles per day: 30\n5. Pay per day: 30 cycles * $6.00/cycle = $180.00\n6. Days in a week: 7\n7. Total pay for the week: 7 days * $180.00/day = $1260.00\n\nI hope it is correct: $1260.00\n",
+        "ground_truth": "Each cycle pays 5*$1.2=$<<5*1.2=6>>6\nThat means he earns $6*30=$<<6*30=180>>180 a day\nSo he makes $180*7=$<<180*7=1260>>1260 a week\n#### 1260"
+    },
+    {
+        "question": "1. Tasks per cycle: 5\n2. Pay per task: $1.20\n3. Pay per cycle: 5 tasks * $1.20/task = $6.00\n4. Cycles per day: 30\n5. Pay per day: 30 cycles * $6.00/cycle = $180.00\n6. Days in a week: 7\n7. Total pay for the week: 7 days * $180.00/day = $1260.00\n\nI hope it is correct: $1260.00\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $1260.00\n",
+        "ground_truth": "Each cycle pays 5*$1.2=$<<5*1.2=6>>6\nThat means he earns $6*30=$<<6*30=180>>180 a day\nSo he makes $180*7=$<<180*7=1260>>1260 a week\n#### 1260"
+    }
+]

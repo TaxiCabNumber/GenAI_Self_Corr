@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nLarry cooked dumplings for a group of friends.  There are 8 males, including Larry, and 6 females among them. Each male ate 1 more dumpling than each female. How many dumplings did Larry cook if each female ate 3 dumplings and there were no leftovers?",
+        "inference": "Females ate 3 dumplings each, and there are 6 females, so they ate 3 * 6 = 18 dumplings.\nMales ate 1 more than females, so they ate 3 + 1 = 4 dumplings each.\nThere are 8 males, so they ate 4 * 8 = 32 dumplings.\nTotal dumplings eaten is 18 + 32 = 50 dumplings.\nLarry cooked 50 dumplings.\nI hope it is correct: 50\n",
+        "ground_truth": "So each male ate 3 + 1 = <<3+1=4>>4 dumplings.\nHence, the 8 males ate a total of 8 x 4 = <<8*4=32>>32 dumplings.\nThe 6 females ate a total of 6 x 3 = <<6*3=18>>18 dumplings.\nSo, the total number of dumplings Larry cooked is 18 + 32 = <<18+32=50>>50.\n#### 50"
+    },
+    {
+        "question": "Females ate 3 dumplings each, and there are 6 females, so they ate 3 * 6 = 18 dumplings.\nMales ate 1 more than females, so they ate 3 + 1 = 4 dumplings each.\nThere are 8 males, so they ate 4 * 8 = 32 dumplings.\nTotal dumplings eaten is 18 + 32 = 50 dumplings.\nLarry cooked 50 dumplings.\nI hope it is correct: 50\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 50\n",
+        "ground_truth": "So each male ate 3 + 1 = <<3+1=4>>4 dumplings.\nHence, the 8 males ate a total of 8 x 4 = <<8*4=32>>32 dumplings.\nThe 6 females ate a total of 6 x 3 = <<6*3=18>>18 dumplings.\nSo, the total number of dumplings Larry cooked is 18 + 32 = <<18+32=50>>50.\n#### 50"
+    }
+]

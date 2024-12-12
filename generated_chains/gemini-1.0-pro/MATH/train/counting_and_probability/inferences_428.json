@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nTwo different integers from 1 through 20 inclusive are chosen at random. What is the probability that both numbers are prime? Express your answer as a common fraction.",
+        "inference": "There are $20$ ways to choose the first number and $19$ ways to choose the second number.\nSince there are $8$ prime numbers between $1$ and $20$, the probability that both numbers are prime is:\n$$P=\\frac{8}{20} \\cdot \\frac{8}{19} = \\frac{64}{380} =\\frac{16}{95}$$\nFinal Answer: \\boxed{$\\frac{16}{95}$} I hope it is correct.",
+        "ground_truth": "There are $\\binom{20}{2}$ pairs of distinct integers between 1 and 20, and there are $\\binom{8}{2}$ pairs of distinct prime numbers between 1 and 20.  Therefore, the probability that both members of a randomly chosen pair are prime is $\\dfrac{\\binom{8}{2}}{\\binom{20}{2}}=\\dfrac{8(7)/2}{20(19)/2}=\\boxed{\\dfrac{14}{95}}$."
+    },
+    {
+        "question": "There are $20$ ways to choose the first number and $19$ ways to choose the second number.\nSince there are $8$ prime numbers between $1$ and $20$, the probability that both numbers are prime is:\n$$P=\\frac{8}{20} \\cdot \\frac{8}{19} = \\frac{64}{380} =\\frac{16}{95}$$\nFinal Answer: \\boxed{$\\frac{16}{95}$} I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{\\frac{64}{380}}$$",
+        "ground_truth": "There are $\\binom{20}{2}$ pairs of distinct integers between 1 and 20, and there are $\\binom{8}{2}$ pairs of distinct prime numbers between 1 and 20.  Therefore, the probability that both members of a randomly chosen pair are prime is $\\dfrac{\\binom{8}{2}}{\\binom{20}{2}}=\\dfrac{8(7)/2}{20(19)/2}=\\boxed{\\dfrac{14}{95}}$."
+    }
+]

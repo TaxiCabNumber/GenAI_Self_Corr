@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nPeter purchased 20 popsicles at $0.25 each. He also purchased 4 ice cream bars at $0.50 each. How much did he pay in total in dollars?",
+        "inference": "20 popsicles * $0.25/popsicle = $5.00\n4 ice cream bars * $0.50/bar = $2.00\n$5.00 + $2.00 = $7.00\nI hope it is correct: $7.00\n",
+        "ground_truth": "The popsicles cost 0.25*20=<<0.25*20=5>>5 dollars.\nThe ice cream bars cost 0.5*4=<<0.5*4=2>>2 dollars.\nHe paid 5+2=<<5+2=7>>7 dollars.\n#### 7"
+    },
+    {
+        "question": "20 popsicles * $0.25/popsicle = $5.00\n4 ice cream bars * $0.50/bar = $2.00\n$5.00 + $2.00 = $7.00\nI hope it is correct: $7.00\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $7.00\n",
+        "ground_truth": "The popsicles cost 0.25*20=<<0.25*20=5>>5 dollars.\nThe ice cream bars cost 0.5*4=<<0.5*4=2>>2 dollars.\nHe paid 5+2=<<5+2=7>>7 dollars.\n#### 7"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nDaisy bought a bag of potatoes that weighed 5 pounds. She also bought a bag of sweet potatoes that weighed 2 times as much as the potatoes and a bag of carrots that weighed 3 pounds fewer than the sweet potatoes. How many pounds of carrots did Daisy buy?",
+        "inference": "Potatoes = 5 pounds\nSweet potatoes = 5 pounds * 2 = 10 pounds\nCarrots = 10 pounds - 3 pounds = 7 pounds\n\nI hope it is correct: 7 $answer$\n",
+        "ground_truth": "She bought 5 x 2 = <<5*2=10>>10 pounds of sweet potatoes.\nDaisy bought 10 - 3 = <<10-3=7>>7 pounds of carrots.\n#### 7"
+    },
+    {
+        "question": "Potatoes = 5 pounds\nSweet potatoes = 5 pounds * 2 = 10 pounds\nCarrots = 10 pounds - 3 pounds = 7 pounds\n\nI hope it is correct: 7 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $7$\n",
+        "ground_truth": "She bought 5 x 2 = <<5*2=10>>10 pounds of sweet potatoes.\nDaisy bought 10 - 3 = <<10-3=7>>7 pounds of carrots.\n#### 7"
+    }
+]

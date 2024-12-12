@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSally went to the seashore for vacation.  Her parents gave her $10 to buy whatever she wanted.  At the trinket shop, taffy was on sale for \"Buy 1 pound at $3, get 1 pound 1/2 off.\"  She scooped up 2 pounds.  She also bought a mixed bag of seashells for $1.50 and 4 magnets that were $0.25 each.  How much money does Sally have left?",
+        "inference": "1. Cost of 1 pound of taffy: $3\n2. Cost of 1/2 pound of taffy: $3 / 2 = $1.50\n3. Cost of 2 pounds of taffy: $3 + $1.50 = $4.50\n4. Cost of seashells: $1.50\n5. Cost of 4 magnets: $0.25 * 4 = $1.00\n6. Total cost of items: $4.50 + $1.50 + $1.00 = $7.00\n7. Money left: $10 - $7.00 = $3.00\n\nI hope it is correct: $3.00\n",
+        "ground_truth": "Taffy is buying 1 pound for $3 and gets 1 pound half off. So 1/2 off of 1 pound is $3/2 = $1.50+$3.00=$4.50\n4 magnets at $0.25 each is 4*.25=$<<4*0.25=1.00>>1.00\nWhen you add all her purchases, $4.50+$1.50+$1.00 = $<<4.5+1.5+1=7.00>>7.00\nShe had $10 and spent $7 so she had $10-$7 = $<<10-7=3.00>>3.00 left over\n#### 3"
+    },
+    {
+        "question": "1. Cost of 1 pound of taffy: $3\n2. Cost of 1/2 pound of taffy: $3 / 2 = $1.50\n3. Cost of 2 pounds of taffy: $3 + $1.50 = $4.50\n4. Cost of seashells: $1.50\n5. Cost of 4 magnets: $0.25 * 4 = $1.00\n6. Total cost of items: $4.50 + $1.50 + $1.00 = $7.00\n7. Money left: $10 - $7.00 = $3.00\n\nI hope it is correct: $3.00\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $3.00\n",
+        "ground_truth": "Taffy is buying 1 pound for $3 and gets 1 pound half off. So 1/2 off of 1 pound is $3/2 = $1.50+$3.00=$4.50\n4 magnets at $0.25 each is 4*.25=$<<4*0.25=1.00>>1.00\nWhen you add all her purchases, $4.50+$1.50+$1.00 = $<<4.5+1.5+1=7.00>>7.00\nShe had $10 and spent $7 so she had $10-$7 = $<<10-7=3.00>>3.00 left over\n#### 3"
+    }
+]

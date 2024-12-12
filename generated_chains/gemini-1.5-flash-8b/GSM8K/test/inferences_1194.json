@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nFrom her science class study, Brady learned that each whale in the sea has 40 gallons of blood. She also learned that a shark has three times as much blood as a whale. Calculate the number of gallons of blood that ten sharks swimming in the sea have.",
+        "inference": "1. Blood of a shark = 40 gallons/whale * 3 = 120 gallons/shark\n2. Blood of 10 sharks = 120 gallons/shark * 10 sharks = 1200 gallons\n\nI hope it is correct: 1200 $answer$\n",
+        "ground_truth": "Since a shark has three times as much blood as a whale, then a shark has 3*40 = <<3*40=120>>120 gallons of blood.\n10 sharks swimming in the sea will have 10*120 = <<10*120=1200>>1200 gallons of blood.\n#### 1200"
+    },
+    {
+        "question": "1. Blood of a shark = 40 gallons/whale * 3 = 120 gallons/shark\n2. Blood of 10 sharks = 120 gallons/shark * 10 sharks = 1200 gallons\n\nI hope it is correct: 1200 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $1200$\n",
+        "ground_truth": "Since a shark has three times as much blood as a whale, then a shark has 3*40 = <<3*40=120>>120 gallons of blood.\n10 sharks swimming in the sea will have 10*120 = <<10*120=1200>>1200 gallons of blood.\n#### 1200"
+    }
+]

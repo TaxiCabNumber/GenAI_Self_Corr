@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nJames has 7 apples. 4 of them are red, and 3 of them are green. If he chooses 2 apples at random, what is the probability that both the apples he chooses are green?",
+        "inference": "1. Total number of apples = 7\n2. Number of green apples = 3\n3. Number of ways to choose 2 apples from 7 = $\\binom{7}{2} = \\frac{7 \\times 6}{2} = 21$\n4. Number of ways to choose 2 green apples from 3 = $\\binom{3}{2} = \\frac{3 \\times 2}{2} = 3$\n5. Probability of choosing 2 green apples = $\\frac{\\binom{3}{2}}{\\binom{7}{2}} = \\frac{3}{21} = \\frac{1}{7}$\n\nFinal Answer: $\\boxed{\\frac{1}{7}}$ I hope it is correct.\n",
+        "ground_truth": "There are $\\binom{7}{2}=21$ total ways for James to choose 2 apples from 7, but only $\\binom{3}{2}=3$ ways for him to choose 2 green apples. So, the probability that he chooses 2 green apples is $\\frac{3}{21}=\\boxed{\\frac{1}{7}}$."
+    },
+    {
+        "question": "1. Total number of apples = 7\n2. Number of green apples = 3\n3. Number of ways to choose 2 apples from 7 = $\\binom{7}{2} = \\frac{7 \\times 6}{2} = 21$\n4. Number of ways to choose 2 green apples from 3 = $\\binom{3}{2} = \\frac{3 \\times 2}{2} = 3$\n5. Probability of choosing 2 green apples = $\\frac{\\binom{3}{2}}{\\binom{7}{2}} = \\frac{3}{21} = \\frac{1}{7}$\n\nFinal Answer: $\\boxed{\\frac{1}{7}}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{\\frac{1}{7}}$\n",
+        "ground_truth": "There are $\\binom{7}{2}=21$ total ways for James to choose 2 apples from 7, but only $\\binom{3}{2}=3$ ways for him to choose 2 green apples. So, the probability that he chooses 2 green apples is $\\frac{3}{21}=\\boxed{\\frac{1}{7}}$."
+    }
+]

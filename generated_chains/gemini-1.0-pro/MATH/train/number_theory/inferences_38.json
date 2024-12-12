@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the difference between $1000_7$ and $666_7$ in base $7$.",
+        "inference": "$$1000_7-666_7=$$\n\n$$=434_7$$\n\nFinal Answer: \\boxed{$434$}. I hope it is correct.",
+        "ground_truth": "Setting up the subtraction and borrowing as shown: $$\\begin{array}{c@{}c@{}c@{}c@{}c} &&&&\\\\ &\\cancelto{0}{1}&\\cancelto{6}{0}&\\cancelto{6}{0}&{\\cancelto{7}{0}}_{7}\\\\ &-&6&6&6_7\\\\ \\cline{2-5} &&&&1_7.\\\\ \\end{array}$$So the difference is $\\boxed{1_7}$."
+    },
+    {
+        "question": "$$1000_7-666_7=$$\n\n$$=434_7$$\n\nFinal Answer: \\boxed{$434$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{434}$$",
+        "ground_truth": "Setting up the subtraction and borrowing as shown: $$\\begin{array}{c@{}c@{}c@{}c@{}c} &&&&\\\\ &\\cancelto{0}{1}&\\cancelto{6}{0}&\\cancelto{6}{0}&{\\cancelto{7}{0}}_{7}\\\\ &-&6&6&6_7\\\\ \\cline{2-5} &&&&1_7.\\\\ \\end{array}$$So the difference is $\\boxed{1_7}$."
+    }
+]

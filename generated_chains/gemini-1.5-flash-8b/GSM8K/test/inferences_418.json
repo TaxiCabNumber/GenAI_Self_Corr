@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nZack's locker is half as big as Timothy's locker. Peter's locker is 1/4 as big as Zack's locker. If Peter's locker is 5 cubic inches, how big is Timothy's locker in cubic inches?",
+        "inference": "Peter's locker is 1/4 the size of Zack's.  If Peter's is 5 cubic inches, Zack's is 5 * 4 = 20 cubic inches.  Zack's locker is half the size of Timothy's, so Timothy's locker is 20 * 2 = 40 cubic inches.\nI hope it is correct: 40 $answer$\n",
+        "ground_truth": "Zack's locker is 5*4=<<5*4=20>>20 cubic inches.\nTimothy's locker is 20*2=<<20*2=40>>40 cubic inches.\n#### 40"
+    },
+    {
+        "question": "Peter's locker is 1/4 the size of Zack's.  If Peter's is 5 cubic inches, Zack's is 5 * 4 = 20 cubic inches.  Zack's locker is half the size of Timothy's, so Timothy's locker is 20 * 2 = 40 cubic inches.\nI hope it is correct: 40 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "Peter's locker is 1/4 the size of Zack's.  If Peter's is 5 cubic inches, then Zack's is 5 * 4 = 20 cubic inches.  Zack's locker is half the size of Timothy's, so Timothy's locker is 20 * 2 = 40 cubic inches.\n\n#### 40\n",
+        "ground_truth": "Zack's locker is 5*4=<<5*4=20>>20 cubic inches.\nTimothy's locker is 20*2=<<20*2=40>>40 cubic inches.\n#### 40"
+    }
+]

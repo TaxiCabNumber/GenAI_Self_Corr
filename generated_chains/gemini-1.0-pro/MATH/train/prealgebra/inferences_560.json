@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf an integer is divisible by $4$ and the sum of its last two digits is $13$, then what is the product of its last two digits?",
+        "inference": "Let the integer be $100x+10y+z$.\n\nSince the integer is divisible by $4$, $z$ must be $0$, $4$, or $8$.\n\nSince the sum of the last two digits is $13$, $y+z=13$.\n\nThe product of the last two digits is $yz$.\n\nIf $z=0$, then $y=13$, and $yz=0$.\n\nIf $z=4$, then $y=9$, and $yz=36$.\n\nIf $z=8$, then $y=5$, and $yz=40$.\n\nTherefore, the product of the last two digits is $0$, $36$, or $40$.\n\nFinal Answer: $\\boxed{0,36,40}$. I hope it is correct.",
+        "ground_truth": "If $A$ is the tens digit and $B$ the units digit, then the two-digit number $AB$ (having $A$ in the tens place and $B$ in the units place) must be one of the following: $49$, $58$, $67$, $76$, $85$, $94$.  Since the original number was divisible by $4$, $AB$ must be divisible by $4$.  So $AB = 76$ is the only possibility, and $A\\cdot B = 7\\cdot 6 = \\boxed{42}$."
+    },
+    {
+        "question": "Let the integer be $100x+10y+z$.\n\nSince the integer is divisible by $4$, $z$ must be $0$, $4$, or $8$.\n\nSince the sum of the last two digits is $13$, $y+z=13$.\n\nThe product of the last two digits is $yz$.\n\nIf $z=0$, then $y=13$, and $yz=0$.\n\nIf $z=4$, then $y=9$, and $yz=36$.\n\nIf $z=8$, then $y=5$, and $yz=40$.\n\nTherefore, the product of the last two digits is $0$, $36$, or $40$.\n\nFinal Answer: $\\boxed{0,36,40}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$36,40$}",
+        "ground_truth": "If $A$ is the tens digit and $B$ the units digit, then the two-digit number $AB$ (having $A$ in the tens place and $B$ in the units place) must be one of the following: $49$, $58$, $67$, $76$, $85$, $94$.  Since the original number was divisible by $4$, $AB$ must be divisible by $4$.  So $AB = 76$ is the only possibility, and $A\\cdot B = 7\\cdot 6 = \\boxed{42}$."
+    }
+]

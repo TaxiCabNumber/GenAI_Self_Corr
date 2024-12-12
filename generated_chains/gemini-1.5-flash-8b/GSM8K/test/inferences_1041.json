@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMolly is catering a birthday party for her sister and invited 16 people. 10 people want the chicken salad which is $6.50 per person and 6 people want the pasta salad at $6 per person. What is the total amount Molly will pay for the catering?",
+        "inference": "1. Calculate the cost of chicken salad: 10 people * $6.50/person = $65.00\n\n2. Calculate the cost of pasta salad: 6 people * $6/person = $36.00\n\n3. Calculate the total cost: $65.00 + $36.00 = $101.00\n\nI hope it is correct: $101.00\n",
+        "ground_truth": "Multiply the number of people who want chicken salad by the cost per person, so the cost is 10 x $6.50 = $<<10*6.5=65>>65.\nMultiply the amount of people who want pasta salad by the cost per person, so the cost is 6 x $6.00 = $<<6*6=36>>36.\nThe total cost of chicken salad and pasta salad is $65 + $36 = $<<65+36=101>>101.\n#### 101"
+    },
+    {
+        "question": "1. Calculate the cost of chicken salad: 10 people * $6.50/person = $65.00\n\n2. Calculate the cost of pasta salad: 6 people * $6/person = $36.00\n\n3. Calculate the total cost: $65.00 + $36.00 = $101.00\n\nI hope it is correct: $101.00\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $101.00\n",
+        "ground_truth": "Multiply the number of people who want chicken salad by the cost per person, so the cost is 10 x $6.50 = $<<10*6.5=65>>65.\nMultiply the amount of people who want pasta salad by the cost per person, so the cost is 6 x $6.00 = $<<6*6=36>>36.\nThe total cost of chicken salad and pasta salad is $65 + $36 = $<<65+36=101>>101.\n#### 101"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMark works at his job for 8 hours a day for 5 days a week.  He used to make $10 an hour but they raised his pay by $2 per hour.  How much does he make a week?",
+        "inference": "1. Original hourly pay: $10\n2. Hourly pay raise: $2\n3. New hourly pay: $10 + $2 = $12\n4. Hours per day: 8 hours\n5. Days per week: 5 days\n6. Total hours per week: 8 hours/day * 5 days/week = 40 hours\n7. Weekly earnings: $12/hour * 40 hours/week = $480\n\nI hope it is correct: $480\n",
+        "ground_truth": "He works 8*5=<<8*5=40>>40 hours a week\nHe gets paid 10+2=$<<10+2=12>>12 an hour\nSo he now gets 40*12=$<<40*12=480>>480 per week\n#### 480"
+    },
+    {
+        "question": "1. Original hourly pay: $10\n2. Hourly pay raise: $2\n3. New hourly pay: $10 + $2 = $12\n4. Hours per day: 8 hours\n5. Days per week: 5 days\n6. Total hours per week: 8 hours/day * 5 days/week = 40 hours\n7. Weekly earnings: $12/hour * 40 hours/week = $480\n\nI hope it is correct: $480\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $480\n",
+        "ground_truth": "He works 8*5=<<8*5=40>>40 hours a week\nHe gets paid 10+2=$<<10+2=12>>12 an hour\nSo he now gets 40*12=$<<40*12=480>>480 per week\n#### 480"
+    }
+]

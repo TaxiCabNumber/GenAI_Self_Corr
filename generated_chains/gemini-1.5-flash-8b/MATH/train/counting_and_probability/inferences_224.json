@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn how many ways can I choose 3 captains from a team of 11 people?",
+        "inference": "We need to choose 3 captains from a team of 11 people.\nThis is a combination problem since the order in which we choose the captains does not matter.\nWe can use the combination formula:\n$$C(n, k) = \\binom{n}{k} = \\frac{n!}{k!(n-k)!}$$\nIn this case, $n = 11$ and $k = 3$.\n$$C(11, 3) = \\binom{11}{3} = \\frac{11!}{3!(11-3)!} = \\frac{11!}{3!8!} = \\frac{11 \\times 10 \\times 9}{3 \\times 2 \\times 1} = \\frac{990}{6} = 165$$\nFinal Answer: $\\boxed{165}$\n",
+        "ground_truth": "Since the order that we choose the captains in doesn't matter, we can choose 3 of them out of 11 players in $\\binom{11}{3}=\\boxed{165}$ ways."
+    },
+    {
+        "question": "We need to choose 3 captains from a team of 11 people.\nThis is a combination problem since the order in which we choose the captains does not matter.\nWe can use the combination formula:\n$$C(n, k) = \\binom{n}{k} = \\frac{n!}{k!(n-k)!}$$\nIn this case, $n = 11$ and $k = 3$.\n$$C(11, 3) = \\binom{11}{3} = \\frac{11!}{3!(11-3)!} = \\frac{11!}{3!8!} = \\frac{11 \\times 10 \\times 9}{3 \\times 2 \\times 1} = \\frac{990}{6} = 165$$\nFinal Answer: $\\boxed{165}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct.\n\n$\\boxed{165}$\n",
+        "ground_truth": "Since the order that we choose the captains in doesn't matter, we can choose 3 of them out of 11 players in $\\binom{11}{3}=\\boxed{165}$ ways."
+    }
+]

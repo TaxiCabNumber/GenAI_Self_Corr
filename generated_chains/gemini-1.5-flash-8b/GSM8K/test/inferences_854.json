@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA local town is expanding and wants to build several new homes across the next three years. In the first year, they will build 12 homes. In the next year, they will build three times this many homes. In the third year, they will count how many homes they have built and double the amount. How many homes will the town have built over the next three years?",
+        "inference": "1. First year: 12 homes\n2. Second year: 12 * 3 = 36 homes\n3. Total homes after two years: 12 + 36 = 48 homes\n4. Third year: 48 * 2 = 96 homes\n5. Total homes over three years: 48 + 96 = 144 homes\n\nI hope it is correct: 144 $homes$\n",
+        "ground_truth": "In the second year, they build three times as many homes as the first year which is 12 * 3 = <<12*3=36>>36 homes.\nSo far in the two years, they've built 36+12 = <<36+12=48>>48 homes\nIn the third year, they double the number of homes built in the first two years, so 48*2 = <<48*2=96>>96 homes.\nAltogether, the local town has built 48+ 96 = <<48+96=144>>144 homes.\n#### 144"
+    },
+    {
+        "question": "1. First year: 12 homes\n2. Second year: 12 * 3 = 36 homes\n3. Total homes after two years: 12 + 36 = 48 homes\n4. Third year: 48 * 2 = 96 homes\n5. Total homes over three years: 48 + 96 = 144 homes\n\nI hope it is correct: 144 $homes$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 144 homes\n",
+        "ground_truth": "In the second year, they build three times as many homes as the first year which is 12 * 3 = <<12*3=36>>36 homes.\nSo far in the two years, they've built 36+12 = <<36+12=48>>48 homes\nIn the third year, they double the number of homes built in the first two years, so 48*2 = <<48*2=96>>96 homes.\nAltogether, the local town has built 48+ 96 = <<48+96=144>>144 homes.\n#### 144"
+    }
+]

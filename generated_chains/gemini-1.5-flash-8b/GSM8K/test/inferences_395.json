@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nErica made 20 Valentine's cards to pass out.  Her dad brought her 2 boxes of pre-made Valentine's cards that had 15 cards each.  She passed out 24 to her classmates, 5 to her family and received 17 from family and friends.  How many Valentine's Day cards does Erica now have?",
+        "inference": "1. Cards from dad: 2 boxes * 15 cards/box = 30 cards\n2. Total cards: 20 + 30 = 50 cards\n3. Cards given away: 24 + 5 = 29 cards\n4. Cards remaining after giving away: 50 - 29 = 21 cards\n5. Cards received: 17 cards\n6. Final count: 21 + 17 = 38 cards\n\nI hope it is correct: 38 $cards$\n",
+        "ground_truth": "Her dad gave her 2 boxes of 15 cards so 2*15 = <<2*15=30>>30\nShe made 20, was given 30 and received 17 so 20+30+17 = <<20+30+17=67>>67 cards\nShe passed out 24 and gave 5 cards to family and friends so she gave away 24+5 = <<24+5=29>>29 cards\nShe had 67 cards and gave away 29 cards so 67-29 = <<67-29=38>>38 cards left\n#### 38"
+    },
+    {
+        "question": "1. Cards from dad: 2 boxes * 15 cards/box = 30 cards\n2. Total cards: 20 + 30 = 50 cards\n3. Cards given away: 24 + 5 = 29 cards\n4. Cards remaining after giving away: 50 - 29 = 21 cards\n5. Cards received: 17 cards\n6. Final count: 21 + 17 = 38 cards\n\nI hope it is correct: 38 $cards$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 38 cards\n",
+        "ground_truth": "Her dad gave her 2 boxes of 15 cards so 2*15 = <<2*15=30>>30\nShe made 20, was given 30 and received 17 so 20+30+17 = <<20+30+17=67>>67 cards\nShe passed out 24 and gave 5 cards to family and friends so she gave away 24+5 = <<24+5=29>>29 cards\nShe had 67 cards and gave away 29 cards so 67-29 = <<67-29=38>>38 cards left\n#### 38"
+    }
+]

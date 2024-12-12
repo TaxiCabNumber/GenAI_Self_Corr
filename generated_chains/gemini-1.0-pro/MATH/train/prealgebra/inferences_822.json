@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn the diagram, what is the value of $x$? [asy]\nsize(120);\ndraw(Circle((0,0),1));\ndraw((0,0)--(.5,sqrt(3)/2));\ndraw((0,0)--(sqrt(3)/2,.5));\ndraw((0,0)--(sqrt(3)/2,-.5));\ndraw((0,0)--(-1,0));\nlabel(\"$4x^\\circ$\",(0,0),NNW); label(\"$5x^\\circ$\",(0,0),SSW);\nlabel(\"$2x^\\circ$\",(.3,0));label(\"$x^\\circ$\",(.3,.3));\n\n[/asy]",
+        "inference": "**Step 1:** Solve for the value of the unknown angle.\n\nThe sum of the angles in a triangle is $180^\\circ$. Therefore, $4x^\\circ + 5x^\\circ + 2x^\\circ + x^\\circ = 180^\\circ$. \n\n**Step 2:** Simplify and solve for $x$.\n\n$12x^\\circ = 180^\\circ$\n\n$x = \\frac{180^\\circ}{12}$\n\n**Step 3:** Calculate the value of $x$.\n\n$x = 15^\\circ$\n\n**Final Answer:** $\\boxed{x = 15^\\circ}.$ I hope it is correct.",
+        "ground_truth": "The sum of the angles around any point is $360^\\circ$. Therefore, $5x^\\circ+4x^\\circ+x^\\circ+2x^\\circ=360^\\circ$ or $12x = 360$ or $x=\\boxed{30}$."
+    },
+    {
+        "question": "**Step 1:** Solve for the value of the unknown angle.\n\nThe sum of the angles in a triangle is $180^\\circ$. Therefore, $4x^\\circ + 5x^\\circ + 2x^\\circ + x^\\circ = 180^\\circ$. \n\n**Step 2:** Simplify and solve for $x$.\n\n$12x^\\circ = 180^\\circ$\n\n$x = \\frac{180^\\circ}{12}$\n\n**Step 3:** Calculate the value of $x$.\n\n$x = 15^\\circ$\n\n**Final Answer:** $\\boxed{x = 15^\\circ}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{x = 15^\\circ}$",
+        "ground_truth": "The sum of the angles around any point is $360^\\circ$. Therefore, $5x^\\circ+4x^\\circ+x^\\circ+2x^\\circ=360^\\circ$ or $12x = 360$ or $x=\\boxed{30}$."
+    }
+]

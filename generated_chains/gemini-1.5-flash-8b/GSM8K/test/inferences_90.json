@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTed the T-Rex was planning to bring potato salad to the dinosaur picnic.  He knows that an adult dinosaur will eat 10 lbs of potato salad, and a child will eat half as much as an adult.  If there will be 20 adults and 5 children at the picnic, how many pounds of potato salad does Ted need to bring to the picnic if he hopes to have enough to feed everyone?",
+        "inference": "1. Adults: 20 adults * 10 lbs/adult = 200 lbs\n2. Children: 5 children * (10 lbs/adult) / 2 = 25 lbs\n3. Total: 200 lbs + 25 lbs = 225 lbs\n\nI hope it is correct: 225 $lbs$\n",
+        "ground_truth": "Half of 10 pounds is 10/2=<<10/2=5>>5 pounds.\nTo feed 20 dinosaur adults, he will need 20*10=<<20*10=200>>200 pounds of potato salad.\nTo feed 5 dinosaur children, he will need 5*5=<<5*5=25>>25 pounds of potato salad.\nIn total, he will need to bring 200+25=<<200+25=225>>225 pounds of potato salad to the picnic.\n#### 225"
+    },
+    {
+        "question": "1. Adults: 20 adults * 10 lbs/adult = 200 lbs\n2. Children: 5 children * (10 lbs/adult) / 2 = 25 lbs\n3. Total: 200 lbs + 25 lbs = 225 lbs\n\nI hope it is correct: 225 $lbs$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 225 lbs\n",
+        "ground_truth": "Half of 10 pounds is 10/2=<<10/2=5>>5 pounds.\nTo feed 20 dinosaur adults, he will need 20*10=<<20*10=200>>200 pounds of potato salad.\nTo feed 5 dinosaur children, he will need 5*5=<<5*5=25>>25 pounds of potato salad.\nIn total, he will need to bring 200+25=<<200+25=225>>225 pounds of potato salad to the picnic.\n#### 225"
+    }
+]

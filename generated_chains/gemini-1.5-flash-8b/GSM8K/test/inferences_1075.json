@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJenny goes to the florist to buy some flowers. Roses cost $2 each and $15 for a dozen. If she bought 15 roses and arrived with five 5 dollar bills and they only have quarters for change, how many quarters does she leave with?",
+        "inference": "1. Roses cost $2 each or $15 for a dozen.  Jenny bought 15 roses, so that's 1.25 dozen.  1.25 dozen * $15/dozen = $18.75.\n2. Jenny had five $5 bills, so she had 5 * $5 = $25.\n3. Jenny spent $18.75, so she had 25 - 18.75 = $6.25 left.\n4. $6.25 is equivalent to 625 cents.\n5. There are 4 quarters in a dollar, so there are 625 / 25 = 25 quarters.\n\nI hope it is correct: 25 $answer$\n",
+        "ground_truth": "Jenny has $25 because 5 x 5 = <<5*5=25>>25\nShe buys 1 dozen roses and 3 single roses because 15 - 12 - 3 = <<15-12-3=0>>0\nShe spends $6 on the single roses because 3 x 2 = <<3*2=6>>6\nShe spends $21 on roses because 15 + 6 = <<15+6=21>>21\nShe gets $4 in change because 25 - 21 = <<25-21=4>>4\nShe gets 16 quarters because 4 x 4 = <<4*4=16>>16\n#### 16"
+    },
+    {
+        "question": "1. Roses cost $2 each or $15 for a dozen.  Jenny bought 15 roses, so that's 1.25 dozen.  1.25 dozen * $15/dozen = $18.75.\n2. Jenny had five $5 bills, so she had 5 * $5 = $25.\n3. Jenny spent $18.75, so she had 25 - 18.75 = $6.25 left.\n4. $6.25 is equivalent to 625 cents.\n5. There are 4 quarters in a dollar, so there are 625 / 25 = 25 quarters.\n\nI hope it is correct: 25 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $6.25\n",
+        "ground_truth": "Jenny has $25 because 5 x 5 = <<5*5=25>>25\nShe buys 1 dozen roses and 3 single roses because 15 - 12 - 3 = <<15-12-3=0>>0\nShe spends $6 on the single roses because 3 x 2 = <<3*2=6>>6\nShe spends $21 on roses because 15 + 6 = <<15+6=21>>21\nShe gets $4 in change because 25 - 21 = <<25-21=4>>4\nShe gets 16 quarters because 4 x 4 = <<4*4=16>>16\n#### 16"
+    }
+]

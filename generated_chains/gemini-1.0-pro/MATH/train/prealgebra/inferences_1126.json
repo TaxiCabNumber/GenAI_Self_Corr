@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA triangle has side lengths of 8, 15 and 17 units. What is the area of the triangle, in square units?",
+        "inference": "**Step 1:** Calculate the semi-perimeter of the triangle:\nSemi-perimeter = (8 + 15 + 17) / 2 = 20\n**Step 2:** Apply Heron's formula to find the area:\nArea = sqrt(20*(20-8)*(20-15)*(20-17))\n**Step 3:** Simplify the expression:\nArea = sqrt(20*12*5*3)\n**Step 4:** Perform the multiplication within the square root:\nArea = sqrt(3600)\n**Step 5:** Take the square root:\nArea = 60\n**Final Answer: \\boxed{$60$}. I hope it is correct.**",
+        "ground_truth": "We see that $8^2+15^2=64+225=289=17^2$.  So the triangle is a right triangle with legs $8$ and $15$, and thus its area is\n\n$$\\frac{8(15)}{2}=\\boxed{60}$$"
+    },
+    {
+        "question": "**Step 1:** Calculate the semi-perimeter of the triangle:\nSemi-perimeter = (8 + 15 + 17) / 2 = 20\n**Step 2:** Apply Heron's formula to find the area:\nArea = sqrt(20*(20-8)*(20-15)*(20-17))\n**Step 3:** Simplify the expression:\nArea = sqrt(20*12*5*3)\n**Step 4:** Perform the multiplication within the square root:\nArea = sqrt(3600)\n**Step 5:** Take the square root:\nArea = 60\n**Final Answer: \\boxed{$60$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$60$}.",
+        "ground_truth": "We see that $8^2+15^2=64+225=289=17^2$.  So the triangle is a right triangle with legs $8$ and $15$, and thus its area is\n\n$$\\frac{8(15)}{2}=\\boxed{60}$$"
+    }
+]

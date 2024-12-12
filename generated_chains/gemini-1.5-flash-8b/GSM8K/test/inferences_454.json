@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMarin and his neighbor Nancy each eat 4 apples a day. How many apples do they eat in 30 days?",
+        "inference": "Marin and Nancy eat 4 apples/day * 2 people = 8 apples/day.  \nIn 30 days, they eat 8 apples/day * 30 days = 240 apples.\nI hope it is correct: 240 $apples$\n",
+        "ground_truth": "In one day, Marin and Nancy eat 4 + 1 = <<4+1=5>>5 apples.\nIn 30 days, they eat 30 * 5 = <<30*5=150>>150 apples.\n#### 150"
+    },
+    {
+        "question": "Marin and Nancy eat 4 apples/day * 2 people = 8 apples/day.  \nIn 30 days, they eat 8 apples/day * 30 days = 240 apples.\nI hope it is correct: 240 $apples$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 240 apples\n",
+        "ground_truth": "In one day, Marin and Nancy eat 4 + 1 = <<4+1=5>>5 apples.\nIn 30 days, they eat 30 * 5 = <<30*5=150>>150 apples.\n#### 150"
+    }
+]

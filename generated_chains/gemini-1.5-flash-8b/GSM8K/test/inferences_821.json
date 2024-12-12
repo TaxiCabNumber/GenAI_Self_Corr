@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nHunter counted 50 cars packed in their school parking lot when entering class one morning. During the first break, he counted 20 more cars in the parking lot. When he got out of class for the lunch break, he realized that 1/2 the number of cars in the parking lot had gone. What's the total number of cars he counted during lunch break?",
+        "inference": "1. Initial cars: 50\n2. Cars after first break: 50 + 20 = 70\n3. Cars leaving during lunch break: 70 * (1/2) = 35\n4. Cars remaining after lunch break: 70 - 35 = 35\n5. Total cars counted during lunch break: 35\n\nI hope it is correct: 35 $cars$\n",
+        "ground_truth": "During the first break, he saw 20 more cars in the parking lot, which totals 50 + 20 = <<50+20=70>>70 cars\nWhen going for the lunch break, he counted and realized only half the number of cars were present, which is 1/2 * 70 = 35 cars.\n#### 35"
+    },
+    {
+        "question": "1. Initial cars: 50\n2. Cars after first break: 50 + 20 = 70\n3. Cars leaving during lunch break: 70 * (1/2) = 35\n4. Cars remaining after lunch break: 70 - 35 = 35\n5. Total cars counted during lunch break: 35\n\nI hope it is correct: 35 $cars$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 35 cars\n",
+        "ground_truth": "During the first break, he saw 20 more cars in the parking lot, which totals 50 + 20 = <<50+20=70>>70 cars\nWhen going for the lunch break, he counted and realized only half the number of cars were present, which is 1/2 * 70 = 35 cars.\n#### 35"
+    }
+]

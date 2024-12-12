@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMartha's cat is 5 times faster than her turtle. If the cat can run 15 feet/second, how many feet can her turtle crawl in 40 seconds?",
+        "inference": "1. The cat's speed is 15 feet/second.\n2. The turtle is 5 times slower than the cat, so the turtle's speed is 15 feet/second / 5 = 3 feet/second.\n3. The turtle crawls for 40 seconds.\n4. To find the distance the turtle crawls, multiply its speed by the time: 3 feet/second * 40 seconds = 120 feet.\n\nI hope it is correct: 120 $feet$\n",
+        "ground_truth": "First find the speed of the turtle by dividing the cat's speed by 5: 15 feet/second / 5 = <<15/5=3>>3 feet/second\nThen multiply the turtle's speed by the number of seconds it spends crawling to find how far it crawls: 40 seconds * 3 feet/second = <<40*3=120>>120 feet\n#### 120"
+    },
+    {
+        "question": "1. The cat's speed is 15 feet/second.\n2. The turtle is 5 times slower than the cat, so the turtle's speed is 15 feet/second / 5 = 3 feet/second.\n3. The turtle crawls for 40 seconds.\n4. To find the distance the turtle crawls, multiply its speed by the time: 3 feet/second * 40 seconds = 120 feet.\n\nI hope it is correct: 120 $feet$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 120 feet\n",
+        "ground_truth": "First find the speed of the turtle by dividing the cat's speed by 5: 15 feet/second / 5 = <<15/5=3>>3 feet/second\nThen multiply the turtle's speed by the number of seconds it spends crawling to find how far it crawls: 40 seconds * 3 feet/second = <<40*3=120>>120 feet\n#### 120"
+    }
+]

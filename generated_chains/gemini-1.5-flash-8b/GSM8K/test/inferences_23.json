@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA candle melts by 2 centimeters every hour that it burns. How many centimeters shorter will a candle be after burning from 1:00 PM to 5:00 PM?",
+        "inference": "1. Calculate the total burning time.  From 1:00 PM to 5:00 PM, the candle burns for 4 hours.\n\n2. Calculate the total shrinkage.  The candle shrinks 2 cm per hour, so in 4 hours it shrinks 2 cm/hour * 4 hours = 8 cm.\n\nI hope it is correct: 8 $cm$\n",
+        "ground_truth": "The candle burns for 5 - 1 = <<5-1=4>>4 hours.\nThus, the candle will be 2 * 4 = <<2*4=8>>8 centimeters shorter.\n#### 8"
+    },
+    {
+        "question": "1. Calculate the total burning time.  From 1:00 PM to 5:00 PM, the candle burns for 4 hours.\n\n2. Calculate the total shrinkage.  The candle shrinks 2 cm per hour, so in 4 hours it shrinks 2 cm/hour * 4 hours = 8 cm.\n\nI hope it is correct: 8 $cm$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 8 cm\n",
+        "ground_truth": "The candle burns for 5 - 1 = <<5-1=4>>4 hours.\nThus, the candle will be 2 * 4 = <<2*4=8>>8 centimeters shorter.\n#### 8"
+    }
+]

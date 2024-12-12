@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 10000 gallons of water in a pool. Using a water pump, Anthony and his father fill a tank with half the amount of water in the pool. They use water from the tank to water their vegetable garden. If the tank is emptied at a rate of 500 gallons of water per day, how many gallons of water will be remaining in the tank after 6 days?",
+        "inference": "1. Half of 10000 gallons is 10000/2 = 5000 gallons.  This is the amount of water in the tank.\n\n2. The tank is emptied at a rate of 500 gallons per day.\n\n3. In 6 days, the tank will be emptied by 500 gallons/day * 6 days = 3000 gallons.\n\n4. The remaining water in the tank after 6 days is 5000 gallons - 3000 gallons = 2000 gallons.\n\nI hope it is correct: 2000 $gallons$\n",
+        "ground_truth": "The water pump takes 1/2 *10000 = <<5000=5000>>5000 gallons of the pool's water into the tank.\nIf 500 gallons of water is used daily for six days, the total amount of water used after six days is 500*6 = <<500*6=3000>>3000 gallons.\nThe total amount of water remaining in the tank will be 5000-3000 = <<5000-3000=2000>>2000 gallons\n#### 2000"
+    },
+    {
+        "question": "1. Half of 10000 gallons is 10000/2 = 5000 gallons.  This is the amount of water in the tank.\n\n2. The tank is emptied at a rate of 500 gallons per day.\n\n3. In 6 days, the tank will be emptied by 500 gallons/day * 6 days = 3000 gallons.\n\n4. The remaining water in the tank after 6 days is 5000 gallons - 3000 gallons = 2000 gallons.\n\nI hope it is correct: 2000 $gallons$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 2000 gallons\n",
+        "ground_truth": "The water pump takes 1/2 *10000 = <<5000=5000>>5000 gallons of the pool's water into the tank.\nIf 500 gallons of water is used daily for six days, the total amount of water used after six days is 500*6 = <<500*6=3000>>3000 gallons.\nThe total amount of water remaining in the tank will be 5000-3000 = <<5000-3000=2000>>2000 gallons\n#### 2000"
+    }
+]

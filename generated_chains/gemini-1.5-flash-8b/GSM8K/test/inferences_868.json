@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA three-ounce box of flavored jello makes 10 small jello cups.  Greg wants to make small jello cups for his son's outdoor birthday party.  There will be 30 kids and he wants to have enough so that each kid can have 4 jello cups.  Jello is currently on sale for $1.25.  How much will he spend on jello?",
+        "inference": "1. Kids: 30\n2. Cups per kid: 4\n3. Total cups needed: 30 kids * 4 cups/kid = 120 cups\n4. Ounces per 10 cups: 3 oz\n5. Ounces per 1 cup: 3 oz / 10 cups = 0.3 oz/cup\n6. Ounces needed for 120 cups: 120 cups * 0.3 oz/cup = 36 oz\n7. Boxes needed: 36 oz / 3 oz/box = 12 boxes\n8. Cost per box: $1.25\n9. Total cost: 12 boxes * $1.25/box = $15.00\n\nI hope it is correct: $15.00\n",
+        "ground_truth": "There will be 30 kids and he wants each kid to have 4 servings so that's 30*4 = <<30*4=120>>120 jello cups\n1 box of jello makes 10 jello cups and he needs to make 120 jello cups so he needs 120/10 = <<120/10=12>>12 boxes of jello\nEach box of jello is $1.25 and he needs 12 boxes so he will spend 1.25*12 = $<<1.25*12=15.00>>15.00 on jello\n#### 15"
+    },
+    {
+        "question": "1. Kids: 30\n2. Cups per kid: 4\n3. Total cups needed: 30 kids * 4 cups/kid = 120 cups\n4. Ounces per 10 cups: 3 oz\n5. Ounces per 1 cup: 3 oz / 10 cups = 0.3 oz/cup\n6. Ounces needed for 120 cups: 120 cups * 0.3 oz/cup = 36 oz\n7. Boxes needed: 36 oz / 3 oz/box = 12 boxes\n8. Cost per box: $1.25\n9. Total cost: 12 boxes * $1.25/box = $15.00\n\nI hope it is correct: $15.00\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $15.00\n",
+        "ground_truth": "There will be 30 kids and he wants each kid to have 4 servings so that's 30*4 = <<30*4=120>>120 jello cups\n1 box of jello makes 10 jello cups and he needs to make 120 jello cups so he needs 120/10 = <<120/10=12>>12 boxes of jello\nEach box of jello is $1.25 and he needs 12 boxes so he will spend 1.25*12 = $<<1.25*12=15.00>>15.00 on jello\n#### 15"
+    }
+]

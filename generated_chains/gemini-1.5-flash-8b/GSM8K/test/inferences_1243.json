@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nArchie buys beef jerky that comes 30 sticks to a bag and costs $18.00 per bag.  If Archie buys 1 bag while they're $3.00 off a bag, how much will each stick of jerky cost in cents?",
+        "inference": "1. Find the price of the bag after the discount: $18.00 - $3.00 = $15.00\n\n2. Convert the price to cents: $15.00 * 100 = 1500 cents\n\n3. Divide the total cost in cents by the number of sticks per bag: 1500 cents / 30 sticks = 50 cents/stick\n\nI hope it is correct: 50 $cents$\n",
+        "ground_truth": "The bags are $18.00 with a $3.00 coupon so each bag is 18-3 = $<<18-3=15.00>>15.00\nThe bag has 30 sticks of jerky and costs $15.00 so each stick will cost 15/30 = $0.50\n#### 50"
+    },
+    {
+        "question": "1. Find the price of the bag after the discount: $18.00 - $3.00 = $15.00\n\n2. Convert the price to cents: $15.00 * 100 = 1500 cents\n\n3. Divide the total cost in cents by the number of sticks per bag: 1500 cents / 30 sticks = 50 cents/stick\n\nI hope it is correct: 50 $cents$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $0.50\n",
+        "ground_truth": "The bags are $18.00 with a $3.00 coupon so each bag is 18-3 = $<<18-3=15.00>>15.00\nThe bag has 30 sticks of jerky and costs $15.00 so each stick will cost 15/30 = $0.50\n#### 50"
+    }
+]

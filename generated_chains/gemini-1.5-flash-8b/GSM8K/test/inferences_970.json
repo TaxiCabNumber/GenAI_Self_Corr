@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nZeke's baseball team has 7 more players than Carlton's. If Carlton's team has 13 players, how many players are there in both teams combined?",
+        "inference": "1. Carlton's team has 13 players.\n2. Zeke's team has 7 more players than Carlton's, so Zeke's team has 13 + 7 = 20 players.\n3. The total number of players in both teams is 13 + 20 = 33.\nI hope it is correct: 33 $players$\n",
+        "ground_truth": "If Carlton's team has 13 players, Zeke's team has 7 players + 13 players = 20 players.\nIn total, the two teams have 20 players + 13 players = <<20+13=33>>33 players.\n#### 33"
+    },
+    {
+        "question": "1. Carlton's team has 13 players.\n2. Zeke's team has 7 more players than Carlton's, so Zeke's team has 13 + 7 = 20 players.\n3. The total number of players in both teams is 13 + 20 = 33.\nI hope it is correct: 33 $players$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 33 players\n",
+        "ground_truth": "If Carlton's team has 13 players, Zeke's team has 7 players + 13 players = 20 players.\nIn total, the two teams have 20 players + 13 players = <<20+13=33>>33 players.\n#### 33"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn just started watching a new show.  Each episode is 20 minutes long, and there are half as many episodes in total as there are minutes per episode.  How many minutes will John spend watching the show if he watches every episode?",
+        "inference": "1. Minutes per episode: 20 minutes\n2. Episodes = (Minutes per episode) / 2 = 20 minutes / 2 = 10 episodes\n3. Total minutes = (Episodes) * (Minutes per episode) = 10 episodes * 20 minutes/episode = 200 minutes\n\nI hope it is correct: 200 $answer$\n",
+        "ground_truth": "Since there are half as many episodes as the number of minutes per episode, we perform 20/2=<<20/2=10>>10 episodes in total.\nSince each episode is 20 minutes long, to find the total run time we perform 10*20= <<10*20=200>>200 minutes of run time in total.\n#### 200"
+    },
+    {
+        "question": "1. Minutes per episode: 20 minutes\n2. Episodes = (Minutes per episode) / 2 = 20 minutes / 2 = 10 episodes\n3. Total minutes = (Episodes) * (Minutes per episode) = 10 episodes * 20 minutes/episode = 200 minutes\n\nI hope it is correct: 200 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 10\n",
+        "ground_truth": "Since there are half as many episodes as the number of minutes per episode, we perform 20/2=<<20/2=10>>10 episodes in total.\nSince each episode is 20 minutes long, to find the total run time we perform 10*20= <<10*20=200>>200 minutes of run time in total.\n#### 200"
+    }
+]

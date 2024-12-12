@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nGiven a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+        "inference": "2 weeks = 2 * 7 days = 14 days\nCharge per day = $12\nTotal charge = 14 days * $12/day = $168\nI hope it is correct: $168\n",
+        "ground_truth": "A week has 7 days, therefore 2 weeks have 2*7= <<2*7=14>>14 days\nIf Alex charges $12 per day, then in $14 days she would charge $12*14 = $<<12*14=168>>168\n#### 168"
+    },
+    {
+        "question": "2 weeks = 2 * 7 days = 14 days\nCharge per day = $12\nTotal charge = 14 days * $12/day = $168\nI hope it is correct: $168\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $168\n",
+        "ground_truth": "A week has 7 days, therefore 2 weeks have 2*7= <<2*7=14>>14 days\nIf Alex charges $12 per day, then in $14 days she would charge $12*14 = $<<12*14=168>>168\n#### 168"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMr. Maxim works at The Best Cookeries Around restaurant. On a particular day, 50 people entered the restaurant in the morning to eat. At around 10:00, 40 more people entered the restaurant and ordered the same amount of food as the first people. After a while, twice the number of people who entered the restaurant at 10:00 came in and ordered lunch. By evening, an additional 3 times as many people as the number that came in first had entered the restaurant. Calculate the total number of people that entered the restaurant on that day.",
+        "inference": "1. Morning: 50 people\n2. 10:00: 40 people\n3. Lunch: 2 * 40 = 80 people\n4. Evening: 3 * 50 = 150 people\n5. Total: 50 + 40 + 80 + 150 = 320\n\nI hope it is correct: 320 $people$\n",
+        "ground_truth": "The number of people who came in at lunch is twice the number that came in at 10:00: 2 * 40 people = <<2*40=80>>80 people.\nAn additional 50 people * 3 = <<50*3=150>>150 people came into the restaurant by evening.\nThe total number of people who entered the restaurant was 80 people + 150 people + 50 people + 40 people = <<80+150+50+40=320>>320 people.\n#### 320"
+    },
+    {
+        "question": "1. Morning: 50 people\n2. 10:00: 40 people\n3. Lunch: 2 * 40 = 80 people\n4. Evening: 3 * 50 = 150 people\n5. Total: 50 + 40 + 80 + 150 = 320\n\nI hope it is correct: 320 $people$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 320 people\n",
+        "ground_truth": "The number of people who came in at lunch is twice the number that came in at 10:00: 2 * 40 people = <<2*40=80>>80 people.\nAn additional 50 people * 3 = <<50*3=150>>150 people came into the restaurant by evening.\nThe total number of people who entered the restaurant was 80 people + 150 people + 50 people + 40 people = <<80+150+50+40=320>>320 people.\n#### 320"
+    }
+]

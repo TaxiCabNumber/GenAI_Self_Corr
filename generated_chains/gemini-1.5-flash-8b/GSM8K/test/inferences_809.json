@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nDale is selling butterscotch candies to raise money for his club at school. He doesn't have the candies yet and is instead just taking orders. He started off with 100 total that he ordered and wanted to sell, but he ended up selling 150 butterscotch candies. Then he ordered 100 more. How many does Dale still need to sell to sell all of his candy?",
+        "inference": "1. Dale started with an order of 100 candies.\n2. He sold 150 candies.  This means he effectively had 100 + 150 = 250 candies.\n3. He ordered 100 more, meaning he now has 250 + 100 = 350 candies.\n4.  He needs to sell 350 candies - 100 candies = 250 candies\n\nI hope it is correct: 250 $\n",
+        "ground_truth": "Dale starts off selling 100 butterscotch candies that he ordered, but ends up selling 150, 100 - 150 = <<100-150=-50>>-50 candies.\nSo Dale orders 100 more candies to make up for the deficit and to sell even more, -50 candies + 100 candies = <<100-50=50>>50 candies Dale has left and still needs to sell.\n#### 50"
+    },
+    {
+        "question": "1. Dale started with an order of 100 candies.\n2. He sold 150 candies.  This means he effectively had 100 + 150 = 250 candies.\n3. He ordered 100 more, meaning he now has 250 + 100 = 350 candies.\n4.  He needs to sell 350 candies - 100 candies = 250 candies\n\nI hope it is correct: 250 $\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $250\n",
+        "ground_truth": "Dale starts off selling 100 butterscotch candies that he ordered, but ends up selling 150, 100 - 150 = <<100-150=-50>>-50 candies.\nSo Dale orders 100 more candies to make up for the deficit and to sell even more, -50 candies + 100 candies = <<100-50=50>>50 candies Dale has left and still needs to sell.\n#### 50"
+    }
+]

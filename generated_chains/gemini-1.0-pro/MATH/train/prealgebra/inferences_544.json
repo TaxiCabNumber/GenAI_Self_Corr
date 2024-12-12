@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSimplify $\\sqrt{288}$.",
+        "inference": "1. Factor $288 = 2^5\\cdot3^2$.\n2. Rewrite $\\sqrt{288} = \\sqrt{2^5\\cdot3^2}$.\n3. Apply the product rule $\\sqrt{ab} = \\sqrt{a}\\sqrt{b}$: $\\sqrt{288} = \\sqrt{2^5}\\cdot\\sqrt{3^2}$.\n4. Simplify $\\sqrt{2^5} = 2^{5/2} = \\boxed{32}$.\n5. Simplify $\\sqrt{3^2} = \\boxed{3}$.\n**Final Answer: $\\boxed{96}$. I hope it is correct.**",
+        "ground_truth": "We have:\n\n$\\sqrt{288}=\\sqrt{144\\cdot 2}=\\boxed{12\\sqrt{2}}$."
+    },
+    {
+        "question": "1. Factor $288 = 2^5\\cdot3^2$.\n2. Rewrite $\\sqrt{288} = \\sqrt{2^5\\cdot3^2}$.\n3. Apply the product rule $\\sqrt{ab} = \\sqrt{a}\\sqrt{b}$: $\\sqrt{288} = \\sqrt{2^5}\\cdot\\sqrt{3^2}$.\n4. Simplify $\\sqrt{2^5} = 2^{5/2} = \\boxed{32}$.\n5. Simplify $\\sqrt{3^2} = \\boxed{3}$.\n**Final Answer: $\\boxed{96}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$96$}",
+        "ground_truth": "We have:\n\n$\\sqrt{288}=\\sqrt{144\\cdot 2}=\\boxed{12\\sqrt{2}}$."
+    }
+]

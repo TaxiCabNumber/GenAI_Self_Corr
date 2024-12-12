@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn is a carpenter. For his friend Ali, he manufactured 4 wooden tables for $20 each and 2 roof frames for $10 each. How much does Ali have to pay John?",
+        "inference": "4 tables * $20/table = $80\n2 roof frames * $10/frame = $20\nTotal = $80 + $20 = $100\nI hope it is correct: $100\n",
+        "ground_truth": "For the wooden table, Ali should pay: $20 * 4 = $<<20*4=80>>80\nFor the roof frames, Ali should pay: $10 * 2 = $<<10*2=20>>20\nCombining the wooden table and the roof frames, Ali should pay: $20 + $80 = $<<20+80=100>>100\n#### 100"
+    },
+    {
+        "question": "4 tables * $20/table = $80\n2 roof frames * $10/frame = $20\nTotal = $80 + $20 = $100\nI hope it is correct: $100\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $100\n",
+        "ground_truth": "For the wooden table, Ali should pay: $20 * 4 = $<<20*4=80>>80\nFor the roof frames, Ali should pay: $10 * 2 = $<<10*2=20>>20\nCombining the wooden table and the roof frames, Ali should pay: $20 + $80 = $<<20+80=100>>100\n#### 100"
+    }
+]

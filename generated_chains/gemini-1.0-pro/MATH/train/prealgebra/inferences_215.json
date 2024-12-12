@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the least common multiple of 12, 18 and 30?",
+        "inference": "1. Prime factorize each number:\n12 = 2^2 * 3\n18 = 2 * 3^2\n30 = 2 * 3 * 5\n2. Identify the highest power of each prime factor that occurs in any of the numbers:\n2^2\n3^2\n5^1\n3. Multiply the highest powers of each prime factor together:\n2^2 * 3^2 * 5^1 = 360\nFinal Answer: \\boxed{$360$}. I hope it is correct.",
+        "ground_truth": "$12=2^2\\cdot3$, $18=2\\cdot3^2$, and $30=2\\cdot3\\cdot5$. The prime factorization of a number that is a multiple of these three numbers must have a 2 raised to at least the 2nd power, a 3 raised to at least the 2nd power, and a 5 raised to at least the 1st power. Thus, the $\\emph{least}$ common multiple is $2^2\\cdot3^2\\cdot5=\\boxed{180}$."
+    },
+    {
+        "question": "1. Prime factorize each number:\n12 = 2^2 * 3\n18 = 2 * 3^2\n30 = 2 * 3 * 5\n2. Identify the highest power of each prime factor that occurs in any of the numbers:\n2^2\n3^2\n5^1\n3. Multiply the highest powers of each prime factor together:\n2^2 * 3^2 * 5^1 = 360\nFinal Answer: \\boxed{$360$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Final Answer: \\boxed{$180$}.",
+        "ground_truth": "$12=2^2\\cdot3$, $18=2\\cdot3^2$, and $30=2\\cdot3\\cdot5$. The prime factorization of a number that is a multiple of these three numbers must have a 2 raised to at least the 2nd power, a 3 raised to at least the 2nd power, and a 5 raised to at least the 1st power. Thus, the $\\emph{least}$ common multiple is $2^2\\cdot3^2\\cdot5=\\boxed{180}$."
+    }
+]

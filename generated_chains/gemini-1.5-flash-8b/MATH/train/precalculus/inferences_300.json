@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $S$ be a region in the plane with area 10.  When we apply the matrix\n\\[\\begin{pmatrix} 2 & 1 \\\\ 7 & -3 \\end{pmatrix}\\]to $S,$ we obtain the region $S'.$  Find the area of $S'.$",
+        "inference": "The area of the region $S'$ is given by the absolute value of the determinant of the matrix multiplied by the area of $S$.  The determinant of the matrix\n\\[ \\begin{pmatrix} 2 & 1 \\\\ 7 & -3 \\end{pmatrix} \\]is $(2)(-3) - (1)(7) = -6 - 7 = -13$.  The absolute value of the determinant is $|-13| = 13$.  Thus the area of $S'$ is $13 \\times 10 = 130$.\nFinal Answer: $\\boxed{130}$",
+        "ground_truth": "Note that\n\\[\\begin{vmatrix} 2 & 1 \\\\ 7 & -3 \\end{vmatrix} = (2)(-3) - (1)(7) = -13,\\]so the matrix scales the area of any region by a factor of $|-13| = 13.$  In particular, the area of $S'$ is $13 \\cdot 10 = \\boxed{130}.$"
+    },
+    {
+        "question": "The area of the region $S'$ is given by the absolute value of the determinant of the matrix multiplied by the area of $S$.  The determinant of the matrix\n\\[ \\begin{pmatrix} 2 & 1 \\\\ 7 & -3 \\end{pmatrix} \\]is $(2)(-3) - (1)(7) = -6 - 7 = -13$.  The absolute value of the determinant is $|-13| = 13$.  Thus the area of $S'$ is $13 \\times 10 = 130$.\nFinal Answer: $\\boxed{130}$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Let $S$ be a region in the plane with area 10. The matrix is given as\n$$ \\begin{pmatrix} 2 & 1 \\\\ 7 & -3 \\end{pmatrix} $$\nThe determinant of this matrix is $(2)(-3) - (1)(7) = -6 - 7 = -13$.\nThe absolute value of the determinant is $|-13| = 13$.\nThe area of the region $S'$ is the absolute value of the determinant of the matrix multiplied by the area of $S$.  Therefore, the area of $S'$ is $| -13 | \\times 10 = 13 \\times 10 = 130$.\n\nFinal Answer: $\\boxed{130}$",
+        "ground_truth": "Note that\n\\[\\begin{vmatrix} 2 & 1 \\\\ 7 & -3 \\end{vmatrix} = (2)(-3) - (1)(7) = -13,\\]so the matrix scales the area of any region by a factor of $|-13| = 13.$  In particular, the area of $S'$ is $13 \\cdot 10 = \\boxed{130}.$"
+    }
+]

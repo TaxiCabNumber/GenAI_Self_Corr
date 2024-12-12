@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the value of $x$ in the plane figure shown?\n\n[asy]\npair A;\ndraw(dir(40)--A); draw(dir(200)--A); draw(dir(300)--A);\nlabel(\"$160^{\\circ}$\",A,dir(120)); label(\"$x^{\\circ}$\",A,dir(250)); label(\"$x^{\\circ}$\",A,dir(350));\n[/asy]",
+        "inference": "The sum of the interior angles of any triangle is 180 degrees. So\n\n$$160+x+x=180$$\n\n$$2x=20$$\n\n$$x=10$$\n\nFinal Answer: \\boxed{$10$}. I hope it is correct.",
+        "ground_truth": "The angles around a point sum to $360^\\circ$, so $x^\\circ + x^\\circ + 160^\\circ = 360^\\circ$.  Simplifying gives $2x^\\circ + 160^\\circ = 360^\\circ$, so $2x^\\circ = 200^\\circ$ and $x=\\boxed{100}$."
+    },
+    {
+        "question": "The sum of the interior angles of any triangle is 180 degrees. So\n\n$$160+x+x=180$$\n\n$$2x=20$$\n\n$$x=10$$\n\nFinal Answer: \\boxed{$10$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$10$}.",
+        "ground_truth": "The angles around a point sum to $360^\\circ$, so $x^\\circ + x^\\circ + 160^\\circ = 360^\\circ$.  Simplifying gives $2x^\\circ + 160^\\circ = 360^\\circ$, so $2x^\\circ = 200^\\circ$ and $x=\\boxed{100}$."
+    }
+]

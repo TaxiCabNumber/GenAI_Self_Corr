@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the remainder when the sum $1^2 + 2^2 + 3^2 + \\dots + 10^2$ is divided by 11?",
+        "inference": "$$1^2+2^2+3^2+\\dots+10^2$$\n\n$$=\\frac{10(10+1)(2)(10+1)}{6}$$\n\n$$=\\frac{10\\cdot11\\cdot2\\cdot11}{6}$$\n\n$$=\\frac{220\\cdot11}{6}$$\n\n$$=440-11$$\n\n$$=429$$\nFinal Answer: \\boxed{$5$}. I hope it is correct.",
+        "ground_truth": "Calculate the remainders when $1^2$, $2^2$, ..., $10^2$ are divided by 11 and sum them to find that the remainder when $1^2+2^2+\\cdots+10^2$ is divided by 11 is the same as that of $1+4+9+5+3+3+5+9+4+1=44$, which is $\\boxed{0}$."
+    },
+    {
+        "question": "$$1^2+2^2+3^2+\\dots+10^2$$\n\n$$=\\frac{10(10+1)(2)(10+1)}{6}$$\n\n$$=\\frac{10\\cdot11\\cdot2\\cdot11}{6}$$\n\n$$=\\frac{220\\cdot11}{6}$$\n\n$$=440-11$$\n\n$$=429$$\nFinal Answer: \\boxed{$5$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{385}$$",
+        "ground_truth": "Calculate the remainders when $1^2$, $2^2$, ..., $10^2$ are divided by 11 and sum them to find that the remainder when $1^2+2^2+\\cdots+10^2$ is divided by 11 is the same as that of $1+4+9+5+3+3+5+9+4+1=44$, which is $\\boxed{0}$."
+    }
+]

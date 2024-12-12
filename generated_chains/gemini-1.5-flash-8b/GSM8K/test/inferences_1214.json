@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJordan has 2 children who wear diapers.  Each child requires 5 diaper changes per day.  Jordan's wife changes half of the diapers.  How many diapers does Jordan change per day?",
+        "inference": "1. Total diaper changes needed per day: 2 children * 5 changes/child = 10 changes\n2. Wife's diaper changes: 10 changes / 2 = 5 changes\n3. Jordan's diaper changes: 10 changes - 5 changes = 5 changes\n\nI hope it is correct: 5 $answer$\n",
+        "ground_truth": "Jordan has 2 children, each requiring 5 diaper changes per day, for a total of 5*2=<<2*5=10>>10 diaper changes per day.\nJordan's wife changes half of the diapers, leaving Jordan to change the other half, for a total of 10/2=<<10/2=5>>5 diaper changes per day that Jordan is responsible for.\n#### 5"
+    },
+    {
+        "question": "1. Total diaper changes needed per day: 2 children * 5 changes/child = 10 changes\n2. Wife's diaper changes: 10 changes / 2 = 5 changes\n3. Jordan's diaper changes: 10 changes - 5 changes = 5 changes\n\nI hope it is correct: 5 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $5$\n",
+        "ground_truth": "Jordan has 2 children, each requiring 5 diaper changes per day, for a total of 5*2=<<2*5=10>>10 diaper changes per day.\nJordan's wife changes half of the diapers, leaving Jordan to change the other half, for a total of 10/2=<<10/2=5>>5 diaper changes per day that Jordan is responsible for.\n#### 5"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nTriangle $ABC$ has side lengths $AB=5$, $BC=6$, and $AC=7$. Two bugs start simultaneously from $A$ and crawl along the perimeter of the triangle in opposite directions at the same speed. They meet at point $D$. What is $BD$?",
+        "inference": "The bugs travel $AD$ in the same time as they travel $DC$, so $AD=DC$.  The perimeter of the triangle is $5+6+7=18$.  Since $AD=DC$, each of these segments (and $AB$) has length $18/2=9$.  Thus, $BD=BC-DC=6-9=\\boxed{3}.$  \nFinal Answer: $\\boxed{3}.$ I hope it is correct.",
+        "ground_truth": "The perimeter of the triangle is $5+6+7=18$, so the distance that each bug crawls is 9.  Therefore $AB+BD=9$, and $BD=\\boxed{4}$."
+    },
+    {
+        "question": "The bugs travel $AD$ in the same time as they travel $DC$, so $AD=DC$.  The perimeter of the triangle is $5+6+7=18$.  Since $AD=DC$, each of these segments (and $AB$) has length $18/2=9$.  Thus, $BD=BC-DC=6-9=\\boxed{3}.$  \nFinal Answer: $\\boxed{3}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$3$}.",
+        "ground_truth": "The perimeter of the triangle is $5+6+7=18$, so the distance that each bug crawls is 9.  Therefore $AB+BD=9$, and $BD=\\boxed{4}$."
+    }
+]

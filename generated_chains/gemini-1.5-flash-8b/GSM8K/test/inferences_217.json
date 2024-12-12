@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 4 roses in the vase. There are 7 more dahlias than roses in the vase. How many flowers are there in the vase in total?",
+        "inference": "1. Roses: 4\n2. Dahlias: 4 + 7 = 11\n3. Total flowers: 4 + 11 = 15\n\nI hope it is correct: 15 $answer$\n",
+        "ground_truth": "There are 4 + 7 = <<4+7=11>>11 dahlias in the vase.\nIn total there are 4 + 11 = <<4+11=15>>15 flowers in the vase.\n#### 15"
+    },
+    {
+        "question": "1. Roses: 4\n2. Dahlias: 4 + 7 = 11\n3. Total flowers: 4 + 11 = 15\n\nI hope it is correct: 15 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 15\n",
+        "ground_truth": "There are 4 + 7 = <<4+7=11>>11 dahlias in the vase.\nIn total there are 4 + 11 = <<4+11=15>>15 flowers in the vase.\n#### 15"
+    }
+]

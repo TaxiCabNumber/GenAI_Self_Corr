@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBethany can run 10 laps on the track in one hour.  Trey can run 4 more laps than Bethany.  Shaelyn can run half as many laps as Trey.  Quinn can run 2 fewer laps than Shaelyn.  How many more laps can Bethany run compared to Quinn?",
+        "inference": "1. Bethany runs 10 laps.\n2. Trey runs 10 + 4 = 14 laps.\n3. Shaelyn runs 14 / 2 = 7 laps.\n4. Quinn runs 7 - 2 = 5 laps.\n5. Bethany runs 10 - 5 = 5 more laps than Quinn.\n\nI hope it is correct: 5 $laps$\n",
+        "ground_truth": "Trey can run 10 + 4 = <<10+4=14>>14 laps in one hour.\nShaelyn can run 14 / 2 = <<14/2=7>>7 laps in one hour.\nQuinn can run 7 - 2 = <<7-2=5>>5 laps.\nBethany can run 10 - 5 = <<10-5=5>>5 more laps compared to Quinn.\n#### 5"
+    },
+    {
+        "question": "1. Bethany runs 10 laps.\n2. Trey runs 10 + 4 = 14 laps.\n3. Shaelyn runs 14 / 2 = 7 laps.\n4. Quinn runs 7 - 2 = 5 laps.\n5. Bethany runs 10 - 5 = 5 more laps than Quinn.\n\nI hope it is correct: 5 $laps$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 5\n",
+        "ground_truth": "Trey can run 10 + 4 = <<10+4=14>>14 laps in one hour.\nShaelyn can run 14 / 2 = <<14/2=7>>7 laps in one hour.\nQuinn can run 7 - 2 = <<7-2=5>>5 laps.\nBethany can run 10 - 5 = <<10-5=5>>5 more laps compared to Quinn.\n#### 5"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nCharisma works for 8 hours every day.  She has a timer to remind her to get up and walk for 5 minutes every hour she\u2019s at work.  After 5 days at the office, how many minutes has she walked?",
+        "inference": "1. Charisma works 8 hours a day.\n2. She needs to walk for 5 minutes every hour.\n3. In one day, she walks 8 hours * 5 minutes/hour = 40 minutes.\n4. She works for 5 days.\n5. Total walking time = 40 minutes/day * 5 days = 200 minutes.\n\nI hope it is correct: 200 $minutes$\n",
+        "ground_truth": "She works 8 hours every day and she sets a timer to walk 5 minutes every hour for a total of 8*5 = <<8*5=40>>40 minutes of walking\nIf she walks 40 minutes a day while at the office then over 5 days she walks 40*5 = <<40*5=200>>200 minutes\n#### 200"
+    },
+    {
+        "question": "1. Charisma works 8 hours a day.\n2. She needs to walk for 5 minutes every hour.\n3. In one day, she walks 8 hours * 5 minutes/hour = 40 minutes.\n4. She works for 5 days.\n5. Total walking time = 40 minutes/day * 5 days = 200 minutes.\n\nI hope it is correct: 200 $minutes$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 200 minutes\n",
+        "ground_truth": "She works 8 hours every day and she sets a timer to walk 5 minutes every hour for a total of 8*5 = <<8*5=40>>40 minutes of walking\nIf she walks 40 minutes a day while at the office then over 5 days she walks 40*5 = <<40*5=200>>200 minutes\n#### 200"
+    }
+]

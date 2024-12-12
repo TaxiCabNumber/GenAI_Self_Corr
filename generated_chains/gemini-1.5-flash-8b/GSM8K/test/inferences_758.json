@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA bag has a 5% discount. If it is marked $140, how much will you pay after the discount?",
+        "inference": "Discount = 5% of $140 = 0.05 * $140 = $7\nPrice after discount = $140 - $7 = $133\nI hope it is correct: $133\n",
+        "ground_truth": "The discount amounts to $140 x 5/100 = $<<140*5/100=7>>7.\nHence, you will pay $140 - $7 = $<<140-7=133>>133 for the discounted bag.\n#### 133"
+    },
+    {
+        "question": "Discount = 5% of $140 = 0.05 * $140 = $7\nPrice after discount = $140 - $7 = $133\nI hope it is correct: $133\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $133\n",
+        "ground_truth": "The discount amounts to $140 x 5/100 = $<<140*5/100=7>>7.\nHence, you will pay $140 - $7 = $<<140-7=133>>133 for the discounted bag.\n#### 133"
+    }
+]

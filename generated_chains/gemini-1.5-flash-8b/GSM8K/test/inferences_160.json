@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA tank of water has a depth of 17 feet on Monday. On Tuesday, the tank had 7 feet more water. On Wednesday, the depth of the water is two thirds of what it was on Tuesday. What is the tank\u2019s water depth on Wednesday?",
+        "inference": "1. Tuesday's depth: 17 feet (Monday) + 7 feet = 24 feet\n2. Wednesday's depth: (2/3) * 24 feet = 16 feet\n\nI hope it is correct: 16 $feet$\n",
+        "ground_truth": "On Tuesday there was 17+7 = <<17+7=24>>24 feet of water in the tank.\n24/3 = 8. On Wednesday there was 2*8 = 16 feet of water in the tank.\n#### 16"
+    },
+    {
+        "question": "1. Tuesday's depth: 17 feet (Monday) + 7 feet = 24 feet\n2. Wednesday's depth: (2/3) * 24 feet = 16 feet\n\nI hope it is correct: 16 $feet$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 16 feet\n",
+        "ground_truth": "On Tuesday there was 17+7 = <<17+7=24>>24 feet of water in the tank.\n24/3 = 8. On Wednesday there was 2*8 = 16 feet of water in the tank.\n#### 16"
+    }
+]

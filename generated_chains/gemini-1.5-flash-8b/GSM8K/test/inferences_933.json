@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA charity group decides to do a yard sale.  10 people donate 5 boxes of stuff each.  They also have 10 boxes of stuff already.  They can fit 2 boxes worth of stuff per table.  If they already own 15 tables, how many new tables do they need?",
+        "inference": "1. Total boxes donated: 10 people * 5 boxes/person = 50 boxes\n2. Total boxes: 50 boxes + 10 boxes = 60 boxes\n3. Number of tables needed for all boxes: 60 boxes / 2 boxes/table = 30 tables\n4. Number of new tables needed: 30 tables - 15 tables = 15 tables\n\nI hope it is correct: 15 $tables$\n",
+        "ground_truth": "There were 10*5=<<10*5=50>>50 donated boxes\nSo they have a total of 50+10=<<50+10=60>>60 boxes\nSo they need a total of 60/2=<<60/2=30>>30 tables\nThat means they need 30-15=<<30-15=15>>15 tables\n#### 15"
+    },
+    {
+        "question": "1. Total boxes donated: 10 people * 5 boxes/person = 50 boxes\n2. Total boxes: 50 boxes + 10 boxes = 60 boxes\n3. Number of tables needed for all boxes: 60 boxes / 2 boxes/table = 30 tables\n4. Number of new tables needed: 30 tables - 15 tables = 15 tables\n\nI hope it is correct: 15 $tables$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 15 tables\n",
+        "ground_truth": "There were 10*5=<<10*5=50>>50 donated boxes\nSo they have a total of 50+10=<<50+10=60>>60 boxes\nSo they need a total of 60/2=<<60/2=30>>30 tables\nThat means they need 30-15=<<30-15=15>>15 tables\n#### 15"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn a particular right triangle, the two legs have lengths of 40 inches and 42 inches. What is the area of the triangle?",
+        "inference": "1. Calculate the hypotenuse using the Pythagorean Theorem:\n$$h^2 = 40^2 + 42^2 = 1600 + 1764 = 3364$$\n$$h = \\sqrt{3364} \\approx 58.02$$\n\n2. Calculate half the perimeter:\n$$s = \\frac{1}{2}(40 + 42 + 58.02) \\approx 70.01$$\n\n3. Use Heron's formula to calculate the area:\n$$A = \\sqrt{s(s-40)(s-42)(s-58.02)}$$\n$$A \\approx \\sqrt{70.01 \\cdot 30.01 \\cdot 28.01 \\cdot 11.99} \\approx 980.03$$\n\nFinal Answer: \\boxed{$980.03$}. I hope it is correct.",
+        "ground_truth": "The area of a right triangle is half the product of the lengths of its legs. Thus, the area of the triangle is $$(1/2)(40)(42) = \\boxed{840\\text{ square inches}}.$$"
+    },
+    {
+        "question": "1. Calculate the hypotenuse using the Pythagorean Theorem:\n$$h^2 = 40^2 + 42^2 = 1600 + 1764 = 3364$$\n$$h = \\sqrt{3364} \\approx 58.02$$\n\n2. Calculate half the perimeter:\n$$s = \\frac{1}{2}(40 + 42 + 58.02) \\approx 70.01$$\n\n3. Use Heron's formula to calculate the area:\n$$A = \\sqrt{s(s-40)(s-42)(s-58.02)}$$\n$$A \\approx \\sqrt{70.01 \\cdot 30.01 \\cdot 28.01 \\cdot 11.99} \\approx 980.03$$\n\nFinal Answer: \\boxed{$980.03$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$980.03$}.",
+        "ground_truth": "The area of a right triangle is half the product of the lengths of its legs. Thus, the area of the triangle is $$(1/2)(40)(42) = \\boxed{840\\text{ square inches}}.$$"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRoy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+        "inference": "Eva's savings = $20.00\nAnthony's savings = Eva's savings + $10.00 = $20.00 + $10.00 = $30.00\nRoy's savings = Anthony's savings * 1.40 = $30.00 * 1.40 = $42.00\nI hope it is correct: $42.00\n",
+        "ground_truth": "Anthony has saved $10.00 more than Eva who has $20.00 so he has 10+20 = $<<10+20=30.00>>30.00\nRoy has saved 40% more than his brother who has $30.00 so Roy has saved .40*30 = $12.00\nAll total, Roy has 12.00 more than his brother, so he has 12+30 = $<<12+30=42.00>>42.00\n#### 42"
+    },
+    {
+        "question": "Eva's savings = $20.00\nAnthony's savings = Eva's savings + $10.00 = $20.00 + $10.00 = $30.00\nRoy's savings = Anthony's savings * 1.40 = $30.00 * 1.40 = $42.00\nI hope it is correct: $42.00\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $42.00\n",
+        "ground_truth": "Anthony has saved $10.00 more than Eva who has $20.00 so he has 10+20 = $<<10+20=30.00>>30.00\nRoy has saved 40% more than his brother who has $30.00 so Roy has saved .40*30 = $12.00\nAll total, Roy has 12.00 more than his brother, so he has 12+30 = $<<12+30=42.00>>42.00\n#### 42"
+    }
+]

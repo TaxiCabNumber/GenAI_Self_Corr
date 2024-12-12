@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind $n$ such that $2^5 \\cdot 3^2 \\cdot n = 8!$.",
+        "inference": "$8! = 8 \\times 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1 = 40320$.\n$2^5 \\cdot 3^2 \\cdot n = 40320$\n$32 \\cdot 9 \\cdot n = 40320$\n$288n = 40320$\n$n = \\frac{40320}{288}$\n$n = \\frac{40320}{288} = \\frac{40320 \\div 2}{288 \\div 2} = \\frac{20160}{144} = \\frac{20160 \\div 144}{144 \\div 144} = \\frac{140}{1} = 140$\nFinal Answer: $\\boxed{140}$\n",
+        "ground_truth": "Factor 8! and cancel 5 factors of 2 and 2 factors of 3:  \\begin{align*}\n8! &= 2^3\\cdot7\\cdot(2\\cdot 3)\\cdot5\\cdot 2^2\\cdot 3\\cdot 2 \\implies \\\\\n\\frac{8!}{2^5\\cdot 3^2} &= \\frac{2^3\\cdot7\\cdot(2\\cdot 3)\\cdot5\\cdot 2^2\\cdot3\\cdot 2}{2^5\\cdot3^2} \\\\\n&=7\\cdot 5\\cdot 2^2 \\\\\n&=14\\cdot 10 \\\\\n&= \\boxed{140}.\n\\end{align*}"
+    },
+    {
+        "question": "$8! = 8 \\times 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1 = 40320$.\n$2^5 \\cdot 3^2 \\cdot n = 40320$\n$32 \\cdot 9 \\cdot n = 40320$\n$288n = 40320$\n$n = \\frac{40320}{288}$\n$n = \\frac{40320}{288} = \\frac{40320 \\div 2}{288 \\div 2} = \\frac{20160}{144} = \\frac{20160 \\div 144}{144 \\div 144} = \\frac{140}{1} = 140$\nFinal Answer: $\\boxed{140}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The problem states that $8! = 40320$ and asks to find $n$ such that $2^5 \\cdot 3^2 \\cdot n = 8!$.\nWe are given $2^5 \\cdot 3^2 \\cdot n = 8! = 40320$.\n$32 \\cdot 9 \\cdot n = 40320$\n$288 \\cdot n = 40320$\n$n = \\frac{40320}{288} = \\frac{40320}{288} = \\frac{40320 \\div 288}{288 \\div 288} = \\frac{140}{1} = 140$\nThus, $n=140$.\n\nFinal Answer: $\\boxed{140}$",
+        "ground_truth": "Factor 8! and cancel 5 factors of 2 and 2 factors of 3:  \\begin{align*}\n8! &= 2^3\\cdot7\\cdot(2\\cdot 3)\\cdot5\\cdot 2^2\\cdot 3\\cdot 2 \\implies \\\\\n\\frac{8!}{2^5\\cdot 3^2} &= \\frac{2^3\\cdot7\\cdot(2\\cdot 3)\\cdot5\\cdot 2^2\\cdot3\\cdot 2}{2^5\\cdot3^2} \\\\\n&=7\\cdot 5\\cdot 2^2 \\\\\n&=14\\cdot 10 \\\\\n&= \\boxed{140}.\n\\end{align*}"
+    }
+]

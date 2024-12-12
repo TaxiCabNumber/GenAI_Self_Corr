@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are currently 3 red balls, 11 blue balls, and 25 green balls in the store. Red balls cost $9, Blue balls cost $5 and green balls cost $3. How much will the store have received after all the balls are sold?",
+        "inference": "1. Calculate the total cost of red balls: 3 red balls * $9/red ball = $27\n\n2. Calculate the total cost of blue balls: 11 blue balls * $5/blue ball = $55\n\n3. Calculate the total cost of green balls: 25 green balls * $3/green ball = $75\n\n4. Calculate the total revenue: $27 + $55 + $75 = $157\n\nI hope it is correct: $157\n",
+        "ground_truth": "For the red balls, 3 balls * $9/ball = $<<3*9=27>>27.\nFor the blue balls, 11 balls * $5/ball = $<<11*5=55>>55.\nFor the green balls, 25 balls * $3/ball = $<<25*3=75>>75.\nFor all balls, $27 + $55 + $75 = $<<27+55+75=157>>157.\n#### 157"
+    },
+    {
+        "question": "1. Calculate the total cost of red balls: 3 red balls * $9/red ball = $27\n\n2. Calculate the total cost of blue balls: 11 blue balls * $5/blue ball = $55\n\n3. Calculate the total cost of green balls: 25 green balls * $3/green ball = $75\n\n4. Calculate the total revenue: $27 + $55 + $75 = $157\n\nI hope it is correct: $157\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $157\n",
+        "ground_truth": "For the red balls, 3 balls * $9/ball = $<<3*9=27>>27.\nFor the blue balls, 11 balls * $5/ball = $<<11*5=55>>55.\nFor the green balls, 25 balls * $3/ball = $<<25*3=75>>75.\nFor all balls, $27 + $55 + $75 = $<<27+55+75=157>>157.\n#### 157"
+    }
+]

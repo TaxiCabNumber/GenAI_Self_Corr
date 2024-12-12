@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJenna starts out with 8 sapphires. She trades 3 sapphires for two rubies. If sapphires are worth $800 and rubies are worth $1200, how much money are all her jewels worth?",
+        "inference": "1. Value of 8 sapphires: 8 sapphires * $800/sapphire = $6400\n2. Sapphires traded: 3 sapphires * $800/sapphire = $2400\n3. Rubies received: $2400 / $1200/ruby = 2 rubies\n4. Value of rubies: 2 rubies * $1200/ruby = $2400\n5. Total value of jewels: $6400 (initial sapphires) - $2400 (traded sapphires) + $2400 (received rubies) = $6400\nI hope it is correct: $6400\n",
+        "ground_truth": "First find the total number of sapphires Jenna still has: 8 sapphires - 3 sapphires = <<8-3=5>>5 sapphires\nThen multiply this number by the cost per sapphire to find the total cost of the sapphires: 5 sapphires * $800/sapphire = $<<5*800=4000>>4000\nThen find the total value of the rubies: 2 rubies * $1200/ruby = $<<2*1200=2400>>2400\nThen amount this to the cost of the sapphires to find the total value of her jewelry: $2400 + $4000 = $<<2400+4000=6400>>6400\n#### 6400"
+    },
+    {
+        "question": "1. Value of 8 sapphires: 8 sapphires * $800/sapphire = $6400\n2. Sapphires traded: 3 sapphires * $800/sapphire = $2400\n3. Rubies received: $2400 / $1200/ruby = 2 rubies\n4. Value of rubies: 2 rubies * $1200/ruby = $2400\n5. Total value of jewels: $6400 (initial sapphires) - $2400 (traded sapphires) + $2400 (received rubies) = $6400\nI hope it is correct: $6400\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $6400\n",
+        "ground_truth": "First find the total number of sapphires Jenna still has: 8 sapphires - 3 sapphires = <<8-3=5>>5 sapphires\nThen multiply this number by the cost per sapphire to find the total cost of the sapphires: 5 sapphires * $800/sapphire = $<<5*800=4000>>4000\nThen find the total value of the rubies: 2 rubies * $1200/ruby = $<<2*1200=2400>>2400\nThen amount this to the cost of the sapphires to find the total value of her jewelry: $2400 + $4000 = $<<2400+4000=6400>>6400\n#### 6400"
+    }
+]

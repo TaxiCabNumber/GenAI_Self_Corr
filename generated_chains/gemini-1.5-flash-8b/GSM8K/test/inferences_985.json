@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nEdgar eats 18 pretzels a day. If his brother eats 1/2 as many, how many does his brother eat in a week?",
+        "inference": "1. Edgar's brother eats 1/2 * 18 = 9 pretzels a day.\n2. There are 7 days in a week.\n3. His brother eats 9 * 7 = 63 pretzels in a week.\n\nI hope it is correct: 63 $pretzels$\n",
+        "ground_truth": "His brother eats 9 pretzels a day because 18 / 2 = <<18/2=9>>9\nHis brother eats 63 in a week because 9 x 7 = <<9*7=63>>63\n#### 63"
+    },
+    {
+        "question": "1. Edgar's brother eats 1/2 * 18 = 9 pretzels a day.\n2. There are 7 days in a week.\n3. His brother eats 9 * 7 = 63 pretzels in a week.\n\nI hope it is correct: 63 $pretzels$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 63 pretzels\n",
+        "ground_truth": "His brother eats 9 pretzels a day because 18 / 2 = <<18/2=9>>9\nHis brother eats 63 in a week because 9 x 7 = <<9*7=63>>63\n#### 63"
+    }
+]

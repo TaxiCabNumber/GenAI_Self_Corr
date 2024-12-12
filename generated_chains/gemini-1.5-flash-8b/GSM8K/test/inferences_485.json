@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJillian's handbag cost $20 less than 3 times as much as her shoes cost. If her shoes cost $80, how much did her bag cost?",
+        "inference": "1. Shoes cost $80.\n\n2. 3 times the cost of shoes = 3 * $80 = $240\n\n3. Bag cost = $240 - $20 = $220\n\nI hope it is correct: 220$answer\n",
+        "ground_truth": "First triple the cost of the shoes: $80 * 3 = $<<80*3=240>>240\nThen subtract $20 to find the cost of the handbag: $240 - $20 = $<<240-20=220>>220\n#### 220"
+    },
+    {
+        "question": "1. Shoes cost $80.\n\n2. 3 times the cost of shoes = 3 * $80 = $240\n\n3. Bag cost = $240 - $20 = $220\n\nI hope it is correct: 220$answer\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $220\n",
+        "ground_truth": "First triple the cost of the shoes: $80 * 3 = $<<80*3=240>>240\nThen subtract $20 to find the cost of the handbag: $240 - $20 = $<<240-20=220>>220\n#### 220"
+    }
+]

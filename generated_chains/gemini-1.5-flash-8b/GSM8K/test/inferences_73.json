@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nShiela bought five cell phones for $150 each for a 3-month installment. A 2% interest will be charged for each unit. How much will Shiela pay each month for 3 months?",
+        "inference": "1. Cost of one phone: $150\n2. Number of phones: 5\n3. Total cost of phones: 5 * $150 = $750\n4. Interest per phone: 2% of $150 = 0.02 * $150 = $3\n5. Total interest for 5 phones: 5 * $3 = $15\n6. Total amount to pay: $750 + $15 = $765\n7. Number of months: 3\n8. Monthly payment: $765 / 3 = $255\n\nI hope it is correct: $255\n",
+        "ground_truth": "A $150 x 2/100 = $<<150*2/100=3>>3 interest will be charged for each unit.\nSo, each cell phone costs $150 + $3 = $<<150+3=153>>153.\nThe total amount to be paid for 5 cell phones is $153 x 5 = $<<153*5=765>>765.\nThus, Shiela will pay $765/3 = $<<765/3=255>>255 each month.\n#### 255"
+    },
+    {
+        "question": "1. Cost of one phone: $150\n2. Number of phones: 5\n3. Total cost of phones: 5 * $150 = $750\n4. Interest per phone: 2% of $150 = 0.02 * $150 = $3\n5. Total interest for 5 phones: 5 * $3 = $15\n6. Total amount to pay: $750 + $15 = $765\n7. Number of months: 3\n8. Monthly payment: $765 / 3 = $255\n\nI hope it is correct: $255\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $255\n",
+        "ground_truth": "A $150 x 2/100 = $<<150*2/100=3>>3 interest will be charged for each unit.\nSo, each cell phone costs $150 + $3 = $<<150+3=153>>153.\nThe total amount to be paid for 5 cell phones is $153 x 5 = $<<153*5=765>>765.\nThus, Shiela will pay $765/3 = $<<765/3=255>>255 each month.\n#### 255"
+    }
+]

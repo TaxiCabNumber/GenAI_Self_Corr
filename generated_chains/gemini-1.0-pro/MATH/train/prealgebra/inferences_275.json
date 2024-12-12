@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is left when $\\frac{1}{8}$ is subtracted from $\\frac{3}{4}$?",
+        "inference": "$$\\frac{3}{4} - \\frac{1}{8}$$\n\nFind a common denominator:\n\n$$\\frac{6}{8} - \\frac{1}{8}$$\n\nSubtract the numerators and keep the denominator:\n\n$$\\frac{6 - 1}{8}$$\n\n$$\\frac{5}{8}$$\n\nFinal Answer: \\boxed{$\\frac{5}{8}$} I hope it is correct.",
+        "ground_truth": "We are looking for $\\frac{3}{4} - \\frac{1}{8}$. The least common denominator is 8, so we must rewrite $\\frac{3}{4}$ with 8 in the denominator.   $\\frac{3}{4} = \\frac{3}{4} \\cdot 1 = \\frac{3}{4} \\cdot \\frac{2}{2} = \\frac{6}{8}$.   Then, we know that $\\frac{3}{4} - \\frac{1}{8} = \\frac{6}{8} - \\frac{1}{8} = \\frac{6-1}{8} = \\boxed{\\frac{5}{8}}$."
+    },
+    {
+        "question": "$$\\frac{3}{4} - \\frac{1}{8}$$\n\nFind a common denominator:\n\n$$\\frac{6}{8} - \\frac{1}{8}$$\n\nSubtract the numerators and keep the denominator:\n\n$$\\frac{6 - 1}{8}$$\n\n$$\\frac{5}{8}$$\n\nFinal Answer: \\boxed{$\\frac{5}{8}$} I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\frac{5}{8}$$",
+        "ground_truth": "We are looking for $\\frac{3}{4} - \\frac{1}{8}$. The least common denominator is 8, so we must rewrite $\\frac{3}{4}$ with 8 in the denominator.   $\\frac{3}{4} = \\frac{3}{4} \\cdot 1 = \\frac{3}{4} \\cdot \\frac{2}{2} = \\frac{6}{8}$.   Then, we know that $\\frac{3}{4} - \\frac{1}{8} = \\frac{6}{8} - \\frac{1}{8} = \\frac{6-1}{8} = \\boxed{\\frac{5}{8}}$."
+    }
+]

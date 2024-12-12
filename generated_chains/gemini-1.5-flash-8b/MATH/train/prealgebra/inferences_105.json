@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nAt a state contest, 21 Mathletes stay in the same hotel. Each Mathlete gets his/her own room and the room numbers are 1 through 21. When all the Mathletes have arrived, except the ones staying in rooms 12 and 13, what is the median room number of the other 19 Mathletes?",
+        "inference": "The room numbers are 1 through 21.  The median of a set of numbers is the middle value when the numbers are arranged in order.\nWith 19 Mathletes, the median is the $\\frac{19+1}{2} = 10^{th}$ room number.\nThe room numbers are 1, 2, 3, ..., 11, 14, 15, ..., 21.\nThe 10th room number in the ordered list is 10.\nFinal Answer: $\\boxed{10}$ I hope it is correct.",
+        "ground_truth": "There are currently 19 Mathletes there, so if the room numbers are listed in order we want the 10th, with 9 rooms before and 9 after. The 10th room is just room number $\\boxed{10}$, since no numbers are skipped in the first ten."
+    },
+    {
+        "question": "The room numbers are 1 through 21.  The median of a set of numbers is the middle value when the numbers are arranged in order.\nWith 19 Mathletes, the median is the $\\frac{19+1}{2} = 10^{th}$ room number.\nThe room numbers are 1, 2, 3, ..., 11, 14, 15, ..., 21.\nThe 10th room number in the ordered list is 10.\nFinal Answer: $\\boxed{10}$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The problem statement says the room numbers are 1, 2, 3, ..., 11, 14, 15, ..., 21.  This means the room numbers are 1 through 11, 14, 15, ..., 21.  We need to find the median.  There are 19 Mathletes.\nArranging the room numbers in order: 1, 2, 3, ..., 11, 14, 15, ..., 21.  The 10th value in this ordered list is 10th value.\nThe middle value is the $\\frac{19+1}{2}=10$th value.\nThe 10th room number is 10.\nFinal Answer: $\\boxed{10}$",
+        "ground_truth": "There are currently 19 Mathletes there, so if the room numbers are listed in order we want the 10th, with 9 rooms before and 9 after. The 10th room is just room number $\\boxed{10}$, since no numbers are skipped in the first ten."
+    }
+]

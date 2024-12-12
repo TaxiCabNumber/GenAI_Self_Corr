@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nEmma can make and upload 72 vlogs per month. But she was only able to make 18 vlogs for the first week, 21 vlogs for the second week, and 15 vlogs for the third week. How many vlogs should she do to complete the 72 vlogs per month?",
+        "inference": "18 + 21 + 15 = 54 vlogs made so far.\n72 - 54 = 18 vlogs remaining.\nI hope it is correct: 18 $vlogs$\n",
+        "ground_truth": "Emma was able to make 18 + 21 + 15 = <<18+21+15=54>>54 vlogs for 3 weeks.\nTherefore, Emma needs to do 72 - 54 = <<72-54=18>>18 more vlogs to complete the 72 vlogs.\n#### 18"
+    },
+    {
+        "question": "18 + 21 + 15 = 54 vlogs made so far.\n72 - 54 = 18 vlogs remaining.\nI hope it is correct: 18 $vlogs$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 18 vlogs\n",
+        "ground_truth": "Emma was able to make 18 + 21 + 15 = <<18+21+15=54>>54 vlogs for 3 weeks.\nTherefore, Emma needs to do 72 - 54 = <<72-54=18>>18 more vlogs to complete the 72 vlogs.\n#### 18"
+    }
+]

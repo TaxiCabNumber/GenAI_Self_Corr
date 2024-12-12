@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn visits his parents twice a month.  It takes him 2 hours to drive there at a speed of 70 mph.  Considering the round trip, how many miles a month does he drive when visiting his parents?",
+        "inference": "Time per visit (one way) = 2 hours / 2 = 1 hour\nDistance per visit (one way) = Speed \u00d7 Time = 70 mph \u00d7 1 hour = 70 miles\nTotal distance per visit (round trip) = 70 miles \u00d7 2 = 140 miles\nVisits per month = 2\nTotal miles per month = 140 miles/visit \u00d7 2 visits/month = 280 miles\n\nI hope it is correct: 280 $miles$\n",
+        "ground_truth": "His parents live 70*2=<<70*2=140>>140 miles away\nSo he drives 140*2=<<140*2=280>>280 miles a round trip\n280*2 = <<280*2=560>>560 miles a month\n#### 560"
+    },
+    {
+        "question": "Time per visit (one way) = 2 hours / 2 = 1 hour\nDistance per visit (one way) = Speed \u00d7 Time = 70 mph \u00d7 1 hour = 70 miles\nTotal distance per visit (round trip) = 70 miles \u00d7 2 = 140 miles\nVisits per month = 2\nTotal miles per month = 140 miles/visit \u00d7 2 visits/month = 280 miles\n\nI hope it is correct: 280 $miles$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 280 miles\n",
+        "ground_truth": "His parents live 70*2=<<70*2=140>>140 miles away\nSo he drives 140*2=<<140*2=280>>280 miles a round trip\n280*2 = <<280*2=560>>560 miles a month\n#### 560"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIf a bag of marbles costs $20 and the price increases by 20% of the original price every two months, how much would a bag of marbles cost after 36 months?",
+        "inference": "1. Calculate the price increase per two-month period: 20% of $20 is $4.\n2. Calculate the number of two-month periods in 36 months: 36 months / 2 months/period = 18 periods.\n3. Calculate the total price increase over 18 periods: $4/period * 18 periods = $72.\n4. Calculate the final price: $20 (original price) + $72 (total price increase) = $92.\n\nI hope it is correct: $92\n",
+        "ground_truth": "When the price of the bag of marble increase by 20%, the price increases by 20/100*20 = $<<20/100*20=4>>4\nIf the price increases after every two months, in 36 months, it will increase 36/2 = <<36/2=18>>18 times.\nIf each increase is $4, the total amount the price of the bag of marbles will have increased by after 36 months is 18*$4 = $<<18*4=72>>72\nAfter the total increase of the price of the bag of marbles after 36 months, the total cost will be $20+$72 = $<<20+72=92>>92\n#### 92"
+    },
+    {
+        "question": "1. Calculate the price increase per two-month period: 20% of $20 is $4.\n2. Calculate the number of two-month periods in 36 months: 36 months / 2 months/period = 18 periods.\n3. Calculate the total price increase over 18 periods: $4/period * 18 periods = $72.\n4. Calculate the final price: $20 (original price) + $72 (total price increase) = $92.\n\nI hope it is correct: $92\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $24.89\n",
+        "ground_truth": "When the price of the bag of marble increase by 20%, the price increases by 20/100*20 = $<<20/100*20=4>>4\nIf the price increases after every two months, in 36 months, it will increase 36/2 = <<36/2=18>>18 times.\nIf each increase is $4, the total amount the price of the bag of marbles will have increased by after 36 months is 18*$4 = $<<18*4=72>>72\nAfter the total increase of the price of the bag of marbles after 36 months, the total cost will be $20+$72 = $<<20+72=92>>92\n#### 92"
+    }
+]

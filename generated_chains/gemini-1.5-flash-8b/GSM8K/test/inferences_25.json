@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMarie ordered one chicken meal that costs $12, 5 packs of milk that costs $3 each, 4 apples that cost $1.50 each, and some boxes of pizza. Marie paid a total of $50. How many boxes of pizza did Marie order if each box costs $8.50?",
+        "inference": "1. Chicken meal cost: $12\n2. Milk cost: 5 packs * $3/pack = $15\n3. Apples cost: 4 apples * $1.50/apple = $6\n4. Total cost of chicken, milk, and apples: $12 + $15 + $6 = $33\n5. Remaining money for pizza: $50 - $33 = $17\n6. Number of pizza boxes: $17 / $8.50/box = 2 boxes\n\nI hope it is correct: 2 boxes\n",
+        "ground_truth": "Five packs of milk cost $3 x 5 = $<<3*5=15>>15.\nFour apples cost $1.50 x 4 = $<<1.5*4=6>>6.\nThe total cost of the chicken meal, milk, and apples is $12 + $15 + $6 = $<<12+15+6=33>>33.\nThus, the boxes of pizza cost $50 - $33 = $<<50-33=17>>17.\nTherefore, Marie ordered $17/$8.50 = <<17/8.5=2>>2 boxes of pizza.\n#### 2"
+    },
+    {
+        "question": "1. Chicken meal cost: $12\n2. Milk cost: 5 packs * $3/pack = $15\n3. Apples cost: 4 apples * $1.50/apple = $6\n4. Total cost of chicken, milk, and apples: $12 + $15 + $6 = $33\n5. Remaining money for pizza: $50 - $33 = $17\n6. Number of pizza boxes: $17 / $8.50/box = 2 boxes\n\nI hope it is correct: 2 boxes\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $2\n",
+        "ground_truth": "Five packs of milk cost $3 x 5 = $<<3*5=15>>15.\nFour apples cost $1.50 x 4 = $<<1.5*4=6>>6.\nThe total cost of the chicken meal, milk, and apples is $12 + $15 + $6 = $<<12+15+6=33>>33.\nThus, the boxes of pizza cost $50 - $33 = $<<50-33=17>>17.\nTherefore, Marie ordered $17/$8.50 = <<17/8.5=2>>2 boxes of pizza.\n#### 2"
+    }
+]

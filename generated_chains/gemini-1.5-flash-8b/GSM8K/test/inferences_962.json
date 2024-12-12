@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJen decides to travel to 3 different countries.  He has to pay $400 for the supplies he needs, in total.  The tickets for travel cost, in total, 50% more than the supplies.  How much does travel cost?",
+        "inference": "1. Supplies cost $400.\n2. Travel costs are 50% more than supplies.\n3. 50% of $400 is 0.50 * $400 = $200.\n4. Travel costs are $400 + $200 = $600.\n\nI hope it is correct: $600\n",
+        "ground_truth": "He pays 400*.5=$<<400*.5=200>>200 more for tickets than supplies\nThat means the tickets cost 400+200=$<<400+200=600>>600\nSo it cost 600+400=$<<600+400=1000>>1000 in total.\n#### 1000"
+    },
+    {
+        "question": "1. Supplies cost $400.\n2. Travel costs are 50% more than supplies.\n3. 50% of $400 is 0.50 * $400 = $200.\n4. Travel costs are $400 + $200 = $600.\n\nI hope it is correct: $600\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $600\n",
+        "ground_truth": "He pays 400*.5=$<<400*.5=200>>200 more for tickets than supplies\nThat means the tickets cost 400+200=$<<400+200=600>>600\nSo it cost 600+400=$<<600+400=1000>>1000 in total.\n#### 1000"
+    }
+]

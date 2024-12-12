@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCompute $\\dbinom{15}{3}$.",
+        "inference": "Solution:\nFirst, rewrite the formula:\n\n$$\\dbinom{15}{3} = \\dfrac{15!}{3! \\cdot 12!}$$\n\nThe factorial of 3 is 3! = 3\u22c52\u22c51 = 6.\n\nThe factorial of 12 is 12! = 12\u22c511\u22c510\u22c59\u22c58\u22c57\u22c56\u22c55\u22c54\u22c53\u22c52\u22c51 = 479001600.\n\nSo,\n\n$$\\dbinom{15}{3} = \\dfrac{15 \\times 14 \\times 13 \\times 12!}{3! \\cdot 12!} = \\dfrac{15 \\times 14 \\times 13}{6} = \\dfrac{2730}{6} = 455$$\n\nFinal Answer: \\boxed{455}. I hope it is correct.",
+        "ground_truth": "\\begin{align*}\n\\dbinom{15}{3} &= \\dfrac{15!}{12!3!} \\\\\n&= \\dfrac{15\\times 14\\times 13}{3\\times 2\\times 1} \\\\\n&= \\dfrac{15}{3} \\times \\dfrac{14}{2} \\times \\dfrac{13}{1} \\\\\n&= 5\\times 7\\times 13 \\\\\n&= \\boxed{455}.\n\\end{align*}"
+    },
+    {
+        "question": "Solution:\nFirst, rewrite the formula:\n\n$$\\dbinom{15}{3} = \\dfrac{15!}{3! \\cdot 12!}$$\n\nThe factorial of 3 is 3! = 3\u22c52\u22c51 = 6.\n\nThe factorial of 12 is 12! = 12\u22c511\u22c510\u22c59\u22c58\u22c57\u22c56\u22c55\u22c54\u22c53\u22c52\u22c51 = 479001600.\n\nSo,\n\n$$\\dbinom{15}{3} = \\dfrac{15 \\times 14 \\times 13 \\times 12!}{3! \\cdot 12!} = \\dfrac{15 \\times 14 \\times 13}{6} = \\dfrac{2730}{6} = 455$$\n\nFinal Answer: \\boxed{455}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{455}",
+        "ground_truth": "\\begin{align*}\n\\dbinom{15}{3} &= \\dfrac{15!}{12!3!} \\\\\n&= \\dfrac{15\\times 14\\times 13}{3\\times 2\\times 1} \\\\\n&= \\dfrac{15}{3} \\times \\dfrac{14}{2} \\times \\dfrac{13}{1} \\\\\n&= 5\\times 7\\times 13 \\\\\n&= \\boxed{455}.\n\\end{align*}"
+    }
+]

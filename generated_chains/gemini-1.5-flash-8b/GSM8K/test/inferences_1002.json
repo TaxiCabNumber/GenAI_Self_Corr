@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nLisa and Peter are selling chocolate bars door to door. Lisa sold three and a half boxes of chocolate bars, and Peter sold four and a half boxes. They sold 64 chocolate bars together. How many chocolate bars are in a box?",
+        "inference": "Lisa sold 3.5 boxes.\nPeter sold 4.5 boxes.\nTogether they sold 3.5 + 4.5 = 8 boxes.\nThey sold 64 chocolate bars in total.\nChocolate bars per box = 64 / 8 = 8\nI hope it is correct: 8 $chocolate bars$\n",
+        "ground_truth": "Let B stand for the number of chocolate bars in a box.\nLisa sold 3 1/2 * B bars.\nPeter sold 4 1/2 * B bars.\nTogether, they sold 3 1/2 * B + 4 1/2 * B = 8B = 64 bars.\nTherefore, there are B = 64 / 8 = <<64/8=8>>8 chocolate bars in a box.\n#### 8"
+    },
+    {
+        "question": "Lisa sold 3.5 boxes.\nPeter sold 4.5 boxes.\nTogether they sold 3.5 + 4.5 = 8 boxes.\nThey sold 64 chocolate bars in total.\nChocolate bars per box = 64 / 8 = 8\nI hope it is correct: 8 $chocolate bars$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 8\n",
+        "ground_truth": "Let B stand for the number of chocolate bars in a box.\nLisa sold 3 1/2 * B bars.\nPeter sold 4 1/2 * B bars.\nTogether, they sold 3 1/2 * B + 4 1/2 * B = 8B = 64 bars.\nTherefore, there are B = 64 / 8 = <<64/8=8>>8 chocolate bars in a box.\n#### 8"
+    }
+]

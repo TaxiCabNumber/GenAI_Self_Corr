@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nDylan needed chicken sausages and fish sausages to make sausage buns at a party. He bought 38 chicken sausages and 6 more fish sausages than chicken sausages. How many sausages did Dylan buy in all?",
+        "inference": "1. Fish sausages = Chicken sausages + 6\n2. Fish sausages = 38 + 6 = 44\n3. Total sausages = Chicken sausages + Fish sausages\n4. Total sausages = 38 + 44 = 82\n\nI hope it is correct: 82 $sausages$\n",
+        "ground_truth": "He bought 38 + 6 = <<38+6=44>>44 fish sausages.\nDylan bought 38 + 44 = <<38+44=82>>82 sausages in all.\n#### 82"
+    },
+    {
+        "question": "1. Fish sausages = Chicken sausages + 6\n2. Fish sausages = 38 + 6 = 44\n3. Total sausages = Chicken sausages + Fish sausages\n4. Total sausages = 38 + 44 = 82\n\nI hope it is correct: 82 $sausages$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 82\n",
+        "ground_truth": "He bought 38 + 6 = <<38+6=44>>44 fish sausages.\nDylan bought 38 + 44 = <<38+44=82>>82 sausages in all.\n#### 82"
+    }
+]

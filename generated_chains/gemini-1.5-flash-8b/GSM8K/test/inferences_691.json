@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn brings his dog to the vet. His dog needs 2 vaccines, which are $20 each, and a heartworm check. The heartworm check is 60% of his total bill. If he brought $125 with him, how much does he leave with?",
+        "inference": "1. Cost of vaccines: 2 vaccines * $20/vaccine = $40\n2. Let 'x' be the total bill. The heartworm check cost is 0.60x.  \n3. The total bill is the sum of vaccines and heartworm check, so x = $40 + 0.60x\n4. Solving for x: 0.40x = $40,  x = $100\n5. Amount left with John: $125 - $100 = $25\n\nI hope it is correct: $25\n",
+        "ground_truth": "The vaccines cost 40 because 2 x 20 = <<2*20=40>>40\nThe vaccines are 40% of his total bill because 100 - 60 = <<100-60=40>>40\nThe total bill is $100 because 40 / .4 = <<40/.4=100>>100\nHe leaves with $25 because 125 - 100 = <<125-100=25>>25\n#### 25"
+    },
+    {
+        "question": "1. Cost of vaccines: 2 vaccines * $20/vaccine = $40\n2. Let 'x' be the total bill. The heartworm check cost is 0.60x.  \n3. The total bill is the sum of vaccines and heartworm check, so x = $40 + 0.60x\n4. Solving for x: 0.40x = $40,  x = $100\n5. Amount left with John: $125 - $100 = $25\n\nI hope it is correct: $25\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $25\n",
+        "ground_truth": "The vaccines cost 40 because 2 x 20 = <<2*20=40>>40\nThe vaccines are 40% of his total bill because 100 - 60 = <<100-60=40>>40\nThe total bill is $100 because 40 / .4 = <<40/.4=100>>100\nHe leaves with $25 because 125 - 100 = <<125-100=25>>25\n#### 25"
+    }
+]

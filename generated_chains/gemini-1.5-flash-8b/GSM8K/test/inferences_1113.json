@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe temperature was 2 degrees Celsius. It dropped 8 degrees Celsius overnight and then increased 3 degrees Celsius in the morning. What was the temperature, in degrees Celsius, in the morning?",
+        "inference": "1. Initial temperature: 2\u00b0C\n2. Temperature drop: -8\u00b0C\n3. Temperature after drop: 2\u00b0C + (-8\u00b0C) = -6\u00b0C\n4. Temperature increase: +3\u00b0C\n5. Final temperature: -6\u00b0C + 3\u00b0C = -3\u00b0C\n\nI hope it is correct: -3 $answer$\n",
+        "ground_truth": "Start = +<<2=2>>2 degrees\nDrop 8 degrees = 2 - 8 = -6 degrees\nIncrease 3 degrees = -6 + 3 = -3 degrees\nIt was -3 degrees Celsius in the morning.\n#### -3"
+    },
+    {
+        "question": "1. Initial temperature: 2\u00b0C\n2. Temperature drop: -8\u00b0C\n3. Temperature after drop: 2\u00b0C + (-8\u00b0C) = -6\u00b0C\n4. Temperature increase: +3\u00b0C\n5. Final temperature: -6\u00b0C + 3\u00b0C = -3\u00b0C\n\nI hope it is correct: -3 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### -3\u00b0C\n",
+        "ground_truth": "Start = +<<2=2>>2 degrees\nDrop 8 degrees = 2 - 8 = -6 degrees\nIncrease 3 degrees = -6 + 3 = -3 degrees\nIt was -3 degrees Celsius in the morning.\n#### -3"
+    }
+]

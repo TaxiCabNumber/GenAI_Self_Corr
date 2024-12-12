@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFor a given positive integer $n > 2^3$, what is the greatest common divisor of $n^3 + 3^2$ and $n + 2$?",
+        "inference": "$$gcd(n^3+3^2,n+2) = gcd((n+2)(n^2-2n+9), n+2) = gcd(n^2-2n+9,n+2)$$\n\n$$=gcd(n^2-2n+9-n(n+2),n+2) = gcd(9 - n^2 , n+2)$$\n\n$$=gcd(18 - 2(n^2) , n+2)$$\n\n$$= gcd(18 - (n+2)^2 , n+2) = gcd( (n+2)^2 - 18 , n+2)$$\n\n$$= gcd( 1 - (n+2)^2 , n+2) = gcd( (1 - (n+2))(1+(n+2)) , n+2)$$\n\n$$= gcd( -(n^2 + 4n +3) , n+2)= gcd( n^2 + 4n +3  , n+2)$$\n\n$$= gcd( (n+2)(n+3) - n  , n+2) = gcd( n+3  , n+2)$$\n\n$$= gcd( n+2+1  , n+2) = gcd( 1  , n+2)=1$$\n\nFinal Answer: \\boxed{1}. I hope it is correct.",
+        "ground_truth": "Notice that by the sum of cubes factorization, $n^3 + 8 = (n+2)(n^2 - 2n + 4)$ is an integer divisible by $n+2$. Thus,\n\\begin{align*}\n\\text{gcd}\\,(n^3 + 9, n+2) &= \\text{gcd}\\,(n^3 + 9 - (n^3 + 8), n+2) \\\\ \n& = \\text{gcd}\\,(1,n+2) \\\\\n& = \\boxed{1}.\n\\end{align*}"
+    },
+    {
+        "question": "$$gcd(n^3+3^2,n+2) = gcd((n+2)(n^2-2n+9), n+2) = gcd(n^2-2n+9,n+2)$$\n\n$$=gcd(n^2-2n+9-n(n+2),n+2) = gcd(9 - n^2 , n+2)$$\n\n$$=gcd(18 - 2(n^2) , n+2)$$\n\n$$= gcd(18 - (n+2)^2 , n+2) = gcd( (n+2)^2 - 18 , n+2)$$\n\n$$= gcd( 1 - (n+2)^2 , n+2) = gcd( (1 - (n+2))(1+(n+2)) , n+2)$$\n\n$$= gcd( -(n^2 + 4n +3) , n+2)= gcd( n^2 + 4n +3  , n+2)$$\n\n$$= gcd( (n+2)(n+3) - n  , n+2) = gcd( n+3  , n+2)$$\n\n$$= gcd( n+2+1  , n+2) = gcd( 1  , n+2)=1$$\n\nFinal Answer: \\boxed{1}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{1}",
+        "ground_truth": "Notice that by the sum of cubes factorization, $n^3 + 8 = (n+2)(n^2 - 2n + 4)$ is an integer divisible by $n+2$. Thus,\n\\begin{align*}\n\\text{gcd}\\,(n^3 + 9, n+2) &= \\text{gcd}\\,(n^3 + 9 - (n^3 + 8), n+2) \\\\ \n& = \\text{gcd}\\,(1,n+2) \\\\\n& = \\boxed{1}.\n\\end{align*}"
+    }
+]

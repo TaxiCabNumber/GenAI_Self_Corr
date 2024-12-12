@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMadeline ate 6 grapes. Her brother wanted to make grape juice and used up 5 times as many grapes then Madeline to make a full glass. Their mother then used the remaining grapes to make 4 pies. How many grapes were there at the beginning if the pie recipe calls for 12 grapes per pie?",
+        "inference": "Madeline ate 6 grapes.\nHer brother used 5 times as many grapes as Madeline, so he used 6 * 5 = 30 grapes.\nTotal grapes used by Madeline and her brother = 6 + 30 = 36 grapes.\nThe mother used the remaining grapes to make 4 pies, each requiring 12 grapes.\nTotal grapes for the 4 pies = 4 * 12 = 48 grapes.\nTotal grapes at the beginning = grapes used + grapes remaining\nTotal grapes = 36 + 48 = 84 grapes\n\nI hope it is correct: 84 $answer$\n",
+        "ground_truth": "Madeline's brother used 6 x 5 = <<6*5=30>>30 grapes\nTheir mother used 12 x 4 = <<12*4=48>>48 grapes\nThere were 30 + 48 + 6 = <<30+48+6=84>>84 grapes at the beginning\n#### 84"
+    },
+    {
+        "question": "Madeline ate 6 grapes.\nHer brother used 5 times as many grapes as Madeline, so he used 6 * 5 = 30 grapes.\nTotal grapes used by Madeline and her brother = 6 + 30 = 36 grapes.\nThe mother used the remaining grapes to make 4 pies, each requiring 12 grapes.\nTotal grapes for the 4 pies = 4 * 12 = 48 grapes.\nTotal grapes at the beginning = grapes used + grapes remaining\nTotal grapes = 36 + 48 = 84 grapes\n\nI hope it is correct: 84 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 84\n",
+        "ground_truth": "Madeline's brother used 6 x 5 = <<6*5=30>>30 grapes\nTheir mother used 12 x 4 = <<12*4=48>>48 grapes\nThere were 30 + 48 + 6 = <<30+48+6=84>>84 grapes at the beginning\n#### 84"
+    }
+]

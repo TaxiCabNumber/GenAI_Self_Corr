@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFor $y=\\frac{x+2}{5x-7}$, at what $x$-value is there a vertical asymptote?",
+        "inference": "The denominator $5x-7$ cannot be 0, so $5x-7 \\ne 0$.\nSolving for x, we get $x = \\frac{7}{5}$.\nFinal Answer: $\\boxed{x=\\frac{7}{5}}$. I hope it is correct.",
+        "ground_truth": "There is a vertical asymptote where the denominator equals 0 and thus $y$ is undefined. For the denominator to equal 0, we have $5x-7=0\\Rightarrow x=\\boxed{\\frac{7}{5}}$."
+    },
+    {
+        "question": "The denominator $5x-7$ cannot be 0, so $5x-7 \\ne 0$.\nSolving for x, we get $x = \\frac{7}{5}$.\nFinal Answer: $\\boxed{x=\\frac{7}{5}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\(\\boxed{x \\ne \\frac{7}{5}}\\)",
+        "ground_truth": "There is a vertical asymptote where the denominator equals 0 and thus $y$ is undefined. For the denominator to equal 0, we have $5x-7=0\\Rightarrow x=\\boxed{\\frac{7}{5}}$."
+    }
+]

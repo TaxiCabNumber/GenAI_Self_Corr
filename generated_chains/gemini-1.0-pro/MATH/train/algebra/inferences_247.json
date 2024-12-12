@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSolve for $n$: $|n + 6| = 2 - n$.",
+        "inference": "**Step 1:** Isolate the absolute value expression:\n$$|n + 6| - (2 - n) = 0$$\n\n**Step 2:** Split into two cases:\n**Case 1:** $n + 6 \\geq 0$\n$$n + 6 - (2 - n) = 0$$\n$$2n + 4 = 0$$\n$$2n = -4$$\n$$n = \\boxed{-2}$$\n\n**Case 2:** $n + 6 < 0$\n$$-(n + 6) - (2 - n) = 0$$\n$$-n - 6 - 2 + n = 0$$\n$$-n - 8 = 0$$\n$$n = \\boxed{-8}$$\n\n**Final Answer: $n = -2, -8$. I hope it is correct.**",
+        "ground_truth": "Case 1: $n+6 \\ge 0$ $$|n + 6| = n + 6 = 2 - n.$$Solve for $n$: $2n=-4,$ so we have $n =-2$.\n\nCase 2: $n+6 \\le 0$ $$|n + 6| = - n - 6 = 2 - n.$$Then we get $-6 = 2,$ which means that there are no solutions in this case.\n\nTherefore, $n$ must be $\\boxed{-2}.$"
+    },
+    {
+        "question": "**Step 1:** Isolate the absolute value expression:\n$$|n + 6| - (2 - n) = 0$$\n\n**Step 2:** Split into two cases:\n**Case 1:** $n + 6 \\geq 0$\n$$n + 6 - (2 - n) = 0$$\n$$2n + 4 = 0$$\n$$2n = -4$$\n$$n = \\boxed{-2}$$\n\n**Case 2:** $n + 6 < 0$\n$$-(n + 6) - (2 - n) = 0$$\n$$-n - 6 - 2 + n = 0$$\n$$-n - 8 = 0$$\n$$n = \\boxed{-8}$$\n\n**Final Answer: $n = -2, -8$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{-2, -8}$$",
+        "ground_truth": "Case 1: $n+6 \\ge 0$ $$|n + 6| = n + 6 = 2 - n.$$Solve for $n$: $2n=-4,$ so we have $n =-2$.\n\nCase 2: $n+6 \\le 0$ $$|n + 6| = - n - 6 = 2 - n.$$Then we get $-6 = 2,$ which means that there are no solutions in this case.\n\nTherefore, $n$ must be $\\boxed{-2}.$"
+    }
+]

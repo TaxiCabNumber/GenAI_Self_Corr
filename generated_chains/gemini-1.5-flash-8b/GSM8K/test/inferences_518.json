@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAli has four $10 bills and six $20 bills that he saved after working for Mr. James on his farm. Ali gives her sister half of the total money he has and uses 3/5 of the remaining amount of money to buy dinner. Calculate the amount of money he has after buying the dinner.",
+        "inference": "1. Calculate the total amount of money Ali has: (4 * $10) + (6 * $20) = $40 + $120 = $160\n\n2. Calculate how much Ali gives his sister: $160 / 2 = $80\n\n3. Calculate the remaining amount after giving to his sister: $160 - $80 = $80\n\n4. Calculate how much Ali spends on dinner: $80 * (3/5) = $48\n\n5. Calculate the remaining amount after buying dinner: $80 - $48 = $32\n\nI hope it is correct: $32\n",
+        "ground_truth": "Four $10 bills have a value of 4*$10 =$<<4*10=40>>40\nThe six $20 bills also are worth 6*$20 = $<<6*20=120>>120\nAli has $40+$120 = $<<40+120=160>>160\nWhen he gives his sister half of the money, he remains with the other half, which totals 1/2*$160 = $<<1/2*160=80>>80\nHe then spends 3/5*$80 = $<<3/5*80=48>>48 on dinner.\nThe total amount of money that Ali has now is $80-$48 = $<<80-48=32>>32\n#### 32"
+    },
+    {
+        "question": "1. Calculate the total amount of money Ali has: (4 * $10) + (6 * $20) = $40 + $120 = $160\n\n2. Calculate how much Ali gives his sister: $160 / 2 = $80\n\n3. Calculate the remaining amount after giving to his sister: $160 - $80 = $80\n\n4. Calculate how much Ali spends on dinner: $80 * (3/5) = $48\n\n5. Calculate the remaining amount after buying dinner: $80 - $48 = $32\n\nI hope it is correct: $32\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $32\n",
+        "ground_truth": "Four $10 bills have a value of 4*$10 =$<<4*10=40>>40\nThe six $20 bills also are worth 6*$20 = $<<6*20=120>>120\nAli has $40+$120 = $<<40+120=160>>160\nWhen he gives his sister half of the money, he remains with the other half, which totals 1/2*$160 = $<<1/2*160=80>>80\nHe then spends 3/5*$80 = $<<3/5*80=48>>48 on dinner.\nThe total amount of money that Ali has now is $80-$48 = $<<80-48=32>>32\n#### 32"
+    }
+]

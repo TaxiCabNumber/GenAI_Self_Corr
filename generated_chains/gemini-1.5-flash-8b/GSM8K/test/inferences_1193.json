@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJason was told he could earn $3.00 for doing his laundry,  $1.50 for cleaning his room, $0.75 for taking the trash to the curb each week and $0.50 for emptying the dishwasher.  In a two week period, Jason emptied the dishwasher 6 times, did his laundry once, took the trash out twice and cleaned his room once.  How much money did Jason earn?",
+        "inference": "Dishwasher earnings: $0.50/empty * 6 empties = $3.00\nLaundry earnings: $3.00\nTrash earnings: $0.75/time * 2 times = $1.50\nRoom cleaning earnings: $1.50\nTotal earnings: $3.00 + $3.00 + $1.50 + $1.50 = $9.00\nI hope it is correct: $9.00\n",
+        "ground_truth": "Jason emptied the dishwasher 6 times at $0.50 each so he made 6*.50=$<<6*.50=3.00>>3.00\nJason did his laundry 1 time at $3.00 so he made 1*3 = $<<1*3=3.00>>3.00\nJason took the trash out 2 times at $0.75 each so he made 2*.75 = $<<2*.75=1.50>>1.50\nJason cleaned his room 1 time at $1.50 each so he made 1*1.50 = $<<1*1.50=1.50>>1.50\nJason made 3+1.50+1.50+3 = $<<3+1.5+1.5+3=9.00>>9.00\n#### 9"
+    },
+    {
+        "question": "Dishwasher earnings: $0.50/empty * 6 empties = $3.00\nLaundry earnings: $3.00\nTrash earnings: $0.75/time * 2 times = $1.50\nRoom cleaning earnings: $1.50\nTotal earnings: $3.00 + $3.00 + $1.50 + $1.50 = $9.00\nI hope it is correct: $9.00\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $9.00\n",
+        "ground_truth": "Jason emptied the dishwasher 6 times at $0.50 each so he made 6*.50=$<<6*.50=3.00>>3.00\nJason did his laundry 1 time at $3.00 so he made 1*3 = $<<1*3=3.00>>3.00\nJason took the trash out 2 times at $0.75 each so he made 2*.75 = $<<2*.75=1.50>>1.50\nJason cleaned his room 1 time at $1.50 each so he made 1*1.50 = $<<1*1.50=1.50>>1.50\nJason made 3+1.50+1.50+3 = $<<3+1.5+1.5+3=9.00>>9.00\n#### 9"
+    }
+]

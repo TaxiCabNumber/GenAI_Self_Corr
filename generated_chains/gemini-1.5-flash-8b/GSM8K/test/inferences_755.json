@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJoey plays football every week. Last week he played 2 matches on Monday, 1 match on Friday, and on Saturday he played double the number of matches he played on Monday. How many matches did Joey play in one week?",
+        "inference": "Matches on Monday: 2\nMatches on Friday: 1\nMatches on Saturday: 2 * 2 = 4\nTotal matches: 2 + 1 + 4 = 7\n\nI hope it is correct: 7 $matches$\n",
+        "ground_truth": "On Saturday, Joey played 2 * 2 = <<2*2=4>>4 matches.\nFor the whole week, Joey played 2 + 1 + 4 = <<2+1+4=7>>7 matches in total.\n#### 7"
+    },
+    {
+        "question": "Matches on Monday: 2\nMatches on Friday: 1\nMatches on Saturday: 2 * 2 = 4\nTotal matches: 2 + 1 + 4 = 7\n\nI hope it is correct: 7 $matches$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 7\n",
+        "ground_truth": "On Saturday, Joey played 2 * 2 = <<2*2=4>>4 matches.\nFor the whole week, Joey played 2 + 1 + 4 = <<2+1+4=7>>7 matches in total.\n#### 7"
+    }
+]

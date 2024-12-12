@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe four-member math team at Pecanridge Middle School is chosen from the math club, which has three girls and five boys. How many different teams made up of two girls and two boys could be chosen?",
+        "inference": "First, find the number of ways to choose two girls from the three available. This can be done using combinations: \n$$C(3, 2) = \\frac{3!}{2!1!} = 3$$\n\nNext, find the number of ways to choose two boys from the five available. This can be done using combinations: \n$$C(5, 2) = \\frac{5!}{2!3!} = 10$$\n\nFinally, multiply the number of ways to choose two girls by the number of ways to choose two boys to get the total number of different teams:\n\n$$3 \\times 10 = 30$$\n\nFinal Answer: \\boxed{$30$}. I hope it is correct.",
+        "ground_truth": "To construct a team of 2 girls and 2 boys, we must consider how many ways to choose the 2 girls and then the 2 boys. Since there are 3 girls and 5 boys to choose from, the number of teams is ${5 \\choose 2} \\cdot {3 \\choose 2} = 10 \\cdot 3 = \\boxed{30}$."
+    },
+    {
+        "question": "First, find the number of ways to choose two girls from the three available. This can be done using combinations: \n$$C(3, 2) = \\frac{3!}{2!1!} = 3$$\n\nNext, find the number of ways to choose two boys from the five available. This can be done using combinations: \n$$C(5, 2) = \\frac{5!}{2!3!} = 10$$\n\nFinally, multiply the number of ways to choose two girls by the number of ways to choose two boys to get the total number of different teams:\n\n$$3 \\times 10 = 30$$\n\nFinal Answer: \\boxed{$30$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$30$}",
+        "ground_truth": "To construct a team of 2 girls and 2 boys, we must consider how many ways to choose the 2 girls and then the 2 boys. Since there are 3 girls and 5 boys to choose from, the number of teams is ${5 \\choose 2} \\cdot {3 \\choose 2} = 10 \\cdot 3 = \\boxed{30}$."
+    }
+]

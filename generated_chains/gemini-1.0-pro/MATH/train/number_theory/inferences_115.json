@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the residue of $182\\cdot 12 - 15\\cdot 7 + 3\\pmod{14}$.",
+        "inference": "$182\\cdot 12 - 15\\cdot 7 + 3\\pmod{14}=(182\\pmod{14})(12\\pmod{14})-(15\\pmod{14})(7\\pmod{14})+(3\\pmod{14})=(4\\pmod{14})(12\\pmod{14})-(3\\pmod{14})(7\\pmod{14})+(3\\pmod{14})=(48\\pmod{14})-(21\\pmod{14})+(3\\pmod{14})=27+3=30\\pmod{14}=30-14=\\boxed{2}$.\nFinal Answer: $\\boxed{2}$. I hope it is correct.",
+        "ground_truth": "Since $182$ is divisible by 14, the first term does not affect the residue of the whole expression, modulo 14. Since $15\\cdot 7$ is divisible by 7 but not by 14 (since it isn't even), it has a residue of 7. So the residue of the sum is  $$\n182\\cdot 12 - 15\\cdot 7 + 3 \\equiv 0 - 7 + 3 \\equiv -4 \\equiv \\boxed{10} \\pmod{14}.\n$$"
+    },
+    {
+        "question": "$182\\cdot 12 - 15\\cdot 7 + 3\\pmod{14}=(182\\pmod{14})(12\\pmod{14})-(15\\pmod{14})(7\\pmod{14})+(3\\pmod{14})=(4\\pmod{14})(12\\pmod{14})-(3\\pmod{14})(7\\pmod{14})+(3\\pmod{14})=(48\\pmod{14})-(21\\pmod{14})+(3\\pmod{14})=27+3=30\\pmod{14}=30-14=\\boxed{2}$.\nFinal Answer: $\\boxed{2}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$2$}.",
+        "ground_truth": "Since $182$ is divisible by 14, the first term does not affect the residue of the whole expression, modulo 14. Since $15\\cdot 7$ is divisible by 7 but not by 14 (since it isn't even), it has a residue of 7. So the residue of the sum is  $$\n182\\cdot 12 - 15\\cdot 7 + 3 \\equiv 0 - 7 + 3 \\equiv -4 \\equiv \\boxed{10} \\pmod{14}.\n$$"
+    }
+]

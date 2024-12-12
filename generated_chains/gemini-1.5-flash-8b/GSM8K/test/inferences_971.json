@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRobert is building a 15 foot long, 10 foot wide, rectangular wooden fence around his garden.  He needs 2 wood slats for every foot of fencing he builds.  How many wooden slats will he need?",
+        "inference": "1. Calculate the perimeter of the rectangular garden: Perimeter = 2 * (length + width) = 2 * (15 ft + 10 ft) = 2 * 25 ft = 50 ft\n\n2. Calculate the total number of wood slats needed: Total slats = Perimeter * slats/foot = 50 ft * 2 slats/ft = 100 slats\n\nI hope it is correct: 100 $slats$\n",
+        "ground_truth": "A rectangle has 2 long sides and Robert wants them to be 15 feet long so 2*15 = <<2*15=30>>30 feet long\nA rectangle has 2 short sides and Robert wants them to be 10 feet wide so 2*10= <<2*10=20>>20 feet wide\nTogether, he will need 30 feet and 20 feet of fencing so 30+20 = <<30+20=50>>50 feet of fencing\nHe needs 2 wooden slats per 1 foot of fencing and he is building 50 feet of fencing so he needs 50*2 = <<2*50=100>>100 wooden slats\n#### 100"
+    },
+    {
+        "question": "1. Calculate the perimeter of the rectangular garden: Perimeter = 2 * (length + width) = 2 * (15 ft + 10 ft) = 2 * 25 ft = 50 ft\n\n2. Calculate the total number of wood slats needed: Total slats = Perimeter * slats/foot = 50 ft * 2 slats/ft = 100 slats\n\nI hope it is correct: 100 $slats$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 100\n",
+        "ground_truth": "A rectangle has 2 long sides and Robert wants them to be 15 feet long so 2*15 = <<2*15=30>>30 feet long\nA rectangle has 2 short sides and Robert wants them to be 10 feet wide so 2*10= <<2*10=20>>20 feet wide\nTogether, he will need 30 feet and 20 feet of fencing so 30+20 = <<30+20=50>>50 feet of fencing\nHe needs 2 wooden slats per 1 foot of fencing and he is building 50 feet of fencing so he needs 50*2 = <<2*50=100>>100 wooden slats\n#### 100"
+    }
+]

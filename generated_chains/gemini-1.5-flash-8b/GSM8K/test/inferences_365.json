@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 6 girls in the park. If there are twice the number of boys in the park, how many kids are in the park?",
+        "inference": "1. Boys: 6 girls * 2 = 12 boys\n2. Total kids: 6 girls + 12 boys = 18 kids\n\nI hope it is correct: 18 $answer$\n",
+        "ground_truth": "There are 6 girls x 2 boys/girl = <<6*2=12>>12 boys in the park.\nIn total there are 6 girls + 12 boys = <<6+12=18>>18 kids in the park\n#### 18"
+    },
+    {
+        "question": "1. Boys: 6 girls * 2 = 12 boys\n2. Total kids: 6 girls + 12 boys = 18 kids\n\nI hope it is correct: 18 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 18\n",
+        "ground_truth": "There are 6 girls x 2 boys/girl = <<6*2=12>>12 boys in the park.\nIn total there are 6 girls + 12 boys = <<6+12=18>>18 kids in the park\n#### 18"
+    }
+]

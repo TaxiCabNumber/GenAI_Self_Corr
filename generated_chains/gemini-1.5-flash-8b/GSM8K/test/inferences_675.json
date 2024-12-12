@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJames needs to get more toys for his doggie shelter. Each dog needs one toy. James currently has 4 toys on hand for 4 dogs, but there are 8 more dogs in the shelter now. After buying the toys, he went back to see that there are twice as many more dogs than when he left so he had to buy some more toys. When James came back yet again, 3 dogs were gone so he no longer needed those toys. How many toys in total does James need?",
+        "inference": "1. Initial dogs: 4\n2. Additional dogs: 8\n3. Total dogs after initial purchase: 4 + 8 = 12\n4. Dogs after second visit (double): 12 * 2 = 24\n5. Dogs after 3 dogs left: 24 - 3 = 21\n6. Total toys needed: 21\n\nI hope it is correct: 21 $toys$\n",
+        "ground_truth": "James has 4+8=<<4+8=12>>12 toys.\nThere were 12*2=<<12*2=24>>24 dogs.\nJames needed to buy 24-12=<<24-12=12>>12 more toys.\nThere are 36 total toys.\n36-3=<<36-3=33>>33 toys are now needed.\n#### 33"
+    },
+    {
+        "question": "1. Initial dogs: 4\n2. Additional dogs: 8\n3. Total dogs after initial purchase: 4 + 8 = 12\n4. Dogs after second visit (double): 12 * 2 = 24\n5. Dogs after 3 dogs left: 24 - 3 = 21\n6. Total toys needed: 21\n\nI hope it is correct: 21 $toys$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 21\n",
+        "ground_truth": "James has 4+8=<<4+8=12>>12 toys.\nThere were 12*2=<<12*2=24>>24 dogs.\nJames needed to buy 24-12=<<24-12=12>>12 more toys.\nThere are 36 total toys.\n36-3=<<36-3=33>>33 toys are now needed.\n#### 33"
+    }
+]

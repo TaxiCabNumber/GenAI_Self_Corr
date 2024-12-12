@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nBelow is the graph of $y = a \\sin (bx + c) + d$ for some positive constants $a,$ $b,$ $c,$ and $d.$  Find $a.$\n\n[asy]import TrigMacros;\n\nsize(400);\n\nreal f(real x)\n{\n\treturn 2*sin(3*x + pi) + 1;\n}\n\ndraw(graph(f,-3*pi,3*pi,n=700,join=operator ..),red);\ntrig_axes(-3*pi,3*pi,-4,4,pi/2,1);\nlayer();\nrm_trig_labels(-5,5, 2);\n\nlabel(\"$1$\", (0,1), E);\nlabel(\"$2$\", (0,2), E);\nlabel(\"$3$\", (0,3), E);\nlabel(\"$-1$\", (0,-1), E);\nlabel(\"$-2$\", (0,-2), E);\nlabel(\"$-3$\", (0,-3), E);\n[/asy]",
+        "inference": "The graph has a maximum value of 3 and a minimum value of -1.  The midline is $y = \\frac{3 + (-1)}{2} = 1$.  The amplitude is $\\frac{3 - (-1)}{2} = \\frac{4}{2} = 2$.\nThus, $a = 2$.\n\nFinal Answer: $\\boxed{2}$\n",
+        "ground_truth": "The graph oscillates between 3 and $-1,$ so $a = \\frac{3 - (-1)}{2} = \\boxed{2}.$"
+    },
+    {
+        "question": "The graph has a maximum value of 3 and a minimum value of -1.  The midline is $y = \\frac{3 + (-1)}{2} = 1$.  The amplitude is $\\frac{3 - (-1)}{2} = \\frac{4}{2} = 2$.\nThus, $a = 2$.\n\nFinal Answer: $\\boxed{2}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "To find the amplitude of a sinusoidal function, we need the maximum and minimum values.  The amplitude is half the difference between the maximum and minimum values.  \nGiven the maximum value is 3 and the minimum value is -1, the amplitude is $\\frac{3 - (-1)}{2} = \\frac{4}{2} = 2$.\n\n$\\boxed{2}$\n",
+        "ground_truth": "The graph oscillates between 3 and $-1,$ so $a = \\frac{3 - (-1)}{2} = \\boxed{2}.$"
+    }
+]

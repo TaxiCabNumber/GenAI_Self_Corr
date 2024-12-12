@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe average of the five numbers in a list is 54. The average of the first two numbers is 48. What is the average of the last three numbers?",
+        "inference": "Let $x, y, z, w, u$ be the five numbers.\n\nAverage of the five numbers is 54. So, $$ \\frac{x+y+z+w+u}{5} = 54 $$ $$ \\implies x+y+z+w+u = 270 \\tag 1$$\n\nAverage of the first two numbers is 48. So, $$\\frac{x+y}{2} = 48 $$ $$ \\implies x+y = 96 \\tag 2$$\n\nSubtract the equation (2) from (1):\n\n$$ (x+y+z+w+u) - (x+y) = 270 - 96 $$ $$ \\implies z+w+u = 174 $$\n\nHence, the average of the last three numbers is $$\\frac{z+w+u}{3} = \\frac{174}{3}$$\n\n$$\\boxed{Final \\ Answer: 58}. I \\ hope \\ it \\ is \\ correct.$$",
+        "ground_truth": "The sum of all five numbers is $5\\times 54=270$. The sum of the first two numbers is $2\\times 48=96$, so the sum of the last three numbers is $270-96=174$. The average of the last three numbers is $\\frac{174}{3}=\\boxed{58}$."
+    },
+    {
+        "question": "Let $x, y, z, w, u$ be the five numbers.\n\nAverage of the five numbers is 54. So, $$ \\frac{x+y+z+w+u}{5} = 54 $$ $$ \\implies x+y+z+w+u = 270 \\tag 1$$\n\nAverage of the first two numbers is 48. So, $$\\frac{x+y}{2} = 48 $$ $$ \\implies x+y = 96 \\tag 2$$\n\nSubtract the equation (2) from (1):\n\n$$ (x+y+z+w+u) - (x+y) = 270 - 96 $$ $$ \\implies z+w+u = 174 $$\n\nHence, the average of the last three numbers is $$\\frac{z+w+u}{3} = \\frac{174}{3}$$\n\n$$\\boxed{Final \\ Answer: 58}. I \\ hope \\ it \\ is \\ correct.$$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{Final \\ Answer: 58}$$",
+        "ground_truth": "The sum of all five numbers is $5\\times 54=270$. The sum of the first two numbers is $2\\times 48=96$, so the sum of the last three numbers is $270-96=174$. The average of the last three numbers is $\\frac{174}{3}=\\boxed{58}$."
+    }
+]

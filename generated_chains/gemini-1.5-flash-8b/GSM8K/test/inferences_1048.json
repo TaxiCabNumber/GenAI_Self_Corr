@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBen bought a car for $20000 in 2007. The price of the car depreciates at a constant rate of 21% per year. Find the price of the car in the year 2010.",
+        "inference": "1. Calculate the depreciation factor: 1 - 0.21 = 0.79.\n\n2. Calculate the number of years between 2007 and 2010: 2010 - 2007 = 3 years.\n\n3. Calculate the price after 3 years of depreciation: 20000 * (0.79)^3 = 20000 * 0.493039 = 9860.78\n\nI hope it is correct: $9860.78\n",
+        "ground_truth": "The price of the car depreciates of 20000 * 21% = $<<20000*21*.01=4200>>4200 per year.\nBen had the car for 2010 - 2007 = <<2010-2007=3>>3 years.\nThe price of the car depreciates 4200 * 3 = $<<4200*3=12600>>12600 from 2007 to 2010.\nSo the price of the car in the year 2010 is $20000 - $12600 = $<<20000-12600=7400>>7400.\n#### 7400"
+    },
+    {
+        "question": "1. Calculate the depreciation factor: 1 - 0.21 = 0.79.\n\n2. Calculate the number of years between 2007 and 2010: 2010 - 2007 = 3 years.\n\n3. Calculate the price after 3 years of depreciation: 20000 * (0.79)^3 = 20000 * 0.493039 = 9860.78\n\nI hope it is correct: $9860.78\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $9860.78\n",
+        "ground_truth": "The price of the car depreciates of 20000 * 21% = $<<20000*21*.01=4200>>4200 per year.\nBen had the car for 2010 - 2007 = <<2010-2007=3>>3 years.\nThe price of the car depreciates 4200 * 3 = $<<4200*3=12600>>12600 from 2007 to 2010.\nSo the price of the car in the year 2010 is $20000 - $12600 = $<<20000-12600=7400>>7400.\n#### 7400"
+    }
+]

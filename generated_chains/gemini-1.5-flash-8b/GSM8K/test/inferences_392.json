@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTim decides to cancel his cable subscription and get streaming services.  He gets Netflix for $10 a month.  Hulu and Disney Plus normally cost $10 a month each but he saves 20% for bundling.  How much money does he save by cancelling his $60 cable package?",
+        "inference": "1. Hulu and Disney Plus bundled cost: $10 + $10 = $20\n2. Discount on bundled Hulu and Disney Plus: $20 * 0.20 = $4\n3. Total cost of streaming services: $10 + ($20 - $4) = $10 + $16 = $26\n4. Money saved: $60 - $26 = $34\n\nI hope it is correct: $34\n",
+        "ground_truth": "Hulu and Disney Plus normally cost 10+10=$<<10+10=20>>20\nBy bundling he saves 20*.2=$<<20*.2=4>>4\nSo in total it cost 20-4=$<<20-4=16>>16\nSo he pays 16+10=$<<16+10=26>>26 for streaming\nThat means he saves 60-26=$<<60-26=34>>34 a month\n#### 34"
+    },
+    {
+        "question": "1. Hulu and Disney Plus bundled cost: $10 + $10 = $20\n2. Discount on bundled Hulu and Disney Plus: $20 * 0.20 = $4\n3. Total cost of streaming services: $10 + ($20 - $4) = $10 + $16 = $26\n4. Money saved: $60 - $26 = $34\n\nI hope it is correct: $34\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $34\n",
+        "ground_truth": "Hulu and Disney Plus normally cost 10+10=$<<10+10=20>>20\nBy bundling he saves 20*.2=$<<20*.2=4>>4\nSo in total it cost 20-4=$<<20-4=16>>16\nSo he pays 16+10=$<<16+10=26>>26 for streaming\nThat means he saves 60-26=$<<60-26=34>>34 a month\n#### 34"
+    }
+]

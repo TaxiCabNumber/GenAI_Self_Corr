@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind $\\sec (-300^\\circ).$",
+        "inference": "$\\sec(-300^\\circ) = \\frac{1}{\\cos(-300^\\circ)} = \\frac{1}{\\cos(300^\\circ)}$\nSince $\\cos(300^\\circ) = \\cos(360^\\circ - 60^\\circ) = \\cos(60^\\circ) = \\frac{1}{2}$,\n$\\sec(-300^\\circ) = \\frac{1}{\\cos(300^\\circ)} = \\frac{1}{1/2} = 2$.\nFinal Answer: $\\boxed{2}$ I hope it is correct.",
+        "ground_truth": "We have that\n\\[\\sec (-300^\\circ) = \\frac{1}{\\cos (-300^\\circ)}.\\]Since the cosine function has period $360^\\circ,$\n\\[\\cos (-300^\\circ) = \\cos (-300^\\circ + 360^\\circ) = \\cos 60^\\circ = \\frac{1}{2},\\]so\n\\[\\frac{1}{\\cos (-300^\\circ)} = \\boxed{2}.\\]"
+    },
+    {
+        "question": "$\\sec(-300^\\circ) = \\frac{1}{\\cos(-300^\\circ)} = \\frac{1}{\\cos(300^\\circ)}$\nSince $\\cos(300^\\circ) = \\cos(360^\\circ - 60^\\circ) = \\cos(60^\\circ) = \\frac{1}{2}$,\n$\\sec(-300^\\circ) = \\frac{1}{\\cos(300^\\circ)} = \\frac{1}{1/2} = 2$.\nFinal Answer: $\\boxed{2}$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\sec(-300^\\circ) = \\frac{1}{\\cos(-300^\\circ)} = \\frac{1}{\\cos(300^\\circ)}$\nSince $\\cos(300^\\circ) = \\cos(360^\\circ - 60^\\circ) = \\cos(60^\\circ) = \\frac{1}{2}$,\n$\\sec(-300^\\circ) = \\frac{1}{\\cos(300^\\circ)} = \\frac{1}{1/2} = 2$.\n\nFinal Answer: $\\boxed{2}$",
+        "ground_truth": "We have that\n\\[\\sec (-300^\\circ) = \\frac{1}{\\cos (-300^\\circ)}.\\]Since the cosine function has period $360^\\circ,$\n\\[\\cos (-300^\\circ) = \\cos (-300^\\circ + 360^\\circ) = \\cos 60^\\circ = \\frac{1}{2},\\]so\n\\[\\frac{1}{\\cos (-300^\\circ)} = \\boxed{2}.\\]"
+    }
+]

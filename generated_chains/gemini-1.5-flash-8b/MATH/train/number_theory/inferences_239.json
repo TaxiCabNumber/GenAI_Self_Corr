@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $n$ be a  positive integer and $a$ be an integer such that $a$ is its own inverse modulo $n$. What is the remainder when $a^2$ is divided by $n$?",
+        "inference": "If $a$ is its own inverse modulo $n$, then $a \\cdot a \\equiv 1 \\pmod{n}$.\nThis means $a^2 \\equiv 1 \\pmod{n}$.\nSo, $a^2 - 1 \\equiv 0 \\pmod{n}$.\nThis means $a^2 - 1 = kn$ for some integer $k$.\nThus, $a^2 = kn + 1$.\nThe remainder when $a^2$ is divided by $n$ is 1.\nFinal Answer: $\\boxed{1}$\n",
+        "ground_truth": "Since $a$ is its own inverse modulo $n$, $a\\equiv a^{-1}\\pmod n$. Then \\[a^2\\equiv a\\cdot a\\equiv a\\cdot a^{-1}\\equiv \\boxed{1}\\pmod n.\\]"
+    },
+    {
+        "question": "If $a$ is its own inverse modulo $n$, then $a \\cdot a \\equiv 1 \\pmod{n}$.\nThis means $a^2 \\equiv 1 \\pmod{n}$.\nSo, $a^2 - 1 \\equiv 0 \\pmod{n}$.\nThis means $a^2 - 1 = kn$ for some integer $k$.\nThus, $a^2 = kn + 1$.\nThe remainder when $a^2$ is divided by $n$ is 1.\nFinal Answer: $\\boxed{1}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "If $a$ is its own inverse modulo $n$, then $a \\cdot a \\equiv 1 \\pmod{n}$. This means $a^2 \\equiv 1 \\pmod{n}$.  Therefore, when $a^2$ is divided by $n$, the remainder is 1.\n\nFinal Answer: $\\boxed{1}$",
+        "ground_truth": "Since $a$ is its own inverse modulo $n$, $a\\equiv a^{-1}\\pmod n$. Then \\[a^2\\equiv a\\cdot a\\equiv a\\cdot a^{-1}\\equiv \\boxed{1}\\pmod n.\\]"
+    }
+]

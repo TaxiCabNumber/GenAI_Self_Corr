@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nLeo collects stickers. Two years ago, he had 100 stickers in his collection. Last year, Leo collected 50 stickers. This year, he collected twice the number of stickers as the previous year. How many stickers does Leo have in his collection?",
+        "inference": "1. Two years ago: 100 stickers\n2. Last year: 100 + 50 = 150 stickers\n3. This year: 150 * 2 = 300 stickers\n4. Total stickers: 100 + 50 + 300 = 450 stickers\n\nI hope it is correct: 450 $answer$\n",
+        "ground_truth": "Last year, Leo had 100 +50 = <<100+50=150>>150.\nThis year, he collected 2 x 50 = <<2*50=100>>100.\nTherefore, Leo had 150 + 100 = <<150+100=250>>250 stickers in his collection.\n#### 250"
+    },
+    {
+        "question": "1. Two years ago: 100 stickers\n2. Last year: 100 + 50 = 150 stickers\n3. This year: 150 * 2 = 300 stickers\n4. Total stickers: 100 + 50 + 300 = 450 stickers\n\nI hope it is correct: 450 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 450\n",
+        "ground_truth": "Last year, Leo had 100 +50 = <<100+50=150>>150.\nThis year, he collected 2 x 50 = <<2*50=100>>100.\nTherefore, Leo had 150 + 100 = <<150+100=250>>250 stickers in his collection.\n#### 250"
+    }
+]

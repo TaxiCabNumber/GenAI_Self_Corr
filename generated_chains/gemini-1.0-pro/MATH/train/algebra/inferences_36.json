@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe perimeter of a rectangular garden is 60 feet. If the length of the field is twice the width, what is the area of the field, in square feet?",
+        "inference": "Let $x$ be the width of the garden.\nThen the length of the garden is $2x$.\nThe perimeter of the garden is $2x+2(2x)=60$, so $6x=60$ and $x=10$.\nThe area of the garden is $x(2x)=10(20)=\\boxed{200}$.\nFinal Answer: $\\boxed{200}$. I hope it is correct.",
+        "ground_truth": "If the length is $l$ and the width is $w$, then the perimeter is $2l+2w$. We can set up the equations $2l+2w=60 \\Rightarrow l+w=30$ and $l=2w$. Now we substitute $l$ in terms of $w$ into the first equation and get $l+w=2w+w=30$, so $w=10$ and $l=2(10)=20$. That means the area of the rectangular garden is $lw=20(10)=\\boxed{200}$ square feet."
+    },
+    {
+        "question": "Let $x$ be the width of the garden.\nThen the length of the garden is $2x$.\nThe perimeter of the garden is $2x+2(2x)=60$, so $6x=60$ and $x=10$.\nThe area of the garden is $x(2x)=10(20)=\\boxed{200}$.\nFinal Answer: $\\boxed{200}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$200$}",
+        "ground_truth": "If the length is $l$ and the width is $w$, then the perimeter is $2l+2w$. We can set up the equations $2l+2w=60 \\Rightarrow l+w=30$ and $l=2w$. Now we substitute $l$ in terms of $w$ into the first equation and get $l+w=2w+w=30$, so $w=10$ and $l=2(10)=20$. That means the area of the rectangular garden is $lw=20(10)=\\boxed{200}$ square feet."
+    }
+]

@@ -17,8 +17,7 @@ def load_idx(output_path):
     return 0
 
 
-
-def generate_dataset(dataset_path, model_name, output_path, number_of_rounds, init_prompt=initial_prompt, self_corr_prompt=self_correcting_prompt, dataset_format="json"):
+def parse_dataset(dataset_path, model_name, output_path, number_of_rounds, init_prompt=initial_prompt, self_corr_prompt=self_correcting_prompt, dataset_format="json"):
     """
     Main routine to handle external datasets, generate inferences, and compile training data.
 

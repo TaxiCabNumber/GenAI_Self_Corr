@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe bananas at the supermarket cost $0.80 each, or a bunch for $3.00.  Jenny buys 10 bunches that average 4 bananas per bunch. How much money, in dollars, did she save by buying the bananas in bunches instead of individually?",
+        "inference": "1. Cost of bananas individually: 10 bunches * 4 bananas/bunch = 40 bananas\n   Cost of 40 bananas individually: 40 bananas * $0.80/banana = $32.00\n\n2. Cost of bananas in bunches: 10 bunches * $3.00/bunch = $30.00\n\n3. Savings: $32.00 - $30.00 = $2.00\n\nI hope it is correct: $2.00\n",
+        "ground_truth": "Ten bunches makes 10*3=$<<10*3=30>>30.\nThere are 10*4=<<10*4=40>>40 bananas.\n40 bananas would cost 40*0.80=$<<40*0.80=32>>32 individually.\nShe saved 32-30=<<32-30=2>>2 dollars\n#### 2"
+    },
+    {
+        "question": "1. Cost of bananas individually: 10 bunches * 4 bananas/bunch = 40 bananas\n   Cost of 40 bananas individually: 40 bananas * $0.80/banana = $32.00\n\n2. Cost of bananas in bunches: 10 bunches * $3.00/bunch = $30.00\n\n3. Savings: $32.00 - $30.00 = $2.00\n\nI hope it is correct: $2.00\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $2.00\n",
+        "ground_truth": "Ten bunches makes 10*3=$<<10*3=30>>30.\nThere are 10*4=<<10*4=40>>40 bananas.\n40 bananas would cost 40*0.80=$<<40*0.80=32>>32 individually.\nShe saved 32-30=<<32-30=2>>2 dollars\n#### 2"
+    }
+]

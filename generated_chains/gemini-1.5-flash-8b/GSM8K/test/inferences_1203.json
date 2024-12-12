@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMattison is 60 inches tall. His two-story house is 7 times as high as he is. The floor to the ceiling on the first floor is thrice as high as he is. How high is the roof from the second floor's floor in inches?",
+        "inference": "Mattison's height: 60 inches\nHouse height: 60 inches * 7 = 420 inches\nFirst floor ceiling height: 60 inches * 3 = 180 inches\nSecond floor floor height: 420 inches - 180 inches = 240 inches\n\nI hope it is correct: 240 $inches$\n",
+        "ground_truth": "Mattison's two-story house is 60 x 7 = <<60*7=420>>420 inches high.\nThe floor to the ceiling on the first floor is 60 x 3 = <<60*3=180>>180 inches high.\nHence, the roof is 420 - 180 = <<420-180=240>>240 inches high from the second floor's floor.\n#### 240"
+    },
+    {
+        "question": "Mattison's height: 60 inches\nHouse height: 60 inches * 7 = 420 inches\nFirst floor ceiling height: 60 inches * 3 = 180 inches\nSecond floor floor height: 420 inches - 180 inches = 240 inches\n\nI hope it is correct: 240 $inches$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 240 inches\n",
+        "ground_truth": "Mattison's two-story house is 60 x 7 = <<60*7=420>>420 inches high.\nThe floor to the ceiling on the first floor is 60 x 3 = <<60*3=180>>180 inches high.\nHence, the roof is 420 - 180 = <<420-180=240>>240 inches high from the second floor's floor.\n#### 240"
+    }
+]

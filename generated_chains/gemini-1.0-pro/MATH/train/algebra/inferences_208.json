@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the maximum value of the expression $-5r^2 + 40r - 12$ for real $r$?",
+        "inference": "**Step 1: Factor the expression.**\n\n$-5r^2 + 40r - 12 = -5(r^2 - 8r + 2.4)$\n\n**Step 2: Complete the square inside the parentheses.**\n\n$r^2 - 8r + 16 - 16 + 2.4 = (r - 4)^2 - 13.6$\n\n**Step 3: Rewrite the expression using the completed square.**\n\n$-5r^2 + 40r - 12 = -5((r - 4)^2 - 13.6) = 5(13.6) - 5(r - 4)^2$\n\n**Step 4: Find the maximum value of the expression.**\n\nSince $5(r - 4)^2$ is always non-negative, its maximum value is $0$. Therefore, the maximum value of the expression is $5(13.6) = \\boxed{68}$.\n\n**Final Answer: $\\boxed{68}$. I hope it is correct.**",
+        "ground_truth": "We complete the square: \\begin{align*}\n-5r^2 + 40r - 12 & = (-5r^2 + 40r) - 12\\\\\n&= -5(r^2 - 8r + 16) -12 + 5 \\cdot 16\\\\\n&= -5(r - 4)^2 + 68\n\\end{align*} The maximum value of $-5(r-4)^2$ is $0$, since the square of a real number is never negative. Thus, the maximum value of the expression is $\\boxed{68}$."
+    },
+    {
+        "question": "**Step 1: Factor the expression.**\n\n$-5r^2 + 40r - 12 = -5(r^2 - 8r + 2.4)$\n\n**Step 2: Complete the square inside the parentheses.**\n\n$r^2 - 8r + 16 - 16 + 2.4 = (r - 4)^2 - 13.6$\n\n**Step 3: Rewrite the expression using the completed square.**\n\n$-5r^2 + 40r - 12 = -5((r - 4)^2 - 13.6) = 5(13.6) - 5(r - 4)^2$\n\n**Step 4: Find the maximum value of the expression.**\n\nSince $5(r - 4)^2$ is always non-negative, its maximum value is $0$. Therefore, the maximum value of the expression is $5(13.6) = \\boxed{68}$.\n\n**Final Answer: $\\boxed{68}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$68$}",
+        "ground_truth": "We complete the square: \\begin{align*}\n-5r^2 + 40r - 12 & = (-5r^2 + 40r) - 12\\\\\n&= -5(r^2 - 8r + 16) -12 + 5 \\cdot 16\\\\\n&= -5(r - 4)^2 + 68\n\\end{align*} The maximum value of $-5(r-4)^2$ is $0$, since the square of a real number is never negative. Thus, the maximum value of the expression is $\\boxed{68}$."
+    }
+]

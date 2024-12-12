@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSimplify $\\dfrac{5+12i}{2-3i}$. Your answer should be of the form $a+bi$, where $a$ and $b$ are both real numbers and written as improper fractions (if necessary).",
+        "inference": "$$=\\dfrac{(5+12i)(2+3i)}{(2-3i)(2+3i)}$$ $$=\\dfrac{10+30i+24i+36i^2}{4-9i^2}$$ $$=\\dfrac{10+54i+36(-1)}{4-9(-1)}$$ $$=\\dfrac{-26+54i}{4+9}$$ $$=\\dfrac{-26}{13}+\\dfrac{54i}{13}$$ $$=\\boxed{-\\dfrac{52}{26}+4\\dfrac{2}{13}i}$$\nFinal Answer: $\\boxed{-\\dfrac{52}{26}+4\\dfrac{2}{13}i}$. I hope it is correct.",
+        "ground_truth": "Multiplying the numerator and denominator by the conjugate of the denominator, we have \\begin{align*}\n\\dfrac{5+12i}{2-3i} \\cdot \\frac{2+3i}{2+3i} &= \\frac{5(2) + 5(3i) + 12i(2) +12i(3i)}{2(2) + 2(3i) + -3i(2) -3i(3i)}\\\\\n& = \\frac{-26+39i}{13} \\\\\n&= \\boxed{-2+3i}.\n\\end{align*}"
+    },
+    {
+        "question": "$$=\\dfrac{(5+12i)(2+3i)}{(2-3i)(2+3i)}$$ $$=\\dfrac{10+30i+24i+36i^2}{4-9i^2}$$ $$=\\dfrac{10+54i+36(-1)}{4-9(-1)}$$ $$=\\dfrac{-26+54i}{4+9}$$ $$=\\dfrac{-26}{13}+\\dfrac{54i}{13}$$ $$=\\boxed{-\\dfrac{52}{26}+4\\dfrac{2}{13}i}$$\nFinal Answer: $\\boxed{-\\dfrac{52}{26}+4\\dfrac{2}{13}i}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$=\\boxed{-\\dfrac{26}{13}+4\\dfrac{2}{13}i}$$",
+        "ground_truth": "Multiplying the numerator and denominator by the conjugate of the denominator, we have \\begin{align*}\n\\dfrac{5+12i}{2-3i} \\cdot \\frac{2+3i}{2+3i} &= \\frac{5(2) + 5(3i) + 12i(2) +12i(3i)}{2(2) + 2(3i) + -3i(2) -3i(3i)}\\\\\n& = \\frac{-26+39i}{13} \\\\\n&= \\boxed{-2+3i}.\n\\end{align*}"
+    }
+]

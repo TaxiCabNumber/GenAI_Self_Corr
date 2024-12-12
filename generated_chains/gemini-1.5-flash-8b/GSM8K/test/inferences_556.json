@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nHow much does it cost you for lunch today at Subway if you pay $40 for a foot-long fish sub and thrice as much for a six-inch cold-cut combo sub?",
+        "inference": "1. Cost of fish sub: $40\n2. Cost of cold-cut combo sub: $40 * 3 = $120\n3. Total cost: $40 + $120 = $160\n\nI hope it is correct: 160$answer\n",
+        "ground_truth": "If you pay $40 for a foot-long fish sub, thrice as much for a six-inch cold-cut combo sub will be 3*$40= $120\nThe cost of lunch will be $120+$40 = $<<120+40=160>>160\n#### 160"
+    },
+    {
+        "question": "1. Cost of fish sub: $40\n2. Cost of cold-cut combo sub: $40 * 3 = $120\n3. Total cost: $40 + $120 = $160\n\nI hope it is correct: 160$answer\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $160\n",
+        "ground_truth": "If you pay $40 for a foot-long fish sub, thrice as much for a six-inch cold-cut combo sub will be 3*$40= $120\nThe cost of lunch will be $120+$40 = $<<120+40=160>>160\n#### 160"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA company sold 4000 gallons of milk in jars to Mr. Marcellus' store at the cost of $3.5 per gallon. However, Mr. Marcellus later realized 2/5 of the amount of milk he purchased had passed the expiry date and could not be sold. He returned the sour milk to the company and ordered a refund. Calculate how much he got in refunds.",
+        "inference": "1. Calculate the total amount of milk purchased: 4000 gallons\n2. Calculate the amount of expired milk: (2/5) * 4000 gallons = 1600 gallons\n3. Calculate the cost of the expired milk: 1600 gallons * $3.5/gallon = $5600\n4. Calculate the refund amount: $5600\n\nI hope it is correct: $5600\n",
+        "ground_truth": "If he purchased 4000 gallons, the number of gallons expired is 2/5 * 4000 gallons = <<2/5*4000=1600>>1600 gallons.\nIf each gallon costs $3.5, and he returned 1600 gallons for refund, the total amount he got from the refund is $3.5/gallon * 1600 gallons = $<<3.5*1600=5600>>5600\n#### 5600"
+    },
+    {
+        "question": "1. Calculate the total amount of milk purchased: 4000 gallons\n2. Calculate the amount of expired milk: (2/5) * 4000 gallons = 1600 gallons\n3. Calculate the cost of the expired milk: 1600 gallons * $3.5/gallon = $5600\n4. Calculate the refund amount: $5600\n\nI hope it is correct: $5600\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $5600\n",
+        "ground_truth": "If he purchased 4000 gallons, the number of gallons expired is 2/5 * 4000 gallons = <<2/5*4000=1600>>1600 gallons.\nIf each gallon costs $3.5, and he returned 1600 gallons for refund, the total amount he got from the refund is $3.5/gallon * 1600 gallons = $<<3.5*1600=5600>>5600\n#### 5600"
+    }
+]

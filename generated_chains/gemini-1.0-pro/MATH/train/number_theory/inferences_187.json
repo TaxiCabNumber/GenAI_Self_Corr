@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nDaniel has exactly $20$ pieces of candy. He has to divide them equally among his $3$ sisters. What is the least number of pieces he should take away so that he could distribute the candy equally?",
+        "inference": "Daniel has $20$ pieces of candy and he wants to divide the candies equally among $3$ of his sisters. Since $20$ is not divisible by $3$, he first takes out $r$ pieces where $r<20$ is the remainder when $20$ is divided by $3$. Thus,\n$$20= 3k+r, \\quad 0\\le r<3$$\nSolving for $r$, we obtain\n$$r=1$$\nNow, since he wants to divide the candies equally it means that all the three sisters should have equal candies. Thus, he can distribute only $\\frac{20-1}{3}=6$ pieces to each of his sisters.\nFinal Answer: \\boxed{$1$}. I hope it is correct.",
+        "ground_truth": "When you divide $20$ by $3$, you get $6$ with a remainder of $2$. Therefore, he should take away $\\boxed{2 \\text{ pieces}}$ so he could give each of his sisters $6$ pieces."
+    },
+    {
+        "question": "Daniel has $20$ pieces of candy and he wants to divide the candies equally among $3$ of his sisters. Since $20$ is not divisible by $3$, he first takes out $r$ pieces where $r<20$ is the remainder when $20$ is divided by $3$. Thus,\n$$20= 3k+r, \\quad 0\\le r<3$$\nSolving for $r$, we obtain\n$$r=1$$\nNow, since he wants to divide the candies equally it means that all the three sisters should have equal candies. Thus, he can distribute only $\\frac{20-1}{3}=6$ pieces to each of his sisters.\nFinal Answer: \\boxed{$1$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$6$}.",
+        "ground_truth": "When you divide $20$ by $3$, you get $6$ with a remainder of $2$. Therefore, he should take away $\\boxed{2 \\text{ pieces}}$ so he could give each of his sisters $6$ pieces."
+    }
+]

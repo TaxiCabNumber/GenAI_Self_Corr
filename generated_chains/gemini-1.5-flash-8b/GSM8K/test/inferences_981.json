@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nOn Thursday, Joe caught 3 pounds of crawfish.  He caught 4 times that amount on Friday and half the amount of his Friday's catch on Saturday.  If 1 serving of crawfish is 3 pounds, how many servings does he have?",
+        "inference": "1. Friday's catch: 3 pounds * 4 = 12 pounds\n2. Saturday's catch: 12 pounds / 2 = 6 pounds\n3. Total catch: 3 pounds + 12 pounds + 6 pounds = 21 pounds\n4. Number of servings: 21 pounds / 3 pounds/serving = 7 servings\n\nI hope it is correct: 7 $servings$\n",
+        "ground_truth": "He caught 3 pounds on Thursday and caught 4 times the amount on Friday for a total of 3*4 = <<3*4=12>>12 pounds\nOn Saturday, he caught half the amount of the 12 pounds he caught on Friday so he caught 12/2 = <<12/2=6>>6 pounds\nIn three days he has caught 3+12+6 = <<3+12+6=21>>21 pounds of crawfish\n3 pounds is a serving and he caught 21 pounds so he has 21/3 = <<21/3=7>>7 servings of crawfish\n#### 7"
+    },
+    {
+        "question": "1. Friday's catch: 3 pounds * 4 = 12 pounds\n2. Saturday's catch: 12 pounds / 2 = 6 pounds\n3. Total catch: 3 pounds + 12 pounds + 6 pounds = 21 pounds\n4. Number of servings: 21 pounds / 3 pounds/serving = 7 servings\n\nI hope it is correct: 7 $servings$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 7 servings\n",
+        "ground_truth": "He caught 3 pounds on Thursday and caught 4 times the amount on Friday for a total of 3*4 = <<3*4=12>>12 pounds\nOn Saturday, he caught half the amount of the 12 pounds he caught on Friday so he caught 12/2 = <<12/2=6>>6 pounds\nIn three days he has caught 3+12+6 = <<3+12+6=21>>21 pounds of crawfish\n3 pounds is a serving and he caught 21 pounds so he has 21/3 = <<21/3=7>>7 servings of crawfish\n#### 7"
+    }
+]

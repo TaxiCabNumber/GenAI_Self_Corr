@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSolve for $n$: $2^n\\cdot 4^n=64^{n-36}$.",
+        "inference": "$2^n \\cdot 4^n = 64^{n-36}$\n$2^n \\cdot (2^2)^n = (2^6)^{n-36}$\n$2^n \\cdot 2^{2n} = 2^{6(n-36)}$\n$2^{n+2n} = 2^{6n-216}$\n$2^{3n} = 2^{6n-216}$\nSince the bases are equal, the exponents must be equal.\n$3n = 6n - 216$\n$216 = 6n - 3n$\n$216 = 3n$\n$n = \\frac{216}{3}$\n$n = 72$\nFinal Answer: $\\boxed{72}$\n",
+        "ground_truth": "Since $4=2^2$, $4^n=2^{2n}$.  Since $64=2^6$, $64^{n-36}=2^{6(n-36)}$.  Thus,\n\n$$2^{n+2n}=2^{6(n-36)}\\Rightarrow 3n=6n-216$$\n\nSo $3n=216\\Rightarrow n=\\boxed{72}$."
+    },
+    {
+        "question": "$2^n \\cdot 4^n = 64^{n-36}$\n$2^n \\cdot (2^2)^n = (2^6)^{n-36}$\n$2^n \\cdot 2^{2n} = 2^{6(n-36)}$\n$2^{n+2n} = 2^{6n-216}$\n$2^{3n} = 2^{6n-216}$\nSince the bases are equal, the exponents must be equal.\n$3n = 6n - 216$\n$216 = 6n - 3n$\n$216 = 3n$\n$n = \\frac{216}{3}$\n$n = 72$\nFinal Answer: $\\boxed{72}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$2^n \\cdot 4^n = 64^{n-36}$\n$2^n \\cdot (2^2)^n = (2^6)^{n-36}$\n$2^n \\cdot 2^{2n} = 2^{6(n-36)}$\n$2^{n+2n} = 2^{6n-216}$\n$2^{3n} = 2^{6n-216}$\nSince the bases are equal, the exponents must be equal.\n$3n = 6n - 216$\n$216 = 3n$\n$n = 72$\n\nFinal Answer: $\\boxed{72}$",
+        "ground_truth": "Since $4=2^2$, $4^n=2^{2n}$.  Since $64=2^6$, $64^{n-36}=2^{6(n-36)}$.  Thus,\n\n$$2^{n+2n}=2^{6(n-36)}\\Rightarrow 3n=6n-216$$\n\nSo $3n=216\\Rightarrow n=\\boxed{72}$."
+    }
+]

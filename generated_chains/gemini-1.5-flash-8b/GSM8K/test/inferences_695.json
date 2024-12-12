@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 50 deer in a field.  50 percent of them are bucks.  20 percent of the bucks are 8 points.  How many 8 point bucks are there?",
+        "inference": "1. Calculate the number of bucks: 50 deer * 50% = 25 bucks\n2. Calculate the number of 8-point bucks: 25 bucks * 20% = 5 bucks\n\nI hope it is correct: 5 $answer$\n",
+        "ground_truth": "Bucks:50(.50)=25\n8 Points:25(.20)=5 bucks\n#### 5"
+    },
+    {
+        "question": "1. Calculate the number of bucks: 50 deer * 50% = 25 bucks\n2. Calculate the number of 8-point bucks: 25 bucks * 20% = 5 bucks\n\nI hope it is correct: 5 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 5\n",
+        "ground_truth": "Bucks:50(.50)=25\n8 Points:25(.20)=5 bucks\n#### 5"
+    }
+]

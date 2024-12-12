@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind $n$ if $n\\cdot n! + n! = 720$, where $n! = n\\cdot (n-1)\\cdot (n-2)\\cdots 2\\cdot 1$.",
+        "inference": "**Solution:**\n\\begin{align*}\nn\\cdot n! + n! &= 720\\\\\nn\\cdot n! + n! &= n\\cdot (n! + 1)\\\\\nn\\cdot n! + n! &= n\\cdot (n! + 1)\\\\\nn\\cdot (n! + 1) &= 720\\\\\nn\\cdot (n + 1)! &= 720\\\\\nn\\cdot 6! &= 720\\\\\nn\\cdot 720 &= 720\\\\\nn &= \\boxed{1}.\n\\end{align*}\nFinal Answer: $\\boxed{1}$. I hope it is correct.",
+        "ground_truth": "We can factor n! out of the left-hand side: \\begin{align*}\nn\\cdot n! +n! &= (n+1)(n!)\\\\\n&= (n+1)!\\\\\n\\end{align*}We see that $(n+1)! = 720 = 6!$,  so $n+1 = 6$ and $n = \\boxed{5}$."
+    },
+    {
+        "question": "**Solution:**\n\\begin{align*}\nn\\cdot n! + n! &= 720\\\\\nn\\cdot n! + n! &= n\\cdot (n! + 1)\\\\\nn\\cdot n! + n! &= n\\cdot (n! + 1)\\\\\nn\\cdot (n! + 1) &= 720\\\\\nn\\cdot (n + 1)! &= 720\\\\\nn\\cdot 6! &= 720\\\\\nn\\cdot 720 &= 720\\\\\nn &= \\boxed{1}.\n\\end{align*}\nFinal Answer: $\\boxed{1}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{1}",
+        "ground_truth": "We can factor n! out of the left-hand side: \\begin{align*}\nn\\cdot n! +n! &= (n+1)(n!)\\\\\n&= (n+1)!\\\\\n\\end{align*}We see that $(n+1)! = 720 = 6!$,  so $n+1 = 6$ and $n = \\boxed{5}$."
+    }
+]

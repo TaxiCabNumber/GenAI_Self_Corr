@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nOn a \"prime date,\" both the month and the day are prime numbers. For example, Feb. 7 or 2/7 is a prime date. How many prime dates occurred in 2007?",
+        "inference": "Prime numbers less than 13 are 2, 3, 5, 7, and 11.\n\nThere are 5 prime months: January, March, May, July and November.\n\nSo, there are 5*5=25 combinations of prime months and prime days.\n\nBut we counted pairs like (3,5) and (5,3) twice, so subtract one of them.\n\n25-1=24.\n\nFinal Answer: \\boxed{24}. I hope it is correct.",
+        "ground_truth": "The prime months are February, March, May, July, and November. Of these, February had 28 days in 2007; March, May, and July had 31 days; and November had 30. In February, there were 9 prime dates. In March, May, and July, there were 11 prime dates. In November there were 10 prime dates. There were $\\boxed{52}$ prime dates total in 2007."
+    },
+    {
+        "question": "Prime numbers less than 13 are 2, 3, 5, 7, and 11.\n\nThere are 5 prime months: January, March, May, July and November.\n\nSo, there are 5*5=25 combinations of prime months and prime days.\n\nBut we counted pairs like (3,5) and (5,3) twice, so subtract one of them.\n\n25-1=24.\n\nFinal Answer: \\boxed{24}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{24}",
+        "ground_truth": "The prime months are February, March, May, July, and November. Of these, February had 28 days in 2007; March, May, and July had 31 days; and November had 30. In February, there were 9 prime dates. In March, May, and July, there were 11 prime dates. In November there were 10 prime dates. There were $\\boxed{52}$ prime dates total in 2007."
+    }
+]

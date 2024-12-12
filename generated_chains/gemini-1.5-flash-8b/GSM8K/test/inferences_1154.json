@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+        "inference": "Weekdays: 4 carrots/day * 5 days/week = 20 carrots\nWeekends: 5 carrots/day * 2 days/weekend = 10 carrots\nTotal: 20 carrots + 10 carrots = 30 carrots\nI hope it is correct: 30 $carrots$\n",
+        "ground_truth": "He would eat 4 x 5 =<<4*5=20>>20 on weekdays.\nHe would eat 5 x 2= <<5*2=10>>10 over weekends.\nSo he would eat\t 20 + 10\t= <<20+10=30>>30 a week\n#### 30"
+    },
+    {
+        "question": "Weekdays: 4 carrots/day * 5 days/week = 20 carrots\nWeekends: 5 carrots/day * 2 days/weekend = 10 carrots\nTotal: 20 carrots + 10 carrots = 30 carrots\nI hope it is correct: 30 $carrots$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 30 carrots\n",
+        "ground_truth": "He would eat 4 x 5 =<<4*5=20>>20 on weekdays.\nHe would eat 5 x 2= <<5*2=10>>10 over weekends.\nSo he would eat\t 20 + 10\t= <<20+10=30>>30 a week\n#### 30"
+    }
+]

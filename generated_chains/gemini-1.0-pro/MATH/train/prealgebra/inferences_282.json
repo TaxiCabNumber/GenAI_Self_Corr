@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhen $1000^{100}$ is expanded out, the result is $1$ followed by how many zeros?",
+        "inference": "$$1000^{100}=(10^3)^{100}=10^{300}$$\n\nSo, there are $300$ zeros after the $1$.\n\nFinal Answer: $\\boxed{300}.$ I hope it is correct.",
+        "ground_truth": "Remember, $10^n$ is $1$ followed by n zeros.  Now, in order to count the zeros, we must express $1000^{100}$ in the form of $10^n$.  Notice that $1000 = 10^3$, so $1000^{100} = (10^3)^{100} = 10^{300}$, by the power of a power rule.  Now, it is obvious that $1000^{100}$ is $1$ followed by $\\boxed{300}$ zeros."
+    },
+    {
+        "question": "$$1000^{100}=(10^3)^{100}=10^{300}$$\n\nSo, there are $300$ zeros after the $1$.\n\nFinal Answer: $\\boxed{300}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Final Answer: $\\boxed{300}$",
+        "ground_truth": "Remember, $10^n$ is $1$ followed by n zeros.  Now, in order to count the zeros, we must express $1000^{100}$ in the form of $10^n$.  Notice that $1000 = 10^3$, so $1000^{100} = (10^3)^{100} = 10^{300}$, by the power of a power rule.  Now, it is obvious that $1000^{100}$ is $1$ followed by $\\boxed{300}$ zeros."
+    }
+]

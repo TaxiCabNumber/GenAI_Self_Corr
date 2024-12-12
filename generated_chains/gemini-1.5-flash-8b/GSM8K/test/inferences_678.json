@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nLorie earns $10 per hour. Karen earns twice what Lorie earns. How much does Karen earn in two days if she works 3 hours per day?",
+        "inference": "1. Lorie's hourly rate: $10/hour\n2. Karen's hourly rate: 2 * $10/hour = $20/hour\n3. Karen's daily earnings: $20/hour * 3 hours/day = $60/day\n4. Karen's earnings in two days: $60/day * 2 days = $120\n\nI hope it is correct: 120$answer\n",
+        "ground_truth": "Karen earns $10 x 2 = $<<10*2=20>>20 per hour.\nSo she earns $20 x 3 = $<<20*3=60>>60 per day.\nThus, she earns $60 x 2 = $<<60*2=120>>120 in two days.\n#### 120"
+    },
+    {
+        "question": "1. Lorie's hourly rate: $10/hour\n2. Karen's hourly rate: 2 * $10/hour = $20/hour\n3. Karen's daily earnings: $20/hour * 3 hours/day = $60/day\n4. Karen's earnings in two days: $60/day * 2 days = $120\n\nI hope it is correct: 120$answer\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $120\n",
+        "ground_truth": "Karen earns $10 x 2 = $<<10*2=20>>20 per hour.\nSo she earns $20 x 3 = $<<20*3=60>>60 per day.\nThus, she earns $60 x 2 = $<<60*2=120>>120 in two days.\n#### 120"
+    }
+]

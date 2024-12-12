@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nAcme T-Shirt Company charges a $\\$50$ set-up fee plus $\\$9$ for  each shirt printed. Beta T-shirt Company has no set up fee, but charges $\\$14$ per shirt. What is the minimum number of shirts for which a customer saves money by using Acme?",
+        "inference": "**Step 1:** Set up the cost functions for each company.\n* Acme: C_A(x) = 50 + 9x\n* Beta: C_B(x) = 14x\n\n**Step 2:** Find the point of intersection of the cost functions.\n* C_A(x) = C_B(x)\n* 50 + 9x = 14x\n* 5x = 50\n* x = 10\n\n**Step 3:** Check costs at different quantities.\n* For x < 10: C_A(x) > C_B(x)\n* For x > 10: C_A(x) < C_B(x)\n\n**Conclusion:** The minimum number of shirts for which a customer saves money by using Acme is 11.\n\n**Final Answer: $\\boxed{11}$. I hope it is correct.**",
+        "ground_truth": "We want to find the lowest integer $x$ such that: \\begin{align*}\n50+9x&<14x \\quad \\Rightarrow \\\\\n50&<5x \\quad \\Rightarrow \\\\\n10&<x.\n\\end{align*}The least integer greater than 10 is $\\boxed{11}$."
+    },
+    {
+        "question": "**Step 1:** Set up the cost functions for each company.\n* Acme: C_A(x) = 50 + 9x\n* Beta: C_B(x) = 14x\n\n**Step 2:** Find the point of intersection of the cost functions.\n* C_A(x) = C_B(x)\n* 50 + 9x = 14x\n* 5x = 50\n* x = 10\n\n**Step 3:** Check costs at different quantities.\n* For x < 10: C_A(x) > C_B(x)\n* For x > 10: C_A(x) < C_B(x)\n\n**Conclusion:** The minimum number of shirts for which a customer saves money by using Acme is 11.\n\n**Final Answer: $\\boxed{11}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{11}$",
+        "ground_truth": "We want to find the lowest integer $x$ such that: \\begin{align*}\n50+9x&<14x \\quad \\Rightarrow \\\\\n50&<5x \\quad \\Rightarrow \\\\\n10&<x.\n\\end{align*}The least integer greater than 10 is $\\boxed{11}$."
+    }
+]

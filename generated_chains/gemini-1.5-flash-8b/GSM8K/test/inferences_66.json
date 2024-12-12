@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are four schools competing at a basketball tournament. Each school has sent a girls\u2019 basketball team and a boys\u2019 basketball team and each team has 5 players each. Each school has also sent a coach for each team. In total, how many people have all of the schools sent?",
+        "inference": "Schools = 4\nTeams per school = 2 (girls + boys)\nPlayers per team = 5\nCoaches per school = 2 (girls + boys)\nTotal players = 4 schools * 2 teams/school * 5 players/team = 40 players\nTotal coaches = 4 schools * 2 coaches/school = 8 coaches\nTotal people = players + coaches = 40 + 8 = 48\n\nI hope it is correct: 48 $people$\n",
+        "ground_truth": "Each school has sent 1 girls\u2019 basketball team + 1 boys\u2019 basketball team = <<1+1=2>>2 teams.\nSo each school has sent 2 teams * 5 players per team = <<2*5=10>>10 players.\nThey have also each sent 2 teams * 1 coach per team = <<2*1=2>>2 coaches.\nIn total, each school has sent 10 players + 2 coaches = <<10+2=12>>12 people.\nTherefore, the schools have sent a total of 12 people per school * 4 schools = <<12*4=48>>48 people.\n#### 48"
+    },
+    {
+        "question": "Schools = 4\nTeams per school = 2 (girls + boys)\nPlayers per team = 5\nCoaches per school = 2 (girls + boys)\nTotal players = 4 schools * 2 teams/school * 5 players/team = 40 players\nTotal coaches = 4 schools * 2 coaches/school = 8 coaches\nTotal people = players + coaches = 40 + 8 = 48\n\nI hope it is correct: 48 $people$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 48 people\n",
+        "ground_truth": "Each school has sent 1 girls\u2019 basketball team + 1 boys\u2019 basketball team = <<1+1=2>>2 teams.\nSo each school has sent 2 teams * 5 players per team = <<2*5=10>>10 players.\nThey have also each sent 2 teams * 1 coach per team = <<2*1=2>>2 coaches.\nIn total, each school has sent 10 players + 2 coaches = <<10+2=12>>12 people.\nTherefore, the schools have sent a total of 12 people per school * 4 schools = <<12*4=48>>48 people.\n#### 48"
+    }
+]

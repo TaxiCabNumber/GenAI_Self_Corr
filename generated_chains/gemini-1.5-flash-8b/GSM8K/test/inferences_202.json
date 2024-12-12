@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJosie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+        "inference": "1. Grapes per acre: 10 acres * 5 tons/acre = 50 tons\n2. Grapes total: 50 tons\n3. Barrels of wine: 50 tons * 2 barrels/ton = 100 barrels\n\nI hope it is correct: 100 $barrels$\n",
+        "ground_truth": "If each acre produces 5 tons of grapes per year, then her ten-acre farm produces 10*5=<<10*5=50>>50 tons of grapes per year.\nIf each ton of grapes makes 2 barrels of wine, then 50 tons makes 2*50=<<50*2=100>>100 barrels of wine per year.\n#### 100"
+    },
+    {
+        "question": "1. Grapes per acre: 10 acres * 5 tons/acre = 50 tons\n2. Grapes total: 50 tons\n3. Barrels of wine: 50 tons * 2 barrels/ton = 100 barrels\n\nI hope it is correct: 100 $barrels$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 100 barrels\n",
+        "ground_truth": "If each acre produces 5 tons of grapes per year, then her ten-acre farm produces 10*5=<<10*5=50>>50 tons of grapes per year.\nIf each ton of grapes makes 2 barrels of wine, then 50 tons makes 2*50=<<50*2=100>>100 barrels of wine per year.\n#### 100"
+    }
+]

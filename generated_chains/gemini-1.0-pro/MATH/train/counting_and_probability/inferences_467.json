@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA standard deck of 52 cards has 13 ranks (Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King) and 4 suits ($\\spadesuit$, $\\heartsuit$, $\\diamondsuit$, and $\\clubsuit$), such that there is exactly one card for any given rank and suit.  Two of the suits ($\\spadesuit$ and $\\clubsuit$) are black and the other two suits ($\\heartsuit$ and $\\diamondsuit$) are red.  The deck is randomly arranged. What is the probability that the top card is red and the second card is black?",
+        "inference": "The probability that the top card is red is $\\frac{26}{52} = \\frac{1}{2}$.\n\nThe probability that the second card is black is $\\frac{26}{51}$, since there are now 26 black cards and 51 cards left in the deck.\n\nThe probability that both events occur is the product of the individual probabilities:\n\n$$\\frac{1}{2} \\times \\frac{26}{51} = \\frac{13}{51} = 0.2549$$\n\nFinal Answer: \\boxed{$0.2549$}. I hope it is correct.",
+        "ground_truth": "There are 26 ways to choose the first card to be red, then 26 ways to choose the second card to be black.  There are $52 \\times 51$ ways to choose any two cards.  So the probability is $\\dfrac{26 \\times 26}{52 \\times 51} = \\boxed{\\dfrac{13}{51}}$."
+    },
+    {
+        "question": "The probability that the top card is red is $\\frac{26}{52} = \\frac{1}{2}$.\n\nThe probability that the second card is black is $\\frac{26}{51}$, since there are now 26 black cards and 51 cards left in the deck.\n\nThe probability that both events occur is the product of the individual probabilities:\n\n$$\\frac{1}{2} \\times \\frac{26}{51} = \\frac{13}{51} = 0.2549$$\n\nFinal Answer: \\boxed{$0.2549$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{$0.1538$}$$.",
+        "ground_truth": "There are 26 ways to choose the first card to be red, then 26 ways to choose the second card to be black.  There are $52 \\times 51$ ways to choose any two cards.  So the probability is $\\dfrac{26 \\times 26}{52 \\times 51} = \\boxed{\\dfrac{13}{51}}$."
+    }
+]

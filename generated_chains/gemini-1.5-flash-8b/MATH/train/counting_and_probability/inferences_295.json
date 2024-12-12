@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThere are 12 different-colored crayons in a box. How many ways can Karl select four crayons if the order in which he draws them out does not matter?",
+        "inference": "We need to find the number of ways to select 4 crayons from 12 crayons without considering the order. This is a combination problem. The formula for combinations is given by:\n$$C(n, k) = \\binom{n}{k} = \\frac{n!}{k!(n-k)!}$$\nIn this case, n = 12 (total number of crayons) and k = 4 (number of crayons to be selected).\n$$C(12, 4) = \\binom{12}{4} = \\frac{12!}{4!(12-4)!} = \\frac{12!}{4!8!} = \\frac{12 \\times 11 \\times 10 \\times 9}{4 \\times 3 \\times 2 \\times 1} = \\frac{11880}{24} = 495$$\nFinal Answer: $\\boxed{495}$\n",
+        "ground_truth": "There are 12 ways to select the first crayon, 11 ways to select the second, 10 ways to select the third, and 9 ways to select the last. However, since order does not matter, we must divide by the number of ways he can draw out the crayons, which is $4!$.\n\nThe answer is $\\dfrac{12\\times11\\times10\\times9}{4!}=\\boxed{495}$ ways."
+    },
+    {
+        "question": "We need to find the number of ways to select 4 crayons from 12 crayons without considering the order. This is a combination problem. The formula for combinations is given by:\n$$C(n, k) = \\binom{n}{k} = \\frac{n!}{k!(n-k)!}$$\nIn this case, n = 12 (total number of crayons) and k = 4 (number of crayons to be selected).\n$$C(12, 4) = \\binom{12}{4} = \\frac{12!}{4!(12-4)!} = \\frac{12!}{4!8!} = \\frac{12 \\times 11 \\times 10 \\times 9}{4 \\times 3 \\times 2 \\times 1} = \\frac{11880}{24} = 495$$\nFinal Answer: $\\boxed{495}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{495}$\n",
+        "ground_truth": "There are 12 ways to select the first crayon, 11 ways to select the second, 10 ways to select the third, and 9 ways to select the last. However, since order does not matter, we must divide by the number of ways he can draw out the crayons, which is $4!$.\n\nThe answer is $\\dfrac{12\\times11\\times10\\times9}{4!}=\\boxed{495}$ ways."
+    }
+]

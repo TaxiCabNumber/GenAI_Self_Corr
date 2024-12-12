@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA farmer has 900 eggs. He placed them on a tray, which holds 30 eggs each. How much will the farmer earn if he sells it for $2.5 per tray?",
+        "inference": "1. Calculate the number of trays: 900 eggs / 30 eggs/tray = 30 trays\n\n2. Calculate the total earnings: 30 trays * $2.5/tray = $75\n\nI hope it is correct: $75\n",
+        "ground_truth": "There are 900 / 30 = <<900/30=30>>30 trays that hold 900 eggs.\nSo, the farmer will earn 30 x $2.5 = $<<30*2.5=75>>75 if he sells it per tray.\n#### 75"
+    },
+    {
+        "question": "1. Calculate the number of trays: 900 eggs / 30 eggs/tray = 30 trays\n\n2. Calculate the total earnings: 30 trays * $2.5/tray = $75\n\nI hope it is correct: $75\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $75\n",
+        "ground_truth": "There are 900 / 30 = <<900/30=30>>30 trays that hold 900 eggs.\nSo, the farmer will earn 30 x $2.5 = $<<30*2.5=75>>75 if he sells it per tray.\n#### 75"
+    }
+]

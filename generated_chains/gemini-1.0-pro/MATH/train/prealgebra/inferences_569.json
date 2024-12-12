@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn the figure, $\\overline{DC}$ is parallel to $\\overline{AB}$. We have $\\angle DCA = 40^\\circ$ and $\\angle ABC = 73^\\circ$.  Find $\\angle ACB$.\n\n[asy]\npair A,B,C,D;\nA = (0,0);\nB= (1,0);\nD = (-0.1,0.6);\nC = (0.8,0.6);\ndraw((-0.2,0)--(1.2,0));\ndraw((-0.2,0.6)--(1.2,0.6));\ndraw(A--C--B);\nlabel(\"$A$\",A,S);\nlabel(\"$B$\",B,S);\nlabel(\"$C$\",C,N);\nlabel(\"$D$\",D,N);\ndot(A);dot(B);dot(C);dot(D);\n[/asy]",
+        "inference": "Since $\\overline{DC}$ is parallel to $\\overline{AB}$, we know that $\\angle DCA = \\angle ABC$.  Thus, $\\angle DCA = 73^\\circ$.  Since the sum of the angles in a triangle is $180^\\circ$, we have $\\angle ACB = 180^\\circ - 73^\\circ - 40^\\circ = \\boxed{67^\\circ}$.\nFinal Answer: $\\boxed{67^\\circ}$. I hope it is correct.",
+        "ground_truth": "Since $\\overline{AB}\\parallel\\overline{DC}$, $\\angle ABC + \\angle BCD = 180^\\circ$, so $\\angle BCD = 180^\\circ - 73^\\circ = 107^\\circ$. $\\angle ACB + \\angle ACD = \\angle BCD$, so $\\angle ACB = 107^\\circ - 40^\\circ = \\boxed{67^\\circ}$."
+    },
+    {
+        "question": "Since $\\overline{DC}$ is parallel to $\\overline{AB}$, we know that $\\angle DCA = \\angle ABC$.  Thus, $\\angle DCA = 73^\\circ$.  Since the sum of the angles in a triangle is $180^\\circ$, we have $\\angle ACB = 180^\\circ - 73^\\circ - 40^\\circ = \\boxed{67^\\circ}$.\nFinal Answer: $\\boxed{67^\\circ}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$67^\\circ$}.",
+        "ground_truth": "Since $\\overline{AB}\\parallel\\overline{DC}$, $\\angle ABC + \\angle BCD = 180^\\circ$, so $\\angle BCD = 180^\\circ - 73^\\circ = 107^\\circ$. $\\angle ACB + \\angle ACD = \\angle BCD$, so $\\angle ACB = 107^\\circ - 40^\\circ = \\boxed{67^\\circ}$."
+    }
+]

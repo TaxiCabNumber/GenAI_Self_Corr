@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn cuts down an 80-foot tree.  He can make logs out of 80% of it. He cuts it into 4-foot logs.  From each of those logs, he cuts 5 planks.  He then sells each plank for $1.2.  How much does he make?",
+        "inference": "80% of 80 feet is 0.8 * 80 = 64 feet.\n64 feet / 4 feet/log = 16 logs\n16 logs * 5 planks/log = 80 planks\n80 planks * $1.2/plank = $96\n\nI hope it is correct: $96\n",
+        "ground_truth": "He can use 80*.8=<<80*.8=64>>64 feet of the tree.\nThat means he can make 64/4=<<64/4=16>>16 logs.\nThat gives him16*5=<<16*5=80>>80 planks.\nSo he makes 80*1.2=$<<80*1.2=96>>96.\n#### 96"
+    },
+    {
+        "question": "80% of 80 feet is 0.8 * 80 = 64 feet.\n64 feet / 4 feet/log = 16 logs\n16 logs * 5 planks/log = 80 planks\n80 planks * $1.2/plank = $96\n\nI hope it is correct: $96\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $96\n",
+        "ground_truth": "He can use 80*.8=<<80*.8=64>>64 feet of the tree.\nThat means he can make 64/4=<<64/4=16>>16 logs.\nThat gives him16*5=<<16*5=80>>80 planks.\nSo he makes 80*1.2=$<<80*1.2=96>>96.\n#### 96"
+    }
+]

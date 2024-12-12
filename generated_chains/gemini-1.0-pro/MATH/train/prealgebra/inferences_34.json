@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe product of two positive integers is 18. The positive difference of these two integers is 3. What is the sum of the two integers?",
+        "inference": "Let the two integers be \\(x\\) and \\(y\\) such that \\(x>y.\\) \nThen, by the given information, we have \\(xy=18\\) and \\(x-y=3.\\)\nSubstituting \\(x-y=3\\) in \\(xy=18\\), we get\n$$x(x-3)=18\\Rightarrow x^2-3x-18=0$$\n\n$$(x-6)(x+3)=0\\Rightarrow x=6,-3$$\n\nSince \\(x\\) is positive, therefore, \\(x=6\\). \nHence, \\(y=x-3=6-3=3.\\)\nTherefore, the sum of the two integers is \\(x+y=6+3=\\boxed{9}.\\)\n\nFinal Answer: \\boxed{$9$}. I hope it is correct.",
+        "ground_truth": "18 has 3 possible factorizations into pairs: $(1,18)$, $(2,9)$, and $(3,6)$. Only one of these, $(3,6)$, has difference 3, and it has sum $3+6=\\boxed{9}$."
+    },
+    {
+        "question": "Let the two integers be \\(x\\) and \\(y\\) such that \\(x>y.\\) \nThen, by the given information, we have \\(xy=18\\) and \\(x-y=3.\\)\nSubstituting \\(x-y=3\\) in \\(xy=18\\), we get\n$$x(x-3)=18\\Rightarrow x^2-3x-18=0$$\n\n$$(x-6)(x+3)=0\\Rightarrow x=6,-3$$\n\nSince \\(x\\) is positive, therefore, \\(x=6\\). \nHence, \\(y=x-3=6-3=3.\\)\nTherefore, the sum of the two integers is \\(x+y=6+3=\\boxed{9}.\\)\n\nFinal Answer: \\boxed{$9$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$9$}",
+        "ground_truth": "18 has 3 possible factorizations into pairs: $(1,18)$, $(2,9)$, and $(3,6)$. Only one of these, $(3,6)$, has difference 3, and it has sum $3+6=\\boxed{9}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe Benton Youth Soccer Team has 20 players on the team, including reserves. Of these, three are goalies. Today, the team is having a contest to see which goalie can block the most number of penalty kicks. For each penalty kick, a goalie stands in the net while the rest of the team (including other goalies) takes a shot on goal, one at a time, attempting to place the ball in the net.\n\nHow many penalty kicks must be taken to ensure that everyone has gone up against each of the goalies?",
+        "inference": "The first goalie must face shots from all 20 players, so 20 kicks are required. Then, the second goalie must face shots from all the remaining 19 players, requiring 19 kicks. Finally, the third goalie must face shots from the remaining 18 players, requiring 18 kicks.\nFinal Answer: $\\boxed{20+19+18=57}$. I hope it is correct.",
+        "ground_truth": "For each of the $3$ goalies who stand in the net, there are $19$ other players who will kick to the goalie. That makes $3 \\cdot 19 = \\boxed{57}$ penalty kicks that must be taken."
+    },
+    {
+        "question": "The first goalie must face shots from all 20 players, so 20 kicks are required. Then, the second goalie must face shots from all the remaining 19 players, requiring 19 kicks. Finally, the third goalie must face shots from the remaining 18 players, requiring 18 kicks.\nFinal Answer: $\\boxed{20+19+18=57}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$57$}",
+        "ground_truth": "For each of the $3$ goalies who stand in the net, there are $19$ other players who will kick to the goalie. That makes $3 \\cdot 19 = \\boxed{57}$ penalty kicks that must be taken."
+    }
+]

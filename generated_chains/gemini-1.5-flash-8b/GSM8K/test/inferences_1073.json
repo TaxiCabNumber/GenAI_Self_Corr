@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMr. Robles buys 315 bananas, which is enough to feed his three monkeys for a week. One monkey eats 10 bananas each day. The second monkey eats 4 more bananas than the first monkey and the third monkey eats the rest of the bananas for the day.  How many bananas does the third monkey eat each day?",
+        "inference": "1. First monkey eats 10 bananas/day.\n2. Second monkey eats 10 + 4 = 14 bananas/day.\n3. Total bananas eaten by the first two monkeys = 10 + 14 = 24 bananas/day.\n4. Total bananas for the week = 315 bananas.\n5. Total bananas for one day = 315 bananas / 7 days = 45 bananas/day.\n6. Bananas eaten by the third monkey = 45 bananas/day - 24 bananas/day = 21 bananas/day.\n\nI hope it is correct: 21 $bananas$\n",
+        "ground_truth": "Each day, the three monkeys eat a total of 315/7 = <<315/7=45>>45 bananas.\nThe second monkey eats 10 + 4 = <<10+4=14>>14 bananas a day.\nSo the first and the second monkey eat a total of 10 + 14 = <<10+14=24>>24 bananas each day.\nHence, the third monkey eats 45 - 24 = <<45-24=21>>21 bananas each day.\n#### 21"
+    },
+    {
+        "question": "1. First monkey eats 10 bananas/day.\n2. Second monkey eats 10 + 4 = 14 bananas/day.\n3. Total bananas eaten by the first two monkeys = 10 + 14 = 24 bananas/day.\n4. Total bananas for the week = 315 bananas.\n5. Total bananas for one day = 315 bananas / 7 days = 45 bananas/day.\n6. Bananas eaten by the third monkey = 45 bananas/day - 24 bananas/day = 21 bananas/day.\n\nI hope it is correct: 21 $bananas$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 21\n",
+        "ground_truth": "Each day, the three monkeys eat a total of 315/7 = <<315/7=45>>45 bananas.\nThe second monkey eats 10 + 4 = <<10+4=14>>14 bananas a day.\nSo the first and the second monkey eat a total of 10 + 14 = <<10+14=24>>24 bananas each day.\nHence, the third monkey eats 45 - 24 = <<45-24=21>>21 bananas each day.\n#### 21"
+    }
+]

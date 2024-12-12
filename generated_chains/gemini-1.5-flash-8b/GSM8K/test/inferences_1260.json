@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJade bought a new cell phone with an incredible camera, so she spent all week taking pictures of her daily life. At the end of the week, she had taken 210 photos. She wants to upload all her photos on her Instagram. If she uploads 7 photos in one batch and she uploads 6 batches each day, how many days will she need to upload all of her photos?",
+        "inference": "Photos per batch = 7\nBatches per day = 6\nPhotos per day = 7 * 6 = 42\nTotal photos = 210\nDays needed = 210 / 42 = 5\nI hope it is correct: 5 $days$\n",
+        "ground_truth": "Jade needs a total of 210 photos / 7 photos/batch = <<210/7=30>>30 batches to upload all her photos.\nEach day she uploads 6 batches, so she will need 30 \u00f7 6 = <<30/6=5>>5 days in total to upload all the photos.\n#### 5"
+    },
+    {
+        "question": "Photos per batch = 7\nBatches per day = 6\nPhotos per day = 7 * 6 = 42\nTotal photos = 210\nDays needed = 210 / 42 = 5\nI hope it is correct: 5 $days$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 5 days\n",
+        "ground_truth": "Jade needs a total of 210 photos / 7 photos/batch = <<210/7=30>>30 batches to upload all her photos.\nEach day she uploads 6 batches, so she will need 30 \u00f7 6 = <<30/6=5>>5 days in total to upload all the photos.\n#### 5"
+    }
+]

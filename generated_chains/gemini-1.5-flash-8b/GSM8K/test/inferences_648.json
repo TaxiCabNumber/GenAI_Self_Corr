@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nHowie wants to buy cupcakes for everyone in his class as a special treat. He's not sure if people will want vanilla or chocolate cupcakes so he decides to get one of each for everyone. If he gets the same amount of 2 cupcakes for each himself, his teacher, and his 25 classmates, how many cupcakes should Howie buy?",
+        "inference": "Howie, his teacher, and his 25 classmates make a total of 1 + 1 + 25 = 27 people.\nEach person gets 2 cupcakes (1 vanilla + 1 chocolate).\nTotal cupcakes = 27 people * 2 cupcakes/person = 54 cupcakes.\nI hope it is correct: 54 $cupcakes$\n",
+        "ground_truth": "Howie wants to get cupcakes for his 25 classmates + his 1 teacher + 1 himself = <<25+1+1=27>>27 people.\nHe wants to get 2 cupcakes for everyone, so 27 people x 2 cupcakes each = <<27*2=54>>54 cupcakes that Howie should buy.\n#### 54"
+    },
+    {
+        "question": "Howie, his teacher, and his 25 classmates make a total of 1 + 1 + 25 = 27 people.\nEach person gets 2 cupcakes (1 vanilla + 1 chocolate).\nTotal cupcakes = 27 people * 2 cupcakes/person = 54 cupcakes.\nI hope it is correct: 54 $cupcakes$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 54 cupcakes\n",
+        "ground_truth": "Howie wants to get cupcakes for his 25 classmates + his 1 teacher + 1 himself = <<25+1+1=27>>27 people.\nHe wants to get 2 cupcakes for everyone, so 27 people x 2 cupcakes each = <<27*2=54>>54 cupcakes that Howie should buy.\n#### 54"
+    }
+]

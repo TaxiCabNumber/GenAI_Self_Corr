@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nCaroline is three times older than Ben. Ben is two times older than Chris. If Chris is 4, how old is Caroline?",
+        "inference": "1. Chris is 4 years old.\n2. Ben is twice Chris's age, so Ben is 4 * 2 = 8 years old.\n3. Caroline is three times Ben's age, so Caroline is 8 * 3 = 24 years old.\n\nI hope it is correct: 24 $answer$\n",
+        "ground_truth": "Ben is 4*2 = <<4*2=8>>8 years old\nCaroline is 8*3 = <<8*3=24>>24 years old\n#### 24"
+    },
+    {
+        "question": "1. Chris is 4 years old.\n2. Ben is twice Chris's age, so Ben is 4 * 2 = 8 years old.\n3. Caroline is three times Ben's age, so Caroline is 8 * 3 = 24 years old.\n\nI hope it is correct: 24 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 24\n",
+        "ground_truth": "Ben is 4*2 = <<4*2=8>>8 years old\nCaroline is 8*3 = <<8*3=24>>24 years old\n#### 24"
+    }
+]

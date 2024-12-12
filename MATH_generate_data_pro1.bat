@@ -6,7 +6,7 @@ setlocal enabledelayedexpansion
 
 REM Set the number of API call cycles to run to go through enough data
 REM Leave "N=" undefined to skip generation and only evaluate
-set N=
+set N=2
 set SUBJECTS=0 1 2 3 4 5 6
 
 REM Define the arrays of dataset paths and output paths

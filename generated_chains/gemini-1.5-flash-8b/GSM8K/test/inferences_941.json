@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 29 pupils in a class. The teacher has 9 coupons; each coupon can be redeemed for 100 bottles of apple juice. The teacher gives each student 2 bottles of apple juice to drink for lunch. After redeeming all her coupons and giving each student their apple juice lunch, how many bottles of apple juice does the teacher have for herself?",
+        "inference": "1. Coupons: 9 coupons * 100 bottles/coupon = 900 bottles\n2. Students' juice: 29 pupils * 2 bottles/pupil = 58 bottles\n3. Teacher's juice: 900 bottles - 58 bottles = 842 bottles\n\nI hope it is correct: 842 $bottles$\n",
+        "ground_truth": "The teacher can redeem her coupons for 9 * 100 = <<9*100=900>>900 bottles of apple juice.\nIn total, the pupils receive 29 * 2 = <<29*2=58>>58 bottles of apple juice from the teacher.\nThus the teacher has 900 - 58 = <<900-58=842>>842 bottles of apple juice for herself.\n#### 842"
+    },
+    {
+        "question": "1. Coupons: 9 coupons * 100 bottles/coupon = 900 bottles\n2. Students' juice: 29 pupils * 2 bottles/pupil = 58 bottles\n3. Teacher's juice: 900 bottles - 58 bottles = 842 bottles\n\nI hope it is correct: 842 $bottles$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 900 bottles\n",
+        "ground_truth": "The teacher can redeem her coupons for 9 * 100 = <<9*100=900>>900 bottles of apple juice.\nIn total, the pupils receive 29 * 2 = <<29*2=58>>58 bottles of apple juice from the teacher.\nThus the teacher has 900 - 58 = <<900-58=842>>842 bottles of apple juice for herself.\n#### 842"
+    }
+]

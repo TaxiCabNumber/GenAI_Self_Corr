@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCara is sitting at a circular table with her five friends as shown below. How many different possible pairs of people could Cara be sitting between?\n\n[asy]\ndraw(circle((0,0),1));\nlabel(\"$\\_$\",1.5dir(0));\nlabel(\"$\\_$\",1.5dir(60));\nlabel(\"Cara\",1.5dir(120));\nlabel(\"$\\_$\",1.5dir(180));\nlabel(\"$\\_$\",1.5dir(240));\nlabel(\"$\\_$\",1.5dir(300));\n[/asy]",
+        "inference": "5 people sit beside Cara. So, Cara can sit between **2 people**.\n\nFinal Answer: \\boxed{2}. I hope it is correct.",
+        "ground_truth": "The number of pairs of neighbors for Cara actually has nothing to do with the shape of the table she is sitting at. That is, all that matters is that she has 5 friends and two of them will be her neighbors. There are ${5 \\choose 2} = \\boxed{10}$ pairs of friends that she can thus sit between."
+    },
+    {
+        "question": "5 people sit beside Cara. So, Cara can sit between **2 people**.\n\nFinal Answer: \\boxed{2}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{2}",
+        "ground_truth": "The number of pairs of neighbors for Cara actually has nothing to do with the shape of the table she is sitting at. That is, all that matters is that she has 5 friends and two of them will be her neighbors. There are ${5 \\choose 2} = \\boxed{10}$ pairs of friends that she can thus sit between."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSimplify $3\\cdot\\frac{11}{4}\\cdot \\frac{16}{-55}$.",
+        "inference": "$$3\\cdot\\frac{11}{4}\\cdot\\frac{16}{-55}=\\frac{3\\cdot9\\cdot4}{4\\cdot55}$$\n$$=\\frac{3\\cdot3}{55}=\\frac{9}{55}$$\n$$Final Answer: \\boxed{\\frac{9}{55}}.$$",
+        "ground_truth": "Note that 55 and 11 have a common factor of 11. Also, 4 and 16 have a common factor of 4. Since there is one negative sign among all the factors, our result will be negative. We get \\[\n3\\cdot\\frac{11}{4}\\cdot \\frac{16}{-55}=-3\\cdot\\frac{\\cancel{11}}{\\cancel{4}}\\cdot \\frac{\\cancelto{4}{16}}{\\cancelto{5}{55}} \\quad =-\\frac{3\\cdot 4}{5}=\\boxed{-\\frac{12}{5}}.\n\\]"
+    },
+    {
+        "question": "$$3\\cdot\\frac{11}{4}\\cdot\\frac{16}{-55}=\\frac{3\\cdot9\\cdot4}{4\\cdot55}$$\n$$=\\frac{3\\cdot3}{55}=\\frac{9}{55}$$\n$$Final Answer: \\boxed{\\frac{9}{55}}.$$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{-\\frac{36}{55}}$$",
+        "ground_truth": "Note that 55 and 11 have a common factor of 11. Also, 4 and 16 have a common factor of 4. Since there is one negative sign among all the factors, our result will be negative. We get \\[\n3\\cdot\\frac{11}{4}\\cdot \\frac{16}{-55}=-3\\cdot\\frac{\\cancel{11}}{\\cancel{4}}\\cdot \\frac{\\cancelto{4}{16}}{\\cancelto{5}{55}} \\quad =-\\frac{3\\cdot 4}{5}=\\boxed{-\\frac{12}{5}}.\n\\]"
+    }
+]

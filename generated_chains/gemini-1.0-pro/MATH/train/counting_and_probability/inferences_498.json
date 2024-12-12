@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf three coins are tossed at the same time, what is the probability of getting two tails and one head? Express your answer as a common fraction.",
+        "inference": "There are $2^3 = 8$ possible outcomes when three coins are tossed:\n```\nHHH\nHHT\nHTH\nTHH\nTTH\nTHT\nHTT\nTTT\n```\nThree of these outcomes have two tails and one head:\n```\nTTH\nTHT\nHTT\n```\nTherefore, the probability of getting two tails and one head is $\\frac{3}{8}$.\nFinal Answer: $\\boxed{\\frac{3}{8}}$. I hope it is correct.",
+        "ground_truth": "The probability of getting two tails followed by one head is $\\left(\\frac{1}{2}\\right)^3=\\frac{1}{8}$.  The probability of getting a tail followed by a head followed by a tail is also $\\left(\\frac{1}{2}\\right)^3=\\frac{1}{8}$.  Finally, the probability of getting a head followed by two tails is $\\left(\\frac{1}{2}\\right)^3=\\frac{1}{8}$ as well.  In total, the probability of getting two tails and one head is $\\frac{1}{8}+\\frac{1}{8}+\\frac{1}{8}=\\boxed{\\frac{3}{8}}$."
+    },
+    {
+        "question": "There are $2^3 = 8$ possible outcomes when three coins are tossed:\n```\nHHH\nHHT\nHTH\nTHH\nTTH\nTHT\nHTT\nTTT\n```\nThree of these outcomes have two tails and one head:\n```\nTTH\nTHT\nHTT\n```\nTherefore, the probability of getting two tails and one head is $\\frac{3}{8}$.\nFinal Answer: $\\boxed{\\frac{3}{8}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$\\frac{3}{8}$ }",
+        "ground_truth": "The probability of getting two tails followed by one head is $\\left(\\frac{1}{2}\\right)^3=\\frac{1}{8}$.  The probability of getting a tail followed by a head followed by a tail is also $\\left(\\frac{1}{2}\\right)^3=\\frac{1}{8}$.  Finally, the probability of getting a head followed by two tails is $\\left(\\frac{1}{2}\\right)^3=\\frac{1}{8}$ as well.  In total, the probability of getting two tails and one head is $\\frac{1}{8}+\\frac{1}{8}+\\frac{1}{8}=\\boxed{\\frac{3}{8}}$."
+    }
+]

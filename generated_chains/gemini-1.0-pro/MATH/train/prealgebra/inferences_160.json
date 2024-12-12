@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFive toppings for a pizza are available at Polina's Pizza. How many combinations of two different toppings are possible?",
+        "inference": "Since 2 different toppings are to be chosen, the order of selection is not material. So combination formula will be used to find the number of possible combinations. \n\nNumber of combinations = $^5$C$_2$ = $\\frac{5!}{3!  \\times  2!}$ = $\\frac{5 \\times 4}{2}$ = $10$.\n\n**Final Answer: \\\\boxed{$10$}. I hope it is correct.**",
+        "ground_truth": "There are 5 options for the first topping and 4 options left for the second topping for a preliminary count of $5\\cdot4=20$ options. However, the order in which we put the toppings on doesn't matter, so we've counted each combination twice, which means our final answer is $\\dfrac{5\\cdot4}{2}=\\boxed{10}$ combinations."
+    },
+    {
+        "question": "Since 2 different toppings are to be chosen, the order of selection is not material. So combination formula will be used to find the number of possible combinations. \n\nNumber of combinations = $^5$C$_2$ = $\\frac{5!}{3!  \\times  2!}$ = $\\frac{5 \\times 4}{2}$ = $10$.\n\n**Final Answer: \\\\boxed{$10$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$10$}",
+        "ground_truth": "There are 5 options for the first topping and 4 options left for the second topping for a preliminary count of $5\\cdot4=20$ options. However, the order in which we put the toppings on doesn't matter, so we've counted each combination twice, which means our final answer is $\\dfrac{5\\cdot4}{2}=\\boxed{10}$ combinations."
+    }
+]

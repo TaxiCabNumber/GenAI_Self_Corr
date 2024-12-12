@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA salesman bought a case of 48 sneakers for $576. He sold 17 of them for $20 at a flash sale on Monday, and the rest were sold to a department store for $25 each throughout the rest of the week. How much money, in dollars, was the salesman's profit?",
+        "inference": "1. Cost per sneaker: $576 / 48 = $12\n2. Revenue from flash sale: 17 sneakers * $20/sneaker = $340\n3. Number of sneakers sold to department store: 48 - 17 = 31 sneakers\n4. Revenue from department store sales: 31 sneakers * $25/sneaker = $775\n5. Total revenue: $340 + $775 = $1115\n6. Total cost: $576\n7. Profit: $1115 - $576 = $539\n\nI hope it is correct: $539\n",
+        "ground_truth": "The salesman made 17 \u00d7 $20 = $<<17*20=340>>340 at the flash sale on Monday.\nThere were 48 - 17 = <<48-17=31>>31 sneakers left.\nAt the department store he made 31 \u00d7 $25 = $<<31*25=775>>775 throughout the week.\nIn total he made $340 + $775 = $<<340+775=1115>>1115.\nThe profit made by the salesman was $1115 - $576 = $<<1115-576=539>>539.\n#### 539"
+    },
+    {
+        "question": "1. Cost per sneaker: $576 / 48 = $12\n2. Revenue from flash sale: 17 sneakers * $20/sneaker = $340\n3. Number of sneakers sold to department store: 48 - 17 = 31 sneakers\n4. Revenue from department store sales: 31 sneakers * $25/sneaker = $775\n5. Total revenue: $340 + $775 = $1115\n6. Total cost: $576\n7. Profit: $1115 - $576 = $539\n\nI hope it is correct: $539\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $539\n",
+        "ground_truth": "The salesman made 17 \u00d7 $20 = $<<17*20=340>>340 at the flash sale on Monday.\nThere were 48 - 17 = <<48-17=31>>31 sneakers left.\nAt the department store he made 31 \u00d7 $25 = $<<31*25=775>>775 throughout the week.\nIn total he made $340 + $775 = $<<340+775=1115>>1115.\nThe profit made by the salesman was $1115 - $576 = $<<1115-576=539>>539.\n#### 539"
+    }
+]

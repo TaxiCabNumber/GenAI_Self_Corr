@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIn a certain school, two classes have a total of 80 students. Each class has the same amount of students, and in each class 40% of the students are girls. How many boys are in each class?",
+        "inference": "1. Total students in both classes: 80\n2. Students per class: 80 / 2 = 40\n3. Girls per class: 40% of 40 = 0.40 * 40 = 16\n4. Boys per class: 40 - 16 = 24\n\nI hope it is correct: 24 $boys$\n",
+        "ground_truth": "If both classes have the same amount of students, that means each of them has 80 / 2 = <<80/2=40>>40 students.\nThe girls in each class make up to 40%, so there are 40/100 * 40 = <<40/100*40=16>>16 girls in each of them.\nThat means the rest of the class are boys, so there are 40 - 16 = <<40-16=24>>24 boys in each class.\n#### 24"
+    },
+    {
+        "question": "1. Total students in both classes: 80\n2. Students per class: 80 / 2 = 40\n3. Girls per class: 40% of 40 = 0.40 * 40 = 16\n4. Boys per class: 40 - 16 = 24\n\nI hope it is correct: 24 $boys$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 24\n",
+        "ground_truth": "If both classes have the same amount of students, that means each of them has 80 / 2 = <<80/2=40>>40 students.\nThe girls in each class make up to 40%, so there are 40/100 * 40 = <<40/100*40=16>>16 girls in each of them.\nThat means the rest of the class are boys, so there are 40 - 16 = <<40-16=24>>24 boys in each class.\n#### 24"
+    }
+]

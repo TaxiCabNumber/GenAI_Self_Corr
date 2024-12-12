@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTwenty tourists discovered 700 shells in a strip mall parking lot. They had divided into three groups, Alphas, The finders, and Gogetters to find as many shells as possible. If team Alphas found 40% of the shells, and team The finders found 60% of the remaining shells, how many shells did team Gogetters find?",
+        "inference": "1. Alphas found 40% of 700 shells: 0.40 * 700 = 280 shells.\n\n2. Shells remaining after Alphas: 700 - 280 = 420 shells.\n\n3. The finders found 60% of the remaining shells: 0.60 * 420 = 252 shells.\n\n4. Gogetters found the remaining shells: 700 - 280 - 252 = 168 shells.\n\nI hope it is correct: 168 $shells$\n",
+        "ground_truth": "Team Alphas found 40/100*700 = <<40/100*700=280>>280 shells.\nIf team Alphas found 280 shells, the other teams found 700-280 = 420 shells.\nTeam The Finders found 60% of the remaining shells, a total of 60/100*420 = <<60/100*420=252>>252 shells.\nIf The finders found 252 shells, team Gogetters found 420-252 = 168 shells.\n#### 168"
+    },
+    {
+        "question": "1. Alphas found 40% of 700 shells: 0.40 * 700 = 280 shells.\n\n2. Shells remaining after Alphas: 700 - 280 = 420 shells.\n\n3. The finders found 60% of the remaining shells: 0.60 * 420 = 252 shells.\n\n4. Gogetters found the remaining shells: 700 - 280 - 252 = 168 shells.\n\nI hope it is correct: 168 $shells$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 168\n",
+        "ground_truth": "Team Alphas found 40/100*700 = <<40/100*700=280>>280 shells.\nIf team Alphas found 280 shells, the other teams found 700-280 = 420 shells.\nTeam The Finders found 60% of the remaining shells, a total of 60/100*420 = <<60/100*420=252>>252 shells.\nIf The finders found 252 shells, team Gogetters found 420-252 = 168 shells.\n#### 168"
+    }
+]

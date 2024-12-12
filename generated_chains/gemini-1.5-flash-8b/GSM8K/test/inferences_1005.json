@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe population of porcupines in a park is 50. The number of female porcupines is 3/5 of the total population. If each female porcupine gives birth to 4 babies every month, how many porcupines will be in the park after a year?",
+        "inference": "1. Female porcupines = (3/5) * 50 = 30\n2. Babies per female per month = 4\n3. Babies per female per year = 4 * 12 = 48\n4. Total babies born per year = 30 * 48 = 1440\n5. Total porcupines after a year = 50 + 1440 = 1490\n\nI hope it is correct: 1490 $\n",
+        "ground_truth": "The number of female porcupines in the park is 3/5*50 = <<3/5*50=30>>30.\nIn a month, the 30 female porcupines give birth to 30*4 = <<30*4=120>>120 new babies.\nAfter a year, with 12 months, the total number of new porcupines in the park is 120*12 = <<120*12=1440>>1440\nThe total population of porcupines in the park after a year is 50+1440 = <<50+1440=1490>>1490\n#### 1490"
+    },
+    {
+        "question": "1. Female porcupines = (3/5) * 50 = 30\n2. Babies per female per month = 4\n3. Babies per female per year = 4 * 12 = 48\n4. Total babies born per year = 30 * 48 = 1440\n5. Total porcupines after a year = 50 + 1440 = 1490\n\nI hope it is correct: 1490 $\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 1490\n",
+        "ground_truth": "The number of female porcupines in the park is 3/5*50 = <<3/5*50=30>>30.\nIn a month, the 30 female porcupines give birth to 30*4 = <<30*4=120>>120 new babies.\nAfter a year, with 12 months, the total number of new porcupines in the park is 120*12 = <<120*12=1440>>1440\nThe total population of porcupines in the park after a year is 50+1440 = <<50+1440=1490>>1490\n#### 1490"
+    }
+]

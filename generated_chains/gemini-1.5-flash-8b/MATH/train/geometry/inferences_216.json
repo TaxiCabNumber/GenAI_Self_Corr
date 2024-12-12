@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the volume, in cubic units, of a cube whose surface area is 600 square units?",
+        "inference": "Let the side length of the cube be 's'.\nThe surface area of a cube is given by the formula 6s^2.\nGiven that the surface area is 600 square units, we have:\n6s^2 = 600\ns^2 = 100\ns = 10 (since s must be positive)\nThe volume of a cube is given by the formula s^3.\nVolume = 10^3 = 1000 cubic units\nFinal Answer: $\\boxed{1000}$\n",
+        "ground_truth": "The surface area of a cube equals 6 times the area of each face (since there are 6 faces). If the cube has a sidelength of $s$, then the surface area equals $6s^2$. We set that equal to 600 and solve for $s$, which must be positive. $$600=6s^2\\qquad\\Rightarrow 100=s^2\\qquad\\Rightarrow 10=s$$ The volume of the cube is $s^3=10^3=\\boxed{1000}$ cubic units."
+    },
+    {
+        "question": "Let the side length of the cube be 's'.\nThe surface area of a cube is given by the formula 6s^2.\nGiven that the surface area is 600 square units, we have:\n6s^2 = 600\ns^2 = 100\ns = 10 (since s must be positive)\nThe volume of a cube is given by the formula s^3.\nVolume = 10^3 = 1000 cubic units\nFinal Answer: $\\boxed{1000}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{1000}$\n",
+        "ground_truth": "The surface area of a cube equals 6 times the area of each face (since there are 6 faces). If the cube has a sidelength of $s$, then the surface area equals $6s^2$. We set that equal to 600 and solve for $s$, which must be positive. $$600=6s^2\\qquad\\Rightarrow 100=s^2\\qquad\\Rightarrow 10=s$$ The volume of the cube is $s^3=10^3=\\boxed{1000}$ cubic units."
+    }
+]

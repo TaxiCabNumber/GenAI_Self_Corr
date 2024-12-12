@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\n4 adults and 8 children are to share 8 packets of chocolate bars. Each packet contains 5 chocolate bars. If each adult gets 6 chocolate bars and the rest are to be shared equally among the children, how many will each child get?",
+        "inference": "1. Total chocolate bars: 8 packets * 5 bars/packet = 40 chocolate bars\n\n2. Total chocolate bars for adults: 4 adults * 6 bars/adult = 24 chocolate bars\n\n3. Chocolate bars for children: 40 bars - 24 bars = 16 bars\n\n4. Number of children: 8\n\n5. Chocolate bars per child: 16 bars / 8 children = 2 bars/child\n\nI hope it is correct: 2 $bars$\n",
+        "ground_truth": "Each packet contains 5 chocolate bars so 8 packets contain a total of 8*5 = <<8*5=40>>40 bars\nEach adult gets 6 bars so 4 adults will get 6*4 = <<6*4=24>>24 bars in total\nThere are now 40-24 = <<40-24=16>>16 bars left\n16 bars are shared equally among 8 children, so each child will get 16/8 = <<16/8=2>>2 bars\n#### 2"
+    },
+    {
+        "question": "1. Total chocolate bars: 8 packets * 5 bars/packet = 40 chocolate bars\n\n2. Total chocolate bars for adults: 4 adults * 6 bars/adult = 24 chocolate bars\n\n3. Chocolate bars for children: 40 bars - 24 bars = 16 bars\n\n4. Number of children: 8\n\n5. Chocolate bars per child: 16 bars / 8 children = 2 bars/child\n\nI hope it is correct: 2 $bars$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 2\n",
+        "ground_truth": "Each packet contains 5 chocolate bars so 8 packets contain a total of 8*5 = <<8*5=40>>40 bars\nEach adult gets 6 bars so 4 adults will get 6*4 = <<6*4=24>>24 bars in total\nThere are now 40-24 = <<40-24=16>>16 bars left\n16 bars are shared equally among 8 children, so each child will get 16/8 = <<16/8=2>>2 bars\n#### 2"
+    }
+]

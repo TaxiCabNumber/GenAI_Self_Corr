@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJill and her friends watch 4 movies every Saturday and half the number of movies on Sunday than on Saturday. If they watch movies every weekend, how many movies can they watch in 4 weeks?",
+        "inference": "Movies on Saturday: 4\nMovies on Sunday: 4 / 2 = 2\nTotal movies per weekend: 4 + 2 = 6\nTotal movies in 4 weeks: 6 * 4 = 24\nI hope it is correct: 24 $movies$\n",
+        "ground_truth": "They watch 4 / 2 = <<4/2=2>>2 movies every Sunday.\nThey watch a total of 4 + 2 = <<4+2=6>>6 movies every weekend.\nTherefore, they can watch 6 x 4 = <<6*4=24>>24 movies in four weeks.\n#### 24"
+    },
+    {
+        "question": "Movies on Saturday: 4\nMovies on Sunday: 4 / 2 = 2\nTotal movies per weekend: 4 + 2 = 6\nTotal movies in 4 weeks: 6 * 4 = 24\nI hope it is correct: 24 $movies$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 24\n",
+        "ground_truth": "They watch 4 / 2 = <<4/2=2>>2 movies every Sunday.\nThey watch a total of 4 + 2 = <<4+2=6>>6 movies every weekend.\nTherefore, they can watch 6 x 4 = <<6*4=24>>24 movies in four weeks.\n#### 24"
+    }
+]

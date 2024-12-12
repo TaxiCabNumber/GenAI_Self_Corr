@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMilly needs to return a book she decided was really boring. The book weighs 4 pounds, cost $32, and needs to be returned to a distribution center 20 miles away. If the shipping company charges $0.35 per pound plus $0.08 per mile, and Amazon will only refund 75% of the book's purchase price, how much money will Milly lose?",
+        "inference": "Shipping cost = (4 pounds * $0.35/pound) + (20 miles * $0.08/mile) = $1.40 + $1.60 = $3.00\n\nRefund = $32 * 0.75 = $24.00\n\nLoss = Shipping cost + (Original Price - Refund) = $3.00 + ($32.00 - $24.00) = $3.00 + $8.00 = $11.00\n\nI hope it is correct: $11.00\n",
+        "ground_truth": "Milly will get back from Amazon $32 * .75 = $<<32*.75=24>>24 once the book is returned.\nShe will lose $32 - 24 = $<<32-24=8>>8 when the book is returned.\nThe first part of the shipping cost is $0.35 per pound * 4 pounds = $<<0.35*4=1.40>>1.40\nThe second part of the shipping cost is $0.08 per mile * 20 miles = $<<0.08*20=1.60>>1.60\nMilly loses $8 + $1.40 + $1.60 = $<<8+1.4+1.6=11>>11\n#### 11"
+    },
+    {
+        "question": "Shipping cost = (4 pounds * $0.35/pound) + (20 miles * $0.08/mile) = $1.40 + $1.60 = $3.00\n\nRefund = $32 * 0.75 = $24.00\n\nLoss = Shipping cost + (Original Price - Refund) = $3.00 + ($32.00 - $24.00) = $3.00 + $8.00 = $11.00\n\nI hope it is correct: $11.00\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $11.00\n",
+        "ground_truth": "Milly will get back from Amazon $32 * .75 = $<<32*.75=24>>24 once the book is returned.\nShe will lose $32 - 24 = $<<32-24=8>>8 when the book is returned.\nThe first part of the shipping cost is $0.35 per pound * 4 pounds = $<<0.35*4=1.40>>1.40\nThe second part of the shipping cost is $0.08 per mile * 20 miles = $<<0.08*20=1.60>>1.60\nMilly loses $8 + $1.40 + $1.60 = $<<8+1.4+1.6=11>>11\n#### 11"
+    }
+]

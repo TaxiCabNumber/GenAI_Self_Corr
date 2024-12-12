@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nCarl buys ten packs of cookies. Each pack of cookies has six cookies inside. Each cookie cost $0.10. How much change does Carl receive if he pay with a $10 bill?",
+        "inference": "1. Cookies per pack: 6\n2. Packs of cookies: 10\n3. Total cookies: 6 * 10 = 60 cookies\n4. Cost per cookie: $0.10\n5. Total cost of cookies: 60 * $0.10 = $6.00\n6. Payment: $10.00\n7. Change: $10.00 - $6.00 = $4.00\n\nI hope it is correct: $4.00\n",
+        "ground_truth": "A pack of cookies costs 6 x $0.10 = $<<6*0.1=0.60>>0.60.\nThus, ten packs of cookies cost 10 x $0.6 = $<<10*0.6=6>>6.\nTherefore, Carl will receive a $10 - $6 = $<<10-6=4>>4 change.\n#### 4"
+    },
+    {
+        "question": "1. Cookies per pack: 6\n2. Packs of cookies: 10\n3. Total cookies: 6 * 10 = 60 cookies\n4. Cost per cookie: $0.10\n5. Total cost of cookies: 60 * $0.10 = $6.00\n6. Payment: $10.00\n7. Change: $10.00 - $6.00 = $4.00\n\nI hope it is correct: $4.00\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $4.00\n",
+        "ground_truth": "A pack of cookies costs 6 x $0.10 = $<<6*0.1=0.60>>0.60.\nThus, ten packs of cookies cost 10 x $0.6 = $<<10*0.6=6>>6.\nTherefore, Carl will receive a $10 - $6 = $<<10-6=4>>4 change.\n#### 4"
+    }
+]

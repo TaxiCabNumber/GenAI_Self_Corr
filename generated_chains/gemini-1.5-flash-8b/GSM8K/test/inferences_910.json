@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nFarmer Brown's farm is 200 acres, and Farmer Smith's farm is 100 acres more than twice that. How many acres do the two farms have, together?",
+        "inference": "1. Farmer Smith's farm is 100 acres more than twice Farmer Brown's.\n2. Farmer Brown's farm is 200 acres.\n3. Twice Farmer Brown's farm is 2 * 200 = 400 acres.\n4. Farmer Smith's farm is 400 + 100 = 500 acres.\n5. Total acres: 200 + 500 = 700 acres.\n\nI hope it is correct: 700 $acres$\n",
+        "ground_truth": "Farmer Smith has 2*200+100=<<2*200+100=500>>500 acres.\nThe total is 200+500=<<200+500=700>>700.\n#### 700"
+    },
+    {
+        "question": "1. Farmer Smith's farm is 100 acres more than twice Farmer Brown's.\n2. Farmer Brown's farm is 200 acres.\n3. Twice Farmer Brown's farm is 2 * 200 = 400 acres.\n4. Farmer Smith's farm is 400 + 100 = 500 acres.\n5. Total acres: 200 + 500 = 700 acres.\n\nI hope it is correct: 700 $acres$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 700 acres\n",
+        "ground_truth": "Farmer Smith has 2*200+100=<<2*200+100=500>>500 acres.\nThe total is 200+500=<<200+500=700>>700.\n#### 700"
+    }
+]

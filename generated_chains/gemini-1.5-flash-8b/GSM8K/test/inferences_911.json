@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nColby works for a manufacturing company in the packaging division.  He gets paid $0.20 for every package he completes. If he completes 10 less than 50 packages per hour, how much money, in dollars, does he earn in a typical eight-hour workday?",
+        "inference": "1. Packages completed per hour: 50 - 10 = 40 packages\n\n2. Earnings per hour: 40 packages * $0.20/package = $8\n\n3. Earnings per workday: $8/hour * 8 hours = $64\n\nI hope it is correct: $64\n",
+        "ground_truth": "Ten less than fifty is 50-10=<<50-10=40>>40 packages per hour.\nAt $0.20 per completed package. if he completes 40 packages per hour he earns 40*$0.20=$<<40*0.20=8>>8 per hour.\nThus, in a typical eight-hour day, he earns 8*$8=$<<8*8=64>>64.\n#### 64"
+    },
+    {
+        "question": "1. Packages completed per hour: 50 - 10 = 40 packages\n\n2. Earnings per hour: 40 packages * $0.20/package = $8\n\n3. Earnings per workday: $8/hour * 8 hours = $64\n\nI hope it is correct: $64\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $64\n",
+        "ground_truth": "Ten less than fifty is 50-10=<<50-10=40>>40 packages per hour.\nAt $0.20 per completed package. if he completes 40 packages per hour he earns 40*$0.20=$<<40*0.20=8>>8 per hour.\nThus, in a typical eight-hour day, he earns 8*$8=$<<8*8=64>>64.\n#### 64"
+    }
+]

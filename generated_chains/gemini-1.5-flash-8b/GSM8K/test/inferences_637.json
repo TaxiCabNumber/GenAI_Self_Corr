@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nReggie, Lynn, and Paisley ran together. Paisley ran 4 miles. Reggie ran 5 times what Paisley ran and 3 miles farther than Lynn. How many miles did Lynn run?",
+        "inference": "Paisley ran 4 miles.\nReggie ran 5 times what Paisley ran, so Reggie ran 5 * 4 = 20 miles.\nReggie also ran 3 miles farther than Lynn.\nTherefore, Lynn ran 20 - 3 = 17 miles.\nI hope it is correct: 17 $miles$\n",
+        "ground_truth": "Paisley ran <<4=4>>4 miles.\nReggie ran 5 * 4 miles = <<5*4=20>>20 miles\nLynn ran 3 miles less than Reggie = 20 - 3 = 17 miles\nLynn ran <<17=17>>17 miles.\n#### 17"
+    },
+    {
+        "question": "Paisley ran 4 miles.\nReggie ran 5 times what Paisley ran, so Reggie ran 5 * 4 = 20 miles.\nReggie also ran 3 miles farther than Lynn.\nTherefore, Lynn ran 20 - 3 = 17 miles.\nI hope it is correct: 17 $miles$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "Reggie ran 20 miles.\nReggie ran 3 miles farther than Lynn.\nLynn ran 20 - 3 = 17 miles.\n#### $17 miles$\n",
+        "ground_truth": "Paisley ran <<4=4>>4 miles.\nReggie ran 5 * 4 miles = <<5*4=20>>20 miles\nLynn ran 3 miles less than Reggie = 20 - 3 = 17 miles\nLynn ran <<17=17>>17 miles.\n#### 17"
+    }
+]

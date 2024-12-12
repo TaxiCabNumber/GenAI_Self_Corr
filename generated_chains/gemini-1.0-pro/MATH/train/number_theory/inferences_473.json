@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nHow many perfect squares less than 1000 have a ones digit of 2, 3 or 4?",
+        "inference": "The perfect squares less than 1000 with a ones digit of 2 are: 2\n\nThe perfect squares less than 1000 with a ones digit of 3 are: 3, 23\n\nThe perfect squares less than 1000 with a ones digit of 4 are: 4, 14, 24, 44, 54, 64, 74\n\nSo, there are $1+2+7=10$ perfect squares less than 1000 with a ones digit of 2, 3 or 4.\nFinal Answer: \\boxed{10}. I hope it is correct.",
+        "ground_truth": "Checking the squares from $1^2$ to $10^2$, we see that no squares end in 2 or 3, while a square ends in 4 if its square root ends in 2 or 8.  Since $31^2 < 1000 < 32^2$, we see that the squares less than 1000 ending in 4 are $2,8,12,18,22,28$.  Thus the desired answer is $\\boxed{6}$."
+    },
+    {
+        "question": "The perfect squares less than 1000 with a ones digit of 2 are: 2\n\nThe perfect squares less than 1000 with a ones digit of 3 are: 3, 23\n\nThe perfect squares less than 1000 with a ones digit of 4 are: 4, 14, 24, 44, 54, 64, 74\n\nSo, there are $1+2+7=10$ perfect squares less than 1000 with a ones digit of 2, 3 or 4.\nFinal Answer: \\boxed{10}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{10}",
+        "ground_truth": "Checking the squares from $1^2$ to $10^2$, we see that no squares end in 2 or 3, while a square ends in 4 if its square root ends in 2 or 8.  Since $31^2 < 1000 < 32^2$, we see that the squares less than 1000 ending in 4 are $2,8,12,18,22,28$.  Thus the desired answer is $\\boxed{6}$."
+    }
+]

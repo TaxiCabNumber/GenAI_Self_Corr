@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 40 pupils in a class. Half of the class likes blue. One-fourth of the remaining likes green and the rest likes yellow. How many pupils like the color yellow?",
+        "inference": "1. Half of the class likes blue: 40 pupils / 2 = 20 pupils\n2. Remaining pupils: 40 pupils - 20 pupils = 20 pupils\n3. One-fourth of the remaining pupils like green: 20 pupils / 4 = 5 pupils\n4. Pupils liking yellow: 20 pupils - 5 pupils = 15 pupils\n\nI hope it is correct: 15 $answer$\n",
+        "ground_truth": "There are 40/2 = <<40/2=20>>20 pupils who like blue.\nSo, there are now 40 - 20 = <<40-20=20>>20 pupils who like either green or yellow.\nHence, 20/4 = <<20/4=5>>5 pupils like green.\nThus, 20 - 5 = <<20-5=15>>15 pupils like yellow.\n#### 15"
+    },
+    {
+        "question": "1. Half of the class likes blue: 40 pupils / 2 = 20 pupils\n2. Remaining pupils: 40 pupils - 20 pupils = 20 pupils\n3. One-fourth of the remaining pupils like green: 20 pupils / 4 = 5 pupils\n4. Pupils liking yellow: 20 pupils - 5 pupils = 15 pupils\n\nI hope it is correct: 15 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 15\n",
+        "ground_truth": "There are 40/2 = <<40/2=20>>20 pupils who like blue.\nSo, there are now 40 - 20 = <<40-20=20>>20 pupils who like either green or yellow.\nHence, 20/4 = <<20/4=5>>5 pupils like green.\nThus, 20 - 5 = <<20-5=15>>15 pupils like yellow.\n#### 15"
+    }
+]

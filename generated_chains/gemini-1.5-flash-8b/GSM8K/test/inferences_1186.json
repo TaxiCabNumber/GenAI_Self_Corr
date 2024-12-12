@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSam ran 3 miles on Monday, Wednesday and Friday.  On Tuesday and Thursday, Sam ran 5 miles.  How many miles did Sam run this week?",
+        "inference": "Monday: 3 miles\nWednesday: 3 miles\nFriday: 3 miles\nTuesday: 5 miles\nThursday: 5 miles\n\nTotal miles = 3 + 3 + 3 + 5 + 5 = 19 miles\n\nI hope it is correct: 19 $miles$\n",
+        "ground_truth": "On Monday, Wednesday and Friday, Mike ran 3 * 3 = <<3*3=9>>9 miles\nOn Tuesday and Thursday, he ran 5 * 2 = <<5*2=10>>10 miles\nDuring the 5 days together, he ran a total of 10 + 9 = <<10+9=19>>19 miles\n#### 19"
+    },
+    {
+        "question": "Monday: 3 miles\nWednesday: 3 miles\nFriday: 3 miles\nTuesday: 5 miles\nThursday: 5 miles\n\nTotal miles = 3 + 3 + 3 + 5 + 5 = 19 miles\n\nI hope it is correct: 19 $miles$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 19 miles\n",
+        "ground_truth": "On Monday, Wednesday and Friday, Mike ran 3 * 3 = <<3*3=9>>9 miles\nOn Tuesday and Thursday, he ran 5 * 2 = <<5*2=10>>10 miles\nDuring the 5 days together, he ran a total of 10 + 9 = <<10+9=19>>19 miles\n#### 19"
+    }
+]

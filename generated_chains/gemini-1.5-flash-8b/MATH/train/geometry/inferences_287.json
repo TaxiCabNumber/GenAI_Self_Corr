@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCarla rotated point $A$ 420 degrees clockwise about point $B$ and it landed at point $C$. Devon rotated the original point $A$ $x$ degrees counterclockwise about point $B$ and it also landed at point $C$. If $x<360$, what is the value of $x$?",
+        "inference": "Rotating a point 420 degrees clockwise is the same as rotating it 420 - 360 = 60 degrees clockwise.\nRotating a point 60 degrees clockwise about a point is the same as rotating it 360-60=300 degrees counterclockwise about the same point.\nThus, $x = 300$.\nFinal Answer: $\\boxed{300}$ I hope it is correct.",
+        "ground_truth": "Carla's rotation was equivalent to one of $60^{\\circ}$ clockwise. To get to the same point by going counter-clockwise, we have to go $360^{\\circ}$ minus Carla's rotation, or $\\boxed{300^{\\circ}}$."
+    },
+    {
+        "question": "Rotating a point 420 degrees clockwise is the same as rotating it 420 - 360 = 60 degrees clockwise.\nRotating a point 60 degrees clockwise about a point is the same as rotating it 360-60=300 degrees counterclockwise about the same point.\nThus, $x = 300$.\nFinal Answer: $\\boxed{300}$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Rotating a point 420 degrees clockwise is the same as rotating it 420 - 360 = 60 degrees clockwise.\nRotating a point 60 degrees clockwise about a point is the same as rotating it 360 - 60 = 300 degrees counterclockwise about the same point.\nThus, $x = 300$.\n\nFinal Answer: $\\boxed{300}$",
+        "ground_truth": "Carla's rotation was equivalent to one of $60^{\\circ}$ clockwise. To get to the same point by going counter-clockwise, we have to go $360^{\\circ}$ minus Carla's rotation, or $\\boxed{300^{\\circ}}$."
+    }
+]

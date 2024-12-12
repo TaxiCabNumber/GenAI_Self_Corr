@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn a set of five consecutive integers, the largest integer is less than twice the average of the five integers. What is the smallest integer that could be in the set?",
+        "inference": "Let the smallest integer be $$x$$. Then, the five consecutive integers are $$x,x+1,x+2,x+3,x+4$$.\n\nThe largest integer is $$x+4$$.  The average of the five integers is $$\\frac{x+(x+1)+(x+2)+(x+3)+(x+4)}{5}=\\frac{5x+10}{5}=x+2$$.\n\nSo, $$x+4<2(x+2)$$.  Simplifying,\n\n$$x+4<2x+4$$\n\n$$4<x+4$$\n\n$$0<x$$\n\nSo, the smallest integer that could be in the set is $$\\boxed{1}$$.\nFinal Answer: \\boxed{$1$}. I hope it is correct.",
+        "ground_truth": "Let the integers be $n$, $n+1$, $n+2$, $n+3$ and $n+4$.  Their average is $n+2$, so we have $$n+4<2(n+2) \\Rightarrow n+4<2n+4 \\Rightarrow 0<n.$$Thus $n$ is at least $\\boxed{1}$."
+    },
+    {
+        "question": "Let the smallest integer be $$x$$. Then, the five consecutive integers are $$x,x+1,x+2,x+3,x+4$$.\n\nThe largest integer is $$x+4$$.  The average of the five integers is $$\\frac{x+(x+1)+(x+2)+(x+3)+(x+4)}{5}=\\frac{5x+10}{5}=x+2$$.\n\nSo, $$x+4<2(x+2)$$.  Simplifying,\n\n$$x+4<2x+4$$\n\n$$4<x+4$$\n\n$$0<x$$\n\nSo, the smallest integer that could be in the set is $$\\boxed{1}$$.\nFinal Answer: \\boxed{$1$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Final Answer: \\boxed{$1$}.",
+        "ground_truth": "Let the integers be $n$, $n+1$, $n+2$, $n+3$ and $n+4$.  Their average is $n+2$, so we have $$n+4<2(n+2) \\Rightarrow n+4<2n+4 \\Rightarrow 0<n.$$Thus $n$ is at least $\\boxed{1}$."
+    }
+]

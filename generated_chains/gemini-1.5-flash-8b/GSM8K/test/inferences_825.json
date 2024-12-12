@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBecca, Smendrick, and PJ have collections of Magic Cards.  There is a total of 341 cards.  Becca has 12 more than Smendrick, and Smendrick has 3 times the amount of cards that PJ has.  How many cards does Becca have?",
+        "inference": "Let B be the number of cards Becca has, S be the number of cards Smendrick has, and P be the number of cards PJ has.\nWe are given:\nB = S + 12\nS = 3P\nB + S + P = 341\n\nSubstitute the second equation into the first:\nB = 3P + 12\n\nSubstitute both expressions for B and S into the third equation:\n(3P + 12) + 3P + P = 341\n7P + 12 = 341\n7P = 329\nP = 47\n\nNow, find S:\nS = 3P = 3 * 47 = 141\n\nNow, find B:\nB = S + 12 = 141 + 12 = 153\n\nTherefore, Becca has 153 cards.\nI hope it is correct: 153 $answer$\n",
+        "ground_truth": "Let x represent the number of cards PJ has\nSmendrick:3x\nBecca:3x+12\nTotal:x+3x+3x+12=341\n7x+12=341\n7x=329\nx=<<47=47>>47 cards\nBecca:3(47)+12=153 cards\n#### 153"
+    },
+    {
+        "question": "Let B be the number of cards Becca has, S be the number of cards Smendrick has, and P be the number of cards PJ has.\nWe are given:\nB = S + 12\nS = 3P\nB + S + P = 341\n\nSubstitute the second equation into the first:\nB = 3P + 12\n\nSubstitute both expressions for B and S into the third equation:\n(3P + 12) + 3P + P = 341\n7P + 12 = 341\n7P = 329\nP = 47\n\nNow, find S:\nS = 3P = 3 * 47 = 141\n\nNow, find B:\nB = S + 12 = 141 + 12 = 153\n\nTherefore, Becca has 153 cards.\nI hope it is correct: 153 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 153\n",
+        "ground_truth": "Let x represent the number of cards PJ has\nSmendrick:3x\nBecca:3x+12\nTotal:x+3x+3x+12=341\n7x+12=341\n7x=329\nx=<<47=47>>47 cards\nBecca:3(47)+12=153 cards\n#### 153"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 6 students playing tennis and twice that number playing volleyball. There are 16 boys and 22 girls playing soccer. If each student only participates in one group, how many students are there in total?",
+        "inference": "1. Tennis students: 6 students\n2. Volleyball students: 6 * 2 = 12 students\n3. Soccer boys: 16 boys\n4. Soccer girls: 22 girls\n5. Total soccer students: 16 + 22 = 38 students\n6. Total students: 6 + 12 + 38 = 56 students\n\nI hope it is correct: 56 $students$\n",
+        "ground_truth": "There are 6 x 2 = <<6*2=12>>12 students playing volleyball.\nThere are 16 + 22 = <<16+22=38>>38 students playing soccer.\nIn total there are 6 + 12 + 38 = <<6+12+38=56>>56 students.\n#### 56"
+    },
+    {
+        "question": "1. Tennis students: 6 students\n2. Volleyball students: 6 * 2 = 12 students\n3. Soccer boys: 16 boys\n4. Soccer girls: 22 girls\n5. Total soccer students: 16 + 22 = 38 students\n6. Total students: 6 + 12 + 38 = 56 students\n\nI hope it is correct: 56 $students$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 56 students\n",
+        "ground_truth": "There are 6 x 2 = <<6*2=12>>12 students playing volleyball.\nThere are 16 + 22 = <<16+22=38>>38 students playing soccer.\nIn total there are 6 + 12 + 38 = <<6+12+38=56>>56 students.\n#### 56"
+    }
+]

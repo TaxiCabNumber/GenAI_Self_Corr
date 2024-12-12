@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAn air conditioner cools a room 2 degrees an hour on low and 3 degrees an hour on high. The room will warm up at 2 degrees an hour with no air conditioner running. The air conditioner ran on low for 3 hours, then it was turned up to high for 4 hours. Afterward, it was turned off for 2 hours. How many degrees lower than the starting temperature was the final temperature?",
+        "inference": "1. Low setting: 2 degrees/hour * 3 hours = 6 degrees cooled\n2. High setting: 3 degrees/hour * 4 hours = 12 degrees cooled\n3. Warming up: 2 degrees/hour * 2 hours = 4 degrees warmed\n4. Total cooling: 6 degrees + 12 degrees = 18 degrees\n5. Total warming: 4 degrees\n6. Net cooling: 18 degrees - 4 degrees = 14 degrees\n\nI hope it is correct: 14 $degrees$\n",
+        "ground_truth": "The air conditioner ran for 3 hours on low, so the temperature dropped 2 * 3 = <<3*2=6>>6 degrees.\nIt then ran for 4 hours on high, so the temperature dropped another 3 * 4 = <<3*4=12>>12 degrees.\nIt was then turned off for 2 hours, so the temperature rose 2 * 2 = <<2*2=4>>4 degrees.\nThus, the final temperature was 6 + 12 - 4 = <<6+12-4=14>>14 degrees lower than the starting temperature.\n#### 14"
+    },
+    {
+        "question": "1. Low setting: 2 degrees/hour * 3 hours = 6 degrees cooled\n2. High setting: 3 degrees/hour * 4 hours = 12 degrees cooled\n3. Warming up: 2 degrees/hour * 2 hours = 4 degrees warmed\n4. Total cooling: 6 degrees + 12 degrees = 18 degrees\n5. Total warming: 4 degrees\n6. Net cooling: 18 degrees - 4 degrees = 14 degrees\n\nI hope it is correct: 14 $degrees$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 14 degrees\n",
+        "ground_truth": "The air conditioner ran for 3 hours on low, so the temperature dropped 2 * 3 = <<3*2=6>>6 degrees.\nIt then ran for 4 hours on high, so the temperature dropped another 3 * 4 = <<3*4=12>>12 degrees.\nIt was then turned off for 2 hours, so the temperature rose 2 * 2 = <<2*2=4>>4 degrees.\nThus, the final temperature was 6 + 12 - 4 = <<6+12-4=14>>14 degrees lower than the starting temperature.\n#### 14"
+    }
+]

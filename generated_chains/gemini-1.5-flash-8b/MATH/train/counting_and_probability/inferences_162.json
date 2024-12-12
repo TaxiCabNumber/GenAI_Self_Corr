@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nMy school's math club has 6 boys and 8 girls.  I need to select a team to send to the state math competition.  We want 6 people on the team.  In how many ways can I select the team to have 3 boys and 3 girls?",
+        "inference": "1. We need to choose 3 boys from 6 boys. The number of ways to do this is $\\binom{6}{3} = \\frac{6!}{3!3!} = \\frac{6 \\times 5 \\times 4}{3 \\times 2 \\times 1} = 20$.\n2. We need to choose 3 girls from 8 girls. The number of ways to do this is $\\binom{8}{3} = \\frac{8!}{3!5!} = \\frac{8 \\times 7 \\times 6}{3 \\times 2 \\times 1} = 56$.\n3. To find the total number of ways to select the team with 3 boys and 3 girls, we multiply the number of ways to choose the boys by the number of ways to choose the girls: $20 \\times 56 = 1120$.\n\nFinal Answer: $\\boxed{1120}$\n",
+        "ground_truth": "We are picking 3 boys out of 6, so there are $\\binom{6}{3} = 20$ options for the boys on the team.  We are picking 3 girls out of 8, so there are $\\binom{8}{3} = 56$ options for the girls on the team.  This gives a total of $20 \\times 56 = \\boxed{1120}$ choices."
+    },
+    {
+        "question": "1. We need to choose 3 boys from 6 boys. The number of ways to do this is $\\binom{6}{3} = \\frac{6!}{3!3!} = \\frac{6 \\times 5 \\times 4}{3 \\times 2 \\times 1} = 20$.\n2. We need to choose 3 girls from 8 girls. The number of ways to do this is $\\binom{8}{3} = \\frac{8!}{3!5!} = \\frac{8 \\times 7 \\times 6}{3 \\times 2 \\times 1} = 56$.\n3. To find the total number of ways to select the team with 3 boys and 3 girls, we multiply the number of ways to choose the boys by the number of ways to choose the girls: $20 \\times 56 = 1120$.\n\nFinal Answer: $\\boxed{1120}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "1120\n",
+        "ground_truth": "We are picking 3 boys out of 6, so there are $\\binom{6}{3} = 20$ options for the boys on the team.  We are picking 3 girls out of 8, so there are $\\binom{8}{3} = 56$ options for the girls on the team.  This gives a total of $20 \\times 56 = \\boxed{1120}$ choices."
+    }
+]

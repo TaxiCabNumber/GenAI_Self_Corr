@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nCole hid 3 dozen eggs in the yard for the Easter egg hunt.  Lamar finds 5 eggs. Stacy finds twice as many as Lamar.  Charlie finds 2 less than Stacy.  And Mei finds half as many as Charlie.  How many eggs are still hidden in the yard?",
+        "inference": "1. Lamar finds 5 eggs.\n2. Stacy finds twice as many as Lamar, so Stacy finds 5 * 2 = 10 eggs.\n3. Charlie finds 2 less than Stacy, so Charlie finds 10 - 2 = 8 eggs.\n4. Mei finds half as many as Charlie, so Mei finds 8 / 2 = 4 eggs.\n5. Total eggs found: 5 + 10 + 8 + 4 = 27 eggs.\n6. There were 3 dozen eggs initially, which is 3 * 12 = 36 eggs.\n7. Eggs still hidden: 36 - 27 = 9 eggs.\n\nI hope it is correct: 9 $eggs$\n",
+        "ground_truth": "Cole hides 3 x 12 = <<3*12=36>>36 eggs.\nLamar finds 5 eggs.\nStacy finds 5 x 2 = <<5*2=10>>10 eggs.\nCharlie finds 10 - 2 = <<10-2=8>>8 eggs.\nMei finds 8 / 2 = <<8/2=4>>4 eggs.\nThe children find a total of 5 + 10 + 8 + 4 = <<5+10+8+4=27>>27 eggs.\nThe total number of hidden eggs still in the yard is 36 - 27 = <<36-27=9>>9 eggs.\n#### 9"
+    },
+    {
+        "question": "1. Lamar finds 5 eggs.\n2. Stacy finds twice as many as Lamar, so Stacy finds 5 * 2 = 10 eggs.\n3. Charlie finds 2 less than Stacy, so Charlie finds 10 - 2 = 8 eggs.\n4. Mei finds half as many as Charlie, so Mei finds 8 / 2 = 4 eggs.\n5. Total eggs found: 5 + 10 + 8 + 4 = 27 eggs.\n6. There were 3 dozen eggs initially, which is 3 * 12 = 36 eggs.\n7. Eggs still hidden: 36 - 27 = 9 eggs.\n\nI hope it is correct: 9 $eggs$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 9\n",
+        "ground_truth": "Cole hides 3 x 12 = <<3*12=36>>36 eggs.\nLamar finds 5 eggs.\nStacy finds 5 x 2 = <<5*2=10>>10 eggs.\nCharlie finds 10 - 2 = <<10-2=8>>8 eggs.\nMei finds 8 / 2 = <<8/2=4>>4 eggs.\nThe children find a total of 5 + 10 + 8 + 4 = <<5+10+8+4=27>>27 eggs.\nThe total number of hidden eggs still in the yard is 36 - 27 = <<36-27=9>>9 eggs.\n#### 9"
+    }
+]

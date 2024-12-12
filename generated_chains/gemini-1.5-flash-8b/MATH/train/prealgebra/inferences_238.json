@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nPoints $A$, $B$, $C$, and $D$ lie on a line, in that order. If $AB=2$ units, $BC=5$ units and $AD=14$ units, what is the ratio of $AC$ to $BD$? Express your answer as a common fraction.",
+        "inference": "$AC = AB + BC = 2 + 5 = 7$\n$BD = BC + CD = BC + (AD - AB - BC) = 5 + (14 - 2 - 5) = 5 + 7 = 12$\n$\\frac{AC}{BD} = \\frac{7}{12}$\nFinal Answer: $\\boxed{\\frac{7}{12}}$\n",
+        "ground_truth": "$AC = AB + BC = 7$. $BD = AD - AB = 12$. Thus, $AC:BD=\\boxed{\\frac{7}{12}}$."
+    },
+    {
+        "question": "$AC = AB + BC = 2 + 5 = 7$\n$BD = BC + CD = BC + (AD - AB - BC) = 5 + (14 - 2 - 5) = 5 + 7 = 12$\n$\\frac{AC}{BD} = \\frac{7}{12}$\nFinal Answer: $\\boxed{\\frac{7}{12}}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "We are given that $AB = 2$, $BC = 5$, $AD = 14$.\nWe are not given any information about the points A, B, C, D.  We cannot assume any relationships between these points without more information.\nThe given lengths may relate to segments in a triangle, but there is no triangle in the problem statement.\n\nThe problem is under-constrained.  We cannot determine the relationship between AC and BD.\n\nThe given solution is incorrect.\n\nFinal Answer: $\\boxed{Cannot be determined}$\n",
+        "ground_truth": "$AC = AB + BC = 7$. $BD = AD - AB = 12$. Thus, $AC:BD=\\boxed{\\frac{7}{12}}$."
+    }
+]

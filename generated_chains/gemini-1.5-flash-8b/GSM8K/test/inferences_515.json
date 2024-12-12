@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTara bought 8 packs of 5 canvas bags for $4 each. She painted them and sold them at a craft fair for $8 each. How much profit did she earn on her bags?",
+        "inference": "1. Calculate the total number of canvas bags: 8 packs * 5 bags/pack = 40 bags\n\n2. Calculate the total cost of the canvas bags: 8 packs * $4/pack = $32\n\n3. Calculate the total revenue from selling the bags: 40 bags * $8/bag = $320\n\n4. Calculate the profit: $320 - $32 = $288\n\nI hope it is correct: 288 $answer$\n",
+        "ground_truth": "The total number of bags is 8*5 = <<8*5=40>>40\nThe cost of the 40 bags is 40*4 = <<40*4=160>>160\nTara sold the 40 bags at 8 each earning her 40*8 = <<40*8=320>>320\nHer profit was 320-160 = <<320-160=160>>160\n#### 160"
+    },
+    {
+        "question": "1. Calculate the total number of canvas bags: 8 packs * 5 bags/pack = 40 bags\n\n2. Calculate the total cost of the canvas bags: 8 packs * $4/pack = $32\n\n3. Calculate the total revenue from selling the bags: 40 bags * $8/bag = $320\n\n4. Calculate the profit: $320 - $32 = $288\n\nI hope it is correct: 288 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $288\n",
+        "ground_truth": "The total number of bags is 8*5 = <<8*5=40>>40\nThe cost of the 40 bags is 40*4 = <<40*4=160>>160\nTara sold the 40 bags at 8 each earning her 40*8 = <<40*8=320>>320\nHer profit was 320-160 = <<320-160=160>>160\n#### 160"
+    }
+]

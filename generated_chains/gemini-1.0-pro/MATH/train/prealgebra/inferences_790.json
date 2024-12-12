@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA teacher has a class with $24$ students in it. If she wants to split the students into equal groups of at most $10$ students each, what is the least number of groups that she needs?",
+        "inference": "**Solution**\nSince at most $10$ students can be in each group, the total number of students must be divisible by $10$. Since $24$ is divisible by $10$, we need $24/10 = \\boxed{2}$ groups.\n**Final Answer: $2$. I hope it is correct.**",
+        "ground_truth": "For the teacher to be able to split her students into $x$ groups of $y$ students each, $y$ must be a divisor of $24$. Since we want to create as few groups as possible, we need to maximize the number of students in each group. Thus, $y$ should be the greatest divisor of $24$ that is less than or equal to $10$. This means that $y=8$ and $x=3$. The teacher can create $\\boxed{3}$ groups of $8$ students each."
+    },
+    {
+        "question": "**Solution**\nSince at most $10$ students can be in each group, the total number of students must be divisible by $10$. Since $24$ is divisible by $10$, we need $24/10 = \\boxed{2}$ groups.\n**Final Answer: $2$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$2$}",
+        "ground_truth": "For the teacher to be able to split her students into $x$ groups of $y$ students each, $y$ must be a divisor of $24$. Since we want to create as few groups as possible, we need to maximize the number of students in each group. Thus, $y$ should be the greatest divisor of $24$ that is less than or equal to $10$. This means that $y=8$ and $x=3$. The teacher can create $\\boxed{3}$ groups of $8$ students each."
+    }
+]

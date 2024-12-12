@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn wins an award at work.  The award has a 1 time monetary reward of $5000 and a 5% raise in salary.  If he makes 2000 a week, every week of the year and he got the award on the first day of the year how much money did he make that year?",
+        "inference": "1. **Calculate the raise:** 5% of $2000 = $2000 * 0.05 = $100\n\n2. **Calculate the new weekly salary:** $2000 + $100 = $2100\n\n3. **Calculate the total earnings for the year:** $2100/week * 52 weeks/year + $5000 = $109200 + $5000 = $114200\n\nI hope it is correct: $114200\n",
+        "ground_truth": "He makes 2000*52=$<<2000*52=104000>>104,000 a year\nSo the raise is worth .05*104,000=$<<.05*104000=5200>>5200\nSo he makes 104,000+5200=$<<104000+5200=109200>>109,200 from his salary\nSo in total he made 109,200+5,000=$<<109200+5000=114200>>114,200\n#### 114,200"
+    },
+    {
+        "question": "1. **Calculate the raise:** 5% of $2000 = $2000 * 0.05 = $100\n\n2. **Calculate the new weekly salary:** $2000 + $100 = $2100\n\n3. **Calculate the total earnings for the year:** $2100/week * 52 weeks/year + $5000 = $109200 + $5000 = $114200\n\nI hope it is correct: $114200\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $114200\n",
+        "ground_truth": "He makes 2000*52=$<<2000*52=104000>>104,000 a year\nSo the raise is worth .05*104,000=$<<.05*104000=5200>>5200\nSo he makes 104,000+5200=$<<104000+5200=109200>>109,200 from his salary\nSo in total he made 109,200+5,000=$<<109200+5000=114200>>114,200\n#### 114,200"
+    }
+]

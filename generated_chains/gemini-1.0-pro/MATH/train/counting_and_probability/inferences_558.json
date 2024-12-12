@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCrestview's school colors are purple and gold. The students are designing a flag using three solid-colored horizontal stripes, as shown. Using one or both of the school colors, how many different flags are possible if adjacent stripes may be the same color?\n\n[asy]\nsize(75);\ndraw((0,0)--(0,12));\ndot((0,12));\ndraw((0,12)--(8,12)--(8,11)--(0,11));\ndraw((8,11)--(8,9)--(0,9));\ndraw((8,9)--(8,6)--(0,6));\n[/asy]",
+        "inference": "There are two color choices for each stripe, so there are $2 \\times 2 \\times 2 = \\boxed{8}$ possible flag designs.\n\nFinal Answer: $\\boxed{8}.$ I hope it is correct.",
+        "ground_truth": "There are two possible colors for the first stripe, two possible colors for the second stripe, and two possible colors for the third stripe. Since the colors of each stripe are mutually exclusive, there are $2\\times 2 \\times 2 = \\boxed{8}$ ways to color the flag."
+    },
+    {
+        "question": "There are two color choices for each stripe, so there are $2 \\times 2 \\times 2 = \\boxed{8}$ possible flag designs.\n\nFinal Answer: $\\boxed{8}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{8}$$",
+        "ground_truth": "There are two possible colors for the first stripe, two possible colors for the second stripe, and two possible colors for the third stripe. Since the colors of each stripe are mutually exclusive, there are $2\\times 2 \\times 2 = \\boxed{8}$ ways to color the flag."
+    }
+]

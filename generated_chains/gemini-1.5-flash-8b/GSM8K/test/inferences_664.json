@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn decides to take a cooking class.  The class meets 4 times a week for 2 hours each time for 6 weeks.  If he learns a new recipe for every 1.5 hours of class time, how many recipes does he learn?",
+        "inference": "1. Class sessions per week: 4\n2. Class duration per session: 2 hours\n3. Total class time per week: 4 sessions * 2 hours/session = 8 hours\n4. Total class time for 6 weeks: 8 hours/week * 6 weeks = 48 hours\n5. Number of recipes learned per class hour: 1 recipe / 1.5 hours\n6. Total recipes learned: 48 hours * (1 recipe / 1.5 hours) = 32 recipes\n\nI hope it is correct: 32 $recipes$\n",
+        "ground_truth": "He is in class for 4*2=<<4*2=8>>8 hours per week\nSo he takes classes for 8*6=<<8*6=48>>48 hours\nThat means he learned 48/1.5=<<48/1.5=32>>32 recipes\n#### 32"
+    },
+    {
+        "question": "1. Class sessions per week: 4\n2. Class duration per session: 2 hours\n3. Total class time per week: 4 sessions * 2 hours/session = 8 hours\n4. Total class time for 6 weeks: 8 hours/week * 6 weeks = 48 hours\n5. Number of recipes learned per class hour: 1 recipe / 1.5 hours\n6. Total recipes learned: 48 hours * (1 recipe / 1.5 hours) = 32 recipes\n\nI hope it is correct: 32 $recipes$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 32\n",
+        "ground_truth": "He is in class for 4*2=<<4*2=8>>8 hours per week\nSo he takes classes for 8*6=<<8*6=48>>48 hours\nThat means he learned 48/1.5=<<48/1.5=32>>32 recipes\n#### 32"
+    }
+]

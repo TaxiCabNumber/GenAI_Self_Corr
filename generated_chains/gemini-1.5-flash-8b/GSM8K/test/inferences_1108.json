@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMy mom went to a gardening shop. She bought a set of pots for $19 and a sack of garden soil for $26. At checkout, she used a coupon for $7 off. How much money did my mom spend at the gardening shop?",
+        "inference": "1. Pots cost: $19\n2. Soil cost: $26\n3. Total cost before coupon: $19 + $26 = $45\n4. Coupon discount: -$7\n5. Total cost after coupon: $45 - $7 = $38\n\nI hope it is correct: $38\n",
+        "ground_truth": "The total cost of the pots and a sack of garden soil is $19 + $26 = $<<19+26=45>>45.\nSo, my mom spent $45 - $7 = $<<45-7=38>>38 at the gardening store.\n#### 38"
+    },
+    {
+        "question": "1. Pots cost: $19\n2. Soil cost: $26\n3. Total cost before coupon: $19 + $26 = $45\n4. Coupon discount: -$7\n5. Total cost after coupon: $45 - $7 = $38\n\nI hope it is correct: $38\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $38\n",
+        "ground_truth": "The total cost of the pots and a sack of garden soil is $19 + $26 = $<<19+26=45>>45.\nSo, my mom spent $45 - $7 = $<<45-7=38>>38 at the gardening store.\n#### 38"
+    }
+]

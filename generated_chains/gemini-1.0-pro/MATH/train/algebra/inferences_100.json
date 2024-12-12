@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSuppose $a$, $b$, $c$ and $d$ are integers satisfying: $a-b+c=5$, $b-c+d=6$, $c-d+a=3$, and $d-a+b=2$. What is the value of $a+b+c+d$?",
+        "inference": "Adding the four equations, we get:\n\n$$a-b+c+b-c+d+c-d+a+d-a+b = 5+6+3+2$$\n$$2(a+b+c+d) = 16$$\n$$a+b+c+d = \\boxed{8}$$\nFinal Answer: $$\\boxed{8}$$\nI hope it is correct.",
+        "ground_truth": "Notice that in the system of equations, each variable is added twice and subtracted once. Thus, when we add all four equations together, the result is $a+b+c+d=5+6+3+2=\\boxed{16}$."
+    },
+    {
+        "question": "Adding the four equations, we get:\n\n$$a-b+c+b-c+d+c-d+a+d-a+b = 5+6+3+2$$\n$$2(a+b+c+d) = 16$$\n$$a+b+c+d = \\boxed{8}$$\nFinal Answer: $$\\boxed{8}$$\nI hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{8}$$",
+        "ground_truth": "Notice that in the system of equations, each variable is added twice and subtracted once. Thus, when we add all four equations together, the result is $a+b+c+d=5+6+3+2=\\boxed{16}$."
+    }
+]

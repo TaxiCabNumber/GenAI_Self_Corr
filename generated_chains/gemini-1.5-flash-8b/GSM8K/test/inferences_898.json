@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nDijana and Anis live near a lake, and every weekend they go out rowing into the lake. On a Sunday morning, both went out rowing, and Dijana rowed for 50 miles the whole day. Anis rowed 1/5 times more miles than Dijana. Calculate the total distance the two of them rowed on that day.",
+        "inference": "Anis rowed 1/5 more miles than Dijana, which means Anis rowed 1 + 1/5 = 6/5 times the distance Dijana rowed.\nAnis rowed (6/5) * 50 miles = 60 miles.\nThe total distance rowed is 50 miles + 60 miles = 110 miles.\nI hope it is correct: 110 $miles$\n",
+        "ground_truth": "Anis rowed for 1/5 * 50 = <<1/5*50=10>>10 more miles than Dijana.\nThe total distance Anis covered is 50 + 10 = <<50+10=60>>60 miles.\nThe two of them rowed for 60 + 50 = <<60+50=110>>110 miles on that day.\n#### 110"
+    },
+    {
+        "question": "Anis rowed 1/5 more miles than Dijana, which means Anis rowed 1 + 1/5 = 6/5 times the distance Dijana rowed.\nAnis rowed (6/5) * 50 miles = 60 miles.\nThe total distance rowed is 50 miles + 60 miles = 110 miles.\nI hope it is correct: 110 $miles$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "Let $D$ be the distance Dijana rowed.\nAnis rowed 1/5 more miles than Dijana, so Anis rowed $D + \\frac{1}{5}D = \\frac{6}{5}D$.\nDijana rowed 50 miles.\nSo, Anis rowed $\\frac{6}{5} \\times 50 = 60$ miles.\nThe total distance rowed is $50 + 60 = 110$ miles.\n\n#### $110$\n",
+        "ground_truth": "Anis rowed for 1/5 * 50 = <<1/5*50=10>>10 more miles than Dijana.\nThe total distance Anis covered is 50 + 10 = <<50+10=60>>60 miles.\nThe two of them rowed for 60 + 50 = <<60+50=110>>110 miles on that day.\n#### 110"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nAngie's class has 2 girls for every 3 boys. If there are 20 students in the class, how many girls are in Angie's class?",
+        "inference": "Let 'g' be the number of girls and 'b' be the number of boys.\nThe ratio of girls to boys is 2:3.  This means g/b = 2/3.\nThe total number of students is 20.  So, g + b = 20.\nFrom the ratio, we can write b = (3/2)g.\nSubstitute this into the total students equation: g + (3/2)g = 20\nCombine the 'g' terms: (5/2)g = 20\nMultiply both sides by 2/5: g = (20 * 2) / 5\ng = 40 / 5\ng = 8\n\nFinal Answer: $\\boxed{8}$\n",
+        "ground_truth": "If $2k$ is the number of girls in Angie's class, then $3k$ is the number of boys.  The total number of students is $2k+3k=5k$.  Solving $5k=20$ gives $k=4$, so there are $2(4)=\\boxed{8}$ girls in Angie's class."
+    },
+    {
+        "question": "Let 'g' be the number of girls and 'b' be the number of boys.\nThe ratio of girls to boys is 2:3.  This means g/b = 2/3.\nThe total number of students is 20.  So, g + b = 20.\nFrom the ratio, we can write b = (3/2)g.\nSubstitute this into the total students equation: g + (3/2)g = 20\nCombine the 'g' terms: (5/2)g = 20\nMultiply both sides by 2/5: g = (20 * 2) / 5\ng = 40 / 5\ng = 8\n\nFinal Answer: $\\boxed{8}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "g/b = 2/3  \ng + b = 20\n\nFrom g/b = 2/3, we have g = (2/3)b.\nSubstitute this into g + b = 20:\n(2/3)b + b = 20\n(5/3)b = 20\nb = (3/5) * 20\nb = 12\n\nNow find g:\ng = (2/3)b = (2/3) * 12 = 8\n\nFinal Answer: $\\boxed{8}$",
+        "ground_truth": "If $2k$ is the number of girls in Angie's class, then $3k$ is the number of boys.  The total number of students is $2k+3k=5k$.  Solving $5k=20$ gives $k=4$, so there are $2(4)=\\boxed{8}$ girls in Angie's class."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nElla earned $33 for 3 hours of dog walking. If she continues to walk dogs at the same rate, how much would she earn after 12 hours?",
+        "inference": "1. Find Ella's hourly rate: $33 / 3 hours = $11/hour\n\n2. Calculate her earnings after 12 hours: $11/hour * 12 hours = $132\n\nI hope it is correct: $132\n",
+        "ground_truth": "Ella earned $33 / 3 hours of dog walking = $<<33/3=11>>11 per hour.\nSo for 12 hours of dog walking, Ella would earn $11 x 12 = $<<12*11=132>>132.\n#### 132"
+    },
+    {
+        "question": "1. Find Ella's hourly rate: $33 / 3 hours = $11/hour\n\n2. Calculate her earnings after 12 hours: $11/hour * 12 hours = $132\n\nI hope it is correct: $132\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $132\n",
+        "ground_truth": "Ella earned $33 / 3 hours of dog walking = $<<33/3=11>>11 per hour.\nSo for 12 hours of dog walking, Ella would earn $11 x 12 = $<<12*11=132>>132.\n#### 132"
+    }
+]

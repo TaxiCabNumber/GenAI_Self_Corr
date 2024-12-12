@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMia and Emma are currently 16 years apart in age. If Mia, who is younger than Emma, is 40 years old, what's the average of their ages?",
+        "inference": "Emma's age = Mia's age + 16 = 40 + 16 = 56\nAverage age = (Mia's age + Emma's age) / 2 = (40 + 56) / 2 = 96 / 2 = 48\nI hope it is correct: 48 $answer$\n",
+        "ground_truth": "If Mia is 40 years old, Emma is 40+16 = <<40+16=56>>56 years old.\nThe sum of their ages is 56+40 = <<56+40=96>>96 years\nThe average age of the two is 96/2 = <<96/2=48>>48 years\n#### 48"
+    },
+    {
+        "question": "Emma's age = Mia's age + 16 = 40 + 16 = 56\nAverage age = (Mia's age + Emma's age) / 2 = (40 + 56) / 2 = 96 / 2 = 48\nI hope it is correct: 48 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 48\n",
+        "ground_truth": "If Mia is 40 years old, Emma is 40+16 = <<40+16=56>>56 years old.\nThe sum of their ages is 56+40 = <<56+40=96>>96 years\nThe average age of the two is 96/2 = <<96/2=48>>48 years\n#### 48"
+    }
+]

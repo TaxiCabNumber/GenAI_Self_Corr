@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $-2x - 7 = 7x + 2$, what is the value of $x$?",
+        "inference": "1. Add 2x to both sides:  -7 = 9x + 2\n2. Subtract 2 from both sides: -9 = 9x\n3. Divide both sides by 9: x = -1\n\nFinal Answer: $\\boxed{-1}$\n",
+        "ground_truth": "Adding $2x$ to both sides, we have \\[ -7 = 9x + 2.\\]Then, subtracting 2 from both sides, we have $-9 = 9x$, so $x = \\boxed{-1}$."
+    },
+    {
+        "question": "1. Add 2x to both sides:  -7 = 9x + 2\n2. Subtract 2 from both sides: -9 = 9x\n3. Divide both sides by 9: x = -1\n\nFinal Answer: $\\boxed{-1}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "1. Subtract 9x from both sides: -7 - 9x = 2\n2. Add 7 to both sides: -9x = 9\n3. Divide both sides by -9: x = -1\n\nFinal Answer: $\\boxed{-1}$",
+        "ground_truth": "Adding $2x$ to both sides, we have \\[ -7 = 9x + 2.\\]Then, subtracting 2 from both sides, we have $-9 = 9x$, so $x = \\boxed{-1}$."
+    }
+]

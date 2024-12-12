@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nFour friends ordered four pizzas for a total of 64 dollars. If two of the pizzas cost 30 dollars, how much did each of the other two pizzas cost if they cost the same amount?",
+        "inference": "1. Total cost of all pizzas: $64\n2. Cost of two pizzas: $30 * 2 = $60\n3. Cost of the remaining two pizzas combined: $64 - $60 = $4\n4. Cost of each of the other two pizzas: $4 / 2 = $2\n\nI hope it is correct: $2\n",
+        "ground_truth": "The other two pizzas cost 64-30 = <<64-30=34>>34 dollars.\nEach of the other two pizzas cost 34/2 = <<34/2=17>>17 dollars each.\n#### 17"
+    },
+    {
+        "question": "1. Total cost of all pizzas: $64\n2. Cost of two pizzas: $30 * 2 = $60\n3. Cost of the remaining two pizzas combined: $64 - $60 = $4\n4. Cost of each of the other two pizzas: $4 / 2 = $2\n\nI hope it is correct: $2\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $2\n",
+        "ground_truth": "The other two pizzas cost 64-30 = <<64-30=34>>34 dollars.\nEach of the other two pizzas cost 34/2 = <<34/2=17>>17 dollars each.\n#### 17"
+    }
+]

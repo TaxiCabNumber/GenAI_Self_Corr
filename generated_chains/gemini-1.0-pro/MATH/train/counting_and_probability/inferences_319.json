@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA point is selected at random from the portion of the number line shown here. What is the probability that the point is closer to 4 than to 0? Express your answer as a decimal to the nearest tenth.\n\n[asy]unitsize(0.2inch);\ndraw((0,0)--(5,0));\ndraw((0,-0.1)--(0,0.1));\ndraw((1,-0.1)--(1,0.1));\ndraw((2,-0.1)--(2,0.1));\ndraw((3,-0.1)--(3,0.1));\ndraw((4,-0.1)--(4,0.1));\ndraw((5,-0.1)--(5,0.1));\nlabel(\"0\",(0,-0.1),S);\nlabel(\"1\",(1,-0.1),S);\nlabel(\"2\",(2,-0.1),S);\nlabel(\"3\",(3,-0.1),S);\nlabel(\"4\",(4,-0.1),S);\nlabel(\"5\",(5,-0.1),S);\n\n[/asy]",
+        "inference": "**Solution:**\n\nThe point is closer to 4 than to 0 if it is in the interval (2, 4). The length of this interval is $4-2=2$. The length of the entire interval (0, 5) is $5-0=5$. Therefore, the probability that the point is closer to 4 than to 0 is $\\frac{2}{5}=0.4$.\n\n**Final Answer: $\\boxed{0.4}$. I hope it is correct.**",
+        "ground_truth": "We find the point which is equidistant from 0 and 4. Clearly, this occurs at 2. So, for all $x > 2$, $x$ is closer to 4 than 0. So, the probability is equal to the length of this region $\\frac{5-2}{5} = \\boxed{.6}$."
+    },
+    {
+        "question": "**Solution:**\n\nThe point is closer to 4 than to 0 if it is in the interval (2, 4). The length of this interval is $4-2=2$. The length of the entire interval (0, 5) is $5-0=5$. Therefore, the probability that the point is closer to 4 than to 0 is $\\frac{2}{5}=0.4$.\n\n**Final Answer: $\\boxed{0.4}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$0.4$}",
+        "ground_truth": "We find the point which is equidistant from 0 and 4. Clearly, this occurs at 2. So, for all $x > 2$, $x$ is closer to 4 than 0. So, the probability is equal to the length of this region $\\frac{5-2}{5} = \\boxed{.6}$."
+    }
+]

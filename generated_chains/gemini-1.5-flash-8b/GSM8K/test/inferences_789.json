@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nCarson lives in an old house where the pipes will freeze if the temperature inside the house falls below 32 degrees. Every log of wood Carson burns heats the house up by 5 degrees. If it was 45 degrees during the day, and it's 33 degrees colder during the night compared to the day, how many logs does Carson need to burn to prevent the pipes from freezing?",
+        "inference": "1. Night temperature: 45\u00b0 - 33\u00b0 = 12\u00b0\n\n2. Temperature difference needed: 32\u00b0 - 12\u00b0 = 20\u00b0\n\n3. Logs needed: 20\u00b0 / 5\u00b0 = 4 logs\n\nI hope it is correct: 4 $logs$\n",
+        "ground_truth": "First find the night-time temperature: 45 degrees - 33 degrees = <<45-33=12>>12 degrees\nThen find how much Carson needs to heat his house to avoid the pipes freezing: 32 degrees - 12 degrees = <<32-12=20>>20 degrees\nThen divide the amount of heat Carson needs by the amount of heat each log produces: 20 degrees / 5 degrees/log = <<20/5=4>>4 logs\n#### 4"
+    },
+    {
+        "question": "1. Night temperature: 45\u00b0 - 33\u00b0 = 12\u00b0\n\n2. Temperature difference needed: 32\u00b0 - 12\u00b0 = 20\u00b0\n\n3. Logs needed: 20\u00b0 / 5\u00b0 = 4 logs\n\nI hope it is correct: 4 $logs$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 4 logs\n",
+        "ground_truth": "First find the night-time temperature: 45 degrees - 33 degrees = <<45-33=12>>12 degrees\nThen find how much Carson needs to heat his house to avoid the pipes freezing: 32 degrees - 12 degrees = <<32-12=20>>20 degrees\nThen divide the amount of heat Carson needs by the amount of heat each log produces: 20 degrees / 5 degrees/log = <<20/5=4>>4 logs\n#### 4"
+    }
+]

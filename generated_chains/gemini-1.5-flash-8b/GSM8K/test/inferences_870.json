@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMadeline and her roommate, Keenan, share the cost of groceries. In total, they spend about $400 per month. In a four-week month, how many dollars does Keenan spend per week if Madeline pays 60% of the cost?",
+        "inference": "Madeline pays 60% of $400, which is 0.6 * $400 = $240.\nKeenan pays the remaining amount, $400 - $240 = $160.\nIn a four-week month, Keenan spends $160 / 4 weeks = $40 per week.\nI hope it is correct: $40\n",
+        "ground_truth": "They spend $400/4=$<<400/4=100>>100 per week.\nKeenan pays for 100-60=<<100-60=40>>40% of the groceries.\nThus, she spends $100*(40/100)=$<<100*40/100=40>>40 per week.\n#### 40"
+    },
+    {
+        "question": "Madeline pays 60% of $400, which is 0.6 * $400 = $240.\nKeenan pays the remaining amount, $400 - $240 = $160.\nIn a four-week month, Keenan spends $160 / 4 weeks = $40 per week.\nI hope it is correct: $40\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $40\n",
+        "ground_truth": "They spend $400/4=$<<400/4=100>>100 per week.\nKeenan pays for 100-60=<<100-60=40>>40% of the groceries.\nThus, she spends $100*(40/100)=$<<100*40/100=40>>40 per week.\n#### 40"
+    }
+]

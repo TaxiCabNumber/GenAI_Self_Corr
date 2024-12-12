@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $N$ be the sum of the divisors of $200$. What is the largest prime factor of $N$?",
+        "inference": "The prime factorization of $200$ is $2^3 \\times 5^2$. The sum of the divisors of $200$ is $(1 + 2 + 4 + 8) \\times (1 + 5 + 25 + 125) = 15 \\times 155 = 2325$. The prime factorization of $2325$ is $3^2 \\times 5^3$. The largest prime factor of $2325$ is $5$.\nFinal Answer: \\boxed{$5$}. I hope it is correct.",
+        "ground_truth": "The prime factorization of $200$ is $2^3 \\cdot 5^2$. It follows that $N = (1 + 2 + 2^2 + 2^3)(1 + 5 + 5^2)$, as each factor of $200$ is represented when the product is expanded. It follows that $N = (1 + 2 + 4 + 8)(1 + 5 + 25) = (15)(31)$. The largest prime factor is $\\boxed{31}$."
+    },
+    {
+        "question": "The prime factorization of $200$ is $2^3 \\times 5^2$. The sum of the divisors of $200$ is $(1 + 2 + 4 + 8) \\times (1 + 5 + 25 + 125) = 15 \\times 155 = 2325$. The prime factorization of $2325$ is $3^2 \\times 5^3$. The largest prime factor of $2325$ is $5$.\nFinal Answer: \\boxed{$5$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$5$}.",
+        "ground_truth": "The prime factorization of $200$ is $2^3 \\cdot 5^2$. It follows that $N = (1 + 2 + 2^2 + 2^3)(1 + 5 + 5^2)$, as each factor of $200$ is represented when the product is expanded. It follows that $N = (1 + 2 + 4 + 8)(1 + 5 + 25) = (15)(31)$. The largest prime factor is $\\boxed{31}$."
+    }
+]

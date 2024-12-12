@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nDavos bought 2 shirts from the mall that cost $30 each. If he bought them with a 40% discount, how much did Davos pay for the 2 shirts?",
+        "inference": "1. Calculate the discount amount for one shirt: $30 * 0.40 = $12\n2. Calculate the price of one shirt after the discount: $30 - $12 = $18\n3. Calculate the total price for two shirts: $18 * 2 = $36\n\nI hope it is correct: $36\n",
+        "ground_truth": "The total price of the 2 shirts is $30 x 2 = $<<30*2=60>>60.\nThe total discount on the 2 shirts is $60 x 0.40 = $<<60*0.40=24>>24.\nTherefore, the total amount Davos paid for the 2 shirts is $60 - $24 = $<<60-24=36>>36.\n#### 36"
+    },
+    {
+        "question": "1. Calculate the discount amount for one shirt: $30 * 0.40 = $12\n2. Calculate the price of one shirt after the discount: $30 - $12 = $18\n3. Calculate the total price for two shirts: $18 * 2 = $36\n\nI hope it is correct: $36\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $36\n",
+        "ground_truth": "The total price of the 2 shirts is $30 x 2 = $<<30*2=60>>60.\nThe total discount on the 2 shirts is $60 x 0.40 = $<<60*0.40=24>>24.\nTherefore, the total amount Davos paid for the 2 shirts is $60 - $24 = $<<60-24=36>>36.\n#### 36"
+    }
+]

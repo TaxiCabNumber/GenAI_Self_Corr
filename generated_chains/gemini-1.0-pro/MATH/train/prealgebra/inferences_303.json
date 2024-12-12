@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nAngie's class has 2 girls for every 3 boys. If there are 20 students in the class, how many girls are in Angie's class?",
+        "inference": "Number of boys = $x$\nNumber of girls = $2x$ (since there are 2 girls for every 3 boys)\nTotal number of students = $x + 2x = 3x$\nGiven that the total number of students is 20, therefore, $3x = 20$\nSolving for $x$, we get $x = \\frac{20}{3}$\nNumber of girls = $2x = 2 \\times \\frac{20}{3} = \\frac{40}{3}$\nFinal Answer: $\\boxed{13.33}$. I hope it is correct.",
+        "ground_truth": "If $2k$ is the number of girls in Angie's class, then $3k$ is the number of boys.  The total number of students is $2k+3k=5k$.  Solving $5k=20$ gives $k=4$, so there are $2(4)=\\boxed{8}$ girls in Angie's class."
+    },
+    {
+        "question": "Number of boys = $x$\nNumber of girls = $2x$ (since there are 2 girls for every 3 boys)\nTotal number of students = $x + 2x = 3x$\nGiven that the total number of students is 20, therefore, $3x = 20$\nSolving for $x$, we get $x = \\frac{20}{3}$\nNumber of girls = $2x = 2 \\times \\frac{20}{3} = \\frac{40}{3}$\nFinal Answer: $\\boxed{13.33}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$13.33$}",
+        "ground_truth": "If $2k$ is the number of girls in Angie's class, then $3k$ is the number of boys.  The total number of students is $2k+3k=5k$.  Solving $5k=20$ gives $k=4$, so there are $2(4)=\\boxed{8}$ girls in Angie's class."
+    }
+]

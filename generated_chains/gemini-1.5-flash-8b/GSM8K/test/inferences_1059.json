@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nImma has 3 cats. She feeds her cats twice a day with 60 grams of cat food. How many days will 720 grams of cat food last?",
+        "inference": "1. Total food per day: 3 cats * 60 grams/cat * 2 meals/day = 360 grams/day\n2. Number of days: 720 grams / 360 grams/day = 2 days\n\nI hope it is correct: 2 $days$\n",
+        "ground_truth": "The 3 cats consume 60 grams/cat x 3 cats = <<60*3=180>>180 grams of food per meal.\nSince they eat twice a day, then they consume 180 grams/meal x 2 meals/day = <<180*2=360>>360 grams in a day.\nSo, 720 grams of cat food only last for 720 grams / 360 grams/day = <<720/360=2>>2 days.\n#### 2"
+    },
+    {
+        "question": "1. Total food per day: 3 cats * 60 grams/cat * 2 meals/day = 360 grams/day\n2. Number of days: 720 grams / 360 grams/day = 2 days\n\nI hope it is correct: 2 $days$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 2 days\n",
+        "ground_truth": "The 3 cats consume 60 grams/cat x 3 cats = <<60*3=180>>180 grams of food per meal.\nSince they eat twice a day, then they consume 180 grams/meal x 2 meals/day = <<180*2=360>>360 grams in a day.\nSo, 720 grams of cat food only last for 720 grams / 360 grams/day = <<720/360=2>>2 days.\n#### 2"
+    }
+]

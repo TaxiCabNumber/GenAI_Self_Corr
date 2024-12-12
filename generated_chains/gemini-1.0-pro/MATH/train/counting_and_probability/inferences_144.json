@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA fair 6-sided die is rolled.  If the roll is even, then you win that amount of dollars (so that, for example, if you roll 4, then you win $\\$4$).  If the roll is odd, you win nothing.  What is the expected value of your winnings? Express your answer as a dollar value.",
+        "inference": "**Step 1: Find the probability of winning.**\n\nThe probability of rolling an even number is 3/6 = 1/2.\n\n**Step 2: Find the expected value of the winnings.**\n\nThe expected value of the winnings is the probability of winning times the amount of the winnings. In this case, the probability of winning is 1/2 and the amount of the winnings is the number rolled, which can be 2, 4, or 6. So the expected value is:\n\n```\nEV = (1/2) * (2 + 4 + 6) = 1/2 * 12 = 6\n```\n\n**Final Answer: $$\\boxed{6}$$. I hope it is correct.**",
+        "ground_truth": "There is a $\\dfrac{1}{2}$ probability of rolling an odd number and winning $\\$0$, and a $\\dfrac{1}{6}$ probability of winning each of $\\$2$, $\\$4$, or $\\$6$.  So $E = \\dfrac{1}{2}\\times \\$0 + \\dfrac{1}{6}\\times(\\$2+\\$4+\\$6) = \\boxed{\\$2}$."
+    },
+    {
+        "question": "**Step 1: Find the probability of winning.**\n\nThe probability of rolling an even number is 3/6 = 1/2.\n\n**Step 2: Find the expected value of the winnings.**\n\nThe expected value of the winnings is the probability of winning times the amount of the winnings. In this case, the probability of winning is 1/2 and the amount of the winnings is the number rolled, which can be 2, 4, or 6. So the expected value is:\n\n```\nEV = (1/2) * (2 + 4 + 6) = 1/2 * 12 = 6\n```\n\n**Final Answer: $$\\boxed{6}$$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{6}$$",
+        "ground_truth": "There is a $\\dfrac{1}{2}$ probability of rolling an odd number and winning $\\$0$, and a $\\dfrac{1}{6}$ probability of winning each of $\\$2$, $\\$4$, or $\\$6$.  So $E = \\dfrac{1}{2}\\times \\$0 + \\dfrac{1}{6}\\times(\\$2+\\$4+\\$6) = \\boxed{\\$2}$."
+    }
+]

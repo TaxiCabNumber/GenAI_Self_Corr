@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 10 quarts of tea left from the party. Four students each drank 1.5 quarts of tea and 16 students each drank 2 quarts of tea. How many gallons of tea were at the beginning of the party?",
+        "inference": "1. Calculate the total tea consumed by the students who drank 1.5 quarts: 4 students * 1.5 quarts/student = 6 quarts\n\n2. Calculate the total tea consumed by the students who drank 2 quarts: 16 students * 2 quarts/student = 32 quarts\n\n3. Calculate the total tea consumed: 6 quarts + 32 quarts = 38 quarts\n\n4. Calculate the initial amount of tea: 38 quarts + 10 quarts = 48 quarts\n\n5. Convert quarts to gallons: 48 quarts * (1 gallon / 4 quarts) = 12 gallons\n\nI hope it is correct: 12 $gallons$\n",
+        "ground_truth": "4 students drank 1.5 quarts = 4 * 1.5 = <<4*1.5=6>>6 quarts\n16 students drank 2 quarts = 16 * 2 = <<16*2=32>>32 quarts\nStudents drank 6 + 32 quarts = <<6+32=38>>38 quarts\nStudents + tea left = 38 + 10 quarts = <<38+10=48>>48 quarts\n48 quarts = 12 gallons\nThe party started with 12 gallons of tea.\n#### 12"
+    },
+    {
+        "question": "1. Calculate the total tea consumed by the students who drank 1.5 quarts: 4 students * 1.5 quarts/student = 6 quarts\n\n2. Calculate the total tea consumed by the students who drank 2 quarts: 16 students * 2 quarts/student = 32 quarts\n\n3. Calculate the total tea consumed: 6 quarts + 32 quarts = 38 quarts\n\n4. Calculate the initial amount of tea: 38 quarts + 10 quarts = 48 quarts\n\n5. Convert quarts to gallons: 48 quarts * (1 gallon / 4 quarts) = 12 gallons\n\nI hope it is correct: 12 $gallons$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 12 gallons\n",
+        "ground_truth": "4 students drank 1.5 quarts = 4 * 1.5 = <<4*1.5=6>>6 quarts\n16 students drank 2 quarts = 16 * 2 = <<16*2=32>>32 quarts\nStudents drank 6 + 32 quarts = <<6+32=38>>38 quarts\nStudents + tea left = 38 + 10 quarts = <<38+10=48>>48 quarts\n48 quarts = 12 gallons\nThe party started with 12 gallons of tea.\n#### 12"
+    }
+]

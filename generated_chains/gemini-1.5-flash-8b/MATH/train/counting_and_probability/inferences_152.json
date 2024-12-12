@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn how many ways can I choose 2 cooks on a backpacking trip with 8 people if any of the 8 people may be cooks?",
+        "inference": "We need to choose 2 cooks from a group of 8 people.\nThe order in which we choose the cooks does not matter (choosing cook A then cook B is the same as choosing cook B then cook A).\nThis is a combination problem.\nThe number of ways to choose 2 cooks from 8 people is given by the combination formula:\n$$ \\binom{n}{k} = \\frac{n!}{k!(n-k)!} $$\nwhere n = 8 and k = 2.\n$$ \\binom{8}{2} = \\frac{8!}{2!(8-2)!} = \\frac{8!}{2!6!} = \\frac{8 \\times 7 \\times 6!}{2 \\times 1 \\times 6!} = \\frac{8 \\times 7}{2} = 4 \\times 7 = 28 $$\nFinal Answer: $\\boxed{28}$\n",
+        "ground_truth": "Since the order that we choose the cooks in doesn't matter, we can choose 2 of them out of 8 trip members in $\\binom{8}{2}=\\boxed{28}$ ways."
+    },
+    {
+        "question": "We need to choose 2 cooks from a group of 8 people.\nThe order in which we choose the cooks does not matter (choosing cook A then cook B is the same as choosing cook B then cook A).\nThis is a combination problem.\nThe number of ways to choose 2 cooks from 8 people is given by the combination formula:\n$$ \\binom{n}{k} = \\frac{n!}{k!(n-k)!} $$\nwhere n = 8 and k = 2.\n$$ \\binom{8}{2} = \\frac{8!}{2!(8-2)!} = \\frac{8!}{2!6!} = \\frac{8 \\times 7 \\times 6!}{2 \\times 1 \\times 6!} = \\frac{8 \\times 7}{2} = 4 \\times 7 = 28 $$\nFinal Answer: $\\boxed{28}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{28}$\n",
+        "ground_truth": "Since the order that we choose the cooks in doesn't matter, we can choose 2 of them out of 8 trip members in $\\binom{8}{2}=\\boxed{28}$ ways."
+    }
+]

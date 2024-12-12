@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRob, Royce, and Pedro are contractors getting ready to put a new roof on three homes. If the three homes will need 250 cases of shingles, with the first house needing 1/2 of the second, and the third needing double the first. How many cases of shingles will the third house need?",
+        "inference": "1. Let the number of cases for the second house be 'x'.\n2. The first house needs 1/2 of the second, so it needs (1/2)x cases.\n3. The third house needs double the first, so it needs 2 * (1/2)x = x cases.\n4. The total cases are 250, so (1/2)x + x + x = 250.\n5. Combining like terms, (3.5)x = 250.\n6. Solving for x, x = 250 / 3.5 = 71.42857...\n7. Since we can't have a fraction of a case, we round to the nearest whole number, which is 71.\n8. The third house needs 'x' cases, which is 71.\n\nI hope it is correct: 71 $cases$\n",
+        "ground_truth": "Let x be the number of cases of shingles for the second house\nThe first house needs 1/2 x cases of shingles\nThe third house needs 2(1/2)x=x cases of shingles\n250=x+x+(1/2)x\n250=(5/2)x\n250(2/5)=100=x\nThe third house needs 100 cases of shingles\n#### 100"
+    },
+    {
+        "question": "1. Let the number of cases for the second house be 'x'.\n2. The first house needs 1/2 of the second, so it needs (1/2)x cases.\n3. The third house needs double the first, so it needs 2 * (1/2)x = x cases.\n4. The total cases are 250, so (1/2)x + x + x = 250.\n5. Combining like terms, (3.5)x = 250.\n6. Solving for x, x = 250 / 3.5 = 71.42857...\n7. Since we can't have a fraction of a case, we round to the nearest whole number, which is 71.\n8. The third house needs 'x' cases, which is 71.\n\nI hope it is correct: 71 $cases$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 71\n",
+        "ground_truth": "Let x be the number of cases of shingles for the second house\nThe first house needs 1/2 x cases of shingles\nThe third house needs 2(1/2)x=x cases of shingles\n250=x+x+(1/2)x\n250=(5/2)x\n250(2/5)=100=x\nThe third house needs 100 cases of shingles\n#### 100"
+    }
+]

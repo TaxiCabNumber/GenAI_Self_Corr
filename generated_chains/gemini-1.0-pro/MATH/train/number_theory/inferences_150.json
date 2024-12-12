@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA number is divisible by $9$ if the sum of its digits is divisible by $9.$ For example, the number $19\\,836$ is divisible by $9$ but $19\\,825$ is not.\n\nIf $D\\,767\\,E89$ is divisible by $9,$ where $D$ and $E$ each represent a single digit, what is the sum of all possible values of the sum $D+E?$",
+        "inference": "The sum of the digits of $D\\,767\\,E89$ is $D+7+6+7+E+8+9=27+D+E.$ Since $27$ is divisible by $9,$ the sum $D+E$ must also be divisible by $9.$ The only two-digit number that is divisible by $9$ is $18.$ Therefore, $D+E=18.$\nFinal Answer: $\\boxed{18}.$ I hope it is correct.",
+        "ground_truth": "For $D\\,767\\,E89$ to be divisible by $9,$ we must have $$D+7+6+7+E+8+9 = 37+D+E$$ divisible by $9.$ Since $D$ and $E$ are each a single digit, we know each is between $0$ and $9.$ Therefore, $D+E$ is between $0$ and $18.$ Therefore, $37+D+E$ is between $37$ and $55.$ The numbers between $37$ and $55$ that are divisible by $9$ are $45$ and $54.$\n\nIf $37+D+E=45,$ then $D+E=8.$\n\nIf $37+D+E=54,$ then $D+E=17.$\n\nTherefore, the possible values of $D+E$ are $8$ and $17.$ Our answer is then $8+17=\\boxed{25}.$"
+    },
+    {
+        "question": "The sum of the digits of $D\\,767\\,E89$ is $D+7+6+7+E+8+9=27+D+E.$ Since $27$ is divisible by $9,$ the sum $D+E$ must also be divisible by $9.$ The only two-digit number that is divisible by $9$ is $18.$ Therefore, $D+E=18.$\nFinal Answer: $\\boxed{18}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{18}.",
+        "ground_truth": "For $D\\,767\\,E89$ to be divisible by $9,$ we must have $$D+7+6+7+E+8+9 = 37+D+E$$ divisible by $9.$ Since $D$ and $E$ are each a single digit, we know each is between $0$ and $9.$ Therefore, $D+E$ is between $0$ and $18.$ Therefore, $37+D+E$ is between $37$ and $55.$ The numbers between $37$ and $55$ that are divisible by $9$ are $45$ and $54.$\n\nIf $37+D+E=45,$ then $D+E=8.$\n\nIf $37+D+E=54,$ then $D+E=17.$\n\nTherefore, the possible values of $D+E$ are $8$ and $17.$ Our answer is then $8+17=\\boxed{25}.$"
+    }
+]

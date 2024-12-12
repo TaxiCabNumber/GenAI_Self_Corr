@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nEllen is on a diet. She eats two carrots, a salad, and a yogurt every day. The salad costs her $6, while the yogurt is half the price. How much does Ellen pay for one carrot every day when in total she pays $11 for her goods?",
+        "inference": "1. Yogurt cost = Salad cost / 2 = $6 / 2 = $3\n2. Total cost of salad and yogurt = $6 + $3 = $9\n3. Cost of two carrots = Total cost - cost of salad and yogurt = $11 - $9 = $2\n4. Cost of one carrot = $2 / 2 = $1\n\nI hope it is correct: $1\n",
+        "ground_truth": "Ellen's yogurt cost is half the price of the salad, so it's $6 / 2 = $<<6/2=3>>3.\nFor the two carrots Ellen needs to pay $11 - $6 - $3 = $<<11-6-3=2>>2.\nSo one carrot costs $2 / $2 = $<<2/2=1>>1.\n#### 1"
+    },
+    {
+        "question": "1. Yogurt cost = Salad cost / 2 = $6 / 2 = $3\n2. Total cost of salad and yogurt = $6 + $3 = $9\n3. Cost of two carrots = Total cost - cost of salad and yogurt = $11 - $9 = $2\n4. Cost of one carrot = $2 / 2 = $1\n\nI hope it is correct: $1\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $1\n",
+        "ground_truth": "Ellen's yogurt cost is half the price of the salad, so it's $6 / 2 = $<<6/2=3>>3.\nFor the two carrots Ellen needs to pay $11 - $6 - $3 = $<<11-6-3=2>>2.\nSo one carrot costs $2 / $2 = $<<2/2=1>>1.\n#### 1"
+    }
+]

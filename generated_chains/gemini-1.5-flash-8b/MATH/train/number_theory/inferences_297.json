@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the remainder when $99^{36}$ is divided by 100?",
+        "inference": "$99^{36} \\equiv (100-1)^{36} \\pmod{100}$\nBy the binomial theorem,\n$(100-1)^{36} = \\sum_{k=0}^{36} \\binom{36}{k} (100)^{36-k} (-1)^k$\nThe terms with $36-k > 0$ will be multiples of 100, so we only need the last term:\n$\\binom{36}{36} (100)^0 (-1)^{36} = 1 \\cdot 1 \\cdot 1 = 1$\nTherefore, $99^{36} \\equiv 1 \\pmod{100}$\nFinal Answer: $\\boxed{1}$\n",
+        "ground_truth": "Noticing that $99=100-1$ we see that \\[99\\equiv-1\\pmod{100}.\\] Therefore  \\[99^{36}\\equiv(-1)^{36}\\equiv1\\pmod{100}.\\] The remainder when $99^{36}$ is divided by 100 is $\\boxed{1}$."
+    },
+    {
+        "question": "$99^{36} \\equiv (100-1)^{36} \\pmod{100}$\nBy the binomial theorem,\n$(100-1)^{36} = \\sum_{k=0}^{36} \\binom{36}{k} (100)^{36-k} (-1)^k$\nThe terms with $36-k > 0$ will be multiples of 100, so we only need the last term:\n$\\binom{36}{36} (100)^0 (-1)^{36} = 1 \\cdot 1 \\cdot 1 = 1$\nTherefore, $99^{36} \\equiv 1 \\pmod{100}$\nFinal Answer: $\\boxed{1}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Using binomial theorem, we have\n$$(100-1)^{36} = \\sum_{k=0}^{36} \\binom{36}{k} (100)^{36-k} (-1)^k$$\nThe terms with $36-k \\ge 1$ are multiples of 100.  Thus, the only term not a multiple of 100 is the last term when $k=36$.\n$$\\binom{36}{36} (100)^0 (-1)^{36} = 1 \\cdot 1 \\cdot 1 = 1$$\nTherefore, $99^{36} \\equiv 1 \\pmod{100}$.\n\nFinal Answer: $\\boxed{1}$",
+        "ground_truth": "Noticing that $99=100-1$ we see that \\[99\\equiv-1\\pmod{100}.\\] Therefore  \\[99^{36}\\equiv(-1)^{36}\\equiv1\\pmod{100}.\\] The remainder when $99^{36}$ is divided by 100 is $\\boxed{1}$."
+    }
+]

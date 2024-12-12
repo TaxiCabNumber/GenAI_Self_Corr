@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn drinks a bottle of water every half hour.  A normal sudoku puzzle takes him 45 minutes.  An extreme sudoku takes 4 times that long.  How many bottles of water does he drink in that time?",
+        "inference": "1. An extreme sudoku takes 4 times longer than a normal sudoku, so it takes 4 * 45 minutes = 180 minutes.\n\n2. John drinks a bottle of water every 30 minutes.\n\n3. In 180 minutes, he drinks 180 minutes / 30 minutes/bottle = 6 bottles of water.\n\nI hope it is correct: 6 $bottles$\n",
+        "ground_truth": "He drinks a bottle of water every 60/2=<<60/2=30>>30 minutes\nIt takes him 45*4=<<45*4=180>>180 minutes to solve an extreme sudoku\nSo he drinks 180/30=<<180/30=6>>6 bottles in that time\n#### 6"
+    },
+    {
+        "question": "1. An extreme sudoku takes 4 times longer than a normal sudoku, so it takes 4 * 45 minutes = 180 minutes.\n\n2. John drinks a bottle of water every 30 minutes.\n\n3. In 180 minutes, he drinks 180 minutes / 30 minutes/bottle = 6 bottles of water.\n\nI hope it is correct: 6 $bottles$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 6\n",
+        "ground_truth": "He drinks a bottle of water every 60/2=<<60/2=30>>30 minutes\nIt takes him 45*4=<<45*4=180>>180 minutes to solve an extreme sudoku\nSo he drinks 180/30=<<180/30=6>>6 bottles in that time\n#### 6"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSteve is 60 years old. His wife is 4 years older than him. Their son is currently half as old as his mom and their son's wife is 3 years younger than her husband. How old is Steve's son's wife?",
+        "inference": "Steve's age: 60\nWife's age: 60 + 4 = 64\nSon's age: 64 / 2 = 32\nSon's wife's age: 32 - 3 = 29\nI hope it is correct: 29 $answer$\n",
+        "ground_truth": "Steve's wife is 60+4=<<60+4=64>>64 years old.\nSteve's son is 64/2=<<64/2=32>>32 years old.\nHis wife is 32-3=<<32-3=29>>29 years old.\n#### 29"
+    },
+    {
+        "question": "Steve's age: 60\nWife's age: 60 + 4 = 64\nSon's age: 64 / 2 = 32\nSon's wife's age: 32 - 3 = 29\nI hope it is correct: 29 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $29$\n",
+        "ground_truth": "Steve's wife is 60+4=<<60+4=64>>64 years old.\nSteve's son is 64/2=<<64/2=32>>32 years old.\nHis wife is 32-3=<<32-3=29>>29 years old.\n#### 29"
+    }
+]

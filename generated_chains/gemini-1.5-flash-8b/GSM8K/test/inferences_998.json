@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nDylan attended a wedding where there were 100 guests in the reception. Each guest brought a plate of 15 cookies. The bride decided to give 1/2 of the cookies to the church next door as a thank you for helping in the wedding reception. If each person in the church next door got 15 cookies, how many people were in the church next door?",
+        "inference": "1. Total cookies: 100 guests * 15 cookies/guest = 1500 cookies\n2. Cookies for the church: 1500 cookies * (1/2) = 750 cookies\n3. People in the church: 750 cookies / 15 cookies/person = 50 people\n\nI hope it is correct: 50 $people$\n",
+        "ground_truth": "If each of the 100 guests brought a plate of 15 cookies, then the total number of cookies brought is 100*15 = <<100*15=1500>>1500 cookies.\nIf the next church was given 1/2 the number of cookies, then they got 1/2*1500 = <<1/2*1500=750>>750 cookies.\nIf each person in the church next door got 15 cookies, then there were 750/15 = <<750/15=50>>50 people.\n#### 50"
+    },
+    {
+        "question": "1. Total cookies: 100 guests * 15 cookies/guest = 1500 cookies\n2. Cookies for the church: 1500 cookies * (1/2) = 750 cookies\n3. People in the church: 750 cookies / 15 cookies/person = 50 people\n\nI hope it is correct: 50 $people$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 50\n",
+        "ground_truth": "If each of the 100 guests brought a plate of 15 cookies, then the total number of cookies brought is 100*15 = <<100*15=1500>>1500 cookies.\nIf the next church was given 1/2 the number of cookies, then they got 1/2*1500 = <<1/2*1500=750>>750 cookies.\nIf each person in the church next door got 15 cookies, then there were 750/15 = <<750/15=50>>50 people.\n#### 50"
+    }
+]

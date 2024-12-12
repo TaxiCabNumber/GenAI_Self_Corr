@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRoyce takes 40 minutes more than double Rob to shingle a house. If Rob takes 2 hours, how many minutes does Royce take?",
+        "inference": "Rob takes 2 hours = 2 * 60 = 120 minutes.\nRoyce takes 40 minutes more than double Rob's time, so Royce takes 2 * 120 + 40 = 240 + 40 = 280 minutes.\nI hope it is correct: 280 $minutes$\n",
+        "ground_truth": "Convert 2 hours to min: 2(60)=120 minutes\nRoyce takes 40+2(120)=280 minutes\n#### 280"
+    },
+    {
+        "question": "Rob takes 2 hours = 2 * 60 = 120 minutes.\nRoyce takes 40 minutes more than double Rob's time, so Royce takes 2 * 120 + 40 = 240 + 40 = 280 minutes.\nI hope it is correct: 280 $minutes$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "Rob takes 2 hours = 120 minutes.\nRoyce takes 40 minutes more than double Rob's time, so Royce takes 2 * 120 + 40 = 280 minutes.\n\n#### 280\n",
+        "ground_truth": "Convert 2 hours to min: 2(60)=120 minutes\nRoyce takes 40+2(120)=280 minutes\n#### 280"
+    }
+]

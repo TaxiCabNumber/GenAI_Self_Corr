@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA positive two-digit number is even and is a multiple of 11. The product of its digits is a perfect cube. What is this two-digit number?",
+        "inference": "Let the tens digit be x and the units digit be y. Then the number is 10x + y. Since the number is even, y must be even. Since the number is a multiple of 11, x - y must be divisible by 11. Since the product of x and y is a perfect cube, there are two possibilities: x = y = 3 or x = 3 and y = 9. The first possibility gives the number 33, which is not even. The second possibility gives the number 39, which is even and a multiple of 11. Therefore, the two-digit number is 39.\nFinal Answer: $\\boxed{39}.$ I hope it is correct.",
+        "ground_truth": "Let $N$ be the desired two-digit number. $N$ is divisible by 2 and by 11, and $(2,11)=1$, so $N$ is divisible by 22. Thus, $N\\in\\{22, 44, 66, 88\\}$. Only 88 is such that the product of its digits is a perfect cube ($8\\cdot8=64=4^3$), so $N=\\boxed{88}$."
+    },
+    {
+        "question": "Let the tens digit be x and the units digit be y. Then the number is 10x + y. Since the number is even, y must be even. Since the number is a multiple of 11, x - y must be divisible by 11. Since the product of x and y is a perfect cube, there are two possibilities: x = y = 3 or x = 3 and y = 9. The first possibility gives the number 33, which is not even. The second possibility gives the number 39, which is even and a multiple of 11. Therefore, the two-digit number is 39.\nFinal Answer: $\\boxed{39}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$99$}.",
+        "ground_truth": "Let $N$ be the desired two-digit number. $N$ is divisible by 2 and by 11, and $(2,11)=1$, so $N$ is divisible by 22. Thus, $N\\in\\{22, 44, 66, 88\\}$. Only 88 is such that the product of its digits is a perfect cube ($8\\cdot8=64=4^3$), so $N=\\boxed{88}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn quadrilateral $ABCD$, sides $\\overline{AB}$ and $\\overline{BC}$ both have length 10, sides $\\overline{CD}$ and $\\overline{DA}$ both have length 17, and the measure of angle $ADC$ is $60^\\circ$. What is the length of diagonal $\\overline{AC}$? [asy]\ndraw((0,0)--(17,0));\ndraw(rotate(301, (17,0))*(0,0)--(17,0));\npicture p;\ndraw(p, (0,0)--(0,10));\ndraw(p, rotate(115, (0,10))*(0,0)--(0,10));\nadd(rotate(3)*p);\n\ndraw((0,0)--(8.25,14.5), linetype(\"8 8\"));\n\nlabel(\"$A$\", (8.25, 14.5), N);\nlabel(\"$B$\", (-0.25, 10), W);\nlabel(\"$C$\", (0,0), SW);\nlabel(\"$D$\", (17, 0), E);\n[/asy]",
+        "inference": "Using the Law of Cosines on triangle $ADC$:\n$AC^2 = AD^2 + CD^2 - 2(AD)(CD)\\cos(60^\\circ)$\n$AC^2 = 17^2 + 17^2 - 2(17)(17)\\cos(60^\\circ)$\n$AC^2 = 289 + 289 - 2(289)(\\frac{1}{2})$\n$AC^2 = 578 - 289$\n$AC^2 = 289$\n$AC = \\sqrt{289} = 17$\nFinal Answer: $\\boxed{17}$ I hope it is correct.\n",
+        "ground_truth": "Triangle $ACD$ is an isosceles triangle with a $60^\\circ$ angle, so it is also equilateral. Therefore, the length of $\\overline{AC}$ is $\\boxed{17}$."
+    },
+    {
+        "question": "Using the Law of Cosines on triangle $ADC$:\n$AC^2 = AD^2 + CD^2 - 2(AD)(CD)\\cos(60^\\circ)$\n$AC^2 = 17^2 + 17^2 - 2(17)(17)\\cos(60^\\circ)$\n$AC^2 = 289 + 289 - 2(289)(\\frac{1}{2})$\n$AC^2 = 578 - 289$\n$AC^2 = 289$\n$AC = \\sqrt{289} = 17$\nFinal Answer: $\\boxed{17}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The problem states that $AD = CD = 17$ and $\\angle ADC = 60^\\circ$.\nBy the Law of Cosines on triangle $ADC$:\n$AC^2 = AD^2 + CD^2 - 2(AD)(CD)\\cos(\\angle ADC)$\n$AC^2 = 17^2 + 17^2 - 2(17)(17)\\cos(60^\\circ)$\n$AC^2 = 289 + 289 - 2(289)(\\frac{1}{2})$\n$AC^2 = 578 - 289$\n$AC^2 = 289$\n$AC = \\sqrt{289} = 17$\n$\\boxed{17}$\n\nFinal Answer: The final answer is $\\boxed{17}$",
+        "ground_truth": "Triangle $ACD$ is an isosceles triangle with a $60^\\circ$ angle, so it is also equilateral. Therefore, the length of $\\overline{AC}$ is $\\boxed{17}$."
+    }
+]

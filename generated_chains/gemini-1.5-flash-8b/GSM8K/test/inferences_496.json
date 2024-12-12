@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBrett is 14 years old. In four years his sister Angela will be three times as old as he is now. How old is Angela right now?",
+        "inference": "Brett's current age is 14.\nIn four years, Brett will be 14 + 4 = 18 years old.\nAngela's age in four years will be three times Brett's current age, which is 3 * 14 = 42.\nAngela's current age is 42 - 4 = 38.\nI hope it is correct: 38 $\n",
+        "ground_truth": "Four years from now Angela will be 14*3=<<14*3=42>>42.\nRight now Angela is 42-4=<<42-4=38>>38 years old.\n#### 38"
+    },
+    {
+        "question": "Brett's current age is 14.\nIn four years, Brett will be 14 + 4 = 18 years old.\nAngela's age in four years will be three times Brett's current age, which is 3 * 14 = 42.\nAngela's current age is 42 - 4 = 38.\nI hope it is correct: 38 $\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "Angela's age in four years will be 3 times Brett's current age.\nBrett's current age is 14.\nSo Angela's age in 4 years will be 3 * 14 = 42.\nAngela's current age is 42 - 4 = 38.\n\n#### $38\n",
+        "ground_truth": "Four years from now Angela will be 14*3=<<14*3=42>>42.\nRight now Angela is 42-4=<<42-4=38>>38 years old.\n#### 38"
+    }
+]

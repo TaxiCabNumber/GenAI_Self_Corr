@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThree people divided an amount of $1920. The second took $80 more than the first and the third took twice what the second took. Calculate the share of the first one.",
+        "inference": "Let 'x' be the amount the first person took.\nThe second person took $80 more than the first, so the second person took 'x + 80'.\nThe third person took twice what the second person took, so the third person took 2 * (x + 80) = 2x + 160.\nThe total amount is $1920.\nTherefore, x + (x + 80) + (2x + 160) = 1920\nCombining like terms: 4x + 240 = 1920\nSubtracting 240 from both sides: 4x = 1680\nDividing both sides by 4: x = 420\nThe first person took $420.\n\nI hope it is correct: 420 $answer\n",
+        "ground_truth": "Let X be the amount of what the first took.\nThe second took X+<<+80=80>>80.\nThe third took (X+80)*2.\nThe total amount X + (X+80) + (X+80)*2 = 1920.\nX + X + 80 + 2*X + 80*2 = 1920\nX*4 + 240 = 1920.\nX*4 = 1680.\nX = <<420=420>>420.\n#### 420"
+    },
+    {
+        "question": "Let 'x' be the amount the first person took.\nThe second person took $80 more than the first, so the second person took 'x + 80'.\nThe third person took twice what the second person took, so the third person took 2 * (x + 80) = 2x + 160.\nThe total amount is $1920.\nTherefore, x + (x + 80) + (2x + 160) = 1920\nCombining like terms: 4x + 240 = 1920\nSubtracting 240 from both sides: 4x = 1680\nDividing both sides by 4: x = 420\nThe first person took $420.\n\nI hope it is correct: 420 $answer\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $420\n",
+        "ground_truth": "Let X be the amount of what the first took.\nThe second took X+<<+80=80>>80.\nThe third took (X+80)*2.\nThe total amount X + (X+80) + (X+80)*2 = 1920.\nX + X + 80 + 2*X + 80*2 = 1920\nX*4 + 240 = 1920.\nX*4 = 1680.\nX = <<420=420>>420.\n#### 420"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMatt wants cookies for a snack, but his dad wants him to eat healthily. He tells Matt he can have half as many cookies as the number of carrot sticks he eats, plus two extra for cleaning his room. If Matt wants to eat five cookies in total, how many carrot sticks does he have to eat?",
+        "inference": "Let 'x' be the number of carrot sticks Matt eats.\nMatt gets half the number of carrot sticks plus 2 extra cookies.\nEquation: (x/2) + 2 = 5\n(x/2) = 5 - 2\n(x/2) = 3\nx = 3 * 2\nx = 6\n\nI hope it is correct: 6\n",
+        "ground_truth": "First subtract the two cookies Matt gets for cleaning his room from the total number he wants to eat: 5 - 2 = <<5-2=3>>3\nThen double the number of cookies to find how many carrots sticks he has to eat: 3 * 2 = <<3*2=6>>6.\n#### 6"
+    },
+    {
+        "question": "Let 'x' be the number of carrot sticks Matt eats.\nMatt gets half the number of carrot sticks plus 2 extra cookies.\nEquation: (x/2) + 2 = 5\n(x/2) = 5 - 2\n(x/2) = 3\nx = 3 * 2\nx = 6\n\nI hope it is correct: 6\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 6\n",
+        "ground_truth": "First subtract the two cookies Matt gets for cleaning his room from the total number he wants to eat: 5 - 2 = <<5-2=3>>3\nThen double the number of cookies to find how many carrots sticks he has to eat: 3 * 2 = <<3*2=6>>6.\n#### 6"
+    }
+]

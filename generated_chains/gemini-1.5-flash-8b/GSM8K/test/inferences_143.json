@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn buys milk for 2 dollars, eggs for 3 dollars, light bulbs for 3 dollars, cups for 3 dollars, and roach traps for 4 dollars.  If there is a 10% tax on all nonfood items how much did everything cost.",
+        "inference": "1. Milk cost: $2\n2. Eggs cost: $3\n3. Non-food items: light bulbs, cups, roach traps\n   - Light bulbs cost: $3\n   - Cups cost: $3\n   - Roach traps cost: $4\n4. Total cost of non-food items before tax: $3 + $3 + $4 = $10\n5. Tax on non-food items: 10% of $10 = $1\n6. Total cost of non-food items after tax: $10 + $1 = $11\n7. Total cost of all items: $2 + $3 + $11 = $16\nI hope it is correct: $16\n",
+        "ground_truth": "The foodstuff cost 2+3=$<<2+3=5>>5\nThe nonfood stuff comes out to 3+3+4=$<<3+3+4=10>>10\nTax on the nonfood stuff comes out to 10*.1=$<<10*.1=1>>1\nSo the total cost is 5+10+1=$<<5+10+1=16>>16\n#### 16"
+    },
+    {
+        "question": "1. Milk cost: $2\n2. Eggs cost: $3\n3. Non-food items: light bulbs, cups, roach traps\n   - Light bulbs cost: $3\n   - Cups cost: $3\n   - Roach traps cost: $4\n4. Total cost of non-food items before tax: $3 + $3 + $4 = $10\n5. Tax on non-food items: 10% of $10 = $1\n6. Total cost of non-food items after tax: $10 + $1 = $11\n7. Total cost of all items: $2 + $3 + $11 = $16\nI hope it is correct: $16\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $16\n",
+        "ground_truth": "The foodstuff cost 2+3=$<<2+3=5>>5\nThe nonfood stuff comes out to 3+3+4=$<<3+3+4=10>>10\nTax on the nonfood stuff comes out to 10*.1=$<<10*.1=1>>1\nSo the total cost is 5+10+1=$<<5+10+1=16>>16\n#### 16"
+    }
+]

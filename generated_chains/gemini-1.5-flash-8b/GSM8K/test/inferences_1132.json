@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nValerie earns $5000 per month, 1/2 of what her brother earns. If their mother earns twice their combined salary, what's the total amount of money they all have together?",
+        "inference": "1. Valerie's brother earns 2 * $5000 = $10000\n2. Combined salary of Valerie and her brother = $5000 + $10000 = $15000\n3. Mother's salary = 2 * $15000 = $30000\n4. Total amount of money they all have together = $5000 + $10000 + $30000 = $45000\n\nI hope it is correct: $45000\n",
+        "ground_truth": "Valerie's brother earns 2 * $5000 = $<<2*5000=10000>>10000\nTheir combined salary is $5000+$10000 = $<<5000+10000=15000>>15000\nTheir mother earn twice their combined earnings, which is 2*$15000 = $<<2*15000=30000>>30000\nThe total amount of money they all have is $15000+$30000 = $<<15000+30000=45000>>45000\n#### 45000"
+    },
+    {
+        "question": "1. Valerie's brother earns 2 * $5000 = $10000\n2. Combined salary of Valerie and her brother = $5000 + $10000 = $15000\n3. Mother's salary = 2 * $15000 = $30000\n4. Total amount of money they all have together = $5000 + $10000 + $30000 = $45000\n\nI hope it is correct: $45000\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $30000\n",
+        "ground_truth": "Valerie's brother earns 2 * $5000 = $<<2*5000=10000>>10000\nTheir combined salary is $5000+$10000 = $<<5000+10000=15000>>15000\nTheir mother earn twice their combined earnings, which is 2*$15000 = $<<2*15000=30000>>30000\nThe total amount of money they all have is $15000+$30000 = $<<15000+30000=45000>>45000\n#### 45000"
+    }
+]

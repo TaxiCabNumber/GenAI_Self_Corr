@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nEach pole on a road intersection has 4 street lights. If the number of poles at each intersection is 6, and the road has 4 intersections, calculate the total number of functioning street lights if 20 streetlights from the total number are not working.",
+        "inference": "1. Poles per intersection: 6\n2. Lights per pole: 4\n3. Lights per intersection: 6 poles * 4 lights/pole = 24 lights\n4. Total lights at all intersections: 24 lights/intersection * 4 intersections = 96 lights\n5. Non-functioning lights: 20\n6. Functioning lights: 96 lights - 20 lights = 76 lights\n\nI hope it is correct: 76 $answer$\n",
+        "ground_truth": "If the number of poles at each intersection is 6, and the road has 4 intersections, the total number of poles having street lights is 6*4=<<6*4=24>>24\nSince each pole on a road intersection has 4 street lights, the total number of streetlights in all the poles is 24*4=<<24*4=96>>96\nIf 20 streetlights from the total number are not working, the number of functioning street lights is 96-20=<<96-20=76>>76\n#### 76"
+    },
+    {
+        "question": "1. Poles per intersection: 6\n2. Lights per pole: 4\n3. Lights per intersection: 6 poles * 4 lights/pole = 24 lights\n4. Total lights at all intersections: 24 lights/intersection * 4 intersections = 96 lights\n5. Non-functioning lights: 20\n6. Functioning lights: 96 lights - 20 lights = 76 lights\n\nI hope it is correct: 76 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 76\n",
+        "ground_truth": "If the number of poles at each intersection is 6, and the road has 4 intersections, the total number of poles having street lights is 6*4=<<6*4=24>>24\nSince each pole on a road intersection has 4 street lights, the total number of streetlights in all the poles is 24*4=<<24*4=96>>96\nIf 20 streetlights from the total number are not working, the number of functioning street lights is 96-20=<<96-20=76>>76\n#### 76"
+    }
+]

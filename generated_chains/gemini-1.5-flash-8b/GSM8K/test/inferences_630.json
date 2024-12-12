@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTiffany is measuring how many surfers can ride a big wave without falling. She sees that when a wave over 30 feet arrives, only 25% of the riders can stay upright. Of these riders, 60% are women. If there are 100 riders, how many men can stay upright on the wave?",
+        "inference": "1. Riders staying upright: 100 riders * 0.25 = 25 riders\n2. Women staying upright: 25 riders * 0.60 = 15 women\n3. Men staying upright: 25 riders - 15 women = 10 men\n\nI hope it is correct: 10 $men$\n",
+        "ground_truth": "25 riders stayed upright because 100 x .25 = <<100*.25=25>>25\nOf these riders 10 were men because 25 x .4 = <<25*.4=10>>10\n#### 10"
+    },
+    {
+        "question": "1. Riders staying upright: 100 riders * 0.25 = 25 riders\n2. Women staying upright: 25 riders * 0.60 = 15 women\n3. Men staying upright: 25 riders - 15 women = 10 men\n\nI hope it is correct: 10 $men$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 10\n",
+        "ground_truth": "25 riders stayed upright because 100 x .25 = <<100*.25=25>>25\nOf these riders 10 were men because 25 x .4 = <<25*.4=10>>10\n#### 10"
+    }
+]

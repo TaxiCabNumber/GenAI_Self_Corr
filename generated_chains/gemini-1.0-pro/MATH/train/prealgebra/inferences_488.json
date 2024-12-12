@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn Perfectville, the streets are all $20$ feet wide and the blocks they enclose are all squares of side length $400$ feet, as shown.  Sarah runs around the block on the $400$-foot side of the street, while Sam runs on the opposite side of the street.  How many more feet than Sarah does Sam run for every lap around the block?\n\n[asy]\ndraw((0,0)--(10,0));\ndraw((1,1)--(9,1));\ndraw((0,0)--(0,10));\ndraw((0,10)--(10,10));\ndraw((10,10)--(10,0));\ndraw((9,1)--(9,9));\ndraw((9,9)--(1,9));\ndraw((1,9)--(1,1));\nfill((1,1)--(1,9)--(9,9)--(9,1)--cycle,gray);\ndraw((9,10.5)--(9,11));\ndraw((10,10.5)--(10,11));\ndraw((9,10.75)--(10,10.75));\nlabel(\"20'\",(9.5,11),N);\ndraw((10.5,9)--(11,9));\ndraw((10.5,10)--(11,10));\ndraw((10.75,9)--(10.75,10));\nlabel(\"20'\",(11,9.5),E);\nlabel(\"400'\",(5,9),S);\nlabel(\"400'\",(9,5),W);\n[/asy]",
+        "inference": "**Solution:**\nSarah runs $400\\times 4 = 1600$ feet.  Sam runs $400 \\times 4 + 20\\times 4 = 1680$ feet.  The difference is $1680-1600=\\boxed{80}$.\n**Final Answer: $\\boxed{80}$. I hope it is correct.**",
+        "ground_truth": "At each corner of the street, Sam runs 40 more feet than Sarah. Otherwise, Sam runs the same distance as Sarah. Since there are four corners, Sam runs $40\\cdot4=\\boxed{160}$ more feet than Sarah does."
+    },
+    {
+        "question": "**Solution:**\nSarah runs $400\\times 4 = 1600$ feet.  Sam runs $400 \\times 4 + 20\\times 4 = 1680$ feet.  The difference is $1680-1600=\\boxed{80}$.\n**Final Answer: $\\boxed{80}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$80$}",
+        "ground_truth": "At each corner of the street, Sam runs 40 more feet than Sarah. Otherwise, Sam runs the same distance as Sarah. Since there are four corners, Sam runs $40\\cdot4=\\boxed{160}$ more feet than Sarah does."
+    }
+]

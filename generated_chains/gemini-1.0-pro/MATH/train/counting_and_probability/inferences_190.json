@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWilliam is taking the 25-question, multiple choice American Mathematics Competition. Each question has five answer choices. William guesses random answers for the last four questions. What is the probability that he will get at least one of these final four questions right?",
+        "inference": "1. The probability of getting a question right by guessing is 1/5.\n\n2. The probability of getting all four questions wrong is (4/5)^4.\n\n3. The probability of getting at least one question right is 1 - (4/5)^4.\n\nFinal Answer: $\\boxed{1-(4 / 5)^{4}}$. I hope it is correct.",
+        "ground_truth": "We find the probability that William misses the last four questions, and subtract from 1. The probability of William missing a question is $\\frac{4}{5}$, so the probability that he misses all four is $\\left(\\frac{4}{5}\\right)^4 = \\frac{256}{625}$. The probability that he gets at least one right is $1-\\frac{256}{625} =\\boxed{\\frac{369}{625}}$."
+    },
+    {
+        "question": "1. The probability of getting a question right by guessing is 1/5.\n\n2. The probability of getting all four questions wrong is (4/5)^4.\n\n3. The probability of getting at least one question right is 1 - (4/5)^4.\n\nFinal Answer: $\\boxed{1-(4 / 5)^{4}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Final Answer: $\\boxed{15 / 625}$",
+        "ground_truth": "We find the probability that William misses the last four questions, and subtract from 1. The probability of William missing a question is $\\frac{4}{5}$, so the probability that he misses all four is $\\left(\\frac{4}{5}\\right)^4 = \\frac{256}{625}$. The probability that he gets at least one right is $1-\\frac{256}{625} =\\boxed{\\frac{369}{625}}$."
+    }
+]

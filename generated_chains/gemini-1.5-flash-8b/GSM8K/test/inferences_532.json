@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJame will turn 27 in 5 years.  In 8 years his cousin will be 5 years younger than twice his age.  How many years separate the age of the two now?",
+        "inference": "Jame's age now: 27 - 5 = 22 years old\nJame's age in 8 years: 22 + 8 = 30 years old\nCousin's age in 8 years: 2 * 30 - 5 = 55 years old\nCousin's age now: 55 - 8 = 47 years old\nDifference in age: 47 - 22 = 25 years\nI hope it is correct: 25 $years$\n",
+        "ground_truth": "James is 27-5=<<27-5=22>>22 years old\nIn 8 years he will be 22+8=<<22+8=30>>30 years old\nSo in 8 years, his cousin will be 30*2-5=<<30*2-5=55>>55\nSo his cousin is 55-8=<<55-8=47>>47 years old now\nSo there is a 47-22=<<47-22=25>>25 year gap\n#### 25"
+    },
+    {
+        "question": "Jame's age now: 27 - 5 = 22 years old\nJame's age in 8 years: 22 + 8 = 30 years old\nCousin's age in 8 years: 2 * 30 - 5 = 55 years old\nCousin's age now: 55 - 8 = 47 years old\nDifference in age: 47 - 22 = 25 years\nI hope it is correct: 25 $years$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 25 years\n",
+        "ground_truth": "James is 27-5=<<27-5=22>>22 years old\nIn 8 years he will be 22+8=<<22+8=30>>30 years old\nSo in 8 years, his cousin will be 30*2-5=<<30*2-5=55>>55\nSo his cousin is 55-8=<<55-8=47>>47 years old now\nSo there is a 47-22=<<47-22=25>>25 year gap\n#### 25"
+    }
+]

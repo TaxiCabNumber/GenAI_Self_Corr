@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAdam went to a store to buy some sweets. He bought 7 candies of type A and 10 candies of type B. One candy of type A costs $0.5, and one candy of type B costs $0.75. How much change did Adam get, if he paid the cashier $15?",
+        "inference": "Cost of 7 candies of type A = 7 * $0.5 = $3.50\nCost of 10 candies of type B = 10 * $0.75 = $7.50\nTotal cost = $3.50 + $7.50 = $11.00\nChange = $15 - $11 = $4.00\nI hope it is correct: $4.00\n",
+        "ground_truth": "For type A candies Adam needed to pay 7 * 0.5 = $<<7*0.5=3.5>>3.5.\nFor the other type of candies, Adam needed to pay 10 * 0.75 = $<<10*0.75=7.5>>7.5.\nSo Adam had to pay 3.5 + 7.5 = $<<3.5+7.5=11>>11 in total for his shopping.\nIf Adam gave the cashier $15, that means he got 15 - 11 = $<<15-11=4>>4 of change.\n#### 4"
+    },
+    {
+        "question": "Cost of 7 candies of type A = 7 * $0.5 = $3.50\nCost of 10 candies of type B = 10 * $0.75 = $7.50\nTotal cost = $3.50 + $7.50 = $11.00\nChange = $15 - $11 = $4.00\nI hope it is correct: $4.00\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $4.00\n",
+        "ground_truth": "For type A candies Adam needed to pay 7 * 0.5 = $<<7*0.5=3.5>>3.5.\nFor the other type of candies, Adam needed to pay 10 * 0.75 = $<<10*0.75=7.5>>7.5.\nSo Adam had to pay 3.5 + 7.5 = $<<3.5+7.5=11>>11 in total for his shopping.\nIf Adam gave the cashier $15, that means he got 15 - 11 = $<<15-11=4>>4 of change.\n#### 4"
+    }
+]

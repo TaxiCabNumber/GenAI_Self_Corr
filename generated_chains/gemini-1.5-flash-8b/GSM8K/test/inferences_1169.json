@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRonnie was given $5 while Rissa was given thrice as much. After each of them had given an equal amount of money to their little sister, Rissa is left with 4/5 of her money. How much is left in Ronnie's money?",
+        "inference": "Rissa was given 3 times $5 = $15.\nRissa has 15 - x.\n(15-x) = (4/5)*15\n15-x = 12\nx = 3\nRonnie has 5-3 = 2\nI hope it is correct: $2\n",
+        "ground_truth": "Rissa was given $5 x 3 = $<<5*3=15>>15.\nAfter Rissa had given an amount to her sister, she has $15 x 4/5 = $<<15*4/5=12>>12 left.\nThis means she has given $15 - $12 = $<<15-12=3>>3.\nSince Ronnie had given the same amount as Rissa, then Ronnie is left with $5 - $3 = $<<5-3=2>>2.\n#### 2"
+    },
+    {
+        "question": "Rissa was given 3 times $5 = $15.\nRissa has 15 - x.\n(15-x) = (4/5)*15\n15-x = 12\nx = 3\nRonnie has 5-3 = 2\nI hope it is correct: $2\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $2\n",
+        "ground_truth": "Rissa was given $5 x 3 = $<<5*3=15>>15.\nAfter Rissa had given an amount to her sister, she has $15 x 4/5 = $<<15*4/5=12>>12 left.\nThis means she has given $15 - $12 = $<<15-12=3>>3.\nSince Ronnie had given the same amount as Rissa, then Ronnie is left with $5 - $3 = $<<5-3=2>>2.\n#### 2"
+    }
+]

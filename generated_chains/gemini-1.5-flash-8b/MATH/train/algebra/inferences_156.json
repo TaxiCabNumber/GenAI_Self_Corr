@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $5$ lunks can be traded for $3$ kunks, and $2$ kunks will buy $4$ apples, how many lunks are needed to purchase one dozen apples?",
+        "inference": "1 dozen apples = 12 apples\n2 kunks buy 4 apples, so 1 kunk buys 2 apples.\n3 kunks can be traded for 5 lunks, so 1 kunk can be traded for 5/3 lunks.\n1 apple costs 1 kunk / 2 apples = 1/2 kunk\n12 apples cost 12 * (1/2 kunk) = 6 kunks\n6 kunks are needed for 12 apples.\n6 kunks are equal to 6 * (5/3 lunks) = 10 lunks\nFinal Answer: $\\boxed{10}$ I hope it is correct.\n",
+        "ground_truth": "One dozen apples is 12 apples, which costs $2\\cdot3=6$ kunks (since 4 apples cost 2 kunks), which costs $5\\cdot2=\\boxed{10}$ lunks (since 3 kunks cost 5 lunks)."
+    },
+    {
+        "question": "1 dozen apples = 12 apples\n2 kunks buy 4 apples, so 1 kunk buys 2 apples.\n3 kunks can be traded for 5 lunks, so 1 kunk can be traded for 5/3 lunks.\n1 apple costs 1 kunk / 2 apples = 1/2 kunk\n12 apples cost 12 * (1/2 kunk) = 6 kunks\n6 kunks are needed for 12 apples.\n6 kunks are equal to 6 * (5/3 lunks) = 10 lunks\nFinal Answer: $\\boxed{10}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "1 dozen apples = 12 apples\n2 kunks buy 4 apples, so 1 kunk buys 2 apples.\n3 kunks can be traded for 5 lunks, so 1 kunk can be traded for 5/3 lunks.\n1 apple costs 1 kunk / 2 apples = 1/2 kunk\n12 apples cost 12 * (1/2 kunk) = 6 kunks\n6 kunks are needed for 12 apples.\n6 kunks can be traded for 6 * (5/3 lunks) = 10 lunks.\n\nFinal Answer: $\\boxed{10}$",
+        "ground_truth": "One dozen apples is 12 apples, which costs $2\\cdot3=6$ kunks (since 4 apples cost 2 kunks), which costs $5\\cdot2=\\boxed{10}$ lunks (since 3 kunks cost 5 lunks)."
+    }
+]

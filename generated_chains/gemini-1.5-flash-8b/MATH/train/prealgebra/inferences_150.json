@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA dealer sold 200 cars, and the data for some of those sales are recorded in this table. If the rest of the cars she sold were Hondas, how many Hondas did she sell?\n\n\\begin{tabular}{ |c | c|}\n\\hline \\textbf{Type of Car} & \\textbf{$\\%$ of Total Cars Sold} \\\\ \\hline\nAudi & $15\\%$ \\\\ \\hline\nToyota & $22\\%$ \\\\ \\hline\nAcura & $28\\%$ \\\\ \\hline\n\\end{tabular}",
+        "inference": "1. Calculate the total percentage of cars sold that were Audi, Toyota, and Acura: 15% + 22% + 28% = 65%\n2. Calculate the percentage of cars sold that were Hondas: 100% - 65% = 35%\n3. Calculate the number of Hondas sold: 35% of 200 cars = (35/100) * 200 = 70\n\nFinal Answer: $\\boxed{70}$\n",
+        "ground_truth": "The percentage of cars sold that were Hondas is $100-15-22-28=35$ percent. Since there are 200 total cars, $200\\cdot 0.35=\\boxed{70}$ cars are Hondas."
+    },
+    {
+        "question": "1. Calculate the total percentage of cars sold that were Audi, Toyota, and Acura: 15% + 22% + 28% = 65%\n2. Calculate the percentage of cars sold that were Hondas: 100% - 65% = 35%\n3. Calculate the number of Hondas sold: 35% of 200 cars = (35/100) * 200 = 70\n\nFinal Answer: $\\boxed{70}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{70}$\n",
+        "ground_truth": "The percentage of cars sold that were Hondas is $100-15-22-28=35$ percent. Since there are 200 total cars, $200\\cdot 0.35=\\boxed{70}$ cars are Hondas."
+    }
+]

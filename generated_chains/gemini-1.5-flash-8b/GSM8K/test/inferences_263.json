@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 6 trees in Chris's yard.  Ferdinand has half the number of trees that Chris has.  Harry has 5 more than twice the number of trees that Ferdinand has.  How many more trees are in Harry's yard than Ferdinand's yard?",
+        "inference": "1. Chris has 6 trees.\n2. Ferdinand has half of Chris's trees: 6 / 2 = 3 trees.\n3. Harry has 5 more than twice Ferdinand's trees: (3 * 2) + 5 = 11 trees.\n4. The difference between Harry's and Ferdinand's trees: 11 - 3 = 8 trees.\n\nI hope it is correct: 8 $answer$\n",
+        "ground_truth": "Ferdinand:6/2=<<6/2=3>>3 trees\nHarry:5+2(3)=5+6=11 trees\n11-3=<<11-3=8>>8 trees\n#### 8"
+    },
+    {
+        "question": "1. Chris has 6 trees.\n2. Ferdinand has half of Chris's trees: 6 / 2 = 3 trees.\n3. Harry has 5 more than twice Ferdinand's trees: (3 * 2) + 5 = 11 trees.\n4. The difference between Harry's and Ferdinand's trees: 11 - 3 = 8 trees.\n\nI hope it is correct: 8 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 8\n",
+        "ground_truth": "Ferdinand:6/2=<<6/2=3>>3 trees\nHarry:5+2(3)=5+6=11 trees\n11-3=<<11-3=8>>8 trees\n#### 8"
+    }
+]

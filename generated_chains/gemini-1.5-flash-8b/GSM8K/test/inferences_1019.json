@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nOn a busy Saturday morning, a hotel was completely booked with 100 guests.  24 guests elected an early checkout and 15 elected for a late checkout.  In the afternoon twice as many people checked in as those who opted for a late checkout.  7 more people checked in after dinner was served.  How many guests does the hotel now have?",
+        "inference": "1. Early checkout: 24 guests\n2. Late checkout: 15 guests\n3. Afternoon check-ins: 15 * 2 = 30 guests\n4. Dinner check-ins: 7 guests\n5. Total guests after all changes: 100 - 24 - 15 + 30 + 7 = 104 guests\n\nI hope it is correct: 104 $guests$\n",
+        "ground_truth": "24 guests checked out early and 15 checked out late so 24+15 = <<24+15=39>>39 guests checked out\nThe hotel was completely booked with 100 guests and 39 of those guest checked out so now there are 100-39 = <<100-39=61>>61 guests\nTwice as many checked in that afternoon than the 15 who opted for a late check out so 2*15 = <<2*15=30>>30 guests checked in that afternoon\nThe hotel was down to 61 guests and 30 checked in that afternoon and an additional 7 checked in after dinner for a total of 61+30+7 = <<61+30+7=98>>98 guests\n#### 98"
+    },
+    {
+        "question": "1. Early checkout: 24 guests\n2. Late checkout: 15 guests\n3. Afternoon check-ins: 15 * 2 = 30 guests\n4. Dinner check-ins: 7 guests\n5. Total guests after all changes: 100 - 24 - 15 + 30 + 7 = 104 guests\n\nI hope it is correct: 104 $guests$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 104 guests\n",
+        "ground_truth": "24 guests checked out early and 15 checked out late so 24+15 = <<24+15=39>>39 guests checked out\nThe hotel was completely booked with 100 guests and 39 of those guest checked out so now there are 100-39 = <<100-39=61>>61 guests\nTwice as many checked in that afternoon than the 15 who opted for a late check out so 2*15 = <<2*15=30>>30 guests checked in that afternoon\nThe hotel was down to 61 guests and 30 checked in that afternoon and an additional 7 checked in after dinner for a total of 61+30+7 = <<61+30+7=98>>98 guests\n#### 98"
+    }
+]

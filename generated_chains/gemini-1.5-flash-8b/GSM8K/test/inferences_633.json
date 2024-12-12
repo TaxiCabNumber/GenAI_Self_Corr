@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBob is 75 miles ahead of Tom, driving 55 miles per hour. Tom is driving 70 miles per hour. How long will it take Tom to catch up with Bob?",
+        "inference": "1. Bob's head start: 75 miles\n2. Bob's speed: 55 mph\n3. Tom's speed: 70 mph\n4. Relative speed of Tom to Bob: 70 mph - 55 mph = 15 mph\n5. Time to catch up: Distance / Relative speed = 75 miles / 15 mph = 5 hours\n\nI hope it is correct: 5 $hours$\n",
+        "ground_truth": "Tom is driving at 70 miles per hour to Bob's 55 miles per hour, meaning Tom is gaining at a rate of 70 mph - 55 mph = <<70-55=15>>15 mph.\nBob is 75 miles ahead of Tom, and if Tom is gaining 15 mph on him, it will take Tom 75 miles / 15 mph = <<75/15=5>>5 hours to catch up with Bob.\n#### 5"
+    },
+    {
+        "question": "1. Bob's head start: 75 miles\n2. Bob's speed: 55 mph\n3. Tom's speed: 70 mph\n4. Relative speed of Tom to Bob: 70 mph - 55 mph = 15 mph\n5. Time to catch up: Distance / Relative speed = 75 miles / 15 mph = 5 hours\n\nI hope it is correct: 5 $hours$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 5 hours\n",
+        "ground_truth": "Tom is driving at 70 miles per hour to Bob's 55 miles per hour, meaning Tom is gaining at a rate of 70 mph - 55 mph = <<70-55=15>>15 mph.\nBob is 75 miles ahead of Tom, and if Tom is gaining 15 mph on him, it will take Tom 75 miles / 15 mph = <<75/15=5>>5 hours to catch up with Bob.\n#### 5"
+    }
+]

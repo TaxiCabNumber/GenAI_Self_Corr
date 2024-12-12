@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBrenda invested $300 into a scheme that accumulates simple interest at the rate of three-quarters of the original amount per year. How much in total will she have after 3 years?",
+        "inference": "Simple interest = Principal * Rate * Time\n\nPrincipal = $300\nRate = (3/4) * $300 = $225 per year\nTime = 3 years\n\nInterest earned in year 1 = $300 * (3/4) * 1 = $225\nPrincipal after year 1 = $300 + $225 = $525\n\nInterest earned in year 2 = $525 * (3/4) * 1 = $393.75\nPrincipal after year 2 = $525 + $393.75 = $918.75\n\nInterest earned in year 3 = $918.75 * (3/4) * 1 = $689.0625\nPrincipal after year 3 = $918.75 + $689.0625 = $1607.8125\n\nI hope it is correct: 1607.81\n",
+        "ground_truth": "Three-quarters of $300 is (3/4)*$300 = $<<(3/4)*300=225>>225\nAfter 3 years, interest of $225*3 = $<<225*3=675>>675 has been accumulated\nShe now has a total of $300+$675 = $<<300+675=975>>975\n#### 975"
+    },
+    {
+        "question": "Simple interest = Principal * Rate * Time\n\nPrincipal = $300\nRate = (3/4) * $300 = $225 per year\nTime = 3 years\n\nInterest earned in year 1 = $300 * (3/4) * 1 = $225\nPrincipal after year 1 = $300 + $225 = $525\n\nInterest earned in year 2 = $525 * (3/4) * 1 = $393.75\nPrincipal after year 2 = $525 + $393.75 = $918.75\n\nInterest earned in year 3 = $918.75 * (3/4) * 1 = $689.0625\nPrincipal after year 3 = $918.75 + $689.0625 = $1607.8125\n\nI hope it is correct: 1607.81\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "Simple interest is calculated on the *original* principal, not on the accumulated principal.\n\nPrincipal = $300\nRate = (3/4) = 0.75  (as a decimal)\nTime = 3 years\n\nInterest = Principal * Rate * Time\nInterest = $300 * 0.75 * 3 = $675\n\nFinal amount = Principal + Interest\nFinal amount = $300 + $675 = $975\n\n#### $975\n",
+        "ground_truth": "Three-quarters of $300 is (3/4)*$300 = $<<(3/4)*300=225>>225\nAfter 3 years, interest of $225*3 = $<<225*3=675>>675 has been accumulated\nShe now has a total of $300+$675 = $<<300+675=975>>975\n#### 975"
+    }
+]

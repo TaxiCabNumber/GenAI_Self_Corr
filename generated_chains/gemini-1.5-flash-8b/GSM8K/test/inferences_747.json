@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA tomato vendor decides to switch who he buys his tomatoes for.  He sells 500 tomatoes a day.  He used to buy them for $.5 each but he gets a new vendor who sells them for $.4 each.  How much money does he save a week?",
+        "inference": "1. Cost per tomato before: $0.50\n2. Cost per tomato after: $0.40\n3. Savings per tomato: $0.50 - $0.40 = $0.10\n4. Tomatoes sold per day: 500\n5. Savings per day: 500 tomatoes * $0.10/tomato = $50\n6. Days in a week: 7\n7. Total weekly savings: $50/day * 7 days/week = $350\n\nI hope it is correct: $350\n",
+        "ground_truth": "He buys 500*7=<<500*7=3500>>3500\nHe used to pay 3500*.5=$<<3500*.5=1750>>1750\nHe now pays 3500*.4=$<<3500*.4=1400>>1400\nSo he saves 1750-1400=$<<1750-1400=350>>350\n#### 350"
+    },
+    {
+        "question": "1. Cost per tomato before: $0.50\n2. Cost per tomato after: $0.40\n3. Savings per tomato: $0.50 - $0.40 = $0.10\n4. Tomatoes sold per day: 500\n5. Savings per day: 500 tomatoes * $0.10/tomato = $50\n6. Days in a week: 7\n7. Total weekly savings: $50/day * 7 days/week = $350\n\nI hope it is correct: $350\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $350\n",
+        "ground_truth": "He buys 500*7=<<500*7=3500>>3500\nHe used to pay 3500*.5=$<<3500*.5=1750>>1750\nHe now pays 3500*.4=$<<3500*.4=1400>>1400\nSo he saves 1750-1400=$<<1750-1400=350>>350\n#### 350"
+    }
+]

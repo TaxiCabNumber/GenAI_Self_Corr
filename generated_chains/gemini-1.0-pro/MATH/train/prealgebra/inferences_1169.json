@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhile standing in line to buy concert tickets, Kit moved 60 feet closer to the ticket window over a period of 30 minutes. At this rate, how many minutes will it take her to move the remaining 70 yards to the ticket window?",
+        "inference": "First, convert the 60 feet to yards because 70 yards is given.\n$$60 \\text{ ft}\\left(\\frac{1 \\text{ yd}}{3 \\text{ ft}}\\right)=20 \\text{ yd}$$\n\nThen, set up a proportion to compare the distance already traveled to the remaining distance with the time already taken to the time it will take to travel the remaining distance.\n$$\\frac{20}{30}=\\frac{70}{x}$$\n\nCross-multiply to solve for x.\n$$20x=30(70)$$\n$$20x=2100$$\n$$\\frac{20x}{20}=\\frac{2100}{20}$$\n$$x=105$$\n\nTherefore, it will take Kit 105 minutes to move the remaining 70 yards to the ticket window.\nFinal Answer: \\boxed{$105$}. I hope it is correct.",
+        "ground_truth": "She moved 60 feet in 30 minutes, meaning her rate is $\\frac{60}{30} = 2$ feet per minute.  She has $70\\cdot 3 = 210$ feet remaining, meaning she will need $\\frac{210}{2} = \\boxed{105}$ more minutes."
+    },
+    {
+        "question": "First, convert the 60 feet to yards because 70 yards is given.\n$$60 \\text{ ft}\\left(\\frac{1 \\text{ yd}}{3 \\text{ ft}}\\right)=20 \\text{ yd}$$\n\nThen, set up a proportion to compare the distance already traveled to the remaining distance with the time already taken to the time it will take to travel the remaining distance.\n$$\\frac{20}{30}=\\frac{70}{x}$$\n\nCross-multiply to solve for x.\n$$20x=30(70)$$\n$$20x=2100$$\n$$\\frac{20x}{20}=\\frac{2100}{20}$$\n$$x=105$$\n\nTherefore, it will take Kit 105 minutes to move the remaining 70 yards to the ticket window.\nFinal Answer: \\boxed{$105$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\(\\boxed{105}\\)",
+        "ground_truth": "She moved 60 feet in 30 minutes, meaning her rate is $\\frac{60}{30} = 2$ feet per minute.  She has $70\\cdot 3 = 210$ feet remaining, meaning she will need $\\frac{210}{2} = \\boxed{105}$ more minutes."
+    }
+]

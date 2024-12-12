@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMark took a test yesterday that consisted of 75 questions. He completed the test at a rate of 5 questions per hour. Today, he took another test of 100 questions at the same rate. If Mark had 8 hours to complete the first test and 6 hours to complete the second one, how many questions did he leave incomplete?",
+        "inference": "1. First test: 8 hours * 5 questions/hour = 40 questions completed\n2. First test: 75 questions total - 40 questions completed = 35 questions left incomplete\n3. Second test: 6 hours * 5 questions/hour = 30 questions completed\n4. Second test: 100 questions total - 30 questions completed = 70 questions left incomplete\n5. Total questions left incomplete: 35 questions + 70 questions = 105 questions\n\nI hope it is correct: 105 $questions$\n",
+        "ground_truth": "Questions Mark completed in yesterday\u2019s test: 5*8 = <<5*8=40>>40.\nQuestions Mark completed in today\u2019s test: 5*6 = <<5*6=30>>30.\nQuestions Mark left incomplete in yesterday\u2019s test: 75-40 = <<75-40=35>>35\nQuestions Mark left incomplete in today's test: 100-30 = <<100-30=70>>70\nMissed questions in total 35+70 = <<35+70=105>>105.\n#### 105"
+    },
+    {
+        "question": "1. First test: 8 hours * 5 questions/hour = 40 questions completed\n2. First test: 75 questions total - 40 questions completed = 35 questions left incomplete\n3. Second test: 6 hours * 5 questions/hour = 30 questions completed\n4. Second test: 100 questions total - 30 questions completed = 70 questions left incomplete\n5. Total questions left incomplete: 35 questions + 70 questions = 105 questions\n\nI hope it is correct: 105 $questions$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 105\n",
+        "ground_truth": "Questions Mark completed in yesterday\u2019s test: 5*8 = <<5*8=40>>40.\nQuestions Mark completed in today\u2019s test: 5*6 = <<5*6=30>>30.\nQuestions Mark left incomplete in yesterday\u2019s test: 75-40 = <<75-40=35>>35\nQuestions Mark left incomplete in today's test: 100-30 = <<100-30=70>>70\nMissed questions in total 35+70 = <<35+70=105>>105.\n#### 105"
+    }
+]

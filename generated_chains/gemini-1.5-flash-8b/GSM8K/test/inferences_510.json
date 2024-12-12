@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nFor a New Year's resolution, Andy wants to lose 30 lbs. by his birthday, which is July 19th. Today is December 31st. If Andy needs to burn 3500 calories to lose a pound, how much of a calorie deficit (net amount of calories burned vs. calories consumed) does he need each day to reach his goal?",
+        "inference": "Days remaining until Andy's birthday: July 19th - December 31st = 208 days.\nTotal calories to be burned: 30 lbs * 3500 calories/lb = 105000 calories.\nDaily calorie deficit needed: 105000 calories / 208 days = 504.8 calories/day.\n\nI hope it is correct: 505 $calories$\n",
+        "ground_truth": "January, March, and May have 31 days, February has 28, and April and June have 30, and Andy's birthday is on the 19th day of July. So there are 3 * 31 days + 28 + 2 * 30 days + 19 days = 93 days + 28 + 60 days + 19 days = <<3*31+28+2*30+19=200>>200 days until Andy's birthday.\nHe wants to lose 30 lbs. At 3500 calories per pound, this is 30 * 3500 = <<30*3500=105000>>105,000 calories total,\nTo reach his goal, he will have to burn 105,000 calories / 200 days = <<105000/200=525>>525 calories per day more than he consumes.\n#### 525"
+    },
+    {
+        "question": "Days remaining until Andy's birthday: July 19th - December 31st = 208 days.\nTotal calories to be burned: 30 lbs * 3500 calories/lb = 105000 calories.\nDaily calorie deficit needed: 105000 calories / 208 days = 504.8 calories/day.\n\nI hope it is correct: 505 $calories$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 505 calories\n",
+        "ground_truth": "January, March, and May have 31 days, February has 28, and April and June have 30, and Andy's birthday is on the 19th day of July. So there are 3 * 31 days + 28 + 2 * 30 days + 19 days = 93 days + 28 + 60 days + 19 days = <<3*31+28+2*30+19=200>>200 days until Andy's birthday.\nHe wants to lose 30 lbs. At 3500 calories per pound, this is 30 * 3500 = <<30*3500=105000>>105,000 calories total,\nTo reach his goal, he will have to burn 105,000 calories / 200 days = <<105000/200=525>>525 calories per day more than he consumes.\n#### 525"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the largest four-digit negative integer congruent to $1 \\pmod{23}?$",
+        "inference": "Since an integer $n$ is congruent to $1 \\pmod{23}$ if and only if $n+22$ is divisible by $23$, the largest four-digit negative integer congruent to $1 \\pmod{23}$ is $$-999+22 = -977$$\n\nFinal Answer: $\\boxed{-977}.$ I hope it is correct.",
+        "ground_truth": "An integer that is congruent to $1 \\pmod{23}$ is of the form $23n+1$.\n\nTherefore, we form the inequality $23n+1<-999$, and find the largest possible integer $n$. We get \\begin{align*}\n23n+1&<-999 \\\\\n23n&<-1000\\\\\nn&<-\\frac{1000}{23} \\approx -43.48.\n\\end{align*} The largest possible negative integer $n$ is $-44$. We plug it in for $n$ to get $23 \\cdot -44 +1 =\\boxed{-1011}$."
+    },
+    {
+        "question": "Since an integer $n$ is congruent to $1 \\pmod{23}$ if and only if $n+22$ is divisible by $23$, the largest four-digit negative integer congruent to $1 \\pmod{23}$ is $$-999+22 = -977$$\n\nFinal Answer: $\\boxed{-977}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{-977}.",
+        "ground_truth": "An integer that is congruent to $1 \\pmod{23}$ is of the form $23n+1$.\n\nTherefore, we form the inequality $23n+1<-999$, and find the largest possible integer $n$. We get \\begin{align*}\n23n+1&<-999 \\\\\n23n&<-1000\\\\\nn&<-\\frac{1000}{23} \\approx -43.48.\n\\end{align*} The largest possible negative integer $n$ is $-44$. We plug it in for $n$ to get $23 \\cdot -44 +1 =\\boxed{-1011}$."
+    }
+]

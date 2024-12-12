@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThree of the following test scores are Cyprian's and the other three are Margaret's: 85, 87, 92, 93, 94, 98. Cyprian's mean score is 90. What is Margaret's mean score?",
+        "inference": "Let \\(x\\) be Margaret's mean score. Then, \\(90\\) is Cyprian's mean score.\n\nSince mean is sum of all values divided by the number of values, we have\n$$85 + 87 + 92 + x + x + x = 90 \\times 3 + x \\times 3$$\n$$\\Rightarrow 264 + 3x = 270 + 3x$$\n$$\\Rightarrow 3x = 6$$\n$$\\Rightarrow x = 2$$\n\nTherefore, Margaret's mean score is 2.\nFinal Answer: \\boxed{2}. I hope it is correct.",
+        "ground_truth": "The sum of all six scores is $549$.  The sum of Cyprian's scores is $3(90)=270$, so the sum of Margaret's scores is $549-270=279$.  Thus the average of her scores is $\\frac{279}{3}=\\boxed{93}$."
+    },
+    {
+        "question": "Let \\(x\\) be Margaret's mean score. Then, \\(90\\) is Cyprian's mean score.\n\nSince mean is sum of all values divided by the number of values, we have\n$$85 + 87 + 92 + x + x + x = 90 \\times 3 + x \\times 3$$\n$$\\Rightarrow 264 + 3x = 270 + 3x$$\n$$\\Rightarrow 3x = 6$$\n$$\\Rightarrow x = 2$$\n\nTherefore, Margaret's mean score is 2.\nFinal Answer: \\boxed{2}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{2}",
+        "ground_truth": "The sum of all six scores is $549$.  The sum of Cyprian's scores is $3(90)=270$, so the sum of Margaret's scores is $549-270=279$.  Thus the average of her scores is $\\frac{279}{3}=\\boxed{93}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe square of $a$ and the square root of $b$ vary inversely. If $a=2$ when $b=81$, then find $b$ when $ab=48$.",
+        "inference": "If $a$ and $b$ vary inversely, then we can write:\n$$ab=k$$\n\nwhere $k$ is a constant.\n\nWe are given that when $a=2$, $b=81$, so we can solve for $k$:\n$$2\\cdot81=k$$\n$$k=162$$\n\nNow we can use this value of $k$ to find $b$ when $ab=48$:\n$$ab=k$$\n$$b=\\frac{k}{a}$$\n$$b=\\frac{162}{48}$$\n\n$$\\boxed{b=3.375}. \\text{Final Answer}$$",
+        "ground_truth": "Since $a^2$ and $\\sqrt{b}$ are inversely proportional, $a^2\\sqrt{b}=k$ for some constant k.  Thus $k=2^2 \\sqrt{81} = 36$. Squaring both sides gives $a^4\\cdot b=1296$, so if $ab=48$ then dividing those two equations gives $a^3=\\frac{1296}{48}=27$, so $a=3$ and $b=\\frac{48}{3}=\\boxed{16}$."
+    },
+    {
+        "question": "If $a$ and $b$ vary inversely, then we can write:\n$$ab=k$$\n\nwhere $k$ is a constant.\n\nWe are given that when $a=2$, $b=81$, so we can solve for $k$:\n$$2\\cdot81=k$$\n$$k=162$$\n\nNow we can use this value of $k$ to find $b$ when $ab=48$:\n$$ab=k$$\n$$b=\\frac{k}{a}$$\n$$b=\\frac{162}{48}$$\n\n$$\\boxed{b=3.375}. \\text{Final Answer}$$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{b=3}$$",
+        "ground_truth": "Since $a^2$ and $\\sqrt{b}$ are inversely proportional, $a^2\\sqrt{b}=k$ for some constant k.  Thus $k=2^2 \\sqrt{81} = 36$. Squaring both sides gives $a^4\\cdot b=1296$, so if $ab=48$ then dividing those two equations gives $a^3=\\frac{1296}{48}=27$, so $a=3$ and $b=\\frac{48}{3}=\\boxed{16}$."
+    }
+]

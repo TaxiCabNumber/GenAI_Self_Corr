@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBecky, Jake, and Silvia shared 4 pizzas. Each pizza had 8 slices. Becky ate 3 more slices than Jake did. Silvia ate twice as many slices than Jake did. If Becky ate 10 slices, how many total slices did they eat?",
+        "inference": "1. Becky ate 10 slices.\n2. Becky ate 3 more slices than Jake, so Jake ate 10 - 3 = 7 slices.\n3. Silvia ate twice as many slices as Jake, so Silvia ate 7 * 2 = 14 slices.\n4. Total slices eaten = 10 + 7 + 14 = 31 slices.\nI hope it is correct: 31 $slices$\n",
+        "ground_truth": "Jake ate 10-3 = <<10-3=7>>7 slices of pizza.\nSilvia ate 7*2 = <<7*2=14>>14 slices of pizza.\nJake, Silvia, and Becky ate 10+7+14 = <<10+7+14=31>>31 slices all together.\n#### 31"
+    },
+    {
+        "question": "1. Becky ate 10 slices.\n2. Becky ate 3 more slices than Jake, so Jake ate 10 - 3 = 7 slices.\n3. Silvia ate twice as many slices as Jake, so Silvia ate 7 * 2 = 14 slices.\n4. Total slices eaten = 10 + 7 + 14 = 31 slices.\nI hope it is correct: 31 $slices$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 31 slices\n",
+        "ground_truth": "Jake ate 10-3 = <<10-3=7>>7 slices of pizza.\nSilvia ate 7*2 = <<7*2=14>>14 slices of pizza.\nJake, Silvia, and Becky ate 10+7+14 = <<10+7+14=31>>31 slices all together.\n#### 31"
+    }
+]

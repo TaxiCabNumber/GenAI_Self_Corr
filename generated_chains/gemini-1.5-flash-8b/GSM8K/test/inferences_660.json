@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nLee rears only sheep and geese on his farm.  If the total number of animal legs is 70, and the total number of animal heads is 20, how many sheep live on Lee's farm?",
+        "inference": "Let 's' be the number of sheep and 'g' be the number of geese.\nEach sheep has 4 legs and 1 head.\nEach goose has 2 legs and 1 head.\n\nWe have two equations:\n1) 4s + 2g = 70  (Total legs)\n2) s + g = 20   (Total heads)\n\nFrom equation 2, we can express g in terms of s:\ng = 20 - s\n\nSubstitute this into equation 1:\n4s + 2(20 - s) = 70\n4s + 40 - 2s = 70\n2s = 30\ns = 15\n\nNow find g:\ng = 20 - s = 20 - 15 = 5\n\nTherefore, there are 15 sheep on Lee's farm.\n\nI hope it is correct: 15 $sheep$\n",
+        "ground_truth": "Let g be the number of geese and let s be the number of sheep. The farm has g + s = 20 animals.\nTherefore Lee has s = 20 - g sheep.\nThe animals have 2g + 4s = 70 legs.\nUsing the value of s above, 2g + 4(20-g) = 70.\n2g + 80 - 4g = 70.\n2g = 10.\nThere are therefore 10/2 = <<10/2=5>>5 geese.\nThere are 20 - 5 = <<20-5=15>>15 sheep remaining on the farm.\n#### 15"
+    },
+    {
+        "question": "Let 's' be the number of sheep and 'g' be the number of geese.\nEach sheep has 4 legs and 1 head.\nEach goose has 2 legs and 1 head.\n\nWe have two equations:\n1) 4s + 2g = 70  (Total legs)\n2) s + g = 20   (Total heads)\n\nFrom equation 2, we can express g in terms of s:\ng = 20 - s\n\nSubstitute this into equation 1:\n4s + 2(20 - s) = 70\n4s + 40 - 2s = 70\n2s = 30\ns = 15\n\nNow find g:\ng = 20 - s = 20 - 15 = 5\n\nTherefore, there are 15 sheep on Lee's farm.\n\nI hope it is correct: 15 $sheep$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 15 sheep\n",
+        "ground_truth": "Let g be the number of geese and let s be the number of sheep. The farm has g + s = 20 animals.\nTherefore Lee has s = 20 - g sheep.\nThe animals have 2g + 4s = 70 legs.\nUsing the value of s above, 2g + 4(20-g) = 70.\n2g + 80 - 4g = 70.\n2g = 10.\nThere are therefore 10/2 = <<10/2=5>>5 geese.\nThere are 20 - 5 = <<20-5=15>>15 sheep remaining on the farm.\n#### 15"
+    }
+]

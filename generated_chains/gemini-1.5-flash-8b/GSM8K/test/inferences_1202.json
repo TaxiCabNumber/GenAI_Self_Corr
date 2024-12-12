@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAmy had two eyeshadow palettes with four colors each and three makeup sets that came with six eyeshadow colors each. Her sister steals one of the palettes. Amy uses up half of the colors from one makeup set. How many eyeshadow colors does she have left?",
+        "inference": "1. Two palettes * 4 colors/palette = 8 colors\n2. Three sets * 6 colors/set = 18 colors\n3. 8 colors + 18 colors = 26 colors\n4. One palette stolen, so 26 - 4 = 22 colors\n5. Half of one set used, so 6 colors / 2 = 3 colors used.\n6. 22 colors - 3 colors = 19 colors\n\nI hope it is correct: 19 $colors$\n",
+        "ground_truth": "Amy had 2 * 4 + 3 * 6 = 8 + 18 = <<2*4+3*6=26>>26 eyeshadow colors to start.\nHer sister stole one palette of 4 colors, leaving Amy with 26 - 4 = <<26-4=22>>22 colors.\nHalf the colors from one makeup set are 6 / 2 = <<6/2=3>>3 colors.\nThus, Amy has 22 - 3 = <<22-3=19>>19 eyeshadow colors left.\n#### 19"
+    },
+    {
+        "question": "1. Two palettes * 4 colors/palette = 8 colors\n2. Three sets * 6 colors/set = 18 colors\n3. 8 colors + 18 colors = 26 colors\n4. One palette stolen, so 26 - 4 = 22 colors\n5. Half of one set used, so 6 colors / 2 = 3 colors used.\n6. 22 colors - 3 colors = 19 colors\n\nI hope it is correct: 19 $colors$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 19\n",
+        "ground_truth": "Amy had 2 * 4 + 3 * 6 = 8 + 18 = <<2*4+3*6=26>>26 eyeshadow colors to start.\nHer sister stole one palette of 4 colors, leaving Amy with 26 - 4 = <<26-4=22>>22 colors.\nHalf the colors from one makeup set are 6 / 2 = <<6/2=3>>3 colors.\nThus, Amy has 22 - 3 = <<22-3=19>>19 eyeshadow colors left.\n#### 19"
+    }
+]

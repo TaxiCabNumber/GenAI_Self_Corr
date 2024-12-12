@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+        "inference": "1. Calculate the total amount Mark needs to save: $300 - $50 = $250\n\n2. Calculate the amount Mark earns per day: $10\n\n3. Divide the total amount needed by the daily earnings: $250 / $10 = 25\n\nI hope it is correct: 25 $days$\n",
+        "ground_truth": "Mike has $50 in his bank account, so the amount he needs to save to reach the bike goal is $300 - $50 = $250\nHe earns $10 per day, so $250 / $10/day = <<250/10=25>>25 days\n#### 25"
+    },
+    {
+        "question": "1. Calculate the total amount Mark needs to save: $300 - $50 = $250\n\n2. Calculate the amount Mark earns per day: $10\n\n3. Divide the total amount needed by the daily earnings: $250 / $10 = 25\n\nI hope it is correct: 25 $days$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 25 days\n",
+        "ground_truth": "Mike has $50 in his bank account, so the amount he needs to save to reach the bike goal is $300 - $50 = $250\nHe earns $10 per day, so $250 / $10/day = <<250/10=25>>25 days\n#### 25"
+    }
+]

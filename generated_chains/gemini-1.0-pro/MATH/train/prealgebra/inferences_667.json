@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSasha has $\\$3.20$ in U.S. coins. She has the same number of quarters and nickels. What is the greatest number of quarters she could have?",
+        "inference": "Let's say she has \\(x\\) quarters.\nSince she has the same number of quarters and nickels, she also has \\(x\\) nickels. \nThe total value of her coins is \n\n$$0.25x + 0.05x = 3.20$$\n\n$$0.30x = 3.20$$\n\n$$x = 3.20/0.30 = 10.67$$\n\nSince she can't have a fraction of a quarter, the greatest number of quarters she could have is 10.\n\nFinal Answer: \\boxed{$10$}. I hope it is correct.",
+        "ground_truth": "Suppose Sasha has $q$ quarters.  Then she also has $q$ nickels, and the total value of her quarters and nickels is $.25q + .05q = .30q$.  Since $3.20/0.30 = 10\\frac{2}{3}$, this means that she has at most $\\boxed{10}$ quarters.  (This amount is obtainable; for example we can let the rest of her coins be pennies.)"
+    },
+    {
+        "question": "Let's say she has \\(x\\) quarters.\nSince she has the same number of quarters and nickels, she also has \\(x\\) nickels. \nThe total value of her coins is \n\n$$0.25x + 0.05x = 3.20$$\n\n$$0.30x = 3.20$$\n\n$$x = 3.20/0.30 = 10.67$$\n\nSince she can't have a fraction of a quarter, the greatest number of quarters she could have is 10.\n\nFinal Answer: \\boxed{$10$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$10$}",
+        "ground_truth": "Suppose Sasha has $q$ quarters.  Then she also has $q$ nickels, and the total value of her quarters and nickels is $.25q + .05q = .30q$.  Since $3.20/0.30 = 10\\frac{2}{3}$, this means that she has at most $\\boxed{10}$ quarters.  (This amount is obtainable; for example we can let the rest of her coins be pennies.)"
+    }
+]

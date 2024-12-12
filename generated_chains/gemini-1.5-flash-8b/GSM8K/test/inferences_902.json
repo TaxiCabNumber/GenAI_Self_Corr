@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe educational shop is selling notebooks for $1.50 each and a ballpen at $0.5 each.  William bought five notebooks and a ballpen. How much did he spend in all?",
+        "inference": "1. Cost of 5 notebooks = 5 * $1.50 = $7.50\n2. Cost of 1 ballpen = $0.50\n3. Total spent = $7.50 + $0.50 = $8.00\n\nI hope it is correct: $8.00\n",
+        "ground_truth": "The cost of the six notebooks was 5 x $1.50 = $7.5.\nTherefore, William spent a total of $7.50 + $0.50 = $<<7.5+0.5=8>>8 in all.\n#### 8"
+    },
+    {
+        "question": "1. Cost of 5 notebooks = 5 * $1.50 = $7.50\n2. Cost of 1 ballpen = $0.50\n3. Total spent = $7.50 + $0.50 = $8.00\n\nI hope it is correct: $8.00\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $8.00\n",
+        "ground_truth": "The cost of the six notebooks was 5 x $1.50 = $7.5.\nTherefore, William spent a total of $7.50 + $0.50 = $<<7.5+0.5=8>>8 in all.\n#### 8"
+    }
+]

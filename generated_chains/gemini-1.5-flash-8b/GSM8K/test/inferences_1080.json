@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIf every second, a bubbling spring creates a new jellyfish, how many jellyfish would 5 springs working at the same rate create in 4 hours?",
+        "inference": "1. 4 hours = 4 * 60 minutes = 240 minutes\n2. 240 minutes * 60 seconds/minute = 14400 seconds\n3. 1 spring creates 14400 jellyfish in 14400 seconds\n4. 5 springs create 5 * 14400 = 72000 jellyfish in 14400 seconds\n\nI hope it is correct: 72000 $jellyfish$\n",
+        "ground_truth": "Since an hour has 3600 seconds, if every second, a bubbling spring creates a new jellyfish, it will create 4*3600 = <<4*3600=14400>>14400 jellyfish in four hours.\nFive springs working at the same rate will create 14400*5 =<<14400*5=72000>>72000 jellyfish in four hours.\n#### 72000"
+    },
+    {
+        "question": "1. 4 hours = 4 * 60 minutes = 240 minutes\n2. 240 minutes * 60 seconds/minute = 14400 seconds\n3. 1 spring creates 14400 jellyfish in 14400 seconds\n4. 5 springs create 5 * 14400 = 72000 jellyfish in 14400 seconds\n\nI hope it is correct: 72000 $jellyfish$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 72000\n",
+        "ground_truth": "Since an hour has 3600 seconds, if every second, a bubbling spring creates a new jellyfish, it will create 4*3600 = <<4*3600=14400>>14400 jellyfish in four hours.\nFive springs working at the same rate will create 14400*5 =<<14400*5=72000>>72000 jellyfish in four hours.\n#### 72000"
+    }
+]

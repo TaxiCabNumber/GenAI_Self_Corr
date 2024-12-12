@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCalculate $5\\cdot5! + 4\\cdot4!+4!$.",
+        "inference": "$5\\cdot5! + 4\\cdot4!+4! = 5\\cdot(5\\cdot4\\cdot3\\cdot2\\cdot1) + 4\\cdot(4\\cdot3\\cdot2\\cdot1) + (4\\cdot3\\cdot2\\cdot1)$\n$= 5\\cdot120 + 4\\cdot24 + 24$\n$= 600 + 96 + 24$\n$= 720$\nFinal Answer: $\\boxed{720}$. I hope it is correct.\n",
+        "ground_truth": "Using the distributive property twice, \\begin{align*}\n5\\cdot5!+4\\cdot4!+4! &= 5\\cdot5! + (4+1)\\cdot4!\\\\\n&=5\\cdot5! + 5!\\\\\n&=(5+1)\\cdot5!\\\\\n&=6!\\\\\n&=\\boxed{720}.\n\\end{align*}"
+    },
+    {
+        "question": "$5\\cdot5! + 4\\cdot4!+4! = 5\\cdot(5\\cdot4\\cdot3\\cdot2\\cdot1) + 4\\cdot(4\\cdot3\\cdot2\\cdot1) + (4\\cdot3\\cdot2\\cdot1)$\n$= 5\\cdot120 + 4\\cdot24 + 24$\n$= 600 + 96 + 24$\n$= 720$\nFinal Answer: $\\boxed{720}$. I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$5\\cdot5! + 4\\cdot4! + 4! = 5\\cdot(5\\cdot4\\cdot3\\cdot2\\cdot1) + 4\\cdot(4\\cdot3\\cdot2\\cdot1) + (4\\cdot3\\cdot2\\cdot1) = 5\\cdot120 + 4\\cdot24 + 24 = 600 + 96 + 24 = 720$.\nFinal Answer: $\\boxed{720}$",
+        "ground_truth": "Using the distributive property twice, \\begin{align*}\n5\\cdot5!+4\\cdot4!+4! &= 5\\cdot5! + (4+1)\\cdot4!\\\\\n&=5\\cdot5! + 5!\\\\\n&=(5+1)\\cdot5!\\\\\n&=6!\\\\\n&=\\boxed{720}.\n\\end{align*}"
+    }
+]

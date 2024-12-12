@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMisha picks out 4 blouses from the 30% off rack.  The regular price for each blouse is $20.  How much is the total cost of the discounted blouses?",
+        "inference": "1. Discount per blouse: 30% of $20 = 0.30 * $20 = $6\n2. Discounted price per blouse: $20 - $6 = $14\n3. Total cost of 4 blouses: $14 * 4 = $56\n\nI hope it is correct: $56\n",
+        "ground_truth": "Total regular price for the blouses is $20 x 4 = $<<20*4=80>>80.\nTotal discount on the blouses is $80 x 30% = $<<80*30*.01=24>>24.\nMisha paid $80 - $24 = $<<80-24=56>>56 for the discounted blouses.\n#### 56"
+    },
+    {
+        "question": "1. Discount per blouse: 30% of $20 = 0.30 * $20 = $6\n2. Discounted price per blouse: $20 - $6 = $14\n3. Total cost of 4 blouses: $14 * 4 = $56\n\nI hope it is correct: $56\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $56\n",
+        "ground_truth": "Total regular price for the blouses is $20 x 4 = $<<20*4=80>>80.\nTotal discount on the blouses is $80 x 30% = $<<80*30*.01=24>>24.\nMisha paid $80 - $24 = $<<80-24=56>>56 for the discounted blouses.\n#### 56"
+    }
+]

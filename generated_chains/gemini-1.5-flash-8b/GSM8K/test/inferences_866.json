@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTogether, Sofie, Anne, and Fawn have 85 books. If Sofie has 25 more books than Anne, and Anne has 12 fewer books than Fawn does, how many books does Fawn have?",
+        "inference": "Let S be the number of books Sofie has, A be the number of books Anne has, and F be the number of books Fawn has.\nWe are given:\nS + A + F = 85  (1)\nS = A + 25  (2)\nA = F - 12  (3)\n\nSubstitute (2) into (1):\n(A + 25) + A + F = 85\n2A + F + 25 = 85\n2A + F = 60  (4)\n\nSubstitute (3) into (4):\n2(F - 12) + F = 60\n2F - 24 + F = 60\n3F = 84\nF = 28\n\nI hope it is correct: 28 $books$\n",
+        "ground_truth": "Let x = the number of books Anne has.\nThen x + 25 + x + 12 + x = 85\n3x + 37 = 85\n3x = 48\nx = 48 / 3 = <<48/3=16>>16 books\nAnne has 12 fewer books than Fawn, so Fawn has 16 + 12 = 28 books.\n#### 28"
+    },
+    {
+        "question": "Let S be the number of books Sofie has, A be the number of books Anne has, and F be the number of books Fawn has.\nWe are given:\nS + A + F = 85  (1)\nS = A + 25  (2)\nA = F - 12  (3)\n\nSubstitute (2) into (1):\n(A + 25) + A + F = 85\n2A + F + 25 = 85\n2A + F = 60  (4)\n\nSubstitute (3) into (4):\n2(F - 12) + F = 60\n2F - 24 + F = 60\n3F = 84\nF = 28\n\nI hope it is correct: 28 $books$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "1. S + A + F = 85\n2. S = A + 25\n3. A = F - 12\n\nSubstitute (2) into (1):\n(A + 25) + A + F = 85\n2A + F + 25 = 85\n2A + F = 60\n\nSubstitute (3) into the equation above:\n2(F - 12) + F = 60\n2F - 24 + F = 60\n3F = 84\nF = 28\n\nSubstitute F = 28 into A = F - 12:\nA = 28 - 12\nA = 16\n\nSubstitute A = 16 into S = A + 25:\nS = 16 + 25\nS = 41\n\nSo, Sofie has 41 books, Anne has 16 books, and Fawn has 28 books.\n\n#### 28\n",
+        "ground_truth": "Let x = the number of books Anne has.\nThen x + 25 + x + 12 + x = 85\n3x + 37 = 85\n3x = 48\nx = 48 / 3 = <<48/3=16>>16 books\nAnne has 12 fewer books than Fawn, so Fawn has 16 + 12 = 28 books.\n#### 28"
+    }
+]

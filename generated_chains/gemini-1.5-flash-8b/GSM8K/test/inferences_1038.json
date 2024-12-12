@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJim decides to go to college to earn some more money.  It takes him 4 years to finish and he gets $50,000 in loans per year.  If he had a 25k a year job before college and his college degree tripled his income, how long would it take to earn the money equivalent to the loans and the money lost from not working while in school.",
+        "inference": "1. **Loans:** 4 years * $50,000/year = $200,000\n\n2. **Lost Income:** 4 years * $25,000/year = $100,000\n\n3. **Total Debt/Lost Income:** $200,000 + $100,000 = $300,000\n\n4. **Income Increase:**  The degree triples his income, so it's 3 * $25,000 = $75,000 per year.\n\n5. **Years to Recover:** $300,000 / $75,000/year = 4 years\n\nI hope it is correct: 4 $years$\n",
+        "ground_truth": "His salary increased to 25000*3=$<<25000*3=75000>>75,000 per year\nSo he earns an extra 75,000-25,000=$<<75000-25000=50000>>50,000 a year\nHis loan cost 50,000*4=$<<50000*4=200000>>200,000\nHe lost out on 25,000*4=$<<25000*4=100000>>100,000 from not working\nSo he needs to make 200,000+100,000=$<<200000+100000=300000>>300,000\nThat means it will take 300,000/50,000=<<300000/50000=6>>6 years\n#### 4"
+    },
+    {
+        "question": "1. **Loans:** 4 years * $50,000/year = $200,000\n\n2. **Lost Income:** 4 years * $25,000/year = $100,000\n\n3. **Total Debt/Lost Income:** $200,000 + $100,000 = $300,000\n\n4. **Income Increase:**  The degree triples his income, so it's 3 * $25,000 = $75,000 per year.\n\n5. **Years to Recover:** $300,000 / $75,000/year = 4 years\n\nI hope it is correct: 4 $years$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 4 years\n",
+        "ground_truth": "His salary increased to 25000*3=$<<25000*3=75000>>75,000 per year\nSo he earns an extra 75,000-25,000=$<<75000-25000=50000>>50,000 a year\nHis loan cost 50,000*4=$<<50000*4=200000>>200,000\nHe lost out on 25,000*4=$<<25000*4=100000>>100,000 from not working\nSo he needs to make 200,000+100,000=$<<200000+100000=300000>>300,000\nThat means it will take 300,000/50,000=<<300000/50000=6>>6 years\n#### 4"
+    }
+]

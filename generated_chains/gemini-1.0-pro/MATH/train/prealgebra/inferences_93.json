@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nRoslyn has ten boxes. Six of the boxes contain pencils, three of the boxes contain pens, and two of the boxes contain both pens and pencils. How many boxes contain neither pens nor pencils?",
+        "inference": "**Solution:**\n\nThere are 6 boxes with pencils, 3 boxes with pens, and 2 boxes with both pencils and pens. So, there are a total of $6 + 3 + 2 = 11$ boxes that contain either pencils or pens or both.\n\nRoslyn has 10 boxes in total, so the number of boxes that contain neither pencils nor pens is $10 - 11 = -1$.\n\n**Final Answer: \\\\boxed{$-1$}. I hope it is correct.**",
+        "ground_truth": "At first, we might think that there are $6+3=9$ boxes with pens or pencils.  However, this counts twice the 2 boxes with both pens and pencils, so we subtract 2 from our total to only count these boxes once.  That gives us $6+3-2=7$ boxes with pens or pencils, which leaves $10-7=\\boxed{3\\text{ boxes}}$ with neither."
+    },
+    {
+        "question": "**Solution:**\n\nThere are 6 boxes with pencils, 3 boxes with pens, and 2 boxes with both pencils and pens. So, there are a total of $6 + 3 + 2 = 11$ boxes that contain either pencils or pens or both.\n\nRoslyn has 10 boxes in total, so the number of boxes that contain neither pencils nor pens is $10 - 11 = -1$.\n\n**Final Answer: \\\\boxed{$-1$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$0$}",
+        "ground_truth": "At first, we might think that there are $6+3=9$ boxes with pens or pencils.  However, this counts twice the 2 boxes with both pens and pencils, so we subtract 2 from our total to only count these boxes once.  That gives us $6+3-2=7$ boxes with pens or pencils, which leaves $10-7=\\boxed{3\\text{ boxes}}$ with neither."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe light on a lighthouse blinks 255 times in 5 minutes. How long will it take the light to blink 459 times?",
+        "inference": "1. Calculate blinks per minute: 255 blinks / 5 minutes = 51 blinks/minute\n\n2. Calculate the time for 459 blinks: 459 blinks / 51 blinks/minute = 9 minutes\n\nI hope it is correct: 9 $minutes$\n",
+        "ground_truth": "The lighthouse blinks 255 / 5 = <<255/5=51>>51 times per minute.\nIt takes 459 / 51 = <<459/51=9>>9 minutes for the lighthouse to blink 459 times.\n#### 9"
+    },
+    {
+        "question": "1. Calculate blinks per minute: 255 blinks / 5 minutes = 51 blinks/minute\n\n2. Calculate the time for 459 blinks: 459 blinks / 51 blinks/minute = 9 minutes\n\nI hope it is correct: 9 $minutes$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 9 minutes\n",
+        "ground_truth": "The lighthouse blinks 255 / 5 = <<255/5=51>>51 times per minute.\nIt takes 459 / 51 = <<459/51=9>>9 minutes for the lighthouse to blink 459 times.\n#### 9"
+    }
+]

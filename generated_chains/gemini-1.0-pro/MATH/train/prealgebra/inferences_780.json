@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the value of $x$ if \\begin{align*}x &= y+5,\\\\\ny &= z+10,\\\\\nz &= w+20,\\\\\n\\text{and }\\qquad w &= 80?\n\\end{align*}",
+        "inference": "Solution:\n\\begin{align*}\nx &= y+5\\\\\n&= (z+10)+5\\\\\n&= (w+20)+5+10\\\\\n&= 80+20+5+10\\\\\n&= 115.\n\\end{align*}\nFinal Answer: $\\boxed{115}$. I hope it is correct.",
+        "ground_truth": "Plugging the known value of $w$ into the third given equation, we find that $z=100$. Plugging $z$ into the second given equation, we find that $y=110$. Plugging $y$ into the first given equation gives $x=\\boxed{115}$."
+    },
+    {
+        "question": "Solution:\n\\begin{align*}\nx &= y+5\\\\\n&= (z+10)+5\\\\\n&= (w+20)+5+10\\\\\n&= 80+20+5+10\\\\\n&= 115.\n\\end{align*}\nFinal Answer: $\\boxed{115}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{115}",
+        "ground_truth": "Plugging the known value of $w$ into the third given equation, we find that $z=100$. Plugging $z$ into the second given equation, we find that $y=110$. Plugging $y$ into the first given equation gives $x=\\boxed{115}$."
+    }
+]

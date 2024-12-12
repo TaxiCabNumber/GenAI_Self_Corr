@@ -135,8 +135,12 @@ def plot_correctness_one_round(first_results, next_results, folder_path="./proce
     plt.legend()
 
     # Ensure the results directory exists
-    results_dir = "results"
-    config_dir = model_name + "/" + mode + "/"
+    if "MATH" in folder_path:
+        dataset = "MATH"
+    else:
+        dataset = "GSM8K"
+    results_dir = "results/"
+    config_dir = model_name + "/" + dataset + "/" + mode + "/"
     results_dir = os.path.join(results_dir, config_dir) # does not automatically adds slash
     os.makedirs(results_dir, exist_ok=True) # has to be called last to verify its existence
     

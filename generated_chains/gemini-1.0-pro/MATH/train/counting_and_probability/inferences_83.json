@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nI have 6 shirts, 6 pairs of pants, and 6 hats.  Each item comes in the same 6 colors (so that I have one of each item of each color).  I refuse to wear an outfit in which all 3 items are the same color.  How many choices for outfits do I have?",
+        "inference": "We have 6 choices for shirt, 6 choices for pants, and 6 choices for hats.\n\nIf all 3 items are the same color, then we have 6 choices.\n\nIf 2 items are the same color and the other item is a different color, then we have $6\\times6\\times5=180$ choices because the different color item can be chosen in 5 ways.\n\nIf all 3 items are different colors, then we have $6\\times6\\times6=216$ choices.\n\nTherefore, the total number of choices for outfits is $180+216=\\boxed{396}$.\nFinal Answer: $\\boxed{396}$. I hope it is correct.",
+        "ground_truth": "The number of all outfit combinations is $6\\times 6\\times 6=216$. There are 6 outfits in which all three items are the same color. Thus there are $216-6=\\boxed{210}$ outfits in which not all three items are the same color."
+    },
+    {
+        "question": "We have 6 choices for shirt, 6 choices for pants, and 6 choices for hats.\n\nIf all 3 items are the same color, then we have 6 choices.\n\nIf 2 items are the same color and the other item is a different color, then we have $6\\times6\\times5=180$ choices because the different color item can be chosen in 5 ways.\n\nIf all 3 items are different colors, then we have $6\\times6\\times6=216$ choices.\n\nTherefore, the total number of choices for outfits is $180+216=\\boxed{396}$.\nFinal Answer: $\\boxed{396}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$396$}",
+        "ground_truth": "The number of all outfit combinations is $6\\times 6\\times 6=216$. There are 6 outfits in which all three items are the same color. Thus there are $216-6=\\boxed{210}$ outfits in which not all three items are the same color."
+    }
+]

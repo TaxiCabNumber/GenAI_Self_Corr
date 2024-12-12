@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nJohn has 6 green marbles and 4 purple marbles. He chooses a marble at random, writes down its color, and then puts the marble back.  He performs this process 5 times. What is the probability that he chooses exactly two green marbles?",
+        "inference": "The probability of choosing a green marble is 6/10 = 3/5. \nThe probability of choosing a purple marble is 4/10 = 2/5. \nThe probability of choosing exactly two green marbles is:\n(3/5) * (3/5) * (2/5) * (2/5) * (2/5) = 216/3125\nFinal Answer: \\boxed{216/3125}. I hope it is correct.",
+        "ground_truth": "There are $\\binom{5}{2}=10$ ways to choose which two of the five marbles John chose were green. For any of those 10 choices, there is a $\\left( \\frac{6}{10} \\right) ^2 \\left( \\frac{4}{10} \\right) ^3 = \\frac{72}{3125}$ chance for that choice to happen. The total probability is then $10 \\cdot \\frac{72}{3125}= \\boxed{\\frac{144}{625}}$."
+    },
+    {
+        "question": "The probability of choosing a green marble is 6/10 = 3/5. \nThe probability of choosing a purple marble is 4/10 = 2/5. \nThe probability of choosing exactly two green marbles is:\n(3/5) * (3/5) * (2/5) * (2/5) * (2/5) = 216/3125\nFinal Answer: \\boxed{216/3125}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{108/3125}",
+        "ground_truth": "There are $\\binom{5}{2}=10$ ways to choose which two of the five marbles John chose were green. For any of those 10 choices, there is a $\\left( \\frac{6}{10} \\right) ^2 \\left( \\frac{4}{10} \\right) ^3 = \\frac{72}{3125}$ chance for that choice to happen. The total probability is then $10 \\cdot \\frac{72}{3125}= \\boxed{\\frac{144}{625}}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nDamien created a currency based on bottle caps and got his friends to take part.  He finds 10 bottle caps a day on his way home and each bottle cap is worth $.25.  How much money does he make in a 30 day month?",
+        "inference": "1. Calculate the total bottle caps collected in a month: 10 bottle caps/day * 30 days/month = 300 bottle caps\n\n2. Calculate the value of the bottle caps: 300 bottle caps * $0.25/bottle cap = $75\n\nI hope it is correct: $75.00\n",
+        "ground_truth": "He finds 10*30=<<10*30=300>>300 bottle caps in the month\nThey are worth 300*.25=$<<300*.25=75>>75\n#### 75"
+    },
+    {
+        "question": "1. Calculate the total bottle caps collected in a month: 10 bottle caps/day * 30 days/month = 300 bottle caps\n\n2. Calculate the value of the bottle caps: 300 bottle caps * $0.25/bottle cap = $75\n\nI hope it is correct: $75.00\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $75.00\n",
+        "ground_truth": "He finds 10*30=<<10*30=300>>300 bottle caps in the month\nThey are worth 300*.25=$<<300*.25=75>>75\n#### 75"
+    }
+]

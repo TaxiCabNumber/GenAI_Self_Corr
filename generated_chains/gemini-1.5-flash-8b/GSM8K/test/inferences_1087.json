@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA farmer is baling hay in their field. Each hour the farmer makes 5 bales. At the same time, a truck is picking the hay bales up. Each hour the truck picks up 3 bales of hay. If the farmer and the truck driver put in a 6 hour day, how many bales of hay are left in the field?",
+        "inference": "Farmer makes 5 bales/hour * 6 hours = 30 bales\nTruck picks up 3 bales/hour * 6 hours = 18 bales\n30 bales - 18 bales = 12 bales\n\nI hope it is correct: 12 $bales$\n",
+        "ground_truth": "The farmer makes 5*6= <<5*6=30>>30 bales of hay.\nThe truck takes away 3*6= <<3*6=18>>18 bales of hay.\nThere are 30-18= <<30-18=12>>12 bales of hay left in the field.\n#### 12"
+    },
+    {
+        "question": "Farmer makes 5 bales/hour * 6 hours = 30 bales\nTruck picks up 3 bales/hour * 6 hours = 18 bales\n30 bales - 18 bales = 12 bales\n\nI hope it is correct: 12 $bales$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 12 bales\n",
+        "ground_truth": "The farmer makes 5*6= <<5*6=30>>30 bales of hay.\nThe truck takes away 3*6= <<3*6=18>>18 bales of hay.\nThere are 30-18= <<30-18=12>>12 bales of hay left in the field.\n#### 12"
+    }
+]

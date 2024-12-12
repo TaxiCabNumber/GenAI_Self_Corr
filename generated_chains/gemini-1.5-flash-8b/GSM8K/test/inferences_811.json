@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nFelix notices that kids in the neighborhood are always getting things stuck in trees. Since he is an expert tree climber, he decided to start charging kids to get their stuff out. He charges based on how high he has to climb. Every branch he has to climb up costs $.25. During the week he made $105. On average, how many branches did he climb per day?",
+        "inference": "1.  Felix made $105 in a week.\n2.  There are 7 days in a week.\n3.  Divide the total earnings by the number of days: $105 / 7 days = $15 per day.\n4.  Each branch costs $.25.\n5.  Divide the daily earnings by the cost per branch: $15 / $0.25/branch = 60 branches per day.\n\nI hope it is correct: 60 $branches/day$\n",
+        "ground_truth": "He climbed 420 branches in total because 105 / .25 = <<105/.25=420>>420\nHe climbed on average 60 branches a day because 420 / 7 = <<420/7=60>>60\n#### 60"
+    },
+    {
+        "question": "1.  Felix made $105 in a week.\n2.  There are 7 days in a week.\n3.  Divide the total earnings by the number of days: $105 / 7 days = $15 per day.\n4.  Each branch costs $.25.\n5.  Divide the daily earnings by the cost per branch: $15 / $0.25/branch = 60 branches per day.\n\nI hope it is correct: 60 $branches/day$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 60 branches\n",
+        "ground_truth": "He climbed 420 branches in total because 105 / .25 = <<105/.25=420>>420\nHe climbed on average 60 branches a day because 420 / 7 = <<420/7=60>>60\n#### 60"
+    }
+]

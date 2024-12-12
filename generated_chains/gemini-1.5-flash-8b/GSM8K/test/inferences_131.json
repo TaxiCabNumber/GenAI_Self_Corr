@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe expenditure of Joseph in May was $500. In June, his expenditure was $60 less. How much was his total expenditure for those two months?",
+        "inference": "Expenditure in June = $500 - $60 = $440\nTotal expenditure = $500 + $440 = $940\nI hope it is correct: $940\n",
+        "ground_truth": "His expenditure in June was $500 - $60 = $<<500-60=440>>440.\nHis total expenditure for May and June was $500 + $440 = $<<500+440=940>>940.\n#### 940"
+    },
+    {
+        "question": "Expenditure in June = $500 - $60 = $440\nTotal expenditure = $500 + $440 = $940\nI hope it is correct: $940\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $940\n",
+        "ground_truth": "His expenditure in June was $500 - $60 = $<<500-60=440>>440.\nHis total expenditure for May and June was $500 + $440 = $<<500+440=940>>940.\n#### 940"
+    }
+]

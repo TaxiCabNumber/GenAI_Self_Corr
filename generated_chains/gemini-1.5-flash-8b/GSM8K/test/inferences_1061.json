@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBetsy and Donovan made a meal together. Betsy's part took 18 minutes longer than Donovan's part. The meal was made in 98 minutes. How many minutes long was Betsy's part?",
+        "inference": "Let Donovan's part be 'x' minutes.\nBetsy's part is 'x + 18' minutes.\nTotal time = Donovan's part + Betsy's part\n98 = x + (x + 18)\n98 = 2x + 18\n98 - 18 = 2x\n80 = 2x\nx = 40\nBetsy's part = x + 18 = 40 + 18 = 58 minutes\n\nI hope it is correct: 58 $minutes$\n",
+        "ground_truth": "Let D = Donovan's time in minutes\nBetsy = D + <<+18=18>>18\n2D + 18 = 98\n2D = 80\nD = <<40=40>>40\nBetsy = 40 + 18 = <<40+18=58>>58 minutes\nBetsy's part took 58 minutes.\n#### 58"
+    },
+    {
+        "question": "Let Donovan's part be 'x' minutes.\nBetsy's part is 'x + 18' minutes.\nTotal time = Donovan's part + Betsy's part\n98 = x + (x + 18)\n98 = 2x + 18\n98 - 18 = 2x\n80 = 2x\nx = 40\nBetsy's part = x + 18 = 40 + 18 = 58 minutes\n\nI hope it is correct: 58 $minutes$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 58 minutes\n",
+        "ground_truth": "Let D = Donovan's time in minutes\nBetsy = D + <<+18=18>>18\n2D + 18 = 98\n2D = 80\nD = <<40=40>>40\nBetsy = 40 + 18 = <<40+18=58>>58 minutes\nBetsy's part took 58 minutes.\n#### 58"
+    }
+]

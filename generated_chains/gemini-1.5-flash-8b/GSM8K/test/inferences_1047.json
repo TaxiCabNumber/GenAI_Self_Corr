@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRory is retrieving tennis balls from the court after a tennis match. In the first of three sets, he had to retrieve four more balls than in the second set. In the third set, he retrieved half as many balls as in the second. He retrieved 19 tennis balls in all. How many tennis balls did he retrieve in the first set of the match?",
+        "inference": "Let 'x' be the number of balls retrieved in the second set.\nFirst set: x + 4\nThird set: x/2\nTotal: (x + 4) + x + (x/2) = 19\nMultiply by 2 to eliminate the fraction:\n2x + 8 + 2x + x = 38\n5x + 8 = 38\n5x = 30\nx = 6\n\nFirst set: x + 4 = 6 + 4 = 10\n\nI hope it is correct: 10$\n",
+        "ground_truth": "Let B be the number of tennis balls Rory retrieved in the third set.\nIn the second set, he retrieved 2B balls.\nIn the first set, he retrieved 2B + 4 balls.\nIn total, he retrieved B + 2B + 2B + 4 = 5B + 4 = 19 balls.\nThus, 5B = 19 - 4 = 15 balls.\nTherefore, in the third set, Rory retrieved B = 15 / 5 = <<15/5=3>>3 balls.\nHence, in the second set, he retrieved 2B = 3 * 2 = 6 balls.\nIn the first set he retrieved 2(3) + 4 balls = 10\n#### 10"
+    },
+    {
+        "question": "Let 'x' be the number of balls retrieved in the second set.\nFirst set: x + 4\nThird set: x/2\nTotal: (x + 4) + x + (x/2) = 19\nMultiply by 2 to eliminate the fraction:\n2x + 8 + 2x + x = 38\n5x + 8 = 38\n5x = 30\nx = 6\n\nFirst set: x + 4 = 6 + 4 = 10\n\nI hope it is correct: 10$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 10\n",
+        "ground_truth": "Let B be the number of tennis balls Rory retrieved in the third set.\nIn the second set, he retrieved 2B balls.\nIn the first set, he retrieved 2B + 4 balls.\nIn total, he retrieved B + 2B + 2B + 4 = 5B + 4 = 19 balls.\nThus, 5B = 19 - 4 = 15 balls.\nTherefore, in the third set, Rory retrieved B = 15 / 5 = <<15/5=3>>3 balls.\nHence, in the second set, he retrieved 2B = 3 * 2 = 6 balls.\nIn the first set he retrieved 2(3) + 4 balls = 10\n#### 10"
+    }
+]

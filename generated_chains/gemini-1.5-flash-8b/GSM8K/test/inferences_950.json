@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBahati, Azibo, and Dinar each contributed to their team's 45 points. Bahati scored the most points and it was 20 more than Azibo scored and 10 more points than Dinar scored. How many points did Azibo score?",
+        "inference": "Let B, A, and D represent the number of points Bahati, Azibo, and Dinar scored, respectively.\nWe are given that B + A + D = 45.\nWe are also given that B = A + 20 and B = D + 10.\nSubstituting the expressions for B in terms of A and D into the first equation, we have:\n(A + 20) + A + D = 45\n2A + D + 20 = 45\n2A + D = 25\nFrom B = D + 10, we get D = B - 10.\nSubstituting this into the equation 2A + D = 25, we get\n2A + (B - 10) = 25\n2A + B = 35\nSince B = A + 20, substituting this into the equation 2A + B = 35, we get\n2A + (A + 20) = 35\n3A + 20 = 35\n3A = 15\nA = 5\nTherefore, Azibo scored 5 points.\nI hope it is correct: 5 $answer$\n",
+        "ground_truth": "Let B = the number of points Bahati scored\nAzibo = B - 20\nDinar = B - 10\nB + B -20 + B - 10 = 45\n3B - 30 = 45;\n3B = 75\nB = <<25=25>>25\nAzibo = 25 - 20 = <<25-20=5>>5 points\nAzibo scored 5 points.\n#### 5"
+    },
+    {
+        "question": "Let B, A, and D represent the number of points Bahati, Azibo, and Dinar scored, respectively.\nWe are given that B + A + D = 45.\nWe are also given that B = A + 20 and B = D + 10.\nSubstituting the expressions for B in terms of A and D into the first equation, we have:\n(A + 20) + A + D = 45\n2A + D + 20 = 45\n2A + D = 25\nFrom B = D + 10, we get D = B - 10.\nSubstituting this into the equation 2A + D = 25, we get\n2A + (B - 10) = 25\n2A + B = 35\nSince B = A + 20, substituting this into the equation 2A + B = 35, we get\n2A + (A + 20) = 35\n3A + 20 = 35\n3A = 15\nA = 5\nTherefore, Azibo scored 5 points.\nI hope it is correct: 5 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 5\n",
+        "ground_truth": "Let B = the number of points Bahati scored\nAzibo = B - 20\nDinar = B - 10\nB + B -20 + B - 10 = 45\n3B - 30 = 45;\n3B = 75\nB = <<25=25>>25\nAzibo = 25 - 20 = <<25-20=5>>5 points\nAzibo scored 5 points.\n#### 5"
+    }
+]

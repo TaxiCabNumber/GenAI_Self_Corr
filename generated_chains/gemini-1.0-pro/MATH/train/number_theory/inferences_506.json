@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhen three positive integers are divided by $47$, the remainders are $25$, $20$, and $3$, respectively.\n\nWhen the sum of the three integers is divided by $47$, what is the remainder?",
+        "inference": "The sum of the remainders is congruent to the remainder of the sum modulo $47$. Therefore, the remainder of the sum is congruent to $25+20+3=48$ modulo $47$. Thus, the remainder is $\\boxed{1}$.\nFinal Answer: $\\boxed{1}$. I hope it is correct.",
+        "ground_truth": "We can call the three integers in this problem $a,$ $b,$ and $c$. Then we have \\begin{align*}\na &\\equiv 25\\pmod{47}, \\\\\nb &\\equiv 20\\pmod{47}, \\\\\nc &\\equiv 3\\pmod{47}.\n\\end{align*}Adding these congruences, we have \\begin{align*}\na+b+c &\\equiv 25+20+3 \\\\\n&= 48\\pmod{47}.\n\\end{align*}Therefore, $a+b+c$ has the same remainder as $48$ upon division by $47$. This remainder is $\\boxed{1}$."
+    },
+    {
+        "question": "The sum of the remainders is congruent to the remainder of the sum modulo $47$. Therefore, the remainder of the sum is congruent to $25+20+3=48$ modulo $47$. Thus, the remainder is $\\boxed{1}$.\nFinal Answer: $\\boxed{1}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{1}",
+        "ground_truth": "We can call the three integers in this problem $a,$ $b,$ and $c$. Then we have \\begin{align*}\na &\\equiv 25\\pmod{47}, \\\\\nb &\\equiv 20\\pmod{47}, \\\\\nc &\\equiv 3\\pmod{47}.\n\\end{align*}Adding these congruences, we have \\begin{align*}\na+b+c &\\equiv 25+20+3 \\\\\n&= 48\\pmod{47}.\n\\end{align*}Therefore, $a+b+c$ has the same remainder as $48$ upon division by $47$. This remainder is $\\boxed{1}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCompute $\\dbinom{15}{3}$.",
+        "inference": "$\\dbinom{15}{3} = \\frac{15!}{3! (15-3)!} = \\frac{15!}{3! 12!} = \\frac{15 \\times 14 \\times 13}{3 \\times 2 \\times 1} = \\frac{15 \\times 14 \\times 13}{6} = 5 \\times 7 \\times 13 = 35 \\times 13 = 455$\n\nFinal Answer: $\\boxed{455}$\n",
+        "ground_truth": "\\begin{align*}\n\\dbinom{15}{3} &= \\dfrac{15!}{12!3!} \\\\\n&= \\dfrac{15\\times 14\\times 13}{3\\times 2\\times 1} \\\\\n&= \\dfrac{15}{3} \\times \\dfrac{14}{2} \\times \\dfrac{13}{1} \\\\\n&= 5\\times 7\\times 13 \\\\\n&= \\boxed{455}.\n\\end{align*}"
+    },
+    {
+        "question": "$\\dbinom{15}{3} = \\frac{15!}{3! (15-3)!} = \\frac{15!}{3! 12!} = \\frac{15 \\times 14 \\times 13}{3 \\times 2 \\times 1} = \\frac{15 \\times 14 \\times 13}{6} = 5 \\times 7 \\times 13 = 35 \\times 13 = 455$\n\nFinal Answer: $\\boxed{455}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\binom{15}{3} = \\frac{15!}{3! (15-3)!} = \\frac{15!}{3! 12!} = \\frac{15 \\times 14 \\times 13 \\times 12!}{3 \\times 2 \\times 1 \\times 12!} = \\frac{15 \\times 14 \\times 13}{3 \\times 2 \\times 1} = \\frac{2730}{6} = 455$\n\nFinal Answer: $\\boxed{455}$",
+        "ground_truth": "\\begin{align*}\n\\dbinom{15}{3} &= \\dfrac{15!}{12!3!} \\\\\n&= \\dfrac{15\\times 14\\times 13}{3\\times 2\\times 1} \\\\\n&= \\dfrac{15}{3} \\times \\dfrac{14}{2} \\times \\dfrac{13}{1} \\\\\n&= 5\\times 7\\times 13 \\\\\n&= \\boxed{455}.\n\\end{align*}"
+    }
+]

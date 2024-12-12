@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIn a set of magicians cards, there are 15 red cards, and 60% more green cards. Yellow cards are as many, as the sum of red and green cards. How many cards of all mentioned colors are there?",
+        "inference": "1. Green cards are 60% more than red cards.  This means there are 15 red cards * 1.60 = 24 green cards.\n\n2. Yellow cards are as many as the sum of red and green cards.  This is 15 red cards + 24 green cards = 39 yellow cards.\n\n3. Total cards = red + green + yellow = 15 + 24 + 39 = 78 cards.\n\nI hope it is correct: 78 $answer$\n",
+        "ground_truth": "There are 60/100 * 15 = <<60/100*15=9>>9 more green cards than red cards.\nWhich means there are 15 + 9 = <<15+9=24>>24 green cards.\nYellow cards make up to 15 + 24 = <<15+24=39>>39 cards.\nSo in total, there are 39 + 39 = <<39+39=78>>78 cards of different colors.\n#### 78"
+    },
+    {
+        "question": "1. Green cards are 60% more than red cards.  This means there are 15 red cards * 1.60 = 24 green cards.\n\n2. Yellow cards are as many as the sum of red and green cards.  This is 15 red cards + 24 green cards = 39 yellow cards.\n\n3. Total cards = red + green + yellow = 15 + 24 + 39 = 78 cards.\n\nI hope it is correct: 78 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 78\n",
+        "ground_truth": "There are 60/100 * 15 = <<60/100*15=9>>9 more green cards than red cards.\nWhich means there are 15 + 9 = <<15+9=24>>24 green cards.\nYellow cards make up to 15 + 24 = <<15+24=39>>39 cards.\nSo in total, there are 39 + 39 = <<39+39=78>>78 cards of different colors.\n#### 78"
+    }
+]

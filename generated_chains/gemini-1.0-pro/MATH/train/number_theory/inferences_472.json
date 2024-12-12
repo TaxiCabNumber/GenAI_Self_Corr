@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWinnie has 17 red balloons, 33 white balloons, 65 green balloons, and 83 chartreuse balloons.  With no regard to color, Winnie gives each of her 8 nearest and dearest friends some balloons.  Each friend gets the same number of balloons and she hands out as many balloons as possible.  How many balloons does Winnie end up keeping for herself?",
+        "inference": "1. Find the total number of balloons: 17 + 33 + 65 + 83 = 198.\n2. Determine the number of balloons each friend receives: 198 / 8 = 24 balloons per friend.\n3. Calculate the total number of balloons given to friends: 24 * 8 = 192 balloons.\n4. Subtract the balloons given to friends from the total number of balloons: 198 - 192 = 6 balloons.\n\nFinal Answer: \\boxed{$6$}. I hope it is correct.",
+        "ground_truth": "We want to know the remainder when $17+33+65+83$ is divided by 8.  The remainders of each of these numbers are easy to compute individually so we can say \\[17+33+65+83\\equiv1+1+1+3\\equiv6\\pmod8.\\]Therefore Winnie has $\\boxed{6}$ balloons left over after giving out her balloons."
+    },
+    {
+        "question": "1. Find the total number of balloons: 17 + 33 + 65 + 83 = 198.\n2. Determine the number of balloons each friend receives: 198 / 8 = 24 balloons per friend.\n3. Calculate the total number of balloons given to friends: 24 * 8 = 192 balloons.\n4. Subtract the balloons given to friends from the total number of balloons: 198 - 192 = 6 balloons.\n\nFinal Answer: \\boxed{$6$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$6$}.",
+        "ground_truth": "We want to know the remainder when $17+33+65+83$ is divided by 8.  The remainders of each of these numbers are easy to compute individually so we can say \\[17+33+65+83\\equiv1+1+1+3\\equiv6\\pmod8.\\]Therefore Winnie has $\\boxed{6}$ balloons left over after giving out her balloons."
+    }
+]

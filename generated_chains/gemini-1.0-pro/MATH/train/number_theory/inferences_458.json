@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nHow many two-digit positive integers are congruent to 1 (mod 3)?",
+        "inference": "There are 30 two-digit positive integers congruent to 1 (mod 3).\n\nThe two-digit positive integers congruent to 1 (mod 3) are all the numbers of the form 3n + 1, where n is an integer such that 1 \u2264 n \u2264 33.\n\nThere are 33 possible values of n, so there are 33 two-digit positive integers congruent to 1 (mod 3).\n\nFinal Answer: \\boxed{$33$}. I hope it is correct.",
+        "ground_truth": "If an integer is congruent to 1 mod 3, then it can be written in the form $3k+1$. Therefore, we have two inequalities: $3k+1 \\ge 10$, and $3k+1 \\le 99$. The inequality $3k+1 \\ge 10$ has solution $k\\ge3$, and the inequality $3k+1 \\le 99$ has solution $k \\le 32 \\frac{2}{3}$. Therefore, $k$ must be an integer between $3$ and $32$. There are $\\boxed{30}$ such integers."
+    },
+    {
+        "question": "There are 30 two-digit positive integers congruent to 1 (mod 3).\n\nThe two-digit positive integers congruent to 1 (mod 3) are all the numbers of the form 3n + 1, where n is an integer such that 1 \u2264 n \u2264 33.\n\nThere are 33 possible values of n, so there are 33 two-digit positive integers congruent to 1 (mod 3).\n\nFinal Answer: \\boxed{$33$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$33$}.",
+        "ground_truth": "If an integer is congruent to 1 mod 3, then it can be written in the form $3k+1$. Therefore, we have two inequalities: $3k+1 \\ge 10$, and $3k+1 \\le 99$. The inequality $3k+1 \\ge 10$ has solution $k\\ge3$, and the inequality $3k+1 \\le 99$ has solution $k \\le 32 \\frac{2}{3}$. Therefore, $k$ must be an integer between $3$ and $32$. There are $\\boxed{30}$ such integers."
+    }
+]

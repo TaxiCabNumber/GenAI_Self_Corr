@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe jumbo bottle of shampoo costs $24.00.  The directions say to use 2 pumps of shampoo and this will give you 120 washings.  If Jackie only uses 1 pump per wash, how much will each pump cost, in cents?",
+        "inference": "1. Total cost of shampoo: $24.00\n2. Convert to cents: $24.00 * 100 = 2400 cents\n3. Washings per 2 pumps: 120\n4. Washings per pump: 120 washings / 2 pumps = 60 washings/pump\n5. Cost per washing: 2400 cents / 120 washings = 20 cents/washing\n6. Cost per pump: 20 cents/washing * 1 pump/washing = 20 cents/pump\n\nI hope it is correct: 20 $answer$\n",
+        "ground_truth": "2 pumps will give you 120 washes so if she only uses 1 pump per wash she doubles the number of washes so she now has 120*2 = <<120*2=240>>240 washes\nThe bottle costs $24.00 and she will 240 washes so each wash is 24/240 = $<<24/240=0.10>>0.10\n#### 10"
+    },
+    {
+        "question": "1. Total cost of shampoo: $24.00\n2. Convert to cents: $24.00 * 100 = 2400 cents\n3. Washings per 2 pumps: 120\n4. Washings per pump: 120 washings / 2 pumps = 60 washings/pump\n5. Cost per washing: 2400 cents / 120 washings = 20 cents/washing\n6. Cost per pump: 20 cents/washing * 1 pump/washing = 20 cents/pump\n\nI hope it is correct: 20 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $0.20\n",
+        "ground_truth": "2 pumps will give you 120 washes so if she only uses 1 pump per wash she doubles the number of washes so she now has 120*2 = <<120*2=240>>240 washes\nThe bottle costs $24.00 and she will 240 washes so each wash is 24/240 = $<<24/240=0.10>>0.10\n#### 10"
+    }
+]

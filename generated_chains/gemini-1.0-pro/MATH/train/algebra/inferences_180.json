@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nGiven that $x+y = 10$ and $2x+y = 13$, evaluate $x^2-y^2$.",
+        "inference": "$$x + y = 10, \\ \\ \\ (1)$$\n\n$$2x + y = 13, \\ \\ \\ (2)$$\n\nSubtract (1) from (2)\n\n$$ 2x + y - ( x + y) = 13 - 10$$\n\n$$ 2x + y -x - y = 3$$\n\n$$ x = 3 $$\n\nSubstitute x = 3 in (1)\n\n$$ 3 + y = 10$$\n\n$$ y = 10 - 3$$\n\n$$y = 7$$\n\n$$ x^2 - y^2 = (3)^2 - (7)^2 = 9 - 49 = -40$$\n\nFinal Answer: $\\boxed{-40}$. I hope it is correct.",
+        "ground_truth": "Subtracting the first given equation from the second equation, we have $2x+y-(x+y)=13-10 \\Rightarrow x=3$. Plugging the value of $x$ into the first given equation to solve for $y$, we have $y=10-x=7$. Thus, $x^2-y^2=3^2-7^2=\\boxed{-40}$."
+    },
+    {
+        "question": "$$x + y = 10, \\ \\ \\ (1)$$\n\n$$2x + y = 13, \\ \\ \\ (2)$$\n\nSubtract (1) from (2)\n\n$$ 2x + y - ( x + y) = 13 - 10$$\n\n$$ 2x + y -x - y = 3$$\n\n$$ x = 3 $$\n\nSubstitute x = 3 in (1)\n\n$$ 3 + y = 10$$\n\n$$ y = 10 - 3$$\n\n$$y = 7$$\n\n$$ x^2 - y^2 = (3)^2 - (7)^2 = 9 - 49 = -40$$\n\nFinal Answer: $\\boxed{-40}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$ \\boxed{-40}$$",
+        "ground_truth": "Subtracting the first given equation from the second equation, we have $2x+y-(x+y)=13-10 \\Rightarrow x=3$. Plugging the value of $x$ into the first given equation to solve for $y$, we have $y=10-x=7$. Thus, $x^2-y^2=3^2-7^2=\\boxed{-40}$."
+    }
+]

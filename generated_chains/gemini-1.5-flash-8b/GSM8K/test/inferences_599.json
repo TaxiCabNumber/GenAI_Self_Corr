@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA pet store currently has 5 dogs, 2 cats, and 10 birds. How many legs in total do the pets in the store have?",
+        "inference": "Dogs have 4 legs each.\nCats have 4 legs each.\nBirds have 2 legs each.\n\nTotal dog legs: 5 dogs * 4 legs/dog = 20 legs\nTotal cat legs: 2 cats * 4 legs/cat = 8 legs\nTotal bird legs: 10 birds * 2 legs/bird = 20 legs\n\nTotal legs: 20 + 8 + 20 = 48 legs\n\nI hope it is correct: 48 $answer$\n",
+        "ground_truth": "The dogs have 5 dogs * 4 legs/dog = <<5*4=20>>20 legs.\nThe cats have 2 cats * 4 legs/cat = <<2*4=8>>8 legs.\nThe birds have 10 birds * 2 legs/bird = <<10*2=20>>20 legs.\nThe pets have 20 legs + 8 legs + 20 legs = <<20+8+20=48>>48 legs.\n#### 48"
+    },
+    {
+        "question": "Dogs have 4 legs each.\nCats have 4 legs each.\nBirds have 2 legs each.\n\nTotal dog legs: 5 dogs * 4 legs/dog = 20 legs\nTotal cat legs: 2 cats * 4 legs/cat = 8 legs\nTotal bird legs: 10 birds * 2 legs/bird = 20 legs\n\nTotal legs: 20 + 8 + 20 = 48 legs\n\nI hope it is correct: 48 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 48\n",
+        "ground_truth": "The dogs have 5 dogs * 4 legs/dog = <<5*4=20>>20 legs.\nThe cats have 2 cats * 4 legs/cat = <<2*4=8>>8 legs.\nThe birds have 10 birds * 2 legs/bird = <<10*2=20>>20 legs.\nThe pets have 20 legs + 8 legs + 20 legs = <<20+8+20=48>>48 legs.\n#### 48"
+    }
+]

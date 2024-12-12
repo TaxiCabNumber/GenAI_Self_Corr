@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nHow many four-digit positive integers are there with thousands digit $2?$",
+        "inference": "We can fill the thousands digit in only one way, with $2$.  Then there are $10$ choices for the hundreds digit, $10$ choices for the tens digit, and $10$ choices for the units digit, for a total of $10 \\cdot 10 \\cdot 10 = 10^3 = 1000$ possible four-digit positive integers with thousands digit $2$.\nFinal Answer: $\\boxed{1000}$. I hope it is correct.",
+        "ground_truth": "We are trying to count the number of terms in the sequence $2000,$ $2001,$ $2002,$ $\\ldots,$ $2998,$ $2999.$ If we subtract $1999$ from every term in the sequence it becomes $1,$ $2,$ $3,$ $\\ldots,$ $999,$ $1000.$ So, there are $1000$ positive integers with $4$ digits and thousands digit $2.$\n\nOR\n\nWe could note that there are $10$ choices for each of the digits besides the thousands digit, so there are $$10\\times10\\times 10=\\boxed{1000}$$ positive integers with thousands digit $2.$"
+    },
+    {
+        "question": "We can fill the thousands digit in only one way, with $2$.  Then there are $10$ choices for the hundreds digit, $10$ choices for the tens digit, and $10$ choices for the units digit, for a total of $10 \\cdot 10 \\cdot 10 = 10^3 = 1000$ possible four-digit positive integers with thousands digit $2$.\nFinal Answer: $\\boxed{1000}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$1000$}",
+        "ground_truth": "We are trying to count the number of terms in the sequence $2000,$ $2001,$ $2002,$ $\\ldots,$ $2998,$ $2999.$ If we subtract $1999$ from every term in the sequence it becomes $1,$ $2,$ $3,$ $\\ldots,$ $999,$ $1000.$ So, there are $1000$ positive integers with $4$ digits and thousands digit $2.$\n\nOR\n\nWe could note that there are $10$ choices for each of the digits besides the thousands digit, so there are $$10\\times10\\times 10=\\boxed{1000}$$ positive integers with thousands digit $2.$"
+    }
+]

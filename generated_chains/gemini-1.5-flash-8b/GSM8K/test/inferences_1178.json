@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMike bought 5 face masks while Johnny bought 2 more than thrice as many as Mike. How many face masks did Johnny buy?",
+        "inference": "Mike bought 5 face masks.\nJohnny bought 2 more than thrice as many as Mike.\nThrice as many as Mike is 3 * 5 = 15.\n2 more than 15 is 15 + 2 = 17.\nJohnny bought 17 face masks.\nI hope it is correct: 17 $answer$\n",
+        "ground_truth": "Thrice as many as Mike's face masks is 5 x 3 = <<5*3=15>>15.\nSo, Johnny bought 15 + 2 = <<15+2=17>>17 face masks.\n#### 17"
+    },
+    {
+        "question": "Mike bought 5 face masks.\nJohnny bought 2 more than thrice as many as Mike.\nThrice as many as Mike is 3 * 5 = 15.\n2 more than 15 is 15 + 2 = 17.\nJohnny bought 17 face masks.\nI hope it is correct: 17 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $17$\n",
+        "ground_truth": "Thrice as many as Mike's face masks is 5 x 3 = <<5*3=15>>15.\nSo, Johnny bought 15 + 2 = <<15+2=17>>17 face masks.\n#### 17"
+    }
+]

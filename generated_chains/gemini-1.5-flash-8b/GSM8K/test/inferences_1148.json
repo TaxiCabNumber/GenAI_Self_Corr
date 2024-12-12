@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nChatty prepared three dozen eggs for her four children's Easter activity. Assuming each child gets the same number of eggs, how many eggs does each child receive?",
+        "inference": "Three dozen eggs is 3 * 12 = 36 eggs.\n36 eggs divided by 4 children is 36 / 4 = 9 eggs.\nI hope it is correct: 9 $answer$\n",
+        "ground_truth": "Chatty prepared 3 dozen x 12 eggs/dozen = <<3*12=36>>36 eggs.\nSince all four children receive the same number of eggs, each child gets 36 eggs / 4 children = <<36/4=9>>9 eggs/child\n#### 9"
+    },
+    {
+        "question": "Three dozen eggs is 3 * 12 = 36 eggs.\n36 eggs divided by 4 children is 36 / 4 = 9 eggs.\nI hope it is correct: 9 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 9\n",
+        "ground_truth": "Chatty prepared 3 dozen x 12 eggs/dozen = <<3*12=36>>36 eggs.\nSince all four children receive the same number of eggs, each child gets 36 eggs / 4 children = <<36/4=9>>9 eggs/child\n#### 9"
+    }
+]

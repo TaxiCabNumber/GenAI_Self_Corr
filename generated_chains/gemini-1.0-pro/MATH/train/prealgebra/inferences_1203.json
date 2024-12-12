@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe arithmetic mean of four numbers is 15. Two of the numbers are 10 and 18 and the other two are equal. What is the product of the two equal numbers?",
+        "inference": "Let the two equal numbers be \\(x\\).\nThen the total of the four numbers is \\(10+18+x+x=4x+28\\).\nThe arithmetic mean of four numbers is \\(15\\), so: \n$$\\frac{4x+28}{4}=15 \\Rightarrow 4x+28=60 \\Rightarrow 4x=32 \\Rightarrow x=8 $$\nTherefore, the product of the two equal numbers is \\(x\\cdot x=8\\cdot8=\\boxed{64}\\).\nFinal Answer: \\boxed{64}. I hope it is correct.",
+        "ground_truth": "If the mean of four numbers is $15$, then the sum of the four numbers is $15\\times4=60$. We subtract the two numbers we know to get $60-10-18=32$. So the sum of the two equal numbers is $32$ and their value is $\\frac{32}{2}=16$. The product of the two equal numbers is $16\\times16=\\boxed{256}$."
+    },
+    {
+        "question": "Let the two equal numbers be \\(x\\).\nThen the total of the four numbers is \\(10+18+x+x=4x+28\\).\nThe arithmetic mean of four numbers is \\(15\\), so: \n$$\\frac{4x+28}{4}=15 \\Rightarrow 4x+28=60 \\Rightarrow 4x=32 \\Rightarrow x=8 $$\nTherefore, the product of the two equal numbers is \\(x\\cdot x=8\\cdot8=\\boxed{64}\\).\nFinal Answer: \\boxed{64}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{64}",
+        "ground_truth": "If the mean of four numbers is $15$, then the sum of the four numbers is $15\\times4=60$. We subtract the two numbers we know to get $60-10-18=32$. So the sum of the two equal numbers is $32$ and their value is $\\frac{32}{2}=16$. The product of the two equal numbers is $16\\times16=\\boxed{256}$."
+    }
+]

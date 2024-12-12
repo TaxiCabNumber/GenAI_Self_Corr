@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nHannah needs to drink 60 ml of water for each kilometer she runs. If her gym teacher tells her to run 8 laps and each lap is 0.25 km, how many milliliters of water will Hannah need to drink?",
+        "inference": "1. Calculate the total distance Hannah runs: 8 laps * 0.25 km/lap = 2 km\n\n2. Calculate the total water needed: 2 km * 60 ml/km = 120 ml\n\nI hope it is correct: 120 $ml$\n",
+        "ground_truth": "First find the total number of kilometers Hannah runs: 8 laps * .25 km/lap = <<8*.25=2>>2 km\nThen multiply the number of kilometers she runs by the amount of water she needs per kilometer to find the total amount of water she needs: 60 ml/km * 2 km = <<60*2=120>>120 ml\n#### 120"
+    },
+    {
+        "question": "1. Calculate the total distance Hannah runs: 8 laps * 0.25 km/lap = 2 km\n\n2. Calculate the total water needed: 2 km * 60 ml/km = 120 ml\n\nI hope it is correct: 120 $ml$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 120 ml\n",
+        "ground_truth": "First find the total number of kilometers Hannah runs: 8 laps * .25 km/lap = <<8*.25=2>>2 km\nThen multiply the number of kilometers she runs by the amount of water she needs per kilometer to find the total amount of water she needs: 60 ml/km * 2 km = <<60*2=120>>120 ml\n#### 120"
+    }
+]

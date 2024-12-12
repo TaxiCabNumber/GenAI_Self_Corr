@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMara added 3 slices of cake to a plate that already had 2 slices on it. She was getting hungrier so she tripled the number of slices she currently has. She ate 2 slices and while she was distracted, her friend stole 5 slices off her plate. What number of cake slices remained on the plate?",
+        "inference": "1. Initial slices: 2 + 3 = 5 slices\n2. Tripling the slices: 5 * 3 = 15 slices\n3. After eating slices: 15 - 2 = 13 slices\n4. After friend stole slices: 13 - 5 = 8 slices\n\nI hope it is correct: 8 $answer$\n",
+        "ground_truth": "Mara had 3+2=<<3+2=5>>5 slices of cake.\nShe was hungry and tripled the amount to 5*3=<<5*3=15>>15 slices.\nShe ate a couple, leaving 15-2=<<15-2=13>>13 slices.\nHer friend came and stole some which left Mara to 13-5=<<13-5=8>>8 slices.\n#### 8"
+    },
+    {
+        "question": "1. Initial slices: 2 + 3 = 5 slices\n2. Tripling the slices: 5 * 3 = 15 slices\n3. After eating slices: 15 - 2 = 13 slices\n4. After friend stole slices: 13 - 5 = 8 slices\n\nI hope it is correct: 8 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 8\n",
+        "ground_truth": "Mara had 3+2=<<3+2=5>>5 slices of cake.\nShe was hungry and tripled the amount to 5*3=<<5*3=15>>15 slices.\nShe ate a couple, leaving 15-2=<<15-2=13>>13 slices.\nHer friend came and stole some which left Mara to 13-5=<<13-5=8>>8 slices.\n#### 8"
+    }
+]

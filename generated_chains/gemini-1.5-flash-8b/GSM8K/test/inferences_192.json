@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTom plants 10 trees a year.  Every year he also chops down 2 trees a year.  He starts with 50 trees.  After 10 years 30% of the trees die.  How many trees does he have left?",
+        "inference": "1. Initial trees: 50\n2. Trees planted per year: 10\n3. Trees chopped down per year: 2\n4. Net gain/loss per year: 10 - 2 = 8 trees\n5. Trees after 10 years: 50 + (10 years * 8 trees/year) = 50 + 80 = 130 trees\n6. Trees that die: 130 trees * 0.30 = 39 trees\n7. Trees remaining: 130 - 39 = 91 trees\n\nI hope it is correct: 91 $trees$\n",
+        "ground_truth": "He gets 10-2=<<10-2=8>>8 new trees a year\nAfter 10 years he has 8*10=<<8*10=80>>80 new trees\nSo he had 80+50=<<80+50=130>>130 trees\nHe lost 130*.3=<<130*.3=39>>39 trees\nThat means he had 130-39=<<130-39=91>>91 trees\n#### 91"
+    },
+    {
+        "question": "1. Initial trees: 50\n2. Trees planted per year: 10\n3. Trees chopped down per year: 2\n4. Net gain/loss per year: 10 - 2 = 8 trees\n5. Trees after 10 years: 50 + (10 years * 8 trees/year) = 50 + 80 = 130 trees\n6. Trees that die: 130 trees * 0.30 = 39 trees\n7. Trees remaining: 130 - 39 = 91 trees\n\nI hope it is correct: 91 $trees$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 91\n",
+        "ground_truth": "He gets 10-2=<<10-2=8>>8 new trees a year\nAfter 10 years he has 8*10=<<8*10=80>>80 new trees\nSo he had 80+50=<<80+50=130>>130 trees\nHe lost 130*.3=<<130*.3=39>>39 trees\nThat means he had 130-39=<<130-39=91>>91 trees\n#### 91"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMitchell is making nachos for his family. He buys two bags of chips with 55 chips each. If his family has five members, how many chips does each person get if they all get the same number?",
+        "inference": "1. Total chips: 2 bags * 55 chips/bag = 110 chips\n2. Chips per person: 110 chips / 5 people = 22 chips/person\n\nI hope it is correct: 22 $answer$\n",
+        "ground_truth": "There are 110 chips because 2 x 55 = <<2*55=110>>110\nThey each get 22 chips because 110 / 5 = <<110/5=22>>22\n#### 22"
+    },
+    {
+        "question": "1. Total chips: 2 bags * 55 chips/bag = 110 chips\n2. Chips per person: 110 chips / 5 people = 22 chips/person\n\nI hope it is correct: 22 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 22\n",
+        "ground_truth": "There are 110 chips because 2 x 55 = <<2*55=110>>110\nThey each get 22 chips because 110 / 5 = <<110/5=22>>22\n#### 22"
+    }
+]

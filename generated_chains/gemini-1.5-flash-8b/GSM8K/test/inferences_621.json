@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn injured his back and needs to go to physical therapy.  He went to physical therapy for 6 weeks.  Each week he went twice for 2 hours at a time.  If the sessions cost $125 per hour how much did the physical therapy cost?",
+        "inference": "1. Sessions per week: 2 sessions/week\n2. Total session hours per week: 2 sessions/week * 2 hours/session = 4 hours/week\n3. Total session hours for 6 weeks: 4 hours/week * 6 weeks = 24 hours\n4. Total cost: 24 hours * $125/hour = $3000\n\nI hope it is correct: $3000\n",
+        "ground_truth": "Each week he did 2*2=<<2*2=4>>4 hours of physical therapy\nSo it cost 4*125=$<<4*125=500>>500 per week\nThis means he spent 500*6=$<<500*6=3000>>3000\n#### 3000"
+    },
+    {
+        "question": "1. Sessions per week: 2 sessions/week\n2. Total session hours per week: 2 sessions/week * 2 hours/session = 4 hours/week\n3. Total session hours for 6 weeks: 4 hours/week * 6 weeks = 24 hours\n4. Total cost: 24 hours * $125/hour = $3000\n\nI hope it is correct: $3000\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $3000\n",
+        "ground_truth": "Each week he did 2*2=<<2*2=4>>4 hours of physical therapy\nSo it cost 4*125=$<<4*125=500>>500 per week\nThis means he spent 500*6=$<<500*6=3000>>3000\n#### 3000"
+    }
+]

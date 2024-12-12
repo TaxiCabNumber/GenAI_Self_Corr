@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSome people got on a bus at the terminal. At the first bus stop, 5 more people got in. Then at the second bus stop, 7 people got down and 8 more got in. If there were a total of 20 people heading to the third stop, how many people got on the bus at the terminal?",
+        "inference": "1. Let 'x' be the initial number of people on the bus.\n2. At the first stop, 5 more people got in, so the number of people is x + 5.\n3. At the second stop, 7 people got off and 8 more got in, so the number of people is (x + 5) - 7 + 8 = x + 6.\n4. There were 20 people heading to the third stop, so x + 6 = 20.\n5. Solving for x: x = 20 - 6 = 14.\n\nI hope it is correct: 14 $answer$\n",
+        "ground_truth": "There were 20 - 8 = <<20-8=12>>12 people on the bus before 8 people got in at the second stop.\nThere were a total of 12 + 7 =<<12+7=19>>19 people at the second stop before 7 people went down.\nSo, 19 - 5 = <<19-5=14>>14 people got on the bus at the terminal.\n#### 14"
+    },
+    {
+        "question": "1. Let 'x' be the initial number of people on the bus.\n2. At the first stop, 5 more people got in, so the number of people is x + 5.\n3. At the second stop, 7 people got off and 8 more got in, so the number of people is (x + 5) - 7 + 8 = x + 6.\n4. There were 20 people heading to the third stop, so x + 6 = 20.\n5. Solving for x: x = 20 - 6 = 14.\n\nI hope it is correct: 14 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 14\n",
+        "ground_truth": "There were 20 - 8 = <<20-8=12>>12 people on the bus before 8 people got in at the second stop.\nThere were a total of 12 + 7 =<<12+7=19>>19 people at the second stop before 7 people went down.\nSo, 19 - 5 = <<19-5=14>>14 people got on the bus at the terminal.\n#### 14"
+    }
+]

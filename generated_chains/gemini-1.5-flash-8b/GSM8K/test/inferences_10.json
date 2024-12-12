@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA new program had 60 downloads in the first month. The number of downloads in the second month was three times as many as the downloads in the first month, but then reduced by 30% in the third month. How many downloads did the program have total over the three months?",
+        "inference": "1. First month downloads: 60\n2. Second month downloads: 60 * 3 = 180\n3. Third month downloads: 180 * (1 - 0.30) = 180 * 0.70 = 126\n4. Total downloads: 60 + 180 + 126 = 366\n\nI hope it is correct: 366 $\n",
+        "ground_truth": "The number of downloads of the program in the second month increased to 3*60 = <<3*60=180>>180\nIn the first two months, the total number of downloads of the program was 180+60 = <<180+60=240>>240\nIn the third month, the number of downloads of the program reduced by 30/100*180 = <<30/100*180=54>>54\nThere were 180-54 = <<180-54=126>>126 downloads in the third month.\nIn the three months, the total number of downloads of the program was 126+240 = <<126+240=366>>366\n#### 366"
+    },
+    {
+        "question": "1. First month downloads: 60\n2. Second month downloads: 60 * 3 = 180\n3. Third month downloads: 180 * (1 - 0.30) = 180 * 0.70 = 126\n4. Total downloads: 60 + 180 + 126 = 366\n\nI hope it is correct: 366 $\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $366\n",
+        "ground_truth": "The number of downloads of the program in the second month increased to 3*60 = <<3*60=180>>180\nIn the first two months, the total number of downloads of the program was 180+60 = <<180+60=240>>240\nIn the third month, the number of downloads of the program reduced by 30/100*180 = <<30/100*180=54>>54\nThere were 180-54 = <<180-54=126>>126 downloads in the third month.\nIn the three months, the total number of downloads of the program was 126+240 = <<126+240=366>>366\n#### 366"
+    }
+]

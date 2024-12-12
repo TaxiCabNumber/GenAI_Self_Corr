@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nNaruto can lift a mountain ten times higher than Kagiyami can.  But Kagiyami can lift a mountain 4 times higher than Saskay can.  And Saskay can lift a mountain 12 times higher than Pompei can.  If Pompei can lift a mountain 1 inch, how high can Naruto lift a mountain, in feet?",
+        "inference": "1. Pompei lifts 1 inch.\n2. Saskay lifts 12 times higher than Pompei, so Saskay lifts 12 inches.\n3. Kagiyami lifts 4 times higher than Saskay, so Kagiyami lifts 4 * 12 = 48 inches.\n4. Naruto lifts 10 times higher than Kagiyami, so Naruto lifts 10 * 48 = 480 inches.\n5. Convert inches to feet: 480 inches / 12 inches/foot = 40 feet.\n\nI hope it is correct: 40 $feet$\n",
+        "ground_truth": "If Pompei can lift a mountain 1 inch, and Saskay can lift a mountain 12 times higher than Pompei can, then Saskay can lift a mountain 12*1=12 inches=1 foot.\nSince Kagiyami can lift a mountain 4 times higher than Saskay, then Kagiyami can lift a mountain 4*1=<<4*1=4>>4 feet.\nAnd since Naruto can lift a mountain ten times higher than Kagiyami. then Naruto can lift a mountain 10*4=<<10*4=40>>40 feet.\n#### 40"
+    },
+    {
+        "question": "1. Pompei lifts 1 inch.\n2. Saskay lifts 12 times higher than Pompei, so Saskay lifts 12 inches.\n3. Kagiyami lifts 4 times higher than Saskay, so Kagiyami lifts 4 * 12 = 48 inches.\n4. Naruto lifts 10 times higher than Kagiyami, so Naruto lifts 10 * 48 = 480 inches.\n5. Convert inches to feet: 480 inches / 12 inches/foot = 40 feet.\n\nI hope it is correct: 40 $feet$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 40 feet\n",
+        "ground_truth": "If Pompei can lift a mountain 1 inch, and Saskay can lift a mountain 12 times higher than Pompei can, then Saskay can lift a mountain 12*1=12 inches=1 foot.\nSince Kagiyami can lift a mountain 4 times higher than Saskay, then Kagiyami can lift a mountain 4*1=<<4*1=4>>4 feet.\nAnd since Naruto can lift a mountain ten times higher than Kagiyami. then Naruto can lift a mountain 10*4=<<10*4=40>>40 feet.\n#### 40"
+    }
+]

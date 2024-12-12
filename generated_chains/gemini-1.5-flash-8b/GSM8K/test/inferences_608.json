@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJoe has $50 to buy an outfit for his new field trip. There is a 30% off sale at the clothing store. The shirt he picks out has a price of $25. He also picks out a pair of shorts for $35. Assuming that sales tax is included, how much money will Joe have left after the purchase?",
+        "inference": "1. Calculate the discount on the shirt: $25 * 0.30 = $7.50\n2. Calculate the discounted price of the shirt: $25 - $7.50 = $17.50\n3. Calculate the total cost of the shirt and shorts: $17.50 + $35 = $52.50\n4. Subtract the total cost from Joe's initial amount: $50 - $52.50 = -$2.50\n\nI hope it is correct: -2.50 $\n",
+        "ground_truth": "The price of the two clothing items totals 35 + 25 = <<35+25=60>>60 dollars before discount.\nThe total sale discount comes to 60 * 0.3 = <<60*0.3=18>>18 dollars.\nThe final sale price comes to 60 - 18 = <<60-18=42>>42 dollars.\nJoe ends up with 50 - 42 = <<50-42=8>>8 dollars change.\n#### 8"
+    },
+    {
+        "question": "1. Calculate the discount on the shirt: $25 * 0.30 = $7.50\n2. Calculate the discounted price of the shirt: $25 - $7.50 = $17.50\n3. Calculate the total cost of the shirt and shorts: $17.50 + $35 = $52.50\n4. Subtract the total cost from Joe's initial amount: $50 - $52.50 = -$2.50\n\nI hope it is correct: -2.50 $\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $2.50\n",
+        "ground_truth": "The price of the two clothing items totals 35 + 25 = <<35+25=60>>60 dollars before discount.\nThe total sale discount comes to 60 * 0.3 = <<60*0.3=18>>18 dollars.\nThe final sale price comes to 60 - 18 = <<60-18=42>>42 dollars.\nJoe ends up with 50 - 42 = <<50-42=8>>8 dollars change.\n#### 8"
+    }
+]

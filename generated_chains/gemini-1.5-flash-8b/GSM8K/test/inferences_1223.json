@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTo make a call from a payphone, you must pay $0.25 for each minute of your call. After 16 minutes, that price drops to $0.2 per minute. How much would a 36-minute call cost?",
+        "inference": "1. Cost for the first 16 minutes: 16 minutes * $0.25/minute = $4.00\n\n2. Remaining minutes: 36 minutes - 16 minutes = 20 minutes\n\n3. Cost for the remaining 20 minutes: 20 minutes * $0.20/minute = $4.00\n\n4. Total cost: $4.00 + $4.00 = $8.00\n\nI hope it is correct: $8.00\n",
+        "ground_truth": "First 16 minutes would be a cost of 16 * 0.25 = $<<16*0.25=4>>4.\nAfter that, there are 36 - 16 = <<36-16=20>>20 minutes of the call left.\nAnd these 20 minutes cost 20 * 0.2 = $<<20*0.2=4>>4.\nSo in total, the 36-minute call would cost 4 + 4 = $8.\n#### 8"
+    },
+    {
+        "question": "1. Cost for the first 16 minutes: 16 minutes * $0.25/minute = $4.00\n\n2. Remaining minutes: 36 minutes - 16 minutes = 20 minutes\n\n3. Cost for the remaining 20 minutes: 20 minutes * $0.20/minute = $4.00\n\n4. Total cost: $4.00 + $4.00 = $8.00\n\nI hope it is correct: $8.00\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $8.00\n",
+        "ground_truth": "First 16 minutes would be a cost of 16 * 0.25 = $<<16*0.25=4>>4.\nAfter that, there are 36 - 16 = <<36-16=20>>20 minutes of the call left.\nAnd these 20 minutes cost 20 * 0.2 = $<<20*0.2=4>>4.\nSo in total, the 36-minute call would cost 4 + 4 = $8.\n#### 8"
+    }
+]

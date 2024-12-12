@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSolve for $r$: \\[\\frac{r-45}{2} = \\frac{3-2r}{5}.\\]",
+        "inference": "Multiply both sides by 10 to clear the fractions:\n\\[10\\left(\\frac{r-45}{2}\\right) = 10\\left(\\frac{3-2r}{5}\\right)\\]\n\\[5(r-45) = 2(3-2r)\\]\n\\[5r - 225 = 6 - 4r\\]\nAdd 4r to both sides:\n\\[5r + 4r - 225 = 6 - 4r + 4r\\]\n\\[9r - 225 = 6\\]\nAdd 225 to both sides:\n\\[9r - 225 + 225 = 6 + 225\\]\n\\[9r = 231\\]\nDivide both sides by 9:\n\\[r = \\frac{231}{9}\\]\n\\[r = \\frac{77}{3}\\]\nFinal Answer: $\\boxed{\\frac{77}{3}}$. I hope it is correct.\n",
+        "ground_truth": "Multiplying both sides by 2 and by 5 to eliminate the fractions gives \\[5(r-45) = 2(3-2r).\\] Expanding both sides gives $5r - 225 = 6-4r$.  Adding $4r$ and 225 to both sides gives $9r = 231$, so $r = \\frac{231}{9} = \\boxed{\\frac{77}{3}}$."
+    },
+    {
+        "question": "Multiply both sides by 10 to clear the fractions:\n\\[10\\left(\\frac{r-45}{2}\\right) = 10\\left(\\frac{3-2r}{5}\\right)\\]\n\\[5(r-45) = 2(3-2r)\\]\n\\[5r - 225 = 6 - 4r\\]\nAdd 4r to both sides:\n\\[5r + 4r - 225 = 6 - 4r + 4r\\]\n\\[9r - 225 = 6\\]\nAdd 225 to both sides:\n\\[9r - 225 + 225 = 6 + 225\\]\n\\[9r = 231\\]\nDivide both sides by 9:\n\\[r = \\frac{231}{9}\\]\n\\[r = \\frac{77}{3}\\]\nFinal Answer: $\\boxed{\\frac{77}{3}}$. I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\[10\\left(\\frac{r-45}{2}\\right) = 10\\left(\\frac{3-2r}{5}\\right)\\]\n\\[5(r-45) = 2(3-2r)\\]\n\\[5r - 225 = 6 - 4r\\]\n\\[5r + 4r = 6 + 225\\]\n\\[9r = 231\\]\n\\[r = \\frac{231}{9} = \\frac{77}{3}\\]\n\n$\\boxed{\\frac{77}{3}}$\n",
+        "ground_truth": "Multiplying both sides by 2 and by 5 to eliminate the fractions gives \\[5(r-45) = 2(3-2r).\\] Expanding both sides gives $5r - 225 = 6-4r$.  Adding $4r$ and 225 to both sides gives $9r = 231$, so $r = \\frac{231}{9} = \\boxed{\\frac{77}{3}}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nKaran borrowed $3,650 for five months at an interest rate of 10%. She has to pay an equal amount every month. How much does she have to pay per month?",
+        "inference": "1. Calculate the total interest for the loan:\n   Interest = Principal * Rate * Time\n   Interest = $3650 * 0.10 * (5/12)  (5 months out of a year, which is 12)\n   Interest = $152.08\n\n2. Calculate the total amount to be repaid:\n   Total repayment = Principal + Interest\n   Total repayment = $3650 + $152.08 = $3802.08\n\n3. Calculate the monthly payment:\n   Monthly payment = Total repayment / Number of months\n   Monthly payment = $3802.08 / 5 = $760.42\n\nI hope it is correct: 760.42$\n",
+        "ground_truth": "Karan's interest is $3,650 \u00d7 0.1 = $<<3650*0.1=365>>365.\nIn total Karan has to pay $3650 + $365 = $<<3650+365=4015>>4015.\nEvery month she has to pay $4015 / 5 = $<<4015/5=803>>803.\n#### 803"
+    },
+    {
+        "question": "1. Calculate the total interest for the loan:\n   Interest = Principal * Rate * Time\n   Interest = $3650 * 0.10 * (5/12)  (5 months out of a year, which is 12)\n   Interest = $152.08\n\n2. Calculate the total amount to be repaid:\n   Total repayment = Principal + Interest\n   Total repayment = $3650 + $152.08 = $3802.08\n\n3. Calculate the monthly payment:\n   Monthly payment = Total repayment / Number of months\n   Monthly payment = $3802.08 / 5 = $760.42\n\nI hope it is correct: 760.42$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $760.42\n",
+        "ground_truth": "Karan's interest is $3,650 \u00d7 0.1 = $<<3650*0.1=365>>365.\nIn total Karan has to pay $3650 + $365 = $<<3650+365=4015>>4015.\nEvery month she has to pay $4015 / 5 = $<<4015/5=803>>803.\n#### 803"
+    }
+]

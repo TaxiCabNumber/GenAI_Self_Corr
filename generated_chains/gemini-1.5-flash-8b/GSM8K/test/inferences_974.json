@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTyler wants to buy a dictionary that costs $18, a dinosaur book that costs $13, and a children's cookbook that costs $8. He has saved $14 from his allowance. If Tyler earns $5 per hour, how many hours does he have to work to afford his books?",
+        "inference": "1. Calculate the total cost of the books: $18 + $13 + $8 = $39\n\n2. Calculate the amount Tyler needs to earn: $39 - $14 = $25\n\n3. Calculate the number of hours Tyler needs to work: $25 / $5/hour = 5 hours\n\nI hope it is correct: 5 $hours$\n",
+        "ground_truth": "Tyler wants to purchase books that cost $18 + $13 + $8 = $<<18+13+8=39>>39.\nTyler needs $39 and currently has $14, so he needs to earn $39 - $14 = $<<39-14=25>>25.\nTyler can earn $25 at a rate of $5 per hour by doing 25 / $5 = <<25/5=5>>5 hours of work.\n#### 5"
+    },
+    {
+        "question": "1. Calculate the total cost of the books: $18 + $13 + $8 = $39\n\n2. Calculate the amount Tyler needs to earn: $39 - $14 = $25\n\n3. Calculate the number of hours Tyler needs to work: $25 / $5/hour = 5 hours\n\nI hope it is correct: 5 $hours$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 5 hours\n",
+        "ground_truth": "Tyler wants to purchase books that cost $18 + $13 + $8 = $<<18+13+8=39>>39.\nTyler needs $39 and currently has $14, so he needs to earn $39 - $14 = $<<39-14=25>>25.\nTyler can earn $25 at a rate of $5 per hour by doing 25 / $5 = <<25/5=5>>5 hours of work.\n#### 5"
+    }
+]

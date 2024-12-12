@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTim gets a promotion that offers him a 5% raise on his $20000 a month salary.  It also gives him a bonus worth half a month's salary. How much money will he make in a year?",
+        "inference": "1. Calculate the raise amount: 5% of $20,000 = 0.05 * $20,000 = $1,000\n2. Calculate the new monthly salary: $20,000 + $1,000 = $21,000\n3. Calculate the bonus amount: 0.5 * $20,000 = $10,000\n4. Calculate the total monthly earnings: $21,000 + $10,000 = $31,000\n5. Calculate the annual earnings: $31,000 * 12 months = $372,000\n\nI hope it is correct: $372,000\n",
+        "ground_truth": "The promotion increased his monthly salary by 20000*.05=$<<20000*0.05=1000>>1000\nSo his new salary is 20000+1000=$<<20000+1000=21000>>21000 a month\nSo he makes 21000*12=$<<21000*12=252000>>252,000 a year\nThe bonus is worth 21000*.5=$<<21000*.5=10500>>10500\nSo he makes 252,000+10,500=$<<252000+10500=262500>>262,500 for the year\n#### 262500"
+    },
+    {
+        "question": "1. Calculate the raise amount: 5% of $20,000 = 0.05 * $20,000 = $1,000\n2. Calculate the new monthly salary: $20,000 + $1,000 = $21,000\n3. Calculate the bonus amount: 0.5 * $20,000 = $10,000\n4. Calculate the total monthly earnings: $21,000 + $10,000 = $31,000\n5. Calculate the annual earnings: $31,000 * 12 months = $372,000\n\nI hope it is correct: $372,000\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $312,000\n",
+        "ground_truth": "The promotion increased his monthly salary by 20000*.05=$<<20000*0.05=1000>>1000\nSo his new salary is 20000+1000=$<<20000+1000=21000>>21000 a month\nSo he makes 21000*12=$<<21000*12=252000>>252,000 a year\nThe bonus is worth 21000*.5=$<<21000*.5=10500>>10500\nSo he makes 252,000+10,500=$<<252000+10500=262500>>262,500 for the year\n#### 262500"
+    }
+]

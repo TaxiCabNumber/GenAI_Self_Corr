@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nHoward spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+        "inference": "1. Monday spending: $8\n2. Tuesday spending: $8 * 2 = $16\n3. Wednesday spending: $16 * 4 = $64\n4. Total spending: $8 + $16 + $64 = $88\n5. Money left: $100 - $88 = $12\n\nI hope it is correct: $12\n",
+        "ground_truth": "On Tuesday, he spends $8 * 2 = $<<8*2=16>>16.\nOn Wednesday, he spends $16 * 4 = $<<16*4=64>>64.\nIn total he spent $8 + $16 + $64 = $<<8+16+64=88>>88 at the arcade.\nHe has $100 - $88 = $<<100-88=12>>12 left.\n#### 12"
+    },
+    {
+        "question": "1. Monday spending: $8\n2. Tuesday spending: $8 * 2 = $16\n3. Wednesday spending: $16 * 4 = $64\n4. Total spending: $8 + $16 + $64 = $88\n5. Money left: $100 - $88 = $12\n\nI hope it is correct: $12\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $12\n",
+        "ground_truth": "On Tuesday, he spends $8 * 2 = $<<8*2=16>>16.\nOn Wednesday, he spends $16 * 4 = $<<16*4=64>>64.\nIn total he spent $8 + $16 + $64 = $<<8+16+64=88>>88 at the arcade.\nHe has $100 - $88 = $<<100-88=12>>12 left.\n#### 12"
+    }
+]

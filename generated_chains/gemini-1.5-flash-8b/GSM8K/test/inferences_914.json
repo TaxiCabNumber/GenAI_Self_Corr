@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJon's car needs a tune-up every 1000 miles.  He drives 100 miles a day for a 30 day month.  How many tune-ups does he need in that time?",
+        "inference": "1. Calculate total miles driven: 100 miles/day * 30 days = 3000 miles\n\n2. Divide total miles by miles per tune-up: 3000 miles / 1000 miles/tune-up = 3 tune-ups\n\nI hope it is correct: 3 $tune-ups$\n",
+        "ground_truth": "He drives 100*30=<<100*30=3000>>3000 miles\nSo he needs 3000/1000=<<3000/1000=3>>3 tune-ups\n#### 3"
+    },
+    {
+        "question": "1. Calculate total miles driven: 100 miles/day * 30 days = 3000 miles\n\n2. Divide total miles by miles per tune-up: 3000 miles / 1000 miles/tune-up = 3 tune-ups\n\nI hope it is correct: 3 $tune-ups$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 3 tune-ups\n",
+        "ground_truth": "He drives 100*30=<<100*30=3000>>3000 miles\nSo he needs 3000/1000=<<3000/1000=3>>3 tune-ups\n#### 3"
+    }
+]

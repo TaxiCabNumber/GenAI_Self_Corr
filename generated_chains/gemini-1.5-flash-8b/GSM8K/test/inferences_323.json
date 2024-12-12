@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nShannon makes herself iced coffee by brewing hot coffee and adding ice cubes. Each ice cube cools the coffee by 13 degrees but makes the coffee 12 milliliters weaker. Any added liquid also weakens the coffee. How many milliliters weaker is Shannon\u2019s iced coffee when it is cooled by 65 degrees and she adds 15 milliliters of cream?",
+        "inference": "1. Cooling by 65 degrees requires 65/13 = 5 ice cubes.\n\n2. 5 ice cubes weaken the coffee by 5 * 12 = 60 milliliters.\n\n3. Adding 15 milliliters of cream weakens the coffee by 15 milliliters.\n\n4. Total weakening = 60 + 15 = 75 milliliters.\n\nI hope it is correct: 75 $milliliters$\n",
+        "ground_truth": "Shannon\u2019s iced coffee has 65 / 13 = <<65/13=5>>5 ice cubes in it.\nThe ice makes the coffee 5 * 12 = <<5*12=60>>60 milliliters weaker.\nAfter adding cream, Shannon\u2019s iced coffee is 60 + 15 = <<60+15=75>>75 milliliters weaker.\n#### 75"
+    },
+    {
+        "question": "1. Cooling by 65 degrees requires 65/13 = 5 ice cubes.\n\n2. 5 ice cubes weaken the coffee by 5 * 12 = 60 milliliters.\n\n3. Adding 15 milliliters of cream weakens the coffee by 15 milliliters.\n\n4. Total weakening = 60 + 15 = 75 milliliters.\n\nI hope it is correct: 75 $milliliters$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "There's no information about how cooling or cream affect the *strength* of the coffee, only the *volume* of the coffee that is changed.  Without a way to relate degrees of cooling or added cream to coffee strength (e.g., a \"strength\" value per milliliter or degree), we can't determine how much the coffee's strength is weakened.\n\n#### $Insufficient information$\n",
+        "ground_truth": "Shannon\u2019s iced coffee has 65 / 13 = <<65/13=5>>5 ice cubes in it.\nThe ice makes the coffee 5 * 12 = <<5*12=60>>60 milliliters weaker.\nAfter adding cream, Shannon\u2019s iced coffee is 60 + 15 = <<60+15=75>>75 milliliters weaker.\n#### 75"
+    }
+]

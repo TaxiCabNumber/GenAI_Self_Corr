@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBill is trying to figure out how many water bottles he needs to buy for his party.  He started out with 2 cases of water which have 24 bottles each. He has 70 guests that will be arriving, and he wants to have 2 bottles of water for each guest. How many additional bottles of water will he need to buy?",
+        "inference": "1. Bottles per case: 2 cases * 24 bottles/case = 48 bottles\n2. Bottles needed for guests: 70 guests * 2 bottles/guest = 140 bottles\n3. Additional bottles needed: 140 bottles - 48 bottles = 92 bottles\n\nI hope it is correct: 92 $bottles$\n",
+        "ground_truth": "Bill has 2 cases of 24 bottles each, so he has 24 * 2 = <<2*24=48>>48 bottles of water\nBill needs enough water for 70 guests to have 2 bottles each, so he needs 70+70 = <<70+70=140>>140 bottles of water.\nBill needs 140 bottles of water and has 48, so he needs to buy 140- 48 = <<140-48=92>>92 bottles of water.\n#### 92"
+    },
+    {
+        "question": "1. Bottles per case: 2 cases * 24 bottles/case = 48 bottles\n2. Bottles needed for guests: 70 guests * 2 bottles/guest = 140 bottles\n3. Additional bottles needed: 140 bottles - 48 bottles = 92 bottles\n\nI hope it is correct: 92 $bottles$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 92 bottles\n",
+        "ground_truth": "Bill has 2 cases of 24 bottles each, so he has 24 * 2 = <<2*24=48>>48 bottles of water\nBill needs enough water for 70 guests to have 2 bottles each, so he needs 70+70 = <<70+70=140>>140 bottles of water.\nBill needs 140 bottles of water and has 48, so he needs to buy 140- 48 = <<140-48=92>>92 bottles of water.\n#### 92"
+    }
+]

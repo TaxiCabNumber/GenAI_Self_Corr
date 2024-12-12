@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMaria invited 4 of her friends over for a water balloon fight in the backyard. At the start of the game, Maria gave each of her friends 2 water balloons. She had one water balloon for herself.  Then her mom came out and gave each person 3 more balloons.  How many total balloons did the girls have?",
+        "inference": "1. Maria's friends: 4 friends * 2 balloons/friend = 8 balloons\n2. Maria's balloons: 1 balloon\n3. Mom's balloons: (4 friends + 1 Maria) * 3 balloons/person = 5 * 3 = 15 balloons\n4. Total balloons: 8 + 1 + 15 = 24 balloons\n\nI hope it is correct: 24 $answer$\n",
+        "ground_truth": "Maria's 4 friends started with 2 balloons * 4 = <<2*4=8>>8 balloons.\nMaria started with 1 balloon + 8 balloons = <<1+8=9>>9 balloons to begin with.\nMaria's mom came out and gave each girl 3 more balloons, which is 5 girls * 3 balloons = <<5*3=15>>15 balloons.\nTotal balloons used by the girls is 9 + 15 = <<9+15=24>>24 balloons.\n#### 24"
+    },
+    {
+        "question": "1. Maria's friends: 4 friends * 2 balloons/friend = 8 balloons\n2. Maria's balloons: 1 balloon\n3. Mom's balloons: (4 friends + 1 Maria) * 3 balloons/person = 5 * 3 = 15 balloons\n4. Total balloons: 8 + 1 + 15 = 24 balloons\n\nI hope it is correct: 24 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 24\n",
+        "ground_truth": "Maria's 4 friends started with 2 balloons * 4 = <<2*4=8>>8 balloons.\nMaria started with 1 balloon + 8 balloons = <<1+8=9>>9 balloons to begin with.\nMaria's mom came out and gave each girl 3 more balloons, which is 5 girls * 3 balloons = <<5*3=15>>15 balloons.\nTotal balloons used by the girls is 9 + 15 = <<9+15=24>>24 balloons.\n#### 24"
+    }
+]

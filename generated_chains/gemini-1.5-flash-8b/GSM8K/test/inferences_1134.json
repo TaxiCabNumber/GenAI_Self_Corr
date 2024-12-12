@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJane has saved $4 of her allowance every week for the past 8 weeks. If she continues to save the same amount each week, how many more weeks will it take for her to have saved a total of $60?",
+        "inference": "1. Jane saves $4 per week.\n2. In 8 weeks, she has saved 8 weeks * $4/week = $32.\n3. To reach a total of $60, she needs $60 - $32 = $28 more.\n4. If she saves $4 each week, she needs $28 / $4/week = 7 more weeks.\n\nI hope it is correct: 7 $weeks$\n",
+        "ground_truth": "She has already saved 8 * $4 = $<<8*4=32>>32.\nShe needs to save an additional $60 - $32 = $<<60-32=28>>28.\nIt will take her 28 / 4 = <<28/4=7>>7 more weeks to save the rest of the money.\n#### 7"
+    },
+    {
+        "question": "1. Jane saves $4 per week.\n2. In 8 weeks, she has saved 8 weeks * $4/week = $32.\n3. To reach a total of $60, she needs $60 - $32 = $28 more.\n4. If she saves $4 each week, she needs $28 / $4/week = 7 more weeks.\n\nI hope it is correct: 7 $weeks$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 7 weeks\n",
+        "ground_truth": "She has already saved 8 * $4 = $<<8*4=32>>32.\nShe needs to save an additional $60 - $32 = $<<60-32=28>>28.\nIt will take her 28 / 4 = <<28/4=7>>7 more weeks to save the rest of the money.\n#### 7"
+    }
+]

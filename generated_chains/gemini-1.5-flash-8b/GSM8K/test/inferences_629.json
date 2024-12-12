@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJames gets a job selling used cars.  He sold 10 cars that cost $25,000 each.  The company paid 30% of that price to acquire the cars.  He got a 10% commission on the profits.  How much did he make?",
+        "inference": "1. Cost per car for the company: $25,000 * 0.30 = $7,500\n2. Total cost for the company: $7,500 * 10 cars = $75,000\n3. Selling price per car: $25,000\n4. Total revenue: $25,000 * 10 cars = $250,000\n5. Profit per car: $25,000 - $7,500 = $17,500\n6. Total profit: $17,500 * 10 cars = $175,000\n7. James' commission: $175,000 * 0.10 = $17,500\n\nI hope it is correct: $17,500\n",
+        "ground_truth": "He sold the car for 25000*10=$<<25000*10=250000>>250,000\nEach car was bought for 25,000*.3=$<<25000*.3=7500>>7500\nSo they bought the cars for 7500*10=$<<7500*10=75000>>75,000\nThat means the cars had a profit of 250,000-75,000=$<<250000-75000=175000>>175,000\nSo his commission was 175,000*.1=$<<175000*.1=17500>>17,500\n#### 17500"
+    },
+    {
+        "question": "1. Cost per car for the company: $25,000 * 0.30 = $7,500\n2. Total cost for the company: $7,500 * 10 cars = $75,000\n3. Selling price per car: $25,000\n4. Total revenue: $25,000 * 10 cars = $250,000\n5. Profit per car: $25,000 - $7,500 = $17,500\n6. Total profit: $17,500 * 10 cars = $175,000\n7. James' commission: $175,000 * 0.10 = $17,500\n\nI hope it is correct: $17,500\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $17,500\n",
+        "ground_truth": "He sold the car for 25000*10=$<<25000*10=250000>>250,000\nEach car was bought for 25,000*.3=$<<25000*.3=7500>>7500\nSo they bought the cars for 7500*10=$<<7500*10=75000>>75,000\nThat means the cars had a profit of 250,000-75,000=$<<250000-75000=175000>>175,000\nSo his commission was 175,000*.1=$<<175000*.1=17500>>17,500\n#### 17500"
+    }
+]

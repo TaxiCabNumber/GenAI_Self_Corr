@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhen $n$ is divided by 3, the remainder is 2. What is the remainder when $5n$ is divided by 3?",
+        "inference": "Let $n = 3q + 2$ for some integer $q$.\n\nThen $5n = 5(3q + 2) = 15q + 10 = 3(5q + 3) + 1$.\n\nTherefore, the remainder when $5n$ is divided by 3 is $\\boxed{1}$.\nFinal Answer: \\\\boxed{$1$}. I hope it is correct.",
+        "ground_truth": "Since $n \\equiv 2 \\pmod{3}$, $5n \\equiv 5 \\cdot 2 \\equiv 10 \\equiv \\boxed{1} \\pmod{3}$."
+    },
+    {
+        "question": "Let $n = 3q + 2$ for some integer $q$.\n\nThen $5n = 5(3q + 2) = 15q + 10 = 3(5q + 3) + 1$.\n\nTherefore, the remainder when $5n$ is divided by 3 is $\\boxed{1}$.\nFinal Answer: \\\\boxed{$1$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Final Answer: \\\\boxed{$1$}.",
+        "ground_truth": "Since $n \\equiv 2 \\pmod{3}$, $5n \\equiv 5 \\cdot 2 \\equiv 10 \\equiv \\boxed{1} \\pmod{3}$."
+    }
+]

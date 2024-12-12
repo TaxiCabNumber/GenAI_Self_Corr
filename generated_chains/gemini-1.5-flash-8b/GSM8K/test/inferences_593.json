@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMark plants a beanstalk below his second-story window, which is 20 feet off the ground. The beanstalk doubles its height every day. If the beanstalk starts out 4 feet tall, how many days will it take to be taller than Mark's window?",
+        "inference": "Day 1: 4 feet\nDay 2: 8 feet\nDay 3: 16 feet\nDay 4: 32 feet\n\nThe beanstalk will be taller than Mark's window on day 4.\n\nI hope it is correct: 4 $days$\n",
+        "ground_truth": "To find the beanstalk's height after one day, multiply the starting height by 2: 4 feet * 2 = <<4*2=8>>8 feet\nTo find its height after two days, multiply the height after one day by 2: 8 feet * 2 = <<8*2=16>>16 feet\nTo find its height after three days, multiply the height after two days by 2: 16 feet * 2 = <<16*2=32>>32 feet. This is taller than the window, so it took three days for the beanstalk to pass the window.\n#### 3"
+    },
+    {
+        "question": "Day 1: 4 feet\nDay 2: 8 feet\nDay 3: 16 feet\nDay 4: 32 feet\n\nThe beanstalk will be taller than Mark's window on day 4.\n\nI hope it is correct: 4 $days$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "The beanstalk grows exponentially, doubling in height each day.  On day 4, it's 32 feet tall.  If Mark's window is higher than 32 feet, the answer is not correct.  More information is needed.\n\n#### $insufficient information$\n",
+        "ground_truth": "To find the beanstalk's height after one day, multiply the starting height by 2: 4 feet * 2 = <<4*2=8>>8 feet\nTo find its height after two days, multiply the height after one day by 2: 8 feet * 2 = <<8*2=16>>16 feet\nTo find its height after three days, multiply the height after two days by 2: 16 feet * 2 = <<16*2=32>>32 feet. This is taller than the window, so it took three days for the beanstalk to pass the window.\n#### 3"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nFarmer Brown has 60 animals on his farm, all either chickens or cows. He has twice as many chickens as cows. How many legs do the animals have, all together?",
+        "inference": "1. Let 'c' be the number of cows and 'ch' be the number of chickens.\n2. We know that c + ch = 60 (total animals).\n3. We also know that ch = 2 * c (twice as many chickens as cows).\n4. Substitute the second equation into the first: c + 2c = 60.\n5. Simplify: 3c = 60.\n6. Solve for c: c = 20.\n7. Find the number of chickens: ch = 2 * 20 = 40.\n8. Calculate the number of legs for cows: 20 cows * 4 legs/cow = 80 legs.\n9. Calculate the number of legs for chickens: 40 chickens * 2 legs/chicken = 80 legs.\n10. Add the legs together: 80 + 80 = 160 legs.\n\nI hope it is correct: 160 $legs$\n",
+        "ground_truth": "There are 60*(2/3)=<<60*(2/3)=40>>40 chickens.\nThere are 60-40=<<60-40=20>>20 cows.\nThe chickens have 40*2=<<40*2=80>>80 legs.\nThe cows have 20*4=<<20*4=80>>80 legs.\nThey have 80+80=<<80+80=160>>160 legs altogether.\n#### 160"
+    },
+    {
+        "question": "1. Let 'c' be the number of cows and 'ch' be the number of chickens.\n2. We know that c + ch = 60 (total animals).\n3. We also know that ch = 2 * c (twice as many chickens as cows).\n4. Substitute the second equation into the first: c + 2c = 60.\n5. Simplify: 3c = 60.\n6. Solve for c: c = 20.\n7. Find the number of chickens: ch = 2 * 20 = 40.\n8. Calculate the number of legs for cows: 20 cows * 4 legs/cow = 80 legs.\n9. Calculate the number of legs for chickens: 40 chickens * 2 legs/chicken = 80 legs.\n10. Add the legs together: 80 + 80 = 160 legs.\n\nI hope it is correct: 160 $legs$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 160\n",
+        "ground_truth": "There are 60*(2/3)=<<60*(2/3)=40>>40 chickens.\nThere are 60-40=<<60-40=20>>20 cows.\nThe chickens have 40*2=<<40*2=80>>80 legs.\nThe cows have 20*4=<<20*4=80>>80 legs.\nThey have 80+80=<<80+80=160>>160 legs altogether.\n#### 160"
+    }
+]

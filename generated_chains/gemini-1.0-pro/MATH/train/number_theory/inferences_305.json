@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIt is now 12:00:00 midnight, as read on a 12-hour digital clock. In 122 hours, 39 minutes and 44 seconds the time will be $A:B:C$. What is the value of $A + B + C$?",
+        "inference": "First, convert the given time into seconds: $122 \\text{ hours, } 39 \\text{ minutes, } 44 \\text{ seconds} = 122 \\times 3600 + 39 \\times 60 + 44 = 441884$ seconds.\nNow, add this to the current time in seconds: $441884 \\text{ seconds} + 0 \\text{ seconds} = 441884$ seconds.\nConvert the total seconds back into hours, minutes, and seconds: $441884 \\text{ seconds} = 122 \\times 3600 + 42 \\times 60 + 24 = 02:42:24$.\nTherefore, $A + B + C = 0 + 2 + 4 + 2 + 2 + 4 = \\boxed{14}.$\nFinal Answer: $\\boxed{14}$. I hope it is correct.",
+        "ground_truth": "Since the clock reads the same time every 12 hours, we find the remainder after dividing 122 hours by 12 hours, which is 2 hours. Counting forward from midnight, the clock will read 2:39:44, so $A+B+C = \\boxed{85}$."
+    },
+    {
+        "question": "First, convert the given time into seconds: $122 \\text{ hours, } 39 \\text{ minutes, } 44 \\text{ seconds} = 122 \\times 3600 + 39 \\times 60 + 44 = 441884$ seconds.\nNow, add this to the current time in seconds: $441884 \\text{ seconds} + 0 \\text{ seconds} = 441884$ seconds.\nConvert the total seconds back into hours, minutes, and seconds: $441884 \\text{ seconds} = 122 \\times 3600 + 42 \\times 60 + 24 = 02:42:24$.\nTherefore, $A + B + C = 0 + 2 + 4 + 2 + 2 + 4 = \\boxed{14}.$\nFinal Answer: $\\boxed{14}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{14}",
+        "ground_truth": "Since the clock reads the same time every 12 hours, we find the remainder after dividing 122 hours by 12 hours, which is 2 hours. Counting forward from midnight, the clock will read 2:39:44, so $A+B+C = \\boxed{85}$."
+    }
+]

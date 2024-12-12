@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $f(x) = ax^6 + bx^4 - cx^2 + 3.$  If $f(91) = 1$, find $f(91) + f(-91)$.",
+        "inference": "Let $f(x) = ax^6 + bx^4 - cx^2 + 3.$\nWe are given that $f(91) = 1$.\nWe want to find $f(91) + f(-91)$.\nWe have $f(-x) = a(-x)^6 + b(-x)^4 - c(-x)^2 + 3 = ax^6 + bx^4 - cx^2 + 3 = f(x).$\nThus $f(x)$ is an even function.\n$f(91) = 1$.\nThen $f(-91) = f(91) = 1$.\nTherefore, $f(91) + f(-91) = 1 + 1 = 2$.\nFinal Answer: $\\boxed{2}$ I hope it is correct.\n",
+        "ground_truth": "Since only the even exponents have non-zero coefficients, $f$ is an even function, and we know that $f(-x) = f(x)$. Hence $f(-91) = f(91) = 1$ and $f(91) + f(-91) = 1+1 = \\boxed{2}.$"
+    },
+    {
+        "question": "Let $f(x) = ax^6 + bx^4 - cx^2 + 3.$\nWe are given that $f(91) = 1$.\nWe want to find $f(91) + f(-91)$.\nWe have $f(-x) = a(-x)^6 + b(-x)^4 - c(-x)^2 + 3 = ax^6 + bx^4 - cx^2 + 3 = f(x).$\nThus $f(x)$ is an even function.\n$f(91) = 1$.\nThen $f(-91) = f(91) = 1$.\nTherefore, $f(91) + f(-91) = 1 + 1 = 2$.\nFinal Answer: $\\boxed{2}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Given $f(x) = ax^6 + bx^4 - cx^2 + 3$ and $f(91) = 1$.\nSince $f(-x) = a(-x)^6 + b(-x)^4 - c(-x)^2 + 3 = ax^6 + bx^4 - cx^2 + 3 = f(x)$,\n$f(x)$ is an even function.\nTherefore, $f(-91) = f(91) = 1$.\nThen $f(91) + f(-91) = 1 + 1 = 2$.\n\nFinal Answer: $\\boxed{2}$",
+        "ground_truth": "Since only the even exponents have non-zero coefficients, $f$ is an even function, and we know that $f(-x) = f(x)$. Hence $f(-91) = f(91) = 1$ and $f(91) + f(-91) = 1+1 = \\boxed{2}.$"
+    }
+]

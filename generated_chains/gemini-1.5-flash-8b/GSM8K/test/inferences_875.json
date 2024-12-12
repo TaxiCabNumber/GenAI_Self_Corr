@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nPaul has 52 marbles. His friend gave him 28 marbles. Then, he lost 1/4 of his marbles. How many marbles does Paul have left?",
+        "inference": "1. Paul starts with 52 marbles.\n2. His friend gives him 28 marbles, so he now has 52 + 28 = 80 marbles.\n3. He loses 1/4 of his marbles.  1/4 of 80 is (1/4) * 80 = 20 marbles.\n4. He loses 20 marbles, so he has 80 - 20 = 60 marbles left.\n\nI hope it is correct: 60 $\n",
+        "ground_truth": "Paul has a total of 52 + 28 = <<52+28=80>>80 marbles.\nHe lost 1/4 x 80 = <<80/4=20>>20 marbles.\nTherefore, he has 80 - 20 = <<80-20=60>>60 marbles left.\n#### 60"
+    },
+    {
+        "question": "1. Paul starts with 52 marbles.\n2. His friend gives him 28 marbles, so he now has 52 + 28 = 80 marbles.\n3. He loses 1/4 of his marbles.  1/4 of 80 is (1/4) * 80 = 20 marbles.\n4. He loses 20 marbles, so he has 80 - 20 = 60 marbles left.\n\nI hope it is correct: 60 $\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 60\n",
+        "ground_truth": "Paul has a total of 52 + 28 = <<52+28=80>>80 marbles.\nHe lost 1/4 x 80 = <<80/4=20>>20 marbles.\nTherefore, he has 80 - 20 = <<80-20=60>>60 marbles left.\n#### 60"
+    }
+]

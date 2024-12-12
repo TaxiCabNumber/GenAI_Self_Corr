@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn the next three days, 2000 people will move to Florida. How many people, on average, will move to Florida each hour? Express your answer to the nearest whole number.",
+        "inference": "There are 24 hours in a day, and 3 days in the next three days.\nTotal hours in 3 days = 24 hours/day * 3 days = 72 hours.\nAverage people per hour = 2000 people / 72 hours = 27.777... people/hour.\nRounded to the nearest whole number, the average is 28 people per hour.\nFinal Answer: $\\boxed{28}$ I hope it is correct.\n",
+        "ground_truth": "There are $24\\times3=72$ hours in three days.  Two thousand people moving in 72 hours gives an average rate of $\\frac{2000}{72}=\\frac{250}{9}=27\\frac{7}{9}$ people per hour, which to the nearest person is $\\boxed{28}$ people per hour."
+    },
+    {
+        "question": "There are 24 hours in a day, and 3 days in the next three days.\nTotal hours in 3 days = 24 hours/day * 3 days = 72 hours.\nAverage people per hour = 2000 people / 72 hours = 27.777... people/hour.\nRounded to the nearest whole number, the average is 28 people per hour.\nFinal Answer: $\\boxed{28}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The problem states that 2000 people visited in the next three days.  We need to find the average number of people per hour over those three days.\n\nTotal hours in 3 days = 24 hours/day * 3 days = 72 hours\nAverage people per hour = 2000 people / 72 hours \u2248 27.777... people/hour.\nRounded to the nearest whole number, the average is 28 people per hour.\n\n$\\boxed{28}$\n",
+        "ground_truth": "There are $24\\times3=72$ hours in three days.  Two thousand people moving in 72 hours gives an average rate of $\\frac{2000}{72}=\\frac{250}{9}=27\\frac{7}{9}$ people per hour, which to the nearest person is $\\boxed{28}$ people per hour."
+    }
+]

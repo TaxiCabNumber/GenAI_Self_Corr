@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMy kitchen floor has a total area of 200 SqFt. I want to install new square floor tiles that cost $12 each, and each tile side is 1ft in length. How much will it cost me to renovate my kitchen floor?",
+        "inference": "1. Area of the kitchen floor = 200 sq ft\n2. Area of each tile = 1 ft * 1 ft = 1 sq ft\n3. Number of tiles needed = 200 sq ft / 1 sq ft/tile = 200 tiles\n4. Cost per tile = $12\n5. Total cost = 200 tiles * $12/tile = $2400\n\nI hope it is correct: $2400\n",
+        "ground_truth": "The total area of a square tile is length * width or 1*1 = <<1*1=1>>1 SqFt\nIf the kitchen has a total area of 200 SqFt then my kitchen needs 200/1 = <<200/1=200>>200 square tiles\nIf each tile costs $12, then 200 square tiles will cost $12 * 200 = $<<12*200=2400>>2,400\n#### 2400"
+    },
+    {
+        "question": "1. Area of the kitchen floor = 200 sq ft\n2. Area of each tile = 1 ft * 1 ft = 1 sq ft\n3. Number of tiles needed = 200 sq ft / 1 sq ft/tile = 200 tiles\n4. Cost per tile = $12\n5. Total cost = 200 tiles * $12/tile = $2400\n\nI hope it is correct: $2400\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $2400\n",
+        "ground_truth": "The total area of a square tile is length * width or 1*1 = <<1*1=1>>1 SqFt\nIf the kitchen has a total area of 200 SqFt then my kitchen needs 200/1 = <<200/1=200>>200 square tiles\nIf each tile costs $12, then 200 square tiles will cost $12 * 200 = $<<12*200=2400>>2,400\n#### 2400"
+    }
+]

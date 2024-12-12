@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat's the coefficient of the $m^4n^4$ term in the expansion of $(m+n)^8$?",
+        "inference": "Using the binomial theorem, we can expand $(m+n)^8$ as follows:\n$$\\begin{aligned}(m+n)^8 &= \\sum_{k=0}^8 \\binom{8}{k} m^{8-k} n^k \\\\\\ &= \\binom{8}{0} m^8 + \\binom{8}{1} m^7 n + \\binom{8}{2} m^6 n^2 + \\binom{8}{3} m^5 n^3 + \\binom{8}{4} m^4 n^4 + \\binom{8}{5} m^3 n^5 + \\binom{8}{6} m^2 n^6 + \\binom{8}{7} m n^7 + \\binom{8}{8} n^8 \\\\\\ &= m^8 + 8m^7 n + 28m^6 n^2 + 56m^5 n^3 + 70m^4 n^4 + 56m^3 n^5 + 28m^2 n^6 + 8mn^7 + n^8.\\end{aligned}$$\nTherefore, the coefficient of the $m^4n^4$ term is $\\boxed{70}$.\nFinal Answer: $\\boxed{70}$. I hope it is correct.",
+        "ground_truth": "By the Binomial Theorem, the coefficient that we want is just $\\binom{8}{4}=\\boxed{70}$."
+    },
+    {
+        "question": "Using the binomial theorem, we can expand $(m+n)^8$ as follows:\n$$\\begin{aligned}(m+n)^8 &= \\sum_{k=0}^8 \\binom{8}{k} m^{8-k} n^k \\\\\\ &= \\binom{8}{0} m^8 + \\binom{8}{1} m^7 n + \\binom{8}{2} m^6 n^2 + \\binom{8}{3} m^5 n^3 + \\binom{8}{4} m^4 n^4 + \\binom{8}{5} m^3 n^5 + \\binom{8}{6} m^2 n^6 + \\binom{8}{7} m n^7 + \\binom{8}{8} n^8 \\\\\\ &= m^8 + 8m^7 n + 28m^6 n^2 + 56m^5 n^3 + 70m^4 n^4 + 56m^3 n^5 + 28m^2 n^6 + 8mn^7 + n^8.\\end{aligned}$$\nTherefore, the coefficient of the $m^4n^4$ term is $\\boxed{70}$.\nFinal Answer: $\\boxed{70}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{70}$$",
+        "ground_truth": "By the Binomial Theorem, the coefficient that we want is just $\\binom{8}{4}=\\boxed{70}$."
+    }
+]

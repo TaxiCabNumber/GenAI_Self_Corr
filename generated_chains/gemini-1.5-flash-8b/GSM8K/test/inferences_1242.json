@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSkyler has 100 hats on his hand with the colors red, blue, and white. Half of the hats are red, 3/5 of the remaining hats are blue, and the rest are white. How many white hats does Skyler have?",
+        "inference": "1. Red hats: 100 * 1/2 = 50\n2. Remaining hats: 100 - 50 = 50\n3. Blue hats: 50 * (3/5) = 30\n4. White hats: 50 - 30 = 20\n\nI hope it is correct: 20 $answer$\n",
+        "ground_truth": "If half of the hats are red, there are 1/2*100= <<1/2*100=50>>50 red hats.\nThe remaining number of hats which are not red is 100-50 = <<100-50=50>>50\n3/5 of the remaining hats are blue, a total of 3/5*50 = <<3/5*50=30>>30 hats\nIf the rest of the remaining hats are white, then there are 50-30 = <<50-30=20>>20 white hats.\n#### 20"
+    },
+    {
+        "question": "1. Red hats: 100 * 1/2 = 50\n2. Remaining hats: 100 - 50 = 50\n3. Blue hats: 50 * (3/5) = 30\n4. White hats: 50 - 30 = 20\n\nI hope it is correct: 20 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 20\n",
+        "ground_truth": "If half of the hats are red, there are 1/2*100= <<1/2*100=50>>50 red hats.\nThe remaining number of hats which are not red is 100-50 = <<100-50=50>>50\n3/5 of the remaining hats are blue, a total of 3/5*50 = <<3/5*50=30>>30 hats\nIf the rest of the remaining hats are white, then there are 50-30 = <<50-30=20>>20 white hats.\n#### 20"
+    }
+]

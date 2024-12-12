@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe table shown is partially filled in with the results of a survey done by the radio station KMAT. How many of the females surveyed listen to this station?\n\n\\begin{tabular}{| l | c | r |}\n\\hline\n& listen & don't listen \\\\\n\\hline\nmales & 62 & \\\\ \\hline\nfemales & & 102 \\\\ \\hline\ntotal & 130 & 150 \\\\\n\\hline\n\\end{tabular}",
+        "inference": "**Step 1**: Let the blank cell be x. Then the table should look like this:\n\n\\begin{tabular}{| l | c | r |}\n\\hline\n& listen & don't listen \\\\\n\\hline\nmales & 62 & 68 \\\\ \\hline\nfemales & x & 102 \\\\ \\hline\ntotal & 130 & 150 \\\\\n\\hline\n\\end{tabular}\n\n**Step 2**: Since the total number of people who listen to the station is 130, we have:\n```\n62 + x = 130\n```\n\n**Step 3**: Solving for x, we get:\n```\nx = 130 - 62 = **68**\n```\n\n**Final Answer: \\\\boxed{$68$}. I hope it is correct.**",
+        "ground_truth": "Since there were a total of $130$ people surveyed who listen to this station and we know that $62$ of them are male, $130-62=\\boxed{68}$ of the females surveyed said that they listen to this station."
+    },
+    {
+        "question": "**Step 1**: Let the blank cell be x. Then the table should look like this:\n\n\\begin{tabular}{| l | c | r |}\n\\hline\n& listen & don't listen \\\\\n\\hline\nmales & 62 & 68 \\\\ \\hline\nfemales & x & 102 \\\\ \\hline\ntotal & 130 & 150 \\\\\n\\hline\n\\end{tabular}\n\n**Step 2**: Since the total number of people who listen to the station is 130, we have:\n```\n62 + x = 130\n```\n\n**Step 3**: Solving for x, we get:\n```\nx = 130 - 62 = **68**\n```\n\n**Final Answer: \\\\boxed{$68$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$68$}",
+        "ground_truth": "Since there were a total of $130$ people surveyed who listen to this station and we know that $62$ of them are male, $130-62=\\boxed{68}$ of the females surveyed said that they listen to this station."
+    }
+]

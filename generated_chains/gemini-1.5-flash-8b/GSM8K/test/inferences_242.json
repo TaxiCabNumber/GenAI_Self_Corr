@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMike was a pen pal with 5 people.  He stopped being penpals with 2 of them.  They each send 2 letters a week that are 5 pages long.  He responds in kind.  He can write a page every 6 minutes.  How many hours does he spend writing a week?",
+        "inference": "1. Mike stopped being pen pals with 2 people, meaning he now has 3 pen pals.\n2. Each pen pal sends 2 letters/week * 5 pages/letter = 10 pages/week.\n3. 3 pen pals * 10 pages/week/pen pal = 30 pages/week.\n4. 30 pages / (1 page / 6 minutes) = 180 minutes/week.\n5. 180 minutes / 60 minutes/hour = 3 hours/week.\n\nI hope it is correct: 3 $hours$\n",
+        "ground_truth": "He is penpals with 5-2=<<5-2=3>>3 people\nThus he gets 3*2=<<3*2=6>>6 letters a week\nSo he writes 6*5=<<6*5=30>>30 pages a week\nSo he writes for 30*6=<<30*6=180>>180 minutes a week\nSo he writes 180/60=<<180/60=3>>3 hours a week\n#### 3"
+    },
+    {
+        "question": "1. Mike stopped being pen pals with 2 people, meaning he now has 3 pen pals.\n2. Each pen pal sends 2 letters/week * 5 pages/letter = 10 pages/week.\n3. 3 pen pals * 10 pages/week/pen pal = 30 pages/week.\n4. 30 pages / (1 page / 6 minutes) = 180 minutes/week.\n5. 180 minutes / 60 minutes/hour = 3 hours/week.\n\nI hope it is correct: 3 $hours$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 3 hours\n",
+        "ground_truth": "He is penpals with 5-2=<<5-2=3>>3 people\nThus he gets 3*2=<<3*2=6>>6 letters a week\nSo he writes 6*5=<<6*5=30>>30 pages a week\nSo he writes for 30*6=<<30*6=180>>180 minutes a week\nSo he writes 180/60=<<180/60=3>>3 hours a week\n#### 3"
+    }
+]

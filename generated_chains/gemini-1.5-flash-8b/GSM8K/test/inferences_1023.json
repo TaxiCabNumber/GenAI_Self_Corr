@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA man eats 5 sandwiches per day, his wife eats 4 sandwiches per day, and their son eats 2 sandwiches per day. How many sandwiches does this family eat in one week?",
+        "inference": "1. Calculate the total sandwiches eaten per day: 5 + 4 + 2 = 11 sandwiches/day\n2. Calculate the total sandwiches eaten in a week (7 days): 11 sandwiches/day * 7 days = 77 sandwiches\n\nI hope it is correct: 77 $sandwiches$\n",
+        "ground_truth": "The number of sandwiches they eat in one day is 5 + 4 + 2 = <<5+4+2=11>>11 sandwiches.\nThe number of sandwiches they eat in a week is 11 * 7 = <<11*7=77>>77 sandwiches.\n#### 77"
+    },
+    {
+        "question": "1. Calculate the total sandwiches eaten per day: 5 + 4 + 2 = 11 sandwiches/day\n2. Calculate the total sandwiches eaten in a week (7 days): 11 sandwiches/day * 7 days = 77 sandwiches\n\nI hope it is correct: 77 $sandwiches$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 77 sandwiches\n",
+        "ground_truth": "The number of sandwiches they eat in one day is 5 + 4 + 2 = <<5+4+2=11>>11 sandwiches.\nThe number of sandwiches they eat in a week is 11 * 7 = <<11*7=77>>77 sandwiches.\n#### 77"
+    }
+]

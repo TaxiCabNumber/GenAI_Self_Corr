@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nJoe is studying a bacteria population.  There are 20 bacteria present at 3:00 p.m. and the population doubles every 3 minutes.  Assuming none of the bacteria die, how many bacteria are present at 3:15 p.m. the same day?",
+        "inference": "At 3:03 p.m. there are $20 \\times 2 = 40$ bacteria.\nAt 3:06 p.m. there are $40 \\times 2 = 80$ bacteria.\nAt 3:09 p.m. there are $80 \\times 2 = 160$ bacteria.\nAt 3:12 p.m. there are $160 \\times 2 = 320$ bacteria.\nAt 3:15 p.m. there are $320 \\times 2 = 640$ bacteria.\nFinal Answer: \\boxed{$640$}. I hope it is correct.",
+        "ground_truth": "There are five 3-minute increments between 3:00 pm and 3:15 pm, so the bacteria doubles 5 times, so the final population is $2^5 = 32$ times the initial population.  Hence at 3:15 pm there are $20 \\cdot 32 = \\boxed{640}$ bacteria."
+    },
+    {
+        "question": "At 3:03 p.m. there are $20 \\times 2 = 40$ bacteria.\nAt 3:06 p.m. there are $40 \\times 2 = 80$ bacteria.\nAt 3:09 p.m. there are $80 \\times 2 = 160$ bacteria.\nAt 3:12 p.m. there are $160 \\times 2 = 320$ bacteria.\nAt 3:15 p.m. there are $320 \\times 2 = 640$ bacteria.\nFinal Answer: \\boxed{$640$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Final Answer: \\boxed{$640$}.",
+        "ground_truth": "There are five 3-minute increments between 3:00 pm and 3:15 pm, so the bacteria doubles 5 times, so the final population is $2^5 = 32$ times the initial population.  Hence at 3:15 pm there are $20 \\cdot 32 = \\boxed{640}$ bacteria."
+    }
+]

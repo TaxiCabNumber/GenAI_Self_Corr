@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBennet is a farmer. He sells 20 of his eggplants for $3 each. He has 25 ears of corn that he can sell as well. If Bennet wants to make a total of $135, how much should he sell each ear of corn for?",
+        "inference": "1. Bennet earns from eggplants: 20 eggplants * $3/eggplant = $60\n2. Amount Bennet needs from corn sales: $135 - $60 = $75\n3. Price per ear of corn: $75 / 25 ears of corn = $3/ear\n\nI hope it is correct: $3\n",
+        "ground_truth": "From his eggplants, Bennet makes 20 * $3 = $<<20*3=60>>60\nBennet needs to make $135 - $60 = $<<135-60=75>>75 from the sale of his corn\nBennet should sell each ear of corn for $75 / 25 = $<<75/25=3>>3\n#### 3"
+    },
+    {
+        "question": "1. Bennet earns from eggplants: 20 eggplants * $3/eggplant = $60\n2. Amount Bennet needs from corn sales: $135 - $60 = $75\n3. Price per ear of corn: $75 / 25 ears of corn = $3/ear\n\nI hope it is correct: $3\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $3\n",
+        "ground_truth": "From his eggplants, Bennet makes 20 * $3 = $<<20*3=60>>60\nBennet needs to make $135 - $60 = $<<135-60=75>>75 from the sale of his corn\nBennet should sell each ear of corn for $75 / 25 = $<<75/25=3>>3\n#### 3"
+    }
+]

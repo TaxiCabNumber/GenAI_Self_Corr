@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nHannah slips on a banana peel and breaks her arm. The doctor charges her $200 for the cast, $300/hour for a 30-minute visit, $4/pill for 30 painkillers, and $6/hour for a mandatory minimum of 2 hours of parking. How much does the doctor's visit cost total?",
+        "inference": "30 minutes visit = 0.5 hours\nVisit cost = $300/hour * 0.5 hours = $150\nPainkiller cost = $4/pill * 30 pills = $120\nParking cost = $6/hour * 2 hours = $12\nTotal cost = $200 (cast) + $150 (visit) + $120 (painkillers) + $12 (parking) = $482\nI hope it is correct: $482\n",
+        "ground_truth": "First find the length of the visit in hours: 30 minutes / 60 minutes/hour = <<30/60=.5>>.5 hours\nThen find the total cost of the visit: $300/hour * .5 hours = $<<300*.5=150>>150\nThen find the total cost of the painkillers: $4/pill * 30 pills = $<<4*30=120>>120\nThen find the cost of the parking: $6/hour * 2 hours = $<<6*2=12>>12\nThen add all the different costs to find the total cost: $12 + $120 + $150 + $200 = $<<12+120+150+200=482>>482\n#### 482"
+    },
+    {
+        "question": "30 minutes visit = 0.5 hours\nVisit cost = $300/hour * 0.5 hours = $150\nPainkiller cost = $4/pill * 30 pills = $120\nParking cost = $6/hour * 2 hours = $12\nTotal cost = $200 (cast) + $150 (visit) + $120 (painkillers) + $12 (parking) = $482\nI hope it is correct: $482\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $482\n",
+        "ground_truth": "First find the length of the visit in hours: 30 minutes / 60 minutes/hour = <<30/60=.5>>.5 hours\nThen find the total cost of the visit: $300/hour * .5 hours = $<<300*.5=150>>150\nThen find the total cost of the painkillers: $4/pill * 30 pills = $<<4*30=120>>120\nThen find the cost of the parking: $6/hour * 2 hours = $<<6*2=12>>12\nThen add all the different costs to find the total cost: $12 + $120 + $150 + $200 = $<<12+120+150+200=482>>482\n#### 482"
+    }
+]

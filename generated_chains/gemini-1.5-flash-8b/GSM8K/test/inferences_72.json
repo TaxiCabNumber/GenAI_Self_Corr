@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTommy is fundraising for his charity by selling brownies for $3 a slice and cheesecakes for $4 a slice. If Tommy sells 43 brownies and 23 slices of cheesecake, how much money does Tommy raise?",
+        "inference": "Brownies sold: 43 slices * $3/slice = $129\nCheesecakes sold: 23 slices * $4/slice = $92\nTotal raised: $129 + $92 = $221\nI hope it is correct: $221\n",
+        "ground_truth": "Tommy raised 43 brownies x $3/brownie = $<<43*3=129>>129 by selling brownies.\nTommy raised 23 slices x $4 = $<<23*4=92>>92 by selling cheesecakes.\nIn total Tommy has raised $129 + $92 = $<<129+92=221>>221\n#### 221"
+    },
+    {
+        "question": "Brownies sold: 43 slices * $3/slice = $129\nCheesecakes sold: 23 slices * $4/slice = $92\nTotal raised: $129 + $92 = $221\nI hope it is correct: $221\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $221\n",
+        "ground_truth": "Tommy raised 43 brownies x $3/brownie = $<<43*3=129>>129 by selling brownies.\nTommy raised 23 slices x $4 = $<<23*4=92>>92 by selling cheesecakes.\nIn total Tommy has raised $129 + $92 = $<<129+92=221>>221\n#### 221"
+    }
+]

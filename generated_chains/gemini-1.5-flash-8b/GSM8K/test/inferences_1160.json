@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nLast week the IRS received 5168 tax reports. On Monday and Tuesday they received a total of 1907 reports. On Thursday and Friday they received a total of 2136 reports. How many reports did they receive on Wednesday?",
+        "inference": "1. Total reports received: 5168\n2. Monday and Tuesday reports: 1907\n3. Thursday and Friday reports: 2136\n4. Reports received on Wednesday = Total reports - (Monday + Tuesday + Thursday + Friday)\n5. Reports received on Monday and Tuesday + Thursday and Friday = 1907 + 2136 = 4043\n6. Reports received on Wednesday = 5168 - 4043 = 1125\n\nI hope it is correct: 1125 $answer$\n",
+        "ground_truth": "Mon/Tues = 1907\nThur/Fri = 2136\nMon, Tues, Thur, Fri = 1907 + 2136 = <<1907+2136=4043>>4043\n5168 - 4043 = <<5168-4043=1125>>1125 reports\nThe IRS received 1125 tax reports on Wednesday of last week.\n#### 1125"
+    },
+    {
+        "question": "1. Total reports received: 5168\n2. Monday and Tuesday reports: 1907\n3. Thursday and Friday reports: 2136\n4. Reports received on Wednesday = Total reports - (Monday + Tuesday + Thursday + Friday)\n5. Reports received on Monday and Tuesday + Thursday and Friday = 1907 + 2136 = 4043\n6. Reports received on Wednesday = 5168 - 4043 = 1125\n\nI hope it is correct: 1125 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "1. Total reports = 5168\n2. Monday + Tuesday = 1907\n3. Thursday + Friday = 2136\n4. Wednesday = Total - (Monday + Tuesday + Thursday + Friday)\n5. Monday+Tuesday + Thursday+Friday = 1907 + 2136 = 4043\n6. Wednesday = 5168 - 4043 = 1125\n\n#### $answer$1125\n",
+        "ground_truth": "Mon/Tues = 1907\nThur/Fri = 2136\nMon, Tues, Thur, Fri = 1907 + 2136 = <<1907+2136=4043>>4043\n5168 - 4043 = <<5168-4043=1125>>1125 reports\nThe IRS received 1125 tax reports on Wednesday of last week.\n#### 1125"
+    }
+]

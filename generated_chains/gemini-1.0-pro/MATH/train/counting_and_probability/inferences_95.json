@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA box contains 5 white balls and 6 black balls.  Two balls are drawn out of the box at random.  What is the probability that they both are white?",
+        "inference": "Total number of balls in the box = 5 + 6 = 11.\n\nNumber of ways in which 2 white balls can be drawn out of 5 white balls = 5C2 = 10.\n\nNumber of ways in which 2 balls can be drawn out of 11 balls = 11C2 = 55.\n\nTherefore, the probability that both the balls drawn are white = (Number of ways in which 2 white balls can be drawn out of 5 white balls) / (Number of ways in which 2 balls can be drawn out of 11 balls)\n= 10/55\n= 2/11\n\nFinal Answer: $\\boxed{\\frac{2}{11}}$. I hope it is correct.",
+        "ground_truth": "There are $\\binom{11}{2} = 55$ combinations of two balls that can be drawn.  There are $\\binom{5}{2} = 10$ combinations of two white balls that can be drawn.  So the probability that two balls pulled out are both white is $\\dfrac{10}{55} = \\boxed{\\dfrac{2}{11}}$."
+    },
+    {
+        "question": "Total number of balls in the box = 5 + 6 = 11.\n\nNumber of ways in which 2 white balls can be drawn out of 5 white balls = 5C2 = 10.\n\nNumber of ways in which 2 balls can be drawn out of 11 balls = 11C2 = 55.\n\nTherefore, the probability that both the balls drawn are white = (Number of ways in which 2 white balls can be drawn out of 5 white balls) / (Number of ways in which 2 balls can be drawn out of 11 balls)\n= 10/55\n= 2/11\n\nFinal Answer: $\\boxed{\\frac{2}{11}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$\\frac{2}{11}$}",
+        "ground_truth": "There are $\\binom{11}{2} = 55$ combinations of two balls that can be drawn.  There are $\\binom{5}{2} = 10$ combinations of two white balls that can be drawn.  So the probability that two balls pulled out are both white is $\\dfrac{10}{55} = \\boxed{\\dfrac{2}{11}}$."
+    }
+]

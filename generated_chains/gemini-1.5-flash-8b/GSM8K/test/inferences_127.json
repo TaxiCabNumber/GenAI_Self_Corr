@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAfter transferring to a new school, Amy made 20 more friends than Lily. If Lily made 50 friends, how many friends do Lily and Amy have together?",
+        "inference": "Amy made 20 more friends than Lily.\nLily made 50 friends.\nAmy made 50 + 20 = 70 friends.\nTogether they have 50 + 70 = 120 friends.\nI hope it is correct: 120 $answer$\n",
+        "ground_truth": "If Lily made 50 friends, Amy made 50+20 =<<50+20=70>>70 friends.\nTogether, they made 70+50 = <<70+50=120>>120 friends at the new school.\n#### 120"
+    },
+    {
+        "question": "Amy made 20 more friends than Lily.\nLily made 50 friends.\nAmy made 50 + 20 = 70 friends.\nTogether they have 50 + 70 = 120 friends.\nI hope it is correct: 120 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 120\n",
+        "ground_truth": "If Lily made 50 friends, Amy made 50+20 =<<50+20=70>>70 friends.\nTogether, they made 70+50 = <<70+50=120>>120 friends at the new school.\n#### 120"
+    }
+]

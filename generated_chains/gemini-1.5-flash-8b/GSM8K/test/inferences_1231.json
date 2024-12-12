@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSally received the following scores on her math quizzes: 50, 80, 80, 60, 40, 90, 100, 70, and 60. Find her mean score.",
+        "inference": "1. Sum the scores: 50 + 80 + 80 + 60 + 40 + 90 + 100 + 70 + 60 = 630\n2. Count the number of scores: 9\n3. Divide the sum of scores by the number of scores: 630 / 9 = 70\n\nI hope it is correct: 70 $answer$\n",
+        "ground_truth": "Sally's total score is 50 + 80 + 80 + 60 + 40 + 90 + 100 + 70 + 60 = <<50+80+80+60+40+90+100+70+60=630>>630.\nHer mean score is 630 / 9/quizzes = <<630/9=70>>70/quiz.\n#### 70"
+    },
+    {
+        "question": "1. Sum the scores: 50 + 80 + 80 + 60 + 40 + 90 + 100 + 70 + 60 = 630\n2. Count the number of scores: 9\n3. Divide the sum of scores by the number of scores: 630 / 9 = 70\n\nI hope it is correct: 70 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 70\n",
+        "ground_truth": "Sally's total score is 50 + 80 + 80 + 60 + 40 + 90 + 100 + 70 + 60 = <<50+80+80+60+40+90+100+70+60=630>>630.\nHer mean score is 630 / 9/quizzes = <<630/9=70>>70/quiz.\n#### 70"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIf Mark weighs 150 pounds and Susan weighs 20 pounds less than Mark.  And their friend Bob weighs twice as much as Susan.  What is the average weight of the 3 friends?",
+        "inference": "1. Susan's weight: 150 - 20 = 130 pounds\n2. Bob's weight: 130 * 2 = 260 pounds\n3. Total weight: 150 + 130 + 260 = 540 pounds\n4. Average weight: 540 / 3 = 180 pounds\n\nI hope it is correct: 180 $answer$\n",
+        "ground_truth": "Susan weighs 150 pounds - 20 pounds = <<150-20=130>>130 pounds.\nBob weighs 2 * 130 pounds = <<2*130=260>>260 pounds.\nThe friends total weight is 150 + 130 + 260 pounds = <<150+130+260=540>>540 pounds.\nThe friends' average weight is 540 pounds / 3 = <<540/3=180>>180 pounds.\n#### 180"
+    },
+    {
+        "question": "1. Susan's weight: 150 - 20 = 130 pounds\n2. Bob's weight: 130 * 2 = 260 pounds\n3. Total weight: 150 + 130 + 260 = 540 pounds\n4. Average weight: 540 / 3 = 180 pounds\n\nI hope it is correct: 180 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $180$\n",
+        "ground_truth": "Susan weighs 150 pounds - 20 pounds = <<150-20=130>>130 pounds.\nBob weighs 2 * 130 pounds = <<2*130=260>>260 pounds.\nThe friends total weight is 150 + 130 + 260 pounds = <<150+130+260=540>>540 pounds.\nThe friends' average weight is 540 pounds / 3 = <<540/3=180>>180 pounds.\n#### 180"
+    }
+]

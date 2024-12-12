@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the least positive three-digit multiple of 7?",
+        "inference": "The smallest three-digit number is 100. We want to find the smallest multiple of 7 that is greater than or equal to 100.\nDivide 100 by 7: $100 \\div 7 = 14$ with a remainder of 2.\nSo, $100 = 7 \\times 14 + 2$.\nThe next multiple of 7 after 14 is 15.\n$7 \\times 15 = 105$.\nThus, the smallest three-digit multiple of 7 is 105.\n\nFinal Answer: $\\boxed{105}$\n",
+        "ground_truth": "We notice that 77 is a multiple of 7.  We can skip-count from here: \\[77,84,91,98,105,\\ldots.\\] The least three-digit multiple of 7 is $\\boxed{105}$."
+    },
+    {
+        "question": "The smallest three-digit number is 100. We want to find the smallest multiple of 7 that is greater than or equal to 100.\nDivide 100 by 7: $100 \\div 7 = 14$ with a remainder of 2.\nSo, $100 = 7 \\times 14 + 2$.\nThe next multiple of 7 after 14 is 15.\n$7 \\times 15 = 105$.\nThus, the smallest three-digit multiple of 7 is 105.\n\nFinal Answer: $\\boxed{105}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "To find the smallest three-digit multiple of 7, we need to find the smallest integer $n$ such that $7n \\ge 100$. Dividing 100 by 7, we get $100 \\div 7 = 14$ with a remainder of 2. This means $100 = 7 \\times 14 + 2$.  Since we want the smallest multiple greater than or equal to 100, we need to increase 14 by 1 to get 15. Then, $7 \\times 15 = 105$.\n\nThus, the smallest three-digit multiple of 7 is 105.\n\nFinal Answer: $\\boxed{105}$",
+        "ground_truth": "We notice that 77 is a multiple of 7.  We can skip-count from here: \\[77,84,91,98,105,\\ldots.\\] The least three-digit multiple of 7 is $\\boxed{105}$."
+    }
+]

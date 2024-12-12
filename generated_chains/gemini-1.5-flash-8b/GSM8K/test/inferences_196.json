@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\n200 pounds of carrots are to be distributed to 40 restaurants in a certain city. Each restaurant is to receive 2 pounds of carrots. How many pounds of carrots will not be used?",
+        "inference": "40 restaurants * 2 pounds/restaurant = 80 pounds used.\n200 pounds total - 80 pounds used = 120 pounds unused.\nI hope it is correct: 120 $pounds$\n",
+        "ground_truth": "The restaurants need 40 * 2 = <<40*2=80>>80 lbs. of carrots.\nSo 200 - 80 = <<200-80=120>>120 lbs. of carrots will not be used.\n#### 120"
+    },
+    {
+        "question": "40 restaurants * 2 pounds/restaurant = 80 pounds used.\n200 pounds total - 80 pounds used = 120 pounds unused.\nI hope it is correct: 120 $pounds$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 120 pounds\n",
+        "ground_truth": "The restaurants need 40 * 2 = <<40*2=80>>80 lbs. of carrots.\nSo 200 - 80 = <<200-80=120>>120 lbs. of carrots will not be used.\n#### 120"
+    }
+]

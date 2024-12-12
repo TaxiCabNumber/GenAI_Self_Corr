@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJean is two years older than Mark.  Two years ago Mark was 5 years older than half Jan's age.  If Jan is 30 how old is Jean?",
+        "inference": "1. Jan's current age = 30 years\n2. Two years ago, Jan's age was 30 - 2 = 28 years\n3. Two years ago, Mark was 5 years older than half Jan's age, meaning Mark's age was (28/2) + 5 = 14 + 5 = 19 years\n4. Mark's current age is 19 + 2 = 21 years\n5. Jean is two years older than Mark, so Jean's age is 21 + 2 = 23 years\n\nI hope it is correct: 23 $\n",
+        "ground_truth": "2 years ago Jan was 30-2=<<30-2=28>>28 years old\nSo Marks age two years ago was 5+28/2=<<5+28/2=19>>19 years old\nMark is now 19+2=<<19+2=21>>21 years old\nSo Jean is 21+2=<<21+2=23>>23 years old\n#### 23"
+    },
+    {
+        "question": "1. Jan's current age = 30 years\n2. Two years ago, Jan's age was 30 - 2 = 28 years\n3. Two years ago, Mark was 5 years older than half Jan's age, meaning Mark's age was (28/2) + 5 = 14 + 5 = 19 years\n4. Mark's current age is 19 + 2 = 21 years\n5. Jean is two years older than Mark, so Jean's age is 21 + 2 = 23 years\n\nI hope it is correct: 23 $\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 23\n",
+        "ground_truth": "2 years ago Jan was 30-2=<<30-2=28>>28 years old\nSo Marks age two years ago was 5+28/2=<<5+28/2=19>>19 years old\nMark is now 19+2=<<19+2=21>>21 years old\nSo Jean is 21+2=<<21+2=23>>23 years old\n#### 23"
+    }
+]

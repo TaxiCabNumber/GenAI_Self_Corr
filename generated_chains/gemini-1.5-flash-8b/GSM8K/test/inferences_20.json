@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nI have 10 liters of orange drink that are two-thirds water and I wish to add it to 15 liters of pineapple drink that is three-fifths water. But as I pour it, I spill one liter of the orange drink. How much water is in the remaining 24 liters?",
+        "inference": "1. Orange drink water: 10 liters * (2/3) = 6.67 liters\n2. Pineapple drink water: 15 liters * (3/5) = 9 liters\n3. Spilled orange drink water: 1 liter * (2/3) = 0.67 liters\n4. Remaining orange drink water: 6.67 liters - 0.67 liters = 6 liters\n5. Total water in 24 liters: 6 liters + 9 liters = 15 liters\n\nI hope it is correct: 15 $liters$\n",
+        "ground_truth": "There are 15 x 3/5 = <<15*3/5=9>>9 liters of water from the 15 liters pineapple drink.\nAfter 1 liter of orange drink was spilled, there were 10 - 1 = <<10-1=9>>9 liters of orange drink left.\nOut of the 9 liters, 9 x 2/3 = <<9*2/3=6>>6 liters are water.\nThus, there are a total of 9 + 6 = <<9+6=15>>15 liters of water out of the 24 liters.\n#### 15"
+    },
+    {
+        "question": "1. Orange drink water: 10 liters * (2/3) = 6.67 liters\n2. Pineapple drink water: 15 liters * (3/5) = 9 liters\n3. Spilled orange drink water: 1 liter * (2/3) = 0.67 liters\n4. Remaining orange drink water: 6.67 liters - 0.67 liters = 6 liters\n5. Total water in 24 liters: 6 liters + 9 liters = 15 liters\n\nI hope it is correct: 15 $liters$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 15 liters\n",
+        "ground_truth": "There are 15 x 3/5 = <<15*3/5=9>>9 liters of water from the 15 liters pineapple drink.\nAfter 1 liter of orange drink was spilled, there were 10 - 1 = <<10-1=9>>9 liters of orange drink left.\nOut of the 9 liters, 9 x 2/3 = <<9*2/3=6>>6 liters are water.\nThus, there are a total of 9 + 6 = <<9+6=15>>15 liters of water out of the 24 liters.\n#### 15"
+    }
+]

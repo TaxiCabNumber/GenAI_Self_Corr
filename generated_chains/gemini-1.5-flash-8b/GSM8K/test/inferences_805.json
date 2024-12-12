@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJames buys a ring for his bride-to-be.  The diamond cost $600 and the gold cost $300.  He pays a 30% premium for it to be made.  How much did he pay?",
+        "inference": "1. Calculate the cost of the materials: $600 (diamond) + $300 (gold) = $900\n\n2. Calculate the premium amount: $900 * 0.30 = $270\n\n3. Calculate the total cost: $900 + $270 = $1170\n\nI hope it is correct: 1170 $\n",
+        "ground_truth": "The material cost 600+300=$<<600+300=900>>900\nThe premium came out to 900*.3=$<<900*.3=270>>270\nSo the total cost was 900+270=$<<900+270=1170>>1170\n#### 1170"
+    },
+    {
+        "question": "1. Calculate the cost of the materials: $600 (diamond) + $300 (gold) = $900\n\n2. Calculate the premium amount: $900 * 0.30 = $270\n\n3. Calculate the total cost: $900 + $270 = $1170\n\nI hope it is correct: 1170 $\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $1170\n",
+        "ground_truth": "The material cost 600+300=$<<600+300=900>>900\nThe premium came out to 900*.3=$<<900*.3=270>>270\nSo the total cost was 900+270=$<<900+270=1170>>1170\n#### 1170"
+    }
+]

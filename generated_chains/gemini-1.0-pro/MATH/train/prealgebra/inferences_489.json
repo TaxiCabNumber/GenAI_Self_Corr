@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA right triangle has an area of 120 square units, and a leg length of 24 units. What is the perimeter of the triangle, in units?",
+        "inference": "**Step 1: Find the length of the other leg using the area formula**\nArea = 1/2 * base * height\n120 = 1/2 * 24 * height\nheight = 10\n\n**Step 2: Use the Pythagorean theorem to find the length of the hypotenuse**\nhypotenuse^2 = leg1^2 + leg2^2\nhypotenuse^2 = 24^2 + 10^2\nhypotenuse = sqrt(576 + 100)\nhypotenuse = sqrt(676)\nhypotenuse = 26\n\n**Step 3: Calculate the perimeter**\nPerimeter = leg1 + leg2 + hypotenuse\nPerimeter = 24 + 10 + 26\n**Final Answer: \\boxed{$60$}. I hope it is correct.**",
+        "ground_truth": "Let the other leg have length $x$.  From the area of the triangle, we have $\\frac12(24)(x) = 120$, so $12x = 120$ and $x=10$.  Let $c$ be the hypotenuse of the triangle.  The Pythagorean Theorem gives us $c^2 = 10^2 + 24^2 = 100 + 576 = 676$, so $c = 26$.  Therefore,  the perimeter is $10+24+26=\\boxed{60}$."
+    },
+    {
+        "question": "**Step 1: Find the length of the other leg using the area formula**\nArea = 1/2 * base * height\n120 = 1/2 * 24 * height\nheight = 10\n\n**Step 2: Use the Pythagorean theorem to find the length of the hypotenuse**\nhypotenuse^2 = leg1^2 + leg2^2\nhypotenuse^2 = 24^2 + 10^2\nhypotenuse = sqrt(576 + 100)\nhypotenuse = sqrt(676)\nhypotenuse = 26\n\n**Step 3: Calculate the perimeter**\nPerimeter = leg1 + leg2 + hypotenuse\nPerimeter = 24 + 10 + 26\n**Final Answer: \\boxed{$60$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$60$}",
+        "ground_truth": "Let the other leg have length $x$.  From the area of the triangle, we have $\\frac12(24)(x) = 120$, so $12x = 120$ and $x=10$.  Let $c$ be the hypotenuse of the triangle.  The Pythagorean Theorem gives us $c^2 = 10^2 + 24^2 = 100 + 576 = 676$, so $c = 26$.  Therefore,  the perimeter is $10+24+26=\\boxed{60}$."
+    }
+]

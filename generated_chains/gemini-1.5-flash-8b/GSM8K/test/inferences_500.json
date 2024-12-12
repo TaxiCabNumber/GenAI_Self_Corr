@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTogether Lily, David, and Bodhi collected 43 insects. Lily found 7 more than David. David found half of what Bodhi found. How many insects did Lily find?",
+        "inference": "Let 'x' be the number of insects David found.\nLily found 7 more than David, so Lily found x + 7 insects.\nDavid found half of what Bodhi found, so David found (1/2) * Bodhi.  This means Bodhi found 2x insects.\nThe total number of insects is 43.\nSo, x + (x + 7) + 2x = 43\nCombining like terms: 4x + 7 = 43\nSubtracting 7 from both sides: 4x = 36\nDividing both sides by 4: x = 9\nDavid found 9 insects.\nLily found x + 7 = 9 + 7 = 16 insects.\n\nI hope it is correct: 16\n",
+        "ground_truth": "Let B = the number of insects Bodhi collected\nDavid = B/2\nLily = B/2 + 7\nB + B + 7 = 43\n2B = <<36=36>>36\nB = <<18=18>>18 insects\nDavid = 18/2 = <<18/2=9>>9 insects\nLily = 9 + 7 = <<9+7=16>>16 insects\nLily found <<16=16>>16 insects.\n#### 16"
+    },
+    {
+        "question": "Let 'x' be the number of insects David found.\nLily found 7 more than David, so Lily found x + 7 insects.\nDavid found half of what Bodhi found, so David found (1/2) * Bodhi.  This means Bodhi found 2x insects.\nThe total number of insects is 43.\nSo, x + (x + 7) + 2x = 43\nCombining like terms: 4x + 7 = 43\nSubtracting 7 from both sides: 4x = 36\nDividing both sides by 4: x = 9\nDavid found 9 insects.\nLily found x + 7 = 9 + 7 = 16 insects.\n\nI hope it is correct: 16\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 9\n",
+        "ground_truth": "Let B = the number of insects Bodhi collected\nDavid = B/2\nLily = B/2 + 7\nB + B + 7 = 43\n2B = <<36=36>>36\nB = <<18=18>>18 insects\nDavid = 18/2 = <<18/2=9>>9 insects\nLily = 9 + 7 = <<9+7=16>>16 insects\nLily found <<16=16>>16 insects.\n#### 16"
+    }
+]

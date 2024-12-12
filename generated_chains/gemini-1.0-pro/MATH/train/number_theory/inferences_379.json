@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nGiven that $8^{-1} \\equiv 85 \\pmod{97}$, find $64^{-1} \\pmod{97}$, as a residue modulo 97.  (Give an answer between 0 and 96, inclusive.)",
+        "inference": "$$8^{-1} \\equiv 85 \\pmod{97}$$\n$$\\Rightarrow 8^1 \\cdot 8^{-1} \\equiv 85 \\cdot 8^1 \\pmod{97}$$\n$$\\Rightarrow 1 \\equiv 680 \\pmod{97}$$\n$$\\Rightarrow 1 \\equiv 13 \\pmod{97}$$\n$$\\Rightarrow (13)^4 \\equiv 1 \\pmod{97}$$\n$$\\Rightarrow 64^{-1} \\equiv 13^4 \\equiv 13^{97-4} \\equiv 13^{93} \\pmod{97}$$\n$$\\Rightarrow 64^{-1} \\equiv (13^3)^{31} \\equiv 21^3 \\equiv 9261 \\equiv \\boxed{16} \\pmod{97}$$\nFinal Answer: $\\boxed{16}$. I hope it is correct.",
+        "ground_truth": "Since $8^{-1} \\equiv 85 \\pmod{97}$, $64^{-1} \\equiv (8^2)^{-1} \\equiv (8^{-1})^2 \\equiv 85^2 \\equiv \\boxed{47} \\pmod{97}$."
+    },
+    {
+        "question": "$$8^{-1} \\equiv 85 \\pmod{97}$$\n$$\\Rightarrow 8^1 \\cdot 8^{-1} \\equiv 85 \\cdot 8^1 \\pmod{97}$$\n$$\\Rightarrow 1 \\equiv 680 \\pmod{97}$$\n$$\\Rightarrow 1 \\equiv 13 \\pmod{97}$$\n$$\\Rightarrow (13)^4 \\equiv 1 \\pmod{97}$$\n$$\\Rightarrow 64^{-1} \\equiv 13^4 \\equiv 13^{97-4} \\equiv 13^{93} \\pmod{97}$$\n$$\\Rightarrow 64^{-1} \\equiv (13^3)^{31} \\equiv 21^3 \\equiv 9261 \\equiv \\boxed{16} \\pmod{97}$$\nFinal Answer: $\\boxed{16}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{16}$$",
+        "ground_truth": "Since $8^{-1} \\equiv 85 \\pmod{97}$, $64^{-1} \\equiv (8^2)^{-1} \\equiv (8^{-1})^2 \\equiv 85^2 \\equiv \\boxed{47} \\pmod{97}$."
+    }
+]

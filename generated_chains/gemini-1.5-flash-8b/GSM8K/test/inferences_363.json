@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn drives to his friend's house 200 miles away.  He drives at a speed of 70 mph.  He had to take a detour that added 10 miles to his trip.  After he gets there he takes a route home that is 240 miles but he goes 80 mph.  How long did the trip take?",
+        "inference": "1. **Trip to friend's house (original):**\n   - Distance: 200 miles\n   - Speed: 70 mph\n   - Time = Distance / Speed = 200 miles / 70 mph = 20/7 hours\n\n2. **Trip to friend's house (with detour):**\n   - Distance: 200 miles + 10 miles = 210 miles\n   - Speed: 70 mph\n   - Time = Distance / Speed = 210 miles / 70 mph = 3 hours\n\n3. **Trip home:**\n   - Distance: 240 miles\n   - Speed: 80 mph\n   - Time = Distance / Speed = 240 miles / 80 mph = 3 hours\n\n4. **Total trip time:**\n   - Time to friend's house + Time at friend's house + Time home = 3 hours + 0 + 3 hours = 6 hours\n\nI hope it is correct: 6 $hours$\n",
+        "ground_truth": "The first leg was 200+10=<<200+10=210>>210 miles\nSo he drove 210/70=<<210/70=3>>3 hours\nThe second route took 240/80=<<240/80=3>>3 hours\nSo in total he drove 3+3=<<3+3=6>>6 hours\n#### 6"
+    },
+    {
+        "question": "1. **Trip to friend's house (original):**\n   - Distance: 200 miles\n   - Speed: 70 mph\n   - Time = Distance / Speed = 200 miles / 70 mph = 20/7 hours\n\n2. **Trip to friend's house (with detour):**\n   - Distance: 200 miles + 10 miles = 210 miles\n   - Speed: 70 mph\n   - Time = Distance / Speed = 210 miles / 70 mph = 3 hours\n\n3. **Trip home:**\n   - Distance: 240 miles\n   - Speed: 80 mph\n   - Time = Distance / Speed = 240 miles / 80 mph = 3 hours\n\n4. **Total trip time:**\n   - Time to friend's house + Time at friend's house + Time home = 3 hours + 0 + 3 hours = 6 hours\n\nI hope it is correct: 6 $hours$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 6 hours\n",
+        "ground_truth": "The first leg was 200+10=<<200+10=210>>210 miles\nSo he drove 210/70=<<210/70=3>>3 hours\nThe second route took 240/80=<<240/80=3>>3 hours\nSo in total he drove 3+3=<<3+3=6>>6 hours\n#### 6"
+    }
+]

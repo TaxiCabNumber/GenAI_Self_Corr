@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA stack of logs has 12 logs on the bottom row, and one less in each successive row, ending with three logs at the top. How many logs are in the stack?",
+        "inference": "Since there are 12 logs in the first row and they decrease by 1 each row, the second row has 11 logs, the third row has 10 logs, and so on. To find the total number of logs, we can add up the number of logs in each row:\n\n$$12 + 11 + 10 + \\cdots + 3 = 78$$\n\n**Final Answer: \\(\\boxed{78}\\).. I hope it is correct.**",
+        "ground_truth": "We can manually add $3+4+\\cdots+12$, or we can use the formula for the sum of an arithmetic series. We multiply the average of the first and last terms $\\frac{3+12}{2}$ by the number of terms, $12-3+1=10$. The value of the sum is $\\frac{15}{2}\\cdot10=15\\cdot5=75$, so there are $\\boxed{75}$ logs in the stack."
+    },
+    {
+        "question": "Since there are 12 logs in the first row and they decrease by 1 each row, the second row has 11 logs, the third row has 10 logs, and so on. To find the total number of logs, we can add up the number of logs in each row:\n\n$$12 + 11 + 10 + \\cdots + 3 = 78$$\n\n**Final Answer: \\(\\boxed{78}\\).. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\(\\boxed{108}\\)",
+        "ground_truth": "We can manually add $3+4+\\cdots+12$, or we can use the formula for the sum of an arithmetic series. We multiply the average of the first and last terms $\\frac{3+12}{2}$ by the number of terms, $12-3+1=10$. The value of the sum is $\\frac{15}{2}\\cdot10=15\\cdot5=75$, so there are $\\boxed{75}$ logs in the stack."
+    }
+]

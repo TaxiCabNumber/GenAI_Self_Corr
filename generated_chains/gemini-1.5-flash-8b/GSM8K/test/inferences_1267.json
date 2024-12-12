@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA farm has 10 2-legged animals and 15 4-legged animals. If all animals are healthy, how many pairs of animal legs in total are on the farm?",
+        "inference": "10 animals * 2 legs/animal + 15 animals * 4 legs/animal = 20 legs + 60 legs = 80 legs.\nI hope it is correct: 80 $answer$\n",
+        "ground_truth": "2-legged animals have 2 legs. Therefore 10 2-legged animals will have 10*2=<<10*2=20>>20 legs\n4-legged animals have 4 legs. Therefore 15 4-legged animals will have 15*4=<<15*4=60>>60 legs\nIn total there are 20+60= <<20+60=80>>80 legs\nA pair of legs equals 2 legs. If there are 80 legs on the farm, there will be 80/2= <<80/2=40>>40 pairs of legs\n#### 40"
+    },
+    {
+        "question": "10 animals * 2 legs/animal + 15 animals * 4 legs/animal = 20 legs + 60 legs = 80 legs.\nI hope it is correct: 80 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 80\n",
+        "ground_truth": "2-legged animals have 2 legs. Therefore 10 2-legged animals will have 10*2=<<10*2=20>>20 legs\n4-legged animals have 4 legs. Therefore 15 4-legged animals will have 15*4=<<15*4=60>>60 legs\nIn total there are 20+60= <<20+60=80>>80 legs\nA pair of legs equals 2 legs. If there are 80 legs on the farm, there will be 80/2= <<80/2=40>>40 pairs of legs\n#### 40"
+    }
+]

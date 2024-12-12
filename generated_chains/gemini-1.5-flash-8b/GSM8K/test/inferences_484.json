@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nStetson made a bet with Alec that he would give up $10 for each orange he eats. While at the farm, Stetson ate 2/5 of the oranges they picked. If they picked 60 oranges, calculate the total amount of money Stetson gave up?",
+        "inference": "1. Calculate the number of oranges Stetson ate: (2/5) * 60 = 24 oranges\n\n2. Calculate the total amount Stetson gave up: 24 oranges * $10/orange = $240\n\nI hope it is correct: $240\n",
+        "ground_truth": "If they picked 60 oranges and Stetson ate 2/5 of them, he ate 2/5*60 = <<60*2/5=24>>24 oranges.\nIf he gave $10 for every orange he ate, then he gave up $10*24 = $<<10*24=240>>240\n#### 240"
+    },
+    {
+        "question": "1. Calculate the number of oranges Stetson ate: (2/5) * 60 = 24 oranges\n\n2. Calculate the total amount Stetson gave up: 24 oranges * $10/orange = $240\n\nI hope it is correct: $240\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $240\n",
+        "ground_truth": "If they picked 60 oranges and Stetson ate 2/5 of them, he ate 2/5*60 = <<60*2/5=24>>24 oranges.\nIf he gave $10 for every orange he ate, then he gave up $10*24 = $<<10*24=240>>240\n#### 240"
+    }
+]

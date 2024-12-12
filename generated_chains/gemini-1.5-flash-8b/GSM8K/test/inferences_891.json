@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA whirligig spins at five times the speed of a thingamabob. A whatchamacallit spins eleven times faster than a thingamabob. A whatchamacallit spins at 121 meters per second. How fast does a whirligig spin?",
+        "inference": "1. The whatchamacallit spins at 121 meters per second.\n2. A whatchamacallit spins eleven times faster than a thingamabob.  So, the thingamabob spins at 121 meters per second / 11 = 11 meters per second.\n3. A whirligig spins five times the speed of a thingamabob.  So, the whirligig spins at 11 meters per second * 5 = 55 meters per second.\n\nI hope it is correct: 55 $meters/second$\n",
+        "ground_truth": "A thingamabob spins 1/11 as fast as a whatchamacallit, so it spins at 121 / 11 = 11 meters per second.\nA whirligig spins five times faster than a thingamabob, so it spins at 11 * 5 = <<11*5=55>>55 meters per second.\n#### 55"
+    },
+    {
+        "question": "1. The whatchamacallit spins at 121 meters per second.\n2. A whatchamacallit spins eleven times faster than a thingamabob.  So, the thingamabob spins at 121 meters per second / 11 = 11 meters per second.\n3. A whirligig spins five times the speed of a thingamabob.  So, the whirligig spins at 11 meters per second * 5 = 55 meters per second.\n\nI hope it is correct: 55 $meters/second$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 55 meters/second\n",
+        "ground_truth": "A thingamabob spins 1/11 as fast as a whatchamacallit, so it spins at 121 / 11 = 11 meters per second.\nA whirligig spins five times faster than a thingamabob, so it spins at 11 * 5 = <<11*5=55>>55 meters per second.\n#### 55"
+    }
+]

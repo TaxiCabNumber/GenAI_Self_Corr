@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nAlex has 5 pieces of paper, each with a different math problem. In how many ways can he give these problems to his 10 friends (he can give each friend more than one problem)?",
+        "inference": "Alex has 5 pieces of paper, each with a different math problem. In how many ways can he give these problems to his 10 friends (he can give each friend more than one problem)?\n\nThe number of ways to distribute the problems to his 10 friends is equal to the number of ways to distribute 10 identical objects into 5 distinct boxes. This is the same as the number of solutions to the equation  x1 + x2 + x3 + x4 +x5 = 10, where xi \u2265 0 is the number of objects in the ith box.\n\nTherefore, the number of ways is equal to the number of solutions to the equation:\n$\\\\~\\\\$\n${10+5-1 \\choose 5-1} = {14 \\choose 4} $\n$\\\\~\\\\$\n\nFinal Answer: $\\boxed{105}$. I hope it is correct.",
+        "ground_truth": "For each of Alex's five problems, there are 10 friends he can give it to. Therefore, there are $10^5=\\boxed{100,\\!000}$ ways for Alex to distribute the problems."
+    },
+    {
+        "question": "Alex has 5 pieces of paper, each with a different math problem. In how many ways can he give these problems to his 10 friends (he can give each friend more than one problem)?\n\nThe number of ways to distribute the problems to his 10 friends is equal to the number of ways to distribute 10 identical objects into 5 distinct boxes. This is the same as the number of solutions to the equation  x1 + x2 + x3 + x4 +x5 = 10, where xi \u2265 0 is the number of objects in the ith box.\n\nTherefore, the number of ways is equal to the number of solutions to the equation:\n$\\\\~\\\\$\n${10+5-1 \\choose 5-1} = {14 \\choose 4} $\n$\\\\~\\\\$\n\nFinal Answer: $\\boxed{105}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$105$}",
+        "ground_truth": "For each of Alex's five problems, there are 10 friends he can give it to. Therefore, there are $10^5=\\boxed{100,\\!000}$ ways for Alex to distribute the problems."
+    }
+]

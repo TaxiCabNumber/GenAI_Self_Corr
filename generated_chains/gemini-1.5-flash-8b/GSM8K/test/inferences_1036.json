@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are forty apples in one box. Uncle Franky ordered two boxes of apples. He is planning to pack the apples with eight apples in one pack. How many packs of apples can he make with the two boxes of apples?",
+        "inference": "Apples in one box = 40\nUncle Franky ordered 2 boxes.\nTotal apples = 40 * 2 = 80\nApples per pack = 8\nNumber of packs = Total apples / Apples per pack = 80 / 8 = 10\nI hope it is correct: 10 $packs$\n",
+        "ground_truth": "There are 2 x 40 = <<2*40=80>>80 apples in two boxes.\nTherefore, Uncle Franky makes 80/8 = <<80/8=10>>10 packs of apples.\n#### 10"
+    },
+    {
+        "question": "Apples in one box = 40\nUncle Franky ordered 2 boxes.\nTotal apples = 40 * 2 = 80\nApples per pack = 8\nNumber of packs = Total apples / Apples per pack = 80 / 8 = 10\nI hope it is correct: 10 $packs$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 10\n",
+        "ground_truth": "There are 2 x 40 = <<2*40=80>>80 apples in two boxes.\nTherefore, Uncle Franky makes 80/8 = <<80/8=10>>10 packs of apples.\n#### 10"
+    }
+]

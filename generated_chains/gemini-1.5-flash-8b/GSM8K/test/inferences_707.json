@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nColorado City uses 40% of the water from the Colorado River. If 80% of that water is used for industrial purposes, what percent of the river's total water is used by the city for non-industrial purposes?",
+        "inference": "1. Colorado City uses 40% of the water.\n2. 80% of that 40% is used industrially.  So, 80% * 40% = 32% is used industrially.\n3. The remaining portion used for non-industrial purposes is 40% - 32% = 8%.\n\nI hope it is correct: 8%\n",
+        "ground_truth": "First find the percentage of water used for non-industrial purposes: 100% - 80% = 20%\nThen multiply that percentage by the percentage of water taken from the river: 20% * 40% = 8%\n#### 8"
+    },
+    {
+        "question": "1. Colorado City uses 40% of the water.\n2. 80% of that 40% is used industrially.  So, 80% * 40% = 32% is used industrially.\n3. The remaining portion used for non-industrial purposes is 40% - 32% = 8%.\n\nI hope it is correct: 8%\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 8%\n",
+        "ground_truth": "First find the percentage of water used for non-industrial purposes: 100% - 80% = 20%\nThen multiply that percentage by the percentage of water taken from the river: 20% * 40% = 8%\n#### 8"
+    }
+]

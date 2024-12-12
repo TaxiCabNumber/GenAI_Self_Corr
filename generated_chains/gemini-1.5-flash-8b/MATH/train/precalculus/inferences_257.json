@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCompute $\\arcsin \\frac{1}{\\sqrt{2}}.$  Express your answer in radians.",
+        "inference": "Let $\\theta = \\arcsin \\frac{1}{\\sqrt{2}}$. Then $\\sin \\theta = \\frac{1}{\\sqrt{2}}$. Since $0 \\le \\theta \\le \\pi/2$, we have $\\theta = \\frac{\\pi}{4}$.\nFinal Answer: $\\boxed{\\frac{\\pi}{4}}$\n",
+        "ground_truth": "Since $\\sin \\frac{\\pi}{4} = \\frac{1}{\\sqrt{2}},$ $\\arcsin \\frac{1}{\\sqrt{2}} = \\boxed{\\frac{\\pi}{4}}.$"
+    },
+    {
+        "question": "Let $\\theta = \\arcsin \\frac{1}{\\sqrt{2}}$. Then $\\sin \\theta = \\frac{1}{\\sqrt{2}}$. Since $0 \\le \\theta \\le \\pi/2$, we have $\\theta = \\frac{\\pi}{4}$.\nFinal Answer: $\\boxed{\\frac{\\pi}{4}}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The arcsin function returns a value between $-\\pi/2$ and $\\pi/2$.  Since $\\sin(\\theta) = 1/\\sqrt{2}$, and $0 \\le \\theta \\le \\pi/2$, we have $\\theta = \\pi/4$.\n\n$\\boxed{\\frac{\\pi}{4}}$\n",
+        "ground_truth": "Since $\\sin \\frac{\\pi}{4} = \\frac{1}{\\sqrt{2}},$ $\\arcsin \\frac{1}{\\sqrt{2}} = \\boxed{\\frac{\\pi}{4}}.$"
+    }
+]

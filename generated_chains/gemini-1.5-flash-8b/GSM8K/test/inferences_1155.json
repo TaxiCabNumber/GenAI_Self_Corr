@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn buys a cassette with 2 songs.  The first song is 5 minutes and the second song is 60% longer.  How much time was the total cassette?",
+        "inference": "1. Calculate the length of the second song: 5 minutes * 1.60 = 8 minutes\n2. Calculate the total time: 5 minutes + 8 minutes = 13 minutes\n\nI hope it is correct: 13 $minutes$\n",
+        "ground_truth": "The second song is 5*.6=<<5*.6=3>>3 minutes longer than the first\nSo the second song was 5+3=<<5+3=8>>8 minutes\nThat means the total time was 5+8=<<5+8=13>>13 minutes\n#### 13"
+    },
+    {
+        "question": "1. Calculate the length of the second song: 5 minutes * 1.60 = 8 minutes\n2. Calculate the total time: 5 minutes + 8 minutes = 13 minutes\n\nI hope it is correct: 13 $minutes$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 13 minutes\n",
+        "ground_truth": "The second song is 5*.6=<<5*.6=3>>3 minutes longer than the first\nSo the second song was 5+3=<<5+3=8>>8 minutes\nThat means the total time was 5+8=<<5+8=13>>13 minutes\n#### 13"
+    }
+]

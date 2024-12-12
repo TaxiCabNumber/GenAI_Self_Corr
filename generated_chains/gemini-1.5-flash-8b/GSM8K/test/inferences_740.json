@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA class of 50 students has various hobbies. 10 like to bake, 5 like to play basketball, and the rest like to either play video games or play music. How many like to play video games if the number that like to play music is twice the number that prefer playing basketball?",
+        "inference": "1. Students who like to play basketball: 5\n2. Students who like to play music: 2 * 5 = 10\n3. Students who like video games: 50 - 10 - 5 - 10 = 25\n\nI hope it is correct: 25 $answer$\n",
+        "ground_truth": "The number of students that like to play music is twice as many as the number who like basketball, so 2 * 5 = <<2*5=10>>10\nThe number that like to play video games is 50 total students - 10 baking - 5 basketball - 10 music = <<50-10-5-10=25>>25\n#### 25"
+    },
+    {
+        "question": "1. Students who like to play basketball: 5\n2. Students who like to play music: 2 * 5 = 10\n3. Students who like video games: 50 - 10 - 5 - 10 = 25\n\nI hope it is correct: 25 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$\nThere isn't enough information to determine the number of students who like video games.  The problem doesn't specify if these are mutually exclusive groups or if there's overlap.  More context is needed.\n",
+        "ground_truth": "The number of students that like to play music is twice as many as the number who like basketball, so 2 * 5 = <<2*5=10>>10\nThe number that like to play video games is 50 total students - 10 baking - 5 basketball - 10 music = <<50-10-5-10=25>>25\n#### 25"
+    }
+]

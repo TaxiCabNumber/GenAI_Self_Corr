@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nDarren decides to do body exercises for a whole week. He does 100 pushups, 50 squats, and 20 dumbbell presses on the first day. On the second day, he does 20 more pushups than on the first day, ten fewer squats, and doubles the number of dumbbell presses. What's the total count of the activities he's done in the two days?",
+        "inference": "Day 1:\nPushups: 100\nSquats: 50\nDumbbell presses: 20\n\nDay 2:\nPushups: 100 + 20 = 120\nSquats: 50 - 10 = 40\nDumbbell presses: 20 * 2 = 40\n\nTotal Day 1: 100 + 50 + 20 = 170\nTotal Day 2: 120 + 40 + 40 = 200\n\nTotal for two days: 170 + 200 = 370\n\nI hope it is correct: 370 $\n",
+        "ground_truth": "The total count of activities for the first day is 100+50+20 = <<100+50+20=170>>170\nOn the second day, he does 100+20 = <<100+20=120>>120 pushups\nHe also does 50-10 = <<50-10=40>>40 squats on the second day\nFor the dumbbell presses, he doubles the number of the first day, which becomes 2*20 = <<2*20=40>>40\nThe total count for the three activities on the second day is 40+40+120 = <<40+40+120=200>>200\nFor the two days, his total count for all the three activities is 200+170 = <<200+170=370>>370\n#### 370"
+    },
+    {
+        "question": "Day 1:\nPushups: 100\nSquats: 50\nDumbbell presses: 20\n\nDay 2:\nPushups: 100 + 20 = 120\nSquats: 50 - 10 = 40\nDumbbell presses: 20 * 2 = 40\n\nTotal Day 1: 100 + 50 + 20 = 170\nTotal Day 2: 120 + 40 + 40 = 200\n\nTotal for two days: 170 + 200 = 370\n\nI hope it is correct: 370 $\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 370\n",
+        "ground_truth": "The total count of activities for the first day is 100+50+20 = <<100+50+20=170>>170\nOn the second day, he does 100+20 = <<100+20=120>>120 pushups\nHe also does 50-10 = <<50-10=40>>40 squats on the second day\nFor the dumbbell presses, he doubles the number of the first day, which becomes 2*20 = <<2*20=40>>40\nThe total count for the three activities on the second day is 40+40+120 = <<40+40+120=200>>200\nFor the two days, his total count for all the three activities is 200+170 = <<200+170=370>>370\n#### 370"
+    }
+]

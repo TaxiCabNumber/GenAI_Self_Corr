@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\n48 people are riding a bus. On the first stop, 8 passengers get off, and 5 times as many people as the number who got off from the bus get into the bus. On the second stop 21, passengers get off and 3 times fewer passengers get on. How many passengers are riding the bus after the second stop?",
+        "inference": "1. Passengers getting off at the first stop: 8\n2. Passengers getting on at the first stop: 8 * 5 = 40\n3. Total passengers after the first stop: 48 - 8 + 40 = 80\n4. Passengers getting off at the second stop: 21\n5. Passengers getting on at the second stop: 21 * 3 -3 = 60-3=57\n6. Total passengers after the second stop: 80 - 21 + 57 = 116\n\nI hope it is correct: 116 $answer$\n",
+        "ground_truth": "At the first stop, 5 * 8 = <<5*8=40>>40 passengers get on the bus.\nAfter the first stop the bus has ( 48 - 8 ) + 40 = <<48-8+40=80>>80 passengers.\nAt the second stop, 21 / 3 = <<21/3=7>>7 passengers get on the bus.\nAfter the second stop there are ( 80 - 21 ) + 7 = <<80-21+7=66>>66 passengers.\n#### 66"
+    },
+    {
+        "question": "1. Passengers getting off at the first stop: 8\n2. Passengers getting on at the first stop: 8 * 5 = 40\n3. Total passengers after the first stop: 48 - 8 + 40 = 80\n4. Passengers getting off at the second stop: 21\n5. Passengers getting on at the second stop: 21 * 3 -3 = 60-3=57\n6. Total passengers after the second stop: 80 - 21 + 57 = 116\n\nI hope it is correct: 116 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "The problem is poorly defined.  Crucial information is missing, such as the starting number of passengers.  Without knowing the initial passenger count, the calculation cannot be completed.\n\n#### $answer$\n",
+        "ground_truth": "At the first stop, 5 * 8 = <<5*8=40>>40 passengers get on the bus.\nAfter the first stop the bus has ( 48 - 8 ) + 40 = <<48-8+40=80>>80 passengers.\nAt the second stop, 21 / 3 = <<21/3=7>>7 passengers get on the bus.\nAfter the second stop there are ( 80 - 21 ) + 7 = <<80-21+7=66>>66 passengers.\n#### 66"
+    }
+]

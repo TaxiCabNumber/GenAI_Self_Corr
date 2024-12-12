@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nKrissa needs to order field trip shirts for her preschool students. 11 students need size extra-small.  Twice as many students need size small as extra small. Four less than the number of size small students need size medium.  Half as many students need size large as size medium.  Six more students need size extra-large than large.  Altogether, how many shirts did Krissa order?",
+        "inference": "1. Extra-small: 11 students\n2. Small: 11 * 2 = 22 students\n3. Medium: 22 - 4 = 18 students\n4. Large: 18 / 2 = 9 students\n5. Extra-large: 9 + 6 = 15 students\n6. Total shirts: 11 + 22 + 18 + 9 + 15 = 75\n\nI hope it is correct: 75 $answer$\n",
+        "ground_truth": "Krissa ordered 11 x 2 = <<11*2=22>>22 size small.\nShe ordered 22 - 4 = <<22-4=18>>18 size medium.\nShe ordered 18 / 2 = <<18/2=9>>9 size large.\nShe ordered 9 + 6 = <<9+6=15>>15 size extra-large.\nAltogether, Krissa ordered 11 + 22 + 18 + 9 + 15 = <<11+22+18+9+15=75>>75 shirts.\n#### 75"
+    },
+    {
+        "question": "1. Extra-small: 11 students\n2. Small: 11 * 2 = 22 students\n3. Medium: 22 - 4 = 18 students\n4. Large: 18 / 2 = 9 students\n5. Extra-large: 9 + 6 = 15 students\n6. Total shirts: 11 + 22 + 18 + 9 + 15 = 75\n\nI hope it is correct: 75 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 75\n",
+        "ground_truth": "Krissa ordered 11 x 2 = <<11*2=22>>22 size small.\nShe ordered 22 - 4 = <<22-4=18>>18 size medium.\nShe ordered 18 / 2 = <<18/2=9>>9 size large.\nShe ordered 9 + 6 = <<9+6=15>>15 size extra-large.\nAltogether, Krissa ordered 11 + 22 + 18 + 9 + 15 = <<11+22+18+9+15=75>>75 shirts.\n#### 75"
+    }
+]

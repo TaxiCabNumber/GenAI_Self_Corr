@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe bakers at the Beverly Hills Bakery baked 200 loaves of bread on Monday morning. They sold 93 loaves in the morning and 39 loaves in the afternoon. A grocery store returned 6 unsold loaves. How many loaves of bread did they have left?",
+        "inference": "1. Loaves sold in the morning: 93\n2. Loaves sold in the afternoon: 39\n3. Total loaves sold: 93 + 39 = 132\n4. Loaves returned: 6\n5. Loaves remaining after sales and return: 200 - 132 + 6 = 74\nI hope it is correct: 74 $loaves$\n",
+        "ground_truth": "The Bakery sold 93 + 39 = <<93+39=132>>132 loaves.\nThe Bakery made 200 loaves and sold 132, leaving 200 - 132 = <<200-132=68>>68 loaves remaining.\nThe grocery store returned 6 loaves, so there were 6 + 68 = <<6+68=74>>74 loaves left.\n#### 74"
+    },
+    {
+        "question": "1. Loaves sold in the morning: 93\n2. Loaves sold in the afternoon: 39\n3. Total loaves sold: 93 + 39 = 132\n4. Loaves returned: 6\n5. Loaves remaining after sales and return: 200 - 132 + 6 = 74\nI hope it is correct: 74 $loaves$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 74 loaves\n",
+        "ground_truth": "The Bakery sold 93 + 39 = <<93+39=132>>132 loaves.\nThe Bakery made 200 loaves and sold 132, leaving 200 - 132 = <<200-132=68>>68 loaves remaining.\nThe grocery store returned 6 loaves, so there were 6 + 68 = <<6+68=74>>74 loaves left.\n#### 74"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the largest prime divisor of 11! + 12!",
+        "inference": "11! + 12! = 11! + 12 * 11! = 11! * (1 + 12) = 11! * 13.\nSince 11! = 1 * 2 * 3 * 4 * 5 * 6 * 7 * 8 * 9 * 10 * 11, and 13 is a prime number, the largest prime divisor of 11! * 13 is 13.\n\nFinal Answer: $\\boxed{13}$\n",
+        "ground_truth": "Since $12! = 12 \\cdot 11!$, we can examine the sum better by factoring $11!$ out of both parts: $$ 11! + 12! = 11! + 12 \\cdot 11! = 11!(1 + 12) = 11! \\cdot 13. $$Since no prime greater than 11 divides $11!$, $\\boxed{13}$ is the largest prime factor of $11! + 12!$."
+    },
+    {
+        "question": "11! + 12! = 11! + 12 * 11! = 11! * (1 + 12) = 11! * 13.\nSince 11! = 1 * 2 * 3 * 4 * 5 * 6 * 7 * 8 * 9 * 10 * 11, and 13 is a prime number, the largest prime divisor of 11! * 13 is 13.\n\nFinal Answer: $\\boxed{13}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "11! + 12! = 11! + 12 \u00d7 11! = 11!(1 + 12) = 11! \u00d7 13.\nSince 11! = 1 \u00d7 2 \u00d7 3 \u00d7 ... \u00d7 11, the prime factors of 11! are 2, 3, 5, 7, 11.  The prime factorization of 11! \u00d7 13 is 2<sup>a</sup> \u00d7 3<sup>b</sup> \u00d7 5<sup>c</sup> \u00d7 7<sup>d</sup> \u00d7 11<sup>e</sup> \u00d7 13<sup>1</sup>, where a, b, c, d, e are positive integers.  The largest prime divisor of 11! \u00d7 13 is 13.\n\nFinal Answer: $\\boxed{13}$",
+        "ground_truth": "Since $12! = 12 \\cdot 11!$, we can examine the sum better by factoring $11!$ out of both parts: $$ 11! + 12! = 11! + 12 \\cdot 11! = 11!(1 + 12) = 11! \\cdot 13. $$Since no prime greater than 11 divides $11!$, $\\boxed{13}$ is the largest prime factor of $11! + 12!$."
+    }
+]

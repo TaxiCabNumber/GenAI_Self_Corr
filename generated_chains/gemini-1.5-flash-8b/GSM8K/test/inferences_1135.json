@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\n3 trees each had 7 blue birds in them. 2 different trees each had 4 blue birds. 1 final tree had 3 blue birds. How many blue birds were in the trees in total?",
+        "inference": "(3 trees * 7 birds/tree) + (2 trees * 4 birds/tree) + (1 tree * 3 birds/tree) = 21 + 8 + 3 = 32\n\nI hope it is correct: 32 $blue\\ birds$\n",
+        "ground_truth": "The first 3 trees had 7*3=<<7*3=21>>21 blue birds.\nThe second 2 trees had 4*2=<<4*2=8>>8 blue birds.\nThere were 21+8+3=<<21+8+3=32>>32 blue birds in total.\n#### 32"
+    },
+    {
+        "question": "(3 trees * 7 birds/tree) + (2 trees * 4 birds/tree) + (1 tree * 3 birds/tree) = 21 + 8 + 3 = 32\n\nI hope it is correct: 32 $blue\\ birds$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 32 birds\n",
+        "ground_truth": "The first 3 trees had 7*3=<<7*3=21>>21 blue birds.\nThe second 2 trees had 4*2=<<4*2=8>>8 blue birds.\nThere were 21+8+3=<<21+8+3=32>>32 blue birds in total.\n#### 32"
+    }
+]

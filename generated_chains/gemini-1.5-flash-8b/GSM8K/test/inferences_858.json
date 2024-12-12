@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA plague infects ten people. Every day, each infected person infects six others. How many people are infected after three days?",
+        "inference": "1. Day 1: 10 infected people infect 6 others each, so 10 * 6 = 60 new infections. Total infected: 10 + 60 = 70.\n2. Day 2: 70 infected people infect 6 others each, so 70 * 6 = 420 new infections. Total infected: 70 + 420 = 490.\n3. Day 3: 490 infected people infect 6 others each, so 490 * 6 = 2940 new infections. Total infected: 490 + 2940 = 3430.\n\nI hope it is correct: 3430 $answer$\n",
+        "ground_truth": "On the first day, the original ten people infect six people each, so 10 * 6 = <<10*6=60>>60 more people are infected.\nThere are 10 + 60 = <<10+60=70>>70 infected people after the first day.\nOn the second day, 70 * 6 = <<70*6=420>>420 more people are infected.\nThere are 70 + 420 = <<70+420=490>>490 infected people after the second day.\nOn the third day, 490 * 6 = 2940 more people are infected. Therefore, there are 490 + 2940 = 3430 infected people after three days.\n#### 3430"
+    },
+    {
+        "question": "1. Day 1: 10 infected people infect 6 others each, so 10 * 6 = 60 new infections. Total infected: 10 + 60 = 70.\n2. Day 2: 70 infected people infect 6 others each, so 70 * 6 = 420 new infections. Total infected: 70 + 420 = 490.\n3. Day 3: 490 infected people infect 6 others each, so 490 * 6 = 2940 new infections. Total infected: 490 + 2940 = 3430.\n\nI hope it is correct: 3430 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 3430\n",
+        "ground_truth": "On the first day, the original ten people infect six people each, so 10 * 6 = <<10*6=60>>60 more people are infected.\nThere are 10 + 60 = <<10+60=70>>70 infected people after the first day.\nOn the second day, 70 * 6 = <<70*6=420>>420 more people are infected.\nThere are 70 + 420 = <<70+420=490>>490 infected people after the second day.\nOn the third day, 490 * 6 = 2940 more people are infected. Therefore, there are 490 + 2940 = 3430 infected people after three days.\n#### 3430"
+    }
+]

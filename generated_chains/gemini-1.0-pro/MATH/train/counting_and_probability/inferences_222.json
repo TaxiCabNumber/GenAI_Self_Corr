@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nBertha has 6 daughters and no sons. Some of her daughters have 6 daughters, and the rest have none. Bertha has a total of 30 daughters and granddaughters, and no great-granddaughters. How many of Bertha's daughters and granddaughters have no daughters?",
+        "inference": "Let x be the number of Bertha's daughters who have 6 daughters. Then 6 - x is the number of Bertha's daughters who have no daughters.\n\nThe total number of daughters is 6 * x + (6 - x) = 30.\n\nSolving for x, we get x = 4.\n\nTherefore, 6 - x = 2 of Bertha's daughters have no daughters.\n\nAnd 4 of Bertha's daughters have 6 daughters each, for a total of 24 granddaughters.\n\nSo, the total number of daughters and granddaughters with no daughters is 2 + 24 = 26.\n\nFinal Answer: $\\boxed{26}.$ I hope it is correct.",
+        "ground_truth": "Bertha has $30 - 6 = 24$ granddaughters, none of whom have any daughters. The granddaughters are the children of $24/6 = 4$ of Bertha's daughters, so the number of women  having no daughters is $30 - 4 = \\boxed{26}$."
+    },
+    {
+        "question": "Let x be the number of Bertha's daughters who have 6 daughters. Then 6 - x is the number of Bertha's daughters who have no daughters.\n\nThe total number of daughters is 6 * x + (6 - x) = 30.\n\nSolving for x, we get x = 4.\n\nTherefore, 6 - x = 2 of Bertha's daughters have no daughters.\n\nAnd 4 of Bertha's daughters have 6 daughters each, for a total of 24 granddaughters.\n\nSo, the total number of daughters and granddaughters with no daughters is 2 + 24 = 26.\n\nFinal Answer: $\\boxed{26}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Final Answer: $\\boxed{26}.$",
+        "ground_truth": "Bertha has $30 - 6 = 24$ granddaughters, none of whom have any daughters. The granddaughters are the children of $24/6 = 4$ of Bertha's daughters, so the number of women  having no daughters is $30 - 4 = \\boxed{26}$."
+    }
+]

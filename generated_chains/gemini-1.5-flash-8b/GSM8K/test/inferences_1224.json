@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIt rained 2 inches on Monday and is expected to rain 1 more inch than twice of Monday\u2019s total on Tuesday. How many inches of rain will there be on Tuesday?",
+        "inference": "1. Monday's rain: 2 inches\n2. Tuesday's rain is 1 inch more than twice Monday's rain.\n3. Twice Monday's rain: 2 inches * 2 = 4 inches\n4. Tuesday's rain: 4 inches + 1 inch = 5 inches\n\nI hope it is correct: 5 $inches$\n",
+        "ground_truth": "Twice as much rain as Monday is 2 inches * 2 = <<2*2=4>>4 inches\nIt will rain 1 more inch than this value on Tuesday so 4 inches + 1 = <<4+1=5>>5 inches on Tuesday\n#### 5"
+    },
+    {
+        "question": "1. Monday's rain: 2 inches\n2. Tuesday's rain is 1 inch more than twice Monday's rain.\n3. Twice Monday's rain: 2 inches * 2 = 4 inches\n4. Tuesday's rain: 4 inches + 1 inch = 5 inches\n\nI hope it is correct: 5 $inches$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "1. Monday's rain: 2 inches\n2. Tuesday's rain is 1 inch more than twice Monday's rain.\n3. Twice Monday's rain: 2 inches * 2 = 4 inches\n4. Tuesday's rain: 4 inches + 1 inch = 5 inches\n\n#### $5 inches$\n",
+        "ground_truth": "Twice as much rain as Monday is 2 inches * 2 = <<2*2=4>>4 inches\nIt will rain 1 more inch than this value on Tuesday so 4 inches + 1 = <<4+1=5>>5 inches on Tuesday\n#### 5"
+    }
+]

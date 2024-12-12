@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nTo promote her school's annual Kite Olympics, Genevieve makes a small kite and a large kite for a bulletin board display. For her small kite, Genevieve draws the kite on a grid with the points one inch apart, as shown below.\n\n[asy]\nfor ( int x = 0; x <= 6; ++x )\n{\n\nfor ( int y = 0; y <= 7; ++y )\n\n{\n\ndot((x,y));\n\n}\n}\ndraw((0,5)--(3,7)--(6,5)--(3,0)--cycle);\n[/asy]\n\nFor the large kite she triples both the height and width of the entire grid.\n\nWhat is the number of square inches in the area of the small kite?",
+        "inference": "* The small kite has a height of 7 inches and a width of 6 inches.\n* The area of the small kite is $7 \\times 6 = 42$ square inches.\n\n**Final Answer: $\\boxed{42}$. I hope it is correct.**",
+        "ground_truth": "The kite can be divided into two triangles, each with base 7 and altitude 3.  Each area is $(1/2)(7)(3) = 10.5$, so the total area is $2(10.5) = \\boxed{21}$ square inches."
+    },
+    {
+        "question": "* The small kite has a height of 7 inches and a width of 6 inches.\n* The area of the small kite is $7 \\times 6 = 42$ square inches.\n\n**Final Answer: $\\boxed{42}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$42$}.",
+        "ground_truth": "The kite can be divided into two triangles, each with base 7 and altitude 3.  Each area is $(1/2)(7)(3) = 10.5$, so the total area is $2(10.5) = \\boxed{21}$ square inches."
+    }
+]

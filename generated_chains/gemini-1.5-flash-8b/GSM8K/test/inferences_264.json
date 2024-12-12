@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nCarmen has $100, Samantha has $25 more than Carmen, and Daisy has $50 more than Samantha. How much do all three girls have combined?",
+        "inference": "1. Carmen has $100.\n2. Samantha has $100 + $25 = $125.\n3. Daisy has $125 + $50 = $175.\n4. Total combined: $100 + $125 + $175 = $400.\nI hope it is correct: $400\n",
+        "ground_truth": "Samantha has $100+$25 = $<<100+25=125>>125.\nDaisy has $125+$50 = $<<125+50=175>>175.\nThe total amount of money that the three girls have is $175+$125+$100 = $<<175+125+100=400>>400.\n#### 400"
+    },
+    {
+        "question": "1. Carmen has $100.\n2. Samantha has $100 + $25 = $125.\n3. Daisy has $125 + $50 = $175.\n4. Total combined: $100 + $125 + $175 = $400.\nI hope it is correct: $400\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $400\n",
+        "ground_truth": "Samantha has $100+$25 = $<<100+25=125>>125.\nDaisy has $125+$50 = $<<125+50=175>>175.\nThe total amount of money that the three girls have is $175+$125+$100 = $<<175+125+100=400>>400.\n#### 400"
+    }
+]

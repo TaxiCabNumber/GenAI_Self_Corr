@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe product of $7d^2-3d+g$ and $3d^2+hd-8$ is $21d^4-44d^3-35d^2+14d-16$. What is $g+h$?",
+        "inference": "Solution:\n$$(7d^2-3d+g)(3d^2+hd-8)=$$\n\n$$=21d^4+7gd^2-24d^3-3hd^2-dh+8g=$$\n\n$$=21d^4-24d^3+(7g-3h)d^2+(-d+8g)=$$\n\n$$=21d^4-44d^3-35d^2+14d-16$$\n\nComparing the coefficients, we get:\n\n$$7g-3h=-35$$\n\n$$8g-1=-16$$\n\nSolving for $g$ and $h$, we get:\n\n$$g=-5$$\n\n$$h=6$$\n\nTherefore,\n\n$$g+h=-5+6=\\boxed{1}.$$\n\n\nFinal Answer: $\\boxed{1}.$ I hope it is correct.",
+        "ground_truth": "The constant term of the product of two polynomials is just the product of the two constant terms. Therefore we know that $-16=-8g$, so $g=2$. We now consider the linear term of the product of our polynomials. It's given by $14d=(-3d\\cdot-8)+g\\cdot hd\\Longrightarrow14d=24d+(2)hd\\Longrightarrow h=-5$. Therefore our answer is $g+h=2+(-5)=\\boxed{-3}$."
+    },
+    {
+        "question": "Solution:\n$$(7d^2-3d+g)(3d^2+hd-8)=$$\n\n$$=21d^4+7gd^2-24d^3-3hd^2-dh+8g=$$\n\n$$=21d^4-24d^3+(7g-3h)d^2+(-d+8g)=$$\n\n$$=21d^4-44d^3-35d^2+14d-16$$\n\nComparing the coefficients, we get:\n\n$$7g-3h=-35$$\n\n$$8g-1=-16$$\n\nSolving for $g$ and $h$, we get:\n\n$$g=-5$$\n\n$$h=6$$\n\nTherefore,\n\n$$g+h=-5+6=\\boxed{1}.$$\n\n\nFinal Answer: $\\boxed{1}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{1}$$",
+        "ground_truth": "The constant term of the product of two polynomials is just the product of the two constant terms. Therefore we know that $-16=-8g$, so $g=2$. We now consider the linear term of the product of our polynomials. It's given by $14d=(-3d\\cdot-8)+g\\cdot hd\\Longrightarrow14d=24d+(2)hd\\Longrightarrow h=-5$. Therefore our answer is $g+h=2+(-5)=\\boxed{-3}$."
+    }
+]

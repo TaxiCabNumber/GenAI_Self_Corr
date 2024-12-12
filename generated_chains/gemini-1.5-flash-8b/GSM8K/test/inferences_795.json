@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMike needed a new pair of jeans.  When he got to the mall he saw that his favorite jeans were advertised 25% off.  The original price of the jeans was $40.  How much money will Mike have left over if he pays with a $50.00 bill?",
+        "inference": "1. Calculate the discount: 25% of $40 = 0.25 * $40 = $10\n\n2. Calculate the sale price: $40 - $10 = $30\n\n3. Calculate the change: $50 - $30 = $20\n\nI hope it is correct: $20\n",
+        "ground_truth": "The jeans cost $40 and are sale for 25% off so 40 * .25 = $<<40*.25=10.00>>10.00 discount\nTake the original cost of the jeans and subtract the discount so 40-10 = $<<40-10=30.00>>30.00\nMike pays with a $50 bill and the final cost of the jeans is $30 so 50-30 = $<<50-30=20.00>>20.00 left\n#### 20"
+    },
+    {
+        "question": "1. Calculate the discount: 25% of $40 = 0.25 * $40 = $10\n\n2. Calculate the sale price: $40 - $10 = $30\n\n3. Calculate the change: $50 - $30 = $20\n\nI hope it is correct: $20\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $20\n",
+        "ground_truth": "The jeans cost $40 and are sale for 25% off so 40 * .25 = $<<40*.25=10.00>>10.00 discount\nTake the original cost of the jeans and subtract the discount so 40-10 = $<<40-10=30.00>>30.00\nMike pays with a $50 bill and the final cost of the jeans is $30 so 50-30 = $<<50-30=20.00>>20.00 left\n#### 20"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAdam wants to eat some sliced apples. A large apple can be sliced into 5 pieces, and a small apple can be sliced into 3 pieces. Adam decides to slice 3 large and 5 small apples and then eats 15 slices. How many apple slices are left?",
+        "inference": "1. Large apples: 3 large apples * 5 slices/apple = 15 slices\n2. Small apples: 5 small apples * 3 slices/apple = 15 slices\n3. Total slices: 15 slices (large) + 15 slices (small) = 30 slices\n4. Slices eaten: 15 slices\n5. Slices left: 30 slices - 15 slices = 15 slices\n\nI hope it is correct: 15 $slices$\n",
+        "ground_truth": "There are 3*5=<<3*5=15>>15 large apple slices.\nThere are 5*3=<<5*3=15>>15 small apple slices.\nIn total, there are 15+15=<<15+15=30>>30 apple slices.\nAfter Adam eats 15 slices, there are 30-15=<<30-15=15>>15 apple slices remaining.\n#### 15"
+    },
+    {
+        "question": "1. Large apples: 3 large apples * 5 slices/apple = 15 slices\n2. Small apples: 5 small apples * 3 slices/apple = 15 slices\n3. Total slices: 15 slices (large) + 15 slices (small) = 30 slices\n4. Slices eaten: 15 slices\n5. Slices left: 30 slices - 15 slices = 15 slices\n\nI hope it is correct: 15 $slices$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 15 slices\n",
+        "ground_truth": "There are 3*5=<<3*5=15>>15 large apple slices.\nThere are 5*3=<<5*3=15>>15 small apple slices.\nIn total, there are 15+15=<<15+15=30>>30 apple slices.\nAfter Adam eats 15 slices, there are 30-15=<<30-15=15>>15 apple slices remaining.\n#### 15"
+    }
+]

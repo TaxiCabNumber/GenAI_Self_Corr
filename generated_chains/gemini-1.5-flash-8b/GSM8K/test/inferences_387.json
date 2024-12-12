@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAn eraser costs $2 and a pencil costs $3. How much do 6 erasers and 8 pencils cost?",
+        "inference": "6 erasers cost 6 * $2 = $12\n8 pencils cost 8 * $3 = $24\nTotal cost = $12 + $24 = $36\nI hope it is correct: $36\n",
+        "ground_truth": "Six erasers cost $2/eraser x 6 erasers = $<<2*6=12>>12.\nEight pencils cost $3/pencil x 8 pencils = $<<3*8=24>>24.\nSo, 6 erasers and 8 pencils cost $12 + $24 = $36.\n#### 36"
+    },
+    {
+        "question": "6 erasers cost 6 * $2 = $12\n8 pencils cost 8 * $3 = $24\nTotal cost = $12 + $24 = $36\nI hope it is correct: $36\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $36\n",
+        "ground_truth": "Six erasers cost $2/eraser x 6 erasers = $<<2*6=12>>12.\nEight pencils cost $3/pencil x 8 pencils = $<<3*8=24>>24.\nSo, 6 erasers and 8 pencils cost $12 + $24 = $36.\n#### 36"
+    }
+]

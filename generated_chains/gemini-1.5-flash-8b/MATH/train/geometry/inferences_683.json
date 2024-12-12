@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nTriangle $ABC$ with vertices $A(-2, 0)$, $B(1, 4)$ and $C(-3, 2)$ is reflected over the $y$-axis to form triangle $A'B'C'$. What is the length of a segment drawn from $C$ to $C'$?",
+        "inference": "Reflecting a point $(x, y)$ over the y-axis results in the point $(-x, y)$.\nReflecting $A(-2, 0)$ over the $y$-axis gives $A'(-(-2), 0) = A'(2, 0)$.\nReflecting $B(1, 4)$ over the $y$-axis gives $B'(-1, 4)$.\nReflecting $C(-3, 2)$ over the $y$-axis gives $C'(-(-3), 2) = C'(3, 2)$.\nWe want the length of the segment $CC'$.\nThe coordinates of $C$ are $(-3, 2)$ and the coordinates of $C'$ are $(3, 2)$.\nUsing the distance formula, the length of $CC'$ is $\\sqrt{(3 - (-3))^2 + (2 - 2)^2} = \\sqrt{(3 + 3)^2 + 0^2} = \\sqrt{6^2} = \\sqrt{36} = 6$.\nFinal Answer: $\\boxed{6}$\n",
+        "ground_truth": "Reflecting a point over the $y$-axis negates the $x$-coordinate.  So if $C$ is $(-3,2)$, $C'$ will be $(3,2)$.  The segment is a horizontal line of length $3+3=\\boxed{6}$."
+    },
+    {
+        "question": "Reflecting a point $(x, y)$ over the y-axis results in the point $(-x, y)$.\nReflecting $A(-2, 0)$ over the $y$-axis gives $A'(-(-2), 0) = A'(2, 0)$.\nReflecting $B(1, 4)$ over the $y$-axis gives $B'(-1, 4)$.\nReflecting $C(-3, 2)$ over the $y$-axis gives $C'(-(-3), 2) = C'(3, 2)$.\nWe want the length of the segment $CC'$.\nThe coordinates of $C$ are $(-3, 2)$ and the coordinates of $C'$ are $(3, 2)$.\nUsing the distance formula, the length of $CC'$ is $\\sqrt{(3 - (-3))^2 + (2 - 2)^2} = \\sqrt{(3 + 3)^2 + 0^2} = \\sqrt{6^2} = \\sqrt{36} = 6$.\nFinal Answer: $\\boxed{6}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The problem is correctly solved.\n\nFinal Answer: $\\boxed{6}$",
+        "ground_truth": "Reflecting a point over the $y$-axis negates the $x$-coordinate.  So if $C$ is $(-3,2)$, $C'$ will be $(3,2)$.  The segment is a horizontal line of length $3+3=\\boxed{6}$."
+    }
+]

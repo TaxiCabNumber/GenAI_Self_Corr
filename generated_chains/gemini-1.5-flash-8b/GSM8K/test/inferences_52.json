@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nUriah's book bag is getting too heavy for him. He needs to remove 15 pounds from it. His comic books weigh 1/4 pound each and his toys weigh 1/2 pound each. If he removes 30 comic books, how many toys does he need to remove?",
+        "inference": "1. Weight of 30 comic books: 30 comic books * (1/4 pound/comic book) = 7.5 pounds\n\n2. Remaining weight to remove: 15 pounds - 7.5 pounds = 7.5 pounds\n\n3. Number of toys to remove: 7.5 pounds / (1/2 pound/toy) = 15 toys\n\nI hope it is correct: 15 $toys$\n",
+        "ground_truth": "30 comic books weigh 7.5 pounds because 30 x .25 = <<30*.25=7.5>>7.5\nHe needs to remove 7.5 more pounds because 15 - 7.5 = <<15-7.5=7.5>>7.5\nHe needs to remove 15 toys because 7.5 / .5 = <<15=15>>15\n#### 15"
+    },
+    {
+        "question": "1. Weight of 30 comic books: 30 comic books * (1/4 pound/comic book) = 7.5 pounds\n\n2. Remaining weight to remove: 15 pounds - 7.5 pounds = 7.5 pounds\n\n3. Number of toys to remove: 7.5 pounds / (1/2 pound/toy) = 15 toys\n\nI hope it is correct: 15 $toys$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 15\n",
+        "ground_truth": "30 comic books weigh 7.5 pounds because 30 x .25 = <<30*.25=7.5>>7.5\nHe needs to remove 7.5 more pounds because 15 - 7.5 = <<15-7.5=7.5>>7.5\nHe needs to remove 15 toys because 7.5 / .5 = <<15=15>>15\n#### 15"
+    }
+]

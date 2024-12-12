@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nNick had twice as many candies as George. Then George ate 5 candies. Now George has 3 candies left. How many candies does Nick have?",
+        "inference": "George now has 3 candies.\nBefore George ate 5 candies, he had 3 + 5 = 8 candies.\nNick had twice as many candies as George, so Nick had 2 * 8 = 16 candies.\nI hope it is correct: 16 $candies$\n",
+        "ground_truth": "George has 3 candies now but he already ate 5. So he had 5 + 3 = <<5+3=8>>8 candies at the start.\nNick had twice as many candies as George, so he had 2 * 8 = <<2*8=16>>16 candies originally.\n#### 16"
+    },
+    {
+        "question": "George now has 3 candies.\nBefore George ate 5 candies, he had 3 + 5 = 8 candies.\nNick had twice as many candies as George, so Nick had 2 * 8 = 16 candies.\nI hope it is correct: 16 $candies$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 8 candies\n",
+        "ground_truth": "George has 3 candies now but he already ate 5. So he had 5 + 3 = <<5+3=8>>8 candies at the start.\nNick had twice as many candies as George, so he had 2 * 8 = <<2*8=16>>16 candies originally.\n#### 16"
+    }
+]

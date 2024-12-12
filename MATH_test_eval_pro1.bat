@@ -5,7 +5,7 @@ REM Enable delayed variable expansion
 setlocal enabledelayedexpansion
 
 REM Set the number of API call cycles to run to go through enough data
-set N=
+set N=2
 set SUBJECTS=0 1 2 3 4 5 6
 
 REM Set other parameters

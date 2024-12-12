@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAt a spa, Iris spent $400 to do her hair, 1/4 as much to do a manicure, and 3/4 as much money as a manicure to do a pedicure. How much money did she spend at the spa?",
+        "inference": "1. Manicure cost: $400 * (1/4) = $100\n\n2. Pedicure cost: $100 * (3/4) = $75\n\n3. Total spent: $400 + $100 + $75 = $575\n\nI hope it is correct: 575$answer\n",
+        "ground_truth": "The total amount of money that Iris used to do a manicure is 1/4*$400 = $<<1/4*400=100>>100\nTogether, she used $400+$100 = $<<400+100=500>>500 to do her hair and manicure,\nIf Iris also spent 3/4 as much money as a manicure to do a pedicure, she used 3/4*$100 = $<<3/4*100=75>>75 to do a pedicure.\nAt the spa, Iris spent a total of $500+$75 = $<<500+75=575>>575\n#### 575"
+    },
+    {
+        "question": "1. Manicure cost: $400 * (1/4) = $100\n\n2. Pedicure cost: $100 * (3/4) = $75\n\n3. Total spent: $400 + $100 + $75 = $575\n\nI hope it is correct: 575$answer\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $475\n",
+        "ground_truth": "The total amount of money that Iris used to do a manicure is 1/4*$400 = $<<1/4*400=100>>100\nTogether, she used $400+$100 = $<<400+100=500>>500 to do her hair and manicure,\nIf Iris also spent 3/4 as much money as a manicure to do a pedicure, she used 3/4*$100 = $<<3/4*100=75>>75 to do a pedicure.\nAt the spa, Iris spent a total of $500+$75 = $<<500+75=575>>575\n#### 575"
+    }
+]

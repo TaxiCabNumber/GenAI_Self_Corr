@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nShania is designing her own dress, and decides to make it a longer dress by extending the dress by 50% of its original length. She also adds 20cm to the bottom of the dress with a lace trim. If the final design is 140cm long then how long, in centimeters, was the dress in its original design?",
+        "inference": "Let the original length of the dress be 'x' cm.\nThe dress is extended by 50% of its original length, so the extension is 0.5x cm.\nThe new length after the extension is x + 0.5x = 1.5x cm.\nAn additional 20cm of lace trim is added to the bottom of the dress.\nSo the final length is 1.5x + 20 cm.\nThe final design is 140 cm long.\nTherefore, 1.5x + 20 = 140\n1.5x = 140 - 20\n1.5x = 120\nx = 120 / 1.5\nx = 80\n\nI hope it is correct: 80 $cm$\n",
+        "ground_truth": "Without the lace trim, the dress is 140cm full length \u2013 20cm lace trim = <<140-20=120>>120cm.\nLet's assume the dress was originally x cm in length.\nHalf the original length is x/2.\nAdding the original length and the extended length, which is x+x/2 = 120\n3/2x = 120\nThe orginal length is x= 80 cm\n#### 80"
+    },
+    {
+        "question": "Let the original length of the dress be 'x' cm.\nThe dress is extended by 50% of its original length, so the extension is 0.5x cm.\nThe new length after the extension is x + 0.5x = 1.5x cm.\nAn additional 20cm of lace trim is added to the bottom of the dress.\nSo the final length is 1.5x + 20 cm.\nThe final design is 140 cm long.\nTherefore, 1.5x + 20 = 140\n1.5x = 140 - 20\n1.5x = 120\nx = 120 / 1.5\nx = 80\n\nI hope it is correct: 80 $cm$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 80\n",
+        "ground_truth": "Without the lace trim, the dress is 140cm full length \u2013 20cm lace trim = <<140-20=120>>120cm.\nLet's assume the dress was originally x cm in length.\nHalf the original length is x/2.\nAdding the original length and the extended length, which is x+x/2 = 120\n3/2x = 120\nThe orginal length is x= 80 cm\n#### 80"
+    }
+]

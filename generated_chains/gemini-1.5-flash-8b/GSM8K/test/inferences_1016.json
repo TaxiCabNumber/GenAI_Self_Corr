@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMrs. Tatiana owns a grocery store that sells different fruits and vegetables, which includes carrots. The price of carrots in the grocery store increases by 5% of the original price every year. What would be the price of carrots after three years if it was $120 initially? (Round to the nearest integer)",
+        "inference": "1. Calculate the price increase for the first year: 120 * 0.05 = 6\n2. Calculate the price after the first year: 120 + 6 = 126\n3. Calculate the price increase for the second year: 126 * 0.05 = 6.3\n4. Calculate the price after the second year: 126 + 6.3 = 132.3\n5. Calculate the price increase for the third year: 132.3 * 0.05 = 6.615\n6. Calculate the price after the third year: 132.3 + 6.615 = 138.915\n7. Round to the nearest integer: 139\n\nI hope it is correct: 139 $\n",
+        "ground_truth": "In the first year, the price of carrots increases by 5/100*120 = $<<5/100*120=6>>6\nAfter 3 years, the price of carrots will increase by $6*3 = $<<6*3=18>>18\nThe total price of carrots after three years will be 120+18 = $<<120+18=138>>138\n#### 138"
+    },
+    {
+        "question": "1. Calculate the price increase for the first year: 120 * 0.05 = 6\n2. Calculate the price after the first year: 120 + 6 = 126\n3. Calculate the price increase for the second year: 126 * 0.05 = 6.3\n4. Calculate the price after the second year: 126 + 6.3 = 132.3\n5. Calculate the price increase for the third year: 132.3 * 0.05 = 6.615\n6. Calculate the price after the third year: 132.3 + 6.615 = 138.915\n7. Round to the nearest integer: 139\n\nI hope it is correct: 139 $\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $139\n",
+        "ground_truth": "In the first year, the price of carrots increases by 5/100*120 = $<<5/100*120=6>>6\nAfter 3 years, the price of carrots will increase by $6*3 = $<<6*3=18>>18\nThe total price of carrots after three years will be 120+18 = $<<120+18=138>>138\n#### 138"
+    }
+]

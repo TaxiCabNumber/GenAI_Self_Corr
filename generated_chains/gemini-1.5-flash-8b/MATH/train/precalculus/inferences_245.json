@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $\\sec x + \\tan x = \\frac{5}{2},$ then find $\\sec x - \\tan x.$",
+        "inference": "Given $\\sec x + \\tan x = \\frac{5}{2}.$ We want to find $\\sec x - \\tan x.$\nWe know that $\\sec^2 x - \\tan^2 x = 1,$ so $(\\sec x + \\tan x)(\\sec x - \\tan x) = 1.$\nSince $\\sec x + \\tan x = \\frac{5}{2},$ we have\n\\begin{align*} \\frac{5}{2}(\\sec x - \\tan x) &= 1 \\\\ \\sec x - \\tan x &= \\frac{2}{5} \\end{align*}\nFinal Answer: $\\boxed{\\frac{2}{5}}$\n",
+        "ground_truth": "Note that\n\\begin{align*}\n(\\sec x + \\tan x)(\\sec x - \\tan x) &= \\sec^2 x - \\tan^2 x \\\\\n&= \\frac{1}{\\cos^2 x} - \\frac{\\sin^2 x}{\\cos^2 x} \\\\\n&= \\frac{1 - \\sin^2 x}{\\cos^2 x} = \\frac{\\cos^2 x}{\\cos^2 x} = 1.\n\\end{align*}Therefore, $\\sec x - \\tan x = \\boxed{\\frac{2}{5}}.$"
+    },
+    {
+        "question": "Given $\\sec x + \\tan x = \\frac{5}{2}.$ We want to find $\\sec x - \\tan x.$\nWe know that $\\sec^2 x - \\tan^2 x = 1,$ so $(\\sec x + \\tan x)(\\sec x - \\tan x) = 1.$\nSince $\\sec x + \\tan x = \\frac{5}{2},$ we have\n\\begin{align*} \\frac{5}{2}(\\sec x - \\tan x) &= 1 \\\\ \\sec x - \\tan x &= \\frac{2}{5} \\end{align*}\nFinal Answer: $\\boxed{\\frac{2}{5}}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "We are given $\\sec x + \\tan x = \\frac{5}{2}$. We want to find $\\sec x - \\tan x$.\nWe know that $\\sec^2 x - \\tan^2 x = 1$, so $(\\sec x + \\tan x)(\\sec x - \\tan x) = 1$.\nSince $\\sec x + \\tan x = \\frac{5}{2}$, we have\n$$\\frac{5}{2}(\\sec x - \\tan x) = 1.$$\nThus, $\\sec x - \\tan x = \\frac{2}{5}$.\n\nFinal Answer: $\\boxed{\\frac{2}{5}}$",
+        "ground_truth": "Note that\n\\begin{align*}\n(\\sec x + \\tan x)(\\sec x - \\tan x) &= \\sec^2 x - \\tan^2 x \\\\\n&= \\frac{1}{\\cos^2 x} - \\frac{\\sin^2 x}{\\cos^2 x} \\\\\n&= \\frac{1 - \\sin^2 x}{\\cos^2 x} = \\frac{\\cos^2 x}{\\cos^2 x} = 1.\n\\end{align*}Therefore, $\\sec x - \\tan x = \\boxed{\\frac{2}{5}}.$"
+    }
+]

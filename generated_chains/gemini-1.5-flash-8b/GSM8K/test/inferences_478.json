@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA company decided to take its employees on a tour to explore an ancient site. The employees were divided into 3 groups of 200 employees. Each group was assigned 7 tour guides. How many is the total number of people going on this tour?",
+        "inference": "1) Number of employees per group: 200\n2) Number of groups: 3\n3) Total employees: 200 * 3 = 600\n4) Number of tour guides per group: 7\n5) Total tour guides (not relevant to the question of total people): 7 * 3 = 21\n\nI hope it is correct: 600 $answer$\n",
+        "ground_truth": "The number of employees is 3 groups * 200 employees/group = <<3*200=600>>600 employees.\nThe number of tour guides is 3 groups * 7 guides/group = <<3*7=21>>21 guides.\nThe total number of people going on this tour is 600 employees + 21 guides = <<600+21=621>>621 people.\n#### 621"
+    },
+    {
+        "question": "1) Number of employees per group: 200\n2) Number of groups: 3\n3) Total employees: 200 * 3 = 600\n4) Number of tour guides per group: 7\n5) Total tour guides (not relevant to the question of total people): 7 * 3 = 21\n\nI hope it is correct: 600 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 600\n",
+        "ground_truth": "The number of employees is 3 groups * 200 employees/group = <<3*200=600>>600 employees.\nThe number of tour guides is 3 groups * 7 guides/group = <<3*7=21>>21 guides.\nThe total number of people going on this tour is 600 employees + 21 guides = <<600+21=621>>621 people.\n#### 621"
+    }
+]

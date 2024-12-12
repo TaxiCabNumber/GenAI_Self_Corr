@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the largest prime factor of $15^3+10^4-5^5$.",
+        "inference": "Solution:\n$$15^3+10^4-5^5=3375+10000-3125=10650$$\n$$=2\\times3^2\\times5^4=2\\times9\\times625=1875$$\n$$=3^2\\times5^4=9\\times625=5625$$\n$$=5^4=625$$\n\nTherefore, the largest prime factor of $15^3+10^4-5^5$ is $\\boxed{5}$.\nFinal Answer: $\\boxed{5}$. I hope it is correct.",
+        "ground_truth": "The greatest common divisor of the three terms is $5^3$. Factoring $5^3$ out of each term and using the distributive property gives: \\begin{align*}\n15^3+10^4-5^5 &= 5^3\\cdot3^3 + 5^3\\cdot5\\cdot2^4-5^3\\cdot5^2 \\\\\n&= 5^3(3^3+5\\cdot2^4-5^2)\\\\\n& = 5^3(27+80-25) \\\\\n&= 5^3(82)=2\\cdot5^3\\cdot41.\n\\end{align*}So the largest prime factor is $\\boxed{41}$."
+    },
+    {
+        "question": "Solution:\n$$15^3+10^4-5^5=3375+10000-3125=10650$$\n$$=2\\times3^2\\times5^4=2\\times9\\times625=1875$$\n$$=3^2\\times5^4=9\\times625=5625$$\n$$=5^4=625$$\n\nTherefore, the largest prime factor of $15^3+10^4-5^5$ is $\\boxed{5}$.\nFinal Answer: $\\boxed{5}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{5}$$",
+        "ground_truth": "The greatest common divisor of the three terms is $5^3$. Factoring $5^3$ out of each term and using the distributive property gives: \\begin{align*}\n15^3+10^4-5^5 &= 5^3\\cdot3^3 + 5^3\\cdot5\\cdot2^4-5^3\\cdot5^2 \\\\\n&= 5^3(3^3+5\\cdot2^4-5^2)\\\\\n& = 5^3(27+80-25) \\\\\n&= 5^3(82)=2\\cdot5^3\\cdot41.\n\\end{align*}So the largest prime factor is $\\boxed{41}$."
+    }
+]

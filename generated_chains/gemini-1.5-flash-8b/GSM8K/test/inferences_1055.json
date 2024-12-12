@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJames has to buy insurance.  Since he had an accident it was 60% more than normal.  The normal cost is $120 a month.  How much does he pay a year?",
+        "inference": "1. Calculate the increased cost: $120 * 0.60 = $72\n\n2. Calculate the total cost per month: $120 + $72 = $192\n\n3. Calculate the total cost per year: $192 * 12 = $2304\n\nI hope it is correct: $2304\n",
+        "ground_truth": "The insurance is 120*.6=$<<120*.6=72>>72 per month more expensive than normal\nSo he paid 120+72=$<<120+72=192>>192 a month\nThat means he pays 12*192=$<<12*192=2304>>2304\n#### 2304"
+    },
+    {
+        "question": "1. Calculate the increased cost: $120 * 0.60 = $72\n\n2. Calculate the total cost per month: $120 + $72 = $192\n\n3. Calculate the total cost per year: $192 * 12 = $2304\n\nI hope it is correct: $2304\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $2304\n",
+        "ground_truth": "The insurance is 120*.6=$<<120*.6=72>>72 per month more expensive than normal\nSo he paid 120+72=$<<120+72=192>>192 a month\nThat means he pays 12*192=$<<12*192=2304>>2304\n#### 2304"
+    }
+]

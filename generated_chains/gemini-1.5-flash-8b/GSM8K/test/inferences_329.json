@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nErin has 7 lollipops. Her mother gives Erin another 10 lollipops. If Erin gives 3 of her lollipops to Ella, how many lollipops does she have left?",
+        "inference": "1. Erin starts with 7 lollipops.\n2. Her mother gives her 10 more, so 7 + 10 = 17 lollipops.\n3. Erin gives 3 lollipops to Ella, so 17 - 3 = 14 lollipops.\n\nI hope it is correct: 14 $lollipops$\n",
+        "ground_truth": "Erin has 7 + 10 = <<7+10=17>>17 lollipops\nAfter she gives 3 lollipops to Ella she has 17 - 3 = <<17-3=14>>14 lollipops.\n#### 14"
+    },
+    {
+        "question": "1. Erin starts with 7 lollipops.\n2. Her mother gives her 10 more, so 7 + 10 = 17 lollipops.\n3. Erin gives 3 lollipops to Ella, so 17 - 3 = 14 lollipops.\n\nI hope it is correct: 14 $lollipops$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 14 lollipops\n",
+        "ground_truth": "Erin has 7 + 10 = <<7+10=17>>17 lollipops\nAfter she gives 3 lollipops to Ella she has 17 - 3 = <<17-3=14>>14 lollipops.\n#### 14"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBen has 4 tubes of blue paint and 3 tubes of yellow paint. Jasper has half as many tubes of blue paint as Ben, and three times as many tubes of yellow paint as Ben. How many tubes of paint does Jasper have?",
+        "inference": "Ben has 4 blue and 3 yellow.\nJasper has half as many blue tubes as Ben, so Jasper has 4/2 = 2 blue tubes.\nJasper has three times as many yellow tubes as Ben, so Jasper has 3 * 3 = 9 yellow tubes.\nTotal tubes for Jasper = 2 blue + 9 yellow = 11 tubes.\nI hope it is correct: 11 $tubes$\n",
+        "ground_truth": "Jasper has 4/2= <<4/2=2>>2 tubes of blue paint\nJasper has 3*3=<<3*3=9>>9 tubes of yellow paint\nJasper has a total of 2+9 =<<2+9=11>>11 tubes of paint\n#### 11"
+    },
+    {
+        "question": "Ben has 4 blue and 3 yellow.\nJasper has half as many blue tubes as Ben, so Jasper has 4/2 = 2 blue tubes.\nJasper has three times as many yellow tubes as Ben, so Jasper has 3 * 3 = 9 yellow tubes.\nTotal tubes for Jasper = 2 blue + 9 yellow = 11 tubes.\nI hope it is correct: 11 $tubes$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "Jasper has half as many blue tubes as Ben, so Jasper has 4/2 = 2 blue tubes.\nJasper has three times as many yellow tubes as Ben, so Jasper has 3 * 3 = 9 yellow tubes.\nTotal tubes for Jasper = 2 blue + 9 yellow = 11 tubes.\n#### 11\n",
+        "ground_truth": "Jasper has 4/2= <<4/2=2>>2 tubes of blue paint\nJasper has 3*3=<<3*3=9>>9 tubes of yellow paint\nJasper has a total of 2+9 =<<2+9=11>>11 tubes of paint\n#### 11"
+    }
+]

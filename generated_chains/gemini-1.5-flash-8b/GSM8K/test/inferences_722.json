@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRon is fed up with the pothole in front of his house. If it doesn't get fixed, it's going to do $450 worth of damage to his car. Unfortunately, the city council refuses to fix it, and will fine Ron $120 for unauthorized road maintenance if he fixes it himself. Ron will also have to buy 3 buckets of asphalt that each cost $25. How much money does Ron save by fixing the pothole?",
+        "inference": "1. Cost of damage to Ron's car: $450\n2. Fine for unauthorized road maintenance: $120\n3. Cost of asphalt: 3 buckets * $25/bucket = $75\n4. Total cost of fixing the pothole: $120 + $75 = $195\n5. Amount saved by fixing the pothole: $450 - $195 = $255\n\nI hope it is correct: $255\n",
+        "ground_truth": "First find the total cost of the asphalt by multiplying the number of buckets by the cost per bucket: 3 buckets * $25/bucket = $<<3*25=75>>75\nNow subtract the cost of the asphalt and the fine from the cost of the damage Ron avoids: $450 - $75 - $120 = $<<450-75-120=255>>255\n#### 255"
+    },
+    {
+        "question": "1. Cost of damage to Ron's car: $450\n2. Fine for unauthorized road maintenance: $120\n3. Cost of asphalt: 3 buckets * $25/bucket = $75\n4. Total cost of fixing the pothole: $120 + $75 = $195\n5. Amount saved by fixing the pothole: $450 - $195 = $255\n\nI hope it is correct: $255\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $255\n",
+        "ground_truth": "First find the total cost of the asphalt by multiplying the number of buckets by the cost per bucket: 3 buckets * $25/bucket = $<<3*25=75>>75\nNow subtract the cost of the asphalt and the fine from the cost of the damage Ron avoids: $450 - $75 - $120 = $<<450-75-120=255>>255\n#### 255"
+    }
+]

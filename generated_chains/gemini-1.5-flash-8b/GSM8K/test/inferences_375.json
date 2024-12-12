@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMrs. Sherman made a dozen bread rolls for breakfast. After feeding her 6 children with one each, she broke each of the remaining rolls into 8 pieces and fed them to the chickens. How many pieces of rolls did she feed to the chickens?",
+        "inference": "12 rolls - 6 rolls = 6 rolls\n6 rolls * 8 pieces/roll = 48 pieces\n\nI hope it is correct: 48 $pieces$\n",
+        "ground_truth": "After feeding her children, Mrs. Sherman was left with 12 - 6 = <<12-6=6>>6 rolls\nShe fed 6 x 8 = <<6*8=48>>48 pieces of rolls to the chickens.\n#### 48"
+    },
+    {
+        "question": "12 rolls - 6 rolls = 6 rolls\n6 rolls * 8 pieces/roll = 48 pieces\n\nI hope it is correct: 48 $pieces$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 48 pieces\n",
+        "ground_truth": "After feeding her children, Mrs. Sherman was left with 12 - 6 = <<12-6=6>>6 rolls\nShe fed 6 x 8 = <<6*8=48>>48 pieces of rolls to the chickens.\n#### 48"
+    }
+]

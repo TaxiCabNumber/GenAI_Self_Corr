@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMiss Albert's class is composed of 12 boys and 12 girls. One-third of the girls and one-fourth of the boys are on varsity. How many students are not on varsity?",
+        "inference": "1. Girls on varsity: (1/3) * 12 = 4 girls\n2. Boys on varsity: (1/4) * 12 = 3 boys\n3. Total students on varsity: 4 + 3 = 7 students\n4. Total students in the class: 12 + 12 = 24 students\n5. Students not on varsity: 24 - 7 = 17 students\n\nI hope it is correct: 17 $students$\n",
+        "ground_truth": "There are 12 + 12 = <<12+12=24>>24 students in Miss Albert's class.\n12 x 1/3 = <<12*1/3=4>>4 girls are on varsity.\n12 x 1/4 = <<12*1/4=3>>3 boys are on varsity.\nA total of 4 + 3 = <<4+3=7>>7 students in Miss Albert's class are on varsity.\nTherefore, 24 - 7 = <<24-7=17>>17 students are not on varsity.\n#### 17"
+    },
+    {
+        "question": "1. Girls on varsity: (1/3) * 12 = 4 girls\n2. Boys on varsity: (1/4) * 12 = 3 boys\n3. Total students on varsity: 4 + 3 = 7 students\n4. Total students in the class: 12 + 12 = 24 students\n5. Students not on varsity: 24 - 7 = 17 students\n\nI hope it is correct: 17 $students$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 17 students\n",
+        "ground_truth": "There are 12 + 12 = <<12+12=24>>24 students in Miss Albert's class.\n12 x 1/3 = <<12*1/3=4>>4 girls are on varsity.\n12 x 1/4 = <<12*1/4=3>>3 boys are on varsity.\nA total of 4 + 3 = <<4+3=7>>7 students in Miss Albert's class are on varsity.\nTherefore, 24 - 7 = <<24-7=17>>17 students are not on varsity.\n#### 17"
+    }
+]

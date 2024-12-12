@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the greatest possible value of $x+y$ such that $x^{2} + y^{2} =90$ and $xy=27$?",
+        "inference": "We can use the fact that $90=2\\cdot45$ to write $x^{2} + y^{2} =2\\cdot45$. This means that $x^{2}$ and $y^{2}$ are both multiples of $45$. The only factors of $45$ that are also perfect squares are $9$ and $5$, so we can write $x^{2} =9a^{2}$ and $y^{2} =5b^{2}$ for some integers $a$ and $b$.\n\nSubstituting these expressions into $xy=27$, we get $9a^{2}\\cdot5b^{2} =27$, which simplifies to $a^{2}b^{2} =3$. The only integer solutions to this equation are $a=1$ and $b=3$, or $a=3$ and $b=1$.\n\nTherefore, the greatest possible value of $x+y$ is $3a+5b =3\\cdot1+5\\cdot3 =\\boxed{18}.$\nFinal Answer: $\\boxed{18}.$ I hope it is correct.",
+        "ground_truth": "We have $(x+y)^2=x^2+y^2+2xy=90+2\\cdot27=144$, so $x+y=12$ or $x+y=-12$. We want the larger value, or $x+y=\\boxed{12}$."
+    },
+    {
+        "question": "We can use the fact that $90=2\\cdot45$ to write $x^{2} + y^{2} =2\\cdot45$. This means that $x^{2}$ and $y^{2}$ are both multiples of $45$. The only factors of $45$ that are also perfect squares are $9$ and $5$, so we can write $x^{2} =9a^{2}$ and $y^{2} =5b^{2}$ for some integers $a$ and $b$.\n\nSubstituting these expressions into $xy=27$, we get $9a^{2}\\cdot5b^{2} =27$, which simplifies to $a^{2}b^{2} =3$. The only integer solutions to this equation are $a=1$ and $b=3$, or $a=3$ and $b=1$.\n\nTherefore, the greatest possible value of $x+y$ is $3a+5b =3\\cdot1+5\\cdot3 =\\boxed{18}.$\nFinal Answer: $\\boxed{18}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Final Answer: $\\boxed{36}.$",
+        "ground_truth": "We have $(x+y)^2=x^2+y^2+2xy=90+2\\cdot27=144$, so $x+y=12$ or $x+y=-12$. We want the larger value, or $x+y=\\boxed{12}$."
+    }
+]

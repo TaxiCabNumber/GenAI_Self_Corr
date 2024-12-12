@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA very bizarre weighted coin comes up heads with probability $\\frac12$, tails with probability $\\frac13$, and rests on its edge with probability $\\frac16$.  If it comes up heads, I win 1 dollar.  If it comes up tails, I win 3 dollars.  But if it lands on its edge, I lose 5 dollars.  What is the expected winnings from flipping this coin?  Express your answer as a dollar value, rounded to the nearest cent.",
+        "inference": "**Solution:**\n\n* Probability of winning $1: \\frac{1}{2}$\n* Probability of winning $3: \\frac{1}{3}$\n* Probability of losing $5: \\frac{1}{6}$\n\n**Expected winnings:**\n\n$\\left(\\frac{1}{2}\\right)(1) + \\left(\\frac{1}{3}\\right)(3) + \\left(\\frac{1}{6}\\right)(-5) = \\frac{3}{6} - \\frac{5}{6} = - \\frac{2}{6} = - \\frac{1}{3} \\approx - 0.33$\n\n**Final Answer: $\\boxed{-0.33}.$ I hope it is correct.**",
+        "ground_truth": "The expected value is $E = \\left(\\dfrac{1}{2}\\times\\$1\\right) + \\left(\\dfrac{1}{3}\\times\\$3\\right) + \\left(\\dfrac{1}{6}\\times(-\\$5)\\right) = \\$\\dfrac{4}{6} =\\boxed{\\$\\dfrac23 \\approx \\$0.67}$."
+    },
+    {
+        "question": "**Solution:**\n\n* Probability of winning $1: \\frac{1}{2}$\n* Probability of winning $3: \\frac{1}{3}$\n* Probability of losing $5: \\frac{1}{6}$\n\n**Expected winnings:**\n\n$\\left(\\frac{1}{2}\\right)(1) + \\left(\\frac{1}{3}\\right)(3) + \\left(\\frac{1}{6}\\right)(-5) = \\frac{3}{6} - \\frac{5}{6} = - \\frac{2}{6} = - \\frac{1}{3} \\approx - 0.33$\n\n**Final Answer: $\\boxed{-0.33}.$ I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{-0.33}",
+        "ground_truth": "The expected value is $E = \\left(\\dfrac{1}{2}\\times\\$1\\right) + \\left(\\dfrac{1}{3}\\times\\$3\\right) + \\left(\\dfrac{1}{6}\\times(-\\$5)\\right) = \\$\\dfrac{4}{6} =\\boxed{\\$\\dfrac23 \\approx \\$0.67}$."
+    }
+]

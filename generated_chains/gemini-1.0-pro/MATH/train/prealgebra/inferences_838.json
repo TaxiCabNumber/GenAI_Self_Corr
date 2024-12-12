@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe students at Sherry Curtis School were able to vote for one or more events for their field day. Below are the top three choices. List the names of the choices from most popular to least popular, separated by commas.\n\n\\begin{tabular}{|c|c|c|c|} \\hline\nEvent & Kickball & Picnic & Softball \\\\ \\hline \n& & &\\\\[-1.5ex]\nFraction liking event & $\\frac{11}{30}$ & $\\frac{7}{20}$ & $\\frac{5}{12}$ \\\\[1ex] \\hline\n\\end{tabular}",
+        "inference": "From the table:\n$\\frac{11}{30} > \\frac{7}{20} > \\frac{5}{12}$ \nConverting to the same denominator: $60>42>30$ \nHence, from most popular to least popular: Kickball, Picnic, Softball \n\nFinal Answer: \\boxed{Kickball, Picnic, Softball. I hope it is correct.}",
+        "ground_truth": "Rewriting the fractions to have a common denominator of $60,$ we have \\begin{align*}\n\\text{Kickball: }&\\frac{22}{60} \\\\\n\\text{Picnic: }&\\frac{21}{60} \\\\\n\\text{Softball: }&\\frac{25}{60}\n\\end{align*} So the order is $\\boxed{\\text{Softball, Kickball, Picnic}}.$"
+    },
+    {
+        "question": "From the table:\n$\\frac{11}{30} > \\frac{7}{20} > \\frac{5}{12}$ \nConverting to the same denominator: $60>42>30$ \nHence, from most popular to least popular: Kickball, Picnic, Softball \n\nFinal Answer: \\boxed{Kickball, Picnic, Softball. I hope it is correct.}\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{Softball, Picnic, Kickball}",
+        "ground_truth": "Rewriting the fractions to have a common denominator of $60,$ we have \\begin{align*}\n\\text{Kickball: }&\\frac{22}{60} \\\\\n\\text{Picnic: }&\\frac{21}{60} \\\\\n\\text{Softball: }&\\frac{25}{60}\n\\end{align*} So the order is $\\boxed{\\text{Softball, Kickball, Picnic}}.$"
+    }
+]

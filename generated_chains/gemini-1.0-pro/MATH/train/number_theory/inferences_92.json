@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the remainder when $1492\\cdot 1999$ is divided by $500$?",
+        "inference": "$$1492\\cdot 1999=1492\\cdot (2000-1)=1492\\cdot 2000-1492$$\n\n$$=(1492\\times 4)\\times 500-1492=5968\\times 500-1492=2984000-1492=\\boxed{408}$$\n\nFinal Answer: $\\boxed{408}$. I hope it is correct.",
+        "ground_truth": "We have $1492 = 1500-8 \\equiv -8\\pmod{500}$ and $1999 = 2000-1\\equiv -1\\pmod{500}$.\n\nTherefore, $1492\\cdot 1999\\equiv (-8)\\cdot(-1) \\equiv 8 \\pmod{500}$. The remainder is $\\boxed{8}$."
+    },
+    {
+        "question": "$$1492\\cdot 1999=1492\\cdot (2000-1)=1492\\cdot 2000-1492$$\n\n$$=(1492\\times 4)\\times 500-1492=5968\\times 500-1492=2984000-1492=\\boxed{408}$$\n\nFinal Answer: $\\boxed{408}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$2982508$}",
+        "ground_truth": "We have $1492 = 1500-8 \\equiv -8\\pmod{500}$ and $1999 = 2000-1\\equiv -1\\pmod{500}$.\n\nTherefore, $1492\\cdot 1999\\equiv (-8)\\cdot(-1) \\equiv 8 \\pmod{500}$. The remainder is $\\boxed{8}$."
+    }
+]

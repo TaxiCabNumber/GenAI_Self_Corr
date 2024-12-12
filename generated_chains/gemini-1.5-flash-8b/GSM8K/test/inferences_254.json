@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nShelly's 3 kids spent all day at the water park.  Mitchel went down the water slide 30 times.  Anne went down the slide 30% less than Mitchel and Robert went down 4 times as much as Anne.  How many times did Robert go down the water slide?",
+        "inference": "Anne went down the slide 30% less than Mitchel: 30 - (30 * 0.30) = 30 - 9 = 21 times.\nRobert went down 4 times as much as Anne: 21 * 4 = 84 times.\nI hope it is correct: 84 $\n",
+        "ground_truth": "Anne went down the slide 30% less than Mitchel who went down 30 times so that's .30*30 = <<30*.01*30=9>>9 times less\nMitchel went down 30 times and Anne went down 9 times less than him for a total of 30-9 = <<30-9=21>>21 times\nRobert went down the slide 4 times as much as Anne, who went down 21 times so Robert went down the slide 4*21 = <<4*21=84>>84 times\n#### 84"
+    },
+    {
+        "question": "Anne went down the slide 30% less than Mitchel: 30 - (30 * 0.30) = 30 - 9 = 21 times.\nRobert went down 4 times as much as Anne: 21 * 4 = 84 times.\nI hope it is correct: 84 $\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "The problem statement is unclear about the units.  Assuming the units are \"times down the slide\", the solution is:\n\nAnne went down the slide 30% less than Mitchel.  Let Mitchel's slides be 'x'.  Then Anne's slides are x - 0.30x = 0.70x.\n\nRobert went down 4 times as much as Anne.  So Robert's slides are 4 * 0.70x = 2.8x.\n\nThe problem lacks the value of Mitchel's slides, 'x'.  Without knowing x, we can't determine the exact number of times Robert went down the slide.  Therefore, there's no numerical answer to the question.\n#### $no answer$\n",
+        "ground_truth": "Anne went down the slide 30% less than Mitchel who went down 30 times so that's .30*30 = <<30*.01*30=9>>9 times less\nMitchel went down 30 times and Anne went down 9 times less than him for a total of 30-9 = <<30-9=21>>21 times\nRobert went down the slide 4 times as much as Anne, who went down 21 times so Robert went down the slide 4*21 = <<4*21=84>>84 times\n#### 84"
+    }
+]

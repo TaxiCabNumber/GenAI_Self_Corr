@@ -15,7 +15,7 @@ def extract_boxed_content(response):
     Returns:
         str: The extracted content or an empty string if no match is found.
     """
-    start_keyword = "\\boxed{"
+    start_keyword = "\\boxed{" 
     start_index = response.find(start_keyword)
     if start_index == -1:
         return ""
@@ -130,10 +130,14 @@ def plot_correctness_one_round(first_results, next_results, folder_path="./proce
     plt.ylabel('Correct (1) / Incorrect (0)')
     plt.title('Base Gemini-1.5-Flash-8B Accuracy on MATH Precalculus Dataset')
     plt.legend()
-
+    
     # Ensure the results directory exists
+    if "MATH" in folder_path:
+        dataset = "MATH"
+    else:
+        dataset = "GSM8K"
     results_dir = "results/"
-    config_dir = model_name + "/" + mode + "/"
+    config_dir = model_name + "/" + dataset + "/" + mode + "/"
     results_dir = os.path.join(results_dir, config_dir)
     os.makedirs(results_dir, exist_ok=True)
     

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nLouise is an artist and needs to apply a coat of varnish to her latest paintings. Usually it takes 7 minutes for the coat of varnish to dry on one painting. However, today she is using a new varnish and it takes 12 minutes for the coat to dry. How much longer will it take for the coat of varnish on 6 paintings with the new varnish to dry as it would with the old varnish?",
+        "inference": "Old varnish drying time per painting: 7 minutes\nNew varnish drying time per painting: 12 minutes\nNumber of paintings: 6\nOld varnish total drying time for 6 paintings: 7 minutes/painting * 6 paintings = 42 minutes\nNew varnish total drying time for 6 paintings: 12 minutes/painting * 6 paintings = 72 minutes\nDifference in drying time: 72 minutes - 42 minutes = 30 minutes\n\nI hope it is correct: 30 $minutes$\n",
+        "ground_truth": "Usually, the varnish on all 6 paintings would be dry in 7*6=<<7*6=42>>42 minutes\nWith the new varnish, all 6 paintings would be dry in 12*6=<<6*12=72>>72 minutes\nWith the new varnish, it will take 72-42=<<72-42=30>>30 more minutes\n#### 30"
+    },
+    {
+        "question": "Old varnish drying time per painting: 7 minutes\nNew varnish drying time per painting: 12 minutes\nNumber of paintings: 6\nOld varnish total drying time for 6 paintings: 7 minutes/painting * 6 paintings = 42 minutes\nNew varnish total drying time for 6 paintings: 12 minutes/painting * 6 paintings = 72 minutes\nDifference in drying time: 72 minutes - 42 minutes = 30 minutes\n\nI hope it is correct: 30 $minutes$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 30 minutes\n",
+        "ground_truth": "Usually, the varnish on all 6 paintings would be dry in 7*6=<<7*6=42>>42 minutes\nWith the new varnish, all 6 paintings would be dry in 12*6=<<6*12=72>>72 minutes\nWith the new varnish, it will take 72-42=<<72-42=30>>30 more minutes\n#### 30"
+    }
+]

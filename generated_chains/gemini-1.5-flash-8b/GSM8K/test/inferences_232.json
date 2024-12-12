@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nDax went to their farm to pick some apples and found half as many bugs as ants in the garden. If there were 50 ants, calculate the total number of insects in the garden.",
+        "inference": "1. Bugs = (1/2) * Ants\n2. Bugs = (1/2) * 50\n3. Bugs = 25\n4. Total insects = Ants + Bugs\n5. Total insects = 50 + 25\nI hope it is correct: 75 $answer$\n",
+        "ground_truth": "If there were 50 ants, the total number of bugs in the garden is 1 bug/2 ants * 50 ants = 25 bugs\nThe total number of insects in the garden is 25 bugs + 50 ants = <<25+50=75>>75 insects\n#### 75"
+    },
+    {
+        "question": "1. Bugs = (1/2) * Ants\n2. Bugs = (1/2) * 50\n3. Bugs = 25\n4. Total insects = Ants + Bugs\n5. Total insects = 50 + 25\nI hope it is correct: 75 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 75\n",
+        "ground_truth": "If there were 50 ants, the total number of bugs in the garden is 1 bug/2 ants * 50 ants = 25 bugs\nThe total number of insects in the garden is 25 bugs + 50 ants = <<25+50=75>>75 insects\n#### 75"
+    }
+]

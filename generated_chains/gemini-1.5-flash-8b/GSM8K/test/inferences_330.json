@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA customer\u2019s loyalty card at a store gives them rewards of $1 off their next purchase for every $20 they spend. Their last shopping trip, they spent $80. This shopping trip, they spent $43, used their rewards, and applied a coupon that took twice the amount of rewards off the price. How many dollars did the customer pay on this shopping trip?",
+        "inference": "1. Rewards earned from last trip: $80 / $20 * $1 = $4\n2. Amount of rewards used: $4\n3. Amount taken off by coupon: $4 * 2 = $8\n4. Price before coupon: $43\n5. Total discount: $4 + $8 = $12\n6. Price after rewards and coupon: $43 - $12 = $31\n\nI hope it is correct: $31\n",
+        "ground_truth": "The customer had 80 / 20 = $<<80/20=4>>4 in rewards.\nTheir coupon was worth 4 * 2 = $<<4*2=8>>8.\nThus, they paid 43 - 4 - 8 = $<<43-4-8=31>>31 on this shopping trip.\n#### 31"
+    },
+    {
+        "question": "1. Rewards earned from last trip: $80 / $20 * $1 = $4\n2. Amount of rewards used: $4\n3. Amount taken off by coupon: $4 * 2 = $8\n4. Price before coupon: $43\n5. Total discount: $4 + $8 = $12\n6. Price after rewards and coupon: $43 - $12 = $31\n\nI hope it is correct: $31\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $31\n",
+        "ground_truth": "The customer had 80 / 20 = $<<80/20=4>>4 in rewards.\nTheir coupon was worth 4 * 2 = $<<4*2=8>>8.\nThus, they paid 43 - 4 - 8 = $<<43-4-8=31>>31 on this shopping trip.\n#### 31"
+    }
+]

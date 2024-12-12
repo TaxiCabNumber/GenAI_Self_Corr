@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJessica makes $2,000.00 a month.  She sets 25% of her paycheck aside to put towards fancy shoes.  Each pair of shoes she buys costs $1,000.00.  How many shoes can she buy in a year?",
+        "inference": "1. Calculate the amount Jessica saves per month: $2000 * 0.25 = $500\n\n2. Calculate the amount Jessica saves in a year: $500 * 12 = $6000\n\n3. Calculate the number of shoes Jessica can buy: $6000 / $1000 = 6\n\nI hope it is correct: 6 $shoes$\n",
+        "ground_truth": "She is paid $2,000.00 a month and she saves 25% for shoes so she saves 2000*.25 = $<<2000*.25=500.00>>500.00\nShe saves $500.00 a month for 12 months so she saves 500*12 = $<<500*12=6000.00>>6,000.00\nEach pair of shoes costs $1,000.00 and she has saved $6,000.00 so she can buy 6000/1000 = 6 pair of shoes per year\n#### 6"
+    },
+    {
+        "question": "1. Calculate the amount Jessica saves per month: $2000 * 0.25 = $500\n\n2. Calculate the amount Jessica saves in a year: $500 * 12 = $6000\n\n3. Calculate the number of shoes Jessica can buy: $6000 / $1000 = 6\n\nI hope it is correct: 6 $shoes$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 6\n",
+        "ground_truth": "She is paid $2,000.00 a month and she saves 25% for shoes so she saves 2000*.25 = $<<2000*.25=500.00>>500.00\nShe saves $500.00 a month for 12 months so she saves 500*12 = $<<500*12=6000.00>>6,000.00\nEach pair of shoes costs $1,000.00 and she has saved $6,000.00 so she can buy 6000/1000 = 6 pair of shoes per year\n#### 6"
+    }
+]

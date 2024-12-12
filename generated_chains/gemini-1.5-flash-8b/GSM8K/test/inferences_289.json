@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA car in the fast lane is traveling at 60 miles/hour. A car in the slow lane is traveling at half that speed. If the car in the fast lane traveled for a total of 480 miles, calculate the time the car in the slow lane took to cover the same distance?",
+        "inference": "1. Speed of the fast lane car = 60 miles/hour\n2. Speed of the slow lane car = 60 miles/hour / 2 = 30 miles/hour\n3. Distance traveled by the fast lane car = 480 miles\n4. Time taken by the fast lane car = Distance / Speed = 480 miles / 60 miles/hour = 8 hours\n5. Time taken by the slow lane car = Distance / Speed = 480 miles / 30 miles/hour = 16 hours\n\nI hope it is correct: 16 $hours$\n",
+        "ground_truth": "At half the speed, the car in the slow lane travels at a speed of 1/2*60 = <<1/2*60=30>>30 miles per hour.\nTo travel 480 miles, the car in the slow lane traveling at 30 miles per hour will take 480/30 = <<480/30=16>>16 hours\n#### 16"
+    },
+    {
+        "question": "1. Speed of the fast lane car = 60 miles/hour\n2. Speed of the slow lane car = 60 miles/hour / 2 = 30 miles/hour\n3. Distance traveled by the fast lane car = 480 miles\n4. Time taken by the fast lane car = Distance / Speed = 480 miles / 60 miles/hour = 8 hours\n5. Time taken by the slow lane car = Distance / Speed = 480 miles / 30 miles/hour = 16 hours\n\nI hope it is correct: 16 $hours$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 16 hours\n",
+        "ground_truth": "At half the speed, the car in the slow lane travels at a speed of 1/2*60 = <<1/2*60=30>>30 miles per hour.\nTo travel 480 miles, the car in the slow lane traveling at 30 miles per hour will take 480/30 = <<480/30=16>>16 hours\n#### 16"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCompute\n\\[\\begin{vmatrix} 7 & 3 \\\\ -1 & 2 \\end{vmatrix}.\\]",
+        "inference": "The determinant of a $2 \\times 2$ matrix $\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ is given by $ad - bc$.\nIn this case, we have\n\\[\\begin{vmatrix} 7 & 3 \\\\ -1 & 2 \\end{vmatrix} = (7)(2) - (3)(-1) = 14 - (-3) = 14 + 3 = 17.\\]\nFinal Answer: $\\boxed{17}$ I hope it is correct.\n",
+        "ground_truth": "We have that\n\\[\\begin{vmatrix} 7 & 3 \\\\ -1 & 2 \\end{vmatrix} = (7)(2) - (3)(-1) = \\boxed{17}.\\]"
+    },
+    {
+        "question": "The determinant of a $2 \\times 2$ matrix $\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ is given by $ad - bc$.\nIn this case, we have\n\\[\\begin{vmatrix} 7 & 3 \\\\ -1 & 2 \\end{vmatrix} = (7)(2) - (3)(-1) = 14 - (-3) = 14 + 3 = 17.\\]\nFinal Answer: $\\boxed{17}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The determinant of the given $2 \\times 2$ matrix $\\begin{pmatrix} 7 & 3 \\\\ -1 & 2 \\end{pmatrix}$ is\n\\[ (7)(2) - (3)(-1) = 14 - (-3) = 14 + 3 = 17.\\]\nThus, the determinant is 17.\n\nFinal Answer: $\\boxed{17}$",
+        "ground_truth": "We have that\n\\[\\begin{vmatrix} 7 & 3 \\\\ -1 & 2 \\end{vmatrix} = (7)(2) - (3)(-1) = \\boxed{17}.\\]"
+    }
+]

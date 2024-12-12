@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJoe's bag of Halloween candy has 25 chocolate bars and 80 candied apples. Each chocolate bar weighs twice as much as each candied apple. If each chocolate bar weighs 40g, how much does Joe's bag of candy weigh, in grams?",
+        "inference": "1. If each chocolate bar weighs 40g, and it weighs twice as much as a candied apple, then each candied apple weighs 40g / 2 = 20g.\n\n2. The total weight of the chocolate bars is 25 chocolate bars * 40g/chocolate bar = 1000g.\n\n3. The total weight of the candied apples is 80 candied apples * 20g/candied apple = 1600g.\n\n4. The total weight of the candy is 1000g + 1600g = 2600g.\n\nI hope it is correct: 2600 $grams$\n",
+        "ground_truth": "The candied apples weigh 40/2=<<40/2=20>>20 grams each.\nThe chocolate bars weigh 40*25=<<40*25=1000>>1000 grams in total.\nThe candied apples weigh 20*80=<<20*80=1600>>1600 grams in total.\nJoe's bag weighs 1000+1600=<<1000+1600=2600>>2600 grams.\n#### 2600"
+    },
+    {
+        "question": "1. If each chocolate bar weighs 40g, and it weighs twice as much as a candied apple, then each candied apple weighs 40g / 2 = 20g.\n\n2. The total weight of the chocolate bars is 25 chocolate bars * 40g/chocolate bar = 1000g.\n\n3. The total weight of the candied apples is 80 candied apples * 20g/candied apple = 1600g.\n\n4. The total weight of the candy is 1000g + 1600g = 2600g.\n\nI hope it is correct: 2600 $grams$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 2600g\n",
+        "ground_truth": "The candied apples weigh 40/2=<<40/2=20>>20 grams each.\nThe chocolate bars weigh 40*25=<<40*25=1000>>1000 grams in total.\nThe candied apples weigh 20*80=<<20*80=1600>>1600 grams in total.\nJoe's bag weighs 1000+1600=<<1000+1600=2600>>2600 grams.\n#### 2600"
+    }
+]

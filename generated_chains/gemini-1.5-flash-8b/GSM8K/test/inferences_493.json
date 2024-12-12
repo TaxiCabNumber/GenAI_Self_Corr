@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nHeather's razors come 4 to a pack and cost $4.00 a pack.  They are currently on sale for buy one get one free.  She also has a $2.00 coupon.  How much will each individual razor cost, in cents, after the discount if she buys 2 packs of razors?",
+        "inference": "1. Two packs of razors, with a buy one get one free deal, means she gets 2 packs * 4 razors/pack + 2 packs * 0 razors/pack = 8 razors.\n\n2. The total cost of two packs at $4.00 per pack is 2 packs * $4.00/pack = $8.00\n\n3. The coupon reduces the cost by $2.00, so the final cost is $8.00 - $2.00 = $6.00\n\n4. The cost per razor is $6.00 / 8 razors = $0.75\n\n5. Converting to cents, $0.75 = 75 cents.\n\nI hope it is correct: 75$answer\n",
+        "ground_truth": "Buy one get one free means she gets 2 packs for the price of 1 and she has a $2.00 coupon, so the razors will cost her $4-$2 = $2.00\nEach pack has 4 razors and she buys 2 packs for a total of 4*2 = <<4*2=8>>8 razors\nThe razors cost $2.00 and she bought 8 so that means each razor costs $2.00/8 = $<<2/8=0.25>>0.25 each\n#### 25"
+    },
+    {
+        "question": "1. Two packs of razors, with a buy one get one free deal, means she gets 2 packs * 4 razors/pack + 2 packs * 0 razors/pack = 8 razors.\n\n2. The total cost of two packs at $4.00 per pack is 2 packs * $4.00/pack = $8.00\n\n3. The coupon reduces the cost by $2.00, so the final cost is $8.00 - $2.00 = $6.00\n\n4. The cost per razor is $6.00 / 8 razors = $0.75\n\n5. Converting to cents, $0.75 = 75 cents.\n\nI hope it is correct: 75$answer\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $0.75\n",
+        "ground_truth": "Buy one get one free means she gets 2 packs for the price of 1 and she has a $2.00 coupon, so the razors will cost her $4-$2 = $2.00\nEach pack has 4 razors and she buys 2 packs for a total of 4*2 = <<4*2=8>>8 razors\nThe razors cost $2.00 and she bought 8 so that means each razor costs $2.00/8 = $<<2/8=0.25>>0.25 each\n#### 25"
+    }
+]

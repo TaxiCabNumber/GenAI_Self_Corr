@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nJuan takes a number, adds $2$ to it, multiplies the answer by $2$, subtracts $2$ from the result, and finally divides that number by $2$. If his answer is $7$, what was the original number?",
+        "inference": "Let $x$ be the original number. Then, we have the following equation:\n$$\\frac{2(x+2)-2}{2}=7$$\nSimplifying both sides, we get:\n$$2(x+2)-2=14$$\n$$2x+4-2=14$$\n$$2x+2=14$$\n$$2x=12$$\n$$x=6$$\n\nFinal Answer: $\\boxed{6}.$ I hope it is correct.",
+        "ground_truth": "Let $n$ be the original number. Doing Juan's operations in order, we get $(2(n + 2) - 2)/2 = 7$.  So $2(n + 2) - 2 = 14$, from which $2(n + 2) = 16$, from which $n + 2 = 8$, giving $n = \\boxed{6}$."
+    },
+    {
+        "question": "Let $x$ be the original number. Then, we have the following equation:\n$$\\frac{2(x+2)-2}{2}=7$$\nSimplifying both sides, we get:\n$$2(x+2)-2=14$$\n$$2x+4-2=14$$\n$$2x+2=14$$\n$$2x=12$$\n$$x=6$$\n\nFinal Answer: $\\boxed{6}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$6$}",
+        "ground_truth": "Let $n$ be the original number. Doing Juan's operations in order, we get $(2(n + 2) - 2)/2 = 7$.  So $2(n + 2) - 2 = 14$, from which $2(n + 2) = 16$, from which $n + 2 = 8$, giving $n = \\boxed{6}$."
+    }
+]

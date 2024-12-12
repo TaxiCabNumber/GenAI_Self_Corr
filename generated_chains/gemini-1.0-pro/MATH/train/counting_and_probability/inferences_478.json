@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nJohn has five children.  What is the probability that at least half of them are girls? (We can assume a boy is equally likely to be born as is a girl, and vice-versa.)",
+        "inference": "Since each child is equally likely to be a boy or girl, there are $2^5 = 32$ possible outcomes.\n\nThere are 16 outcomes in which there are at least 3 girls. These outcomes are:\n\nBGGG\nBGGB\nGBBG\nGGBB\nBBGG\nBBG\nBGB\nGGG\nGBB\nGGB\nBBG\nBB\nBG\nGB\nGG\n\nTherefore, the probability of having at least 3 girls is 16/32 = 1/2.\n\nFinal Answer: $\\boxed{\\frac{1}{2}}$. I hope it is correct.",
+        "ground_truth": "In all cases, at least half of John's kids will be boys or at least half will be girls.  Furthermore, since John has an odd number of children, these conditions are mutually exclusive--that is, they are never true at the same time.  Since a boy is equally likely to be born as is a girl, our answer is therefore $\\boxed{\\frac{1}{2}}$."
+    },
+    {
+        "question": "Since each child is equally likely to be a boy or girl, there are $2^5 = 32$ possible outcomes.\n\nThere are 16 outcomes in which there are at least 3 girls. These outcomes are:\n\nBGGG\nBGGB\nGBBG\nGGBB\nBBGG\nBBG\nBGB\nGGG\nGBB\nGGB\nBBG\nBB\nBG\nGB\nGG\n\nTherefore, the probability of having at least 3 girls is 16/32 = 1/2.\n\nFinal Answer: $\\boxed{\\frac{1}{2}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$\\frac{1}{2}$}.",
+        "ground_truth": "In all cases, at least half of John's kids will be boys or at least half will be girls.  Furthermore, since John has an odd number of children, these conditions are mutually exclusive--that is, they are never true at the same time.  Since a boy is equally likely to be born as is a girl, our answer is therefore $\\boxed{\\frac{1}{2}}$."
+    }
+]

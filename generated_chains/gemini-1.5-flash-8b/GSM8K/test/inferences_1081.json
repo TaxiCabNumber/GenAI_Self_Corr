@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nFrankie and Binkie went bowling together.  Frankie's score was 15 better more than twice as high as Binkie's. If Binkie bowled a score of 90, what was Frankie's score?",
+        "inference": "Binkie's score = 90\nFrankie's score is 15 more than twice Binkie's score.\nTwice Binkie's score = 2 * 90 = 180\nFrankie's score = 180 + 15 = 195\nI hope it is correct: 195$\n",
+        "ground_truth": "Twice Binkie's score is 2*90=<<2*90=180>>180.\nFifteen more than twice Binkie's score is 180+15=<<180+15=195>>195.\n#### 195"
+    },
+    {
+        "question": "Binkie's score = 90\nFrankie's score is 15 more than twice Binkie's score.\nTwice Binkie's score = 2 * 90 = 180\nFrankie's score = 180 + 15 = 195\nI hope it is correct: 195$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 195\n",
+        "ground_truth": "Twice Binkie's score is 2*90=<<2*90=180>>180.\nFifteen more than twice Binkie's score is 180+15=<<180+15=195>>195.\n#### 195"
+    }
+]

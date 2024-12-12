@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nPatty's Plumbing charges $40 to visit a house to make a repair, plus $35 per hour, or part thereof, for labor, plus parts. One job took 2.25 hours and used $60 in parts. How much did Patty charge?",
+        "inference": "1. Labor cost: 2.25 hours * $35/hour = $78.75\n2. Total cost: $40 (visit) + $78.75 (labor) + $60 (parts) = $178.75\n\nI hope it is correct: $178.75\n",
+        "ground_truth": "She charged for 3 hours.\nThe total cost from the hourly rate was 3*35=$<<3*35=105>>105.\nShe charged 40+105+60=<<40+105+60=205>>205.\n#### 205"
+    },
+    {
+        "question": "1. Labor cost: 2.25 hours * $35/hour = $78.75\n2. Total cost: $40 (visit) + $78.75 (labor) + $60 (parts) = $178.75\n\nI hope it is correct: $178.75\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $178.75\n",
+        "ground_truth": "She charged for 3 hours.\nThe total cost from the hourly rate was 3*35=$<<3*35=105>>105.\nShe charged 40+105+60=<<40+105+60=205>>205.\n#### 205"
+    }
+]

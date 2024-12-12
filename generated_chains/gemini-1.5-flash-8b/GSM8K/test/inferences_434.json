@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe vending machines sell chips for 40 cents and candy bars for 75 cents. George spent $5 and got 3 bags of chips and had 1% of his money left. How many candy bars did he buy?",
+        "inference": "1. George spent $5.00, which is equal to 500 cents.\n2. He bought 3 bags of chips at 40 cents each, spending 3 * 40 = 120 cents.\n3. The remaining money after buying chips is 500 - 120 = 380 cents.\n4. He had 1% of his money left, which is (1/100) * 500 = 5 cents.\n5. This means that the remaining money is 380 cents.\n6. The cost of the candy bars is 380 - 5 = 375 cents.\n7. Each candy bar costs 75 cents, so the number of candy bars is 375 / 75 = 5.\n\nI hope it is correct: 5 $candy bars$\n",
+        "ground_truth": "George got $.05 in change because 5 x .01 = <<5*.01=.05>>.05\nGeorge spent $4.95 because 5 - .05 = <<5-.05=4.95>>4.95\nGeorge spent $1.2 on chips because 3 x .4 = <<3*.4=1.2>>1.2\nGeorge spent 3.75 on candy bars because 4.95 - 1.2 = <<4.95-1.2=3.75>>3.75\nGeorge bought 5 candy bars because 3.75 / .75 = <<5=5>>5\n#### 5"
+    },
+    {
+        "question": "1. George spent $5.00, which is equal to 500 cents.\n2. He bought 3 bags of chips at 40 cents each, spending 3 * 40 = 120 cents.\n3. The remaining money after buying chips is 500 - 120 = 380 cents.\n4. He had 1% of his money left, which is (1/100) * 500 = 5 cents.\n5. This means that the remaining money is 380 cents.\n6. The cost of the candy bars is 380 - 5 = 375 cents.\n7. Each candy bar costs 75 cents, so the number of candy bars is 375 / 75 = 5.\n\nI hope it is correct: 5 $candy bars$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 5 candy bars\n",
+        "ground_truth": "George got $.05 in change because 5 x .01 = <<5*.01=.05>>.05\nGeorge spent $4.95 because 5 - .05 = <<5-.05=4.95>>4.95\nGeorge spent $1.2 on chips because 3 x .4 = <<3*.4=1.2>>1.2\nGeorge spent 3.75 on candy bars because 4.95 - 1.2 = <<4.95-1.2=3.75>>3.75\nGeorge bought 5 candy bars because 3.75 / .75 = <<5=5>>5\n#### 5"
+    }
+]

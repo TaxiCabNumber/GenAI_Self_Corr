@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBubbles collects stuffed animals. She has three stuffed puppies, five stuffed koalas, two stuffed zebras and four stuffed frogs. If she wants to buy enough stuffed goats, such that the percentage of stuffed goats is 30% of all of her stuffed animals, how many stuffed goats should she buy?",
+        "inference": "1. Total stuffed animals: 3 + 5 + 2 + 4 = 14\n\n2. Calculate the number of stuffed animals corresponding to 30%: 14 * 0.30 = 4.2\n\n3. Since you can't buy a fraction of a stuffed animal, round up to the nearest whole number.\n\nI hope it is correct: 5 $answer$\n",
+        "ground_truth": "Let x = the number of stuffed goats.\nThe current number of stuffed animals are (puppies + koalas + zebras + frogs) or 3 + 5 + 2 + 4 = <<3+5+2+4=14>>14 stuffed animals total.\nTake the total stuffed animals, add x and divide by the number of stuffed goats to get to 30% or x / (14 + x) = .3\nCross multiply to get x = 0.42 + .3x\nSubtract .3 x from each side, .7x = 0.42\nBubbles needs x = <<6=6>>6 goats added.\n#### 6"
+    },
+    {
+        "question": "1. Total stuffed animals: 3 + 5 + 2 + 4 = 14\n\n2. Calculate the number of stuffed animals corresponding to 30%: 14 * 0.30 = 4.2\n\n3. Since you can't buy a fraction of a stuffed animal, round up to the nearest whole number.\n\nI hope it is correct: 5 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 5\n",
+        "ground_truth": "Let x = the number of stuffed goats.\nThe current number of stuffed animals are (puppies + koalas + zebras + frogs) or 3 + 5 + 2 + 4 = <<3+5+2+4=14>>14 stuffed animals total.\nTake the total stuffed animals, add x and divide by the number of stuffed goats to get to 30% or x / (14 + x) = .3\nCross multiply to get x = 0.42 + .3x\nSubtract .3 x from each side, .7x = 0.42\nBubbles needs x = <<6=6>>6 goats added.\n#### 6"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCompute $\\cos 270^\\circ$.",
+        "inference": "The cosine function is periodic with a period of $360^\\circ$.\n$\\cos 270^\\circ = \\cos (270^\\circ - 360^\\circ) = \\cos (-90^\\circ)$.\n$\\cos(-x) = \\cos(x)$, so $\\cos(-90^\\circ) = \\cos(90^\\circ)$.\nSince $\\cos 90^\\circ = 0$, we have $\\cos 270^\\circ = 0$.\n\nFinal Answer: $\\boxed{0}$. I hope it is correct.\n",
+        "ground_truth": "Rotating the point $(1,0)$ about the origin by $270^\\circ$ counterclockwise gives us the point $(0,-1)$, so $\\cos 270^\\circ = \\boxed{0}$."
+    },
+    {
+        "question": "The cosine function is periodic with a period of $360^\\circ$.\n$\\cos 270^\\circ = \\cos (270^\\circ - 360^\\circ) = \\cos (-90^\\circ)$.\n$\\cos(-x) = \\cos(x)$, so $\\cos(-90^\\circ) = \\cos(90^\\circ)$.\nSince $\\cos 90^\\circ = 0$, we have $\\cos 270^\\circ = 0$.\n\nFinal Answer: $\\boxed{0}$. I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The cosine function is periodic with a period of $360^\\circ$.\nWe are asked to find the value of $\\cos 270^\\circ$.\nUsing the periodicity of the cosine function, we can write:\n$$ \\cos 270^\\circ = \\cos(270^\\circ - 360^\\circ) = \\cos(-90^\\circ) $$\nSince $\\cos(-x) = \\cos(x)$, we have:\n$$ \\cos(-90^\\circ) = \\cos(90^\\circ) $$\nWe know that $\\cos 90^\\circ = 0$.\nTherefore, $\\cos 270^\\circ = 0$.\n\nFinal Answer: $\\boxed{0}$",
+        "ground_truth": "Rotating the point $(1,0)$ about the origin by $270^\\circ$ counterclockwise gives us the point $(0,-1)$, so $\\cos 270^\\circ = \\boxed{0}$."
+    }
+]

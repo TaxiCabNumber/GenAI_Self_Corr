@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nPete thinks of a number. He doubles it, adds 10, multiplies by 4, and ends up with 120. What was his original number?",
+        "inference": "Let $x$ be the original number.\nPete doubles it: $2x$\nHe adds 10: $2x+10$\nHe multiplies by 4: $4(2x+10)$\nThis equals 120: $4(2x+10) = 120$\nSimplifying: $8x+40 = 120$\nSubtracting 40 from both sides: $8x = 80$\nDividing both sides by 8: $x = 10$\nFinal Answer: \\\\boxed{$10$}. I hope it is correct.",
+        "ground_truth": "Let Pete's original number be $x$.  If he double it and adds 10, he will have $$2x+10.$$ After multiplying by 4, Pete ended up with 120.  From this information, we have the equation: $$4(2x+10)=120.$$ Expanding the left side and solving, we find:\n\n\\begin{align*}\n8x+40&=120\\\\\n\\Rightarrow\\qquad 8x&=80\\\\\n\\Rightarrow \\qquad x&=\\boxed{10}.\n\\end{align*}"
+    },
+    {
+        "question": "Let $x$ be the original number.\nPete doubles it: $2x$\nHe adds 10: $2x+10$\nHe multiplies by 4: $4(2x+10)$\nThis equals 120: $4(2x+10) = 120$\nSimplifying: $8x+40 = 120$\nSubtracting 40 from both sides: $8x = 80$\nDividing both sides by 8: $x = 10$\nFinal Answer: \\\\boxed{$10$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$10$}.",
+        "ground_truth": "Let Pete's original number be $x$.  If he double it and adds 10, he will have $$2x+10.$$ After multiplying by 4, Pete ended up with 120.  From this information, we have the equation: $$4(2x+10)=120.$$ Expanding the left side and solving, we find:\n\n\\begin{align*}\n8x+40&=120\\\\\n\\Rightarrow\\qquad 8x&=80\\\\\n\\Rightarrow \\qquad x&=\\boxed{10}.\n\\end{align*}"
+    }
+]

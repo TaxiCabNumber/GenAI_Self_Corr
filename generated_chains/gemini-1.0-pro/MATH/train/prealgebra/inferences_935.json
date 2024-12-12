@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA particular convex polygon with seven sides has exactly one right angle. How many diagonals does this seven-sided polygon have?",
+        "inference": "A convex polygon with n sides has $$\\frac{n(n-3)}{2}$$ diagonals.\n\nFor a n-sided polygon with one right angle, the number of diagonals is $$\\frac{n(n-3)}{2}-n+3.$$\n\nSo, for a seven-sided polygon with one right angle, the number of diagonals is $$\\frac{7(7-3)}{2}-7+3 = 14.$$\n\nFinal Answer: \\boxed{14}. I hope it is correct.",
+        "ground_truth": "For each vertex, we can create a diagonal by connecting it to any non-adjacent vertex. If there are $n$ vertices, there are $n(n-3)$ diagonals we draw. But we are over-counting by a factor of 2 since each diagonal can be created from 2 vertices. So there are $n(n-3)/2$ diagonals. In this problem, since $n=7$, there are $7\\cdot4/2=\\boxed{14}$ diagonals."
+    },
+    {
+        "question": "A convex polygon with n sides has $$\\frac{n(n-3)}{2}$$ diagonals.\n\nFor a n-sided polygon with one right angle, the number of diagonals is $$\\frac{n(n-3)}{2}-n+3.$$\n\nSo, for a seven-sided polygon with one right angle, the number of diagonals is $$\\frac{7(7-3)}{2}-7+3 = 14.$$\n\nFinal Answer: \\boxed{14}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{14}.",
+        "ground_truth": "For each vertex, we can create a diagonal by connecting it to any non-adjacent vertex. If there are $n$ vertices, there are $n(n-3)$ diagonals we draw. But we are over-counting by a factor of 2 since each diagonal can be created from 2 vertices. So there are $n(n-3)/2$ diagonals. In this problem, since $n=7$, there are $7\\cdot4/2=\\boxed{14}$ diagonals."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTo make a profit of $2000, Isaias has to sell the chickens he planned to take to the market from his farm at $50 per chicken. If Isaias has 300 chickens on his farm and plans to sell 3/5 of them, for how much money did Isaias buy the chicken he took to the market for sale?",
+        "inference": "1. Isaias plans to sell 3/5 of 300 chickens: (3/5) * 300 = 180 chickens\n\n2. The selling price of each chicken is $50.\n\n3. Total selling price: 180 chickens * $50/chicken = $9000\n\n4. Isaias wants to make a profit of $2000, so the cost price is: $9000 - $2000 = $7000\n\nI hope it is correct: $7000\n",
+        "ground_truth": "Isaias plans to sell 3/5*300 = <<3/5*300=180>>180 chickens from his farm.\nTo make his profit, Isaias sells all the chicken he took to the market for $50*180 = $<<50*180=9000>>9000\nThe price at which Isaias bought the chicken is $9000-$2000 = $<<9000-2000=7000>>7000.\n#### 7000"
+    },
+    {
+        "question": "1. Isaias plans to sell 3/5 of 300 chickens: (3/5) * 300 = 180 chickens\n\n2. The selling price of each chicken is $50.\n\n3. Total selling price: 180 chickens * $50/chicken = $9000\n\n4. Isaias wants to make a profit of $2000, so the cost price is: $9000 - $2000 = $7000\n\nI hope it is correct: $7000\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $7000\n",
+        "ground_truth": "Isaias plans to sell 3/5*300 = <<3/5*300=180>>180 chickens from his farm.\nTo make his profit, Isaias sells all the chicken he took to the market for $50*180 = $<<50*180=9000>>9000\nThe price at which Isaias bought the chicken is $9000-$2000 = $<<9000-2000=7000>>7000.\n#### 7000"
+    }
+]

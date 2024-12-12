@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nCourtney attended a concert and reported that the audience was 48 in number. However, Kelly went to the same concert and said that Courtney had made the mistake of overstating the number of people in attendance by 20%. If Kelly was right, how many people really attended the concert?",
+        "inference": "Courtney's estimate: 48\nOverstatement percentage: 20%\nOverstatement amount: 48 * 0.20 = 9.6\nCorrect attendance: 48 - 9.6 = 38.4\nI hope it is correct: 38 $answer$\n",
+        "ground_truth": "Since she overstated the number by 20%, 48 is 20% greater than the actual number i.e. 48 = 100% + 20% = 120% of the actual number = 120/100 of the actual number\nTherefore, the actual number = (100/120)*48 = <<(100/120)*48=40>>40\n#### 40"
+    },
+    {
+        "question": "Courtney's estimate: 48\nOverstatement percentage: 20%\nOverstatement amount: 48 * 0.20 = 9.6\nCorrect attendance: 48 - 9.6 = 38.4\nI hope it is correct: 38 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 38\n",
+        "ground_truth": "Since she overstated the number by 20%, 48 is 20% greater than the actual number i.e. 48 = 100% + 20% = 120% of the actual number = 120/100 of the actual number\nTherefore, the actual number = (100/120)*48 = <<(100/120)*48=40>>40\n#### 40"
+    }
+]

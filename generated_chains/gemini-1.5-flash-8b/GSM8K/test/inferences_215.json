@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nLori wants to buy a $320.00 pair of shoes and a matching belt that is $32.00.  Her part-time job pays her $8.00 an hour.  How many hours will she have to work before she can make her purchase?",
+        "inference": "1. Calculate the total cost of the shoes and belt: $320.00 + $32.00 = $352.00\n\n2. Divide the total cost by the hourly wage: $352.00 / $8.00/hour = 44 hours\n\nI hope it is correct: 44 $hours$\n",
+        "ground_truth": "She wants to buy a pair of shoes for $320.00 and a belt for $32.00 for a total of 320+32 = $<<320+32=352.00>>352.00\nHer purchase will total $352.00 and she makes $8.00 at her part-time job so she'll have to work 352/8 = <<352/8=44>>44 hours\n#### 44"
+    },
+    {
+        "question": "1. Calculate the total cost of the shoes and belt: $320.00 + $32.00 = $352.00\n\n2. Divide the total cost by the hourly wage: $352.00 / $8.00/hour = 44 hours\n\nI hope it is correct: 44 $hours$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 44 hours\n",
+        "ground_truth": "She wants to buy a pair of shoes for $320.00 and a belt for $32.00 for a total of 320+32 = $<<320+32=352.00>>352.00\nHer purchase will total $352.00 and she makes $8.00 at her part-time job so she'll have to work 352/8 = <<352/8=44>>44 hours\n#### 44"
+    }
+]

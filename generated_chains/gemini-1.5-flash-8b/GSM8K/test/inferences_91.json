@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJan has three times the number of pets as Marcia. Marcia has two more pets than Cindy. If Cindy has four pets, how many total pets do the three have?",
+        "inference": "1. Cindy has 4 pets.\n2. Marcia has 2 more than Cindy, so Marcia has 4 + 2 = 6 pets.\n3. Jan has three times the number of pets as Marcia, so Jan has 6 * 3 = 18 pets.\n4. Total pets: 4 + 6 + 18 = 28 pets.\n\nI hope it is correct: 28 $answer$\n",
+        "ground_truth": "Marcia has 4 + 2 = <<4+2=6>>6 pets.\nJan has 3 * 6 = <<3*6=18>>18 pets\nIn total, the three have 4 + 6 + 18 = <<4+6+18=28>>28 pets.\n#### 28"
+    },
+    {
+        "question": "1. Cindy has 4 pets.\n2. Marcia has 2 more than Cindy, so Marcia has 4 + 2 = 6 pets.\n3. Jan has three times the number of pets as Marcia, so Jan has 6 * 3 = 18 pets.\n4. Total pets: 4 + 6 + 18 = 28 pets.\n\nI hope it is correct: 28 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 28\n",
+        "ground_truth": "Marcia has 4 + 2 = <<4+2=6>>6 pets.\nJan has 3 * 6 = <<3*6=18>>18 pets\nIn total, the three have 4 + 6 + 18 = <<4+6+18=28>>28 pets.\n#### 28"
+    }
+]

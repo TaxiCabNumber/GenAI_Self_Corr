@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nOut of the 200 Grade 5 students, 2/5 are boys and 2/3 of the girls are in the girl scout. How many girls are not in the girl scout?",
+        "inference": "1. Boys: (2/5) * 200 = 80\n2. Girls: 200 - 80 = 120\n3. Girls in girl scout: (2/3) * 120 = 80\n4. Girls not in girl scout: 120 - 80 = 40\nI hope it is correct: 40 $answer$\n",
+        "ground_truth": "There are 200 x 2/5 = <<200*2/5=80>>80 boys in Grade 5.\nSo, 200 - 80 = <<200-80=120>>120 are girls.\nOut of the 120 girls, 120 x 2/3 = <<120*2/3=80>>80 are in the girl scout.\nTherefore, 120 - 80 = <<120-80=40>>40 girls are not in the girl scout.\n#### 40"
+    },
+    {
+        "question": "1. Boys: (2/5) * 200 = 80\n2. Girls: 200 - 80 = 120\n3. Girls in girl scout: (2/3) * 120 = 80\n4. Girls not in girl scout: 120 - 80 = 40\nI hope it is correct: 40 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 40\n",
+        "ground_truth": "There are 200 x 2/5 = <<200*2/5=80>>80 boys in Grade 5.\nSo, 200 - 80 = <<200-80=120>>120 are girls.\nOut of the 120 girls, 120 x 2/3 = <<120*2/3=80>>80 are in the girl scout.\nTherefore, 120 - 80 = <<120-80=40>>40 girls are not in the girl scout.\n#### 40"
+    }
+]

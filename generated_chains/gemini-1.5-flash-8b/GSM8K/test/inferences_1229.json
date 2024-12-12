@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIn November, a toy was $40. In December, the price increased by 80%. In January, the price decreased by 50%. What was the price of the toy after it was discounted in January?",
+        "inference": "1. December price: $40 * 1.80 = $72\n2. January price: $72 * 0.50 = $36\n\nI hope it is correct: $36\n",
+        "ground_truth": "In November, the toy's price was $<<40=40>>40.\nThe 80% increment represents 40*0.8=$32\nIn December, the toy's price was 40 + 32 = $<<40+32=72>>72.\nThe 50% increment from January represents 72*0.5=<<72*0.5=36>>36\nIn January, the toy's price is 72 - 36 = $<<72-36=36>>36.\n#### 36"
+    },
+    {
+        "question": "1. December price: $40 * 1.80 = $72\n2. January price: $72 * 0.50 = $36\n\nI hope it is correct: $36\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $36\n",
+        "ground_truth": "In November, the toy's price was $<<40=40>>40.\nThe 80% increment represents 40*0.8=$32\nIn December, the toy's price was 40 + 32 = $<<40+32=72>>72.\nThe 50% increment from January represents 72*0.5=<<72*0.5=36>>36\nIn January, the toy's price is 72 - 36 = $<<72-36=36>>36.\n#### 36"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nEvery hour, Paige can bake 2 banana bread loaves in the oven.  Each banana bread loaf is cut into 8 slices and wrapped individually for sale.  Each slice is sold for 50 cents for a fundraiser.  If she baked from 1:00 PM - 6:00 PM straight, and sold all the slices, how much did she raise in dollars?",
+        "inference": "1. Baking time: 6:00 PM - 1:00 PM = 5 hours\n2. Loaves baked per hour: 2\n3. Total loaves baked: 5 hours * 2 loaves/hour = 10 loaves\n4. Slices per loaf: 8\n5. Total slices: 10 loaves * 8 slices/loaf = 80 slices\n6. Price per slice: $0.50\n7. Total raised: 80 slices * $0.50/slice = $40.00\n\nI hope it is correct: $40\n",
+        "ground_truth": "From 1pm - 6pm, there are 6 - 1 = <<6-1=5>>5 hours.\nIn 5 hours, Paige baked 5 x 2 = <<5*2=10>>10 banana bread loaves.\nWhen they are sliced, there are 10 x 8 = <<10*8=80>>80 banana bread slices.\nBy selling all the slices, Paige has raised 80 x 0.50 = $<<80*0.50=40>>40.\n#### 40"
+    },
+    {
+        "question": "1. Baking time: 6:00 PM - 1:00 PM = 5 hours\n2. Loaves baked per hour: 2\n3. Total loaves baked: 5 hours * 2 loaves/hour = 10 loaves\n4. Slices per loaf: 8\n5. Total slices: 10 loaves * 8 slices/loaf = 80 slices\n6. Price per slice: $0.50\n7. Total raised: 80 slices * $0.50/slice = $40.00\n\nI hope it is correct: $40\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $40.00\n",
+        "ground_truth": "From 1pm - 6pm, there are 6 - 1 = <<6-1=5>>5 hours.\nIn 5 hours, Paige baked 5 x 2 = <<5*2=10>>10 banana bread loaves.\nWhen they are sliced, there are 10 x 8 = <<10*8=80>>80 banana bread slices.\nBy selling all the slices, Paige has raised 80 x 0.50 = $<<80*0.50=40>>40.\n#### 40"
+    }
+]

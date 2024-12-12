@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA floor decoration is a circle with eight rays pointing from the center.  The rays form eight congruent central angles.  One of the rays points due north.  What is the measure in degrees of the smaller angle formed between the ray pointing East and the ray pointing Southwest?\n\n[asy]\n\nsize(3cm,3cm);\n\ndraw(unitcircle);\n\ndraw((0,0.8)--(0,-0.8),Arrows(HookHead));\ndraw((-0.8,0)--(0.8,0),Arrows(HookHead));\n\ndraw((-0.55,0.55)--(0.55,-0.55),Arrows(HookHead));\ndraw((-0.55,-0.55)--(0.55,0.55),Arrows(HookHead));\n\n[/asy]",
+        "inference": "The smaller angle is 1/8 of a full circle.\n$$360 \\div 8 = 45$$\n\nFinal Answer: \\boxed{$45$}. I hope it is correct.",
+        "ground_truth": "Since there are eight rays forming congruent central angles and the sum of these angles is equal to 360 degrees, each central angle is $360/8=45$ degrees. Since the angle between the East ray and the Southwest ray includes 3 of these central angles, the angle is $45\\cdot3=\\boxed{135}$ degrees."
+    },
+    {
+        "question": "The smaller angle is 1/8 of a full circle.\n$$360 \\div 8 = 45$$\n\nFinal Answer: \\boxed{$45$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{45}",
+        "ground_truth": "Since there are eight rays forming congruent central angles and the sum of these angles is equal to 360 degrees, each central angle is $360/8=45$ degrees. Since the angle between the East ray and the Southwest ray includes 3 of these central angles, the angle is $45\\cdot3=\\boxed{135}$ degrees."
+    }
+]

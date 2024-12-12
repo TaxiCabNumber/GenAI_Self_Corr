@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nMarius is entering a wildlife photo contest, and wishes to arrange his seven snow leopards of different heights in a row. If the shortest two leopards have inferiority complexes and demand to be placed at the ends of the row, how many ways can he line up the leopards?",
+        "inference": "1. The shortest two leopards must be at the ends.  This fixes their positions.\n2. There are 5 remaining leopards.\n3. The 5 remaining leopards can be arranged in the 5 remaining positions in 5! ways.\n4. 5! = 5 \u00d7 4 \u00d7 3 \u00d7 2 \u00d7 1 = 120.\n\nFinal Answer: $\\boxed{120}$\n",
+        "ground_truth": "There are two ways to arrange the shortest two leopards. For the five remaining leopards, there are $5!$ ways to arrange them.\n\nTherefore, the answer is $2\\times5!=\\boxed{240\\text{ ways.}}$"
+    },
+    {
+        "question": "1. The shortest two leopards must be at the ends.  This fixes their positions.\n2. There are 5 remaining leopards.\n3. The 5 remaining leopards can be arranged in the 5 remaining positions in 5! ways.\n4. 5! = 5 \u00d7 4 \u00d7 3 \u00d7 2 \u00d7 1 = 120.\n\nFinal Answer: $\\boxed{120}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Let the leopards be represented by their heights.  Let the shortest two leopards be $L_1$ and $L_2$ (where $L_1 < L_2$).  They must be at the ends of the line.\n\nWe need to arrange 7 leopards in a line.\nThe shortest two must be at the ends.  This means the position of the shortest and second shortest are fixed.\nThere are 7 positions in total.  The shortest two are at the ends.\nThere are 5 remaining leopards, and 5 remaining positions.\nThe number of ways to arrange the 5 remaining leopards in the 5 remaining positions is 5!.\n5! = 5 \u00d7 4 \u00d7 3 \u00d7 2 \u00d7 1 = 120.\n\nFinal Answer: $\\boxed{120}$",
+        "ground_truth": "There are two ways to arrange the shortest two leopards. For the five remaining leopards, there are $5!$ ways to arrange them.\n\nTherefore, the answer is $2\\times5!=\\boxed{240\\text{ ways.}}$"
+    }
+]

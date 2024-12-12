@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIt costs 2.5 cents to copy a page. How many pages can you copy for $\\$20$?",
+        "inference": "1 dollar = 100 cents\n$20 = 20 * 100 = 2000$ cents\nNumber of pages = $\\frac{2000}{2.5} = \\frac{20000}{25} = 800$\nFinal Answer: $\\boxed{800}$\n",
+        "ground_truth": "Twenty dollars is 2000 cents. Since every page costs 2.5 cents, you can copy $2000/2.5=\\boxed{800}$ pages."
+    },
+    {
+        "question": "1 dollar = 100 cents\n$20 = 20 * 100 = 2000$ cents\nNumber of pages = $\\frac{2000}{2.5} = \\frac{20000}{25} = 800$\nFinal Answer: $\\boxed{800}$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Let's assume the question is: If a book costs $20 and each page costs 2.5 cents, how many pages are in the book?\nNumber of pages = $\\frac{\\text{Total cost}}{\\text{Cost per page}}$\nNumber of pages = $\\frac{20 \\times 100 \\text{ cents}}{2.5 \\text{ cents}} = \\frac{2000}{2.5} = \\frac{20000}{25} = 800$\nFinal Answer: $\\boxed{800}$",
+        "ground_truth": "Twenty dollars is 2000 cents. Since every page costs 2.5 cents, you can copy $2000/2.5=\\boxed{800}$ pages."
+    }
+]

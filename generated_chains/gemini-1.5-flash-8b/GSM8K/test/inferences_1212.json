@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAli is a dean of a private school where he teaches one class. John is also a dean of a public school. John has two classes in his school. Each class has 1/8 the capacity of Ali\u2019s class which has the capacity of 120 students. What is the combined capacity of both schools?",
+        "inference": "Ali's class capacity = 120 students\nEach John's class capacity = (1/8) * 120 = 15 students\nTotal John's classes capacity = 15 students/class * 2 classes = 30 students\nCombined capacity = Ali's capacity + John's capacity = 120 students + 30 students = 150 students\nI hope it is correct: 150 $answer$\n",
+        "ground_truth": "Each of John\u2019s classes has a capacity of 120 * 1/8 = <<120*1/8=15>>15 students.\nCombined, both his classes have a capacity of 15 * 2= <<15*2=30>>30 students.\nCombined, both schools have a capacity of 120+30=<<120+30=150>>150 students\n#### 150"
+    },
+    {
+        "question": "Ali's class capacity = 120 students\nEach John's class capacity = (1/8) * 120 = 15 students\nTotal John's classes capacity = 15 students/class * 2 classes = 30 students\nCombined capacity = Ali's capacity + John's capacity = 120 students + 30 students = 150 students\nI hope it is correct: 150 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 150\n",
+        "ground_truth": "Each of John\u2019s classes has a capacity of 120 * 1/8 = <<120*1/8=15>>15 students.\nCombined, both his classes have a capacity of 15 * 2= <<15*2=30>>30 students.\nCombined, both schools have a capacity of 120+30=<<120+30=150>>150 students\n#### 150"
+    }
+]

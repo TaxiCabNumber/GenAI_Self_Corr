@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTobias bought a big pizza with 60 pieces. He ate 2/5 of the pieces on the first day, 10 pieces on the second day, and 7/13 of the remaining pieces on the third day. How many pizza pieces has he eaten so far?",
+        "inference": "1. Tobias ate 2/5 of 60 pieces on the first day: (2/5) * 60 = 24 pieces.\n2. Remaining pieces after the first day: 60 - 24 = 36 pieces.\n3. Tobias ate 10 pieces on the second day.\n4. Remaining pieces after the second day: 36 - 10 = 26 pieces.\n5. Tobias ate 7/13 of the remaining pieces on the third day: (7/13) * 26 = 14 pieces.\n6. Total pieces eaten: 24 + 10 + 14 = 48 pieces.\n\nI hope it is correct: 48 $answer$\n",
+        "ground_truth": "On the first day, Tobias ate 2/5*60 = <<2/5*60=24>>24 pieces of the pizza.\nOn the second day, Tobias ate 10 more pieces of the pizza, totaling 24+10 = <<24+10=34>>34 pieces\nThe number of pieces of pizza remaining is 60-34 = <<60-34=26>>26\nOn the third day, Tobias ate 7/13*26 = <<7/13*26=14>>14 pieces of pizza.\nSo far, he has eaten 14+34 = <<14+34=48>>48 pieces of the pizza he bought.\n#### 48"
+    },
+    {
+        "question": "1. Tobias ate 2/5 of 60 pieces on the first day: (2/5) * 60 = 24 pieces.\n2. Remaining pieces after the first day: 60 - 24 = 36 pieces.\n3. Tobias ate 10 pieces on the second day.\n4. Remaining pieces after the second day: 36 - 10 = 26 pieces.\n5. Tobias ate 7/13 of the remaining pieces on the third day: (7/13) * 26 = 14 pieces.\n6. Total pieces eaten: 24 + 10 + 14 = 48 pieces.\n\nI hope it is correct: 48 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 48\n",
+        "ground_truth": "On the first day, Tobias ate 2/5*60 = <<2/5*60=24>>24 pieces of the pizza.\nOn the second day, Tobias ate 10 more pieces of the pizza, totaling 24+10 = <<24+10=34>>34 pieces\nThe number of pieces of pizza remaining is 60-34 = <<60-34=26>>26\nOn the third day, Tobias ate 7/13*26 = <<7/13*26=14>>14 pieces of pizza.\nSo far, he has eaten 14+34 = <<14+34=48>>48 pieces of the pizza he bought.\n#### 48"
+    }
+]

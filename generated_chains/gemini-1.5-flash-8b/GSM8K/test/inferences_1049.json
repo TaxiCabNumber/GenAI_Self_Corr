@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 50 books in a small library. Half of them are written in English, and 10% in German. All others are written in Spanish. How many Spanish books are there?",
+        "inference": "1. English books: 50 books / 2 = 25 books\n2. German books: 50 books * 0.10 = 5 books\n3. Spanish books: 50 books - 25 books - 5 books = 20 books\n\nI hope it is correct: 20 $answer$\n",
+        "ground_truth": "Half of the books are in English, which means 50 * 0.5 = <<50*0.5=25>>25 books.\nGerman books make up to 10%, which means there are 10/100 * 50 = <<10/100*50=5>>5 of them.\nSo as a result there are 50 - 25 - 5 = <<50-25-5=20>>20 Spanish books in the library.\n#### 20"
+    },
+    {
+        "question": "1. English books: 50 books / 2 = 25 books\n2. German books: 50 books * 0.10 = 5 books\n3. Spanish books: 50 books - 25 books - 5 books = 20 books\n\nI hope it is correct: 20 $answer$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 20\n",
+        "ground_truth": "Half of the books are in English, which means 50 * 0.5 = <<50*0.5=25>>25 books.\nGerman books make up to 10%, which means there are 10/100 * 50 = <<10/100*50=5>>5 of them.\nSo as a result there are 50 - 25 - 5 = <<50-25-5=20>>20 Spanish books in the library.\n#### 20"
+    }
+]

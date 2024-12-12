@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJayden had $70 from selling pictures he took as a hobby.  His sister Ava gave him half of her $90 allowance to help him buy a new camera that costs $200. How much more does Jayden need to buy the camera?",
+        "inference": "Ava gave Jayden $90 / 2 = $45.\nJayden has $70 + $45 = $115.\nJayden needs $200 - $115 = $85.\nI hope it is correct: $85\n",
+        "ground_truth": "Ava gave $90/2 = $<<90/2=45>>45 to Jayden.\nJayden now has $70 + $45 = $<<70+45=115>>115\nSo, Jayden needs $200 - $115 = $<<200-115=85>>85 to buy the new camera\n#### 85"
+    },
+    {
+        "question": "Ava gave Jayden $90 / 2 = $45.\nJayden has $70 + $45 = $115.\nJayden needs $200 - $115 = $85.\nI hope it is correct: $85\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $85\n",
+        "ground_truth": "Ava gave $90/2 = $<<90/2=45>>45 to Jayden.\nJayden now has $70 + $45 = $<<70+45=115>>115\nSo, Jayden needs $200 - $115 = $<<200-115=85>>85 to buy the new camera\n#### 85"
+    }
+]

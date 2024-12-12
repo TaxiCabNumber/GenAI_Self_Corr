@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMr. Smith has two farms, Farm X and Farm Y. He has 55 goats in Farm X and 45 goats in Farm Y. He sold 10 goats from Farm X and twice as many goats from Farm Y. How many goats are left in the two farms altogether?",
+        "inference": "1. Goats sold from Farm X: 10\n2. Goats sold from Farm Y: 10 * 2 = 20\n3. Goats remaining in Farm X: 55 - 10 = 45\n4. Goats remaining in Farm Y: 45 - 20 = 25\n5. Total goats remaining: 45 + 25 = 70\n\nI hope it is correct: 70 $\n",
+        "ground_truth": "There are 55 - 10 = <<55-10=45>>45 goats left in Farm X.\nMr. Smith sold 10 x 2 = <<10*2=20>>20 goats from Farm Y.\nThus, 45 - 20 = <<45-20=25>>25 goats are left in Farm Y.\nTherefore, there are a total of 45 + 25 = <<45+25=70>>70 goats left in the two farms altogether.\n#### 70"
+    },
+    {
+        "question": "1. Goats sold from Farm X: 10\n2. Goats sold from Farm Y: 10 * 2 = 20\n3. Goats remaining in Farm X: 55 - 10 = 45\n4. Goats remaining in Farm Y: 45 - 20 = 25\n5. Total goats remaining: 45 + 25 = 70\n\nI hope it is correct: 70 $\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 70\n",
+        "ground_truth": "There are 55 - 10 = <<55-10=45>>45 goats left in Farm X.\nMr. Smith sold 10 x 2 = <<10*2=20>>20 goats from Farm Y.\nThus, 45 - 20 = <<45-20=25>>25 goats are left in Farm Y.\nTherefore, there are a total of 45 + 25 = <<45+25=70>>70 goats left in the two farms altogether.\n#### 70"
+    }
+]

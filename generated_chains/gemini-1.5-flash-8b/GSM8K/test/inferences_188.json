@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA trader buys some bags of wheat from a farmer at a rate of $20 per bag. If it costs $2 to transport each bag from the farm to the warehouse, and the trader made a total profit of $400 after selling all the bags at a rate of $30 each, how many bags did he sell?",
+        "inference": "1. Cost per bag = Buying price + Transport cost = $20 + $2 = $22\n\n2. Profit per bag = Selling price - Cost per bag = $30 - $22 = $8\n\n3. Total profit = Profit per bag * Number of bags\n\n4. Number of bags = Total profit / Profit per bag = $400 / $8 = 50\n\nI hope it is correct: 50 $bags$\n",
+        "ground_truth": "Each bag of wheat cost the trader $20+$2=$<<20+2=22>>22 (taking transportation costs into account)\nEach bag of wheat was sold for $30 each giving a profit of $30-$22=$<<30-22=8>>8 on each bag\nSince a total of $400 profit was made, the total number of bags sold is $400/$8=<<400/8=50>>50 bags\n#### 50"
+    },
+    {
+        "question": "1. Cost per bag = Buying price + Transport cost = $20 + $2 = $22\n\n2. Profit per bag = Selling price - Cost per bag = $30 - $22 = $8\n\n3. Total profit = Profit per bag * Number of bags\n\n4. Number of bags = Total profit / Profit per bag = $400 / $8 = 50\n\nI hope it is correct: 50 $bags$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 50 bags\n",
+        "ground_truth": "Each bag of wheat cost the trader $20+$2=$<<20+2=22>>22 (taking transportation costs into account)\nEach bag of wheat was sold for $30 each giving a profit of $30-$22=$<<30-22=8>>8 on each bag\nSince a total of $400 profit was made, the total number of bags sold is $400/$8=<<400/8=50>>50 bags\n#### 50"
+    }
+]

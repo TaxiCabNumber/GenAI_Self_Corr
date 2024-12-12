@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nEmily's quiz scores so far are: 92, 95, 87, 89 and 100. What score does she need to get on the sixth quiz to make the arithmetic mean of the six scores equal 93?",
+        "inference": "Let x be the score Emily needs to get on the sixth quiz.\n\nThe arithmetic mean of the six scores is given by:\n\n(92 + 95 + 87 + 89 + 100 + x) / 6 = 93\n\nSimplifying the left-hand side:\n\n(463 + x) / 6 = 93\n\nCross-multiplying:\n\n463 + x = 558\n\nSubtracting 463 from both sides:\n\nx = 95\n\n**Final Answer: \\\\boxed{$95$}. I hope it is correct.**",
+        "ground_truth": "Subtract 90 from every score to simplify the arithmetic.  For the average of 6 scores to be 3, their sum must be $6\\times3=18$.  The sum of her first five scores is $2+5-3-1+10=13$, so the sixth score should be $18-13=5$.  Adding 90 back, her score should be $\\boxed{95}$."
+    },
+    {
+        "question": "Let x be the score Emily needs to get on the sixth quiz.\n\nThe arithmetic mean of the six scores is given by:\n\n(92 + 95 + 87 + 89 + 100 + x) / 6 = 93\n\nSimplifying the left-hand side:\n\n(463 + x) / 6 = 93\n\nCross-multiplying:\n\n463 + x = 558\n\nSubtracting 463 from both sides:\n\nx = 95\n\n**Final Answer: \\\\boxed{$95$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$95$}.",
+        "ground_truth": "Subtract 90 from every score to simplify the arithmetic.  For the average of 6 scores to be 3, their sum must be $6\\times3=18$.  The sum of her first five scores is $2+5-3-1+10=13$, so the sixth score should be $18-13=5$.  Adding 90 back, her score should be $\\boxed{95}$."
+    }
+]

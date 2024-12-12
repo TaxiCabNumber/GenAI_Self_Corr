@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe red rope was four times the length of the blue rope. The blue rope was 7 centimeters shorter than the yellow rope. If the 3 ropes had a combined length of 37 centimeters, what was the length of the red rope in centimeters?",
+        "inference": "Let R be the length of the red rope, B be the length of the blue rope, and Y be the length of the yellow rope.\nWe are given:\n1) R = 4B\n2) B = Y - 7\n3) R + B + Y = 37\n\nSubstitute equation (2) into equation (1):\nR = 4(Y - 7) = 4Y - 28\n\nSubstitute equations (1) and (2) into equation (3):\n(4Y - 28) + (Y - 7) + Y = 37\nCombine like terms:\n6Y - 35 = 37\nAdd 35 to both sides:\n6Y = 72\nDivide both sides by 6:\nY = 12\n\nNow find B:\nB = Y - 7 = 12 - 7 = 5\n\nNow find R:\nR = 4B = 4 * 5 = 20\n\nThe length of the red rope is 20 centimeters.\nI hope it is correct: 20 $cm$\n",
+        "ground_truth": "Let Y = the length of the yellow rope in centimeters\nBlue rope = Y - 7\nRed rope = 4 * (Y - 7)\nY + Y - 7 + 4 (Y - 7) = 37 cm\n6Y - 35 = 37\n6Y = 72\nY = <<12=12>>12 cm\nThe red rope was 20 cm long.\n#### 20"
+    },
+    {
+        "question": "Let R be the length of the red rope, B be the length of the blue rope, and Y be the length of the yellow rope.\nWe are given:\n1) R = 4B\n2) B = Y - 7\n3) R + B + Y = 37\n\nSubstitute equation (2) into equation (1):\nR = 4(Y - 7) = 4Y - 28\n\nSubstitute equations (1) and (2) into equation (3):\n(4Y - 28) + (Y - 7) + Y = 37\nCombine like terms:\n6Y - 35 = 37\nAdd 35 to both sides:\n6Y = 72\nDivide both sides by 6:\nY = 12\n\nNow find B:\nB = Y - 7 = 12 - 7 = 5\n\nNow find R:\nR = 4B = 4 * 5 = 20\n\nThe length of the red rope is 20 centimeters.\nI hope it is correct: 20 $cm$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 20 cm\n",
+        "ground_truth": "Let Y = the length of the yellow rope in centimeters\nBlue rope = Y - 7\nRed rope = 4 * (Y - 7)\nY + Y - 7 + 4 (Y - 7) = 37 cm\n6Y - 35 = 37\n6Y = 72\nY = <<12=12>>12 cm\nThe red rope was 20 cm long.\n#### 20"
+    }
+]

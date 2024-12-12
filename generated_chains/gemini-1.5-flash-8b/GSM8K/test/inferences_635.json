@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nManny signed up for Karate classes for $60. His parents tell him that if his classes end up costing more than $10 per class, then they won't sign him up again. If there are 10 total classes, how many can he miss before they don't sign him up again?",
+        "inference": "1. Total cost of classes: $60\n2. Number of classes: 10\n3. Cost per class if he attends all classes: $60 / 10 = $6 per class\n4. Maximum allowable cost per class: $10\n5. If he misses x classes, the number of classes he attends is 10 - x\n6. Cost per class if he misses x classes: $60 / (10 - x)\n7. Inequality to determine the maximum number of classes he can miss: $60 / (10 - x) \u2264 $10\n8. Solving for x:\n   $60 \u2264 10 * (10 - x)$\n   $6 \u2264 10 - x$\n   $x \u2264 4$\n9. Maximum number of classes Manny can miss: 4\n\nI hope it is correct: 4\n",
+        "ground_truth": "He must attend at least six classes, because 60 / 6 = <<60/6=10>>10\nHe can skip 4 class because 10 - 4 = <<10-4=6>>6\n#### 4"
+    },
+    {
+        "question": "1. Total cost of classes: $60\n2. Number of classes: 10\n3. Cost per class if he attends all classes: $60 / 10 = $6 per class\n4. Maximum allowable cost per class: $10\n5. If he misses x classes, the number of classes he attends is 10 - x\n6. Cost per class if he misses x classes: $60 / (10 - x)\n7. Inequality to determine the maximum number of classes he can miss: $60 / (10 - x) \u2264 $10\n8. Solving for x:\n   $60 \u2264 10 * (10 - x)$\n   $6 \u2264 10 - x$\n   $x \u2264 4$\n9. Maximum number of classes Manny can miss: 4\n\nI hope it is correct: 4\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 4\n",
+        "ground_truth": "He must attend at least six classes, because 60 / 6 = <<60/6=10>>10\nHe can skip 4 class because 10 - 4 = <<10-4=6>>6\n#### 4"
+    }
+]

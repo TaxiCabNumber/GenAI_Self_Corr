@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nEmily can peel 6 shrimp a minute and saute 30 shrimp in 10 minutes. How long will it take her to peel and cook 90 shrimp?",
+        "inference": "Peeling rate: 6 shrimp/minute\nSauteing rate: 30 shrimp/10 minutes = 3 shrimp/minute\n\nTotal rate of peeling and sauteing: 6 shrimp/minute + 3 shrimp/minute = 9 shrimp/minute\n\nTime to peel and cook 90 shrimp: 90 shrimp / 9 shrimp/minute = 10 minutes\n\nI hope it is correct: 10 $minutes$\n",
+        "ground_truth": "First find how long it takes Emily to peel the shrimp: 90 shrimp / 6 shrimp/minute = <<90/6=15>>15 minutes\nThen find how many batches of shrimp she needs to cook: 90 shrimp / 30 shrimp/batch = <<90/30=3>>3 batches\nThen multiply the number of batches by the time per batch to find the total cook time: 3 batches * 10 minutes/batch = <<3*10=30>>30 minutes\nThen add the peeling time to find the total time Emily spends: 30 minutes + 15 minutes = <<30+15=45>>45 minutes\n#### 45"
+    },
+    {
+        "question": "Peeling rate: 6 shrimp/minute\nSauteing rate: 30 shrimp/10 minutes = 3 shrimp/minute\n\nTotal rate of peeling and sauteing: 6 shrimp/minute + 3 shrimp/minute = 9 shrimp/minute\n\nTime to peel and cook 90 shrimp: 90 shrimp / 9 shrimp/minute = 10 minutes\n\nI hope it is correct: 10 $minutes$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "The problem is that sauteing 30 shrimp takes 10 minutes, not 1 minute.  Peeling 6 shrimp per minute means peeling 60 shrimp in 10 minutes.  In that 10 minutes, you can also saute 30 shrimp.  So, in 10 minutes you've done 90 shrimp.\n\n#### $10$\n",
+        "ground_truth": "First find how long it takes Emily to peel the shrimp: 90 shrimp / 6 shrimp/minute = <<90/6=15>>15 minutes\nThen find how many batches of shrimp she needs to cook: 90 shrimp / 30 shrimp/batch = <<90/30=3>>3 batches\nThen multiply the number of batches by the time per batch to find the total cook time: 3 batches * 10 minutes/batch = <<3*10=30>>30 minutes\nThen add the peeling time to find the total time Emily spends: 30 minutes + 15 minutes = <<30+15=45>>45 minutes\n#### 45"
+    }
+]

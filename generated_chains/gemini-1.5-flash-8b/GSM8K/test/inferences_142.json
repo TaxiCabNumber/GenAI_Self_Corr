@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJordan plays video games for 2 hours every day. He also has a part-time job where he earns $10 an hour. How much money would Jordan earn in one week if he spent his video game time working instead?",
+        "inference": "1.  Jordan plays 2 hours/day * 7 days/week = 14 hours/week.\n\n2.  He earns $10/hour * 14 hours/week = $140/week.\n\nI hope it is correct: $140\n",
+        "ground_truth": "Jordan plays video games for 2 hours every day x 7 days in a week = <<2*7=14>>14 hours a week.\nIf Jordan spent his 14 hours working instead, he would make 14 hours x $10 = $<<14*10=140>>140.\n#### 140"
+    },
+    {
+        "question": "1.  Jordan plays 2 hours/day * 7 days/week = 14 hours/week.\n\n2.  He earns $10/hour * 14 hours/week = $140/week.\n\nI hope it is correct: $140\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $140\n",
+        "ground_truth": "Jordan plays video games for 2 hours every day x 7 days in a week = <<2*7=14>>14 hours a week.\nIf Jordan spent his 14 hours working instead, he would make 14 hours x $10 = $<<14*10=140>>140.\n#### 140"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nPrince is a butcher. He sells 15kg of meat every hour he works, and he works 10 hours a day. His friend Bill gives him a bull that weighs 750kg. How many days will it take Prince to sell the meat from Bill's bull?",
+        "inference": "1. Calculate the total meat Prince sells per day: 15 kg/hour * 10 hours/day = 150 kg/day\n\n2. Calculate the number of days to sell the bull: 750 kg / 150 kg/day = 5 days\n\nI hope it is correct: 5 $days$\n",
+        "ground_truth": "In a day Bill sells 15 * 10 = <<15*10=150>>150kg of meat.\nIt will take Bill 750 / 150 = <<750/150=5>>5 days to sell all the meat from the bull.\n#### 5"
+    },
+    {
+        "question": "1. Calculate the total meat Prince sells per day: 15 kg/hour * 10 hours/day = 150 kg/day\n\n2. Calculate the number of days to sell the bull: 750 kg / 150 kg/day = 5 days\n\nI hope it is correct: 5 $days$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 5 days\n",
+        "ground_truth": "In a day Bill sells 15 * 10 = <<15*10=150>>150kg of meat.\nIt will take Bill 750 / 150 = <<750/150=5>>5 days to sell all the meat from the bull.\n#### 5"
+    }
+]

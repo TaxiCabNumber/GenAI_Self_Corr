@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTerri is knitting a sweater with two sleeves, a collar, and a decorative rosette. The body of the sweater takes 900 stitches to complete, the collar takes a tenth of that number of stitches, and the rosette takes twice as many as the collar. The whole sweater is an 1800-stitch project. How many stitches does each sleeve take?",
+        "inference": "Stitches for collar = (1/10) * 900 = 90 stitches\nStitches for rosette = 2 * 90 = 180 stitches\nStitches for body + collar + rosette = 900 + 90 + 180 = 1070 stitches\nStitches for 2 sleeves = 1800 - 1070 = 730 stitches\nStitches for each sleeve = 730 / 2 = 365 stitches\n\nI hope it is correct: 365 $stitches$\n",
+        "ground_truth": "The collar takes 900 / 10 = <<900/10=90>>90 stitches.\nThe rosette takes 2 * 90 = <<2*90=180>>180 stitches.\nThe body, collar, and rosette together take 900 + 90 + 180 = <<900+90+180=1170>>1170 stitches.\nThus, the sleeves take 1800 - 1170 = <<1800-1170=630>>630 stitches.\nThus, each sleeve takes 630 / 2 = <<630/2=315>>315 stitches.\n#### 315"
+    },
+    {
+        "question": "Stitches for collar = (1/10) * 900 = 90 stitches\nStitches for rosette = 2 * 90 = 180 stitches\nStitches for body + collar + rosette = 900 + 90 + 180 = 1070 stitches\nStitches for 2 sleeves = 1800 - 1070 = 730 stitches\nStitches for each sleeve = 730 / 2 = 365 stitches\n\nI hope it is correct: 365 $stitches$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 365 stitches\n",
+        "ground_truth": "The collar takes 900 / 10 = <<900/10=90>>90 stitches.\nThe rosette takes 2 * 90 = <<2*90=180>>180 stitches.\nThe body, collar, and rosette together take 900 + 90 + 180 = <<900+90+180=1170>>1170 stitches.\nThus, the sleeves take 1800 - 1170 = <<1800-1170=630>>630 stitches.\nThus, each sleeve takes 630 / 2 = <<630/2=315>>315 stitches.\n#### 315"
+    }
+]

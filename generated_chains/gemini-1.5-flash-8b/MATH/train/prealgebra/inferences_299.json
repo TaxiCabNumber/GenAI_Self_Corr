@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA digital music library contains 12 days of music and takes up 16,000 megabytes of disk space. On average, how many megabytes of disk space does one hour of music in this library take up? Express your answer to the nearest whole number.",
+        "inference": "12 days = 12 * 24 hours = 288 hours.\n16,000 megabytes / 288 hours = 55.555... megabytes/hour.\nRounded to the nearest whole number, this is 56 megabytes/hour.\nFinal Answer: $\\boxed{56}$ I hope it is correct.\n",
+        "ground_truth": "Since there are 24 hours in a day, there are $12\\cdot24$ hours in 12 days. One hour of music takes up $1/(12\\cdot24)$ of the disk space that 12 days takes up, so one hour of music takes up $16000/(12\\cdot24)=500/(3\\cdot3)\\approx\\boxed{56}$ megabytes."
+    },
+    {
+        "question": "12 days = 12 * 24 hours = 288 hours.\n16,000 megabytes / 288 hours = 55.555... megabytes/hour.\nRounded to the nearest whole number, this is 56 megabytes/hour.\nFinal Answer: $\\boxed{56}$ I hope it is correct.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "12 days = 12 * 24 hours = 288 hours.\nIf 16,000 megabytes are transferred in 288 hours, the transfer rate is 16000 megabytes / 288 hours = 55.555... megabytes/hour.\nRounded to the nearest whole number, this is 56 megabytes/hour.\n\n$\\boxed{56}$\n",
+        "ground_truth": "Since there are 24 hours in a day, there are $12\\cdot24$ hours in 12 days. One hour of music takes up $1/(12\\cdot24)$ of the disk space that 12 days takes up, so one hour of music takes up $16000/(12\\cdot24)=500/(3\\cdot3)\\approx\\boxed{56}$ megabytes."
+    }
+]
