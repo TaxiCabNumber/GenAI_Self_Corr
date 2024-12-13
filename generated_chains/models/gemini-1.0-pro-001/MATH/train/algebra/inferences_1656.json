@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nRamanujan and Hardy played a game where they both picked a complex number. If the product of their numbers was $32-8i$, and Hardy picked $5+3i$, what number did Ramanujan pick?",
+        "inference": "Let $x + yi$ be Ramanujan's number.\n\nThen, $(5+3i)(x+yi) = 32-8i$.\n\nExpanding the left side:\n$$5x + 5yi + 3xi - 3y = 32-8i.$$\n\nEquating real and imaginary parts:\n$$5x + 3y = 32$$\n$$5y - 3x = -8$$\n\nSolving for $x$ and $y$:\n$$x = 6$$\n$$y = 2$$\n\nTherefore, Ramanujan's number is $$\\boxed{6+2i}.$$\n\nFinal Answer: $\\boxed{6+2i}$. I hope it is correct.",
+        "ground_truth": "Let Hardy's number be $h$ and Ramanujan's be $r$. We have the equations: \\begin{align*}\nrh&=32-8i,\\\\\nh&=5+3i.\n\\end{align*} Thus, \\[r=\\frac{32-8i}{5+3i}.\\] Multiplying top and bottom by the conjugate of $5+3i$, we have \\[r=\\frac{(32-8i)(5-3i)}{34}\\] or  \\[r=\\frac{136-136i}{34}=\\boxed{4-4i}\\]"
+    },
+    {
+        "question": "Let $x + yi$ be Ramanujan's number.\n\nThen, $(5+3i)(x+yi) = 32-8i$.\n\nExpanding the left side:\n$$5x + 5yi + 3xi - 3y = 32-8i.$$\n\nEquating real and imaginary parts:\n$$5x + 3y = 32$$\n$$5y - 3x = -8$$\n\nSolving for $x$ and $y$:\n$$x = 6$$\n$$y = 2$$\n\nTherefore, Ramanujan's number is $$\\boxed{6+2i}.$$\n\nFinal Answer: $\\boxed{6+2i}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{6+2i}$$",
+        "ground_truth": "Let Hardy's number be $h$ and Ramanujan's be $r$. We have the equations: \\begin{align*}\nrh&=32-8i,\\\\\nh&=5+3i.\n\\end{align*} Thus, \\[r=\\frac{32-8i}{5+3i}.\\] Multiplying top and bottom by the conjugate of $5+3i$, we have \\[r=\\frac{(32-8i)(5-3i)}{34}\\] or  \\[r=\\frac{136-136i}{34}=\\boxed{4-4i}\\]"
+    }
+]

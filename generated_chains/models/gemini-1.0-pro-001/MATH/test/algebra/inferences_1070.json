@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThere are numbers $A$ and $B$ for which  \\[\\frac A{x-1}+\\frac B{x+1}=\\frac{x+2}{x^2-1}\\] for every number $x\\neq\\pm1$.  Find $B$.",
+        "inference": "Since the equality holds for all values of $x$ except $x=\\pm1$, we can multiply both sides of the equation by the denominator $(x-1)(x+1)$ to get\n$$A(x+1)+B(x-1)=x+2.$$\n\nSubstituting $x=0$ gives $A=-2$.\n\nSubstituting $x=2$ gives $3B=6$, so $B=\\boxed{2}$.\nFinal Answer: $\\boxed{2}$. I hope it is correct.",
+        "ground_truth": "We can approach this problem by picking clever values for $x$.  If $x=-2$ we get  \\[\\frac A{-2-1}+\\frac B{-2+1}=0,\\] so \\[A+3B=0.\\]\n\nIf $x=0$ we get  \\[\\frac A{0-1}+\\frac B{0+1}=\\frac{0+2}{0^2-1},\\] or  \\[-A+B=-2.\\] To solve for $B$ we add these two expressions: \\[4B=-2,\\] so $B=\\boxed{-\\frac12}$."
+    },
+    {
+        "question": "Since the equality holds for all values of $x$ except $x=\\pm1$, we can multiply both sides of the equation by the denominator $(x-1)(x+1)$ to get\n$$A(x+1)+B(x-1)=x+2.$$\n\nSubstituting $x=0$ gives $A=-2$.\n\nSubstituting $x=2$ gives $3B=6$, so $B=\\boxed{2}$.\nFinal Answer: $\\boxed{2}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{2}",
+        "ground_truth": "We can approach this problem by picking clever values for $x$.  If $x=-2$ we get  \\[\\frac A{-2-1}+\\frac B{-2+1}=0,\\] so \\[A+3B=0.\\]\n\nIf $x=0$ we get  \\[\\frac A{0-1}+\\frac B{0+1}=\\frac{0+2}{0^2-1},\\] or  \\[-A+B=-2.\\] To solve for $B$ we add these two expressions: \\[4B=-2,\\] so $B=\\boxed{-\\frac12}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn the figure with circle $Q$, angle $KAT$ measures 42 degrees. What is the measure of minor arc $AK$ in degrees? [asy]\nimport olympiad; size(150); defaultpen(linewidth(0.8)); dotfactor=4;\ndraw(unitcircle);\ndraw(dir(84)--(-1,0)--(1,0));\ndot(\"$A$\",(-1,0),W); dot(\"$K$\",dir(84),NNE); dot(\"$T$\",(1,0),E); dot(\"$Q$\",(0,0),S);\n[/asy]",
+        "inference": "Final Answer: \\\\boxed{84^\\circ}. I hope it is correct.",
+        "ground_truth": "Since $\\angle A$ is inscribed in arc $KT$, the measure of arc $KT$ is $2\\angle A = 84^\\circ$.  Since arc $AKT$ is a semicircle, arc $KA$ has measure $180 - 84 = \\boxed{96}$ degrees."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{84^\\circ}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need the context to identify any potential errors and provide a corrected solution. \n",
+        "ground_truth": "Since $\\angle A$ is inscribed in arc $KT$, the measure of arc $KT$ is $2\\angle A = 84^\\circ$.  Since arc $AKT$ is a semicircle, arc $KA$ has measure $180 - 84 = \\boxed{96}$ degrees."
+    }
+]

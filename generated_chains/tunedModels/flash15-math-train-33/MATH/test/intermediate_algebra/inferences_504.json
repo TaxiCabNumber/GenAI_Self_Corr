@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the unique value of $a$ for which the polynomial $x^3 - 12x^2 + ax - 64$ has all real, nonnegative roots.",
+        "inference": "Final Answer: \\\\boxed{192}. I hope it is correct. \n",
+        "ground_truth": "Let the real, nonnegative roots be $u,$ $v,$ $w.$  Then by Vieta's formulas, $u + v + w = 12$ and $uvw = 64.$  By AM-GM,\n\\[\\frac{u + v + w}{3} \\ge \\sqrt[3]{uvw},\\]which becomes $4 \\ge 4.$  This means we have equality in the AM-GM inequality.  The only way this can occur is if $u = v = w,$ which means $u = v = w = 4.$  Hence, the polynomial is $(x - 4)^3 = x^3 - 12x^2 + 48x - 64,$ so $a = \\boxed{48}.$"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{192}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need that information to identify any potential errors and rewrite the solution correctly. \n",
+        "ground_truth": "Let the real, nonnegative roots be $u,$ $v,$ $w.$  Then by Vieta's formulas, $u + v + w = 12$ and $uvw = 64.$  By AM-GM,\n\\[\\frac{u + v + w}{3} \\ge \\sqrt[3]{uvw},\\]which becomes $4 \\ge 4.$  This means we have equality in the AM-GM inequality.  The only way this can occur is if $u = v = w,$ which means $u = v = w = 4.$  Hence, the polynomial is $(x - 4)^3 = x^3 - 12x^2 + 48x - 64,$ so $a = \\boxed{48}.$"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCompute $\\lfloor \\sqrt{n^2 - 10n + 29} \\rfloor$ when $n = 19941994.$",
+        "inference": "$\\lfloor \\sqrt{n^2 - 10n + 29} \\rfloor = \\lfloor \\sqrt{(n-5)^2 + 4} \\rfloor$\n$= \\lfloor \\sqrt{(19941994-5)^2 + 4} \\rfloor$\n$= \\lfloor \\sqrt{(19941989)^2 + 4} \\rfloor$\n$= \\lfloor 19941989 \\rfloor$\n$= \\lfloor 1.9941989 * 10^7 \\rfloor$\n$= \\lfloor 10^7 \\rfloor$\nFinal Answer: $\\boxed{10000000}$. I hope it is correct.",
+        "ground_truth": "Note that\n\\[n^2 - 10n + 29 = (n - 5)^2 + 4 > (n - 5)^2.\\]We also claim that $n^2 - 10n + 29 < (n - 4)^2.$  Expanding, we get\n\\[n^2 - 10n + 29 < n^2 - 8n + 16,\\]which is equivalent to $2n > 13.$  This certainly holds for $n = 19941994.$\n\nHence,\n\\[(n - 5)^2 < n^2 - 10n + 29 < (n - 4)^2,\\]so $n - 5 < \\sqrt{n^2 - 10n + 29} < n - 4,$ which means that\n\\[\\lfloor \\sqrt{n^2 - 10n + 29} \\rfloor = n - 5 = \\boxed{19941989}.\\]"
+    },
+    {
+        "question": "$\\lfloor \\sqrt{n^2 - 10n + 29} \\rfloor = \\lfloor \\sqrt{(n-5)^2 + 4} \\rfloor$\n$= \\lfloor \\sqrt{(19941994-5)^2 + 4} \\rfloor$\n$= \\lfloor \\sqrt{(19941989)^2 + 4} \\rfloor$\n$= \\lfloor 19941989 \\rfloor$\n$= \\lfloor 1.9941989 * 10^7 \\rfloor$\n$= \\lfloor 10^7 \\rfloor$\nFinal Answer: $\\boxed{10000000}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{10000000}$",
+        "ground_truth": "Note that\n\\[n^2 - 10n + 29 = (n - 5)^2 + 4 > (n - 5)^2.\\]We also claim that $n^2 - 10n + 29 < (n - 4)^2.$  Expanding, we get\n\\[n^2 - 10n + 29 < n^2 - 8n + 16,\\]which is equivalent to $2n > 13.$  This certainly holds for $n = 19941994.$\n\nHence,\n\\[(n - 5)^2 < n^2 - 10n + 29 < (n - 4)^2,\\]so $n - 5 < \\sqrt{n^2 - 10n + 29} < n - 4,$ which means that\n\\[\\lfloor \\sqrt{n^2 - 10n + 29} \\rfloor = n - 5 = \\boxed{19941989}.\\]"
+    }
+]

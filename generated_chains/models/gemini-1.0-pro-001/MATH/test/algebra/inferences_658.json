@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf the sum of the squares of nonnegative real numbers $a,b,$ and $c$ is $13$, and $ab + bc + ca = 6$, then what is the sum of $a,b,$ and $c$?",
+        "inference": "$$a^2 + b^2 + c^2 = 13$$\n\n$$(a+b+c)^2 = a^2 + b^2 + c^2 + 2(ab+bc+ca) = 13 + 2(6) = 25$$\n\n$$a+b+c = \\sqrt{25} = 5$$\n\nFinal Answer: \\boxed{5}. I hope it is correct.",
+        "ground_truth": "Since $$(a+b+c)^2 = a^2 + b^2 + c^2 + 2ab + 2bc + 2ca = (13) + 2(6) = 25,$$ it follows that $a+b+c = \\pm 5$. Since $a,b,c \\ge 0$ we find $a+b+c=\\boxed{5}$."
+    },
+    {
+        "question": "$$a^2 + b^2 + c^2 = 13$$\n\n$$(a+b+c)^2 = a^2 + b^2 + c^2 + 2(ab+bc+ca) = 13 + 2(6) = 25$$\n\n$$a+b+c = \\sqrt{25} = 5$$\n\nFinal Answer: \\boxed{5}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{5}$$",
+        "ground_truth": "Since $$(a+b+c)^2 = a^2 + b^2 + c^2 + 2ab + 2bc + 2ca = (13) + 2(6) = 25,$$ it follows that $a+b+c = \\pm 5$. Since $a,b,c \\ge 0$ we find $a+b+c=\\boxed{5}$."
+    }
+]

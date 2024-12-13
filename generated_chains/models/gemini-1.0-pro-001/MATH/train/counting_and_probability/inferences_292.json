@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nI won a trip for four to the Super Bowl.  I can bring three of my friends.  I have 8 friends.  In how many ways can I form my Super Bowl party?",
+        "inference": "First, find the number of ways to choose 3 friends out of 8. This is a combination problem, and the formula for combinations is:\n\nC(n, r) = n! / (n - r)!r!\n\nwhere:\n\nn is the total number of items\nr is the number of items to choose\n! means factorial\n\nIn this case, n = 8 and r = 3, so:\n\nC(8, 3) = 8! / (8 - 3)!3! = 8!/5!3! = 8 x 7 x 6 / 3 x 2 x 1 = 56\n\nSo there are 56 ways to choose 3 friends out of 8.\n\n**Final Answer: $\\boxed{56}$. I hope it is correct.**",
+        "ground_truth": "Order does not matter, so it is a combination. Choosing $3$ out of $8$ is $\\binom{8}{3}=\\boxed{56}.$"
+    },
+    {
+        "question": "First, find the number of ways to choose 3 friends out of 8. This is a combination problem, and the formula for combinations is:\n\nC(n, r) = n! / (n - r)!r!\n\nwhere:\n\nn is the total number of items\nr is the number of items to choose\n! means factorial\n\nIn this case, n = 8 and r = 3, so:\n\nC(8, 3) = 8! / (8 - 3)!3! = 8!/5!3! = 8 x 7 x 6 / 3 x 2 x 1 = 56\n\nSo there are 56 ways to choose 3 friends out of 8.\n\n**Final Answer: $\\boxed{56}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$56$}.",
+        "ground_truth": "Order does not matter, so it is a combination. Choosing $3$ out of $8$ is $\\binom{8}{3}=\\boxed{56}.$"
+    }
+]

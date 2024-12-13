@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBaldur gets water from a well. He gets 5 pails of water every morning and 6 pails of water every afternoon. If each pail contains 5 liters of water, how many liters of water does he get every day?",
+        "inference": "1. Convert the number of pails to liters:\n5 pails * 5 liters/pail = 25 liters\n6 pails * 5 liters/pail = 30 liters\n\n2. Add the number of liters from the morning and afternoon:\n25 liters + 30 liters = 55 liters\n\n3. Multiply the total number of liters by the number of days:\n55 liters * 1 day = 55 liters\n\nI hope it is correct: 55 $liters$",
+        "ground_truth": "Baldur gets 5 x 5 = <<5*5=25>>25 liters of water in the morning.\nHe gets 6 x 5 = <<6*5=30>>30 liters of water in the afternoon.\nTherefore, the total liters of water he gets every day is 30 + 25 = <<30+25=55>>55.\n#### 55"
+    },
+    {
+        "question": "1. Convert the number of pails to liters:\n5 pails * 5 liters/pail = 25 liters\n6 pails * 5 liters/pail = 30 liters\n\n2. Add the number of liters from the morning and afternoon:\n25 liters + 30 liters = 55 liters\n\n3. Multiply the total number of liters by the number of days:\n55 liters * 1 day = 55 liters\n\nI hope it is correct: 55 $liters$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 55",
+        "ground_truth": "Baldur gets 5 x 5 = <<5*5=25>>25 liters of water in the morning.\nHe gets 6 x 5 = <<6*5=30>>30 liters of water in the afternoon.\nTherefore, the total liters of water he gets every day is 30 + 25 = <<30+25=55>>55.\n#### 55"
+    }
+]

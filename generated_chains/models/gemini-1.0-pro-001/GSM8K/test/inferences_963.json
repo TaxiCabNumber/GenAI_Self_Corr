@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAlex, Stan, and Adelwolfe are trying to catch them all, Pokemon that is.  Together they have caught 339 Pokemon.  Alex has caught 5 more than Stan, and Stan has caught 13 less than 4 times as many as Adelwolfe has caught. How many Pokemon has Stan caught?",
+        "inference": "Let x be the number of Pokemon Adelwolfe has caught. Then Stan has caught 4x - 13 Pokemon, and Alex has caught (4x - 13) + 5 = 4x - 8 Pokemon. Together, they have caught x + (4x - 13) + (4x - 8) = 339 Pokemon.\n\n9x - 21 = 339\n9x = 360\nx = 40\n\nTherefore, Stan has caught 4x - 13 = 4(40) - 13 = **147** Pokemon.\n\nI hope it is correct: 147",
+        "ground_truth": "Let x represent the number of Pokemon Adelwolfe caught\nStan: 4x-13\nAlex: 5+(4x-13)=4x-8\nTotal: x+4x-13+4x-8=339\n9x-21=339\n9x=360\nx=<<40=40>>40 Pokemon\nStan:4(40)-13=147 Pokemon\n#### 147"
+    },
+    {
+        "question": "Let x be the number of Pokemon Adelwolfe has caught. Then Stan has caught 4x - 13 Pokemon, and Alex has caught (4x - 13) + 5 = 4x - 8 Pokemon. Together, they have caught x + (4x - 13) + (4x - 8) = 339 Pokemon.\n\n9x - 21 = 339\n9x = 360\nx = 40\n\nTherefore, Stan has caught 4x - 13 = 4(40) - 13 = **147** Pokemon.\n\nI hope it is correct: 147\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 147",
+        "ground_truth": "Let x represent the number of Pokemon Adelwolfe caught\nStan: 4x-13\nAlex: 5+(4x-13)=4x-8\nTotal: x+4x-13+4x-8=339\n9x-21=339\n9x=360\nx=<<40=40>>40 Pokemon\nStan:4(40)-13=147 Pokemon\n#### 147"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nHow many distinct triangles can be constructed by connecting three different vertices of a cube? (Two triangles are distinct if they have different locations in space.)",
+        "inference": "**Solution:**\n\nThe cube has 8 vertices. So, the number of ways to choose 3 vertices out of 8 is $C(8,3) = \\frac{8!}{5!3!} = 56$.\n\nHowever, some of these triangles are congruent, so we need to subtract the number of congruent triangles.\n\nTwo triangles are congruent if they have the same side lengths. There are 4 different side lengths in a cube. So, the number of ways to choose 3 side lengths out of 4 is $C(4,3) = \\frac{4!}{3!1!} = 4$.\n\nTherefore, the number of distinct triangles is $C(8,3) - C(4,3) = 56 - 4 = \\boxed{52}$.\n\n**Final Answer: $\\boxed{52}$. I hope it is correct.**",
+        "ground_truth": "There are eight vertices of a cube, and we choose three of these to form a triangle. Thus, the number of distinct triangles that can be formed is $\\binom{8}{3} = \\frac{8\\cdot7\\cdot6}{3\\cdot2} = \\boxed{56}$."
+    },
+    {
+        "question": "**Solution:**\n\nThe cube has 8 vertices. So, the number of ways to choose 3 vertices out of 8 is $C(8,3) = \\frac{8!}{5!3!} = 56$.\n\nHowever, some of these triangles are congruent, so we need to subtract the number of congruent triangles.\n\nTwo triangles are congruent if they have the same side lengths. There are 4 different side lengths in a cube. So, the number of ways to choose 3 side lengths out of 4 is $C(4,3) = \\frac{4!}{3!1!} = 4$.\n\nTherefore, the number of distinct triangles is $C(8,3) - C(4,3) = 56 - 4 = \\boxed{52}$.\n\n**Final Answer: $\\boxed{52}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{52}",
+        "ground_truth": "There are eight vertices of a cube, and we choose three of these to form a triangle. Thus, the number of distinct triangles that can be formed is $\\binom{8}{3} = \\frac{8\\cdot7\\cdot6}{3\\cdot2} = \\boxed{56}$."
+    }
+]

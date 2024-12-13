@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $m$ and $n$ satisfy $mn=4$ and $m+n=5$. What is $|m-n|$?",
+        "inference": "Since $mn=4$ and $m+n=5$, \n\n$m$ and $n$ are the solutions of the quadratic equation: $x^2-5x+4=0$\n\n$(x-4)(x-1)=0$\n\nTherefore, $m=4$ or $m=1$. If $m=4$, then $n=1$. If $m=1$, then $n=4$. In either case, $|m-n|=|4-1|=\\boxed{3}$. \n\nFinal Answer: $\\boxed{3}$. I hope it is correct.",
+        "ground_truth": "We have two equations and two variables, so it's possible to solve for $m$ and $n$ directly and then calculate $|m-n|$ to get our answer. However, doing so is messy, so we look for an alternative approach. We square the second equation to get $(m+n)^2 = m^2 + 2mn + n^2 = 25$. Since $mn=4$, we can subtract $4mn = 16$ to get $$m^2 -2mn +n^2 = 9\\Longrightarrow (m-n)^2=9$$ This implies that $m-n =\\pm3$, so $|m-n|=\\boxed{3}$."
+    },
+    {
+        "question": "Since $mn=4$ and $m+n=5$, \n\n$m$ and $n$ are the solutions of the quadratic equation: $x^2-5x+4=0$\n\n$(x-4)(x-1)=0$\n\nTherefore, $m=4$ or $m=1$. If $m=4$, then $n=1$. If $m=1$, then $n=4$. In either case, $|m-n|=|4-1|=\\boxed{3}$. \n\nFinal Answer: $\\boxed{3}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{3}",
+        "ground_truth": "We have two equations and two variables, so it's possible to solve for $m$ and $n$ directly and then calculate $|m-n|$ to get our answer. However, doing so is messy, so we look for an alternative approach. We square the second equation to get $(m+n)^2 = m^2 + 2mn + n^2 = 25$. Since $mn=4$, we can subtract $4mn = 16$ to get $$m^2 -2mn +n^2 = 9\\Longrightarrow (m-n)^2=9$$ This implies that $m-n =\\pm3$, so $|m-n|=\\boxed{3}$."
+    }
+]

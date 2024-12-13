@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nPete has to take a 10-minute walk down to the train station and then board a 1hr 20-minute train to LA. When should he leave if he cannot get to LA later than 0900 hours? (24-hr time)",
+        "inference": "1. Convert 0900 hours to military time: 0900 + 12 = 2100 hours\n2. Subtract the train ride time from 2100 hours: 2100 - 120 minutes = 1840 hours\n3. Subtract the walk time from 1840 hours: 1840 - 10 minutes = 1830 hours\nI hope it is correct: 1830 hours",
+        "ground_truth": "There are 60 minutes in an hour so 1 hour 20 minutes = (60+20) minutes = 80 minutes\nHe will spend a total of 80+10 = <<80+10=90>>90 minutes\n90 minutes is = (60/60) hours and 30 minutes = 1 hour 30 minutes = 0130 in 24-hr time\nHe has to leave 0130 hours earlier than 0900 i.e. 0900-0130 = 0730 hours\n#### 730"
+    },
+    {
+        "question": "1. Convert 0900 hours to military time: 0900 + 12 = 2100 hours\n2. Subtract the train ride time from 2100 hours: 2100 - 120 minutes = 1840 hours\n3. Subtract the walk time from 1840 hours: 1840 - 10 minutes = 1830 hours\nI hope it is correct: 1830 hours\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ 1830",
+        "ground_truth": "There are 60 minutes in an hour so 1 hour 20 minutes = (60+20) minutes = 80 minutes\nHe will spend a total of 80+10 = <<80+10=90>>90 minutes\n90 minutes is = (60/60) hours and 30 minutes = 1 hour 30 minutes = 0130 in 24-hr time\nHe has to leave 0130 hours earlier than 0900 i.e. 0900-0130 = 0730 hours\n#### 730"
+    }
+]

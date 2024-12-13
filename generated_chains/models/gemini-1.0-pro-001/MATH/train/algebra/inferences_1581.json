@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nPoint $M(3,7)$ is the midpoint of $\\overline{AB}$. If point $A$ has coordinates $(9,3)$, what is the sum of the coordinates of point $B$?",
+        "inference": "**Step 1:** Find the difference between the coordinates of points $M$ and $A$ to find the vector from $A$ to $M$.\n$$(3,7)-(9,3) = (-6, 4).$$ \n\n**Step 2:** Double the vector from step 1 to find the vector from $A$ to $B$.\n$$2(-6, 4) = (-12, 8).$$ \n\n**Step 3:** Add the vector from step 2 to the coordinates of point $A$ to find the coordinates of point $B$.\n$$(9,3) + (-12, 8) = (-3, 11).$$ \n\n**Final Answer: \\\\boxed{-3 + 11 = 8}. I hope it is correct.**",
+        "ground_truth": "Let point $B$ have coordinates $(x,y)$. We have the equations $(x+9)/2=3$ and $(y+3)/2=7$, or $x=-3$ and $y=11$. Thus, the sum of coordinates of point $B$ is $-3+11=\\boxed{8}$."
+    },
+    {
+        "question": "**Step 1:** Find the difference between the coordinates of points $M$ and $A$ to find the vector from $A$ to $M$.\n$$(3,7)-(9,3) = (-6, 4).$$ \n\n**Step 2:** Double the vector from step 1 to find the vector from $A$ to $B$.\n$$2(-6, 4) = (-12, 8).$$ \n\n**Step 3:** Add the vector from step 2 to the coordinates of point $A$ to find the coordinates of point $B$.\n$$(9,3) + (-12, 8) = (-3, 11).$$ \n\n**Final Answer: \\\\boxed{-3 + 11 = 8}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{8}",
+        "ground_truth": "Let point $B$ have coordinates $(x,y)$. We have the equations $(x+9)/2=3$ and $(y+3)/2=7$, or $x=-3$ and $y=11$. Thus, the sum of coordinates of point $B$ is $-3+11=\\boxed{8}$."
+    }
+]

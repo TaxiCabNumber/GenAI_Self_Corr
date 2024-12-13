@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nAn envelope contains eight bills: 2 ones, 2 fives, 2 tens, and 2 twenties. Two bills are drawn at random without replacement. What is the probability that their sum is $\\$20$ or more?",
+        "inference": "There are $\\binom{8}{2}=28$ ways to draw two bills from the envelope. The favorable outcomes are:\n\n- Draw a ten and a twenty ($\\binom{2}{1}\\binom{2}{1}=4$ ways)\n- Draw two twenties ($\\binom{2}{2}=1$ way)\n\nSo, the probability of drawing two bills with a sum of $20 or more is:\n\n$$P=\\frac{4+1}{28}=\\frac{5}{28}=\\frac{5}{28}.$$\n\nFinal Answer: \\boxed{$\\frac{5}{28}$} I hope it is correct.",
+        "ground_truth": "There are \\[\n\\binom{8}{2} = \\frac{8!}{6!\\cdot 2!} = 28\n\\]ways to choose the bills. A sum of at least $\\$20$ is obtained by choosing  both $\\$20$ bills, one of the  $\\$20$ bills and one of the six smaller bills, or both $\\$10$ bills.   Hence the probability is \\[\n\\frac{ 1 + 2\\cdot 6 + 1}{28}=\\frac{14}{28}=\\boxed{\\frac{1}{2}}.\n\\]"
+    },
+    {
+        "question": "There are $\\binom{8}{2}=28$ ways to draw two bills from the envelope. The favorable outcomes are:\n\n- Draw a ten and a twenty ($\\binom{2}{1}\\binom{2}{1}=4$ ways)\n- Draw two twenties ($\\binom{2}{2}=1$ way)\n\nSo, the probability of drawing two bills with a sum of $20 or more is:\n\n$$P=\\frac{4+1}{28}=\\frac{5}{28}=\\frac{5}{28}.$$\n\nFinal Answer: \\boxed{$\\frac{5}{28}$} I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$\\frac{1}{7}$}",
+        "ground_truth": "There are \\[\n\\binom{8}{2} = \\frac{8!}{6!\\cdot 2!} = 28\n\\]ways to choose the bills. A sum of at least $\\$20$ is obtained by choosing  both $\\$20$ bills, one of the  $\\$20$ bills and one of the six smaller bills, or both $\\$10$ bills.   Hence the probability is \\[\n\\frac{ 1 + 2\\cdot 6 + 1}{28}=\\frac{14}{28}=\\boxed{\\frac{1}{2}}.\n\\]"
+    }
+]

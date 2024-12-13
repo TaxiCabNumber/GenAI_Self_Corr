@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSimplify $182+3\\cdot 7-64\\div 2+27\\div 3$.",
+        "inference": "$182+3\\cdot 7-64\\div 2+27\\div 3$\n$=182+3\\cdot 7-32+27\\div 3$\n$=182+3\\cdot 7-32+9$\n$=182+21-32+9$\n$=203-32+9$\n$=171+9$\n$=180$\nFinal Answer: $\\boxed{180}$. I hope it is correct.",
+        "ground_truth": "We know that we must perform the multiplication and division before we perform the addition and subtraction because of the order of operations.  We get \\begin{align*}182+3\\cdot 7-64\\div 2+27\\div 3&=182+21-32+9.\\end{align*}Now, we write this as the sum of four numbers so that we can use the commutative and associative properties of addition to make the arithmetic easier.  We have \\begin{align*}182+21-32+9&=182+21+(-32)+9 \\\\ &=182+(-32)+21+9 \\\\ &=(182+(-32))+(21+9) \\\\ &=(182-32)+(21+9) \\\\ &=150+30 \\\\ &=\\boxed{180}.\\end{align*}"
+    },
+    {
+        "question": "$182+3\\cdot 7-64\\div 2+27\\div 3$\n$=182+3\\cdot 7-32+27\\div 3$\n$=182+3\\cdot 7-32+9$\n$=182+21-32+9$\n$=203-32+9$\n$=171+9$\n$=180$\nFinal Answer: $\\boxed{180}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$180$}",
+        "ground_truth": "We know that we must perform the multiplication and division before we perform the addition and subtraction because of the order of operations.  We get \\begin{align*}182+3\\cdot 7-64\\div 2+27\\div 3&=182+21-32+9.\\end{align*}Now, we write this as the sum of four numbers so that we can use the commutative and associative properties of addition to make the arithmetic easier.  We have \\begin{align*}182+21-32+9&=182+21+(-32)+9 \\\\ &=182+(-32)+21+9 \\\\ &=(182+(-32))+(21+9) \\\\ &=(182-32)+(21+9) \\\\ &=150+30 \\\\ &=\\boxed{180}.\\end{align*}"
+    }
+]

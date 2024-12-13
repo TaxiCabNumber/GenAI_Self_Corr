@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $a$ be the smallest integer satisfying the inequality $x^2 - 15 < 2x$, and let $b$ be the largest integer satisfying the same inequality. What is $b-a$?",
+        "inference": "**Solution:**\n$$x^2 - 15 < 2x$$\n\n$$x^2 - 2x - 15 < 0$$\n\n$$(x - 5)(x + 3) < 0$$\n\nThe inequality is satisfied when $x < -3$ or $x > 5$.\n\nThe smallest integer satisfying the inequality is $a = -4$.\n\nThe largest integer satisfying the inequality is $b = 6$.\n\nTherefore, $b - a = 6 - (-4) = \\boxed{10}$.\n\n**Final Answer: \\\\boxed{$10$}. I hope it is correct.**",
+        "ground_truth": "Subtracting $2x$ from both sides, it follows that $x^2 - 2x - 15 < 0$. This factors as $x^2 - 2x - 15 = (x-5)(x+3) < 0$, from which it follows (by testing values or inspection) that $-3 < x < 5$. Then $a = -2, b = 4$, and $b-a$ is $4 - (-2) = \\boxed{6}$."
+    },
+    {
+        "question": "**Solution:**\n$$x^2 - 15 < 2x$$\n\n$$x^2 - 2x - 15 < 0$$\n\n$$(x - 5)(x + 3) < 0$$\n\nThe inequality is satisfied when $x < -3$ or $x > 5$.\n\nThe smallest integer satisfying the inequality is $a = -4$.\n\nThe largest integer satisfying the inequality is $b = 6$.\n\nTherefore, $b - a = 6 - (-4) = \\boxed{10}$.\n\n**Final Answer: \\\\boxed{$10$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$10$}",
+        "ground_truth": "Subtracting $2x$ from both sides, it follows that $x^2 - 2x - 15 < 0$. This factors as $x^2 - 2x - 15 = (x-5)(x+3) < 0$, from which it follows (by testing values or inspection) that $-3 < x < 5$. Then $a = -2, b = 4$, and $b-a$ is $4 - (-2) = \\boxed{6}$."
+    }
+]

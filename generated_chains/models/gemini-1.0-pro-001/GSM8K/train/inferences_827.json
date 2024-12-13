@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are six chairs in each row in a church. If there are 20 rows of chairs in the church, and each chair holds five people, calculate the number of people who have to sit in the chairs for the church to be full.",
+        "inference": "1. Multiply the number of rows (20) by the number of chairs in each row (6) to get the total number of chairs: 20 x 6 = 120 chairs.\n\n\n2. Multiply the number of chairs (120) by the number of people that can fit in each chair (5) to get the total number of people that can fit in the chairs: 120 x 5 = 600 people.\n\n\n3. The number of people that have to sit in the chairs for the church to be full is the total number of people that can fit in the chairs: 600 people.\n\n\nI hope it is correct: 600 people",
+        "ground_truth": "If there are six chairs in each row in the church, the total number of chairs in the church is 6*20 = <<6*20=120>>120\nSince each chair holds 5 people, 5*120 = <<5*120=600>>600 people must sit in all of the chairs for the church to be full.\n#### 600"
+    },
+    {
+        "question": "1. Multiply the number of rows (20) by the number of chairs in each row (6) to get the total number of chairs: 20 x 6 = 120 chairs.\n\n\n2. Multiply the number of chairs (120) by the number of people that can fit in each chair (5) to get the total number of people that can fit in the chairs: 120 x 5 = 600 people.\n\n\n3. The number of people that have to sit in the chairs for the church to be full is the total number of people that can fit in the chairs: 600 people.\n\n\nI hope it is correct: 600 people\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$600",
+        "ground_truth": "If there are six chairs in each row in the church, the total number of chairs in the church is 6*20 = <<6*20=120>>120\nSince each chair holds 5 people, 5*120 = <<5*120=600>>600 people must sit in all of the chairs for the church to be full.\n#### 600"
+    }
+]

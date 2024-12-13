@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nVictor works at Clucks Delux, a restaurant specializing in chicken. An order of Chicken Pasta uses 2 pieces of chicken, an order of Barbecue Chicken uses 3 pieces of chicken, and a family-size Fried Chicken Dinner uses 8 pieces of chicken. Tonight, Victor has 2 Fried Chicken Dinner orders, 6 Chicken Pasta orders, and 3 Barbecue Chicken orders. How many pieces of chicken does he need for all the orders?",
+        "inference": "- 2 Fried Chicken Dinner orders * 8 pieces of chicken/order = 16 pieces of chicken\n- 6 Chicken Pasta orders * 2 pieces of chicken/order = 12 pieces of chicken\n- 3 Barbecue Chicken orders * 3 pieces of chicken/order = 9 pieces of chicken\n\nTotal pieces of chicken needed: 16 + 12 + 9 = 37\nI hope it is correct: 37",
+        "ground_truth": "Victor needs 2 * 8 = <<2*8=16>>16 pieces of chicken for Fried Chicken Dinners.\nHe needs 6 * 2 = <<6*2=12>>12 pieces of chicken for Chicken Pasta.\nHe needs 3 * 3 = <<3*3=9>>9 pieces of chicken for Barbecue Chicken orders.\nThus, he needs 16 + 12 + 9 = <<16+12+9=37>>37 pieces of chicken.\n#### 37"
+    },
+    {
+        "question": "- 2 Fried Chicken Dinner orders * 8 pieces of chicken/order = 16 pieces of chicken\n- 6 Chicken Pasta orders * 2 pieces of chicken/order = 12 pieces of chicken\n- 3 Barbecue Chicken orders * 3 pieces of chicken/order = 9 pieces of chicken\n\nTotal pieces of chicken needed: 16 + 12 + 9 = 37\nI hope it is correct: 37\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$37",
+        "ground_truth": "Victor needs 2 * 8 = <<2*8=16>>16 pieces of chicken for Fried Chicken Dinners.\nHe needs 6 * 2 = <<6*2=12>>12 pieces of chicken for Chicken Pasta.\nHe needs 3 * 3 = <<3*3=9>>9 pieces of chicken for Barbecue Chicken orders.\nThus, he needs 16 + 12 + 9 = <<16+12+9=37>>37 pieces of chicken.\n#### 37"
+    }
+]

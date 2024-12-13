@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nExpand the following product: $\\frac{2}{5}\\left(\\frac{5}{x} + 10x^2\\right)$.",
+        "inference": "$$\\frac{2}{5}\\left(\\frac{5}{x} + 10x^2\\right)$$\n\n$$=\\frac{2}{5}\\left(\\frac{5}{x}\\right) + \\frac{2}{5}\\left(10x^2\\right)$$\n\n$$=\\frac{10}{5x} + \\frac{20x^2}{5}$$\n\n$$=\\frac{2}{x} + 4x^2$$\n\n$$=\\boxed{4x^2 + \\frac{2}{x}}.$$\nFinal Answer: $\\boxed{4x^2 + \\frac{2}{x}}.$ I hope it is correct.",
+        "ground_truth": "We apply the distributive property to get:\\begin{align*}\n\\frac{2}{5}\\left(\\frac{5}{x}+10x^2\\right)&= \\frac{2}{5}\\cdot\\frac{5}{x}+\\frac{2}{5}\\cdot 10x^2\\\\\n&= \\boxed{\\frac{2}{x} + 4x^2}.\n\\end{align*}"
+    },
+    {
+        "question": "$$\\frac{2}{5}\\left(\\frac{5}{x} + 10x^2\\right)$$\n\n$$=\\frac{2}{5}\\left(\\frac{5}{x}\\right) + \\frac{2}{5}\\left(10x^2\\right)$$\n\n$$=\\frac{10}{5x} + \\frac{20x^2}{5}$$\n\n$$=\\frac{2}{x} + 4x^2$$\n\n$$=\\boxed{4x^2 + \\frac{2}{x}}.$$\nFinal Answer: $\\boxed{4x^2 + \\frac{2}{x}}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{4x^2 + \\frac{2}{x}}.$$",
+        "ground_truth": "We apply the distributive property to get:\\begin{align*}\n\\frac{2}{5}\\left(\\frac{5}{x}+10x^2\\right)&= \\frac{2}{5}\\cdot\\frac{5}{x}+\\frac{2}{5}\\cdot 10x^2\\\\\n&= \\boxed{\\frac{2}{x} + 4x^2}.\n\\end{align*}"
+    }
+]

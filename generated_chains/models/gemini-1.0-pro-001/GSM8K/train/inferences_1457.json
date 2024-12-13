@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIn a rice field, you can get a total of 20 sacks of rice every harvest. If the yield increases by twenty percent after every harvest, what is the total number of sacks of rice you can get after the first and second harvest?",
+        "inference": "First Harvest: 20 sacks\n\n20% increase means 20/100 * 20 = 4 sacks\n\nSo, after the first harvest: 20 + 4 = 24 sacks\n\nSecond Harvest: 24 sacks\n\n20% increase means 20/100 * 24 = 4.8 sacks\n\nSo, after the second harvest: 24 + 4.8 = **28.8 sacks**\n\nI hope it is correct: 28.8",
+        "ground_truth": "There were 20 x 0.20 = <<20*0.20=4>>4 sacks of rice increase after the first harvest.\nSo the total sack of rice that you can get on the next harvest 20 + 4 = <<20+4=24>>24.\nTherefore the total number of sacks of rice you will get on the first and second harvest is 20 + 24 = <<20+24=44>>44.\n#### 44"
+    },
+    {
+        "question": "First Harvest: 20 sacks\n\n20% increase means 20/100 * 20 = 4 sacks\n\nSo, after the first harvest: 20 + 4 = 24 sacks\n\nSecond Harvest: 24 sacks\n\n20% increase means 20/100 * 24 = 4.8 sacks\n\nSo, after the second harvest: 24 + 4.8 = **28.8 sacks**\n\nI hope it is correct: 28.8\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$28.8",
+        "ground_truth": "There were 20 x 0.20 = <<20*0.20=4>>4 sacks of rice increase after the first harvest.\nSo the total sack of rice that you can get on the next harvest 20 + 4 = <<20+4=24>>24.\nTherefore the total number of sacks of rice you will get on the first and second harvest is 20 + 24 = <<20+24=44>>44.\n#### 44"
+    }
+]

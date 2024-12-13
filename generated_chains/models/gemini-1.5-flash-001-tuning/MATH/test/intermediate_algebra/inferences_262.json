@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe equation $x^3 + 8x^2 - 4x + c = 0$ has three roots, one of which is the sum of the other two. What is $c$?",
+        "inference": "Let the roots be $r$, $s$, and $t$.  Without loss of generality, suppose $r = s + t$.  By Vieta's formulas, $r + s + t = -8$, so $2r = -8$, and $r = -4$.  Also, $rs + rt + st = -4$, so $(-4)s + (-4)t + st = -4$.  Since $s + t = -4$, $st = 12$.  Finally, $rst = -c$, so $(-4)(12) = -c$.  Therefore, $c = 48$.\n\nFinal Answer: $\\boxed{48}$. I hope it is correct. \n",
+        "ground_truth": "Let $r$ be the root which is the sum of the other two. Then $2r$ is the sum of all three roots. But by Vieta's formulas, the sum of the roots of the equation is $-8,$ so we have $2r = -8,$ or $r = -4.$ Thus, $-4$ is a root of the equation, so setting $x=-4,$ we have \\[(-4)^3 + 8(-4)^2 - 4(-4) + c = 0.\\]Solving for $c$ gives $c = \\boxed{-80}.$"
+    },
+    {
+        "question": "Let the roots be $r$, $s$, and $t$.  Without loss of generality, suppose $r = s + t$.  By Vieta's formulas, $r + s + t = -8$, so $2r = -8$, and $r = -4$.  Also, $rs + rt + st = -4$, so $(-4)s + (-4)t + st = -4$.  Since $s + t = -4$, $st = 12$.  Finally, $rst = -c$, so $(-4)(12) = -c$.  Therefore, $c = 48$.\n\nFinal Answer: $\\boxed{48}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Let the roots be $r$, $s$, and $t$.  Without loss of generality, suppose $r = s + t$.  By Vieta's formulas, $r + s + t = -8$, so $2r = -8$, and $r = -4$.  Also, $rs + rt + st = -4$, so $(-4)s + (-4)t + st = -4$.  Since $s + t = -4$, $st = 12$.  Finally, $rst = -c$, so $(-4)(12) = -c$.  Therefore, $c = \\boxed{48}$. I hope it is correct. \n",
+        "ground_truth": "Let $r$ be the root which is the sum of the other two. Then $2r$ is the sum of all three roots. But by Vieta's formulas, the sum of the roots of the equation is $-8,$ so we have $2r = -8,$ or $r = -4.$ Thus, $-4$ is a root of the equation, so setting $x=-4,$ we have \\[(-4)^3 + 8(-4)^2 - 4(-4) + c = 0.\\]Solving for $c$ gives $c = \\boxed{-80}.$"
+    }
+]

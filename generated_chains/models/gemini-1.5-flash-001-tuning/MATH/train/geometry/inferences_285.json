@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nTriangle $ABC$ is an obtuse, isosceles triangle. Angle $A$ measures 20 degrees. What is number of degrees in the measure of the largest interior angle of triangle $ABC$?\n\n[asy]\ndraw((-20,0)--(0,8)--(20,0)--cycle);\nlabel(\"$20^{\\circ}$\",(-13,-0.7),NE);\nlabel(\"$A$\",(-20,0),W);\nlabel(\"$B$\",(0,8),N);\nlabel(\"$C$\",(20,0),E);\n\n[/asy]",
+        "inference": "Solution:\n\nSince the triangle is isosceles, the other two angles are equal. The sum of the interior angles of a triangle is 180 degrees, so the two other angles add up to $180 - 20 = 160$ degrees.  Each of the other angles measures $160/2 = 80$ degrees. The largest interior angle is $\\boxed{80}$ degrees.\n\nFinal Answer: $\\boxed{80}$. I hope it is correct. \n",
+        "ground_truth": "Since $\\triangle ABC$ is isosceles, $\\angle C = 20$ degrees. Thus, $\\angle B = 180 - 20 - 20 = 140$ degrees. So the largest interior angle is $\\boxed{140}$ degrees."
+    },
+    {
+        "question": "Solution:\n\nSince the triangle is isosceles, the other two angles are equal. The sum of the interior angles of a triangle is 180 degrees, so the two other angles add up to $180 - 20 = 160$ degrees.  Each of the other angles measures $160/2 = 80$ degrees. The largest interior angle is $\\boxed{80}$ degrees.\n\nFinal Answer: $\\boxed{80}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{100} I hope it is correct. \n",
+        "ground_truth": "Since $\\triangle ABC$ is isosceles, $\\angle C = 20$ degrees. Thus, $\\angle B = 180 - 20 - 20 = 140$ degrees. So the largest interior angle is $\\boxed{140}$ degrees."
+    }
+]

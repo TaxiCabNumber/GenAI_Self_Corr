@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nJuan takes a number, adds $2$ to it, multiplies the answer by $2$, subtracts $2$ from the result, and finally divides that number by $2$. If his answer is $7$, what was the original number?",
+        "inference": "**Solution:**\nLet $x$ be the original number.\n\\begin{align*}\nx+2&=2y\\qquad(\\text{adds $2$ to the original number})\\\\\n\\Rightarrow\\qquad x+2&=2\\times2z\\qquad(\\text{multiplies the answer by $2$})\\\\\n\\Rightarrow\\qquad x+2&=4w\\qquad(\\text{subtracts $2$ from the result})\\\\\n\\Rightarrow\\qquad\\frac{x+2}{2}&=2u\\qquad(\\text{divides the number by $2$})\\\\\n\\Rightarrow\\qquad\\frac{x+2}{2}&=7\\qquad(\\text{given})\\\\\n\\Rightarrow\\qquad x+2&=14\\\\\n\\Rightarrow\\qquad x&=12\n\\end{align*}\nFinal Answer: $\\boxed{12}$. I hope it is correct.",
+        "ground_truth": "Let $n$ be the original number. Doing Juan's operations in order, we get $(2(n + 2) - 2)/2 = 7$.  So $2(n + 2) - 2 = 14$, from which $2(n + 2) = 16$, from which $n + 2 = 8$, giving $n = \\boxed{6}$."
+    },
+    {
+        "question": "**Solution:**\nLet $x$ be the original number.\n\\begin{align*}\nx+2&=2y\\qquad(\\text{adds $2$ to the original number})\\\\\n\\Rightarrow\\qquad x+2&=2\\times2z\\qquad(\\text{multiplies the answer by $2$})\\\\\n\\Rightarrow\\qquad x+2&=4w\\qquad(\\text{subtracts $2$ from the result})\\\\\n\\Rightarrow\\qquad\\frac{x+2}{2}&=2u\\qquad(\\text{divides the number by $2$})\\\\\n\\Rightarrow\\qquad\\frac{x+2}{2}&=7\\qquad(\\text{given})\\\\\n\\Rightarrow\\qquad x+2&=14\\\\\n\\Rightarrow\\qquad x&=12\n\\end{align*}\nFinal Answer: $\\boxed{12}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{12}",
+        "ground_truth": "Let $n$ be the original number. Doing Juan's operations in order, we get $(2(n + 2) - 2)/2 = 7$.  So $2(n + 2) - 2 = 14$, from which $2(n + 2) = 16$, from which $n + 2 = 8$, giving $n = \\boxed{6}$."
+    }
+]

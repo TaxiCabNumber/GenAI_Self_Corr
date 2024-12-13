@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIt takes 240 minutes of walking to break in a new pair of shoes. Jason wants to try out for the track team in three weeks. If he can walk 4 days a week to break in the new shoes, how long does he have to spend walking each day?",
+        "inference": "1. Convert weeks to days: 3 weeks * 7 days/week = 21 days\n2. Calculate the total minutes needed to walk: 240 minutes/pair of shoes * 2 pairs of shoes = 480 minutes\n3. Determine the number of days available for walking: 21 days - 3 days (for the weekend) = 18 days\n4. Calculate the daily walking time: 480 minutes / 18 days = 26.67 minutes/day\n\nI hope it is correct: 26.67 minutes/day",
+        "ground_truth": "First find how many days Jason has to prepare for the tryouts: 3 weeks * 4 days/week = <<3*4=12>>12 days\nThen divide the time it takes to break the shoes in by the time Jason can spend each day to find how long he needs to walk each day: 240 minutes / 12 days = <<240/12=20>>20 minutes/day\n#### 20"
+    },
+    {
+        "question": "1. Convert weeks to days: 3 weeks * 7 days/week = 21 days\n2. Calculate the total minutes needed to walk: 240 minutes/pair of shoes * 2 pairs of shoes = 480 minutes\n3. Determine the number of days available for walking: 21 days - 3 days (for the weekend) = 18 days\n4. Calculate the daily walking time: 480 minutes / 18 days = 26.67 minutes/day\n\nI hope it is correct: 26.67 minutes/day\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 26.66",
+        "ground_truth": "First find how many days Jason has to prepare for the tryouts: 3 weeks * 4 days/week = <<3*4=12>>12 days\nThen divide the time it takes to break the shoes in by the time Jason can spend each day to find how long he needs to walk each day: 240 minutes / 12 days = <<240/12=20>>20 minutes/day\n#### 20"
+    }
+]

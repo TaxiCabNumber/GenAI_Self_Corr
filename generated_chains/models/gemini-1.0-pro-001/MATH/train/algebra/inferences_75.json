@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the sum of the values of $x$ that satisfy the equation $x^2-5x+5=9$?",
+        "inference": "**Solution:**\n$$\\begin{align*}\nx^2-5x+5&=9\\\\\nx^2-5x-4&=0\\\\\n(x-4)(x-1)&=0\\\\\nx&=4,1\\\\\n\\text{Sum}&=4+1\\\\\n&=\\boxed{5}.\n\\end{align*}$$\n**Final Answer: $5$. I hope it is correct.**",
+        "ground_truth": "Subtracting 9 from both sides of the equation, we have $x^2 - 5x - 4 = 0$.  The sum of the roots of this quadratic is negative its linear coefficient, which is $\\boxed{5}$.\n\n(The above is true because if a quadratic has roots $r$ and $s$, we have $(x-r)(x-s) = x^2 - (r+s)+rs = 0$.)"
+    },
+    {
+        "question": "**Solution:**\n$$\\begin{align*}\nx^2-5x+5&=9\\\\\nx^2-5x-4&=0\\\\\n(x-4)(x-1)&=0\\\\\nx&=4,1\\\\\n\\text{Sum}&=4+1\\\\\n&=\\boxed{5}.\n\\end{align*}$$\n**Final Answer: $5$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{5}$$",
+        "ground_truth": "Subtracting 9 from both sides of the equation, we have $x^2 - 5x - 4 = 0$.  The sum of the roots of this quadratic is negative its linear coefficient, which is $\\boxed{5}$.\n\n(The above is true because if a quadratic has roots $r$ and $s$, we have $(x-r)(x-s) = x^2 - (r+s)+rs = 0$.)"
+    }
+]

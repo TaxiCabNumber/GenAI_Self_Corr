@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIsabelle gets a job so she can save enough money to go to a concert with her two brothers. Her ticket costs $20. Her brothers both get the children\u2019s discount, and each of their tickets cost $10. Her brothers have saved $5 between the two of them and Isabelle has saved $5. If her job pays $3 per week, how many weeks must she work to afford the tickets?",
+        "inference": "Isabelle needs $20 + $10 + $10 = $40.\nShe and her brothers have a total of $5 + $5 = $10 .\nSo Isabelle needs $40 - $10 = $30.\nAt $3 per week, she needs to work $30/$3 = 10 weeks.\nI hope it is correct: 10",
+        "ground_truth": "The tickets for both of her brothers will cost her $10 * 2 = $<<10*2=20>>20.\nTo buy tickets for all of them, it will cost Isabelle $20 + $20 = $<<20+20=40>>40.\nBetween all of them, they have saved a total of $5 + $5 = $<<5+5=10>>10.\nSince they have already saved $10, she needs to earn an additional $40 - $10 = $<<30=30>>30 to afford the tickets.\nSince she makes $3 per week, it will take her $30 / ($3/week) = <<30/(3)=10>>10 weeks to save enough money for all of the tickets.\n#### 10"
+    },
+    {
+        "question": "Isabelle needs $20 + $10 + $10 = $40.\nShe and her brothers have a total of $5 + $5 = $10 .\nSo Isabelle needs $40 - $10 = $30.\nAt $3 per week, she needs to work $30/$3 = 10 weeks.\nI hope it is correct: 10\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$10",
+        "ground_truth": "The tickets for both of her brothers will cost her $10 * 2 = $<<10*2=20>>20.\nTo buy tickets for all of them, it will cost Isabelle $20 + $20 = $<<20+20=40>>40.\nBetween all of them, they have saved a total of $5 + $5 = $<<5+5=10>>10.\nSince they have already saved $10, she needs to earn an additional $40 - $10 = $<<30=30>>30 to afford the tickets.\nSince she makes $3 per week, it will take her $30 / ($3/week) = <<30/(3)=10>>10 weeks to save enough money for all of the tickets.\n#### 10"
+    }
+]

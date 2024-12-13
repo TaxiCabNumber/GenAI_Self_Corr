@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nGrandpa loves to eat jelly beans, but how many jelly beans he can eat depends on the size of the beans.  It takes 75 large jelly beans to fill Grandpa up. He can eat twice as many medium-sized beans as large beans.  And eating 3 small beans is the same as eating 1 medium-sized bean.  How many small beans can Grandpa eat?",
+        "inference": "1. Large beans - 75 beans \n2. Medium beans - 2 x 75 = 150 beans \n3. Small beans - 150 x 3 = 450 beans \nI hope it is correct: 450",
+        "ground_truth": "If Grandpa can eat twice as many medium beans as large beans, then eating 75 large beans is the same as eating 75*2=<<75*2=150>>150 medium-sized jelly beans.\nIf 1 medium-sized bean is the same as 3 small beans, then 150 medium-sized beans are equal to 150*3=<<150*3=450>>450 small jelly beans.\n#### 450"
+    },
+    {
+        "question": "1. Large beans - 75 beans \n2. Medium beans - 2 x 75 = 150 beans \n3. Small beans - 150 x 3 = 450 beans \nI hope it is correct: 450\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 450",
+        "ground_truth": "If Grandpa can eat twice as many medium beans as large beans, then eating 75 large beans is the same as eating 75*2=<<75*2=150>>150 medium-sized jelly beans.\nIf 1 medium-sized bean is the same as 3 small beans, then 150 medium-sized beans are equal to 150*3=<<150*3=450>>450 small jelly beans.\n#### 450"
+    }
+]

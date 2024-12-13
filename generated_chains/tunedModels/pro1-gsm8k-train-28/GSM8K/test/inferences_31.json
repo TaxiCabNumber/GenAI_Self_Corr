@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nGunter is trying to count the jelly beans in a jar. He asks his friends how many they think are in the jar. One says 80. Another says 20 more than half the first one. A third says 25% more than the first one. What is their average guess?",
+        "inference": "1. First, we need to find the second friend's guess. 20 more than half of 80 is 20 + 40 = 60.\n2. Next, we need to find the third friend's guess. 25% more than 80 is 0.25 * 80 = 20.\n3. Now, we can find the average of the three guesses. (80 + 60 + 100) / 3 = 240 / 3 = 80.\nI hope it is correct: 80",
+        "ground_truth": "The second person guessed 60 because 20 + (80/2)= <<20+(80/2)=60>>60\nThe second guessed 100 because 80 x 1.25 = <<80*1.25=100>>100\nThe total amount guessed is 240 because 80 + 60 + 100 = <<80+60+100=240>>240\nThe average amount guessed is 80 because 240 / 3 = <<240/3=80>>80\n#### 80"
+    },
+    {
+        "question": "1. First, we need to find the second friend's guess. 20 more than half of 80 is 20 + 40 = 60.\n2. Next, we need to find the third friend's guess. 25% more than 80 is 0.25 * 80 = 20.\n3. Now, we can find the average of the three guesses. (80 + 60 + 100) / 3 = 240 / 3 = 80.\nI hope it is correct: 80\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 80",
+        "ground_truth": "The second person guessed 60 because 20 + (80/2)= <<20+(80/2)=60>>60\nThe second guessed 100 because 80 x 1.25 = <<80*1.25=100>>100\nThe total amount guessed is 240 because 80 + 60 + 100 = <<80+60+100=240>>240\nThe average amount guessed is 80 because 240 / 3 = <<240/3=80>>80\n#### 80"
+    }
+]

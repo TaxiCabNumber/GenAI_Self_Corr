@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe cell-phone recharges at the rate of 1 percentage-point of charge per 3 minutes. Now, the phone is at 60% charged. How long will it take to fully charge, in hours?",
+        "inference": "1. 100% - 60% = 40% remaining to be charged\n2. 40% / 1% = 40 minutes remaining to be charged\n3. 40 minutes / 60 minutes = 2/3 hours remaining to be charged\nI hope it is correct: 2/3 $hours$",
+        "ground_truth": "100-60=<<100-60=40>>40 percentage points.\nThen 40*3=<<40*3=120>>120 minutes to fully charge.\nAnd 120/60=<<120/60=2>>2 hours.\n#### 2"
+    },
+    {
+        "question": "1. 100% - 60% = 40% remaining to be charged\n2. 40% / 1% = 40 minutes remaining to be charged\n3. 40 minutes / 60 minutes = 2/3 hours remaining to be charged\nI hope it is correct: 2/3 $hours$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 2/3",
+        "ground_truth": "100-60=<<100-60=40>>40 percentage points.\nThen 40*3=<<40*3=120>>120 minutes to fully charge.\nAnd 120/60=<<120/60=2>>2 hours.\n#### 2"
+    }
+]

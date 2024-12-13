@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMr. Robles buys 315 bananas, which is enough to feed his three monkeys for a week. One monkey eats 10 bananas each day. The second monkey eats 4 more bananas than the first monkey and the third monkey eats the rest of the bananas for the day.  How many bananas does the third monkey eat each day?",
+        "inference": "The first monkey eats 10 bananas each day.\nThe second monkey eats 4 more than the first monkey, so 10 + 4 = 14 bananas each day.\nThe third monkey eats the rest of the bananas for the day, so 315 - (10 x 7) - (14 x 7) = 245 bananas per week.\nDivide 245 by 7 to get the number of bananas eaten by the third monkey each day: 245 / 7 = 35 bananas.\nI hope it is correct: 35",
+        "ground_truth": "Each day, the three monkeys eat a total of 315/7 = <<315/7=45>>45 bananas.\nThe second monkey eats 10 + 4 = <<10+4=14>>14 bananas a day.\nSo the first and the second monkey eat a total of 10 + 14 = <<10+14=24>>24 bananas each day.\nHence, the third monkey eats 45 - 24 = <<45-24=21>>21 bananas each day.\n#### 21"
+    },
+    {
+        "question": "The first monkey eats 10 bananas each day.\nThe second monkey eats 4 more than the first monkey, so 10 + 4 = 14 bananas each day.\nThe third monkey eats the rest of the bananas for the day, so 315 - (10 x 7) - (14 x 7) = 245 bananas per week.\nDivide 245 by 7 to get the number of bananas eaten by the third monkey each day: 245 / 7 = 35 bananas.\nI hope it is correct: 35\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 35",
+        "ground_truth": "Each day, the three monkeys eat a total of 315/7 = <<315/7=45>>45 bananas.\nThe second monkey eats 10 + 4 = <<10+4=14>>14 bananas a day.\nSo the first and the second monkey eat a total of 10 + 14 = <<10+14=24>>24 bananas each day.\nHence, the third monkey eats 45 - 24 = <<45-24=21>>21 bananas each day.\n#### 21"
+    }
+]

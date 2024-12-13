@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWe are given that $$54+(98\\div14)+(23\\cdot 17)-200-(312\\div 6)=200.$$Now, let's remove the parentheses:  $$54+98\\div14+23\\cdot 17-200-312\\div 6.$$What does this expression equal?",
+        "inference": "Final Answer: $\\boxed{12}$. I hope it is correct. \n",
+        "ground_truth": "Notice how the parentheses are only around pairs of numbers that are being multiplied or divided. Since multiplication and division are performed before addition and subtraction, it doesn't matter if we remove the parentheses. That's why  \\begin{align*}\n&54+(98\\div14)+(23\\cdot 17)-200-(312\\div 6)\\\\\n&=54+98\\div14+23\\cdot17-200-312\\div 6\\\\\n&=\\boxed{200}.\\end{align*}"
+    },
+    {
+        "question": "Final Answer: $\\boxed{12}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need that information to identify any errors and provide a corrected solution. \n",
+        "ground_truth": "Notice how the parentheses are only around pairs of numbers that are being multiplied or divided. Since multiplication and division are performed before addition and subtraction, it doesn't matter if we remove the parentheses. That's why  \\begin{align*}\n&54+(98\\div14)+(23\\cdot 17)-200-(312\\div 6)\\\\\n&=54+98\\div14+23\\cdot17-200-312\\div 6\\\\\n&=\\boxed{200}.\\end{align*}"
+    }
+]

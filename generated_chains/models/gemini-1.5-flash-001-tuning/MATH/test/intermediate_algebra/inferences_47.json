@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFor how many positive integers $m,$ $1 \\le m \\le 1000,$ does there exist at least one positive integer $n$ such that $m \\cdot n \\le m + n$?",
+        "inference": "We can rewrite the inequality $m \\cdot n \\le m + n$ as $mn - m - n \\le 0.$  Adding 1 to both sides, we get\n\\[mn - m - n + 1 \\le 1,\\]which factors as $(m - 1)(n - 1) \\le 1.$  Since $m$ and $n$ are positive integers, $m - 1$ and $n - 1$ are nonnegative integers.  Thus, either $m - 1 = 0$ or $n - 1 = 0.$  This means either $m = 1$ or $n = 1.$\n\nIf $m = 1,$ then any positive integer $n$ works.  If $n = 1,$ then any positive integer $m$ works.  Therefore, there are $\\boxed{1000}$ possible values of $m.$\n",
+        "ground_truth": "If we set $n = 1,$ then the given inequality becomes $m \\le m + 1,$ which is satisfied by any integer $m.$  Thus, the answer is $\\boxed{1000}.$"
+    },
+    {
+        "question": "We can rewrite the inequality $m \\cdot n \\le m + n$ as $mn - m - n \\le 0.$  Adding 1 to both sides, we get\n\\[mn - m - n + 1 \\le 1,\\]which factors as $(m - 1)(n - 1) \\le 1.$  Since $m$ and $n$ are positive integers, $m - 1$ and $n - 1$ are nonnegative integers.  Thus, either $m - 1 = 0$ or $n - 1 = 0.$  This means either $m = 1$ or $n = 1.$\n\nIf $m = 1,$ then any positive integer $n$ works.  If $n = 1,$ then any positive integer $m$ works.  Therefore, there are $\\boxed{1000}$ possible values of $m.$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct.  There are 1000 possible values of $m$.  \n\\\\boxed{1000} \n",
+        "ground_truth": "If we set $n = 1,$ then the given inequality becomes $m \\le m + 1,$ which is satisfied by any integer $m.$  Thus, the answer is $\\boxed{1000}.$"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJames decides to buy birthday candles for his 2 sons.  One of them is 12 and the other is 4 years younger.  A pack of 5 candles costs $3.  How much does James spend on candles?",
+        "inference": "- 12 - 4 = 8 ( years of the younger son )\n- 3 x 2 = 6 (packs of candles)\n- 6 x $3 = $18 \n\n**I hope it is correct: $18**",
+        "ground_truth": "His younger son is 12-4=<<12-4=8>>8 years old\nSo he needs 12+8=<<12+8=20>>20 candles\nThat means he needs 20/5=<<20/5=4>>4 packs of candles\nThe total cost of those is 4*3=$<<4*3=12>>12\n#### 12"
+    },
+    {
+        "question": "- 12 - 4 = 8 ( years of the younger son )\n- 3 x 2 = 6 (packs of candles)\n- 6 x $3 = $18 \n\n**I hope it is correct: $18**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $18",
+        "ground_truth": "His younger son is 12-4=<<12-4=8>>8 years old\nSo he needs 12+8=<<12+8=20>>20 candles\nThat means he needs 20/5=<<20/5=4>>4 packs of candles\nThe total cost of those is 4*3=$<<4*3=12>>12\n#### 12"
+    }
+]

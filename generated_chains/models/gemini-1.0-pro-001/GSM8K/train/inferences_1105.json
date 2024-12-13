@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nGina had $400. She gave 1/4 of her money to her mom,  used 1/8  of her money to buy clothes,  gave 1/5 of her money to a charity,  and kept the remaining money. How much did Gina keep?",
+        "inference": "1. $400 \\times \\frac{1}{4}= 100$   Gina gave $100 to her mom.\n\n2. $400 \\times \\frac{1}{8}= 50$   Gina used $50 to buy clothes.\n\n3. $400 \\times \\frac{1}{5}= 80$   Gina gave $80 to a charity.\n\n4. $400 \\times (1-\\frac{1}{4}-\\frac{1}{8}-\\frac{1}{5})=170$   Gina kept $170.\n\nI hope it is correct: $170",
+        "ground_truth": "Gina's mom received 1/4 x $400 = $<<1/4*400=100>>100.\nShe used 1/8 x $400 = $<<1/8*400=50>>50 to buy clothes.\nShe gave 1/5 x $400 = $<<1/5*400=80>>80 to a charity.\nThus, she spent a total of $100 + $50 + $80 = $<<100+50+80=230>>230.\nTherefore, Gina kept $400 - $230 = $<<400-230=170>>170.\n#### 170"
+    },
+    {
+        "question": "1. $400 \\times \\frac{1}{4}= 100$   Gina gave $100 to her mom.\n\n2. $400 \\times \\frac{1}{8}= 50$   Gina used $50 to buy clothes.\n\n3. $400 \\times \\frac{1}{5}= 80$   Gina gave $80 to a charity.\n\n4. $400 \\times (1-\\frac{1}{4}-\\frac{1}{8}-\\frac{1}{5})=170$   Gina kept $170.\n\nI hope it is correct: $170\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$170",
+        "ground_truth": "Gina's mom received 1/4 x $400 = $<<1/4*400=100>>100.\nShe used 1/8 x $400 = $<<1/8*400=50>>50 to buy clothes.\nShe gave 1/5 x $400 = $<<1/5*400=80>>80 to a charity.\nThus, she spent a total of $100 + $50 + $80 = $<<100+50+80=230>>230.\nTherefore, Gina kept $400 - $230 = $<<400-230=170>>170.\n#### 170"
+    }
+]

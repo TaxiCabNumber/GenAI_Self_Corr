@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBrandon has a collection of 20 baseball cards.  Malcom has 8 more cards than Brandon.  However, then Malcom gives half of his cards to his friend Mark.  How many cards does Malcom have left?",
+        "inference": "1. Brandon has 20 baseball cards.\n2. Malcom has 8 more cards than Brandon, so Malcom has 20 + 8 = 28 baseball cards.\n3. Malcom gives half of his cards to his friend Mark, so Malcom has 28 / 2 = 14 baseball cards left.\nI hope it is correct: 14",
+        "ground_truth": "Malcom has 20 cards + 8 cards = <<20+8=28>>28 cards.\nMalcom gives away 1/2 * 28 cards = <<1/2*28=14>>14 cards to Mark.\nMalcom has 28-14 cards = <<28-14=14>>14 cards remaining.\n#### 14"
+    },
+    {
+        "question": "1. Brandon has 20 baseball cards.\n2. Malcom has 8 more cards than Brandon, so Malcom has 20 + 8 = 28 baseball cards.\n3. Malcom gives half of his cards to his friend Mark, so Malcom has 28 / 2 = 14 baseball cards left.\nI hope it is correct: 14\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 14",
+        "ground_truth": "Malcom has 20 cards + 8 cards = <<20+8=28>>28 cards.\nMalcom gives away 1/2 * 28 cards = <<1/2*28=14>>14 cards to Mark.\nMalcom has 28-14 cards = <<28-14=14>>14 cards remaining.\n#### 14"
+    }
+]

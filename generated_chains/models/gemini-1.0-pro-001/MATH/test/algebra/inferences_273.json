@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet  \\[ f(x) =\n\\begin{cases}\n-\\sqrt[3]x & \\text{if } x \\geq 0,\\\\\nx^2& \\text{if } x <0.\n\\end{cases}\n\\]Compute $f(f(f(f(512)))).$",
+        "inference": "We have\n$$f(512)=-\\sqrt[3]{512}=-8$$\n\n$$f(f(512))=f(-8)=(-8)^2=64$$\n\n$$f(f(f(512)))=f(64)=-\\sqrt[3]{64}=-4$$\n\n$$f(f(f(f(512))))=f(-4)=(-4)^2=16$$\n\nFinal Answer: $\\boxed{16}.$ I hope it is correct.",
+        "ground_truth": "\\begin{align*}\nf(f(f(f(512))))\n&=f(f(f(-8)))\\\\\n&=f(f(64))\\\\\n&=f(-4)\\\\\n&=\\boxed{16}.\n\\end{align*}"
+    },
+    {
+        "question": "We have\n$$f(512)=-\\sqrt[3]{512}=-8$$\n\n$$f(f(512))=f(-8)=(-8)^2=64$$\n\n$$f(f(f(512)))=f(64)=-\\sqrt[3]{64}=-4$$\n\n$$f(f(f(f(512))))=f(-4)=(-4)^2=16$$\n\nFinal Answer: $\\boxed{16}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Final Answer: $\\boxed{16}.$",
+        "ground_truth": "\\begin{align*}\nf(f(f(f(512))))\n&=f(f(f(-8)))\\\\\n&=f(f(64))\\\\\n&=f(-4)\\\\\n&=\\boxed{16}.\n\\end{align*}"
+    }
+]

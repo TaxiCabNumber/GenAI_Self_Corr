@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSuppose $\\cos V = \\frac{2}{3}$ in the diagram below.  What is $TV$?\n\n\n\n[asy]\npair T,U,V;\nV = (0,0);\nT = (0,16);\nU = (17.89,16);\ndraw(V--T--U--V);\ndraw(rightanglemark(V,T,U,23));\nlabel(\"$V$\",V,SW);\nlabel(\"$U$\",U,NE);\nlabel(\"$T$\",T,NW);\nlabel(\"$24$\",(U-V)/2,SE);\n[/asy]",
+        "inference": "Using the Pythagorean Theorem, we can find $TV$:\n\n$$TU^2 = TV^2 + UV^2$$\n\nSince $TU = 24$, $UV = 16$, and $TV$ is what we want to find, we can substitute these values into the equation:\n\n$$24^2 = TV^2 + 16^2$$\n\n$$576 = TV^2 + 256$$\n\n$$TV^2 = 320$$\n\n$$TV = \\sqrt{320}$$\n\n$$\\boxed{TV = 16\\sqrt{5}. \\text{ Final Answer: } \\boxed{16\\sqrt{5}}}$$",
+        "ground_truth": "Since $\\cos V = \\frac{2}{3}$ and $\\cos V = \\frac{TV}{UV}=\\frac{TV}{24}$, we have $\\frac{TV}{24} = \\frac{2}{3}$, so $TV = \\frac{2}{3} \\cdot 24 = \\boxed{16}$."
+    },
+    {
+        "question": "Using the Pythagorean Theorem, we can find $TV$:\n\n$$TU^2 = TV^2 + UV^2$$\n\nSince $TU = 24$, $UV = 16$, and $TV$ is what we want to find, we can substitute these values into the equation:\n\n$$24^2 = TV^2 + 16^2$$\n\n$$576 = TV^2 + 256$$\n\n$$TV^2 = 320$$\n\n$$TV = \\sqrt{320}$$\n\n$$\\boxed{TV = 16\\sqrt{5}. \\text{ Final Answer: } \\boxed{16\\sqrt{5}}}$$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{ 16\\sqrt{5} }$$",
+        "ground_truth": "Since $\\cos V = \\frac{2}{3}$ and $\\cos V = \\frac{TV}{UV}=\\frac{TV}{24}$, we have $\\frac{TV}{24} = \\frac{2}{3}$, so $TV = \\frac{2}{3} \\cdot 24 = \\boxed{16}$."
+    }
+]

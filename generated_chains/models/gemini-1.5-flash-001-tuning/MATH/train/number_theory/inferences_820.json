@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind $2^{-1} \\pmod{185}$, as a residue modulo 185.  (Give an answer between 0 and 184, inclusive.)",
+        "inference": "We seek an integer $x$ such that $2x \\equiv 1 \\pmod{185}$.  We can use the Extended Euclidean Algorithm to find such an $x$.  We have  \\[185 = 92 \\cdot 2 + 1.\\]Then $1 = 185 - 92 \\cdot 2$, so $2^{-1} \\equiv \\boxed{92} \\pmod{185}$.  Final Answer: $\\boxed{92}$. I hope it is correct. \n",
+        "ground_truth": "Since $2 \\cdot 93 \\equiv 186 \\equiv 1 \\pmod{185}$, $2^{-1} \\equiv \\boxed{93} \\pmod{185}$."
+    },
+    {
+        "question": "We seek an integer $x$ such that $2x \\equiv 1 \\pmod{185}$.  We can use the Extended Euclidean Algorithm to find such an $x$.  We have  \\[185 = 92 \\cdot 2 + 1.\\]Then $1 = 185 - 92 \\cdot 2$, so $2^{-1} \\equiv \\boxed{92} \\pmod{185}$.  Final Answer: $\\boxed{92}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{92}$ \n",
+        "ground_truth": "Since $2 \\cdot 93 \\equiv 186 \\equiv 1 \\pmod{185}$, $2^{-1} \\equiv \\boxed{93} \\pmod{185}$."
+    }
+]

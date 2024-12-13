@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nOhm's law states that $V=IR$ for a simple circuit, where $V$ is the total voltage, $I$ is the amount of current running through the resistor and $R$ is the resistance of the resistor. If $I=40$ amperes when $R=3$ ohms, find the amount of current (in amperes) when the resistor has a resistance of $20$ ohms. Assume voltage remains constant.",
+        "inference": "Apply Ohm's law:\n\n$$V=IR$$\n\nDivide both sides by $R$:\n\n$$I=\\frac{V}{R}$$\n\nSince $V$ is assumed to be constant, we can write:\n\n$$I=\\frac{k}{R} \\quad \\text{ for some constant } k.$$\n\nSubstituting $I=40$ amperes and $R=3$ ohms, we get:\n\n$$40=\\frac{k}{3}\\Rightarrow k=120.$$\n\nTherefore,\n\n$$I=\\frac{120}{R}.$$\n\nWhen $R=20$ ohms, we have:\n\n$$I=\\frac{120}{20}=\\boxed{6}.$$\n\n**Final Answer: \\(\\boxed{6}\\). I hope it is correct.**",
+        "ground_truth": "If $V=IR$ for a constant voltage $V$, then the total voltage of the circuit can be expressed as $V=(40)(3)=120$. Thus, when the resistance $R$ is $20$ ohms, the equation becomes: \\begin{align*} 120& =(I)(20)\n\\\\\\Rightarrow\\qquad I& =\\frac{120}{20}\n\\\\ I& =\\boxed{6}\n\\end{align*}"
+    },
+    {
+        "question": "Apply Ohm's law:\n\n$$V=IR$$\n\nDivide both sides by $R$:\n\n$$I=\\frac{V}{R}$$\n\nSince $V$ is assumed to be constant, we can write:\n\n$$I=\\frac{k}{R} \\quad \\text{ for some constant } k.$$\n\nSubstituting $I=40$ amperes and $R=3$ ohms, we get:\n\n$$40=\\frac{k}{3}\\Rightarrow k=120.$$\n\nTherefore,\n\n$$I=\\frac{120}{R}.$$\n\nWhen $R=20$ ohms, we have:\n\n$$I=\\frac{120}{20}=\\boxed{6}.$$\n\n**Final Answer: \\(\\boxed{6}\\). I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{6}",
+        "ground_truth": "If $V=IR$ for a constant voltage $V$, then the total voltage of the circuit can be expressed as $V=(40)(3)=120$. Thus, when the resistance $R$ is $20$ ohms, the equation becomes: \\begin{align*} 120& =(I)(20)\n\\\\\\Rightarrow\\qquad I& =\\frac{120}{20}\n\\\\ I& =\\boxed{6}\n\\end{align*}"
+    }
+]

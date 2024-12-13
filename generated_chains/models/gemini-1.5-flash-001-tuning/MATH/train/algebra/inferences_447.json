@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind $a+b+c$ if the graph of the equation $y=ax^2+bx+c$ is a parabola with vertex $(5,3)$, vertical axis of symmetry, and contains the point $(2,0)$.",
+        "inference": "Final Answer: \\\\boxed{28}. I hope it is correct. \n",
+        "ground_truth": "Since the axis of symmetry is vertical and the vertex is $(5,3)$, the parabola may also be written as  \\[y=a(x-5)^2+3\\]for some value of $a$.  Plugging the point $(2,0)$ into this equation gives  \\[0=a(2-5)^2+3=9a+3.\\]This tells us $a=-\\frac13$.\n\nOur equation is  \\[y=-\\frac13(x-5)^2+3.\\]Putting it $y=ax^2+bx+c$ form requires expanding the square, so we get  \\[y=-\\frac13(x^2-10x+25)+3={-\\frac13 x^2+\\frac{10}{3}x-\\frac{16}3}.\\]Therefore, $a+b+c = \\boxed{-\\frac73}$."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{28}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to so I can check for errors and provide the correct final answer. \n",
+        "ground_truth": "Since the axis of symmetry is vertical and the vertex is $(5,3)$, the parabola may also be written as  \\[y=a(x-5)^2+3\\]for some value of $a$.  Plugging the point $(2,0)$ into this equation gives  \\[0=a(2-5)^2+3=9a+3.\\]This tells us $a=-\\frac13$.\n\nOur equation is  \\[y=-\\frac13(x-5)^2+3.\\]Putting it $y=ax^2+bx+c$ form requires expanding the square, so we get  \\[y=-\\frac13(x^2-10x+25)+3={-\\frac13 x^2+\\frac{10}{3}x-\\frac{16}3}.\\]Therefore, $a+b+c = \\boxed{-\\frac73}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRoger rode his bike for 2 miles this morning, and then 5 times that amount in the evening.  How many miles did Roger ride his bike for?",
+        "inference": "1. Roger rode his bike for 2 miles in the morning.\n2. He rode 5 times that amount in the evening, so he rode 5 * 2 = 10 miles in the evening.\n3. He rode a total of 2 + 10 = 12 miles.\nI hope it is correct: 12",
+        "ground_truth": "Roger rode for 2 miles in the morning, and then 5 times that in the evening for 5*2=10 miles ridden in the evening\nIn total, that means Roger rode 2+10=<<2+10=12>>12 miles over the course of the day.\n#### 12"
+    },
+    {
+        "question": "1. Roger rode his bike for 2 miles in the morning.\n2. He rode 5 times that amount in the evening, so he rode 5 * 2 = 10 miles in the evening.\n3. He rode a total of 2 + 10 = 12 miles.\nI hope it is correct: 12\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$12",
+        "ground_truth": "Roger rode for 2 miles in the morning, and then 5 times that in the evening for 5*2=10 miles ridden in the evening\nIn total, that means Roger rode 2+10=<<2+10=12>>12 miles over the course of the day.\n#### 12"
+    }
+]

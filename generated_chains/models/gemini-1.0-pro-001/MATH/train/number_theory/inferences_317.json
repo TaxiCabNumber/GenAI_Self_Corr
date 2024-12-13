@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nHow many distinct digits can appear as the units digit of an integral perfect-square number?",
+        "inference": "**Solution:**\n\n- Square numbers ending with $0$ or $5$: Example: $100 = 10^2, 125 = 15^2$.\n- Square numbers ending with $1$ or $9$: Example: $121 = 11^2, 169 = 13^2$.\n- Square numbers ending with $2$ or $8$: Example: $144 = 12^2, 169 = 13^2$.\n- Square numbers ending with $3$ or $7$: Example: $169 = 13^2, 289 = 17^2$.\n- Square numbers ending with $4$ or $6$: Example: $196 = 14^2, 216 = 16^2$.\n\nTherefore, there are $5$ distinct digits can appear as the units digit of an integral perfect-square number.\n\n**Final Answer: $\\boxed{5}$. I hope it is correct.**",
+        "ground_truth": "Let $d$ be the last digit of a number $n$.  Then $n^2 \\equiv d^2 \\pmod{10}$, so the units digit of $n^2$ is the same as the units digit of $d^2$.  Checking all the digits from 0 to 9, we find that the possible units digits of $d^2$ are 0, 1, 4, 5, 6, and 9, for a total of $\\boxed{6}$."
+    },
+    {
+        "question": "**Solution:**\n\n- Square numbers ending with $0$ or $5$: Example: $100 = 10^2, 125 = 15^2$.\n- Square numbers ending with $1$ or $9$: Example: $121 = 11^2, 169 = 13^2$.\n- Square numbers ending with $2$ or $8$: Example: $144 = 12^2, 169 = 13^2$.\n- Square numbers ending with $3$ or $7$: Example: $169 = 13^2, 289 = 17^2$.\n- Square numbers ending with $4$ or $6$: Example: $196 = 14^2, 216 = 16^2$.\n\nTherefore, there are $5$ distinct digits can appear as the units digit of an integral perfect-square number.\n\n**Final Answer: $\\boxed{5}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "**Final Answer: $\\boxed{5}$**",
+        "ground_truth": "Let $d$ be the last digit of a number $n$.  Then $n^2 \\equiv d^2 \\pmod{10}$, so the units digit of $n^2$ is the same as the units digit of $d^2$.  Checking all the digits from 0 to 9, we find that the possible units digits of $d^2$ are 0, 1, 4, 5, 6, and 9, for a total of $\\boxed{6}$."
+    }
+]

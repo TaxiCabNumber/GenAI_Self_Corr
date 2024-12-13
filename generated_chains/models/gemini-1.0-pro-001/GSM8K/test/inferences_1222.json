@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nLuke is buying fabric for new curtains. There are five windows. Each window is 35 inches wide and Luke needs to buy fabric equal to 2 times the total width of the windows. How much fabric should he buy?",
+        "inference": "1. Calculate the total width of the windows: 35 inches * 5 windows = 175 inches.\n2. Multiply the total width by 2: 175 inches * 2 = 350 inches.\n3. Express the answer in yards: 350 inches / 36 inches/yard = 9.72 yards.\n\nI hope it is correct: 9.72 yards.",
+        "ground_truth": "The total width of the five windows is 35 x 5 = <<35*5=175>>175 inches.\nLuke needs to buy 175 x 2 = <<175*2=350>>350 inches of fabric.\n#### 350"
+    },
+    {
+        "question": "1. Calculate the total width of the windows: 35 inches * 5 windows = 175 inches.\n2. Multiply the total width by 2: 175 inches * 2 = 350 inches.\n3. Express the answer in yards: 350 inches / 36 inches/yard = 9.72 yards.\n\nI hope it is correct: 9.72 yards.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$9.72 yards",
+        "ground_truth": "The total width of the five windows is 35 x 5 = <<35*5=175>>175 inches.\nLuke needs to buy 175 x 2 = <<175*2=350>>350 inches of fabric.\n#### 350"
+    }
+]

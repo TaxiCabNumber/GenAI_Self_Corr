@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBenny saw a 10-foot shark with 2 6-inch remoras attached to it. What percentage of the shark's body length is the combined length of the remoras?",
+        "inference": "1) Convert the length of the shark to inches: 10 feet x 12 inches/foot = 120 inches\n2) Add the length of the remoras: 2 x 6 inches = 12 inches\n3) Calculate the combined length of the remoras as a percentage of the shark's length: (12 inches / 120 inches) x 100% = 10%\nI hope it is correct: 10 %",
+        "ground_truth": "First, find the combined length of the remoras in inches: 6 inches/remora * 2 remoras = <<6*2=12>>12 inches\nThen divide that number by 12 to convert it to feet: 12 inches / 12 inches/foot = <<1=1>>1 foot\nThen divide the combined remora length in feet by the shark's length and multiply by 100% to express the answer as a percentage: 1 foot / 10 feet * 100% = 10%\n#### 10"
+    },
+    {
+        "question": "1) Convert the length of the shark to inches: 10 feet x 12 inches/foot = 120 inches\n2) Add the length of the remoras: 2 x 6 inches = 12 inches\n3) Calculate the combined length of the remoras as a percentage of the shark's length: (12 inches / 120 inches) x 100% = 10%\nI hope it is correct: 10 %\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$10 %",
+        "ground_truth": "First, find the combined length of the remoras in inches: 6 inches/remora * 2 remoras = <<6*2=12>>12 inches\nThen divide that number by 12 to convert it to feet: 12 inches / 12 inches/foot = <<1=1>>1 foot\nThen divide the combined remora length in feet by the shark's length and multiply by 100% to express the answer as a percentage: 1 foot / 10 feet * 100% = 10%\n#### 10"
+    }
+]

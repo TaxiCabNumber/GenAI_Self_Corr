@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA team averages 7 losses for every 13 games it wins. If ties are not permitted, what is the probability that the team will win its next game? Express your answer as a percent.",
+        "inference": "Let x be the number of games won and y be the number of games lost.\n\nWe know that:\n\n```\nx + y = 13\ny = 7/13x\n```\n\nSubstituting the second equation into the first equation, we get:\n\n```\nx + 7/13x = 13\n20/13x = 13\nx = 13 * 13/20\nx = 65/10\n```\n\nThe probability of winning the next game is:\n\n```\nx / (x + y) = 65/10 / (65/10 + 7/10)\n              = 65/10 / 72/10\n              = 65/72 * 10/10\n              = 65/72 * 1\n              = 65/72\n```\n\nConverting to a percent, we get:\n\n```\n65/72 * 100% = 0.902777777778 * 100%\n              = 90.2777777778%\n```\n\nFinal Answer: \\boxed{90.28%}. I hope it is correct.",
+        "ground_truth": "If a team averages 7 losses for 13 wins, that means the team wins 13 out of 20 games, and $\\frac{13}{20} = .65$, or $\\boxed{65\\%}$."
+    },
+    {
+        "question": "Let x be the number of games won and y be the number of games lost.\n\nWe know that:\n\n```\nx + y = 13\ny = 7/13x\n```\n\nSubstituting the second equation into the first equation, we get:\n\n```\nx + 7/13x = 13\n20/13x = 13\nx = 13 * 13/20\nx = 65/10\n```\n\nThe probability of winning the next game is:\n\n```\nx / (x + y) = 65/10 / (65/10 + 7/10)\n              = 65/10 / 72/10\n              = 65/72 * 10/10\n              = 65/72 * 1\n              = 65/72\n```\n\nConverting to a percent, we get:\n\n```\n65/72 * 100% = 0.902777777778 * 100%\n              = 90.2777777778%\n```\n\nFinal Answer: \\boxed{90.28%}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{90.28%}",
+        "ground_truth": "If a team averages 7 losses for 13 wins, that means the team wins 13 out of 20 games, and $\\frac{13}{20} = .65$, or $\\boxed{65\\%}$."
+    }
+]

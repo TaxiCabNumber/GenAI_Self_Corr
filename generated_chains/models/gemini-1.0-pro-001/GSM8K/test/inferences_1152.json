@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMark buys one lottery ticket with a 20% chance of winning and a second lottery ticket that's three times more likely to win. What is the probability, expressed as a percentage, that both tickets are winners?",
+        "inference": "**Step 1**: Calculate the probability of Mark winning the second lottery ticket\n\n$$3 \\times 20% = 60%$$\n\n**Step 2**: To find the probability of winning both tickets, we need to multiply the probabilities\n\n$$20% \\times 60% = 0.20 \\times 0.60 = 0.12$$\n\n**Step 3**: Convert to a  percentage\n\n$$0.12 = 12%$$\n\nI hope it is correct: 12%",
+        "ground_truth": "First triple 20% to find the second ticket's chance of winning: .2 * 3 = <<.2*3=.6>>.6\nThen multiply both tickets' chances of winning to find the probability they both win, and multiply that by 100 to convert it to a percentage: .6 * .2 * 100% = 12%\n#### 12"
+    },
+    {
+        "question": "**Step 1**: Calculate the probability of Mark winning the second lottery ticket\n\n$$3 \\times 20% = 60%$$\n\n**Step 2**: To find the probability of winning both tickets, we need to multiply the probabilities\n\n$$20% \\times 60% = 0.20 \\times 0.60 = 0.12$$\n\n**Step 3**: Convert to a  percentage\n\n$$0.12 = 12%$$\n\nI hope it is correct: 12%\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 12%",
+        "ground_truth": "First triple 20% to find the second ticket's chance of winning: .2 * 3 = <<.2*3=.6>>.6\nThen multiply both tickets' chances of winning to find the probability they both win, and multiply that by 100 to convert it to a percentage: .6 * .2 * 100% = 12%\n#### 12"
+    }
+]

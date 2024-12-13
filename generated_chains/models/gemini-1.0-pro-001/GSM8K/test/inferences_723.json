@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe restaurant has 170 normal chairs and 23 chairs for babies. If 20 of the normal chairs and 13 of the baby chairs were sent to the carpenter for repair, how many chairs does the restaurant have left?",
+        "inference": "1. Start with the total number of chairs: 170 + 23 = 193\n2. Subtract the number of chairs sent for repair: 193 - (20 + 13) = 160\n3. The restaurant has 160 chairs left.\n\nI hope it is correct: 160 $chairs$",
+        "ground_truth": "Before sending the chairs and baby chairs to the carpenter the restaurant had 170 + 23 = <<170+23=193>>193 chairs.\nThey sent 20 + 13 = <<20+13=33>>33 chairs to the carpenter.\nNow, they have 193 - 33 = <<193-33=160>>160 chairs left.\n#### 160"
+    },
+    {
+        "question": "1. Start with the total number of chairs: 170 + 23 = 193\n2. Subtract the number of chairs sent for repair: 193 - (20 + 13) = 160\n3. The restaurant has 160 chairs left.\n\nI hope it is correct: 160 $chairs$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "### 160",
+        "ground_truth": "Before sending the chairs and baby chairs to the carpenter the restaurant had 170 + 23 = <<170+23=193>>193 chairs.\nThey sent 20 + 13 = <<20+13=33>>33 chairs to the carpenter.\nNow, they have 193 - 33 = <<193-33=160>>160 chairs left.\n#### 160"
+    }
+]

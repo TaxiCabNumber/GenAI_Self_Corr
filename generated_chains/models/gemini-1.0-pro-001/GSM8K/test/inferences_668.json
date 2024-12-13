@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIn a company of 50 employees, 20% of the employees are management.  Out of this 20%, only 30% oversee the entire company.  How many employees oversee the company?",
+        "inference": "1. Calculate the number of management employees: 50 employees * 20% = 10 management employees\n2. Calculate the number of employees who oversee the entire company: 10 management employees * 30% = 3 employees who oversee the company\nI hope it is correct: 3",
+        "ground_truth": "20% of 50 employees are part of management so that's .20*50 = <<.20*50=10>>10 employees\nOut of these 10 employees, only 30% oversee the entire company so 10*.30 = <<10*.3=3>>3 people oversee the company\n#### 3"
+    },
+    {
+        "question": "1. Calculate the number of management employees: 50 employees * 20% = 10 management employees\n2. Calculate the number of employees who oversee the entire company: 10 management employees * 30% = 3 employees who oversee the company\nI hope it is correct: 3\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$3",
+        "ground_truth": "20% of 50 employees are part of management so that's .20*50 = <<.20*50=10>>10 employees\nOut of these 10 employees, only 30% oversee the entire company so 10*.30 = <<10*.3=3>>3 people oversee the company\n#### 3"
+    }
+]

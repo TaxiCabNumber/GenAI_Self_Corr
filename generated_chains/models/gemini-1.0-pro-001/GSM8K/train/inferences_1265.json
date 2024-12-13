@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA family's water and electricity bills average $30 a month for the first 4 months and $24 a month for the last 2 months. If the family's bills were averaged over all 6 months, what would the average monthly bill be?",
+        "inference": "1. Find the total of the bills for the first 4 months: $30 x 4 = $120\n2. Find the total of the bills for the last 2 months: $24 x 2 = $48\n3. Find the total of the bills for all 6 months: $120 + $48 = $168\n4. Find the average monthly bill by dividing the total by the number of months: $168 / 6 = $28\nI hope it is correct: $28$",
+        "ground_truth": "The sum of the bills of the family in the first 4 months is $30/month x 4 months = $<<30*4=120>>120.\nThe sum of the bills of the family in the last 2 months is $24/month x $2 = $<<24*2=48>>48.\nThe sum of the bills of the family over the 6 months is $120 + $48 = $<<120+48=168>>168.\nHence, their average monthly bill is $168/6 months = $<<168/6=28>>28/month.\n#### 28"
+    },
+    {
+        "question": "1. Find the total of the bills for the first 4 months: $30 x 4 = $120\n2. Find the total of the bills for the last 2 months: $24 x 2 = $48\n3. Find the total of the bills for all 6 months: $120 + $48 = $168\n4. Find the average monthly bill by dividing the total by the number of months: $168 / 6 = $28\nI hope it is correct: $28$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = $28",
+        "ground_truth": "The sum of the bills of the family in the first 4 months is $30/month x 4 months = $<<30*4=120>>120.\nThe sum of the bills of the family in the last 2 months is $24/month x $2 = $<<24*2=48>>48.\nThe sum of the bills of the family over the 6 months is $120 + $48 = $<<120+48=168>>168.\nHence, their average monthly bill is $168/6 months = $<<168/6=28>>28/month.\n#### 28"
+    }
+]

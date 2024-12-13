@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nEvery 2 miles a car drives the tires rotate 725 times.  Jeremy drives 400 miles a month.  If each tire can undergo 10,440,000 rotations how many years before the tire needs to be replaced?",
+        "inference": "1) First, find out how many times the tires rotate in a month.\n$$400 \\text{ miles} \\cdot \\frac{725 \\text{ rotations}}{2 \\text{ miles}} = 145000 \\text{ rotations/month}$$\n\n2) Then, find out how many months it will take for the tires to reach 10,440,000 rotations.\n$$10440000 \\text{ rotations} \\cdot \\frac{1 \\text{ month}}{145000 \\text{ rotations}} = 71.999 \\text{ months}$$\n\n3) Finally, convert the months to years.\n$$71.999 \\text{ months} \\cdot \\frac{1 \\text{ year}}{12 \\text{ months}} = 5.999 \\text{ years}$$\n\nI hope it is correct: 5.999 years",
+        "ground_truth": "Jeremy drives 400/2=<<400/2=200>>200 segments of 2 miles\nThat means each month the car undergoes 200*725=<<200*725=145000>>145,000 rotations\nSo the tire can last for 10,440,000/145,000=<<10440000/145000=72>>72 months\nThat means the tires will last 72/12=<<72/12=6>>6 years\n#### 6"
+    },
+    {
+        "question": "1) First, find out how many times the tires rotate in a month.\n$$400 \\text{ miles} \\cdot \\frac{725 \\text{ rotations}}{2 \\text{ miles}} = 145000 \\text{ rotations/month}$$\n\n2) Then, find out how many months it will take for the tires to reach 10,440,000 rotations.\n$$10440000 \\text{ rotations} \\cdot \\frac{1 \\text{ month}}{145000 \\text{ rotations}} = 71.999 \\text{ months}$$\n\n3) Finally, convert the months to years.\n$$71.999 \\text{ months} \\cdot \\frac{1 \\text{ year}}{12 \\text{ months}} = 5.999 \\text{ years}$$\n\nI hope it is correct: 5.999 years\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ 6 years",
+        "ground_truth": "Jeremy drives 400/2=<<400/2=200>>200 segments of 2 miles\nThat means each month the car undergoes 200*725=<<200*725=145000>>145,000 rotations\nSo the tire can last for 10,440,000/145,000=<<10440000/145000=72>>72 months\nThat means the tires will last 72/12=<<72/12=6>>6 years\n#### 6"
+    }
+]

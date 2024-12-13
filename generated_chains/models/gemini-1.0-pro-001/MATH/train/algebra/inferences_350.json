@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSimplify: $$\\sqrt[3]{2744000}$$",
+        "inference": "**SOLUTION:**\n\n$$\\sqrt[3]{2744000}=\\sqrt[3]{27\\cdot 102400}=\\sqrt[3]{27\\cdot 100^4}=\\sqrt[3]{27}\\cdot\\sqrt[3]{100^4}$$\n\n$$=3\\cdot 100=\\boxed{300}$$\n\n**Final Answer: \\\\boxed{$300$}. I hope it is correct.**",
+        "ground_truth": "First, we can factor out $1000=10^3$, so $\\sqrt[3]{2744000}=10\\sqrt[3]{2744}$.  To proceed, we can take out factors of two from 2744, to find that $2744=2\\cdot1372=2\\cdot2\\cdot686=2^3\\cdot343$.  With a little bit of guess and check, notice that $7^3=343$.  Therefore, $10\\sqrt[3]{2744}=10(14)=\\boxed{140}$."
+    },
+    {
+        "question": "**SOLUTION:**\n\n$$\\sqrt[3]{2744000}=\\sqrt[3]{27\\cdot 102400}=\\sqrt[3]{27\\cdot 100^4}=\\sqrt[3]{27}\\cdot\\sqrt[3]{100^4}$$\n\n$$=3\\cdot 100=\\boxed{300}$$\n\n**Final Answer: \\\\boxed{$300$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{300}$$",
+        "ground_truth": "First, we can factor out $1000=10^3$, so $\\sqrt[3]{2744000}=10\\sqrt[3]{2744}$.  To proceed, we can take out factors of two from 2744, to find that $2744=2\\cdot1372=2\\cdot2\\cdot686=2^3\\cdot343$.  With a little bit of guess and check, notice that $7^3=343$.  Therefore, $10\\sqrt[3]{2744}=10(14)=\\boxed{140}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe eighth-grade class held a bake-off. Kelsie made two times more cookies than Josh. Josh made one-fourth the number of cookies that Suzanne made. If Suzanne made 36 cookies, how many did Kelsie make?",
+        "inference": "1. **Suzanne made 36 cookies.**\n2. **Josh made 1/4 of the number of cookies that Suzanne made.**\nJosh made 36 / 4 = 9 cookies.\n3. **Kelsie made two times more cookies than Josh.**\nKelsie made 9 * 2 = 18 cookies.\nI hope it is correct: Kelsie made $18$ cookies.",
+        "ground_truth": "Josh made 36/4=<<36/4=9>>9 cookies\nKelsie made 9*2=<<9*2=18>>18 cookies\n#### 18"
+    },
+    {
+        "question": "1. **Suzanne made 36 cookies.**\n2. **Josh made 1/4 of the number of cookies that Suzanne made.**\nJosh made 36 / 4 = 9 cookies.\n3. **Kelsie made two times more cookies than Josh.**\nKelsie made 9 * 2 = 18 cookies.\nI hope it is correct: Kelsie made $18$ cookies.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ Kelsie made 18 cookies.",
+        "ground_truth": "Josh made 36/4=<<36/4=9>>9 cookies\nKelsie made 9*2=<<9*2=18>>18 cookies\n#### 18"
+    }
+]

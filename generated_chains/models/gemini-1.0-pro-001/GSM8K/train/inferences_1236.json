@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIn a house, there are 16 cats. Two of them are white, and 25% of them are black. The rest of the cats are grey. How many grey cats are in this house?",
+        "inference": "- 2 out of 16 cats are white. So, the percentage of white cats is (2/16)*100= 12.5%\n- 25% of the cats are black.\n- The rest of the cats are grey. So, the percentage of grey cats is 100% - 12.5% - 25% = 62.5%\n- To find the number of grey cats, we can use the proportion:\nPercentage of grey cats / Total number of cats = Number of grey cats / 16\n62.5% / 100% = Number of grey cats / 16\nSolving for the number of grey cats:\nNumber of grey cats = (62.5/100) * 16\nNumber of grey cats = 10\nI hope it is correct: $10$",
+        "ground_truth": "In this house, there are 16 * 25/100 = <<16*25/100=4>>4 black cats.\nIf there are two white cats, that means that there are 16 - 4 - 2 = <<16-4-2=10>>10 grey cats in this house.\n#### 10"
+    },
+    {
+        "question": "- 2 out of 16 cats are white. So, the percentage of white cats is (2/16)*100= 12.5%\n- 25% of the cats are black.\n- The rest of the cats are grey. So, the percentage of grey cats is 100% - 12.5% - 25% = 62.5%\n- To find the number of grey cats, we can use the proportion:\nPercentage of grey cats / Total number of cats = Number of grey cats / 16\n62.5% / 100% = Number of grey cats / 16\nSolving for the number of grey cats:\nNumber of grey cats = (62.5/100) * 16\nNumber of grey cats = 10\nI hope it is correct: $10$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$10",
+        "ground_truth": "In this house, there are 16 * 25/100 = <<16*25/100=4>>4 black cats.\nIf there are two white cats, that means that there are 16 - 4 - 2 = <<16-4-2=10>>10 grey cats in this house.\n#### 10"
+    }
+]

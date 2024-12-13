@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nNani is 8 years old. His brother is twice his age. Nani's sister is 25% younger than him. What is the total age of all three of the family members?",
+        "inference": "- Nani is 8 years old.\n- His brother is twice his age, so his brother is 8 * 2 = 16 years old.\n- His sister is 25% younger than him, so his sister is 8 * 0.75 = 6 years old.\n- The total age of all three of the family members is 8 + 16 + 6 = 30 years.\n\nI hope it is correct: 30",
+        "ground_truth": "Nani's brother is 8 * 2 = <<8*2=16>>16 years old.\nNani's sister is 25/100 * 8 = <<25/100*8=2>>2 years younger than he is.\nThat means she is 8 - 2 = <<8-2=6>>6 years old.\nIn total all mentioned family members, are 16 + 6 + 8 = <<16+6+8=30>>30 years old.\n#### 30"
+    },
+    {
+        "question": "- Nani is 8 years old.\n- His brother is twice his age, so his brother is 8 * 2 = 16 years old.\n- His sister is 25% younger than him, so his sister is 8 * 0.75 = 6 years old.\n- The total age of all three of the family members is 8 + 16 + 6 = 30 years.\n\nI hope it is correct: 30\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$30",
+        "ground_truth": "Nani's brother is 8 * 2 = <<8*2=16>>16 years old.\nNani's sister is 25/100 * 8 = <<25/100*8=2>>2 years younger than he is.\nThat means she is 8 - 2 = <<8-2=6>>6 years old.\nIn total all mentioned family members, are 16 + 6 + 8 = <<16+6+8=30>>30 years old.\n#### 30"
+    }
+]

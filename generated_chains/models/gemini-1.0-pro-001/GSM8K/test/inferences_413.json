@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMarcy makes homemade candles that she markets as 99% guaranteed not to explode. 5% of the more dangerous candles also have a defect that makes them smell like wet dog. If she makes 50000 candles, how many of them will both smell like wet dog and explode?",
+        "inference": "- 1% of the candles will explode. So, 0.01 x 50000 = 500 candles will explode.\n- 5% of the dangerous candles smell like wet dog. So, 0.05 x 500 = 25 candles will both explode and smell like wet dog.\nI hope it is correct: 25",
+        "ground_truth": "First find what percentage of the candles explode: 100% - 99% = 1%\nThen multiply the odds of the candles exploding by the odds of them smelling like wet dog to find the probability of both events happening: 1% * 5% = 0.05%\nThen multiply that percentage by the number of candles to find the number of them that have both defects: 0.05% * 50000 candles = <<0.05*.01*50000=25>>25 candles\n#### 25"
+    },
+    {
+        "question": "- 1% of the candles will explode. So, 0.01 x 50000 = 500 candles will explode.\n- 5% of the dangerous candles smell like wet dog. So, 0.05 x 500 = 25 candles will both explode and smell like wet dog.\nI hope it is correct: 25\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$25",
+        "ground_truth": "First find what percentage of the candles explode: 100% - 99% = 1%\nThen multiply the odds of the candles exploding by the odds of them smelling like wet dog to find the probability of both events happening: 1% * 5% = 0.05%\nThen multiply that percentage by the number of candles to find the number of them that have both defects: 0.05% * 50000 candles = <<0.05*.01*50000=25>>25 candles\n#### 25"
+    }
+]

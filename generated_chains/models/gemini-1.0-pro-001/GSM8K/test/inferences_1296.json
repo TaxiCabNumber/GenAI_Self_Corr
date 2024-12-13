@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nEllen and her sister, Lani, went to the mall to buy presents for their mom. Ellen bought a pair of leggings for $100 and a photo frame for $5. Lani bought a pair of sunglasses at $30 and two bathrobes at $100 each. How much did they spend in all?",
+        "inference": "1. Ellen bought a pair of leggings for $100 and a photo frame for $5. So, Ellen spent $100 + $5 = $105.\n2. Lani bought a pair of sunglasses at $30 and two bathrobes at $100 each. So, Lani spent $30 + $100 + $100 = $230.\n3. Ellen and Lani spent $105 + $230 = $335 in all.\n\nI hope it is correct: $335",
+        "ground_truth": "Ellen spent $100 + $5 = $<<100+5=105>>105.\nTwo bathrobes cost 2 x $100 = $<<2*100=200>>200.\nSo, Lani spent $30 +$200 =$<<30+200=230>>230.\nTherefore, they spent $105 + $230 = $<<105+230=335>>335 in all.\n#### 335"
+    },
+    {
+        "question": "1. Ellen bought a pair of leggings for $100 and a photo frame for $5. So, Ellen spent $100 + $5 = $105.\n2. Lani bought a pair of sunglasses at $30 and two bathrobes at $100 each. So, Lani spent $30 + $100 + $100 = $230.\n3. Ellen and Lani spent $105 + $230 = $335 in all.\n\nI hope it is correct: $335\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$335",
+        "ground_truth": "Ellen spent $100 + $5 = $<<100+5=105>>105.\nTwo bathrobes cost 2 x $100 = $<<2*100=200>>200.\nSo, Lani spent $30 +$200 =$<<30+200=230>>230.\nTherefore, they spent $105 + $230 = $<<105+230=335>>335 in all.\n#### 335"
+    }
+]

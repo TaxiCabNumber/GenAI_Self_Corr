@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA 76-star flag has three rows of 8 stars, two rows of 6 stars and the rest are 5-star rows. How many rows of 5 stars are there altogether on the flag?",
+        "inference": "1. There are 3 rows of 8 stars, so there are 3 * 8 = 24 stars in these rows.\n2. There are 2 rows of 6 stars, so there are 2 * 6 = 12 stars in these rows.\n3. There are 76 stars in total, so there are 76 - 24 - 12 = 40 stars in the 5-star rows.\n4. There are 40 stars in the 5-star rows, and each row has 5 stars, so there are 40 / 5 = 8 rows of 5 stars.\n\nI hope it is correct: 8 $rows$",
+        "ground_truth": "The rows of 8 stars have a total of: 3 rows * 8 stars/row = <<3*8=24>>24 stars.\nThe rows of 6 stars have a total of: 2 rows * 6 stars/row = <<2*6=12>>12 stars.\nIncluding the rows of 8 and 6 stars, we have 24 stars + 12 stars = <<24+12=36>>36 stars.\nNow we need to know how many stars are missing, 76 stars - 36 stars = <<76-36=40>>40 stars.\nNow we need to distribute the missing stars in rows of 5 stars, 40 stars/5 rows = <<40/5=8>>8 rows of 5 stars.\n#### 8"
+    },
+    {
+        "question": "1. There are 3 rows of 8 stars, so there are 3 * 8 = 24 stars in these rows.\n2. There are 2 rows of 6 stars, so there are 2 * 6 = 12 stars in these rows.\n3. There are 76 stars in total, so there are 76 - 24 - 12 = 40 stars in the 5-star rows.\n4. There are 40 stars in the 5-star rows, and each row has 5 stars, so there are 40 / 5 = 8 rows of 5 stars.\n\nI hope it is correct: 8 $rows$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 8",
+        "ground_truth": "The rows of 8 stars have a total of: 3 rows * 8 stars/row = <<3*8=24>>24 stars.\nThe rows of 6 stars have a total of: 2 rows * 6 stars/row = <<2*6=12>>12 stars.\nIncluding the rows of 8 and 6 stars, we have 24 stars + 12 stars = <<24+12=36>>36 stars.\nNow we need to know how many stars are missing, 76 stars - 36 stars = <<76-36=40>>40 stars.\nNow we need to distribute the missing stars in rows of 5 stars, 40 stars/5 rows = <<40/5=8>>8 rows of 5 stars.\n#### 8"
+    }
+]

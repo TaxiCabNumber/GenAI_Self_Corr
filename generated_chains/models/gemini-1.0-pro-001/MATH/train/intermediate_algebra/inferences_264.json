@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCompute $\\sqrt{(31)(30)(29)(28)+1}.$",
+        "inference": "We have\n\n$$\\sqrt{(31)(30)(29)(28)+1}=\\sqrt{(30)(31)(28)(29)+1}$$\n\n$$=\\sqrt{(4)(7)(7)(4)(28)(29)+1}$$\n\n$$=\\sqrt{(4)^2(7)^2(28)(29)+1}$$\n\n$$=\\sqrt{16\\cdot49\\cdot28\\cdot29+1}$$\n\n$$=\\sqrt{2016\\cdot841+1}$$\n\n$$=\\sqrt{1,693,961+1}$$\n\n$$=\\sqrt{1,693,962}$$\n\n$$=\\boxed{1299}.$$\n\nFinal Answer: $\\boxed{1299}.$ I hope it is correct.",
+        "ground_truth": "Let $x = 29.$ Then we can write \\[\\begin{aligned} (31)(30)(29)(28) + 1 &= (x+2)(x+1)(x)(x-1) + 1 \\\\ &= [(x+2)(x-1)][(x+1)x] - 1 \\\\& = (x^2+x-2)(x^2+x) + 1 \\\\&= (x^2+x)^2 - 2(x^2+x) + 1 \\\\&= (x^2+x-1)^2. \\end{aligned} \\]Therefore, the answer is \\[ \\begin{aligned} x^2+x-1&= 29^2 + 29 - 1\\\\& = \\boxed{869}. \\end{aligned}\\]"
+    },
+    {
+        "question": "We have\n\n$$\\sqrt{(31)(30)(29)(28)+1}=\\sqrt{(30)(31)(28)(29)+1}$$\n\n$$=\\sqrt{(4)(7)(7)(4)(28)(29)+1}$$\n\n$$=\\sqrt{(4)^2(7)^2(28)(29)+1}$$\n\n$$=\\sqrt{16\\cdot49\\cdot28\\cdot29+1}$$\n\n$$=\\sqrt{2016\\cdot841+1}$$\n\n$$=\\sqrt{1,693,961+1}$$\n\n$$=\\sqrt{1,693,962}$$\n\n$$=\\boxed{1299}.$$\n\nFinal Answer: $\\boxed{1299}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$1299$}.",
+        "ground_truth": "Let $x = 29.$ Then we can write \\[\\begin{aligned} (31)(30)(29)(28) + 1 &= (x+2)(x+1)(x)(x-1) + 1 \\\\ &= [(x+2)(x-1)][(x+1)x] - 1 \\\\& = (x^2+x-2)(x^2+x) + 1 \\\\&= (x^2+x)^2 - 2(x^2+x) + 1 \\\\&= (x^2+x-1)^2. \\end{aligned} \\]Therefore, the answer is \\[ \\begin{aligned} x^2+x-1&= 29^2 + 29 - 1\\\\& = \\boxed{869}. \\end{aligned}\\]"
+    }
+]

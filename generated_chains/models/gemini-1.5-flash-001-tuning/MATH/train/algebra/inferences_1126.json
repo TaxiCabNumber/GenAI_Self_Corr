@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA student accidentally added five to both the numerator and denominator of a fraction, changing the fraction's value to $\\frac12$. If the original numerator was a 2, what was the original denominator?",
+        "inference": "Let $x$ be the original denominator.  The original fraction is $\\frac{2}{x}$.  Adding 5 to both the numerator and denominator gives us $\\frac{2+5}{x+5}=\\frac{7}{x+5}$.  We are told that this new fraction is equal to $\\frac12$.  Thus, we have the equation $\\frac{7}{x+5}=\\frac12$.  Cross-multiplying gives us $14=x+5$.  Solving for $x$, we find $x=9$.\n\nFinal Answer: $\\boxed{9}$. I hope it is correct. \n",
+        "ground_truth": "Let $d$ be the original denominator.  After adding 5 to both numerator and denominator, the fraction becomes $\\frac{7}{d+5}$.  If a fraction with 7 in the numerator is equivalent to $\\frac{1}{2}$, then the denominator is 14.  Solving $d+5=14$, we find $d=\\boxed{9}$."
+    },
+    {
+        "question": "Let $x$ be the original denominator.  The original fraction is $\\frac{2}{x}$.  Adding 5 to both the numerator and denominator gives us $\\frac{2+5}{x+5}=\\frac{7}{x+5}$.  We are told that this new fraction is equal to $\\frac12$.  Thus, we have the equation $\\frac{7}{x+5}=\\frac12$.  Cross-multiplying gives us $14=x+5$.  Solving for $x$, we find $x=9$.\n\nFinal Answer: $\\boxed{9}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{7}$  \n",
+        "ground_truth": "Let $d$ be the original denominator.  After adding 5 to both numerator and denominator, the fraction becomes $\\frac{7}{d+5}$.  If a fraction with 7 in the numerator is equivalent to $\\frac{1}{2}$, then the denominator is 14.  Solving $d+5=14$, we find $d=\\boxed{9}$."
+    }
+]

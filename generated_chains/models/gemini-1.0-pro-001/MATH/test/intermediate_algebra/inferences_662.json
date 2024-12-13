@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFactor the expression $ab+5b+2a+10$.",
+        "inference": "First, group the terms as follows:\n\n$$(ab+5b)+(2a+10)$$\n\nNext, factor out the greatest common factor from each group:\n\n$$b(a+5)+2(a+5)$$\n\nFinally, notice that the expression $(a+5)$ is a common factor to both terms, so we can factor it out to get:\n\n$$(a+5)(b+2)$$\n\nFinal Answer: $\\boxed{(a+5)(b+2)}$. I hope it is correct.",
+        "ground_truth": "We have $ab +5b+2a+10 = ab + 5b+2a + 2\\cdot 5$, so we have a straightforward application of Simon's Favorite Factoring Trick: \\[ab + 5b+2a+10 = \\boxed{(a+5)(b+2)}.\\]"
+    },
+    {
+        "question": "First, group the terms as follows:\n\n$$(ab+5b)+(2a+10)$$\n\nNext, factor out the greatest common factor from each group:\n\n$$b(a+5)+2(a+5)$$\n\nFinally, notice that the expression $(a+5)$ is a common factor to both terms, so we can factor it out to get:\n\n$$(a+5)(b+2)$$\n\nFinal Answer: $\\boxed{(a+5)(b+2)}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{(a+5)(b+2)}$$",
+        "ground_truth": "We have $ab +5b+2a+10 = ab + 5b+2a + 2\\cdot 5$, so we have a straightforward application of Simon's Favorite Factoring Trick: \\[ab + 5b+2a+10 = \\boxed{(a+5)(b+2)}.\\]"
+    }
+]

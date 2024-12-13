@@ -16,7 +16,10 @@ def parse_text_file(file_path):
         for line in file:
             key, value = line.split(": ", 1)
             if key == "Improvement Indices":
-                data[key] = [int(x) for x in value.strip().strip('[]').split(', ')]
+                if value.strip():
+                    data[key] = [int(x) for x in value.strip().strip('[]').split(', ') if x]
+                else:
+                    data[key] = []
             else:
                 data[key] = value.strip()
     return data

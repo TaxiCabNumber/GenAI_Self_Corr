@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe function $f : \\mathbb{R} \\to \\mathbb{R}$ satisfies\n\\[f(x) + 2f(1 - x) = 3x^2\\]for all $x.$  Find $f(4).$",
+        "inference": "Setting $x = 1 - x,$ we get\n\\[f(1 - x) + 2f(x) = 3(1 - x)^2.\\]Then $2f(x) + f(1 - x) = 3 - 6x + 3x^2.$\n\nAdding the equations $f(x) + 2f(1 - x) = 3x^2$ and $2f(x) + f(1 - x) = 3 - 6x + 3x^2,$ we get\n\\[3f(x) + 3f(1 - x) = 3 - 6x + 6x^2.\\]Then $f(x) + f(1 - x) = 1 - 2x + 2x^2.$\n\nSetting $x = 4,$ we get\n\\[f(4) + f(-3) = 1 - 8 + 32 = 25.\\]Setting $x = -3,$ we get\n\\[f(-3) + f(4) = 1 + 6 + 18 = 25.\\]Hence, $2f(4) = 50,$ so $f(4) = \\boxed{25}.$\n",
+        "ground_truth": "Setting $x = 4$ in the given functional equation, we get\n\\[f(4) + 2f(-3) = 48.\\]Setting $x = -3$ in the given functional equation, we get\n\\[f(-3) + 2f(4) = 27.\\]Doubling the second equation, we get $2f(-3) + 4f(4) = 54.$  Subtracting the equation $f(4) + 2f(-3) = 48,$ we get $3f(4) = 6,$ so $f(4) = \\boxed{2}.$"
+    },
+    {
+        "question": "Setting $x = 1 - x,$ we get\n\\[f(1 - x) + 2f(x) = 3(1 - x)^2.\\]Then $2f(x) + f(1 - x) = 3 - 6x + 3x^2.$\n\nAdding the equations $f(x) + 2f(1 - x) = 3x^2$ and $2f(x) + f(1 - x) = 3 - 6x + 3x^2,$ we get\n\\[3f(x) + 3f(1 - x) = 3 - 6x + 6x^2.\\]Then $f(x) + f(1 - x) = 1 - 2x + 2x^2.$\n\nSetting $x = 4,$ we get\n\\[f(4) + f(-3) = 1 - 8 + 32 = 25.\\]Setting $x = -3,$ we get\n\\[f(-3) + f(4) = 1 + 6 + 18 = 25.\\]Hence, $2f(4) = 50,$ so $f(4) = \\boxed{25}.$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "There's no error in the solution.  The problem is set up to guide you towards a specific answer.  The solution is correct.\n\nThe final answer is $\\boxed{25}$. \n",
+        "ground_truth": "Setting $x = 4$ in the given functional equation, we get\n\\[f(4) + 2f(-3) = 48.\\]Setting $x = -3$ in the given functional equation, we get\n\\[f(-3) + 2f(4) = 27.\\]Doubling the second equation, we get $2f(-3) + 4f(4) = 54.$  Subtracting the equation $f(4) + 2f(-3) = 48,$ we get $3f(4) = 6,$ so $f(4) = \\boxed{2}.$"
+    }
+]

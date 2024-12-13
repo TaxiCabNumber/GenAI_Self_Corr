@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJake has $5000. He spends $2800 on a new motorcycle, and then spends half of what's left on a concert ticket. Jake then loses a fourth of what he has left. How much money does he have left?",
+        "inference": "Jake spends $2800 on a motorcycle, so he has $5000 - $2800 = $2200 left.\nHe then spends half of what's left on a concert ticket, so he spends $2200 / 2 = $1100 on the ticket.\nHe then has $2200 - $1100 = $1100 left.\nHe then loses a fourth of what he has left, so he loses $1100 / 4 = $275.\nTherefore, he has $1100 - $275 = $825 left.\nI hope it is correct: $825$",
+        "ground_truth": "Jake has 5000-2800 = $<<5000-2800=2200>>2200 left\nJake has 2200/2 = $<<2200/2=1100>>1100\nJake loses 1100/4 = $<<1100/4=275>>275\nJake has 1100-275 = $<<1100-275=825>>825 left.\n#### 825"
+    },
+    {
+        "question": "Jake spends $2800 on a motorcycle, so he has $5000 - $2800 = $2200 left.\nHe then spends half of what's left on a concert ticket, so he spends $2200 / 2 = $1100 on the ticket.\nHe then has $2200 - $1100 = $1100 left.\nHe then loses a fourth of what he has left, so he loses $1100 / 4 = $275.\nTherefore, he has $1100 - $275 = $825 left.\nI hope it is correct: $825$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $825$",
+        "ground_truth": "Jake has 5000-2800 = $<<5000-2800=2200>>2200 left\nJake has 2200/2 = $<<2200/2=1100>>1100\nJake loses 1100/4 = $<<1100/4=275>>275\nJake has 1100-275 = $<<1100-275=825>>825 left.\n#### 825"
+    }
+]

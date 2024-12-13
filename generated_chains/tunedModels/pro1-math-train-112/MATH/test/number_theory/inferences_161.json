@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA Penteria is a special (fictional) kind of bacteria such that, regardless of the original population in a collection, the population increases by $5$ every minute. Additionally, at the end of every hour, all but the initial ones die. If $137$ Penteria are alive after $506$ minutes, how many were there at the beginning?",
+        "inference": "Let $x$ be the initial number of Penteria.\n\nAfter $506$ minutes, the population will have increased by $5$ every minute, so the total population will be $x + 5 \\cdot 506 = x + 2530$.\n\nHowever, at the end of every hour, all but the initial ones die. So, after $506$ minutes (which is $8$ hours and $26$ minutes), the population will be $x + 2530 - 8 \\cdot x = -7x + 2530$.\n\nWe know that the population after $506$ minutes is $137$, so we can solve for $x$:\n\n$-7x + 2530 = 137$\n$-7x = -2393$\n$x = \\boxed{342}$.\nFinal Answer: $\\boxed{342}$. I hope it is correct.",
+        "ground_truth": "We have that $506\\equiv 26\\pmod {60}$, so $26$ minutes have passed in the latest hour. Let $a$ be the initial population. Then $a+26\\cdot 5=137\\implies a=137-26\\cdot 5=137-130=\\boxed{7}$."
+    },
+    {
+        "question": "Let $x$ be the initial number of Penteria.\n\nAfter $506$ minutes, the population will have increased by $5$ every minute, so the total population will be $x + 5 \\cdot 506 = x + 2530$.\n\nHowever, at the end of every hour, all but the initial ones die. So, after $506$ minutes (which is $8$ hours and $26$ minutes), the population will be $x + 2530 - 8 \\cdot x = -7x + 2530$.\n\nWe know that the population after $506$ minutes is $137$, so we can solve for $x$:\n\n$-7x + 2530 = 137$\n$-7x = -2393$\n$x = \\boxed{342}$.\nFinal Answer: $\\boxed{342}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{342}",
+        "ground_truth": "We have that $506\\equiv 26\\pmod {60}$, so $26$ minutes have passed in the latest hour. Let $a$ be the initial population. Then $a+26\\cdot 5=137\\implies a=137-26\\cdot 5=137-130=\\boxed{7}$."
+    }
+]

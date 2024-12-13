@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA fog bank rolls in from the ocean to cover a city. It takes 10 minutes to cover every 3 miles of the city. If the city is 42 miles across from the oceanfront to the opposite inland edge, how many minutes will it take for the fog bank to cover the whole city?",
+        "inference": "1. Determine the rate at which the fog bank covers the city: 3 miles / 10 minutes = 0.3 miles / minute\n2. Calculate the total distance the fog bank needs to cover: 42 miles\n3. Divide the total distance by the rate to find the time it will take: 42 miles / 0.3 miles / minute = 140 minutes\nI hope it is correct: 140 $minutes$",
+        "ground_truth": "The city will be covered in 42 / 3 = <<42/3=14>>14 intervals of 10 minutes.\nThus, it will take 14 * 10 = <<14*10=140>>140 minutes for the fog to cover the whole city.\n#### 140"
+    },
+    {
+        "question": "1. Determine the rate at which the fog bank covers the city: 3 miles / 10 minutes = 0.3 miles / minute\n2. Calculate the total distance the fog bank needs to cover: 42 miles\n3. Divide the total distance by the rate to find the time it will take: 42 miles / 0.3 miles / minute = 140 minutes\nI hope it is correct: 140 $minutes$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 140",
+        "ground_truth": "The city will be covered in 42 / 3 = <<42/3=14>>14 intervals of 10 minutes.\nThus, it will take 14 * 10 = <<14*10=140>>140 minutes for the fog to cover the whole city.\n#### 140"
+    }
+]

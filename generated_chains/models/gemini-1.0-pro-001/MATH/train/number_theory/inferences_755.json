@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nExpress $249_{11}+3AB_{12}$ as a base 10 integer. Here $A$ and $B$ denote the digits whose values are 10 and 11, respectively, in base 12.",
+        "inference": "$$249_{11}+3AB_{12}$$\n$$=2\\times 11^2+4\\times 11+9+3\\times 12^2+A\\times12+B$$\n$$=2\\times121+4\\times11+9+3\\times144+A\\times12+B$$\n$$=242+44+9+432+12A+B$$\n$$=727+12A+B \\quad \\because 242+44+9+432=727$$\n**Final Answer: \\\\boxed{$727+12A+B$}. I hope it is correct.**",
+        "ground_truth": "We have that \\begin{align*} 249_{11} &= 2(11^2)+ 4(11^1) +9(11^0) \\\\\n&= 2(121)+4(11)+9(1)\\\\\n&= 242 + 44 + 9\\\\\n&= 295\\\\\n3AB_{12} &= 3(12^2)+ 10(12^1) +11(12^0) \\\\\n&= 3(144)+10(12)+11(1)\\\\\n&= 432 + 120 + 11\\\\\n&= 563\n\\end{align*}So, $249_{11}+3AB_{12}=295+563=\\boxed{858}$."
+    },
+    {
+        "question": "$$249_{11}+3AB_{12}$$\n$$=2\\times 11^2+4\\times 11+9+3\\times 12^2+A\\times12+B$$\n$$=2\\times121+4\\times11+9+3\\times144+A\\times12+B$$\n$$=242+44+9+432+12A+B$$\n$$=727+12A+B \\quad \\because 242+44+9+432=727$$\n**Final Answer: \\\\boxed{$727+12A+B$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{727+12A+B}$$",
+        "ground_truth": "We have that \\begin{align*} 249_{11} &= 2(11^2)+ 4(11^1) +9(11^0) \\\\\n&= 2(121)+4(11)+9(1)\\\\\n&= 242 + 44 + 9\\\\\n&= 295\\\\\n3AB_{12} &= 3(12^2)+ 10(12^1) +11(12^0) \\\\\n&= 3(144)+10(12)+11(1)\\\\\n&= 432 + 120 + 11\\\\\n&= 563\n\\end{align*}So, $249_{11}+3AB_{12}=295+563=\\boxed{858}$."
+    }
+]

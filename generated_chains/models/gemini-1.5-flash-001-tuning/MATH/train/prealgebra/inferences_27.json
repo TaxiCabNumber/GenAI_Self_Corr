@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe degree measure of the sum of the interior angles of a convex polygon with $n$ sides is 1800. What is the degree measure of the sum of the interior angles of a convex polygon with $n + 2$ sides?",
+        "inference": "The sum of the interior angles of a convex polygon with $n$ sides is $(n-2)180^\\circ$.  Since the sum of the interior angles of a convex polygon with $n$ sides is 1800, $(n-2)180 = 1800$.  Dividing both sides by 180, we find $n-2 = 10$, so $n=12$.  Therefore, the sum of the interior angles of a convex polygon with $n+2 = 14$ sides is $(14-2)180 = \\boxed{2160}$ degrees. Final Answer: $\\boxed{2160}$. I hope it is correct. \n",
+        "ground_truth": "The sum of the measures of the interior angles of an $n$-gon is $180^\\circ(n-2)$.  Therefore,  \\[\n180(n-2)=1800 \\implies n=12.\n\\] So $n+2=14$, and the sum of the measures of the interior angles of a 14-gon is $180^\\circ(14-2)=\\boxed{2160}$ degrees."
+    },
+    {
+        "question": "The sum of the interior angles of a convex polygon with $n$ sides is $(n-2)180^\\circ$.  Since the sum of the interior angles of a convex polygon with $n$ sides is 1800, $(n-2)180 = 1800$.  Dividing both sides by 180, we find $n-2 = 10$, so $n=12$.  Therefore, the sum of the interior angles of a convex polygon with $n+2 = 14$ sides is $(14-2)180 = \\boxed{2160}$ degrees. Final Answer: $\\boxed{2160}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{2160}$  \n",
+        "ground_truth": "The sum of the measures of the interior angles of an $n$-gon is $180^\\circ(n-2)$.  Therefore,  \\[\n180(n-2)=1800 \\implies n=12.\n\\] So $n+2=14$, and the sum of the measures of the interior angles of a 14-gon is $180^\\circ(14-2)=\\boxed{2160}$ degrees."
+    }
+]

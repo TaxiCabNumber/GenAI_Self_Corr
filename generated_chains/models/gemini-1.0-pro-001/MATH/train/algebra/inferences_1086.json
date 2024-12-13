@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $x+y=\\frac{7}{13}$ and $x-y=\\frac{1}{91}$, what is the value of $x^2-y^2$? Express your answer as a common fraction.",
+        "inference": "$$x+y=\\frac{7}{13}\\text{ and }x-y=\\frac{1}{91}$$\n\nSince $x+y=\\frac{7}{13}$, we have $x=\\frac{7}{13}-y$.\n\nSubstituting this into the second equation, we get:\n\n$$\\left(\\frac{7}{13}-y\\right)-y=\\frac{1}{91}$$\n\n$$-\\frac{14}{13}y=\\frac{1}{91}$$\n\n$$y=-\\frac{1}{130}$$\n\nThus, $x=\\frac{7}{13}-y=\\frac{7}{13}+\\frac{1}{130}=\\frac{98}{195}$.\n\nTherefore, $x^2-y^2=\\left(\\frac{98}{195}\\right)^2-\\left(-\\frac{1}{130}\\right)^2$\n\n$$=\\frac{9604}{38025}-\\frac{1}{16900}=\\frac{9604(16900)-38025}{38025(16900)}$$\n\n$$=\\frac{161407800-38025}{38025(16900)}=\\frac{161404000}{38025(16900)}=\\frac{9800}{231}$$\n\nFinal Answer: $\\boxed{\\frac{9800}{231}}$. I hope it is correct.",
+        "ground_truth": "We know that $x^2 - y^2 = (x + y)(x - y)$. Substituting, we see that $x^2 - y^2 = \\frac{7}{13}\\cdot\\frac{1}{91} = \\boxed{\\frac{1}{169}}$."
+    },
+    {
+        "question": "$$x+y=\\frac{7}{13}\\text{ and }x-y=\\frac{1}{91}$$\n\nSince $x+y=\\frac{7}{13}$, we have $x=\\frac{7}{13}-y$.\n\nSubstituting this into the second equation, we get:\n\n$$\\left(\\frac{7}{13}-y\\right)-y=\\frac{1}{91}$$\n\n$$-\\frac{14}{13}y=\\frac{1}{91}$$\n\n$$y=-\\frac{1}{130}$$\n\nThus, $x=\\frac{7}{13}-y=\\frac{7}{13}+\\frac{1}{130}=\\frac{98}{195}$.\n\nTherefore, $x^2-y^2=\\left(\\frac{98}{195}\\right)^2-\\left(-\\frac{1}{130}\\right)^2$\n\n$$=\\frac{9604}{38025}-\\frac{1}{16900}=\\frac{9604(16900)-38025}{38025(16900)}$$\n\n$$=\\frac{161407800-38025}{38025(16900)}=\\frac{161404000}{38025(16900)}=\\frac{9800}{231}$$\n\nFinal Answer: $\\boxed{\\frac{9800}{231}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$9800/231$}",
+        "ground_truth": "We know that $x^2 - y^2 = (x + y)(x - y)$. Substituting, we see that $x^2 - y^2 = \\frac{7}{13}\\cdot\\frac{1}{91} = \\boxed{\\frac{1}{169}}$."
+    }
+]

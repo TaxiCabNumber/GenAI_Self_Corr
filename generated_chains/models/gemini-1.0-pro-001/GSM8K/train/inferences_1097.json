@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nOut of the 200 cookies that Javier baked from the recipe he learned online, his wife took 30%, and his daughter took 40 from the remaining cookies. If he ate half of the remaining cookies, how many cookies did they not eat?",
+        "inference": "1. Javier baked 200 cookies.\n2. His wife took 30%, which is 0.30 x 200 = 60 cookies.\n3. There were 200 - 60 = 140 cookies left.\n4. His daughter took 40 from the remaining cookies, which is 0.40 x 140 = 56 cookies.\n5. There were 140 - 56 = 84 cookies left.\n6. Javier ate half of the remaining cookies, which is 0.50 x 84 = 42 cookies.\n7. Therefore, they did not eat 84 - 42 = 42 cookies.\nI hope it is correct: 42",
+        "ground_truth": "From the 200 cookies, Javier's wife ate 30/100*200 = <<30/100*200=60>>60\nAfter the wife ate 60 cookies, the number of cookies that remained was 200-60 = <<200-60=140>>140\nThe daughter also ate 40 cookies leaving 140-40 = <<140-40=100>>100 cookies.\nIf Javier ate half of the remaining cookies, he ate 1/2*100 = 50.\nThe number of cookies that remained is 100-50 = <<100-50=50>>50\n#### 50"
+    },
+    {
+        "question": "1. Javier baked 200 cookies.\n2. His wife took 30%, which is 0.30 x 200 = 60 cookies.\n3. There were 200 - 60 = 140 cookies left.\n4. His daughter took 40 from the remaining cookies, which is 0.40 x 140 = 56 cookies.\n5. There were 140 - 56 = 84 cookies left.\n6. Javier ate half of the remaining cookies, which is 0.50 x 84 = 42 cookies.\n7. Therefore, they did not eat 84 - 42 = 42 cookies.\nI hope it is correct: 42\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 42",
+        "ground_truth": "From the 200 cookies, Javier's wife ate 30/100*200 = <<30/100*200=60>>60\nAfter the wife ate 60 cookies, the number of cookies that remained was 200-60 = <<200-60=140>>140\nThe daughter also ate 40 cookies leaving 140-40 = <<140-40=100>>100 cookies.\nIf Javier ate half of the remaining cookies, he ate 1/2*100 = 50.\nThe number of cookies that remained is 100-50 = <<100-50=50>>50\n#### 50"
+    }
+]

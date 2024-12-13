@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA basket of green food costs $25 and a basket of red food costs $18. If you buy 3 baskets of green food and red food, how much will you have to pay in total if you get $2 off for each basket of red food?",
+        "inference": "1. The total cost of 3 baskets of green food is $25 * 3 = $75.\n2. The total cost of 3 baskets of red food without the discount is $18 * 3 = $54.\n3. The total cost of 3 baskets of red food with the discount is $54 - (2 * 3) = $48.\n4. The total cost of 3 baskets of green food and 3 baskets of red food is $75 + $48 = $123.\nI hope it is correct: $123$",
+        "ground_truth": "The 3 baskets of green food will cost $25 x 3 = $<<25*3=75>>75.\nThe 3 baskets of red food will cost $18 x 3 = $<<18*3=54>>54.\nThere will be $2 x 3 = $<<2*3=6>>6 off for the baskets of red food.\nSo, the 3 baskets of red food will now cost $54 - $6 = $<<54-6=48>>48.\nYou will have to pay $75 + $48 = $<<75+48=123>>123 for all the baskets of food.\n#### 123"
+    },
+    {
+        "question": "1. The total cost of 3 baskets of green food is $25 * 3 = $75.\n2. The total cost of 3 baskets of red food without the discount is $18 * 3 = $54.\n3. The total cost of 3 baskets of red food with the discount is $54 - (2 * 3) = $48.\n4. The total cost of 3 baskets of green food and 3 baskets of red food is $75 + $48 = $123.\nI hope it is correct: $123$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ :123",
+        "ground_truth": "The 3 baskets of green food will cost $25 x 3 = $<<25*3=75>>75.\nThe 3 baskets of red food will cost $18 x 3 = $<<18*3=54>>54.\nThere will be $2 x 3 = $<<2*3=6>>6 off for the baskets of red food.\nSo, the 3 baskets of red food will now cost $54 - $6 = $<<54-6=48>>48.\nYou will have to pay $75 + $48 = $<<75+48=123>>123 for all the baskets of food.\n#### 123"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\n23 people attend a party. Each person shakes hands with at least one other person. What is the minimum possible number of handshakes?",
+        "inference": "If each person shakes hands with at least one other person, then each of the 23 people must shake hands with at least 1 of the other 22 people. So, the minimum number of handshakes is 23 * 22 = 506.\nFinal Answer: \\boxed{$506$}. I hope it is correct.",
+        "ground_truth": "If each person shakes hands with exactly one other person, then there will be $\\frac{23 \\cdot 1}{2}$ handshakes, since two people are required to complete a handshake. This is equal to 11.5 handshakes, which is clearly impossible. We can achieve 12 handshakes by forming two rows of 11 and 12 people. Each person in the first row shakes hands a different person in the second row. This will give eleven handshakes. The leftover person must shake hands with someone, giving $\\boxed{12}$ handshakes total."
+    },
+    {
+        "question": "If each person shakes hands with at least one other person, then each of the 23 people must shake hands with at least 1 of the other 22 people. So, the minimum number of handshakes is 23 * 22 = 506.\nFinal Answer: \\boxed{$506$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$506$}.",
+        "ground_truth": "If each person shakes hands with exactly one other person, then there will be $\\frac{23 \\cdot 1}{2}$ handshakes, since two people are required to complete a handshake. This is equal to 11.5 handshakes, which is clearly impossible. We can achieve 12 handshakes by forming two rows of 11 and 12 people. Each person in the first row shakes hands a different person in the second row. This will give eleven handshakes. The leftover person must shake hands with someone, giving $\\boxed{12}$ handshakes total."
+    }
+]

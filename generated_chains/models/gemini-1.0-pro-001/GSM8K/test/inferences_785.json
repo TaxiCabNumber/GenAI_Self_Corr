@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nCarrie was given ten twenties and 140 quarters by her aunt to use for lunch. If she spent all the quarters and 3/5 of the twenties, calculate the total amount of money she paid for the lunch.",
+        "inference": "1. Convert the twenties to quarters: 10 x 20 = 200 quarters\n2. Add the quarters: 200 quarters + 140 quarters = 340 quarters\n3. Calculate 3/5 of the twenties: 10 x 20 x 3 / 5 = 120 quarters\n4. Add the spent money: 340 quarters + 120 quarters = 460 quarters\n5. Convert the quarters to dollars: 460 quarters / 4 = $115\n\nI hope it is correct: 115",
+        "ground_truth": "Since she spent all the quarters, she paid her lunch partly by quarters totaling 140*$0.25 = $<<140*0.25=35>>35\nShe also used 3/5*10 = <<3/5*10=6>>6 of the twenties to pay for the lunch.\nThe total amount of the twenties that she used is 6*$20 = $<<6*20=120>>120\nShe spent $120+$35 = $<<120+35=155>>155 on the lunch.\n#### 155"
+    },
+    {
+        "question": "1. Convert the twenties to quarters: 10 x 20 = 200 quarters\n2. Add the quarters: 200 quarters + 140 quarters = 340 quarters\n3. Calculate 3/5 of the twenties: 10 x 20 x 3 / 5 = 120 quarters\n4. Add the spent money: 340 quarters + 120 quarters = 460 quarters\n5. Convert the quarters to dollars: 460 quarters / 4 = $115\n\nI hope it is correct: 115\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$115$",
+        "ground_truth": "Since she spent all the quarters, she paid her lunch partly by quarters totaling 140*$0.25 = $<<140*0.25=35>>35\nShe also used 3/5*10 = <<3/5*10=6>>6 of the twenties to pay for the lunch.\nThe total amount of the twenties that she used is 6*$20 = $<<6*20=120>>120\nShe spent $120+$35 = $<<120+35=155>>155 on the lunch.\n#### 155"
+    }
+]

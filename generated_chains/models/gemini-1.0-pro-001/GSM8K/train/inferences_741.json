@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAngelina is 4 years older than Justin is now. In 5 years, Angelina will be 40 years old. Calculate the age of Justin currently.",
+        "inference": "Let Justin's current age be x.\n\nIn 5 years, Angelina will be 40. So, her current age is 40 - 5 = 35.\n\nSince Angelina is 4 years older than Justin, Justin's current age is 35 - 4 = 31.\n\nI hope it is correct: Justin's current age is 31",
+        "ground_truth": "In five years, Angelina will be 40 years old, meaning currently she is 40-5 = <<40-5=35>>35 years old.\nSince Angelina is 35 years old right now, and she is four years older than Justin, it means Justin is 35-4 = <<35-4=31>>31 years old.\n#### 31"
+    },
+    {
+        "question": "Let Justin's current age be x.\n\nIn 5 years, Angelina will be 40. So, her current age is 40 - 5 = 35.\n\nSince Angelina is 4 years older than Justin, Justin's current age is 35 - 4 = 31.\n\nI hope it is correct: Justin's current age is 31\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$31",
+        "ground_truth": "In five years, Angelina will be 40 years old, meaning currently she is 40-5 = <<40-5=35>>35 years old.\nSince Angelina is 35 years old right now, and she is four years older than Justin, it means Justin is 35-4 = <<35-4=31>>31 years old.\n#### 31"
+    }
+]

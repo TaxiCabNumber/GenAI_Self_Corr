@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the period of $y = \\cos \\frac{x}{2}$?",
+        "inference": "Final Answer: $\\boxed{4\\pi}$. I hope it is correct. \n",
+        "ground_truth": "The graph of $y=\\cos \\frac{x}{2}$ passes through one full period as $\\frac{x}{2}$ ranges from $0$ to $2\\pi,$ which means $x$ ranges from $0$ to $\\boxed{4 \\pi}.$\n\nThe graph of $y=\\cos \\frac{x}{2}$ is shown below:\n\n[asy]import TrigMacros;\n\nsize(400);\n\nreal g(real x)\n{\n\treturn cos(x/2);\n}\n\ndraw(graph(g,-3*pi,3*pi,n=700,join=operator ..),red);\ntrig_axes(-3*pi,3*pi,-2,2,pi/2,1);\nlayer();\nrm_trig_labels(-5, 5, 2);\n[/asy]"
+    },
+    {
+        "question": "Final Answer: $\\boxed{4\\pi}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the original question and solution so I can help you identify and correct any errors. I need the context to understand the problem and give you a valid final answer. \n",
+        "ground_truth": "The graph of $y=\\cos \\frac{x}{2}$ passes through one full period as $\\frac{x}{2}$ ranges from $0$ to $2\\pi,$ which means $x$ ranges from $0$ to $\\boxed{4 \\pi}.$\n\nThe graph of $y=\\cos \\frac{x}{2}$ is shown below:\n\n[asy]import TrigMacros;\n\nsize(400);\n\nreal g(real x)\n{\n\treturn cos(x/2);\n}\n\ndraw(graph(g,-3*pi,3*pi,n=700,join=operator ..),red);\ntrig_axes(-3*pi,3*pi,-2,2,pi/2,1);\nlayer();\nrm_trig_labels(-5, 5, 2);\n[/asy]"
+    }
+]

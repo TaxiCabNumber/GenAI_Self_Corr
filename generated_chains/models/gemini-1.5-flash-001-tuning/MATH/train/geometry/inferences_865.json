@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\n$\\triangle ABC\\sim\\triangle DBE$, $BC=20\\text{ cm}.$ How many centimeters long is $DE$? Express your answer as a decimal to the nearest tenth. [asy]\ndraw((0,0)--(20,0)--(20,12)--cycle);\ndraw((13,0)--(13,7.8));\nlabel(\"$B$\",(0,0),SW);\nlabel(\"$E$\",(13,0),S);\nlabel(\"$D$\",(13,7.8),NW);\nlabel(\"$A$\",(20,12),NE);\nlabel(\"$C$\",(20,0),SE);\nlabel(\"13\",(6.5,0),S);\nlabel(\"12\",(20,6),E);\n[/asy]",
+        "inference": "Final Answer: \\\\boxed{7.8}. I hope it is correct.",
+        "ground_truth": "From our similarity, we have that: \\begin{align*}\n\\frac{DE}{AC} &= \\frac{BE}{BC} \\\\\nDE &= \\frac{BE \\cdot AC}{BC}\\\\\n&= \\frac{13\\text{ cm} \\cdot 12\\text{ cm}}{20\\text{ cm}} = \\boxed{7.8}\\text{ cm}.\n\\end{align*}"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{7.8}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the question and the solution you're referring to so I can help you find the error and rewrite the solution. \n",
+        "ground_truth": "From our similarity, we have that: \\begin{align*}\n\\frac{DE}{AC} &= \\frac{BE}{BC} \\\\\nDE &= \\frac{BE \\cdot AC}{BC}\\\\\n&= \\frac{13\\text{ cm} \\cdot 12\\text{ cm}}{20\\text{ cm}} = \\boxed{7.8}\\text{ cm}.\n\\end{align*}"
+    }
+]

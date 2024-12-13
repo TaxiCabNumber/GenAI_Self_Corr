@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIvan has a bird feeder in his yard that holds two cups of birdseed. Every week, he has to refill the emptied feeder. Each cup of birdseed can feed fourteen birds, but Ivan is constantly chasing away a hungry squirrel that steals half a cup of birdseed from the feeder every week. How many birds does Ivan\u2019s bird feeder feed weekly?",
+        "inference": "Feeder holds = 2 cups \nSquirrel steals  = 0.5 cups \n\nAmount left in the feeder = 2 - 0.5 = 1.5 cups \n\nNumber of birds that can be fed  = 1.5 x 14 \n= 21 birds \n\nI hope it is correct: 21 birds",
+        "ground_truth": "The squirrel steals 1/2 cup of birdseed every week, so the birds eat 2 - 1/2 = 1 1/2 cups of birdseed.\nEach cup feeds 14 birds, so Ivan\u2019s bird feeder feeds 14 * 1 1/2 = 21 birds weekly.\n#### 21"
+    },
+    {
+        "question": "Feeder holds = 2 cups \nSquirrel steals  = 0.5 cups \n\nAmount left in the feeder = 2 - 0.5 = 1.5 cups \n\nNumber of birds that can be fed  = 1.5 x 14 \n= 21 birds \n\nI hope it is correct: 21 birds\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$21",
+        "ground_truth": "The squirrel steals 1/2 cup of birdseed every week, so the birds eat 2 - 1/2 = 1 1/2 cups of birdseed.\nEach cup feeds 14 birds, so Ivan\u2019s bird feeder feeds 14 * 1 1/2 = 21 birds weekly.\n#### 21"
+    }
+]

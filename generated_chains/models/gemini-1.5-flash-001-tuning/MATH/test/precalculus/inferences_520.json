@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the matrix $\\mathbf{M}$ that swaps the rows of a matrix.  In other words,\n\\[\\mathbf{M} \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = \\begin{pmatrix} c & d \\\\ a & b \\end{pmatrix}.\\]If no such matrix $\\mathbf{M}$ exists, then enter the zero matrix.",
+        "inference": "Final Answer: \\\\boxed{ \\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}}.\n",
+        "ground_truth": "Let $\\mathbf{M} = \\begin{pmatrix} p & q \\\\ r & s \\end{pmatrix}.$  Then\n\\[\\mathbf{M} \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = \\begin{pmatrix} p & q \\\\ r & s \\end{pmatrix} \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = \\begin{pmatrix} pa + qc & pb + qd \\\\ ra + sc & rb + sd \\end{pmatrix}.\\]We want this to be equal to $\\begin{pmatrix} c & d \\\\ a & b \\end{pmatrix}.$  We can achieve this by taking $p = 0,$ $q = 1,$ $r = 1,$ and $s = 0,$ so $\\mathbf{M} = \\boxed{\\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}}.$"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{ \\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}}.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the question and the solution steps that led to the answer $\\boxed{ \\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}}$. I need this information to identify any errors and provide a corrected solution. \n",
+        "ground_truth": "Let $\\mathbf{M} = \\begin{pmatrix} p & q \\\\ r & s \\end{pmatrix}.$  Then\n\\[\\mathbf{M} \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = \\begin{pmatrix} p & q \\\\ r & s \\end{pmatrix} \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = \\begin{pmatrix} pa + qc & pb + qd \\\\ ra + sc & rb + sd \\end{pmatrix}.\\]We want this to be equal to $\\begin{pmatrix} c & d \\\\ a & b \\end{pmatrix}.$  We can achieve this by taking $p = 0,$ $q = 1,$ $r = 1,$ and $s = 0,$ so $\\mathbf{M} = \\boxed{\\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}}.$"
+    }
+]

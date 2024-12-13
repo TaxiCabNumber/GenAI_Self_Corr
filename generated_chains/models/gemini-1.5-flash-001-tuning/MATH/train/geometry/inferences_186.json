@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nAn isosceles triangle has side lengths 8 cm, 8 cm and 10 cm.  The longest side of a similar triangle is 25 cm. What is the perimeter of the larger triangle, in centimeters?",
+        "inference": "Since the triangles are similar, the ratio of corresponding sides is constant.  The longest side of the smaller triangle is 10 cm, and the longest side of the larger triangle is 25 cm, so the ratio of corresponding sides is 25/10 = 5/2.  The other two sides of the larger triangle are each (5/2)*8 = 20 cm.  The perimeter of the larger triangle is 20 + 20 + 25 = 65 cm. \n\nFinal Answer: $\\boxed{65}$. I hope it is correct. \n",
+        "ground_truth": "The ratio of the length of the longest sides of the small triangle to the large triangle is $10/25 = 2/5$, which must hold constant for all sides of the two triangles since they are similar.  Thus the perimeters of the two triangles are also in the ratio of $2/5$.  The small triangle has perimeter $8+8+10=26$, so the large triangle has perimeter $\\frac{5}{2}\\cdot 26 = \\boxed{65}$."
+    },
+    {
+        "question": "Since the triangles are similar, the ratio of corresponding sides is constant.  The longest side of the smaller triangle is 10 cm, and the longest side of the larger triangle is 25 cm, so the ratio of corresponding sides is 25/10 = 5/2.  The other two sides of the larger triangle are each (5/2)*8 = 20 cm.  The perimeter of the larger triangle is 20 + 20 + 25 = 65 cm. \n\nFinal Answer: $\\boxed{65}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{65}  I hope it is correct. \n",
+        "ground_truth": "The ratio of the length of the longest sides of the small triangle to the large triangle is $10/25 = 2/5$, which must hold constant for all sides of the two triangles since they are similar.  Thus the perimeters of the two triangles are also in the ratio of $2/5$.  The small triangle has perimeter $8+8+10=26$, so the large triangle has perimeter $\\frac{5}{2}\\cdot 26 = \\boxed{65}$."
+    }
+]

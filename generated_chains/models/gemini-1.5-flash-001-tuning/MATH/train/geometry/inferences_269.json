@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $\\triangle ABC$ be a right triangle such that $B$ is a right angle. A circle with diameter of $BC$ meets side $AC$ at $D.$ If the area of $\\triangle ABC$ is $150$ and $AC = 25,$ then what is $BD$?",
+        "inference": "Final Answer: \\\\boxed{12}. I hope it is correct.",
+        "ground_truth": "We might try sketching a diagram: [asy]\npair pA, pB, pC, pO, pD;\npA = (-15, 0);\npB = (0, 0);\npC = (0, 20);\npO = (0, 10);\npD = (-9.6, 7.2);\ndraw(pA--pB--pC--pA);\ndraw(pD--pB);\ndraw(circle(pO, 10));\nlabel(\"$A$\", pA, SW);\nlabel(\"$B$\", pB, S);\nlabel(\"$C$\", pC, N);\nlabel(\"$D$\", pD, W);\n[/asy] Since $BC$ is a diameter of the circle, that makes $\\angle BDC$ a right angle. That means that $BD$ is an altitude of $\\triangle ABC.$ Then, we use the area formula to find $150 = \\frac{1}{2} \\cdot AC \\cdot BD,$ where $AC = 25.$ Solving, we have $BD = \\boxed{12}.$"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{12}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the question and the solution you are referring to. I need context to identify and correct any potential errors. \n",
+        "ground_truth": "We might try sketching a diagram: [asy]\npair pA, pB, pC, pO, pD;\npA = (-15, 0);\npB = (0, 0);\npC = (0, 20);\npO = (0, 10);\npD = (-9.6, 7.2);\ndraw(pA--pB--pC--pA);\ndraw(pD--pB);\ndraw(circle(pO, 10));\nlabel(\"$A$\", pA, SW);\nlabel(\"$B$\", pB, S);\nlabel(\"$C$\", pC, N);\nlabel(\"$D$\", pD, W);\n[/asy] Since $BC$ is a diameter of the circle, that makes $\\angle BDC$ a right angle. That means that $BD$ is an altitude of $\\triangle ABC.$ Then, we use the area formula to find $150 = \\frac{1}{2} \\cdot AC \\cdot BD,$ where $AC = 25.$ Solving, we have $BD = \\boxed{12}.$"
+    }
+]

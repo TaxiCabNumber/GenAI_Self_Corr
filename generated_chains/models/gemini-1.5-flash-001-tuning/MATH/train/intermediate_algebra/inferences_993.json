@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $P(x)$ be a polynomial such that when $P(x)$ is divided by $x-17$, the remainder is $14$, and when $P(x)$ is divided by $x-13$, the remainder is $6$. What is the remainder when $P(x)$ is divided by $(x-13)(x-17)$?",
+        "inference": "Final Answer: \\\\boxed{13x - 173}. I hope it is correct.",
+        "ground_truth": "Since we are dividing by a quadratic, our remainder will have degree at most $1$. Hence the remainder is of the form $ax+b$ for some constants $a$ and $b$. We have\n$$P(x) = (x-13)(x-17)Q(x) + ax+b$$where $Q(x)$ is the quotient when $P(x)$ is divided by $(x-13)(x-17)$. We can eliminate the $Q(x)$ term by plugging in $x=13$ or $x=17$. Using the Remainder Theorem, each gives us an equation:\n$$P(13) = 13a+b=6$$$$P(17) = 17a+b=14$$Solving this system gives us $a=2$ and $b=-20$, and hence the remainder when $P(x)$ is divided by $(x-13)(x-17)$ is $\\boxed{2x-20}$."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{13x - 173}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the question so I can help you find the correct solution. I need to see the problem to identify any errors and provide the correct answer. \n",
+        "ground_truth": "Since we are dividing by a quadratic, our remainder will have degree at most $1$. Hence the remainder is of the form $ax+b$ for some constants $a$ and $b$. We have\n$$P(x) = (x-13)(x-17)Q(x) + ax+b$$where $Q(x)$ is the quotient when $P(x)$ is divided by $(x-13)(x-17)$. We can eliminate the $Q(x)$ term by plugging in $x=13$ or $x=17$. Using the Remainder Theorem, each gives us an equation:\n$$P(13) = 13a+b=6$$$$P(17) = 17a+b=14$$Solving this system gives us $a=2$ and $b=-20$, and hence the remainder when $P(x)$ is divided by $(x-13)(x-17)$ is $\\boxed{2x-20}$."
+    }
+]

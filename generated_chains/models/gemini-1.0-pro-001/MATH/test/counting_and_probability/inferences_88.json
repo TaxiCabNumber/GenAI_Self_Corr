@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nTwo cards are chosen at random from a standard 52-card deck.  What is the probability that both are face cards (Jacks, Queens, or Kings)?",
+        "inference": "There are 12 face cards in a standard deck of 52 cards.\nThe probability of choosing a face card on the first draw is 12/52.\nThe probability of choosing a face card on the second draw is 11/51 (since one face card has already been removed).\nThe probability of choosing two face cards is (12/52) * (11/51) = 132/2652.\nFinal Answer:  \\boxed{1/20}. I hope it is correct.",
+        "ground_truth": "There are 12 face cards, so there are $\\binom{12}{2}$ ways to choose 2 face cards (without regard to order).  There are $\\binom{52}{2}$ ways to choose any 2 cards (without regard to order).  So the answer is \\[\\frac{\\binom{12}{2}}{\\binom{52}{2}}=\\boxed{\\frac{11}{221}}.\\]"
+    },
+    {
+        "question": "There are 12 face cards in a standard deck of 52 cards.\nThe probability of choosing a face card on the first draw is 12/52.\nThe probability of choosing a face card on the second draw is 11/51 (since one face card has already been removed).\nThe probability of choosing two face cards is (12/52) * (11/51) = 132/2652.\nFinal Answer:  \\boxed{1/20}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{1/20}",
+        "ground_truth": "There are 12 face cards, so there are $\\binom{12}{2}$ ways to choose 2 face cards (without regard to order).  There are $\\binom{52}{2}$ ways to choose any 2 cards (without regard to order).  So the answer is \\[\\frac{\\binom{12}{2}}{\\binom{52}{2}}=\\boxed{\\frac{11}{221}}.\\]"
+    }
+]

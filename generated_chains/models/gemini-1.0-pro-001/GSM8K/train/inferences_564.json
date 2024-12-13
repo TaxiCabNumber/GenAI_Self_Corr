@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRodney has 35 dollars more than Ian. Ian has half as much money as Jessica has. If Jessica has 100 dollars, how much more money does Jessica have than Rodney?",
+        "inference": "1. Jessica has 100 dollars.\n2. Ian has half as much money as Jessica has, so Ian has 100/2 = 50 dollars.\n3. Rodney has 35 dollars more than Ian, so Rodney has 50 + 35 = 85 dollars.\n4. Jessica has 100 dollars and Rodney has 85 dollars, so Jessica has 100 - 85 = 15 dollars more than Rodney.\nI hope it is correct: 15 $",
+        "ground_truth": "Ian has 100/2 = <<100/2=50>>50 dollars.\nRodney has 50+35 = <<50+35=85>>85 dollars.\nJessica has 100-85 = <<100-85=15>>15 more dollars than Rodney.\n#### 15"
+    },
+    {
+        "question": "1. Jessica has 100 dollars.\n2. Ian has half as much money as Jessica has, so Ian has 100/2 = 50 dollars.\n3. Rodney has 35 dollars more than Ian, so Rodney has 50 + 35 = 85 dollars.\n4. Jessica has 100 dollars and Rodney has 85 dollars, so Jessica has 100 - 85 = 15 dollars more than Rodney.\nI hope it is correct: 15 $\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$15",
+        "ground_truth": "Ian has 100/2 = <<100/2=50>>50 dollars.\nRodney has 50+35 = <<50+35=85>>85 dollars.\nJessica has 100-85 = <<100-85=15>>15 more dollars than Rodney.\n#### 15"
+    }
+]

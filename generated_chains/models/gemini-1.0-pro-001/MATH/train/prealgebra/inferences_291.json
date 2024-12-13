@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the area of triangle $ABC$ below.\n\n\n[asy]\n\nunitsize(1inch);\n\npair P,Q,R;\n\nP = (0,0);\n\nQ= (sqrt(3),0);\n\nR = (0,1);\n\ndraw (P--Q--R--P,linewidth(0.9));\n\ndraw(rightanglemark(Q,P,R,3));\n\nlabel(\"$A$\",P,S);\n\nlabel(\"$B$\",Q,S);\n\nlabel(\"$C$\",R,N);\n\nlabel(\"$6$\",R/2,W);\n\nlabel(\"$30^\\circ$\",(1.25,0),N);\n\n[/asy]",
+        "inference": "**Solution:**\nThe area of a triangle is given by $A=\\frac{1}{2}bh$ where $b$ is the base and $h$ is the height.\nIn this case, the base is $6$ and the height is $3$.\nSo, the area of the triangle is $A=\\frac{1}{2}(6)(3)=\\boxed{9}$.\n\n**Final Answer: \\boxed{9}. I hope it is correct.**",
+        "ground_truth": "Since $ABC$ is a 30-60-90 triangle, we have $AB = AC\\sqrt{3} = 6\\sqrt{3}$, and  \\[[ABC] = \\frac{(AB)(AC)}{2} = \\frac{(6)(6\\sqrt{3})}{2} = \\frac{36\\sqrt{3}}{2} = \\boxed{18\\sqrt{3}}.\\]"
+    },
+    {
+        "question": "**Solution:**\nThe area of a triangle is given by $A=\\frac{1}{2}bh$ where $b$ is the base and $h$ is the height.\nIn this case, the base is $6$ and the height is $3$.\nSo, the area of the triangle is $A=\\frac{1}{2}(6)(3)=\\boxed{9}$.\n\n**Final Answer: \\boxed{9}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{9}",
+        "ground_truth": "Since $ABC$ is a 30-60-90 triangle, we have $AB = AC\\sqrt{3} = 6\\sqrt{3}$, and  \\[[ABC] = \\frac{(AB)(AC)}{2} = \\frac{(6)(6\\sqrt{3})}{2} = \\frac{36\\sqrt{3}}{2} = \\boxed{18\\sqrt{3}}.\\]"
+    }
+]

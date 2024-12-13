@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA publishing house decides to create a contest for new writers and will award a total of $800 in prizes to the 18 novels with the most votes. First place will get $200, second place will get $150, third place $120 and the rest of the awards will be paid with the same amount of money. How much money will each writer earn from fourth place onwards?",
+        "inference": "The total amount of money for positions 4 to 18 is 800 - 200 - 150 - 120 = $330. There are 15 positions from 4 to 18, so each writer will earn $330/15 = $22. I hope it is correct: $22$",
+        "ground_truth": "The first three cash prizes sum to $200 + $150 + $120= $<<200+150+120=470>>470\nThe remaining amount of cash prizes to be distributed is $800 - $470= $<<800-470=330>>330\nThe number of novels left to be awarded is 18 \u2013 3= <<18-3=15>>15 novels\nSo each writer from 4th to 18th will earn $330 / 15= $<<330/15=22>>22\n#### 22"
+    },
+    {
+        "question": "The total amount of money for positions 4 to 18 is 800 - 200 - 150 - 120 = $330. There are 15 positions from 4 to 18, so each writer will earn $330/15 = $22. I hope it is correct: $22$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $22$",
+        "ground_truth": "The first three cash prizes sum to $200 + $150 + $120= $<<200+150+120=470>>470\nThe remaining amount of cash prizes to be distributed is $800 - $470= $<<800-470=330>>330\nThe number of novels left to be awarded is 18 \u2013 3= <<18-3=15>>15 novels\nSo each writer from 4th to 18th will earn $330 / 15= $<<330/15=22>>22\n#### 22"
+    }
+]

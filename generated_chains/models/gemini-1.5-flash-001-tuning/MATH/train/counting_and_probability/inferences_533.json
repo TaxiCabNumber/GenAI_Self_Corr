@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nMonica tosses a fair 6-sided die.  If the roll is a prime number, then she wins that amount of dollars (so that, for example, if she rolls 3, then she wins 3 dollars).  If the roll is composite, she wins nothing. Otherwise, she loses 3 dollars. What is the expected value of her winnings on one die toss? Express your answer as a dollar value to the nearest cent.",
+        "inference": "Final Answer: \\\\boxed{\\$0.50}. I hope it is correct. \n",
+        "ground_truth": "The only primes on a die are 2, 3, and 5. The only composites are 4 and 6. The only other option is rolling a 1. There is a $\\dfrac{1}{6}$ probability that she will roll a 1 and lose $\\$3$, a $\\dfrac{1}{3}$ probability of rolling a composite and winning $\\$0$, and a $\\dfrac{1}{6}$ probability of winning each of $\\$2$, $\\$3$, or $\\$5$.  So $$E = \\dfrac{1}{3}\\times \\$0 + \\dfrac{1}{6}\\times(\\$2+\\$3+\\$5) + \\dfrac{1}{6} \\times -\\$3 \\approx \\boxed{\\$1.17}.$$"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{\\$0.50}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the original question and the solution you are referring to. I need the context to identify any errors and rewrite the solution. \n",
+        "ground_truth": "The only primes on a die are 2, 3, and 5. The only composites are 4 and 6. The only other option is rolling a 1. There is a $\\dfrac{1}{6}$ probability that she will roll a 1 and lose $\\$3$, a $\\dfrac{1}{3}$ probability of rolling a composite and winning $\\$0$, and a $\\dfrac{1}{6}$ probability of winning each of $\\$2$, $\\$3$, or $\\$5$.  So $$E = \\dfrac{1}{3}\\times \\$0 + \\dfrac{1}{6}\\times(\\$2+\\$3+\\$5) + \\dfrac{1}{6} \\times -\\$3 \\approx \\boxed{\\$1.17}.$$"
+    }
+]

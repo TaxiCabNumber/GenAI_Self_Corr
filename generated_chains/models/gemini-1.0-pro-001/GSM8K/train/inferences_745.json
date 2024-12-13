@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nVillage Foods sells good food at a fair price.  Their specialty is fresh vegetables.  If they get 500 customers per month, and each customer purchases 2 heads of lettuce for $1 each and 4 tomatoes for $0.5 apiece, then how much money, in dollars, will the store receive in sales of lettuce and tomatoes per month?",
+        "inference": "1. Calculate the sales from the lettuce:  \n500 customers x 2 heads of lettuce per customer x $1 per head = $1000 in lettuce sales  \n\n2. Calculate the sales from the tomatoes:  \n500 customers x 4 tomatoes per customer x $0.5 per tomato = $1000 in tomato sales  \n\n3. Total the sales from the lettuce and tomatoes:  \n$1000 (lettuce) + $1000 (tomatoes) = $2000  \n  \n**I hope it is correct: $2000$**",
+        "ground_truth": "2 heads of lettuce at $1 apiece is 2*$1=$<<2*1=2>>2.\n4 tomatoes at $0.50 apiece is 4*$0.5=$<<4*0.5=2>>2.\nThus, each customer purchases $2+$2=$<<2+2=4>>4 in lettuce and tomatoes per month.\nTherefore, if 500 customers per month spend $4 on lettuce and tomatoes, then the store will receive $4*500=$<<4*500=2000>>2000 per month on sales of lettuce and tomatoes.\n#### 2000"
+    },
+    {
+        "question": "1. Calculate the sales from the lettuce:  \n500 customers x 2 heads of lettuce per customer x $1 per head = $1000 in lettuce sales  \n\n2. Calculate the sales from the tomatoes:  \n500 customers x 4 tomatoes per customer x $0.5 per tomato = $1000 in tomato sales  \n\n3. Total the sales from the lettuce and tomatoes:  \n$1000 (lettuce) + $1000 (tomatoes) = $2000  \n  \n**I hope it is correct: $2000$**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $2000$",
+        "ground_truth": "2 heads of lettuce at $1 apiece is 2*$1=$<<2*1=2>>2.\n4 tomatoes at $0.50 apiece is 4*$0.5=$<<4*0.5=2>>2.\nThus, each customer purchases $2+$2=$<<2+2=4>>4 in lettuce and tomatoes per month.\nTherefore, if 500 customers per month spend $4 on lettuce and tomatoes, then the store will receive $4*500=$<<4*500=2000>>2000 per month on sales of lettuce and tomatoes.\n#### 2000"
+    }
+]

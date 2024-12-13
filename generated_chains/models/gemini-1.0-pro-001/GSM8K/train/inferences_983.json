@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nCarter is twice as tall as his 24\u201d tall dog.  Betty is 12\u201d shorter than Carter.  How tall is Betty in feet?",
+        "inference": "1. **Carter's height** = 24\" x 2 = 48\"\n\n2. **Betty's height** = Carter's height - 12\" = 48\" - 12\" = 36\"\n\n3. **Convert Betty's height to feet** = 36\" / 12\" / ft = 3 ft.\n\nI hope it is correct: 3 ft",
+        "ground_truth": "Carter is twice as tall as 24\u201d dog so he is 2*24 = <<2*24=48>>48\u201d\nBetty is 12\u201d shorter than Carter so Betty is 48-12 = <<48-12=36>>36\u201d tall\n12\" is the same as 1 foot so Betty is 36/12 = 3 feet tall\n#### 3"
+    },
+    {
+        "question": "1. **Carter's height** = 24\" x 2 = 48\"\n\n2. **Betty's height** = Carter's height - 12\" = 48\" - 12\" = 36\"\n\n3. **Convert Betty's height to feet** = 36\" / 12\" / ft = 3 ft.\n\nI hope it is correct: 3 ft\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$3 ft",
+        "ground_truth": "Carter is twice as tall as 24\u201d dog so he is 2*24 = <<2*24=48>>48\u201d\nBetty is 12\u201d shorter than Carter so Betty is 48-12 = <<48-12=36>>36\u201d tall\n12\" is the same as 1 foot so Betty is 36/12 = 3 feet tall\n#### 3"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the greatest possible value of $x$ for the equation $$\\left(\\frac{4x-16}{3x-4}\\right)^2+\\left(\\frac{4x-16}{3x-4}\\right)=12?$$",
+        "inference": "$$\\left(\\frac{4x-16}{3x-4}\\right)^2+\\left(\\frac{4x-16}{3x-4}\\right)=12$$\n\nLet \\(u=\\frac{4x-16}{3x-4}\\). Then the equation becomes\n\n$$u^2+u=12$$\n\n$$u^2+u-12=0$$\n\n$$(u-3)(u+4)=0$$\n\n$$u=3\\text{ or }u=-4$$\n\nSubstituting back for \\(u\\), we get\n\n$$\\frac{4x-16}{3x-4}=3\\text{ or }\\frac{4x-16}{3x-4}=-4$$\n\nSolving each equation separately, we get\n\n$$4x-16=9x-12\\text{ or }4x-16=-12x+16$$\n\n$$5x=4\\text{ or }16x=32$$\n\n$$x=\\frac{4}{5}\\text{ or }x=2$$\n\nThe greatest possible value of \\(x\\) is \\(2\\).\nFinal Answer: \\(\\boxed{2}\\). I hope it is correct.",
+        "ground_truth": "First substitute $y=\\frac{4x-16}{3x-4}$ to find  \\[\ny^2+y=12,\n\\] which gives $y=3,-4$.  Setting $\\frac{4x-16}{3x-4}$ equal to 3, we find $4x-16=9x-12$ which implies $x=-4/5$.  Setting $\\frac{4x-16}{3x-4}$ equal to $-4$, we find $4x-16=16-12x$ which implies $x=\\boxed{2}$."
+    },
+    {
+        "question": "$$\\left(\\frac{4x-16}{3x-4}\\right)^2+\\left(\\frac{4x-16}{3x-4}\\right)=12$$\n\nLet \\(u=\\frac{4x-16}{3x-4}\\). Then the equation becomes\n\n$$u^2+u=12$$\n\n$$u^2+u-12=0$$\n\n$$(u-3)(u+4)=0$$\n\n$$u=3\\text{ or }u=-4$$\n\nSubstituting back for \\(u\\), we get\n\n$$\\frac{4x-16}{3x-4}=3\\text{ or }\\frac{4x-16}{3x-4}=-4$$\n\nSolving each equation separately, we get\n\n$$4x-16=9x-12\\text{ or }4x-16=-12x+16$$\n\n$$5x=4\\text{ or }16x=32$$\n\n$$x=\\frac{4}{5}\\text{ or }x=2$$\n\nThe greatest possible value of \\(x\\) is \\(2\\).\nFinal Answer: \\(\\boxed{2}\\). I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{2}$$",
+        "ground_truth": "First substitute $y=\\frac{4x-16}{3x-4}$ to find  \\[\ny^2+y=12,\n\\] which gives $y=3,-4$.  Setting $\\frac{4x-16}{3x-4}$ equal to 3, we find $4x-16=9x-12$ which implies $x=-4/5$.  Setting $\\frac{4x-16}{3x-4}$ equal to $-4$, we find $4x-16=16-12x$ which implies $x=\\boxed{2}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe roots of $x^4 - Kx^3 + Kx^2 + Lx + M = 0$ are $a,$ $b,$ $c,$ and $d.$   If $K,$ $L,$ and $M$ are real numbers, compute the minimum value of the sum $a^2 + b^2 + c^2 + d^2.$",
+        "inference": "Note that $a+b+c+d=K$ and $abcd=M$.  Hence $a^2+b^2+c^2+d^2=(a+b+c+d)^2-2(ab+bc+cd+da)=K^2-2M$.  Thus, the minimum value of $a^2+b^2+c^2+d^2$ is $K^2-2M$.\nFinal Answer: $\\boxed{K^2-2M}.$ I hope it is correct.",
+        "ground_truth": "By Vieta's formulas, $a + b + c + d = K$ and $ab + ac + ad + bc + bd + cd = K.$  Squaring the equation $a + b + c + d = K,$ we get\n\\[a^2 + b^2 + c^2 + d^2 + 2(ab + ac + ad + bc + bd + cd) = K^2.\\]Hence,\n\\[a^2 + b^2 + c^2 + d^2 = K^2 - 2K = (K - 1)^2 - 1.\\]This expression is minimized at $K = 1,$ with a minimum value of $\\boxed{-1}.$"
+    },
+    {
+        "question": "Note that $a+b+c+d=K$ and $abcd=M$.  Hence $a^2+b^2+c^2+d^2=(a+b+c+d)^2-2(ab+bc+cd+da)=K^2-2M$.  Thus, the minimum value of $a^2+b^2+c^2+d^2$ is $K^2-2M$.\nFinal Answer: $\\boxed{K^2-2M}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$K^2-2M$}.",
+        "ground_truth": "By Vieta's formulas, $a + b + c + d = K$ and $ab + ac + ad + bc + bd + cd = K.$  Squaring the equation $a + b + c + d = K,$ we get\n\\[a^2 + b^2 + c^2 + d^2 + 2(ab + ac + ad + bc + bd + cd) = K^2.\\]Hence,\n\\[a^2 + b^2 + c^2 + d^2 = K^2 - 2K = (K - 1)^2 - 1.\\]This expression is minimized at $K = 1,$ with a minimum value of $\\boxed{-1}.$"
+    }
+]

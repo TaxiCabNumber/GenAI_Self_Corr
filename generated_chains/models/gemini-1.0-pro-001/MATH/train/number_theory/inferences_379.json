@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nGiven that $8^{-1} \\equiv 85 \\pmod{97}$, find $64^{-1} \\pmod{97}$, as a residue modulo 97.  (Give an answer between 0 and 96, inclusive.)",
+        "inference": "$$64^{-1} \\equiv \\left (8^2\\right)^{-1} \\equiv 8^{-2} \\pmod{97} $$\n\n$$ \\because 8^{-1} \\equiv 85 \\pmod{97}$$\n\n$$ \\therefore 8^{-2} \\equiv 85^2 \\equiv 85 \\cdot 85 \\equiv 5 \\pmod{97}$$\n\n**Final Answer: $\\boxed{5}$. I hope it is correct.**",
+        "ground_truth": "Since $8^{-1} \\equiv 85 \\pmod{97}$, $64^{-1} \\equiv (8^2)^{-1} \\equiv (8^{-1})^2 \\equiv 85^2 \\equiv \\boxed{47} \\pmod{97}$."
+    },
+    {
+        "question": "$$64^{-1} \\equiv \\left (8^2\\right)^{-1} \\equiv 8^{-2} \\pmod{97} $$\n\n$$ \\because 8^{-1} \\equiv 85 \\pmod{97}$$\n\n$$ \\therefore 8^{-2} \\equiv 85^2 \\equiv 85 \\cdot 85 \\equiv 5 \\pmod{97}$$\n\n**Final Answer: $\\boxed{5}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{5}$$",
+        "ground_truth": "Since $8^{-1} \\equiv 85 \\pmod{97}$, $64^{-1} \\equiv (8^2)^{-1} \\equiv (8^{-1})^2 \\equiv 85^2 \\equiv \\boxed{47} \\pmod{97}$."
+    }
+]

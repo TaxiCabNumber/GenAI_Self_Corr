@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere were sweets on the table. Jack came and took half of all the candies and 4 more candies. Then Paul came and took the remaining 7 sweets. How many sweets were on the table at first?",
+        "inference": "* Let the number of sweets be $x$.\n* Jack took half (i.e., $x/2$) of the sweets and 4 more. So, the number of sweets taken by Jack = $x/2 + 4$.\n* After that, 7 sweets were left. So, the number of sweets taken by Paul = 7.\n* Therefore, the total number of sweets on the table is $x/2 + 4 + 7 = x/2 + 11$.\n* To find the value of $x$, we need to solve the equation $x/2 + 11 = x$. \n* Multiplying both sides by 2, we get $x + 22 = 2x$. \n* Subtracting $x$ from both sides, we get $22 = x$.\n* Therefore, the number of sweets on the table at first was $x = 22$.\n\nI hope it is correct: 22",
+        "ground_truth": "Jack took 4 more candies than the half, and Paul took the rest, which means 7 + 4 = 11 candies were half of all candies.\nThat means at first there were 11 * 2 = <<11*2=22>>22 candies.\n#### 22"
+    },
+    {
+        "question": "* Let the number of sweets be $x$.\n* Jack took half (i.e., $x/2$) of the sweets and 4 more. So, the number of sweets taken by Jack = $x/2 + 4$.\n* After that, 7 sweets were left. So, the number of sweets taken by Paul = 7.\n* Therefore, the total number of sweets on the table is $x/2 + 4 + 7 = x/2 + 11$.\n* To find the value of $x$, we need to solve the equation $x/2 + 11 = x$. \n* Multiplying both sides by 2, we get $x + 22 = 2x$. \n* Subtracting $x$ from both sides, we get $22 = x$.\n* Therefore, the number of sweets on the table at first was $x = 22$.\n\nI hope it is correct: 22\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 22",
+        "ground_truth": "Jack took 4 more candies than the half, and Paul took the rest, which means 7 + 4 = 11 candies were half of all candies.\nThat means at first there were 11 * 2 = <<11*2=22>>22 candies.\n#### 22"
+    }
+]

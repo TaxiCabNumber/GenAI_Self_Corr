@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe roots of the equation $2x^2 - 5x - 4 = 0$ can be written in the form $x = \\frac{m \\pm \\sqrt{n}}{p}$, where $m$, $n$, and $p$ are positive integers with a greatest common divisor of 1. What is the value of $n$?",
+        "inference": "The quadratic formula is:\n\n$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$$\n\nGiven: \n$$2x^2 - 5x - 4 = 0$$\n\nComparing with the standard quadratic equation \n$$ax^2 + bx + c = 0$$\n\nwe have $a = 2, b=-5, c= -4$\n\nSubstituting the coefficients into the quadratic formula, we get:\n\n$$x = \\frac{-(-5) \\pm \\sqrt{(-5)^2 - 4(2)(-4)}}{2(2)}$$\n\n$$x = \\frac{5 \\pm \\sqrt{25 + 32}}{4}$$\n\n$$x = \\frac{5 \\pm \\sqrt{57}}{4}$$\n\nTherefore, \n$$n = 57$$\n\n**Final Answer: $\\boxed{n=57}$. I hope it is correct.**",
+        "ground_truth": "This problem is an application of the quadratic formula $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$. Using the quadratic formula, we find that $x = \\frac{5 \\pm \\sqrt{25 +32}}{4} = \\frac{5 \\pm \\sqrt{57}}{4}$. Since $4$ and $57$ are relatively prime, $n = \\boxed{57}$."
+    },
+    {
+        "question": "The quadratic formula is:\n\n$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$$\n\nGiven: \n$$2x^2 - 5x - 4 = 0$$\n\nComparing with the standard quadratic equation \n$$ax^2 + bx + c = 0$$\n\nwe have $a = 2, b=-5, c= -4$\n\nSubstituting the coefficients into the quadratic formula, we get:\n\n$$x = \\frac{-(-5) \\pm \\sqrt{(-5)^2 - 4(2)(-4)}}{2(2)}$$\n\n$$x = \\frac{5 \\pm \\sqrt{25 + 32}}{4}$$\n\n$$x = \\frac{5 \\pm \\sqrt{57}}{4}$$\n\nTherefore, \n$$n = 57$$\n\n**Final Answer: $\\boxed{n=57}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{}",
+        "ground_truth": "This problem is an application of the quadratic formula $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$. Using the quadratic formula, we find that $x = \\frac{5 \\pm \\sqrt{25 +32}}{4} = \\frac{5 \\pm \\sqrt{57}}{4}$. Since $4$ and $57$ are relatively prime, $n = \\boxed{57}$."
+    }
+]

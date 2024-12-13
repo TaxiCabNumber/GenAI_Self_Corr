@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nKalinda is working on a 360 piece puzzle with her mom. Kalinda can normally add 4 pieces per minute. Her mom can typically place half as many pieces per minute as Kalinda.  How many hours will it take them to complete this puzzle?",
+        "inference": "Kalinda's mom places 4/2=2 pieces per minute. \nTogether, they place 4+2=6 pieces per minute. \nIt will take them 360/6=60 minutes to complete the puzzle.\nSince there are 60 minutes in an hour, it will take them 60/60=1 hour. \nI hope it is correct: 1 hour \n",
+        "ground_truth": "Her mom places 2 pieces per minute because 4 / 2 = <<4/2=2>>2\nOn average they get in 6 pieces per minute because 4 + 2 = <<4+2=6>>6\nIt will take 60 minutes to complete the puzzle because 360 / 6 = <<360/6=60>>60\nIt will take one hour because 60 / 60 = <<60/60=1>>1\n#### 1"
+    },
+    {
+        "question": "Kalinda's mom places 4/2=2 pieces per minute. \nTogether, they place 4+2=6 pieces per minute. \nIt will take them 360/6=60 minutes to complete the puzzle.\nSince there are 60 minutes in an hour, it will take them 60/60=1 hour. \nI hope it is correct: 1 hour \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ 1 hour \n",
+        "ground_truth": "Her mom places 2 pieces per minute because 4 / 2 = <<4/2=2>>2\nOn average they get in 6 pieces per minute because 4 + 2 = <<4+2=6>>6\nIt will take 60 minutes to complete the puzzle because 360 / 6 = <<360/6=60>>60\nIt will take one hour because 60 / 60 = <<60/60=1>>1\n#### 1"
+    }
+]

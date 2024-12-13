@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn ends up damaging his hearing aids.  He needs to replace both of them.  They cost $2500 each.  Insurance covers 80% of the cost.  How much does he personally have to pay?",
+        "inference": "1. Calculate the total cost of the hearing aids: $2500 x 2 = $5000\n2. Determine the amount covered by insurance: $5000 x 0.80 = $4000\n3. Subtract the amount covered by insurance from the total cost to find the amount John has to pay personally: $5000 - $4000 = $1000\nI hope it is correct: 1000 $",
+        "ground_truth": "The cost of the hearing aids is $2500 * 2 = $<<2500*2=5000>>5000\nSo insurance covers $5000 * .8 = $<<5000*.8=4000>>4000\nThat means it cost him $5000 - $4000 = $<<5000-4000=1000>>1000\n#### 1000"
+    },
+    {
+        "question": "1. Calculate the total cost of the hearing aids: $2500 x 2 = $5000\n2. Determine the amount covered by insurance: $5000 x 0.80 = $4000\n3. Subtract the amount covered by insurance from the total cost to find the amount John has to pay personally: $5000 - $4000 = $1000\nI hope it is correct: 1000 $\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$1000",
+        "ground_truth": "The cost of the hearing aids is $2500 * 2 = $<<2500*2=5000>>5000\nSo insurance covers $5000 * .8 = $<<5000*.8=4000>>4000\nThat means it cost him $5000 - $4000 = $<<5000-4000=1000>>1000\n#### 1000"
+    }
+]

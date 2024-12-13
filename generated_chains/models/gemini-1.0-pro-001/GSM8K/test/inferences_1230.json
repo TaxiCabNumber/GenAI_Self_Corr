@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nCharlie is a tennis pro.  He spends most of the day teaching others lessons on how to improve their game.  His standard fee is $80 per hour for lessons, but he reduces his rate by 25% when he is giving lessons to a veteran.   If today Charlie has 4 1-hour lessons at his standard rate and 2 1-hour lessons with a veteran, what is the total amount of money he will make for the day, in dollars?",
+        "inference": "1. Calculate the cost of the 4 standard lessons:\n4 lessons x $80 per lesson = $320\n\n2. Calculate the cost of the 2 veteran lessons with a 25% discount:\n2 lessons x $80 per lesson x 75% = $120\n\n3. Add the cost of the standard lessons and the veteran lessons:\n$320 + $120 = $440\n\nI hope it is correct: $440",
+        "ground_truth": "4 1-hour lessons at his standard rate cost 4*$80=$<<4*80=320>>320.\nReducing the rate by 25% for veterans means he takes $80/4=$<<80/4=20>>20 off his standard fee.\nThus, for veterans, he charges the reduced rate of $80-$20=$<<80-20=60>>60 per hour,\nThus, 2 1-hour lessons with veterans cost 2*$60=$<<2*60=120>>120.\nAll together, Charlie will make $320+$120=$<<320+120=440>>440 for the day.\n#### 440"
+    },
+    {
+        "question": "1. Calculate the cost of the 4 standard lessons:\n4 lessons x $80 per lesson = $320\n\n2. Calculate the cost of the 2 veteran lessons with a 25% discount:\n2 lessons x $80 per lesson x 75% = $120\n\n3. Add the cost of the standard lessons and the veteran lessons:\n$320 + $120 = $440\n\nI hope it is correct: $440\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$440",
+        "ground_truth": "4 1-hour lessons at his standard rate cost 4*$80=$<<4*80=320>>320.\nReducing the rate by 25% for veterans means he takes $80/4=$<<80/4=20>>20 off his standard fee.\nThus, for veterans, he charges the reduced rate of $80-$20=$<<80-20=60>>60 per hour,\nThus, 2 1-hour lessons with veterans cost 2*$60=$<<2*60=120>>120.\nAll together, Charlie will make $320+$120=$<<320+120=440>>440 for the day.\n#### 440"
+    }
+]

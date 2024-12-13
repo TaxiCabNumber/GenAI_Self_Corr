@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nShondra has 7 fewer plants than Toni. Toni has 60% more plants than Frederick. If Frederick has 10 plants, how many plants does Shondra have?",
+        "inference": "Frederick has 10 plants.  \nToni has 60% more plants than Frederick.  \n60% of 10 = 6  \n10 Plants + 6 Plants = 16 Plants  \nShondra has 7 fewer plants than Toni.  \n16 Plants - 7 Plants = 9 Plants  \nI hope it is correct: Shondra has 9 plants",
+        "ground_truth": "Toni has 10 * 0.60 = <<10*0.60=6>>6 more plants than Frederick\nToni has a total of 10 + 6 = <<10+6=16>>16 plants\nShondra has 16 - 7 = <<16-7=9>>9 plants.\n#### 9"
+    },
+    {
+        "question": "Frederick has 10 plants.  \nToni has 60% more plants than Frederick.  \n60% of 10 = 6  \n10 Plants + 6 Plants = 16 Plants  \nShondra has 7 fewer plants than Toni.  \n16 Plants - 7 Plants = 9 Plants  \nI hope it is correct: Shondra has 9 plants\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$Shondra has 9 plants",
+        "ground_truth": "Toni has 10 * 0.60 = <<10*0.60=6>>6 more plants than Frederick\nToni has a total of 10 + 6 = <<10+6=16>>16 plants\nShondra has 16 - 7 = <<16-7=9>>9 plants.\n#### 9"
+    }
+]

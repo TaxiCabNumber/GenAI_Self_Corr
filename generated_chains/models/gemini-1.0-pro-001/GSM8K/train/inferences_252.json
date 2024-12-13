@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAngie bought 3 lbs. of coffee at the store today. Each lb. of coffee will brew about 40 cups of coffee. Angie drinks 3 cups of coffee every day. How many days will this coffee last her?",
+        "inference": "Angie bought 3 lbs. of coffee\n1 lb. of coffee makes 40 cups\n3 lbs. of coffee will make 3 x 40 = 120 cups.\n\nAngie drinks 3 cups of coffee every day. So, 120 cups will last her for 120 / 3 = 40 days.\n\nI hope it is correct: 40",
+        "ground_truth": "A pound of coffee makes 40 cups of coffee, so 3 lbs. coffee * 40 cups of coffee per lb. = <<3*40=120>>120 cups of coffee.\nAngie drinks 3 cups of coffee a day, so she has enough coffee to last her 120 cups of coffee / 3 cups of coffee per day = <<120/3=40>>40 days\n#### 40"
+    },
+    {
+        "question": "Angie bought 3 lbs. of coffee\n1 lb. of coffee makes 40 cups\n3 lbs. of coffee will make 3 x 40 = 120 cups.\n\nAngie drinks 3 cups of coffee every day. So, 120 cups will last her for 120 / 3 = 40 days.\n\nI hope it is correct: 40\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$40",
+        "ground_truth": "A pound of coffee makes 40 cups of coffee, so 3 lbs. coffee * 40 cups of coffee per lb. = <<3*40=120>>120 cups of coffee.\nAngie drinks 3 cups of coffee a day, so she has enough coffee to last her 120 cups of coffee / 3 cups of coffee per day = <<120/3=40>>40 days\n#### 40"
+    }
+]

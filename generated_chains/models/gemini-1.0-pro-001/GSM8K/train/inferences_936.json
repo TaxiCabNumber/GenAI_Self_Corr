@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nLizzie has half as many crayons as Bobbie. Bobbie has three times as many crayons as Billie. If Billie has 18 crayons, how many crayons does Lizzie have?",
+        "inference": "1. Billie has 18 crayons.\n2. Bobbie has three times as many crayons as Billie, so Bobbie has 18 * 3 = 54 crayons.\n3. Lizzie has half as many crayons as Bobbie, so Lizzie has 54 / 2 = 27 crayons.\n\nI hope it is correct: Lizzie has 27 crayons.",
+        "ground_truth": "Bobbie has 18 * 3 = <<18*3=54>>54 crayons.\nLizzie has 54 / 2 = <<54/2=27>>27 crayons.\n#### 27"
+    },
+    {
+        "question": "1. Billie has 18 crayons.\n2. Bobbie has three times as many crayons as Billie, so Bobbie has 18 * 3 = 54 crayons.\n3. Lizzie has half as many crayons as Bobbie, so Lizzie has 54 / 2 = 27 crayons.\n\nI hope it is correct: Lizzie has 27 crayons.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 27",
+        "ground_truth": "Bobbie has 18 * 3 = <<18*3=54>>54 crayons.\nLizzie has 54 / 2 = <<54/2=27>>27 crayons.\n#### 27"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSuppose that $g(x)=f^{-1}(x)$. If $g(-15)=0$, $g(0)=3$, $g(3)=9$ and $g(9)=20$, what is $f(f(9))$?",
+        "inference": "Solution:\nGiven $g(x)=f^{-1}(x)$, we have $x=f(g(x))$. So,\n$f(g(-15))=f(0)=3$,\n$f(g(0))=f(3)=9$,\n$f(g(3))=f(9)=20$.\nTherefore, $f(f(9))=f(20)=\\boxed{28}$.\nFinal Answer: $\\boxed{28}$. I hope it is correct.",
+        "ground_truth": "Since $f$ and $g$ are inverses and $g(3) = 9$, we have $f(9) = 3$, so $f(f(9)) = f(3)$. Similarly, $g(0) = 3$, so $f(3) = \\boxed{0}$."
+    },
+    {
+        "question": "Solution:\nGiven $g(x)=f^{-1}(x)$, we have $x=f(g(x))$. So,\n$f(g(-15))=f(0)=3$,\n$f(g(0))=f(3)=9$,\n$f(g(3))=f(9)=20$.\nTherefore, $f(f(9))=f(20)=\\boxed{28}$.\nFinal Answer: $\\boxed{28}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$28$}",
+        "ground_truth": "Since $f$ and $g$ are inverses and $g(3) = 9$, we have $f(9) = 3$, so $f(f(9)) = f(3)$. Similarly, $g(0) = 3$, so $f(3) = \\boxed{0}$."
+    }
+]

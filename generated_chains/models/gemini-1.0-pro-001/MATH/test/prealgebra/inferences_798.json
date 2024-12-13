@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe least common multiple of two integers is 240, and the greatest common divisor is 24. Given that one of the integers is 48, what is the other integer?",
+        "inference": "Let \\(x\\) be the other integer.\nThen, by the definition of least common multiple,\n$$240=\\text{LCM}(48,x)=24\\cdot\\frac{48}{8}\\cdot\\frac{x}{24},$$\n\nwhich gives \\(x=40\\).\n**Final Answer: \\(\\boxed{40}\\). I hope it is correct.**",
+        "ground_truth": "The prime factorization of 48 is $2^4\\cdot3$. Since the greatest common factor is 24, that means the other number also has the factors $2^3$ and 3 but not a fourth 2. When we divide 240 by 48, we get 5. The factors $2^3$ and 3 of the other number are covered by the factors of 48, but the factor 5 must come from the other number. So, the other number is $2^3\\cdot3\\cdot5=\\boxed{120}$."
+    },
+    {
+        "question": "Let \\(x\\) be the other integer.\nThen, by the definition of least common multiple,\n$$240=\\text{LCM}(48,x)=24\\cdot\\frac{48}{8}\\cdot\\frac{x}{24},$$\n\nwhich gives \\(x=40\\).\n**Final Answer: \\(\\boxed{40}\\). I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\(\\boxed{40}\\)",
+        "ground_truth": "The prime factorization of 48 is $2^4\\cdot3$. Since the greatest common factor is 24, that means the other number also has the factors $2^3$ and 3 but not a fourth 2. When we divide 240 by 48, we get 5. The factors $2^3$ and 3 of the other number are covered by the factors of 48, but the factor 5 must come from the other number. So, the other number is $2^3\\cdot3\\cdot5=\\boxed{120}$."
+    }
+]

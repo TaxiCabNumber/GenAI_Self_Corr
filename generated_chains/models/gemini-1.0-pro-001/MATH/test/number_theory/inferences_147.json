@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhen 39,500 is divided by an integer $n$, the quotient is 123 and the remainder is 17. Find $n$.",
+        "inference": "Let $n$ be the divisor. Then,\n$$39500 = 123n + 17$$\n\n$$123n = 39500 - 17$$\n\n$$123n = 39483$$\n\n$$n = \\frac{39483}{123} = \\boxed{320}$$\n\nFinal Answer: \\boxed{$320$}. I hope it is correct.",
+        "ground_truth": "Turning our sentence into math we have \\[39500=123n+17\\]and we want to solve for $n$.  That gives  \\[n=\\frac{39500-17}{123}=\\frac{39483}{123}=\\boxed{321}.\\]"
+    },
+    {
+        "question": "Let $n$ be the divisor. Then,\n$$39500 = 123n + 17$$\n\n$$123n = 39500 - 17$$\n\n$$123n = 39483$$\n\n$$n = \\frac{39483}{123} = \\boxed{320}$$\n\nFinal Answer: \\boxed{$320$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$320$}",
+        "ground_truth": "Turning our sentence into math we have \\[39500=123n+17\\]and we want to solve for $n$.  That gives  \\[n=\\frac{39500-17}{123}=\\frac{39483}{123}=\\boxed{321}.\\]"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $r$ and $s$ be the solutions to $2x^2 - 3x = 11.$  Compute the value of $(4r^3 - 4s^3)(r - s)^{-1}.$",
+        "inference": "$$2x^2 - 3x = 11 \\\\\\  \\Rightarrow (2x-11)(x+1)=0 \\\\\\ \\Rightarrow x=\\dfrac{11}{2}, -1$$\n\n$$Therefore,  \\qquad  r=\\dfrac{11}{2}, \\qquad s=-1$$\n\n$$4r^3 - 4s^3 = 4r(r^2 - s^2) = 4r(r-s)(r+s) \\\\\\ = 4(\\dfrac{11}{2})(-1)(-1+\\dfrac{11}{2})=99$$\n\n$$\\qquad Therefore, \\qquad (4r^3 - 4s^3)(r - s)^{-1} = \\dfrac{99}{\\dfrac{11}{2}-(-1)} = \\boxed{18}.$$\n\nFinal Answer: $\\boxed{18}.$ I hope it is correct.",
+        "ground_truth": "Let $r$ and $s$ be the roots of $2x^2 - 3x - 11 = 0,$ so by Vieta's formulas, $r + s = \\frac{3}{2}$ and $rs = -\\frac{11}{2}.$\n\nThen\n\\begin{align*}\n\\frac{4r^3 - 4s^3}{r - s} &= \\frac{4(r - s)(r^2 + rs + s^2)}{r - s} \\\\\n&= 4 (r^2 + rs + s^2) \\\\\n&= 4 [(r + s)^2 - rs] \\\\\n&= 4 \\left[ \\left( \\frac{3}{2} \\right)^2 + \\frac{11}{2} \\right] \\\\\n&= \\boxed{31}.\n\\end{align*}"
+    },
+    {
+        "question": "$$2x^2 - 3x = 11 \\\\\\  \\Rightarrow (2x-11)(x+1)=0 \\\\\\ \\Rightarrow x=\\dfrac{11}{2}, -1$$\n\n$$Therefore,  \\qquad  r=\\dfrac{11}{2}, \\qquad s=-1$$\n\n$$4r^3 - 4s^3 = 4r(r^2 - s^2) = 4r(r-s)(r+s) \\\\\\ = 4(\\dfrac{11}{2})(-1)(-1+\\dfrac{11}{2})=99$$\n\n$$\\qquad Therefore, \\qquad (4r^3 - 4s^3)(r - s)^{-1} = \\dfrac{99}{\\dfrac{11}{2}-(-1)} = \\boxed{18}.$$\n\nFinal Answer: $\\boxed{18}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{18}$$",
+        "ground_truth": "Let $r$ and $s$ be the roots of $2x^2 - 3x - 11 = 0,$ so by Vieta's formulas, $r + s = \\frac{3}{2}$ and $rs = -\\frac{11}{2}.$\n\nThen\n\\begin{align*}\n\\frac{4r^3 - 4s^3}{r - s} &= \\frac{4(r - s)(r^2 + rs + s^2)}{r - s} \\\\\n&= 4 (r^2 + rs + s^2) \\\\\n&= 4 [(r + s)^2 - rs] \\\\\n&= 4 \\left[ \\left( \\frac{3}{2} \\right)^2 + \\frac{11}{2} \\right] \\\\\n&= \\boxed{31}.\n\\end{align*}"
+    }
+]

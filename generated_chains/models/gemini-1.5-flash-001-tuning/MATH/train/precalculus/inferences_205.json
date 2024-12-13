@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $\\tan \\theta = 4,$ then find $\\tan 3 \\theta.$",
+        "inference": "Solution:\nWe can use the triple angle formula for tangent:\n$$\\tan 3\\theta = \\frac{3\\tan \\theta - \\tan^3 \\theta}{1-3\\tan^2 \\theta}.$$Substituting $\\tan \\theta = 4,$ we get\n$$\\tan 3\\theta = \\frac{3(4) - 4^3}{1-3(4^2)} = \\frac{12-64}{1-48} = \\frac{-52}{-47} = \\boxed{\\frac{52}{47}}.$$Final Answer: $\\boxed{\\frac{52}{47}}$. I hope it is correct.",
+        "ground_truth": "From the triple angle formula,\n\\[\\tan 3 \\theta = \\frac{3 \\tan \\theta - \\tan^3 \\theta}{1 - 3 \\tan^2 \\theta} = \\frac{3 \\cdot 4 - 4^3}{1 - 3 \\cdot 4^2} = \\boxed{\\frac{52}{47}}.\\]"
+    },
+    {
+        "question": "Solution:\nWe can use the triple angle formula for tangent:\n$$\\tan 3\\theta = \\frac{3\\tan \\theta - \\tan^3 \\theta}{1-3\\tan^2 \\theta}.$$Substituting $\\tan \\theta = 4,$ we get\n$$\\tan 3\\theta = \\frac{3(4) - 4^3}{1-3(4^2)} = \\frac{12-64}{1-48} = \\frac{-52}{-47} = \\boxed{\\frac{52}{47}}.$$Final Answer: $\\boxed{\\frac{52}{47}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct.  \\\\boxed{$\\frac{52}{47}$}  I hope it is correct. \n",
+        "ground_truth": "From the triple angle formula,\n\\[\\tan 3 \\theta = \\frac{3 \\tan \\theta - \\tan^3 \\theta}{1 - 3 \\tan^2 \\theta} = \\frac{3 \\cdot 4 - 4^3}{1 - 3 \\cdot 4^2} = \\boxed{\\frac{52}{47}}.\\]"
+    }
+]

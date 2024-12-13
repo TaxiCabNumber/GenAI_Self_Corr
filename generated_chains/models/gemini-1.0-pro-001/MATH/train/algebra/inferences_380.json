@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe sum of the squares of two positive integers is 90. The product of the two integers is 27. What is the sum of the two integers?",
+        "inference": "Let the two integers be x and y.\nThen, x^2 + y^2 = 90 and xy = 27.\nWe can solve these equations to find the values of x and y.\nx^2 + y^2 = 90\nxy = 27\n(x + y)^2 = x^2 + y^2 + 2xy\n(x + y)^2 = 90 + 2(27) = 144\nx + y = 12\nx = 12 - y\n(12 - y)y = 27\n12y - y^2 = 27\ny^2 - 12y + 27 = 0\n(y - 3)(y - 9) = 0\ny = 3 or y = 9\nIf y = 3, then x = 12 - 3 = 9.\nIf y = 9, then x = 12 - 9 = 3.\nTherefore, the two integers are 3 and 9.\nFinal Answer: \\boxed{12}. I hope it is correct.",
+        "ground_truth": "Call the two integers $x$ and $y$. We are given that $x^2 + y^2 = 90$ and that $xy = 27$. We want to find $x + y$. Note that $(x + y)^2 = x^2 + y^2 + 2xy = 90 + 2\\cdot 27 = 144$. Taking the square root of 144, we see that $x + y = \\boxed{12}$."
+    },
+    {
+        "question": "Let the two integers be x and y.\nThen, x^2 + y^2 = 90 and xy = 27.\nWe can solve these equations to find the values of x and y.\nx^2 + y^2 = 90\nxy = 27\n(x + y)^2 = x^2 + y^2 + 2xy\n(x + y)^2 = 90 + 2(27) = 144\nx + y = 12\nx = 12 - y\n(12 - y)y = 27\n12y - y^2 = 27\ny^2 - 12y + 27 = 0\n(y - 3)(y - 9) = 0\ny = 3 or y = 9\nIf y = 3, then x = 12 - 3 = 9.\nIf y = 9, then x = 12 - 9 = 3.\nTherefore, the two integers are 3 and 9.\nFinal Answer: \\boxed{12}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{12}",
+        "ground_truth": "Call the two integers $x$ and $y$. We are given that $x^2 + y^2 = 90$ and that $xy = 27$. We want to find $x + y$. Note that $(x + y)^2 = x^2 + y^2 + 2xy = 90 + 2\\cdot 27 = 144$. Taking the square root of 144, we see that $x + y = \\boxed{12}$."
+    }
+]

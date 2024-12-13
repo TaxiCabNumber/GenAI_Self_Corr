@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA doctor needs to give medicine to a child, and he knows that he cannot give the same amount of medicine that he would give to an adult. The instructions say that for every kilogram of weight the child must be given 5 ml of medicine. The doctor knows that the child weighs 30 kilograms and that also the full dose has to be given in 3 equal parts. How many milligrams will each part of the dose be?",
+        "inference": "1. Calculate the total amount of medicine the child needs: 30 kg x 5 ml/kg = 150 ml.\n2. Since the dose needs to be given in 3 equal parts, each part will be 150 ml / 3 = 50 ml.\n3. Convert 50 ml to milligrams: 50 ml x 1000 mg/ml = 50,000 mg.\n\nI hope it is correct: 50,000 $mg$",
+        "ground_truth": "The total number of ml needed is 30 kg x 5 ml/kg = <<30*5=150>>150 ml\nEach dose has to be 150 ml / 3 doses = <<150/3=50>>50 ml/dose\n#### 50"
+    },
+    {
+        "question": "1. Calculate the total amount of medicine the child needs: 30 kg x 5 ml/kg = 150 ml.\n2. Since the dose needs to be given in 3 equal parts, each part will be 150 ml / 3 = 50 ml.\n3. Convert 50 ml to milligrams: 50 ml x 1000 mg/ml = 50,000 mg.\n\nI hope it is correct: 50,000 $mg$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ = 50,000 mg",
+        "ground_truth": "The total number of ml needed is 30 kg x 5 ml/kg = <<30*5=150>>150 ml\nEach dose has to be 150 ml / 3 doses = <<150/3=50>>50 ml/dose\n#### 50"
+    }
+]

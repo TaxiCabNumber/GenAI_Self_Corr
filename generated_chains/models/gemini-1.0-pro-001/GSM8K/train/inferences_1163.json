@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTrevor buys three bouquets of carnations. The first included 9 carnations, and the second included 14 carnations. If the average number of carnations in the bouquets is 12, how many carnations were in the third bouquet?",
+        "inference": "The average (mean) of the number of carnations in the bouquets is 12, so the total number of carnations in the three bouquets is $12 \\times 3 = 36$.  The first bouquet has 9 carnations, and the second bouquet has 14 carnations.  So, the number of carnations in the third bouquet is $$36 - 9 - 14 = 13$$ \nI hope it is correct: 13",
+        "ground_truth": "There are 3 bouquets.\nThe total is the average times the number of bouquets, or 12*3=<<12*3=36>>36.\nThere are 9+14=<<9+14=23>>23 accounted for.\nThe third included 36-23=<<36-23=13>>13 carnations.\n#### 13"
+    },
+    {
+        "question": "The average (mean) of the number of carnations in the bouquets is 12, so the total number of carnations in the three bouquets is $12 \\times 3 = 36$.  The first bouquet has 9 carnations, and the second bouquet has 14 carnations.  So, the number of carnations in the third bouquet is $$36 - 9 - 14 = 13$$ \nI hope it is correct: 13\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 13",
+        "ground_truth": "There are 3 bouquets.\nThe total is the average times the number of bouquets, or 12*3=<<12*3=36>>36.\nThere are 9+14=<<9+14=23>>23 accounted for.\nThe third included 36-23=<<36-23=13>>13 carnations.\n#### 13"
+    }
+]

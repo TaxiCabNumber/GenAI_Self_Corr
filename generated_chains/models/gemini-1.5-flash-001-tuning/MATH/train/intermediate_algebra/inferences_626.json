@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $x$ and $y$ be real numbers such that $2(x^2 + y^2) = x + y.$  Find the maximum value of $x - y.$",
+        "inference": "Final Answer: $\\boxed{\\frac{1}{2}}$. I hope it is correct.",
+        "ground_truth": "We can write $2(x^2 + y^2) = x + y$ as $2x^2 + 2y^2 = x + y.$  Then $2x^2 + 4xy + 2y^2 = x + y + 4xy,$ so\n\\[4xy = 2(x^2 + 2xy + y^2) - (x + y) = 2(x + y)^2 - (x + y).\\]Also,\n\\begin{align*}\n(x - y)^2 &= x^2 - 2xy + y^2 \\\\\n&= (x + y)^2 - 4xy \\\\\n&= (x + y) - (x + y)^2.\n\\end{align*}Completing the square in $x + y,$ we get\n\\[(x - y)^2 = \\frac{1}{4} - \\left( x + y - \\frac{1}{2} \\right)^2 \\le \\frac{1}{4},\\]so $x - y \\le \\frac{1}{2}.$\n\nEquality occurs when $x = \\frac{1}{2}$ and $y = 0,$ so the maximum value is $\\boxed{\\frac{1}{2}}.$"
+    },
+    {
+        "question": "Final Answer: $\\boxed{\\frac{1}{2}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the question and the solution you are referring to. I need context to identify and correct any errors. \n",
+        "ground_truth": "We can write $2(x^2 + y^2) = x + y$ as $2x^2 + 2y^2 = x + y.$  Then $2x^2 + 4xy + 2y^2 = x + y + 4xy,$ so\n\\[4xy = 2(x^2 + 2xy + y^2) - (x + y) = 2(x + y)^2 - (x + y).\\]Also,\n\\begin{align*}\n(x - y)^2 &= x^2 - 2xy + y^2 \\\\\n&= (x + y)^2 - 4xy \\\\\n&= (x + y) - (x + y)^2.\n\\end{align*}Completing the square in $x + y,$ we get\n\\[(x - y)^2 = \\frac{1}{4} - \\left( x + y - \\frac{1}{2} \\right)^2 \\le \\frac{1}{4},\\]so $x - y \\le \\frac{1}{2}.$\n\nEquality occurs when $x = \\frac{1}{2}$ and $y = 0,$ so the maximum value is $\\boxed{\\frac{1}{2}}.$"
+    }
+]

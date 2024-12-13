@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $x_1,$ $x_2,$ $\\dots,$ $x_{100}$ be real numbers such that $x_1 + x_2 + \\dots + x_{100} = 1$ and\n\\[\\frac{x_1}{1 - x_1} + \\frac{x_2}{1 - x_2} + \\dots + \\frac{x_{100}}{1 - x_{100}} = 1.\\]Find\n\\[\\frac{x_1^2}{1 - x_1} + \\frac{x_2^2}{1 - x_2} + \\dots + \\frac{x_{100}^2}{1 - x_{100}}.\\]",
+        "inference": "Final Answer: $\\boxed{1}$. I hope it is correct. \n",
+        "ground_truth": "In general,\n\\[\\frac{x^2}{1 - x} = \\frac{x^2 - x + x}{1 - x} = \\frac{x(x - 1) + x}{1 - x} = \\frac{x}{1 - x} - x,\\]so\n\\begin{align*}\n\\frac{x_1^2}{1 - x_1} + \\frac{x_2^2}{1 - x_2} + \\dots + \\frac{x_{100}^2}{1 - x_{100}} &= \\frac{x_1}{1 - x_1} + \\frac{x_2}{1 - x_2} + \\dots + \\frac{x_{100}}{1 - x_{100}} - (x_1 + x_2 + \\dots + x_{100}) \\\\\n&= 1 - 1 \\\\\n&= \\boxed{0}.\n\\end{align*}"
+    },
+    {
+        "question": "Final Answer: $\\boxed{1}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the problem statement and the solution you have. I need context to understand the problem and identify any potential errors in the solution. Once you provide the information, I can help you with the solution and provide the final answer in the requested format. \n",
+        "ground_truth": "In general,\n\\[\\frac{x^2}{1 - x} = \\frac{x^2 - x + x}{1 - x} = \\frac{x(x - 1) + x}{1 - x} = \\frac{x}{1 - x} - x,\\]so\n\\begin{align*}\n\\frac{x_1^2}{1 - x_1} + \\frac{x_2^2}{1 - x_2} + \\dots + \\frac{x_{100}^2}{1 - x_{100}} &= \\frac{x_1}{1 - x_1} + \\frac{x_2}{1 - x_2} + \\dots + \\frac{x_{100}}{1 - x_{100}} - (x_1 + x_2 + \\dots + x_{100}) \\\\\n&= 1 - 1 \\\\\n&= \\boxed{0}.\n\\end{align*}"
+    }
+]

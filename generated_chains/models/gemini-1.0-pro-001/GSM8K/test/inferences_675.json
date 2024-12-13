@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJames needs to get more toys for his doggie shelter. Each dog needs one toy. James currently has 4 toys on hand for 4 dogs, but there are 8 more dogs in the shelter now. After buying the toys, he went back to see that there are twice as many more dogs than when he left so he had to buy some more toys. When James came back yet again, 3 dogs were gone so he no longer needed those toys. How many toys in total does James need?",
+        "inference": "First, he has 4 toys and 4 dogs, so he needs 0 more toys.\n\nThen, 8 more dogs arrive, so he needs 8 more toys.\n\nAfter buying the toys, twice as many dogs arrive, so he needs 16 more toys.\n\nWhen he comes back, 3 dogs are gone, so he needs 3 fewer toys.\n\nTherefore, James needs 0 + 8 + 16 - 3 = 21 toys in total.\nI hope it is correct: 21",
+        "ground_truth": "James has 4+8=<<4+8=12>>12 toys.\nThere were 12*2=<<12*2=24>>24 dogs.\nJames needed to buy 24-12=<<24-12=12>>12 more toys.\nThere are 36 total toys.\n36-3=<<36-3=33>>33 toys are now needed.\n#### 33"
+    },
+    {
+        "question": "First, he has 4 toys and 4 dogs, so he needs 0 more toys.\n\nThen, 8 more dogs arrive, so he needs 8 more toys.\n\nAfter buying the toys, twice as many dogs arrive, so he needs 16 more toys.\n\nWhen he comes back, 3 dogs are gone, so he needs 3 fewer toys.\n\nTherefore, James needs 0 + 8 + 16 - 3 = 21 toys in total.\nI hope it is correct: 21\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 21",
+        "ground_truth": "James has 4+8=<<4+8=12>>12 toys.\nThere were 12*2=<<12*2=24>>24 dogs.\nJames needed to buy 24-12=<<24-12=12>>12 more toys.\nThere are 36 total toys.\n36-3=<<36-3=33>>33 toys are now needed.\n#### 33"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSandy wants to lose as much weight as Joey does but needs 4 weeks to lose the same amount of weight that Joey loses in a single week. If Joey loses 8 pounds in 4 weeks, how many weeks will it take Sandy to lose the same amount of weight?",
+        "inference": "Step 1: Determine how much weight Joey loses in 4 weeks.\nJoey loses 8 pounds in 1 week, so in 4 weeks, he will lose 8 * 4 = 32 pounds.\n\nStep 2: Determine how many weeks it will take Sandy to lose the same amount of weight.\nIf it takes Sandy 4 weeks to lose the same amount of weight as Joey loses in 1 week, then it will take her 4 * 4 = 16 weeks to lose the same amount of weight as Joey loses in 4 weeks (32 pounds).\n\nI hope it is correct: 16",
+        "ground_truth": "Joey loses 8 pounds / 4 weeks = <<8/4=2>>2 pounds per week.\nIn order to match Joey, Sandy should lose 2 pounds / 4 = <<2/4=0.5>>0.5 of a pound per week.\nTo find the number of weeks it will take, divide the number of pounds by the rate of weight loss: 8 pounds / 0.5 pounds/week = <<8/0.5=16>>16 weeks\n#### 16"
+    },
+    {
+        "question": "Step 1: Determine how much weight Joey loses in 4 weeks.\nJoey loses 8 pounds in 1 week, so in 4 weeks, he will lose 8 * 4 = 32 pounds.\n\nStep 2: Determine how many weeks it will take Sandy to lose the same amount of weight.\nIf it takes Sandy 4 weeks to lose the same amount of weight as Joey loses in 1 week, then it will take her 4 * 4 = 16 weeks to lose the same amount of weight as Joey loses in 4 weeks (32 pounds).\n\nI hope it is correct: 16\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$16",
+        "ground_truth": "Joey loses 8 pounds / 4 weeks = <<8/4=2>>2 pounds per week.\nIn order to match Joey, Sandy should lose 2 pounds / 4 = <<2/4=0.5>>0.5 of a pound per week.\nTo find the number of weeks it will take, divide the number of pounds by the rate of weight loss: 8 pounds / 0.5 pounds/week = <<8/0.5=16>>16 weeks\n#### 16"
+    }
+]

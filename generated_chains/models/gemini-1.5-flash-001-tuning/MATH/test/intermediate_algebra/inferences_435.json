@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $r$, $s$, and $t$ be the roots of the equation $x^3 - 20x^2 + 18x - 7 = 0$. Find the value of $r^2s^2 + s^2t^2 + t^2r^2$.",
+        "inference": "By Vieta's formulas, $r+s+t=20$, $rs+rt+st=18$, and $rst=7$. Squaring the equation $r+s+t=20$, we get\n\\[r^2 + s^2 + t^2 + 2(rs + rt + st) = 400.\\]Hence, $r^2 + s^2 + t^2 = 400 - 2(rs + rt + st) = 400 - 2 \\cdot 18 = 364$.\n\nThen\n\\begin{align*}\nr^2 s^2 + s^2 t^2 + t^2 r^2 &= (rs + rt + st)^2 - 2rst(r + s + t) \\\\\n&= 18^2 - 2 \\cdot 7 \\cdot 20 \\\\\n&= \\boxed{104}.\n\\end{align*}Final Answer: $\\boxed{104}$. I hope it is correct.",
+        "ground_truth": "By Vieta's formulas, $rs + st + tr = 18.$ Squaring this equation gives us the terms we want: \\[(rs+st+tr)^2 = (rs)^2 + (st)^2 + (tr)^2 + (2r^2st + 2rs^2t + 2rst^2) = 324.\\]To deal with the extra terms, we note that \\[r^2st + rs^2t + rst^2 = rst(r+s+t) = 7 \\cdot 20 = 140,\\]again by Vieta. Therefore, \\[(rs)^2 + (st)^2 + (tr)^2 = 324 - 2\\cdot 140 = \\boxed{44}.\\]"
+    },
+    {
+        "question": "By Vieta's formulas, $r+s+t=20$, $rs+rt+st=18$, and $rst=7$. Squaring the equation $r+s+t=20$, we get\n\\[r^2 + s^2 + t^2 + 2(rs + rt + st) = 400.\\]Hence, $r^2 + s^2 + t^2 = 400 - 2(rs + rt + st) = 400 - 2 \\cdot 18 = 364$.\n\nThen\n\\begin{align*}\nr^2 s^2 + s^2 t^2 + t^2 r^2 &= (rs + rt + st)^2 - 2rst(r + s + t) \\\\\n&= 18^2 - 2 \\cdot 7 \\cdot 20 \\\\\n&= \\boxed{104}.\n\\end{align*}Final Answer: $\\boxed{104}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{104}$. I hope it is correct. \n",
+        "ground_truth": "By Vieta's formulas, $rs + st + tr = 18.$ Squaring this equation gives us the terms we want: \\[(rs+st+tr)^2 = (rs)^2 + (st)^2 + (tr)^2 + (2r^2st + 2rs^2t + 2rst^2) = 324.\\]To deal with the extra terms, we note that \\[r^2st + rs^2t + rst^2 = rst(r+s+t) = 7 \\cdot 20 = 140,\\]again by Vieta. Therefore, \\[(rs)^2 + (st)^2 + (tr)^2 = 324 - 2\\cdot 140 = \\boxed{44}.\\]"
+    }
+]

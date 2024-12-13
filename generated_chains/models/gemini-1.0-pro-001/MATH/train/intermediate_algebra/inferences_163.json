@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSolve\n\\[\\frac{1}{x + 9} + \\frac{1}{x + 7} = \\frac{1}{x + 10} + \\frac{1}{x + 6}.\\]",
+        "inference": "\\[\\frac{1}{x + 9} + \\frac{1}{x + 7} = \\frac{1}{x + 10} + \\frac{1}{x + 6}\\]\nMultiply both sides by \\[(x+9)(x+7)(x+10)(x+6)\\]\n\\[(x+7)(x+10)+(x+9)(x+6)=(x+9)(x+10)+(x+7)(x+6)\\]\n\\[x^2+17x+70+x^2+15x+54=x^2+19x+90+x^2+13x+42\\]\n\\[2x^2+32x+124=2x^2+32x+132\\]\n\\[2x^2+32x+124-2x^2-32x-132=0\\]\n\\[-8=0 \\quad \\Rightarrow \\quad \\text{This is a contradiction}\\]\nFinal Answer: \\\\boxed{$ \\text{There is no solution.}$}. I hope it is correct.",
+        "ground_truth": "Combining the fractions, we get\n\\[\\frac{2x + 16}{(x + 9)(x + 7)} = \\frac{2x + 16}{(x + 10)(x + 6)}.\\]Hence,\n\\[(2x + 16)(x + 10)(x + 6) = (2x + 16)(x + 9)(x + 7),\\]so\n\\[2(x + 8)[(x + 10)(x + 6) - (x + 9)(x + 7)] = 2(x + 8)(-3) = 0.\\]Thus, $x = \\boxed{-8}.$"
+    },
+    {
+        "question": "\\[\\frac{1}{x + 9} + \\frac{1}{x + 7} = \\frac{1}{x + 10} + \\frac{1}{x + 6}\\]\nMultiply both sides by \\[(x+9)(x+7)(x+10)(x+6)\\]\n\\[(x+7)(x+10)+(x+9)(x+6)=(x+9)(x+10)+(x+7)(x+6)\\]\n\\[x^2+17x+70+x^2+15x+54=x^2+19x+90+x^2+13x+42\\]\n\\[2x^2+32x+124=2x^2+32x+132\\]\n\\[2x^2+32x+124-2x^2-32x-132=0\\]\n\\[-8=0 \\quad \\Rightarrow \\quad \\text{This is a contradiction}\\]\nFinal Answer: \\\\boxed{$ \\text{There is no solution.}$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$ \\text{There is no solution.}$}.",
+        "ground_truth": "Combining the fractions, we get\n\\[\\frac{2x + 16}{(x + 9)(x + 7)} = \\frac{2x + 16}{(x + 10)(x + 6)}.\\]Hence,\n\\[(2x + 16)(x + 10)(x + 6) = (2x + 16)(x + 9)(x + 7),\\]so\n\\[2(x + 8)[(x + 10)(x + 6) - (x + 9)(x + 7)] = 2(x + 8)(-3) = 0.\\]Thus, $x = \\boxed{-8}.$"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the inverse of the function\n\\[f(x) = \\frac{2x + 5}{x - 11}.\\]",
+        "inference": "1) Switch roles of \\(x\\) and \\(y\\).\n\n$$x = \\frac{2y + 5}{y - 11}.$$\n\n2) Solve for \\(y\\). Cross-multiply.\n\n$$x(y - 11) = 2y + 5$$\n$$xy - 11x = 2y + 5$$\n$$xy - 2y = 11x + 5$$\n$$y(x - 2) = 11x + 5$$\n$$y = \\frac{11x + 5}{x - 2}$$\n\n3) Replace \\(y\\) with \\(f^{-1}(x)\\), because \\(y\\) is the inverse of \\(x\\).\n\n$$f^{-1}(x) = \\frac{11x + 5}{x - 2}.$$\n\nFinal Answer: $\\boxed{f^{-1}(x) = \\frac{11x + 5}{x - 2}.}$ I hope it is correct.",
+        "ground_truth": "Let $y = \\frac{2x + 5}{x - 11}.$  Then\n\\[xy - 11y = 2x + 5,\\]so $xy - 2x = 11y + 5.$  Then $x = \\frac{11y + 5}{y - 2}.$\n\nHence, the inverse function is given by\n\\[f^{-1}(x) = \\boxed{\\frac{11x + 5}{x - 2}}.\\]"
+    },
+    {
+        "question": "1) Switch roles of \\(x\\) and \\(y\\).\n\n$$x = \\frac{2y + 5}{y - 11}.$$\n\n2) Solve for \\(y\\). Cross-multiply.\n\n$$x(y - 11) = 2y + 5$$\n$$xy - 11x = 2y + 5$$\n$$xy - 2y = 11x + 5$$\n$$y(x - 2) = 11x + 5$$\n$$y = \\frac{11x + 5}{x - 2}$$\n\n3) Replace \\(y\\) with \\(f^{-1}(x)\\), because \\(y\\) is the inverse of \\(x\\).\n\n$$f^{-1}(x) = \\frac{11x + 5}{x - 2}.$$\n\nFinal Answer: $\\boxed{f^{-1}(x) = \\frac{11x + 5}{x - 2}.}$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{f^{-1}(x) = \\frac{11x + 5}{x - 2}.}$$",
+        "ground_truth": "Let $y = \\frac{2x + 5}{x - 11}.$  Then\n\\[xy - 11y = 2x + 5,\\]so $xy - 2x = 11y + 5.$  Then $x = \\frac{11y + 5}{y - 2}.$\n\nHence, the inverse function is given by\n\\[f^{-1}(x) = \\boxed{\\frac{11x + 5}{x - 2}}.\\]"
+    }
+]

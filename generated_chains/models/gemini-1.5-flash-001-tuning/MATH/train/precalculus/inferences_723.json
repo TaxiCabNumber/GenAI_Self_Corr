@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn triangle $ABC,$ $AB = 9,$ $BC = 10,$ and $AC = 11.$  If $D$ and $E$ are chosen on $\\overline{AB}$ and $\\overline{AC}$ so that $AD = 4$ and $AE = 7,$ then find the area of triangle $ADE.$\n\n[asy]\nunitsize (1 cm);\n\npair A, B, C, D, E;\n\nA = (2,3);\nB = (0,0);\nC = (6,0);\nD = interp(A,B,0.4);\nE = interp(A,C,3/5);\n\ndraw(A--B--C--cycle);\ndraw(D--E);\n\nlabel(\"$A$\", A, N);\nlabel(\"$B$\", B, SW);\nlabel(\"$C$\", C, SE);\nlabel(\"$D$\", D, NW);\nlabel(\"$E$\", E, NE);\n[/asy]",
+        "inference": "Final Answer: \\\\boxed{\\frac{63}{20}}. I hope it is correct. \n",
+        "ground_truth": "By Heron's formula, the area of triangle $ABC$ is $30 \\sqrt{2}.$  Then\n\\[\\frac{1}{2} \\cdot 10 \\cdot 11 \\sin A = 30 \\sqrt{2},\\]so $\\sin A = \\frac{20 \\sqrt{2}}{33}.$  Therefore,\n\\[[ADE] = \\frac{1}{2} \\cdot 4 \\cdot 7 \\cdot \\frac{20 \\sqrt{2}}{33} = \\boxed{\\frac{280 \\sqrt{2}}{33}}.\\]"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{\\frac{63}{20}}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the question and your solution so I can check for errors and provide the corrected final answer. \n",
+        "ground_truth": "By Heron's formula, the area of triangle $ABC$ is $30 \\sqrt{2}.$  Then\n\\[\\frac{1}{2} \\cdot 10 \\cdot 11 \\sin A = 30 \\sqrt{2},\\]so $\\sin A = \\frac{20 \\sqrt{2}}{33}.$  Therefore,\n\\[[ADE] = \\frac{1}{2} \\cdot 4 \\cdot 7 \\cdot \\frac{20 \\sqrt{2}}{33} = \\boxed{\\frac{280 \\sqrt{2}}{33}}.\\]"
+    }
+]

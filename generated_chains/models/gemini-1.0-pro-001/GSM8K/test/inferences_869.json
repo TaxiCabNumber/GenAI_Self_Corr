@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAn electronics seller bought 5 phones for $700 each and gives the seller $4000 in dollar bills. How much will the seller give back in change?",
+        "inference": "1. Multiply the number of phones by the price of each phone to find the total cost of the phones: 5 x $700 = $3,500.\n2. Subtract the total cost of the phones from the amount the seller gave to find the change: $4,000 - $3,500 = $500.\nI hope it is correct: 500 $",
+        "ground_truth": "The seller bought the 5 phones for $700 * 5 = $<<700*5=3500>>3500.\nSo the seller gives back $4000-$3500 = $<<4000-3500=500>>500.\n#### 500"
+    },
+    {
+        "question": "1. Multiply the number of phones by the price of each phone to find the total cost of the phones: 5 x $700 = $3,500.\n2. Subtract the total cost of the phones from the amount the seller gave to find the change: $4,000 - $3,500 = $500.\nI hope it is correct: 500 $\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$500",
+        "ground_truth": "The seller bought the 5 phones for $700 * 5 = $<<700*5=3500>>3500.\nSo the seller gives back $4000-$3500 = $<<4000-3500=500>>500.\n#### 500"
+    }
+]

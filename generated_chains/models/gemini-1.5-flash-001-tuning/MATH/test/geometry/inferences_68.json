@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn the diagram shown here (which is not drawn to scale), suppose that $\\triangle ABC \\sim \\triangle PAQ$ and $\\triangle ABQ \\sim \\triangle QCP$.  If $m\\angle BAC = 70^\\circ$, then compute $m\\angle PQC$. [asy]\nsize(150); defaultpen(linewidth(0.8));\npair B = (0,0), C = (6,0), A = (2,4), Q = (1,0), P = (A + C)/2;\ndraw(A--B--C--A--Q--P);\nlabel(\"$B$\",B,S); label(\"$A$\",A,N); label(\"$C$\",C,S); label(\"$P$\",P,E); label(\"$Q$\",Q,S);\n[/asy]",
+        "inference": "Final Answer: \\\\boxed{70^\\circ}. I hope it is correct.",
+        "ground_truth": "We're given that $\\triangle ABQ \\sim \\triangle QCP$ and thus $m\\angle B = m\\angle C.$ Therefore, $\\triangle ABC$ is isosceles. From the given $m\\angle BAC=70^\\circ$, we have that $m\\angle ABC = m\\angle BCA = 55^\\circ$.  But we also know that $\\triangle ABC \\sim \\triangle PAQ$, which means that $m\\angle PAQ=55^\\circ$ as well.  Subtracting, $m\\angle BAQ=15^\\circ$.  Finally, from similar triangles, we have $m\\angle PQC=m\\angle BAQ = \\boxed{15^\\circ}$."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{70^\\circ}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you're referring to. I need that information to identify any errors and provide the correct answer. \n",
+        "ground_truth": "We're given that $\\triangle ABQ \\sim \\triangle QCP$ and thus $m\\angle B = m\\angle C.$ Therefore, $\\triangle ABC$ is isosceles. From the given $m\\angle BAC=70^\\circ$, we have that $m\\angle ABC = m\\angle BCA = 55^\\circ$.  But we also know that $\\triangle ABC \\sim \\triangle PAQ$, which means that $m\\angle PAQ=55^\\circ$ as well.  Subtracting, $m\\angle BAQ=15^\\circ$.  Finally, from similar triangles, we have $m\\angle PQC=m\\angle BAQ = \\boxed{15^\\circ}$."
+    }
+]

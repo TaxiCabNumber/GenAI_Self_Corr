@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $x$ is doubled, increased by $3$, and then divided by $5$, the result is $11$. What is the value of $x$?",
+        "inference": "Let's think step-by-step.\nFirst, we will work backwards from the given result, 11.\n1. Divided by $5$, the result is $11$. So, the number before dividing by $5$ is $11 \\times 5 = 55$.\n2. Increased by $3$, the result is $55$. So, the number before increasing by $3$ is $55 - 3 = 52$.\n3. Doubled, the result is $52$. So, the original number, $x$, is $52 \\div 2 = 26$.\nFinal Answer: $\\boxed{26}$. I hope it is correct.",
+        "ground_truth": "We set up the equation and solve for $x$: \\begin{align*}\n\\frac{2x+3}{5}&=11\\qquad\\Rightarrow\\\\\n2x+3&=55\\qquad\\Rightarrow\\\\\n2x&=52\\qquad\\Rightarrow\\\\\nx&=\\boxed{26}.\n\\end{align*}"
+    },
+    {
+        "question": "Let's think step-by-step.\nFirst, we will work backwards from the given result, 11.\n1. Divided by $5$, the result is $11$. So, the number before dividing by $5$ is $11 \\times 5 = 55$.\n2. Increased by $3$, the result is $55$. So, the number before increasing by $3$ is $55 - 3 = 52$.\n3. Doubled, the result is $52$. So, the original number, $x$, is $52 \\div 2 = 26$.\nFinal Answer: $\\boxed{26}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$26$}",
+        "ground_truth": "We set up the equation and solve for $x$: \\begin{align*}\n\\frac{2x+3}{5}&=11\\qquad\\Rightarrow\\\\\n2x+3&=55\\qquad\\Rightarrow\\\\\n2x&=52\\qquad\\Rightarrow\\\\\nx&=\\boxed{26}.\n\\end{align*}"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJack went to a supermarket with $100 and bought 4 bottles of water. Then his mother called him and asked him to buy twice as many bottles as he already bought. Each bottle cost $2. Finally, he also bought half a pound of cheese and 1 pound of cheese costs $10. How much money does Jack have remaining?",
+        "inference": "**Step 1**: Number of bottles he bought initially = 4\n\n**Step 2**: Number of bottles he bought after his mother's call = 2 * 4 = 8\n\n**Step 3**: Total number of bottles = 4 + 8 = 12\n\n**Step 4**: Cost of 12 bottles = 12 * $2 = $24\n\n**Step 5**: Cost of half a pound of cheese = $10 / 2 = $5\n\n**Step 6**: Total cost = $24 + $5 = $29\n\n**Step 7**: Money remaining = $100 - $29 = $71\nI hope it is correct: $71$",
+        "ground_truth": "Jack's mother asked him to buy 2 * 4 = <<2*4=8>>8 bottles of water.\nThus Jack bought 4 + 8 = <<4+8=12>>12 bottles of water in total.\nAltogether, the bottles of water cost 12 * $2 = $<<12*2=24>>24.\nThe cheese cost 1/2 * $10 = $<<10*0.5=5>>5.\nSo Jack spent $24 + $5 = $<<24+5=29>>29 on water and cheese.\nSince he started with $100, he now has $100 - $29 = $<<100-29=71>>71 left.\n#### 71"
+    },
+    {
+        "question": "**Step 1**: Number of bottles he bought initially = 4\n\n**Step 2**: Number of bottles he bought after his mother's call = 2 * 4 = 8\n\n**Step 3**: Total number of bottles = 4 + 8 = 12\n\n**Step 4**: Cost of 12 bottles = 12 * $2 = $24\n\n**Step 5**: Cost of half a pound of cheese = $10 / 2 = $5\n\n**Step 6**: Total cost = $24 + $5 = $29\n\n**Step 7**: Money remaining = $100 - $29 = $71\nI hope it is correct: $71$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ = 71",
+        "ground_truth": "Jack's mother asked him to buy 2 * 4 = <<2*4=8>>8 bottles of water.\nThus Jack bought 4 + 8 = <<4+8=12>>12 bottles of water in total.\nAltogether, the bottles of water cost 12 * $2 = $<<12*2=24>>24.\nThe cheese cost 1/2 * $10 = $<<10*0.5=5>>5.\nSo Jack spent $24 + $5 = $<<24+5=29>>29 on water and cheese.\nSince he started with $100, he now has $100 - $29 = $<<100-29=71>>71 left.\n#### 71"
+    }
+]

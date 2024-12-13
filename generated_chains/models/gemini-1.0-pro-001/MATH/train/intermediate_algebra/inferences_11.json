@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the distance between the foci of the hyperbola $x^2 - 6x - 4y^2 - 8y = 27.$",
+        "inference": "The equation of the hyperbola is \n\n$$x^2 -6x -4y^2 - 8y = 27$$\n\nComparing the given equation with the standard equation of the hyperbola, \n\n$$\\frac{(x-h)^2}{b^2} - \\frac{(y-k)^2}{a^2} = 1,$$\n\nwe get $h=3, k=-1, a^2=4, b^2=1$.\n\nTherefore, $a = 2, b = 1, c^2 = a^2 + b^2  = 2^2 + 1^2 = 5$.\n\nHence, the distance between the foci is \n\n$$2c = 2 \\sqrt{5} = 4.47.$$\n\n**Final Answer: \\boxed{$4.47$}. I hope it is correct.**",
+        "ground_truth": "Completing the square in $x$ and $y,$ we get\n\\[(x - 3)^2 - 4(y + 1)^2 = 32.\\]Then\n\\[\\frac{(x - 3)^2}{32} - \\frac{(y + 1)^2}{8} = 1.\\]We see that $a^2 = 32$ and $b^2 = 8,$ so $c^2 = a^2 + b^2 = 40,$ and $c = 2 \\sqrt{10}.$  Therefore, the distance between the foci is $2c = \\boxed{4 \\sqrt{10}}.$"
+    },
+    {
+        "question": "The equation of the hyperbola is \n\n$$x^2 -6x -4y^2 - 8y = 27$$\n\nComparing the given equation with the standard equation of the hyperbola, \n\n$$\\frac{(x-h)^2}{b^2} - \\frac{(y-k)^2}{a^2} = 1,$$\n\nwe get $h=3, k=-1, a^2=4, b^2=1$.\n\nTherefore, $a = 2, b = 1, c^2 = a^2 + b^2  = 2^2 + 1^2 = 5$.\n\nHence, the distance between the foci is \n\n$$2c = 2 \\sqrt{5} = 4.47.$$\n\n**Final Answer: \\boxed{$4.47$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{4.47}$$",
+        "ground_truth": "Completing the square in $x$ and $y,$ we get\n\\[(x - 3)^2 - 4(y + 1)^2 = 32.\\]Then\n\\[\\frac{(x - 3)^2}{32} - \\frac{(y + 1)^2}{8} = 1.\\]We see that $a^2 = 32$ and $b^2 = 8,$ so $c^2 = a^2 + b^2 = 40,$ and $c = 2 \\sqrt{10}.$  Therefore, the distance between the foci is $2c = \\boxed{4 \\sqrt{10}}.$"
+    }
+]

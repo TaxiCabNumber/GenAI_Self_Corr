@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe positive integer divisors of 175, except 1, are arranged around a circle so that every pair of adjacent integers has a common factor greater than 1. What is the sum of the two integers adjacent to 7?",
+        "inference": "The factors of 175 are 1, 5, 7, 25, 35 ,and 175.  7 is adjacent to 5 and 35, since 7 and 5 have a common factor of 1 and 7 and 35 have a common factor of 7.  The sum of 5 and 35 is $5+35=40$.\nFinal Answer: $\\boxed{40}$. I hope it is correct.",
+        "ground_truth": "$175=5^2\\cdot7^1$. To arrange the divisors of 175, we can (conveniently) start with the divisor 7. Since $\\gcd(5,7)=1$, the two divisors that are adjacent to 7 must be multiples of 7, which means they have to be $5^1\\cdot7=35$ and $5^2\\cdot7=175$. Thus, the sum of the two integers adjacent to 7 is $35+175=\\boxed{210}$."
+    },
+    {
+        "question": "The factors of 175 are 1, 5, 7, 25, 35 ,and 175.  7 is adjacent to 5 and 35, since 7 and 5 have a common factor of 1 and 7 and 35 have a common factor of 7.  The sum of 5 and 35 is $5+35=40$.\nFinal Answer: $\\boxed{40}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$40$}",
+        "ground_truth": "$175=5^2\\cdot7^1$. To arrange the divisors of 175, we can (conveniently) start with the divisor 7. Since $\\gcd(5,7)=1$, the two divisors that are adjacent to 7 must be multiples of 7, which means they have to be $5^1\\cdot7=35$ and $5^2\\cdot7=175$. Thus, the sum of the two integers adjacent to 7 is $35+175=\\boxed{210}$."
+    }
+]

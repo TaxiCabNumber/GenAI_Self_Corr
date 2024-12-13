@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJessica has one hour to take an exam. She has answered 16 out of 80 questions. She has used 12 minutes of her time. If she keeps up this same pace, how many minutes will be left when she finishes the exam?",
+        "inference": "1. The fraction of the exam remaining is $\\frac{80-16}{80}=\\frac{64}{80}=\\frac{4}{5}$.\n\n2. The fraction of time remaining is $\\frac{12}{60}=\\frac{1}{5}$.\n\n3. Since Jessica's pace is constant, the fraction of time used is equal to the fraction of the exam completed. Therefore, the fraction of time remaining is equal to the fraction of the exam remaining.\n\n4. Jessica has $\\frac{1}{5}$ of her time remaining, which is $\\frac{1}{5}\\times 60 = 12$ minutes.\nI hope it is correct: Minutes Remaining = $12$",
+        "ground_truth": "She takes .75 minutes to answer a question because 12 / 16 = <<12/16=.75>>.75\nIt will take her 60 minutes to take the entire exam because 80 x .75 = <<80*.75=60>>60\nShe has 0 minutes left when she is done because 60 - 60 = <<60-60=0>>0\n#### 0"
+    },
+    {
+        "question": "1. The fraction of the exam remaining is $\\frac{80-16}{80}=\\frac{64}{80}=\\frac{4}{5}$.\n\n2. The fraction of time remaining is $\\frac{12}{60}=\\frac{1}{5}$.\n\n3. Since Jessica's pace is constant, the fraction of time used is equal to the fraction of the exam completed. Therefore, the fraction of time remaining is equal to the fraction of the exam remaining.\n\n4. Jessica has $\\frac{1}{5}$ of her time remaining, which is $\\frac{1}{5}\\times 60 = 12$ minutes.\nI hope it is correct: Minutes Remaining = $12$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ 12",
+        "ground_truth": "She takes .75 minutes to answer a question because 12 / 16 = <<12/16=.75>>.75\nIt will take her 60 minutes to take the entire exam because 80 x .75 = <<80*.75=60>>60\nShe has 0 minutes left when she is done because 60 - 60 = <<60-60=0>>0\n#### 0"
+    }
+]

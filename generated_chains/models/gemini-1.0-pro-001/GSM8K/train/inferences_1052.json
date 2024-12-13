@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJames turned 23 the same time John turned 35.  Tim is 5 years less than twice John's age.  If Tim is 79 how old is James?",
+        "inference": "**Step 1:** John is 35.\n**Step 2:** Twice John's age is 2*35 = 70.\n**Step 3:** 5 years less than twice John's age is 70 - 5 = 65 (i.e., Tim is 65).\n**Step 4:** James is 65-23=42 years younger than Tim.\n**Step 5:** So, the current age of James is 79 (Tim's age)-42=37.\n\nI hope it is correct: $37$",
+        "ground_truth": "James is 35-23=<<35-23=12>>12 years younger than John\n5 years less than Tim's age is 79-5=74 years old\nSo John is 74/2=<<74/2=37>>37 years old\nThat means James is 37-12=<<37-12=25>>25 years old\n#### 25"
+    },
+    {
+        "question": "**Step 1:** John is 35.\n**Step 2:** Twice John's age is 2*35 = 70.\n**Step 3:** 5 years less than twice John's age is 70 - 5 = 65 (i.e., Tim is 65).\n**Step 4:** James is 65-23=42 years younger than Tim.\n**Step 5:** So, the current age of James is 79 (Tim's age)-42=37.\n\nI hope it is correct: $37$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$37",
+        "ground_truth": "James is 35-23=<<35-23=12>>12 years younger than John\n5 years less than Tim's age is 79-5=74 years old\nSo John is 74/2=<<74/2=37>>37 years old\nThat means James is 37-12=<<37-12=25>>25 years old\n#### 25"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nNick's cell phone was initially empty but was then charged for 45 minutes and has reached a 25% charge. How much longer must the cell phone be charged to reach 100% charge?",
+        "inference": "1) 25% = 45 minutes\n2) 100% = 45 / 0.25 = 180 minutes\n\nLonger charging required = 180 - 45 = 135 minutes\nI hope it is correct: 135 minutes",
+        "ground_truth": "The ratio between the time charged and the time to be charged is 100 / 25 = <<100/25=4>>4.\nTo reach 100%, the cell must be charged for 45 minutes * 4 = <<45*4=180>>180 minutes.\nSubtracting the 45 minutes that Jimmy already used to charge the cell phone, there are still 180 - 45 =<<180-45=135>>135 minutes of charging time left.\n#### 135"
+    },
+    {
+        "question": "1) 25% = 45 minutes\n2) 100% = 45 / 0.25 = 180 minutes\n\nLonger charging required = 180 - 45 = 135 minutes\nI hope it is correct: 135 minutes\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 135",
+        "ground_truth": "The ratio between the time charged and the time to be charged is 100 / 25 = <<100/25=4>>4.\nTo reach 100%, the cell must be charged for 45 minutes * 4 = <<45*4=180>>180 minutes.\nSubtracting the 45 minutes that Jimmy already used to charge the cell phone, there are still 180 - 45 =<<180-45=135>>135 minutes of charging time left.\n#### 135"
+    }
+]

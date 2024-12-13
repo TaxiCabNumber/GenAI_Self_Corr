@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTed starts with $200. He buys 3 books for 16 dollars each and 3 pencils for 6 dollars each. How much did he spend in total?",
+        "inference": "1. He spends 3 * $16 on books, which is equal to $48\n2. He spends 3 * $6 on pencils, which is equal to $18\n3. He spends $48 + $18 on books and pencils, which is $66\n4. He starts with $200, so after spending $66, he has $200 - $66 = $134 left.\n\nI hope it is correct: $134",
+        "ground_truth": "Ted spent a total of 3*16 = <<3*16=48>>48 dollars on books.\nTed spent a total of 3*6 = <<3*6=18>>18 dollars on pencils.\nIn total Ted spent 48+18 = <<48+18=66>>66 dollars.\n#### 66"
+    },
+    {
+        "question": "1. He spends 3 * $16 on books, which is equal to $48\n2. He spends 3 * $6 on pencils, which is equal to $18\n3. He spends $48 + $18 on books and pencils, which is $66\n4. He starts with $200, so after spending $66, he has $200 - $66 = $134 left.\n\nI hope it is correct: $134\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$134",
+        "ground_truth": "Ted spent a total of 3*16 = <<3*16=48>>48 dollars on books.\nTed spent a total of 3*6 = <<3*6=18>>18 dollars on pencils.\nIn total Ted spent 48+18 = <<48+18=66>>66 dollars.\n#### 66"
+    }
+]

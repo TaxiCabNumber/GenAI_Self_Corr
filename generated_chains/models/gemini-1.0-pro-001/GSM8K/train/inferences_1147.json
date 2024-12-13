@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIn a city, the number of people living per cubic yard is 80. How many more people are in a city with 9000 cubic yards than a city with 6400 cubic yards?",
+        "inference": "1. Find the number of people in the city with 6400 cubic yards: 6400 * 80 = 512,000 people.\n\n2. Find the number of people in the city with 9000 cubic yards: 9000 * 80 = 720,000 people.\n\n3. Subtract the number of people in the city with 6400 cubic yards from the number of people in the city with 9000 cubic yards: 720,000 - 512,000 = 208,000 people.\n\nI hope it is correct: 208000",
+        "ground_truth": "The difference in cubic yards between the two cities is 9000-6400 = <<9000-6400=2600>>2600 cubic yards.\nSince the number of people living in a city per cubic yard is 80, there are 80*2600 = 208000 more people living in a city with 9000 cubic yards than a city with 6400 cubic yards.\n#### 208000"
+    },
+    {
+        "question": "1. Find the number of people in the city with 6400 cubic yards: 6400 * 80 = 512,000 people.\n\n2. Find the number of people in the city with 9000 cubic yards: 9000 * 80 = 720,000 people.\n\n3. Subtract the number of people in the city with 6400 cubic yards from the number of people in the city with 9000 cubic yards: 720,000 - 512,000 = 208,000 people.\n\nI hope it is correct: 208000\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 208,000",
+        "ground_truth": "The difference in cubic yards between the two cities is 9000-6400 = <<9000-6400=2600>>2600 cubic yards.\nSince the number of people living in a city per cubic yard is 80, there are 80*2600 = 208000 more people living in a city with 9000 cubic yards than a city with 6400 cubic yards.\n#### 208000"
+    }
+]

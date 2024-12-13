@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIn a certain school, two classes have a total of 80 students. Each class has the same amount of students, and in each class 40% of the students are girls. How many boys are in each class?",
+        "inference": "1. Find the total number of girls in both classes.\n80 * 40% = 32 girls\n\n2. Since each class has the same amount of students, there are 16 girls in each class.\n\n3. Subtract the number of girls in each class from the total number of students in each class to find the number of boys in each class.\n16 girls - 80 students = 64 boys\n\nI hope it is correct: 64 boys",
+        "ground_truth": "If both classes have the same amount of students, that means each of them has 80 / 2 = <<80/2=40>>40 students.\nThe girls in each class make up to 40%, so there are 40/100 * 40 = <<40/100*40=16>>16 girls in each of them.\nThat means the rest of the class are boys, so there are 40 - 16 = <<40-16=24>>24 boys in each class.\n#### 24"
+    },
+    {
+        "question": "1. Find the total number of girls in both classes.\n80 * 40% = 32 girls\n\n2. Since each class has the same amount of students, there are 16 girls in each class.\n\n3. Subtract the number of girls in each class from the total number of students in each class to find the number of boys in each class.\n16 girls - 80 students = 64 boys\n\nI hope it is correct: 64 boys\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 64",
+        "ground_truth": "If both classes have the same amount of students, that means each of them has 80 / 2 = <<80/2=40>>40 students.\nThe girls in each class make up to 40%, so there are 40/100 * 40 = <<40/100*40=16>>16 girls in each of them.\nThat means the rest of the class are boys, so there are 40 - 16 = <<40-16=24>>24 boys in each class.\n#### 24"
+    }
+]

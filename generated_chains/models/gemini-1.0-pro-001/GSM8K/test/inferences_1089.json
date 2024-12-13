@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nNathan has a bouncy ball that bounces to 2/3rds of its starting height with each bounce. If he drops it from the third-floor balcony in the mall, where each story is 24 feet high, how high does the ball go on its second bounce?",
+        "inference": "The ball is initially dropped from 24 x 3 = 72 feet high.\n\nOn its first bounce, it goes up 2/3 x 72 = 48 feet.\n\nOn its second bounce, it goes up 2/3 x 48 = 32 feet.\n\nI hope it is correct: 32",
+        "ground_truth": "First find the total height from which Nathan drops the ball: 24 feet/story * 3 stories = <<24*3=72>>72 feet\nThen multiply that number by 2/3rds to find the height of the ball after one bounce: 72 feet * 2/3 = <<72*2/3=48>>48 feet\nThen multiply that number by 2/3rds to find the height of the ball after two bounces: 48 feet * 2/3 = <<48*2/3=32>>32 feet\n#### 32"
+    },
+    {
+        "question": "The ball is initially dropped from 24 x 3 = 72 feet high.\n\nOn its first bounce, it goes up 2/3 x 72 = 48 feet.\n\nOn its second bounce, it goes up 2/3 x 48 = 32 feet.\n\nI hope it is correct: 32\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$32",
+        "ground_truth": "First find the total height from which Nathan drops the ball: 24 feet/story * 3 stories = <<24*3=72>>72 feet\nThen multiply that number by 2/3rds to find the height of the ball after one bounce: 72 feet * 2/3 = <<72*2/3=48>>48 feet\nThen multiply that number by 2/3rds to find the height of the ball after two bounces: 48 feet * 2/3 = <<48*2/3=32>>32 feet\n#### 32"
+    }
+]

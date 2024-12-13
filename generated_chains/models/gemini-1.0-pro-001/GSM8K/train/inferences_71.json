@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAt a flea market, Hillary sells handmade crafts for 12 dollars per craft. Today, Hillary sells 3 crafts and is given an extra 7 dollars from an appreciative customer. Later on, Hillary deposits 18 dollars from today's profits into her bank account. How many dollars is Hillary left with after making the deposit?",
+        "inference": "1. Hillary sells 3 crafts for $12 each, so she earns 3 x $12 = $36 from the sales.\n2. Hillary is given an extra $7 from an appreciative customer, so her total earnings for the day are $36 + $7 = $43.\n3. Hillary deposits $18 from today's profits into her bank account, so she is left with $43 - $18 = $25.\nI hope it is correct: 25 $",
+        "ground_truth": "Hillary sells 3 crafts for 12 dollars each, for a total of 3 crafts * $12/craft = $<<3*12=36>>36\nShe receives an extra 7 dollars from a customer, increasing the total to $36 + $7 = $<<36+7=43>>43\nShe then deposits 18 dollars in the bank, leaving her with $43 - $18 = $25\n#### 25"
+    },
+    {
+        "question": "1. Hillary sells 3 crafts for $12 each, so she earns 3 x $12 = $36 from the sales.\n2. Hillary is given an extra $7 from an appreciative customer, so her total earnings for the day are $36 + $7 = $43.\n3. Hillary deposits $18 from today's profits into her bank account, so she is left with $43 - $18 = $25.\nI hope it is correct: 25 $\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "25 $",
+        "ground_truth": "Hillary sells 3 crafts for 12 dollars each, for a total of 3 crafts * $12/craft = $<<3*12=36>>36\nShe receives an extra 7 dollars from a customer, increasing the total to $36 + $7 = $<<36+7=43>>43\nShe then deposits 18 dollars in the bank, leaving her with $43 - $18 = $25\n#### 25"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe positive difference between two consecutive even perfect squares is $268$.  Compute the larger of the two squares.",
+        "inference": "Let the larger perfect square be $n^2$.\n\nThen the smaller perfect square is $(n-1)^2$.\n\nWe have $n^2-(n-1)^2=268$.\n\n$$1=2n-1 \\Rightarrow n=1.$$ \n\nSo the larger square is $n^2=1^2=\\boxed{1}$.\nFinal Answer: $\\boxed{1}$. I hope it is correct.",
+        "ground_truth": "Let the larger square be $x^2$, and the smaller one be $(x-2)^2$.  Their difference is\n\n$$x^2-(x-2)^2=(x-(x-2))(x+(x-2))=2(2x-2)=4(x-1)$$Thus, $4(x-1)=268\\Rightarrow x-1=67$.\n\nSo $x=68$ and the answer is $68^2=\\boxed{4624}$."
+    },
+    {
+        "question": "Let the larger perfect square be $n^2$.\n\nThen the smaller perfect square is $(n-1)^2$.\n\nWe have $n^2-(n-1)^2=268$.\n\n$$1=2n-1 \\Rightarrow n=1.$$ \n\nSo the larger square is $n^2=1^2=\\boxed{1}$.\nFinal Answer: $\\boxed{1}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$1$}",
+        "ground_truth": "Let the larger square be $x^2$, and the smaller one be $(x-2)^2$.  Their difference is\n\n$$x^2-(x-2)^2=(x-(x-2))(x+(x-2))=2(2x-2)=4(x-1)$$Thus, $4(x-1)=268\\Rightarrow x-1=67$.\n\nSo $x=68$ and the answer is $68^2=\\boxed{4624}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $Q = 11-5i$, $E = 11+5i$, and $D = 2i$, find $Q\\cdot E \\cdot D$.",
+        "inference": "$$Q\\cdot E \\cdot D = (11-5i)(11+5i)(2i)$$\n$$= (11-5i)(11+5i)2i$$\n$$= (11^2-(5i)^2)2i$$\n$$= (121-25i^2)2i$$\n$$= (121-25(-1))2i$$\n$$= (121+25)2i$$\n$$= 146(2i)$$\n$$= 292i$$\n$$= \\boxed{292i}.$$\nFinal Answer: $\\boxed{292i}.$ I hope it is correct.",
+        "ground_truth": "\\begin{align*}\nQED &= (11-5i)(11+5i)2i\\\\\n&=2i(121-(5i)^2)\\\\\n&=2i(121+25)\\\\\n&=\\boxed{292i}.\n\\end{align*}"
+    },
+    {
+        "question": "$$Q\\cdot E \\cdot D = (11-5i)(11+5i)(2i)$$\n$$= (11-5i)(11+5i)2i$$\n$$= (11^2-(5i)^2)2i$$\n$$= (121-25i^2)2i$$\n$$= (121-25(-1))2i$$\n$$= (121+25)2i$$\n$$= 146(2i)$$\n$$= 292i$$\n$$= \\boxed{292i}.$$\nFinal Answer: $\\boxed{292i}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{292i}",
+        "ground_truth": "\\begin{align*}\nQED &= (11-5i)(11+5i)2i\\\\\n&=2i(121-(5i)^2)\\\\\n&=2i(121+25)\\\\\n&=\\boxed{292i}.\n\\end{align*}"
+    }
+]

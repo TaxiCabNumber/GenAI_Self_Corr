@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the largest $4$ digit integer congruent to $15 \\pmod{22}?$",
+        "inference": "Solution:\nSince $15 \\equiv 1 \\pmod{22},$ the largest $4$ digit integer congruent to $15 \\pmod{22}$ is $9999.$\nFinal Answer: $\\boxed{9999}.$ I hope it is correct.",
+        "ground_truth": "An integer that is congruent to $15 \\pmod{22}$ is of the form $22n+15$.\n\nTherefore, we make the equation $22n+15<10000$, and find the largest possible $n$. \\begin{align*}\n22n+15&<10000 \\\\\n22n&<9985 \\\\\nn&<\\frac{9985}{22} \\approx 453.85\n\\end{align*}The largest possible integer $n$ is $453$. We plug it in for $n$ to get $22 \\cdot 453 +15 =\\boxed{9981}$."
+    },
+    {
+        "question": "Solution:\nSince $15 \\equiv 1 \\pmod{22},$ the largest $4$ digit integer congruent to $15 \\pmod{22}$ is $9999.$\nFinal Answer: $\\boxed{9999}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\(\\boxed{9991}\\)",
+        "ground_truth": "An integer that is congruent to $15 \\pmod{22}$ is of the form $22n+15$.\n\nTherefore, we make the equation $22n+15<10000$, and find the largest possible $n$. \\begin{align*}\n22n+15&<10000 \\\\\n22n&<9985 \\\\\nn&<\\frac{9985}{22} \\approx 453.85\n\\end{align*}The largest possible integer $n$ is $453$. We plug it in for $n$ to get $22 \\cdot 453 +15 =\\boxed{9981}$."
+    }
+]

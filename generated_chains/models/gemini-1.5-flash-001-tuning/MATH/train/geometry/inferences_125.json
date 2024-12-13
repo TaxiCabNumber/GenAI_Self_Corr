@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn right triangle $ABC$, shown below, $\\cos{C}=\\frac{9\\sqrt{130}}{130}$.  Find $AC$.\n\n[asy]\ndraw((0,0)--(7,0)--(0,9)--cycle,black+linewidth(1));\ndraw(rightanglemark((7,0),(0,0),(0,9),20),black+linewidth(1));\nlabel(\"$A$\",(0,0),W);\nlabel(\"$B$\",(7,0),E);\nlabel(\"$C$\",(0,9),W);\nlabel(\"$\\sqrt{130}$\",(7,0)--(0,9),NE);\n[/asy]",
+        "inference": "Final Answer: \\\\boxed{9}. I hope it is correct. \n",
+        "ground_truth": "Since $\\cos{C}=\\frac{9\\sqrt{130}}{130}$ and $\\cos{C}=\\frac{AC}{BC}$, we have $\\frac{AC}{BC}=\\frac{AC}{\\sqrt{130}}=\\frac{9\\sqrt{130}}{130}$.  This means that $AC=\\frac{9\\sqrt{130}}{130}\\cdot\\sqrt{130}=\\frac{9\\cdot\\sqrt{130}\\cdot\\sqrt{130}}{130}=\\boxed{9}$."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{9}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution so I can review it and provide the correct final answer. \n",
+        "ground_truth": "Since $\\cos{C}=\\frac{9\\sqrt{130}}{130}$ and $\\cos{C}=\\frac{AC}{BC}$, we have $\\frac{AC}{BC}=\\frac{AC}{\\sqrt{130}}=\\frac{9\\sqrt{130}}{130}$.  This means that $AC=\\frac{9\\sqrt{130}}{130}\\cdot\\sqrt{130}=\\frac{9\\cdot\\sqrt{130}\\cdot\\sqrt{130}}{130}=\\boxed{9}$."
+    }
+]

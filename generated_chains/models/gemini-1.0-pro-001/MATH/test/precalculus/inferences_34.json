@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} = -8,$ then find\n\\[\\begin{vmatrix} b & a \\\\ d & c \\end{vmatrix}.\\]",
+        "inference": "We can use the property that the determinant of a matrix is equal to the negative of the determinant of its transpose to find that\n\\[\\begin{vmatrix} b & a \\\\ d & c \\end{vmatrix} = - \\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} = -(-8) = \\boxed{8}.\\]\n\nFinal Answer: \\boxed{8}. I hope it is correct.",
+        "ground_truth": "Since $\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} = -8,$ $ad - bc = -8.$  Then\n\\[\\begin{vmatrix} b & a \\\\ d & c \\end{vmatrix} = bc - ad = \\boxed{8}.\\](Why does this make sense geometrically?)"
+    },
+    {
+        "question": "We can use the property that the determinant of a matrix is equal to the negative of the determinant of its transpose to find that\n\\[\\begin{vmatrix} b & a \\\\ d & c \\end{vmatrix} = - \\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} = -(-8) = \\boxed{8}.\\]\n\nFinal Answer: \\boxed{8}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{8}",
+        "ground_truth": "Since $\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} = -8,$ $ad - bc = -8.$  Then\n\\[\\begin{vmatrix} b & a \\\\ d & c \\end{vmatrix} = bc - ad = \\boxed{8}.\\](Why does this make sense geometrically?)"
+    }
+]

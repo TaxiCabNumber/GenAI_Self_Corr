@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nCarla can cook a batch of waffles in 10 minutes and chicken-fried steak in 6 minutes. How long will it take her to cook 3 steaks and a batch of waffles?",
+        "inference": "Since it takes 10 minutes to cook a batch of waffles and 6 minutes to cook a chicken-fried steak, the total time to cook 3 steaks and a batch of waffles is:\n10 + 3 * 6 = 10 + 18 = 28 minutes\n\nI hope it is correct: 28",
+        "ground_truth": "First find the total cook time for the steaks: 3 steaks * 6 minutes/steak = <<3*6=18>>18 minutes\nThen add the waffles' cook time to find the total cook time: 18 minutes + 10 minutes = <<18+10=28>>28 minutes\n#### 28"
+    },
+    {
+        "question": "Since it takes 10 minutes to cook a batch of waffles and 6 minutes to cook a chicken-fried steak, the total time to cook 3 steaks and a batch of waffles is:\n10 + 3 * 6 = 10 + 18 = 28 minutes\n\nI hope it is correct: 28\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$28",
+        "ground_truth": "First find the total cook time for the steaks: 3 steaks * 6 minutes/steak = <<3*6=18>>18 minutes\nThen add the waffles' cook time to find the total cook time: 18 minutes + 10 minutes = <<18+10=28>>28 minutes\n#### 28"
+    }
+]

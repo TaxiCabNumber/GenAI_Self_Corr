@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the measure, in degrees, of the smallest positive angle $\\theta$ for which $\\sin 3 \\theta = \\cos 7 \\theta.$",
+        "inference": "$$\\sin 3 \\theta = \\cos 7 \\theta$$\n\n$$\\sin 3 \\theta = \\sin \\left(\\frac{\\pi}{2} - 7 \\theta\\right)$$\n\n$$3 \\theta = \\frac{\\pi}{2} - 7 \\theta$$\n\n$$10 \\theta = \\frac{\\pi}{2}$$\n\n$$\\theta = \\boxed{\\frac{\\pi}{20}}$$\n\nFinal Answer: $\\boxed{\\frac{\\pi}{20}}$. I hope it is correct.",
+        "ground_truth": "Note that $\\cos 7 \\theta = \\sin (90^\\circ - 7 \\theta),$ so\n\\[\\sin 3 \\theta = \\sin (90^\\circ - 7 \\theta).\\]If $3 \\theta = 90^\\circ - 7 \\theta,$ then $\\theta = 9^\\circ.$\n\nIf $0^\\circ < \\theta < 9^\\circ,$ then $\\sin 3 \\theta < \\sin 27^\\circ$ and $\\sin (90^\\circ - 7 \\theta) > \\sin 27^\\circ,$ so the smallest positive solution is $\\boxed{9^\\circ}.$"
+    },
+    {
+        "question": "$$\\sin 3 \\theta = \\cos 7 \\theta$$\n\n$$\\sin 3 \\theta = \\sin \\left(\\frac{\\pi}{2} - 7 \\theta\\right)$$\n\n$$3 \\theta = \\frac{\\pi}{2} - 7 \\theta$$\n\n$$10 \\theta = \\frac{\\pi}{2}$$\n\n$$\\theta = \\boxed{\\frac{\\pi}{20}}$$\n\nFinal Answer: $\\boxed{\\frac{\\pi}{20}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$\\frac{\\pi}{20}$}",
+        "ground_truth": "Note that $\\cos 7 \\theta = \\sin (90^\\circ - 7 \\theta),$ so\n\\[\\sin 3 \\theta = \\sin (90^\\circ - 7 \\theta).\\]If $3 \\theta = 90^\\circ - 7 \\theta,$ then $\\theta = 9^\\circ.$\n\nIf $0^\\circ < \\theta < 9^\\circ,$ then $\\sin 3 \\theta < \\sin 27^\\circ$ and $\\sin (90^\\circ - 7 \\theta) > \\sin 27^\\circ,$ so the smallest positive solution is $\\boxed{9^\\circ}.$"
+    }
+]

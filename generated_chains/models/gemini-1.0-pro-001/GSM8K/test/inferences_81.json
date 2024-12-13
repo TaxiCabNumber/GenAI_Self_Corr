@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nCharlie had 10 stickers. He bought 21 stickers from a store in the mall and got 23 stickers for his birthday. Then Charlie gave 9 of the stickers to his sister and used 28 to decorate a greeting card. How many stickers does Charlie have left?",
+        "inference": "1. Charlie had 10 stickers.\n2. Charlie bought 21 stickers from a store in the mall, so he had 10 + 21 = 31 stickers.\n3. Charlie got 23 stickers for his birthday, so he had 31 + 23 = 54 stickers.\n4. Charlie gave 9 of the stickers to his sister, so he had 54 - 9 = 45 stickers.\n5. Charlie used 28 of the stickers to decorate a greeting card, so he had 45 - 28 = 17 stickers left.\n\nI hope it is correct: 17 $stickers left$",
+        "ground_truth": "The total number of stickers is 10 + 21 + 23 = <<10+21+23=54>>54.\nThe number of stickers given away and used on the greeting card is 9 + 28 = <<9+28=37>>37.\nCharlie has 54 \u2212 37 = 17 stickers left.\n#### 17"
+    },
+    {
+        "question": "1. Charlie had 10 stickers.\n2. Charlie bought 21 stickers from a store in the mall, so he had 10 + 21 = 31 stickers.\n3. Charlie got 23 stickers for his birthday, so he had 31 + 23 = 54 stickers.\n4. Charlie gave 9 of the stickers to his sister, so he had 54 - 9 = 45 stickers.\n5. Charlie used 28 of the stickers to decorate a greeting card, so he had 45 - 28 = 17 stickers left.\n\nI hope it is correct: 17 $stickers left$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "17",
+        "ground_truth": "The total number of stickers is 10 + 21 + 23 = <<10+21+23=54>>54.\nThe number of stickers given away and used on the greeting card is 9 + 28 = <<9+28=37>>37.\nCharlie has 54 \u2212 37 = 17 stickers left.\n#### 17"
+    }
+]

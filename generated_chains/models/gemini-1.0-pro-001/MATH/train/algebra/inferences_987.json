@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the greatest product obtainable from two integers whose sum is 1998?",
+        "inference": "Let the two integers be x and 1998 - x. Then, the product of the two integers is:\n\n$$P = x(1998 - x)$$\n\n$$P = 1998x - x^2$$\n\n$$P = -(x^2 - 1998x)$$\n\n$$P = -(x^2 - 1998x + 999^2 - 999^2)$$\n\n$$P = -(x - 999)^2 + 999^2$$\n\nThe maximum value of P occurs when (x - 999)^2 = 0, which is when x = 999.\n\nSubstituting x = 999 into the expression for P gives:\n\n$$P = -(999 - 999)^2 + 999^2$$\n\n$$P = -(0)^2 + 999^2$$\n\n$$P = 999^2$$\n\n**Final Answer: \\(\\boxed{998001}. I hope it is correct.**",
+        "ground_truth": "Let the two integers be $x$ and $1998-x$. The product which needs to be maximized is $1998x-x^2$. Completing the square results in $-(x-999)^2+999^2$. Since $-(x-999)^2\\le 0$, the expression is maximized when $x=999$, which results in a value of $999^2=\\boxed{998001}$."
+    },
+    {
+        "question": "Let the two integers be x and 1998 - x. Then, the product of the two integers is:\n\n$$P = x(1998 - x)$$\n\n$$P = 1998x - x^2$$\n\n$$P = -(x^2 - 1998x)$$\n\n$$P = -(x^2 - 1998x + 999^2 - 999^2)$$\n\n$$P = -(x - 999)^2 + 999^2$$\n\nThe maximum value of P occurs when (x - 999)^2 = 0, which is when x = 999.\n\nSubstituting x = 999 into the expression for P gives:\n\n$$P = -(999 - 999)^2 + 999^2$$\n\n$$P = -(0)^2 + 999^2$$\n\n$$P = 999^2$$\n\n**Final Answer: \\(\\boxed{998001}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{998001}$$",
+        "ground_truth": "Let the two integers be $x$ and $1998-x$. The product which needs to be maximized is $1998x-x^2$. Completing the square results in $-(x-999)^2+999^2$. Since $-(x-999)^2\\le 0$, the expression is maximized when $x=999$, which results in a value of $999^2=\\boxed{998001}$."
+    }
+]

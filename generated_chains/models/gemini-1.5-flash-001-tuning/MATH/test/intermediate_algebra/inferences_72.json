@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIs\n\\[f(x) = \\frac{1}{x + 2} - \\frac{1}{x - 2}\\]an even function, odd function, or neither?\n\nEnter \"odd\", \"even\", or \"neither\".",
+        "inference": "Solution:\nWe have that\n\\[f(-x) = \\frac{1}{-x + 2} - \\frac{1}{-x - 2} = \\frac{1}{-(x - 2)} - \\frac{1}{-(x + 2)} = -\\frac{1}{x - 2} + \\frac{1}{x + 2} = -f(x).\\]Therefore, $f(x)$ is an **odd** function.\n\nFinal Answer: $\\boxed{\\text{odd}}$. I hope it is correct. \n",
+        "ground_truth": "Since\n\\begin{align*}\nf(-x) &= \\frac{1}{-x + 2} - \\frac{1}{-x - 2} \\\\\n&= -\\frac{1}{x - 2} + \\frac{1}{x + 2} \\\\\n&= f(x),\n\\end{align*}$f(x)$ is an $\\boxed{\\text{even}}$ function.\n\nNote that\n\\[f(x) = \\frac{1}{x + 2} - \\frac{1}{x - 2} = \\frac{(x - 2) - (x + 2)}{x^2 - 4} = -\\frac{4}{x^2 - 4}.\\]In this form, it is clear that $f(x)$ is even."
+    },
+    {
+        "question": "Solution:\nWe have that\n\\[f(-x) = \\frac{1}{-x + 2} - \\frac{1}{-x - 2} = \\frac{1}{-(x - 2)} - \\frac{1}{-(x + 2)} = -\\frac{1}{x - 2} + \\frac{1}{x + 2} = -f(x).\\]Therefore, $f(x)$ is an **odd** function.\n\nFinal Answer: $\\boxed{\\text{odd}}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{The solution is correct.} \n",
+        "ground_truth": "Since\n\\begin{align*}\nf(-x) &= \\frac{1}{-x + 2} - \\frac{1}{-x - 2} \\\\\n&= -\\frac{1}{x - 2} + \\frac{1}{x + 2} \\\\\n&= f(x),\n\\end{align*}$f(x)$ is an $\\boxed{\\text{even}}$ function.\n\nNote that\n\\[f(x) = \\frac{1}{x + 2} - \\frac{1}{x - 2} = \\frac{(x - 2) - (x + 2)}{x^2 - 4} = -\\frac{4}{x^2 - 4}.\\]In this form, it is clear that $f(x)$ is even."
+    }
+]

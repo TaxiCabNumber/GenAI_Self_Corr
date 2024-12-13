@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCompute $81_9 - 72_9$.  Express your answer in base 9.",
+        "inference": "$$81_9 - 72_9$$\n\n$$=(8 \\times 9) + 1 - (7 \\times 9) - 2$$\n\n$$=(8 \\times 9)  - (7 \\times 9)  + 1 - 2$$\n\n$$= 9 +(-2)$$\n\n$$=\\boxed{9-2=27}$$\n\nFinal Answer: \\boxed{$72_9$}. I hope it is correct.",
+        "ground_truth": "We can line up the numbers and subtract just as we do in base 10.  For example, when we borrow from the $9^1$s place, the digit 1 in the units place becomes $10$, while the digit in the $9^1$s place decreases by 1. Continuing in this way, we find  $$\\begin{array}{c@{}c@{\\;}c@{}c} & & \\cancelto{7}{8} & \\cancelto{10}{1}_9 \\\\ &- & 7 & 2_9 \\\\ \\cline{2-4} & & & 8_9, \\end{array} $$so the difference is $\\boxed{8_9}$."
+    },
+    {
+        "question": "$$81_9 - 72_9$$\n\n$$=(8 \\times 9) + 1 - (7 \\times 9) - 2$$\n\n$$=(8 \\times 9)  - (7 \\times 9)  + 1 - 2$$\n\n$$= 9 +(-2)$$\n\n$$=\\boxed{9-2=27}$$\n\nFinal Answer: \\boxed{$72_9$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$72_9$}.",
+        "ground_truth": "We can line up the numbers and subtract just as we do in base 10.  For example, when we borrow from the $9^1$s place, the digit 1 in the units place becomes $10$, while the digit in the $9^1$s place decreases by 1. Continuing in this way, we find  $$\\begin{array}{c@{}c@{\\;}c@{}c} & & \\cancelto{7}{8} & \\cancelto{10}{1}_9 \\\\ &- & 7 & 2_9 \\\\ \\cline{2-4} & & & 8_9, \\end{array} $$so the difference is $\\boxed{8_9}$."
+    }
+]

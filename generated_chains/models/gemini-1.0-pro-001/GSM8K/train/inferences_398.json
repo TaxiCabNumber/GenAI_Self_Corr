@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe girl scouts earned $30 total from selling delicious cookies. They want to go to the pool. It will cost them $2.50 per person to go and 10 people are going. What is the amount left?",
+        "inference": "The girl scouts earned $30 total from selling delicious cookies.\nThey want to go to the pool. It will cost them $2.50 per person to go and 10 people are going.\nThe total cost of the pool is 10 * $2.50 = $25. \nThe girl scouts earned $30, so they will have $30 - $25 = $5 left.\nI hope it is correct: 5",
+        "ground_truth": "The girls paid $2.50/person * 10 people = $<<2.5*10=25>>25.\nThe girls have $30 - $25 = $<<30-25=5>>5 left.\n#### 5"
+    },
+    {
+        "question": "The girl scouts earned $30 total from selling delicious cookies.\nThey want to go to the pool. It will cost them $2.50 per person to go and 10 people are going.\nThe total cost of the pool is 10 * $2.50 = $25. \nThe girl scouts earned $30, so they will have $30 - $25 = $5 left.\nI hope it is correct: 5\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$5",
+        "ground_truth": "The girls paid $2.50/person * 10 people = $<<2.5*10=25>>25.\nThe girls have $30 - $25 = $<<30-25=5>>5 left.\n#### 5"
+    }
+]

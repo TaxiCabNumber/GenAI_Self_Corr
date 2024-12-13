@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMaria wants to paint a picture and needs some tools to do that. She wants to buy a set of brushes for $20 and some canvas for three times more than the brushes. The paint costs Maria $8 per liter, and she needs at least 5 liters. How much money will she earn on the painting if she will be able to sell it for $200?",
+        "inference": "1. Brushes cost $20\n2. Canvas costs three times more than the brushes, so it costs $3 * 20 = $60\n3. Paint costs $8 per liter and she needs at least 5 liters, so it costs $8 * 5 = $40\n4. Total cost of materials: $20 + $60 + $40 = $120\n5. Profit on the painting: $200 - $120 = $80\n\nI hope it is correct: $80",
+        "ground_truth": "Maria wants to pay 3 * 20 = $<<3*20=60>>60 for the canvas.\nMaria needs 5 liters of paint, so the cost of it would be 8 * 5 = $<<8*5=40>>40.\nSo in total Maria will earn 200 - 40 - 60 - 20 = $<<200-40-60-20=80>>80 if she will be able to sell the painting at the mentioned price.\n#### 80"
+    },
+    {
+        "question": "1. Brushes cost $20\n2. Canvas costs three times more than the brushes, so it costs $3 * 20 = $60\n3. Paint costs $8 per liter and she needs at least 5 liters, so it costs $8 * 5 = $40\n4. Total cost of materials: $20 + $60 + $40 = $120\n5. Profit on the painting: $200 - $120 = $80\n\nI hope it is correct: $80\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$80",
+        "ground_truth": "Maria wants to pay 3 * 20 = $<<3*20=60>>60 for the canvas.\nMaria needs 5 liters of paint, so the cost of it would be 8 * 5 = $<<8*5=40>>40.\nSo in total Maria will earn 200 - 40 - 60 - 20 = $<<200-40-60-20=80>>80 if she will be able to sell the painting at the mentioned price.\n#### 80"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nHow many digits are located to the right of the decimal point when $\\frac{3^6}{6^4\\cdot625}$ is expressed as a decimal?",
+        "inference": "**Solution:**\nWe can write $3^6 = (3^2)^3 = 9^3$, $6^4 = (6^2)^2 = 36^2$, and $625 = 5^4$.\n\nSo $\\frac{3^6}{6^4\\cdot625} = \\frac{9^3}{36^2\\cdot5^4} = \\frac{9^3}{(6^2)^2\\cdot5^4} = \\frac{9^3}{36^2\\cdot5^4}$.\n\n$36^2 = 1296$ and $5^4 = 625$.\n\nSo $\\frac{3^6}{6^4\\cdot625} = \\frac{9^3}{1296\\cdot625} = \\frac{729}{806400}$.\n\nConverting $\\frac{729}{806400}$ to a decimal, we get $0.00090525$.\n\nThere are $\\boxed{5}$ digits to the right of the decimal point.\nFinal Answer: $\\boxed{5}$. I hope it is correct.",
+        "ground_truth": "To find the decimal expression, we try to get a denominator of the form $2^a\\cdot5^a=10^a$, where $a$ is an integer.  $$\\frac{3^6}{6^4\\cdot625}=\\frac{3^6}{2^4\\cdot3^4\\cdot5^4}=\\frac{3^2}{10^4}=9\\cdot10^{-4}=0.0009$$So there are $\\boxed{4}$ digits to the right of the decimal point."
+    },
+    {
+        "question": "**Solution:**\nWe can write $3^6 = (3^2)^3 = 9^3$, $6^4 = (6^2)^2 = 36^2$, and $625 = 5^4$.\n\nSo $\\frac{3^6}{6^4\\cdot625} = \\frac{9^3}{36^2\\cdot5^4} = \\frac{9^3}{(6^2)^2\\cdot5^4} = \\frac{9^3}{36^2\\cdot5^4}$.\n\n$36^2 = 1296$ and $5^4 = 625$.\n\nSo $\\frac{3^6}{6^4\\cdot625} = \\frac{9^3}{1296\\cdot625} = \\frac{729}{806400}$.\n\nConverting $\\frac{729}{806400}$ to a decimal, we get $0.00090525$.\n\nThere are $\\boxed{5}$ digits to the right of the decimal point.\nFinal Answer: $\\boxed{5}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{5}",
+        "ground_truth": "To find the decimal expression, we try to get a denominator of the form $2^a\\cdot5^a=10^a$, where $a$ is an integer.  $$\\frac{3^6}{6^4\\cdot625}=\\frac{3^6}{2^4\\cdot3^4\\cdot5^4}=\\frac{3^2}{10^4}=9\\cdot10^{-4}=0.0009$$So there are $\\boxed{4}$ digits to the right of the decimal point."
+    }
+]

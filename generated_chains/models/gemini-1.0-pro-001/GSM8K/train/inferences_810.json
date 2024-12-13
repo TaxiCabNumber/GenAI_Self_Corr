@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTyler has 21 CDs. He gives away a third of his CDs to his friend. Then he goes to the music store and buys 8 brand new CDs. How many CDs does Tyler have now?",
+        "inference": "Tyler has 21 CD's. Tyler gives away a third of his CD's, which means that Tyler has $21 \\div 3 = 7$ left. Tyler then goes to the music store and buys 8 brand new CDs, so the total number of CDs Tyler has now is $7 + 8 = 15$.\nI hope it is correct: 15",
+        "ground_truth": "Tyler gives away 21 / 3 = <<21/3=7>>7 CDs\nAfter giving away a third of his CDs, Tyler has 21 - 7 = <<21-7=14>>14 CDs\nAfter buying new CDs, Tyler has 14 + 8 = <<14+8=22>>22 CDs\n#### 22"
+    },
+    {
+        "question": "Tyler has 21 CD's. Tyler gives away a third of his CD's, which means that Tyler has $21 \\div 3 = 7$ left. Tyler then goes to the music store and buys 8 brand new CDs, so the total number of CDs Tyler has now is $7 + 8 = 15$.\nI hope it is correct: 15\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$15",
+        "ground_truth": "Tyler gives away 21 / 3 = <<21/3=7>>7 CDs\nAfter giving away a third of his CDs, Tyler has 21 - 7 = <<21-7=14>>14 CDs\nAfter buying new CDs, Tyler has 14 + 8 = <<14+8=22>>22 CDs\n#### 22"
+    }
+]

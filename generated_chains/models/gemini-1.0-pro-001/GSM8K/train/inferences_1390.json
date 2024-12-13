@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nNancy buys 2 coffees a day.  She grabs a double espresso for $3.00 every morning.  In the afternoon, she grabs an iced coffee for $2.50.  After 20 days, how much money has she spent on coffee?",
+        "inference": "Nancy spends $3.00 on a double espresso every morning for 20 days, so she spends $3.00 * 20 = $60.00 on double espressos.\n\nNancy spends $2.50 on an iced coffee every afternoon for 20 days, so she spends $2.50 * 20 = $50.00 on iced coffees.\n\nIn total, Nancy spends $60.00 + $50.00 = $110.00 on coffee in 20 days.\nI hope it is correct: $110.00",
+        "ground_truth": "She gets a double espresso for $3.00 every morning and an iced coffee for $2.50 in the afternoon so she spends 3+2.5 = $<<3+2.5=5.50>>5.50 every day on coffee\nAfter 20 days, she spends 20*5.5 = $<<20*5.5=110.00>>110.00 on coffee\n#### 110"
+    },
+    {
+        "question": "Nancy spends $3.00 on a double espresso every morning for 20 days, so she spends $3.00 * 20 = $60.00 on double espressos.\n\nNancy spends $2.50 on an iced coffee every afternoon for 20 days, so she spends $2.50 * 20 = $50.00 on iced coffees.\n\nIn total, Nancy spends $60.00 + $50.00 = $110.00 on coffee in 20 days.\nI hope it is correct: $110.00\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ 110.00",
+        "ground_truth": "She gets a double espresso for $3.00 every morning and an iced coffee for $2.50 in the afternoon so she spends 3+2.5 = $<<3+2.5=5.50>>5.50 every day on coffee\nAfter 20 days, she spends 20*5.5 = $<<20*5.5=110.00>>110.00 on coffee\n#### 110"
+    }
+]

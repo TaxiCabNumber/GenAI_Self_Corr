@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBilly is buying some candy with $10 his father gave him. The candy costs $1.5 a pound. After buying candy, he takes half his change and spends it on gumballs, which cost $.05 each. If he bought 40 gumballs, how many pounds of candy did he buy?",
+        "inference": "**Step 1: Find the amount of money Billy spent on gumballs.**\n40 gumballs * $0.05 per gumball = $2.00\n\n**Step 2: Subtract the amount spent on gumballs from the amount Billy had.**\n$10.00 - $2.00 = $8.00\n\n**Step 3: Divide the remaining amount by the cost per pound of candy to find the number of pounds Billy bought.**\n$8.00 / $1.50 per pound = 5.33 pounds\n\n**Final Answer:**\nI hope it is correct: 5.33 pounds",
+        "ground_truth": "He spent $2 on gumballs because 40 x .05 = <<40*.05=2>>2\nHe had $4 in change because 2 / .5 = <<2/.5=4>>4\nHe spent $6 on candy because 10 - 4 = <<10-4=6>>6\nHe bought 4 pounds of candy because 6 / 1.5 = <<6/1.5=4>>4\n#### 4"
+    },
+    {
+        "question": "**Step 1: Find the amount of money Billy spent on gumballs.**\n40 gumballs * $0.05 per gumball = $2.00\n\n**Step 2: Subtract the amount spent on gumballs from the amount Billy had.**\n$10.00 - $2.00 = $8.00\n\n**Step 3: Divide the remaining amount by the cost per pound of candy to find the number of pounds Billy bought.**\n$8.00 / $1.50 per pound = 5.33 pounds\n\n**Final Answer:**\nI hope it is correct: 5.33 pounds\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$5.33 pounds",
+        "ground_truth": "He spent $2 on gumballs because 40 x .05 = <<40*.05=2>>2\nHe had $4 in change because 2 / .5 = <<2/.5=4>>4\nHe spent $6 on candy because 10 - 4 = <<10-4=6>>6\nHe bought 4 pounds of candy because 6 / 1.5 = <<6/1.5=4>>4\n#### 4"
+    }
+]

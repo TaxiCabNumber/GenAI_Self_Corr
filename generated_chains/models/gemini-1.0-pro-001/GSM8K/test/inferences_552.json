@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA marketing company pays its employees on a commission-based salary system. If you sell goods worth $1000, you earn a 30% commission. Sales over $1000 get you an additional 10% commission. Calculate the amount of money Antonella earned if she sold goods worth $2500.",
+        "inference": "The total amount earned is the sum of the earnings from the first $1000 worth of sales and the earnings from the remaining $1500\n\nCommission from the first $1000 sales = 30% of $1000 = $300\n\nCommission from the next $1500 sales = 10% of $1500 = $150\n\nTotal commission = $300 + $150 = $450\n\nI hope it is correct: $450$",
+        "ground_truth": "Since Antonella sold $2500 worth of goods, she got the first 30% commission, which is 30/100*$1000 = $<<30/100*1000=300>>300\nSince goods worth over $1000 earn you a 10% commission, she was entitled to earn an additional 10% commission per $500 on $2500-$1000 = $1500 worth of goods.\nThis amounts to $1500 * 10% = $<<1500*10*.01=150>>150\nIn total, Antonella earned $300 from the first commission and $150 from the second commission for a total of $150 + $300 = $<<300+150=450>>450\n#### 450"
+    },
+    {
+        "question": "The total amount earned is the sum of the earnings from the first $1000 worth of sales and the earnings from the remaining $1500\n\nCommission from the first $1000 sales = 30% of $1000 = $300\n\nCommission from the next $1500 sales = 10% of $1500 = $150\n\nTotal commission = $300 + $150 = $450\n\nI hope it is correct: $450$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $450$",
+        "ground_truth": "Since Antonella sold $2500 worth of goods, she got the first 30% commission, which is 30/100*$1000 = $<<30/100*1000=300>>300\nSince goods worth over $1000 earn you a 10% commission, she was entitled to earn an additional 10% commission per $500 on $2500-$1000 = $1500 worth of goods.\nThis amounts to $1500 * 10% = $<<1500*10*.01=150>>150\nIn total, Antonella earned $300 from the first commission and $150 from the second commission for a total of $150 + $300 = $<<300+150=450>>450\n#### 450"
+    }
+]

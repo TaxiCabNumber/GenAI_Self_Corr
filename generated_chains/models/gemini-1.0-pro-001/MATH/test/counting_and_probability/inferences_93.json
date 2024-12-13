@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCompute $\\dbinom{1001}{2}$.",
+        "inference": "We use the formula $\\dbinom{n}{r} = \\frac{n(n-1)\\cdots(n-r+1)}{r!}$\nSo, $\\dbinom{1001}{2} = \\frac{1001\\cdot 1000}{2\\cdot 1} = 500500$.\nFinal Answer: $\\boxed{500500}.$ I hope it is correct.",
+        "ground_truth": "\\begin{align*}\n\\dbinom{1001}{2} &= \\dfrac{1001!}{999!2!} \\\\\n&= \\dfrac{1001\\times 1000}{2\\times 1} \\\\\n&= 1001 \\times \\dfrac{1000}{2} \\\\\n&= 1001 \\times 500 \\\\\n&= \\boxed{500500}.\n\\end{align*}"
+    },
+    {
+        "question": "We use the formula $\\dbinom{n}{r} = \\frac{n(n-1)\\cdots(n-r+1)}{r!}$\nSo, $\\dbinom{1001}{2} = \\frac{1001\\cdot 1000}{2\\cdot 1} = 500500$.\nFinal Answer: $\\boxed{500500}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$500500$}.",
+        "ground_truth": "\\begin{align*}\n\\dbinom{1001}{2} &= \\dfrac{1001!}{999!2!} \\\\\n&= \\dfrac{1001\\times 1000}{2\\times 1} \\\\\n&= 1001 \\times \\dfrac{1000}{2} \\\\\n&= 1001 \\times 500 \\\\\n&= \\boxed{500500}.\n\\end{align*}"
+    }
+]

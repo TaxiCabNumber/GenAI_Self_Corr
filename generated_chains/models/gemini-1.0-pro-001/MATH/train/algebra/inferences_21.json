@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the coefficient of the $x^2$ term in the expansion of the product $(ax^3 + 3x^2 - 2x)(bx^2 - 7x - 4)$.",
+        "inference": "$(ax^3 + 3x^2 - 2x)(bx^2 - 7x - 4)$\n\n$=abx^5 - 7abx^4 - 4abx^3 + 3bx^4 - 21bx^3 - 12bx^2 -2x^3 - 14x^2 +8x$\n\nThe coefficient of the $x^2$ term is $\\boxed{-14}$.\nFinal Answer: $\\boxed{-14}$. I hope it is correct.",
+        "ground_truth": "We only need to worry about the terms that multiply to have a degree of $2$. This would be given by the product of the terms $3x^2$ and $-4$ as well as the product of the terms $-2x$ and $-7x$. Thus, $$(3x^2) \\times (-4) + (-2x) \\times (-7x) = -12x^2 + 14x^2 = 2x^2,$$and the coefficient is $\\boxed{2}$."
+    },
+    {
+        "question": "$(ax^3 + 3x^2 - 2x)(bx^2 - 7x - 4)$\n\n$=abx^5 - 7abx^4 - 4abx^3 + 3bx^4 - 21bx^3 - 12bx^2 -2x^3 - 14x^2 +8x$\n\nThe coefficient of the $x^2$ term is $\\boxed{-14}$.\nFinal Answer: $\\boxed{-14}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{-14}$",
+        "ground_truth": "We only need to worry about the terms that multiply to have a degree of $2$. This would be given by the product of the terms $3x^2$ and $-4$ as well as the product of the terms $-2x$ and $-7x$. Thus, $$(3x^2) \\times (-4) + (-2x) \\times (-7x) = -12x^2 + 14x^2 = 2x^2,$$and the coefficient is $\\boxed{2}$."
+    }
+]

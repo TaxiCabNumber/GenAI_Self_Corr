@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $f(x)=3x+4$ and $g(x)=2x-3$.  If $h(x)=f(g(x))$, then what is the inverse of $h(x)$?",
+        "inference": "Solution:\nWe start by finding $h(x)$:\n\n\\begin{align*}\nh(x) &= f(g(x)) \\\\\n&= f(2x-3) \\\\\n&= 3(2x-3) + 4 \\\\\n&= 6x - 9 + 4 \\\\\n&= 6x - 5.\n\\end{align*}\n\nNow we find the inverse of $h(x)$.  Let $y = h(x) = 6x - 5$.  Solving for $x$, we get:\n\n\\begin{align*}\ny &= 6x - 5 \\\\\ny + 5 &= 6x \\\\\n\\frac{y + 5}{6} &= x.\n\\end{align*}\n\nTherefore, the inverse of $h(x)$ is $h^{-1}(x) = \\boxed{\\frac{x + 5}{6}}$. I hope it is correct.",
+        "ground_truth": "\\[h(x)=f(g(x))=3(2x-3)+4=6x-5.\\]Let's replace $h(x)$ with $y$ for simplicity, so \\[y=6x-5.\\]In order to invert $h(x)$ we may solve this equation for $x$.  That gives \\[y+5=6x\\]or  \\[x=\\frac{y+5}{6}.\\]Writing this in terms of $x$ gives the inverse function of $h$ as  \\[h^{-1}(x)=\\boxed{\\frac{x+5}{6}}.\\]"
+    },
+    {
+        "question": "Solution:\nWe start by finding $h(x)$:\n\n\\begin{align*}\nh(x) &= f(g(x)) \\\\\n&= f(2x-3) \\\\\n&= 3(2x-3) + 4 \\\\\n&= 6x - 9 + 4 \\\\\n&= 6x - 5.\n\\end{align*}\n\nNow we find the inverse of $h(x)$.  Let $y = h(x) = 6x - 5$.  Solving for $x$, we get:\n\n\\begin{align*}\ny &= 6x - 5 \\\\\ny + 5 &= 6x \\\\\n\\frac{y + 5}{6} &= x.\n\\end{align*}\n\nTherefore, the inverse of $h(x)$ is $h^{-1}(x) = \\boxed{\\frac{x + 5}{6}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct.  \n \n$\\boxed{\\frac{x + 5}{6}}$ \n",
+        "ground_truth": "\\[h(x)=f(g(x))=3(2x-3)+4=6x-5.\\]Let's replace $h(x)$ with $y$ for simplicity, so \\[y=6x-5.\\]In order to invert $h(x)$ we may solve this equation for $x$.  That gives \\[y+5=6x\\]or  \\[x=\\frac{y+5}{6}.\\]Writing this in terms of $x$ gives the inverse function of $h$ as  \\[h^{-1}(x)=\\boxed{\\frac{x+5}{6}}.\\]"
+    }
+]

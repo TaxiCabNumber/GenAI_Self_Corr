@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA jet travels 580 miles in 2 hours. At this rate, how far could the jet fly in 10 hours?",
+        "inference": "1- Convert 2 hours to minutes: 2 hours x 60 minutes/hour = 120 minutes\n2- Calculate the speed of the jet: 580 miles / 120 minutes = 4.833 miles per minute\n3- Multiply the speed by 10 hours to find the distance the jet can fly in 10 hours: 4.833 miles per minute x 600 minutes = 2900 miles.\nI hope it is correct: 2900",
+        "ground_truth": "In one hour the jet could travel 580 miles / 2 hours = <<580/2=290>>290 miles.\nIn 10 hours the jet could fly 290 miles * 10 = <<290*10=2900>>2900 miles.\n#### 2900"
+    },
+    {
+        "question": "1- Convert 2 hours to minutes: 2 hours x 60 minutes/hour = 120 minutes\n2- Calculate the speed of the jet: 580 miles / 120 minutes = 4.833 miles per minute\n3- Multiply the speed by 10 hours to find the distance the jet can fly in 10 hours: 4.833 miles per minute x 600 minutes = 2900 miles.\nI hope it is correct: 2900\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$2900",
+        "ground_truth": "In one hour the jet could travel 580 miles / 2 hours = <<580/2=290>>290 miles.\nIn 10 hours the jet could fly 290 miles * 10 = <<290*10=2900>>2900 miles.\n#### 2900"
+    }
+]

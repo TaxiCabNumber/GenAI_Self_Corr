@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTwo cups of flour are needed to make a dozen cookies. Carla is making 36 cookies today and 30 cookies tomorrow. How many cups of flour will Carla need to bake the cookies today and tomorrow?",
+        "inference": "1. Carla is making 36 cookies today and 30 cookies tomorrow, so she will make a total of 36 + 30 = 66 cookies.\n2. Two cups of flour are needed to make a dozen cookies, so 1 cup of flour is needed to make 6 cookies.\n3. Carla will need 66 / 6 = 11 cups of flour to make 66 cookies.\nI hope it is correct: 11 $cups$",
+        "ground_truth": "Carla will bake a total of 36 + 30 = <<36+30=66>>66 cookies.\nSince 1 dozen is equal to 12, then 66 cookies are equal to 66/12 = <<66/12=5.5>>5.5 dozens.\nHence, Carla will need 5.5 x 2 = <<5.5*2=11>>11 cups of flour.\n#### 11"
+    },
+    {
+        "question": "1. Carla is making 36 cookies today and 30 cookies tomorrow, so she will make a total of 36 + 30 = 66 cookies.\n2. Two cups of flour are needed to make a dozen cookies, so 1 cup of flour is needed to make 6 cookies.\n3. Carla will need 66 / 6 = 11 cups of flour to make 66 cookies.\nI hope it is correct: 11 $cups$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 11",
+        "ground_truth": "Carla will bake a total of 36 + 30 = <<36+30=66>>66 cookies.\nSince 1 dozen is equal to 12, then 66 cookies are equal to 66/12 = <<66/12=5.5>>5.5 dozens.\nHence, Carla will need 5.5 x 2 = <<5.5*2=11>>11 cups of flour.\n#### 11"
+    }
+]

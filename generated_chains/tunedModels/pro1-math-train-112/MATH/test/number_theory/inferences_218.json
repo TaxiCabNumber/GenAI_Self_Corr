@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat digit must be placed in the blank to make the four-digit integer $20\\_7$ a multiple of 11?",
+        "inference": "The sum of the digits in the even positions is $2 + 7 = 9$. The sum of the digits in the odd positions is $0 + \\_ = \\_$. For the four-digit integer to be a multiple of 11, the difference between the two sums must be a multiple of 11. Therefore, \\_ must be $9 - \\_ = 9 - \\_ = \\_$.\nFinal Answer: $\\boxed{2}$. I hope it is correct.",
+        "ground_truth": "A number will be divisible by 11 if you get a multiple of 11 by alternately adding and then subtracting its digits.  If we name the blank integer $A$, then the alternating sum is $2 - 0 + A - 7 = A -5$.  This value can only be equal to 0 (as 11, 22, etc all yield $A$ that are too large), so $A = \\boxed{5}$ is the only digit that will work."
+    },
+    {
+        "question": "The sum of the digits in the even positions is $2 + 7 = 9$. The sum of the digits in the odd positions is $0 + \\_ = \\_$. For the four-digit integer to be a multiple of 11, the difference between the two sums must be a multiple of 11. Therefore, \\_ must be $9 - \\_ = 9 - \\_ = \\_$.\nFinal Answer: $\\boxed{2}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{2}",
+        "ground_truth": "A number will be divisible by 11 if you get a multiple of 11 by alternately adding and then subtracting its digits.  If we name the blank integer $A$, then the alternating sum is $2 - 0 + A - 7 = A -5$.  This value can only be equal to 0 (as 11, 22, etc all yield $A$ that are too large), so $A = \\boxed{5}$ is the only digit that will work."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThree friends: Mike, Jim, and Tony decided to play a game. After 3 rounds Mike has 21 points, Jim 3 points less than Mike, and Tony 2 times more than Mike. In the fourth round, every player gets an extra point if they have over 20 points. How many points do all three players have in total after the extra points had been distributed?",
+        "inference": "- Mike has 21 points\n- Jim has 3 points less than Mike, so Jim has 21 - 3 = 18 points\n- Tony has 2 times more than Mike, so Tony has 21 * 2 = 42 points\n- After the extra points had been distributed, Mike, Jim, and Tony have 21 + 1 = 22 points, 18 + 1 = 19 points, and 42 + 1 = 43 points, respectively\n- In total, they have 22 + 19 + 43 = 84 points\n\nI hope it is correct: 84",
+        "ground_truth": "After 3 rounds Jim has 21 points - 3 points = <<21-3=18>>18 points.\nTony has 2 times more points than Mike, so he has 2 * 21 points = <<2*21=42>>42 points.\nIn total they have 42 points + 18 points + 21 points = <<42+18+21=81>>81 points.\nOnly two of them have over 20 points, so in total, all friends have 81 points + 2 points = <<2+81=83>>83 points.\n#### 83"
+    },
+    {
+        "question": "- Mike has 21 points\n- Jim has 3 points less than Mike, so Jim has 21 - 3 = 18 points\n- Tony has 2 times more than Mike, so Tony has 21 * 2 = 42 points\n- After the extra points had been distributed, Mike, Jim, and Tony have 21 + 1 = 22 points, 18 + 1 = 19 points, and 42 + 1 = 43 points, respectively\n- In total, they have 22 + 19 + 43 = 84 points\n\nI hope it is correct: 84\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$84",
+        "ground_truth": "After 3 rounds Jim has 21 points - 3 points = <<21-3=18>>18 points.\nTony has 2 times more points than Mike, so he has 2 * 21 points = <<2*21=42>>42 points.\nIn total they have 42 points + 18 points + 21 points = <<42+18+21=81>>81 points.\nOnly two of them have over 20 points, so in total, all friends have 81 points + 2 points = <<2+81=83>>83 points.\n#### 83"
+    }
+]

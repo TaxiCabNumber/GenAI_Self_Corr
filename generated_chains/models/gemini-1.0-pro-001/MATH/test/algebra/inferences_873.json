@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind $\\left \\lceil \\frac{\\left \\lfloor 52/3 \\right. \\rfloor}{5/23} \\right \\rceil$.",
+        "inference": "$\\left \\lceil \\frac{\\left \\lfloor 52/3 \\right. \\rfloor}{5/23} \\right \\rceil = \\left \\lceil \\frac{17}{5/23} \\right \\rceil = \\left \\lceil \\frac{17}{1/23/5} \\right \\rceil = \\left \\lceil \\frac{17 \\cdot 23}{5} \\right \\rceil = \\left \\lceil \\frac{391}{5} \\right \\rceil = \\left \\lceil 78.2 \\right \\rceil = 79$\nFinal Answer: $\\boxed{79}$. I hope it is correct.",
+        "ground_truth": "Since $17 = \\frac{51}{3} < \\frac {52}3 < \\frac {54}3 = 18$, the floor  of $52/3$ is $17$. The given quantity is thus equal to $$\\left \\lceil \\frac{17}{5/23} \\right \\rceil = \\left \\lceil \\frac{391}{5} \\right \\rceil = \\left \\lceil 78.2 \\right. \\rceil = \\boxed{79}.$$"
+    },
+    {
+        "question": "$\\left \\lceil \\frac{\\left \\lfloor 52/3 \\right. \\rfloor}{5/23} \\right \\rceil = \\left \\lceil \\frac{17}{5/23} \\right \\rceil = \\left \\lceil \\frac{17}{1/23/5} \\right \\rceil = \\left \\lceil \\frac{17 \\cdot 23}{5} \\right \\rceil = \\left \\lceil \\frac{391}{5} \\right \\rceil = \\left \\lceil 78.2 \\right \\rceil = 79$\nFinal Answer: $\\boxed{79}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{79}$",
+        "ground_truth": "Since $17 = \\frac{51}{3} < \\frac {52}3 < \\frac {54}3 = 18$, the floor  of $52/3$ is $17$. The given quantity is thus equal to $$\\left \\lceil \\frac{17}{5/23} \\right \\rceil = \\left \\lceil \\frac{391}{5} \\right \\rceil = \\left \\lceil 78.2 \\right. \\rceil = \\boxed{79}.$$"
+    }
+]

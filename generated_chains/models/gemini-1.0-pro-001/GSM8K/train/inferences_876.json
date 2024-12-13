@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA choir was singing a song that involved 30 singers. In the first verse, only half of them sang. In the second verse, a third of the remaining singers joined in. How many people joined in the final third verse that the whole choir sang together?",
+        "inference": "1. Half of 30 is 15, so 15 singers sang in the first verse.\n2. A third of the remaining singers means a third of the 15 who did not sing in the first verse, which is 5.\n3. In the second verse, 5 singers joined in, so 20 singers sang in the second verse.\n4. In the final third verse, all 30 singers sang together, so 10 singers joined in the third verse.\n\nI hope it is correct: 10",
+        "ground_truth": "In the first verse, 30 / 2 = <<30/2=15>>15 singers sang.\nIn the second verse, 15 / 3 = <<15/3=5>>5 singers joined in.\nIn the final verse, 30 - 15 - 5 = <<30-15-5=10>>10 singers joined for the whole choir to sing together.\n#### 10"
+    },
+    {
+        "question": "1. Half of 30 is 15, so 15 singers sang in the first verse.\n2. A third of the remaining singers means a third of the 15 who did not sing in the first verse, which is 5.\n3. In the second verse, 5 singers joined in, so 20 singers sang in the second verse.\n4. In the final third verse, all 30 singers sang together, so 10 singers joined in the third verse.\n\nI hope it is correct: 10\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 10",
+        "ground_truth": "In the first verse, 30 / 2 = <<30/2=15>>15 singers sang.\nIn the second verse, 15 / 3 = <<15/3=5>>5 singers joined in.\nIn the final verse, 30 - 15 - 5 = <<30-15-5=10>>10 singers joined for the whole choir to sing together.\n#### 10"
+    }
+]

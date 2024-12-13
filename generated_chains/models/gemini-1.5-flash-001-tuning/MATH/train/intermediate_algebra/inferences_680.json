@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind $c,$ given that $\\lfloor c\\rfloor$ satisfies \\[2x^2 + 17x - 55 = 0\\]and $\\{ c \\} = c - \\lfloor c \\rfloor $ satisfies \\[6x^2 - 23x + 7 = 0.\\]",
+        "inference": "Final Answer: $\\boxed{\\frac{11}{2}}$. I hope it is correct. \n",
+        "ground_truth": "The first quadratic factors as \\[(2x-5)(x+11) = 0,\\]so its roots are $\\tfrac52$ and $-11.$ Since $\\lfloor c \\rfloor$ must be an integer, it must be the case that $\\lfloor c \\rfloor = -11.$\n\nThe second quadratic factors as \\[(3x-1)(2x-7) = 0,\\]so its roots are $\\tfrac13$ and $\\tfrac72.$ Since $0 \\le \\{c\\} < 1,$ it must be the case that $\\{c\\} = \\tfrac13.$\n\nThen $c = \\lfloor c\\rfloor + \\{c\\} = -11 + \\tfrac13 = \\boxed{-\\tfrac{32}{3}}.$"
+    },
+    {
+        "question": "Final Answer: $\\boxed{\\frac{11}{2}}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the question and the solution you are referring to. I need that information to identify any errors and provide the correct final answer. \n",
+        "ground_truth": "The first quadratic factors as \\[(2x-5)(x+11) = 0,\\]so its roots are $\\tfrac52$ and $-11.$ Since $\\lfloor c \\rfloor$ must be an integer, it must be the case that $\\lfloor c \\rfloor = -11.$\n\nThe second quadratic factors as \\[(3x-1)(2x-7) = 0,\\]so its roots are $\\tfrac13$ and $\\tfrac72.$ Since $0 \\le \\{c\\} < 1,$ it must be the case that $\\{c\\} = \\tfrac13.$\n\nThen $c = \\lfloor c\\rfloor + \\{c\\} = -11 + \\tfrac13 = \\boxed{-\\tfrac{32}{3}}.$"
+    }
+]

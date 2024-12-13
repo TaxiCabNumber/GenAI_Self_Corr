@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nHow many different three-step paths along the edges of a cube are there that take you from vertex $A$ to vertex $B$? (A step is from a vertex to an adjacent vertex sharing an edge.)\n\n[asy]\nsize(101);\nimport three;\ncurrentprojection=orthographic(1/2,-1,1/4);\ndraw((0,0,0)--(1,0,0)--(1,0,1)--(0,0,1)--(0,0,0));\ndraw((1,0,0)--(1,1,0)--(1,1,1)--(1,0,1));\ndraw((1,1,1)--(0,1,1)--(0,0,1));\nlabel(\"A\",(0,0,1),(-1,0,0)); label(\"B\",(1,1,0),(1,0,0));\n\n[/asy]",
+        "inference": "The paths from $A$ to $B$ consist of three steps. The first step can be any of the three edges emanating from $A$. The second step can be any of the two edges emanating from the vertex reached in the first step and not lying on the edge $AB$. The third step is uniquely determined by the first two steps. Hence, there are $3 \\cdot 2 \\cdot 1 = \\boxed{6}$ paths from $A$ to $B$.\nFinal Answer: $\\boxed{6}$. I hope it is correct.",
+        "ground_truth": "There are $3$ points we can get to from $A$.  Each of these connects to two points adjacent to $B$ and to $A$.  We can't go back to $A$ and then get to $B$ in one step, but we can choose either of the other two points.  So there are $3(2)=\\boxed{6}$ paths from $A$ to $B$."
+    },
+    {
+        "question": "The paths from $A$ to $B$ consist of three steps. The first step can be any of the three edges emanating from $A$. The second step can be any of the two edges emanating from the vertex reached in the first step and not lying on the edge $AB$. The third step is uniquely determined by the first two steps. Hence, there are $3 \\cdot 2 \\cdot 1 = \\boxed{6}$ paths from $A$ to $B$.\nFinal Answer: $\\boxed{6}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{6}",
+        "ground_truth": "There are $3$ points we can get to from $A$.  Each of these connects to two points adjacent to $B$ and to $A$.  We can't go back to $A$ and then get to $B$ in one step, but we can choose either of the other two points.  So there are $3(2)=\\boxed{6}$ paths from $A$ to $B$."
+    }
+]

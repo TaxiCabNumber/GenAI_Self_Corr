@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nTriangle ABC has vertices $A(0, 0)$, $B(0, 3)$ and $C(5, 0)$. A point $P$ inside the triangle is $\\sqrt{10}$ units from point $A$ and $\\sqrt{13}$ units from point $B$. How many units is $P$ from point $C$? Express your answer in simplest radical form.",
+        "inference": "Final Answer: \\\\boxed{2\\sqrt{13}}. I hope it is correct. \n",
+        "ground_truth": "Let the coordinates of point $P$ be $(a,b)$.  We have $a^2+b^2=10$ since $AP = \\sqrt{10}$, and $a^2+(b-3)^2=13$ since $AB = \\sqrt{13}$. Expanding $(b-3)^2$ gives us  \\[a^2 +b^2 - 6b + 9 = 13.\\]Since $a^2 + b^2 = 10$, we have $10-6b+9=13$, so $b=1$.  From $a^2+b^2=10$, we have $a^2=9$, so $a=\\pm 3$.  If $a$ is $-3$, the point is not inside the triangle, so $a=3$.  So the point is $(3,1)$ and the distance from $C$ is $$\\sqrt{(3-5)^2+1^2}=\\boxed{\\sqrt{5}}.$$"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{2\\sqrt{13}}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need that information to identify any potential errors and rewrite the solution. \n",
+        "ground_truth": "Let the coordinates of point $P$ be $(a,b)$.  We have $a^2+b^2=10$ since $AP = \\sqrt{10}$, and $a^2+(b-3)^2=13$ since $AB = \\sqrt{13}$. Expanding $(b-3)^2$ gives us  \\[a^2 +b^2 - 6b + 9 = 13.\\]Since $a^2 + b^2 = 10$, we have $10-6b+9=13$, so $b=1$.  From $a^2+b^2=10$, we have $a^2=9$, so $a=\\pm 3$.  If $a$ is $-3$, the point is not inside the triangle, so $a=3$.  So the point is $(3,1)$ and the distance from $C$ is $$\\sqrt{(3-5)^2+1^2}=\\boxed{\\sqrt{5}}.$$"
+    }
+]

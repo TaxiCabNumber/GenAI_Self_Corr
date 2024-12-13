@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} = 4,$ then find\n\\[\\begin{vmatrix} a & 7a + 3b \\\\ c & 7c  +3d \\end{vmatrix}.\\]",
+        "inference": "We can write\n\\begin{align*}\n\\begin{vmatrix} a & 7a + 3b \\\\ c & 7c  +3d \\end{vmatrix} &= a(7c + 3d) - c(7a + 3b) \\\\\n&= 7ac + 3ad - 7ac - 3bc \\\\\n&= 3(ad - bc) \\\\\n&= 3 \\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} \\\\\n&= 3 \\cdot 4 \\\\\n&= 12.\n\\end{align*}Final Answer: $\\boxed{12}$. I hope it is correct.",
+        "ground_truth": "Since $\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} = 4,$ $ad - bc = 4.$  Then\n\\[\\begin{vmatrix} a & 7a + 3b \\\\ c & 7c  +3d \\end{vmatrix} = a(7c + 3d) - (7a + 3b)c = 3ad - 3bc = 3(ad - bc) = \\boxed{12}.\\]"
+    },
+    {
+        "question": "We can write\n\\begin{align*}\n\\begin{vmatrix} a & 7a + 3b \\\\ c & 7c  +3d \\end{vmatrix} &= a(7c + 3d) - c(7a + 3b) \\\\\n&= 7ac + 3ad - 7ac - 3bc \\\\\n&= 3(ad - bc) \\\\\n&= 3 \\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} \\\\\n&= 3 \\cdot 4 \\\\\n&= 12.\n\\end{align*}Final Answer: $\\boxed{12}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct.  \n\\\\boxed{12}. I hope it is correct. \n",
+        "ground_truth": "Since $\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} = 4,$ $ad - bc = 4.$  Then\n\\[\\begin{vmatrix} a & 7a + 3b \\\\ c & 7c  +3d \\end{vmatrix} = a(7c + 3d) - (7a + 3b)c = 3ad - 3bc = 3(ad - bc) = \\boxed{12}.\\]"
+    }
+]

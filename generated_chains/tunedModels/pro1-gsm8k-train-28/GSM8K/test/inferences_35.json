@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMike plays ping pong for 40 minutes.  In the first 20 minutes, he scores 4 points.  In the second 20 minutes, he scores 25% more points.  How many total points did he score?",
+        "inference": "1. Calculate the number of points Mike scored in the second 20 minutes.\n25% of 4 = 1\n1 + 4 = 5\n5 x 4 = 20\n\n2. Add the number of points Mike scored in the first 20 minutes to the number of points he scored in the second 20 minutes.\n4 + 20 = 24\n\nI hope it is correct: 24",
+        "ground_truth": "He scored 4*.25=<<4*.25=1>>1 point more in the second 20 minutes\nSo he scored 4+1=<<4+1=5>>5 points in the second 20 minutes\nSo in total, he scored 4+5=<<4+5=9>>9 points in the 40 minutes\n#### 9"
+    },
+    {
+        "question": "1. Calculate the number of points Mike scored in the second 20 minutes.\n25% of 4 = 1\n1 + 4 = 5\n5 x 4 = 20\n\n2. Add the number of points Mike scored in the first 20 minutes to the number of points he scored in the second 20 minutes.\n4 + 20 = 24\n\nI hope it is correct: 24\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 24",
+        "ground_truth": "He scored 4*.25=<<4*.25=1>>1 point more in the second 20 minutes\nSo he scored 4+1=<<4+1=5>>5 points in the second 20 minutes\nSo in total, he scored 4+5=<<4+5=9>>9 points in the 40 minutes\n#### 9"
+    }
+]

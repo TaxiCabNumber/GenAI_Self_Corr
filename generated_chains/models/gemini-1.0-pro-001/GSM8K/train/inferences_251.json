@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nOne pie costs $4 for a piece. Each pie is having 3 pieces. During one hour the bakery can make 12 pies. Creating one pie costs the bakery $0.5. Considering the bakery would be able to sell all pie pieces, how much money would it make?",
+        "inference": "The bakery makes 12 pies per hour, and each pie has 3 pieces. So, the bakery makes 12 * 3 = 36 pieces per hour.\nEach piece costs $4. So, the bakery makes 36 * $4 = $144 per hour.\nThe bakery spends $0.50 to make each pie. So, the bakery spends 12 * $0.50 = $6 per hour.\nThe bakery's profit is the difference between what it makes and what it spends.\nSo, the bakery's profit is $144 - $6 = $138 per hour.\n\nI hope it is correct: 138",
+        "ground_truth": "If the bakery can make 12 pies, this means there would be 12 * 3 = <<12*3=36>>36 pie pieces.\nFor all the pieces the bakery would make 36 * 4 = $<<36*4=144>>144.\nThe cost of making 12 pies is 12 * 0.5 = $<<12*0.5=6>>6.\nThat means the bakery would make 144 - 6 = $<<144-6=138>>138.\n#### 138"
+    },
+    {
+        "question": "The bakery makes 12 pies per hour, and each pie has 3 pieces. So, the bakery makes 12 * 3 = 36 pieces per hour.\nEach piece costs $4. So, the bakery makes 36 * $4 = $144 per hour.\nThe bakery spends $0.50 to make each pie. So, the bakery spends 12 * $0.50 = $6 per hour.\nThe bakery's profit is the difference between what it makes and what it spends.\nSo, the bakery's profit is $144 - $6 = $138 per hour.\n\nI hope it is correct: 138\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $138$",
+        "ground_truth": "If the bakery can make 12 pies, this means there would be 12 * 3 = <<12*3=36>>36 pie pieces.\nFor all the pieces the bakery would make 36 * 4 = $<<36*4=144>>144.\nThe cost of making 12 pies is 12 * 0.5 = $<<12*0.5=6>>6.\nThat means the bakery would make 144 - 6 = $<<144-6=138>>138.\n#### 138"
+    }
+]

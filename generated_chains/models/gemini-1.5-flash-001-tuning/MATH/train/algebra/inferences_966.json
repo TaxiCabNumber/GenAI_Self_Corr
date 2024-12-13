@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCorn costs 99 cents per pound, and beans cost 45 cents per pound. If Shea buys 24 total pounds of corn and beans, and it costs $\\$18.09$, how many pounds of corn did Shea buy? Express your answer as a decimal to the nearest tenth.",
+        "inference": "Let $c$ be the number of pounds of corn Shea bought.  Then Shea bought $24-c$ pounds of beans.  The cost of the corn is $0.99c$ dollars, and the cost of the beans is $0.45(24-c)$ dollars.  The total cost is $0.99c + 0.45(24-c) = 18.09$ dollars.  Solving for $c$, we find $c = \\boxed{15.6}$.  Final Answer: $\\boxed{15.6}$. I hope it is correct. \n",
+        "ground_truth": "Let $c$ and $b$ be the number of pounds of corn and beans Shea buys, respectively. We can turn the givens into a two-variable, linear system: \\begin{align*}\nb+c&=24\\\\\n45b+99c&=1809\n\\end{align*} We can multiply the first equation by 45 and subtract it from the second to get $(99-45)c=1809-45(24)$, which reduces to $54c=729$ or $c=13.5$. So Shea buys $\\boxed{13.5\\text{ pounds}}$ of corn."
+    },
+    {
+        "question": "Let $c$ be the number of pounds of corn Shea bought.  Then Shea bought $24-c$ pounds of beans.  The cost of the corn is $0.99c$ dollars, and the cost of the beans is $0.45(24-c)$ dollars.  The total cost is $0.99c + 0.45(24-c) = 18.09$ dollars.  Solving for $c$, we find $c = \\boxed{15.6}$.  Final Answer: $\\boxed{15.6}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{13}$  I hope it is correct. \n",
+        "ground_truth": "Let $c$ and $b$ be the number of pounds of corn and beans Shea buys, respectively. We can turn the givens into a two-variable, linear system: \\begin{align*}\nb+c&=24\\\\\n45b+99c&=1809\n\\end{align*} We can multiply the first equation by 45 and subtract it from the second to get $(99-45)c=1809-45(24)$, which reduces to $54c=729$ or $c=13.5$. So Shea buys $\\boxed{13.5\\text{ pounds}}$ of corn."
+    }
+]

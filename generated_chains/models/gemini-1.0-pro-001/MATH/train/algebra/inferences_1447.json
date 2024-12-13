@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nEach successive term in the sequence $2048, 512, 128, x,\ny, 2, \\frac 12, \\frac 18,...$ is obtained by multiplying the previous term by a constant. What is the value of $x + y$?",
+        "inference": "The constant is 1/4, since each term is 1/4 of the previous term. Therefore, $x = 128 * 1/4 = 32$ and $y = 32 * 1/4 = 8$.\n\nFinal Answer: $\\boxed{40}$. I hope it is correct.",
+        "ground_truth": "Call the constant $r$. To get from $2$ to $\\frac{1}{2}$, we multiplied by $r$, so $2r = \\frac{1}{2}$, or $r = \\frac{1}{4}$. To get from 128 to $x$, we multiply by $\\frac{1}{4}$, so $x = 128 \\cdot \\frac{1}{4} = 32$. To get from 32 to $y$, we multiply by $\\frac{1}{4}$, so $y = 32 \\cdot \\frac{1}{4} = 8$. Thus, $x + y = 32 + 8 = \\boxed{40}$."
+    },
+    {
+        "question": "The constant is 1/4, since each term is 1/4 of the previous term. Therefore, $x = 128 * 1/4 = 32$ and $y = 32 * 1/4 = 8$.\n\nFinal Answer: $\\boxed{40}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$40$}",
+        "ground_truth": "Call the constant $r$. To get from $2$ to $\\frac{1}{2}$, we multiplied by $r$, so $2r = \\frac{1}{2}$, or $r = \\frac{1}{4}$. To get from 128 to $x$, we multiply by $\\frac{1}{4}$, so $x = 128 \\cdot \\frac{1}{4} = 32$. To get from 32 to $y$, we multiply by $\\frac{1}{4}$, so $y = 32 \\cdot \\frac{1}{4} = 8$. Thus, $x + y = 32 + 8 = \\boxed{40}$."
+    }
+]

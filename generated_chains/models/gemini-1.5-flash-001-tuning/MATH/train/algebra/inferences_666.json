@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe quotient of two positive integers is $\\frac{5}{2}$ and their product is 160. What is the value of the larger of the two integers?",
+        "inference": "Let the two integers be $x$ and $y$, with $x>y$. We are given that $\\frac{x}{y} = \\frac{5}{2}$ and $xy = 160$.\n\nFrom the first equation, we have $x = \\frac{5}{2}y$. Substituting this into the second equation gives $\\left(\\frac{5}{2}y\\right)y = 160$. Simplifying, we have $\\frac{5}{2}y^2 = 160$, which gives $y^2 = 64$. Since $y$ is positive, we have $y = 8$.\n\nSubstituting this value of $y$ back into the equation $x = \\frac{5}{2}y$, we get $x = \\frac{5}{2}(8) = 20$.\n\nFinal Answer: $\\boxed{20}$. I hope it is correct. \n",
+        "ground_truth": "Let $2x$ be the smaller integer.  Then the larger integer is $5x$.  The product of the integers is 160, so $(2x)(5x)=160\\implies 10x^2=160 \\implies x^2=16$.  Since $x$ is positive, this implies $x=4$ which in turn implies that the larger integer is $5\\cdot4=\\boxed{20}$."
+    },
+    {
+        "question": "Let the two integers be $x$ and $y$, with $x>y$. We are given that $\\frac{x}{y} = \\frac{5}{2}$ and $xy = 160$.\n\nFrom the first equation, we have $x = \\frac{5}{2}y$. Substituting this into the second equation gives $\\left(\\frac{5}{2}y\\right)y = 160$. Simplifying, we have $\\frac{5}{2}y^2 = 160$, which gives $y^2 = 64$. Since $y$ is positive, we have $y = 8$.\n\nSubstituting this value of $y$ back into the equation $x = \\frac{5}{2}y$, we get $x = \\frac{5}{2}(8) = 20$.\n\nFinal Answer: $\\boxed{20}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct. \n\\\\boxed{20} \n",
+        "ground_truth": "Let $2x$ be the smaller integer.  Then the larger integer is $5x$.  The product of the integers is 160, so $(2x)(5x)=160\\implies 10x^2=160 \\implies x^2=16$.  Since $x$ is positive, this implies $x=4$ which in turn implies that the larger integer is $5\\cdot4=\\boxed{20}$."
+    }
+]

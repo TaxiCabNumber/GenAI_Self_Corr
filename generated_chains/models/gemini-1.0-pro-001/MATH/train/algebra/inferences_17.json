@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet \\[f(x) =\n\\begin{cases}\n2x^2 - 3&\\text{if } x\\le 2, \\\\\nax + 4 &\\text{if } x>2.\n\\end{cases}\n\\]Find $a$ if the graph of $y=f(x)$ is continuous (which means the graph can be drawn without lifting your pencil from the paper).",
+        "inference": "Since the graph of $y=f(x)$ is continuous,\n$$\\lim_{x\\to 2^-} f(x) = \\lim_{x\\to 2^+} f(x).$$\nWhen $x\\le 2$,\n$$\\lim_{x\\to 2^-} f(x) = \\lim_{x\\to 2^-} (2x^2 - 3) = 2(2)^2 - 3 = 5.$$\nWhen $x>2$,\n$$\\lim_{x\\to 2^+} f(x) = \\lim_{x\\to 2^+} (ax + 4) = a(2) + 4 = 2a + 4.$$\nTherefore,\n$$5 = 2a + 4.$$\nSolving for $a$, we get\n$$a = \\boxed{\\frac{1}{2}}.$$\nFinal Answer: $\\boxed{\\frac{1}{2}}.$ I hope it is correct.",
+        "ground_truth": "If the graph of $f$ is continuous, then the graphs of the two cases must meet when $x=2,$ which (loosely speaking) is the dividing point between the two cases. Therefore, we must have $2\\cdot 2^2 -3 = 2a + 4.$ Solving this equation gives $a = \\boxed{\\frac{1}{2}}.$"
+    },
+    {
+        "question": "Since the graph of $y=f(x)$ is continuous,\n$$\\lim_{x\\to 2^-} f(x) = \\lim_{x\\to 2^+} f(x).$$\nWhen $x\\le 2$,\n$$\\lim_{x\\to 2^-} f(x) = \\lim_{x\\to 2^-} (2x^2 - 3) = 2(2)^2 - 3 = 5.$$\nWhen $x>2$,\n$$\\lim_{x\\to 2^+} f(x) = \\lim_{x\\to 2^+} (ax + 4) = a(2) + 4 = 2a + 4.$$\nTherefore,\n$$5 = 2a + 4.$$\nSolving for $a$, we get\n$$a = \\boxed{\\frac{1}{2}}.$$\nFinal Answer: $\\boxed{\\frac{1}{2}}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{\\frac{1}{2}}",
+        "ground_truth": "If the graph of $f$ is continuous, then the graphs of the two cases must meet when $x=2,$ which (loosely speaking) is the dividing point between the two cases. Therefore, we must have $2\\cdot 2^2 -3 = 2a + 4.$ Solving this equation gives $a = \\boxed{\\frac{1}{2}}.$"
+    }
+]

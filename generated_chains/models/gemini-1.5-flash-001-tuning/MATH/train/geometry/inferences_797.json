@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\n$B$ and $C$ trisect $\\overline{AD}$ and $M$ is the midpoint of $\\overline{AD}$. $MC = 8$. How many units are in the length of $\\overline{AD}$?",
+        "inference": "Solution:\nSince $B$ and $C$ trisect $\\overline{AD}$,  we know that $AB = BC = CD$.  Also, since $M$ is the midpoint of $\\overline{AD}$, we know that $AM = MD$.  Let $x$ represent the length of $AB$, $BC$, and $CD$.  Then $AM = MD = 3x$.  Since $MC = 8$, we have $MD + DC = 8$, or $3x + x = 8$.  Solving for $x$, we find that $x = 2$.  Therefore, $AD = 6x = 6(2) = 12$.\n\nFinal Answer: $\\boxed{12}$. I hope it is correct. \n",
+        "ground_truth": "Since $MC = 8$ and $M$ is the midpoint of $\\overline{BC}$, we have $MB=MC = 8$, so $BC=8+8=16$.  Since $B$ and $C$ trisect $\\overline{AD}$, we have $AB = CD = BC = 16$, so $AD =16+16+16=\\boxed{48}$."
+    },
+    {
+        "question": "Solution:\nSince $B$ and $C$ trisect $\\overline{AD}$,  we know that $AB = BC = CD$.  Also, since $M$ is the midpoint of $\\overline{AD}$, we know that $AM = MD$.  Let $x$ represent the length of $AB$, $BC$, and $CD$.  Then $AM = MD = 3x$.  Since $MC = 8$, we have $MD + DC = 8$, or $3x + x = 8$.  Solving for $x$, we find that $x = 2$.  Therefore, $AD = 6x = 6(2) = 12$.\n\nFinal Answer: $\\boxed{12}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{12} I hope it is correct. \n",
+        "ground_truth": "Since $MC = 8$ and $M$ is the midpoint of $\\overline{BC}$, we have $MB=MC = 8$, so $BC=8+8=16$.  Since $B$ and $C$ trisect $\\overline{AD}$, we have $AB = CD = BC = 16$, so $AD =16+16+16=\\boxed{48}$."
+    }
+]

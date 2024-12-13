@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nChristina is planning a birthday party and needs .75 gift bags per invited guest, because 1/4 of attendees don't show up. She invited 16 friends. Gift bags are $2 each. How much will she spend?",
+        "inference": "1. Calculate the number of gift bags needed: 16 guests x 0.75 gift bags per guest = 12 gift bags\n2. Calculate the total cost of the gift bags: 12 gift bags x $2 per bag = $24\nI hope it is correct: $24$",
+        "ground_truth": "She needs 12 gift bags because 16 x .75 = <<16*.75=12>>12\nShe will spend $24 because 12 x 2 = <<12*2=24>>24\n#### 24"
+    },
+    {
+        "question": "1. Calculate the number of gift bags needed: 16 guests x 0.75 gift bags per guest = 12 gift bags\n2. Calculate the total cost of the gift bags: 12 gift bags x $2 per bag = $24\nI hope it is correct: $24$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$=24",
+        "ground_truth": "She needs 12 gift bags because 16 x .75 = <<16*.75=12>>12\nShe will spend $24 because 12 x 2 = <<12*2=24>>24\n#### 24"
+    }
+]

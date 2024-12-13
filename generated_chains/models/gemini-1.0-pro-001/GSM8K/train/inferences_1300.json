@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMartin spends 2 hours waiting in traffic, then four times that long trying to get off the freeway. How much time does he waste total?",
+        "inference": "**1)** Martin spends 2 hours waiting in traffic.\n**2)** He spends four times that long trying to get off the freeway, so he spends 4 * 2 = 8 hours trying to get off the freeway.\n**3)** He wastes a total of 2 + 8 = 10 hours.\n**I hope it is correct: 10**",
+        "ground_truth": "First find the total amount of time he spends trying to get off the freeway: 2 hours * 4 = <<2*4=8>>8 hours\nThen add the time he spends waiting in traffic to find the total time: 8 hours + 2 hours = <<8+2=10>>10 hours\n#### 10"
+    },
+    {
+        "question": "**1)** Martin spends 2 hours waiting in traffic.\n**2)** He spends four times that long trying to get off the freeway, so he spends 4 * 2 = 8 hours trying to get off the freeway.\n**3)** He wastes a total of 2 + 8 = 10 hours.\n**I hope it is correct: 10**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ = 10",
+        "ground_truth": "First find the total amount of time he spends trying to get off the freeway: 2 hours * 4 = <<2*4=8>>8 hours\nThen add the time he spends waiting in traffic to find the total time: 8 hours + 2 hours = <<8+2=10>>10 hours\n#### 10"
+    }
+]

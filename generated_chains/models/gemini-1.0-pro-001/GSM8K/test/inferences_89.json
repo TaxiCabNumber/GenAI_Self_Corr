@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nChristina is planning a birthday party and needs .75 gift bags per invited guest, because 1/4 of attendees don't show up. She invited 16 friends. Gift bags are $2 each. How much will she spend?",
+        "inference": "To determine the number of gift bags needed, we need to calculate the actual number of guests who will attend. Since 1/4 of attendees don't show up, the actual number of guests is 16 minus 25% of 16 (16 x 0.25 = 4).\n\nActual guests = 16 - 4 = 12\n\nSince 0.75 gift bags are needed per guest, the total number of gift bags required is 12 x 0.75 = 9.\n\nTo calculate the cost, we multiply the number of gift bags by the cost per bag.\n\nCost = 9 x $2 = $18\n\nI hope it is correct: $18$",
+        "ground_truth": "She needs 12 gift bags because 16 x .75 = <<16*.75=12>>12\nShe will spend $24 because 12 x 2 = <<12*2=24>>24\n#### 24"
+    },
+    {
+        "question": "To determine the number of gift bags needed, we need to calculate the actual number of guests who will attend. Since 1/4 of attendees don't show up, the actual number of guests is 16 minus 25% of 16 (16 x 0.25 = 4).\n\nActual guests = 16 - 4 = 12\n\nSince 0.75 gift bags are needed per guest, the total number of gift bags required is 12 x 0.75 = 9.\n\nTo calculate the cost, we multiply the number of gift bags by the cost per bag.\n\nCost = 9 x $2 = $18\n\nI hope it is correct: $18$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $18$",
+        "ground_truth": "She needs 12 gift bags because 16 x .75 = <<16*.75=12>>12\nShe will spend $24 because 12 x 2 = <<12*2=24>>24\n#### 24"
+    }
+]

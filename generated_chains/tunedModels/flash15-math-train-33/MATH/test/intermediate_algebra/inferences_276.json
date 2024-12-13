@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $a,$ $b,$ $c,$ and $d$ be positive real numbers such that $a + b + c + d = 10.$  Find the maximum value of $ab^2 c^3 d^4.$",
+        "inference": "Final Answer: \\\\boxed{\\frac{81}{25600}}. I hope it is correct. \n",
+        "ground_truth": "By AM-GM,\n\\begin{align*}\na + b + c + d &= a + \\frac{b}{2} + \\frac{b}{2} + \\frac{c}{3} + \\frac{c}{3} + \\frac{c}{3} + \\frac{d}{4} + \\frac{d}{4} + \\frac{d}{4} + \\frac{d}{4} \\\\\n&\\ge 10 \\sqrt[10]{a \\left( \\frac{b}{2} \\right)^2 \\left( \\frac{c}{3} \\right)^3 \\left( \\frac{d}{4} \\right)^4} \\\\\n&= 10 \\sqrt[10]{\\frac{ab^2 c^3 d^4}{27648}}.\n\\end{align*}Since $a + b + c + d = 10,$\n\\[ab^2 c^3 d^4 \\le 27648.\\]Equality occurs when $a = 1,$ $b = 2,$ $c = 3,$ and $d = 4,$ so the maximum value is $\\boxed{27648}.$"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{\\frac{81}{25600}}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need that information to identify any potential errors and rewrite the solution correctly. \n",
+        "ground_truth": "By AM-GM,\n\\begin{align*}\na + b + c + d &= a + \\frac{b}{2} + \\frac{b}{2} + \\frac{c}{3} + \\frac{c}{3} + \\frac{c}{3} + \\frac{d}{4} + \\frac{d}{4} + \\frac{d}{4} + \\frac{d}{4} \\\\\n&\\ge 10 \\sqrt[10]{a \\left( \\frac{b}{2} \\right)^2 \\left( \\frac{c}{3} \\right)^3 \\left( \\frac{d}{4} \\right)^4} \\\\\n&= 10 \\sqrt[10]{\\frac{ab^2 c^3 d^4}{27648}}.\n\\end{align*}Since $a + b + c + d = 10,$\n\\[ab^2 c^3 d^4 \\le 27648.\\]Equality occurs when $a = 1,$ $b = 2,$ $c = 3,$ and $d = 4,$ so the maximum value is $\\boxed{27648}.$"
+    }
+]

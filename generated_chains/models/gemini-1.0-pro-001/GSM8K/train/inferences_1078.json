@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe centerpieces at Glenda\u2019s wedding reception include a fishbowl containing 2 fish, except for one table that has 3 fish. There are 32 tables. How many fish are there?",
+        "inference": "32 tables x 2 fish per table = 64 fish\n1 table x 3 fish = 3 fish\n\nTotal fish = 64 + 3 = 67 fish\nI hope it is correct: 67 $fish$",
+        "ground_truth": "There are 32 tables with 2 fish in a bowl on each, so 32 tables x 2 fish = <<32*2=64>>64 fish.\nOne table has an additional fish, so 64 fish + 1xtra fish = 65 fish.\n#### 65"
+    },
+    {
+        "question": "32 tables x 2 fish per table = 64 fish\n1 table x 3 fish = 3 fish\n\nTotal fish = 64 + 3 = 67 fish\nI hope it is correct: 67 $fish$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 67",
+        "ground_truth": "There are 32 tables with 2 fish in a bowl on each, so 32 tables x 2 fish = <<32*2=64>>64 fish.\nOne table has an additional fish, so 64 fish + 1xtra fish = 65 fish.\n#### 65"
+    }
+]

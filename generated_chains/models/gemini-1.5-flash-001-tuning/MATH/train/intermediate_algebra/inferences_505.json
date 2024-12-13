@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $x$ and $y$ be positive real numbers such that $4x + 9y = 60.$  Find the maximum value of $xy.$",
+        "inference": "By AM-GM,\n\\[\\frac{4x + 9y}{2} \\ge \\sqrt{(4x)(9y)} = 6 \\sqrt{xy}.\\]Then $60 \\ge 6 \\sqrt{xy},$ so $\\sqrt{xy} \\le 10.$  Hence, $xy \\le 100.$\n\nEquality occurs when $4x = 9y$ and $4x + 9y = 60,$ so $x = \\frac{45}{4}$ and $y = 5,$ so the maximum value is $\\boxed{100}.$ \n",
+        "ground_truth": "By AM-GM,\n\\[60 = 4x + 9y \\ge 2 \\sqrt{(4x)(9y)} = 2 \\sqrt{36xy} = 12 \\sqrt{xy},\\]so $\\sqrt{xy} \\le 5.$  Hence, $xy \\le 25.$\n\nEquality occurs when $4x = 9y.$  Along with the condition $4x + 9y = 60,$ we can solve to get $x = \\frac{15}{2}$ and $y = \\frac{10}{3},$ so the maximum value is $\\boxed{25}.$"
+    },
+    {
+        "question": "By AM-GM,\n\\[\\frac{4x + 9y}{2} \\ge \\sqrt{(4x)(9y)} = 6 \\sqrt{xy}.\\]Then $60 \\ge 6 \\sqrt{xy},$ so $\\sqrt{xy} \\le 10.$  Hence, $xy \\le 100.$\n\nEquality occurs when $4x = 9y$ and $4x + 9y = 60,$ so $x = \\frac{45}{4}$ and $y = 5,$ so the maximum value is $\\boxed{100}.$ \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{100}$ \n",
+        "ground_truth": "By AM-GM,\n\\[60 = 4x + 9y \\ge 2 \\sqrt{(4x)(9y)} = 2 \\sqrt{36xy} = 12 \\sqrt{xy},\\]so $\\sqrt{xy} \\le 5.$  Hence, $xy \\le 25.$\n\nEquality occurs when $4x = 9y.$  Along with the condition $4x + 9y = 60,$ we can solve to get $x = \\frac{15}{2}$ and $y = \\frac{10}{3},$ so the maximum value is $\\boxed{25}.$"
+    }
+]

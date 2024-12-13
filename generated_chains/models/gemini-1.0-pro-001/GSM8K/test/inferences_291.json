@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\n4 adults and 8 children are to share 8 packets of chocolate bars. Each packet contains 5 chocolate bars. If each adult gets 6 chocolate bars and the rest are to be shared equally among the children, how many will each child get?",
+        "inference": "1. Determine the total number of chocolate bars available: 8 packets x 5 chocolate bars per packet = 40 chocolate bars\n2. Subtract the chocolate bars given to the adults: 4 adults x 6 chocolate bars each = 24 chocolate bars\n3. Calculate the remaining chocolate bars to be shared among the children: 40 chocolate bars - 24 chocolate bars = 16 chocolate bars\n4. Divide the remaining chocolate bars among the 8 children: 16 chocolate bars / 8 children = 2 chocolate bars per child\n\nI hope it is correct: 2",
+        "ground_truth": "Each packet contains 5 chocolate bars so 8 packets contain a total of 8*5 = <<8*5=40>>40 bars\nEach adult gets 6 bars so 4 adults will get 6*4 = <<6*4=24>>24 bars in total\nThere are now 40-24 = <<40-24=16>>16 bars left\n16 bars are shared equally among 8 children, so each child will get 16/8 = <<16/8=2>>2 bars\n#### 2"
+    },
+    {
+        "question": "1. Determine the total number of chocolate bars available: 8 packets x 5 chocolate bars per packet = 40 chocolate bars\n2. Subtract the chocolate bars given to the adults: 4 adults x 6 chocolate bars each = 24 chocolate bars\n3. Calculate the remaining chocolate bars to be shared among the children: 40 chocolate bars - 24 chocolate bars = 16 chocolate bars\n4. Divide the remaining chocolate bars among the 8 children: 16 chocolate bars / 8 children = 2 chocolate bars per child\n\nI hope it is correct: 2\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$2",
+        "ground_truth": "Each packet contains 5 chocolate bars so 8 packets contain a total of 8*5 = <<8*5=40>>40 bars\nEach adult gets 6 bars so 4 adults will get 6*4 = <<6*4=24>>24 bars in total\nThere are now 40-24 = <<40-24=16>>16 bars left\n16 bars are shared equally among 8 children, so each child will get 16/8 = <<16/8=2>>2 bars\n#### 2"
+    }
+]

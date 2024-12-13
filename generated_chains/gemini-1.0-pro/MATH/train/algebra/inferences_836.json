@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the value of the expression $(37 + 12)^2 - (37^2 +12^2)$?",
+        "inference": "Solution:\nFirst, we expand the squares:\n\n$$(37+12)^2=(37+12)(37+12)=37^2+2(37)(12)+12^2$$\n\n$$(37^2+12^2)=37^2+12^2$$\n\nThen, we simplify:\n\n$$(37+12)^2-(37^2+12^2)$$\n\n$$=37^2+2(37)(12)+12^2-37^2-12^2$$\n\n$$=2(37)(12)$$\n\n$$=2(444)$$\n\n$$=888$$\n\nFinal Answer: \\boxed{$888$}. I hope it is correct.",
+        "ground_truth": "The square of a binomial $(a+b)^2$ is $a^2 + b^2 + 2ab$. In this problem we see that we are subtracting off the two square terms from the expansion of $(37 + 12)^2$, so we are left with $2 \\cdot 37 \\cdot 12 = \\boxed{888}$."
+    },
+    {
+        "question": "Solution:\nFirst, we expand the squares:\n\n$$(37+12)^2=(37+12)(37+12)=37^2+2(37)(12)+12^2$$\n\n$$(37^2+12^2)=37^2+12^2$$\n\nThen, we simplify:\n\n$$(37+12)^2-(37^2+12^2)$$\n\n$$=37^2+2(37)(12)+12^2-37^2-12^2$$\n\n$$=2(37)(12)$$\n\n$$=2(444)$$\n\n$$=888$$\n\nFinal Answer: \\boxed{$888$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$888$}",
+        "ground_truth": "The square of a binomial $(a+b)^2$ is $a^2 + b^2 + 2ab$. In this problem we see that we are subtracting off the two square terms from the expansion of $(37 + 12)^2$, so we are left with $2 \\cdot 37 \\cdot 12 = \\boxed{888}$."
+    }
+]

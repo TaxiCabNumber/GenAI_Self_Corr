@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSandra's neighbor gives her a basket of 9 eggs every time she babysits their daughter. To make a Spanish flan, she needs 3 eggs. If Sandra has been tasked to make 15 Spanish flans for her school fundraiser, how many times does Sandra have to babysit?",
+        "inference": "I hope it is correct: 15 flans * 3 eggs/flan = 45 eggs needed\n45 eggs needed / 9 eggs/babysitting = 5 babysitting sessions \nI hope it is correct: 5 $answer$ \n",
+        "ground_truth": "Sandra needs a total of 15 x 3 = <<15*3=45>>45 eggs.\nShe will have to babysit 45/9 = <<45/9=5>>5 times.\n#### 5"
+    },
+    {
+        "question": "I hope it is correct: 15 flans * 3 eggs/flan = 45 eggs needed\n45 eggs needed / 9 eggs/babysitting = 5 babysitting sessions \nI hope it is correct: 5 $answer$ \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $5 babysitting sessions$ \n",
+        "ground_truth": "Sandra needs a total of 15 x 3 = <<15*3=45>>45 eggs.\nShe will have to babysit 45/9 = <<45/9=5>>5 times.\n#### 5"
+    }
+]

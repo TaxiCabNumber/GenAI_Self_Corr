@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe point $O$ is the center of the circle circumscribed about $\\triangle ABC$, with $\\angle BOC = 120^{\\circ}$ and $\\angle AOB =\n140^{\\circ}$, as shown. What is the degree measure of $\\angle\nABC$?\n\n[asy]\npair A,B,C;\ndraw(Circle((0,0),20),linewidth(0.7));\nlabel(\"$O$\",(0,0),S);\nA=(-16,-12);\nC=(16,-12);\nB=(3,19.7);\ndraw(A--B--C--cycle,linewidth(0.7));\nlabel(\"$140^{\\circ}$\",(0,0),W);\nlabel(\"$120^{\\circ}$\",(0,0.3),E);\ndraw(C--(0,0)--B);\ndraw(A--(0,0));\nlabel(\"$A$\",A,SW);\nlabel(\"$B$\",B,NE);\nlabel(\"$C$\",C,SE);\n[/asy]",
+        "inference": "Final Answer: $\\boxed{80^\\circ}$. I hope it is correct. \n",
+        "ground_truth": "Since $OA=OB=OC$, triangles $AOB$, $BOC$, and $COA$ are all isosceles. Hence \\[\n\\angle ABC = \\angle ABO + \\angle OBC =\n\\frac{180^{\\circ}-140^{\\circ}}{2}+\n\\frac{180^{\\circ}-120^{\\circ}}{2}=\\boxed{50^{\\circ}}.\n\\]OR\n\n\nSince \\[\n\\angle AOC = 360^{\\circ}-140^{\\circ}-120^{\\circ}=100^{\\circ},\n\\]the Central Angle Theorem implies that \\[\n\\angle ABC = \\frac{1}{2}\\angle AOC = \\boxed{50^{\\circ}}.\n\\]"
+    },
+    {
+        "question": "Final Answer: $\\boxed{80^\\circ}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to so I can help you identify any errors and provide a corrected solution. \n",
+        "ground_truth": "Since $OA=OB=OC$, triangles $AOB$, $BOC$, and $COA$ are all isosceles. Hence \\[\n\\angle ABC = \\angle ABO + \\angle OBC =\n\\frac{180^{\\circ}-140^{\\circ}}{2}+\n\\frac{180^{\\circ}-120^{\\circ}}{2}=\\boxed{50^{\\circ}}.\n\\]OR\n\n\nSince \\[\n\\angle AOC = 360^{\\circ}-140^{\\circ}-120^{\\circ}=100^{\\circ},\n\\]the Central Angle Theorem implies that \\[\n\\angle ABC = \\frac{1}{2}\\angle AOC = \\boxed{50^{\\circ}}.\n\\]"
+    }
+]

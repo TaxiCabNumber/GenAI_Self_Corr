@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJeff owns a catering company.  During a recent event, he sent 8 dozen glasses and 4 dozen plates for the party.  When they were returned, 10 glasses were broken as well as 6 plates.  How many glasses and plates does Jeff have now?",
+        "inference": "8 dozen glasses = 8 x 12 = 96 glasses\n4 dozen plates = 4 x 12 = 48 plates\nTotal glasses and plates = 96 + 48 = 144\nBroken glasses = 10\nBroken plates = 6\nTotal broken glasses and plates = 10 + 6 = 16\nGlasses and plates remaining = 144 - 16 = 128\nI hope it is correct: 128",
+        "ground_truth": "He had 8 dozen glasses so he had 8*12 = <<8*12=96>>96 glasses\nHe had 4 dozen plates so he had 4*12 = <<4*12=48>>48 plates\n10 glasses were broken and he started with 96 so he now has 96-10= 86 glasses\n6 plates were broken and he started with 48 so he now has 48-6 = <<48-6=42>>42\nAll total he has 86 glasses and 42 plates so 86+42 = <<86+42=128>>128 glasses and plates\n#### 128"
+    },
+    {
+        "question": "8 dozen glasses = 8 x 12 = 96 glasses\n4 dozen plates = 4 x 12 = 48 plates\nTotal glasses and plates = 96 + 48 = 144\nBroken glasses = 10\nBroken plates = 6\nTotal broken glasses and plates = 10 + 6 = 16\nGlasses and plates remaining = 144 - 16 = 128\nI hope it is correct: 128\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 128",
+        "ground_truth": "He had 8 dozen glasses so he had 8*12 = <<8*12=96>>96 glasses\nHe had 4 dozen plates so he had 4*12 = <<4*12=48>>48 plates\n10 glasses were broken and he started with 96 so he now has 96-10= 86 glasses\n6 plates were broken and he started with 48 so he now has 48-6 = <<48-6=42>>42\nAll total he has 86 glasses and 42 plates so 86+42 = <<86+42=128>>128 glasses and plates\n#### 128"
+    }
+]

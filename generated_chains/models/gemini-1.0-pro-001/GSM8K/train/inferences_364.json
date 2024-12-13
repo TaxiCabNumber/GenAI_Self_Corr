@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIf Stu has 9 books and Albert has 4 times as many books as Stu, how many books do Stu and Albert have in total?",
+        "inference": "1. Stu has 9 books\n2. Albert has 4 times as many books as Stu, so Albert has 9 x 4 = 36 books\n3. Stu and Albert have a total of 9 + 36 = 45 books\nI hope it is correct: 45 $books$",
+        "ground_truth": "Albert has 4 * 9 books belonging to Stu = <<4*9=36>>36 books.\nSo the pair have a combined total of 36 books belonging to Albert + 9 books belonging to Stu = <<36+9=45>>45 books.\n#### 45"
+    },
+    {
+        "question": "1. Stu has 9 books\n2. Albert has 4 times as many books as Stu, so Albert has 9 x 4 = 36 books\n3. Stu and Albert have a total of 9 + 36 = 45 books\nI hope it is correct: 45 $books$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ 45",
+        "ground_truth": "Albert has 4 * 9 books belonging to Stu = <<4*9=36>>36 books.\nSo the pair have a combined total of 36 books belonging to Albert + 9 books belonging to Stu = <<36+9=45>>45 books.\n#### 45"
+    }
+]

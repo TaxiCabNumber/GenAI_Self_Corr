@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA stock investment went up $25\\%$ in 2006. Starting at this increased value, what percent would it have to go down in 2007 to be back to its original price at the beginning of 2006?",
+        "inference": "Let $x$ be the original price of the stock.\n\nAfter the $25\\%$ increase in 2006, the price became $x+0.25x=1.25x$.\n\nTo get back to the original price $x$, the price must decrease by $1.25x-x=0.25x$.\n\nThe percent decrease is given by $\\frac{0.25x}{1.25x}\\times 100\\% = \\frac{1}{5}\\times 100\\% = 20\\%$.\n\nFinal Answer: $\\boxed{20\\%}$. I hope it is correct. \n",
+        "ground_truth": "Let $x$ be the original price of the stock. This means that the price of the stock is $1.25x$ at the end of 2006. The original price is $\\frac{x}{1.25x} = 80$ percent of this price, so the stock must decrease by $\\boxed{20}$ percent."
+    },
+    {
+        "question": "Let $x$ be the original price of the stock.\n\nAfter the $25\\%$ increase in 2006, the price became $x+0.25x=1.25x$.\n\nTo get back to the original price $x$, the price must decrease by $1.25x-x=0.25x$.\n\nThe percent decrease is given by $\\frac{0.25x}{1.25x}\\times 100\\% = \\frac{1}{5}\\times 100\\% = 20\\%$.\n\nFinal Answer: $\\boxed{20\\%}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct. \n\\\\boxed{20\\%} \n",
+        "ground_truth": "Let $x$ be the original price of the stock. This means that the price of the stock is $1.25x$ at the end of 2006. The original price is $\\frac{x}{1.25x} = 80$ percent of this price, so the stock must decrease by $\\boxed{20}$ percent."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn buys 1000 balloons.  Each balloon holds 10 liters of air.  If he buys 500-liter tanks of gas, how many tanks does he need to buy to fill all the balloons?",
+        "inference": "1. Convert the number of balloons to the total volume of air needed:\n1000 balloons x 10 liters/balloon = 10,000 liters\n\n2. Convert the tank size to liters:\n500 liters/tank\n\n3. Divide the total volume of air needed by the tank size:\n10,000 liters / 500 liters/tank = 20 tanks\n\nI hope it is correct: 20 tanks",
+        "ground_truth": "He needs 1000*10=<<1000*10=10000>>10000 liters of gas\nSo he needs 10000/500=<<10000/500=20>>20 tanks\n#### 20"
+    },
+    {
+        "question": "1. Convert the number of balloons to the total volume of air needed:\n1000 balloons x 10 liters/balloon = 10,000 liters\n\n2. Convert the tank size to liters:\n500 liters/tank\n\n3. Divide the total volume of air needed by the tank size:\n10,000 liters / 500 liters/tank = 20 tanks\n\nI hope it is correct: 20 tanks\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 20",
+        "ground_truth": "He needs 1000*10=<<1000*10=10000>>10000 liters of gas\nSo he needs 10000/500=<<10000/500=20>>20 tanks\n#### 20"
+    }
+]

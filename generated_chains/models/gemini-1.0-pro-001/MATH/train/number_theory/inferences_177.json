@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the integer $n$, $0 \\le n \\le 5$, such that \\[n \\equiv -3736 \\pmod{6}.\\]",
+        "inference": "$$n \\equiv -3736 \\pmod{6}$$\n$$n \\equiv -3736 + 6k, \\text{ for some integer } k$$\n$$n \\equiv -3730, -3724, -3718, -3712, -3706 \\pmod{6}$$\n$$n \\equiv 2, 4, 0, 2, 4 \\pmod{6}$$\nThe only integer in the range $0 \\le n \\le 5$ that satisfies the congruence is $n=\\boxed{4}$.\nFinal Answer: $\\boxed{4}$. I hope it is correct.",
+        "ground_truth": "Since $-3736 \\equiv 2 \\pmod{6}$, the integer $n$ we seek is $n = \\boxed{2}$."
+    },
+    {
+        "question": "$$n \\equiv -3736 \\pmod{6}$$\n$$n \\equiv -3736 + 6k, \\text{ for some integer } k$$\n$$n \\equiv -3730, -3724, -3718, -3712, -3706 \\pmod{6}$$\n$$n \\equiv 2, 4, 0, 2, 4 \\pmod{6}$$\nThe only integer in the range $0 \\le n \\le 5$ that satisfies the congruence is $n=\\boxed{4}$.\nFinal Answer: $\\boxed{4}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$4$}",
+        "ground_truth": "Since $-3736 \\equiv 2 \\pmod{6}$, the integer $n$ we seek is $n = \\boxed{2}$."
+    }
+]

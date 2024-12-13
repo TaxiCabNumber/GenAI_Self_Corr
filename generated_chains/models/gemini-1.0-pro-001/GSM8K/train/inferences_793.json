@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere is a rectangle that is 4 inches wide. If the rectangle's perimeter is 30 inches, what is the area of the rectangle?",
+        "inference": "Perimeter = 2(length + width)\n\n30 = 2(length + 4)\n\n15 = length + 4\n\nlength = 11\n\nArea = length x width\n\nArea = 11 x 4\n\nI hope it is correct: $44$",
+        "ground_truth": "Twice the height of the rectangle is 30 inches - 2 * 4 inches = <<30-2*4=22>>22 inches.\nThe rectangle's height is 22 inches / 2 = <<22/2=11>>11 inches.\nThe area of the rectangle is 4 inches * 11 inches = <<4*11=44>>44 square inches.\n#### 44"
+    },
+    {
+        "question": "Perimeter = 2(length + width)\n\n30 = 2(length + 4)\n\n15 = length + 4\n\nlength = 11\n\nArea = length x width\n\nArea = 11 x 4\n\nI hope it is correct: $44$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "**Solution:**\n\nPerimeter = 2(length + width)\n\n30 = 2(length + 4)\n\n15 = length + 4\n\nlength = 11\n\nArea = length x width\n\nArea = 11 x 4\n\n**Answer: 44**",
+        "ground_truth": "Twice the height of the rectangle is 30 inches - 2 * 4 inches = <<30-2*4=22>>22 inches.\nThe rectangle's height is 22 inches / 2 = <<22/2=11>>11 inches.\nThe area of the rectangle is 4 inches * 11 inches = <<4*11=44>>44 square inches.\n#### 44"
+    }
+]

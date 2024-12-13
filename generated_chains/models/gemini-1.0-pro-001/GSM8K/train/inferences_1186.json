@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn decides to install a ramp in his house.  He needs to get permits which cost $250.  After that, he hires a contractor which costs $150 an hour and the guy works for 3 days at 5 hours per day.  He also pays an inspector 80% less to make sure it is OK.  How much was the total cost?",
+        "inference": "1. Cost of permits = $250\n2. Cost of contractor = $150/hr x 3 days x 5 hr/day = $2,250\n3. Cost of inspector = 80% less than contractor = 20% of $2,250 = $450\n4. Total cost = $250 + $2,250 + $450 = $2,950\n\nI hope it is correct: $2,950$",
+        "ground_truth": "The contractor works for 3*5=<<3*5=15>>15 hours\nThat means he charged 150*15=$<<150*15=2250>>2250\nThe inspector charged 2250*.8=$1800 less\nSo the inspector charged 2250-1800=$<<2250-1800=450>>450\nSo the total amount charged was 250+450+2250=$<<250+450+2250=2950>>2950\n#### 2950"
+    },
+    {
+        "question": "1. Cost of permits = $250\n2. Cost of contractor = $150/hr x 3 days x 5 hr/day = $2,250\n3. Cost of inspector = 80% less than contractor = 20% of $2,250 = $450\n4. Total cost = $250 + $2,250 + $450 = $2,950\n\nI hope it is correct: $2,950$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $2,950$",
+        "ground_truth": "The contractor works for 3*5=<<3*5=15>>15 hours\nThat means he charged 150*15=$<<150*15=2250>>2250\nThe inspector charged 2250*.8=$1800 less\nSo the inspector charged 2250-1800=$<<2250-1800=450>>450\nSo the total amount charged was 250+450+2250=$<<250+450+2250=2950>>2950\n#### 2950"
+    }
+]

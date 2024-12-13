@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn likes to have a glass of water with breakfast, lunch and dinner.  Finally, he has one before he goes to bed as well.  John does this every weekday, but on the weekends he likes to relax and have a soda with dinner instead.  How many glasses of water does John drink in a week?",
+        "inference": "- John drinks 4 glasses of water each weekday, so in 5 weekdays he drinks 4 * 5 = 20 glasses of water.\n- John drinks 3 glasses of water on the weekends, so in 2 weekends he drinks 3 * 2 = 6 glasses of water.\n- In total, John drinks 20 + 6 = 26 glasses of water in a week.\nI hope it is correct: 26",
+        "ground_truth": "John has 4 glasses of water a day on each of the 5 weekdays, for 4*5= <<4*5=20>>20 glasses.\nHe has 3 glasses of water on both weekend days, for 3*2= <<3*2=6>>6 glasses of water.\nHe has 20+6=<<20+6=26>>26 total glasses of water in a week.\n#### 26"
+    },
+    {
+        "question": "- John drinks 4 glasses of water each weekday, so in 5 weekdays he drinks 4 * 5 = 20 glasses of water.\n- John drinks 3 glasses of water on the weekends, so in 2 weekends he drinks 3 * 2 = 6 glasses of water.\n- In total, John drinks 20 + 6 = 26 glasses of water in a week.\nI hope it is correct: 26\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$26",
+        "ground_truth": "John has 4 glasses of water a day on each of the 5 weekdays, for 4*5= <<4*5=20>>20 glasses.\nHe has 3 glasses of water on both weekend days, for 3*2= <<3*2=6>>6 glasses of water.\nHe has 20+6=<<20+6=26>>26 total glasses of water in a week.\n#### 26"
+    }
+]

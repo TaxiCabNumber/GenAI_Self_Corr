@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSimplify $\\frac{1}{1+\\sqrt{2}}\\cdot\\frac{1}{1-\\sqrt{2}}$.",
+        "inference": "$\\frac{1}{1+\\sqrt{2}}=\\frac{1-\\sqrt{2}}{(1+\\sqrt{2})(1-\\sqrt{2})}=\\frac{1-\\sqrt{2}}{1-2}=-1+\\sqrt{2}$\n$\\therefore \\frac{1}{1+\\sqrt{2}}\\cdot\\frac{1}{1-\\sqrt{2}}=[-1+\\sqrt{2}]\\cdot\\frac{1}{1-\\sqrt{2}}=\\frac{-1+\\sqrt{2}}{1-2}=-(1-\\sqrt{2})=\\boxed{\\sqrt{2}-1}.$\nFinal Answer: $\\boxed{\\sqrt{2}-1}.$ I hope it is correct.",
+        "ground_truth": "Multiplying the numerators simply yields $1$. Multiplying the denominators gives $1+\\sqrt{2} - \\sqrt{2} -2 = 1 - 2 = -1$. So, the answer is $\\frac{1}{-1} = \\boxed{-1}$."
+    },
+    {
+        "question": "$\\frac{1}{1+\\sqrt{2}}=\\frac{1-\\sqrt{2}}{(1+\\sqrt{2})(1-\\sqrt{2})}=\\frac{1-\\sqrt{2}}{1-2}=-1+\\sqrt{2}$\n$\\therefore \\frac{1}{1+\\sqrt{2}}\\cdot\\frac{1}{1-\\sqrt{2}}=[-1+\\sqrt{2}]\\cdot\\frac{1}{1-\\sqrt{2}}=\\frac{-1+\\sqrt{2}}{1-2}=-(1-\\sqrt{2})=\\boxed{\\sqrt{2}-1}.$\nFinal Answer: $\\boxed{\\sqrt{2}-1}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{1}",
+        "ground_truth": "Multiplying the numerators simply yields $1$. Multiplying the denominators gives $1+\\sqrt{2} - \\sqrt{2} -2 = 1 - 2 = -1$. So, the answer is $\\frac{1}{-1} = \\boxed{-1}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn plans to sell all his toys and use the money to buy video games. He has 13 lego sets and he sells them for $15 each. He ends up buying 8 video games for $20 each and has $5 left. How many lego sets does he still have?",
+        "inference": "1. John sells 13 lego sets for $15 each, so he earns 13 x $15 = $195.\n2. He spends $20 on each of the 8 video games, so he spends 8 x $20 = $160.\n3. He has $5 left, so he must have earned $195 - $160 = $35 more than he spent.\n4. Since he earned $15 for each lego set he sold, he must have sold $35/$15 = 2 lego sets more than he needed to buy the video games.\n5. Therefore, he still has 13 - 2 = 11 lego sets.\n\nI hope it is correct: 11 $lego sets$",
+        "ground_truth": "He spent $160 on video games because 8 x 20 = <<8*20=160>>160\nHe earned $165 from his sale because 160 + 5 = <<160+5=165>>165\nHe sold 11 lego sets because 11 x 15 = <<11*15=165>>165\nHe has 2 sets left because 13 - 11 = <<13-11=2>>2\n#### 2"
+    },
+    {
+        "question": "1. John sells 13 lego sets for $15 each, so he earns 13 x $15 = $195.\n2. He spends $20 on each of the 8 video games, so he spends 8 x $20 = $160.\n3. He has $5 left, so he must have earned $195 - $160 = $35 more than he spent.\n4. Since he earned $15 for each lego set he sold, he must have sold $35/$15 = 2 lego sets more than he needed to buy the video games.\n5. Therefore, he still has 13 - 2 = 11 lego sets.\n\nI hope it is correct: 11 $lego sets$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 11",
+        "ground_truth": "He spent $160 on video games because 8 x 20 = <<8*20=160>>160\nHe earned $165 from his sale because 160 + 5 = <<160+5=165>>165\nHe sold 11 lego sets because 11 x 15 = <<11*15=165>>165\nHe has 2 sets left because 13 - 11 = <<13-11=2>>2\n#### 2"
+    }
+]

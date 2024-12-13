@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nTen 6-sided dice are rolled. What is the probability that exactly three of the dice show a 1? Express your answer as a decimal rounded to the nearest thousandth.",
+        "inference": "Final Answer: \\\\boxed{0.155}. I hope it is correct. \n",
+        "ground_truth": "There are $\\binom{10}{3}=120$ ways to select exactly three dice to roll 1's ones out of ten dice total. The probability of any one of these outcomes occurring is $\\left(\\dfrac{1}{6}\\right)^3\\left(\\dfrac{5}{6}\\right)^7$ and they're all mutually exclusive cases, so the probability that one of them will occur (which is the probability that we're looking for) is $\\binom{10}{3}\\left(\\dfrac{1}{6}\\right)^3\\left(\\dfrac{5}{6}\\right)^7=\\dfrac{120\\cdot5^7\\cdot1^3}{6^{10}}\\approx \\boxed{.155}$."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{0.155}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the question and the solution you are referring to so I can check for errors and provide a corrected final answer. \n",
+        "ground_truth": "There are $\\binom{10}{3}=120$ ways to select exactly three dice to roll 1's ones out of ten dice total. The probability of any one of these outcomes occurring is $\\left(\\dfrac{1}{6}\\right)^3\\left(\\dfrac{5}{6}\\right)^7$ and they're all mutually exclusive cases, so the probability that one of them will occur (which is the probability that we're looking for) is $\\binom{10}{3}\\left(\\dfrac{1}{6}\\right)^3\\left(\\dfrac{5}{6}\\right)^7=\\dfrac{120\\cdot5^7\\cdot1^3}{6^{10}}\\approx \\boxed{.155}$."
+    }
+]

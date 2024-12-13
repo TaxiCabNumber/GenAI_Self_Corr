@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTanya is teaching at school. She earns $15 for every hour and an additional $5 per day if she teaches more than 3 classes. On Monday she teaches 4 classes for 5 hours, and on Wednesday 2 classes for 2 hours. How much did Tanya earn for these two days of teaching?",
+        "inference": "First, find the total number of hours Tanya teaches:\n\nHours on Monday = 5\nHours on Wednesday = 2\nTotal hours = 5 + 2 = 7\n\nNext, find the number of days she teaches more than 3 classes:\n\nDays teaching more than 3 classes = 1 (Monday)\n\nThen, calculate her earnings for the hours she teaches:\n\nEarnings for hours = 7 * $15 = $105\n\nFinally, add the additional earnings for teaching more than 3 classes:\n\nAdditional earnings = 1 * $5 = $5\n\nTotal earnings = $105 + $5 = $110\n\nI hope it is correct: $110",
+        "ground_truth": "Tanya worked for 5 hours + 2 hours = <<5+2=7>>7 hours.\nShe earned therefore 7 hours * $15/hour = $<<7*15=105>>105.\nOn Monday she taught more than 3 classes, so she got a bonus and in total earned $105 + $5 = $110.\n#### 110"
+    },
+    {
+        "question": "First, find the total number of hours Tanya teaches:\n\nHours on Monday = 5\nHours on Wednesday = 2\nTotal hours = 5 + 2 = 7\n\nNext, find the number of days she teaches more than 3 classes:\n\nDays teaching more than 3 classes = 1 (Monday)\n\nThen, calculate her earnings for the hours she teaches:\n\nEarnings for hours = 7 * $15 = $105\n\nFinally, add the additional earnings for teaching more than 3 classes:\n\nAdditional earnings = 1 * $5 = $5\n\nTotal earnings = $105 + $5 = $110\n\nI hope it is correct: $110\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$110",
+        "ground_truth": "Tanya worked for 5 hours + 2 hours = <<5+2=7>>7 hours.\nShe earned therefore 7 hours * $15/hour = $<<7*15=105>>105.\nOn Monday she taught more than 3 classes, so she got a bonus and in total earned $105 + $5 = $110.\n#### 110"
+    }
+]

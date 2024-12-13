@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nRationalize the denominator: $\\sqrt{\\frac23}$.",
+        "inference": "$$\\sqrt{\\frac23}=\\sqrt{\\frac{2\\cdot3}{3\\cdot3}}=\\sqrt{\\frac{6}{9}}=\\frac{\\sqrt{6}}{\\sqrt9}=\\frac{\\sqrt6}{3}$$\n\nFinal Answer: $\\boxed{\\frac{\\sqrt6}{3}}$. I hope it is correct.",
+        "ground_truth": "Multiply both numerator and denominator by $\\sqrt3$: \\begin{align*}\n\\sqrt{\\frac23} &= \\frac{\\sqrt2}{\\sqrt3}\\\\\n&=\\frac{\\sqrt2}{\\sqrt3}\\cdot\\frac{\\sqrt3}{\\sqrt3}\\\\\n&=\\boxed{\\frac{\\sqrt6}3}.\n\\end{align*}"
+    },
+    {
+        "question": "$$\\sqrt{\\frac23}=\\sqrt{\\frac{2\\cdot3}{3\\cdot3}}=\\sqrt{\\frac{6}{9}}=\\frac{\\sqrt{6}}{\\sqrt9}=\\frac{\\sqrt6}{3}$$\n\nFinal Answer: $\\boxed{\\frac{\\sqrt6}{3}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{\\frac{\\sqrt6}{3}}$$",
+        "ground_truth": "Multiply both numerator and denominator by $\\sqrt3$: \\begin{align*}\n\\sqrt{\\frac23} &= \\frac{\\sqrt2}{\\sqrt3}\\\\\n&=\\frac{\\sqrt2}{\\sqrt3}\\cdot\\frac{\\sqrt3}{\\sqrt3}\\\\\n&=\\boxed{\\frac{\\sqrt6}3}.\n\\end{align*}"
+    }
+]

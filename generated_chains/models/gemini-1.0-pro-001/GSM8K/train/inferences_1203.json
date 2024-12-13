@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJosh has some money. He spent $1.75 on a drink, and then spent another $1.25. If he had $6 left, how much money, in dollars, did Josh have at first?",
+        "inference": "1) Josh spent $1.75 on a drink, so he has $x - $1.75 left.\n2) He then spent another $1.25, so he has $x - $1.75 - $1.25 = x - $3 left.\n3) If he had $6 left, then x - $3 = $6.\n4) Solving for x, we get x = $6 + $3 = $9.\n5) Therefore, Josh had $9 at first.\n\nI hope it is correct: $9",
+        "ground_truth": "Josh spent 1.75+1.25=<<1.75+1.25=3>>3 dollars in total.\nJosh had 6+3=<<6+3=9>>9 dollars at first.\n#### 9"
+    },
+    {
+        "question": "1) Josh spent $1.75 on a drink, so he has $x - $1.75 left.\n2) He then spent another $1.25, so he has $x - $1.75 - $1.25 = x - $3 left.\n3) If he had $6 left, then x - $3 = $6.\n4) Solving for x, we get x = $6 + $3 = $9.\n5) Therefore, Josh had $9 at first.\n\nI hope it is correct: $9\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$9",
+        "ground_truth": "Josh spent 1.75+1.25=<<1.75+1.25=3>>3 dollars in total.\nJosh had 6+3=<<6+3=9>>9 dollars at first.\n#### 9"
+    }
+]

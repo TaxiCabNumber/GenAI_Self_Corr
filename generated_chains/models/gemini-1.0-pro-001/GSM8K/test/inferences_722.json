@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRon is fed up with the pothole in front of his house. If it doesn't get fixed, it's going to do $450 worth of damage to his car. Unfortunately, the city council refuses to fix it, and will fine Ron $120 for unauthorized road maintenance if he fixes it himself. Ron will also have to buy 3 buckets of asphalt that each cost $25. How much money does Ron save by fixing the pothole?",
+        "inference": "**Solution:**\n\n1. Ron will pay $120 for the fine.\n2. Ron will pay 3 x $25 = $75 for the asphalt.\n3. Ron will save $450 - $120 - $75 = $255 by fixing the pothole.\n\nI hope it is correct: $255",
+        "ground_truth": "First find the total cost of the asphalt by multiplying the number of buckets by the cost per bucket: 3 buckets * $25/bucket = $<<3*25=75>>75\nNow subtract the cost of the asphalt and the fine from the cost of the damage Ron avoids: $450 - $75 - $120 = $<<450-75-120=255>>255\n#### 255"
+    },
+    {
+        "question": "**Solution:**\n\n1. Ron will pay $120 for the fine.\n2. Ron will pay 3 x $25 = $75 for the asphalt.\n3. Ron will save $450 - $120 - $75 = $255 by fixing the pothole.\n\nI hope it is correct: $255\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $255$",
+        "ground_truth": "First find the total cost of the asphalt by multiplying the number of buckets by the cost per bucket: 3 buckets * $25/bucket = $<<3*25=75>>75\nNow subtract the cost of the asphalt and the fine from the cost of the damage Ron avoids: $450 - $75 - $120 = $<<450-75-120=255>>255\n#### 255"
+    }
+]

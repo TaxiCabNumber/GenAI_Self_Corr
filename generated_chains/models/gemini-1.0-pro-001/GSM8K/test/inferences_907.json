@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSarah has 9 books and Joseph had twice the number of Sarah\u2019s books, but he lost 2 of them. How many books does Joseph currently have?",
+        "inference": "Sarah has 9 books.\nJoseph has twice the number of Sarah's books, so he has 2 * 9 = 18 books.\nJoseph lost 2 books, so he currently has 18 - 2 = 16 books.\n\nI hope it is correct: 16 $books$",
+        "ground_truth": "Joseph used to have 9 books * 2 = <<9*2=18>>18 books.\nAfter he lost 2 books he remained with 18 books \u2013 2 books = <<18-2=16>>16 books.\n#### 16"
+    },
+    {
+        "question": "Sarah has 9 books.\nJoseph has twice the number of Sarah's books, so he has 2 * 9 = 18 books.\nJoseph lost 2 books, so he currently has 18 - 2 = 16 books.\n\nI hope it is correct: 16 $books$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 16",
+        "ground_truth": "Joseph used to have 9 books * 2 = <<9*2=18>>18 books.\nAfter he lost 2 books he remained with 18 books \u2013 2 books = <<18-2=16>>16 books.\n#### 16"
+    }
+]

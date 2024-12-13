@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 220 castles in Scotland.  40 percent of them are ruins, and half of the ruined castles are unmanned.  How many unmanned ruined castles are there in Scotland?",
+        "inference": "1. 40% of 220 castles are ruins: 0.40 * 220 = 88\n2. Half of the ruined castles are unmanned: 0.50 * 88 = 44\nI hope it is correct: 44 $answer$",
+        "ground_truth": "Ruins:220(.40)=88\nUnmanned:88/2=<<88/2=44>>44 castles\n#### 44"
+    },
+    {
+        "question": "1. 40% of 220 castles are ruins: 0.40 * 220 = 88\n2. Half of the ruined castles are unmanned: 0.50 * 88 = 44\nI hope it is correct: 44 $answer$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 44",
+        "ground_truth": "Ruins:220(.40)=88\nUnmanned:88/2=<<88/2=44>>44 castles\n#### 44"
+    }
+]

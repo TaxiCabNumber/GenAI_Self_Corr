@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat three-digit integer is equal to the sum of the factorials of its digits?",
+        "inference": "Final Answer: \\\\boxed{145}. I hope it is correct. \n",
+        "ground_truth": "With a few initial observations, we realize that the hundreds digit cannot be greater than 1, because the digits 5 or 6 are needed to make a 3 digit integer but will not fit with the larger hundreds digit. Clearly one of the digits is 5, to contribute to the sum $120 = 5!$. Then since we have the hundreds digit of 1, $1! = 1$, we need a middle digit. After testing a few, 4 works, since $145 = 1! + 4! + 5! = 1+ 24 + 120 = \\boxed{145}$."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{145}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the question and your solution so I can review it and provide the correct final answer. \n",
+        "ground_truth": "With a few initial observations, we realize that the hundreds digit cannot be greater than 1, because the digits 5 or 6 are needed to make a 3 digit integer but will not fit with the larger hundreds digit. Clearly one of the digits is 5, to contribute to the sum $120 = 5!$. Then since we have the hundreds digit of 1, $1! = 1$, we need a middle digit. After testing a few, 4 works, since $145 = 1! + 4! + 5! = 1+ 24 + 120 = \\boxed{145}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $x^2+bx+9$ has two non-real roots, find all real possible values of $b$. Express your answer in interval notation.",
+        "inference": "For a quadratic to have non-real roots, its discriminant must be negative.  The discriminant of $x^2+bx+9$ is $b^2-4(1)(9) = b^2-36$.  Thus, we want $b^2-36<0$.  Factoring, we get $(b-6)(b+6)<0$.  This inequality holds when one factor is positive and the other is negative.  This occurs when $b \\in \\boxed{(-6,6)}$. Final Answer: $\\boxed{(-6,6)}$. I hope it is correct. \n",
+        "ground_truth": "Consider the quadratic formula $\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}$. In order for the quadratic to have two non-real roots, the expression under the square root (the discriminant) must be negative. This gives us the inequality \\begin{align*} b^2-4ac&<0\n\\\\\\Rightarrow\\qquad b^2-4(1)(9)&<0\n\\\\\\Rightarrow\\qquad b^2-36&<0\n\\\\\\Rightarrow\\qquad (b+6)(b-6)&<0.\n\\end{align*} Thus, we find that $ b\\in\\boxed{(-6, 6)} $."
+    },
+    {
+        "question": "For a quadratic to have non-real roots, its discriminant must be negative.  The discriminant of $x^2+bx+9$ is $b^2-4(1)(9) = b^2-36$.  Thus, we want $b^2-36<0$.  Factoring, we get $(b-6)(b+6)<0$.  This inequality holds when one factor is positive and the other is negative.  This occurs when $b \\in \\boxed{(-6,6)}$. Final Answer: $\\boxed{(-6,6)}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{(-6,6)} \n",
+        "ground_truth": "Consider the quadratic formula $\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}$. In order for the quadratic to have two non-real roots, the expression under the square root (the discriminant) must be negative. This gives us the inequality \\begin{align*} b^2-4ac&<0\n\\\\\\Rightarrow\\qquad b^2-4(1)(9)&<0\n\\\\\\Rightarrow\\qquad b^2-36&<0\n\\\\\\Rightarrow\\qquad (b+6)(b-6)&<0.\n\\end{align*} Thus, we find that $ b\\in\\boxed{(-6, 6)} $."
+    }
+]

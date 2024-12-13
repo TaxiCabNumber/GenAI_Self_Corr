@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nHow many ounces of pure water must be added to $30$ ounces of a $30\\%$ solution of acid to yield a solution that is $20\\%$ acid?",
+        "inference": "Let $x$ be the number of ounces of pure water that must be added.  The total amount of solution will then be $30 + x$ ounces.  Since the amount of acid in the solution remains constant, we have the equation \\[0.30 \\cdot 30 = 0.20 (30 + x).\\]Solving for $x$, we find \\[9 = 6 + 0.20x.\\]This simplifies to $3 = 0.20x$, so $x = 15$.\n\nFinal Answer: $\\boxed{15}$. I hope it is correct. \n",
+        "ground_truth": "Suppose that the number of ounces of pure water necessary is equal to $w$. Then, the total amount of liquid in the mixture is $30 + w$. The acid content of the mixture will always be $30\\% \\times 30 = 9$ ounces of acid. Thus, the amount of acid in the mixture is equal to $\\frac{9}{30 + w}$. Setting this equal to $20\\% = \\frac 15$, it follows that $$\\frac{9}{30+w} = \\frac 15 \\Longrightarrow 30+w = 45.$$ Thus, $w = \\boxed{15}$ ounces of pure water."
+    },
+    {
+        "question": "Let $x$ be the number of ounces of pure water that must be added.  The total amount of solution will then be $30 + x$ ounces.  Since the amount of acid in the solution remains constant, we have the equation \\[0.30 \\cdot 30 = 0.20 (30 + x).\\]Solving for $x$, we find \\[9 = 6 + 0.20x.\\]This simplifies to $3 = 0.20x$, so $x = 15$.\n\nFinal Answer: $\\boxed{15}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct.  \n\\\\boxed{15} \n",
+        "ground_truth": "Suppose that the number of ounces of pure water necessary is equal to $w$. Then, the total amount of liquid in the mixture is $30 + w$. The acid content of the mixture will always be $30\\% \\times 30 = 9$ ounces of acid. Thus, the amount of acid in the mixture is equal to $\\frac{9}{30 + w}$. Setting this equal to $20\\% = \\frac 15$, it follows that $$\\frac{9}{30+w} = \\frac 15 \\Longrightarrow 30+w = 45.$$ Thus, $w = \\boxed{15}$ ounces of pure water."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA $90^\\circ$ rotation around the origin in the counter-clockwise direction is applied to $7 + 2i.$  What is the resulting complex number?",
+        "inference": "Final Answer: \\\\boxed{-2+7i}. I hope it is correct. \n",
+        "ground_truth": "A $90^\\circ$ rotation around the origin in the counter-clockwise direction corresponds to multiplication by $\\operatorname{cis} 90^\\circ = i.$\n\n[asy]\nunitsize(0.5 cm);\n\ndraw((-3,0)--(8,0));\ndraw((0,-1)--(0,8));\ndraw((0,0)--(7,2),dashed);\ndraw((0,0)--(-2,7),dashed);\n\ndot(\"$7 + 2i$\", (7,2), E);\ndot(\"$-2 + 7i$\", (-2,7), N);\n[/asy]\n\nThus, the image of $7 + 2i$ is $i(7 + 2i) = \\boxed{-2 + 7i}.$"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{-2+7i}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the question and the solution so I can review it and provide the corrected final answer. \n",
+        "ground_truth": "A $90^\\circ$ rotation around the origin in the counter-clockwise direction corresponds to multiplication by $\\operatorname{cis} 90^\\circ = i.$\n\n[asy]\nunitsize(0.5 cm);\n\ndraw((-3,0)--(8,0));\ndraw((0,-1)--(0,8));\ndraw((0,0)--(7,2),dashed);\ndraw((0,0)--(-2,7),dashed);\n\ndot(\"$7 + 2i$\", (7,2), E);\ndot(\"$-2 + 7i$\", (-2,7), N);\n[/asy]\n\nThus, the image of $7 + 2i$ is $i(7 + 2i) = \\boxed{-2 + 7i}.$"
+    }
+]

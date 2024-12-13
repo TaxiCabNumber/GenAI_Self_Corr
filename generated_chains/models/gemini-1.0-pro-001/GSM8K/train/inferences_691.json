@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nChance boarded a plane departing from London to New York at 6:00 a.m. ET on Monday. He arrived in New York 18 hours later. If he took another plane flying to Cape town the day he arrived in New York and arrived in Cape town at 10:00 a.m ET on Tuesday, calculate the number of hours his flight took from New York to cape town.",
+        "inference": "**Step 1: Convert ET (Eastern Time) to UTC (Coordinated Universal Time)**\n\n* 6:00 a.m. ET = 11:00 a.m. UTC\n* 10:00 a.m ET = 3:00 p.m. UTC\n\n**Step 2: Calculate the total flight time from London to New York**\nTotal time = 18 hours\n\n**Step 3: Calculate the total flight time from New York to Cape Town**\nTotal flight time = Arrival time in Cape Town in UTC - Departure time in New York in UTC\n= 3:00 p.m. UTC - 11:00 a.m. UTC\n= 16 hours\n\nI hope it is correct: 16 hours",
+        "ground_truth": "Eighteen hours later, after departing from London, Chance arrived in New York at 6:00+18 hours = 00:00 on Tuesday.\nIf he arrived in cape town at 10:00 p.m. on Tuesday, his flight took 10:00-00:00 = 10 hours.\n#### 10"
+    },
+    {
+        "question": "**Step 1: Convert ET (Eastern Time) to UTC (Coordinated Universal Time)**\n\n* 6:00 a.m. ET = 11:00 a.m. UTC\n* 10:00 a.m ET = 3:00 p.m. UTC\n\n**Step 2: Calculate the total flight time from London to New York**\nTotal time = 18 hours\n\n**Step 3: Calculate the total flight time from New York to Cape Town**\nTotal flight time = Arrival time in Cape Town in UTC - Departure time in New York in UTC\n= 3:00 p.m. UTC - 11:00 a.m. UTC\n= 16 hours\n\nI hope it is correct: 16 hours\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ = 16",
+        "ground_truth": "Eighteen hours later, after departing from London, Chance arrived in New York at 6:00+18 hours = 00:00 on Tuesday.\nIf he arrived in cape town at 10:00 p.m. on Tuesday, his flight took 10:00-00:00 = 10 hours.\n#### 10"
+    }
+]

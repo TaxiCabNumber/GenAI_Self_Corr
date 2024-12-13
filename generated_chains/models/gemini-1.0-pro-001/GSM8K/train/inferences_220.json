@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA car uses 20 gallons of gas to travel 400 miles. Mr. Montero's car has 8 gallons in it. How many more gallons of gas does he need to travel 600 miles, back and forth?",
+        "inference": "1. First, find the car's gas mileage. 400 miles / 20 gallons = 20 miles per gallon\n2. Then, find out how many gallons of gas Mr. Montero needs to travel 600 miles. 600 miles / 20 miles per gallon = 30 gallons\n3. Finally, subtract the number of gallons of gas Mr. Montero already has from the number of gallons of gas he needs. 30 gallons - 8 gallons = 22 gallons\nI hope it is correct: 22 gallons",
+        "ground_truth": "Mr. Montero is traveling a total distance of 600 miles + 600 miles = <<600+600=1200>>1200 miles.\nThere are 1200 miles / 400 miles = <<1200/400=3>>3 sets of 400 miles in 1200 miles.\nSo Mr. Montero needs 20 gallons/set x 3 sets = <<20*3=60>>60 gallons in all.\nSince his car has 8 gallons already, then he needs to add 60 gallons - 8 gallons = <<60-8=52>>52 gallons more.\n#### 52"
+    },
+    {
+        "question": "1. First, find the car's gas mileage. 400 miles / 20 gallons = 20 miles per gallon\n2. Then, find out how many gallons of gas Mr. Montero needs to travel 600 miles. 600 miles / 20 miles per gallon = 30 gallons\n3. Finally, subtract the number of gallons of gas Mr. Montero already has from the number of gallons of gas he needs. 30 gallons - 8 gallons = 22 gallons\nI hope it is correct: 22 gallons\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ 22 gallons",
+        "ground_truth": "Mr. Montero is traveling a total distance of 600 miles + 600 miles = <<600+600=1200>>1200 miles.\nThere are 1200 miles / 400 miles = <<1200/400=3>>3 sets of 400 miles in 1200 miles.\nSo Mr. Montero needs 20 gallons/set x 3 sets = <<20*3=60>>60 gallons in all.\nSince his car has 8 gallons already, then he needs to add 60 gallons - 8 gallons = <<60-8=52>>52 gallons more.\n#### 52"
+    }
+]

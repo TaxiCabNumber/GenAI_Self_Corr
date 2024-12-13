@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe equation of a parabola is $y^2 + 6y + 2x + 5 = 0.$  Find the vertex of the parabola.",
+        "inference": "Solution:\n\n$$y^2 + 6y + 2x + 5 = 0 \\newline \\Rightarrow y^2 + 6y = -2x - 5 \\newline \\Rightarrow y^2 + 6y + 9 = -2x - 5 + 9 \\newline \\Rightarrow (y + 3)^2 = -2x + 4 \\newline \\Rightarrow (y + 3)^2 = -2(x - 2)$$\n\nHence, the parabola opens to the right and the vertex is at $$(2, -3)$$\n\nFinal Answer: $$\\boxed{(2, -3)}$$. I believe it is correct.",
+        "ground_truth": "Completing the square in $y,$ we get\n\\[(y + 3)^2 + 2x - 4 = 0.\\]Then solving for $x,$ we get\n\\[x = 2 - \\frac{1}{2} (y + 3)^2.\\]Thus, the vertex of the parabola is $\\boxed{(2,-3)}.$"
+    },
+    {
+        "question": "Solution:\n\n$$y^2 + 6y + 2x + 5 = 0 \\newline \\Rightarrow y^2 + 6y = -2x - 5 \\newline \\Rightarrow y^2 + 6y + 9 = -2x - 5 + 9 \\newline \\Rightarrow (y + 3)^2 = -2x + 4 \\newline \\Rightarrow (y + 3)^2 = -2(x - 2)$$\n\nHence, the parabola opens to the right and the vertex is at $$(2, -3)$$\n\nFinal Answer: $$\\boxed{(2, -3)}$$. I believe it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{(2, -3)}$$",
+        "ground_truth": "Completing the square in $y,$ we get\n\\[(y + 3)^2 + 2x - 4 = 0.\\]Then solving for $x,$ we get\n\\[x = 2 - \\frac{1}{2} (y + 3)^2.\\]Thus, the vertex of the parabola is $\\boxed{(2,-3)}.$"
+    }
+]

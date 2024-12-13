@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn has a raw squat of 600 pounds without sleeves or wraps.  Sleeves add 30 pounds to his lift.  Wraps add 25% to his squat.  How much more pounds does he get out of wraps versus sleeves.",
+        "inference": "**Step 1:** Calculate John's squat with sleeves:\n600 pounds + 30 pounds = 630 pounds\n\n**Step 2:** Calculate John's squat with wraps:\n600 pounds * 125% = 750 pounds\n\n**Step 3:** Calculate the difference in pounds between squats with wraps and sleeves:\n750 pounds - 630 pounds = 120 pounds\n\n**I hope it is correct: 120 pounds**",
+        "ground_truth": "Wraps add 600*.25=<<600*.25=150>>150 pounds to his lift\nSo they add 150-30=<<150-30=120>>120 pounds more than sleeves\n#### 120"
+    },
+    {
+        "question": "**Step 1:** Calculate John's squat with sleeves:\n600 pounds + 30 pounds = 630 pounds\n\n**Step 2:** Calculate John's squat with wraps:\n600 pounds * 125% = 750 pounds\n\n**Step 3:** Calculate the difference in pounds between squats with wraps and sleeves:\n750 pounds - 630 pounds = 120 pounds\n\n**I hope it is correct: 120 pounds**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ 120",
+        "ground_truth": "Wraps add 600*.25=<<600*.25=150>>150 pounds to his lift\nSo they add 150-30=<<150-30=120>>120 pounds more than sleeves\n#### 120"
+    }
+]

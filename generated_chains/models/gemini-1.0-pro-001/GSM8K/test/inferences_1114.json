@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRaymond had $21. Then he saved $11 from his allowance and spent $5 on a comic book and $19 on a puzzle. How much money does Raymond have left?",
+        "inference": "- Raymond has $21 to start with.\n- He saved $11 from his allowance, so he now has $21 + $11 = $32.\n- He spent $5 on a comic book, so he now has $32 - $5 = $27.\n- He spent $19 on a puzzle, so he now has $27 - $19 = $8.\n\nI hope it is correct: $8",
+        "ground_truth": "Raymond started with $21 + $11 = $<<21+11=32>>32.\nRaymond then spent $5 + $19 = $<<5+19=24>>24.\nRaymond now has $32 - $24 = $<<32-24=8>>8 left.\n#### 8"
+    },
+    {
+        "question": "- Raymond has $21 to start with.\n- He saved $11 from his allowance, so he now has $21 + $11 = $32.\n- He spent $5 on a comic book, so he now has $32 - $5 = $27.\n- He spent $19 on a puzzle, so he now has $27 - $19 = $8.\n\nI hope it is correct: $8\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$8",
+        "ground_truth": "Raymond started with $21 + $11 = $<<21+11=32>>32.\nRaymond then spent $5 + $19 = $<<5+19=24>>24.\nRaymond now has $32 - $24 = $<<32-24=8>>8 left.\n#### 8"
+    }
+]

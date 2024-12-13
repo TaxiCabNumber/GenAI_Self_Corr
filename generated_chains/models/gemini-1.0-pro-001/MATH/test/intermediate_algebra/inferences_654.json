@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $z$ be a complex number such that\n\\[z + \\frac{1}{z} = 1.\\]Find $z^3.$",
+        "inference": "$$z + \\frac{1}{z} = 1\\Rightarrow z^2 + 1 = z,$$ \n\n$$\\Rightarrow z^3 + z = z^2 \\Rightarrow z^3 = z^2 - z = z(z-1),$$\n\n$$\\Rightarrow z^3 = (z-1)z = (z-1)(z+\\frac{1}{z}) = (z-1)\\times 1 = z-1.$$\n\nSo, $z^3 = z -1, \\quad \\therefore \\quad \\boxed{Final\\ Answer: \\ z-1}.$",
+        "ground_truth": "From the equation $z + \\frac{1}{z} = 1,$\n\\[z^2 + 1 = z,\\]so $z^2 - z + 1 = 0.$  Then $(z + 1)(z^2 - z + 1) = 0,$ which expands as $z^3 + 1 = 0.$  Hence, $z^3 = \\boxed{-1}.$"
+    },
+    {
+        "question": "$$z + \\frac{1}{z} = 1\\Rightarrow z^2 + 1 = z,$$ \n\n$$\\Rightarrow z^3 + z = z^2 \\Rightarrow z^3 = z^2 - z = z(z-1),$$\n\n$$\\Rightarrow z^3 = (z-1)z = (z-1)(z+\\frac{1}{z}) = (z-1)\\times 1 = z-1.$$\n\nSo, $z^3 = z -1, \\quad \\therefore \\quad \\boxed{Final\\ Answer: \\ z-1}.$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{z^2-1}$$",
+        "ground_truth": "From the equation $z + \\frac{1}{z} = 1,$\n\\[z^2 + 1 = z,\\]so $z^2 - z + 1 = 0.$  Then $(z + 1)(z^2 - z + 1) = 0,$ which expands as $z^3 + 1 = 0.$  Hence, $z^3 = \\boxed{-1}.$"
+    }
+]

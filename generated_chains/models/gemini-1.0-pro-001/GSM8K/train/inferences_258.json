@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAnne is 2 times as tall as her sister while Bella is 3 times as tall as Anne. If Anne is 80cm tall, what is the height difference between Bella and Anne's sister?",
+        "inference": "Anne is 2 times as tall as her sister => Anne's sister's height = Anne's height / 2\n= Anne's sister's height = 80 cm / 2\n= Anne's sister's height = 40 cm\n\nBella is 3 times as tall as Anne => Bella's height = Anne's height * 3\n=> Bella's height = 80 cm * 3\n=> Bella's height = 240 cm\n\nHeight difference between Bella and Anne's sister = Bella's height - Anne's sister's height\n=> Height difference = 240 cm - 40 cm\n**= Height difference = 200 cm**\nI hope it is correct: 200 $cm$",
+        "ground_truth": "Anne is 2 times as tall as her sister hence 2*(her sister's height) = 80cm\nHer sister's height = 80cm/2 = <<80/2=40>>40cm\nBella is 3 times as tall as Anne hence Bella's height is 3*80 cm = <<3*80=240>>240 cm\nThe height difference between Bella and Anne's sister = 240-40 = <<240-40=200>>200cm\n#### 200"
+    },
+    {
+        "question": "Anne is 2 times as tall as her sister => Anne's sister's height = Anne's height / 2\n= Anne's sister's height = 80 cm / 2\n= Anne's sister's height = 40 cm\n\nBella is 3 times as tall as Anne => Bella's height = Anne's height * 3\n=> Bella's height = 80 cm * 3\n=> Bella's height = 240 cm\n\nHeight difference between Bella and Anne's sister = Bella's height - Anne's sister's height\n=> Height difference = 240 cm - 40 cm\n**= Height difference = 200 cm**\nI hope it is correct: 200 $cm$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ = 200 $cm$",
+        "ground_truth": "Anne is 2 times as tall as her sister hence 2*(her sister's height) = 80cm\nHer sister's height = 80cm/2 = <<80/2=40>>40cm\nBella is 3 times as tall as Anne hence Bella's height is 3*80 cm = <<3*80=240>>240 cm\nThe height difference between Bella and Anne's sister = 240-40 = <<240-40=200>>200cm\n#### 200"
+    }
+]

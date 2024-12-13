@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nFelix notices that kids in the neighborhood are always getting things stuck in trees. Since he is an expert tree climber, he decided to start charging kids to get their stuff out. He charges based on how high he has to climb. Every branch he has to climb up costs $.25. During the week he made $105. On average, how many branches did he climb per day?",
+        "inference": "Felix worked 5 days during the week.\n\n105 / 5 = 21.\n\n21 / 0.25 = 84 branches.\n\nI hope it is correct: 84 branches",
+        "ground_truth": "He climbed 420 branches in total because 105 / .25 = <<105/.25=420>>420\nHe climbed on average 60 branches a day because 420 / 7 = <<420/7=60>>60\n#### 60"
+    },
+    {
+        "question": "Felix worked 5 days during the week.\n\n105 / 5 = 21.\n\n21 / 0.25 = 84 branches.\n\nI hope it is correct: 84 branches\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 84",
+        "ground_truth": "He climbed 420 branches in total because 105 / .25 = <<105/.25=420>>420\nHe climbed on average 60 branches a day because 420 / 7 = <<420/7=60>>60\n#### 60"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\n8 jumbo scallops weigh one pound and cost $24.00 a pound.  Nate is pairing 2 scallops with a corn bisque as a light summer dinner.  He\u2019s cooking for 8 people.  How much will the scallops cost?",
+        "inference": "1 pound = 8 scallops\n2 scallops per pair\nCost per pound = $24.00\nNumber of people = 8\nNumber of pairs = 8 x 2 = 16 pairs\nNumber of scallops needed = 16 pairs x 2 scallops per pair = 32 scallops\nNumber of pounds needed = 32 scallops / 8 scallops per pound = 4 pounds\nCost of scallops = 4 pounds x $24.00 per pound = **I hope it is correct: $96.00**",
+        "ground_truth": "He\u2019s cooking for 8 people and wants to serve 2 scallops per person so he needs 8*2 = <<8*2=16>>16 scallops\n8 jumbo scallops come in 1 pound and he needs 16 scallops so he will need 16/8 = <<16/8=2>>2 pounds of scallops\nA pound of scallops weigh $24.00 and he needs 2 pounds so it will cost him 24*2 = $<<24*2=48.00>>48.00 for scallops\n#### 48"
+    },
+    {
+        "question": "1 pound = 8 scallops\n2 scallops per pair\nCost per pound = $24.00\nNumber of people = 8\nNumber of pairs = 8 x 2 = 16 pairs\nNumber of scallops needed = 16 pairs x 2 scallops per pair = 32 scallops\nNumber of pounds needed = 32 scallops / 8 scallops per pound = 4 pounds\nCost of scallops = 4 pounds x $24.00 per pound = **I hope it is correct: $96.00**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $96.00$",
+        "ground_truth": "He\u2019s cooking for 8 people and wants to serve 2 scallops per person so he needs 8*2 = <<8*2=16>>16 scallops\n8 jumbo scallops come in 1 pound and he needs 16 scallops so he will need 16/8 = <<16/8=2>>2 pounds of scallops\nA pound of scallops weigh $24.00 and he needs 2 pounds so it will cost him 24*2 = $<<24*2=48.00>>48.00 for scallops\n#### 48"
+    }
+]

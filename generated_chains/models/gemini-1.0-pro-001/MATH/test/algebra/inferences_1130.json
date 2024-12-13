@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the fraction that equals $0.72\\overline{6}$.",
+        "inference": "Let $x=0.72\\overline{6}$\nThen $100x=72.\\overline{6}$\n$100x-x=72.\\overline{6}-0.72\\overline{6}$\n$99x=71.94$\n$x=\\boxed{\\frac{71.94}{99}}$\nFinal Answer: $\\boxed{\\frac{71.94}{99}}$ I hope it is correct.",
+        "ground_truth": "\\[0.72\\overline{6} = \\frac{7}{10} + \\frac{2}{10^2} + \\frac{6}{10^3} + \\frac{6}{10^4} + \\frac{6}{10^5} +\\cdots .\\]After the first two terms, the series on the right is an infinite geometric series with first term $6/10^3$ and common ratio $1/10$. So, we have \\[0.72\\overline{6} = \\frac{7}{10} + \\frac{2}{10^2} + \\frac{\\frac{6}{10^3}}{1-\\frac{1}{10}} = \\frac{72}{100} + \\frac{6}{900}= \\frac{654}{900} = \\boxed{\\frac{109}{150}}.\\]"
+    },
+    {
+        "question": "Let $x=0.72\\overline{6}$\nThen $100x=72.\\overline{6}$\n$100x-x=72.\\overline{6}-0.72\\overline{6}$\n$99x=71.94$\n$x=\\boxed{\\frac{71.94}{99}}$\nFinal Answer: $\\boxed{\\frac{71.94}{99}}$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$\\frac{71.94}{99}$}",
+        "ground_truth": "\\[0.72\\overline{6} = \\frac{7}{10} + \\frac{2}{10^2} + \\frac{6}{10^3} + \\frac{6}{10^4} + \\frac{6}{10^5} +\\cdots .\\]After the first two terms, the series on the right is an infinite geometric series with first term $6/10^3$ and common ratio $1/10$. So, we have \\[0.72\\overline{6} = \\frac{7}{10} + \\frac{2}{10^2} + \\frac{\\frac{6}{10^3}}{1-\\frac{1}{10}} = \\frac{72}{100} + \\frac{6}{900}= \\frac{654}{900} = \\boxed{\\frac{109}{150}}.\\]"
+    }
+]

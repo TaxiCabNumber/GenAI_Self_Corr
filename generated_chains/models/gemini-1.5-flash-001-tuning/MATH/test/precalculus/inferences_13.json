@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the point of intersection of the line\n\\[\\frac{x - 2}{3} = \\frac{y + 1}{4} = \\frac{z - 2}{12}\\]and $x - y + z = 5.$",
+        "inference": "Let $t = \\frac{x - 2}{3} = \\frac{y + 1}{4} = \\frac{z - 2}{12}.$  Then\n\\begin{align*}\nx &= 3t + 2, \\\\\ny &= 4t - 1, \\\\\nz &= 12t + 2.\n\\end{align*}Substituting into $x - y + z = 5,$ we get\n\\[(3t + 2) - (4t - 1) + (12t + 2) = 5.\\]This simplifies to $11t = 0,$ so $t = 0.$  Then $x = 2,$ $y = -1,$ and $z = 2.$\n\nFinal Answer: $\\boxed{(2,-1,2)}.$ I hope it is correct. \n",
+        "ground_truth": "Let\n\\[t = \\frac{x - 2}{3} = \\frac{y + 1}{4} = \\frac{z - 2}{12}.\\]Then $x = 3t + 2,$ $y = 4t - 1,$ and $z = 12t + 2.$  Substituting into $x - y + z = 5$ gives us\n\\[(3t + 2) - (4t - 1) + (12t + 2) = 5.\\]Solving, we find $t = 0.$  Thus, $(x,y,z) = \\boxed{(2,-1,2)}.$"
+    },
+    {
+        "question": "Let $t = \\frac{x - 2}{3} = \\frac{y + 1}{4} = \\frac{z - 2}{12}.$  Then\n\\begin{align*}\nx &= 3t + 2, \\\\\ny &= 4t - 1, \\\\\nz &= 12t + 2.\n\\end{align*}Substituting into $x - y + z = 5,$ we get\n\\[(3t + 2) - (4t - 1) + (12t + 2) = 5.\\]This simplifies to $11t = 0,$ so $t = 0.$  Then $x = 2,$ $y = -1,$ and $z = 2.$\n\nFinal Answer: $\\boxed{(2,-1,2)}.$ I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct.  \n \n $\\boxed{(2,-1,2)}$  \n",
+        "ground_truth": "Let\n\\[t = \\frac{x - 2}{3} = \\frac{y + 1}{4} = \\frac{z - 2}{12}.\\]Then $x = 3t + 2,$ $y = 4t - 1,$ and $z = 12t + 2.$  Substituting into $x - y + z = 5$ gives us\n\\[(3t + 2) - (4t - 1) + (12t + 2) = 5.\\]Solving, we find $t = 0.$  Thus, $(x,y,z) = \\boxed{(2,-1,2)}.$"
+    }
+]

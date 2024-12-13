@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $(x + y)^2 = 45$ and $xy = 10$, what is $(x - y)^2$?",
+        "inference": "**Step 1**: Expand $(x + y)^2$ using the formula $(a + b)^2 = a^2 + 2ab + b^2$.\n\n```\n(x + y)^2 = x^2 + 2xy + y^2\n```\n\n**Step 2**: Substitute the given values into the above equation.\n\n```\n45 = x^2 + 2(10) + y^2\n45 = x^2 + 20 + y^2\n```\n\n**Step 3**: Rearrange the equation to group similar terms.\n\n```\nx^2 + y^2 = 45 - 20\nx^2 + y^2 = 25\n```\n\n**Step 4**: Use the identity $(a - b)^2 = a^2 - 2ab + b^2$ to expand $(x - y)^2$.\n\n```\n(x - y)^2 = x^2 - 2xy + y^2\n```\n\n**Step 5**: Substitute the given values into the above equation.\n\n```\n(x - y)^2 = 25 - 2(10)\n(x - y)^2 = 25 - 20\n```\n\n**Final Answer**: $\\boxed{(x - y)^2 = 5}$.",
+        "ground_truth": "We know that $(x + y)^2 = x^2 + 2xy + y^2$ and $(x - y)^2 = x^2 - 2xy + y^2$. We can see that $(x - y)^2 = (x^2 + 2xy + y^2) - 4xy = (x + y)^2 - 4xy = 45 - 40 = \\boxed{5}$."
+    },
+    {
+        "question": "**Step 1**: Expand $(x + y)^2$ using the formula $(a + b)^2 = a^2 + 2ab + b^2$.\n\n```\n(x + y)^2 = x^2 + 2xy + y^2\n```\n\n**Step 2**: Substitute the given values into the above equation.\n\n```\n45 = x^2 + 2(10) + y^2\n45 = x^2 + 20 + y^2\n```\n\n**Step 3**: Rearrange the equation to group similar terms.\n\n```\nx^2 + y^2 = 45 - 20\nx^2 + y^2 = 25\n```\n\n**Step 4**: Use the identity $(a - b)^2 = a^2 - 2ab + b^2$ to expand $(x - y)^2$.\n\n```\n(x - y)^2 = x^2 - 2xy + y^2\n```\n\n**Step 5**: Substitute the given values into the above equation.\n\n```\n(x - y)^2 = 25 - 2(10)\n(x - y)^2 = 25 - 20\n```\n\n**Final Answer**: $\\boxed{(x - y)^2 = 5}$.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{5}",
+        "ground_truth": "We know that $(x + y)^2 = x^2 + 2xy + y^2$ and $(x - y)^2 = x^2 - 2xy + y^2$. We can see that $(x - y)^2 = (x^2 + 2xy + y^2) - 4xy = (x + y)^2 - 4xy = 45 - 40 = \\boxed{5}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat integer $n$ satisfies $0\\le n<{101}$ and $$100n\\equiv 72\\pmod {101}~?$$",
+        "inference": "$$100n\\equiv 72\\pmod {101}$$ $$100n=72+101k$$ for some integer $k$ $$n=\\frac{72+101k}{100}$$  For $n$ to be an integer, $100$ must divide $72+101k$.  Since $100$ does not divide $72$, $100$ must divide $101k$.  The smallest value of $k$ for which this is true is $k=1$, so $n=\\frac{72+101\\cdot1}{100}=\\boxed{173}.$\nFinal Answer: \\boxed{173}. I hope it is correct.",
+        "ground_truth": "Notice that $100\\equiv-1\\pmod{101}$.  Therefore if we have any multiple of 100, that number will be congruent to the negative of the number we get by deleting the final two zeros and changing the sign.  For example \\[111100\\equiv-1111\\pmod{101}.\\]In particular, $100n\\equiv -n\\pmod{101}$.  Therefore we want to solve \\[-n\\equiv72\\pmod{101},\\]or \\[n\\equiv-72\\pmod{101}.\\]Adding 101 does not change the residue class, so this is equivalent to \\[n\\equiv \\boxed{29}\\pmod{101}.\\]"
+    },
+    {
+        "question": "$$100n\\equiv 72\\pmod {101}$$ $$100n=72+101k$$ for some integer $k$ $$n=\\frac{72+101k}{100}$$  For $n$ to be an integer, $100$ must divide $72+101k$.  Since $100$ does not divide $72$, $100$ must divide $101k$.  The smallest value of $k$ for which this is true is $k=1$, so $n=\\frac{72+101\\cdot1}{100}=\\boxed{173}.$\nFinal Answer: \\boxed{173}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{173}",
+        "ground_truth": "Notice that $100\\equiv-1\\pmod{101}$.  Therefore if we have any multiple of 100, that number will be congruent to the negative of the number we get by deleting the final two zeros and changing the sign.  For example \\[111100\\equiv-1111\\pmod{101}.\\]In particular, $100n\\equiv -n\\pmod{101}$.  Therefore we want to solve \\[-n\\equiv72\\pmod{101},\\]or \\[n\\equiv-72\\pmod{101}.\\]Adding 101 does not change the residue class, so this is equivalent to \\[n\\equiv \\boxed{29}\\pmod{101}.\\]"
+    }
+]

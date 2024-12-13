@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJackson\u2019s mom packs him a peanut butter and jelly sandwich for his school lunch on Wednesdays and Fridays. There are 36 weeks of school and Jackson has only missed 1 Wednesday and 2 Fridays. How many peanut butter and jelly sandwiches did he eat for lunch this school year?",
+        "inference": "1. Count the total number of Wednesdays and Fridays in the year: 36 weeks x 2 = 72 lunches\n2. Subtract the number of lunches Jackson missed: 72 lunches - 1 missed Wednesday - 2 missed Fridays = 69 lunches\n3. Multiply by the number of sandwiches he ate each lunch: 69 lunches x 1 sandwich = 69 sandwiches\n\n I hope it is correct: 69 sandwiches",
+        "ground_truth": "36 weeks of school x 2 days of the week = <<36*2=72>>72 days of school\n1 Wednesday + 2 Fridays = <<1+2=3>>3 days of school missed\n72 days of school \u2013 3 days of school missed = <<72-3=69>>69 peanut butter and jelly sandwiches eaten\n#### 69"
+    },
+    {
+        "question": "1. Count the total number of Wednesdays and Fridays in the year: 36 weeks x 2 = 72 lunches\n2. Subtract the number of lunches Jackson missed: 72 lunches - 1 missed Wednesday - 2 missed Fridays = 69 lunches\n3. Multiply by the number of sandwiches he ate each lunch: 69 lunches x 1 sandwich = 69 sandwiches\n\n I hope it is correct: 69 sandwiches\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ 69",
+        "ground_truth": "36 weeks of school x 2 days of the week = <<36*2=72>>72 days of school\n1 Wednesday + 2 Fridays = <<1+2=3>>3 days of school missed\n72 days of school \u2013 3 days of school missed = <<72-3=69>>69 peanut butter and jelly sandwiches eaten\n#### 69"
+    }
+]

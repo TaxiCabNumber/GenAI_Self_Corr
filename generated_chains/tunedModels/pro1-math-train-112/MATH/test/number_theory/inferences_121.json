@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the sum of all integer values of $x$ such that $\\frac{67}{2x - 23}$ is an integer?",
+        "inference": "The denominator of the fraction must be a factor of the numerator. The factors of 67 are 1, 67, 11, and 6. Since the denominator is 2x - 23, we have 2x - 23 = 1, 67, 11, or 6. Solving each equation, we get x = 12, x = 45, x = 17, and x = 14.5. Since x must be an integer, the only valid solutions are x = 12 and x = 17. The sum of these two values is 12 + 17 = 29.\nFinal Answer: \\boxed{29}. I hope it is correct.",
+        "ground_truth": "Checking the primes less than $\\sqrt{67}$, namely 2, 3, 5, and 7, as potential divisors, we find that 67 is prime. Thus, $\\frac{67}{2x-23}$ is an integer if and only if $2x-23=\\pm1$ or $2x-23=\\pm67$. The first equation yields $x=12$ or $x=11$ and the second gives $x=45$ or $x=-22$. The sum is $12+11+45-22=\\boxed{46}$."
+    },
+    {
+        "question": "The denominator of the fraction must be a factor of the numerator. The factors of 67 are 1, 67, 11, and 6. Since the denominator is 2x - 23, we have 2x - 23 = 1, 67, 11, or 6. Solving each equation, we get x = 12, x = 45, x = 17, and x = 14.5. Since x must be an integer, the only valid solutions are x = 12 and x = 17. The sum of these two values is 12 + 17 = 29.\nFinal Answer: \\boxed{29}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{29}",
+        "ground_truth": "Checking the primes less than $\\sqrt{67}$, namely 2, 3, 5, and 7, as potential divisors, we find that 67 is prime. Thus, $\\frac{67}{2x-23}$ is an integer if and only if $2x-23=\\pm1$ or $2x-23=\\pm67$. The first equation yields $x=12$ or $x=11$ and the second gives $x=45$ or $x=-22$. The sum is $12+11+45-22=\\boxed{46}$."
+    }
+]

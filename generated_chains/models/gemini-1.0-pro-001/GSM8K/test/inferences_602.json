@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA plane travels 1200 miles in 3 hours. At the same rate, how many additional hours would it take to travel an additional 2000 miles?",
+        "inference": "The plane travels 1200 miles in 3 hours, so it travels 1200/3 = 400 miles per hour.\nTo travel an additional 2000 miles, it will take 2000/400 = 5 hours. I hope it is correct: 5",
+        "ground_truth": "The rate is 1200/3=<<1200/3=400>>400 mph.\nThen it would take 2000/400=<<2000/400=5>>5 hours more.\n#### 5"
+    },
+    {
+        "question": "The plane travels 1200 miles in 3 hours, so it travels 1200/3 = 400 miles per hour.\nTo travel an additional 2000 miles, it will take 2000/400 = 5 hours. I hope it is correct: 5\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$5",
+        "ground_truth": "The rate is 1200/3=<<1200/3=400>>400 mph.\nThen it would take 2000/400=<<2000/400=5>>5 hours more.\n#### 5"
+    }
+]

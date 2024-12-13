@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCompute\n\\[\\begin{pmatrix} 3 & 1 & 0 \\\\ -7 & 4 & 2 \\\\ 0 & 5 & -1 \\end{pmatrix} \\begin{pmatrix} 4 \\\\ -1 \\\\ -2 \\end{pmatrix}.\\]",
+        "inference": "$$\\begin{pmatrix} 3 & 1 & 0 \\\\ -7 & 4 & 2 \\\\ 0 & 5 & -1 \\end{pmatrix} \\begin{pmatrix} 4 \\\\ -1 \\\\ -2 \\end{pmatrix}=$$\n\n$$=\\begin{pmatrix} 3\\cdot4+1\\cdot(-1)+0\\cdot(-2) \\\\ -7\\cdot4+4\\cdot(-1)+2\\cdot(-2) \\\\ 0\\cdot4+5\\cdot(-1)+(-1)\\cdot(-2) \\end{pmatrix}=$$\n\n$$=\\begin{pmatrix} 11 \\\\ -30 \\\\ -5 \\end{pmatrix}$$\n\nFinal Answer: \\boxed{$\\begin{pmatrix} 11 \\\\ -30 \\\\ -5 \\end{pmatrix}$} I hope it is correct.",
+        "ground_truth": "We have that\n\\[\\begin{pmatrix} 3 & 1 & 0 \\\\ -7 & 4 & 2 \\\\ 0 & 5 & -1 \\end{pmatrix} \\begin{pmatrix} 4 \\\\ -1 \\\\ -2 \\end{pmatrix} = \\begin{pmatrix} (3)(4) + (1)(-1) + (0)(-2) \\\\ (-7)(4) + (4)(-1) + (2)(-2) \\\\ (0)(4) + (5)(-1) + (-1)(-2) \\end{pmatrix} = \\boxed{\\begin{pmatrix} 11 \\\\ -36 \\\\ -3 \\end{pmatrix}}.\\]"
+    },
+    {
+        "question": "$$\\begin{pmatrix} 3 & 1 & 0 \\\\ -7 & 4 & 2 \\\\ 0 & 5 & -1 \\end{pmatrix} \\begin{pmatrix} 4 \\\\ -1 \\\\ -2 \\end{pmatrix}=$$\n\n$$=\\begin{pmatrix} 3\\cdot4+1\\cdot(-1)+0\\cdot(-2) \\\\ -7\\cdot4+4\\cdot(-1)+2\\cdot(-2) \\\\ 0\\cdot4+5\\cdot(-1)+(-1)\\cdot(-2) \\end{pmatrix}=$$\n\n$$=\\begin{pmatrix} 11 \\\\ -30 \\\\ -5 \\end{pmatrix}$$\n\nFinal Answer: \\boxed{$\\begin{pmatrix} 11 \\\\ -30 \\\\ -5 \\end{pmatrix}$} I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{\\begin{pmatrix} 11 \\\\ -30 \\\\ -5 \\end{pmatrix}}$$",
+        "ground_truth": "We have that\n\\[\\begin{pmatrix} 3 & 1 & 0 \\\\ -7 & 4 & 2 \\\\ 0 & 5 & -1 \\end{pmatrix} \\begin{pmatrix} 4 \\\\ -1 \\\\ -2 \\end{pmatrix} = \\begin{pmatrix} (3)(4) + (1)(-1) + (0)(-2) \\\\ (-7)(4) + (4)(-1) + (2)(-2) \\\\ (0)(4) + (5)(-1) + (-1)(-2) \\end{pmatrix} = \\boxed{\\begin{pmatrix} 11 \\\\ -36 \\\\ -3 \\end{pmatrix}}.\\]"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nHelen went on a trip through Germany. She booked a hotel for 3 nights and rode the bus 7 times during that trip. One night at the hotel was a cost of $80, and every bus trip was 10% of the price of one night at the hotel. How much did Helen pay for the hotel and bus travels during that trip?",
+        "inference": "1. The price of a bus trip is 10% of the price of one night at the hotel. So, the price of a bus trip is 0.1 * $80 = $8.\n2. Helen took the bus 7 times, so the total cost of bus travel is 7 * $8 = $56.\n3. Helen stayed at the hotel for 3 nights, so the total cost of the hotel is 3 * $80 = $240.\n4. The total cost of the hotel and bus travels is $240 + $56 = $296.\nI hope it is correct: $296",
+        "ground_truth": "Helen has spent 3 nights at the hotel, so she needed to pay 3 * 80 = $<<3*80=240>>240 for them.\nOne bus trip was the cost of 80 * 10/100 = $<<80*10/100=8>>8.\nHelen rode the bus 7 times, so she paid 7 * 8 = $<<7*8=56>>56 for that.\nIn total, Helen paid 240 + 56 = $<<240+56=296>>296 in total.\n#### 296"
+    },
+    {
+        "question": "1. The price of a bus trip is 10% of the price of one night at the hotel. So, the price of a bus trip is 0.1 * $80 = $8.\n2. Helen took the bus 7 times, so the total cost of bus travel is 7 * $8 = $56.\n3. Helen stayed at the hotel for 3 nights, so the total cost of the hotel is 3 * $80 = $240.\n4. The total cost of the hotel and bus travels is $240 + $56 = $296.\nI hope it is correct: $296\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$296",
+        "ground_truth": "Helen has spent 3 nights at the hotel, so she needed to pay 3 * 80 = $<<3*80=240>>240 for them.\nOne bus trip was the cost of 80 * 10/100 = $<<80*10/100=8>>8.\nHelen rode the bus 7 times, so she paid 7 * 8 = $<<7*8=56>>56 for that.\nIn total, Helen paid 240 + 56 = $<<240+56=296>>296 in total.\n#### 296"
+    }
+]

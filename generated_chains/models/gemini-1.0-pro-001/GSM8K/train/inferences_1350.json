@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn raises butterflies.  He has 4 jars of 10 caterpillars each.  40% of them fail to become butterflies, but the rest become caterpillars.    He sells the butterflies for $3 each.  How much money does he make?",
+        "inference": "**Solution**\n\n* **Step 1:** Find the number of caterpillars that become butterflies.\n\n40% of 40 caterpillars fail to become butterflies, so 60% of 40 caterpillars become butterflies. 60% of 40 is 24.\n**So, 24 caterpillars become butterflies.**\n\n* **Step 2:** Find the total number of butterflies John has.\n\nJohn has 4 jars of 10 caterpillars each, so he has a total of 40 caterpillars. 24 of these caterpillars become butterflies. **So, John has 24 butterflies.**\n\n* **Step 3:** Find the amount of money John makes.\n\nJohn sells each butterfly for $3. So, he makes 24 x $3 = **$72**.\n\n**I hope it is correct: $72$**",
+        "ground_truth": "He has 4*10=<<4*10=40>>40 caterpillars.\n40*.4=<<40*.4=16>>16 fail to form.\nThat means he has 40-16=<<40-16=24>>24 butterflies.\nSo he makes 24*3=$<<24*3=72>>72.\n#### 72"
+    },
+    {
+        "question": "**Solution**\n\n* **Step 1:** Find the number of caterpillars that become butterflies.\n\n40% of 40 caterpillars fail to become butterflies, so 60% of 40 caterpillars become butterflies. 60% of 40 is 24.\n**So, 24 caterpillars become butterflies.**\n\n* **Step 2:** Find the total number of butterflies John has.\n\nJohn has 4 jars of 10 caterpillars each, so he has a total of 40 caterpillars. 24 of these caterpillars become butterflies. **So, John has 24 butterflies.**\n\n* **Step 3:** Find the amount of money John makes.\n\nJohn sells each butterfly for $3. So, he makes 24 x $3 = **$72**.\n\n**I hope it is correct: $72$**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 72",
+        "ground_truth": "He has 4*10=<<4*10=40>>40 caterpillars.\n40*.4=<<40*.4=16>>16 fail to form.\nThat means he has 40-16=<<40-16=24>>24 butterflies.\nSo he makes 24*3=$<<24*3=72>>72.\n#### 72"
+    }
+]

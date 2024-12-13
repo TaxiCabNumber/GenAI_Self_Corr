@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAn electronic shop offers smartphones for $300 each, personal computers for $500 more than smartphones, and advanced tablets for the sum of the prices of a smartphone and personal computer. How much do you have to pay to buy one of each of the three mentioned products?",
+        "inference": "1. The price of a personal computer is $300 + $500 = $800.\n2. The price of an advanced tablet is $300 + $800 = $1100.\n3. The total price of one of each of the three mentioned products is $300 + $800 + $1100 = $2200.\nI hope it is correct: $2200",
+        "ground_truth": "The price of a personal computer is $300 + $500 = $<<300+500=800>>800.\nThe price of an advanced tablet would be $300 + $800 = $<<300+800=1100>>1100.\nTo buy each of these products, you would have to pay $300 + $800 + $1100 = $<<300+800+1100=2200>>2200.\n#### 2200"
+    },
+    {
+        "question": "1. The price of a personal computer is $300 + $500 = $800.\n2. The price of an advanced tablet is $300 + $800 = $1100.\n3. The total price of one of each of the three mentioned products is $300 + $800 + $1100 = $2200.\nI hope it is correct: $2200\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $2200$",
+        "ground_truth": "The price of a personal computer is $300 + $500 = $<<300+500=800>>800.\nThe price of an advanced tablet would be $300 + $800 = $<<300+800=1100>>1100.\nTo buy each of these products, you would have to pay $300 + $800 + $1100 = $<<300+800+1100=2200>>2200.\n#### 2200"
+    }
+]

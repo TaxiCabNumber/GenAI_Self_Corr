@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $(x + y)^2 = 105$ and $x^2 + y^2 = 65$, what is the value of $xy$?",
+        "inference": "1. $$(x + y)^2 = 105 \\implies  x^2 +2xy +y^2 = 105$$\n2. $$(x^2 + y^2 = 65) + (2xy = 40) \\implies 2xy = 40$$\n3. $$\\therefore \\boxed{xy = 20}.$$\nFinal Answer: $\\boxed{20}.$ I hope it is correct.",
+        "ground_truth": "If we expand the left hand side of the first equation, we get $x^2 + 2xy + y^2 = 105$, so $2xy + (x^2 + y^2) = 105$. We are given that $x^2 + y^2 = 65$, so we can substitute for $x^2 + y^2$ to obtain $2xy + 65 = 105$. It follows that $xy = \\boxed{20}$."
+    },
+    {
+        "question": "1. $$(x + y)^2 = 105 \\implies  x^2 +2xy +y^2 = 105$$\n2. $$(x^2 + y^2 = 65) + (2xy = 40) \\implies 2xy = 40$$\n3. $$\\therefore \\boxed{xy = 20}.$$\nFinal Answer: $\\boxed{20}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{20}.$$",
+        "ground_truth": "If we expand the left hand side of the first equation, we get $x^2 + 2xy + y^2 = 105$, so $2xy + (x^2 + y^2) = 105$. We are given that $x^2 + y^2 = 65$, so we can substitute for $x^2 + y^2$ to obtain $2xy + 65 = 105$. It follows that $xy = \\boxed{20}$."
+    }
+]

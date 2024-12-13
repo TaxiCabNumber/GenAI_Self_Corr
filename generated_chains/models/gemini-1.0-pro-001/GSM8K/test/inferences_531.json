@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\n48 people are riding a bus. On the first stop, 8 passengers get off, and 5 times as many people as the number who got off from the bus get into the bus. On the second stop 21, passengers get off and 3 times fewer passengers get on. How many passengers are riding the bus after the second stop?",
+        "inference": "* The number of people who get on after the first stop: $$5 * 8 = 40$$\n*  The number of people on the bus after the first stop: $$48 + 40 - 8 = 80$$\n* The number of people who get on after the second stop: $$3 * 21 = 63$$\n* The number of people on the bus after the second stop: $$80 - 21 + 63 = 122$$\n\nI hope it is correct: 122",
+        "ground_truth": "At the first stop, 5 * 8 = <<5*8=40>>40 passengers get on the bus.\nAfter the first stop the bus has ( 48 - 8 ) + 40 = <<48-8+40=80>>80 passengers.\nAt the second stop, 21 / 3 = <<21/3=7>>7 passengers get on the bus.\nAfter the second stop there are ( 80 - 21 ) + 7 = <<80-21+7=66>>66 passengers.\n#### 66"
+    },
+    {
+        "question": "* The number of people who get on after the first stop: $$5 * 8 = 40$$\n*  The number of people on the bus after the first stop: $$48 + 40 - 8 = 80$$\n* The number of people who get on after the second stop: $$3 * 21 = 63$$\n* The number of people on the bus after the second stop: $$80 - 21 + 63 = 122$$\n\nI hope it is correct: 122\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ = 122",
+        "ground_truth": "At the first stop, 5 * 8 = <<5*8=40>>40 passengers get on the bus.\nAfter the first stop the bus has ( 48 - 8 ) + 40 = <<48-8+40=80>>80 passengers.\nAt the second stop, 21 / 3 = <<21/3=7>>7 passengers get on the bus.\nAfter the second stop there are ( 80 - 21 ) + 7 = <<80-21+7=66>>66 passengers.\n#### 66"
+    }
+]

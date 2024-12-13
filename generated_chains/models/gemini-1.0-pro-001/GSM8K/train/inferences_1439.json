@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nGemma ordered four pizzas at $10 each, and she gave a $5 tip to the delivery person. How much change did she get back if she gives one fifty-dollar bill?",
+        "inference": "Total amount spent on pizzas = 4 * $10 = $40\nTotal amount given to the delivery person = $5\nTherefore, total amount spent = $40 + $5 = $45\nChange from a $50 bill = $50 - $45 = $5\nI hope it is correct: $5",
+        "ground_truth": "The cost of the four pizzas is 4 x $10 = $<<4*10=40>>40.\nThe total cost, including the tip, is $40 + $5= $<<40+5=45>>45.\nTherefore, Gemma gets a change of $50 - $45 = $<<50-45=5>>5.\n#### 5"
+    },
+    {
+        "question": "Total amount spent on pizzas = 4 * $10 = $40\nTotal amount given to the delivery person = $5\nTherefore, total amount spent = $40 + $5 = $45\nChange from a $50 bill = $50 - $45 = $5\nI hope it is correct: $5\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$5",
+        "ground_truth": "The cost of the four pizzas is 4 x $10 = $<<4*10=40>>40.\nThe total cost, including the tip, is $40 + $5= $<<40+5=45>>45.\nTherefore, Gemma gets a change of $50 - $45 = $<<50-45=5>>5.\n#### 5"
+    }
+]

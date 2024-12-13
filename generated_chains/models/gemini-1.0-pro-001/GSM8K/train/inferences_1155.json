@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nGreta, George and Gloria entered their turtles in the Key West Turtle Race.  Greta\u2019s turtle finished the race in 6 minutes.  George\u2019s turtle finished 2 minutes quicker than Greta\u2019s.  Gloria\u2019s turtle took twice as long as George\u2019s turtle.  How long did it take Gloria\u2019s turtle to finish the race?",
+        "inference": "**Step 1: Find George's turtle's time.**\nGeorge's turtle finished 2 minutes quicker than Greta's, so his time is 6 - 2 = 4 minutes.\n\n**Step 2: Find Gloria's turtle's time.**\nGloria's turtle took twice as long as George's turtle, so her time is 4 x 2 = 8 minutes.\n\n**Therefore, Gloria's turtle took 8 minutes to finish the race.**\nI hope it is correct: $8 minutes$",
+        "ground_truth": "George\u2019s turtle finished 2 minutes quicker than Greta\u2019s so 6-2 = <<6-2=4>>4 minutes to finish\nGloria\u2019s turtle took twice as long as George\u2019s turtle, who finished in 4 minutes so 2*4 = <<8=8>>8 minutes\n#### 8"
+    },
+    {
+        "question": "**Step 1: Find George's turtle's time.**\nGeorge's turtle finished 2 minutes quicker than Greta's, so his time is 6 - 2 = 4 minutes.\n\n**Step 2: Find Gloria's turtle's time.**\nGloria's turtle took twice as long as George's turtle, so her time is 4 x 2 = 8 minutes.\n\n**Therefore, Gloria's turtle took 8 minutes to finish the race.**\nI hope it is correct: $8 minutes$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$8 minutes$",
+        "ground_truth": "George\u2019s turtle finished 2 minutes quicker than Greta\u2019s so 6-2 = <<6-2=4>>4 minutes to finish\nGloria\u2019s turtle took twice as long as George\u2019s turtle, who finished in 4 minutes so 2*4 = <<8=8>>8 minutes\n#### 8"
+    }
+]

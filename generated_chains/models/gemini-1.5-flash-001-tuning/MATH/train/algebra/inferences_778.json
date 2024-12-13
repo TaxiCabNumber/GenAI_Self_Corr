@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSimplify completely: $$\\sqrt[3]{30^3+40^3+50^3}$$.",
+        "inference": "Final Answer: \\\\boxed{70}. I hope it is correct. \n",
+        "ground_truth": "First, notice that all three integers have a common factor of 10.  We can remove this factor from the cube root as shown: \\begin{align*}\n\\sqrt[3]{10^3\\cdot3^3+10^3\\cdot4^3+10^3\\cdot5^3}&=\\sqrt[3]{10^3(3^3+4^3+5^3)}\\\\\n&=10\\sqrt[3]{3^3+4^3+5^3}.\n\\end{align*} Now, evaluate the expression under the cube root: $$10\\sqrt[3]{3^3+4^3+5^3}=10\\sqrt[3]{27+64+125}=10\\sqrt[3]{216}.$$ Since $216=6^3$, this expression simplifies to: $$10\\sqrt[3]{6^3}=\\boxed{60}.$$"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{70}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the original question and the solution you are referring to. I need this information to identify any errors and rewrite the solution correctly. \n",
+        "ground_truth": "First, notice that all three integers have a common factor of 10.  We can remove this factor from the cube root as shown: \\begin{align*}\n\\sqrt[3]{10^3\\cdot3^3+10^3\\cdot4^3+10^3\\cdot5^3}&=\\sqrt[3]{10^3(3^3+4^3+5^3)}\\\\\n&=10\\sqrt[3]{3^3+4^3+5^3}.\n\\end{align*} Now, evaluate the expression under the cube root: $$10\\sqrt[3]{3^3+4^3+5^3}=10\\sqrt[3]{27+64+125}=10\\sqrt[3]{216}.$$ Since $216=6^3$, this expression simplifies to: $$10\\sqrt[3]{6^3}=\\boxed{60}.$$"
+    }
+]

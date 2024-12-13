@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nHowie wants to buy cupcakes for everyone in his class as a special treat. He's not sure if people will want vanilla or chocolate cupcakes so he decides to get one of each for everyone. If he gets the same amount of 2 cupcakes for each himself, his teacher, and his 25 classmates, how many cupcakes should Howie buy?",
+        "inference": "- Howie: 2 cupcakes\n- Teacher: 2 cupcakes\n- 25 classmates: 2 x 25 = 50 cupcakes\n- Total: 2 + 2 + 50 = 54 cupcakes\n\nI hope it is correct: 54",
+        "ground_truth": "Howie wants to get cupcakes for his 25 classmates + his 1 teacher + 1 himself = <<25+1+1=27>>27 people.\nHe wants to get 2 cupcakes for everyone, so 27 people x 2 cupcakes each = <<27*2=54>>54 cupcakes that Howie should buy.\n#### 54"
+    },
+    {
+        "question": "- Howie: 2 cupcakes\n- Teacher: 2 cupcakes\n- 25 classmates: 2 x 25 = 50 cupcakes\n- Total: 2 + 2 + 50 = 54 cupcakes\n\nI hope it is correct: 54\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$54",
+        "ground_truth": "Howie wants to get cupcakes for his 25 classmates + his 1 teacher + 1 himself = <<25+1+1=27>>27 people.\nHe wants to get 2 cupcakes for everyone, so 27 people x 2 cupcakes each = <<27*2=54>>54 cupcakes that Howie should buy.\n#### 54"
+    }
+]

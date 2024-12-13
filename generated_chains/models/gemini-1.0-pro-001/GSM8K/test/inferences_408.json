@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nToby is reading a book that is 45 pages long. It averages 200 words a page. Toby can read at a rate of 300 words per minute. He has to be at the airport in 60 minutes and plans to leave as soon as he finishes the book. It takes 10 minutes to get to the airport. How many minutes early will Toby be?",
+        "inference": "Toby has to read 45 pages x 200 words/page = 9000 words. \nHe can read 300 words per minute. \nThus it will take 9000 words/300 words/minute = 30 minutes to finish the book.\nHe then has 60 minutes - 30 minutes - 10 minutes = 20 minutes to get to the airport.\nI hope it is correct: 20",
+        "ground_truth": "He can read 1.5 pages in a minute because 300 / 200 = <<300/200=1.5>>1.5\nIt will take 30 minutes to read the book because 45 / 1.5 = <<45/1.5=30>>30\nHe will arrive at the airport 40 minutes from now because 30 + 10 = <<30+10=40>>40\nHe will be 20 minutes early because 60 - 40 = <<60-40=20>>20\n#### 20"
+    },
+    {
+        "question": "Toby has to read 45 pages x 200 words/page = 9000 words. \nHe can read 300 words per minute. \nThus it will take 9000 words/300 words/minute = 30 minutes to finish the book.\nHe then has 60 minutes - 30 minutes - 10 minutes = 20 minutes to get to the airport.\nI hope it is correct: 20\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 20",
+        "ground_truth": "He can read 1.5 pages in a minute because 300 / 200 = <<300/200=1.5>>1.5\nIt will take 30 minutes to read the book because 45 / 1.5 = <<45/1.5=30>>30\nHe will arrive at the airport 40 minutes from now because 30 + 10 = <<30+10=40>>40\nHe will be 20 minutes early because 60 - 40 = <<60-40=20>>20\n#### 20"
+    }
+]

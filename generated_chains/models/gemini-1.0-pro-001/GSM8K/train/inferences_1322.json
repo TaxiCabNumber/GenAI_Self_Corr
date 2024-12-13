@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTom decides to open a theater.  He knows it will cost $5 per square foot of space that he needs and he needs 12 square feet for every seat in his theater.  He wants a 500 seat theater.  He also realizes construction will cost twice as much as the land.  He has a partner who covers 40% of the cost.  How much does Tom spend?",
+        "inference": "**Solution:**\n\n1. Tom needs 500 seats x 12 square feet per seat = 6,000 square feet.\n2. The cost of the land is 6,000 square feet x $5 per square foot = $30,000.\n3. The cost of construction is 2 x $30,000 = $60,000.\n4. The total cost is $30,000 + $60,000 = $90,000.\n5. Tom's partner covers 40% of the cost, which is 0.40 x $90,000 = $36,000.\n6. Tom spends $90,000 - $36,000 = $54,000.\n\nI hope it is correct: $54,000",
+        "ground_truth": "He needs 500 * 12 = <<500*12=6000>>6000 square feet\nThis means it cost $5 * 6000 = $30,000\nThat means construction comes to $30000 * 2 = $<<30000*2=60000>>60,000\nSo the total cost is $60000 + $30000 = $<<60000+30000=90000>>90,000\nHis partner covers $90,000 * .4 = $<<90000*.4=36000>>36,000\nSo he has to pay $90,000 - $36,000 = $<<90000-36000=54000>>54,000\n#### 54,000"
+    },
+    {
+        "question": "**Solution:**\n\n1. Tom needs 500 seats x 12 square feet per seat = 6,000 square feet.\n2. The cost of the land is 6,000 square feet x $5 per square foot = $30,000.\n3. The cost of construction is 2 x $30,000 = $60,000.\n4. The total cost is $30,000 + $60,000 = $90,000.\n5. Tom's partner covers 40% of the cost, which is 0.40 x $90,000 = $36,000.\n6. Tom spends $90,000 - $36,000 = $54,000.\n\nI hope it is correct: $54,000\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$54000",
+        "ground_truth": "He needs 500 * 12 = <<500*12=6000>>6000 square feet\nThis means it cost $5 * 6000 = $30,000\nThat means construction comes to $30000 * 2 = $<<30000*2=60000>>60,000\nSo the total cost is $60000 + $30000 = $<<60000+30000=90000>>90,000\nHis partner covers $90,000 * .4 = $<<90000*.4=36000>>36,000\nSo he has to pay $90,000 - $36,000 = $<<90000-36000=54000>>54,000\n#### 54,000"
+    }
+]

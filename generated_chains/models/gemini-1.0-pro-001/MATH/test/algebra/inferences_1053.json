@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSolve the following system of equations for $c$:\n\\begin{align*}\na - b &= 2 (c+d)\\\\\nb &= a-2 \\\\\nd &= c+5\n\\end{align*}",
+        "inference": "Substitute the second and third equations into the first equation:\n\n$$a - (a-2) = 2 (c+(c+5))$$\n\nSimplify:\n\n$$2 = 2 (2c+5)$$\n\nDivide both sides by 2:\n\n$$1 = 2c+5$$\n\nSubtract 5 from both sides:\n\n**Final Answer: \\\\boxed{$c=-2$}. I hope it is correct.**",
+        "ground_truth": "Substituting for $b$ and $d$ in the first equation gives $a - (a - 2) = 2(c+c+5)$. This simplifies to $2 = 4c + 10$, so $c = \\boxed{-2}$."
+    },
+    {
+        "question": "Substitute the second and third equations into the first equation:\n\n$$a - (a-2) = 2 (c+(c+5))$$\n\nSimplify:\n\n$$2 = 2 (2c+5)$$\n\nDivide both sides by 2:\n\n$$1 = 2c+5$$\n\nSubtract 5 from both sides:\n\n**Final Answer: \\\\boxed{$c=-2$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "**Final Answer: \\\\boxed{$c = -2$}.**",
+        "ground_truth": "Substituting for $b$ and $d$ in the first equation gives $a - (a - 2) = 2(c+c+5)$. This simplifies to $2 = 4c + 10$, so $c = \\boxed{-2}$."
+    }
+]

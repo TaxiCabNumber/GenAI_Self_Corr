@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nFinn watches 11 tadpoles swimming in the pond.  Suddenly he sees 6 of them come out of hiding from under a lily pad ,then he sees 2 of them hide under a rock.  How many tadpoles can Finn see in the pond now?",
+        "inference": "Finn started with 11 tadpoles.\n6 more came out of hiding, so now he can see 11 + 6 = 17 tadpoles.\n2 of them hid under a rock, so now he can see 17 - 2 = 15 tadpoles.\nI hope it is correct: 15 $answer$",
+        "ground_truth": "When the hidden tadpoles come out, Finn sees 11 + 6 = <<11+6=17>>17 tadpoles swimming.\nAfter some of them hide under a rock, he now sees 17 - 2 = <<17-2=15>>15 tadpoles swimming.\n#### 15"
+    },
+    {
+        "question": "Finn started with 11 tadpoles.\n6 more came out of hiding, so now he can see 11 + 6 = 17 tadpoles.\n2 of them hid under a rock, so now he can see 17 - 2 = 15 tadpoles.\nI hope it is correct: 15 $answer$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 15",
+        "ground_truth": "When the hidden tadpoles come out, Finn sees 11 + 6 = <<11+6=17>>17 tadpoles swimming.\nAfter some of them hide under a rock, he now sees 17 - 2 = <<17-2=15>>15 tadpoles swimming.\n#### 15"
+    }
+]

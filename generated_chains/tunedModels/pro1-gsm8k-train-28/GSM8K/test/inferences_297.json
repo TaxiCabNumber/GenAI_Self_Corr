@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSam sells bread. He has a target of selling 120 crates of bread in a week. One week he was closed on Monday and Friday. Over the weekend he sold 20 crates. On Tuesday he sold 15 crates, on Wednesday 12 crates, and Thursday 18 crates. By how many crates was Sam off from his target for the week?",
+        "inference": "1. Calculate the total number of crates sold during the week: 20 (weekend) + 15 (Tuesday) + 12 (Wednesday) + 18 (Thursday) = 65 crates.\n2. Determine the number of crates Sam was off from his target: 120 (target) - 65 (actual) = 55 crates.\nI hope it is correct: 55 $crates$",
+        "ground_truth": "During the whole week Sam sold 15 + 12 + 18 + 20 = <<15+12+18+20=65>>65 crates.\nSam was off his target by 120 - 65 = <<120-65=55>>55 crates.\n#### 55"
+    },
+    {
+        "question": "1. Calculate the total number of crates sold during the week: 20 (weekend) + 15 (Tuesday) + 12 (Wednesday) + 18 (Thursday) = 65 crates.\n2. Determine the number of crates Sam was off from his target: 120 (target) - 65 (actual) = 55 crates.\nI hope it is correct: 55 $crates$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 55",
+        "ground_truth": "During the whole week Sam sold 15 + 12 + 18 + 20 = <<15+12+18+20=65>>65 crates.\nSam was off his target by 120 - 65 = <<120-65=55>>55 crates.\n#### 55"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe sum of 49 consecutive integers is $7^5$. What is their median?",
+        "inference": "Let $n$ be the middle integer of $49$ consecutive integers whose sum is $7^5$.\nThen, $n-24$ is the smallest and $n+24$ is the largest.\nThe sum of $49$ consecutive integers is $49 \\times n$.\nTherefore, $49n = 7^5 = 16807$.\nSo, $n = 343$.\nTherefore, the median is $\\boxed{343}$.\nFinal Answer: $\\boxed{343}$. I hope it is correct.",
+        "ground_truth": "The sum of a set of integers is the product of the mean of the integers and the number of integers, and the median of a set of consecutive integers is the same as the mean. So the median must be $7^5/49=7^3$, or $\\boxed{343}$."
+    },
+    {
+        "question": "Let $n$ be the middle integer of $49$ consecutive integers whose sum is $7^5$.\nThen, $n-24$ is the smallest and $n+24$ is the largest.\nThe sum of $49$ consecutive integers is $49 \\times n$.\nTherefore, $49n = 7^5 = 16807$.\nSo, $n = 343$.\nTherefore, the median is $\\boxed{343}$.\nFinal Answer: $\\boxed{343}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{343}",
+        "ground_truth": "The sum of a set of integers is the product of the mean of the integers and the number of integers, and the median of a set of consecutive integers is the same as the mean. So the median must be $7^5/49=7^3$, or $\\boxed{343}$."
+    }
+]

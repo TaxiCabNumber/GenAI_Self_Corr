@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nTriangle $ABC$ is an isosceles right triangle with a right angle at $A$. Segments $BD$ and $BE$ trisect angle $ABC$. What is the degree measure of angle $BDE$?\n\n[asy]draw((0,0)--(-1,0)--(-1,1)--(0,0)--cycle,linewidth(2));\ndraw((0,0)--dir(165)*1/cos(pi/12),linewidth(2));\ndraw((0,0)--dir(150)*1/cos(pi/6),linewidth(2));\ndraw((-1,.07)--(-.93,.07)--(-.93,0),linewidth(1));\n\nlabel(\"A\",(-1,0),SW);\nlabel(\"B\",(0,0),SE);\nlabel(\"C\",(-1,1),NW);\nlabel(\"D\",dir(150)*1/cos(pi/6),W);\nlabel(\"E\",dir(165)*1/cos(pi/12),W);\n[/asy]",
+        "inference": "Since \\(\\angle ABC\\) is a right angle, \\(\\angle BDE=30\\degree\\).\n\nFinal Answer: \\(\\boxed{30^\\circ}\\). I hope it is correct.",
+        "ground_truth": "From the given information, we see that $\\angle ACB = \\angle ABC = 45^\\circ$.  Thus $\\angle ABE = \\angle EBD = \\angle DBC = 15^\\circ$.  So we obtain that $\\angle ABD = 30^\\circ$, and since $\\triangle ABD$ is a right triangle, $\\angle ADB = 90-\\angle ABD = 60^\\circ$. Then, we see that $\\angle ADB = \\angle BDE,$ so we have $\\angle BDE = \\boxed{60^\\circ}.$"
+    },
+    {
+        "question": "Since \\(\\angle ABC\\) is a right angle, \\(\\angle BDE=30\\degree\\).\n\nFinal Answer: \\(\\boxed{30^\\circ}\\). I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\(\\boxed{60^\\circ}\\)",
+        "ground_truth": "From the given information, we see that $\\angle ACB = \\angle ABC = 45^\\circ$.  Thus $\\angle ABE = \\angle EBD = \\angle DBC = 15^\\circ$.  So we obtain that $\\angle ABD = 30^\\circ$, and since $\\triangle ABD$ is a right triangle, $\\angle ADB = 90-\\angle ABD = 60^\\circ$. Then, we see that $\\angle ADB = \\angle BDE,$ so we have $\\angle BDE = \\boxed{60^\\circ}.$"
+    }
+]

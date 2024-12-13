@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nTwo concentric circles with radii of 19 and 29 units bound a shaded region. A third circle will be drawn with area equal to that of the shaded area. What must the radius of the third circle be? Express your answer in simplest radical form.\n\n[asy]\nfilldraw(circle((0,0),29),gray);\nfilldraw(circle((0,0),19),white);\n\ndot((0,0));\n\ndraw((0,0)--19dir(45),linewidth(1));\n\nlabel(\"19\",9.5dir(45),NW);\n[/asy]",
+        "inference": "Let \\(r\\) be the radius of the third circle. Then the area of the shaded region is:\n\n$$A=\\pi(29^2-19^2)=\\pi(841-361)=480\\pi$$\n\nThe area of the third circle is:\n\n$$A=\\pi r^2$$\n\nSetting these areas equal to each other, we get:\n\n$$\\pi r^2=480\\pi$$\n\nSolving for \\(r\\), we get:\n\n$$r^2=480$$\n\n$$r=\\sqrt{480}=\\sqrt{16\\cdot30}=\\boxed{4\\sqrt{30}}$$\n\nFinal Answer: \\boxed{$4\\sqrt{30}$} I hope it is correct.",
+        "ground_truth": "Since the shaded region is everything inside the larger circle but outside the smaller, its area is $29^2 \\pi - 19^2\\pi = 480\\pi$.  So, letting the radius of the third circle be $r$, we have $\\pi r^2 = 480 \\pi$, or $r = \\sqrt{480} = \\boxed{4\\sqrt{30}}$."
+    },
+    {
+        "question": "Let \\(r\\) be the radius of the third circle. Then the area of the shaded region is:\n\n$$A=\\pi(29^2-19^2)=\\pi(841-361)=480\\pi$$\n\nThe area of the third circle is:\n\n$$A=\\pi r^2$$\n\nSetting these areas equal to each other, we get:\n\n$$\\pi r^2=480\\pi$$\n\nSolving for \\(r\\), we get:\n\n$$r^2=480$$\n\n$$r=\\sqrt{480}=\\sqrt{16\\cdot30}=\\boxed{4\\sqrt{30}}$$\n\nFinal Answer: \\boxed{$4\\sqrt{30}$} I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{4\\sqrt{30}}$$",
+        "ground_truth": "Since the shaded region is everything inside the larger circle but outside the smaller, its area is $29^2 \\pi - 19^2\\pi = 480\\pi$.  So, letting the radius of the third circle be $r$, we have $\\pi r^2 = 480 \\pi$, or $r = \\sqrt{480} = \\boxed{4\\sqrt{30}}$."
+    }
+]

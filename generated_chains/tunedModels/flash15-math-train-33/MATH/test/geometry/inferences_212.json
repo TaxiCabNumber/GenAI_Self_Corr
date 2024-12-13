@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe area of square $ABCD$ is 100 square centimeters, and $AE = 2$ cm. What is the area of square $EFGH$, in square centimeters?\n\n[asy]\npair a,b,c,d,e,f,g,h;\na=(0,17);\nb=(17,17);\nc=(17,0);\nd=(0,0);\ne=(5,17);\nf=(17,12);\ng=(12,0);\nh=(0,5);\nlabel(\"$A$\",a,N);\nlabel(\"$B$\",b,N);\nlabel(\"$C$\",c,S);\nlabel(\"$D$\",d,S);\nlabel(\"$E$\",e,N);\nlabel(\"$F$\",f,E);\nlabel(\"$G$\",g,S);\nlabel(\"$H$\",h,W);\ndraw(a--b--c--d--cycle);\ndraw(e--f--g--h--cycle);\n[/asy]",
+        "inference": "Final Answer: \\\\boxed{64}. I hope it is correct. \n",
+        "ground_truth": "Since $AE = 2$, $EB = 8$, but since $EFGH$ is a square, $EH = EF$, and $AH = EB$ by ASA congruence of right triangles $AHE$ and $BEF$. By the Pythagorean theorem, $(EH)^2 = (AE)^2 + (AH)^2 = 2^2 + 8^2 = \\boxed{68}$, which is also the area of square $EFGH$ as the square of one of its sides."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{64}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need that information to identify any potential errors and rewrite the solution correctly. \n",
+        "ground_truth": "Since $AE = 2$, $EB = 8$, but since $EFGH$ is a square, $EH = EF$, and $AH = EB$ by ASA congruence of right triangles $AHE$ and $BEF$. By the Pythagorean theorem, $(EH)^2 = (AE)^2 + (AH)^2 = 2^2 + 8^2 = \\boxed{68}$, which is also the area of square $EFGH$ as the square of one of its sides."
+    }
+]

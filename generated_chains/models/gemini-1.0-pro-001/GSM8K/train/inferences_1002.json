@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nCarmen needs $7 more to have twice the amount of money that Jethro has. Meanwhile, Patricia has $60, which is 3 times as much as Jethro. What is the sum of all their money?",
+        "inference": "Let x be the amount of money Jethro has.\n\nCarmen has $7 + 2x$\n\nPatricia has $60\n\nThe sum of all their money is\n\n$$x + (7+2x) + 60 = 3x + 67$$\n\nI hope it is correct: 3x + 67 $",
+        "ground_truth": "Jethro has 60/3 = $<<60/3=20>>20.\nTwice of what Jethro has is $20 x 2 = $40\nCarmen has $40 - 7 = $<<40-7=33>>33\nThe sum of all their money is $60 + $20 + $33 = $<<60+20+33=113>>113\n#### 113"
+    },
+    {
+        "question": "Let x be the amount of money Jethro has.\n\nCarmen has $7 + 2x$\n\nPatricia has $60\n\nThe sum of all their money is\n\n$$x + (7+2x) + 60 = 3x + 67$$\n\nI hope it is correct: 3x + 67 $\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$3x + 67",
+        "ground_truth": "Jethro has 60/3 = $<<60/3=20>>20.\nTwice of what Jethro has is $20 x 2 = $40\nCarmen has $40 - 7 = $<<40-7=33>>33\nThe sum of all their money is $60 + $20 + $33 = $<<60+20+33=113>>113\n#### 113"
+    }
+]

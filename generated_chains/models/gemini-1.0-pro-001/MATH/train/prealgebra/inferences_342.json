@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe arithmetic mean of nine numbers is 54. If two numbers $u$ and $v$ are added to the list, the mean of the eleven-member list becomes 66. What is the mean of $u$ and $v$?",
+        "inference": "**Step 1**: The sum of the original nine numbers is $9 \\cdot 54 = 486$.\n**Step 2**: The sum of the eleven numbers is $11 \\cdot 66 = 726$.\n**Step 3**: The sum of $u$ and $v$ is $726 - 486 = 240$.\n**Step 4**: The mean of $u$ and $v$ is $\\frac{240}{2} = 120$.\nFinal Answer: $\\boxed{120}.$ I hope it is correct.",
+        "ground_truth": "The original nine numbers, with mean 54, must have a sum of $9 \\cdot 54 = 486$. After including $u$ and $v$, we have eleven numbers now, and their sum must be $11 \\cdot 66 = 726$. Since the only new numbers in this sum are $u$ and $v$, $u+ v = 726 - 486 = 240$. So, the mean of $u$ and $v$ is $\\frac{1}{2}(u+v) = \\frac{1}{2}(240) = \\boxed{120}$."
+    },
+    {
+        "question": "**Step 1**: The sum of the original nine numbers is $9 \\cdot 54 = 486$.\n**Step 2**: The sum of the eleven numbers is $11 \\cdot 66 = 726$.\n**Step 3**: The sum of $u$ and $v$ is $726 - 486 = 240$.\n**Step 4**: The mean of $u$ and $v$ is $\\frac{240}{2} = 120$.\nFinal Answer: $\\boxed{120}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{120}",
+        "ground_truth": "The original nine numbers, with mean 54, must have a sum of $9 \\cdot 54 = 486$. After including $u$ and $v$, we have eleven numbers now, and their sum must be $11 \\cdot 66 = 726$. Since the only new numbers in this sum are $u$ and $v$, $u+ v = 726 - 486 = 240$. So, the mean of $u$ and $v$ is $\\frac{1}{2}(u+v) = \\frac{1}{2}(240) = \\boxed{120}$."
+    }
+]

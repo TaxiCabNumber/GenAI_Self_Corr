@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $A$ and $B$ be real numbers such that $\\frac{A}{x-5}+B(x+1)=\\frac{-3x^2+12x+22}{x-5}$. What is $A+B$?",
+        "inference": "Final Answer: \\\\boxed{5}. I hope it is correct. \n",
+        "ground_truth": "We want to break up the rational function on the right into a polynomial and a term with constant numerator. To do this, we notice that $-3x^2+15x$ is a multiple of $x-5$, hence\n\\[\\frac{-3x^2+12x+22}{x-5}=\\frac{-3x^2+15x-15x+12x+22}{x - 5}=-3x+\\frac{-3x+22}{x-5}.\\]Now notice that $-3x+15$ is also a multiple of $x-5$, so\n\\[-3x+\\frac{-3x+22}{x-5}=-3x+\\frac{-3x+15+7}{x-5}=-3x-3+\\frac{7}{x-5}.\\]Thus $B=-3$ and $A=7$, so $A+B=\\boxed{4}$."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{5}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you're referring to. I need that context to identify any errors and provide the correct solution. \n",
+        "ground_truth": "We want to break up the rational function on the right into a polynomial and a term with constant numerator. To do this, we notice that $-3x^2+15x$ is a multiple of $x-5$, hence\n\\[\\frac{-3x^2+12x+22}{x-5}=\\frac{-3x^2+15x-15x+12x+22}{x - 5}=-3x+\\frac{-3x+22}{x-5}.\\]Now notice that $-3x+15$ is also a multiple of $x-5$, so\n\\[-3x+\\frac{-3x+22}{x-5}=-3x+\\frac{-3x+15+7}{x-5}=-3x-3+\\frac{7}{x-5}.\\]Thus $B=-3$ and $A=7$, so $A+B=\\boxed{4}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nRobert is doing his quadratics factoring worksheet when a drop of ink ruins part of his work.\n\nThe problem asks him to factor $-35-x+12 x^2$ and he has correctly figured out one of two factors: $(3x + 5).$ What must be the other factor?",
+        "inference": "Thinking step by step:\n$$-35-x+12 x^2$$$$=12 x^2-x-35$$$$=(3x+5)(4x-7)$$\n\nFinal Answer: \\boxed{$(4x-7)$} I hope it is correct.",
+        "ground_truth": "Given that we have $- 35 - x + 12x^2$ and the factor $3x + 5$, we can guess that the other factor must be $4x - 7$ since the linear terms must multiply to $12x^2$ and the constant terms must multiply to $-35.$\n\nExpanding, we can verify that this is correct, and therefore our answer is $\\boxed{(4x - 7)}.$"
+    },
+    {
+        "question": "Thinking step by step:\n$$-35-x+12 x^2$$$$=12 x^2-x-35$$$$=(3x+5)(4x-7)$$\n\nFinal Answer: \\boxed{$(4x-7)$} I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$(3x+5)$}",
+        "ground_truth": "Given that we have $- 35 - x + 12x^2$ and the factor $3x + 5$, we can guess that the other factor must be $4x - 7$ since the linear terms must multiply to $12x^2$ and the constant terms must multiply to $-35.$\n\nExpanding, we can verify that this is correct, and therefore our answer is $\\boxed{(4x - 7)}.$"
+    }
+]

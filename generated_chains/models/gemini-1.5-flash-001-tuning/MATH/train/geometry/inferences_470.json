@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThree vertices of a cube are $P=(7,12,10)$, $Q=(8,8,1)$, and $R=(11,3,9)$. What is the surface area of the cube?\n",
+        "inference": "Solution:\n1. Find the length of one side of the cube: \n   - Find the distance between points P and Q using the distance formula: $\\sqrt{(8-7)^2 + (8-12)^2 + (1-10)^2} = \\sqrt{1 + 16 + 81} = \\sqrt{98} = 7\\sqrt{2}$.\n2. Calculate the surface area of the cube:\n   - Each face of the cube has an area of $(7\\sqrt{2})^2 = 98$.\n   - Since there are six faces, the total surface area is $6 \\cdot 98 = 588$.\n\nFinal Answer: $\\boxed{588}$. I hope it is correct. \n",
+        "ground_truth": "$PQ=\\sqrt{(8-7)^2+(8-12)^2+(1-10)^2}=\\sqrt{98}$\n$PR=\\sqrt{(11-7)^2+(3-12)^2+(9-10)^2}=\\sqrt{98}$\n$QR=\\sqrt{(11-8)^2+(3-8)^2+(9-1)^2}=\\sqrt{98}$\nSo, $PQR$ is an equilateral triangle. Let the side of the cube be $a$.\n$a\\sqrt{2}=\\sqrt{98}$\nSo, $a=7$, and hence the surface area is $6a^2=\\boxed{294}$."
+    },
+    {
+        "question": "Solution:\n1. Find the length of one side of the cube: \n   - Find the distance between points P and Q using the distance formula: $\\sqrt{(8-7)^2 + (8-12)^2 + (1-10)^2} = \\sqrt{1 + 16 + 81} = \\sqrt{98} = 7\\sqrt{2}$.\n2. Calculate the surface area of the cube:\n   - Each face of the cube has an area of $(7\\sqrt{2})^2 = 98$.\n   - Since there are six faces, the total surface area is $6 \\cdot 98 = 588$.\n\nFinal Answer: $\\boxed{588}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct. \n\n\\\\boxed{588}. I hope it is correct. \n",
+        "ground_truth": "$PQ=\\sqrt{(8-7)^2+(8-12)^2+(1-10)^2}=\\sqrt{98}$\n$PR=\\sqrt{(11-7)^2+(3-12)^2+(9-10)^2}=\\sqrt{98}$\n$QR=\\sqrt{(11-8)^2+(3-8)^2+(9-1)^2}=\\sqrt{98}$\nSo, $PQR$ is an equilateral triangle. Let the side of the cube be $a$.\n$a\\sqrt{2}=\\sqrt{98}$\nSo, $a=7$, and hence the surface area is $6a^2=\\boxed{294}$."
+    }
+]

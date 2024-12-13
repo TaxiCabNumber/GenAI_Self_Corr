@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA local restaurant is offering an 8 piece fried chicken bucket and 2 sides for $12.00 that will feed 6 people.  If Monty was having a family reunion for 36 family members, how much will it cost him to buy enough chicken and sides to feed everyone one serving?",
+        "inference": "1. Determine the cost per person for the bucket and sides: $12.00 / 6 = $2.00\n2. Multiply the cost per person by the number of people to be fed: $2.00 * 36 = $72.00\nI hope it is correct: $72.00",
+        "ground_truth": "Monty needs to feed 36 family members and each chicken/meal combo feeds 6 people so he needs 36/6 = <<36/6=6>>6 combos\nEach chicken/meal combo costs $12.00 and he needs 6 so it will cost him 12*6 = $<<12*6=72.00>>72.00 to feed everyone\n#### 72"
+    },
+    {
+        "question": "1. Determine the cost per person for the bucket and sides: $12.00 / 6 = $2.00\n2. Multiply the cost per person by the number of people to be fed: $2.00 * 36 = $72.00\nI hope it is correct: $72.00\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $72.00$",
+        "ground_truth": "Monty needs to feed 36 family members and each chicken/meal combo feeds 6 people so he needs 36/6 = <<36/6=6>>6 combos\nEach chicken/meal combo costs $12.00 and he needs 6 so it will cost him 12*6 = $<<12*6=72.00>>72.00 to feed everyone\n#### 72"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSolve\n\\[\\frac{|x - 13|}{x^2 - 9x - 52} \\le 0.\\]",
+        "inference": "The denominator is zero at $x=-4$ and $x=13$. So, the numerator must be zero at $-4,13$.\n\nTherefore, $|x - 13|=0$\n$\\Rightarrow x=13$\n\nHence, the values are $x=13$ or $x=-4$.\nFinal Answer: $\\boxed{x=13 \\text{ or } x=-4}$.",
+        "ground_truth": "We can factor the denominator to get\n\\[\\frac{|x - 13|}{(x + 4)(x - 13)} \\le 0.\\]Note that $|x - 13| \\ge 0$ for all real numbers $x.$\n\nIf $x < -4,$ then $x + 4 < 0$ and $x - 13 < 0,$ so the inequality is not satisfied.\n\nIf $-4 < x < 13,$ then $x + 4 > 0$ and $x - 13 < 0,$ so the inequality is satisfied.\n\nIf $x > 13,$ then $x + 4 > 0$ and $x - 13 > 0,$ so the inequality is not satisfied.\n\nThe solution is then $x \\in \\boxed{(-4,13)}.$"
+    },
+    {
+        "question": "The denominator is zero at $x=-4$ and $x=13$. So, the numerator must be zero at $-4,13$.\n\nTherefore, $|x - 13|=0$\n$\\Rightarrow x=13$\n\nHence, the values are $x=13$ or $x=-4$.\nFinal Answer: $\\boxed{x=13 \\text{ or } x=-4}$.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Final Answer: $\\boxed{x=-4,13}$",
+        "ground_truth": "We can factor the denominator to get\n\\[\\frac{|x - 13|}{(x + 4)(x - 13)} \\le 0.\\]Note that $|x - 13| \\ge 0$ for all real numbers $x.$\n\nIf $x < -4,$ then $x + 4 < 0$ and $x - 13 < 0,$ so the inequality is not satisfied.\n\nIf $-4 < x < 13,$ then $x + 4 > 0$ and $x - 13 < 0,$ so the inequality is satisfied.\n\nIf $x > 13,$ then $x + 4 > 0$ and $x - 13 > 0,$ so the inequality is not satisfied.\n\nThe solution is then $x \\in \\boxed{(-4,13)}.$"
+    }
+]

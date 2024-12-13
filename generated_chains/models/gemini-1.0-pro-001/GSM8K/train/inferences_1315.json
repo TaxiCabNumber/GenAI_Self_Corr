@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMarcus can fit 5 pies in his oven at once. He bakes 7 batches of pies, then slips and drops 8 of them. How many pies are left?",
+        "inference": "1. Marcus baked 7 batches of pies, and each batch has 5 pies, so the total number of pies he baked is 7 x 5 = 35 pies.\n\n2. He then dropped 8 pies, so the number of pies he has left is 35 - 8 = 27 pies.\n\n**I hope it is correct: 27**",
+        "ground_truth": "First find the total number of pies Marcus bakes: 5 pies/batch * 7 batches = <<5*7=35>>35 pies\nThen subtract the number of pies Marcus drops: 35 pies - 8 pies = <<35-8=27>>27 pies\n#### 27"
+    },
+    {
+        "question": "1. Marcus baked 7 batches of pies, and each batch has 5 pies, so the total number of pies he baked is 7 x 5 = 35 pies.\n\n2. He then dropped 8 pies, so the number of pies he has left is 35 - 8 = 27 pies.\n\n**I hope it is correct: 27**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "####$answer$27",
+        "ground_truth": "First find the total number of pies Marcus bakes: 5 pies/batch * 7 batches = <<5*7=35>>35 pies\nThen subtract the number of pies Marcus drops: 35 pies - 8 pies = <<35-8=27>>27 pies\n#### 27"
+    }
+]

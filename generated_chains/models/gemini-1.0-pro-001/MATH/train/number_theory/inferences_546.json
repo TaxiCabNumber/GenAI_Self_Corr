@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhen the binary number $100101110010_2$ is divided by 4, what is the remainder (give your answer in base 10)?",
+        "inference": "**Step 1:** Convert 1001011100102 to base 10.\n```\n1001011100102 = 1 * 2^10 + 0 * 2^9 + 0 * 2^8 + 1 * 2^7 + 0 * 2^6 + 1 * 2^5 + 1 * 2^4 + 1 * 2^3 + 0 * 2^2 + 0 * 2^1 + 1 * 2^0 = 102610.\n```\n\n**Step 2:** Divide 102610 by 4.\n```\n102610 \u00f7 4 = 25652 R 2\n```\n\nTherefore, the remainder when 1001011100102 is divided by 4 is **2**.\n\nFinal Answer: $\\boxed{2}$. I hope it is correct.",
+        "ground_truth": "The binary number $b_k b_{k - 1} \\dots b_2 b_1 b_0$ is equal to $2^k b_k + 2^{k - 1} b_{k - 1} + \\dots + 4b_2 + 2b_1 + b_0$, so when this number is divided by 4, the remainder is $2b_1 + b_0$.  Hence, when the number $100101110010_2$ is divided by 4, the remainder is $2 \\cdot 1 + 0 = \\boxed{2}$."
+    },
+    {
+        "question": "**Step 1:** Convert 1001011100102 to base 10.\n```\n1001011100102 = 1 * 2^10 + 0 * 2^9 + 0 * 2^8 + 1 * 2^7 + 0 * 2^6 + 1 * 2^5 + 1 * 2^4 + 1 * 2^3 + 0 * 2^2 + 0 * 2^1 + 1 * 2^0 = 102610.\n```\n\n**Step 2:** Divide 102610 by 4.\n```\n102610 \u00f7 4 = 25652 R 2\n```\n\nTherefore, the remainder when 1001011100102 is divided by 4 is **2**.\n\nFinal Answer: $\\boxed{2}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{2}$$",
+        "ground_truth": "The binary number $b_k b_{k - 1} \\dots b_2 b_1 b_0$ is equal to $2^k b_k + 2^{k - 1} b_{k - 1} + \\dots + 4b_2 + 2b_1 + b_0$, so when this number is divided by 4, the remainder is $2b_1 + b_0$.  Hence, when the number $100101110010_2$ is divided by 4, the remainder is $2 \\cdot 1 + 0 = \\boxed{2}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $x,$ $y,$ and $z$ be nonzero complex numbers such that $x + y + z = 20$ and\n\\[(x - y)^2 + (x - z)^2 + (y - z)^2 = xyz.\\]Find $\\frac{x^3 + y^3 + z^3}{xyz}.$",
+        "inference": "Final Answer: \\\\boxed{120}. I hope it is correct. \n",
+        "ground_truth": "We have the factorization\n\\[x^3 + y^3 + z^3 - 3xyz = (x + y + z)(x^2 + y^2 + z^2 - xy - xz - yz).\\]Expanding $(x - y)^2 + (x - z)^2 + (y - z)^2 = xyz,$ we get\n\\[2x^2 + 2y^2 + 2z^2 - 2xy - 2xz - 2yz = xyz,\\]so $x^2 + y^2 + z^2 - xy - xz - yz = \\frac{xyz}{2},$ and\n\\[x^3 + y^3 + z^3 - 3xyz = 20 \\cdot \\frac{xyz}{2} = 10xyz.\\]Then $x^3 + y^3 + z^3 = 13xyz,$ so\n\\[\\frac{x^3 + y^3 + z^3}{xyz} = \\boxed{13}.\\]"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{120}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the original question and the solution you provided. I need this information to identify any errors and rewrite the solution correctly. \n",
+        "ground_truth": "We have the factorization\n\\[x^3 + y^3 + z^3 - 3xyz = (x + y + z)(x^2 + y^2 + z^2 - xy - xz - yz).\\]Expanding $(x - y)^2 + (x - z)^2 + (y - z)^2 = xyz,$ we get\n\\[2x^2 + 2y^2 + 2z^2 - 2xy - 2xz - 2yz = xyz,\\]so $x^2 + y^2 + z^2 - xy - xz - yz = \\frac{xyz}{2},$ and\n\\[x^3 + y^3 + z^3 - 3xyz = 20 \\cdot \\frac{xyz}{2} = 10xyz.\\]Then $x^3 + y^3 + z^3 = 13xyz,$ so\n\\[\\frac{x^3 + y^3 + z^3}{xyz} = \\boxed{13}.\\]"
+    }
+]

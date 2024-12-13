@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nHayes does 3 loads of laundry a week using a detergent pod for each load.  His detergent pods come 39 to a pack.  How many packs of detergent pods will he need to do a full year of laundry?",
+        "inference": "1. Determine the total number of loads of laundry Hayes does in a year:\n3 loads/week x 52 weeks/year = 156 loads/year\n\n2. Determine the total number of detergent pods Hayes needs for a year:\n156 loads/year x 1 pod/load = 156 pods/year\n\n3. Determine the number of packs of detergent pods Hayes needs for a year:\n156 pods/year \u00f7 39 pods/pack = 4 packs/year\n\nI hope it is correct: 4 packs",
+        "ground_truth": "He uses 3 detergent pods a week and there are 52 weeks in a year, so he uses 3*52 = <<3*52=156>>156\nHis detergent has 39 pods per pack and he needs 156 pods, so he will need 156/39 = <<156/39=4>>4 packs of detergent pods\n#### 4"
+    },
+    {
+        "question": "1. Determine the total number of loads of laundry Hayes does in a year:\n3 loads/week x 52 weeks/year = 156 loads/year\n\n2. Determine the total number of detergent pods Hayes needs for a year:\n156 loads/year x 1 pod/load = 156 pods/year\n\n3. Determine the number of packs of detergent pods Hayes needs for a year:\n156 pods/year \u00f7 39 pods/pack = 4 packs/year\n\nI hope it is correct: 4 packs\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 4",
+        "ground_truth": "He uses 3 detergent pods a week and there are 52 weeks in a year, so he uses 3*52 = <<3*52=156>>156\nHis detergent has 39 pods per pack and he needs 156 pods, so he will need 156/39 = <<156/39=4>>4 packs of detergent pods\n#### 4"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe girls are trying to raise money for a carnival. Kim raises $320 more than Alexandra, who raises $430, and Maryam raises $400 more than Sarah, who raises $300. How much money, in dollars, did they all raise in total?",
+        "inference": "Alexandra raises $430, Kim raises $320 more than Alexandra, so Kim raises $430 + $320 = $750. Sarah raises $300, Maryam raises $400 more than Sarah, so Maryam raises $300 + $400 = $700.\n\nTotal amount raised = Alexandra + Kim + Sarah + Maryam\n= $430 + $750 + $300 + $700\n= $2180\n\nI hope it is correct: $2180$",
+        "ground_truth": "Kim raises 320+430=<<320+430=750>>750 dollars.\nMaryam raises 400+300=<<400+300=700>>700 dollars.\nThey raise 750+430+400+700=<<750+430+400+700=2280>>2280 dollars.\n#### 2280"
+    },
+    {
+        "question": "Alexandra raises $430, Kim raises $320 more than Alexandra, so Kim raises $430 + $320 = $750. Sarah raises $300, Maryam raises $400 more than Sarah, so Maryam raises $300 + $400 = $700.\n\nTotal amount raised = Alexandra + Kim + Sarah + Maryam\n= $430 + $750 + $300 + $700\n= $2180\n\nI hope it is correct: $2180$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 2180",
+        "ground_truth": "Kim raises 320+430=<<320+430=750>>750 dollars.\nMaryam raises 400+300=<<400+300=700>>700 dollars.\nThey raise 750+430+400+700=<<750+430+400+700=2280>>2280 dollars.\n#### 2280"
+    }
+]

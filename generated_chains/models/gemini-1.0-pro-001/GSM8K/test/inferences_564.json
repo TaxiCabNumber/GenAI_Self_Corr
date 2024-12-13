@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIn the first week, Judy read for 15 minutes each night before going to sleep. In the second week, she read a total of 100 pages. If she can read 2 pages per 1.5 minutes, how many pages did she read in two weeks?",
+        "inference": "Week 1:\n15 minutes each night for 7 nights = 105 minutes\n105 minutes / 1.5 minutes per 2 pages = 70 pages\n\nWeek 2:\n100 pages\n\nTotal for two weeks:\n70 pages + 100 pages = 170 pages\n\nI hope it is correct: 170 $pages$",
+        "ground_truth": "Every night, Judy reads 15 minutes/1.5 minutes = <<15/1.5=10>>10 sets of 2 pages.\nSo, she read 10 x 2 = <<10*2=20>>20 pages every night in the first week.\nIn the first week, she reads a total of 20 x 7 = <<20*7=140>>140 pages.\nTherefore, she read a total of 140 + 100 = <<140+100=240>>240 pages in two weeks.\n#### 240"
+    },
+    {
+        "question": "Week 1:\n15 minutes each night for 7 nights = 105 minutes\n105 minutes / 1.5 minutes per 2 pages = 70 pages\n\nWeek 2:\n100 pages\n\nTotal for two weeks:\n70 pages + 100 pages = 170 pages\n\nI hope it is correct: 170 $pages$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 170 pages",
+        "ground_truth": "Every night, Judy reads 15 minutes/1.5 minutes = <<15/1.5=10>>10 sets of 2 pages.\nSo, she read 10 x 2 = <<10*2=20>>20 pages every night in the first week.\nIn the first week, she reads a total of 20 x 7 = <<20*7=140>>140 pages.\nTherefore, she read a total of 140 + 100 = <<140+100=240>>240 pages in two weeks.\n#### 240"
+    }
+]

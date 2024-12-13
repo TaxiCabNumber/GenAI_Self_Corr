@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nFrankie and Binkie went bowling together.  Frankie's score was 15 better more than twice as high as Binkie's. If Binkie bowled a score of 90, what was Frankie's score?",
+        "inference": "Let Binkie's score be \\(x\\). \nFrankie's score was 15 better more than twice as high as Binkie's, so it is \\(2x + 15\\)\n\nIf Binkie bowled a score of 90, then \n$$2x + 15 = 90$$\n$$2x = 90 - 15$$\n$$2x = 75$$\n$$\\therefore x = \\frac{75}{2}$$\n$$\\therefore x = 37.5$$\nFrankie's score was \\(2x + 15\\), so his score was \\(2(37.5) + 15 = 75 + 15 = 90 \\)\n\nI hope it is correct: Frankie's score = 90",
+        "ground_truth": "Twice Binkie's score is 2*90=<<2*90=180>>180.\nFifteen more than twice Binkie's score is 180+15=<<180+15=195>>195.\n#### 195"
+    },
+    {
+        "question": "Let Binkie's score be \\(x\\). \nFrankie's score was 15 better more than twice as high as Binkie's, so it is \\(2x + 15\\)\n\nIf Binkie bowled a score of 90, then \n$$2x + 15 = 90$$\n$$2x = 90 - 15$$\n$$2x = 75$$\n$$\\therefore x = \\frac{75}{2}$$\n$$\\therefore x = 37.5$$\nFrankie's score was \\(2x + 15\\), so his score was \\(2(37.5) + 15 = 75 + 15 = 90 \\)\n\nI hope it is correct: Frankie's score = 90\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ Frankie's score = 75",
+        "ground_truth": "Twice Binkie's score is 2*90=<<2*90=180>>180.\nFifteen more than twice Binkie's score is 180+15=<<180+15=195>>195.\n#### 195"
+    }
+]

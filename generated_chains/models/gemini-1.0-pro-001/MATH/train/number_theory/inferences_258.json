@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the largest four-digit negative integer congruent to $1 \\pmod{23}?$",
+        "inference": "Since $23$ is prime and $23-1=22$, we need to find the largest four-digit integer $N$ such that $N\\equiv 1 \\pmod{22}.$\n\nThe largest four-digit integer is $9999$. Subtracting $1$ from this, we get $9998$. Dividing $9998$ by $22$, we get $454$, with a remainder of $10$. Subtracting $10$ from $9998$, we get $9988$. This is the largest four-digit integer congruent to $1 \\pmod{22}$.\n\nFinal Answer: $\\boxed{-9988}.$ I hope it is correct.",
+        "ground_truth": "An integer that is congruent to $1 \\pmod{23}$ is of the form $23n+1$.\n\nTherefore, we form the inequality $23n+1<-999$, and find the largest possible integer $n$. We get \\begin{align*}\n23n+1&<-999 \\\\\n23n&<-1000\\\\\nn&<-\\frac{1000}{23} \\approx -43.48.\n\\end{align*} The largest possible negative integer $n$ is $-44$. We plug it in for $n$ to get $23 \\cdot -44 +1 =\\boxed{-1011}$."
+    },
+    {
+        "question": "Since $23$ is prime and $23-1=22$, we need to find the largest four-digit integer $N$ such that $N\\equiv 1 \\pmod{22}.$\n\nThe largest four-digit integer is $9999$. Subtracting $1$ from this, we get $9998$. Dividing $9998$ by $22$, we get $454$, with a remainder of $10$. Subtracting $10$ from $9998$, we get $9988$. This is the largest four-digit integer congruent to $1 \\pmod{22}$.\n\nFinal Answer: $\\boxed{-9988}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$9988$}. I hope it is correct.",
+        "ground_truth": "An integer that is congruent to $1 \\pmod{23}$ is of the form $23n+1$.\n\nTherefore, we form the inequality $23n+1<-999$, and find the largest possible integer $n$. We get \\begin{align*}\n23n+1&<-999 \\\\\n23n&<-1000\\\\\nn&<-\\frac{1000}{23} \\approx -43.48.\n\\end{align*} The largest possible negative integer $n$ is $-44$. We plug it in for $n$ to get $23 \\cdot -44 +1 =\\boxed{-1011}$."
+    }
+]

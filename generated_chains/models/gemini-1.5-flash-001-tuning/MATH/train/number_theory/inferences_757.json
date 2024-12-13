@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nKaleb defined a $\\emph{clever integer}$ as an even integer that is greater than 20, less than 120, and such that the sum of its digits is 9. What fraction of all clever integers is divisible by 27? Express your answer as a common fraction.",
+        "inference": "The possible clever integers are: 27, 36, 45, 54, 63, 72, 81, 90. There are 8 clever integers.\n\nOf these, only 27 and 54 are divisible by 27. \n\nFinal Answer: $\\boxed{\\frac{1}{4}}$. I hope it is correct. \n",
+        "ground_truth": "You can easily list out the numbers between 20 and 120 that have digits that add to 9: 27, 36, 45, 54, 63, 72, 81, 90, 108, 117.\n\nTo be a $\\emph{clever integer}$ the number must be even, which leaves us with 36, 54, 72, 90, and 108, a total of 5 numbers.\n\nThe problem asks which fraction of these five clever integers are divisible by 27. Only two, 54 and 108 are divisible by 27, thus the total fraction is $\\boxed{\\frac{2}{5}}$."
+    },
+    {
+        "question": "The possible clever integers are: 27, 36, 45, 54, 63, 72, 81, 90. There are 8 clever integers.\n\nOf these, only 27 and 54 are divisible by 27. \n\nFinal Answer: $\\boxed{\\frac{1}{4}}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct.  There are 8 clever integers, and 2 of them are divisible by 27.  Therefore, the probability of selecting a clever integer divisible by 27 is 2/8, which simplifies to 1/4. \n\n\\\\boxed{$\\frac{1}{4}$}. I hope it is correct. \n",
+        "ground_truth": "You can easily list out the numbers between 20 and 120 that have digits that add to 9: 27, 36, 45, 54, 63, 72, 81, 90, 108, 117.\n\nTo be a $\\emph{clever integer}$ the number must be even, which leaves us with 36, 54, 72, 90, and 108, a total of 5 numbers.\n\nThe problem asks which fraction of these five clever integers are divisible by 27. Only two, 54 and 108 are divisible by 27, thus the total fraction is $\\boxed{\\frac{2}{5}}$."
+    }
+]

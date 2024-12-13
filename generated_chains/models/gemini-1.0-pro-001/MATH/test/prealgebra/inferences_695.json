@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nDawn has $\\$ $1.20 in nickels, dimes and quarters. For each nickel she has one dime and for each dime she has one quarter. How many total coins does she have?",
+        "inference": "Let $n$ be the number of nickels. \n\nDawn has $n$ dimes and $n$ quarters. \n\nThe total number of coins is $n+n+n=3n$. \n\nSince we know that Dawn has $\\$ $1.20 in nickels, dimes and quarters, we can write an equation: \n\n$$0.05n+0.10n+0.25n=1.20$$\n\nSolving for $n$, we get:\n\n$$n=8$$\n\nSo Dawn has $8$ nickels, $8$ dimes and $8$ quarters. \n\nThe total number of coins is $3n=3\\times8 = 24$.\n\n**Final Answer: $\\boxed{24}$. I hope it is correct.**",
+        "ground_truth": "If Dawn has $x$ nickels, then she has $x$ dimes and $x$ quarters. In cents, we set up an equation for how much money she has. \\begin{align*}\n5x+10x+25x&=120\\quad\\Rightarrow\\\\\n40x&=120\\quad\\Rightarrow\\\\\nx&=3\n\\end{align*} She has $3$ of each coin for a total of $\\boxed{9}$ coins."
+    },
+    {
+        "question": "Let $n$ be the number of nickels. \n\nDawn has $n$ dimes and $n$ quarters. \n\nThe total number of coins is $n+n+n=3n$. \n\nSince we know that Dawn has $\\$ $1.20 in nickels, dimes and quarters, we can write an equation: \n\n$$0.05n+0.10n+0.25n=1.20$$\n\nSolving for $n$, we get:\n\n$$n=8$$\n\nSo Dawn has $8$ nickels, $8$ dimes and $8$ quarters. \n\nThe total number of coins is $3n=3\\times8 = 24$.\n\n**Final Answer: $\\boxed{24}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{16}$$",
+        "ground_truth": "If Dawn has $x$ nickels, then she has $x$ dimes and $x$ quarters. In cents, we set up an equation for how much money she has. \\begin{align*}\n5x+10x+25x&=120\\quad\\Rightarrow\\\\\n40x&=120\\quad\\Rightarrow\\\\\nx&=3\n\\end{align*} She has $3$ of each coin for a total of $\\boxed{9}$ coins."
+    }
+]

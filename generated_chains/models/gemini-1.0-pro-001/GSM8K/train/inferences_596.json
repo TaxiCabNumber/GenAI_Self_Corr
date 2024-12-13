@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBianca worked for 12.5 hours last weekend. Celeste worked for twice that amount of time and McClain worked 8.5 hours less than Celeste. How many minutes did the 3 people work in total?",
+        "inference": "1. Bianca: 12.5 hours\n2. Celeste: 2 * 12.5 hours = 25 hours\n3. McClain: 25 hours - 8.5 hours = 16.5 hours\n\n1. Convert hours to minutes:\n- Bianca: 12.5 hours * 60 minutes/hour = 750 minutes\n- Celeste: 25 hours * 60 minutes/hour = 1500 minutes\n- McClain: 16.5 hours * 60 minutes/hour = 990 minutes\n\n2. Add the minutes:\n- Total minutes = 750 minutes + 1500 minutes + 990 minutes = 3240 minutes\nI hope it is correct: 3240 minutes",
+        "ground_truth": "Bianca = <<12.5=12.5>>12.5 hours\nCeleste 2 * 12.5 = <<2*12.5=25>>25 hours\nMcClain = 25 - 8.5 = <<25-8.5=16.5>>16.5 hours\nTotal + 12.5 + 25 + 16.5 = <<+12.5+25+16.5=54>>54 hours\n54 hours * 60 minutes = <<54*60=3240>>3240 minutes.\nBianca, Celeste and McClain worked a total of 3240 minutes last weekend.\n#### 3240"
+    },
+    {
+        "question": "1. Bianca: 12.5 hours\n2. Celeste: 2 * 12.5 hours = 25 hours\n3. McClain: 25 hours - 8.5 hours = 16.5 hours\n\n1. Convert hours to minutes:\n- Bianca: 12.5 hours * 60 minutes/hour = 750 minutes\n- Celeste: 25 hours * 60 minutes/hour = 1500 minutes\n- McClain: 16.5 hours * 60 minutes/hour = 990 minutes\n\n2. Add the minutes:\n- Total minutes = 750 minutes + 1500 minutes + 990 minutes = 3240 minutes\nI hope it is correct: 3240 minutes\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$3240",
+        "ground_truth": "Bianca = <<12.5=12.5>>12.5 hours\nCeleste 2 * 12.5 = <<2*12.5=25>>25 hours\nMcClain = 25 - 8.5 = <<25-8.5=16.5>>16.5 hours\nTotal + 12.5 + 25 + 16.5 = <<+12.5+25+16.5=54>>54 hours\n54 hours * 60 minutes = <<54*60=3240>>3240 minutes.\nBianca, Celeste and McClain worked a total of 3240 minutes last weekend.\n#### 3240"
+    }
+]

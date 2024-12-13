@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nTriangle $ABC$ is isosceles with angle $B$ congruent to angle $C$. The measure of angle $C$ is four times the measure of angle $A$. What is the number of degrees in the measure of angle $B$?",
+        "inference": "Let $x$ be the measure of angle $A$.  Then the measure of angle $C$ is $4x$, and the measure of angle $B$ is also $4x$.  Since the angles of a triangle add up to $180^\\circ$, we have $x+4x+4x=180^\\circ$, or $9x=180^\\circ$.  Solving for $x$ gives $x=20^\\circ$, so the measure of angle $B$ is $4x=4(20^\\circ)=\\boxed{80^\\circ}$. Final Answer: $\\boxed{80}$. I hope it is correct. \n",
+        "ground_truth": "Let $x$ be the number of degrees in $\\angle A$. Then $\\angle C=4x^\\circ$, and $\\angle B$ is also $4x^\\circ$ (since $\\angle B$ is congruent to $\\angle C$).\n\nSince the sum of angles in a triangle is $180^\\circ$, we have $$x + 4x + 4x = 180,$$ which we can solve for $x=20$. Therefore, $\\angle B = 4\\cdot 20 = \\boxed{80}$ degrees."
+    },
+    {
+        "question": "Let $x$ be the measure of angle $A$.  Then the measure of angle $C$ is $4x$, and the measure of angle $B$ is also $4x$.  Since the angles of a triangle add up to $180^\\circ$, we have $x+4x+4x=180^\\circ$, or $9x=180^\\circ$.  Solving for $x$ gives $x=20^\\circ$, so the measure of angle $B$ is $4x=4(20^\\circ)=\\boxed{80^\\circ}$. Final Answer: $\\boxed{80}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{80}$ \n",
+        "ground_truth": "Let $x$ be the number of degrees in $\\angle A$. Then $\\angle C=4x^\\circ$, and $\\angle B$ is also $4x^\\circ$ (since $\\angle B$ is congruent to $\\angle C$).\n\nSince the sum of angles in a triangle is $180^\\circ$, we have $$x + 4x + 4x = 180,$$ which we can solve for $x=20$. Therefore, $\\angle B = 4\\cdot 20 = \\boxed{80}$ degrees."
+    }
+]

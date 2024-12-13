@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nReal numbers $x$ and $y$ have an arithmetic mean of 7 and a geometric mean of $\\sqrt{19}$. Find $x^2+y^2$.",
+        "inference": "The arithmetic mean of two numbers is their sum divided by 2, so $x + y = 2(7) = 14$.\n\nThe geometric mean of two numbers is the square root of their product, so $xy = 19$.\n\nWe can now solve these two equations simultaneously to find $x$ and $y$.\n>$$\\begin{split}x+y&=14 \\\\\\ xy&=19\\end{split}$$\n\nSquaring the first equation and subtracting the second equation, we get:\n\n$$(x+y)^2-4xy=14^2-4(19)=196-76=120$$\n\n$$\\Rightarrow x^2+y^2+2xy-4xy=120 \\therefore x^2+y^2-2xy=120$$\n\nSubstituting $xy = 19$ into the above equation, we get:\n\n$$x^2+y^2-2(19)=120 \\\\\\ \\Rightarrow x^2+y^2=120+38 \\\\\\ \\Rightarrow x^2+y^2=158$$\nFinal Answer: $\\boxed{158}.$ I hope it is correct.",
+        "ground_truth": "The givens tell us that $\\frac{x+y}{2}=7$ and $\\sqrt{xy}=\\sqrt{19}$, or $x+y=14$ and $xy=19$. $(x+y)^2=x^2+2xy+y^2$, so  \\[\nx^2+y^2=(x+y)^2-2xy=14^2-2\\cdot19=196-38=\\boxed{158}\n\\]"
+    },
+    {
+        "question": "The arithmetic mean of two numbers is their sum divided by 2, so $x + y = 2(7) = 14$.\n\nThe geometric mean of two numbers is the square root of their product, so $xy = 19$.\n\nWe can now solve these two equations simultaneously to find $x$ and $y$.\n>$$\\begin{split}x+y&=14 \\\\\\ xy&=19\\end{split}$$\n\nSquaring the first equation and subtracting the second equation, we get:\n\n$$(x+y)^2-4xy=14^2-4(19)=196-76=120$$\n\n$$\\Rightarrow x^2+y^2+2xy-4xy=120 \\therefore x^2+y^2-2xy=120$$\n\nSubstituting $xy = 19$ into the above equation, we get:\n\n$$x^2+y^2-2(19)=120 \\\\\\ \\Rightarrow x^2+y^2=120+38 \\\\\\ \\Rightarrow x^2+y^2=158$$\nFinal Answer: $\\boxed{158}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{158}",
+        "ground_truth": "The givens tell us that $\\frac{x+y}{2}=7$ and $\\sqrt{xy}=\\sqrt{19}$, or $x+y=14$ and $xy=19$. $(x+y)^2=x^2+2xy+y^2$, so  \\[\nx^2+y^2=(x+y)^2-2xy=14^2-2\\cdot19=196-38=\\boxed{158}\n\\]"
+    }
+]

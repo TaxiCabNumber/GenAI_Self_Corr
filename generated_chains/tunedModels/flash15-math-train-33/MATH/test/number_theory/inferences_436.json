@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the largest negative integer $x$ satisfying $$24x \\equiv 15 \\pmod{1199}~?$$",
+        "inference": "Final Answer: \\\\boxed{-100}. I hope it is correct. \n",
+        "ground_truth": "To start, notice that $24\\cdot 50 = 1200\\equiv 1\\pmod{1199}$ (in other words, $24$ and $50$ are inverses modulo $1199$).\n\nTo solve the congruence $24x\\equiv 15\\pmod{1199}$, we multiply both sides by $50$ and simplify: \\begin{align*}\n50\\cdot 24x &\\equiv 50\\cdot 15 \\pmod{1199} \\\\\nx &\\equiv 750 \\pmod{1199}\n\\end{align*}This process can also be reversed (by multiplying both sides by $50^{-1}=24$), so the solutions to the original congruence are precisely the same as the solutions to $x\\equiv 750\\pmod{1199}$. The largest negative solution is $750-1199 = \\boxed{-449}$."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{-100}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need that information to identify any potential errors and rewrite the solution correctly. \n",
+        "ground_truth": "To start, notice that $24\\cdot 50 = 1200\\equiv 1\\pmod{1199}$ (in other words, $24$ and $50$ are inverses modulo $1199$).\n\nTo solve the congruence $24x\\equiv 15\\pmod{1199}$, we multiply both sides by $50$ and simplify: \\begin{align*}\n50\\cdot 24x &\\equiv 50\\cdot 15 \\pmod{1199} \\\\\nx &\\equiv 750 \\pmod{1199}\n\\end{align*}This process can also be reversed (by multiplying both sides by $50^{-1}=24$), so the solutions to the original congruence are precisely the same as the solutions to $x\\equiv 750\\pmod{1199}$. The largest negative solution is $750-1199 = \\boxed{-449}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind $p+q$, given that $(q+4)(p+3)-(q+2)(p+1)=44$.",
+        "inference": "$$(q+4)(p+3)-(q+2)(p+1)=44$$\n\n$$qp+3q+4p+12-qp-q-2p-2=44$$\n\n$$2p+2q=44-10 \\iff 2(p+q)=34 \\iff p+q=17.$$\n\nFinal Answer: $\\boxed{17}$. I hope it is correct.",
+        "ground_truth": "We multiply the binomials:\n\n\\begin{align*}\n(q+4)(p+3)-(q+2)(p+1)&=44\\\\\nq(p+3)+4(p+3)-(q(p+1)+2(p+1))&=44\\\\\npq+3q+4p+12-(pq+q+2p+2)&=44\\\\\n2q+2p+10&=44\\\\\n2q+2p&=34\\\\\nq+p&=\\boxed{17}\\\\\n\\end{align*}"
+    },
+    {
+        "question": "$$(q+4)(p+3)-(q+2)(p+1)=44$$\n\n$$qp+3q+4p+12-qp-q-2p-2=44$$\n\n$$2p+2q=44-10 \\iff 2(p+q)=34 \\iff p+q=17.$$\n\nFinal Answer: $\\boxed{17}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{17}$$",
+        "ground_truth": "We multiply the binomials:\n\n\\begin{align*}\n(q+4)(p+3)-(q+2)(p+1)&=44\\\\\nq(p+3)+4(p+3)-(q(p+1)+2(p+1))&=44\\\\\npq+3q+4p+12-(pq+q+2p+2)&=44\\\\\n2q+2p+10&=44\\\\\n2q+2p&=34\\\\\nq+p&=\\boxed{17}\\\\\n\\end{align*}"
+    }
+]

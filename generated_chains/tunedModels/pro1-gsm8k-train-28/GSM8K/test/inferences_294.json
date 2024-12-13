@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nWill buys 15 oranges. When he gets home, he asks his 2 sons to wash as many oranges as they are years old. The oldest son is 8 years old, the youngest is half as old as the oldest. How many oranges are left unwashed?",
+        "inference": "1. The oldest son is 8 years old, so he washes 8 oranges.\n2. The youngest son is half as old as the oldest, so he is 4 years old. He washes 4 oranges.\n3. Will bought 15 oranges, and his sons washed 8 + 4 = 12 oranges.\n4. Therefore, there are 15 - 12 = 3 oranges left unwashed.\n\nI hope it is correct: 3 $answer$",
+        "ground_truth": "The older son washes 8 oranges, so the younger son washes 8 / 2 = <<8/2=4>>4 oranges.\nTogether they wash 8 oranges + 4 oranges =<<8+4=12>>12 oranges\nThere are 15 oranges - 12 oranges = <<15-12=3>>3 oranges left unwashed.\n#### 3"
+    },
+    {
+        "question": "1. The oldest son is 8 years old, so he washes 8 oranges.\n2. The youngest son is half as old as the oldest, so he is 4 years old. He washes 4 oranges.\n3. Will bought 15 oranges, and his sons washed 8 + 4 = 12 oranges.\n4. Therefore, there are 15 - 12 = 3 oranges left unwashed.\n\nI hope it is correct: 3 $answer$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 3",
+        "ground_truth": "The older son washes 8 oranges, so the younger son washes 8 / 2 = <<8/2=4>>4 oranges.\nTogether they wash 8 oranges + 4 oranges =<<8+4=12>>12 oranges\nThere are 15 oranges - 12 oranges = <<15-12=3>>3 oranges left unwashed.\n#### 3"
+    }
+]

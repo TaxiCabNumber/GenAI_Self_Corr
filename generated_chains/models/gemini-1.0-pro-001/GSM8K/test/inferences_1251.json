@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIt takes John 5 minutes to get to the first side of the Rubik's cube.  The second and third sides each take twice that long.  The last 2 sides each take half as long as the first, and once you get the 5th side you have all 6 sides.  How long does the Rubik's cube take?",
+        "inference": "- It takes John 5 minutes to get to the first side of the Rubik's cube.\n- The second and third sides each take twice that long, so they take 10 minutes each.\n- The last 2 sides each take half as long as the first, so they take 2 minutes and 30 seconds each.\n- Once you get the 5th side you have all 6 sides, so the total time to solve the Rubik's cube is 5 minutes + 10 minutes + 10 minutes + 2 minutes and 30 seconds + 2 minutes and 30 seconds = 29 minutes and 30 seconds.\nI hope it is correct: 29 minutes and 30 seconds",
+        "ground_truth": "The second and third side each take 2*5=<<2*5=10>>10 minutes\nSo they take 10*2=<<10*2=20>>20 minutes together\nThe last 2 sides take 5/2=<<5/2=2.5>>2.5 minutes\nSo they take 2.5*2=<<2.5*2=5>>5 minutes\nSo the total time is 5+20+5=<<5+20+5=30>>30 minutes\n#### 30"
+    },
+    {
+        "question": "- It takes John 5 minutes to get to the first side of the Rubik's cube.\n- The second and third sides each take twice that long, so they take 10 minutes each.\n- The last 2 sides each take half as long as the first, so they take 2 minutes and 30 seconds each.\n- Once you get the 5th side you have all 6 sides, so the total time to solve the Rubik's cube is 5 minutes + 10 minutes + 10 minutes + 2 minutes and 30 seconds + 2 minutes and 30 seconds = 29 minutes and 30 seconds.\nI hope it is correct: 29 minutes and 30 seconds\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$29 minutes and 30 seconds",
+        "ground_truth": "The second and third side each take 2*5=<<2*5=10>>10 minutes\nSo they take 10*2=<<10*2=20>>20 minutes together\nThe last 2 sides take 5/2=<<5/2=2.5>>2.5 minutes\nSo they take 2.5*2=<<2.5*2=5>>5 minutes\nSo the total time is 5+20+5=<<5+20+5=30>>30 minutes\n#### 30"
+    }
+]

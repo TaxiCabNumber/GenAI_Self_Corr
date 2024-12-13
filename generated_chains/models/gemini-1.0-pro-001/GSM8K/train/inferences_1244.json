@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA singer is planning on releasing 3 songs in a month. If he worked on one song for 10 hours a day, and each song took 10 days to be completed, calculate the total number of hours he took to complete the 3 songs.",
+        "inference": "10 hours * 10 days = 100 hours per song\n100 hours * 3 songs = 300 hours total\n\nI hope it is correct: 300 hours",
+        "ground_truth": "If he worked on a song for 10 hours a day, the total number of hours he takes to complete one song is 10*10 = <<10*10=100>>100 hours.\nIf one song took 100 hours to complete, the total number of hours the three songs took to be completed is 3*100 = <<3*100=300>>300 hours\n#### 300"
+    },
+    {
+        "question": "10 hours * 10 days = 100 hours per song\n100 hours * 3 songs = 300 hours total\n\nI hope it is correct: 300 hours\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$300",
+        "ground_truth": "If he worked on a song for 10 hours a day, the total number of hours he takes to complete one song is 10*10 = <<10*10=100>>100 hours.\nIf one song took 100 hours to complete, the total number of hours the three songs took to be completed is 3*100 = <<3*100=300>>300 hours\n#### 300"
+    }
+]

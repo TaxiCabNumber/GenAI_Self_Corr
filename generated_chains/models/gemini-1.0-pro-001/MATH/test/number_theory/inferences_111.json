@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA three-digit number has the same hundreds, tens and units digit.  The sum of the prime factors of the number is 47. What is the three-digit number?",
+        "inference": "Since the three-digit number has the same hundreds, tens and units digit, it must be a multiple of 111.\nThe prime factors of 111 are 3 and 37.\nSince the sum of the prime factors of the number is 47, the number must be 3 * 37 = 111.\nFinal Answer: $\\boxed{111}$. I hope it is correct.",
+        "ground_truth": "We can tell that the three-digit number will be 111 times some number $x$ (resulting in 111, 222,...999), so the prime factors of the three-digit number will contain the prime factors of 111, which has prime factorization $3\\cdot37$. The sum of those two prime factors is 40, which means that $x$ is $47-40=7$. So, our answer is $111\\cdot7=\\boxed{777}$."
+    },
+    {
+        "question": "Since the three-digit number has the same hundreds, tens and units digit, it must be a multiple of 111.\nThe prime factors of 111 are 3 and 37.\nSince the sum of the prime factors of the number is 47, the number must be 3 * 37 = 111.\nFinal Answer: $\\boxed{111}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$37$}.",
+        "ground_truth": "We can tell that the three-digit number will be 111 times some number $x$ (resulting in 111, 222,...999), so the prime factors of the three-digit number will contain the prime factors of 111, which has prime factorization $3\\cdot37$. The sum of those two prime factors is 40, which means that $x$ is $47-40=7$. So, our answer is $111\\cdot7=\\boxed{777}$."
+    }
+]

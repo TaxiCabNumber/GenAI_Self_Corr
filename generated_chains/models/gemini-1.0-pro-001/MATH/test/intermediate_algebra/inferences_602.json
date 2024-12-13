@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind all real values of $x$ that satisfy \\[\\frac{x^2+11x+28}{x+4} - 7 = x.\\](Give your answer in interval notation.)",
+        "inference": "$$\\frac{x^2+11x+28}{x+4} - 7 = x$$ $$\\frac{x^2+11x+28}{x+4} = x+7$$ $$x^2+11x+28 = x(x+4) + 7(x+4)$$ $$x^2+11x+28 = x^2+4x + 7x+28$$ $$x^2+11x+28 = x^2+11x+28$$ The equation is an identity.\n\nFinal Answer: \\boxed{x \\in \\mathbb{R}}. I hope it is correct.",
+        "ground_truth": "Combining the two terms on the left-hand side under a common denominator, we get \\[\\frac{x^2+11x+28 - 7(x+4)}{x+4} = x,\\]or \\[\\frac{x^2+4x}{x+4} = x.\\]If $x \\neq -4,$ then the left-hand side reduces to $\\frac{x(x+4)}{x+4} = x,$ so the equation is always true. And if $x=-4,$ then the denominator of the left-hand side is zero, so the equation is not true. Hence, the solution set consists of all $x$ such that $x \\neq -4.$ In interval notation, this is \\[x \\in \\boxed{(-\\infty, -4) \\cup (-4, \\infty)}.\\]"
+    },
+    {
+        "question": "$$\\frac{x^2+11x+28}{x+4} - 7 = x$$ $$\\frac{x^2+11x+28}{x+4} = x+7$$ $$x^2+11x+28 = x(x+4) + 7(x+4)$$ $$x^2+11x+28 = x^2+4x + 7x+28$$ $$x^2+11x+28 = x^2+11x+28$$ The equation is an identity.\n\nFinal Answer: \\boxed{x \\in \\mathbb{R}}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{x \\in \\mathbb{R}}",
+        "ground_truth": "Combining the two terms on the left-hand side under a common denominator, we get \\[\\frac{x^2+11x+28 - 7(x+4)}{x+4} = x,\\]or \\[\\frac{x^2+4x}{x+4} = x.\\]If $x \\neq -4,$ then the left-hand side reduces to $\\frac{x(x+4)}{x+4} = x,$ so the equation is always true. And if $x=-4,$ then the denominator of the left-hand side is zero, so the equation is not true. Hence, the solution set consists of all $x$ such that $x \\neq -4.$ In interval notation, this is \\[x \\in \\boxed{(-\\infty, -4) \\cup (-4, \\infty)}.\\]"
+    }
+]

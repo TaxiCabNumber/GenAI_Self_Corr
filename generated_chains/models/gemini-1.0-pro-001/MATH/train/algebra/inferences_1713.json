@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSolve for $x$: $$\\sqrt[3]{3-\\frac{1}{x}}=-4$$",
+        "inference": "$$3-\\frac{1}{x}=-64$$\n\n$$-\\frac{1}{x}=-61$$\n\n$$x=\\frac{-1}{-61}=\\frac{1}{61}$$\n\nFinal Answer: $\\boxed{\\frac{1}{61}}$. I hope it is correct.",
+        "ground_truth": "We cube both sides to eliminate the cube root: $3-\\frac{1}{x}=-64$.   Simplifying gives $\\frac{1}{x}=67$ and taking the reciprocal of both sides gives $\\boxed{x=\\frac{1}{67}}$."
+    },
+    {
+        "question": "$$3-\\frac{1}{x}=-64$$\n\n$$-\\frac{1}{x}=-61$$\n\n$$x=\\frac{-1}{-61}=\\frac{1}{61}$$\n\nFinal Answer: $\\boxed{\\frac{1}{61}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{\\frac{1}{61}}$$",
+        "ground_truth": "We cube both sides to eliminate the cube root: $3-\\frac{1}{x}=-64$.   Simplifying gives $\\frac{1}{x}=67$ and taking the reciprocal of both sides gives $\\boxed{x=\\frac{1}{67}}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $T$ be a positive integer whose only digits are 0s and 1s. If $X = T \\div 12$ and $X$ is an integer, what is the smallest possible value of $X$?",
+        "inference": "Since $X$ is an integer, $T$ must be a multiple of $12$.\n\nThe smallest positive multiple of $12$ that has only $0$s and $1$s as digits is $12$.\n\nTherefore, the smallest possible value of $X$ is $\\boxed{12}$.\n\nFinal Answer: $\\boxed{12}$. I hope it is correct.",
+        "ground_truth": "Since $T$ is divisible by 12, it must be divisible by both 3 and 4.  Hence, the sum of its digits is divisible by 3 and its last two digits are divisible by 4.  By inspection, we see that $T$ must end in 00 and therefore the smallest such $T$ is 11100.  Calculating, $X = \\boxed{925}$."
+    },
+    {
+        "question": "Since $X$ is an integer, $T$ must be a multiple of $12$.\n\nThe smallest positive multiple of $12$ that has only $0$s and $1$s as digits is $12$.\n\nTherefore, the smallest possible value of $X$ is $\\boxed{12}$.\n\nFinal Answer: $\\boxed{12}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$12$}",
+        "ground_truth": "Since $T$ is divisible by 12, it must be divisible by both 3 and 4.  Hence, the sum of its digits is divisible by 3 and its last two digits are divisible by 4.  By inspection, we see that $T$ must end in 00 and therefore the smallest such $T$ is 11100.  Calculating, $X = \\boxed{925}$."
+    }
+]

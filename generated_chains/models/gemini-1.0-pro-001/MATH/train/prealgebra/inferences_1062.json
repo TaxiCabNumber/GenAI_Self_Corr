@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $x$ is a positive multiple of 8 and $x^2>100$, but $x<20$, what is $x$?",
+        "inference": "* $x$ is a positive multiple of 8\n* $x^2>100$\n* $x<20$\n\nSquaring both sides of the last inequality gives $x^2<400$. Therefore,\n$$100<x^2<400$$\n\nSince $x^2$ is an integer, the only possibility is $x^2=144$, which gives $x=12$.\n\nFinal Answer: \\boxed{12}. I hope it is correct.",
+        "ground_truth": "This question gives multiple clues on what $x$ could be. Because $x^2>100$, we know that $x$ must be greater than 10, but $x$ is also less than 20. So $x$ is a multiple of 8 that is between 10 and 20. The only value that fits this description is $\\boxed{16}$."
+    },
+    {
+        "question": "* $x$ is a positive multiple of 8\n* $x^2>100$\n* $x<20$\n\nSquaring both sides of the last inequality gives $x^2<400$. Therefore,\n$$100<x^2<400$$\n\nSince $x^2$ is an integer, the only possibility is $x^2=144$, which gives $x=12$.\n\nFinal Answer: \\boxed{12}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{12}",
+        "ground_truth": "This question gives multiple clues on what $x$ could be. Because $x^2>100$, we know that $x$ must be greater than 10, but $x$ is also less than 20. So $x$ is a multiple of 8 that is between 10 and 20. The only value that fits this description is $\\boxed{16}$."
+    }
+]

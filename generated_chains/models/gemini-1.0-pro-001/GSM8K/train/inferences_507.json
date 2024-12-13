@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJames buys steaks for buy one get one free.  The price is $15 per pound and he buys 20 pounds.  How much did he pay for the steaks?",
+        "inference": "1. He bought 20 pounds of steak.\n2. Out of the 20 pounds, he got half of it for free.\n3. He paid for only 10 pounds of steak.\n4. 10 pounds x $15 per pound = $150.\n\nI hope it is correct: $150",
+        "ground_truth": "He pays for 20/2=<<20/2=10>>10 pounds of steaks\nThat cost 10*15=$<<10*15=150>>150\n#### 150"
+    },
+    {
+        "question": "1. He bought 20 pounds of steak.\n2. Out of the 20 pounds, he got half of it for free.\n3. He paid for only 10 pounds of steak.\n4. 10 pounds x $15 per pound = $150.\n\nI hope it is correct: $150\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$100",
+        "ground_truth": "He pays for 20/2=<<20/2=10>>10 pounds of steaks\nThat cost 10*15=$<<10*15=150>>150\n#### 150"
+    }
+]

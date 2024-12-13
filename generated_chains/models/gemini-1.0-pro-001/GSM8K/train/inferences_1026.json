@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMr. Martinez is two feet taller than his daughter, Chiquita. If Chiquita is 5 feet tall, calculate their combined height.",
+        "inference": "1. Chiquita is 5 feet tall.\n2. Mr. Martinez is two feet taller than Chiquita. So, Mr. Martinez is 5 + 2 = 7 feet tall.\n3. Their combined height is Chiquita's height plus Mr. Martinez's height. So, their combined height is 5 + 7 = 12 feet.\n\nI hope it is correct: 12 feet",
+        "ground_truth": "If Chiquita is 5 feet tall, then Mr. Martinez is 5+2 = <<5+2=7>>7 feet tall\nTogether, their height is 7+5 = <<7+5=12>>12 feet.\n#### 12"
+    },
+    {
+        "question": "1. Chiquita is 5 feet tall.\n2. Mr. Martinez is two feet taller than Chiquita. So, Mr. Martinez is 5 + 2 = 7 feet tall.\n3. Their combined height is Chiquita's height plus Mr. Martinez's height. So, their combined height is 5 + 7 = 12 feet.\n\nI hope it is correct: 12 feet\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$12 feet",
+        "ground_truth": "If Chiquita is 5 feet tall, then Mr. Martinez is 5+2 = <<5+2=7>>7 feet tall\nTogether, their height is 7+5 = <<7+5=12>>12 feet.\n#### 12"
+    }
+]

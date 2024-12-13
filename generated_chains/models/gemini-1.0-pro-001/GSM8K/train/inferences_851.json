@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIn a card game, you are awarded 10 points if you win one round. While playing, Jane ends up with 60 points. If she lost 20 points, then how many rounds did she play?",
+        "inference": "**Step 1: Work backward to determine how many points Jane had before losing.**\nAssuming Jane lost 20 points, then she had 60 + 20 = 80 points before losing.\n\n**Step 2: Determine how many rounds Jane won before losing.**\nSince Jane won 10 points per round, she won 80/10 = 8 rounds before losing.\n\n**Step 3: Calculate the total number of rounds Jane played.**\nJane won 8 rounds before losing and then lost 20 points, indicating that she played additional rounds. Therefore, the total number of rounds Jane played is 8 + 2 = 10 rounds.\n\n**Answer:** I hope it is correct: 10 rounds",
+        "ground_truth": "If Jane got 60 points and lost 20 points then the total number of points she accumulated in all the rounds was 60+20 = <<60+20=80>>80 points.\nIf each round is awarded 10 points, then the number of rounds will be 80/10 = <<80/10=8>>8 rounds.\n#### 8"
+    },
+    {
+        "question": "**Step 1: Work backward to determine how many points Jane had before losing.**\nAssuming Jane lost 20 points, then she had 60 + 20 = 80 points before losing.\n\n**Step 2: Determine how many rounds Jane won before losing.**\nSince Jane won 10 points per round, she won 80/10 = 8 rounds before losing.\n\n**Step 3: Calculate the total number of rounds Jane played.**\nJane won 8 rounds before losing and then lost 20 points, indicating that she played additional rounds. Therefore, the total number of rounds Jane played is 8 + 2 = 10 rounds.\n\n**Answer:** I hope it is correct: 10 rounds\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ = 10 rounds",
+        "ground_truth": "If Jane got 60 points and lost 20 points then the total number of points she accumulated in all the rounds was 60+20 = <<60+20=80>>80 points.\nIf each round is awarded 10 points, then the number of rounds will be 80/10 = <<80/10=8>>8 rounds.\n#### 8"
+    }
+]

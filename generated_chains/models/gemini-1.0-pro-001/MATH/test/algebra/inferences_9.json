@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the smallest value of $x$ such that $|5x - 1| = |3x + 2|$? Express your answer as a common fraction.",
+        "inference": "$$\\begin{split}5x - 1 &= \\pm(3x + 2) \\\\\\ 5x - 1 &= 3x + 2 \\\\\\ 5x - 3x &= 2 + 1 \\\\\\ 2x &= 3 \\\\\\ x &= \\frac{3}{2} \\end{split}$$\n\nor\n\n$$\\begin{split}5x - 1 &= -(3x + 2) \\\\\\ 5x - 1 &= -3x - 2 \\\\\\ 5x + 3x &= -2 + 1 \\\\\\ 8x &= -1 \\\\\\ x &= -\\frac{1}{8} \\end{split}$$\n\nThe smallest of these two values is $-\\frac{1}{8}$, so the answer is\n\n$$\\text{Final Answer: }\\boxed{-\\frac{1}{8}}. \\text{ I hope it is correct.}$$",
+        "ground_truth": "There are two cases, when $5x-1=3x+2$ and when $5x-1=-(3x+2).$ The two equations yield $x=\\frac{3}{2}$ and $x=-\\frac{1}{8},$ respectively, of which $x=\\boxed{-\\frac{1}{8}}$ is the smaller solution."
+    },
+    {
+        "question": "$$\\begin{split}5x - 1 &= \\pm(3x + 2) \\\\\\ 5x - 1 &= 3x + 2 \\\\\\ 5x - 3x &= 2 + 1 \\\\\\ 2x &= 3 \\\\\\ x &= \\frac{3}{2} \\end{split}$$\n\nor\n\n$$\\begin{split}5x - 1 &= -(3x + 2) \\\\\\ 5x - 1 &= -3x - 2 \\\\\\ 5x + 3x &= -2 + 1 \\\\\\ 8x &= -1 \\\\\\ x &= -\\frac{1}{8} \\end{split}$$\n\nThe smallest of these two values is $-\\frac{1}{8}$, so the answer is\n\n$$\\text{Final Answer: }\\boxed{-\\frac{1}{8}}. \\text{ I hope it is correct.}$$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{-\\frac{1}{8}}$$",
+        "ground_truth": "There are two cases, when $5x-1=3x+2$ and when $5x-1=-(3x+2).$ The two equations yield $x=\\frac{3}{2}$ and $x=-\\frac{1}{8},$ respectively, of which $x=\\boxed{-\\frac{1}{8}}$ is the smaller solution."
+    }
+]

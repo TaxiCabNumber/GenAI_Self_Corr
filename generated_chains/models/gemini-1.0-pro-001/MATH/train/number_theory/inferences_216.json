@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nGrady distributed $x$ pieces of candy evenly among nine Halloween bags such that every bag received the greatest possible number of whole pieces of candy, but some candy was left over. What is the greatest possible number of pieces that could have been left over?",
+        "inference": "Each bag received $\\lfloor \\frac{x}{9} \\rfloor$ pieces of candy, and there were $x - 9 \\lfloor \\frac{x}{9} \\rfloor$ pieces left over.  Since each bag received the greatest possible number of whole pieces of candy, $x$ must be divisible by 9.  The greatest possible number of pieces left over is 8, which occurs when $x = 9k + 8$ for some integer k.\nFinal Answer: $\\boxed{8}$. I hope it is correct.",
+        "ground_truth": "Grady distributes his candy in groups of 9 until he no longer has any groups left.  The largest number of possible pieces left is $\\boxed{8},$ since if he has more than 8 he can distribute another group of 9."
+    },
+    {
+        "question": "Each bag received $\\lfloor \\frac{x}{9} \\rfloor$ pieces of candy, and there were $x - 9 \\lfloor \\frac{x}{9} \\rfloor$ pieces left over.  Since each bag received the greatest possible number of whole pieces of candy, $x$ must be divisible by 9.  The greatest possible number of pieces left over is 8, which occurs when $x = 9k + 8$ for some integer k.\nFinal Answer: $\\boxed{8}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{8}",
+        "ground_truth": "Grady distributes his candy in groups of 9 until he no longer has any groups left.  The largest number of possible pieces left is $\\boxed{8},$ since if he has more than 8 he can distribute another group of 9."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nCarter can read half as many pages as Lucy in 1 hour. Lucy can read 20 more pages than Oliver in 1 hour.  Oliver can read 40 pages.  How many pages can Carter read in 1 hour?",
+        "inference": "If Oliver can read 40 pages in 1 hour, then in 1/2 hour, he can read 40/2 = 20 pages.  Since Lucy can read 20 more pages than Oliver in 1 hour, she can read 20 + 20 = 40 pages in 1 hour.  Since Carter can read half as many pages as Lucy in 1 hour, he can read 40/2 = 20 pages in 1 hour.\n\nI hope it is correct: 20",
+        "ground_truth": "Lucy can read 20 more pages than Oliver who can read 40 pages so Lucy can read 40+20 = <<20+40=60>>60 pages\nCarter can read half as many pages as Lucy who can read 60 pages so he can read 60/2 = <<30=30>>30 pages in 1 hour\n#### 30"
+    },
+    {
+        "question": "If Oliver can read 40 pages in 1 hour, then in 1/2 hour, he can read 40/2 = 20 pages.  Since Lucy can read 20 more pages than Oliver in 1 hour, she can read 20 + 20 = 40 pages in 1 hour.  Since Carter can read half as many pages as Lucy in 1 hour, he can read 40/2 = 20 pages in 1 hour.\n\nI hope it is correct: 20\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$20",
+        "ground_truth": "Lucy can read 20 more pages than Oliver who can read 40 pages so Lucy can read 40+20 = <<20+40=60>>60 pages\nCarter can read half as many pages as Lucy who can read 60 pages so he can read 60/2 = <<30=30>>30 pages in 1 hour\n#### 30"
+    }
+]

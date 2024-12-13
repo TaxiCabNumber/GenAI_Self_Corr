@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTom cannot afford a normal doctor, so he goes to a discount clinic that is 70% cheaper.   It takes two visits, though, instead of 1.   A normal doctor charges $200 for a visit.   How much money does he save?",
+        "inference": "1. The cost of a visit to a normal doctor =  $200\n\n2. The cost of a visit to a discount clinic = $200 - (70% of $200) = $200 - $140 = $60\n\n3. The total cost of two visits to a discount clinic =  $60 * 2 = $120\n\n4. The savings =  $200 - $120 =  $80\n\nI hope it is correct: I hope it is correct: $80$",
+        "ground_truth": "Each of Tom's visits was 200*.7=$<<200*.7=140>>140 cheaper\nSo he paid $200 - $140 = $<<200-140=60>>60 per visit\nThat means he paid $60 * 2 = $<<60*2=120>>120\nSo he saved $200 - $120 = $<<200-120=80>>80\n#### 80"
+    },
+    {
+        "question": "1. The cost of a visit to a normal doctor =  $200\n\n2. The cost of a visit to a discount clinic = $200 - (70% of $200) = $200 - $140 = $60\n\n3. The total cost of two visits to a discount clinic =  $60 * 2 = $120\n\n4. The savings =  $200 - $120 =  $80\n\nI hope it is correct: I hope it is correct: $80$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$80",
+        "ground_truth": "Each of Tom's visits was 200*.7=$<<200*.7=140>>140 cheaper\nSo he paid $200 - $140 = $<<200-140=60>>60 per visit\nThat means he paid $60 * 2 = $<<60*2=120>>120\nSo he saved $200 - $120 = $<<200-120=80>>80\n#### 80"
+    }
+]

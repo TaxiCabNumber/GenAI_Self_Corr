@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the smallest positive value of $x$ such that\n\\[\\tan 20^\\circ + 2 \\tan 50^\\circ = \\tan x^\\circ.\\]",
+        "inference": "Final Answer: $\\boxed{70}$. I hope it is correct. \n",
+        "ground_truth": "We can start by looking at the expression $\\tan 20^\\circ + \\tan 50^\\circ.$  This shows up when applying the tangent addition formula to $20^\\circ$ and $50^\\circ$:\n\\[\\tan 70^\\circ = \\tan (20^\\circ + 50^\\circ) = \\frac{\\tan 20^\\circ + \\tan 50^\\circ}{1 - \\tan 20^\\circ \\tan 50^\\circ},\\]so\n\\begin{align*}\n\\tan 20^\\circ + \\tan 50^\\circ &= \\tan 70^\\circ (1 - \\tan 20^\\circ \\tan 50^\\circ) \\\\\n&= \\tan 70^\\circ - \\tan 20^\\circ \\tan 50^\\circ \\tan 70^\\circ.\n\\end{align*}Since $20^\\circ + 70^\\circ = 90^\\circ,$ $\\tan 20^\\circ \\tan 70^\\circ = 1,$ so\n\\[\\tan 20^\\circ + \\tan 50^\\circ = \\tan 70^\\circ - \\tan 50^\\circ.\\]Therefore, $\\tan 20^\\circ + 2 \\tan 50^\\circ = \\tan 70^\\circ,$ so $x = \\boxed{70}.$"
+    },
+    {
+        "question": "Final Answer: $\\boxed{70}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the problem and your solution so I can help you verify it! I need the context to identify any potential errors and offer a corrected solution. \n",
+        "ground_truth": "We can start by looking at the expression $\\tan 20^\\circ + \\tan 50^\\circ.$  This shows up when applying the tangent addition formula to $20^\\circ$ and $50^\\circ$:\n\\[\\tan 70^\\circ = \\tan (20^\\circ + 50^\\circ) = \\frac{\\tan 20^\\circ + \\tan 50^\\circ}{1 - \\tan 20^\\circ \\tan 50^\\circ},\\]so\n\\begin{align*}\n\\tan 20^\\circ + \\tan 50^\\circ &= \\tan 70^\\circ (1 - \\tan 20^\\circ \\tan 50^\\circ) \\\\\n&= \\tan 70^\\circ - \\tan 20^\\circ \\tan 50^\\circ \\tan 70^\\circ.\n\\end{align*}Since $20^\\circ + 70^\\circ = 90^\\circ,$ $\\tan 20^\\circ \\tan 70^\\circ = 1,$ so\n\\[\\tan 20^\\circ + \\tan 50^\\circ = \\tan 70^\\circ - \\tan 50^\\circ.\\]Therefore, $\\tan 20^\\circ + 2 \\tan 50^\\circ = \\tan 70^\\circ,$ so $x = \\boxed{70}.$"
+    }
+]

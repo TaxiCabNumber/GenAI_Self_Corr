@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSara is 6 inches taller than her brother Joe. Joe is 3 inches taller than his friend Roy. If Roy is 36 inches tall, how tall is Sara?",
+        "inference": "Sara is 6 inches taller than her brother Joe.  \n\nJoe is 3 inches taller than his friend Roy.  \n\nRoy is 36 inches tall.  \n\nSo, Joe is 36 + 3 = 39 inches tall.  \n\nSara is 39 + 6 = 45 inches tall.  \n\nI hope it is correct: 45",
+        "ground_truth": "Roy is <<36=36>>36 inches tall\nJoe is 3+36=<<3+36=39>>39 inches tall\nSara is 6+39=<<6+39=45>>45 inches tall\n#### 45"
+    },
+    {
+        "question": "Sara is 6 inches taller than her brother Joe.  \n\nJoe is 3 inches taller than his friend Roy.  \n\nRoy is 36 inches tall.  \n\nSo, Joe is 36 + 3 = 39 inches tall.  \n\nSara is 39 + 6 = 45 inches tall.  \n\nI hope it is correct: 45\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 45",
+        "ground_truth": "Roy is <<36=36>>36 inches tall\nJoe is 3+36=<<3+36=39>>39 inches tall\nSara is 6+39=<<6+39=45>>45 inches tall\n#### 45"
+    }
+]

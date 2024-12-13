@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMark has two pets, a hare that runs 10 feet/second and a turtle that crawls 1 foot/second. If they're going to run a 20 foot-race, how much of a head start (in seconds) does the turtle need to finish in a tie?",
+        "inference": "The hare runs at 10 feet per second, so it will take him 20 feet / 10 feet/second = 2 seconds to finish the race. \nThe turtle runs at 1 foot per second, so it will take him 20 feet / 1 foot/second = 20 seconds to finish the race. \nThe turtle needs to finish in 2 seconds, so it needs a head start of 20 seconds - 2 seconds = 18 seconds.\n\nI hope it is correct: 18 $seconds$ \n",
+        "ground_truth": "We can find how long the hare spends running by dividing the distance of the race by the hare's speed: 20 feet / 10 feet/second = <<20/10=2>>2 seconds\nWe can do the same for the turtle: 20 feet / 1 foot/second = <<20/1=20>>20 seconds\nFinally, subtract the hare's run time from the turtle's run time to find the length of the head start the turtle needs: 20 seconds - 2 seconds = <<20-2=18>>18 seconds\n#### 18"
+    },
+    {
+        "question": "The hare runs at 10 feet per second, so it will take him 20 feet / 10 feet/second = 2 seconds to finish the race. \nThe turtle runs at 1 foot per second, so it will take him 20 feet / 1 foot/second = 20 seconds to finish the race. \nThe turtle needs to finish in 2 seconds, so it needs a head start of 20 seconds - 2 seconds = 18 seconds.\n\nI hope it is correct: 18 $seconds$ \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ 16 seconds \n",
+        "ground_truth": "We can find how long the hare spends running by dividing the distance of the race by the hare's speed: 20 feet / 10 feet/second = <<20/10=2>>2 seconds\nWe can do the same for the turtle: 20 feet / 1 foot/second = <<20/1=20>>20 seconds\nFinally, subtract the hare's run time from the turtle's run time to find the length of the head start the turtle needs: 20 seconds - 2 seconds = <<20-2=18>>18 seconds\n#### 18"
+    }
+]

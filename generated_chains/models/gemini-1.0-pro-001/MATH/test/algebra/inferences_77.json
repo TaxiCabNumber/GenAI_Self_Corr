@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFor what value of $x$ will $\\frac{2x-1}{2x+2}$ and $\\frac{x-3}{x-1}$ be equal?",
+        "inference": "Given the expressions:\n\n$$\\frac{2x-1}{2x+2}=\\frac{x-3}{x-1}$$\n\nCross multiply:\n\n$$(2x-1)(x-1)=(2x+2)(x-3)$$\n\nExpand and simplify:\n\n$$2x^2-3x-x+1=2x^2-6x+4x-6$$\n\nCombine like terms:\n\n$$2x^2-4x+1=2x^2-2x-6$$\n\nSubtract $2x^2$ from both sides:\n\n$-4x+1=-2x-6$$\n\nAdd $4x$ to both sides:\n\n$$1=-2x-6$$\n\nAdd $6$ to both sides:\n\n$$7=-2x$$\n\nDivide both sides by $-2$:\n\n$$x=-\\frac{7}{2}$$\n\nFinal Answer: $\\boxed{-\\frac{7}{2}}$. I hope it is correct.",
+        "ground_truth": "We have the equation $\\frac{2x-1}{2x+2}=\\frac{x-3}{x-1}$. Cross-multiplying and simplifying, we get \\begin{align*}\n(2x-1)(x-1)&=(2x+2)(x-3)\\\\\n2x^2 - x - 2x + 1 &= 2x^2 + 2x - 3 \\cdot 2x - 3 \\cdot 2 \\\\\n2x^2 - 3x + 1&=2x^2-4x-6\\\\\nx&=\\boxed{-7}\n\\end{align*}"
+    },
+    {
+        "question": "Given the expressions:\n\n$$\\frac{2x-1}{2x+2}=\\frac{x-3}{x-1}$$\n\nCross multiply:\n\n$$(2x-1)(x-1)=(2x+2)(x-3)$$\n\nExpand and simplify:\n\n$$2x^2-3x-x+1=2x^2-6x+4x-6$$\n\nCombine like terms:\n\n$$2x^2-4x+1=2x^2-2x-6$$\n\nSubtract $2x^2$ from both sides:\n\n$-4x+1=-2x-6$$\n\nAdd $4x$ to both sides:\n\n$$1=-2x-6$$\n\nAdd $6$ to both sides:\n\n$$7=-2x$$\n\nDivide both sides by $-2$:\n\n$$x=-\\frac{7}{2}$$\n\nFinal Answer: $\\boxed{-\\frac{7}{2}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{-\\frac{7}{2}}$$",
+        "ground_truth": "We have the equation $\\frac{2x-1}{2x+2}=\\frac{x-3}{x-1}$. Cross-multiplying and simplifying, we get \\begin{align*}\n(2x-1)(x-1)&=(2x+2)(x-3)\\\\\n2x^2 - x - 2x + 1 &= 2x^2 + 2x - 3 \\cdot 2x - 3 \\cdot 2 \\\\\n2x^2 - 3x + 1&=2x^2-4x-6\\\\\nx&=\\boxed{-7}\n\\end{align*}"
+    }
+]

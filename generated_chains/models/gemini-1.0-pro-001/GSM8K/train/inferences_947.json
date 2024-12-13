@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohnny has been playing guitar for a while now.  He practices the same amount each day. As of 20 days ago he had half as much practice as he has currently.  How many days will pass before Johnny has 3 times as much practice as he does currently?",
+        "inference": "Let x be the number of days that have passed since Johnny started practicing. 20 days ago, Johnny had half as much practice as he has currently. This means that x \u2013 20 = 1/2 * x. Solving for x, we get x = 40. This means that Johnny has been practicing for 40 days. Johnny will have 3 times as much practice as he does currently in x days. This means that 3 * (40 + x) = 40 + x + x. Solving for x, we get x = 40. I hope it is correct: 40",
+        "ground_truth": "If Johnny had half as much practice as he currently has as of 20 days ago, this means he has 20*2=<<20*2=40>>40 days worth of practice currently.\nTherefore, to have three times as much practice as he currently has, he'd need to practice for 40*3=<<40*3=120>>120 days.\nSince he's already practiced for 40 days, this means he needs to practice or 120-40= <<120-40=80>>80 more days\n#### 80"
+    },
+    {
+        "question": "Let x be the number of days that have passed since Johnny started practicing. 20 days ago, Johnny had half as much practice as he has currently. This means that x \u2013 20 = 1/2 * x. Solving for x, we get x = 40. This means that Johnny has been practicing for 40 days. Johnny will have 3 times as much practice as he does currently in x days. This means that 3 * (40 + x) = 40 + x + x. Solving for x, we get x = 40. I hope it is correct: 40\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 80",
+        "ground_truth": "If Johnny had half as much practice as he currently has as of 20 days ago, this means he has 20*2=<<20*2=40>>40 days worth of practice currently.\nTherefore, to have three times as much practice as he currently has, he'd need to practice for 40*3=<<40*3=120>>120 days.\nSince he's already practiced for 40 days, this means he needs to practice or 120-40= <<120-40=80>>80 more days\n#### 80"
+    }
+]

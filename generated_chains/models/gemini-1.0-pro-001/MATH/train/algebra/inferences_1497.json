@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nBilly's age is twice Joe's age and the sum of their ages is 45. How old is Billy?",
+        "inference": "Let $J$ be Joe's age and $B$ be Billy's age.\n\nThen, we have the following system of equations:\n\n$$B=2J\\tag 1$$\n\n$$B+J=45\\tag 2$$\n\nSubstituting (1) into (2), we get:\n\n$$2J+J=45$$\n\n$$3J=45$$\n\n$$J=15$$\n\nSubstituting $J=15$ into (1), we get:\n\n$$B=2(15)=30$$\n\n**Final Answer: \\boxed{$30$}. I hope it is correct.**",
+        "ground_truth": "Let $B$ and $J$ represent the respective ages of Billy and Joe. We can write the equations $B=2J$ and $B+J=45$. We use the second equation to solve for $J$ in terms of $B$ and get $J=45-B$. Now we plug in this expression for $J$ into the first equation. $$B=2(45-B)=90-2B\\qquad\\Rightarrow 3B=90\\qquad\\Rightarrow B=30$$ So Billy is $\\boxed{30}$ years old."
+    },
+    {
+        "question": "Let $J$ be Joe's age and $B$ be Billy's age.\n\nThen, we have the following system of equations:\n\n$$B=2J\\tag 1$$\n\n$$B+J=45\\tag 2$$\n\nSubstituting (1) into (2), we get:\n\n$$2J+J=45$$\n\n$$3J=45$$\n\n$$J=15$$\n\nSubstituting $J=15$ into (1), we get:\n\n$$B=2(15)=30$$\n\n**Final Answer: \\boxed{$30$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$30$}.",
+        "ground_truth": "Let $B$ and $J$ represent the respective ages of Billy and Joe. We can write the equations $B=2J$ and $B+J=45$. We use the second equation to solve for $J$ in terms of $B$ and get $J=45-B$. Now we plug in this expression for $J$ into the first equation. $$B=2(45-B)=90-2B\\qquad\\Rightarrow 3B=90\\qquad\\Rightarrow B=30$$ So Billy is $\\boxed{30}$ years old."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA clinic administered the covid vaccine to 650 people. 80% of the people were adults. How many of the vaccinated people were children?",
+        "inference": "The number of adults = (80/100) x 650 = 520\nThe number of children = 650 - 520 = 130\nI hope it is correct: 130",
+        "ground_truth": "Since 80% of the people were adults, this means 100% - 80% = 20 % were children.\n20% of the people vaccinated were children. The number of children is 20% of 650.\n20% = 0.2, so 0.2 * 650 = <<0.2*650=130>>130 children were vaccinated.\n#### 130"
+    },
+    {
+        "question": "The number of adults = (80/100) x 650 = 520\nThe number of children = 650 - 520 = 130\nI hope it is correct: 130\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 130",
+        "ground_truth": "Since 80% of the people were adults, this means 100% - 80% = 20 % were children.\n20% of the people vaccinated were children. The number of children is 20% of 650.\n20% = 0.2, so 0.2 * 650 = <<0.2*650=130>>130 children were vaccinated.\n#### 130"
+    }
+]

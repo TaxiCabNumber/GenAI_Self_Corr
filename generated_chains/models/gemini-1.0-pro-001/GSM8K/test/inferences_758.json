@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA bag has a 5% discount. If it is marked $140, how much will you pay after the discount?",
+        "inference": "**1.** Calculate the discount amount:\n\nDiscount amount = Discount percentage * Marked price\nDiscount amount = 0.05 * $140\nDiscount amount = $7\n\n**2.** Subtract the discount amount from the marked price to find the sale price:\n\nSale price = Marked price - Discount amount\nSale price = $140 - $7\nSale price = **$133**\n\n**I hope it is correct: $133$**",
+        "ground_truth": "The discount amounts to $140 x 5/100 = $<<140*5/100=7>>7.\nHence, you will pay $140 - $7 = $<<140-7=133>>133 for the discounted bag.\n#### 133"
+    },
+    {
+        "question": "**1.** Calculate the discount amount:\n\nDiscount amount = Discount percentage * Marked price\nDiscount amount = 0.05 * $140\nDiscount amount = $7\n\n**2.** Subtract the discount amount from the marked price to find the sale price:\n\nSale price = Marked price - Discount amount\nSale price = $140 - $7\nSale price = **$133**\n\n**I hope it is correct: $133$**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $133$",
+        "ground_truth": "The discount amounts to $140 x 5/100 = $<<140*5/100=7>>7.\nHence, you will pay $140 - $7 = $<<140-7=133>>133 for the discounted bag.\n#### 133"
+    }
+]

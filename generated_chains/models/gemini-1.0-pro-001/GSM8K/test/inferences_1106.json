@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMarty has 100 centimeters of ribbon that he must cut into 4 equal parts. Each of the cut parts must be divided into 5 equal parts. How long will each final cut be?",
+        "inference": "1. Divide 100 cm by 4 to find the length of each of the 4 equal parts.\n100 cm \u00f7 4 = 25 cm\n\n2. Divide 25 cm by 5 to find the length of each of the 5 equal parts.\n25 cm \u00f7 5 = 5 cm\n\nI hope it is correct: 5 cm",
+        "ground_truth": "The 100-centimeter ribbon is cut into 4 equal parts in pieces of 100 / 4 = <<100/4=25>>25 cm\nFrom each piece of 25 cm, he gets 5 equal parts of 25 / 5 = <<25/5=5>>5 cm each.\n#### 5"
+    },
+    {
+        "question": "1. Divide 100 cm by 4 to find the length of each of the 4 equal parts.\n100 cm \u00f7 4 = 25 cm\n\n2. Divide 25 cm by 5 to find the length of each of the 5 equal parts.\n25 cm \u00f7 5 = 5 cm\n\nI hope it is correct: 5 cm\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 5 cm",
+        "ground_truth": "The 100-centimeter ribbon is cut into 4 equal parts in pieces of 100 / 4 = <<100/4=25>>25 cm\nFrom each piece of 25 cm, he gets 5 equal parts of 25 / 5 = <<25/5=5>>5 cm each.\n#### 5"
+    }
+]

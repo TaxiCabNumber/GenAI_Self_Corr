@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA bag contains 16 congruent blocks, 4 of which are blue and 12 of which are red. Two blocks are randomly pulled from the bag at the same time. What is the probability that both blocks are blue? Express your answer as a common fraction.",
+        "inference": "The probability of drawing a blue block on the first draw is 4/16 = 1/4. After the first draw, there are 3 blue blocks and 11 red blocks left in the bag, so the probability of drawing a blue block on the second draw is 3/15 = 1/5. The probability of drawing two blue blocks is the product of the probabilities of drawing a blue block on each draw, so the probability is (1/4) * (1/5) = 1/20.\nFinal Answer: $\\boxed{\\frac{1}{20}}$. I hope it is correct.",
+        "ground_truth": "Treating the 16 blocks as distinct, we can choose ${16 \\choose 2} = 120$ pairs of blocks. Of these, since there are 4 blue blocks, ${4 \\choose 2} = 6$ are blue pairs. So, the probability of getting a blue pair of blocks is $\\frac{6}{120} =\\boxed{ \\frac{1}{20}}$."
+    },
+    {
+        "question": "The probability of drawing a blue block on the first draw is 4/16 = 1/4. After the first draw, there are 3 blue blocks and 11 red blocks left in the bag, so the probability of drawing a blue block on the second draw is 3/15 = 1/5. The probability of drawing two blue blocks is the product of the probabilities of drawing a blue block on each draw, so the probability is (1/4) * (1/5) = 1/20.\nFinal Answer: $\\boxed{\\frac{1}{20}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$\\frac{1}{20}$}",
+        "ground_truth": "Treating the 16 blocks as distinct, we can choose ${16 \\choose 2} = 120$ pairs of blocks. Of these, since there are 4 blue blocks, ${4 \\choose 2} = 6$ are blue pairs. So, the probability of getting a blue pair of blocks is $\\frac{6}{120} =\\boxed{ \\frac{1}{20}}$."
+    }
+]

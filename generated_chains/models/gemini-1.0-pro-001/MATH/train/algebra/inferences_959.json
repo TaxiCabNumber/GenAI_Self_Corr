@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nReal numbers $x$ and $y$ satisfy the equation $x^2 + y^2 = 10x - 6y - 34$.  What is $x+y$?",
+        "inference": "$$x^2+y^2=10x-6y-34$$\nComplete the square for both variables:\n$$(x^2-10x+25)+(y^2+6y+9)=25+9-34$$\n$$(x-5)^2+(y+3)^2=4$$\nSolving for \\(x+y\\)\n$$(x-5)^2+(y+3)^2=2^2$$\nThe sum of \\(x\\) and \\(y\\) is:\n$$(x+y)-5+3=\\pm2$$\n$$x+y=\\pm2+2$$\n$$x+y=\\pm4$$\n$$x+y=-4\\text{ or }x+y=4$$\n\nFinal Answer: \\boxed{$4 or -4$}. I hope it is correct.",
+        "ground_truth": "If we complete the square after bringing the $x$ and $y$ terms to the other side, we get \\[(x-5)^2 + (y+3)^2 = 0.\\]Squares of real numbers are nonnegative, so we need both $(x-5)^2$ and $(y+3)^2$ to be $0.$  This only happens when $x = 5$ and $y = -3.$ Thus, $x+y = 5 + (-3) = \\boxed{2}.$"
+    },
+    {
+        "question": "$$x^2+y^2=10x-6y-34$$\nComplete the square for both variables:\n$$(x^2-10x+25)+(y^2+6y+9)=25+9-34$$\n$$(x-5)^2+(y+3)^2=4$$\nSolving for \\(x+y\\)\n$$(x-5)^2+(y+3)^2=2^2$$\nThe sum of \\(x\\) and \\(y\\) is:\n$$(x+y)-5+3=\\pm2$$\n$$x+y=\\pm2+2$$\n$$x+y=\\pm4$$\n$$x+y=-4\\text{ or }x+y=4$$\n\nFinal Answer: \\boxed{$4 or -4$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$4 or -4$}.",
+        "ground_truth": "If we complete the square after bringing the $x$ and $y$ terms to the other side, we get \\[(x-5)^2 + (y+3)^2 = 0.\\]Squares of real numbers are nonnegative, so we need both $(x-5)^2$ and $(y+3)^2$ to be $0.$  This only happens when $x = 5$ and $y = -3.$ Thus, $x+y = 5 + (-3) = \\boxed{2}.$"
+    }
+]

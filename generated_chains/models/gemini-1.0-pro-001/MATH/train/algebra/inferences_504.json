@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nTwo parabolas are the graphs of the equations $y=2x^2-7x+1$ and $y=8x^2+5x+1$. Give all points where they intersect.  List the points in order of increasing $x$-coordinate, separated by semicolons.",
+        "inference": "Set the equations equal to each other.\n$$2x^2-7x+1=8x^2+5x+1$$\n$$0=6x^2+12x$$\n$$0=2x(3x+6)$$\n$$x=0,-2$$\nSubstitute the $x$-values back into one of the equations to find the $y$-coordinate.\n$$y=8(0)^2+5(0)+1=1$$\n$$y=8(-2)^2+5(-2)+1=21$$\nThe points of intersection are $(0,1)$ and $(-2,21)$.\n$\\\\~\\\\$\nFinal Answer: $\\boxed{(0,1);(-2,21)}$ I hope it is correct.",
+        "ground_truth": "First, set the two equations equal to each other to get $2x^2-7x+1=8x^2+5x+1$. Combine like terms to get $6x^2+12x=0$. Then, we can divide by $6$ to get $x^2+2x=0$. To complete the square, we need to add $\\left(\\dfrac{2}{2}\\right)^2=1$ to both sides, giving $(x+1)^2=1$.\n\nSo we have $x+1=\\pm1$. Solving for $x$ gives us $x=-2$ or $0$. Using these in our original parabolas, we find the points of intersection to be $\\boxed{(-2, 23)}$ and $\\boxed{(0, 1)}$."
+    },
+    {
+        "question": "Set the equations equal to each other.\n$$2x^2-7x+1=8x^2+5x+1$$\n$$0=6x^2+12x$$\n$$0=2x(3x+6)$$\n$$x=0,-2$$\nSubstitute the $x$-values back into one of the equations to find the $y$-coordinate.\n$$y=8(0)^2+5(0)+1=1$$\n$$y=8(-2)^2+5(-2)+1=21$$\nThe points of intersection are $(0,1)$ and $(-2,21)$.\n$\\\\~\\\\$\nFinal Answer: $\\boxed{(0,1);(-2,21)}$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{(0,1);(-2,21)}$",
+        "ground_truth": "First, set the two equations equal to each other to get $2x^2-7x+1=8x^2+5x+1$. Combine like terms to get $6x^2+12x=0$. Then, we can divide by $6$ to get $x^2+2x=0$. To complete the square, we need to add $\\left(\\dfrac{2}{2}\\right)^2=1$ to both sides, giving $(x+1)^2=1$.\n\nSo we have $x+1=\\pm1$. Solving for $x$ gives us $x=-2$ or $0$. Using these in our original parabolas, we find the points of intersection to be $\\boxed{(-2, 23)}$ and $\\boxed{(0, 1)}$."
+    }
+]

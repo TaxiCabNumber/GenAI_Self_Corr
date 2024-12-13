@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the distance between the planes $x + 2y - 2z + 1 = 0$ and $2x + 4y - 4z + 5 = 0.$",
+        "inference": "Final Answer: \\\\boxed{$\\frac{3}{6} = \\frac{1}{2}$}. I hope it is correct.",
+        "ground_truth": "A point on the first plane is $(-1,0,0).$  Then from the formula for the distance from a point to a plane, the distance from $(-1,0,0)$ to the plane $2x + 4y - 4z + 5 = 0$ is\n\\[\\frac{|(2)(-1) + (4)(0) + (-4)(0) + 5|}{\\sqrt{2^2 + 4^2 + (-4)^2}} = \\boxed{\\frac{1}{2}}.\\](Note that we can write the equation of the second plane as $x + 2y - 2z + \\frac{5}{2} = 0.$  Thus, both planes have the same normal vector, so they are parallel.)"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{$\\frac{3}{6} = \\frac{1}{2}$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$\\frac{3}{6} = \\frac{1}{2}$}. I hope it is correct. \n",
+        "ground_truth": "A point on the first plane is $(-1,0,0).$  Then from the formula for the distance from a point to a plane, the distance from $(-1,0,0)$ to the plane $2x + 4y - 4z + 5 = 0$ is\n\\[\\frac{|(2)(-1) + (4)(0) + (-4)(0) + 5|}{\\sqrt{2^2 + 4^2 + (-4)^2}} = \\boxed{\\frac{1}{2}}.\\](Note that we can write the equation of the second plane as $x + 2y - 2z + \\frac{5}{2} = 0.$  Thus, both planes have the same normal vector, so they are parallel.)"
+    }
+]

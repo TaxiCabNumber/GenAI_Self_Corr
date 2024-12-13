@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nPoints earned on equally weighted tests are 70, 80, 90, 75, 80 and 85. What is the mean of these six test scores?",
+        "inference": "- Add all the scores together: $70+80+90+75+80+85 = 480$.\n- Divide the sum by the number of scores: $480/6 = 80$.\n- The mean of the six test scores is 80.\n\nFinal Answer: $\\boxed{80}$. I hope it is correct.",
+        "ground_truth": "We take the average of these six scores: \\begin{align*}\n\\frac{70 + 80 + 90 + 75 + 80 + 85}{6} &= \\frac{(70 + 90) + 80 + 80 + (75 + 85)}{6}\\\\\n&= \\frac{(80 + 80) + 80 + 80 + (80 + 80)}{6}\\\\\n&= \\frac{6\\cdot 80}{6}\\\\\n&= \\boxed{80}.\n\\end{align*}"
+    },
+    {
+        "question": "- Add all the scores together: $70+80+90+75+80+85 = 480$.\n- Divide the sum by the number of scores: $480/6 = 80$.\n- The mean of the six test scores is 80.\n\nFinal Answer: $\\boxed{80}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$80$}.",
+        "ground_truth": "We take the average of these six scores: \\begin{align*}\n\\frac{70 + 80 + 90 + 75 + 80 + 85}{6} &= \\frac{(70 + 90) + 80 + 80 + (75 + 85)}{6}\\\\\n&= \\frac{(80 + 80) + 80 + 80 + (80 + 80)}{6}\\\\\n&= \\frac{6\\cdot 80}{6}\\\\\n&= \\boxed{80}.\n\\end{align*}"
+    }
+]

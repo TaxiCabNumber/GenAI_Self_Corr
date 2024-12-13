@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the number of positive integers $n \\le 1000$ such that $15n$ is a perfect square.",
+        "inference": "Final Answer: \\\\boxed{10}. I hope it is correct. \n",
+        "ground_truth": "Since $15 \\mid 15n$, and $15$ is square-free, we must have $15^2 \\mid 15n$, so $15 \\mid n$. Say $n=15a$. Then $15^2 a = 15n$ is a square, and conversely, if $a$ is a square, then $15^2 a$ is a square. Thus we are counting the number of positive squares $a$ such that $15a \\le 1000$ or $a \\le \\frac{200}{3} \\approx 66.6$. The largest such square is $64=8^2$, so the possible values of $a$ are $b^2$ for $b=1,2,3,4,5,6,7,8$, giving $\\boxed{8}$ possible values of $a$ (and hence 8 possible values for $n$)."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{10}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the question and the solution you are referring to. I need more context to identify any errors and provide a corrected solution. \n",
+        "ground_truth": "Since $15 \\mid 15n$, and $15$ is square-free, we must have $15^2 \\mid 15n$, so $15 \\mid n$. Say $n=15a$. Then $15^2 a = 15n$ is a square, and conversely, if $a$ is a square, then $15^2 a$ is a square. Thus we are counting the number of positive squares $a$ such that $15a \\le 1000$ or $a \\le \\frac{200}{3} \\approx 66.6$. The largest such square is $64=8^2$, so the possible values of $a$ are $b^2$ for $b=1,2,3,4,5,6,7,8$, giving $\\boxed{8}$ possible values of $a$ (and hence 8 possible values for $n$)."
+    }
+]

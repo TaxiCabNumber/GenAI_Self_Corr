@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAnne purchased a box of sweets that contains 15 packs, and each pack has 60 pieces. She kept two packs and gave the rest to her 10 friends equally. How many pieces of sweets did each of her friends receive?",
+        "inference": "1. Find the total number of sweets:15 packs * 60 pieces/pack = 900 pieces\n\n2. Subtract the number of packs Anne kept: 900 pieces - 2 packs * 60 pieces/pack = 720 pieces\n\n3. Divide the remaining sweets equally among her 10 friends: 720 pieces / 10 friends = 72 pieces/friend\n\nI hope it is correct: 72",
+        "ground_truth": "After Anne kept 2 packs, there were only 15 - 2 = <<15-2=13>>13 packs left.\nTherefore, there were 13 x 60 = <<13*60=780>>780 pieces of sweets left.\nSo, each of her 10 friends received 780 / 10 = <<780/10=78>>78 pieces of sweets.\n#### 78"
+    },
+    {
+        "question": "1. Find the total number of sweets:15 packs * 60 pieces/pack = 900 pieces\n\n2. Subtract the number of packs Anne kept: 900 pieces - 2 packs * 60 pieces/pack = 720 pieces\n\n3. Divide the remaining sweets equally among her 10 friends: 720 pieces / 10 friends = 72 pieces/friend\n\nI hope it is correct: 72\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$72",
+        "ground_truth": "After Anne kept 2 packs, there were only 15 - 2 = <<15-2=13>>13 packs left.\nTherefore, there were 13 x 60 = <<13*60=780>>780 pieces of sweets left.\nSo, each of her 10 friends received 780 / 10 = <<780/10=78>>78 pieces of sweets.\n#### 78"
+    }
+]

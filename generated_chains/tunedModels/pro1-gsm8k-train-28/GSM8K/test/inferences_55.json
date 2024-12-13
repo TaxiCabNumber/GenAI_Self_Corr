@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJean has 30 lollipops. Jean eats 2 of the lollipops. With the remaining lollipops, Jean wants to package 2 lollipops in one bag. How many bags can Jean fill?",
+        "inference": "1. Jean has 30 lollipops.\n2. Jean eats 2 of the lollipops.\n3. Jean has 30 - 2 = 28 lollipops left.\n4. Jean wants to package 2 lollipops in one bag.\n5. Jean can fill 28 / 2 = 14 bags.\nI hope it is correct: 14 $bags$",
+        "ground_truth": "Jean has 30 - 2 = <<30-2=28>>28 lollipops\nJean can fill up 28 / 2 = <<28/2=14>>14 bags with lollipops\n#### 14"
+    },
+    {
+        "question": "1. Jean has 30 lollipops.\n2. Jean eats 2 of the lollipops.\n3. Jean has 30 - 2 = 28 lollipops left.\n4. Jean wants to package 2 lollipops in one bag.\n5. Jean can fill 28 / 2 = 14 bags.\nI hope it is correct: 14 $bags$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 14",
+        "ground_truth": "Jean has 30 - 2 = <<30-2=28>>28 lollipops\nJean can fill up 28 / 2 = <<28/2=14>>14 bags with lollipops\n#### 14"
+    }
+]

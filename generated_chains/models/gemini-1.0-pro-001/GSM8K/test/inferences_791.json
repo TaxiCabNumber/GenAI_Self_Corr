@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA train has 172 people traveling on it. At the first stop 47 people get off and 13 more people get on, and at the next stop another 38 people get off. How many people are on the train?",
+        "inference": "172 people are originally on the train.\n47 people get off at the first stop, leaving 172 - 47 = 125 people on the train.\n13 people get on at the first stop, bringing the total to 125 + 13 = 138 people on the train.\n38 people get off at the second stop, leaving 138 - 38 = 100 people on the train.\nI hope it is correct: 100 $people$",
+        "ground_truth": "At the first stop 172 people - 47 people = <<172-47=125>>125 people are on the train.\nThen 13 more people get on increasing it to 125 people + 13 people = <<13+125=138>>138 people.\nAt the next stop 138 people - 38 people = <<138-38=100>>100 people remain on the train.\n#### 100"
+    },
+    {
+        "question": "172 people are originally on the train.\n47 people get off at the first stop, leaving 172 - 47 = 125 people on the train.\n13 people get on at the first stop, bringing the total to 125 + 13 = 138 people on the train.\n38 people get off at the second stop, leaving 138 - 38 = 100 people on the train.\nI hope it is correct: 100 $people$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 100",
+        "ground_truth": "At the first stop 172 people - 47 people = <<172-47=125>>125 people are on the train.\nThen 13 more people get on increasing it to 125 people + 13 people = <<13+125=138>>138 people.\nAt the next stop 138 people - 38 people = <<138-38=100>>100 people remain on the train.\n#### 100"
+    }
+]

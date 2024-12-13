@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMaria has 4 dimes, 4 quarters, and 7 nickels in her piggy bank. Her mom gives her 5 quarters. How much money, in dollars, does Maria have now?",
+        "inference": "1. Find the total value of the coins Maria has:\n4 dimes = 4 x 0.10 = 0.40\n4 quarters = 4 x 0.25 = 1.00\n7 nickels = 7 x 0.05 = 0.35\nTotal value = 0.40 + 1.00 + 0.35 = 1.75\n\n2. Add the value of the 5 quarters her mom gives her:\n5 quarters = 5 x 0.25 = 1.25\n\n3. Add the total value of the coins to the value of the quarters her mom gives her:\n1.75 + 1.25 = 3.00\n\nI hope it is correct: $3.00$",
+        "ground_truth": "Maria has 4 + 5 = <<4+5=9>>9 quarters.\nThe number of dollars from the quarters is 9 * $0.25 = $<<9*0.25=2.25>>2.25\nThe number of dollars from the dimes is 4 * $0.10 = $<<4*0.10=0.40>>0.40\nThe number of dollars from the nickels is 7 * $0.05 = $<<7*0.05=0.35>>0.35\nThe total number of dollars is $2.25 + $0.40 + $0.35 = $<<2.25+0.40+0.35=3>>3\n#### 3"
+    },
+    {
+        "question": "1. Find the total value of the coins Maria has:\n4 dimes = 4 x 0.10 = 0.40\n4 quarters = 4 x 0.25 = 1.00\n7 nickels = 7 x 0.05 = 0.35\nTotal value = 0.40 + 1.00 + 0.35 = 1.75\n\n2. Add the value of the 5 quarters her mom gives her:\n5 quarters = 5 x 0.25 = 1.25\n\n3. Add the total value of the coins to the value of the quarters her mom gives her:\n1.75 + 1.25 = 3.00\n\nI hope it is correct: $3.00$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $3.00$",
+        "ground_truth": "Maria has 4 + 5 = <<4+5=9>>9 quarters.\nThe number of dollars from the quarters is 9 * $0.25 = $<<9*0.25=2.25>>2.25\nThe number of dollars from the dimes is 4 * $0.10 = $<<4*0.10=0.40>>0.40\nThe number of dollars from the nickels is 7 * $0.05 = $<<7*0.05=0.35>>0.35\nThe total number of dollars is $2.25 + $0.40 + $0.35 = $<<2.25+0.40+0.35=3>>3\n#### 3"
+    }
+]

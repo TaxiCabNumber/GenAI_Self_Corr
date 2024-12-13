@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nComet Halley orbits the sun every 75 years. Bill's dad saw the Comet when he was 30 years old. Bill saw the comet a second time when he was three times the age his father was when he saw the Comet. How old was Bill when he saw the Comet for the first time?",
+        "inference": "Bill's father was 30 years old when he saw the Comet, so Bill was born 30 years later.\nBill saw the Comet for the first time when he was three times the age his father was when he saw the Comet, so Bill was 3 * 30 = 90 years old when he saw the Comet for the first time.\nI hope it is correct: 90 $years$",
+        "ground_truth": "Bill saw the Comet for the second time when he was 30 years * 3= <<30*3=90>>90 years old.\nComet Halley can be seen every 75 years, so Bill saw the comet for the first time when he was 90 years - 75 years = <<90-75=15>>15 years old.\n#### 15"
+    },
+    {
+        "question": "Bill's father was 30 years old when he saw the Comet, so Bill was born 30 years later.\nBill saw the Comet for the first time when he was three times the age his father was when he saw the Comet, so Bill was 3 * 30 = 90 years old when he saw the Comet for the first time.\nI hope it is correct: 90 $years$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 90",
+        "ground_truth": "Bill saw the Comet for the second time when he was 30 years * 3= <<30*3=90>>90 years old.\nComet Halley can be seen every 75 years, so Bill saw the comet for the first time when he was 90 years - 75 years = <<90-75=15>>15 years old.\n#### 15"
+    }
+]

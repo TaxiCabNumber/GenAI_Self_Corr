@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\n10 people attend a party. During the party everyone shakes hands with everyone else. How many handshakes take place at the party?",
+        "inference": "The first person can shake hands with 9 other people.\nThe second person can shake hands with 8 other people.\nThe third person can shake hands with 7 other people.\nAnd so on.\n\nThe total number of handshakes is the sum of this series:\n9 + 8 + 7 + 6 + 5 + 4 + 3 + 2 + 1 = 45\n\nFinal Answer: \\boxed{45}. I hope it is correct.",
+        "ground_truth": "We can choose 2 people to shake hands out of a group of 10 people without regard to order in $\\binom{10}{2} = \\boxed{45}$ ways."
+    },
+    {
+        "question": "The first person can shake hands with 9 other people.\nThe second person can shake hands with 8 other people.\nThe third person can shake hands with 7 other people.\nAnd so on.\n\nThe total number of handshakes is the sum of this series:\n9 + 8 + 7 + 6 + 5 + 4 + 3 + 2 + 1 = 45\n\nFinal Answer: \\boxed{45}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{45}",
+        "ground_truth": "We can choose 2 people to shake hands out of a group of 10 people without regard to order in $\\binom{10}{2} = \\boxed{45}$ ways."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSolve the congruence $11n \\equiv 7 \\pmod{43}$, as a residue modulo 43.  (Give an answer between 0 and 42.)",
+        "inference": "The congruence $11n \\equiv 7 \\pmod{43}$ has the following solution:\n$$11n \\equiv 7 \\pmod{43} \\iff n \\equiv 11^{-1}7 \\pmod{43} \\iff n \\equiv 21 \\pmod{43}.$$\n\nFinal Answer: $\\boxed{21}$. I hope it is correct.",
+        "ground_truth": "Note that 43 is a close to a multiple of 11, namely 44.  Multiplying both sides of the given congruence by 4, we get $44n \\equiv 28 \\pmod{43}$, which reduces to $n \\equiv \\boxed{28} \\pmod{43}$."
+    },
+    {
+        "question": "The congruence $11n \\equiv 7 \\pmod{43}$ has the following solution:\n$$11n \\equiv 7 \\pmod{43} \\iff n \\equiv 11^{-1}7 \\pmod{43} \\iff n \\equiv 21 \\pmod{43}.$$\n\nFinal Answer: $\\boxed{21}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{21}",
+        "ground_truth": "Note that 43 is a close to a multiple of 11, namely 44.  Multiplying both sides of the given congruence by 4, we get $44n \\equiv 28 \\pmod{43}$, which reduces to $n \\equiv \\boxed{28} \\pmod{43}$."
+    }
+]

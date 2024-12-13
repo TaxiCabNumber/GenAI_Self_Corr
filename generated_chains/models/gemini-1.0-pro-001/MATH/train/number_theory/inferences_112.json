@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat integer $n$ satisfies $0\\le n<19$ and $$-200\\equiv n\\pmod{19}~?$$",
+        "inference": "$$-200\\equiv n\\pmod{19}\\Rightarrow -200-19k=n \\text{ for some integer }k$$\n\n$$-219=n \\text{ for }k=11$$\n\n$$n=-219+19= -200$$\n\n$$-200\\equiv 19\\pmod{19} \\text{ so, } n=19$$\n\n$$n=19$$\n\nFinal Answer: $\\boxed{19}$. I hope it is correct.",
+        "ground_truth": "Noticing that $190\\equiv0\\pmod{19}$ and $-200+190=-10$, we can say that  \\[-200\\equiv n\\pmod{19}\\]if and only if  \\[-10\\equiv n\\pmod{19}.\\]This is not in the range $0\\leq n<19$, but adding 19 again gives \\[9\\equiv n\\pmod{19}.\\]The answer is $n=\\boxed{9}$."
+    },
+    {
+        "question": "$$-200\\equiv n\\pmod{19}\\Rightarrow -200-19k=n \\text{ for some integer }k$$\n\n$$-219=n \\text{ for }k=11$$\n\n$$n=-219+19= -200$$\n\n$$-200\\equiv 19\\pmod{19} \\text{ so, } n=19$$\n\n$$n=19$$\n\nFinal Answer: $\\boxed{19}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{19}$$",
+        "ground_truth": "Noticing that $190\\equiv0\\pmod{19}$ and $-200+190=-10$, we can say that  \\[-200\\equiv n\\pmod{19}\\]if and only if  \\[-10\\equiv n\\pmod{19}.\\]This is not in the range $0\\leq n<19$, but adding 19 again gives \\[9\\equiv n\\pmod{19}.\\]The answer is $n=\\boxed{9}$."
+    }
+]

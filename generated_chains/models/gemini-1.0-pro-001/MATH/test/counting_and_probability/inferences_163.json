@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSarah wants to order a pizza with 2 different toppings. She has 9 different toppings to choose from. How many different pizzas could she order?",
+        "inference": "Toppings: 9\nNumber of ways to choose 2 toppings: 9C2 = 9! / (2!(9-2)!) = 36\nFinal Answer: $\\boxed{36}$. I hope it is correct.",
+        "ground_truth": "There are 9 choices of toppings, and we need to choose 2 distinct toppings. This is represented by the number of 2-element subsets of a 9-element set. We use the binomial coefficient ${9 \\choose 2} = \\boxed{36}$ to compute this."
+    },
+    {
+        "question": "Toppings: 9\nNumber of ways to choose 2 toppings: 9C2 = 9! / (2!(9-2)!) = 36\nFinal Answer: $\\boxed{36}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$36$}.",
+        "ground_truth": "There are 9 choices of toppings, and we need to choose 2 distinct toppings. This is represented by the number of 2-element subsets of a 9-element set. We use the binomial coefficient ${9 \\choose 2} = \\boxed{36}$ to compute this."
+    }
+]

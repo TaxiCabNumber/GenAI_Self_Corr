@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRajesh walked 10 kilometers less than 4 times the distance that Hiro walked. Together they walked 25 kilometers. How many kilometers did Rajesh walk?",
+        "inference": "Let $x$ be the distance that Hiro walked.\n\n**Step 1: Translate the problem into an equation.**\n\nRajesh walked $4x - 10$ kilometers.\n\nTogether, they walked $x + (4x - 10) = 5x - 10$ kilometers.\n\n**Step 2: Set the equation equal to 25.**\n\n$5x - 10 = 25$\n\n**Step 3: Solve for $x$.**\n\n$5x = 35$\n\n$x = 7$\n\n**Step 4: Find the distance Rajesh walked.**\n\nRajesh walked $4x - 10 = 4(7) - 10 = 28 - 10 = 18$ kilometers.\n\nI hope it is correct: Rajesh walked 18 kilometers.",
+        "ground_truth": "Let H = distance Hiro walked\n4H - 10 = distance Rajesh walked\nH + 4H - 10 = 25\n5H - 10 = 25\n5H = 35\nHiro walked 7 km so Rajesh walked 4(7) - 10 = <<7*4-10=18>>18 km\nRajesh walked <<18=18>>18 kilometers.\n#### 18"
+    },
+    {
+        "question": "Let $x$ be the distance that Hiro walked.\n\n**Step 1: Translate the problem into an equation.**\n\nRajesh walked $4x - 10$ kilometers.\n\nTogether, they walked $x + (4x - 10) = 5x - 10$ kilometers.\n\n**Step 2: Set the equation equal to 25.**\n\n$5x - 10 = 25$\n\n**Step 3: Solve for $x$.**\n\n$5x = 35$\n\n$x = 7$\n\n**Step 4: Find the distance Rajesh walked.**\n\nRajesh walked $4x - 10 = 4(7) - 10 = 28 - 10 = 18$ kilometers.\n\nI hope it is correct: Rajesh walked 18 kilometers.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ Rajesh walked 18 kilometers.",
+        "ground_truth": "Let H = distance Hiro walked\n4H - 10 = distance Rajesh walked\nH + 4H - 10 = 25\n5H - 10 = 25\n5H = 35\nHiro walked 7 km so Rajesh walked 4(7) - 10 = <<7*4-10=18>>18 km\nRajesh walked <<18=18>>18 kilometers.\n#### 18"
+    }
+]

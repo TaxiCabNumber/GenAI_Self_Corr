@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBill put his french fries in the oven after it finished heating.  The recommended time was 5 minutes for them to be fully cooked.  He put them in for 45 seconds.  How many seconds remained?",
+        "inference": "1. Convert 45 seconds to minutes: 45 seconds = 45 / 60 = 0.75 minutes.\n2. Subtract the time Bill put the fries in for from the recommended time: 5 minutes - 0.75 minutes = 4.25 minutes.\n3. Convert 4.25 minutes back to seconds: 4.25 minutes = 4.25 * 60 = 255 seconds.\nI hope it is correct: 255 seconds",
+        "ground_truth": "Each minute last 60 seconds, so that means for the fries to be fully cooked Bill needs to cook them for 5*60=<<5*60=300>>300 seconds\nSince Bill had the fries in the oven for 45 seconds so far, that means they need to stay in the oven for another 300-45= <<300-45=255>>255 seconds.\n#### 255"
+    },
+    {
+        "question": "1. Convert 45 seconds to minutes: 45 seconds = 45 / 60 = 0.75 minutes.\n2. Subtract the time Bill put the fries in for from the recommended time: 5 minutes - 0.75 minutes = 4.25 minutes.\n3. Convert 4.25 minutes back to seconds: 4.25 minutes = 4.25 * 60 = 255 seconds.\nI hope it is correct: 255 seconds\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$255",
+        "ground_truth": "Each minute last 60 seconds, so that means for the fries to be fully cooked Bill needs to cook them for 5*60=<<5*60=300>>300 seconds\nSince Bill had the fries in the oven for 45 seconds so far, that means they need to stay in the oven for another 300-45= <<300-45=255>>255 seconds.\n#### 255"
+    }
+]

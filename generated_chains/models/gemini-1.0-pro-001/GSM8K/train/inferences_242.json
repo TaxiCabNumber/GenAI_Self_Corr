@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAnn is baking cookies. She bakes three dozen oatmeal raisin cookies, two dozen sugar cookies, and four dozen chocolate chip cookies. Ann gives away two dozen oatmeal raisin cookies, 1.5 dozen sugar cookies, and 2.5 dozen chocolate chip cookies. How many total cookies does she keep?",
+        "inference": "1. Convert all the cookies to dozens\n3 dozen = 3 * 12 = 36 cookies \n2 dozen = 2 * 12 = 24 cookies\n4 dozen = 4 * 12 = 48 cookies\n\n2. Subtract the cookies Ann gives away.\nOatmeal Raisin: 36 - 24 = 12\nSugar cookies: 24 - 18 = 6\nChocolate chip: 48 - 30 = 18\n\n3. Add up the remaining cookies.\nTotal cookies kept = 12 + 6 + 18 = 36\nI hope it is correct: 36",
+        "ground_truth": "Ann had 3 dozen oatmeal cookies - 2 dozen = <<3-2=1>>1 dozen oatmeal cookies left.\nAnn had 2 dozen sugar cookies - 1.5 dozen = <<2-1.5=.5>>.5 dozen sugar cookies left.\nAnn had 4 dozen chocolate chip cookies - 2.5 dozen = 1.5 dozen chocolate chip cookies left.\nAnn has a total of 1 + .5 + 1.5 dozen cookies = <<1+.5+1.5=3>>3 dozen cookies.\n3 dozen cookies is 3 *12 cookies = <<3*12=36>>36 cookies remaining.\n#### 36"
+    },
+    {
+        "question": "1. Convert all the cookies to dozens\n3 dozen = 3 * 12 = 36 cookies \n2 dozen = 2 * 12 = 24 cookies\n4 dozen = 4 * 12 = 48 cookies\n\n2. Subtract the cookies Ann gives away.\nOatmeal Raisin: 36 - 24 = 12\nSugar cookies: 24 - 18 = 6\nChocolate chip: 48 - 30 = 18\n\n3. Add up the remaining cookies.\nTotal cookies kept = 12 + 6 + 18 = 36\nI hope it is correct: 36\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$36",
+        "ground_truth": "Ann had 3 dozen oatmeal cookies - 2 dozen = <<3-2=1>>1 dozen oatmeal cookies left.\nAnn had 2 dozen sugar cookies - 1.5 dozen = <<2-1.5=.5>>.5 dozen sugar cookies left.\nAnn had 4 dozen chocolate chip cookies - 2.5 dozen = 1.5 dozen chocolate chip cookies left.\nAnn has a total of 1 + .5 + 1.5 dozen cookies = <<1+.5+1.5=3>>3 dozen cookies.\n3 dozen cookies is 3 *12 cookies = <<3*12=36>>36 cookies remaining.\n#### 36"
+    }
+]

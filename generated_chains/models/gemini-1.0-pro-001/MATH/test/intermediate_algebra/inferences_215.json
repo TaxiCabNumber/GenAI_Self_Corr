@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $a$ and $b$ be positive real numbers.  Find the minimum value of\n\\[\\frac{a}{b} + \\frac{5b}{a}.\\]",
+        "inference": "First, we can apply the AM-GM Inequality to the two terms of the expression to get\n\\[\\frac{a}{b} + \\frac{5b}{a} \\ge 2\\sqrt{\\frac{a}{b} \\cdot \\frac{5b}{a}} = 2\\sqrt{5}.\\]\n\nNext, we can use the fact that $a$ and $b$ are positive to simplify the expression to\n\\[\\frac{a}{b} + \\frac{5b}{a} = 5 + \\frac{a}{b} + \\frac{5b}{a} - 5 \\ge 5 + 2\\sqrt{5} - 5 = 2\\sqrt{5}.\\]\n\nTherefore, the minimum value of the expression is $2\\sqrt{5}$.\nFinal Answer: $\\boxed{2\\sqrt{5}}$. I hope it is correct.",
+        "ground_truth": "By AM-GM,\n\\[\\frac{a}{b} + \\frac{5b}{a} \\ge 2 \\sqrt{\\frac{a}{b} \\cdot \\frac{5b}{a}} = 2 \\sqrt{5}.\\]Equality occurs when $\\frac{a}{b} = \\frac{5b}{a},$ or $a^2 = 5b^2,$ so the minimum value is $\\boxed{2 \\sqrt{5}}.$"
+    },
+    {
+        "question": "First, we can apply the AM-GM Inequality to the two terms of the expression to get\n\\[\\frac{a}{b} + \\frac{5b}{a} \\ge 2\\sqrt{\\frac{a}{b} \\cdot \\frac{5b}{a}} = 2\\sqrt{5}.\\]\n\nNext, we can use the fact that $a$ and $b$ are positive to simplify the expression to\n\\[\\frac{a}{b} + \\frac{5b}{a} = 5 + \\frac{a}{b} + \\frac{5b}{a} - 5 \\ge 5 + 2\\sqrt{5} - 5 = 2\\sqrt{5}.\\]\n\nTherefore, the minimum value of the expression is $2\\sqrt{5}$.\nFinal Answer: $\\boxed{2\\sqrt{5}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$2\\sqrt{5}$}",
+        "ground_truth": "By AM-GM,\n\\[\\frac{a}{b} + \\frac{5b}{a} \\ge 2 \\sqrt{\\frac{a}{b} \\cdot \\frac{5b}{a}} = 2 \\sqrt{5}.\\]Equality occurs when $\\frac{a}{b} = \\frac{5b}{a},$ or $a^2 = 5b^2,$ so the minimum value is $\\boxed{2 \\sqrt{5}}.$"
+    }
+]

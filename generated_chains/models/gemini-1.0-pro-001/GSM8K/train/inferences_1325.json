@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSally earned $1000 at work last month. This month, she received a 10% raise. How much money will she make in total for the two months?",
+        "inference": "Sally's raise: 10% of $1000 = 0.1 * $1000 = $100\nTotal earnings for the two months: $1000 + $100 = $1100\nI hope it is correct: $1100",
+        "ground_truth": "This month she will earn $1000 * (110/100) = $<<1000*(110/100)=1100>>1100.\nIn total, she will make $1000 + $1100 = $<<1000+1100=2100>>2100.\n#### 2100"
+    },
+    {
+        "question": "Sally's raise: 10% of $1000 = 0.1 * $1000 = $100\nTotal earnings for the two months: $1000 + $100 = $1100\nI hope it is correct: $1100\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $1100$",
+        "ground_truth": "This month she will earn $1000 * (110/100) = $<<1000*(110/100)=1100>>1100.\nIn total, she will make $1000 + $1100 = $<<1000+1100=2100>>2100.\n#### 2100"
+    }
+]

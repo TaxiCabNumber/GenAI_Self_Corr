@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWe call a number a descending number if each digit is strictly smaller than the digit that comes before it.  For example, 863 is a descending number.  How many 3-digit descending numbers are there?",
+        "inference": "There are 9 choices for the largest digit (1-9). \n\nFor the second digit, there are 8 choices because it must be smaller than the first digit. \n\nFor the third digit, there are 7 choices because it must be smaller than the second digit. \n\nSo the total number of 3-digit descending numbers is 9 * 8 * 7 = **504**.\n\nFinal Answer: \\boxed{504}. I hope it is correct.",
+        "ground_truth": "For every 3 different digits, there is one corresponding descending number, which is just the digits in descending order.  So the answer is the number of combinations of three different digits, which is  $\\binom{10}{3} = \\boxed{120}$."
+    },
+    {
+        "question": "There are 9 choices for the largest digit (1-9). \n\nFor the second digit, there are 8 choices because it must be smaller than the first digit. \n\nFor the third digit, there are 7 choices because it must be smaller than the second digit. \n\nSo the total number of 3-digit descending numbers is 9 * 8 * 7 = **504**.\n\nFinal Answer: \\boxed{504}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{504}",
+        "ground_truth": "For every 3 different digits, there is one corresponding descending number, which is just the digits in descending order.  So the answer is the number of combinations of three different digits, which is  $\\binom{10}{3} = \\boxed{120}$."
+    }
+]

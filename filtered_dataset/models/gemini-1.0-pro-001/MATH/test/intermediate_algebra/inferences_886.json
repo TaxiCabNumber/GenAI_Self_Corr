@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $x$ and $y$ be real numbers satisfying\n\\[\\frac{2}{x} = \\frac{y}{3} = \\frac{x}{y}.\\]Determine $x^3.$",
+        "inference": "**Solution:**\n$$\\frac{2}{x} = \\frac{y}{3} = \\frac{x}{y} = k, \\text{ for some real number }k.$$\nThen $y = 3k$ and $x = \\frac{1}{k}$, so\n$$x^3 = \\left(\\frac{1}{k}\\right)^3 = \\frac{1}{k^3}.$$\n**Final Answer: $\\boxed{\\frac{1}{k^3}}$. I hope it is correct.**",
+        "ground_truth": "Let\n\\[k = \\frac{2}{x} = \\frac{y}{3} = \\frac{x}{y}.\\]Then\n\\[k^3 = \\frac{2}{x} \\cdot \\frac{y}{3} \\cdot \\frac{x}{y} = \\frac{2}{3}.\\]Also, $x = \\frac{2}{k},$ so\n\\[x^3 = \\frac{8}{k^3} = \\frac{8}{2/3} = \\boxed{12}.\\]"
+    },
+    {
+        "question": "**Solution:**\n$$\\frac{2}{x} = \\frac{y}{3} = \\frac{x}{y} = k, \\text{ for some real number }k.$$\nThen $y = 3k$ and $x = \\frac{1}{k}$, so\n$$x^3 = \\left(\\frac{1}{k}\\right)^3 = \\frac{1}{k^3}.$$\n**Final Answer: $\\boxed{\\frac{1}{k^3}}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{k^3}$$",
+        "ground_truth": "Let\n\\[k = \\frac{2}{x} = \\frac{y}{3} = \\frac{x}{y}.\\]Then\n\\[k^3 = \\frac{2}{x} \\cdot \\frac{y}{3} \\cdot \\frac{x}{y} = \\frac{2}{3}.\\]Also, $x = \\frac{2}{k},$ so\n\\[x^3 = \\frac{8}{k^3} = \\frac{8}{2/3} = \\boxed{12}.\\]"
+    }
+]

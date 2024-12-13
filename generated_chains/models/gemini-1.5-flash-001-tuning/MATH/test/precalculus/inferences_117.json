@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn triangle $ABC$,\n\\[2a^2 + 4b^2 + c^2 = 4ab + 2ac.\\]Compute the numerical value of $\\cos B.$",
+        "inference": "Final Answer: $\\boxed{\\frac{3}{4}}$. I hope it is correct.",
+        "ground_truth": "Moving everything to one side, we get\n\\[2a^2 + 4b^2 + c^2 - 4ab - 2ac = 0.\\]We can write this equation as\n\\[(a - 2b)^2 + (a - c)^2 = 0,\\]so $b = \\frac{a}{2}$ and $a = c.$  Then by the Law of Cosines,\n\\[\\cos B = \\frac{a^2 + c^2 - b^2}{2ac} = \\frac{a^2 + a^2 - \\frac{a^2}{4}}{2a^2} = \\boxed{\\frac{7}{8}}.\\]"
+    },
+    {
+        "question": "Final Answer: $\\boxed{\\frac{3}{4}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need the context to identify any errors and provide a corrected solution. \n",
+        "ground_truth": "Moving everything to one side, we get\n\\[2a^2 + 4b^2 + c^2 - 4ab - 2ac = 0.\\]We can write this equation as\n\\[(a - 2b)^2 + (a - c)^2 = 0,\\]so $b = \\frac{a}{2}$ and $a = c.$  Then by the Law of Cosines,\n\\[\\cos B = \\frac{a^2 + c^2 - b^2}{2ac} = \\frac{a^2 + a^2 - \\frac{a^2}{4}}{2a^2} = \\boxed{\\frac{7}{8}}.\\]"
+    }
+]

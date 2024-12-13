@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nRationalize the denominator of $\\frac{5}{2+\\sqrt{6}}$. The answer can be written as $\\frac{A\\sqrt{B}+C}{D}$, where $A$, $B$, $C$, and $D$ are integers, $D$ is positive, and $B$ is not divisible by the square of any prime. If the greatest common divisor of $A$, $C$, and $D$ is 1, find $A+B+C+D$.",
+        "inference": "$$\\begin{split} \\frac{5}{2+\\sqrt{6}}\\cdot \\frac{2-\\sqrt{6}}{2-\\sqrt{6}} &=\\frac{10-5\\sqrt{6}}{4-6} \\\\\\ &=\\frac{10-5\\sqrt{6}}{-2} \\\\\\ &= \\frac{-10+5\\sqrt{6}}{2} \\\\\\ &= \\frac{-2(5-2\\sqrt{6})}{2} \\\\\\ &= 5-2\\sqrt{6} \\end{split}$$\n\nTherefore, $A=-2$, $B=6$, $C=5$, $D=1$, and $A+B+C+D=-2+6+5+1=\\boxed{10}.$\nFinal Answer: $\\boxed{10}$ I hope it is correct.",
+        "ground_truth": "We multiply both the top and bottom by the conjugate of the denominator: $$\\frac{5}{2+\\sqrt{6}} \\cdot \\frac{2-\\sqrt{6}}{2-\\sqrt{6}}=\\frac{10-5\\sqrt{6}}{4-6}=\\frac{5\\sqrt{6}-10}{2}$$Therefore, $A+B+C+D=5+6-10+2=\\boxed{3}$."
+    },
+    {
+        "question": "$$\\begin{split} \\frac{5}{2+\\sqrt{6}}\\cdot \\frac{2-\\sqrt{6}}{2-\\sqrt{6}} &=\\frac{10-5\\sqrt{6}}{4-6} \\\\\\ &=\\frac{10-5\\sqrt{6}}{-2} \\\\\\ &= \\frac{-10+5\\sqrt{6}}{2} \\\\\\ &= \\frac{-2(5-2\\sqrt{6})}{2} \\\\\\ &= 5-2\\sqrt{6} \\end{split}$$\n\nTherefore, $A=-2$, $B=6$, $C=5$, $D=1$, and $A+B+C+D=-2+6+5+1=\\boxed{10}.$\nFinal Answer: $\\boxed{10}$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{10}",
+        "ground_truth": "We multiply both the top and bottom by the conjugate of the denominator: $$\\frac{5}{2+\\sqrt{6}} \\cdot \\frac{2-\\sqrt{6}}{2-\\sqrt{6}}=\\frac{10-5\\sqrt{6}}{4-6}=\\frac{5\\sqrt{6}-10}{2}$$Therefore, $A+B+C+D=5+6-10+2=\\boxed{3}$."
+    }
+]

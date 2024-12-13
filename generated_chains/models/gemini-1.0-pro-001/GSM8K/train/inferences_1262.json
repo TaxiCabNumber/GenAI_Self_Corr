@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\n4.5 gallons of coffee were divided among 18 thermoses. Genevieve drank 3 thermoses. How many pints of coffee did Genevieve drink?",
+        "inference": "1 gallon = 8 pints\n4.5 gallons = 4.5 * 8 = 36 pints\n36 pints divided among 18 thermoses = 36 / 18 = 2 pints per thermos\nGenevieve drank 3 thermoses, so she drank 3 * 2 = 6 pints of coffee.\nI hope it is correct: 6 pints",
+        "ground_truth": "4.5 gallons = 4.5 * 8 pints = <<4.5*8=36>>36 pints\n36/18 = <<36/18=2>>2 pints\nGenevieve drank 2*3=<<2*3=6>>6 pints of coffee.\n#### 6"
+    },
+    {
+        "question": "1 gallon = 8 pints\n4.5 gallons = 4.5 * 8 = 36 pints\n36 pints divided among 18 thermoses = 36 / 18 = 2 pints per thermos\nGenevieve drank 3 thermoses, so she drank 3 * 2 = 6 pints of coffee.\nI hope it is correct: 6 pints\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 6 pints",
+        "ground_truth": "4.5 gallons = 4.5 * 8 pints = <<4.5*8=36>>36 pints\n36/18 = <<36/18=2>>2 pints\nGenevieve drank 2*3=<<2*3=6>>6 pints of coffee.\n#### 6"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $7=x^2+\\frac{1}{x^2}$, then what is the greatest possible value of $x+\\frac{1}{x}$?",
+        "inference": "$$7=x^2+\\frac{1}{x^2}$$\n\n$$=(x)^2+(x^{-1})^2$$\n\n$$=(x+x^{-1})^2-2$$\n\n$$(x+x^{-1})^2=9$$\n\n$$x+x^{-1}=\\sqrt{9}$$\n\n$$x+\\frac{1}{x}=\\boxed{3}. \\text{ Final Answer}$$",
+        "ground_truth": "We begin by adding 2 to both sides of the equation, \\begin{align*} 7&=x^2+\\frac{1}{x^2}\n\\\\\\Rightarrow\\qquad 9&=x^2+\\frac{1}{x^2}+2\n\\\\\\Rightarrow\\qquad 9&=x^2+2(x)\\left(\\frac{1}{x}\\right)+\\frac{1}{x^2}\n\\\\\\Rightarrow\\qquad 9&=\\left(x+\\frac{1}{x}\\right)^2\n\\end{align*}  So, the possible values for $x+\\frac{1}{x}$ are $3$ and $-3$. The greater of these is $\\boxed{3}$."
+    },
+    {
+        "question": "$$7=x^2+\\frac{1}{x^2}$$\n\n$$=(x)^2+(x^{-1})^2$$\n\n$$=(x+x^{-1})^2-2$$\n\n$$(x+x^{-1})^2=9$$\n\n$$x+x^{-1}=\\sqrt{9}$$\n\n$$x+\\frac{1}{x}=\\boxed{3}. \\text{ Final Answer}$$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$x+\\frac{1}{x}=\\boxed{3}.$$",
+        "ground_truth": "We begin by adding 2 to both sides of the equation, \\begin{align*} 7&=x^2+\\frac{1}{x^2}\n\\\\\\Rightarrow\\qquad 9&=x^2+\\frac{1}{x^2}+2\n\\\\\\Rightarrow\\qquad 9&=x^2+2(x)\\left(\\frac{1}{x}\\right)+\\frac{1}{x^2}\n\\\\\\Rightarrow\\qquad 9&=\\left(x+\\frac{1}{x}\\right)^2\n\\end{align*}  So, the possible values for $x+\\frac{1}{x}$ are $3$ and $-3$. The greater of these is $\\boxed{3}$."
+    }
+]

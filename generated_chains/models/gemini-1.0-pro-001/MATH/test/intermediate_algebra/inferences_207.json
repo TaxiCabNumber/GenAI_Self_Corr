@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $x$ and $y$ be real numbers such that $0 \\le x \\le 1$ and $0 \\le y \\le 1.$  Find the maximum value of\n\\[x^2 y - xy^2.\\]",
+        "inference": "Solution:\nSince $0\\le x\\le 1$ and $0\\le y\\le 1$, we have $xy\\le\\frac{1}{4}$.  Thus,\n\\begin{align*}\nx^2y-xy^2&=x^2y-xy^2+xy^2-(xy)^2\\\\\n&=x^2y-xy^2+xy(y-x)\\\\\n&=(x-y)xy+xy(y-x)\\\\\n&=xy(y-x)(x+1).\n\\end{align*}\n\nNow, since $y-x\\le1-0=1$ and $x+1\\le1+1=2$, we have $xy(y-x)(x+1)\\le\\frac{1}{4}\\cdot1\\cdot2=\\frac{1}{2}$.  Thus, the maximum value of $x^2y-xy^2$ is $\\boxed{\\frac{1}{2}}$.\nFinal Answer: $\\boxed{\\frac{1}{2}}$. I hope it is correct.",
+        "ground_truth": "We can factor the expression as\n\\[xy (x - y).\\]Since we are trying to find the maximum, we can assume that $x \\ge y.$  Then by AM-GM,\n\\[y(x - y) \\le \\frac{x^2}{4},\\]so\n\\[xy (x - y) \\le x \\cdot \\frac{x^2}{4} = \\frac{x^3}{4} \\le \\frac{1}{4}.\\]Equality occurs when $x = 1$ and $y = \\frac{1}{2},$ giving us a maximum value of $\\boxed{\\frac{1}{4}}.$"
+    },
+    {
+        "question": "Solution:\nSince $0\\le x\\le 1$ and $0\\le y\\le 1$, we have $xy\\le\\frac{1}{4}$.  Thus,\n\\begin{align*}\nx^2y-xy^2&=x^2y-xy^2+xy^2-(xy)^2\\\\\n&=x^2y-xy^2+xy(y-x)\\\\\n&=(x-y)xy+xy(y-x)\\\\\n&=xy(y-x)(x+1).\n\\end{align*}\n\nNow, since $y-x\\le1-0=1$ and $x+1\\le1+1=2$, we have $xy(y-x)(x+1)\\le\\frac{1}{4}\\cdot1\\cdot2=\\frac{1}{2}$.  Thus, the maximum value of $x^2y-xy^2$ is $\\boxed{\\frac{1}{2}}$.\nFinal Answer: $\\boxed{\\frac{1}{2}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$\\frac{1}{2}$}",
+        "ground_truth": "We can factor the expression as\n\\[xy (x - y).\\]Since we are trying to find the maximum, we can assume that $x \\ge y.$  Then by AM-GM,\n\\[y(x - y) \\le \\frac{x^2}{4},\\]so\n\\[xy (x - y) \\le x \\cdot \\frac{x^2}{4} = \\frac{x^3}{4} \\le \\frac{1}{4}.\\]Equality occurs when $x = 1$ and $y = \\frac{1}{2},$ giving us a maximum value of $\\boxed{\\frac{1}{4}}.$"
+    }
+]

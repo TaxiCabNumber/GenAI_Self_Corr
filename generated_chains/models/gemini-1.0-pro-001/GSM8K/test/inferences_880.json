@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSarah has a rope that is 20 meters long. Her friend wants to buy the rope for $2 a meter. Sarah plans to use the profit to buy a new rope, which at the store costs $1.5 a meter. How much money will she have left over after she buys the new rope?",
+        "inference": "1. Sarah has a rope that is 20 meters long. \n2. Her friend wants to buy the rope for $2 a meter. \n3. Sarah will have 20 * 2 = 40$\n4. Sarah plans to use the profit to buy a new rope, which at the store costs $1.5 a meter.\n5. With $40, she can buy 40 / 1.5 = 26.66 meters of new rope. \n6. She will have $40 - 26.66 * 1.5 = 6.66$ left over.\n\nI hope it is correct: $6.66$",
+        "ground_truth": "Her friend pays her $40 for the rope because 20 x 2 = <<20*2=40>>40\nShe can buy the rope at the store for $30 because 20 x 1.5 = <<20*1.5=30>>30\nShe has $10 left over because 40 - 30 = <<40-30=10>>10\n#### 10"
+    },
+    {
+        "question": "1. Sarah has a rope that is 20 meters long. \n2. Her friend wants to buy the rope for $2 a meter. \n3. Sarah will have 20 * 2 = 40$\n4. Sarah plans to use the profit to buy a new rope, which at the store costs $1.5 a meter.\n5. With $40, she can buy 40 / 1.5 = 26.66 meters of new rope. \n6. She will have $40 - 26.66 * 1.5 = 6.66$ left over.\n\nI hope it is correct: $6.66$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ 6.66",
+        "ground_truth": "Her friend pays her $40 for the rope because 20 x 2 = <<20*2=40>>40\nShe can buy the rope at the store for $30 because 20 x 1.5 = <<20*1.5=30>>30\nShe has $10 left over because 40 - 30 = <<40-30=10>>10\n#### 10"
+    }
+]

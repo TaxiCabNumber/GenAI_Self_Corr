@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLine segment $\\overline{AB}$ is extended past $B$ to $P$ such that $AP:PB = 10:3.$  Then\n\\[\\overrightarrow{P} = t \\overrightarrow{A} + u \\overrightarrow{B}\\]for some constants $t$ and $u.$  Enter the ordered pair $(t,u).$\n\n[asy]\nunitsize(1 cm);\n\npair A, B, P;\n\nA = (0,0);\nB = (5,1);\nP = interp(A,B,10/7);\n\ndraw(A--P);\n\ndot(\"$A$\", A, S);\ndot(\"$B$\", B, S);\ndot(\"$P$\", P, S);\n[/asy]",
+        "inference": "Solution:  Since $AP:PB = 10:3,$ $\\overrightarrow{P} = \\frac{3}{13} \\overrightarrow{A} + \\frac{10}{13} \\overrightarrow{B}.$  Hence, $(t,u) = \\boxed{\\left( \\frac{3}{13}, \\frac{10}{13} \\right)}.$  I hope it is correct. \n",
+        "ground_truth": "Since $AP:PB = 10:3,$ we can write\n\\[\\frac{\\overrightarrow{P} - \\overrightarrow{A}}{10} = \\frac{\\overrightarrow{P} - \\overrightarrow{B}}{7}.\\]Isolating $\\overrightarrow{P},$ we find\n\\[\\overrightarrow{P} = -\\frac{3}{7} \\overrightarrow{A} + \\frac{10}{7} \\overrightarrow{B}.\\]Thus, $(t,u) = \\boxed{\\left( -\\frac{3}{7}, \\frac{10}{7} \\right)}.$"
+    },
+    {
+        "question": "Solution:  Since $AP:PB = 10:3,$ $\\overrightarrow{P} = \\frac{3}{13} \\overrightarrow{A} + \\frac{10}{13} \\overrightarrow{B}.$  Hence, $(t,u) = \\boxed{\\left( \\frac{3}{13}, \\frac{10}{13} \\right)}.$  I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{\\left( \\frac{3}{13}, \\frac{10}{13} \\right)}",
+        "ground_truth": "Since $AP:PB = 10:3,$ we can write\n\\[\\frac{\\overrightarrow{P} - \\overrightarrow{A}}{10} = \\frac{\\overrightarrow{P} - \\overrightarrow{B}}{7}.\\]Isolating $\\overrightarrow{P},$ we find\n\\[\\overrightarrow{P} = -\\frac{3}{7} \\overrightarrow{A} + \\frac{10}{7} \\overrightarrow{B}.\\]Thus, $(t,u) = \\boxed{\\left( -\\frac{3}{7}, \\frac{10}{7} \\right)}.$"
+    }
+]

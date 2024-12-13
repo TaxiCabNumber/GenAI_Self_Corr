@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $\\frac{\\sqrt{6y+2}}{\\sqrt{2y}}=\\frac52$, solve for $y$. Express your answer in simplest fractional form.",
+        "inference": "**Solution:**\n$$\\frac{\\sqrt{6y+2}}{\\sqrt{2y}}=\\frac52$$\n\n$$\\sqrt{6y+2}=5\\sqrt{2y}$$\n\n$$6y+2=25(2y)$$\n\n$$6y+2=50y$$\n\n$$2=44y$$\n\n$$\\frac1{22}=y$$\n\n**Final Answer: $\\boxed{\\frac1{22}}.$ I hope it is correct.**",
+        "ground_truth": "To begin, we observe that the expression $\\frac{\\sqrt{6y+2}}{\\sqrt{2y}}$ is defined if and only if $y>0$. In this case, it is equal to $\\sqrt{\\frac{6y+2}{2y}}$. Since the quantity under the radical is always nonnegative for $y>0$, we may safely square both sides of our equation without creating fake solutions: $$\\frac{6y+2}{2y}=\\frac{25}{4}.$$Now we cross-multiply to obtain $$4(6y+2) = 25(2y),$$and solve this linear equation: \\begin{align*}\n24y+8 &= 50y \\\\\n8 &= 26y \\\\\n\\boxed{\\frac{4}{13}} &= y\n\\end{align*}"
+    },
+    {
+        "question": "**Solution:**\n$$\\frac{\\sqrt{6y+2}}{\\sqrt{2y}}=\\frac52$$\n\n$$\\sqrt{6y+2}=5\\sqrt{2y}$$\n\n$$6y+2=25(2y)$$\n\n$$6y+2=50y$$\n\n$$2=44y$$\n\n$$\\frac1{22}=y$$\n\n**Final Answer: $\\boxed{\\frac1{22}}.$ I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{\\frac1{22}}$$",
+        "ground_truth": "To begin, we observe that the expression $\\frac{\\sqrt{6y+2}}{\\sqrt{2y}}$ is defined if and only if $y>0$. In this case, it is equal to $\\sqrt{\\frac{6y+2}{2y}}$. Since the quantity under the radical is always nonnegative for $y>0$, we may safely square both sides of our equation without creating fake solutions: $$\\frac{6y+2}{2y}=\\frac{25}{4}.$$Now we cross-multiply to obtain $$4(6y+2) = 25(2y),$$and solve this linear equation: \\begin{align*}\n24y+8 &= 50y \\\\\n8 &= 26y \\\\\n\\boxed{\\frac{4}{13}} &= y\n\\end{align*}"
+    }
+]

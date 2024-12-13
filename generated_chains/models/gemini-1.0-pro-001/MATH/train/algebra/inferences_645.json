@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the fraction that equals $0.\\overline{4}$.",
+        "inference": "**Solution:**\nLet $x = 0.\\overline{4} = 0.444\\ldots$.\n\nMultiply both sides by 10:\n$10x = 4.\\overline{4}$.\n\nSubtract the first equation from the second:\n$10x - x = 4.\\overline{4} - 0.\\overline{4}$.\n$9x = 4$.\n\nDivide both sides by 9:\n$x = \\frac{4}{9}$.\n\n**Final Answer: $\\boxed{\\frac{4}{9}}$. I hope it is correct.**",
+        "ground_truth": "We have \\[0.\\overline{4} = \\frac{4}{10} + \\frac{4}{100} + \\frac{4}{1000} + \\cdots.\\]This infinite geometric series has first term $4/10=2/5$ and common ratio $1/10$, so we have \\[0.\\overline{4} = \\frac{2/5}{1-1/10} = \\boxed{\\frac{4}{9}}.\\]"
+    },
+    {
+        "question": "**Solution:**\nLet $x = 0.\\overline{4} = 0.444\\ldots$.\n\nMultiply both sides by 10:\n$10x = 4.\\overline{4}$.\n\nSubtract the first equation from the second:\n$10x - x = 4.\\overline{4} - 0.\\overline{4}$.\n$9x = 4$.\n\nDivide both sides by 9:\n$x = \\frac{4}{9}$.\n\n**Final Answer: $\\boxed{\\frac{4}{9}}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$\\frac{4}{9}$}",
+        "ground_truth": "We have \\[0.\\overline{4} = \\frac{4}{10} + \\frac{4}{100} + \\frac{4}{1000} + \\cdots.\\]This infinite geometric series has first term $4/10=2/5$ and common ratio $1/10$, so we have \\[0.\\overline{4} = \\frac{2/5}{1-1/10} = \\boxed{\\frac{4}{9}}.\\]"
+    }
+]

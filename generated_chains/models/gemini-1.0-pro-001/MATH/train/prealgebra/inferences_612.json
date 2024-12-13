@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFrom point $A$, Leigh walked 40 yards south, 60 yards west, 10 yards north, and 20 yards east to point $B$. What is the length, in yards, of $\\overline{AB}$?",
+        "inference": "Leigh walked a total of $40 + 60 - 10 + 20 = 110$ yards. Since she traveled in a straight line, the length of $\\overline{AB}$ is the hypotenuse of a right triangle with legs of length 40 yards and 90 yards. By the Pythagorean Theorem, the length of $\\overline{AB}$ is $\\sqrt{40^2 + 90^2} = \\sqrt{1600 + 8100} = \\sqrt{9700} = 98.49$ yards.\nFinal Answer: \\boxed{98.49} I hope it is correct.",
+        "ground_truth": "Keep up with the north-south movement separately from the east-west movement.  Leigh goes 40 yards south and 10 yards north, so she ends up 30 yards south of her starting position.  She goes 60 yards west and 20 yards east for a net east-west displacement of 40 yards west.  Going 30 yards south and 40 yards west puts Leigh $\\sqrt{30^2+40^2}=\\boxed{50}$ yards away."
+    },
+    {
+        "question": "Leigh walked a total of $40 + 60 - 10 + 20 = 110$ yards. Since she traveled in a straight line, the length of $\\overline{AB}$ is the hypotenuse of a right triangle with legs of length 40 yards and 90 yards. By the Pythagorean Theorem, the length of $\\overline{AB}$ is $\\sqrt{40^2 + 90^2} = \\sqrt{1600 + 8100} = \\sqrt{9700} = 98.49$ yards.\nFinal Answer: \\boxed{98.49} I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{98.49}",
+        "ground_truth": "Keep up with the north-south movement separately from the east-west movement.  Leigh goes 40 yards south and 10 yards north, so she ends up 30 yards south of her starting position.  She goes 60 yards west and 20 yards east for a net east-west displacement of 40 yards west.  Going 30 yards south and 40 yards west puts Leigh $\\sqrt{30^2+40^2}=\\boxed{50}$ yards away."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn triangle $ABC$, we have that $E$ and $F$ are midpoints of sides $\\overline{AC}$ and $\\overline{AB}$, respectively. The area of $\\triangle ABC$ is 24 square units. How many square units are in the area of $\\triangle CEF$?",
+        "inference": "Final Answer: $\\boxed{6}$. I hope it is correct.",
+        "ground_truth": "We first draw a diagram: [asy]\npair A, B, C, E, F;\nA = (0, 4);\nB = (-3, 0);\nC = (7, 0);\nE = 0.5 * A + 0.5 * C;\nF = 0.5 * A + 0.5 * B;\ndraw(A--B--C--cycle);\ndraw(C--E--F--cycle);\nlabel(\"$A$\", A, N);\nlabel(\"$B$\", B, NW);\nlabel(\"$C$\", C, NE);\nlabel(\"$E$\", E, NE);\nlabel(\"$F$\", F, NW);\n[/asy] Since $F$ is the midpoint of $\\overline{AB}$, the area of $\\triangle AFC$ is half of the area of $\\triangle ABC,$ or 12 square units. Following the same reasoning, we see that $E$ is the midpoint of $\\overline{AC},$ so the area of $\\triangle CEF$ is half that of $\\triangle AFC,$ or $\\boxed{6}$ square units."
+    },
+    {
+        "question": "Final Answer: $\\boxed{6}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the problem and solution so I can review it and provide a corrected final answer. \n",
+        "ground_truth": "We first draw a diagram: [asy]\npair A, B, C, E, F;\nA = (0, 4);\nB = (-3, 0);\nC = (7, 0);\nE = 0.5 * A + 0.5 * C;\nF = 0.5 * A + 0.5 * B;\ndraw(A--B--C--cycle);\ndraw(C--E--F--cycle);\nlabel(\"$A$\", A, N);\nlabel(\"$B$\", B, NW);\nlabel(\"$C$\", C, NE);\nlabel(\"$E$\", E, NE);\nlabel(\"$F$\", F, NW);\n[/asy] Since $F$ is the midpoint of $\\overline{AB}$, the area of $\\triangle AFC$ is half of the area of $\\triangle ABC,$ or 12 square units. Following the same reasoning, we see that $E$ is the midpoint of $\\overline{AC},$ so the area of $\\triangle CEF$ is half that of $\\triangle AFC,$ or $\\boxed{6}$ square units."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the sum of all numbers $x$ satisfying $x+25/x = 10.$",
+        "inference": "$$x+\\frac{25}{x}=10$$\n\n$$x^2+25=10x$$\n\n$$x^2-10x+25=0$$\n\n$$(x-5)^2=0$$\n\n$$x-5=0 \\Rightarrow x=5$$\n\n$$-x+5=0 \\Rightarrow x=5$$\n\n$$\\boxed{x=5+5}$$\n\n**Final Answer: $\\boxed{10}$. I hope it is correct.**",
+        "ground_truth": "Multiplying both sides by $x$ and then subtracting $10x$ from each side gives $x^2 - 10 x + 25 = 0.$ The quadratic factors to give $(x-5)^2 = 0,$ so $x-5 = 0,$ and $x=5$ is the only solution. Thus the answer is $\\boxed{5}.$\n\nNote: We might want to use the fact that the sum of the solutions to a quadratic $ax^2+bx+c = 0$ is given by $-b/a,$ but be careful! That fact counts double roots twice for the purpose of the sum, but this problem only counts it once, since $x=5$ is the only solution."
+    },
+    {
+        "question": "$$x+\\frac{25}{x}=10$$\n\n$$x^2+25=10x$$\n\n$$x^2-10x+25=0$$\n\n$$(x-5)^2=0$$\n\n$$x-5=0 \\Rightarrow x=5$$\n\n$$-x+5=0 \\Rightarrow x=5$$\n\n$$\\boxed{x=5+5}$$\n\n**Final Answer: $\\boxed{10}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{10}$$",
+        "ground_truth": "Multiplying both sides by $x$ and then subtracting $10x$ from each side gives $x^2 - 10 x + 25 = 0.$ The quadratic factors to give $(x-5)^2 = 0,$ so $x-5 = 0,$ and $x=5$ is the only solution. Thus the answer is $\\boxed{5}.$\n\nNote: We might want to use the fact that the sum of the solutions to a quadratic $ax^2+bx+c = 0$ is given by $-b/a,$ but be careful! That fact counts double roots twice for the purpose of the sum, but this problem only counts it once, since $x=5$ is the only solution."
+    }
+]

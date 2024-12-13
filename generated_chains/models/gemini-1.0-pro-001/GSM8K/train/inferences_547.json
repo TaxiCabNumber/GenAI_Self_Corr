@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTom decides to renovate a house.  There are 3 bedrooms and each bedroom takes 4 hours to renovate.  The kitchen takes 50% longer than each bedroom.  The living room took twice as much time as everything else combined.  How long did everything take?",
+        "inference": "3 bedrooms x 4 hours/bedroom = 12 hours\nKitchen = 12 hours x 150% = 18 hours\nLiving room = (12 hours + 18 hours) x 2 = 60 hours\nTotal = 12 hours + 18 hours + 60 hours = 90 hours\nI hope it is correct: 90 hours",
+        "ground_truth": "The kitchen took 4 * .5 = <<4*.5=2>>2 hours longer than the bedrooms\nSo the kitchen took 4 + 2 = <<4+2=6>>6 hours\nThe bedrooms took 3 * 4 = <<3*4=12>>12 hours\nSo the kitchen and bedrooms combined took 12 + 6 = <<12+6=18>>18 hours\nThe living room took 18 * 2 = <<18*2=36>>36 hours\nSo everything took a total of 18 + 36 = <<18+36=54>>54 hours\n#### 54"
+    },
+    {
+        "question": "3 bedrooms x 4 hours/bedroom = 12 hours\nKitchen = 12 hours x 150% = 18 hours\nLiving room = (12 hours + 18 hours) x 2 = 60 hours\nTotal = 12 hours + 18 hours + 60 hours = 90 hours\nI hope it is correct: 90 hours\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$78",
+        "ground_truth": "The kitchen took 4 * .5 = <<4*.5=2>>2 hours longer than the bedrooms\nSo the kitchen took 4 + 2 = <<4+2=6>>6 hours\nThe bedrooms took 3 * 4 = <<3*4=12>>12 hours\nSo the kitchen and bedrooms combined took 12 + 6 = <<12+6=18>>18 hours\nThe living room took 18 * 2 = <<18*2=36>>36 hours\nSo everything took a total of 18 + 36 = <<18+36=54>>54 hours\n#### 54"
+    }
+]

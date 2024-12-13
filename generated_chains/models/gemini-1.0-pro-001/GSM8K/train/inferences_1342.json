@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJames invests $2000 a week into his bank account.  He had $250,000 in his account when the year started.  At the end of the year, he gets a windfall that is worth 50% more than what he has in his bank account.   How much money does he have?",
+        "inference": "1. James invests $2000 a week, so in a year (52 weeks), he invests $2000 * 52 = $104,000.\n2. He had $250,000 in his account when the year started, so after a year, he has $250,000 + $104,000 = $354,000.\n3. He gets a windfall that is worth 50% more than what he has in his bank account, so he gets $354,000 * 1.5 = $531,000.\n4. Therefore, he has $354,000 + $531,000 = $885,000.\nI hope it is correct: $885,000$",
+        "ground_truth": "He deposited 2000*52=$<<2000*52=104000>>104,000 into his account\nSo he has 250000+104000=$<<250000+104000=354000>>354,000\nHis windfall is worth .5*354,000=$<<.5*354000=177000>>177,000 more than his current account\nThat means he got 177,000+354,000=$<<177000+354000=531000>>531,000\nSo he had a total of 531,000+354,000=$<<531000+354000=885000>>885,000\n#### 885,000"
+    },
+    {
+        "question": "1. James invests $2000 a week, so in a year (52 weeks), he invests $2000 * 52 = $104,000.\n2. He had $250,000 in his account when the year started, so after a year, he has $250,000 + $104,000 = $354,000.\n3. He gets a windfall that is worth 50% more than what he has in his bank account, so he gets $354,000 * 1.5 = $531,000.\n4. Therefore, he has $354,000 + $531,000 = $885,000.\nI hope it is correct: $885,000$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $885,000$",
+        "ground_truth": "He deposited 2000*52=$<<2000*52=104000>>104,000 into his account\nSo he has 250000+104000=$<<250000+104000=354000>>354,000\nHis windfall is worth .5*354,000=$<<.5*354000=177000>>177,000 more than his current account\nThat means he got 177,000+354,000=$<<177000+354000=531000>>531,000\nSo he had a total of 531,000+354,000=$<<531000+354000=885000>>885,000\n#### 885,000"
+    }
+]

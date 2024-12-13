@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nI want to read 4 books over the next month.  My bookshelf has 12 different books.  In how many ways can I choose which books to read over the next month, without regard to the order that I read them?",
+        "inference": "There are 12 choose 4 ways to choose 4 books from 12.\n\n12 choose 4 = 12!/4!8! = (12x11x10x9)/4x3x2x1 = 495\n\nFinal Answer: \\boxed{495}. I hope it is correct.",
+        "ground_truth": "Order does not matter, so it is a combination. Choosing $4$ from $12$ is $\\binom{12}{4}=\\boxed{495}.$"
+    },
+    {
+        "question": "There are 12 choose 4 ways to choose 4 books from 12.\n\n12 choose 4 = 12!/4!8! = (12x11x10x9)/4x3x2x1 = 495\n\nFinal Answer: \\boxed{495}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{495}",
+        "ground_truth": "Order does not matter, so it is a combination. Choosing $4$ from $12$ is $\\binom{12}{4}=\\boxed{495}.$"
+    }
+]

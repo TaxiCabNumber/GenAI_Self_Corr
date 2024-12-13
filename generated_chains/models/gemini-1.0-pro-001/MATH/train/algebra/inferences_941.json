@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $4:x^2 = x:16$, what is the value of $x$?",
+        "inference": "**Solution:**\n$$\\begin{split} 4:x^2 &= x:16 \\\\\\ \\Rightarrow \\qquad \\frac{4}{x^2} & = \\frac{x}{16} \\\\\\ \\Rightarrow \\qquad x^2 \\cdot 16 & = 4 \\cdot x \\\\\\ \\Rightarrow \\qquad 16x^2 & = 4x \\\\\\ \\Rightarrow \\qquad 16x^2 - 4x &= 0 \\\\\\ \\Rightarrow \\qquad 4x(4x - 1) &= 0 \\\\\\ \\Rightarrow \\qquad  x = 0, \\frac{1}{4} \\end{split}$$\n\n**Final Answer: \\\\boxed{$x=0, \\frac{1}{4}$}. I hope it is correct.**",
+        "ground_truth": "We have $\\frac{4}{x^2} = \\frac{x}{16}$. Cross-multiplying gives $x^3 = 64$, or $x=\\boxed{4}$."
+    },
+    {
+        "question": "**Solution:**\n$$\\begin{split} 4:x^2 &= x:16 \\\\\\ \\Rightarrow \\qquad \\frac{4}{x^2} & = \\frac{x}{16} \\\\\\ \\Rightarrow \\qquad x^2 \\cdot 16 & = 4 \\cdot x \\\\\\ \\Rightarrow \\qquad 16x^2 & = 4x \\\\\\ \\Rightarrow \\qquad 16x^2 - 4x &= 0 \\\\\\ \\Rightarrow \\qquad 4x(4x - 1) &= 0 \\\\\\ \\Rightarrow \\qquad  x = 0, \\frac{1}{4} \\end{split}$$\n\n**Final Answer: \\\\boxed{$x=0, \\frac{1}{4}$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{x=0, \\frac{1}{4}}$$",
+        "ground_truth": "We have $\\frac{4}{x^2} = \\frac{x}{16}$. Cross-multiplying gives $x^3 = 64$, or $x=\\boxed{4}$."
+    }
+]

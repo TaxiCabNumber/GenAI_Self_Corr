@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $f(x) = Ax + B$ and $g(x) = Bx + A$, where $A \\neq B$. If $f(g(x)) - g(f(x)) = B - A$, what is $A + B$?",
+        "inference": "**Solution:**\n\\begin{align*}\nf(g(x)) - g(f(x)) &= B(Bx+A) + A - A(Ax+B)\\\\\n&= B^2x + AB + A - A^2x - AB\\\\\n&= B^2x - A^2x\\\\\n&= (B-A)(B+A)\n\\end{align*}Thus,\n\\begin{align*}\n(B-A)(B+A)&=B-A\\\\\n\\Rightarrow\\qquad B+A&=1\n\\end{align*}\n**Final Answer: $\\boxed{1}$. I hope it is correct.**",
+        "ground_truth": "First we find that $f(g(x)) = A(Bx + A) + B = ABx + A^2 + B$ and $g(f(x)) = B(Ax + B) + A = ABx + B^2 + A$.\n\nNow we plug back in. \\begin{align*}\nf(g(x)) - g(f(x)) &= B - A \\\\\n(ABx + A^2 + B) - (ABx + B^2 + A) &= B - A \\\\\nA^2 - B^2 + B - A &= B - A \\\\\nA^2 - B^2 &= 0 \\\\\n(A-B)(A+B) &= 0\n\\end{align*}\n\nSince we are given that $A \\neq B$, this means that $A + B = \\boxed{0}.$"
+    },
+    {
+        "question": "**Solution:**\n\\begin{align*}\nf(g(x)) - g(f(x)) &= B(Bx+A) + A - A(Ax+B)\\\\\n&= B^2x + AB + A - A^2x - AB\\\\\n&= B^2x - A^2x\\\\\n&= (B-A)(B+A)\n\\end{align*}Thus,\n\\begin{align*}\n(B-A)(B+A)&=B-A\\\\\n\\Rightarrow\\qquad B+A&=1\n\\end{align*}\n**Final Answer: $\\boxed{1}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$0$}",
+        "ground_truth": "First we find that $f(g(x)) = A(Bx + A) + B = ABx + A^2 + B$ and $g(f(x)) = B(Ax + B) + A = ABx + B^2 + A$.\n\nNow we plug back in. \\begin{align*}\nf(g(x)) - g(f(x)) &= B - A \\\\\n(ABx + A^2 + B) - (ABx + B^2 + A) &= B - A \\\\\nA^2 - B^2 + B - A &= B - A \\\\\nA^2 - B^2 &= 0 \\\\\n(A-B)(A+B) &= 0\n\\end{align*}\n\nSince we are given that $A \\neq B$, this means that $A + B = \\boxed{0}.$"
+    }
+]

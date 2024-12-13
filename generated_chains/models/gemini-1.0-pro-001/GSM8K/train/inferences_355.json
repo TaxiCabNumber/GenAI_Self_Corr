@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMarla has a grid of squares that has 10 rows and 15 squares in each row. She colors 4 rows of 6 squares in the middle of the grid with red. She colors all squares on the first 2 and last 2 rows with blue. Then she colors the rest with green. How many squares does Marla color green?",
+        "inference": "Marla colored 6 squares in each of the 4 middle rows, so she colored **6 x 4 = 24** squares red.\nShe colored all 15 squares in each of the 4 top and bottom rows, so she colored **15 x 4 = 60** squares blue.\nShe has a total of **10 x 15 = 150** squares to color.\nShe has colored **24 + 60 = 84** squares red and blue.\nSo she has colored **150 - 84 = 66** squares green.\nI hope it is correct: 66",
+        "ground_truth": "There are 10 x 15 = <<10*15=150>>150 squares in a grid.\n4 x 6 = <<4*6=24>>24 squares are colored red.\nThere are 2 + 2 = <<2+2=4>>4 rows that are all blue.\nThus, a total of 4 x 15 = <<4*15=60>>60 squares are colored blue.\n24 + 60 = <<24+60=84>>84 squares are color red or blue.\nTherefore, 150 - 84 = <<150-84=66>>66 square are green.\n#### 66"
+    },
+    {
+        "question": "Marla colored 6 squares in each of the 4 middle rows, so she colored **6 x 4 = 24** squares red.\nShe colored all 15 squares in each of the 4 top and bottom rows, so she colored **15 x 4 = 60** squares blue.\nShe has a total of **10 x 15 = 150** squares to color.\nShe has colored **24 + 60 = 84** squares red and blue.\nSo she has colored **150 - 84 = 66** squares green.\nI hope it is correct: 66\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer=66$",
+        "ground_truth": "There are 10 x 15 = <<10*15=150>>150 squares in a grid.\n4 x 6 = <<4*6=24>>24 squares are colored red.\nThere are 2 + 2 = <<2+2=4>>4 rows that are all blue.\nThus, a total of 4 x 15 = <<4*15=60>>60 squares are colored blue.\n24 + 60 = <<24+60=84>>84 squares are color red or blue.\nTherefore, 150 - 84 = <<150-84=66>>66 square are green.\n#### 66"
+    }
+]

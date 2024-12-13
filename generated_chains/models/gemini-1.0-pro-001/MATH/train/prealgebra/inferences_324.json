@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFive couples were at a party. If each person shook hands exactly once with everyone else except his/her spouse, how many handshakes were exchanged? (Note: One obviously doesn't shake hands with oneself.)",
+        "inference": "**Solution of the last problem**\n1. Each person shakes hands with 9 others (5 couples + 4 others).\n2. 5 people do this, so there are 5 * 9 = 45 handshakes.\n**Final Answer:** $\\boxed{45}$. I hope it is correct.",
+        "ground_truth": "There are a total of 10 people at the party.  Each shakes hands with everyone else, except for their spouse, which will be a total of $10-2=8$ other people.  The total number of handshakes will be $10\\cdot8/2=\\boxed{40}$, where we divide by 2 to correct for counting each handshake twice."
+    },
+    {
+        "question": "**Solution of the last problem**\n1. Each person shakes hands with 9 others (5 couples + 4 others).\n2. 5 people do this, so there are 5 * 9 = 45 handshakes.\n**Final Answer:** $\\boxed{45}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$45$}",
+        "ground_truth": "There are a total of 10 people at the party.  Each shakes hands with everyone else, except for their spouse, which will be a total of $10-2=8$ other people.  The total number of handshakes will be $10\\cdot8/2=\\boxed{40}$, where we divide by 2 to correct for counting each handshake twice."
+    }
+]

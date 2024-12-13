@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nYour video streaming subscription costs $14 a month. If you're evenly splitting the cost with your friend, how much do you pay in total after the first year for this service?",
+        "inference": "* After 12 months (1 year), you will have paid: $14 x 12 = $168$\n* Splitting this cost with your friend, means you will each pay: $168 / 2 = $84$\n\n**I hope it is correct: 84$**",
+        "ground_truth": "An even split is 50%. If the monthly subscription is $14, but I pay only 50% that means I pay every month $14*50%=$<<14*50*.01=7>>7\nWe know that in 1 year there are 12 months. Therefore if each month I pay $7, in 12 months I'd pay $7*12=$<<7*12=84>>84\n#### 84"
+    },
+    {
+        "question": "* After 12 months (1 year), you will have paid: $14 x 12 = $168$\n* Splitting this cost with your friend, means you will each pay: $168 / 2 = $84$\n\n**I hope it is correct: 84$**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $84$",
+        "ground_truth": "An even split is 50%. If the monthly subscription is $14, but I pay only 50% that means I pay every month $14*50%=$<<14*50*.01=7>>7\nWe know that in 1 year there are 12 months. Therefore if each month I pay $7, in 12 months I'd pay $7*12=$<<7*12=84>>84\n#### 84"
+    }
+]

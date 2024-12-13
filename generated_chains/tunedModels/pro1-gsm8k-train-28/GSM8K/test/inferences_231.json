@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nKylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+        "inference": "1. Robert collects 20 shells on Monday.\n2. Kylie collects 5 more shells than Robert on Monday, so she collects 20 + 5 = 25 shells on Monday.\n3. On Tuesday, Kylie collects 2 times more shells than she did on Monday, so she collects 25 * 2 = 50 shells on Tuesday.\nI hope it is correct: 50 $shells$",
+        "ground_truth": "On Monday, Kylie collects 20 + 5 = <<20+5=25>>25 shells\nOn Tuesday, Kylie collects 25 * 2 = <<25*2=50>>50 shells\n#### 50"
+    },
+    {
+        "question": "1. Robert collects 20 shells on Monday.\n2. Kylie collects 5 more shells than Robert on Monday, so she collects 20 + 5 = 25 shells on Monday.\n3. On Tuesday, Kylie collects 2 times more shells than she did on Monday, so she collects 25 * 2 = 50 shells on Tuesday.\nI hope it is correct: 50 $shells$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 50",
+        "ground_truth": "On Monday, Kylie collects 20 + 5 = <<20+5=25>>25 shells\nOn Tuesday, Kylie collects 25 * 2 = <<25*2=50>>50 shells\n#### 50"
+    }
+]

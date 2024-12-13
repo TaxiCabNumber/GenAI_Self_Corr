@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe square of an integer is 182 greater than the integer itself. What is the sum of all integers for which this is true?",
+        "inference": "Let the integer be $x$. Then, by the given information, we have $$x^2=x+182$$ $$\\Rightarrow x^2-x-182=0$$ $$\\Rightarrow (x-14)(x+13)=0$$ $$\\Rightarrow x=14, -13$$ Sum of the integers is $14-13=\\boxed{1}.$\nFinal Answer: $\\boxed{1}.$ I hope it is correct.",
+        "ground_truth": "Let our integer be $x$.  Then we have that $x^2 = 182 + x$, or $x^2 - x - 182 = 0$.  The sum of the roots of this equation is just $-(-1) = \\boxed{1}$.  Note that we are given that one solution is an integer, and so the other one must be as well since they add to 1.\n\nNote that we can factor $x^2 - x - 182 = 0$ as $(x - 14)(x + 13) = 0$.  So the integers that work are 14 and $-13$, and their sum is $14 + (-13) = 1,$ as expected."
+    },
+    {
+        "question": "Let the integer be $x$. Then, by the given information, we have $$x^2=x+182$$ $$\\Rightarrow x^2-x-182=0$$ $$\\Rightarrow (x-14)(x+13)=0$$ $$\\Rightarrow x=14, -13$$ Sum of the integers is $14-13=\\boxed{1}.$\nFinal Answer: $\\boxed{1}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{1}.",
+        "ground_truth": "Let our integer be $x$.  Then we have that $x^2 = 182 + x$, or $x^2 - x - 182 = 0$.  The sum of the roots of this equation is just $-(-1) = \\boxed{1}$.  Note that we are given that one solution is an integer, and so the other one must be as well since they add to 1.\n\nNote that we can factor $x^2 - x - 182 = 0$ as $(x - 14)(x + 13) = 0$.  So the integers that work are 14 and $-13$, and their sum is $14 + (-13) = 1,$ as expected."
+    }
+]

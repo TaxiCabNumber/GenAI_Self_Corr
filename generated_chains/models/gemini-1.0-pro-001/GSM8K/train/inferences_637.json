@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJacob is 24 years now. His brother Tony is half Jacob's age. In 6 years how old will tony be?",
+        "inference": "Tony is half Jacob's age now.\nTony's age now is 24 / 2 = 12 years\nIn 6 years, Tony's age will be 12 + 6 = 18 years\nI hope it is correct: 18",
+        "ground_truth": "Tony\u2019s age now is 24 / 2 = <<24/2=12>>12 years old.\nIn 6 years he will be 12 + 6 = <<12+6=18>>18 years old.\n#### 18"
+    },
+    {
+        "question": "Tony is half Jacob's age now.\nTony's age now is 24 / 2 = 12 years\nIn 6 years, Tony's age will be 12 + 6 = 18 years\nI hope it is correct: 18\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$18",
+        "ground_truth": "Tony\u2019s age now is 24 / 2 = <<24/2=12>>12 years old.\nIn 6 years he will be 12 + 6 = <<12+6=18>>18 years old.\n#### 18"
+    }
+]

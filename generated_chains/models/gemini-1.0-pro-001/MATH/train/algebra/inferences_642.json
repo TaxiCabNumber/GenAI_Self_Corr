@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the sum of the roots of the equation $(x - 5)^2 = 9$?",
+        "inference": "**Solution:**\n$$\\begin{aligned}(x - 5)^2 &= 9 \\\\\\ x - 5 &= \\pm 3 \\\\\\ x &= 5 \\pm 3 \\\\\\ x &= 8,-2\\end{aligned}$$\n\nFinal Answer: $\\boxed{6}.$ I hope it is correct.",
+        "ground_truth": "Knowing that $3$ is a root of $9$, we see that $x = 8,2$. Hence, the sum of the roots is $10$.\n\nAlternatively, we can rearrange the equation so that we have $x^2 - 10x + 16 = 0$. Then, using the case of Vieta's formula for a quadratic, we again see that the sum of the roots is $\\boxed{10}$."
+    },
+    {
+        "question": "**Solution:**\n$$\\begin{aligned}(x - 5)^2 &= 9 \\\\\\ x - 5 &= \\pm 3 \\\\\\ x &= 5 \\pm 3 \\\\\\ x &= 8,-2\\end{aligned}$$\n\nFinal Answer: $\\boxed{6}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{6}",
+        "ground_truth": "Knowing that $3$ is a root of $9$, we see that $x = 8,2$. Hence, the sum of the roots is $10$.\n\nAlternatively, we can rearrange the equation so that we have $x^2 - 10x + 16 = 0$. Then, using the case of Vieta's formula for a quadratic, we again see that the sum of the roots is $\\boxed{10}$."
+    }
+]

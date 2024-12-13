@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe amount of water passing through a river at one point in time is 4000 gallons. After a day of heavy rain, the amount of water passing through the river doubles at the same point. If the volume of water passing through the river at that point increases by 6000 gallons on the third day, calculate the total amount of water passing through the river at that point.",
+        "inference": "1. Initial amount of water = 4000 gallons\n2. After a day, the amount doubles = 4000 * 2 = 8000 gallons\n3. Increase on the third day = 6000 gallons\n4. Total amount = Initial amount + Amount after day 1 + Increase on day 3\n5. Total amount = 4000 + 8000 + 6000 = 18000 gallons.\nI hope it is correct: 18000 $gallons$",
+        "ground_truth": "After a day of rain, the volume of water in the river passing at one point in time doubled to 2*4000 = <<2*4000=8000>>8000 gallons.\nAfter more heavy rains, the volume of water passing through the river on the third day is 8000+6000 = <<8000+6000=14000>>14000 gallons.\n#### 14000"
+    },
+    {
+        "question": "1. Initial amount of water = 4000 gallons\n2. After a day, the amount doubles = 4000 * 2 = 8000 gallons\n3. Increase on the third day = 6000 gallons\n4. Total amount = Initial amount + Amount after day 1 + Increase on day 3\n5. Total amount = 4000 + 8000 + 6000 = 18000 gallons.\nI hope it is correct: 18000 $gallons$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 18000",
+        "ground_truth": "After a day of rain, the volume of water in the river passing at one point in time doubled to 2*4000 = <<2*4000=8000>>8000 gallons.\nAfter more heavy rains, the volume of water passing through the river on the third day is 8000+6000 = <<8000+6000=14000>>14000 gallons.\n#### 14000"
+    }
+]

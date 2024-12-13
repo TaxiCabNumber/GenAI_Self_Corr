@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn a certain ellipse, the center is at $(-3,1),$ one focus is at $(-3,0),$ and one endpoint of a semi-major axis is at $(-3,3).$  Find the semi-minor axis of the ellipse.",
+        "inference": "**Step 1**\n\nThe center of the ellipse is $(-3,1)$ and one focus is at $(-3,0)$. So the vertices are $A(-3,3)$ and $A'(-3,-1)$ and the semi-major axis is $AA'=6$.\n\n**Step 2**\n\nThe distance between the center and one vertex is $AA'=3$.\n\n**Step 3**\n\nThe semi-minor axis is perpendicular to the semi-major axis. So the semi-minor axis is $BB'$ and $BB' = \\sqrt{AA'^2 - CC'^2}.$\n\n**Step 4**\n\n$CC' = \\sqrt{(3)^2} =3$.\n\n**Step 5**\n\n$BB' = \\sqrt{6^2 - 3^2} = 3\\sqrt{3}.$\n\n**Final Answer: $\\boxed{3\\sqrt{3}}$. I hope it is correct.**",
+        "ground_truth": "The distance between the center and the focus $(-3,0)$ is $c = 1.$  Also, the semi-major axis is the distance between the center and the endpoint of the semi-major axis, which is $a = 2.$  Then the semi-minor axis is $b = \\sqrt{a^2 - c^2} = \\boxed{\\sqrt{3}}.$"
+    },
+    {
+        "question": "**Step 1**\n\nThe center of the ellipse is $(-3,1)$ and one focus is at $(-3,0)$. So the vertices are $A(-3,3)$ and $A'(-3,-1)$ and the semi-major axis is $AA'=6$.\n\n**Step 2**\n\nThe distance between the center and one vertex is $AA'=3$.\n\n**Step 3**\n\nThe semi-minor axis is perpendicular to the semi-major axis. So the semi-minor axis is $BB'$ and $BB' = \\sqrt{AA'^2 - CC'^2}.$\n\n**Step 4**\n\n$CC' = \\sqrt{(3)^2} =3$.\n\n**Step 5**\n\n$BB' = \\sqrt{6^2 - 3^2} = 3\\sqrt{3}.$\n\n**Final Answer: $\\boxed{3\\sqrt{3}}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$3\\sqrt{3}$}",
+        "ground_truth": "The distance between the center and the focus $(-3,0)$ is $c = 1.$  Also, the semi-major axis is the distance between the center and the endpoint of the semi-major axis, which is $a = 2.$  Then the semi-minor axis is $b = \\sqrt{a^2 - c^2} = \\boxed{\\sqrt{3}}.$"
+    }
+]

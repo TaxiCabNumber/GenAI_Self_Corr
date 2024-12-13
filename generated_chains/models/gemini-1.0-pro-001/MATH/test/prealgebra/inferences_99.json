@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThere are two pints in one quart and four quarts in one gallon. How many pints are there in $2\\frac{1}{2}$ gallons of milk?",
+        "inference": "First convert the mixed number to an improper fraction:\n\n$$2\\frac{1}{2} = \\frac{2 \\cdot 2 + 1}{2} = \\frac{5}{2}$$\n\nThen multiply the number of gallons by the number of quarts per gallon and the number of pints per quart:\n\n$$\\frac{5}{2}\\text{ gallons} \\cdot 4\\text{ quarts/gallon} \\cdot 2\\text{ pints/quart} = 20\\text{ pints}$$\n\n**Final Answer: \\boxed{20}. I hope it is correct.**",
+        "ground_truth": "Since there are two pints in each quart and four quarts in a gallon, there are $2\\times4=8$ pints in each gallon.  Multiplying 8 by $2\\frac{1}{2}$, we find that there are $\\boxed{20}$ pints in $2\\frac{1}{2}$ gallons."
+    },
+    {
+        "question": "First convert the mixed number to an improper fraction:\n\n$$2\\frac{1}{2} = \\frac{2 \\cdot 2 + 1}{2} = \\frac{5}{2}$$\n\nThen multiply the number of gallons by the number of quarts per gallon and the number of pints per quart:\n\n$$\\frac{5}{2}\\text{ gallons} \\cdot 4\\text{ quarts/gallon} \\cdot 2\\text{ pints/quart} = 20\\text{ pints}$$\n\n**Final Answer: \\boxed{20}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{20}",
+        "ground_truth": "Since there are two pints in each quart and four quarts in a gallon, there are $2\\times4=8$ pints in each gallon.  Multiplying 8 by $2\\frac{1}{2}$, we find that there are $\\boxed{20}$ pints in $2\\frac{1}{2}$ gallons."
+    }
+]

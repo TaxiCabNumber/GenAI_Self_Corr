@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMr. John jogs for 1 hour 30 minutes in the morning every day. How much time (in hours) will he have spent jogging after two weeks?",
+        "inference": "1 hour 30 minutes is equal to 1.5 hours.\n\nIn one week, Mr. John will have spent 1.5 hours * 7 days = 10.5 hours jogging.\n\nIn two weeks, he will have spent 10.5 hours * 2 = 21 hours jogging.\n\nI hope it is correct: 21 hours",
+        "ground_truth": "There are 60 minutes in an hour so 1 hour 30 minutes is equivalent to [1 + (30/60)] hours = <<1.5=1.5>>1.5 hours\nThere are 7 days in a week so he spends 1.5*7 = <<7*1.5=10.5>>10.5 hours jogging every week\nAfter 2 weeks he will have spent 2*10.5 = <<2*10.5=21>>21 hours jogging.\n#### 21"
+    },
+    {
+        "question": "1 hour 30 minutes is equal to 1.5 hours.\n\nIn one week, Mr. John will have spent 1.5 hours * 7 days = 10.5 hours jogging.\n\nIn two weeks, he will have spent 10.5 hours * 2 = 21 hours jogging.\n\nI hope it is correct: 21 hours\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$21",
+        "ground_truth": "There are 60 minutes in an hour so 1 hour 30 minutes is equivalent to [1 + (30/60)] hours = <<1.5=1.5>>1.5 hours\nThere are 7 days in a week so he spends 1.5*7 = <<7*1.5=10.5>>10.5 hours jogging every week\nAfter 2 weeks he will have spent 2*10.5 = <<2*10.5=21>>21 hours jogging.\n#### 21"
+    }
+]

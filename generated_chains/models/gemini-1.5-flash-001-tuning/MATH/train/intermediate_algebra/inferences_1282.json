@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe equation $x^3 - 9x^2 + 8x +2 = 0$ has three real roots $p$, $q$, $r$.  Find $\\frac{1}{p^2} + \\frac{1}{q^2} + \\frac{1}{r^2}$.",
+        "inference": "By Vieta's formulas, $p+q+r=9$, $pq+pr+qr=8$, and $pqr=-2$.  Then\n\\begin{align*}\n\\frac{1}{p^2} + \\frac{1}{q^2} + \\frac{1}{r^2} &= \\frac{q^2 r^2 + p^2 r^2 + p^2 q^2}{p^2 q^2 r^2} \\\\\n&= \\frac{(pq+pr+qr)^2 - 2pqr(p+q+r)}{p^2 q^2 r^2} \\\\\n&= \\frac{8^2 - 2(-2)(9)}{(-2)^2} \\\\\n&= \\frac{64 + 36}{4} \\\\\n&= 25.\n\\end{align*}Final Answer: $\\boxed{25}$. I hope it is correct. \n",
+        "ground_truth": "From Vieta's relations, we have $p+q+r = 9$, $pq+qr+pr = 8$ and $pqr = -2$. So \\begin{align*}\n\\frac{1}{p^2} + \\frac{1}{q^2} + \\frac{1}{r^2} = \\frac{(pq + qr + rp)^2 - 2 (p + q + r)(pqr)}{(pqr)^2} = \\frac{8^2 - 2 \\cdot 9 \\cdot (-2)}{(-2)^2} = \\boxed{25}.\n\\end{align*}"
+    },
+    {
+        "question": "By Vieta's formulas, $p+q+r=9$, $pq+pr+qr=8$, and $pqr=-2$.  Then\n\\begin{align*}\n\\frac{1}{p^2} + \\frac{1}{q^2} + \\frac{1}{r^2} &= \\frac{q^2 r^2 + p^2 r^2 + p^2 q^2}{p^2 q^2 r^2} \\\\\n&= \\frac{(pq+pr+qr)^2 - 2pqr(p+q+r)}{p^2 q^2 r^2} \\\\\n&= \\frac{8^2 - 2(-2)(9)}{(-2)^2} \\\\\n&= \\frac{64 + 36}{4} \\\\\n&= 25.\n\\end{align*}Final Answer: $\\boxed{25}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct. \n\n$\\boxed{25}$",
+        "ground_truth": "From Vieta's relations, we have $p+q+r = 9$, $pq+qr+pr = 8$ and $pqr = -2$. So \\begin{align*}\n\\frac{1}{p^2} + \\frac{1}{q^2} + \\frac{1}{r^2} = \\frac{(pq + qr + rp)^2 - 2 (p + q + r)(pqr)}{(pqr)^2} = \\frac{8^2 - 2 \\cdot 9 \\cdot (-2)}{(-2)^2} = \\boxed{25}.\n\\end{align*}"
+    }
+]

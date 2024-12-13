@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn decides to take up an odd hobby of speed talking.  His normally speaking speed is 150 WPM.  After training his speed is 2.5 times faster than his starting speed.  How long would it take him to speak 10 pages if each page has 450 words per page?",
+        "inference": "1. Convert John's speaking speed from WPM to words per minute (WPM).\n   - 150 WPM * 1 minute/60 seconds = 2.5 words per second\n\n2. Calculate John's new speaking speed after training.\n   - 2.5 words per second * 2.5 = 6.25 words per second\n\n3. Determine the total number of words John needs to speak.\n   - 10 pages * 450 words per page = 4,500 words\n\n4. Calculate the amount of time it would take John to speak 4,500 words at his new speed.\n   - 4,500 words / 6.25 words per second = 720 seconds\n\n5. Convert the time from seconds to minutes.\n   - 720 seconds / 60 seconds per minute = 12 minutes\n\nI hope it is correct: 12 $minutes$",
+        "ground_truth": "He can speak 150*2.5=<<150*2.5=375>>375 words per minute\nHe wants to say 450*10=<<450*10=4500>>4500 words\nSo he can speak them in 4500/375=<<4500/375=12>>12 minutes\n#### 12"
+    },
+    {
+        "question": "1. Convert John's speaking speed from WPM to words per minute (WPM).\n   - 150 WPM * 1 minute/60 seconds = 2.5 words per second\n\n2. Calculate John's new speaking speed after training.\n   - 2.5 words per second * 2.5 = 6.25 words per second\n\n3. Determine the total number of words John needs to speak.\n   - 10 pages * 450 words per page = 4,500 words\n\n4. Calculate the amount of time it would take John to speak 4,500 words at his new speed.\n   - 4,500 words / 6.25 words per second = 720 seconds\n\n5. Convert the time from seconds to minutes.\n   - 720 seconds / 60 seconds per minute = 12 minutes\n\nI hope it is correct: 12 $minutes$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 12 minutes",
+        "ground_truth": "He can speak 150*2.5=<<150*2.5=375>>375 words per minute\nHe wants to say 450*10=<<450*10=4500>>4500 words\nSo he can speak them in 4500/375=<<4500/375=12>>12 minutes\n#### 12"
+    }
+]

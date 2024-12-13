@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $t=2s-s^2$ and $s=n^2 - 2^n+1$. What is the value of $t$ when $n=3$?",
+        "inference": "Solution:\nSubstituting $s=n^2 - 2^n+1$ into $t=2s-s^2$, we get\n$$t=2(n^2 - 2^n+1)-(n^2-2^n+1)^2$$\n$$=2n^2 - 4^n+2-n^4+4n^3-6n^2+4^n-4n^2+1$$\n$$=-n^4+4n^3-4n^2+3$$\nSo, when $n=3$, \n$$t=-3^4+4\\cdot3^3-4\\cdot3^2+3=-81+108-36+3=\\boxed{-10}.$$\nFinal Answer: $\\boxed{-10}.$ I hope it is correct.",
+        "ground_truth": "First substitute $n=3$ into the expression for $s$ to find $s=3^2 - 2^3 + 1 = 9-8+1=2$.  Then substitute $s=2$ into the expression for $t$ to find $t=2(2) - 2^2 =\\boxed{0}$."
+    },
+    {
+        "question": "Solution:\nSubstituting $s=n^2 - 2^n+1$ into $t=2s-s^2$, we get\n$$t=2(n^2 - 2^n+1)-(n^2-2^n+1)^2$$\n$$=2n^2 - 4^n+2-n^4+4n^3-6n^2+4^n-4n^2+1$$\n$$=-n^4+4n^3-4n^2+3$$\nSo, when $n=3$, \n$$t=-3^4+4\\cdot3^3-4\\cdot3^2+3=-81+108-36+3=\\boxed{-10}.$$\nFinal Answer: $\\boxed{-10}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{-10}",
+        "ground_truth": "First substitute $n=3$ into the expression for $s$ to find $s=3^2 - 2^3 + 1 = 9-8+1=2$.  Then substitute $s=2$ into the expression for $t$ to find $t=2(2) - 2^2 =\\boxed{0}$."
+    }
+]

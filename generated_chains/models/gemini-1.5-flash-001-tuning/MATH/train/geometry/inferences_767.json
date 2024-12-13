@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe figure shown is a cube. The distance between vertices $B$ and $G$ is $5\\sqrt{2}$ units. What is the volume of the cube, in cubic units?\n\n[asy]\n\nsize(3cm,3cm);\n\npair A,B,C,D,a,b,c,d;\n\nA=(0,0);\nB=(1,0);\nC=(1,1);\nD=(0,1);\n\ndraw(A--B--C--D--A);\n\na=(-0.25,0.1);\nb=D+(A+a);\nc=C+(A+a);\n\ndraw(A--a);\n\ndraw(D--b);\n\ndraw(C--c);\n\ndraw(a--b--c);\n\ndraw(A--b,1pt+dotted);\n\nlabel(\"$B$\",b,W);\nlabel(\"$G$\",A,NE);\n\ndot(A);\ndot(b);\n\n[/asy]",
+        "inference": "Final Answer: \\\\boxed{125}. I hope it is correct. \n",
+        "ground_truth": "$BG$ is a diagonal along one face of the cube. Since this diagonal splits the square face into two $45-45-90$ triangles, the diagonal is $\\sqrt{2}$ times longer than a side of the square, so a side of the square measures $5\\sqrt{2}/\\sqrt{2}=5$ units. Thus, the volume of the cube is $5^3=\\boxed{125}$ cubic units."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{125}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need this information to identify any errors and rewrite the solution correctly. \n",
+        "ground_truth": "$BG$ is a diagonal along one face of the cube. Since this diagonal splits the square face into two $45-45-90$ triangles, the diagonal is $\\sqrt{2}$ times longer than a side of the square, so a side of the square measures $5\\sqrt{2}/\\sqrt{2}=5$ units. Thus, the volume of the cube is $5^3=\\boxed{125}$ cubic units."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn right triangle $FGH$ with $\\angle H = 90^\\circ$, we have $FG = 17$ and $HG = 15$.  Find $\\sin G$.",
+        "inference": "Final Answer:  $\\boxed{\\frac{15}{17}}$. I hope it is correct. \n",
+        "ground_truth": "The triangle is shown below:\n\n[asy]\npair F,G,H;\nH = (0,0);\nG = (15,0);\nF = (0,8);\ndraw(F--G--H--F);\ndraw(rightanglemark(G,H,F,20));\nlabel(\"$H$\",H,SW);\nlabel(\"$G$\",G,SE);\nlabel(\"$F$\",F,N);\nlabel(\"$17$\",(F+G)/2,NE);\nlabel(\"$15$\",G/2,S);\n[/asy]\n\nThe Pythagorean Theorem gives us $FH = \\sqrt{FG^2 - GH^2} = \\sqrt{289 - 225} = 8$, so $\\sin G = \\frac{FH}{FG} = \\boxed{\\frac{8}{17}}$."
+    },
+    {
+        "question": "Final Answer:  $\\boxed{\\frac{15}{17}}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the question and the solution so I can review it and provide a corrected final answer. \n",
+        "ground_truth": "The triangle is shown below:\n\n[asy]\npair F,G,H;\nH = (0,0);\nG = (15,0);\nF = (0,8);\ndraw(F--G--H--F);\ndraw(rightanglemark(G,H,F,20));\nlabel(\"$H$\",H,SW);\nlabel(\"$G$\",G,SE);\nlabel(\"$F$\",F,N);\nlabel(\"$17$\",(F+G)/2,NE);\nlabel(\"$15$\",G/2,S);\n[/asy]\n\nThe Pythagorean Theorem gives us $FH = \\sqrt{FG^2 - GH^2} = \\sqrt{289 - 225} = 8$, so $\\sin G = \\frac{FH}{FG} = \\boxed{\\frac{8}{17}}$."
+    }
+]

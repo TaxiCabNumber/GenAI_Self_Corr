@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRobi Ney wants to fill a 120-liter tub. He is amused by letting the water run for 1 minute, then closing the water supply for 1 minute, and so on alternating opening and closing the water supply. But the cap at the bottom of the tub is not very airtight and lets 1 liter of water escape per minute. The flow rate of the tap is 12 liters per minute. How long does it take to fill the tub in minutes?",
+        "inference": "I hope it is correct: 160 $minutes$ \n",
+        "ground_truth": "In 2 minutes, 12 liters of water flow into the bathtub and 2 liters (2 minutes x 1 liter/minute ) escape.\nThis will leave 12 \u2013 2 = <<12-2=10>>10 liters of water every two minutes\nWe can divide the number of liters by the number of minutes to find the average flow per minute, which is 10 / 2 = <<10/2=5>>5 liters per minute\nTo fill the tub, it will take 120 liters / 5 liters/min = <<120/5=24>>24 min\n#### 24"
+    },
+    {
+        "question": "I hope it is correct: 160 $minutes$ \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ 160 minutes \n",
+        "ground_truth": "In 2 minutes, 12 liters of water flow into the bathtub and 2 liters (2 minutes x 1 liter/minute ) escape.\nThis will leave 12 \u2013 2 = <<12-2=10>>10 liters of water every two minutes\nWe can divide the number of liters by the number of minutes to find the average flow per minute, which is 10 / 2 = <<10/2=5>>5 liters per minute\nTo fill the tub, it will take 120 liters / 5 liters/min = <<120/5=24>>24 min\n#### 24"
+    }
+]

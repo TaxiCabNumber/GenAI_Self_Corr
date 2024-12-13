@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $C = (3, 5)$ be the midpoint of $AB,$ where $A = (1, 8)$ and $B = (x, y).$ What is the value of $xy$?",
+        "inference": "**Solution:**\nThe midpoint formula is $\\left(\\frac{x_1+x_2}{2}, \\frac{y_1+y_2}{2}\\right)$. So,\n\n$$3=\\frac{1+x}{2} \\Rightarrow x=5$$ \n\nand\n\n$$5=\\frac{8+y}{2} \\Rightarrow y=2$$\n\nTherefore, $xy=5\\cdot 2=\\boxed{10}$.\n\n**Final Answer: $\\boxed{10}$. I hope it is correct.**",
+        "ground_truth": "Clearly $C$ must be the midpoint of $AB$ if $C$ is the closest point to both $A$ and $B.$ Using the midpoint formula, we see that: $$\\left(\\frac{1 + x}{2}, \\frac{8 + y}{2}\\right) = \\left(3, 5\\right).$$Therefore, $\\frac{1 + x}{2} = 3$, so $x = 5.$ Meanwhile, $\\frac{8 + y}{2} = 5$, so $y = 2$. Our answer is $xy = \\boxed{10}.$"
+    },
+    {
+        "question": "**Solution:**\nThe midpoint formula is $\\left(\\frac{x_1+x_2}{2}, \\frac{y_1+y_2}{2}\\right)$. So,\n\n$$3=\\frac{1+x}{2} \\Rightarrow x=5$$ \n\nand\n\n$$5=\\frac{8+y}{2} \\Rightarrow y=2$$\n\nTherefore, $xy=5\\cdot 2=\\boxed{10}$.\n\n**Final Answer: $\\boxed{10}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{10}",
+        "ground_truth": "Clearly $C$ must be the midpoint of $AB$ if $C$ is the closest point to both $A$ and $B.$ Using the midpoint formula, we see that: $$\\left(\\frac{1 + x}{2}, \\frac{8 + y}{2}\\right) = \\left(3, 5\\right).$$Therefore, $\\frac{1 + x}{2} = 3$, so $x = 5.$ Meanwhile, $\\frac{8 + y}{2} = 5$, so $y = 2$. Our answer is $xy = \\boxed{10}.$"
+    }
+]

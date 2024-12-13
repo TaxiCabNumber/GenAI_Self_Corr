@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nGiven that $13^{-1} \\equiv 29 \\pmod{47}$, find $34^{-1} \\pmod{47}$, as a residue modulo 47.  (Give a number between 0 and 46, inclusive.)",
+        "inference": "$$\\begin{split} 13^{-1} &\\equiv 29 \\pmod{47} \\\\\\ 13 \\cdot 29 &\\equiv 1 \\pmod{47} \\\\\\  34 \\cdot 29 &\\equiv 2 \\pmod{47} \\\\\\  34 \\cdot 29 \\cdot 29 &\\equiv 2 \\cdot 29 \\pmod{47}  \\\\\\ 34^{-1} &\\equiv 20 \\pmod{47} \\end{split}$$\n\nFinal Answer: $\\boxed{20}$. I hope it is correct.",
+        "ground_truth": "Note that $34 \\equiv -13 \\pmod{47}$.  Hence, \\begin{align*}\n34^{-1} &\\equiv (-13)^{-1} \\\\\n&\\equiv (-1)^{-1} \\cdot 13^{-1} \\\\\n&\\equiv (-1) \\cdot 29 \\\\\n&\\equiv \\boxed{18} \\pmod{47}.\n\\end{align*}"
+    },
+    {
+        "question": "$$\\begin{split} 13^{-1} &\\equiv 29 \\pmod{47} \\\\\\ 13 \\cdot 29 &\\equiv 1 \\pmod{47} \\\\\\  34 \\cdot 29 &\\equiv 2 \\pmod{47} \\\\\\  34 \\cdot 29 \\cdot 29 &\\equiv 2 \\cdot 29 \\pmod{47}  \\\\\\ 34^{-1} &\\equiv 20 \\pmod{47} \\end{split}$$\n\nFinal Answer: $\\boxed{20}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{34^{-1} \\equiv 20 \\pmod{47}}$$",
+        "ground_truth": "Note that $34 \\equiv -13 \\pmod{47}$.  Hence, \\begin{align*}\n34^{-1} &\\equiv (-13)^{-1} \\\\\n&\\equiv (-1)^{-1} \\cdot 13^{-1} \\\\\n&\\equiv (-1) \\cdot 29 \\\\\n&\\equiv \\boxed{18} \\pmod{47}.\n\\end{align*}"
+    }
+]

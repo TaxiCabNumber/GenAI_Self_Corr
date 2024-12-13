@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nAn airplane has three sections: First Class (24 seats), Business Class ($25\\%$ of the total number of seats) and Economy ($\\frac{2}{3}$ of the total number of seats). How many seats does the plane have?",
+        "inference": "**Step 1: Find the fraction of seats in Business Class.**\n$$\\frac{25}{100} = 0.25$$\n\n**Step 2: Find the fraction of seats in Economy.**\n$$1 - 0.25 - 0.24 = 0.51$$\n\n**Step 3: Set up an equation to represent the total number of seats.**\n$$0.24x + 0.25x + 0.51x = x$$\n\n**Step 4: Solve for x.**\n$$x = \\frac{100}{100} = 100$$\n\n**Final Answer: \\boxed{$100$}. I hope it is correct.**",
+        "ground_truth": "Suppose that the airplane has $s$ seats.  Then we have that $24 + 0.25 s + \\frac{2}{3} s = s$.  Solving, we find that $s = \\boxed{288}$."
+    },
+    {
+        "question": "**Step 1: Find the fraction of seats in Business Class.**\n$$\\frac{25}{100} = 0.25$$\n\n**Step 2: Find the fraction of seats in Economy.**\n$$1 - 0.25 - 0.24 = 0.51$$\n\n**Step 3: Set up an equation to represent the total number of seats.**\n$$0.24x + 0.25x + 0.51x = x$$\n\n**Step 4: Solve for x.**\n$$x = \\frac{100}{100} = 100$$\n\n**Final Answer: \\boxed{$100$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$200$}",
+        "ground_truth": "Suppose that the airplane has $s$ seats.  Then we have that $24 + 0.25 s + \\frac{2}{3} s = s$.  Solving, we find that $s = \\boxed{288}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBob thinks he needs 56 popsicle sticks to recreate the Washington Monument for his history project.  His favorite popsicles come 8 to a box and cost $2.00 per box.  How much will it cost Bob to build his project?",
+        "inference": "1. Find the number of boxes of popsicles Bob needs: 56 popsicle sticks / 8 popsicles per box = 7 boxes.\n2. Find the total cost of the popsicles: 7 boxes x $2.00 per box = $14.00.\nI hope it is correct: $14.00$",
+        "ground_truth": "He needs 56 popsicle sticks to build his project and they come 8 to a box so he needs 56/8 = <<56/8=7>>7 boxes\nEach box costs $2.00 and he needs 7 boxes so it will cost him 2*7 = $<<2*7=14.00>>14.00\n#### 14"
+    },
+    {
+        "question": "1. Find the number of boxes of popsicles Bob needs: 56 popsicle sticks / 8 popsicles per box = 7 boxes.\n2. Find the total cost of the popsicles: 7 boxes x $2.00 per box = $14.00.\nI hope it is correct: $14.00$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 14",
+        "ground_truth": "He needs 56 popsicle sticks to build his project and they come 8 to a box so he needs 56/8 = <<56/8=7>>7 boxes\nEach box costs $2.00 and he needs 7 boxes so it will cost him 2*7 = $<<2*7=14.00>>14.00\n#### 14"
+    }
+]

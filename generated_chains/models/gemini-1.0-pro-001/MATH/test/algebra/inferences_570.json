@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCompute the square of 989 without a calculator.",
+        "inference": "$$989^2=(1000-11)^2=1000^2-2(1000)(11)+11^2$$\n$$=1000000-22000+121=\\boxed{978021}.$$\n\nFinal Answer: $\\boxed{978021}.$ I hope it is correct.",
+        "ground_truth": "\\[989^2=(10^3-11)^2=10^6-2\\cdot11\\cdot10^3+121.\\]We can factor out $10^3$ from the first two terms to make the computation easier: \\[989^2=10^3(10^3-22)+121=10^3\\cdot978+121=\\boxed{978121}.\\]"
+    },
+    {
+        "question": "$$989^2=(1000-11)^2=1000^2-2(1000)(11)+11^2$$\n$$=1000000-22000+121=\\boxed{978021}.$$\n\nFinal Answer: $\\boxed{978021}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{978021}",
+        "ground_truth": "\\[989^2=(10^3-11)^2=10^6-2\\cdot11\\cdot10^3+121.\\]We can factor out $10^3$ from the first two terms to make the computation easier: \\[989^2=10^3(10^3-22)+121=10^3\\cdot978+121=\\boxed{978121}.\\]"
+    }
+]

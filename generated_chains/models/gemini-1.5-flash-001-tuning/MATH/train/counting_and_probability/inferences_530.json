@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA fair 6-sided die is rolled.  If I roll $n$, then I win $n^2$ dollars.  What is the expected value of my win?  Express your answer as a dollar value rounded to the nearest cent.",
+        "inference": "Final Answer: \\\\boxed{\\$15.17}. I hope it is correct. \n",
+        "ground_truth": "Each number from 1 to 6 has probability $\\dfrac16$ of being rolled, so the expected value is \\begin{align*}\nE &= \\left(\\dfrac{1}{6}\\times \\$1^2\\right) + \\left(\\dfrac{1}{6}\\times \\$2^2\\right) + \\cdots + \\left(\\dfrac{1}{6} \\times \\$6^2\\right) \\\\\n&= \\dfrac{1}{6}(\\$1 + \\$4 + \\$9 + \\$16 + \\$25 + \\$36) \\\\\n&= \\$\\dfrac{91}{6} \\\\\n& \\approx \\boxed{\\$15.17}.\n\\end{align*}"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{\\$15.17}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the original question and the solution you provided. I need that information to identify any errors and provide a corrected solution. \n",
+        "ground_truth": "Each number from 1 to 6 has probability $\\dfrac16$ of being rolled, so the expected value is \\begin{align*}\nE &= \\left(\\dfrac{1}{6}\\times \\$1^2\\right) + \\left(\\dfrac{1}{6}\\times \\$2^2\\right) + \\cdots + \\left(\\dfrac{1}{6} \\times \\$6^2\\right) \\\\\n&= \\dfrac{1}{6}(\\$1 + \\$4 + \\$9 + \\$16 + \\$25 + \\$36) \\\\\n&= \\$\\dfrac{91}{6} \\\\\n& \\approx \\boxed{\\$15.17}.\n\\end{align*}"
+    }
+]

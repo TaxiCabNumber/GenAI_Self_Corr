@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nWhen Spencer jumps rope, he jumps 4 times per minute. He jumps for 10 minutes each session and does 2 sessions each day. How many jumps will Spencer do in 5 days?",
+        "inference": "1. Calculate the number of jumps Spencer does per session: 4 jumps/minute * 10 minutes/session = 40 jumps/session\n2. Calculate the number of jumps Spencer does per day: 40 jumps/session * 2 sessions/day = 80 jumps/day\n3. Calculate the number of jumps Spencer does in 5 days: 80 jumps/day * 5 days = 400 jumps\nI hope it is correct: 400 jumps",
+        "ground_truth": "In 1 session he jumps 4 times/minute * 10 minutes = <<4*10=40>>40 times\nIn 5 days he does 2 sessions/day * 5 days = <<2*5=10>>10 sessions\nHe jumps 10 sessions * 40 times/session = <<10*40=400>>400 times in 5 days.\n#### 400"
+    },
+    {
+        "question": "1. Calculate the number of jumps Spencer does per session: 4 jumps/minute * 10 minutes/session = 40 jumps/session\n2. Calculate the number of jumps Spencer does per day: 40 jumps/session * 2 sessions/day = 80 jumps/day\n3. Calculate the number of jumps Spencer does in 5 days: 80 jumps/day * 5 days = 400 jumps\nI hope it is correct: 400 jumps\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$400",
+        "ground_truth": "In 1 session he jumps 4 times/minute * 10 minutes = <<4*10=40>>40 times\nIn 5 days he does 2 sessions/day * 5 days = <<2*5=10>>10 sessions\nHe jumps 10 sessions * 40 times/session = <<10*40=400>>400 times in 5 days.\n#### 400"
+    }
+]

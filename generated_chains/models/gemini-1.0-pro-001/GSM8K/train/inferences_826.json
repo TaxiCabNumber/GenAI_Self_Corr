@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJames takes 20 units per semester at community college.  If each unit costs $50 how much does he pay for 2 semesters?",
+        "inference": "1. Calculate the cost of one unit: $50\n2. Multiply the cost of one unit by the number of units taken per semester: $50 * 20 = $1000\n3. Multiply the cost of one semester by the number of semesters: $1000 * 2 = $2000\nI hope it is correct: $2000$",
+        "ground_truth": "He pays 20*50=$<<20*50=1000>>1000 per semester\nSo he pays 1000*2=$<<1000*2=2000>>2000\n#### 2000"
+    },
+    {
+        "question": "1. Calculate the cost of one unit: $50\n2. Multiply the cost of one unit by the number of units taken per semester: $50 * 20 = $1000\n3. Multiply the cost of one semester by the number of semesters: $1000 * 2 = $2000\nI hope it is correct: $2000$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "### $2000",
+        "ground_truth": "He pays 20*50=$<<20*50=1000>>1000 per semester\nSo he pays 1000*2=$<<1000*2=2000>>2000\n#### 2000"
+    }
+]

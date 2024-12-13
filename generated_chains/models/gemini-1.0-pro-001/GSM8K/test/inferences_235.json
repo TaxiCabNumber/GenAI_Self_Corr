@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn orders some pizzas to share with his friends.  There are 20 friends in total, and John wants to make sure each can have 4 slices.  Pizzas are only sold sliced into 8 portions.  How many Pizzas does John need to order?",
+        "inference": "* John needs 20 friends * 4 slices per friend = 80 slices of pizza.\n* Each pizza has 8 slices, so John needs 80 slices / 8 slices per pizza = 10 pizzas.\n\nI hope it is correct: 10",
+        "ground_truth": "John's 20 friends each need 4 slices, so that means 4*20= <<4*20=80>>80 slices are needed\nEach pizza has 8 slices, so to get 80 slices in total 80/8= <<80/8=10>>10 pizzas are needed\n#### 10"
+    },
+    {
+        "question": "* John needs 20 friends * 4 slices per friend = 80 slices of pizza.\n* Each pizza has 8 slices, so John needs 80 slices / 8 slices per pizza = 10 pizzas.\n\nI hope it is correct: 10\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 10",
+        "ground_truth": "John's 20 friends each need 4 slices, so that means 4*20= <<4*20=80>>80 slices are needed\nEach pizza has 8 slices, so to get 80 slices in total 80/8= <<80/8=10>>10 pizzas are needed\n#### 10"
+    }
+]

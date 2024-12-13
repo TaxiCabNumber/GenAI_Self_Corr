@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThree pencils and a jumbo eraser cost $\\$1.24$. Five pencils and a jumbo eraser cost $\\$1.82$. No prices include tax. In cents, what is the cost of a pencil?",
+        "inference": "Let \\(x\\) be the cost of a pencil in cents.\nThen, for the first set, $$3x + y = 124$$\n\nand for the second set, $$5x + y = 182$$\n\nSolving the first equation for \\(y\\), $$y = 124 - 3x$$\n\nand substituting into the second equation, $$5x + 124 - 3x = 182$$\n\n$$2x + 124 = 182$$\n\nSubtracting 124 from both sides, $$2x = 58$$\n\nDividing both sides by 2, $$x = 29$$\n\n**Final Answer: \\boxed{29}. I hope it is correct.**",
+        "ground_truth": "Call the price of a pencil $p$ and the price of a jumbo eraser $e$, in terms of cents. We can use the following system of equations to represent the information given: \\begin{align*}\n3p + e &= 124 \\\\\n5p + e &= 182 \\\\\n\\end{align*} Subtracting the first equation from the second gives $2p = 58$, or $p = 29$. Thus, the cost of a pencil is $\\boxed{29}$ cents."
+    },
+    {
+        "question": "Let \\(x\\) be the cost of a pencil in cents.\nThen, for the first set, $$3x + y = 124$$\n\nand for the second set, $$5x + y = 182$$\n\nSolving the first equation for \\(y\\), $$y = 124 - 3x$$\n\nand substituting into the second equation, $$5x + 124 - 3x = 182$$\n\n$$2x + 124 = 182$$\n\nSubtracting 124 from both sides, $$2x = 58$$\n\nDividing both sides by 2, $$x = 29$$\n\n**Final Answer: \\boxed{29}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{29}",
+        "ground_truth": "Call the price of a pencil $p$ and the price of a jumbo eraser $e$, in terms of cents. We can use the following system of equations to represent the information given: \\begin{align*}\n3p + e &= 124 \\\\\n5p + e &= 182 \\\\\n\\end{align*} Subtracting the first equation from the second gives $2p = 58$, or $p = 29$. Thus, the cost of a pencil is $\\boxed{29}$ cents."
+    }
+]

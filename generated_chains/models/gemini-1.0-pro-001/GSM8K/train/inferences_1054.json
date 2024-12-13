@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSeth and his brother want to see their favorite band in concert.  The tickets are $50.00 each.  There is a 15% processing fee for the tickets.  They are also charged $10.00 for parking and an additional $5.00 per person entrance fee.  How much will it cost to go to the concert?",
+        "inference": "1) Cost of tickets: 2 x $50.00 = $100.00\n2) Processing fee: 15% of $100.00 = $15.00\n3) Cost of parking: $10.00\n4) Entrance fee: 2 x $5.00 = $10.00\n5) Total cost: $100.00 + $15.00 + $10.00 + $10.00 = $135.00\nI hope it is correct: $135.00",
+        "ground_truth": "The tickets are $50.00 each and they need 2 tickets so that's 50*2 = $<<50*2=100.00>>100.00\nThere is a 15% processing fee for the tickets so that's 100*.15 = $<<100*.15=15.00>>15.00\nThe tickets are $100.00 and the processing fee is $15.00 for a total of 100+15 = $<<100+15=115.00>>115.00\nThere is a $5.00 per person entrance fee and there are 2 people so that's 5*2 = $<<5*2=10.00>>10.00\nThe tickets are $115.00, parking is $10.00 and the entrance fee is $10.0 for a total of 115+10+10 = $<<115+10+10=135.00>>135.00\n#### 135"
+    },
+    {
+        "question": "1) Cost of tickets: 2 x $50.00 = $100.00\n2) Processing fee: 15% of $100.00 = $15.00\n3) Cost of parking: $10.00\n4) Entrance fee: 2 x $5.00 = $10.00\n5) Total cost: $100.00 + $15.00 + $10.00 + $10.00 = $135.00\nI hope it is correct: $135.00\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $135$",
+        "ground_truth": "The tickets are $50.00 each and they need 2 tickets so that's 50*2 = $<<50*2=100.00>>100.00\nThere is a 15% processing fee for the tickets so that's 100*.15 = $<<100*.15=15.00>>15.00\nThe tickets are $100.00 and the processing fee is $15.00 for a total of 100+15 = $<<100+15=115.00>>115.00\nThere is a $5.00 per person entrance fee and there are 2 people so that's 5*2 = $<<5*2=10.00>>10.00\nThe tickets are $115.00, parking is $10.00 and the entrance fee is $10.0 for a total of 115+10+10 = $<<115+10+10=135.00>>135.00\n#### 135"
+    }
+]

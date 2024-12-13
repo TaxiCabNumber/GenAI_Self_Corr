@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the monic quadratic polynomial, in $x,$ with real coefficients, which has $-2 - i \\sqrt{5}$ as a root.",
+        "inference": "Solution:\nLet $f(x)$ be a monic quadratic polynomial with real coefficients which has $-2 - i \\sqrt{5}$ as a root. Then, by the Factor Theorem, we have \n\n$$f(x) = (x + 2 + i \\sqrt{5})(x + k)$$\n\nfor some real number $k$. Expanding the right-hand side and equating it to \n\n$$x^2 + bx + c$$\n\nwe get \n\n$$k = -4, b = -2, c = 5$$\n\nTherefore, the polynomial is\n\n$$f(x) = (x + 2 + i \\sqrt{5})(x - 4) = x^2 - 2x + 5.$$\n\nFinal Answer: $\\boxed{x^2 - 2x + 5}$. I hope it is correct.",
+        "ground_truth": "If a polynomial has real coefficients, then any complex conjugate of a root must also be a root.  Hence, the other root is $-2 + i \\sqrt{5}.$  Thus, the polynomial is\n\\[(x + 2 + i \\sqrt{5})(x + 2 - i \\sqrt{5}) = (x + 2)^2 - 5i^2 = \\boxed{x^2 + 4x + 9}.\\]"
+    },
+    {
+        "question": "Solution:\nLet $f(x)$ be a monic quadratic polynomial with real coefficients which has $-2 - i \\sqrt{5}$ as a root. Then, by the Factor Theorem, we have \n\n$$f(x) = (x + 2 + i \\sqrt{5})(x + k)$$\n\nfor some real number $k$. Expanding the right-hand side and equating it to \n\n$$x^2 + bx + c$$\n\nwe get \n\n$$k = -4, b = -2, c = 5$$\n\nTherefore, the polynomial is\n\n$$f(x) = (x + 2 + i \\sqrt{5})(x - 4) = x^2 - 2x + 5.$$\n\nFinal Answer: $\\boxed{x^2 - 2x + 5}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{x^2 - 2x + 5}$$",
+        "ground_truth": "If a polynomial has real coefficients, then any complex conjugate of a root must also be a root.  Hence, the other root is $-2 + i \\sqrt{5}.$  Thus, the polynomial is\n\\[(x + 2 + i \\sqrt{5})(x + 2 - i \\sqrt{5}) = (x + 2)^2 - 5i^2 = \\boxed{x^2 + 4x + 9}.\\]"
+    }
+]

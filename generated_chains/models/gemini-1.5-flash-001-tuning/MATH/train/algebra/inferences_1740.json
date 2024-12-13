@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the largest three-digit integer whose digits are distinct and form a geometric sequence?",
+        "inference": "Final Answer: \\\\boxed{964}. I hope it is correct. \n",
+        "ground_truth": "If we can find such a number whose hundreds digit is 9, then this number will be greater than any with a hundreds digit lower than 9. We want the common ratio to be as small as possible, so that the other digits are as large as possible. If $r$ is the common ratio, then the ones digit is $\\frac{9}{r^2}$. One might therefore expect that $r$ has a $3$ in its numerator. We could set $r=3$ for $931$. But $r=\\frac{3}{2}$ also works and is actually smaller, giving $\\boxed{964}$.\n\n(Note that $r=1$ would not give distinct digits, and $r<1$ would make the ones digit too large.)"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{964}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you're referring to so I can review it and provide a corrected answer. \n",
+        "ground_truth": "If we can find such a number whose hundreds digit is 9, then this number will be greater than any with a hundreds digit lower than 9. We want the common ratio to be as small as possible, so that the other digits are as large as possible. If $r$ is the common ratio, then the ones digit is $\\frac{9}{r^2}$. One might therefore expect that $r$ has a $3$ in its numerator. We could set $r=3$ for $931$. But $r=\\frac{3}{2}$ also works and is actually smaller, giving $\\boxed{964}$.\n\n(Note that $r=1$ would not give distinct digits, and $r<1$ would make the ones digit too large.)"
+    }
+]

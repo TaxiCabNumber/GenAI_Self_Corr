@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the value of $x$ that satisfies $\\frac{\\sqrt{3x+5}}{\\sqrt{6x+5}}=\\frac{\\sqrt{5}}{3}$. Express your answer as a common fraction.",
+        "inference": "$$\\frac{\\sqrt{3x+5}}{\\sqrt{6x+5}}=\\frac{\\sqrt{5}}{3}$$  $$3\\sqrt{3x+5}=\\sqrt{5}\\sqrt{6x+5}$$ $$3\\sqrt{3x+5}=\\sqrt{30x+25}$$ $$(3\\sqrt{3x+5})^2=(\\sqrt{30x+25})^2$$ $$9(3x+5)=30x+25$$ $$27x+45=30x+25$$ $$27x-30x=25-45$$ $$-3x=-20$$ $$x=\\frac{-20}{-3}$$  $$x=\\frac{20}{3}$$ $$\\boxed{Final\\ Answer: \\frac{20}{3}}$$",
+        "ground_truth": "We begin by cross multiplying and then squaring both sides \\begin{align*}\n\\frac{\\sqrt{3x+5}}{\\sqrt{6x+5}}&=\\frac{\\sqrt{5}}{3}\\\\\n3\\sqrt{3x+5}&=\\sqrt{5}\\cdot\\sqrt{6x+5}\\\\\n\\left(3\\sqrt{3x+5}\\right)^2&=\\left(\\sqrt{5}\\cdot\\sqrt{6x+5}\\right)^2\\\\\n9(3x+5) &=5(6x+5)\\\\\n20 &= 3x\\\\\nx&=\\boxed{\\frac{20}{3}}.\\\\\n\\end{align*}Checking, we see that this value of $x$ satisfies the original equation, so it is not an extraneous solution."
+    },
+    {
+        "question": "$$\\frac{\\sqrt{3x+5}}{\\sqrt{6x+5}}=\\frac{\\sqrt{5}}{3}$$  $$3\\sqrt{3x+5}=\\sqrt{5}\\sqrt{6x+5}$$ $$3\\sqrt{3x+5}=\\sqrt{30x+25}$$ $$(3\\sqrt{3x+5})^2=(\\sqrt{30x+25})^2$$ $$9(3x+5)=30x+25$$ $$27x+45=30x+25$$ $$27x-30x=25-45$$ $$-3x=-20$$ $$x=\\frac{-20}{-3}$$  $$x=\\frac{20}{3}$$ $$\\boxed{Final\\ Answer: \\frac{20}{3}}$$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{Final\\ Answer: \\frac{20}{3}}$$",
+        "ground_truth": "We begin by cross multiplying and then squaring both sides \\begin{align*}\n\\frac{\\sqrt{3x+5}}{\\sqrt{6x+5}}&=\\frac{\\sqrt{5}}{3}\\\\\n3\\sqrt{3x+5}&=\\sqrt{5}\\cdot\\sqrt{6x+5}\\\\\n\\left(3\\sqrt{3x+5}\\right)^2&=\\left(\\sqrt{5}\\cdot\\sqrt{6x+5}\\right)^2\\\\\n9(3x+5) &=5(6x+5)\\\\\n20 &= 3x\\\\\nx&=\\boxed{\\frac{20}{3}}.\\\\\n\\end{align*}Checking, we see that this value of $x$ satisfies the original equation, so it is not an extraneous solution."
+    }
+]

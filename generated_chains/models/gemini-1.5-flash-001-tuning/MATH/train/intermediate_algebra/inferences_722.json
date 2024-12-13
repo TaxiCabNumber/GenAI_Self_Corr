@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFor any real number $k,$ the graph of\n\\[y = 7x^2 + kx - 4k\\]passes through a fixed point $(a,b).$  Find $(a,b).$",
+        "inference": "Solution:\n\nSince the graph passes through the point $(a,b),$ we can substitute $x = a$ and $y = b$ into the equation:\n\\[b = 7a^2 + ka - 4k.\\]This equation must hold for all values of $k.$  In particular, setting $k = 0,$ we get $b = 7a^2,$ so $a^2 = b/7.$\n\nSetting $k = 1,$ we get\n\\[b = 7a^2 + a - 4.\\]Substituting $a^2 = b/7,$ we get\n\\[b = b + a - 4,\\]so $a = 4.$  Then $b = 7a^2 = 7 \\cdot 4^2 = \\boxed{112}.$\n\nFinal Answer: $\\boxed{(4,112)}.$ I hope it is correct. \n",
+        "ground_truth": "To make the parameter $k$ disappear, we set $x = 4.$  Then\n\\[y = 7(4^2) + 4k - 4k = 112.\\]Hence, the fixed point is $\\boxed{(4,112)}.$"
+    },
+    {
+        "question": "Solution:\n\nSince the graph passes through the point $(a,b),$ we can substitute $x = a$ and $y = b$ into the equation:\n\\[b = 7a^2 + ka - 4k.\\]This equation must hold for all values of $k.$  In particular, setting $k = 0,$ we get $b = 7a^2,$ so $a^2 = b/7.$\n\nSetting $k = 1,$ we get\n\\[b = 7a^2 + a - 4.\\]Substituting $a^2 = b/7,$ we get\n\\[b = b + a - 4,\\]so $a = 4.$  Then $b = 7a^2 = 7 \\cdot 4^2 = \\boxed{112}.$\n\nFinal Answer: $\\boxed{(4,112)}.$ I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct. \n\n**Final Answer:** $\\boxed{(4,112)}.$ \n",
+        "ground_truth": "To make the parameter $k$ disappear, we set $x = 4.$  Then\n\\[y = 7(4^2) + 4k - 4k = 112.\\]Hence, the fixed point is $\\boxed{(4,112)}.$"
+    }
+]

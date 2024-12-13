@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nEighty percent of adults drink coffee and seventy percent drink tea. What is the smallest possible percent of adults who drink both coffee and tea?",
+        "inference": "Let x% of adults drink both coffee and tea. Then, 80% - x% of adults drink coffee only and 70% - x% of adults drink tea only. The smallest possible percent of adults who drink both coffee and tea is the percent of adults who drink either coffee or tea:\n\n(80% - x%) + (70% - x%) = 150% - 2x%\n\n150% - 2x% = 100%\n\n2x% = 50%\n\nx% = 25%\n\nFinal Answer: \\boxed{$25$}. I hope it is correct.",
+        "ground_truth": "Adding together the percent of people who drink coffee with those who drink tea, we obtain a total of $150\\%$.  Thus, we double-counted at least $50\\%$, meaning that at least $\\boxed{50\\%}$ of adults drink both.  (The percentage who drink both ${\\it can}$ be exactly ${50\\%}$ if everybody drinks either coffee or tea; otherwise, the overlap is more than ${50\\%}$, but the problem asked for the smallest possible overlap.)"
+    },
+    {
+        "question": "Let x% of adults drink both coffee and tea. Then, 80% - x% of adults drink coffee only and 70% - x% of adults drink tea only. The smallest possible percent of adults who drink both coffee and tea is the percent of adults who drink either coffee or tea:\n\n(80% - x%) + (70% - x%) = 150% - 2x%\n\n150% - 2x% = 100%\n\n2x% = 50%\n\nx% = 25%\n\nFinal Answer: \\boxed{$25$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$25$}",
+        "ground_truth": "Adding together the percent of people who drink coffee with those who drink tea, we obtain a total of $150\\%$.  Thus, we double-counted at least $50\\%$, meaning that at least $\\boxed{50\\%}$ of adults drink both.  (The percentage who drink both ${\\it can}$ be exactly ${50\\%}$ if everybody drinks either coffee or tea; otherwise, the overlap is more than ${50\\%}$, but the problem asked for the smallest possible overlap.)"
+    }
+]

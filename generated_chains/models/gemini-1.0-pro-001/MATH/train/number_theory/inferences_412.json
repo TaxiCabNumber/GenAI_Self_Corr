@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nGiven that $x$ is a positive integer less than 100, how many solutions does the congruence $x + 13 \\equiv 55 \\pmod{34}$ have?",
+        "inference": "The given congruence is $x + 13 \\equiv 55 \\pmod{34}$. \nWe can write this as $x \\equiv 55 - 13 \\equiv 42 \\pmod{34}$. \n\nSince $42$ is positive and less than $34$, it represents a unique solution modulo $34$. \n\nFinal Answer: $\\boxed{1}$. I hope it is correct.",
+        "ground_truth": "Adding $-13$ to both sides of $x + 13 \\equiv 55 \\pmod{34}$ gives $x \\equiv 55-13 \\pmod{34}$. We find $55-13 = 42 \\equiv 8 \\pmod{34}$, so $x \\equiv 8 \\pmod{34}$. Thus the smallest positive integer that satisfies the given congruence is $x = 8$, and all the other solutions can be obtained by a multiple of 34 to 8. The next three such integers are 42, 76, and 110. Since 110 is greater than 100, there are $\\boxed{3}$ integers less than 100 that satisfy the congruence $x + 13 \\equiv 55 \\pmod{34}$."
+    },
+    {
+        "question": "The given congruence is $x + 13 \\equiv 55 \\pmod{34}$. \nWe can write this as $x \\equiv 55 - 13 \\equiv 42 \\pmod{34}$. \n\nSince $42$ is positive and less than $34$, it represents a unique solution modulo $34$. \n\nFinal Answer: $\\boxed{1}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Final Answer: $\\boxed{42}$",
+        "ground_truth": "Adding $-13$ to both sides of $x + 13 \\equiv 55 \\pmod{34}$ gives $x \\equiv 55-13 \\pmod{34}$. We find $55-13 = 42 \\equiv 8 \\pmod{34}$, so $x \\equiv 8 \\pmod{34}$. Thus the smallest positive integer that satisfies the given congruence is $x = 8$, and all the other solutions can be obtained by a multiple of 34 to 8. The next three such integers are 42, 76, and 110. Since 110 is greater than 100, there are $\\boxed{3}$ integers less than 100 that satisfy the congruence $x + 13 \\equiv 55 \\pmod{34}$."
+    }
+]

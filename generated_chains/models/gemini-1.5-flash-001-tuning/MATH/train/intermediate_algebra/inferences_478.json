@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the quadratic polynomial, with real coefficients, which has $3 + i$ as a root, and where the coefficient of $x^2$ is 2.",
+        "inference": "Final Answer: $\\boxed{2x^2 - 12x + 20}$. I hope it is correct.",
+        "ground_truth": "Since the polynomial has real coefficients, the other root must be $3 - i.$  Thus, the polynomial is\n\\begin{align*}\n2(x - 3 - i)(x - 3 + i) &= 2((x - 3)^2 - i^2) \\\\\n&= 2((x - 3)^2 + 1) \\\\\n&= \\boxed{2x^2 - 12x + 20}.\n\\end{align*}"
+    },
+    {
+        "question": "Final Answer: $\\boxed{2x^2 - 12x + 20}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the question so I can help you check the answer and provide a corrected solution if necessary. \n",
+        "ground_truth": "Since the polynomial has real coefficients, the other root must be $3 - i.$  Thus, the polynomial is\n\\begin{align*}\n2(x - 3 - i)(x - 3 + i) &= 2((x - 3)^2 - i^2) \\\\\n&= 2((x - 3)^2 + 1) \\\\\n&= \\boxed{2x^2 - 12x + 20}.\n\\end{align*}"
+    }
+]

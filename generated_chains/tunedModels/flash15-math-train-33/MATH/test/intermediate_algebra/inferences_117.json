@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the sum of the real roots of the polynomial\n\\[x^6 + x^4 - 115x^3 + x^2 + 1 = 0.\\]",
+        "inference": "Final Answer: \\\\boxed{115}. I hope it is correct. \n",
+        "ground_truth": "Clearly, $x = 0$ is not a root.  We can divide the equation by $x^3,$ to get\n\\[x^3 + x - 115 + \\frac{1}{x} + \\frac{1}{x^3} = 0.\\]Let $y = x + \\frac{1}{x}.$  Then\n\\[y^3 = x^3 + 3x + \\frac{3}{x} + \\frac{1}{x^3},\\]so\n\\[x^3 + \\frac{1}{x^3} = y^3 - 3 \\left( x + \\frac{1}{x} \\right) = y^3 - 3y.\\]Thus, our equation becomes\n\\[y^3 - 3y + y - 115 = 0,\\]or $y^3 - 2y - 115 = 0.$  This equation factors as $(y - 5)(y^2 + 5y + 23) = 0.$  The quadratic factor has no real roots, so $y = 5.$  Then\n\\[x + \\frac{1}{x} = 5,\\]or $x^2 - 5x + 1 = 0.$  This quadratic does have real roots, and by Vieta's formulas, their sum is $\\boxed{5}.$"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{115}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need that information to identify any potential errors and rewrite the solution correctly. \n",
+        "ground_truth": "Clearly, $x = 0$ is not a root.  We can divide the equation by $x^3,$ to get\n\\[x^3 + x - 115 + \\frac{1}{x} + \\frac{1}{x^3} = 0.\\]Let $y = x + \\frac{1}{x}.$  Then\n\\[y^3 = x^3 + 3x + \\frac{3}{x} + \\frac{1}{x^3},\\]so\n\\[x^3 + \\frac{1}{x^3} = y^3 - 3 \\left( x + \\frac{1}{x} \\right) = y^3 - 3y.\\]Thus, our equation becomes\n\\[y^3 - 3y + y - 115 = 0,\\]or $y^3 - 2y - 115 = 0.$  This equation factors as $(y - 5)(y^2 + 5y + 23) = 0.$  The quadratic factor has no real roots, so $y = 5.$  Then\n\\[x + \\frac{1}{x} = 5,\\]or $x^2 - 5x + 1 = 0.$  This quadratic does have real roots, and by Vieta's formulas, their sum is $\\boxed{5}.$"
+    }
+]

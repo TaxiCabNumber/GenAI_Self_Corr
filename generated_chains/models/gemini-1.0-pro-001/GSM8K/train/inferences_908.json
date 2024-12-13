@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn runs a telethon to raise money.  For the first 12 hours, he generates $5000 per hour.  The remaining 14 hours, he generates 20% more per hour.  How much total money does he make?",
+        "inference": "1. Calculate the total amount of money generated in the first 12 hours: $5000 * 12 = $60,000\n2. Calculate the amount of money generated per hour in the remaining 14 hours: $5000 * 1.20 = $6000\n3. Calculate the total amount of money generated in the remaining 14 hours: $6000 * 14 = $84,000\n4. Add the total amount of money generated in the first 12 hours and the remaining 14 hours: $60,000 + $84,000 = $144,000\nI hope it is correct: $144000$",
+        "ground_truth": "He gets 12*5000=$<<12*5000=60000>>60000 for the first 12 hours\nFor the next 14 hours, he gets 5000*.2=$<<5000*.2=1000>>1000 more per hour\nSo he gets 5000+1000=$<<5000+1000=6000>>6000 per hour\nSo he gets 6000*14=$<<6000*14=84000>>84000\nSo in total, he makes 84000+60000=$<<84000+60000=144000>>144,000\n#### 144000"
+    },
+    {
+        "question": "1. Calculate the total amount of money generated in the first 12 hours: $5000 * 12 = $60,000\n2. Calculate the amount of money generated per hour in the remaining 14 hours: $5000 * 1.20 = $6000\n3. Calculate the total amount of money generated in the remaining 14 hours: $6000 * 14 = $84,000\n4. Add the total amount of money generated in the first 12 hours and the remaining 14 hours: $60,000 + $84,000 = $144,000\nI hope it is correct: $144000$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = $144000",
+        "ground_truth": "He gets 12*5000=$<<12*5000=60000>>60000 for the first 12 hours\nFor the next 14 hours, he gets 5000*.2=$<<5000*.2=1000>>1000 more per hour\nSo he gets 5000+1000=$<<5000+1000=6000>>6000 per hour\nSo he gets 6000*14=$<<6000*14=84000>>84000\nSo in total, he makes 84000+60000=$<<84000+60000=144000>>144,000\n#### 144000"
+    }
+]

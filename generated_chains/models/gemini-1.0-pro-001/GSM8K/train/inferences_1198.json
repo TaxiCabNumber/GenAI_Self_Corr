@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nArthur has $200 in his wallet. He spends four-fifths of that. How much does he have left?",
+        "inference": "1. Find four-fifths of $200: $200 * 4/5 = $160\n2. Subtract $160 from $200: $200 - $160 = $40\nI hope it is correct: $40",
+        "ground_truth": "Arthur spent 4/5 * $200 = $<<4/5*200=160>>160.\nThus he has $200 - $160 = $<<200-160=40>>40 remaining.\n#### 40"
+    },
+    {
+        "question": "1. Find four-fifths of $200: $200 * 4/5 = $160\n2. Subtract $160 from $200: $200 - $160 = $40\nI hope it is correct: $40\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$40",
+        "ground_truth": "Arthur spent 4/5 * $200 = $<<4/5*200=160>>160.\nThus he has $200 - $160 = $<<200-160=40>>40 remaining.\n#### 40"
+    }
+]

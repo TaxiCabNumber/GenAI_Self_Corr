@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the positive difference of the solutions of $\\dfrac{r^2-3r-17}{r+4}=2r+7$?",
+        "inference": "$$\\dfrac{r^2-3r-17}{r+4}=2r+7$$ $$\\iff r^2-3r-17=(2r+7)(r+4)$$ $$=r^2+4r+2\\cdot 7r+7\\cdot 4-17$$ $$\\iff r^2+13r+27=0$$ Let $p=r+3$. Then $r=p-3$. $$\\Rightarrow p^2-6p+27=0$$ $$\\Rightarrow (p-3)^2=0$$ $$\\Rightarrow p=3$$ Thus, $r=3-3=0$. $$\\therefore r=0$$\nFinal Answer: \\boxed{$0$}. I hope it is correct.",
+        "ground_truth": "Factoring the quadratic in the numerator does not look pleasant, so we go ahead and multiply through by the denominator to get \\begin{align*}\nr^2-3r-17&=(r+4)(2r+7)\\\\\nr^2-3r-17&=2r^2 + 15r + 28\\\\\nr^2+18r+45&=0\\\\\n(r+3)(r+15)&=0\n\\end{align*}Therefore the solutions are $r=-3$ and $r=-15$ which have a difference of $\\boxed{12}$."
+    },
+    {
+        "question": "$$\\dfrac{r^2-3r-17}{r+4}=2r+7$$ $$\\iff r^2-3r-17=(2r+7)(r+4)$$ $$=r^2+4r+2\\cdot 7r+7\\cdot 4-17$$ $$\\iff r^2+13r+27=0$$ Let $p=r+3$. Then $r=p-3$. $$\\Rightarrow p^2-6p+27=0$$ $$\\Rightarrow (p-3)^2=0$$ $$\\Rightarrow p=3$$ Thus, $r=3-3=0$. $$\\therefore r=0$$\nFinal Answer: \\boxed{$0$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{0}$$",
+        "ground_truth": "Factoring the quadratic in the numerator does not look pleasant, so we go ahead and multiply through by the denominator to get \\begin{align*}\nr^2-3r-17&=(r+4)(2r+7)\\\\\nr^2-3r-17&=2r^2 + 15r + 28\\\\\nr^2+18r+45&=0\\\\\n(r+3)(r+15)&=0\n\\end{align*}Therefore the solutions are $r=-3$ and $r=-15$ which have a difference of $\\boxed{12}$."
+    }
+]

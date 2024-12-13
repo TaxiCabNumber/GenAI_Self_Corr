@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the curve defined by the equation\n\\[r = 4 \\tan \\theta \\sec \\theta.\\](A) Line\n(B) Circle\n(C) Parabola\n(D) Ellipse\n(E) Hyperbola\n\nEnter the letter of the correct option.",
+        "inference": "Final Answer: \\\\boxed{E}. I hope it is correct. \n",
+        "ground_truth": "From $r = 4 \\tan \\theta \\sec \\theta,$\n\\[r = 4 \\cdot \\frac{\\sin \\theta}{\\cos \\theta} \\cdot \\frac{1}{\\cos \\theta}.\\]Then $r \\cos^2 \\theta = 4 \\sin \\theta,$ so\n\\[r^2 \\cos^2 \\theta = 4r \\sin \\theta.\\]Hence, $x^2 = 4y.$  This is the equation of a parabola, so the answer is $\\boxed{\\text{(C)}}.$\n\n[asy]\nunitsize(0.15 cm);\n\npair moo (real t) {\n  real r = 4*tan(t)/cos(t);\n  return (r*cos(t), r*sin(t));\n}\n\npath foo = moo(0);\nreal t;\n\nfor (t = 0; t <= 1.2; t = t + 0.1) {\n  foo = foo--moo(t);\n}\n\ndraw(foo,red);\ndraw(reflect((0,0),(0,1))*(foo),red);\n\ndraw((-12,0)--(12,0));\ndraw((0,-5)--(0,30));\nlabel(\"$r = 4 \\tan \\theta \\sec \\theta$\", (22,15), red);\n[/asy]"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{E}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need this information to identify any potential errors and provide the corrected solution. \n",
+        "ground_truth": "From $r = 4 \\tan \\theta \\sec \\theta,$\n\\[r = 4 \\cdot \\frac{\\sin \\theta}{\\cos \\theta} \\cdot \\frac{1}{\\cos \\theta}.\\]Then $r \\cos^2 \\theta = 4 \\sin \\theta,$ so\n\\[r^2 \\cos^2 \\theta = 4r \\sin \\theta.\\]Hence, $x^2 = 4y.$  This is the equation of a parabola, so the answer is $\\boxed{\\text{(C)}}.$\n\n[asy]\nunitsize(0.15 cm);\n\npair moo (real t) {\n  real r = 4*tan(t)/cos(t);\n  return (r*cos(t), r*sin(t));\n}\n\npath foo = moo(0);\nreal t;\n\nfor (t = 0; t <= 1.2; t = t + 0.1) {\n  foo = foo--moo(t);\n}\n\ndraw(foo,red);\ndraw(reflect((0,0),(0,1))*(foo),red);\n\ndraw((-12,0)--(12,0));\ndraw((0,-5)--(0,30));\nlabel(\"$r = 4 \\tan \\theta \\sec \\theta$\", (22,15), red);\n[/asy]"
+    }
+]

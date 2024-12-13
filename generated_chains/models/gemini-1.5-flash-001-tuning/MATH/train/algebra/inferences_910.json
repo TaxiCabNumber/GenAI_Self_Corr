@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $g(x) = 2x^2+2x-1$, what is the value of $g(g(2))$?",
+        "inference": "Solution:\nFirst, we find $g(2)$.\n \n  $g(2) = 2(2^2) + 2(2) - 1$\n  \n  $= 8 + 4 - 1 = 11$. \n  \n  Therefore, $g(g(2)) = g(11)$.\n  \n  We find $g(11)$.\n  \n  $g(11) = 2(11^2) + 2(11) - 1$\n  \n  $= 242 + 22 - 1 = 263$.\n  \n  Final Answer: $\\boxed{263}$. I hope it is correct. \n",
+        "ground_truth": "We have $g(2) = 2(2^2) + 2(2) - 1 = 8+4-1=11$, so \\[g(g(2)) = g(11) = 2(11)^2 +2(11) -1 = 242 +22 -1 =\\boxed{263}.\\]"
+    },
+    {
+        "question": "Solution:\nFirst, we find $g(2)$.\n \n  $g(2) = 2(2^2) + 2(2) - 1$\n  \n  $= 8 + 4 - 1 = 11$. \n  \n  Therefore, $g(g(2)) = g(11)$.\n  \n  We find $g(11)$.\n  \n  $g(11) = 2(11^2) + 2(11) - 1$\n  \n  $= 242 + 22 - 1 = 263$.\n  \n  Final Answer: $\\boxed{263}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct. \n\\\\boxed{263}. I hope it is correct. \n",
+        "ground_truth": "We have $g(2) = 2(2^2) + 2(2) - 1 = 8+4-1=11$, so \\[g(g(2)) = g(11) = 2(11)^2 +2(11) -1 = 242 +22 -1 =\\boxed{263}.\\]"
+    }
+]

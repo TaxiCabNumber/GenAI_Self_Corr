@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nCarla is taking attendance for her sixth-grade class. She knows that 2 students are in the restroom, and one less than three times that number of students are absent. If there are four rows with six desks each that are all 2/3 full, how many students does Carla teach, including the ones in and out of the classroom?",
+        "inference": "1. Number of students in the restroom = 2\n2. Number of students absent = 3*2 - 1 = 5\n3. Number of desks = 4*6 = 24\n4. Number of students present = 24*2/3 = 16\n5. Total number of students = 16 + 2 + 5 = 23\n\nI hope it is correct: 23",
+        "ground_truth": "First find the number of absent students: 2 students * 3 - 1= <<2*3-1=5>>5 students\nNow find the number of students in each row of desks: 6 desks/row * 2 students / 3 desks = 4 students/row\nNow find the number of students in all the rows: 4 rows * 4 students/row = <<4*4=16>>16 students\nNow add the students that are absent or in the bathroom: 16 students + 2 students + 5 students = <<16+2+5=23>>23 students\n#### 23"
+    },
+    {
+        "question": "1. Number of students in the restroom = 2\n2. Number of students absent = 3*2 - 1 = 5\n3. Number of desks = 4*6 = 24\n4. Number of students present = 24*2/3 = 16\n5. Total number of students = 16 + 2 + 5 = 23\n\nI hope it is correct: 23\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ = 23",
+        "ground_truth": "First find the number of absent students: 2 students * 3 - 1= <<2*3-1=5>>5 students\nNow find the number of students in each row of desks: 6 desks/row * 2 students / 3 desks = 4 students/row\nNow find the number of students in all the rows: 4 rows * 4 students/row = <<4*4=16>>16 students\nNow add the students that are absent or in the bathroom: 16 students + 2 students + 5 students = <<16+2+5=23>>23 students\n#### 23"
+    }
+]

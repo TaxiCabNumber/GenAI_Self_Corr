@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $a,$ $b,$ $c,$ $d$ be nonnegative real numbers such that $a + b + c + d = 1.$  Find the maximum value of\n\\[a^2 + b^2 + c^2 + d^2.\\]",
+        "inference": "Using the Cauchy-Schwarz inequality, we have\n$$\\begin{split} a^2 + b^2 + c^2 + d^2 &= (a^2 + b^2 + c^2 + d^2)(1^2 + 1^2 + 1^2 + 1^2) \\\\\\ &\\ge (a + b + c + d)^2 \\\\\\ &= 1^2 \\\\\\ &= 1.\\end{split}$$\n\nTherefore, the maximum value of $a^2 + b^2 + c^2 + d^2$ is $\\boxed{1}.$\nFinal Answer: $\\boxed{1}.$ I hope it is correct.",
+        "ground_truth": "It is clear that $0 \\le a \\le 1,$ so $a(1 - a) \\ge 0.$  Then $a - a^2 \\ge 0,$ or $a^2 \\le a.$  Similarly, $b^2 \\le b,$ $c^2 \\le c,$ and $d^2 \\le d,$ so\n\\[a^2 + b^2 + c^2 + d^2 \\le a + b + c + d = 1.\\]Equality occurs when $a = 1$ and $b = c = d = 0,$ so the maximum value is $\\boxed{1}.$"
+    },
+    {
+        "question": "Using the Cauchy-Schwarz inequality, we have\n$$\\begin{split} a^2 + b^2 + c^2 + d^2 &= (a^2 + b^2 + c^2 + d^2)(1^2 + 1^2 + 1^2 + 1^2) \\\\\\ &\\ge (a + b + c + d)^2 \\\\\\ &= 1^2 \\\\\\ &= 1.\\end{split}$$\n\nTherefore, the maximum value of $a^2 + b^2 + c^2 + d^2$ is $\\boxed{1}.$\nFinal Answer: $\\boxed{1}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$1$}",
+        "ground_truth": "It is clear that $0 \\le a \\le 1,$ so $a(1 - a) \\ge 0.$  Then $a - a^2 \\ge 0,$ or $a^2 \\le a.$  Similarly, $b^2 \\le b,$ $c^2 \\le c,$ and $d^2 \\le d,$ so\n\\[a^2 + b^2 + c^2 + d^2 \\le a + b + c + d = 1.\\]Equality occurs when $a = 1$ and $b = c = d = 0,$ so the maximum value is $\\boxed{1}.$"
+    }
+]

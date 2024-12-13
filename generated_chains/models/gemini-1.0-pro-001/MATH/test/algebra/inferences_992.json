@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the greatest possible value of $a$ in the system of equations $5a + 2b = 0$ and $ab = -10$?",
+        "inference": "First, solve for $a$ in the first equation: $5a = -2b$, so $a = -\\frac{2}{5}b$.\n\nSubstitute this into the second equation: $-\\frac{2}{5}b \\cdot b = -10$, so $b^2 = 50$ and $b = \\pm \\sqrt{50} = \\pm 5\\sqrt{2}$.\n\nSubstituting this back into the expression for $a$, we get $a = -\\frac{2}{5}(\\pm 5\\sqrt{2}) = \\pm 2\\sqrt{2}$.\n\nTherefore, the greatest possible value of $a$ is $\\boxed{2\\sqrt{2}}$.\nFinal Answer: $\\boxed{2\\sqrt{2}}$. I hope it is correct.",
+        "ground_truth": "Though we can solve this by substitution, an easier way to solve the problem is to simply add the two equations. Then, $$ab + 5a + 2b = -10 \\Longrightarrow ab + 5a + 2b + 10 = 0.$$ This factors! Thus, $(a+2)(b+5) = 0$, from which it follows that at least one of the two statements $a = -2$, $b = -5$ is true. In the latter case, we obtain $a = \\boxed{2}$, which yields the largest possible value of $a$."
+    },
+    {
+        "question": "First, solve for $a$ in the first equation: $5a = -2b$, so $a = -\\frac{2}{5}b$.\n\nSubstitute this into the second equation: $-\\frac{2}{5}b \\cdot b = -10$, so $b^2 = 50$ and $b = \\pm \\sqrt{50} = \\pm 5\\sqrt{2}$.\n\nSubstituting this back into the expression for $a$, we get $a = -\\frac{2}{5}(\\pm 5\\sqrt{2}) = \\pm 2\\sqrt{2}$.\n\nTherefore, the greatest possible value of $a$ is $\\boxed{2\\sqrt{2}}$.\nFinal Answer: $\\boxed{2\\sqrt{2}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{2\\sqrt{2}}$",
+        "ground_truth": "Though we can solve this by substitution, an easier way to solve the problem is to simply add the two equations. Then, $$ab + 5a + 2b = -10 \\Longrightarrow ab + 5a + 2b + 10 = 0.$$ This factors! Thus, $(a+2)(b+5) = 0$, from which it follows that at least one of the two statements $a = -2$, $b = -5$ is true. In the latter case, we obtain $a = \\boxed{2}$, which yields the largest possible value of $a$."
+    }
+]

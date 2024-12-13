@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn needs to replace his shoes so he decides to buy a $150 pair of Nikes and a $120 pair of work boots.  Tax is 10%.  How much did he pay for everything?",
+        "inference": "1. Calculate the total cost of the shoes before tax: $150 + $120 = $270\n2. Calculate the tax amount: $270 * 0.10 = $27\n3. Add the tax amount to the total cost of the shoes: $270 + $27 = $297\nI hope it is correct: $297$",
+        "ground_truth": "The shoes cost $150 + $120 = $<<150+120=270>>270\nThe tax was $270 * .1 = $<<270*.1=27>>27\nSo the total cost was $270 + $27 = $<<270+27=297>>297\n#### 297"
+    },
+    {
+        "question": "1. Calculate the total cost of the shoes before tax: $150 + $120 = $270\n2. Calculate the tax amount: $270 * 0.10 = $27\n3. Add the tax amount to the total cost of the shoes: $270 + $27 = $297\nI hope it is correct: $297$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$297$",
+        "ground_truth": "The shoes cost $150 + $120 = $<<150+120=270>>270\nThe tax was $270 * .1 = $<<270*.1=27>>27\nSo the total cost was $270 + $27 = $<<270+27=297>>297\n#### 297"
+    }
+]

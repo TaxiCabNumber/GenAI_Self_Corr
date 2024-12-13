@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf the system of equations\n\n\\begin{align*}\n6x-4y&=a,\\\\\n6y-9x &=b.\n\\end{align*}has a solution $(x, y)$ where $x$ and $y$ are both nonzero, find $\\frac{a}{b},$ assuming $b$ is nonzero.",
+        "inference": "$$6x-4y=a$$ $$-9x+6y=b$$\n\nMultiply the second equation by -2 to obtain\n\n$$18x-12y=-2b$$\n\nAdding the two equations gives\n\n$$9x-8y=a-2b$$\n\nSince $x$ and $y$ are both nonzero, so is $9x-8y$. Thus $9x-8y\\neq0$. Dividing both sides of the equation by $9x-8y$, we obtain\n\n$$\\frac{9x-8y}{9x-8y}=\\frac{a-2b}{9x-8y}$$\n\n$$1=\\frac{a-2b}{9x-8y} , 9x-8y=a-2b$$\n\n$$a-2b=9x-8y$$\n\n$$\\boxed{ \\frac{a}{b}=9 }$$\n\nFinal Answer: $$\\boxed{ \\frac{a}{b}=9 }$$ I hope it is correct.",
+        "ground_truth": "If we multiply the first equation by $-\\frac{3}{2}$, we obtain\n\n$$6y-9x=-\\frac{3}{2}a.$$Since we also know that $6y-9x=b$, we have\n\n$$-\\frac{3}{2}a=b\\Rightarrow\\frac{a}{b}=\\boxed{-\\frac{2}{3}}.$$"
+    },
+    {
+        "question": "$$6x-4y=a$$ $$-9x+6y=b$$\n\nMultiply the second equation by -2 to obtain\n\n$$18x-12y=-2b$$\n\nAdding the two equations gives\n\n$$9x-8y=a-2b$$\n\nSince $x$ and $y$ are both nonzero, so is $9x-8y$. Thus $9x-8y\\neq0$. Dividing both sides of the equation by $9x-8y$, we obtain\n\n$$\\frac{9x-8y}{9x-8y}=\\frac{a-2b}{9x-8y}$$\n\n$$1=\\frac{a-2b}{9x-8y} , 9x-8y=a-2b$$\n\n$$a-2b=9x-8y$$\n\n$$\\boxed{ \\frac{a}{b}=9 }$$\n\nFinal Answer: $$\\boxed{ \\frac{a}{b}=9 }$$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{ \\frac{a}{b}=\\frac{9}{2} }$$",
+        "ground_truth": "If we multiply the first equation by $-\\frac{3}{2}$, we obtain\n\n$$6y-9x=-\\frac{3}{2}a.$$Since we also know that $6y-9x=b$, we have\n\n$$-\\frac{3}{2}a=b\\Rightarrow\\frac{a}{b}=\\boxed{-\\frac{2}{3}}.$$"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSolve for $x$, where $x > 0$ and $0 = -21x^2 - 11x + 40.$ Express your answer as a simplified common fraction.",
+        "inference": "$$-21x^2 - 11x + 40=0$$\n\n$$-7(3x^2 + x - 8)=0$$\n\n$$-(3x-2)(x+4)=0$$\n\n$$3x-2=0\\ \\text{or}\\ x+4=0$$\n\n$$3x=2\\qquad\\text{or}\\qquad x=-4$$\n\n$$x=\\frac{2}{3}\\qquad\\text{or}\\qquad x=-4$$\n\nSince $x>0$, we have $x=\\frac{2}{3}$.\n\nFinal Answer: $\\boxed{\\frac{2}{3}}$. I hope it is correct.",
+        "ground_truth": "We factor and obtain $-(7x - 8)(3x + 5) = 0.$ Clearly, the only positive solution for $x$ occurs when $7x - 8 = 0,$ giving us $x = \\boxed{\\dfrac{8}{7}}.$"
+    },
+    {
+        "question": "$$-21x^2 - 11x + 40=0$$\n\n$$-7(3x^2 + x - 8)=0$$\n\n$$-(3x-2)(x+4)=0$$\n\n$$3x-2=0\\ \\text{or}\\ x+4=0$$\n\n$$3x=2\\qquad\\text{or}\\qquad x=-4$$\n\n$$x=\\frac{2}{3}\\qquad\\text{or}\\qquad x=-4$$\n\nSince $x>0$, we have $x=\\frac{2}{3}$.\n\nFinal Answer: $\\boxed{\\frac{2}{3}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{-4}",
+        "ground_truth": "We factor and obtain $-(7x - 8)(3x + 5) = 0.$ Clearly, the only positive solution for $x$ occurs when $7x - 8 = 0,$ giving us $x = \\boxed{\\dfrac{8}{7}}.$"
+    }
+]

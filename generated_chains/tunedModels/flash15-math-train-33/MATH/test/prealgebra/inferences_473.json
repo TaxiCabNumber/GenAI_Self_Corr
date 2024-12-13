@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe sum of two numbers is 15. Four times the smaller number is 60 less than twice the larger number. What is the larger number?",
+        "inference": "Final Answer: \\\\boxed{18}. I hope it is correct. \n",
+        "ground_truth": "Let $y$ be the larger of the numbers.  Since the numbers sum to 15, the other number is $15-y$.   Since four times the smaller number is 60 less than twice the larger, we have: \\begin{align*}\n4(15-y)&=2y-60\\quad\\Rightarrow\\\\\n60-4y&=2y-60\\quad\\Rightarrow\\\\\n120&=6y\\quad\\Rightarrow\\\\\n20&=y.\n\\end{align*} The larger number is $\\boxed{20}$, which makes the smaller number -5. We can check that our answer is correct by plugging the values into the original problem. We get $-5+20=15$ and $4(-5)=2(20)-60$, which result in $15=15$ and $-20=-20$."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{18}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need that information to identify any potential errors and rewrite the solution. \n",
+        "ground_truth": "Let $y$ be the larger of the numbers.  Since the numbers sum to 15, the other number is $15-y$.   Since four times the smaller number is 60 less than twice the larger, we have: \\begin{align*}\n4(15-y)&=2y-60\\quad\\Rightarrow\\\\\n60-4y&=2y-60\\quad\\Rightarrow\\\\\n120&=6y\\quad\\Rightarrow\\\\\n20&=y.\n\\end{align*} The larger number is $\\boxed{20}$, which makes the smaller number -5. We can check that our answer is correct by plugging the values into the original problem. We get $-5+20=15$ and $4(-5)=2(20)-60$, which result in $15=15$ and $-20=-20$."
+    }
+]

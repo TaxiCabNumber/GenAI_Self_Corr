@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nHarry owns 3 geckos, 2 iguanas, and 4 snakes. If he spends $10 to feed each snake, $5 to feed each iguana, and $15 to feed each gecko every month, how much does he spend every year to feed all his pets?",
+        "inference": "Geckos: 15 * 3 * 12 = 540\nIguanas: 5 * 2 * 12 = 120\nSnakes: 10 * 4 * 12 = 480\nTotal: 540 + 120 + 480 = 1140\nI hope it is correct: $1140$",
+        "ground_truth": "He spends $10/snake * 4 snakes = $<<10*4=40>>40 to feed his snakes every month\nHe spends $5/iguana * 2 iguanas = $<<5*2=10>>10 to feed his iguanas every month\nHe spends $15/gecko * 3 geckos = $<<15*3=45>>45 to feed his geckos every month\nSo overall he spends $40 + $10 + $45 = $<<40+10+45=95>>95 to feed all his pets every month\nTherefore every year pet food costs him $95/month * 12 months = $<<95*12=1140>>1140\n#### 1140"
+    },
+    {
+        "question": "Geckos: 15 * 3 * 12 = 540\nIguanas: 5 * 2 * 12 = 120\nSnakes: 10 * 4 * 12 = 480\nTotal: 540 + 120 + 480 = 1140\nI hope it is correct: $1140$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ 1140",
+        "ground_truth": "He spends $10/snake * 4 snakes = $<<10*4=40>>40 to feed his snakes every month\nHe spends $5/iguana * 2 iguanas = $<<5*2=10>>10 to feed his iguanas every month\nHe spends $15/gecko * 3 geckos = $<<15*3=45>>45 to feed his geckos every month\nSo overall he spends $40 + $10 + $45 = $<<40+10+45=95>>95 to feed all his pets every month\nTherefore every year pet food costs him $95/month * 12 months = $<<95*12=1140>>1140\n#### 1140"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} = 5,$ then find\n\\[\\begin{vmatrix} a - c & b - d \\\\ c & d \\end{vmatrix}.\\]",
+        "inference": "Solution:\nWe can expand the determinant on the right-hand side as\n\\[\\begin{vmatrix} a - c & b - d \\\\ c & d \\end{vmatrix} = (a - c)d - c(b - d) = ad - cd - cb + cd = ad - cb.\\]We can expand the determinant on the left-hand side as\n\\[\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} = ad - bc.\\]Since this determinant is equal to 5, $ad - bc = 5.$  Hence, $ad - cb = \\boxed{5}.$\nFinal Answer: $\\boxed{5}$. I hope it is correct. \n",
+        "ground_truth": "Since $\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} = 5,$ $ad - bc = 5.$  Then\n\\[\\begin{vmatrix} a - c & b - d \\\\ c & d \\end{vmatrix} = (a - c)d - (b - d)c = ad - bc = \\boxed{5}.\\](Why does this make sense geometrically?)"
+    },
+    {
+        "question": "Solution:\nWe can expand the determinant on the right-hand side as\n\\[\\begin{vmatrix} a - c & b - d \\\\ c & d \\end{vmatrix} = (a - c)d - c(b - d) = ad - cd - cb + cd = ad - cb.\\]We can expand the determinant on the left-hand side as\n\\[\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} = ad - bc.\\]Since this determinant is equal to 5, $ad - bc = 5.$  Hence, $ad - cb = \\boxed{5}.$\nFinal Answer: $\\boxed{5}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct.  There is no error. \n\\\\boxed{5}",
+        "ground_truth": "Since $\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} = 5,$ $ad - bc = 5.$  Then\n\\[\\begin{vmatrix} a - c & b - d \\\\ c & d \\end{vmatrix} = (a - c)d - (b - d)c = ad - bc = \\boxed{5}.\\](Why does this make sense geometrically?)"
+    }
+]

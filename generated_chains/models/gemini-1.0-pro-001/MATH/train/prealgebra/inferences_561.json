@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFiona is people-watching again. She spies a group of ten high schoolers and starts playing a game by herself, in which she looks at a pair of people from the group of ten and tries to guess whether they like or dislike each other. How many pairs of friends can she observe before she runs out of pairs to evaluate?",
+        "inference": "There are $10$ people, so there are $10$ ways to choose the first person. Once the first person is chosen, there are $9$ ways to choose the second person. So there are $10*9=90$ possible pairs of people Fiona can observe.\n\nFinal Answer: $\\boxed{90}.$ I hope it is correct.",
+        "ground_truth": "There are $10$ options for the first person and $9$ options left for the second person for a preliminary count of $10 \\cdot 9 = 90$ pairs. However, the order in which Fiona chooses the people doesn't matter, and we've counted each pair twice, which means our final answer is $\\dfrac{10\\cdot9}{2}=\\boxed{45}$ pairs of friends."
+    },
+    {
+        "question": "There are $10$ people, so there are $10$ ways to choose the first person. Once the first person is chosen, there are $9$ ways to choose the second person. So there are $10*9=90$ possible pairs of people Fiona can observe.\n\nFinal Answer: $\\boxed{90}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Final Answer: $\\boxed{45}.$",
+        "ground_truth": "There are $10$ options for the first person and $9$ options left for the second person for a preliminary count of $10 \\cdot 9 = 90$ pairs. However, the order in which Fiona chooses the people doesn't matter, and we've counted each pair twice, which means our final answer is $\\dfrac{10\\cdot9}{2}=\\boxed{45}$ pairs of friends."
+    }
+]

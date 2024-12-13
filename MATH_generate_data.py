@@ -134,9 +134,9 @@ def generate_dataset(dataset_path, model_name, output_path, number_of_rounds, in
     idx = load_idx(output_path)
 
     limit = 250
-    if idx > 250:
-        print(f"Already processed {limit} entries. Skipping the dataset.")
-        return
+    # if idx > 250:
+    #     print(f"Already processed {limit} entries. Skipping the dataset.")
+    #     return
     
     # Generate inferences
     inferences = []

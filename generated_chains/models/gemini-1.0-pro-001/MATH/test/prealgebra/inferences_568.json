@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSimplify $\\sqrt{32670}$.",
+        "inference": "$\\sqrt{32670}=\\sqrt{1267\\cdot26}=\\sqrt{1267}\\cdot\\sqrt{26}=\\sqrt{(12\\cdot106+1)}\\cdot\\sqrt{2\\cdot13}=106\\sqrt{12\\cdot13}=106\\sqrt{156}=106\\sqrt{4\\cdot39}=106\\cdot2\\sqrt{39}=212\\sqrt{39}$\nFinal Answer: $\\boxed{212\\sqrt{39}}$. I hope it is correct.",
+        "ground_truth": "To begin, take out the factor of 10 and look at 3267.  With a quick check, we can see this number is divisible by 3. Taking out factors of 3, we find $3267=3\\cdot1089=3^2\\cdot363=3^3\\cdot121$.  Since $121=11^2$, the complete factorization is $32670=10\\cdot3^3\\cdot11^2$.  Therefore, $\\sqrt{32670}=\\boxed{33\\sqrt{30}}$."
+    },
+    {
+        "question": "$\\sqrt{32670}=\\sqrt{1267\\cdot26}=\\sqrt{1267}\\cdot\\sqrt{26}=\\sqrt{(12\\cdot106+1)}\\cdot\\sqrt{2\\cdot13}=106\\sqrt{12\\cdot13}=106\\sqrt{156}=106\\sqrt{4\\cdot39}=106\\cdot2\\sqrt{39}=212\\sqrt{39}$\nFinal Answer: $\\boxed{212\\sqrt{39}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{212\\sqrt{39}}$",
+        "ground_truth": "To begin, take out the factor of 10 and look at 3267.  With a quick check, we can see this number is divisible by 3. Taking out factors of 3, we find $3267=3\\cdot1089=3^2\\cdot363=3^3\\cdot121$.  Since $121=11^2$, the complete factorization is $32670=10\\cdot3^3\\cdot11^2$.  Therefore, $\\sqrt{32670}=\\boxed{33\\sqrt{30}}$."
+    }
+]

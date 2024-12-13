@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $a$ and $b$ be real numbers.  Find the maximum value of $a \\cos \\theta + b \\sin \\theta$ in terms of $a$ and $b.$",
+        "inference": "Final Answer: $\\boxed{\\sqrt{a^2 + b^2}}$. I hope it is correct. \n",
+        "ground_truth": "By the Cauchy-Schwarz Inequality,\n\\[(a \\cos \\theta + b \\sin \\theta)^2 \\le (a^2 + b^2)(\\cos^2 \\theta + \\sin^2 \\theta) = a^2 + b^2,\\]so $a \\cos \\theta + b \\sin \\theta \\le \\sqrt{a^2 + b^2}.$\n\nIf $a = b = 0,$ then $a \\cos \\theta + b \\sin \\theta = 0$ for all $\\theta.$  Otherwise, $a^2 + b^2 > 0,$ and we can find an angle $\\theta$ such that\n\\[\\cos \\theta = \\frac{a}{\\sqrt{a^2 + b^2}} \\quad \\text{and} \\quad \\sin \\theta = \\frac{b}{\\sqrt{a^2 + b^2}},\\]which makes $a \\cos \\theta + b \\sin \\theta = \\sqrt{a^2 + b^2}.$  Thus, the maximum value is $\\boxed{\\sqrt{a^2 + b^2}}.$"
+    },
+    {
+        "question": "Final Answer: $\\boxed{\\sqrt{a^2 + b^2}}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "You did not provide me with the question or the solution. Please provide me with the complete context so I can identify any errors and rewrite the solution. \n",
+        "ground_truth": "By the Cauchy-Schwarz Inequality,\n\\[(a \\cos \\theta + b \\sin \\theta)^2 \\le (a^2 + b^2)(\\cos^2 \\theta + \\sin^2 \\theta) = a^2 + b^2,\\]so $a \\cos \\theta + b \\sin \\theta \\le \\sqrt{a^2 + b^2}.$\n\nIf $a = b = 0,$ then $a \\cos \\theta + b \\sin \\theta = 0$ for all $\\theta.$  Otherwise, $a^2 + b^2 > 0,$ and we can find an angle $\\theta$ such that\n\\[\\cos \\theta = \\frac{a}{\\sqrt{a^2 + b^2}} \\quad \\text{and} \\quad \\sin \\theta = \\frac{b}{\\sqrt{a^2 + b^2}},\\]which makes $a \\cos \\theta + b \\sin \\theta = \\sqrt{a^2 + b^2}.$  Thus, the maximum value is $\\boxed{\\sqrt{a^2 + b^2}}.$"
+    }
+]

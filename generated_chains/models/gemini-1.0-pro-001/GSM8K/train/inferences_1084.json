@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIf Billy and Jenny each order a $20 steak along with a $5 drink, how much will Billy have to pay in tips if he wants to cover 80% of a 20% tip for the two of them?",
+        "inference": "Let's first calculate the total cost of the meal for Billy and Jenny:\n\nTotal cost = (20 + 5) + (20 + 5) = $50\n\nNext, let's calculate the tip amount for 20% of the meal:\n\nTip amount = 0.20 * $50 = $10\n\nFinally, let's calculate how much Billy will have to pay in tips if he wants to cover 80% of the tip:\n\nBilly's tip = 0.80 * $10 = $8\n\nI hope it is correct: Billy's tip is $8",
+        "ground_truth": "First, we figure out the price per meal by adding the steak and the drink together, finding a cost of 20+5=<<20+5=25>>25 per meal.\nThen we multiply this by 2, as there are two people eating, meaning a total cost of 25*2=<<25*2=50>>50 for both meals.\nThen we find the total tip amount for a 20% tip, by multiplying 50*.2= 10.\nThen we find out what 80% of this tip amount is by multiplying the desired tip of 10 by .8, finding 10*.8= <<10*.8=8>>8 dollars that Billy should contribute.\n#### 8"
+    },
+    {
+        "question": "Let's first calculate the total cost of the meal for Billy and Jenny:\n\nTotal cost = (20 + 5) + (20 + 5) = $50\n\nNext, let's calculate the tip amount for 20% of the meal:\n\nTip amount = 0.20 * $50 = $10\n\nFinally, let's calculate how much Billy will have to pay in tips if he wants to cover 80% of the tip:\n\nBilly's tip = 0.80 * $10 = $8\n\nI hope it is correct: Billy's tip is $8\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$8",
+        "ground_truth": "First, we figure out the price per meal by adding the steak and the drink together, finding a cost of 20+5=<<20+5=25>>25 per meal.\nThen we multiply this by 2, as there are two people eating, meaning a total cost of 25*2=<<25*2=50>>50 for both meals.\nThen we find the total tip amount for a 20% tip, by multiplying 50*.2= 10.\nThen we find out what 80% of this tip amount is by multiplying the desired tip of 10 by .8, finding 10*.8= <<10*.8=8>>8 dollars that Billy should contribute.\n#### 8"
+    }
+]

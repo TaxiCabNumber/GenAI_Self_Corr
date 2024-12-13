@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA whirligig spins at five times the speed of a thingamabob. A whatchamacallit spins eleven times faster than a thingamabob. A whatchamacallit spins at 121 meters per second. How fast does a whirligig spin?",
+        "inference": "- A whatchamacallit spins at 11 times the speed of a thingamabob.\n- A whatchamacallit spins at 121 meters per second.\n\n**121 / 11 = 11 meters per second**\n\n- A whirligig spins at 5 times the speed of a thingamabob.\n- A whatchamacallit spins at 11 times the speed of a thingamabob.\n\n**11 * 5 = 55 meters per second**\n\nI hope that it is correct: 55",
+        "ground_truth": "A thingamabob spins 1/11 as fast as a whatchamacallit, so it spins at 121 / 11 = 11 meters per second.\nA whirligig spins five times faster than a thingamabob, so it spins at 11 * 5 = <<11*5=55>>55 meters per second.\n#### 55"
+    },
+    {
+        "question": "- A whatchamacallit spins at 11 times the speed of a thingamabob.\n- A whatchamacallit spins at 121 meters per second.\n\n**121 / 11 = 11 meters per second**\n\n- A whirligig spins at 5 times the speed of a thingamabob.\n- A whatchamacallit spins at 11 times the speed of a thingamabob.\n\n**11 * 5 = 55 meters per second**\n\nI hope that it is correct: 55\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ = 55",
+        "ground_truth": "A thingamabob spins 1/11 as fast as a whatchamacallit, so it spins at 121 / 11 = 11 meters per second.\nA whirligig spins five times faster than a thingamabob, so it spins at 11 * 5 = <<11*5=55>>55 meters per second.\n#### 55"
+    }
+]

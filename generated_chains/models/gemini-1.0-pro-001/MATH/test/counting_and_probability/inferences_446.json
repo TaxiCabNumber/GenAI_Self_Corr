@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nHow many multiples of $9^3$ are greater than $9^4$ and less than $9^5$?",
+        "inference": "Multiples of $9^3$ between $9^4$ and $9^5$: $9^4 < 9^3 \\cdot k < 9^5$\n\n$$81^2 < 9^3 \\cdot k < 9^3 \\cdot 9^2$$\n\n$$81^2 < 9^3 \\cdot k < 81^3 $$\n\nDividing through by $81^2$ gives:\n\n$$1 <  k < 81$$\n\nThus, there are $81 - 1 = \\boxed{80}$ multiples of $9^3$ greater than $9^4$ and less than $9^5$.\nFinal Answer: $\\boxed{80}$. I hope it is correct.",
+        "ground_truth": "Since $9^4=9(9^3)$ and $9^5=9^2\\cdot9^3=81(9^3)$, we must count the number of integers between 10 and 80, inclusive. That number is $80-10+1=71$, so there are $\\boxed{71}$ multiples of $9^3$ greater than $9^4$ and less than $9^5$."
+    },
+    {
+        "question": "Multiples of $9^3$ between $9^4$ and $9^5$: $9^4 < 9^3 \\cdot k < 9^5$\n\n$$81^2 < 9^3 \\cdot k < 9^3 \\cdot 9^2$$\n\n$$81^2 < 9^3 \\cdot k < 81^3 $$\n\nDividing through by $81^2$ gives:\n\n$$1 <  k < 81$$\n\nThus, there are $81 - 1 = \\boxed{80}$ multiples of $9^3$ greater than $9^4$ and less than $9^5$.\nFinal Answer: $\\boxed{80}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{80}",
+        "ground_truth": "Since $9^4=9(9^3)$ and $9^5=9^2\\cdot9^3=81(9^3)$, we must count the number of integers between 10 and 80, inclusive. That number is $80-10+1=71$, so there are $\\boxed{71}$ multiples of $9^3$ greater than $9^4$ and less than $9^5$."
+    }
+]

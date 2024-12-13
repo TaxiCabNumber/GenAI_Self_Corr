@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIf one person can paint half a house in 5 days, how many hours would it take for 5 people to paint a whole house?",
+        "inference": "1 person can paint 1/2 of house in 5 days\n 1 person can paint 1/10 of house in 1 day\n 1 person can paint 1/50 of house in 1 hour\n\n5 people can paint 5/50 of house in 1 hour\n5 people can paint 1 whole house in 10 hours\n\nI hope it is correct: 10",
+        "ground_truth": "First, we need to determine how many days it takes 1 person to paint a whole house. We do this by performing 5*2=<<5*2=10>>10 days to paint the full house.\nSince five people would perform the task 5 times as fast, we find the total amount of time required by performing 10/5= <<10/5=2>>2 days to paint the full house.\nSince there are 24 hours in a day, we perform 24*2=<<24*2=48>>48 hours for them to paint the full house.\n#### 48"
+    },
+    {
+        "question": "1 person can paint 1/2 of house in 5 days\n 1 person can paint 1/10 of house in 1 day\n 1 person can paint 1/50 of house in 1 hour\n\n5 people can paint 5/50 of house in 1 hour\n5 people can paint 1 whole house in 10 hours\n\nI hope it is correct: 10\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 10",
+        "ground_truth": "First, we need to determine how many days it takes 1 person to paint a whole house. We do this by performing 5*2=<<5*2=10>>10 days to paint the full house.\nSince five people would perform the task 5 times as fast, we find the total amount of time required by performing 10/5= <<10/5=2>>2 days to paint the full house.\nSince there are 24 hours in a day, we perform 24*2=<<24*2=48>>48 hours for them to paint the full house.\n#### 48"
+    }
+]

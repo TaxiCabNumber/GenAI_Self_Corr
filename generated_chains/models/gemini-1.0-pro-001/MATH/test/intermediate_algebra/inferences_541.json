@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $P(x)$ be a quadratic polynomial with real coefficients satisfying $x^2 - 2x + 2 \\le P(x) \\le 2x^2 - 4x + 3$ for all real  numbers $x$, and suppose $P(11) = 181$. Find $P(16)$.",
+        "inference": "Since $x^2 - 2x + 2 \\le P(x)$ for all real  numbers $x$, we have $P(11) \\ge 11^2 - 2(11) + 2 = 121$. Since $P(11) = 181$, we must have $P(x) = 2x^2 - 4x + 3$. Therefore, $P(16) = 2(16)^2 - 4(16) + 3 = 503$.\nFinal Answer: $\\boxed{503}$. I hope it is correct.",
+        "ground_truth": "Rewriting the given quadratics in vertex form, we have \\[1 + (x-1)^2 \\le P(x) \\le 1 + 2(x-1)^2.\\]Both of those quadratics have vertex at $(1, 1)$; considering the shape of the graph of a quadratic, we see that $P$ must also have its vertex at $(1,1)$. Therefore, \\[P(x) = 1 + k(x-1)^2\\]for some constant $k$. Setting $x = 11$, we have $181 = 1 +100k$, so $k = \\tfrac{9}{5}$. Then \\[P(16) = 1 + \\tfrac{9}{5} \\cdot 15^2 = \\boxed{406}.\\]"
+    },
+    {
+        "question": "Since $x^2 - 2x + 2 \\le P(x)$ for all real  numbers $x$, we have $P(11) \\ge 11^2 - 2(11) + 2 = 121$. Since $P(11) = 181$, we must have $P(x) = 2x^2 - 4x + 3$. Therefore, $P(16) = 2(16)^2 - 4(16) + 3 = 503$.\nFinal Answer: $\\boxed{503}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$503$}",
+        "ground_truth": "Rewriting the given quadratics in vertex form, we have \\[1 + (x-1)^2 \\le P(x) \\le 1 + 2(x-1)^2.\\]Both of those quadratics have vertex at $(1, 1)$; considering the shape of the graph of a quadratic, we see that $P$ must also have its vertex at $(1,1)$. Therefore, \\[P(x) = 1 + k(x-1)^2\\]for some constant $k$. Setting $x = 11$, we have $181 = 1 +100k$, so $k = \\tfrac{9}{5}$. Then \\[P(16) = 1 + \\tfrac{9}{5} \\cdot 15^2 = \\boxed{406}.\\]"
+    }
+]

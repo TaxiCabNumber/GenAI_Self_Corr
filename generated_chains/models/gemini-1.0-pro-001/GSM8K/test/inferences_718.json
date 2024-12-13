@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\n100 people apply for a job at Google. Of the people that apply, only 30% receive interviews. Of those who receive interviews, 20% receive a job offer. Of those who receive a job offer, a third of the people accept the position. How many people accept the position?",
+        "inference": "- 100 people apply for the job.\n- 30% of 100 people receive interviews, which is equal to 0.3 * 100 = 30 people.\n- 20% of 30 people receive job offers, which is equal to 0.2 * 30 = 6 people.\n- A third of 6 people accept the position, which is equal to 6 / 3 = 2 people.\nI hope it is correct: 2",
+        "ground_truth": "The number of people that receive interviews is 100 * 0.30 = <<100*0.30=30>>30 people\nThe number of people that receive a job offer is 30 * 0.20 = <<30*0.20=6>>6 people\nThe number of people that accept the position is 6 / 3 = <<6/3=2>>2 people\n#### 2"
+    },
+    {
+        "question": "- 100 people apply for the job.\n- 30% of 100 people receive interviews, which is equal to 0.3 * 100 = 30 people.\n- 20% of 30 people receive job offers, which is equal to 0.2 * 30 = 6 people.\n- A third of 6 people accept the position, which is equal to 6 / 3 = 2 people.\nI hope it is correct: 2\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 2",
+        "ground_truth": "The number of people that receive interviews is 100 * 0.30 = <<100*0.30=30>>30 people\nThe number of people that receive a job offer is 30 * 0.20 = <<30*0.20=6>>6 people\nThe number of people that accept the position is 6 / 3 = <<6/3=2>>2 people\n#### 2"
+    }
+]

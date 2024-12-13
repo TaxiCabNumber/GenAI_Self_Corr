@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIn a race with 240 Asians, 80 were Japanese, and the rest were Chinese. If the number of boys on the Chinese team was 60, how many girls were on the Chinese team?",
+        "inference": "1. The number of Chinese runners is 240 - 80 = 160.\n2. The number of boys on the Chinese team is 60.\n3. The number of girls on the Chinese team is 160 - 60 = 100.\nI hope it is correct: 100 $answer$",
+        "ground_truth": "If there were 80 Japanese, the number of Chinese was 240-80=<<240-80=160>>160.\nSince there were 60 boys in the Chinese team, there were 160-60 = 100 girls in the Chinese team.\n#### 100"
+    },
+    {
+        "question": "1. The number of Chinese runners is 240 - 80 = 160.\n2. The number of boys on the Chinese team is 60.\n3. The number of girls on the Chinese team is 160 - 60 = 100.\nI hope it is correct: 100 $answer$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 100",
+        "ground_truth": "If there were 80 Japanese, the number of Chinese was 240-80=<<240-80=160>>160.\nSince there were 60 boys in the Chinese team, there were 160-60 = 100 girls in the Chinese team.\n#### 100"
+    }
+]

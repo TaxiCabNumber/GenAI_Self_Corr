@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTim buys 3 dozen eggs.  Eggs cost $.50 each.  How much did he pay for eggs?",
+        "inference": "* One dozen is equal to 12.\n* 3 dozens are equivalent to 3 x 12 = 36 eggs.\n* Each egg costs $0.50.\n* Then 36 eggs will cost 36 x $0.50 = $18.\nI hope it is correct: 18 $",
+        "ground_truth": "He bought 3*12=<<3*12=36>>36 eggs\nSo they cost 36*.5=$<<36*.5=18>>18\n#### 18"
+    },
+    {
+        "question": "* One dozen is equal to 12.\n* 3 dozens are equivalent to 3 x 12 = 36 eggs.\n* Each egg costs $0.50.\n* Then 36 eggs will cost 36 x $0.50 = $18.\nI hope it is correct: 18 $\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $18",
+        "ground_truth": "He bought 3*12=<<3*12=36>>36 eggs\nSo they cost 36*.5=$<<36*.5=18>>18\n#### 18"
+    }
+]

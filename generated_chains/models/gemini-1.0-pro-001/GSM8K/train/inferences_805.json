@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA movie theater has 6 screens which show movies back-to-back all day. If the movie theater is open for 8 hours, and each movie lasts 2 hours, how many movies are shown in total throughout the day?",
+        "inference": "1. Each screen shows 4 movies (8 hours / 2 hours per movie).\n2. 6 screens x 4 movies per screen = 24 movies\nI hope it is correct: 24 movies",
+        "ground_truth": "Each screen shows movies all day, which means each screen shows 8 hours/day / 2 hours per movie = <<8/2=4>>4 movies/day.\nSo in total, the movie theater shows 6 screens * 4 movies/day = <<6*4=24>>24 movies.\n#### 24"
+    },
+    {
+        "question": "1. Each screen shows 4 movies (8 hours / 2 hours per movie).\n2. 6 screens x 4 movies per screen = 24 movies\nI hope it is correct: 24 movies\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 24",
+        "ground_truth": "Each screen shows movies all day, which means each screen shows 8 hours/day / 2 hours per movie = <<8/2=4>>4 movies/day.\nSo in total, the movie theater shows 6 screens * 4 movies/day = <<6*4=24>>24 movies.\n#### 24"
+    }
+]

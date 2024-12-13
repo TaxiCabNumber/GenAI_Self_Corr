@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFor a list of five positive integers, none greater than 100, the mean is 1.5 times the mode. If 31, 58, 98, $x$ and $x$ are the five integers, what is the value of $x$?",
+        "inference": "The mean of the five integers is $\\frac{31+58+98+x+x}{5} = \\frac{187+2x}{5}$ and the mode is $x$. Since the mean is $1.5$ times the mode, we have $\\frac{187+2x}{5} = 1.5x$. Solving for $x$, we get $187+2x = 7.5x$. Subtracting $2x$ from both sides, we get $187 = 5.5x$. Dividing both sides by $5.5$, we get $x = \\boxed{34}.$\nFinal Answer: $\\boxed{34}$. I hope it is correct.",
+        "ground_truth": "The mean of the list 31, 58, 98, $x$ and $x$ is $(31+58+98+2x)/5=(187+2x)/5$, and the mode is $x$.  Solving $1.5x=(187+2x)/5$ we find $x=\\boxed{34}$."
+    },
+    {
+        "question": "The mean of the five integers is $\\frac{31+58+98+x+x}{5} = \\frac{187+2x}{5}$ and the mode is $x$. Since the mean is $1.5$ times the mode, we have $\\frac{187+2x}{5} = 1.5x$. Solving for $x$, we get $187+2x = 7.5x$. Subtracting $2x$ from both sides, we get $187 = 5.5x$. Dividing both sides by $5.5$, we get $x = \\boxed{34}.$\nFinal Answer: $\\boxed{34}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$34$}.",
+        "ground_truth": "The mean of the list 31, 58, 98, $x$ and $x$ is $(31+58+98+2x)/5=(187+2x)/5$, and the mode is $x$.  Solving $1.5x=(187+2x)/5$ we find $x=\\boxed{34}$."
+    }
+]

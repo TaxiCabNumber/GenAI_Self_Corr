@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA shoe store was having a weekend sale on a brand of popular tennis shoes. On Friday the store sold 14 pairs of tennis shoes. The next day they sold double that number of shoes. On the last day of the sale they sold one-half the amount that they did the day before, but six people returned their pairs because they didn't fit. How many tennis shoes were sold by the end of the sale?",
+        "inference": "- Friday, they sold 14 pairs of tennis shoes.\n- Saturday, they sold double that number of shoes: 14 \u00d7 2 = 28 pairs of shoes.\n- Sunday, they sold one-half the amount that they did the day before: 28 / 2 = 14 pairs of shoes.\n- 6 people returned their pair of shoes.\n- So, the store sold 14 + 28 + 14 - 6 = 40 pairs of shoes.\nI hope it is correct: 40",
+        "ground_truth": "On Saturday 14*2=<<14*2=28>>28 shoes were sold\nOn Sunday 28/2=<<28/2=14>>14 shoes were sold\nBefore the returns were made 14+28+14=<<14+28+14=56>>56 pairs of shoes were sold\nAfter the returns were made 56-6=<<56-6=50>>50 pairs of shoe were sold\n#### 50"
+    },
+    {
+        "question": "- Friday, they sold 14 pairs of tennis shoes.\n- Saturday, they sold double that number of shoes: 14 \u00d7 2 = 28 pairs of shoes.\n- Sunday, they sold one-half the amount that they did the day before: 28 / 2 = 14 pairs of shoes.\n- 6 people returned their pair of shoes.\n- So, the store sold 14 + 28 + 14 - 6 = 40 pairs of shoes.\nI hope it is correct: 40\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 40",
+        "ground_truth": "On Saturday 14*2=<<14*2=28>>28 shoes were sold\nOn Sunday 28/2=<<28/2=14>>14 shoes were sold\nBefore the returns were made 14+28+14=<<14+28+14=56>>56 pairs of shoes were sold\nAfter the returns were made 56-6=<<56-6=50>>50 pairs of shoe were sold\n#### 50"
+    }
+]

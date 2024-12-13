@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn earned 50 dollars an hour and worked 6 hours in the week.  If he spends 50 dollars on gas and wants to deposit 100 dollars in the bank, how many 25 dollar pens can he buy after he buys 5 pencils that cost 10 dollars each?",
+        "inference": "1) John earned $50 * 6 = $300 for the week.\n2) He spent $50 on gas and wants to deposit $100, so he has $300 - $50 - $100 = $150 left.\n3) He bought 5 pencils that cost $10 each, so he spent $5 * $10 = $50 on pencils.\n4) He has $150 - $50 = $100 left.\n5) He can buy $100 / $25 = 4 25-dollar pens.\n\nI hope it is correct: 4",
+        "ground_truth": "He earned $50*6=$<<50*6=300>>300\nHe has $300 - $100 = $<<300-100=200>>200 to spend\nHe spends 5 * $10 = $<<5*10=50>>50 on pencils\nAfter buying gas and pencils he has $200 - $50 - $50 = $<<200-50-50=100>>100 to spend on pens\nHe can buy $100/25=<<100/25=4>>4 pens\n#### 4"
+    },
+    {
+        "question": "1) John earned $50 * 6 = $300 for the week.\n2) He spent $50 on gas and wants to deposit $100, so he has $300 - $50 - $100 = $150 left.\n3) He bought 5 pencils that cost $10 each, so he spent $5 * $10 = $50 on pencils.\n4) He has $150 - $50 = $100 left.\n5) He can buy $100 / $25 = 4 25-dollar pens.\n\nI hope it is correct: 4\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$4",
+        "ground_truth": "He earned $50*6=$<<50*6=300>>300\nHe has $300 - $100 = $<<300-100=200>>200 to spend\nHe spends 5 * $10 = $<<5*10=50>>50 on pencils\nAfter buying gas and pencils he has $200 - $50 - $50 = $<<200-50-50=100>>100 to spend on pens\nHe can buy $100/25=<<100/25=4>>4 pens\n#### 4"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSteven, Stephanie, and Sonya went ice skating. Steven only fell down 3 times, but Stephanie had 13 more falls than Steven. If Sonya fell down 2 times less than half the number of times Stephanie fell, how many times did Sonya fall?",
+        "inference": "1. Stephanie fell down 13 more times than Steven, so she fell down 3 + 13 = 16 times.\n2. Sonya fell down 2 times less than half the number of time Stephanie fell, so she fell down 16 / 2 - 2 = 6 times.\nI hope it is correct: 6",
+        "ground_truth": "Stephanie fell 13 + 3 = <<13+3=16>>16 times.\nHalf the number of times Stephanie fell is 16/2 = <<16/2=8>>8 times.\nSonya fell down 8 - 2 = <<8-2=6>>6 times.\n#### 6"
+    },
+    {
+        "question": "1. Stephanie fell down 13 more times than Steven, so she fell down 3 + 13 = 16 times.\n2. Sonya fell down 2 times less than half the number of time Stephanie fell, so she fell down 16 / 2 - 2 = 6 times.\nI hope it is correct: 6\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$6",
+        "ground_truth": "Stephanie fell 13 + 3 = <<13+3=16>>16 times.\nHalf the number of times Stephanie fell is 16/2 = <<16/2=8>>8 times.\nSonya fell down 8 - 2 = <<8-2=6>>6 times.\n#### 6"
+    }
+]

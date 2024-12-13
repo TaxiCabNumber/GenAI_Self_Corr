@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 3 boxes of cereal. One box holds 14 ounces of cereal. Another box holds half the amount of the first box and 5 ounces less than the third box. How much cereal is there in all 3 cereal boxes?",
+        "inference": "1. The second box holds half the amount of the first box. So, the second box has 14 / 2 = 7 ounces of cereal.\n\n\n2. The third box holds 5 ounces more than the second box. So, the third box has 7 + 5 = 12 ounces of cereal.\n\n\n3. There are 3 cereal boxes in total. So, the total amount of cereal in all 3 boxes is 14 + 7 + 12 = 33 ounces.\n\nI hope it is correct: 33 ounces",
+        "ground_truth": "First = <<14=14>>14 oz\nSecond = (1/2) * 14 = <<(1/2)*14=7>>7 oz\nThird = 7 + 5 = <<7+5=12>>12 oz\n14 + 7 + 12 = <<14+7+12=33>>33 oz\nThere are 33 ounces of cereal in those 3 boxes.\n#### 33"
+    },
+    {
+        "question": "1. The second box holds half the amount of the first box. So, the second box has 14 / 2 = 7 ounces of cereal.\n\n\n2. The third box holds 5 ounces more than the second box. So, the third box has 7 + 5 = 12 ounces of cereal.\n\n\n3. There are 3 cereal boxes in total. So, the total amount of cereal in all 3 boxes is 14 + 7 + 12 = 33 ounces.\n\nI hope it is correct: 33 ounces\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$33",
+        "ground_truth": "First = <<14=14>>14 oz\nSecond = (1/2) * 14 = <<(1/2)*14=7>>7 oz\nThird = 7 + 5 = <<7+5=12>>12 oz\n14 + 7 + 12 = <<14+7+12=33>>33 oz\nThere are 33 ounces of cereal in those 3 boxes.\n#### 33"
+    }
+]

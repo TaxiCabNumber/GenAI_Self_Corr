@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe combined weight of three basset hounds is $185$ pounds. The two smaller dogs weigh the same. The difference between the larger weight and the smaller weight is $20$ pounds. How many pounds does the largest dog weigh?",
+        "inference": "Let $x$ be the weight of each of the two smaller dogs. Then the weight of the largest dog is $x + 20$. The combined weight of the three dogs is $x + x + (x + 20) = 185$. Solving for $x$, we get $x = 72.5$. Therefore, the weight of the largest dog is $x + 20 = 72.5 + 20 = \\boxed{92.5}$.\nFinal Answer: $\\boxed{92.5}$. I hope it is correct.",
+        "ground_truth": "Let the three basset hounds weigh $a$, $a$, and $b$ pounds, where $a < b$. We have the two equations \\begin{align*}\n2a+b&=185\\\\\nb-a&=20\n\\end{align*} From the second equation, we have $a=b-20$. Substituting this in to the first equation to eliminate $a$, we have $2(b-20)+b=185 \\Rightarrow b=75$. Thus, the largest dog weighs $\\boxed{75}$ pounds."
+    },
+    {
+        "question": "Let $x$ be the weight of each of the two smaller dogs. Then the weight of the largest dog is $x + 20$. The combined weight of the three dogs is $x + x + (x + 20) = 185$. Solving for $x$, we get $x = 72.5$. Therefore, the weight of the largest dog is $x + 20 = 72.5 + 20 = \\boxed{92.5}$.\nFinal Answer: $\\boxed{92.5}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{92.5}",
+        "ground_truth": "Let the three basset hounds weigh $a$, $a$, and $b$ pounds, where $a < b$. We have the two equations \\begin{align*}\n2a+b&=185\\\\\nb-a&=20\n\\end{align*} From the second equation, we have $a=b-20$. Substituting this in to the first equation to eliminate $a$, we have $2(b-20)+b=185 \\Rightarrow b=75$. Thus, the largest dog weighs $\\boxed{75}$ pounds."
+    }
+]

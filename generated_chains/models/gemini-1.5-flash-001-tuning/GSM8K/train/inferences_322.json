@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA shady restaurant is charging customers gratuities after taxes without them being aware. If my total bill was $140, the sales tax in my city is 10%, I ordered a NY Striploin for $80, and I ordered a glass of wine for $10, how much did they charge me for gratuities?",
+        "inference": "I hope it is correct: #### $25$ \n",
+        "ground_truth": "The total bill before taxes or gratuities was $80 for the steak + $10 for the wine = $80+$10 = $<<80+10=90>>90\nIf the tax is 10%, then the taxes paid were $90 * 10% = $<<90*10*.01=9>>9\nThat means that the total bill before gratuities was $90 + $9 = $<<90+9=99>>99\nIf the final bill was $140, then you were charged $140-$99 = $<<140-99=41>>41 for gratuities\n#### 41"
+    },
+    {
+        "question": "I hope it is correct: #### $25$ \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ = There is not enough information to provide a solution. Please provide the full question. \n",
+        "ground_truth": "The total bill before taxes or gratuities was $80 for the steak + $10 for the wine = $80+$10 = $<<80+10=90>>90\nIf the tax is 10%, then the taxes paid were $90 * 10% = $<<90*10*.01=9>>9\nThat means that the total bill before gratuities was $90 + $9 = $<<90+9=99>>99\nIf the final bill was $140, then you were charged $140-$99 = $<<140-99=41>>41 for gratuities\n#### 41"
+    }
+]

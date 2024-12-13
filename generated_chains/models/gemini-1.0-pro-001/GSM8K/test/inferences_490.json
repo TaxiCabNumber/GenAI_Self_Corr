@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAn 8-year old child wants to buy a toy car which costs $12. He already has $4 savings. How many days will it take him to save the remaining amount of money if he promises to save $2 daily from his allowance?",
+        "inference": "1. Find the amount of money the child needs to save: $12 - $4 = $8\n2. Divide the amount of money needed by the amount saved daily: $8 / $2 = 4 days\nI hope it is correct: 4 $day$",
+        "ground_truth": "The boy still needs $12 - $4 = $<<12-4=8>>8.\nIf he saves $2 per day then it will take him $8 / $2/day = <<8/2=4>>4 days to save the remaining amount.\n#### 4"
+    },
+    {
+        "question": "1. Find the amount of money the child needs to save: $12 - $4 = $8\n2. Divide the amount of money needed by the amount saved daily: $8 / $2 = 4 days\nI hope it is correct: 4 $day$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 4 days",
+        "ground_truth": "The boy still needs $12 - $4 = $<<12-4=8>>8.\nIf he saves $2 per day then it will take him $8 / $2/day = <<8/2=4>>4 days to save the remaining amount.\n#### 4"
+    }
+]

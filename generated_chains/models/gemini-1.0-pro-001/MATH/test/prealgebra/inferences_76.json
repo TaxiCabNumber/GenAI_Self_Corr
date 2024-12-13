@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nAn integer is randomly selected from the integers 0 through 99, inclusive. What is the probability that the integer is in the range 10 through 20, inclusive? Express your answer as a common fraction.",
+        "inference": "There are 100 integers in the range 0 through 99, inclusive. Of these, 10 are in the range 10 through 20, inclusive. Therefore, the probability of selecting an integer in the range 10 through 20, inclusive, is 10/100 = 1/10.\nFinal Answer: $\\boxed{1/10}$. I hope it is correct.",
+        "ground_truth": "There are $99-0+1=100$ integers between 0 and 99 inclusive and $20-10+1=11$ integers between 10 and 20 inclusive.  The probability of selecting one of 11 integers among 100 is $\\boxed{\\frac{11}{100}}$."
+    },
+    {
+        "question": "There are 100 integers in the range 0 through 99, inclusive. Of these, 10 are in the range 10 through 20, inclusive. Therefore, the probability of selecting an integer in the range 10 through 20, inclusive, is 10/100 = 1/10.\nFinal Answer: $\\boxed{1/10}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$1/10$}.",
+        "ground_truth": "There are $99-0+1=100$ integers between 0 and 99 inclusive and $20-10+1=11$ integers between 10 and 20 inclusive.  The probability of selecting one of 11 integers among 100 is $\\boxed{\\frac{11}{100}}$."
+    }
+]

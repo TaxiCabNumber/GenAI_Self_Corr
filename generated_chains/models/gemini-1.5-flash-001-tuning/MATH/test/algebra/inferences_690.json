@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the ordered pair $(x,y)$ if\n\n\\begin{align*}\nx+y&=(3-x)+(3-y),\\\\\nx-y &=(x-2)+(y-2).\n\\end{align*}",
+        "inference": "Solution:\n\nSimplifying the first equation, we get $2x+2y=6$. \n\nSimplifying the second equation, we get $2x-2y=2$. \n\nAdding these two equations together, we have $4x=8$, so $x=2$. \n\nSubstituting $x=2$ into the equation $2x+2y=6$, we get $2(2)+2y=6$, so $y=1$. \n\nTherefore, $(x,y)=\\boxed{(2,1)}$. \n",
+        "ground_truth": "Adding the equations, we get  $$2x=2\\Rightarrow x=1.$$ Substituting this into the first equation, we get $$1+y=5-y\\Rightarrow y=2.$$ Thus the ordered pair is $\\boxed{(1,2)}$."
+    },
+    {
+        "question": "Solution:\n\nSimplifying the first equation, we get $2x+2y=6$. \n\nSimplifying the second equation, we get $2x-2y=2$. \n\nAdding these two equations together, we have $4x=8$, so $x=2$. \n\nSubstituting $x=2$ into the equation $2x+2y=6$, we get $2(2)+2y=6$, so $y=1$. \n\nTherefore, $(x,y)=\\boxed{(2,1)}$. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "You are absolutely right! The provided solution is correct. There is no error. \n\nThe solution correctly solves the system of equations and arrives at the correct answer: \n\\\\boxed{$(2,1)$} \n",
+        "ground_truth": "Adding the equations, we get  $$2x=2\\Rightarrow x=1.$$ Substituting this into the first equation, we get $$1+y=5-y\\Rightarrow y=2.$$ Thus the ordered pair is $\\boxed{(1,2)}$."
+    }
+]

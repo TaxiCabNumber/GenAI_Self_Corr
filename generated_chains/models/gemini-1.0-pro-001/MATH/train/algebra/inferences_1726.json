@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe sum of Jim's weight and Bob's weight is 180 pounds. If you subtract Jim's weight from Bob's weight, you get half of Bob's weight. How many pounds does Bob weigh?",
+        "inference": "Let Jim's weight be x. Bob's weight is 180 - x.\n\n$$180-x-x=\\frac{1}{2}(180-x)$$\n\n$$180-2x=90-x/2$$\n\n$$2x-x/2=90$$\n\n$$3x/2=90$$\n\n$$x=60$$\n\n**Final Answer: \\boxed{120}. I hope it is correct.**",
+        "ground_truth": "Call Jim's weight $j$ and Bob's weight $b$. We can use the following system of equations to represent the information given: \\begin{align*}\nj + b &= 180 \\\\\nb - j &= \\frac{b}{2} \\\\\n\\end{align*} Adding the two equations together gives $2b = 180 + \\frac{b}{2}$. Solving for $b$ gives $3b = 360$, or $b = 120$. Thus, Bob weighs $\\boxed{120}$ pounds."
+    },
+    {
+        "question": "Let Jim's weight be x. Bob's weight is 180 - x.\n\n$$180-x-x=\\frac{1}{2}(180-x)$$\n\n$$180-2x=90-x/2$$\n\n$$2x-x/2=90$$\n\n$$3x/2=90$$\n\n$$x=60$$\n\n**Final Answer: \\boxed{120}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{60}",
+        "ground_truth": "Call Jim's weight $j$ and Bob's weight $b$. We can use the following system of equations to represent the information given: \\begin{align*}\nj + b &= 180 \\\\\nb - j &= \\frac{b}{2} \\\\\n\\end{align*} Adding the two equations together gives $2b = 180 + \\frac{b}{2}$. Solving for $b$ gives $3b = 360$, or $b = 120$. Thus, Bob weighs $\\boxed{120}$ pounds."
+    }
+]

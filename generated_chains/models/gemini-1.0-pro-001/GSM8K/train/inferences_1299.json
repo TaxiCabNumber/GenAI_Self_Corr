@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSarah decided to pull weeds from her garden. On Tuesday she pulled 25 weeds. The next day she pulled three times the number of weeds she did the day before. On Thursday her allergies bothered her and she could only pull up one-fifth of the weeds she pulled on the day before. Finally, on Friday it rained for half the day and she managed to pull up 10 fewer weeds than she did on Thursday. In total, how many weeds did she pull up?",
+        "inference": "Sarah pulled 25 weeds on Tuesday. On Wednesday, she pulled 3 times the amount she did on Tuesday, which is 3 x 25 = 75 weeds. On Thursday, she pulled one-fifth of the amount she did on Wednesday, which is 75 / 5 = 15 weeds. On Friday, she pulled 10 fewer weeds than she did on Thursday, which is 15 - 10 = 5 weeds.\n\nIn total, Sarah pulled 25 + 75 + 15 + 5 = 120 weeds.\n I hope it is correct: 120 $answer$",
+        "ground_truth": "On Wednesday she pulled 25*3=<<25*3=75>>75 weeds\nOn Thursday she pulled 75/5=<<75/5=15>>15 weeds\nOn Friday she pulled 15-10=<<15-10=5>>5 weeds\nIn total she pulled 25+75+15+5=<<25+75+15+5=120>>120 weeds\n#### 120"
+    },
+    {
+        "question": "Sarah pulled 25 weeds on Tuesday. On Wednesday, she pulled 3 times the amount she did on Tuesday, which is 3 x 25 = 75 weeds. On Thursday, she pulled one-fifth of the amount she did on Wednesday, which is 75 / 5 = 15 weeds. On Friday, she pulled 10 fewer weeds than she did on Thursday, which is 15 - 10 = 5 weeds.\n\nIn total, Sarah pulled 25 + 75 + 15 + 5 = 120 weeds.\n I hope it is correct: 120 $answer$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "120",
+        "ground_truth": "On Wednesday she pulled 25*3=<<25*3=75>>75 weeds\nOn Thursday she pulled 75/5=<<75/5=15>>15 weeds\nOn Friday she pulled 15-10=<<15-10=5>>5 weeds\nIn total she pulled 25+75+15+5=<<25+75+15+5=120>>120 weeds\n#### 120"
+    }
+]

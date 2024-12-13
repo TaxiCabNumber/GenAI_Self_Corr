@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $3x-5=10x+9$, what is $4(x+7)$?",
+        "inference": "First, solve for x:\n3x-5=10x+9\n-> 3x-10x=9+5\n-> -7x=14\n-> x=-2\nNow substitute x=-2 into 4(x+7):\n4(x+7)=4(-2+7)\n=4(5)\n=20\n**Final Answer: $\\boxed{20}$. I hope it is correct.**",
+        "ground_truth": "Subtracting $3x+9$ from both sides of the first equation gives $-14=7x$. Dividing both sides of this equation by 7 shows that $x=-2$. Substituting this value of $x$ into $4(x+7)$ gives $4(-2+7)=4(5)=\\boxed{20}$."
+    },
+    {
+        "question": "First, solve for x:\n3x-5=10x+9\n-> 3x-10x=9+5\n-> -7x=14\n-> x=-2\nNow substitute x=-2 into 4(x+7):\n4(x+7)=4(-2+7)\n=4(5)\n=20\n**Final Answer: $\\boxed{20}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$20$}",
+        "ground_truth": "Subtracting $3x+9$ from both sides of the first equation gives $-14=7x$. Dividing both sides of this equation by 7 shows that $x=-2$. Substituting this value of $x$ into $4(x+7)$ gives $4(-2+7)=4(5)=\\boxed{20}$."
+    }
+]

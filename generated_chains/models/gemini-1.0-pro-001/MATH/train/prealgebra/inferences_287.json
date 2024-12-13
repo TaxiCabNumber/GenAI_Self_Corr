@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA sorcerer is concocting a healing potion. In order to do so, he must have one of three roots, and one of five minerals. However, one of the minerals is incompatible with two of the roots. Otherwise, he does not foresee any complications with other combinations of roots and minerals. In how many ways can he brew his potion?",
+        "inference": "**Solution:**\nThe sorcerer can choose a root in 3 ways. For each root, he can choose a mineral in 5 ways. However, for two of the roots, he must choose a mineral that is compatible with them. There are 3 compatible minerals for each of these two roots. For the third root, he can choose any of the 5 minerals. Therefore, the total number of ways he can brew his potion is:\n\n$$3 \\times (5 \\times 3 + 5) = 3 \\times (15 + 5) = 3 \\times 20 = 60$$\n\n**Final Answer: \\\\boxed{$60$}. I hope it is correct.**",
+        "ground_truth": "There are three roots and five minerals, meaning $3 \\cdot 5 = 15$ possible combinations of roots and minerals. However, two of them are not valid, therefore there are $15 - 2 = \\boxed{13}$ possible ways in which the sorcerer can brew his potion."
+    },
+    {
+        "question": "**Solution:**\nThe sorcerer can choose a root in 3 ways. For each root, he can choose a mineral in 5 ways. However, for two of the roots, he must choose a mineral that is compatible with them. There are 3 compatible minerals for each of these two roots. For the third root, he can choose any of the 5 minerals. Therefore, the total number of ways he can brew his potion is:\n\n$$3 \\times (5 \\times 3 + 5) = 3 \\times (15 + 5) = 3 \\times 20 = 60$$\n\n**Final Answer: \\\\boxed{$60$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$60$}",
+        "ground_truth": "There are three roots and five minerals, meaning $3 \\cdot 5 = 15$ possible combinations of roots and minerals. However, two of them are not valid, therefore there are $15 - 2 = \\boxed{13}$ possible ways in which the sorcerer can brew his potion."
+    }
+]

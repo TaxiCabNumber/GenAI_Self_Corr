@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe sum of two numbers is $45$. Their difference is $3$. What is the lesser of the two numbers?",
+        "inference": "Let $x$ and $y$ be the two numbers.\nGiven that $x + y = 45$, we have $x = 45 - y$.\nAlso, given that $x - y = 3$, we have $x = y + 3$.\nEquating the two expressions for $x$, we get $45 - y = y + 3$.\nSolving for $y$, we get $y = 21$.\nSubstituting $y = 21$ into $x = 45 - y$, we get $x = 45 - 21 = 24$.\nTherefore, the lesser of the two numbers is $\\boxed{21}$.\nFinal Answer: $\\boxed{21}$. I hope it is correct.",
+        "ground_truth": "Let $x,y$ be the larger and smaller numbers, respectively. We have $x+y=45$ and $x-y=3$. Thus: $y=\\frac{1}{2}((x+y)-(x-y))=\\frac{1}{2}(45-3)=\\boxed{21}$."
+    },
+    {
+        "question": "Let $x$ and $y$ be the two numbers.\nGiven that $x + y = 45$, we have $x = 45 - y$.\nAlso, given that $x - y = 3$, we have $x = y + 3$.\nEquating the two expressions for $x$, we get $45 - y = y + 3$.\nSolving for $y$, we get $y = 21$.\nSubstituting $y = 21$ into $x = 45 - y$, we get $x = 45 - 21 = 24$.\nTherefore, the lesser of the two numbers is $\\boxed{21}$.\nFinal Answer: $\\boxed{21}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$21$}",
+        "ground_truth": "Let $x,y$ be the larger and smaller numbers, respectively. We have $x+y=45$ and $x-y=3$. Thus: $y=\\frac{1}{2}((x+y)-(x-y))=\\frac{1}{2}(45-3)=\\boxed{21}$."
+    }
+]

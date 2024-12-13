@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe Easter egg hunt team hid 100 eggs. The Smith twins each found 30 eggs. All the other eggs except 10 were found by their friends. How many eggs did the friends find?",
+        "inference": "30 eggs were found by the Smith twins, so 70 eggs are left. 10 eggs were not found by their friends, so their friends found 70 - 10 = 60 eggs.\nI hope it is correct: 60 $eggs$",
+        "ground_truth": "The Smith twins found, 30 * 2 = <<30*2=60>>60 eggs.\nThe number that remained hidden was 100 - 60 = <<100-60=40>>40 eggs\nSince 10 eggs were not found, this means the friends found 40 - 10 = 30 eggs\n#### 30"
+    },
+    {
+        "question": "30 eggs were found by the Smith twins, so 70 eggs are left. 10 eggs were not found by their friends, so their friends found 70 - 10 = 60 eggs.\nI hope it is correct: 60 $eggs$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 70",
+        "ground_truth": "The Smith twins found, 30 * 2 = <<30*2=60>>60 eggs.\nThe number that remained hidden was 100 - 60 = <<100-60=40>>40 eggs\nSince 10 eggs were not found, this means the friends found 40 - 10 = 30 eggs\n#### 30"
+    }
+]

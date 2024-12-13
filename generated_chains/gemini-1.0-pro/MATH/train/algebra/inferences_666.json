@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe quotient of two positive integers is $\\frac{5}{2}$ and their product is 160. What is the value of the larger of the two integers?",
+        "inference": "Let the two integers be $a$ and $b$.\n\nThen, $a > b$ and $\\frac{a}{b} = \\frac{5}{2}$\n$$\\Rightarrow a = \\frac{5}{2}b\\tag1$$\n\nAlso, $ab = 160\\tag2$\n\nSubstituting (1) in (2), we get\n$$\\frac{5}{2}b^2 = 160$$\n\n$$\\Rightarrow b^2 = \\frac{160 \\times 2}{5} = 64$$\n\n$$\\Rightarrow b = 8$$\n\nSubstituting $b = 8$ in (1), we get\n$$a = \\frac{5}{2} \\times 8 = 20$$\n\n**Therefore, the value of the larger integer is 20.**\n\n**Final Answer: \\\\boxed{$20$}. I hope it is correct.**",
+        "ground_truth": "Let $2x$ be the smaller integer.  Then the larger integer is $5x$.  The product of the integers is 160, so $(2x)(5x)=160\\implies 10x^2=160 \\implies x^2=16$.  Since $x$ is positive, this implies $x=4$ which in turn implies that the larger integer is $5\\cdot4=\\boxed{20}$."
+    },
+    {
+        "question": "Let the two integers be $a$ and $b$.\n\nThen, $a > b$ and $\\frac{a}{b} = \\frac{5}{2}$\n$$\\Rightarrow a = \\frac{5}{2}b\\tag1$$\n\nAlso, $ab = 160\\tag2$\n\nSubstituting (1) in (2), we get\n$$\\frac{5}{2}b^2 = 160$$\n\n$$\\Rightarrow b^2 = \\frac{160 \\times 2}{5} = 64$$\n\n$$\\Rightarrow b = 8$$\n\nSubstituting $b = 8$ in (1), we get\n$$a = \\frac{5}{2} \\times 8 = 20$$\n\n**Therefore, the value of the larger integer is 20.**\n\n**Final Answer: \\\\boxed{$20$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$20$}",
+        "ground_truth": "Let $2x$ be the smaller integer.  Then the larger integer is $5x$.  The product of the integers is 160, so $(2x)(5x)=160\\implies 10x^2=160 \\implies x^2=16$.  Since $x$ is positive, this implies $x=4$ which in turn implies that the larger integer is $5\\cdot4=\\boxed{20}$."
+    }
+]

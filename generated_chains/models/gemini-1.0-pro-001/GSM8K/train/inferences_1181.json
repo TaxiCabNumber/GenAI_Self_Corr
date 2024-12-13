@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMr Fletcher hired 2 men to dig a well in his compound. They worked for 10 hours on the first day, 8 hours on the second day and finished the job on the third day after working 15 hours. If Mr Fletcher paid each of them $10 per hour of work, calculate the total amount of money they received altogether?",
+        "inference": "1. Total number of hours worked = 10 + 8 + 15 = 33 hours\n2. Total amount of money received by each man = 33 * 10 = $330\n3. Total amount of money received by both men = 330 * 2 = $660\nI hope it is correct: $660$",
+        "ground_truth": "The total number of hours each worker works in the first 2 days is 10+8 = <<10+8=18>>18 hours.\nSince they completed the job in three days, each was compensated for 18+15 = <<18+15=33>>33 hours of work.\nMr Fletcher paid each of the workers $10 per hour of work, meaning for 33 hours, each of the workers received 33*$10 = $<<10*33=330>>330\nSince they were two workers, the total amount they received all together after each was paid $330 is $330*2 = $<<330*2=660>>660\n#### 660"
+    },
+    {
+        "question": "1. Total number of hours worked = 10 + 8 + 15 = 33 hours\n2. Total amount of money received by each man = 33 * 10 = $330\n3. Total amount of money received by both men = 330 * 2 = $660\nI hope it is correct: $660$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = $660",
+        "ground_truth": "The total number of hours each worker works in the first 2 days is 10+8 = <<10+8=18>>18 hours.\nSince they completed the job in three days, each was compensated for 18+15 = <<18+15=33>>33 hours of work.\nMr Fletcher paid each of the workers $10 per hour of work, meaning for 33 hours, each of the workers received 33*$10 = $<<10*33=330>>330\nSince they were two workers, the total amount they received all together after each was paid $330 is $330*2 = $<<330*2=660>>660\n#### 660"
+    }
+]

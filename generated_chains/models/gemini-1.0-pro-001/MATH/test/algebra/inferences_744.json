@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nEach of the symbols $\\star$ and $*$ represents an operation in the set $\\{+,-,\\times,\\div\\}$, and $\\frac{12\\star 2}{9*3}=4$.  What is the value of $\\frac{10\\star 7}{24*9}$?  Express your answer as a common fraction.",
+        "inference": "Since $\\frac{12\\star 2}{9*3}=4$, then $12\\star 2=36$ and $9*3=27$.  Thus, $\\star$ is multiplication and $*$ is subtraction.  Therefore, \n\n$$\\frac{10\\star 7}{24*9}=\\frac{10\\cdot 7}{24\\cdot 9}=\\frac{70}{216}=\\frac{35}{108}.$$\n\nFinal Answer: $\\boxed{\\frac{35}{108}}.$ I hope it is correct.",
+        "ground_truth": "In the equation $\\frac{12\\star2}{9*3}=4$, the numerator of the fraction in the left hand side must be quadruple the denominator. By trial and error, the only way this works is if the $\\star$ operation is multiplication and the $*$ operation is subtraction, in which case the equation becomes $\\frac{12\\cdot2}{9-3}=\\frac{24}{6}=4$. Thus, the value of the given expression is $\\frac{10\\cdot7}{24-9}=\\frac{70}{15}=\\boxed{\\frac{14}{3}}$."
+    },
+    {
+        "question": "Since $\\frac{12\\star 2}{9*3}=4$, then $12\\star 2=36$ and $9*3=27$.  Thus, $\\star$ is multiplication and $*$ is subtraction.  Therefore, \n\n$$\\frac{10\\star 7}{24*9}=\\frac{10\\cdot 7}{24\\cdot 9}=\\frac{70}{216}=\\frac{35}{108}.$$\n\nFinal Answer: $\\boxed{\\frac{35}{108}}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{\\frac{70}{216}}",
+        "ground_truth": "In the equation $\\frac{12\\star2}{9*3}=4$, the numerator of the fraction in the left hand side must be quadruple the denominator. By trial and error, the only way this works is if the $\\star$ operation is multiplication and the $*$ operation is subtraction, in which case the equation becomes $\\frac{12\\cdot2}{9-3}=\\frac{24}{6}=4$. Thus, the value of the given expression is $\\frac{10\\cdot7}{24-9}=\\frac{70}{15}=\\boxed{\\frac{14}{3}}$."
+    }
+]

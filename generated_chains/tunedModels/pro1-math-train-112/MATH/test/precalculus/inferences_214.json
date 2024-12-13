@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the integer $n,$ $-90 < n < 90,$ such that $\\tan n^\\circ = \\tan 252^\\circ.$",
+        "inference": "Since $\\tan (180^\\circ + \\theta) = \\tan \\theta,$ we have\n\n$$\\tan n^\\circ = \\tan 252^\\circ = \\tan (252^\\circ - 180^\\circ) = \\tan 72^\\circ.$$\n\nSince $72^\\circ$ is in the first quadrant, $n^\\circ$ must also be in the first quadrant. Therefore, $n$ is the integer such that $0^\\circ < n^\\circ < 90^\\circ$ and $\\tan n^\\circ = \\tan 72^\\circ.$\n\nSince $\\tan 72^\\circ \\approx 3.0777,$ we have $n \\approx 72^\\circ.$\n\nThe integer $n$ such that $-90^\\circ < n < 90^\\circ$ and $\\tan n^\\circ = \\tan 252^\\circ$ is $\\boxed{72}.$\n\nFinal Answer: $\\boxed{72}.$ I hope it is correct.",
+        "ground_truth": "Since tangent function has period $180^\\circ,$\n\\[\\tan 252^\\circ = \\tan (252^\\circ - 180^\\circ) = \\tan 72^\\circ,\\]so $n = \\boxed{72}.$"
+    },
+    {
+        "question": "Since $\\tan (180^\\circ + \\theta) = \\tan \\theta,$ we have\n\n$$\\tan n^\\circ = \\tan 252^\\circ = \\tan (252^\\circ - 180^\\circ) = \\tan 72^\\circ.$$\n\nSince $72^\\circ$ is in the first quadrant, $n^\\circ$ must also be in the first quadrant. Therefore, $n$ is the integer such that $0^\\circ < n^\\circ < 90^\\circ$ and $\\tan n^\\circ = \\tan 72^\\circ.$\n\nSince $\\tan 72^\\circ \\approx 3.0777,$ we have $n \\approx 72^\\circ.$\n\nThe integer $n$ such that $-90^\\circ < n < 90^\\circ$ and $\\tan n^\\circ = \\tan 252^\\circ$ is $\\boxed{72}.$\n\nFinal Answer: $\\boxed{72}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{72}",
+        "ground_truth": "Since tangent function has period $180^\\circ,$\n\\[\\tan 252^\\circ = \\tan (252^\\circ - 180^\\circ) = \\tan 72^\\circ,\\]so $n = \\boxed{72}.$"
+    }
+]

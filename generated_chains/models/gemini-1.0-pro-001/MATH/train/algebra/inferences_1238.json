@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSimplify the following expression:   \\[2x+3x^2+1-(6-2x-3x^2).\\]",
+        "inference": "\\(2x+3x^2+1-(6-2x-3x^2)\\)\n\\(2x+3x^2+1-6+2x+3x^2\\)\n\\(4x+6x^2-5\\)\n\\(\\boxed{Final \\ Answer: 4x+6x^2-5. \\ I \\ hope \\ it \\ is \\ correct.}\\)",
+        "ground_truth": "The given expression can be rewritten as $2x+3x^2+1-6+2x+3x^2$. Combining like terms, this last expression is equal to $(2x+2x)+(3x^2+3x^2)+(1-6)=\\boxed{6x^2+4x-5}$."
+    },
+    {
+        "question": "\\(2x+3x^2+1-(6-2x-3x^2)\\)\n\\(2x+3x^2+1-6+2x+3x^2\\)\n\\(4x+6x^2-5\\)\n\\(\\boxed{Final \\ Answer: 4x+6x^2-5. \\ I \\ hope \\ it \\ is \\ correct.}\\)\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\(\\boxed{4x+6x^2-5}\\)",
+        "ground_truth": "The given expression can be rewritten as $2x+3x^2+1-6+2x+3x^2$. Combining like terms, this last expression is equal to $(2x+2x)+(3x^2+3x^2)+(1-6)=\\boxed{6x^2+4x-5}$."
+    }
+]

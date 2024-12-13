@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCompletely factor the following expression: \\[(9x^5+25x^3-4)-(x^5-3x^3-4).\\]",
+        "inference": "Solution:\n\\begin{align*}\n(9x^5+25x^3-4)-(x^5-3x^3-4)&=9x^5+25x^3-4-x^5+3x^3+4\\\\\n&=(9x^5-x^5)+(25x^3+3x^3)+(-4+4)\\\\\n&=8x^5+28x^3\\\\\n&=4x^3(2x^2+7)\\\\\n\\end{align*}\nFinal Answer: $\\boxed{4x^3(2x^2+7)}.$ I hope it is correct.",
+        "ground_truth": "First, we combine like terms in the expression: \\begin{align*}\n(9x^5&+25x^3-4)-(x^5-3x^3-4)\\\\\n&=9x^5+25x^3-4-x^5+3x^3+4\\\\\n&=8x^5+28x^3.\n\\end{align*} We can factor out a $4x^3$ from the expression, to get \\[8x^5+28x^3=\\boxed{4x^3(2x^2+7)}.\\]"
+    },
+    {
+        "question": "Solution:\n\\begin{align*}\n(9x^5+25x^3-4)-(x^5-3x^3-4)&=9x^5+25x^3-4-x^5+3x^3+4\\\\\n&=(9x^5-x^5)+(25x^3+3x^3)+(-4+4)\\\\\n&=8x^5+28x^3\\\\\n&=4x^3(2x^2+7)\\\\\n\\end{align*}\nFinal Answer: $\\boxed{4x^3(2x^2+7)}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\begin{align*}\n(9x^5+25x^3-4)-(x^5-3x^3-4)&=9x^5+25x^3-4-x^5+3x^3+4\\\\\n&=(9x^5-x^5)+(25x^3+3x^3)+(-4+4)\\\\\n&=8x^5+28x^3\\\\\n&=4x^3(2x^2+7)\\\\\n\\end{align*}\nFinal Answer: $\\boxed{4x^3(2x^2+7)}.$",
+        "ground_truth": "First, we combine like terms in the expression: \\begin{align*}\n(9x^5&+25x^3-4)-(x^5-3x^3-4)\\\\\n&=9x^5+25x^3-4-x^5+3x^3+4\\\\\n&=8x^5+28x^3.\n\\end{align*} We can factor out a $4x^3$ from the expression, to get \\[8x^5+28x^3=\\boxed{4x^3(2x^2+7)}.\\]"
+    }
+]

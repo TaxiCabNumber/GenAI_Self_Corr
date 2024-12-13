@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe reality game show Survivor is played with 16 people divided into two tribes of 8. In the first episode, two people get homesick and quit. If every person has an equal chance of being one of the two quitters, and the probability that one person quits is independent of the probability that any other person quits, what is the probability that both people who quit are from the same tribe?",
+        "inference": "Final Answer: $\\boxed{\\frac{7}{15}}$. I hope it is correct. \n",
+        "ground_truth": "There are $\\binom{16}{2} = 120$ ways to pick 2 of the 16 people to quit. There are $\\binom{8}{2} = 28$ ways for them to both be from the first tribe, and $\\binom{8}{2} = 28$ ways for them to both be from the other tribe, for a total of $28 + 28 = 56$ ways for them both to be from the same tribe. So the odds that both people who quit are from the same tribe is $56/120 = \\boxed{\\frac{7}{15}}$."
+    },
+    {
+        "question": "Final Answer: $\\boxed{\\frac{7}{15}}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the original question and the solution you are referring to. I need this context to identify any errors and provide a corrected solution. \n",
+        "ground_truth": "There are $\\binom{16}{2} = 120$ ways to pick 2 of the 16 people to quit. There are $\\binom{8}{2} = 28$ ways for them to both be from the first tribe, and $\\binom{8}{2} = 28$ ways for them to both be from the other tribe, for a total of $28 + 28 = 56$ ways for them both to be from the same tribe. So the odds that both people who quit are from the same tribe is $56/120 = \\boxed{\\frac{7}{15}}$."
+    }
+]

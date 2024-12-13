@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind an integer $x$ such that $\\frac{2}{3} < \\frac{x}{5} < \\frac{6}{7}$.",
+        "inference": "$\\frac{2}{3} < \\frac{x}{5} < \\frac{6}{7}$\n$70\\cdot\\frac{2}{3} < 70\\cdot\\frac{x}{5} < 70\\cdot\\frac{6}{7}$\n$46.67 < 14x < 65.71$\n$47 < 14x < 66$\n$3.36 < x < 4.71$\nSince $x$ is an integer, $x = 4$.\nFinal Answer: $\\boxed{4}$. I hope it is correct.",
+        "ground_truth": "Multiplying all expressions in our chain of inequalities by $5$, we have $$\\frac{10}{3} < x < \\frac{30}{7}.$$ Writing this in terms of mixed numbers, we have $$3\\frac13 < x < 4\\frac27.$$ The only integer $x$ satisfying this chain of inequalities is $\\boxed{4}$."
+    },
+    {
+        "question": "$\\frac{2}{3} < \\frac{x}{5} < \\frac{6}{7}$\n$70\\cdot\\frac{2}{3} < 70\\cdot\\frac{x}{5} < 70\\cdot\\frac{6}{7}$\n$46.67 < 14x < 65.71$\n$47 < 14x < 66$\n$3.36 < x < 4.71$\nSince $x$ is an integer, $x = 4$.\nFinal Answer: $\\boxed{4}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{4}",
+        "ground_truth": "Multiplying all expressions in our chain of inequalities by $5$, we have $$\\frac{10}{3} < x < \\frac{30}{7}.$$ Writing this in terms of mixed numbers, we have $$3\\frac13 < x < 4\\frac27.$$ The only integer $x$ satisfying this chain of inequalities is $\\boxed{4}$."
+    }
+]

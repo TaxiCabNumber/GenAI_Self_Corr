@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $(x + y)^2 = 1$ and $xy = -4$, what is the value of $x^2 + y^2$?",
+        "inference": "$$(x + y)^2 = 1$$ $$\\Rightarrow x^2 + y^2 + 2xy = 1$$ $$\\Rightarrow x^2 + y^2 + 2(-4) = 1$$ $$\\Rightarrow x^2 + y^2 = 1 +8 = 9$$\n\nFinal Answer: \\boxed{$9$}. I hope it is correct.",
+        "ground_truth": "We see that $(x + y)^2 = (x^2 + y^2) + 2xy = 1$. We want to find $x^2 + y^2$ and are given $xy = -4$. So, $x^2 + y^2 + 2xy = x^2 + y^2 + 2(-4) = 1$. It follows that $x^2 + y^2 = \\boxed 9$."
+    },
+    {
+        "question": "$$(x + y)^2 = 1$$ $$\\Rightarrow x^2 + y^2 + 2xy = 1$$ $$\\Rightarrow x^2 + y^2 + 2(-4) = 1$$ $$\\Rightarrow x^2 + y^2 = 1 +8 = 9$$\n\nFinal Answer: \\boxed{$9$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$9$}.",
+        "ground_truth": "We see that $(x + y)^2 = (x^2 + y^2) + 2xy = 1$. We want to find $x^2 + y^2$ and are given $xy = -4$. So, $x^2 + y^2 + 2xy = x^2 + y^2 + 2(-4) = 1$. It follows that $x^2 + y^2 = \\boxed 9$."
+    }
+]

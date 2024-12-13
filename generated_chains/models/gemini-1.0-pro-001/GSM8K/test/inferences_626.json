@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAshley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley\u2019s internet connection speed in Mb per hour?",
+        "inference": "- (20 kb/s)(60 s/ 1 min)(60 min/ 1 hr) = 72,000 kb/hr\n- (72,000 kb/hr)(1 Mb/1000 kb) = 72 Mb/hr\nI hope it is correct: 72 Mb/hr",
+        "ground_truth": "With a speed of 20 kb per second, there are 20*60 = <<20*60=1200>>1200 kb per minute.\nAs 1Mb has 1000kb, the converted speed is 1200/1000=<<1200/1000=1.2>>1.2Mb per minute.\nSo, Ashley\u2019s internet connection speed is 1.2*60 = <<1.2*60=72>>72Mb per hour.\n#### 72"
+    },
+    {
+        "question": "- (20 kb/s)(60 s/ 1 min)(60 min/ 1 hr) = 72,000 kb/hr\n- (72,000 kb/hr)(1 Mb/1000 kb) = 72 Mb/hr\nI hope it is correct: 72 Mb/hr\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 72",
+        "ground_truth": "With a speed of 20 kb per second, there are 20*60 = <<20*60=1200>>1200 kb per minute.\nAs 1Mb has 1000kb, the converted speed is 1200/1000=<<1200/1000=1.2>>1.2Mb per minute.\nSo, Ashley\u2019s internet connection speed is 1.2*60 = <<1.2*60=72>>72Mb per hour.\n#### 72"
+    }
+]

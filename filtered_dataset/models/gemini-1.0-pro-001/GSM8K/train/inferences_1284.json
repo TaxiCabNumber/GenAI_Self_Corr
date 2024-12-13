@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn takes a 10-minute shower every other day for 4 weeks. If his shower uses 2 gallons of water per minute.  How much water does he use in those 4 weeks?",
+        "inference": "1. John takes a shower every other day, so in 4 weeks he will have showered 4 * 7 / 2 = 14 times.\n2. Each shower is 10 minutes long, so he will have showered for a total of 14 * 10 = 140 minutes.\n3. His shower uses 2 gallons of water per minute, so he will have used a total of 140 * 2 = 280 gallons of water.\n\nI hope it is correct: 280",
+        "ground_truth": "There are 4*7=<<4*7=28>>28 days in those 4 weeks\nThat means he takes 28/2=<<28/2=14>>14 showers\nSo he takes a total of 14*10=<<14*10=140>>140 minutes of showers\nSo he uses 2*140=<<2*140=280>>280 gallons of water\n#### 280"
+    },
+    {
+        "question": "1. John takes a shower every other day, so in 4 weeks he will have showered 4 * 7 / 2 = 14 times.\n2. Each shower is 10 minutes long, so he will have showered for a total of 14 * 10 = 140 minutes.\n3. His shower uses 2 gallons of water per minute, so he will have used a total of 140 * 2 = 280 gallons of water.\n\nI hope it is correct: 280\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$280",
+        "ground_truth": "There are 4*7=<<4*7=28>>28 days in those 4 weeks\nThat means he takes 28/2=<<28/2=14>>14 showers\nSo he takes a total of 14*10=<<14*10=140>>140 minutes of showers\nSo he uses 2*140=<<2*140=280>>280 gallons of water\n#### 280"
+    }
+]

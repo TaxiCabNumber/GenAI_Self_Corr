@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJason has a phone plan of 1000 minutes per month. Every day he has a 15-minute call with his boss, and he's had 300 extra minutes of call this month to other people. How many minutes does Jason have left if this month has 30 days?",
+        "inference": "1. Jason has a 15-minute call with his boss every day, so in 30 days, he has 15 * 30 = 450 minutes of calls with his boss.\n\n2. Jason has had 300 extra minutes of calls this month, so his total minutes of calls this month are 450 + 300 = 750 minutes.\n\n3. Jason has 1000 minutes per month, so he has 1000 - 750 = 250 minutes left.\nI hope it is correct: 250",
+        "ground_truth": "First find the total time Jason spends calling his boss: 15 minutes/call * 30 calls/month = <<15*30=450>>450 minutes\nThen subtract the minutes Jason has already used to find how many he has left: 1000 minutes - 450 minutes - 300 minutes = <<1000-450-300=250>>250 minutes\n#### 250"
+    },
+    {
+        "question": "1. Jason has a 15-minute call with his boss every day, so in 30 days, he has 15 * 30 = 450 minutes of calls with his boss.\n\n2. Jason has had 300 extra minutes of calls this month, so his total minutes of calls this month are 450 + 300 = 750 minutes.\n\n3. Jason has 1000 minutes per month, so he has 1000 - 750 = 250 minutes left.\nI hope it is correct: 250\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$250",
+        "ground_truth": "First find the total time Jason spends calling his boss: 15 minutes/call * 30 calls/month = <<15*30=450>>450 minutes\nThen subtract the minutes Jason has already used to find how many he has left: 1000 minutes - 450 minutes - 300 minutes = <<1000-450-300=250>>250 minutes\n#### 250"
+    }
+]

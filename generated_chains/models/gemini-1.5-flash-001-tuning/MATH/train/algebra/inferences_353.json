@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSuppose a function $f(x)$ is defined on the domain $[-8,4]$. If we define a new function $g(x)$ by $$g(x) = f(-2x),$$ then what is the domain of $g(x)$? Express your answer in interval notation.",
+        "inference": "Final Answer: \\\\boxed{[-2, 4]}. I hope it is correct.",
+        "ground_truth": "We have $g(x) = f(-2x)$, which is defined if and only if $-2x$ is in the domain of $f$, that is, if $$-8 \\le -2x \\le 4.$$ Dividing all expressions in this chain of inequalities by $-2$ compels us to reverse the direction of the inequalities: $$4\\ge x\\ge -2.$$ Thus $g(x)$ is defined if and only if $-2\\le x\\le 4$. In other words, the domain of $g(x)$ is $\\boxed{[-2,4]}$."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{[-2, 4]}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question so I can check the solution and provide the correct answer. \n",
+        "ground_truth": "We have $g(x) = f(-2x)$, which is defined if and only if $-2x$ is in the domain of $f$, that is, if $$-8 \\le -2x \\le 4.$$ Dividing all expressions in this chain of inequalities by $-2$ compels us to reverse the direction of the inequalities: $$4\\ge x\\ge -2.$$ Thus $g(x)$ is defined if and only if $-2\\le x\\le 4$. In other words, the domain of $g(x)$ is $\\boxed{[-2,4]}$."
+    }
+]

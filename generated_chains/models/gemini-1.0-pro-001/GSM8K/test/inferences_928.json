@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRita hand-picks Junebugs off of her plants every summer.  On Monday, she removed 39 Junebugs.  On both Tuesday and Wednesday, she removed twice as many Junebugs as she did on Monday.  Thursday she removed 48 and on Friday she removed 57.  What is the average number of Junebugs that she removes per day?",
+        "inference": "1. Monday 39\n2. Tuesday 78 (39 x 2)\n3. Wednesday 78 (39 x 2)\n4. Thursday 48\n5. Friday 57\n\nTo find the average we will add the total Junebugs removed each day and then divide by the number of days.\n\n 39 + 78 + 78 + 48 + 57 = 300\n\n 300 / 5 days = 60\n\nI hope it is correct: 60",
+        "ground_truth": "On both Tuesday and Wednesday, she removed twice as many as the 39 on Monday so she removed 2*39 = <<2*39=78>>78 Junebugs\nAll total she has removed 39+78+78+48+57 = <<39+78+78+48+57=300>>300 Junebugs\nShe has removed 300 Junebugs over 5 days so she has removed, on average 300/5 = <<300/5=60>>60 Junebugs per day\n#### 60"
+    },
+    {
+        "question": "1. Monday 39\n2. Tuesday 78 (39 x 2)\n3. Wednesday 78 (39 x 2)\n4. Thursday 48\n5. Friday 57\n\nTo find the average we will add the total Junebugs removed each day and then divide by the number of days.\n\n 39 + 78 + 78 + 48 + 57 = 300\n\n 300 / 5 days = 60\n\nI hope it is correct: 60\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$60",
+        "ground_truth": "On both Tuesday and Wednesday, she removed twice as many as the 39 on Monday so she removed 2*39 = <<2*39=78>>78 Junebugs\nAll total she has removed 39+78+78+48+57 = <<39+78+78+48+57=300>>300 Junebugs\nShe has removed 300 Junebugs over 5 days so she has removed, on average 300/5 = <<300/5=60>>60 Junebugs per day\n#### 60"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 28 students in a classroom. Half of them have 5 notebooks each and the other half have 3 notebooks each. How many notebooks in total are in the classroom?",
+        "inference": "1. Half of 28 students is 14 students.\n2. 14 students have 5 notebooks each, so they have a total of 14 * 5 = 70 notebooks.\n3. The other half of the students have 3 notebooks each, so they have a total of 14 * 3 = 42 notebooks.\n4. The total number of notebooks in the classroom is 70 + 42 = 112.\nI hope it is correct: 112",
+        "ground_truth": "Half of the class consists of 28 students / 2 = <<28/2=14>>14 students.\nOne half of the students have 14 students * 3 notebooks/student = <<14*3=42>>42 notebooks.\nThe other half have 14 students * 5 notebooks/student = <<14*5=70>>70 notebooks.\nThere are 42 notebooks + 70 notebooks = <<42+70=112>>112 notebooks in total in the classroom.\n#### 112"
+    },
+    {
+        "question": "1. Half of 28 students is 14 students.\n2. 14 students have 5 notebooks each, so they have a total of 14 * 5 = 70 notebooks.\n3. The other half of the students have 3 notebooks each, so they have a total of 14 * 3 = 42 notebooks.\n4. The total number of notebooks in the classroom is 70 + 42 = 112.\nI hope it is correct: 112\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 112",
+        "ground_truth": "Half of the class consists of 28 students / 2 = <<28/2=14>>14 students.\nOne half of the students have 14 students * 3 notebooks/student = <<14*3=42>>42 notebooks.\nThe other half have 14 students * 5 notebooks/student = <<14*5=70>>70 notebooks.\nThere are 42 notebooks + 70 notebooks = <<42+70=112>>112 notebooks in total in the classroom.\n#### 112"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the maximum value of $\\cos x + 2 \\sin x,$ over all angles $x.$",
+        "inference": "Final Answer: \\\\boxed{\\sqrt{5}}. I hope it is correct. \n",
+        "ground_truth": "Since $\\left( \\frac{2}{\\sqrt{5}} \\right)^2 + \\left( \\frac{1}{\\sqrt{5}} \\right)^2 = 1,$ there exists an angle $\\theta$ such that $\\cos \\theta = \\frac{2}{\\sqrt{5}}$ and $\\sin \\theta = \\frac{1}{\\sqrt{5}}.$  Then by the angle addition formula,\n\\begin{align*}\n\\cos x + 2 \\sin x &= \\sqrt{5} \\left( \\frac{1}{\\sqrt{5}} \\cos x + \\frac{2}{\\sqrt{5}} \\sin x \\right) \\\\\n&= \\sqrt{5} (\\sin \\theta \\cos x + \\cos \\theta \\sin x) \\\\\n&= \\sqrt{5} \\sin (x + \\theta).\n\\end{align*}The maximum value of $\\sqrt{5} \\sin (x + \\theta)$ is $\\boxed{\\sqrt{5}}.$"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{\\sqrt{5}}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the original question and the solution you provided. I need this information to identify any errors and correct the final answer. \n",
+        "ground_truth": "Since $\\left( \\frac{2}{\\sqrt{5}} \\right)^2 + \\left( \\frac{1}{\\sqrt{5}} \\right)^2 = 1,$ there exists an angle $\\theta$ such that $\\cos \\theta = \\frac{2}{\\sqrt{5}}$ and $\\sin \\theta = \\frac{1}{\\sqrt{5}}.$  Then by the angle addition formula,\n\\begin{align*}\n\\cos x + 2 \\sin x &= \\sqrt{5} \\left( \\frac{1}{\\sqrt{5}} \\cos x + \\frac{2}{\\sqrt{5}} \\sin x \\right) \\\\\n&= \\sqrt{5} (\\sin \\theta \\cos x + \\cos \\theta \\sin x) \\\\\n&= \\sqrt{5} \\sin (x + \\theta).\n\\end{align*}The maximum value of $\\sqrt{5} \\sin (x + \\theta)$ is $\\boxed{\\sqrt{5}}.$"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAdam has $100 and wants to spend it to open a rock stand. He can buy rocks for $5 each and sell them for $7 each. If he invests all his money in the rock stand but only sells 60% of his inventory, how much money does he lose?",
+        "inference": "**1.** If Adam spends all his $100 in buying rocks at $5 each, he can buy 100/5 = 20 rocks.\n**2.** If he sells 60% of his inventory, he will sell 60/ 100 * 20 = 12 rocks. \n**3.** If he sells those 12 rocks at $7 each, he will earn 12 x $7 = $84.\n**4.** To calculate the loss, we need to subtract the amount earned from the initial investment: $100 - $84 = $16.\n\nI hope it is correct: 16",
+        "ground_truth": "He can buy 20 rocks because 100 / 5 = <<100/5=20>>20\nHe sells 12 of these rocks because 20 x .6 = <<20*.6=12>>12\nHe makes $84 selling these because 12 x 7 = <<12*7=84>>84\nHe lost $16 on his business because 100 - 84 = <<100-84=16>>16\n#### 16"
+    },
+    {
+        "question": "**1.** If Adam spends all his $100 in buying rocks at $5 each, he can buy 100/5 = 20 rocks.\n**2.** If he sells 60% of his inventory, he will sell 60/ 100 * 20 = 12 rocks. \n**3.** If he sells those 12 rocks at $7 each, he will earn 12 x $7 = $84.\n**4.** To calculate the loss, we need to subtract the amount earned from the initial investment: $100 - $84 = $16.\n\nI hope it is correct: 16\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$16",
+        "ground_truth": "He can buy 20 rocks because 100 / 5 = <<100/5=20>>20\nHe sells 12 of these rocks because 20 x .6 = <<20*.6=12>>12\nHe makes $84 selling these because 12 x 7 = <<12*7=84>>84\nHe lost $16 on his business because 100 - 84 = <<100-84=16>>16\n#### 16"
+    }
+]

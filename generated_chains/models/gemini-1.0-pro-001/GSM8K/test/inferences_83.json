@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nDan plants 3 rose bushes. Each rose bush has 25 roses. Each rose has 8 thorns. How many thorns are there total?",
+        "inference": "1. Find the total number of roses: 3 rose bushes x 25 roses/bush = 75 roses\n2. Find the total number of thorns: 75 roses x 8 thorns/rose = 600 thorns\n**I hope it is correct: 600**",
+        "ground_truth": "First find the total number of roses: 3 bushes * 25 roses/bush = <<3*25=75>>75 roses\nThen multiply the number of roses by the number of thorns per rose: 75 roses * 8 thorns/rose = <<75*8=600>>600 thorns\n#### 600"
+    },
+    {
+        "question": "1. Find the total number of roses: 3 rose bushes x 25 roses/bush = 75 roses\n2. Find the total number of thorns: 75 roses x 8 thorns/rose = 600 thorns\n**I hope it is correct: 600**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ = 600",
+        "ground_truth": "First find the total number of roses: 3 bushes * 25 roses/bush = <<3*25=75>>75 roses\nThen multiply the number of roses by the number of thorns per rose: 75 roses * 8 thorns/rose = <<75*8=600>>600 thorns\n#### 600"
+    }
+]

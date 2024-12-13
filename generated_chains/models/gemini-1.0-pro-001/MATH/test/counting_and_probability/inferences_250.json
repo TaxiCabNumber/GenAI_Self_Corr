@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA class of 25 students includes the Smith quadruplets.  The teacher must select two students from the class to represent the class in the school's student government.  Instead of holding an election, the teacher decides to choose the two representatives at random.  What is the probability that both representatives will be Smith quadruplets?",
+        "inference": "Total students = 25\nNo. of Smith quadruplets = 4\nTotal ways of selecting 2 students out of 25 = $^{25}C_2$\nTotal ways of selecting 2 Smith quadruplets out of 4 = $^{4}C_2$\nTherefore, required probability = $^{4}C_2$$^{25}C_2$\n= $\\frac{4 \\times 24}{2 \\times 25}$\n= $\\frac{4 \\times 12}{25}$\n= $\\frac{48}{25}$\n= 1.92\nFinal Answer: \\boxed{$1.92$}. I hope it is correct.",
+        "ground_truth": "There are ${25 \\choose 2} = 300$ possible pairs of student representatives. Of these, since there are 4 Smith quadruplets, there are ${4 \\choose 2} = 6$ pairs in which both representatives are Smith quadruplets. So, the probability of both representatives being Smith quadruplets is $\\frac{6}{300} = \\boxed{\\frac{1}{50}}$."
+    },
+    {
+        "question": "Total students = 25\nNo. of Smith quadruplets = 4\nTotal ways of selecting 2 students out of 25 = $^{25}C_2$\nTotal ways of selecting 2 Smith quadruplets out of 4 = $^{4}C_2$\nTherefore, required probability = $^{4}C_2$$^{25}C_2$\n= $\\frac{4 \\times 24}{2 \\times 25}$\n= $\\frac{4 \\times 12}{25}$\n= $\\frac{48}{25}$\n= 1.92\nFinal Answer: \\boxed{$1.92$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$0.768$}.",
+        "ground_truth": "There are ${25 \\choose 2} = 300$ possible pairs of student representatives. Of these, since there are 4 Smith quadruplets, there are ${4 \\choose 2} = 6$ pairs in which both representatives are Smith quadruplets. So, the probability of both representatives being Smith quadruplets is $\\frac{6}{300} = \\boxed{\\frac{1}{50}}$."
+    }
+]

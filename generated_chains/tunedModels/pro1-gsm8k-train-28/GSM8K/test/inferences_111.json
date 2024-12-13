@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJulia\u2019s boat sprang a leak while she was out on the lake. The boat was taking on two liters of water for every ten feet she rowed back towards shore. It took her sixteen seconds to row twenty feet. The shore was 64 seconds away. How much water had the boat taken on by the time Julia reached shore?",
+        "inference": "1. Calculate the rate at which the boat is taking on water: 2 liters / 10 feet = 0.2 liters / foot\n2. Calculate the distance Julia rowed back towards shore: 64 seconds * (20 feet / 16 seconds) = 80 feet\n3. Calculate the amount of water the boat took on: 0.2 liters / foot * 80 feet = 16 liters\nI hope it is correct: 16 $liters$",
+        "ground_truth": "It took Julia 64 seconds to reach shore, so it took 64 / 16 = <<64/16=4>>4 times rowing 20 feet to reach the shore.\nThus, she had to row 20 * 4 = <<20*4=80>>80 feet back to shore.\nIn those 80 feet, she took on 2 liters of water 80 / 10 = <<80/10=8>>8 times.\nThus, the boat had taken on 8 * 2 = <<8*2=16>>16 liters of water by the time Julia reached the shore.\n#### 16"
+    },
+    {
+        "question": "1. Calculate the rate at which the boat is taking on water: 2 liters / 10 feet = 0.2 liters / foot\n2. Calculate the distance Julia rowed back towards shore: 64 seconds * (20 feet / 16 seconds) = 80 feet\n3. Calculate the amount of water the boat took on: 0.2 liters / foot * 80 feet = 16 liters\nI hope it is correct: 16 $liters$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 16",
+        "ground_truth": "It took Julia 64 seconds to reach shore, so it took 64 / 16 = <<64/16=4>>4 times rowing 20 feet to reach the shore.\nThus, she had to row 20 * 4 = <<20*4=80>>80 feet back to shore.\nIn those 80 feet, she took on 2 liters of water 80 / 10 = <<80/10=8>>8 times.\nThus, the boat had taken on 8 * 2 = <<8*2=16>>16 liters of water by the time Julia reached the shore.\n#### 16"
+    }
+]

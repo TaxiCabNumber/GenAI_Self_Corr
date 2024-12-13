@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nHow many perfect squares have a value between 10 and 1000?",
+        "inference": "The square root of 10 is approximately 3.16, and the square root of 1000 is approximately 31.62. So, the perfect squares between 10 and 1000 are those with a square root between 3.16 and 31.62.\n\nTo find the number of perfect squares, we can count the number of integers between 3 and 31 (inclusive) and subtract 1 to account for the fact that 1 is not a perfect square.\n\nSo, the number of perfect squares between 10 and 1000 is:\n```\n31 - 3 - 1 = 27\n```\n\nFinal Answer: \\boxed{$27$}. I hope it is correct.",
+        "ground_truth": "We can see that $3^2 = 9 < 10 < 4^2 = 16$. Thus, $4^2 = 16$ is the smallest perfect square between 10 and 1000.\n\nWe also see that $31^2 = 961 < 1000 < 32^2 = 1024$. Thus, $31^2 = 961$ is the greatest perfect square between 10 and 1000.\n\nIt follows that there are $31 - 4 + 1 = \\boxed{28}$ perfect squares between 10 and 1000."
+    },
+    {
+        "question": "The square root of 10 is approximately 3.16, and the square root of 1000 is approximately 31.62. So, the perfect squares between 10 and 1000 are those with a square root between 3.16 and 31.62.\n\nTo find the number of perfect squares, we can count the number of integers between 3 and 31 (inclusive) and subtract 1 to account for the fact that 1 is not a perfect square.\n\nSo, the number of perfect squares between 10 and 1000 is:\n```\n31 - 3 - 1 = 27\n```\n\nFinal Answer: \\boxed{$27$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$27$}",
+        "ground_truth": "We can see that $3^2 = 9 < 10 < 4^2 = 16$. Thus, $4^2 = 16$ is the smallest perfect square between 10 and 1000.\n\nWe also see that $31^2 = 961 < 1000 < 32^2 = 1024$. Thus, $31^2 = 961$ is the greatest perfect square between 10 and 1000.\n\nIt follows that there are $31 - 4 + 1 = \\boxed{28}$ perfect squares between 10 and 1000."
+    }
+]

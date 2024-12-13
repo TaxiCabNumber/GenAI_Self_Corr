@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSolve for $p$: $\\frac 56 = \\frac n{72} = \\frac {m+n}{84}= \\frac {p - m}{120}$.",
+        "inference": "1) $\\frac 56 = \\frac n{72} \\Rightarrow n=5\\times12=\\boxed{60}$\n\n2) $\\frac 56 = \\frac {m+n}{84} \\Rightarrow m+n=5\\times14=\\boxed{70}$\n\n3) $\\frac 56 = \\frac {p - m}{120} \\Rightarrow p - m=5\\times20=\\boxed{100}$\n\n4) $p=m+100=70+100=\\boxed{170}$\n\nFinal Answer: $\\boxed{170}$. I hope it is correct.",
+        "ground_truth": "To get from 6 to 72 we multiply by 12, so a fraction equivalent to $\\frac{5}{6}$ whose denominator is 72 has a numerator of $n=5 \\cdot12=60$.  We can solve $\\frac{5}{6}=\\frac{60+m}{84}$ similarly to obtain $m=10$.  Finally, $\\frac{5}{6}=\\frac{p-10}{120}\\implies p-10=100 \\implies p=\\boxed{110}$."
+    },
+    {
+        "question": "1) $\\frac 56 = \\frac n{72} \\Rightarrow n=5\\times12=\\boxed{60}$\n\n2) $\\frac 56 = \\frac {m+n}{84} \\Rightarrow m+n=5\\times14=\\boxed{70}$\n\n3) $\\frac 56 = \\frac {p - m}{120} \\Rightarrow p - m=5\\times20=\\boxed{100}$\n\n4) $p=m+100=70+100=\\boxed{170}$\n\nFinal Answer: $\\boxed{170}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Final Answer: $\\boxed{170}$",
+        "ground_truth": "To get from 6 to 72 we multiply by 12, so a fraction equivalent to $\\frac{5}{6}$ whose denominator is 72 has a numerator of $n=5 \\cdot12=60$.  We can solve $\\frac{5}{6}=\\frac{60+m}{84}$ similarly to obtain $m=10$.  Finally, $\\frac{5}{6}=\\frac{p-10}{120}\\implies p-10=100 \\implies p=\\boxed{110}$."
+    }
+]

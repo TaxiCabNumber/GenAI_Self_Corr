@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nMarcus has two numbers, $a$ and $b$.  When he divides $a$ by 45 he gets a remainder of 37.  When he divides $b$ by 30 he gets a remainder of $9$.  What remainder does he get when he divides $a+b$ by 15?",
+        "inference": "**SOLUTION**\n\nWhen a number is divided by 45, the remainder is 37.  This means that the number is 37 more than a multiple of 45.  Thus, \n$$a=45k+37$$\n\nfor some integer $k$.\n\nSimilarly, \n$$b=30m+9$$\n\nfor some integer $m$.\n\nThen\n$$\\begin{split} a+b &=45k+37+30m+9 \\\\\\ & =45k+30m+46  \\\\\\ &=15(3k+2m+3)+1 \\\\\\ &=15p+1 \\end{split}$$\n\nfor some integer $p$.  Thus, when $a+b$ is divided by 15, the remainder is 1.\n\n**Final Answer:** $\\boxed{1}$. I hope it is correct.",
+        "ground_truth": "Marcus has two equations: \\[a=45n+37\\]and \\[b=30m+9.\\]When he adds these he gets \\[a+b=45n+30m+37+9=15(3n+2m)+46=15(3n+2m+3)+1.\\]The remainder when $a+b$ is divided by 15 is $\\boxed{1}$."
+    },
+    {
+        "question": "**SOLUTION**\n\nWhen a number is divided by 45, the remainder is 37.  This means that the number is 37 more than a multiple of 45.  Thus, \n$$a=45k+37$$\n\nfor some integer $k$.\n\nSimilarly, \n$$b=30m+9$$\n\nfor some integer $m$.\n\nThen\n$$\\begin{split} a+b &=45k+37+30m+9 \\\\\\ & =45k+30m+46  \\\\\\ &=15(3k+2m+3)+1 \\\\\\ &=15p+1 \\end{split}$$\n\nfor some integer $p$.  Thus, when $a+b$ is divided by 15, the remainder is 1.\n\n**Final Answer:** $\\boxed{1}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{1}",
+        "ground_truth": "Marcus has two equations: \\[a=45n+37\\]and \\[b=30m+9.\\]When he adds these he gets \\[a+b=45n+30m+37+9=15(3n+2m)+46=15(3n+2m+3)+1.\\]The remainder when $a+b$ is divided by 15 is $\\boxed{1}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWrite the following expression as a polynomial: $$(2x^2+3x+7)(x+1)-(x+1)(x^2+4x-63)+(3x-14)(x+1)(x+5).$$",
+        "inference": "Solution:\n\\begin{align*}\n&(2x^2+3x+7)(x+1)-(x+1)(x^2+4x-63)+(3x-14)(x+1)(x+5)\\\\\n=&2x^3+2x^2+3x^2+3x+7x+7-(x^3+4x^2-63x+x^2+4x-63)+(3x^2+3x-14x-14)(x+5)\\\\\n=&2x^3+2x^2+3x^2+3x+7x+7-x^3-4x^2+63x-x^2-4x+63+3x^3+15x^2+3x^2-14x^2-70x-14x+420\\\\\n=&\\boxed{2x^3+28x^2-38x+490}.\n\\end{align*}\nFinal Answer: $\\boxed{2x^3+28x^2-38x+490}.$ I hope it is correct.",
+        "ground_truth": "Factoring out $(x+1)$, we have:\n\n\\begin{align*}\n&(x+1)((2x^2+3x+7)-(x^2+4x-63)+(3x-14)(x+5))\\\\\n=\\text{ }&(x+1)(2x^2+3x+7-x^2-4x+63+3x^2+x-70) \\\\\n=\\text{ }&(x+1)(2x^2-x^2+3x^2+3x-4x+x+7+63-70) \\\\\n=\\text{ }&(x+1)(4x^2+0x+0) \\\\\n=\\text{ }&4x^2(x+1) \\\\\n=\\text{ }&\\boxed{4x^3+4x^2}.\n\\end{align*}"
+    },
+    {
+        "question": "Solution:\n\\begin{align*}\n&(2x^2+3x+7)(x+1)-(x+1)(x^2+4x-63)+(3x-14)(x+1)(x+5)\\\\\n=&2x^3+2x^2+3x^2+3x+7x+7-(x^3+4x^2-63x+x^2+4x-63)+(3x^2+3x-14x-14)(x+5)\\\\\n=&2x^3+2x^2+3x^2+3x+7x+7-x^3-4x^2+63x-x^2-4x+63+3x^3+15x^2+3x^2-14x^2-70x-14x+420\\\\\n=&\\boxed{2x^3+28x^2-38x+490}.\n\\end{align*}\nFinal Answer: $\\boxed{2x^3+28x^2-38x+490}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{2x^3+28x^2-38x+490}",
+        "ground_truth": "Factoring out $(x+1)$, we have:\n\n\\begin{align*}\n&(x+1)((2x^2+3x+7)-(x^2+4x-63)+(3x-14)(x+5))\\\\\n=\\text{ }&(x+1)(2x^2+3x+7-x^2-4x+63+3x^2+x-70) \\\\\n=\\text{ }&(x+1)(2x^2-x^2+3x^2+3x-4x+x+7+63-70) \\\\\n=\\text{ }&(x+1)(4x^2+0x+0) \\\\\n=\\text{ }&4x^2(x+1) \\\\\n=\\text{ }&\\boxed{4x^3+4x^2}.\n\\end{align*}"
+    }
+]

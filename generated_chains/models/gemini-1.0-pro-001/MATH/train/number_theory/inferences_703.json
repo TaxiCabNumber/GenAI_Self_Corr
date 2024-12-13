@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA total of 180 marbles (gray, white, and black) are placed in a line. The first five are gray, followed by four white, followed by three black, followed by five gray, followed by four white, followed by three black,.... If this pattern continues, what is the color of the 158th marble in this line?",
+        "inference": "The marble number divides by 12 gives the remainder 2.\nThe 1st, 13th, 25th,... marble are grey.\nFinal Answer: $\\boxed{grey}$. I hope it is correct.",
+        "ground_truth": "We notice that the marbles appear in strings of 5 gray, 4 white, 3 black.  These strings have 12 marbles each.  Since  \\[158=13\\cdot12+2,\\]there are 13 full strings of marbles and 2 extras.  Since the first 5 marbles in any group are gray, the two extra marbles must be $\\boxed{\\text{gray}}$."
+    },
+    {
+        "question": "The marble number divides by 12 gives the remainder 2.\nThe 1st, 13th, 25th,... marble are grey.\nFinal Answer: $\\boxed{grey}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{blue}",
+        "ground_truth": "We notice that the marbles appear in strings of 5 gray, 4 white, 3 black.  These strings have 12 marbles each.  Since  \\[158=13\\cdot12+2,\\]there are 13 full strings of marbles and 2 extras.  Since the first 5 marbles in any group are gray, the two extra marbles must be $\\boxed{\\text{gray}}$."
+    }
+]

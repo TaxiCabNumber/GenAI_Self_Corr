@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nEach turtle lays a clutch of 20 eggs. If 40% of the eggs successfully hatch, how many hatchlings do 6 turtles produce?",
+        "inference": "* 6 turtles lay 6 * 20 = 120 eggs.\n* 40% of 120 eggs = 0.4 * 120 = 48 eggs.\n* 48 eggs hatch.\nI hope it is correct: 48",
+        "ground_truth": "First find the number of eggs that each turtle successfully hatches: 20 eggs * 40% = <<20*40*.01=8>>8 eggs\nThen multiply the number of eggs per turtle by the number of turtles to find the total number of eggs: 8 eggs/turtle * 6 turtles = <<8*6=48>>48 turtles\n#### 48"
+    },
+    {
+        "question": "* 6 turtles lay 6 * 20 = 120 eggs.\n* 40% of 120 eggs = 0.4 * 120 = 48 eggs.\n* 48 eggs hatch.\nI hope it is correct: 48\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$48",
+        "ground_truth": "First find the number of eggs that each turtle successfully hatches: 20 eggs * 40% = <<20*40*.01=8>>8 eggs\nThen multiply the number of eggs per turtle by the number of turtles to find the total number of eggs: 8 eggs/turtle * 6 turtles = <<8*6=48>>48 turtles\n#### 48"
+    }
+]

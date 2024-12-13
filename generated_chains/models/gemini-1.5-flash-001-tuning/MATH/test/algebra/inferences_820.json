@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe positive difference between two consecutive even perfect squares is $268$.  Compute the larger of the two squares.",
+        "inference": "Let the smaller even perfect square be $n^2$. The next consecutive even perfect square is $(n+2)^2$.  The difference is\n\\[(n+2)^2-n^2=268.\\]Expanding, we get $n^2 + 4n + 4 - n^2 = 268$, so $4n=264$ and $n=66$. The larger square is $(n+2)^2 = 68^2 = \\boxed{4624}$.  Final Answer: $\\boxed{4624}$. I hope it is correct. \n",
+        "ground_truth": "Let the larger square be $x^2$, and the smaller one be $(x-2)^2$.  Their difference is\n\n$$x^2-(x-2)^2=(x-(x-2))(x+(x-2))=2(2x-2)=4(x-1)$$Thus, $4(x-1)=268\\Rightarrow x-1=67$.\n\nSo $x=68$ and the answer is $68^2=\\boxed{4624}$."
+    },
+    {
+        "question": "Let the smaller even perfect square be $n^2$. The next consecutive even perfect square is $(n+2)^2$.  The difference is\n\\[(n+2)^2-n^2=268.\\]Expanding, we get $n^2 + 4n + 4 - n^2 = 268$, so $4n=264$ and $n=66$. The larger square is $(n+2)^2 = 68^2 = \\boxed{4624}$.  Final Answer: $\\boxed{4624}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The problem asks for the *larger* perfect square, not the difference between the squares. The smaller even perfect square is $66^2 = 4356$.  The next consecutive even perfect square is $68^2 = \\boxed{4624}$.  I hope it is correct. \n",
+        "ground_truth": "Let the larger square be $x^2$, and the smaller one be $(x-2)^2$.  Their difference is\n\n$$x^2-(x-2)^2=(x-(x-2))(x+(x-2))=2(2x-2)=4(x-1)$$Thus, $4(x-1)=268\\Rightarrow x-1=67$.\n\nSo $x=68$ and the answer is $68^2=\\boxed{4624}$."
+    }
+]

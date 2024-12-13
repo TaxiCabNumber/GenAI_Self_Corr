@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThree people divided an amount of $1920. The second took $80 more than the first and the third took twice what the second took. Calculate the share of the first one.",
+        "inference": "Let's call the share of the first person x.\nThen the share of the second person is x + 80.\nAnd the share of the third person is 2 * (x + 80) = 2x + 160.\nThe total amount is 1920, so we can write:\nx + (x + 80) + (2x + 160) = 1920\n4x + 240 = 1920\n4x = 1920 - 240\n4x = 1680\nx = 1680 / 4\nx = 420\nI hope it is correct: The share of the first one is $420$",
+        "ground_truth": "Let X be the amount of what the first took.\nThe second took X+<<+80=80>>80.\nThe third took (X+80)*2.\nThe total amount X + (X+80) + (X+80)*2 = 1920.\nX + X + 80 + 2*X + 80*2 = 1920\nX*4 + 240 = 1920.\nX*4 = 1680.\nX = <<420=420>>420.\n#### 420"
+    },
+    {
+        "question": "Let's call the share of the first person x.\nThen the share of the second person is x + 80.\nAnd the share of the third person is 2 * (x + 80) = 2x + 160.\nThe total amount is 1920, so we can write:\nx + (x + 80) + (2x + 160) = 1920\n4x + 240 = 1920\n4x = 1920 - 240\n4x = 1680\nx = 1680 / 4\nx = 420\nI hope it is correct: The share of the first one is $420$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ 420",
+        "ground_truth": "Let X be the amount of what the first took.\nThe second took X+<<+80=80>>80.\nThe third took (X+80)*2.\nThe total amount X + (X+80) + (X+80)*2 = 1920.\nX + X + 80 + 2*X + 80*2 = 1920\nX*4 + 240 = 1920.\nX*4 = 1680.\nX = <<420=420>>420.\n#### 420"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nQuadrilateral $ABCD$ is a square, and segment $AE$ is perpendicular to segment $ED$. If $AE = 8$ units and $DE = 6$ units, what is the area of pentagon $AEDCB$, in square units? [asy]\nsize(150);\npair A, B, C, D, E;\nA=(0,10);\nB=(0,0);\nC=(10,0);\nD=(10,10);\nE=(6.4,5.2);\ndraw(A--B--C--D--A);\ndraw(A--E--D);\nlabel(\"A\", A, NW);\nlabel(\"B\", B, SW);\nlabel(\"C\", C, SE);\nlabel(\"D\", D, NE);\nlabel(\"E\", E, S);\n[/asy]",
+        "inference": "Since AE and DE are perpendicular, then $AEDE$ is a rectangle. So, $area(AEDE)=AE*DE=8*6=48$ square units.\n\nSince $ABCD$ is a square, then $AB=BC=CD=DA=10$ units. So, $area(ABCD)=AB*BC=10*10=100$ square units.\n\nSo, $area(AEDCB)=area(AEDE)+area(ABCD)=48+100=\\\\boxed{148}.$\n\nFinal Answer: $\\boxed{148}.$ I hope it is correct.",
+        "ground_truth": "Noticing that $ADE$ is a 3-4-5 right triangle scaled by a factor of 2, we have $AD=2 \\cdot 5=10$. Thus, the area of square $ABCD$ is $10 \\cdot 10=100$. The area of triangle $ADE$ is $\\frac{1}{2}\\cdot 6 \\cdot 8=3 \\cdot 8=24$. Finally, we calculate the area of pentagon $ABCDE$ to be the difference of the two: $100-24=\\boxed{76} \\text{ sq units}$."
+    },
+    {
+        "question": "Since AE and DE are perpendicular, then $AEDE$ is a rectangle. So, $area(AEDE)=AE*DE=8*6=48$ square units.\n\nSince $ABCD$ is a square, then $AB=BC=CD=DA=10$ units. So, $area(ABCD)=AB*BC=10*10=100$ square units.\n\nSo, $area(AEDCB)=area(AEDE)+area(ABCD)=48+100=\\\\boxed{148}.$\n\nFinal Answer: $\\boxed{148}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{148}",
+        "ground_truth": "Noticing that $ADE$ is a 3-4-5 right triangle scaled by a factor of 2, we have $AD=2 \\cdot 5=10$. Thus, the area of square $ABCD$ is $10 \\cdot 10=100$. The area of triangle $ADE$ is $\\frac{1}{2}\\cdot 6 \\cdot 8=3 \\cdot 8=24$. Finally, we calculate the area of pentagon $ABCDE$ to be the difference of the two: $100-24=\\boxed{76} \\text{ sq units}$."
+    }
+]

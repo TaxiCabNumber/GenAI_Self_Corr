@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAmber, Micah, and Ahito ran 52 miles in total. Amber ran 8 miles. Micah ran 3.5 times what Amber ran. How many miles did Ahito run?",
+        "inference": "1. **Find how many miles Micah ran.**\nMicah ran 3.5 times what Amber ran, so Micah ran 3.5 x 8 = 28 miles.\n2. **Subtract the number of miles Amber and Micah ran from the total number of miles to find how many miles Ahito ran.**\nAhito ran 52 - 8 - 28 = 16 miles.\n\nI hope it is correct: Ahito ran 16 miles.",
+        "ground_truth": "Amber ran <<8=8>>8 miles.\nMicah ran 3.5 * 8 miles = <<3.5*8=28>>28 miles\nAhito ran the rest = 52 - 8 - 28 = <<52-8-28=16>>16 miles\nAhito ran <<16=16>>16 miles.\n#### 16"
+    },
+    {
+        "question": "1. **Find how many miles Micah ran.**\nMicah ran 3.5 times what Amber ran, so Micah ran 3.5 x 8 = 28 miles.\n2. **Subtract the number of miles Amber and Micah ran from the total number of miles to find how many miles Ahito ran.**\nAhito ran 52 - 8 - 28 = 16 miles.\n\nI hope it is correct: Ahito ran 16 miles.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ Ahito ran 16 miles.",
+        "ground_truth": "Amber ran <<8=8>>8 miles.\nMicah ran 3.5 * 8 miles = <<3.5*8=28>>28 miles\nAhito ran the rest = 52 - 8 - 28 = <<52-8-28=16>>16 miles\nAhito ran <<16=16>>16 miles.\n#### 16"
+    }
+]

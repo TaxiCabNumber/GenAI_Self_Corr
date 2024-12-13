@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nPaul went to a shop to buy some groceries. He bought some bread for $2, butter for $3, and juice for two times the price of the bread. He had $15 for his shopping. How much money did Paul have left?",
+        "inference": "1. The price of the juice is 2 * 2 = $4\n2. The total amount of money Paul spent is 2 + 3 + 4 = $9\n3. The amount of money Paul had left is 15 - 9 = $6\nI hope it is correct: I hope it is correct: $6$",
+        "ground_truth": "The price of the juice was 2 * 2 = $<<2*2=4>>4.\nSo in total he paid for his shopping 2 + 3 + 4 = $<<2+3+4=9>>9.\nThat means he had 15 - 9 = $<<15-9=6>>6 left.\n#### 6"
+    },
+    {
+        "question": "1. The price of the juice is 2 * 2 = $4\n2. The total amount of money Paul spent is 2 + 3 + 4 = $9\n3. The amount of money Paul had left is 15 - 9 = $6\nI hope it is correct: I hope it is correct: $6$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$6$",
+        "ground_truth": "The price of the juice was 2 * 2 = $<<2*2=4>>4.\nSo in total he paid for his shopping 2 + 3 + 4 = $<<2+3+4=9>>9.\nThat means he had 15 - 9 = $<<15-9=6>>6 left.\n#### 6"
+    }
+]

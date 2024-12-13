@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJake sold 10 more stuffed animals than Thor. Quincy sold ten times as many stuffed animals as Thor. If Quincy sold 200 stuffed animals, how many more stuffed animals did Quincy sell than Jake?",
+        "inference": "1. If Quincy sold 200 stuffed animals. Thor sold 200 / 10 = 20 stuffed animals.\n2. If Thor sold 20 stuffed animals. Jake sold 20 + 10 = 30 stuffed animals.\n3. If Jake sold 30 stuffed animals. Quincy sold 30 * 10 = 200 stuffed animals.\n4. If Quincy sold 200 stuffed animals. Quincy sold 200 - 30 = 170 more stuffed animals than Jake.\n\nI hope it is correct: 170",
+        "ground_truth": "Thor sold 200/10=<<200/10=20>>20 stuffed animals.\nJake sold 20+10=<<20+10=30>>30 stuffed animals.\nQuincy sold 200-30= <<200-30=170>>170 more stuffed animals than Jake.\n#### 170"
+    },
+    {
+        "question": "1. If Quincy sold 200 stuffed animals. Thor sold 200 / 10 = 20 stuffed animals.\n2. If Thor sold 20 stuffed animals. Jake sold 20 + 10 = 30 stuffed animals.\n3. If Jake sold 30 stuffed animals. Quincy sold 30 * 10 = 200 stuffed animals.\n4. If Quincy sold 200 stuffed animals. Quincy sold 200 - 30 = 170 more stuffed animals than Jake.\n\nI hope it is correct: 170\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "1. If Quincy sold 200 stuffed animals. Thor sold 200 / 10 = 20 stuffed animals.\n2. If Thor sold 20 stuffed animals. Jake sold 20 + 10 = 30 stuffed animals.\n3. If Jake sold 30 stuffed animals. Quincy sold 30 * 10 = 200 stuffed animals.\n4. If Quincy sold 200 stuffed animals. Quincy sold 200 - 20 = 180 more stuffed animals than Thor.\n\n#### $answer$ = 180",
+        "ground_truth": "Thor sold 200/10=<<200/10=20>>20 stuffed animals.\nJake sold 20+10=<<20+10=30>>30 stuffed animals.\nQuincy sold 200-30= <<200-30=170>>170 more stuffed animals than Jake.\n#### 170"
+    }
+]

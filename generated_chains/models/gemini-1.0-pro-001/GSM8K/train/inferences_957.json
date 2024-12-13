@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA charcoal grill burns fifteen coals to ash every twenty minutes of grilling. The grill ran for long enough to burn three bags of coals. Each bag of coal contains 60 coals. How long did the grill run?",
+        "inference": "1) To find the total number of coals burned, we multiply the number of coals burned per minute by the number of minutes the grill ran.\n\n- 15 coals / 20 minutes * x minutes = y coals\n\n2) We know that the grill burned three bags of coals, each containing 60 coals. So, the total number of coals burned is:\n\n- 3 bags * 60 coals / bag = 180 coals\n\n3) Equating the two expressions for the total number of coals burned, we get:\n\n- 15 coals / 20 minutes * x minutes = 180 coals\n\n4) Solving for x, we get:\n\n- x minutes = 180 coals * (20 minutes / 15 coals)\n- x minutes = 240 minutes\n\nI hope it is correct: 240 minutes",
+        "ground_truth": "The grill burned 3 * 60 = <<3*60=180>>180 coals.\nIt takes 20 minutes to burn 15 coals, so the grill ran for 180 / 15 * 20 = <<180/15*20=240>>240 minutes.\n#### 240"
+    },
+    {
+        "question": "1) To find the total number of coals burned, we multiply the number of coals burned per minute by the number of minutes the grill ran.\n\n- 15 coals / 20 minutes * x minutes = y coals\n\n2) We know that the grill burned three bags of coals, each containing 60 coals. So, the total number of coals burned is:\n\n- 3 bags * 60 coals / bag = 180 coals\n\n3) Equating the two expressions for the total number of coals burned, we get:\n\n- 15 coals / 20 minutes * x minutes = 180 coals\n\n4) Solving for x, we get:\n\n- x minutes = 180 coals * (20 minutes / 15 coals)\n- x minutes = 240 minutes\n\nI hope it is correct: 240 minutes\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 240",
+        "ground_truth": "The grill burned 3 * 60 = <<3*60=180>>180 coals.\nIt takes 20 minutes to burn 15 coals, so the grill ran for 180 / 15 * 20 = <<180/15*20=240>>240 minutes.\n#### 240"
+    }
+]

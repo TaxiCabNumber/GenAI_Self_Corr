@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the sum of all integer solutions to $1<(x-2)^2<25$?",
+        "inference": "$$1<(x-2)^2<25$$\n\n$$4<(x-2)^2+1<26$$\n\n$$2^2<(x-2)^2+1<5^2$$\n\n$$2<x-2<5$$\n\n$$4<x<7$$\n\n$$x=5,6$$\n\n$$\\text{ Sum }=5+6=\\boxed{11}. \\text{ I hope it is correct.}$$",
+        "ground_truth": "Let $y = x - 2,$ so $1 < y^2 < 25.$  Then the integer solutions to $y$ are $-4,$ $-3,$ $-2, 2, 3, 4,$ so the solutions in $x$ are $-4 + 2 = -2,$ $-3 + 2 = -1,$ $-2 + 2 = 0,$ $2 + 2 = 4,$ $3 + 2 = 5,$ and $4 + 2 = 6.$  Their sum is $(-2) + (-1) + 0 + 4 + 5 + 6 = \\boxed{12}.$"
+    },
+    {
+        "question": "$$1<(x-2)^2<25$$\n\n$$4<(x-2)^2+1<26$$\n\n$$2^2<(x-2)^2+1<5^2$$\n\n$$2<x-2<5$$\n\n$$4<x<7$$\n\n$$x=5,6$$\n\n$$\\text{ Sum }=5+6=\\boxed{11}. \\text{ I hope it is correct.}$$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{11}$$",
+        "ground_truth": "Let $y = x - 2,$ so $1 < y^2 < 25.$  Then the integer solutions to $y$ are $-4,$ $-3,$ $-2, 2, 3, 4,$ so the solutions in $x$ are $-4 + 2 = -2,$ $-3 + 2 = -1,$ $-2 + 2 = 0,$ $2 + 2 = 4,$ $3 + 2 = 5,$ and $4 + 2 = 6.$  Their sum is $(-2) + (-1) + 0 + 4 + 5 + 6 = \\boxed{12}.$"
+    }
+]

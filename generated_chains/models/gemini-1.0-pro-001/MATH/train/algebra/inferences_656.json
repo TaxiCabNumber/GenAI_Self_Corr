@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe product of two consecutive negative integers is 2550. What is the sum of the two integers?",
+        "inference": "Let's assume the two consecutive negative integers are x and x-1.\nAccording to the given information, we have:\nx * (x-1) = 2550\n\nExpanding the left side:\nx^2 - x = 2550\n\nRearranging the equation to the standard quadratic form:\nx^2 - x - 2550 = 0\n\nFactoring the quadratic:\n(x-51)(x+50) = 0\n\nTherefore, x = 51 or x = -50.\n\nIf x = -51, then x-1 = -52.\nIf x = -50, then x-1 = -51.\n\nIn either case, the sum of the two integers is:\n-51 + (-52) = -103 or -50 + (-51) = -101\n\nFinal Answer: \\boxed{-103} or \\boxed{-101}. I hope it is correct.",
+        "ground_truth": "We start out with the equation $n(n + 1) = 2550$. Expanding, we find $n^2 + n - 2550 = 0$. This factors to $(n - 50)(n + 51) = 0$, so $n = 50\\text{ or }-51.$ Since $n$ must be negative, we have $n = -51$, hence our two integers are $n = -51$ and $n + 1= -50$, which add up to $\\boxed{-101}$."
+    },
+    {
+        "question": "Let's assume the two consecutive negative integers are x and x-1.\nAccording to the given information, we have:\nx * (x-1) = 2550\n\nExpanding the left side:\nx^2 - x = 2550\n\nRearranging the equation to the standard quadratic form:\nx^2 - x - 2550 = 0\n\nFactoring the quadratic:\n(x-51)(x+50) = 0\n\nTherefore, x = 51 or x = -50.\n\nIf x = -51, then x-1 = -52.\nIf x = -50, then x-1 = -51.\n\nIn either case, the sum of the two integers is:\n-51 + (-52) = -103 or -50 + (-51) = -101\n\nFinal Answer: \\boxed{-103} or \\boxed{-101}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{-101}",
+        "ground_truth": "We start out with the equation $n(n + 1) = 2550$. Expanding, we find $n^2 + n - 2550 = 0$. This factors to $(n - 50)(n + 51) = 0$, so $n = 50\\text{ or }-51.$ Since $n$ must be negative, we have $n = -51$, hence our two integers are $n = -51$ and $n + 1= -50$, which add up to $\\boxed{-101}$."
+    }
+]

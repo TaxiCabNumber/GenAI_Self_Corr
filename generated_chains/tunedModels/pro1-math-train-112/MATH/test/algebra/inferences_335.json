@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe expression $\\dfrac{\\sqrt{10}}{\\sqrt[4]{10}}$ equals 10 raised to what power?",
+        "inference": "$$\\dfrac{\\sqrt{10}}{\\sqrt[4]{10}}=\\sqrt{10}\\cdot\\sqrt[4]{10^{-1}}=\\sqrt{10^{3/4}}=\\boxed{10^{3/8}}.$$\nFinal Answer: $\\boxed{10^{3/8}}.$ I hope it is correct.",
+        "ground_truth": "We have  \\[\\dfrac{\\sqrt{10}}{\\sqrt[4]{10}} = \\dfrac{10^{\\frac12}}{10^{\\frac14}} = 10^{\\frac12-\\frac14} = 10^{\\frac14}.\\]So, the expression equals 10 raised to the $\\boxed{\\frac{1}{4}}$ power."
+    },
+    {
+        "question": "$$\\dfrac{\\sqrt{10}}{\\sqrt[4]{10}}=\\sqrt{10}\\cdot\\sqrt[4]{10^{-1}}=\\sqrt{10^{3/4}}=\\boxed{10^{3/8}}.$$\nFinal Answer: $\\boxed{10^{3/8}}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{10^{3/8}}",
+        "ground_truth": "We have  \\[\\dfrac{\\sqrt{10}}{\\sqrt[4]{10}} = \\dfrac{10^{\\frac12}}{10^{\\frac14}} = 10^{\\frac12-\\frac14} = 10^{\\frac14}.\\]So, the expression equals 10 raised to the $\\boxed{\\frac{1}{4}}$ power."
+    }
+]

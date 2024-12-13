@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJoy is winding balls of yarn for her cat to play with. The first ball is half the size of the second ball. The third ball is three times as large as the first ball. She used 27 feet of yarn for the third ball. How many feet of yarn did she use for the second ball?",
+        "inference": "The third ball is three times as large as the first ball. We know that the third ball used 27 feet of yarn, so the first ball used 27 / 3 = 9 feet of yarn.\nThe first ball is half the size of the second ball. We know that the first ball used 9 feet of yarn, so the second ball used 9 * 2 = 18 feet of yarn.\nI hope it is correct: 18",
+        "ground_truth": "The first ball is a third of the size of the third ball, so it used 27 / 3 = <<27/3=9>>9 feet of yarn.\nThe second ball is twice the size of the first ball, so she used 9 * 2 = <<9*2=18>>18 feet of yarn.\n#### 18"
+    },
+    {
+        "question": "The third ball is three times as large as the first ball. We know that the third ball used 27 feet of yarn, so the first ball used 27 / 3 = 9 feet of yarn.\nThe first ball is half the size of the second ball. We know that the first ball used 9 feet of yarn, so the second ball used 9 * 2 = 18 feet of yarn.\nI hope it is correct: 18\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$9",
+        "ground_truth": "The first ball is a third of the size of the third ball, so it used 27 / 3 = <<27/3=9>>9 feet of yarn.\nThe second ball is twice the size of the first ball, so she used 9 * 2 = <<9*2=18>>18 feet of yarn.\n#### 18"
+    }
+]

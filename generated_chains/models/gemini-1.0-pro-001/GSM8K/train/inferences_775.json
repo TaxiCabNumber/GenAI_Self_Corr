@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThree buckets are holding different fruits. Bucket A has 4 more pieces of fruit than bucket B while bucket B has 3 more pieces of fruit than bucket C. If bucket C has 9 pieces of fruit, how many pieces of fruit are in all 3 buckets?",
+        "inference": "1. Bucket C has 9 pieces of fruit.\n2. Bucket B has 3 more pieces of fruit than bucket C, so bucket B has 9 + 3 = 12 pieces of fruit.\n3. Bucket A has 4 more pieces of fruit than bucket B, so bucket A has 12 + 4 = 16 pieces of fruit.\n4. The total number of pieces of fruit in all 3 buckets is 9 + 12 + 16 = 37 pieces of fruit.\n\nI hope it is correct: 37",
+        "ground_truth": "Bucket B has 3 more fruits than C (which has 9 fruits) for a total of 9+3 = <<3+9=12>>12 fruits\nBucket A has 4 more fruits than B (which has 12 fruits) for a total of 12+4 = <<4+12=16>>16 fruits\nAll three buckets have a total of 9+12+16 = <<9+12+16=37>>37 fruits\n#### 37"
+    },
+    {
+        "question": "1. Bucket C has 9 pieces of fruit.\n2. Bucket B has 3 more pieces of fruit than bucket C, so bucket B has 9 + 3 = 12 pieces of fruit.\n3. Bucket A has 4 more pieces of fruit than bucket B, so bucket A has 12 + 4 = 16 pieces of fruit.\n4. The total number of pieces of fruit in all 3 buckets is 9 + 12 + 16 = 37 pieces of fruit.\n\nI hope it is correct: 37\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 37",
+        "ground_truth": "Bucket B has 3 more fruits than C (which has 9 fruits) for a total of 9+3 = <<3+9=12>>12 fruits\nBucket A has 4 more fruits than B (which has 12 fruits) for a total of 12+4 = <<4+12=16>>16 fruits\nAll three buckets have a total of 9+12+16 = <<9+12+16=37>>37 fruits\n#### 37"
+    }
+]

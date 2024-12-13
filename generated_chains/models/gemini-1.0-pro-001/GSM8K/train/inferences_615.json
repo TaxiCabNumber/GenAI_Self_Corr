@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nConnie is trying to remember when her grandmother was born. She knows her grandmother's older brother was born in 1932, her older sister was born in 1936, and the gap between her grandmother and her sister is twice the gap between the older brother and the older sister. What year was Connie's grandma born?",
+        "inference": "1930\nThe difference between 1936 and 1932 is 4, so the gap between the grandmother and the sister is 8. Connie's grandmother was born 8 years before her sister, which was in 1936 - 8 = 1928.\nI hope it is correct: 1928 $answer$",
+        "ground_truth": "First find the age gap between the older brother and sister by subtracting the earlier birth year from the later: 1936 - 1932 = <<1936-1932=4>>4 years\nThen double the age gap to find how many years passed between the sister's birth and the grandmother's: 4 years * 2 = <<4*2=8>>8 years\nThen add 8 years to the older sister's birth year to find the grandmother's birth year: 1936 + 8 = <<1936+8=1944>>1944\n#### 1944"
+    },
+    {
+        "question": "1930\nThe difference between 1936 and 1932 is 4, so the gap between the grandmother and the sister is 8. Connie's grandmother was born 8 years before her sister, which was in 1936 - 8 = 1928.\nI hope it is correct: 1928 $answer$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "1928\n$answer$",
+        "ground_truth": "First find the age gap between the older brother and sister by subtracting the earlier birth year from the later: 1936 - 1932 = <<1936-1932=4>>4 years\nThen double the age gap to find how many years passed between the sister's birth and the grandmother's: 4 years * 2 = <<4*2=8>>8 years\nThen add 8 years to the older sister's birth year to find the grandmother's birth year: 1936 + 8 = <<1936+8=1944>>1944\n#### 1944"
+    }
+]

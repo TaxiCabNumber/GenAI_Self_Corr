@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA team of 4 painters worked on a mansion for 3/8ths of a day every day for 3 weeks. How many hours of work did each painter put in?",
+        "inference": "1. Convert 3/8ths of a day to hours: 3/8ths of a day * 24 hours/day = 9 hours\n2. Calculate the total number of hours worked by the team: 9 hours/day * 3 weeks * 4 painters = 324 hours\n3. Divide the total number of hours by the number of painters: 324 hours / 4 painters = 81 hours\nI hope it is correct: 81 $hours$",
+        "ground_truth": "There are 24 hours in a day so 3/8ths of a day is (3/8)*24 = <<3/8*24=9>>9 hours\nOne week has 7 days so 3 weeks have 7*3 = <<7*3=21>>21 days\nEach painter put in 9*21 = <<9*21=189>>189 hours of work\n#### 189"
+    },
+    {
+        "question": "1. Convert 3/8ths of a day to hours: 3/8ths of a day * 24 hours/day = 9 hours\n2. Calculate the total number of hours worked by the team: 9 hours/day * 3 weeks * 4 painters = 324 hours\n3. Divide the total number of hours by the number of painters: 324 hours / 4 painters = 81 hours\nI hope it is correct: 81 $hours$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 81 $hours$",
+        "ground_truth": "There are 24 hours in a day so 3/8ths of a day is (3/8)*24 = <<3/8*24=9>>9 hours\nOne week has 7 days so 3 weeks have 7*3 = <<7*3=21>>21 days\nEach painter put in 9*21 = <<9*21=189>>189 hours of work\n#### 189"
+    }
+]

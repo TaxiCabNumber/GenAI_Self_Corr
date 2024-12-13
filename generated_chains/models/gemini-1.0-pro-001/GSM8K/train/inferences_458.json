@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMarcy's grade is electing their class president. Marcy got three times as many votes as Barry, who got twice as many as 3 more than the number of votes Joey got. If Joey got 8 votes, how many votes did Marcy get?",
+        "inference": "First find how many votes Barry got.\n\nBarry got twice as many votes as 3 more than the number of votes Joey got.\n\nSo, Barry got 2 * (3 + 8) = 2 * 11 = 22 votes.\n\nNow find how many votes Marcy got.\n\nMarcy got three times as many votes as Barry got.\n\nSo, Marcy got 3 * 22 = 66 votes.\n\nI hope it is correct: 66",
+        "ground_truth": "First, add three to Joey's vote total: 8 votes + 3 votes = <<8+3=11>>11 votes\nThen double that number to find the number of votes Barry got: 11 votes * 2 = <<11*2=22>>22 votes\nThen triple that number to find Marcy's vote total: 22 votes * 3 = <<22*3=66>>66 votes\n#### 66"
+    },
+    {
+        "question": "First find how many votes Barry got.\n\nBarry got twice as many votes as 3 more than the number of votes Joey got.\n\nSo, Barry got 2 * (3 + 8) = 2 * 11 = 22 votes.\n\nNow find how many votes Marcy got.\n\nMarcy got three times as many votes as Barry got.\n\nSo, Marcy got 3 * 22 = 66 votes.\n\nI hope it is correct: 66\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$66",
+        "ground_truth": "First, add three to Joey's vote total: 8 votes + 3 votes = <<8+3=11>>11 votes\nThen double that number to find the number of votes Barry got: 11 votes * 2 = <<11*2=22>>22 votes\nThen triple that number to find Marcy's vote total: 22 votes * 3 = <<22*3=66>>66 votes\n#### 66"
+    }
+]

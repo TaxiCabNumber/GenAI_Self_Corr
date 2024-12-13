@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJames buys 200 lotto tickets for 2 dollars each.  Of those tickets 20% are winners.  80% of the winners are for 5 dollars. 1 ticket is the grand prize of $5,000.  The other tickets win an average of $10.  How much did he profit?",
+        "inference": "**Winning Tickets:**\n\n* Number of winning tickets = 200 * 0.20 = 40\n* Number of $5 tickets = 40 * 0.80 = 32\n* Number of $10 tickets = 40 - 32 = 8\n\n**Earnings:**\n\n* $5 tickets: 32 * $5 = $160\n* $10 tickets: 8 * $10 = $80\n* Grand prize: $5,000\n\n**Total Earnings:** $160 + $80 + $5,000 = $5,240\n\n**Expense:**\n\n* Cost of tickets: 200 * $2 = $400\n\n**Profit:**\n\n* Profit = Earnings - Expense\n* Profit = $5,240 - $400\n* **Profit = $4,840**\n\nI hope it is correct: $4,840",
+        "ground_truth": "He spent 200*2=$<<200*2=400>>400\nThere were 200*.2=<<200*.2=40>>40 tickets\nOf those 40*.8=32 are 5 dollar winners\nSo they win 32*5=$<<32*5=160>>160\nHe has 40-32=<<40-32=8>>8 other winning tickets\nOf those 8-1=<<8-1=7>>7 wins $10\nSo they win 10*7=$<<10*7=70>>70\nSo he won 5000+70+160-400=$<<5000+70+160-400=4830>>4830\n#### 4830"
+    },
+    {
+        "question": "**Winning Tickets:**\n\n* Number of winning tickets = 200 * 0.20 = 40\n* Number of $5 tickets = 40 * 0.80 = 32\n* Number of $10 tickets = 40 - 32 = 8\n\n**Earnings:**\n\n* $5 tickets: 32 * $5 = $160\n* $10 tickets: 8 * $10 = $80\n* Grand prize: $5,000\n\n**Total Earnings:** $160 + $80 + $5,000 = $5,240\n\n**Expense:**\n\n* Cost of tickets: 200 * $2 = $400\n\n**Profit:**\n\n* Profit = Earnings - Expense\n* Profit = $5,240 - $400\n* **Profit = $4,840**\n\nI hope it is correct: $4,840\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $4,840",
+        "ground_truth": "He spent 200*2=$<<200*2=400>>400\nThere were 200*.2=<<200*.2=40>>40 tickets\nOf those 40*.8=32 are 5 dollar winners\nSo they win 32*5=$<<32*5=160>>160\nHe has 40-32=<<40-32=8>>8 other winning tickets\nOf those 8-1=<<8-1=7>>7 wins $10\nSo they win 10*7=$<<10*7=70>>70\nSo he won 5000+70+160-400=$<<5000+70+160-400=4830>>4830\n#### 4830"
+    }
+]

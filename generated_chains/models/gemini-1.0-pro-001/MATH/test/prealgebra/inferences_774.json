@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn the diagram, what is the value of $x?$ [asy]\nsize(150);\ndraw((0,5)--(0,0)--(5,0));\ndraw((0,0)--(3,5));\ndraw((0,.3)--(.3,.3)--(.3,0));\nlabel(\"$2x^\\circ$\",(.5,2));\nlabel(\"$3x^\\circ$\",(1,.6));\n[/asy]",
+        "inference": "The sum of the interior angles of any triangle is 180 degrees. So, \n\n$$2x^\\circ+3x^\\circ+90^\\circ=180^\\circ$$\n\n$$5x^\\circ=90^\\circ$$\n\n$$x^\\circ=\\boxed{18^\\circ}.$$\nFinal Answer: $\\boxed{18^\\circ}.$ I hope it is correct.",
+        "ground_truth": "The angles $2x^{\\circ}$ and $3x^{\\circ}$ shown are complementary and thus add to $90^{\\circ}.$ Therefore, $2x+3x=90$ or $5x=90$ and so $x=\\frac{90}{5}=\\boxed{18}.$"
+    },
+    {
+        "question": "The sum of the interior angles of any triangle is 180 degrees. So, \n\n$$2x^\\circ+3x^\\circ+90^\\circ=180^\\circ$$\n\n$$5x^\\circ=90^\\circ$$\n\n$$x^\\circ=\\boxed{18^\\circ}.$$\nFinal Answer: $\\boxed{18^\\circ}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{18^\\circ}.$$",
+        "ground_truth": "The angles $2x^{\\circ}$ and $3x^{\\circ}$ shown are complementary and thus add to $90^{\\circ}.$ Therefore, $2x+3x=90$ or $5x=90$ and so $x=\\frac{90}{5}=\\boxed{18}.$"
+    }
+]

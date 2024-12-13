@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nZachary paid for a $\\$1$ burger with 32 coins and received no change. Each coin was either a penny or a nickel. What was the number of nickels Zachary used?",
+        "inference": "Let's denote the number of pennies by $x$ and the number of nickels by $y$. We have the following system of equations:\n\n$$x + y = 32$$\n$$1x + 5y = 100$$\n\nSolving the first equation for $x$, we get:\n\n$$x = 32 - y$$\n\nSubstituting this into the second equation, we get:\n\n$$1(32 - y) + 5y = 100$$\n$$32 - y + 5y = 100$$\n$$4y = 68$$\n$$y = 17$$\n\nTherefore, the number of nickels Zachary used is $\\boxed{17}$.\n\nFinal Answer: $\\boxed{17}$. I hope it is correct.",
+        "ground_truth": "If $p$ is the number of pennies and $n$ is the number of nickels that Zachary used, then we are given \\begin{align*}\np+n&=32\\text{, and} \\\\\np+5n&=100.\n\\end{align*} Subtracting the first equation from the second, we find $4n=68$ which implies $n=\\boxed{17}$."
+    },
+    {
+        "question": "Let's denote the number of pennies by $x$ and the number of nickels by $y$. We have the following system of equations:\n\n$$x + y = 32$$\n$$1x + 5y = 100$$\n\nSolving the first equation for $x$, we get:\n\n$$x = 32 - y$$\n\nSubstituting this into the second equation, we get:\n\n$$1(32 - y) + 5y = 100$$\n$$32 - y + 5y = 100$$\n$$4y = 68$$\n$$y = 17$$\n\nTherefore, the number of nickels Zachary used is $\\boxed{17}$.\n\nFinal Answer: $\\boxed{17}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$17$}",
+        "ground_truth": "If $p$ is the number of pennies and $n$ is the number of nickels that Zachary used, then we are given \\begin{align*}\np+n&=32\\text{, and} \\\\\np+5n&=100.\n\\end{align*} Subtracting the first equation from the second, we find $4n=68$ which implies $n=\\boxed{17}$."
+    }
+]

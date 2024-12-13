@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nEugene built a model house out of toothpicks and a deck of playing cards.  For every card, he used 75 toothpicks.  The deck of playing cards had 52 cards, and Eugene used all but 16 of the cards to build his house.  If a box of toothpicks contains 450 toothpicks, how many boxes of toothpicks did Eugene use to create his model house?",
+        "inference": "- Eugene used 52 - 16 = 36 cards.\n\n- He used 75 toothpicks per card, so he used 36 * 75 = 2700 toothpicks.\n\n- Each box contains 450 toothpicks, so he used 2700 / 450 = 6 boxes of toothpicks.\nI hope it is correct: 6 $boxes$",
+        "ground_truth": "If Eugene used all but 16 of the 52 cards, then he used 52-16=<<52-16=36>>36 cards.\nIf for every card he used 75 toothpicks, then a box of toothpicks would have enough toothpicks for 450/75=<<450/75=6>>6 cards.\nSince one box has enough toothpicks for 6 cards, then for 36 cards he would need 36/6=<<36/6=6>>6 boxes of toothpicks.\n#### 6"
+    },
+    {
+        "question": "- Eugene used 52 - 16 = 36 cards.\n\n- He used 75 toothpicks per card, so he used 36 * 75 = 2700 toothpicks.\n\n- Each box contains 450 toothpicks, so he used 2700 / 450 = 6 boxes of toothpicks.\nI hope it is correct: 6 $boxes$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ 6",
+        "ground_truth": "If Eugene used all but 16 of the 52 cards, then he used 52-16=<<52-16=36>>36 cards.\nIf for every card he used 75 toothpicks, then a box of toothpicks would have enough toothpicks for 450/75=<<450/75=6>>6 cards.\nSince one box has enough toothpicks for 6 cards, then for 36 cards he would need 36/6=<<36/6=6>>6 boxes of toothpicks.\n#### 6"
+    }
+]

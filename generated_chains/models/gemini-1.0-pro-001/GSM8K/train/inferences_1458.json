@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nStefan goes to a restaurant to eat dinner with his family. They order an appetizer that costs $10 and 4 entrees that are $20 each. If they tip 20% of the total for the waiter, what is the total amount of money that they spend at the restaurant?",
+        "inference": "Cost of appetizer = $ 10\nCost of entrees = 4 x $20 = $80\nTotal cost of food = $ 10 + $80 = $90\nTip = 20% of $90 = 0.20 x $90 = $18\n\nTotal amount of money spent = Cost of food + Tip\n= $90 + $18\n= $108\n\nI hope it is correct: $108$",
+        "ground_truth": "The total cost of the entrees is 4 * $20 = $<<4*20=80>>80.\nThe total cost of the dinner is $80 + $10 = $<<80+10=90>>90.\nThe tip is $90 * 0.20 = $<<90*0.20=18>>18\nThe total cost with tip is $90 + $18 = $<<90+18=108>>108\n#### 108"
+    },
+    {
+        "question": "Cost of appetizer = $ 10\nCost of entrees = 4 x $20 = $80\nTotal cost of food = $ 10 + $80 = $90\nTip = 20% of $90 = 0.20 x $90 = $18\n\nTotal amount of money spent = Cost of food + Tip\n= $90 + $18\n= $108\n\nI hope it is correct: $108$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $108$",
+        "ground_truth": "The total cost of the entrees is 4 * $20 = $<<4*20=80>>80.\nThe total cost of the dinner is $80 + $10 = $<<80+10=90>>90.\nThe tip is $90 * 0.20 = $<<90*0.20=18>>18\nThe total cost with tip is $90 + $18 = $<<90+18=108>>108\n#### 108"
+    }
+]

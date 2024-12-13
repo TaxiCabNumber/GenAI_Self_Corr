@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn orders food for a massive restaurant.  He orders 1000 pounds of beef for $8 per pound.  He also orders twice that much chicken at $3 per pound.  How much did everything cost?",
+        "inference": "1000 pounds of beef at $8 per pound = 1000 x 8 = $8,000\n2000 pounds of chicken at $3 per pound = 2000 x 3 = $6,000\nTotal cost = $8,000 + $6,000 = $14,000\nI hope it is correct: $14000$",
+        "ground_truth": "The beef cost $8 * 1000 = $<<8*1000=8000>>8000\nHe buys 1000 * 2 = <<1000*2=2000>>2000 pounds of chicken\nSo the chicken cost 2000 * $3 = $<<2000*3=6000>>6000\nSo the total cost is $8000 + $6000 = $<<8000+6000=14000>>14,000\n#### 14000"
+    },
+    {
+        "question": "1000 pounds of beef at $8 per pound = 1000 x 8 = $8,000\n2000 pounds of chicken at $3 per pound = 2000 x 3 = $6,000\nTotal cost = $8,000 + $6,000 = $14,000\nI hope it is correct: $14000$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$14000",
+        "ground_truth": "The beef cost $8 * 1000 = $<<8*1000=8000>>8000\nHe buys 1000 * 2 = <<1000*2=2000>>2000 pounds of chicken\nSo the chicken cost 2000 * $3 = $<<2000*3=6000>>6000\nSo the total cost is $8000 + $6000 = $<<8000+6000=14000>>14,000\n#### 14000"
+    }
+]

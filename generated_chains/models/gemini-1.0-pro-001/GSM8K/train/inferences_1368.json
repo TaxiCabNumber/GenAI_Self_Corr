@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTamara is 3 times Kim's height less 4 inches. Tamara and Kim have a combined height of 92 inches. How many inches tall is Tamara?",
+        "inference": "Let's consider Kim's height as x.\n\nTamara's height = 3x - 4\n\nCombined height = 92 inches\n=> x + 3x - 4 = 92\n=> 4x - 4 = 92\n=> 4x = 96\n=> x = 24\n\nTamara's height = 3x - 4\n=> Tamara's height = 3(24) - 4\n=> Tamara's height = **72 inches**\n\nI hope it is correct: Tamara's height is 72 inches",
+        "ground_truth": "Let K = Kim's height\nTamara = 3K - 4\nK + 3K - 4 = 92\n4K - 4 = 92\n4K = 96\nKim = <<24=24>>24 inches\nTamara = (3 * 24) - 4 = <<(3*24)-4=68>>68 inches\nTamara is 68 inches tall.\n#### 68"
+    },
+    {
+        "question": "Let's consider Kim's height as x.\n\nTamara's height = 3x - 4\n\nCombined height = 92 inches\n=> x + 3x - 4 = 92\n=> 4x - 4 = 92\n=> 4x = 96\n=> x = 24\n\nTamara's height = 3x - 4\n=> Tamara's height = 3(24) - 4\n=> Tamara's height = **72 inches**\n\nI hope it is correct: Tamara's height is 72 inches\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 72",
+        "ground_truth": "Let K = Kim's height\nTamara = 3K - 4\nK + 3K - 4 = 92\n4K - 4 = 92\n4K = 96\nKim = <<24=24>>24 inches\nTamara = (3 * 24) - 4 = <<(3*24)-4=68>>68 inches\nTamara is 68 inches tall.\n#### 68"
+    }
+]

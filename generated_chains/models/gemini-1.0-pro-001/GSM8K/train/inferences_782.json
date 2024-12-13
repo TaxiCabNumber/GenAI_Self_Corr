@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMelissa wants to make some dresses to sell at the upcoming festival. She has 56 square meters of fabric to make them. She knows that each dress takes 4 square meters of fabric and 3 hours to make. How many hours does she have to work?",
+        "inference": "1. Calculate how many dresses Melissa can make with 56 square meters of fabric.\n56 square meters / 4 square meters per dress = 14 dresses\n\n2. Calculate how many hours it will take to make 14 dresses.\n14 dresses * 3 hours per dress = 42 hours\n\nI hope it is correct: 42",
+        "ground_truth": "Each dress takes 4 square meters of fabric to make, so the number of dresses she can make will be 56/4 = <<56/4=14>>14 dresses.\nEach dress takes 3 hours to make, thus she will have to work 14 dresses x 3 hours/dress = <<14*3=42>>42 hours.\n#### 42"
+    },
+    {
+        "question": "1. Calculate how many dresses Melissa can make with 56 square meters of fabric.\n56 square meters / 4 square meters per dress = 14 dresses\n\n2. Calculate how many hours it will take to make 14 dresses.\n14 dresses * 3 hours per dress = 42 hours\n\nI hope it is correct: 42\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$42",
+        "ground_truth": "Each dress takes 4 square meters of fabric to make, so the number of dresses she can make will be 56/4 = <<56/4=14>>14 dresses.\nEach dress takes 3 hours to make, thus she will have to work 14 dresses x 3 hours/dress = <<14*3=42>>42 hours.\n#### 42"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJames replaces the coffee for the household.  There are 3 other people in the house and everyone drinks 2 cups of coffee a day.  It takes .5 ounces of coffee per cup of coffee.  If coffee costs $1.25 an ounce, how much does he spend on coffee a week?",
+        "inference": "1. Determine the total number of cups of coffee consumed per day: 3 people x 2 cups/person/day + 1 person (James) = 7 cups/day\n2. Calculate the total amount of coffee consumed per day: 7 cups/day x 0.5 ounces/cup = 3.5 ounces/day\n3. Determine the total amount of coffee consumed per week: 3.5 ounces/day x 7 days/week = 24.5 ounces/week\n4. Calculate the cost of the coffee: 24.5 ounces/week x $1.25/ounce = $30.63/week\n\nI hope it is correct: $30.63",
+        "ground_truth": "There are 3+1=<<3+1=4>>4 people in the house\nSo they drink 4*2=<<4*2=8>>8 cups of coffee a day\nThat means they use 8*.5=<<8*.5=4>>4 ounces of coffee a day\nSo they use 4*7=<<4*7=28>>28 ounces of coffee a week\nSo he spends 28*1.25=$<<28*1.25=35>>35\n#### 35"
+    },
+    {
+        "question": "1. Determine the total number of cups of coffee consumed per day: 3 people x 2 cups/person/day + 1 person (James) = 7 cups/day\n2. Calculate the total amount of coffee consumed per day: 7 cups/day x 0.5 ounces/cup = 3.5 ounces/day\n3. Determine the total amount of coffee consumed per week: 3.5 ounces/day x 7 days/week = 24.5 ounces/week\n4. Calculate the cost of the coffee: 24.5 ounces/week x $1.25/ounce = $30.63/week\n\nI hope it is correct: $30.63\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$30.63",
+        "ground_truth": "There are 3+1=<<3+1=4>>4 people in the house\nSo they drink 4*2=<<4*2=8>>8 cups of coffee a day\nThat means they use 8*.5=<<8*.5=4>>4 ounces of coffee a day\nSo they use 4*7=<<4*7=28>>28 ounces of coffee a week\nSo he spends 28*1.25=$<<28*1.25=35>>35\n#### 35"
+    }
+]

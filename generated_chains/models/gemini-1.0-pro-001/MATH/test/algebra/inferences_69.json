@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf we express $x^2 + 4x + 5$ in the form $a(x - h)^2 + k$, then what is $h$?",
+        "inference": "**Solution:**\n\n$$x^2 + 4x + 5 = a(x - h)^2 + k$$\n$$x^2 + 4x + 5 = a(x^2 - 2xh + h^2) + k$$\n$$x^2 + 4x + 5 = ax^2 - 2ahx + ah^2 + k$$\n$$x^2 + 4x + 5 - ax^2 + 2ahx - ah^2 = k$$\n$$(1 - a)x^2 + (4 - 2ah)x + 5 - ah^2 = k$$\n\nTherefore,\n\n$$1 - a = 0 \\Rightarrow a = 1$$\n\nand\n\n$$4 - 2ah = 0 \\Rightarrow h = 2$$\n\n**Final Answer: $\\boxed{2}$. I hope it is correct.**",
+        "ground_truth": "We complete the square.  We can square $x + 2$ to get $x^2 + 4x + 4$, so $h = \\boxed{-2}$."
+    },
+    {
+        "question": "**Solution:**\n\n$$x^2 + 4x + 5 = a(x - h)^2 + k$$\n$$x^2 + 4x + 5 = a(x^2 - 2xh + h^2) + k$$\n$$x^2 + 4x + 5 = ax^2 - 2ahx + ah^2 + k$$\n$$x^2 + 4x + 5 - ax^2 + 2ahx - ah^2 = k$$\n$$(1 - a)x^2 + (4 - 2ah)x + 5 - ah^2 = k$$\n\nTherefore,\n\n$$1 - a = 0 \\Rightarrow a = 1$$\n\nand\n\n$$4 - 2ah = 0 \\Rightarrow h = 2$$\n\n**Final Answer: $\\boxed{2}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{2}$$",
+        "ground_truth": "We complete the square.  We can square $x + 2$ to get $x^2 + 4x + 4$, so $h = \\boxed{-2}$."
+    }
+]

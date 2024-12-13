@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $x$, $y$, and $z$ be distinct real numbers that sum to 0. Find the maximum possible value of $$\\frac{xy+yz+zx}{x^2+y^2+z^2}.$$",
+        "inference": "Since $x+y+z=0$, we have $z=-x-y$.  Substituting, we get  \\begin{align*}\n\\frac{xy+yz+zx}{x^2+y^2+z^2} &= \\frac{xy+(-x-y)y+(-x-y)x}{x^2+y^2+(-x-y)^2} \\\\\n&= \\frac{xy-xy-y^2-x^2-xy}{x^2+y^2+x^2+2xy+y^2} \\\\\n&= \\frac{-x^2-xy-y^2}{2x^2+2xy+2y^2} \\\\\n&= -\\frac{1}{2} \\cdot \\frac{x^2+xy+y^2}{x^2+xy+y^2} \\\\\n&= -\\frac{1}{2}.\n\\end{align*}Since $x$, $y$, and $z$ are distinct, the expression is always negative, and its maximum value is $\\boxed{-\\frac{1}{2}}$.  I hope it is correct. \n",
+        "ground_truth": "Note that $0=(x+y+z)^2=x^2+y^2+z^2+2xy+2yz+2zx$. Rearranging, we get that $xy+yz+zx=-\\frac{1}{2}(x^2+y^2+z^2)$, so that in fact the quantity is always equal to $\\boxed{-\\frac{1}{2}}$."
+    },
+    {
+        "question": "Since $x+y+z=0$, we have $z=-x-y$.  Substituting, we get  \\begin{align*}\n\\frac{xy+yz+zx}{x^2+y^2+z^2} &= \\frac{xy+(-x-y)y+(-x-y)x}{x^2+y^2+(-x-y)^2} \\\\\n&= \\frac{xy-xy-y^2-x^2-xy}{x^2+y^2+x^2+2xy+y^2} \\\\\n&= \\frac{-x^2-xy-y^2}{2x^2+2xy+2y^2} \\\\\n&= -\\frac{1}{2} \\cdot \\frac{x^2+xy+y^2}{x^2+xy+y^2} \\\\\n&= -\\frac{1}{2}.\n\\end{align*}Since $x$, $y$, and $z$ are distinct, the expression is always negative, and its maximum value is $\\boxed{-\\frac{1}{2}}$.  I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct.  The maximum value of the expression is indeed $\\boxed{-\\frac{1}{2}}$. \n",
+        "ground_truth": "Note that $0=(x+y+z)^2=x^2+y^2+z^2+2xy+2yz+2zx$. Rearranging, we get that $xy+yz+zx=-\\frac{1}{2}(x^2+y^2+z^2)$, so that in fact the quantity is always equal to $\\boxed{-\\frac{1}{2}}$."
+    }
+]

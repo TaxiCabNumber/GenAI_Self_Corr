@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMaddy is buying pizza for her cousin's soccer game. There are 12 team members and 3 coaches. Each team member brings 2 guests. A pizza will serve 3 people. If each pizza costs $15, how many dollars will Maddy spend?",
+        "inference": "1. Calculate the total number of people attending the game:\n12 team members + 3 coaches + (12 team members x 2 guests per member) = 39 people\n\n2. Determine the number of pizzas needed:\n39 people / 3 people per pizza = 13 pizzas\n\n3. Calculate the total cost of the pizzas:\n13 pizzas x $15 per pizza = $195\n\nI hope it is correct: $195$",
+        "ground_truth": "Maddy is buying pizza for 12 + 3 + (12*2) = <<12+3+12*2=39>>39 people.\nThus, she needs to buy 39/3=<<39/3=13>>13 pizzas.\nThus, she will spend $15*13=$<<15*13=195>>195.\n#### 195"
+    },
+    {
+        "question": "1. Calculate the total number of people attending the game:\n12 team members + 3 coaches + (12 team members x 2 guests per member) = 39 people\n\n2. Determine the number of pizzas needed:\n39 people / 3 people per pizza = 13 pizzas\n\n3. Calculate the total cost of the pizzas:\n13 pizzas x $15 per pizza = $195\n\nI hope it is correct: $195$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$=195",
+        "ground_truth": "Maddy is buying pizza for 12 + 3 + (12*2) = <<12+3+12*2=39>>39 people.\nThus, she needs to buy 39/3=<<39/3=13>>13 pizzas.\nThus, she will spend $15*13=$<<15*13=195>>195.\n#### 195"
+    }
+]

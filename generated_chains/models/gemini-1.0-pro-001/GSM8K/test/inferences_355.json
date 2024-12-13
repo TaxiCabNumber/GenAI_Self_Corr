@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are three trees in Eddy's backyard. The shortest tree has a height of 6 feet, and the second tree has a height of 5 feet more than the shortest tree. The height of the tallest tree is twice the height of the two trees combined. How tall is the tallest tree?",
+        "inference": "1. The height of the second tree is 5 feet more than the shortest tree, so the height of the second tree is 6 + 5 = 11 feet.\n2. The height of the tallest tree is twice the height of the two trees combined, so the height of the tallest tree is 2 * (6 + 11) = 2 * 17 = 34 feet.\nI hope it is correct: 34 $feet$",
+        "ground_truth": "The height of the second tree is 6 + 5 = <<6+5=11>>11 feet.\nThus, the combined height of the two trees is 6 + 11 = <<6+11=17>>17 feet.\nTherefore the height of the tallest tree is 2 x 17 = <<2*17=34>>34 feet.\n#### 34"
+    },
+    {
+        "question": "1. The height of the second tree is 5 feet more than the shortest tree, so the height of the second tree is 6 + 5 = 11 feet.\n2. The height of the tallest tree is twice the height of the two trees combined, so the height of the tallest tree is 2 * (6 + 11) = 2 * 17 = 34 feet.\nI hope it is correct: 34 $feet$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ = 34 $feet$",
+        "ground_truth": "The height of the second tree is 6 + 5 = <<6+5=11>>11 feet.\nThus, the combined height of the two trees is 6 + 11 = <<6+11=17>>17 feet.\nTherefore the height of the tallest tree is 2 x 17 = <<2*17=34>>34 feet.\n#### 34"
+    }
+]

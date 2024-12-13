@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJosh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?",
+        "inference": "1. Calculate the value of the house after the repairs: $80,000 + $50,000 = $130,000\n2. Calculate the percentage increase in value: 150%\n3. Calculate the amount of profit: $130,000 x 150% = $195,000\n4. Subtract the original cost of the house and the cost of repairs from the profit to get the net profit: $195,000 - $80,000 - $50,000 = $65,000\nI hope it is correct: $65,000$",
+        "ground_truth": "The cost of the house and repairs came out to 80,000+50,000=$<<80000+50000=130000>>130,000\nHe increased the value of the house by 80,000*1.5=<<80000*1.5=120000>>120,000\nSo the new value of the house is 120,000+80,000=$<<120000+80000=200000>>200,000\nSo he made a profit of 200,000-130,000=$<<200000-130000=70000>>70,000\n#### 70000"
+    },
+    {
+        "question": "1. Calculate the value of the house after the repairs: $80,000 + $50,000 = $130,000\n2. Calculate the percentage increase in value: 150%\n3. Calculate the amount of profit: $130,000 x 150% = $195,000\n4. Subtract the original cost of the house and the cost of repairs from the profit to get the net profit: $195,000 - $80,000 - $50,000 = $65,000\nI hope it is correct: $65,000$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= $65,000",
+        "ground_truth": "The cost of the house and repairs came out to 80,000+50,000=$<<80000+50000=130000>>130,000\nHe increased the value of the house by 80,000*1.5=<<80000*1.5=120000>>120,000\nSo the new value of the house is 120,000+80,000=$<<120000+80000=200000>>200,000\nSo he made a profit of 200,000-130,000=$<<200000-130000=70000>>70,000\n#### 70000"
+    }
+]

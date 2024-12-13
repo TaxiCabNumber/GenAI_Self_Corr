@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIt takes 15 mink skins to make a coat. Andy buys 30 minks and each mink has 6 babies, but half the total minks are set free by activists. How many coats can he make?",
+        "inference": "Andy has 30 minks and each one gives birth to 6 babies. So the total number of minks is 30 + 30 * 6 = 210. Half of them are set free, so he is left with 210 / 2 = 105 minks. Each coat requires 15 mink skins, so the number of coats he can make is 105 / 15 = 7.\nI hope it is correct: 7",
+        "ground_truth": "First find the total number of baby minks: 30 minks * 6 babies/mink = <<30*6=180>>180 minks\nAdd this to the number of adult minks: 180 minks + 30 minks = <<180+30=210>>210 minks\nThen divide this number in half to find how many aren't set free: 210 minks / 2 = <<210/2=105>>105 minks\nThen divide the remaining number of minks by the number of minks per coat to find the number of coats: 105 minks / 15 minks/coat = <<105/15=7>>7 coats\n#### 7"
+    },
+    {
+        "question": "Andy has 30 minks and each one gives birth to 6 babies. So the total number of minks is 30 + 30 * 6 = 210. Half of them are set free, so he is left with 210 / 2 = 105 minks. Each coat requires 15 mink skins, so the number of coats he can make is 105 / 15 = 7.\nI hope it is correct: 7\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$7",
+        "ground_truth": "First find the total number of baby minks: 30 minks * 6 babies/mink = <<30*6=180>>180 minks\nAdd this to the number of adult minks: 180 minks + 30 minks = <<180+30=210>>210 minks\nThen divide this number in half to find how many aren't set free: 210 minks / 2 = <<210/2=105>>105 minks\nThen divide the remaining number of minks by the number of minks per coat to find the number of coats: 105 minks / 15 minks/coat = <<105/15=7>>7 coats\n#### 7"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $a,$ $b,$ $c$ be the roots of $x^3 - 7x + 2 = 0.$  Find\n\\[abc + ab + ac + bc + a + b + c + 1.\\]",
+        "inference": "**Solution:**\n\nBy Vieta's formulas, we have\n\n$$a + b + c = 0,$$\n\n$$ab + ac + bc = 7,$$\n\nand\n\n$$abc = 2.$$\n\nTherefore,\n\n$$\\begin{split} abc + ab + ac + bc + a + b + c + 1 &= abc + ab + ac + bc + (a + b + c) + 1 \\\\\\ &= 2 + 7 + 0 + 1 \\\\\\ &= 10. \\end{split}$$\n\n**Final Answer: $\\boxed{10}$. I hope it is correct.**",
+        "ground_truth": "By Vieta's formulas, $a + b + c = 0,$ $ab + ac + bc = -7,$ and $abc = -2,$ so\n\\[abc + ab + ac + bc + a + b + c + 1 = (-2) + (-7) + 0 + 1 = \\boxed{-8}.\\]"
+    },
+    {
+        "question": "**Solution:**\n\nBy Vieta's formulas, we have\n\n$$a + b + c = 0,$$\n\n$$ab + ac + bc = 7,$$\n\nand\n\n$$abc = 2.$$\n\nTherefore,\n\n$$\\begin{split} abc + ab + ac + bc + a + b + c + 1 &= abc + ab + ac + bc + (a + b + c) + 1 \\\\\\ &= 2 + 7 + 0 + 1 \\\\\\ &= 10. \\end{split}$$\n\n**Final Answer: $\\boxed{10}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{10}$$",
+        "ground_truth": "By Vieta's formulas, $a + b + c = 0,$ $ab + ac + bc = -7,$ and $abc = -2,$ so\n\\[abc + ab + ac + bc + a + b + c + 1 = (-2) + (-7) + 0 + 1 = \\boxed{-8}.\\]"
+    }
+]

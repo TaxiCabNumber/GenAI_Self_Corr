@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSimplify $\\cot 10 + \\tan 5.$\n\nEnter your answer as a trigonometric function evaluated at an integer, such as \"sin 7\".",
+        "inference": "Final Answer: $\\boxed{\\csc 15}$. I hope it is correct. \n",
+        "ground_truth": "We can write\n\\[\\cot 10 + \\tan 5 = \\frac{\\cos 10}{\\sin 10} + \\frac{\\sin 5}{\\cos 5} = \\frac{\\cos 10 \\cos 5 + \\sin 5 \\sin 10}{\\sin 10 \\cos 5}.\\]From the angle subtraction formula, the numerator is equal to $\\cos (10 - 5) = \\cos 5,$ so\n\\[\\frac{\\cos 10 \\cos 5 + \\sin 5 \\sin 10}{\\sin 10 \\cos 5} = \\frac{\\cos 5}{\\sin 10 \\cos 5} = \\boxed{\\csc 10}.\\]"
+    },
+    {
+        "question": "Final Answer: $\\boxed{\\csc 15}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the question you are referring to. I need the context of the question to identify any errors and provide a correct solution. \n",
+        "ground_truth": "We can write\n\\[\\cot 10 + \\tan 5 = \\frac{\\cos 10}{\\sin 10} + \\frac{\\sin 5}{\\cos 5} = \\frac{\\cos 10 \\cos 5 + \\sin 5 \\sin 10}{\\sin 10 \\cos 5}.\\]From the angle subtraction formula, the numerator is equal to $\\cos (10 - 5) = \\cos 5,$ so\n\\[\\frac{\\cos 10 \\cos 5 + \\sin 5 \\sin 10}{\\sin 10 \\cos 5} = \\frac{\\cos 5}{\\sin 10 \\cos 5} = \\boxed{\\csc 10}.\\]"
+    }
+]

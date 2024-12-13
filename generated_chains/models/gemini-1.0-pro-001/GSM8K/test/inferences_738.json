@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAlice has 6 more books than Steven. Clara has two times as many books as Steven. If Clara has 20 books, how many more books does Clara have than Alice?",
+        "inference": "* Clara has 20 books.\n* Steven has 20 / 2 = 10 books.\n* Alice has 10 + 6 = 16 books.\n* Clara has 20 - 16 = 4 more books than Alice.\nI hope it is correct: 4",
+        "ground_truth": "Steven has 20/2 = <<20/2=10>>10 books\nAlice has 10+6 = <<10+6=16>>16 books\nClara has 20-16 = <<20-16=4>>4 more books than Alice\n#### 4"
+    },
+    {
+        "question": "* Clara has 20 books.\n* Steven has 20 / 2 = 10 books.\n* Alice has 10 + 6 = 16 books.\n* Clara has 20 - 16 = 4 more books than Alice.\nI hope it is correct: 4\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$4",
+        "ground_truth": "Steven has 20/2 = <<20/2=10>>10 books\nAlice has 10+6 = <<10+6=16>>16 books\nClara has 20-16 = <<20-16=4>>4 more books than Alice\n#### 4"
+    }
+]

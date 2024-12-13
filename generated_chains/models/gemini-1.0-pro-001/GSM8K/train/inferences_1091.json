@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nHarper drinks a 1/2 bottle of mineral water per day.  She buys the mineral water by the case at a big box store.  They come 24 bottles to a case and are currently on sale for $12.00.  If she wants to buy enough cases to last her 240 days, how much will she spend?",
+        "inference": "1) 240 days / 1/2 bottle/day = 480 bottles\n\n2) 480 bottles / 24 bottles/case = 20 cases\n\n3) 20 cases * $12.00/case = $240\n\nI hope it is correct: $240",
+        "ground_truth": "She drinks 1/2 bottle a day and there are 24 bottles in a case so a case will last 24/.5 = <<24/.5=48>>48 days\nShe needs enough to last her 240 days and 1 case will last her 48 days so she needs 240/48 = <<240/48=5>>5 cases\nEach case is on sale for $12.00 and she needs 5 cases so that's 12*5 = $<<12*5=60.00>>60.00\n#### 60"
+    },
+    {
+        "question": "1) 240 days / 1/2 bottle/day = 480 bottles\n\n2) 480 bottles / 24 bottles/case = 20 cases\n\n3) 20 cases * $12.00/case = $240\n\nI hope it is correct: $240\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$240",
+        "ground_truth": "She drinks 1/2 bottle a day and there are 24 bottles in a case so a case will last 24/.5 = <<24/.5=48>>48 days\nShe needs enough to last her 240 days and 1 case will last her 48 days so she needs 240/48 = <<240/48=5>>5 cases\nEach case is on sale for $12.00 and she needs 5 cases so that's 12*5 = $<<12*5=60.00>>60.00\n#### 60"
+    }
+]

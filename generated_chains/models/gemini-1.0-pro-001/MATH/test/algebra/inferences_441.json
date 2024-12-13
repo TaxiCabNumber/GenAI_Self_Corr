@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $3n+m=14$ and $n+m=1$, find the value of $n-m$.",
+        "inference": "Solution:\nWe have that \\begin{align*}\n3n+m&=14\\\\\n\\Rightarrow\\qquad n+m&=1\\\\\n\\Rightarrow\\qquad (3n+m)-(n+m)&=14-1\\\\\n\\Rightarrow\\qquad 2n&=13\\\\\n\\Rightarrow\\qquad n&=\\frac{13}{2}.\n\\end{align*}\nTherefore, \\begin{align*}\nn-m&=\\frac{13}{2}-1\\\\\n&=\\frac{11}{2}.\n\\end{align*}\nFinal Answer: $\\boxed{\\frac{11}{2}}$. I hope it is correct.",
+        "ground_truth": "If we multiply the second equation by $-2$, the given equations become  \\begin{align*}\n3n +m & =14\\text{, and} \\\\\n-2n -2m & =-2.\n\\end{align*}Summing these equations gives $n-m=\\boxed{12}$. (Notice that we didn't have to find $n$ or $m$ in order to find $n-m$.)"
+    },
+    {
+        "question": "Solution:\nWe have that \\begin{align*}\n3n+m&=14\\\\\n\\Rightarrow\\qquad n+m&=1\\\\\n\\Rightarrow\\qquad (3n+m)-(n+m)&=14-1\\\\\n\\Rightarrow\\qquad 2n&=13\\\\\n\\Rightarrow\\qquad n&=\\frac{13}{2}.\n\\end{align*}\nTherefore, \\begin{align*}\nn-m&=\\frac{13}{2}-1\\\\\n&=\\frac{11}{2}.\n\\end{align*}\nFinal Answer: $\\boxed{\\frac{11}{2}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{\\frac{11}{2}}",
+        "ground_truth": "If we multiply the second equation by $-2$, the given equations become  \\begin{align*}\n3n +m & =14\\text{, and} \\\\\n-2n -2m & =-2.\n\\end{align*}Summing these equations gives $n-m=\\boxed{12}$. (Notice that we didn't have to find $n$ or $m$ in order to find $n-m$.)"
+    }
+]

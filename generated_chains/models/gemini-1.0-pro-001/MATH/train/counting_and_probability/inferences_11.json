@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThree cards are dealt at random from a standard deck of 52 cards.  What is the probability that the first card is a Jack, the second card is a Queen, and the third card is a King? Assuming the dealing is done without replacement.",
+        "inference": "**Step 1:** The probability of drawing a Jack on the first draw is 4/52.\n**Step 2:** The probability of drawing a Queen on the second draw, given that a Jack was drawn on the first draw, is 4/51.\n**Step 3:** The probability of drawing a King on the third draw, given that a Jack was drawn on the first draw and a Queen was drawn on the second draw, is 4/50.\n**Step 4:** The probability of drawing a Jack, then a Queen, then a King is the product of these three probabilities: (4/52) x (4/51) x (4/50) = 64/66300.\n**Final Answer: \\boxed{$64/66300$}. I hope it is correct.**",
+        "ground_truth": "The probability is $\\dfrac{4}{52} \\times \\dfrac{4}{51} \\times \\dfrac{4}{50} = \\boxed{\\frac{8}{16575}}$."
+    },
+    {
+        "question": "**Step 1:** The probability of drawing a Jack on the first draw is 4/52.\n**Step 2:** The probability of drawing a Queen on the second draw, given that a Jack was drawn on the first draw, is 4/51.\n**Step 3:** The probability of drawing a King on the third draw, given that a Jack was drawn on the first draw and a Queen was drawn on the second draw, is 4/50.\n**Step 4:** The probability of drawing a Jack, then a Queen, then a King is the product of these three probabilities: (4/52) x (4/51) x (4/50) = 64/66300.\n**Final Answer: \\boxed{$64/66300$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$128/66300$}.",
+        "ground_truth": "The probability is $\\dfrac{4}{52} \\times \\dfrac{4}{51} \\times \\dfrac{4}{50} = \\boxed{\\frac{8}{16575}}$."
+    }
+]

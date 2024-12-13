@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe red car is 40% cheaper than the blue car. The price of the blue car is $100. How much do both cars cost?",
+        "inference": "40% off of $100 is $40. Therefore the red car is worth $60.  Since the blue car is worth $100, both cars together are worth $100 + $60 = $160\nI hope it is correct: 160",
+        "ground_truth": "The red car is 40/100 * 100 = $<<40/100*100=40>>40 cheaper than the blue car.\nThat means, that the red car costs 100 - 40 = $<<100-40=60>>60.\nSo both cars cost 100 + 60 = $<<100+60=160>>160.\n#### 160"
+    },
+    {
+        "question": "40% off of $100 is $40. Therefore the red car is worth $60.  Since the blue car is worth $100, both cars together are worth $100 + $60 = $160\nI hope it is correct: 160\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$160",
+        "ground_truth": "The red car is 40/100 * 100 = $<<40/100*100=40>>40 cheaper than the blue car.\nThat means, that the red car costs 100 - 40 = $<<100-40=60>>60.\nSo both cars cost 100 + 60 = $<<100+60=160>>160.\n#### 160"
+    }
+]

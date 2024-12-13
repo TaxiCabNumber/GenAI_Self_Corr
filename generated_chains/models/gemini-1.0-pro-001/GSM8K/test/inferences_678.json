@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nLorie earns $10 per hour. Karen earns twice what Lorie earns. How much does Karen earn in two days if she works 3 hours per day?",
+        "inference": "10 x 2 = 20 dollars per hour for Karen\n20 x 3 hours per day = 60 dollars per day for Karen\n60 x 2 days = 120 dollars for Karen\n\nI hope it is correct: 120 $",
+        "ground_truth": "Karen earns $10 x 2 = $<<10*2=20>>20 per hour.\nSo she earns $20 x 3 = $<<20*3=60>>60 per day.\nThus, she earns $60 x 2 = $<<60*2=120>>120 in two days.\n#### 120"
+    },
+    {
+        "question": "10 x 2 = 20 dollars per hour for Karen\n20 x 3 hours per day = 60 dollars per day for Karen\n60 x 2 days = 120 dollars for Karen\n\nI hope it is correct: 120 $\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$120",
+        "ground_truth": "Karen earns $10 x 2 = $<<10*2=20>>20 per hour.\nSo she earns $20 x 3 = $<<20*3=60>>60 per day.\nThus, she earns $60 x 2 = $<<60*2=120>>120 in two days.\n#### 120"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA big snowstorm caused a large amount of snow to fall onto Grandpa's farm, and the wind caused the snow to pile up into a drift.  But on the second day, it warmed up enough that half of the snowdrift melted.  The third day, it snowed again, adding another 6 inches of snow onto the snowdrift.  On the fourth day, another 18 inches of snow fell onto the snowdrift.  If the snowdrift was 34 inches deep at the end of the fourth day, how deep in inches was the drift at the end of the first day?",
+        "inference": "34 inches - 18 inches = 16 inches\n16 inches + 6 inches = 22 inches\n22 inches x 2 = 44 inches\nI hope it is correct: 44 inches",
+        "ground_truth": "The third and fourth day contributed 6+18=<<6+18=24>>24 inches to the depth of the snowdrift.\nTherefore, the size of the snowdrift after half was melted on the second day, but before the snowfall on the third and fourth day, was 34-24=<<34-24=10>>10 inches.\nIf the size of the drift on the second day, after half of the snow had melted, was 10 inches, then the depth of the original drift created on day 1 was 2*10=20 inches deep.\n#### 20"
+    },
+    {
+        "question": "34 inches - 18 inches = 16 inches\n16 inches + 6 inches = 22 inches\n22 inches x 2 = 44 inches\nI hope it is correct: 44 inches\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$44",
+        "ground_truth": "The third and fourth day contributed 6+18=<<6+18=24>>24 inches to the depth of the snowdrift.\nTherefore, the size of the snowdrift after half was melted on the second day, but before the snowfall on the third and fourth day, was 34-24=<<34-24=10>>10 inches.\nIf the size of the drift on the second day, after half of the snow had melted, was 10 inches, then the depth of the original drift created on day 1 was 2*10=20 inches deep.\n#### 20"
+    }
+]

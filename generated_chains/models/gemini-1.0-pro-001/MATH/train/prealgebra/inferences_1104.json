@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe figure shows three squares with non-overlapping interiors. The area of the shaded square is 1 square inch. What is the area of rectangle $ABCD$, in square inches?\n\n[asy]size(100);\npair A = (0,0), D = (3,0),C = (3,2),B = (0,2);\ndraw(A--B--C--D--cycle);\ndraw(A--(1,0)--(1,1)--(0,1)--cycle);\nfilldraw(B--(1,2)--(1,1)--(0,1)--cycle,gray(.6),black);\nlabel(\"$A$\",A,WSW);\nlabel(\"$B$\",B,WNW);\nlabel(\"$C$\",C,ENE);\nlabel(\"$D$\",D,ESE);[/asy]",
+        "inference": "**Solution:** \nThe area of the figure $ABCD$ is $3\\times2=6$ square inches. The area of the shaded square is $1$ square inch, so the area of the unshaded square is $6-1=5$ square inches. The area of the unshaded square is $1+5=6$ square inches.\n**Final Answer: $\\boxed{6}$. I hope it is correct.**",
+        "ground_truth": "The two small squares on the left-hand side both have side length $1$, so both have area $1 \\cdot 1 = 1$. The larger square on the right has side length twice that of one of the smaller squares, giving it a side length of $2$ and an area of $4$. Thus, the area of rectangle $ABCD$ is $1 + 1 + 4 = \\boxed{6}$ square inches."
+    },
+    {
+        "question": "**Solution:** \nThe area of the figure $ABCD$ is $3\\times2=6$ square inches. The area of the shaded square is $1$ square inch, so the area of the unshaded square is $6-1=5$ square inches. The area of the unshaded square is $1+5=6$ square inches.\n**Final Answer: $\\boxed{6}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "**Final Answer: $\\boxed{5}$.**",
+        "ground_truth": "The two small squares on the left-hand side both have side length $1$, so both have area $1 \\cdot 1 = 1$. The larger square on the right has side length twice that of one of the smaller squares, giving it a side length of $2$ and an area of $4$. Thus, the area of rectangle $ABCD$ is $1 + 1 + 4 = \\boxed{6}$ square inches."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn's cow weighs 400 pounds.  It increased its weight to 1.5 times its starting weight.  He is able to sell the cow for $3 per pound.  How much more is it worth after gaining the weight?",
+        "inference": "1. Convert the weight to a decimal\n400 pounds = 400.00 pounds\n\n2.  Determine the new weight by multiplying 1.5 to the starting weight.\n1.5 x 400.00 = 600.00 pounds\n\n3. Find the difference between the new weight and the original weight.\n600.00 pounds - 400.00 pounds = 200.00 pounds\n\n4. Multiply the difference in weight by the price of the cow to find out how much it increased in value.\n200.00 pounds * $3 = $600.00\n\nI hope it is correct: $600.00",
+        "ground_truth": "The cow initially weighs 400*1.5=<<400*1.5=600>>600 pounds\nSo it gained 600 - 400 = <<600-400=200>>200 pounds\nSo its value increased by 200*$3 = $<<200*3=600>>600\n#### 600"
+    },
+    {
+        "question": "1. Convert the weight to a decimal\n400 pounds = 400.00 pounds\n\n2.  Determine the new weight by multiplying 1.5 to the starting weight.\n1.5 x 400.00 = 600.00 pounds\n\n3. Find the difference between the new weight and the original weight.\n600.00 pounds - 400.00 pounds = 200.00 pounds\n\n4. Multiply the difference in weight by the price of the cow to find out how much it increased in value.\n200.00 pounds * $3 = $600.00\n\nI hope it is correct: $600.00\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$600.00",
+        "ground_truth": "The cow initially weighs 400*1.5=<<400*1.5=600>>600 pounds\nSo it gained 600 - 400 = <<600-400=200>>200 pounds\nSo its value increased by 200*$3 = $<<200*3=600>>600\n#### 600"
+    }
+]

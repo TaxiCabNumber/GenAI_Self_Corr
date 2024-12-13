@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nExpress $(4-5i)(-5+5i)$ in the form $a+bi$, where $a$ and $b$ are integers and $i^2 = -1.$",
+        "inference": "$$=(4-5i)(-5+5i)$$\n\n$$=(4)(-5)+(4)(5i)+(-5i)(-5)+(-5i)(5i)$$\n\n$$=-20+20i+25+25$$\n\n$$=5+20i$$\n\n**Final Answer: $$\\boxed{5+20i}$$ I hope it is correct.**",
+        "ground_truth": "We simplify, bearing in mind that $i^2 = -1$. We get  \\begin{align*}\n(4-5i)(-5+5i) &= 4(-5) + 4(5i) -5i(-5) -5i(5i) \\\\ &= -20 +20i +25i +25 \\\\ &= \\boxed{5 + 45i}.\n\\end{align*}"
+    },
+    {
+        "question": "$$=(4-5i)(-5+5i)$$\n\n$$=(4)(-5)+(4)(5i)+(-5i)(-5)+(-5i)(5i)$$\n\n$$=-20+20i+25+25$$\n\n$$=5+20i$$\n\n**Final Answer: $$\\boxed{5+20i}$$ I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{5+20i}$$",
+        "ground_truth": "We simplify, bearing in mind that $i^2 = -1$. We get  \\begin{align*}\n(4-5i)(-5+5i) &= 4(-5) + 4(5i) -5i(-5) -5i(5i) \\\\ &= -20 +20i +25i +25 \\\\ &= \\boxed{5 + 45i}.\n\\end{align*}"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nHow many ways are there to choose 3 cards from a standard deck of 52 cards, if all three cards must be of different suits?  (Assume that the order of the cards does not matter.)",
+        "inference": "There are 13 different suits in a standard deck of 52 cards. If all three cards must be of different suits, then the first card can be chosen in 13 ways. The second card can be chosen in 12 ways, and the third card can be chosen in 11 ways.  Therefore, the number of ways to choose 3 cards from a standard deck of 52 cards if all three cards must be of different suits is:  \n$$13 \\times 12 \\times 11 = 1,716.$$ \nFinal Answer: \\boxed{$1,716$}. I hope it is correct.",
+        "ground_truth": "First, we choose the suits. There are $\\binom{4}{3}=4$ ways to do this. Then, we choose one of 13 cards from each of the chosen suits. There are $13^3=2197$ ways to do this. The total number of ways to choose 3 cards of different suits is therefore $4\\cdot 2197=\\boxed{8788}$."
+    },
+    {
+        "question": "There are 13 different suits in a standard deck of 52 cards. If all three cards must be of different suits, then the first card can be chosen in 13 ways. The second card can be chosen in 12 ways, and the third card can be chosen in 11 ways.  Therefore, the number of ways to choose 3 cards from a standard deck of 52 cards if all three cards must be of different suits is:  \n$$13 \\times 12 \\times 11 = 1,716.$$ \nFinal Answer: \\boxed{$1,716$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$1760$}.",
+        "ground_truth": "First, we choose the suits. There are $\\binom{4}{3}=4$ ways to do this. Then, we choose one of 13 cards from each of the chosen suits. There are $13^3=2197$ ways to do this. The total number of ways to choose 3 cards of different suits is therefore $4\\cdot 2197=\\boxed{8788}$."
+    }
+]

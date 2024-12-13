@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA couple's wedding reception had 180 people. The bride and groom had each invited 20 couples from their side of the family. The remaining guests were friends. How many friends attended the reception?",
+        "inference": "1. The number of couples invited by the bride and groom is 20 + 20 = 40.\n2. The total number of guests invited by the bride and groom is 40 * 2 = 80.\n3. The number of friends attending the reception is 180 - 80 = 100.\n\nI hope it is correct: 100",
+        "ground_truth": "From the bride's side, 20 couples * 2 guests/couple = <<20*2=40>>40 guests attended\nFrom the groom's side, 20 couples * 2 guests/couple = <<20*2=40>>40 guests attended\nTherefore 180 guests - (40 guests + 40 guests) = <<180-(40+40)=100>>100 friends attended the reception\n#### 100"
+    },
+    {
+        "question": "1. The number of couples invited by the bride and groom is 20 + 20 = 40.\n2. The total number of guests invited by the bride and groom is 40 * 2 = 80.\n3. The number of friends attending the reception is 180 - 80 = 100.\n\nI hope it is correct: 100\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$100",
+        "ground_truth": "From the bride's side, 20 couples * 2 guests/couple = <<20*2=40>>40 guests attended\nFrom the groom's side, 20 couples * 2 guests/couple = <<20*2=40>>40 guests attended\nTherefore 180 guests - (40 guests + 40 guests) = <<180-(40+40)=100>>100 friends attended the reception\n#### 100"
+    }
+]

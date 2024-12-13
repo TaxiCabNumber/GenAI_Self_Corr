@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn decided to buy 10 pins for himself.  They are normally $20 each but they were on sale for 15% off.  How much did he spend on pins?",
+        "inference": "- The discount is 15% of $20, which is 15/100 * 20 = $3.\n- So the discounted price of each pin is $20 - $3 = $17.\n- John bought 10 pins, so the total cost is 10 * $17 = $170.\n- I hope it is correct: $170",
+        "ground_truth": "The sell reduced the price of each pin by 20*.15=$<<20*.15=3>>3\nSo he paid 20-3=$<<20-3=17>>17 per pin\nSo the total cost was 17*10=$<<17*10=170>>170\n#### 170"
+    },
+    {
+        "question": "- The discount is 15% of $20, which is 15/100 * 20 = $3.\n- So the discounted price of each pin is $20 - $3 = $17.\n- John bought 10 pins, so the total cost is 10 * $17 = $170.\n- I hope it is correct: $170\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $170$",
+        "ground_truth": "The sell reduced the price of each pin by 20*.15=$<<20*.15=3>>3\nSo he paid 20-3=$<<20-3=17>>17 per pin\nSo the total cost was 17*10=$<<17*10=170>>170\n#### 170"
+    }
+]

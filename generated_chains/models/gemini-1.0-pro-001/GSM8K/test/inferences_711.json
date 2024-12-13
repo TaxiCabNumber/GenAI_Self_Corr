@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe ice cream parlor was offering a deal, buy 2 scoops of ice cream, get 1 scoop free.  Each scoop cost $1.50.  If Erin had  $6.00, how many scoops of ice cream should she buy?",
+        "inference": "1. **Calculate the cost of 1 scoop of ice cream**\n$$1.50$$\n\n2. **Calculate the cost of 2 scoops of ice cream**\n$$1.50 x 2 = 3$$\n\n3. **Since Erin is getting 1 scoop free, subtract the cost of 1 scoop from the cost of 2 scoops.**\n$$3 - 1.50 = 1.50$$\n\n4. **Calculate how many scoops of ice cream Erin can buy with $6.00**\n$$6.00 / 1.50 = 4$$\n\n5. **Erin can buy 4 scoops of ice cream with $6.00**\nI hope it is correct: 4 $scoops$",
+        "ground_truth": "Each scoop cost $1.50. If she buys 2, she gets one free. So it will cost her 2 * 1.50 = $<<2*1.50=3.00>>3.00 for thee scoops total.\nIf you break it down, 3 scoops of ice cream cost $3.00 so 3/3 = $<<3/3=1.00>>1.00 per scoop\nErin has $6.00 and each scoop ends up costing $1.00 each then 6/1 = <<6/1=6>>6 scoops total\n#### 6"
+    },
+    {
+        "question": "1. **Calculate the cost of 1 scoop of ice cream**\n$$1.50$$\n\n2. **Calculate the cost of 2 scoops of ice cream**\n$$1.50 x 2 = 3$$\n\n3. **Since Erin is getting 1 scoop free, subtract the cost of 1 scoop from the cost of 2 scoops.**\n$$3 - 1.50 = 1.50$$\n\n4. **Calculate how many scoops of ice cream Erin can buy with $6.00**\n$$6.00 / 1.50 = 4$$\n\n5. **Erin can buy 4 scoops of ice cream with $6.00**\nI hope it is correct: 4 $scoops$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ 4",
+        "ground_truth": "Each scoop cost $1.50. If she buys 2, she gets one free. So it will cost her 2 * 1.50 = $<<2*1.50=3.00>>3.00 for thee scoops total.\nIf you break it down, 3 scoops of ice cream cost $3.00 so 3/3 = $<<3/3=1.00>>1.00 per scoop\nErin has $6.00 and each scoop ends up costing $1.00 each then 6/1 = <<6/1=6>>6 scoops total\n#### 6"
+    }
+]

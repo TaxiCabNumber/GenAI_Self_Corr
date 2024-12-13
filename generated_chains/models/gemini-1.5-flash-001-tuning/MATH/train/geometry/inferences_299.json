@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind $\\tan Y$ in the right triangle shown below.\n\n[asy]\npair X,Y,Z;\nX = (0,0);\nY = (24,0);\nZ = (0,7);\ndraw(X--Y--Z--X);\ndraw(rightanglemark(Y,X,Z,23));\nlabel(\"$X$\",X,SW);\nlabel(\"$Y$\",Y,SE);\nlabel(\"$Z$\",Z,N);\nlabel(\"$25$\",(Y+Z)/2,NE);\nlabel(\"$24$\",Y/2,S);\n[/asy]",
+        "inference": "Final Answer: $\\boxed{\\frac{7}{24}}$. I hope it is correct. \n",
+        "ground_truth": "The Pythagorean Theorem gives us $XZ= \\sqrt{YZ^2 - XY^2} = \\sqrt{625-576} = \\sqrt{49}=7$, so $\\tan Y = \\frac{XZ}{XY} = \\ \\boxed{\\frac{7}{24}}$."
+    },
+    {
+        "question": "Final Answer: $\\boxed{\\frac{7}{24}}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "You need to provide the question and the solution you are referring to for me to check for errors and provide the correct answer. Please share the question and the solution you have already attempted. \n",
+        "ground_truth": "The Pythagorean Theorem gives us $XZ= \\sqrt{YZ^2 - XY^2} = \\sqrt{625-576} = \\sqrt{49}=7$, so $\\tan Y = \\frac{XZ}{XY} = \\ \\boxed{\\frac{7}{24}}$."
+    }
+]

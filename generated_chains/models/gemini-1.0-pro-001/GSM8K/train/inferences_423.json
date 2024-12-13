@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMom went shopping at the market. She left with \u20ac55. She bought 2 packs of bananas for \u20ac4 each, pears for \u20ac2, asparagus for \u20ac6 and finally a chicken for \u20ac11. How much money does Mom have left?",
+        "inference": "- First, calculate the cost of all the items she bought: 2 packs of bananas \u20ac4 x 2 = \u20ac8, pears \u20ac2, asparagus: \u20ac6 and chicken \u20ac11.\n- Sum up all the expenses: \u20ac8 + \u20ac2 + \u20ac6 + \u20ac11 = \u20ac27\n- Then subtract the total of the expenses from the amount of money she started with: \u20ac55 - \u20ac27 = \u20ac28\nI hope it is correct: \u20ac28",
+        "ground_truth": "Mom bought things that cost: 4 + 4 + 2 + 6 + 11 = \u20ac<<4+4+2+6+11=27>>27 .\nSo she has 55 \u2013 27 = \u20ac<<55-27=28>>28 left\n#### 28"
+    },
+    {
+        "question": "- First, calculate the cost of all the items she bought: 2 packs of bananas \u20ac4 x 2 = \u20ac8, pears \u20ac2, asparagus: \u20ac6 and chicken \u20ac11.\n- Sum up all the expenses: \u20ac8 + \u20ac2 + \u20ac6 + \u20ac11 = \u20ac27\n- Then subtract the total of the expenses from the amount of money she started with: \u20ac55 - \u20ac27 = \u20ac28\nI hope it is correct: \u20ac28\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $28",
+        "ground_truth": "Mom bought things that cost: 4 + 4 + 2 + 6 + 11 = \u20ac<<4+4+2+6+11=27>>27 .\nSo she has 55 \u2013 27 = \u20ac<<55-27=28>>28 left\n#### 28"
+    }
+]

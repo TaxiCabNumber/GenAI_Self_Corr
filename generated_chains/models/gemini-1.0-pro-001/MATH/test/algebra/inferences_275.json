@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind $\\left\\lceil \\sqrt[3]{-25}\\right\\rceil$.",
+        "inference": "Solution:\nWe have $\\sqrt[3]{-25} = -5$. Since $-5$ is not an integer, we round it up to the nearest integer, which is $-5+1 = -4$. Therefore, $\\left\\lceil \\sqrt[3]{-25}\\right\\rceil = -4$.\nFinal Answer: $\\boxed{-4}$. I hope it is correct.",
+        "ground_truth": "We notice that $-27 = (-3)^3 < -25 < -8 = (-2)^3$. Thus, $-3 < \\sqrt[3]{-25} < -2$. The ceiling of this value will be the smallest integer greater than $\\sqrt[3]{-25}$, which is $\\boxed{-2}$."
+    },
+    {
+        "question": "Solution:\nWe have $\\sqrt[3]{-25} = -5$. Since $-5$ is not an integer, we round it up to the nearest integer, which is $-5+1 = -4$. Therefore, $\\left\\lceil \\sqrt[3]{-25}\\right\\rceil = -4$.\nFinal Answer: $\\boxed{-4}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{-4}",
+        "ground_truth": "We notice that $-27 = (-3)^3 < -25 < -8 = (-2)^3$. Thus, $-3 < \\sqrt[3]{-25} < -2$. The ceiling of this value will be the smallest integer greater than $\\sqrt[3]{-25}$, which is $\\boxed{-2}$."
+    }
+]

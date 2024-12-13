@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJudy teaches 5 dance classes, every day, on the weekdays and 8 classes on Saturday.  If each class has 15 students and she charges $15.00 per student, how much money does she make in 1 week?",
+        "inference": "1. Calculate the number of classes Judy teaches in a week:\n5 classes/day x 5 days/week = 25 classes/week\n\n2. Calculate the total number of students Judy teaches in a week:\n25 classes/week x 15 students/class = 375 students/week\n\n3. Calculate the total amount of money Judy makes in a week:\n375 students/week x $15.00/student = $5,625.00/week\n\nI hope it is correct: $5,625.00$",
+        "ground_truth": "She teaches 5 dance classes 5 days a week so that's 5*5 = <<5*5=25>>25 classes\nShe teaches 25 classes during the week and 8 classes on Saturday for a total of 25+8 = <<25+8=33>>33 classes\nThere are 15 students in each of the 33 classes so there are 15*33 = <<15*33=495>>495 students\nEach student pays $15.00 per class and there are 495 students so Judy makes 15*495 = $<<15*495=7425>>7,425\n#### 7425"
+    },
+    {
+        "question": "1. Calculate the number of classes Judy teaches in a week:\n5 classes/day x 5 days/week = 25 classes/week\n\n2. Calculate the total number of students Judy teaches in a week:\n25 classes/week x 15 students/class = 375 students/week\n\n3. Calculate the total amount of money Judy makes in a week:\n375 students/week x $15.00/student = $5,625.00/week\n\nI hope it is correct: $5,625.00$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 5,625.00",
+        "ground_truth": "She teaches 5 dance classes 5 days a week so that's 5*5 = <<5*5=25>>25 classes\nShe teaches 25 classes during the week and 8 classes on Saturday for a total of 25+8 = <<25+8=33>>33 classes\nThere are 15 students in each of the 33 classes so there are 15*33 = <<15*33=495>>495 students\nEach student pays $15.00 per class and there are 495 students so Judy makes 15*495 = $<<15*495=7425>>7,425\n#### 7425"
+    }
+]

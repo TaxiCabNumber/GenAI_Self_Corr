@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA population of bacteria is doubling every four hours. At noon there are $600$ bacteria. If this rate continues, how many bacteria will be present at midnight, twelve hours later?",
+        "inference": "- At 4:00 pm, there will be $600\\times2=1200$ bacteria.\n- At 8:00 pm, there will be $1200\\times2=2400$ bacteria.\n- At 12:00 am, there will be $2400\\times2=\\boxed{4800}$ bacteria.\nFinal Answer: $\\boxed{4800}$. I hope it is correct.",
+        "ground_truth": "Twelve hours later is three four-hour intervals later, so the population will double three times. The population size will be $600\\times2\\times2\\times2=600\\times2^3=\\boxed{4800}$ bacteria."
+    },
+    {
+        "question": "- At 4:00 pm, there will be $600\\times2=1200$ bacteria.\n- At 8:00 pm, there will be $1200\\times2=2400$ bacteria.\n- At 12:00 am, there will be $2400\\times2=\\boxed{4800}$ bacteria.\nFinal Answer: $\\boxed{4800}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$4800$}.",
+        "ground_truth": "Twelve hours later is three four-hour intervals later, so the population will double three times. The population size will be $600\\times2\\times2\\times2=600\\times2^3=\\boxed{4800}$ bacteria."
+    }
+]

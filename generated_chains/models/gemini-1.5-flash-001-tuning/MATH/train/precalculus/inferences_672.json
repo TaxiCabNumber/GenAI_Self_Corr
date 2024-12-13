@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe dilation, centered at $2 + 3i,$ with scale factor 3, takes $-1 - i$ to which complex number?",
+        "inference": "Final Answer: \\\\boxed{7 + 8i}. I hope it is correct. \n",
+        "ground_truth": "Let $z$ be the image of $-1 - i$ under the dilation.\n\n[asy]\nunitsize(0.5 cm);\n\npair C, P, Q;\n\nC = (2,3);\nP = (-1,-1);\nQ = interp(C,P,3);\ndraw((-10,0)--(10,0));\ndraw((0,-10)--(0,10));\ndraw(C--Q,dashed);\n\ndot(\"$2 + 3i$\", (2,3), NE);\ndot(\"$-1 - i$\", (-1,-1), NW);\ndot(\"$-7 - 9i$\", (-7,-9), SW);\n[/asy]\n\nSince the dilation is centered at $2 + 3i,$ with scale factor 3,\n\\[z - (2 + 3i) = 3((-1 - i) - (2 + 3i)).\\]Solving, we find $z = \\boxed{-7 - 9i}.$"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{7 + 8i}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the original question and the solution you provided so I can check for errors and provide a corrected answer. \n",
+        "ground_truth": "Let $z$ be the image of $-1 - i$ under the dilation.\n\n[asy]\nunitsize(0.5 cm);\n\npair C, P, Q;\n\nC = (2,3);\nP = (-1,-1);\nQ = interp(C,P,3);\ndraw((-10,0)--(10,0));\ndraw((0,-10)--(0,10));\ndraw(C--Q,dashed);\n\ndot(\"$2 + 3i$\", (2,3), NE);\ndot(\"$-1 - i$\", (-1,-1), NW);\ndot(\"$-7 - 9i$\", (-7,-9), SW);\n[/asy]\n\nSince the dilation is centered at $2 + 3i,$ with scale factor 3,\n\\[z - (2 + 3i) = 3((-1 - i) - (2 + 3i)).\\]Solving, we find $z = \\boxed{-7 - 9i}.$"
+    }
+]

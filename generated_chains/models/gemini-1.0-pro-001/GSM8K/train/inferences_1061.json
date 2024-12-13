@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn Smith buys 3 cakes for $12 each and splits the cost with his brother.  How much did he pay?",
+        "inference": "1) John Smith bought 3 cakes for $12 each.  3 x 12 = 36.  John Smith paid $36.\n2) John Smith splits the cost with his brother.  36 / 2 = 18.  John Smith paid $18.\n\nI hope it is correct: $18",
+        "ground_truth": "The cakes cost 3*12=$<<3*12=36>>36\nSo he paid 36/2=$<<36/2=18>>18\n#### 18"
+    },
+    {
+        "question": "1) John Smith bought 3 cakes for $12 each.  3 x 12 = 36.  John Smith paid $36.\n2) John Smith splits the cost with his brother.  36 / 2 = 18.  John Smith paid $18.\n\nI hope it is correct: $18\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$36",
+        "ground_truth": "The cakes cost 3*12=$<<3*12=36>>36\nSo he paid 36/2=$<<36/2=18>>18\n#### 18"
+    }
+]

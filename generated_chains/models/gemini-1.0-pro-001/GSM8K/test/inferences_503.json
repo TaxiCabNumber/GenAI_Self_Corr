@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe rug is 5 feet wider than the chair. The couch is 2 feet longer than twice the width of the rug. If the chair is 3 feet wide. How many feet long is the couch?",
+        "inference": "**Step 1:** The rug is 5 feet wider than the chair. So, the width of the rug is 3 + 5 = 8 feet.\n\n**Step 2:** The couch is 2 feet longer than twice the width of the rug. So, the length of the couch is 2(8) + 2 = 18 feet.\n\n**I hope it is correct: 18**",
+        "ground_truth": "Chair = <<3=3>>3 feet\nRug = 3 + 5 = <<3+5=8>>8 feet\nCouch = 2 * 8 + 2 = <<2*8+2=18>>18 feet\nThe couch is <<18=18>>18 feet long.\n#### 18"
+    },
+    {
+        "question": "**Step 1:** The rug is 5 feet wider than the chair. So, the width of the rug is 3 + 5 = 8 feet.\n\n**Step 2:** The couch is 2 feet longer than twice the width of the rug. So, the length of the couch is 2(8) + 2 = 18 feet.\n\n**I hope it is correct: 18**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$18",
+        "ground_truth": "Chair = <<3=3>>3 feet\nRug = 3 + 5 = <<3+5=8>>8 feet\nCouch = 2 * 8 + 2 = <<2*8+2=18>>18 feet\nThe couch is <<18=18>>18 feet long.\n#### 18"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\n$\\Delta ABC$ is isosceles with $AC = BC$. If $m\\angle C = 40^{\\circ}$, what is the number of degrees in $m\\angle CBD$? [asy] pair A,B,C,D,E;\nC = dir(65); B = C + dir(-65); D = (1.5,0); E = (2,0);\ndraw(B--C--A--E); dot(D);\nlabel(\"$A$\",A,S); label(\"$B$\",B,S); label(\"$D$\",D,S); label(\"$C$\",C,N);\n[/asy]",
+        "inference": "Final Answer: \\\\boxed{70}. I hope it is correct. \n",
+        "ground_truth": "Let $x$ be the number of degrees in $\\angle ABC$. Since $\\triangle ABC$ is isosceles with $AC=BC$, we have $\\angle BAC=\\angle ABC$.\n\nSo, the three interior angles of $\\triangle ABC$ measure $x^\\circ$, $x^\\circ$, and $40^\\circ$. The sum of the angles in a triangle is $180^\\circ$, so we have $$x+x+40 = 180,$$which we can solve to obtain $x=70$. Finally, $\\angle CBD$ is supplementary to angle $\\angle ABC$, so \\begin{align*}\nm\\angle CBD &= 180^\\circ - m\\angle ABC \\\\\n&= 180^\\circ - 70^\\circ \\\\\n&= \\boxed{110}^\\circ.\n\\end{align*}"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{70}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need the context to be able to identify and correct any potential errors. \n",
+        "ground_truth": "Let $x$ be the number of degrees in $\\angle ABC$. Since $\\triangle ABC$ is isosceles with $AC=BC$, we have $\\angle BAC=\\angle ABC$.\n\nSo, the three interior angles of $\\triangle ABC$ measure $x^\\circ$, $x^\\circ$, and $40^\\circ$. The sum of the angles in a triangle is $180^\\circ$, so we have $$x+x+40 = 180,$$which we can solve to obtain $x=70$. Finally, $\\angle CBD$ is supplementary to angle $\\angle ABC$, so \\begin{align*}\nm\\angle CBD &= 180^\\circ - m\\angle ABC \\\\\n&= 180^\\circ - 70^\\circ \\\\\n&= \\boxed{110}^\\circ.\n\\end{align*}"
+    }
+]

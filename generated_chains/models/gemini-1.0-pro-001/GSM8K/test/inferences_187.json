@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMandy owes Benedict $100. They agreed to have monthly interest of 2%. If Mandy was able to pay it after 3 months, how much should she give to Benedict?",
+        "inference": "**Step 1:** Calculate the interest for 1 month.\n\nInterest = Principal x Rate x Time\nInterest for 1 month = $100 x 0.02 x 1 = $2\n\n**Step 2:** Calculate the total interest for 3 months.\n\nTotal interest = Interest for 1 month x 3\nTotal interest = $2 x 3 = $6\n\n**Step 3:** Calculate the total amount to be paid.\n\nTotal amount = Principal + Total interest\nTotal amount = $100 + $6 = $106\n\nI hope it is correct: $106",
+        "ground_truth": "The monthly interest is $100 x 2/100 = $<<100*2/100=2>>2.\nAfter 3 months, the total interest amount to $2 x 3 = $<<2*3=6>>6.\nTherefore, Mandy should give Benedict a total of $100 + $6 = $<<100+6=106>>106.\n#### 106"
+    },
+    {
+        "question": "**Step 1:** Calculate the interest for 1 month.\n\nInterest = Principal x Rate x Time\nInterest for 1 month = $100 x 0.02 x 1 = $2\n\n**Step 2:** Calculate the total interest for 3 months.\n\nTotal interest = Interest for 1 month x 3\nTotal interest = $2 x 3 = $6\n\n**Step 3:** Calculate the total amount to be paid.\n\nTotal amount = Principal + Total interest\nTotal amount = $100 + $6 = $106\n\nI hope it is correct: $106\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $106$",
+        "ground_truth": "The monthly interest is $100 x 2/100 = $<<100*2/100=2>>2.\nAfter 3 months, the total interest amount to $2 x 3 = $<<2*3=6>>6.\nTherefore, Mandy should give Benedict a total of $100 + $6 = $<<100+6=106>>106.\n#### 106"
+    }
+]

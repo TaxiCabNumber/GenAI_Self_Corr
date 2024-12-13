@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nGus spent $20.00 at the grocery store.  He bought 2 bag of chips for $2.00 each, a bucket of fried chicken for $8.00 and a bottle of soda for $1.00.  How much did the apple pie cost?",
+        "inference": "**Solution:**\n\n1. Subtract the cost of the chips, chicken, and soda from the total amount spent:\n$20.00 - (2 x $2.00) - $8.00 - $1.00 = $7.00$\n\n2. Therefore, the apple pie cost **$7.00$**.\n\nI hope it is correct: $7.00$",
+        "ground_truth": "He bought 2 bags of chips at $2.00 each so they cost 2*2 = $<<2*2=4.00>>4.00\nHe spent $4.00 on chips, $8.00 on fried chicken and $1.00 on soda so he spent 4+8+1 = $<<4+8+1=13.00>>13.00\nHe spent $20.00 and all of the groceries, except for the pie cost $13.00 so that means the apple pie cost 20-13 = $<<20-13=7.00>>7.00\n#### 7"
+    },
+    {
+        "question": "**Solution:**\n\n1. Subtract the cost of the chips, chicken, and soda from the total amount spent:\n$20.00 - (2 x $2.00) - $8.00 - $1.00 = $7.00$\n\n2. Therefore, the apple pie cost **$7.00$**.\n\nI hope it is correct: $7.00$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $7.00$",
+        "ground_truth": "He bought 2 bags of chips at $2.00 each so they cost 2*2 = $<<2*2=4.00>>4.00\nHe spent $4.00 on chips, $8.00 on fried chicken and $1.00 on soda so he spent 4+8+1 = $<<4+8+1=13.00>>13.00\nHe spent $20.00 and all of the groceries, except for the pie cost $13.00 so that means the apple pie cost 20-13 = $<<20-13=7.00>>7.00\n#### 7"
+    }
+]

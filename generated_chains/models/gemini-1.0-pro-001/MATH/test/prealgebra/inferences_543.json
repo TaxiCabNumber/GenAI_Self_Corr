@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe circle graph shows the favorite ice cream flavors of those surveyed. What fraction of people surveyed selected either chocolate or strawberry as their favorite flavor of ice cream? [asy]\nsize(200);\ndraw(Circle((0,0),10));\ndraw((0,10)--(0,-10));\ndraw((0,0)--(10,0));\ndraw((0,0)--(10*cos(pi/5),10*sin(pi/5)));\nlabel(\"50\\%\",(-5,0),N);\nlabel(\"Chocolate\",(-5,0),S);\nlabel(\"25\\%\",(4,-5),N);\nlabel(\"Vanilla\",(4,-5),S);\nlabel(\"15\\%\",(2,6),N);\nlabel(\"Mint\",(2,6),S);\nlabel(\"10\\%\",(8,2),N);\nlabel(\"Strawberry\",(7,2),S);\n[/asy]",
+        "inference": "- Chocolate is 50% and Strawberry is 10%.\n- Add 50% and 10% to get 60%.\n- Convert 60% into fraction form. That means 60/100.\n- Simplify the fraction. That means (60/100) = (3/5).\nFinal Answer: \\boxed{$\\frac{3}{5}$}. I hope it is correct.",
+        "ground_truth": "Since $50\\%$ selected chocolate and $10\\%$ selected strawberry as their favorite flavor, then overall $50\\%+10\\%=60\\%$ chose chocolate or strawberry as their favorite flavor. Now $$60\\% = \\frac{60}{100}=\\frac{3}{5},$$so $\\boxed{\\frac{3}{5}}$ of the people surveyed selected chocolate or strawberry as their favorite flavor."
+    },
+    {
+        "question": "- Chocolate is 50% and Strawberry is 10%.\n- Add 50% and 10% to get 60%.\n- Convert 60% into fraction form. That means 60/100.\n- Simplify the fraction. That means (60/100) = (3/5).\nFinal Answer: \\boxed{$\\frac{3}{5}$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$\\frac{3}{5}$}.",
+        "ground_truth": "Since $50\\%$ selected chocolate and $10\\%$ selected strawberry as their favorite flavor, then overall $50\\%+10\\%=60\\%$ chose chocolate or strawberry as their favorite flavor. Now $$60\\% = \\frac{60}{100}=\\frac{3}{5},$$so $\\boxed{\\frac{3}{5}}$ of the people surveyed selected chocolate or strawberry as their favorite flavor."
+    }
+]

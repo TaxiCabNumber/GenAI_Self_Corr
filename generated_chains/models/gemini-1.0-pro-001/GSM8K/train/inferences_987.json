@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIf Lucy would give Linda $5, Lucy would have the same amount of money as Linda. If Lucy originally had $20, how much money did Linda have at the beginning?",
+        "inference": "1. Let x be the amount of money Linda had at the beginning.\n\n2. If Lucy would give Linda $5, Lucy would have x + $5.\n\n3. Since Lucy originally had $20, we can set up the equation:\n\nx + $5 = $20\n\n4. Solving for x, we get:\n\nx = $20 - $5\nx = $15\n\nI hope it is correct: $15",
+        "ground_truth": "After giving $5, Lucy has $20 - $5 = $<<20-5=15>>15 left.\nSince Linda has $15 after receiving $5, then she had $15 - $5 = $<<15-5=10>>10 at the beginning.\n#### 10"
+    },
+    {
+        "question": "1. Let x be the amount of money Linda had at the beginning.\n\n2. If Lucy would give Linda $5, Lucy would have x + $5.\n\n3. Since Lucy originally had $20, we can set up the equation:\n\nx + $5 = $20\n\n4. Solving for x, we get:\n\nx = $20 - $5\nx = $15\n\nI hope it is correct: $15\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$15",
+        "ground_truth": "After giving $5, Lucy has $20 - $5 = $<<20-5=15>>15 left.\nSince Linda has $15 after receiving $5, then she had $15 - $5 = $<<15-5=10>>10 at the beginning.\n#### 10"
+    }
+]

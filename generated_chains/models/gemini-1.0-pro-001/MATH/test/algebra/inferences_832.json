@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe equation $y = -16t^2 + 26t + 105$ describes the height (in feet) of a ball tossed up in the air at 26 feet per second from a height of 105 feet above the ground. In how many seconds will the ball hit the ground? Express your answer as a decimal rounded to the nearest tenth.",
+        "inference": "To find when the ball will hit the ground, we need to find when $y = 0$. \n$$0 = -16t^2 + 26t + 105$$\n\n$$16t^2 - 26t - 105 = 0$$\n\nFactoring and using the Zero Product Property: \n$$(4t + 15)(4t - 7) = 0$$\n\n$$4t + 15 = 0 \\quad \\text{or} \\quad 4t - 7 = 0$$\n\n$$4t = -15 \\quad \\text{or} \\quad 4t = 7$$\n\n$$t = -\\frac{15}{4} \\quad \\text{or} \\quad t = \\frac{7}{4}$$\n\nSince time cannot be negative, we disregard the negative solution, so the ball hits the ground at $t = \\frac{7}{4}$ seconds.\n\n$$Final Answer: \\boxed{1.8}.$$",
+        "ground_truth": "Setting $y$ to zero, we find the following: \\begin{align*}\n0& = -16t^2 + 26t + 105\\\\\n& = 16t^2 - 26t - 105\\\\\n& = (8t + 15)(2t - 7)\n\\end{align*}As $t$ must be positive, we can see that $t = \\frac{7}{2} = \\boxed{3.5}.$"
+    },
+    {
+        "question": "To find when the ball will hit the ground, we need to find when $y = 0$. \n$$0 = -16t^2 + 26t + 105$$\n\n$$16t^2 - 26t - 105 = 0$$\n\nFactoring and using the Zero Product Property: \n$$(4t + 15)(4t - 7) = 0$$\n\n$$4t + 15 = 0 \\quad \\text{or} \\quad 4t - 7 = 0$$\n\n$$4t = -15 \\quad \\text{or} \\quad 4t = 7$$\n\n$$t = -\\frac{15}{4} \\quad \\text{or} \\quad t = \\frac{7}{4}$$\n\nSince time cannot be negative, we disregard the negative solution, so the ball hits the ground at $t = \\frac{7}{4}$ seconds.\n\n$$Final Answer: \\boxed{1.8}.$$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$1.75$}",
+        "ground_truth": "Setting $y$ to zero, we find the following: \\begin{align*}\n0& = -16t^2 + 26t + 105\\\\\n& = 16t^2 - 26t - 105\\\\\n& = (8t + 15)(2t - 7)\n\\end{align*}As $t$ must be positive, we can see that $t = \\frac{7}{2} = \\boxed{3.5}.$"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf \\begin{align*}\n4x-y+2z&=7,\\\\\n6x+3y+3z&=5,\n\\end{align*} compute $y$.",
+        "inference": "$$4x-y+2z=7$$\n$$\\Rightarrow 6y=6x+3y+3z-4x+y-2z$$\n$$\\Rightarrow 6y=3y+2x$$\n$$\\Rightarrow 3y=-2x$$\n$$\\Rightarrow y=-\\frac{2}{3}x$$\n\n\n$$\\therefore Final \\ Answer: \\boxed{- \\frac{2}{3}x}.$$",
+        "ground_truth": "Let $w=2x+z$.  The equations become \\begin{align*}\n2w-y&=7,\\\\\n3w+3y&=5.\n\\end{align*} Subtracting twice the second equation from three times the first equation,  $$6w-3y-6w-6y=21-10\\Rightarrow -9y=11.$$ Thus $y=\\boxed{-\\frac{11}{9}}$."
+    },
+    {
+        "question": "$$4x-y+2z=7$$\n$$\\Rightarrow 6y=6x+3y+3z-4x+y-2z$$\n$$\\Rightarrow 6y=3y+2x$$\n$$\\Rightarrow 3y=-2x$$\n$$\\Rightarrow y=-\\frac{2}{3}x$$\n\n\n$$\\therefore Final \\ Answer: \\boxed{- \\frac{2}{3}x}.$$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{- \\frac{2}{3}x}$$",
+        "ground_truth": "Let $w=2x+z$.  The equations become \\begin{align*}\n2w-y&=7,\\\\\n3w+3y&=5.\n\\end{align*} Subtracting twice the second equation from three times the first equation,  $$6w-3y-6w-6y=21-10\\Rightarrow -9y=11.$$ Thus $y=\\boxed{-\\frac{11}{9}}$."
+    }
+]

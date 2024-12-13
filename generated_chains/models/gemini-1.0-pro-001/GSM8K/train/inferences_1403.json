@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBrad\u2019s zip code consists of five numbers that add up to 10. The first and second numbers are the same. The third number is zero. The fourth number is double the first number. The fourth and fifth numbers add up to 8. What is Brad\u2019s zip code?",
+        "inference": "First number: x\nSecond number: x\nThird number: 0\nFourth number: 2x\nFifth number: 8 \u2013 2x\n\nx + x + 0 + 2x + 8 \u2013 2x = 10\n4x = 2\nx = \u00bd\n\nBrad\u2019s zip code: 11024\nI hope it is correct: 11024",
+        "ground_truth": "The five numbers add up to 10, so the first three numbers add up to 10 - 8 = <<10-8=2>>2.\nThe third number is 0, so the first two numbers add up to 2 - 0 = <<2-0=2>>2.\nThe first and second numbers are equal, so they are both 2 / 2 = <<2/2=1>>1.\nThe fourth number is double the first number, so it is 2 * 1 = <<1*2=2>>2.\nThe fifth number is 8 - 2 = <<8-2=6>>6.\nThus, Brad\u2019s zip code is 11026.\n#### 11026"
+    },
+    {
+        "question": "First number: x\nSecond number: x\nThird number: 0\nFourth number: 2x\nFifth number: 8 \u2013 2x\n\nx + x + 0 + 2x + 8 \u2013 2x = 10\n4x = 2\nx = \u00bd\n\nBrad\u2019s zip code: 11024\nI hope it is correct: 11024\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$11024",
+        "ground_truth": "The five numbers add up to 10, so the first three numbers add up to 10 - 8 = <<10-8=2>>2.\nThe third number is 0, so the first two numbers add up to 2 - 0 = <<2-0=2>>2.\nThe first and second numbers are equal, so they are both 2 / 2 = <<2/2=1>>1.\nThe fourth number is double the first number, so it is 2 * 1 = <<1*2=2>>2.\nThe fifth number is 8 - 2 = <<8-2=6>>6.\nThus, Brad\u2019s zip code is 11026.\n#### 11026"
+    }
+]

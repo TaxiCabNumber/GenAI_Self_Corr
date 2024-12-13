@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn the triangle shown, what is the positive difference between the greatest and least possible integral values of $x$?\n\n[asy]\n\ndefaultpen(linewidth(0.7));\npair a,b,c;\nb = (1,2); c = (3,0);\ndraw(a--b--c--a);\nlabel(\"$x$\",a--b,dir(135)); label(\"5\",b--c,dir(45)); label(\"6\",c--a,S);\n[/asy]",
+        "inference": "By the Triangle Inequality, the sum of the lengths of any two sides of a triangle must be greater than the length of the third side.\n\n*  $x + 5 > 6$, so $x > 1$.\n*  $x + 6 > 5$, so $x > -1$.\n*  $5 + 6 > x$, so $x < 11$.\n\nThus, the greatest possible integral value of $x$ is 10, and the least possible integral value of $x$ is 2. Their difference is $10 - 2 = 8$.\n\nFinal Answer: $\\boxed{8}$. I hope it is correct. \n",
+        "ground_truth": "We have $x<6+5=11$ and $x>6-5=1$, so the possible values of $x$ are from $2$ to $10$, and their difference is $10-2 = \\boxed{8}$."
+    },
+    {
+        "question": "By the Triangle Inequality, the sum of the lengths of any two sides of a triangle must be greater than the length of the third side.\n\n*  $x + 5 > 6$, so $x > 1$.\n*  $x + 6 > 5$, so $x > -1$.\n*  $5 + 6 > x$, so $x < 11$.\n\nThus, the greatest possible integral value of $x$ is 10, and the least possible integral value of $x$ is 2. Their difference is $10 - 2 = 8$.\n\nFinal Answer: $\\boxed{8}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct. \n\nFinal Answer: $\\boxed{8}$. I hope it is correct. \n",
+        "ground_truth": "We have $x<6+5=11$ and $x>6-5=1$, so the possible values of $x$ are from $2$ to $10$, and their difference is $10-2 = \\boxed{8}$."
+    }
+]

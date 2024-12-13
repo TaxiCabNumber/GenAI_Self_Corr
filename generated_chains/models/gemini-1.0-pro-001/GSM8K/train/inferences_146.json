@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRichard can clean his room in 22 minutes. Cory takes 3 minutes more than Richard to clean her room while Blake can clean his room 4 minutes more quickly than Cory. If they have to clean their rooms twice a week, how many minutes do all three spend cleaning their rooms each week?",
+        "inference": "1. Richard takes 22 minutes to clean his room.\n2. Cory takes 3 minutes more than Richard to clean her room, so Cory takes 22 + 3 = 25 minutes.\n3. Blake can clean his room 4 minutes more quickly than Cory, so Blake takes 25 - 4 = 21 minutes.\n4. They have to clean their rooms twice a week, so Richard spends 22 * 2 = 44 minutes, Cory spends 25 * 2 = 50 minutes, and Blake spends 21 * 2 = 42 minutes.\n5. All three spend 44 + 50 + 42 = 136 minutes cleaning their rooms each week.\nI hope it is correct: 136",
+        "ground_truth": "Cory takes 22 + 3 = <<22+3=25>>25 minutes to clean her room.\nBlake takes 25 - 4 = <<25-4=21>>21 minutes to clean his room.\nThe three of them can clean their room in 22 + 25 + 21 = <<22+25+21=68>>68 minutes in all.\nIn a week, they spend 68 x 2 = <<68*2=136>>136 minutes cleaning their rooms.\n#### 136"
+    },
+    {
+        "question": "1. Richard takes 22 minutes to clean his room.\n2. Cory takes 3 minutes more than Richard to clean her room, so Cory takes 22 + 3 = 25 minutes.\n3. Blake can clean his room 4 minutes more quickly than Cory, so Blake takes 25 - 4 = 21 minutes.\n4. They have to clean their rooms twice a week, so Richard spends 22 * 2 = 44 minutes, Cory spends 25 * 2 = 50 minutes, and Blake spends 21 * 2 = 42 minutes.\n5. All three spend 44 + 50 + 42 = 136 minutes cleaning their rooms each week.\nI hope it is correct: 136\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$136",
+        "ground_truth": "Cory takes 22 + 3 = <<22+3=25>>25 minutes to clean her room.\nBlake takes 25 - 4 = <<25-4=21>>21 minutes to clean his room.\nThe three of them can clean their room in 22 + 25 + 21 = <<22+25+21=68>>68 minutes in all.\nIn a week, they spend 68 x 2 = <<68*2=136>>136 minutes cleaning their rooms.\n#### 136"
+    }
+]

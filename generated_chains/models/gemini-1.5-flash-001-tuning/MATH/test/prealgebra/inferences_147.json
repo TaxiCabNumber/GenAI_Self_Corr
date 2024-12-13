@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe lengths of two opposite sides of a square are decreased by $40\\%$ while the lengths of the other two sides are increased by $50\\%$ to form a rectangle. By what percent does the square's area decrease?",
+        "inference": "Let the side length of the square be $s$.  The area of the square is $s^2$.\n\nThe lengths of two opposite sides of the square are decreased by $40\\%$, so their length is now $0.6s$.  The lengths of the other two sides of the square are increased by $50\\%$, so their length is now $1.5s$.  The area of the rectangle is $(0.6s)(1.5s) = 0.9s^2$.\n\nThe area of the square decreased by $s^2 - 0.9s^2 = 0.1s^2$.  This is a decrease of $\\frac{0.1s^2}{s^2} = 0.1 = \\boxed{10\\%}$.  Final Answer: $\\boxed{10\\%}$. I hope it is correct. \n",
+        "ground_truth": "Let $A$ be the area of the square. The lengths of one pair of opposite sides was decreased by $40\\%$, so the area became $.6A$. The other pair of sides were increased by $50\\%$, so the area became $1.5\\cdot .6 A = .9A$. Thus, the area decreased by $\\boxed{10}$ percent."
+    },
+    {
+        "question": "Let the side length of the square be $s$.  The area of the square is $s^2$.\n\nThe lengths of two opposite sides of the square are decreased by $40\\%$, so their length is now $0.6s$.  The lengths of the other two sides of the square are increased by $50\\%$, so their length is now $1.5s$.  The area of the rectangle is $(0.6s)(1.5s) = 0.9s^2$.\n\nThe area of the square decreased by $s^2 - 0.9s^2 = 0.1s^2$.  This is a decrease of $\\frac{0.1s^2}{s^2} = 0.1 = \\boxed{10\\%}$.  Final Answer: $\\boxed{10\\%}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{10\\%} \n",
+        "ground_truth": "Let $A$ be the area of the square. The lengths of one pair of opposite sides was decreased by $40\\%$, so the area became $.6A$. The other pair of sides were increased by $50\\%$, so the area became $1.5\\cdot .6 A = .9A$. Thus, the area decreased by $\\boxed{10}$ percent."
+    }
+]

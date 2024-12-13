@@ -9,7 +9,9 @@ set N=2
 set SUBJECTS=0
 
 REM Set other parameters
-set MODEL_NAME=gemini-1.5-flash-8b
+set MODEL_NAME=models/gemini-1.5-flash-001-tuning
+set MODE=train
+set DATASET=GSM8K
 set NUMBER_OF_ROUNDS=1
 set INIT_PROMPT="You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'"
 set SELF_CORR_PROMPT="There might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution! At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'"
@@ -55,7 +57,16 @@ for %%j in (%SUBJECTS%) do (
     timeout /t 1 /nobreak
 )
 
+REM Define the results path
+set RESULTS_PATH=./results/%MODEL_NAME%/%DATASET%/%MODE%/
+
+REM Run the filter_dataset.py script with the results path
+python filter_dataset.py %RESULTS_PATH%
+
 REM Deactivate the Anaconda environment
-call conda deactivate
+REM conda deactivate
+
+
+
 
 pause

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nAt the beginning of a program, the 105 members of a marching band stand in a rectangular formation named Formation $A$. All of the band members then move into Formation $B$, which is a different rectangular formation with six more rows, but with two fewer band members per row. How many rows are in Formation $A$?",
+        "inference": "Final Answer: \\\\boxed{15}. I hope it is correct. \n",
+        "ground_truth": "Let there be $x$ rows with $y$ band members per row in Formation $A$. Then we have $xy=105$. From the information about Formation $B$, we have $(x+6)(y-2)=105$. Multiplying and substituting $xy=105$, we get $xy-2x+6y-12=105-2x+6y-12=105\\Leftrightarrow -2x+6y=12\\Leftrightarrow x=3y-6$. We now substitute $3y-6$ for $x$ in $xy=105$ and use the quadratic formula to solve the resulting quadratic equation, $3y^2-6y-105=0$. The positive solution, $y=7$, gives $x=15$. Thus, there are $\\boxed{15}$ rows in Formation $A$."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{15}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need that information to identify any potential errors and rewrite the solution correctly. \n",
+        "ground_truth": "Let there be $x$ rows with $y$ band members per row in Formation $A$. Then we have $xy=105$. From the information about Formation $B$, we have $(x+6)(y-2)=105$. Multiplying and substituting $xy=105$, we get $xy-2x+6y-12=105-2x+6y-12=105\\Leftrightarrow -2x+6y=12\\Leftrightarrow x=3y-6$. We now substitute $3y-6$ for $x$ in $xy=105$ and use the quadratic formula to solve the resulting quadratic equation, $3y^2-6y-105=0$. The positive solution, $y=7$, gives $x=15$. Thus, there are $\\boxed{15}$ rows in Formation $A$."
+    }
+]

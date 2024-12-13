@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nEvaluate $6+5-4\\times 3\\div (2+1).$",
+        "inference": "$6+5-4\\times 3\\div (2+1)$\n\n$= 6+5-4\\times 3\\div 3$\n\n$= 6+5-4\\times 1$\n\n$= 6+5-4$\n\n$= 7-4$\n\n$= 3.$\nFinal Answer: $\\boxed{3}.$ I hope it is correct.",
+        "ground_truth": "First, we perform the operation in parentheses: \\[6+5-4\\times 3\\div (2+1) = 6+5-4\\times 3\\div 3.\\] Then, we perform multiplication and division, going from left to right: \\begin{align*}\n6+5-4\\times 3\\div 3 &= 6+5-12 \\div 3 \\\\\n&=6+5-4.\n\\end{align*} Finally, we perform addition and subtraction, going from left to right, to get our answer: \\begin{align*}\n6+5-4 &= 11-4 \\\\\n&=\\boxed{7}.\n\\end{align*}"
+    },
+    {
+        "question": "$6+5-4\\times 3\\div (2+1)$\n\n$= 6+5-4\\times 3\\div 3$\n\n$= 6+5-4\\times 1$\n\n$= 6+5-4$\n\n$= 7-4$\n\n$= 3.$\nFinal Answer: $\\boxed{3}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$3$}.",
+        "ground_truth": "First, we perform the operation in parentheses: \\[6+5-4\\times 3\\div (2+1) = 6+5-4\\times 3\\div 3.\\] Then, we perform multiplication and division, going from left to right: \\begin{align*}\n6+5-4\\times 3\\div 3 &= 6+5-12 \\div 3 \\\\\n&=6+5-4.\n\\end{align*} Finally, we perform addition and subtraction, going from left to right, to get our answer: \\begin{align*}\n6+5-4 &= 11-4 \\\\\n&=\\boxed{7}.\n\\end{align*}"
+    }
+]

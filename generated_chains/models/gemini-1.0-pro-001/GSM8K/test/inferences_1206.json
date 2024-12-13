@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn decides to get a loan by mortgaging his home.  His house is worth $250,000.  He gets a loan worth 40% of that.  He uses 60% of that to pay off his debts.  How much money did he have leftover after paying debt?",
+        "inference": "* 40% of $250,000 = $100,000 (loan amount).\n* 60% of $100,000 = $60,000 (amount used to pay off debt).\n* $100,000 - $60,000 = $40,000 (money leftover after paying debt).\n\nI hope it is correct: $40,000",
+        "ground_truth": "His loan is worth 250,000*.4=$<<250000*.4=100000>>100,000\nThat means he uses 100,000*.6=$<<100000*.6=60000>>60,000 to pay off debts\nSo he has 100,000-60,000=$<<100000-60000=40000>>40,000 leftover\n#### 40,000"
+    },
+    {
+        "question": "* 40% of $250,000 = $100,000 (loan amount).\n* 60% of $100,000 = $60,000 (amount used to pay off debt).\n* $100,000 - $60,000 = $40,000 (money leftover after paying debt).\n\nI hope it is correct: $40,000\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $40,000$",
+        "ground_truth": "His loan is worth 250,000*.4=$<<250000*.4=100000>>100,000\nThat means he uses 100,000*.6=$<<100000*.6=60000>>60,000 to pay off debts\nSo he has 100,000-60,000=$<<100000-60000=40000>>40,000 leftover\n#### 40,000"
+    }
+]

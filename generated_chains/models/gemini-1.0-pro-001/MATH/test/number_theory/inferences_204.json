@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCards are numbered from 1 to 100. One card is removed and the values on the other 99 are added. The resulting sum is a multiple of 77. What number was on the card that was removed?",
+        "inference": "The sum of the numbers from 1 to 99 is 4950.\nSince 4950 is a multiple of 77, the sum of the numbers on the 99 cards will be a multiple of 77.\nTherefore, the number that was removed must be a multiple of 77.\nThe only number from 1 to 100 that is a multiple of 77 is 77.\n**Final Answer: $\\boxed{77}$. I hope it is correct.**",
+        "ground_truth": "The sum of the numbers from 1 to 100 is \\[1 + 2 + \\dots + 100 = \\frac{100 \\cdot 101}{2} = 5050.\\] When this number is divided by 77, the remainder is 45.  Therefore, the number that was removed must be congruent to 45 modulo 77.\n\nHowever, among the numbers 1, 2, $\\dots$, 100, only the number $\\boxed{45}$ itself is congruent to 45 modulo 77.  Therefore, this was the number of the card that was removed."
+    },
+    {
+        "question": "The sum of the numbers from 1 to 99 is 4950.\nSince 4950 is a multiple of 77, the sum of the numbers on the 99 cards will be a multiple of 77.\nTherefore, the number that was removed must be a multiple of 77.\nThe only number from 1 to 100 that is a multiple of 77 is 77.\n**Final Answer: $\\boxed{77}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "**Final Answer:** $\\boxed{77}$",
+        "ground_truth": "The sum of the numbers from 1 to 100 is \\[1 + 2 + \\dots + 100 = \\frac{100 \\cdot 101}{2} = 5050.\\] When this number is divided by 77, the remainder is 45.  Therefore, the number that was removed must be congruent to 45 modulo 77.\n\nHowever, among the numbers 1, 2, $\\dots$, 100, only the number $\\boxed{45}$ itself is congruent to 45 modulo 77.  Therefore, this was the number of the card that was removed."
+    }
+]

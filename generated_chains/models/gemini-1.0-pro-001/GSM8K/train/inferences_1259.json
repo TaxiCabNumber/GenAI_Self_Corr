@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRyanne is 7 years older than Hezekiah. Together Ryanne's and Hezekiah's ages equal 15 years. How many years old is Hezekiah?",
+        "inference": "Let Hezekiah's age be $h$ years. \nThen, Ryanne's age is $(h + 7)$ years.\nSo, $h + (h + 7) = 15$.\n$2h + 7 = 15$\n$2h = 15 - 7$\n$2h = 8$\n$h = 4$\nI hope it is correct: Hezekiah is $4$ years old.",
+        "ground_truth": "Let H = Hezekiah's age\nRyanne = H + <<+7=7>>7\n2H + 7 = 15\n2H = 8\nH = <<4=4>>4\nHezekiah is 4 years old.\n#### 4"
+    },
+    {
+        "question": "Let Hezekiah's age be $h$ years. \nThen, Ryanne's age is $(h + 7)$ years.\nSo, $h + (h + 7) = 15$.\n$2h + 7 = 15$\n$2h = 15 - 7$\n$2h = 8$\n$h = 4$\nI hope it is correct: Hezekiah is $4$ years old.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$Hezekiah is $4$ years old.",
+        "ground_truth": "Let H = Hezekiah's age\nRyanne = H + <<+7=7>>7\n2H + 7 = 15\n2H = 8\nH = <<4=4>>4\nHezekiah is 4 years old.\n#### 4"
+    }
+]

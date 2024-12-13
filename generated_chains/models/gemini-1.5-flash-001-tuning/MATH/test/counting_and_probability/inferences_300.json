@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nTwo eight-sided dice each have faces numbered 1 through 8. When the dice are rolled, each face has an equal probability of appearing on the top. What is the probability that the product of the two top numbers is greater than their sum? Express your answer as a common fraction.",
+        "inference": "Final Answer: \\\\boxed{\\frac{25}{32}}. I hope it is correct.",
+        "ground_truth": "There are $8\\cdot 8 = 64$ ordered pairs that can represent the top numbers on the two dice. Let $m$ and $n$ represent the top numbers on the dice.  Then $mn > m+n$ implies that $mn - m - n >\n0$, that is, $$1 < mn - m - n + 1 = (m-1)(n-1).$$This inequality is satisfied except when $m=1$, $n=1$, or when $m=n=2$. There are 16 ordered pairs $(m,n)$ excluded by these conditions, so the probability that the product is greater than the sum is \\[\n\\frac{64-16}{64} = \\frac{48}{64} = \\boxed{\\frac{3}{4}}.\n\\]"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{\\frac{25}{32}}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the question and the solution you are referring to so I can help you identify any errors and provide the corrected answer. \n",
+        "ground_truth": "There are $8\\cdot 8 = 64$ ordered pairs that can represent the top numbers on the two dice. Let $m$ and $n$ represent the top numbers on the dice.  Then $mn > m+n$ implies that $mn - m - n >\n0$, that is, $$1 < mn - m - n + 1 = (m-1)(n-1).$$This inequality is satisfied except when $m=1$, $n=1$, or when $m=n=2$. There are 16 ordered pairs $(m,n)$ excluded by these conditions, so the probability that the product is greater than the sum is \\[\n\\frac{64-16}{64} = \\frac{48}{64} = \\boxed{\\frac{3}{4}}.\n\\]"
+    }
+]

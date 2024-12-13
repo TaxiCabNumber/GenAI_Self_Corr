@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the complex number $z$ so that $z + |z| = 2 + 8i.$",
+        "inference": "Let $z = a + bi,$ where $a$ and $b$ are real numbers.  Then $|z| = \\sqrt{a^2 + b^2},$ so\n\\[a + bi + \\sqrt{a^2 + b^2} = 2 + 8i.\\]Equating real and imaginary parts, we get\n\\begin{align*}\na + \\sqrt{a^2 + b^2} &= 2, \\\\\nb &= 8.\n\\end{align*}From the first equation, $\\sqrt{a^2 + 64} = 2 - a.$  Squaring both sides, we get $a^2 + 64 = 4 - 4a + a^2,$ so $a = -15.$  Therefore, $z = \\boxed{-15 + 8i}.$\nFinal Answer: $\\boxed{-15 + 8i}.$ I hope it is correct.",
+        "ground_truth": "Let $z = a + bi.$  Then\n\\[a + bi + \\sqrt{a^2 + b^2} = 2 + 8i.\\]Equating the imaginary parts, we get $b = 8.$  Equating the real parts, we get $a + \\sqrt{a^2 + 64} = 2.$  Then\n\\[\\sqrt{a^2 + 64} = 2 - a.\\]Squaring both sides, we get $a^2 + 64 = (2 - a)^2 = a^2 - 4a + 4.$  Solving, we find $a = -15.$  Therefore, $z = \\boxed{-15 + 8i}.$"
+    },
+    {
+        "question": "Let $z = a + bi,$ where $a$ and $b$ are real numbers.  Then $|z| = \\sqrt{a^2 + b^2},$ so\n\\[a + bi + \\sqrt{a^2 + b^2} = 2 + 8i.\\]Equating real and imaginary parts, we get\n\\begin{align*}\na + \\sqrt{a^2 + b^2} &= 2, \\\\\nb &= 8.\n\\end{align*}From the first equation, $\\sqrt{a^2 + 64} = 2 - a.$  Squaring both sides, we get $a^2 + 64 = 4 - 4a + a^2,$ so $a = -15.$  Therefore, $z = \\boxed{-15 + 8i}.$\nFinal Answer: $\\boxed{-15 + 8i}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{-15 + 8i}$  is correct. \n",
+        "ground_truth": "Let $z = a + bi.$  Then\n\\[a + bi + \\sqrt{a^2 + b^2} = 2 + 8i.\\]Equating the imaginary parts, we get $b = 8.$  Equating the real parts, we get $a + \\sqrt{a^2 + 64} = 2.$  Then\n\\[\\sqrt{a^2 + 64} = 2 - a.\\]Squaring both sides, we get $a^2 + 64 = (2 - a)^2 = a^2 - 4a + 4.$  Solving, we find $a = -15.$  Therefore, $z = \\boxed{-15 + 8i}.$"
+    }
+]

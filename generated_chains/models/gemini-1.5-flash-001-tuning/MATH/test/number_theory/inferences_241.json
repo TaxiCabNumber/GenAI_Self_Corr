@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind $9^{-1} \\pmod{100}$, as a residue modulo 100.  (Give an answer between 0 and 99, inclusive.)",
+        "inference": "We want to find an integer $x$ such that $9x \\equiv 1 \\pmod{100}$.  Notice that $9 \\cdot 11 = 99 \\equiv -1 \\pmod{100}$.  Multiplying both sides by $-1$, we get $9 \\cdot (-11) \\equiv 1 \\pmod{100}$, so $9^{-1} \\equiv -11 \\equiv \\boxed{89} \\pmod{100}$. Final Answer: $\\boxed{89}$. I hope it is correct. \n",
+        "ground_truth": "Note that $9 \\cdot 11 \\equiv 99 \\equiv -1 \\pmod{100}$.  Then $9 \\cdot (-11) \\equiv -99 \\equiv 1 \\pmod{100}$, so $9^{-1} \\equiv -11 \\equiv \\boxed{89} \\pmod{100}$."
+    },
+    {
+        "question": "We want to find an integer $x$ such that $9x \\equiv 1 \\pmod{100}$.  Notice that $9 \\cdot 11 = 99 \\equiv -1 \\pmod{100}$.  Multiplying both sides by $-1$, we get $9 \\cdot (-11) \\equiv 1 \\pmod{100}$, so $9^{-1} \\equiv -11 \\equiv \\boxed{89} \\pmod{100}$. Final Answer: $\\boxed{89}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{89}$  I hope it is correct. \n",
+        "ground_truth": "Note that $9 \\cdot 11 \\equiv 99 \\equiv -1 \\pmod{100}$.  Then $9 \\cdot (-11) \\equiv -99 \\equiv 1 \\pmod{100}$, so $9^{-1} \\equiv -11 \\equiv \\boxed{89} \\pmod{100}$."
+    }
+]

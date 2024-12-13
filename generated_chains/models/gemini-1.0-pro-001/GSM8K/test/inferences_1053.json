@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAlison qualified for a spot on the running team, so she went shopping for some athletic gear. She bought a tank top for $10, a pair of running shorts for $5 more than the top cost, and a pair of tennis shoes that were originally $48 but were on sale for half price. She had a coupon for $2 off the package of $8 athletic socks that she also bought. How much did she spend on athletic gear?",
+        "inference": "* The tank top costs $10, \n* Running shorts cost $5 more than the tank top costs, which is $10 + $5 = $15 \n* Tennis shoes were originally $48, but they were on sale for half price which is $48 / 2 = $24 \n* Socks cost $8, but with the coupon of $2, so the final price is $8 - $2 = $6 \n\nSo, the total amount spent is $10 + $15 + $24 + $6 = $55.\nI hope it is correct: $55$",
+        "ground_truth": "The shorts were $5 more than the tank top, so they cost $5 + $10 = $<<5+10=15>>15.\nHer tennis shoes were half the original $68 price, so they cost $48 / 2 = $24.\nWith her coupon, the socks were $8 - $2 = $<<8-2=6>>6.\nThe shirt, shorts, shoes, and socks together cost $10 + $15 + $24 + $6 = $<<10+15+24+6=55>>55.\n#### 55"
+    },
+    {
+        "question": "* The tank top costs $10, \n* Running shorts cost $5 more than the tank top costs, which is $10 + $5 = $15 \n* Tennis shoes were originally $48, but they were on sale for half price which is $48 / 2 = $24 \n* Socks cost $8, but with the coupon of $2, so the final price is $8 - $2 = $6 \n\nSo, the total amount spent is $10 + $15 + $24 + $6 = $55.\nI hope it is correct: $55$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $55$",
+        "ground_truth": "The shorts were $5 more than the tank top, so they cost $5 + $10 = $<<5+10=15>>15.\nHer tennis shoes were half the original $68 price, so they cost $48 / 2 = $24.\nWith her coupon, the socks were $8 - $2 = $<<8-2=6>>6.\nThe shirt, shorts, shoes, and socks together cost $10 + $15 + $24 + $6 = $<<10+15+24+6=55>>55.\n#### 55"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe arithmetic mean of four numbers is 15. Two of the numbers are 10 and 18 and the other two are equal. What is the product of the two equal numbers?",
+        "inference": "Let the two equal numbers be $x$. Then, we have: $$\\frac{10+18+x+x}{4}=15$$ $$\\Rightarrow 10+18+2x=60$$ $$\\Rightarrow 2x=60-10-18$$ $$\\Rightarrow 2x=32$$ $$\\Rightarrow x=16$$ $$\\therefore \\text{Product of the two equal numbers}=x\\cdot x=16\\cdot16=\\boxed{256}$$  Final Answer: $\\boxed{256}$. I hope it is correct.",
+        "ground_truth": "If the mean of four numbers is $15$, then the sum of the four numbers is $15\\times4=60$. We subtract the two numbers we know to get $60-10-18=32$. So the sum of the two equal numbers is $32$ and their value is $\\frac{32}{2}=16$. The product of the two equal numbers is $16\\times16=\\boxed{256}$."
+    },
+    {
+        "question": "Let the two equal numbers be $x$. Then, we have: $$\\frac{10+18+x+x}{4}=15$$ $$\\Rightarrow 10+18+2x=60$$ $$\\Rightarrow 2x=60-10-18$$ $$\\Rightarrow 2x=32$$ $$\\Rightarrow x=16$$ $$\\therefore \\text{Product of the two equal numbers}=x\\cdot x=16\\cdot16=\\boxed{256}$$  Final Answer: $\\boxed{256}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\\\boxed{256}",
+        "ground_truth": "If the mean of four numbers is $15$, then the sum of the four numbers is $15\\times4=60$. We subtract the two numbers we know to get $60-10-18=32$. So the sum of the two equal numbers is $32$ and their value is $\\frac{32}{2}=16$. The product of the two equal numbers is $16\\times16=\\boxed{256}$."
+    }
+]

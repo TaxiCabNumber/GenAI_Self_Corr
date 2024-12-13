@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nPrince Thaddeus slew 100 dragons with his mighty sword, while Prince Arthur, using a spear, slew three quarters as many dragons as Prince Thaddeus.  Using a rusty iron axe, Prince Walter slew twice as many dragons as Prince Arthur.  But Prince Bruce, having forgot his sword at home, slew one-fifth as many dragons as Prince Walter using a nail file.  How many Dragons has Prince Bruce slain?",
+        "inference": "Prince Thaddeus slew 100 dragons.  Prince Arthur slew 3/4 as many dragons as Prince Thaddeus, so Prince Arthur slew (3/4) * 100 = 75 dragons.  Prince Walter slew twice as many dragons as Prince Arthur, so Prince Walter slew 2 * 75 = 150 dragons.  Prince Bruce slew one-fifth as many dragons as Prince Walter, so Prince Bruce slew (1/5) * 150 = 30 dragons.\nI hope it is correct: he has slain 30 dragons",
+        "ground_truth": "Prince Arthur slew three-quarters as many dragons as Prince Thaddeus, or 100*(3/4)=<<100*(3/4)=75>>75 dragons.\nPrince Walter slew twice as many dragons as Prince Arthur, or 2*75=<<2*75=150>>150 dragons.\nPrince Bruce slew one-fifth as many dragons as Prince Walter, or 150/5=<<150/5=30>>30 dragons.\n#### 30"
+    },
+    {
+        "question": "Prince Thaddeus slew 100 dragons.  Prince Arthur slew 3/4 as many dragons as Prince Thaddeus, so Prince Arthur slew (3/4) * 100 = 75 dragons.  Prince Walter slew twice as many dragons as Prince Arthur, so Prince Walter slew 2 * 75 = 150 dragons.  Prince Bruce slew one-fifth as many dragons as Prince Walter, so Prince Bruce slew (1/5) * 150 = 30 dragons.\nI hope it is correct: he has slain 30 dragons\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$30",
+        "ground_truth": "Prince Arthur slew three-quarters as many dragons as Prince Thaddeus, or 100*(3/4)=<<100*(3/4)=75>>75 dragons.\nPrince Walter slew twice as many dragons as Prince Arthur, or 2*75=<<2*75=150>>150 dragons.\nPrince Bruce slew one-fifth as many dragons as Prince Walter, or 150/5=<<150/5=30>>30 dragons.\n#### 30"
+    }
+]

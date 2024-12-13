@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA chair costs 1/7 of the cost of a table. If a table costs $140, how much will it cost to buy a table and 4 chairs?",
+        "inference": "The cost of a chair is 1/7 of the cost of a table.\nIf a table costs $140, then the cost of a chair is (1/7) * $140 = $20.\nThe cost of a table and 4 chairs is $140 + (4 * $20) = $220.\nI hope it is correct: 220",
+        "ground_truth": "One chair costs $140 x 1/7 = $<<140*1/7=20>>20.\nFour chairs cost $20 x 4 = $<<20*4=80>>80.\nSo a table and 4 chairs cost $140 + $80 = $<<140+80=220>>220.\n#### 220"
+    },
+    {
+        "question": "The cost of a chair is 1/7 of the cost of a table.\nIf a table costs $140, then the cost of a chair is (1/7) * $140 = $20.\nThe cost of a table and 4 chairs is $140 + (4 * $20) = $220.\nI hope it is correct: 220\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $220$",
+        "ground_truth": "One chair costs $140 x 1/7 = $<<140*1/7=20>>20.\nFour chairs cost $20 x 4 = $<<20*4=80>>80.\nSo a table and 4 chairs cost $140 + $80 = $<<140+80=220>>220.\n#### 220"
+    }
+]

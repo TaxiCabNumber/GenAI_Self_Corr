@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMary buys 3 bags of M&Ms. The first bag has 300 M&Ms in it. The second bag has 12 more M&Ms than the first, and the third bag has a hole in it, so it only has half the number of M&Ms that the first bag had. How many M&Ms did Mary get total?",
+        "inference": "1. Mary has 300 M&Ms in the first bag.\n2. The second bag has 12 more M&Ms than the first, so it has 300 + 12 = 312 M&Ms.\n3. The third bag has half the number of M&Ms that the first bag had, so it has 300 / 2 = 150 M&Ms.\n4. Mary got a total of 300 + 312 + 150 = 762 M&Ms.\nI hope it is correct: 762 $answer$",
+        "ground_truth": "First Bag:300\nSecond Bag:300+12=<<300+12=312>>312\nThird Bag:300/2=<<300/2=150>>150\nTotal number of M&M's: 300+312+150=<<300+312+150=762>>762 M&M's\n#### 762"
+    },
+    {
+        "question": "1. Mary has 300 M&Ms in the first bag.\n2. The second bag has 12 more M&Ms than the first, so it has 300 + 12 = 312 M&Ms.\n3. The third bag has half the number of M&Ms that the first bag had, so it has 300 / 2 = 150 M&Ms.\n4. Mary got a total of 300 + 312 + 150 = 762 M&Ms.\nI hope it is correct: 762 $answer$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 762",
+        "ground_truth": "First Bag:300\nSecond Bag:300+12=<<300+12=312>>312\nThird Bag:300/2=<<300/2=150>>150\nTotal number of M&M's: 300+312+150=<<300+312+150=762>>762 M&M's\n#### 762"
+    }
+]

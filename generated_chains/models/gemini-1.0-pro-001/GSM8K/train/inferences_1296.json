@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 12 carpets in house 1, 20 carpets in house 2, and 10 carpets in house 3. If house 4 has twice as many carpets as house 3, how many carpets do all 4 houses have in total?",
+        "inference": "12 carpets in house 1\n20 carpets in house 2\n10 carpets in house 3\nHouse 4 has twice as many carpets as house 3: 10 * 2 = 20 carpets\n\nTotal carpets: 12 + 20 + 10 + 20 = 62 carpets\n\nI hope it is correct: 62 $carpets$",
+        "ground_truth": "House 4 has 2 * 10 house 3 carpets = <<2*10=20>>20 carpets\nThe total number of carpets across all houses is 12 + 20 + 10 + 20 = <<12+20+10+20=62>>62\n#### 62"
+    },
+    {
+        "question": "12 carpets in house 1\n20 carpets in house 2\n10 carpets in house 3\nHouse 4 has twice as many carpets as house 3: 10 * 2 = 20 carpets\n\nTotal carpets: 12 + 20 + 10 + 20 = 62 carpets\n\nI hope it is correct: 62 $carpets$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$62",
+        "ground_truth": "House 4 has 2 * 10 house 3 carpets = <<2*10=20>>20 carpets\nThe total number of carpets across all houses is 12 + 20 + 10 + 20 = <<12+20+10+20=62>>62\n#### 62"
+    }
+]

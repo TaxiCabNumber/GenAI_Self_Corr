@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn a set of five consecutive integers, the largest integer is less than twice the average of the five integers. What is the smallest integer that could be in the set?",
+        "inference": "Let's say the smallest integer in the set is x. Then the next four integers are x+1, x+2, x+3, and x+4. Since the largest integer is less than twice the average of the five integers, we have:\nx+4<2(x+x+1+x+2+x+3+x+4)/5\nSimplifying this inequality, we get:\nx+4<2(5x+10)/5\nx+4<2x+4\nx<2x\nx<0\nSince x is an integer, the smallest integer that could be in the set is $\\boxed{-1}$.\nFinal Answer: $\\boxed{-1}$. I hope it is correct.",
+        "ground_truth": "Let the integers be $n$, $n+1$, $n+2$, $n+3$ and $n+4$.  Their average is $n+2$, so we have $$n+4<2(n+2) \\Rightarrow n+4<2n+4 \\Rightarrow 0<n.$$Thus $n$ is at least $\\boxed{1}$."
+    },
+    {
+        "question": "Let's say the smallest integer in the set is x. Then the next four integers are x+1, x+2, x+3, and x+4. Since the largest integer is less than twice the average of the five integers, we have:\nx+4<2(x+x+1+x+2+x+3+x+4)/5\nSimplifying this inequality, we get:\nx+4<2(5x+10)/5\nx+4<2x+4\nx<2x\nx<0\nSince x is an integer, the smallest integer that could be in the set is $\\boxed{-1}$.\nFinal Answer: $\\boxed{-1}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{-1}",
+        "ground_truth": "Let the integers be $n$, $n+1$, $n+2$, $n+3$ and $n+4$.  Their average is $n+2$, so we have $$n+4<2(n+2) \\Rightarrow n+4<2n+4 \\Rightarrow 0<n.$$Thus $n$ is at least $\\boxed{1}$."
+    }
+]

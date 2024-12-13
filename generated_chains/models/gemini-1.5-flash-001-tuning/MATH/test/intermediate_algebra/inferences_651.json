@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $p(x)$ be a cubic polynomial such that $p(-3) = 4,$ $p(-2) = 4,$ $p(4) = 4,$ and $p(5) = 16.$  Find $p(11).$",
+        "inference": "Final Answer: \\\\boxed{364}. I hope it is correct.",
+        "ground_truth": "Let $q(x) = p(x) - 4.$  Then $q(x)$ is a cubic polynomial, and $q(-3) = q(-2) = q(4) = 0,$ so\n\\[q(x) = c(x + 3)(x + 2)(x - 4)\\]for some constant $c.$  Also, $q(5) = 16 - 4 = 12,$ and\n\\[q(5) = c(8)(7)(1),\\]so $c = \\frac{3}{14}.$  Hence,\n\\[q(x) = \\frac{3(x + 3)(x + 2)(x - 4)}{14}.\\]In particular,\n\\[q(11) = \\frac{3 \\cdot 14 \\cdot 13 \\cdot 7}{14} = 273,\\]so $p(11) = 273 + 4 = \\boxed{277}.$"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{364}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you're referring to so I can check for errors and provide the correct final answer. \n",
+        "ground_truth": "Let $q(x) = p(x) - 4.$  Then $q(x)$ is a cubic polynomial, and $q(-3) = q(-2) = q(4) = 0,$ so\n\\[q(x) = c(x + 3)(x + 2)(x - 4)\\]for some constant $c.$  Also, $q(5) = 16 - 4 = 12,$ and\n\\[q(5) = c(8)(7)(1),\\]so $c = \\frac{3}{14}.$  Hence,\n\\[q(x) = \\frac{3(x + 3)(x + 2)(x - 4)}{14}.\\]In particular,\n\\[q(11) = \\frac{3 \\cdot 14 \\cdot 13 \\cdot 7}{14} = 273,\\]so $p(11) = 273 + 4 = \\boxed{277}.$"
+    }
+]

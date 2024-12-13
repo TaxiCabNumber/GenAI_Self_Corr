@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nQuinton brought 40 cupcakes to school on his birthday. He gave a cupcake to each of the 18 students in Ms. Delmont's class. He also gave a cupcake to each of the 16 students in Mrs. Donnelly's class. He also gave a cupcake to Ms. Delmont, Mrs. Donnelly, the school nurse, and the school principal. How many cupcakes did he have left over?",
+        "inference": "The total number of cupcakes given away is 18 + 16 + 1 + 1 + 1 = 37.\nThe number of cupcakes left over is 40 - 37 = 3.\nI hope it is correct: 3",
+        "ground_truth": "Quinton had 40 cupcakes - 18 = <<40-18=22>>22 cupcakes.\nHe then had 22 cupcakes - 16 students = <<22-16=6>>6 cupcakes.\nQuinton then gave away 6 - 1 -1 -1 -1 = <<6-1-1-1-1=2>>2 cupcakes left.\n#### 2"
+    },
+    {
+        "question": "The total number of cupcakes given away is 18 + 16 + 1 + 1 + 1 = 37.\nThe number of cupcakes left over is 40 - 37 = 3.\nI hope it is correct: 3\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 3",
+        "ground_truth": "Quinton had 40 cupcakes - 18 = <<40-18=22>>22 cupcakes.\nHe then had 22 cupcakes - 16 students = <<22-16=6>>6 cupcakes.\nQuinton then gave away 6 - 1 -1 -1 -1 = <<6-1-1-1-1=2>>2 cupcakes left.\n#### 2"
+    }
+]

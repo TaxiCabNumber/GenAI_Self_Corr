@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn the diagram below, we have $\\sin \\angle RPQ = \\frac{7}{25}$.  What is $\\cos \\angle RPS$?\n\n[asy]\n\npair R,P,Q,SS;\n\nSS = (-2,0);\n\nP = (0,0);\n\nQ = (2,0);\n\nR = rotate(aSin(7/25))*(1.5,0);\n\ndot(\"$S$\",SS,S);\n\ndot(\"$Q$\",Q,S);\n\ndot(\"$R$\",R,N);\n\ndot(\"$P$\",P,S);\n\ndraw(Q--SS);\n\ndraw(P--R);\n\n[/asy]",
+        "inference": "Final Answer: \\\\boxed{\\frac{7}{25}}. I hope it is correct. \n",
+        "ground_truth": "For any angle $x$, we have $\\cos(180^\\circ - x)=-\\cos x$, so $\\cos \\angle RPS = \\cos(180^\\circ - \\angle RPQ) =- \\cos\\angle RPQ$.\n\nSince $\\sin^2 \\angle RPQ + \\cos^2 \\angle RPQ = 1$, we have $\\cos^2\\angle RPQ = 1 - \\left(\\frac{7}{25}\\right)^2 = \\frac{576}{625}$.  Since $\\angle RPQ$ is acute, we have $\\cos\\angle RPQ = \\frac{24}{25}$, which gives us $\\cos\\angle RPS = -\\cos\\angle RPQ = \\boxed{-\\frac{24}{25}}$."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{\\frac{7}{25}}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need that information to identify any potential errors and rewrite the solution correctly. \n",
+        "ground_truth": "For any angle $x$, we have $\\cos(180^\\circ - x)=-\\cos x$, so $\\cos \\angle RPS = \\cos(180^\\circ - \\angle RPQ) =- \\cos\\angle RPQ$.\n\nSince $\\sin^2 \\angle RPQ + \\cos^2 \\angle RPQ = 1$, we have $\\cos^2\\angle RPQ = 1 - \\left(\\frac{7}{25}\\right)^2 = \\frac{576}{625}$.  Since $\\angle RPQ$ is acute, we have $\\cos\\angle RPQ = \\frac{24}{25}$, which gives us $\\cos\\angle RPS = -\\cos\\angle RPQ = \\boxed{-\\frac{24}{25}}$."
+    }
+]

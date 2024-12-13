@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nGinger is weaving mats out of colored straw. Each mat takes 20 red straws, 30 orange straws, and half as many green straws as orange straws. How many straws does she need to make 10 mats?",
+        "inference": "20 * 10 = 200 red straws\n30 * 10 = 300 orange straws\n15 * 10 = 150 green straws\n\n200 + 300 + 150 = 650 straws\nI hope it is correct: 650 $straws$",
+        "ground_truth": "First find the number of green straws each mat needs: 30 orange straws / 2 orange straws/green straw = 15 green straws\nThen find the total number of straws in each mat: 15 straws + 20 straws + 30 straws = <<15+20+30=65>>65 straws\nThen multiply that number by the number of mats to find the total number of straws Ginger needs: 65 straws/mat * 10 mats = <<65*10=650>>650 straws\n#### 650"
+    },
+    {
+        "question": "20 * 10 = 200 red straws\n30 * 10 = 300 orange straws\n15 * 10 = 150 green straws\n\n200 + 300 + 150 = 650 straws\nI hope it is correct: 650 $straws$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ 650",
+        "ground_truth": "First find the number of green straws each mat needs: 30 orange straws / 2 orange straws/green straw = 15 green straws\nThen find the total number of straws in each mat: 15 straws + 20 straws + 30 straws = <<15+20+30=65>>65 straws\nThen multiply that number by the number of mats to find the total number of straws Ginger needs: 65 straws/mat * 10 mats = <<65*10=650>>650 straws\n#### 650"
+    }
+]

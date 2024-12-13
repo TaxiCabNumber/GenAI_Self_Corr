@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nLaura is hosting a carwash. She will charge $5 for a car, $6 for a truck, and $7 for an SUV. They raised $100 in total. If they washed 5 SUVs and 5 trucks, how many cars did they wash?",
+        "inference": "1. Let the number of cars washed be x.\n2. The total amount raised from washing cars is 5x.\n3. The amount raised from washing trucks is 6 x 5 = 30.\n4. The amount raised from washing SUVs is 7 x 5 = 35.\n5. The total amount raised is 100, so we have the equation 5x + 30 + 35 = 100.\n6. Simplifying the equation, we get 5x + 65 = 100.\n7. Subtracting 65 from both sides, we get 5x = 35.\n8. Dividing both sides by 5, we get x = 7.\nI hope it is correct: 7",
+        "ground_truth": "They earned $30 from trucks because 5 x 6 = <<5*6=30>>30\nThey earned $35 from SUVs because 5 x 7 = <<5*7=35>>35\nThey earned $35 from cars because 100 - 35 - 30 = <<100-35-30=35>>35\nThey washed 7 cars because 35 / 5 = <<35/5=7>>7\n#### 7"
+    },
+    {
+        "question": "1. Let the number of cars washed be x.\n2. The total amount raised from washing cars is 5x.\n3. The amount raised from washing trucks is 6 x 5 = 30.\n4. The amount raised from washing SUVs is 7 x 5 = 35.\n5. The total amount raised is 100, so we have the equation 5x + 30 + 35 = 100.\n6. Simplifying the equation, we get 5x + 65 = 100.\n7. Subtracting 65 from both sides, we get 5x = 35.\n8. Dividing both sides by 5, we get x = 7.\nI hope it is correct: 7\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$7",
+        "ground_truth": "They earned $30 from trucks because 5 x 6 = <<5*6=30>>30\nThey earned $35 from SUVs because 5 x 7 = <<5*7=35>>35\nThey earned $35 from cars because 100 - 35 - 30 = <<100-35-30=35>>35\nThey washed 7 cars because 35 / 5 = <<35/5=7>>7\n#### 7"
+    }
+]

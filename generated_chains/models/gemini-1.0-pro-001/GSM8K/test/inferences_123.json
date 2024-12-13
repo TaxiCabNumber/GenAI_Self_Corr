@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRosie can run 10 miles per hour for 3 hours. After that, she runs 5 miles per hour. How many miles can she run in 7 hours?",
+        "inference": "1. Rosie can run 10 miles per hour for 3 hours, so she can run 10 * 3 = 30 miles in 3 hours.\n2. After that, she runs 5 miles per hour for 4 hours (7 hours - 3 hours), so she can run 5 * 4 = 20 miles in 4 hours.\n3. In total, she can run 30 + 20 = 50 miles in 7 hours.\nI hope it is correct: 50",
+        "ground_truth": "For the first 3 hours, Rosie runs 10 miles per hour, so she runs 10*3=<<10*3=30>>30 miles.\nHowever, she still has 7-3=<<7-3=4>>4 hours left to room.\nFor the next 4 hours, she runs 5 miles per hour, so she runs 5*4=<<5*4=20>>20 miles.\nIn total she runs 30+20=<<30+20=50>>50 miles.\n#### 50"
+    },
+    {
+        "question": "1. Rosie can run 10 miles per hour for 3 hours, so she can run 10 * 3 = 30 miles in 3 hours.\n2. After that, she runs 5 miles per hour for 4 hours (7 hours - 3 hours), so she can run 5 * 4 = 20 miles in 4 hours.\n3. In total, she can run 30 + 20 = 50 miles in 7 hours.\nI hope it is correct: 50\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 50",
+        "ground_truth": "For the first 3 hours, Rosie runs 10 miles per hour, so she runs 10*3=<<10*3=30>>30 miles.\nHowever, she still has 7-3=<<7-3=4>>4 hours left to room.\nFor the next 4 hours, she runs 5 miles per hour, so she runs 5*4=<<5*4=20>>20 miles.\nIn total she runs 30+20=<<30+20=50>>50 miles.\n#### 50"
+    }
+]

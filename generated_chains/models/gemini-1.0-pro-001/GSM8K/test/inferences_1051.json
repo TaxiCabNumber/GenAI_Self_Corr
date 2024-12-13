@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIngrid drinks 8 cups of water every day.  If there are 16 cups in a gallon, how many gallons of water does she drink in 30 days?",
+        "inference": "**Solution:**\nIngrid drinks 8 cups of water every day, so in 30 days, she drinks $30 \\cdot 8 = 240$ cups of water.\n\nSince there are 16 cups in a gallon, she drinks $240 \\div 16 = 15$ gallons of water in 30 days.\n\nI hope it is correct: 15 $gallons$",
+        "ground_truth": "She drinks 8 cups of water a day so after 30 days she drinks 8*30 = <<8*30=240>>240 cups of water\nThere are 16 cups in 1 gallon so she drinks 240/16 = <<240/16=15>>15 gallons of water in 30 days\n#### 15"
+    },
+    {
+        "question": "**Solution:**\nIngrid drinks 8 cups of water every day, so in 30 days, she drinks $30 \\cdot 8 = 240$ cups of water.\n\nSince there are 16 cups in a gallon, she drinks $240 \\div 16 = 15$ gallons of water in 30 days.\n\nI hope it is correct: 15 $gallons$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 15 gallons",
+        "ground_truth": "She drinks 8 cups of water a day so after 30 days she drinks 8*30 = <<8*30=240>>240 cups of water\nThere are 16 cups in 1 gallon so she drinks 240/16 = <<240/16=15>>15 gallons of water in 30 days\n#### 15"
+    }
+]

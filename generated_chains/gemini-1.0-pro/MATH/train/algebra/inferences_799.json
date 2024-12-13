@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the range of the function $$G(x) = |x+1|-|x-1|~?$$Express your answer in interval notation.",
+        "inference": "$$G(x) = |x+1|-|x-1|~$$\nIf $$x\\ge 1, \\space G(x)= (x+1)-(x-1)=2~$$\nIf $$-1\\le x< 1, \\space G(x)= (x+1)+(-(x-1))=2~$$\nIf $$x<-1, \\space G(x)= (-x-1)-(-(x-1))=-2~$$\nSo, the range of $$G(x)$$ is $$\\lbrace -2,2\\rbrace~$$\n**Final Answer: $\\boxed{\\lbrace -2,2\\rbrace}$. I hope it is correct.**",
+        "ground_truth": "We have $$G(x) = \\begin{cases}\n-(x+1)+(x-1) &\\text{if }x<-1 \\\\\n(x+1)+(x-1) &\\text{if }-1\\le x<1 \\\\\n(x+1)-(x-1) &\\text{if }x\\ge 1\n\\end{cases}.$$Simplifying, we have $$G(x) = \\begin{cases}\n-2 &\\text{if }x<-1 \\\\\n2x &\\text{if }-1\\le x<1 \\\\\n2 &\\text{if }x\\ge 1\n\\end{cases}.$$Therefore, the range of $G(x)$ is $\\boxed{[-2,2]}.$"
+    },
+    {
+        "question": "$$G(x) = |x+1|-|x-1|~$$\nIf $$x\\ge 1, \\space G(x)= (x+1)-(x-1)=2~$$\nIf $$-1\\le x< 1, \\space G(x)= (x+1)+(-(x-1))=2~$$\nIf $$x<-1, \\space G(x)= (-x-1)-(-(x-1))=-2~$$\nSo, the range of $$G(x)$$ is $$\\lbrace -2,2\\rbrace~$$\n**Final Answer: $\\boxed{\\lbrace -2,2\\rbrace}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{\\lbrace -2,0,2\\rbrace}$$",
+        "ground_truth": "We have $$G(x) = \\begin{cases}\n-(x+1)+(x-1) &\\text{if }x<-1 \\\\\n(x+1)+(x-1) &\\text{if }-1\\le x<1 \\\\\n(x+1)-(x-1) &\\text{if }x\\ge 1\n\\end{cases}.$$Simplifying, we have $$G(x) = \\begin{cases}\n-2 &\\text{if }x<-1 \\\\\n2x &\\text{if }-1\\le x<1 \\\\\n2 &\\text{if }x\\ge 1\n\\end{cases}.$$Therefore, the range of $G(x)$ is $\\boxed{[-2,2]}.$"
+    }
+]

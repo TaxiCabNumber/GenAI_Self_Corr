@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMarisa gets $5 as pocket money every day from her parents. She buys 4 lollipops worth 25 cents each every day and saves the change in her piggy bank. How much money does she put in her piggy bank if she saves for 5 days?",
+        "inference": "1. The amount of money Marisa spends on lollipops each day is 4 * 25 cents = $1.\n2. The amount of money Marisa saves each day is $5 - $1 = $4.\n3. The amount of money Marisa saves in 5 days is $4 * 5 = $20.\nI hope it is correct: $20$",
+        "ground_truth": "If each lollipop costs 25 cents, 4 lollipops cost 4 * 25 cents = <<4*25=100>>100 cents\nSince 100 cents = $1 she spends $1 everyday.\nHer savings everyday is $5 - $1 = $<<5-1=4>>4\nIf she saves $4 every day for 5 days, she will have $4 * 5 = $<<4*5=20>>20\n#### 20"
+    },
+    {
+        "question": "1. The amount of money Marisa spends on lollipops each day is 4 * 25 cents = $1.\n2. The amount of money Marisa saves each day is $5 - $1 = $4.\n3. The amount of money Marisa saves in 5 days is $4 * 5 = $20.\nI hope it is correct: $20$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ 20",
+        "ground_truth": "If each lollipop costs 25 cents, 4 lollipops cost 4 * 25 cents = <<4*25=100>>100 cents\nSince 100 cents = $1 she spends $1 everyday.\nHer savings everyday is $5 - $1 = $<<5-1=4>>4\nIf she saves $4 every day for 5 days, she will have $4 * 5 = $<<4*5=20>>20\n#### 20"
+    }
+]

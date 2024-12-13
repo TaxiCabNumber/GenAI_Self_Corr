@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nLouie obtained 80% on a math quiz. He had 5 mistakes. How many items were there on the math quiz?",
+        "inference": "Let the number of items on the quiz be 'x'\n\nAccording to the given information, 80% of the total items were correct. So, the number of correct items is: \nCorrect items = 80 * x/100 = 4 * x/5\n\nThe number of incorrect items was 5. So, the total number of items on the quiz is:\n\nTotal items (x) = Correct items + Incorrect items = 4 * x/5 + 5\n\nNow, we need to solve for 'x'.\n\nSubtracting 4 * x/5 from both sides, we get:\nx - 4 * x/5 = 5\nMultiplying both sides by 5, we get:\n5 * x - 4 * x = 25\nx = 25\nI hope it is correct: The number of items on the quiz is 25",
+        "ground_truth": "Louie got 100% - 80% = 20% of the total items incorrect, which is equal to 5 items.\nSo 1% is equal to 5/20 = 1/4 of an item.\nHence, the total number of items, represented by 100%, on the math quiz was 1/4 of an item x 100 = <<1/4*100=25>>25.\n#### 25"
+    },
+    {
+        "question": "Let the number of items on the quiz be 'x'\n\nAccording to the given information, 80% of the total items were correct. So, the number of correct items is: \nCorrect items = 80 * x/100 = 4 * x/5\n\nThe number of incorrect items was 5. So, the total number of items on the quiz is:\n\nTotal items (x) = Correct items + Incorrect items = 4 * x/5 + 5\n\nNow, we need to solve for 'x'.\n\nSubtracting 4 * x/5 from both sides, we get:\nx - 4 * x/5 = 5\nMultiplying both sides by 5, we get:\n5 * x - 4 * x = 25\nx = 25\nI hope it is correct: The number of items on the quiz is 25\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ = 25",
+        "ground_truth": "Louie got 100% - 80% = 20% of the total items incorrect, which is equal to 5 items.\nSo 1% is equal to 5/20 = 1/4 of an item.\nHence, the total number of items, represented by 100%, on the math quiz was 1/4 of an item x 100 = <<1/4*100=25>>25.\n#### 25"
+    }
+]

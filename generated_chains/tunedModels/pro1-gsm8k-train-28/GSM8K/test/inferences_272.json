@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA mother goes shopping. She buys cocoa at $4.20, laundry at $9.45 and a package of pasta at $1.35. She pays $20. How much change does the cashier give back?",
+        "inference": "1. Add the cost of the cocoa, laundry, and pasta: $4.20 + $9.45 + $1.35 = $15.00\n2. Subtract the total cost from the amount paid: $20.00 - $15.00 = $5.00\nI hope it is correct: $5.00",
+        "ground_truth": "The total shopping cost is $4.2 + $9.45 + $1.35 = $<<4.2+9.45+1.35=15>>15.\nThe cashier gives back $20 - 1$5 = $<<20-15=5>>5.\n#### 5"
+    },
+    {
+        "question": "1. Add the cost of the cocoa, laundry, and pasta: $4.20 + $9.45 + $1.35 = $15.00\n2. Subtract the total cost from the amount paid: $20.00 - $15.00 = $5.00\nI hope it is correct: $5.00\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$=5",
+        "ground_truth": "The total shopping cost is $4.2 + $9.45 + $1.35 = $<<4.2+9.45+1.35=15>>15.\nThe cashier gives back $20 - 1$5 = $<<20-15=5>>5.\n#### 5"
+    }
+]

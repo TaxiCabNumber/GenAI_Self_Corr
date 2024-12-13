@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe quadratic $x^2+1300x+1300$ can be written in the form $(x+b)^2+c$, where $b$ and $c$ are constants. What is $\\frac{c}{b}$?",
+        "inference": "Final Answer: \\\\boxed{650}. I hope it is correct. \n",
+        "ground_truth": "We complete the square.\n\nThe square whose non-constant terms agree with $x^2+1300x+1300$ is $(x+650)^2$. Specifically, we have $$(x+650)^2 = x^2 + 1300x + 650^2,$$so \\begin{align*}\nx^2+1300x+1300 &= (x+650)^2 - 650^2 + 1300 \\\\\n&= (x+650)^2 - 650\\cdot 650 + 2\\cdot 650 \\\\\n&= (x+650)^2 + (-650+2)\\cdot 650 \\\\\n&= (x+650)^2 + (-648)(650).\n\\end{align*}This has the target form $(x+b)^2+c$, where $b=650$ and $c=(-648)(650)$. Therefore, $\\frac{c}{b} = \\frac{(-648)(650)}{650} = \\boxed{-648}$."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{650}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the question and the solution you are referring to. I need more context to be able to identify and correct any potential errors. \n",
+        "ground_truth": "We complete the square.\n\nThe square whose non-constant terms agree with $x^2+1300x+1300$ is $(x+650)^2$. Specifically, we have $$(x+650)^2 = x^2 + 1300x + 650^2,$$so \\begin{align*}\nx^2+1300x+1300 &= (x+650)^2 - 650^2 + 1300 \\\\\n&= (x+650)^2 - 650\\cdot 650 + 2\\cdot 650 \\\\\n&= (x+650)^2 + (-650+2)\\cdot 650 \\\\\n&= (x+650)^2 + (-648)(650).\n\\end{align*}This has the target form $(x+b)^2+c$, where $b=650$ and $c=(-648)(650)$. Therefore, $\\frac{c}{b} = \\frac{(-648)(650)}{650} = \\boxed{-648}$."
+    }
+]

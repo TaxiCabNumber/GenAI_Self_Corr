@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind $\\cos C$ in the right triangle shown below.\n\n\n[asy]\npair A,B,C;\nA = (0,0);\nB = (6,0);\nC = (0,8);\ndraw(A--B--C--A);\ndraw(rightanglemark(B,A,C,10));\nlabel(\"$A$\",A,SW);\nlabel(\"$B$\",B,SE);\nlabel(\"$C$\",C,N);\nlabel(\"$10$\",(B+C)/2,NE);\nlabel(\"$6$\",B/2,S);\n[/asy]",
+        "inference": "Solution:\nWe can use the cosine function in trigonometry to find $\\cos C$.\n\n$\\cos C = \\frac{\\text{adjacent}}{\\text{hypotenuse}}$\n\nThe adjacent side to angle $C$ is $BC = 6$, and the hypotenuse is $AC = 10$. Therefore,\n\n$\\cos C = \\frac{6}{10} = \\frac{3}{5}$.\n\nFinal Answer: $\\boxed{\\frac{3}{5}}$. I hope it is correct. \n",
+        "ground_truth": "The Pythagorean Theorem gives us $AC = \\sqrt{BC^2 - AB^2} = \\sqrt{100 - 36} = \\sqrt{64}=8$, so $\\cos C = \\frac{AC}{BC} = \\frac{8}{10} = \\boxed{\\frac45}$."
+    },
+    {
+        "question": "Solution:\nWe can use the cosine function in trigonometry to find $\\cos C$.\n\n$\\cos C = \\frac{\\text{adjacent}}{\\text{hypotenuse}}$\n\nThe adjacent side to angle $C$ is $BC = 6$, and the hypotenuse is $AC = 10$. Therefore,\n\n$\\cos C = \\frac{6}{10} = \\frac{3}{5}$.\n\nFinal Answer: $\\boxed{\\frac{3}{5}}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{\\frac{3}{5}}. I hope it is correct. \n",
+        "ground_truth": "The Pythagorean Theorem gives us $AC = \\sqrt{BC^2 - AB^2} = \\sqrt{100 - 36} = \\sqrt{64}=8$, so $\\cos C = \\frac{AC}{BC} = \\frac{8}{10} = \\boxed{\\frac45}$."
+    }
+]

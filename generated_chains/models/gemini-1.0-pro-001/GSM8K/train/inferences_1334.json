@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRachel is stuffing envelopes. She has eight hours to complete the task, and there are 1,500 envelopes. In the first hour, Rachel stuffs 135 envelopes. The second hour she stuffs 141 envelopes. How many envelopes will Rachel need to stuff per hour to finish the job?",
+        "inference": "1. Calculate the total number of envelopes remaining after the first two hours:\n1,500 - 135 - 141 = 1,224 envelopes\n\n2. Divide the remaining envelopes by the remaining hours to find the number of envelopes Rachel needs to stuff per hour:\n1,224 / 6 = 204 envelopes per hour\n\n3. Add the number of envelopes stuffed in the first two hours to the number of envelopes to be stuffed per hour to find the total number of envelopes Rachel needs to stuff per hour:\n135 + 141 + 204 = 480 envelopes per hour\n\nI hope it is correct: 480 envelopes per hour",
+        "ground_truth": "Rachel has 1500 - 135 - 141 envelopes = <<1500-135-141=1224>>1224 envelopes remaining to stuff.\nRachel has 8 hours - 2 hours = <<8-2=6>>6 hours left to finish the task.\nRachel needs to stuff 1224 envelopes / 6 hours = <<1224/6=204>>204 envelopes per hour.\n#### 204"
+    },
+    {
+        "question": "1. Calculate the total number of envelopes remaining after the first two hours:\n1,500 - 135 - 141 = 1,224 envelopes\n\n2. Divide the remaining envelopes by the remaining hours to find the number of envelopes Rachel needs to stuff per hour:\n1,224 / 6 = 204 envelopes per hour\n\n3. Add the number of envelopes stuffed in the first two hours to the number of envelopes to be stuffed per hour to find the total number of envelopes Rachel needs to stuff per hour:\n135 + 141 + 204 = 480 envelopes per hour\n\nI hope it is correct: 480 envelopes per hour\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$480",
+        "ground_truth": "Rachel has 1500 - 135 - 141 envelopes = <<1500-135-141=1224>>1224 envelopes remaining to stuff.\nRachel has 8 hours - 2 hours = <<8-2=6>>6 hours left to finish the task.\nRachel needs to stuff 1224 envelopes / 6 hours = <<1224/6=204>>204 envelopes per hour.\n#### 204"
+    }
+]

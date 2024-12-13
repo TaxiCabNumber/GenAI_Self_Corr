@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMark made a chalkboard that is 3 feet wide. It is 2 times as long as it is wide. What is the area of the chalkboard?",
+        "inference": "1. The chalkboard is 3 feet wide.\n2. The chalkboard is 2 times as long as it is wide, so the length is 3 * 2 = 6 feet.\n3. The area of the chalkboard is length * width = 6 * 3 = 18 square feet.\nI hope it is correct: $18$",
+        "ground_truth": "The length of the chalkboard is 2 x the width of 3 feet = <<2*3=6>>6 feet.\nWe can calculate area by multiplying the width and the length, so 3 feet x 6 feet = <<3*6=18>>18 feet.\n#### 18"
+    },
+    {
+        "question": "1. The chalkboard is 3 feet wide.\n2. The chalkboard is 2 times as long as it is wide, so the length is 3 * 2 = 6 feet.\n3. The area of the chalkboard is length * width = 6 * 3 = 18 square feet.\nI hope it is correct: $18$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $18$",
+        "ground_truth": "The length of the chalkboard is 2 x the width of 3 feet = <<2*3=6>>6 feet.\nWe can calculate area by multiplying the width and the length, so 3 feet x 6 feet = <<3*6=18>>18 feet.\n#### 18"
+    }
+]

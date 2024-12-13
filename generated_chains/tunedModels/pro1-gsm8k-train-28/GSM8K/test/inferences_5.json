@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nKylar went to the store to buy glasses for his new apartment. One glass costs $5, but every second glass costs only 60% of the price. Kylar wants to buy 16 glasses. How much does he need to pay for them?",
+        "inference": "1. The first glass costs $5.\n2. The second glass costs 60% of $5, which is $3.\n3. The third glass costs $5.\n4. The fourth glass costs 60% of $5, which is $3.\n5. This pattern continues until the 16th glass.\n6. The total cost of the 16 glasses is $5 + $3 + $5 + $3 + ... + $5 + $3 = $5 x 8 + $3 x 8 = $40 + $24 = $64.\nI hope it is correct: $64$",
+        "ground_truth": "The discount price of one glass is 60/100 * 5 = $<<60/100*5=3>>3.\nIf every second glass is cheaper, that means Kylar is going to buy 16 / 2 = <<16/2=8>>8 cheaper glasses.\nSo for the cheaper glasses, Kylar is going to pay 8 * 3 = $<<8*3=24>>24.\nAnd for the regular-priced glasses, Kylar will pay 8 * 5 = $<<8*5=40>>40.\nSo in total Kylar needs to pay 24 + 40 = $<<24+40=64>>64 for the glasses he wants to buy.\n#### 64"
+    },
+    {
+        "question": "1. The first glass costs $5.\n2. The second glass costs 60% of $5, which is $3.\n3. The third glass costs $5.\n4. The fourth glass costs 60% of $5, which is $3.\n5. This pattern continues until the 16th glass.\n6. The total cost of the 16 glasses is $5 + $3 + $5 + $3 + ... + $5 + $3 = $5 x 8 + $3 x 8 = $40 + $24 = $64.\nI hope it is correct: $64$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$=64",
+        "ground_truth": "The discount price of one glass is 60/100 * 5 = $<<60/100*5=3>>3.\nIf every second glass is cheaper, that means Kylar is going to buy 16 / 2 = <<16/2=8>>8 cheaper glasses.\nSo for the cheaper glasses, Kylar is going to pay 8 * 3 = $<<8*3=24>>24.\nAnd for the regular-priced glasses, Kylar will pay 8 * 5 = $<<8*5=40>>40.\nSo in total Kylar needs to pay 24 + 40 = $<<24+40=64>>64 for the glasses he wants to buy.\n#### 64"
+    }
+]

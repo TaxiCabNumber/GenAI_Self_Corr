@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCompute $\\binom{15}{7}$. You are told that $\\binom{14}{8} = 3003$ and $\\binom{14}{7} = 3432$.",
+        "inference": "We know that $\\binom{n}{k} = \\binom{n}{n-k}$ for any non-negative integers $n$ and $k$.  Therefore, $\\binom{14}{7} = \\binom{14}{14-7} = \\binom{14}{7} = 3432$.\n\nAlso, we know that $\\binom{n}{k} = \\binom{n-1}{k-1} + \\binom{n-1}{k}$ for any non-negative integers $n$ and $k$ with $n\\ge k\\ge 1$.  Therefore, $\\binom{15}{7} = \\binom{14}{6} + \\binom{14}{7} = \\binom{14}{8} + \\binom{14}{7} = 3003+3432 = 6435$.\n\nFinal Answer: $\\boxed{6435}$. I hope it is correct. \n",
+        "ground_truth": "By Pascal's Rule, \\begin{align*}\n\\binom{15}{7} &= \\binom{14}{6} + \\binom{14}{7} \\\\\n\\binom{15}{7} &= \\binom{14}{14-6} + \\binom{14}{7} \\\\\n\\binom{15}{7} &= \\binom{14}{8} + \\binom{14}{7} \\\\\n\\binom{15}{7} &= 3003 + 3432 \\\\\n\\binom{15}{7} &= \\boxed{6435}\n\\end{align*}"
+    },
+    {
+        "question": "We know that $\\binom{n}{k} = \\binom{n}{n-k}$ for any non-negative integers $n$ and $k$.  Therefore, $\\binom{14}{7} = \\binom{14}{14-7} = \\binom{14}{7} = 3432$.\n\nAlso, we know that $\\binom{n}{k} = \\binom{n-1}{k-1} + \\binom{n-1}{k}$ for any non-negative integers $n$ and $k$ with $n\\ge k\\ge 1$.  Therefore, $\\binom{15}{7} = \\binom{14}{6} + \\binom{14}{7} = \\binom{14}{8} + \\binom{14}{7} = 3003+3432 = 6435$.\n\nFinal Answer: $\\boxed{6435}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct.  The answer is $\\boxed{6435}$. \n",
+        "ground_truth": "By Pascal's Rule, \\begin{align*}\n\\binom{15}{7} &= \\binom{14}{6} + \\binom{14}{7} \\\\\n\\binom{15}{7} &= \\binom{14}{14-6} + \\binom{14}{7} \\\\\n\\binom{15}{7} &= \\binom{14}{8} + \\binom{14}{7} \\\\\n\\binom{15}{7} &= 3003 + 3432 \\\\\n\\binom{15}{7} &= \\boxed{6435}\n\\end{align*}"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA class of 200 students is split into 3 groups such that 2 of them are equal in number and the last one (which is the smallest) is 10 less than each of the other groups. How many students are in this (smallest) group?",
+        "inference": "Let 'x' be the number of students in each of the two equal groups.\nThe smallest group has x - 10 students.\nThe total number of students is 2x + (x - 10) = 200\nCombining like terms, we get 3x - 10 = 200\nAdding 10 to both sides, we have 3x = 210\nDividing both sides by 3, we get x = 70\nTherefore, the smallest group has 70 - 10 = 60 students.\nI hope it is correct: 60 $students$ \n",
+        "ground_truth": "If 10 is added to the smallest group (hence to the total number of students), it would make all 3 groups equal to give (200+10)/3 = <<(200+10)/3=70>>70 in each group.\nNow taking the 10 away from one group gives the number of the smallest group as 70-10 = <<70-10=60>>60 students.\n#### 60"
+    },
+    {
+        "question": "Let 'x' be the number of students in each of the two equal groups.\nThe smallest group has x - 10 students.\nThe total number of students is 2x + (x - 10) = 200\nCombining like terms, we get 3x - 10 = 200\nAdding 10 to both sides, we have 3x = 210\nDividing both sides by 3, we get x = 70\nTherefore, the smallest group has 70 - 10 = 60 students.\nI hope it is correct: 60 $students$ \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ 60 students \n",
+        "ground_truth": "If 10 is added to the smallest group (hence to the total number of students), it would make all 3 groups equal to give (200+10)/3 = <<(200+10)/3=70>>70 in each group.\nNow taking the 10 away from one group gives the number of the smallest group as 70-10 = <<70-10=60>>60 students.\n#### 60"
+    }
+]

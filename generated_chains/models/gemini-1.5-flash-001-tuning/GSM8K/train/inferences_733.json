@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nHenry, John and Leo collected some seashells from the beach. Henry collected 11, Paul 24. If they initially collected 59 seashells in total and Leo gave a quarter of his collection to a younger kid they met, how many do they have in total now?",
+        "inference": "Let $x$ be the number of seashells Leo collected initially. They initially collected 59 seashells in total, so:\n \n $11 + 24 + x = 59$\n \n $x = 59 - 11 - 24$\n \n $x = 24$\n \n Leo gave a quarter of his collection to a younger kid, so he gave away:\n \n $24 \\times \\frac{1}{4} = 6$\n \n Leo has now:\n \n $24 - 6 = 18$\n \n In total, they now have:\n \n $11 + 24 + 18 = 53$\n \n I hope it is correct: **53** $seashells$",
+        "ground_truth": "Henry and Paul collected a total of 11+24 = <<11+24=35>>35 seashells\nTo make a total of 59, Leo must have collected 59-35 = <<59-35=24>>24 seashells\nHe gave out a quarter of 24 seashells which is 24*(1/4) = <<24*(1/4)=6>>6 seashells\nThey are now left with 59-6 = <<59-6=53>>53 seashells\n#### 53"
+    },
+    {
+        "question": "Let $x$ be the number of seashells Leo collected initially. They initially collected 59 seashells in total, so:\n \n $11 + 24 + x = 59$\n \n $x = 59 - 11 - 24$\n \n $x = 24$\n \n Leo gave a quarter of his collection to a younger kid, so he gave away:\n \n $24 \\times \\frac{1}{4} = 6$\n \n Leo has now:\n \n $24 - 6 = 18$\n \n In total, they now have:\n \n $11 + 24 + 18 = 53$\n \n I hope it is correct: **53** $seashells$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ 53 seashells \n",
+        "ground_truth": "Henry and Paul collected a total of 11+24 = <<11+24=35>>35 seashells\nTo make a total of 59, Leo must have collected 59-35 = <<59-35=24>>24 seashells\nHe gave out a quarter of 24 seashells which is 24*(1/4) = <<24*(1/4)=6>>6 seashells\nThey are now left with 59-6 = <<59-6=53>>53 seashells\n#### 53"
+    }
+]

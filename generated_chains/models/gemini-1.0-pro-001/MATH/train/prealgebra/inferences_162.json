@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nAt the beginning of every period of British Literature, Mrs. Crabapple picks a random student to receive a crabapple as a gift, but really, as you might imagine, they are quite bitter and nasty. Given that there are 11 students in her class and her class meets four times a week, how many different sequences of crabapple recipients are possible in a week?",
+        "inference": "The number of different sequences of crabapple recipients in a week is equal to the number of permutations of 11 students taken 4 at a time. \n\nThe formula for the number of permutations of n objects taken r at a time is:\n\n```\nP(n, r) = n! / (n - r)!\n```\n\nwhere n! represents the factorial of n.\n\nIn this case, n = 11 and r = 4, so the number of different sequences of crabapple recipients in a week is:\n\n```\nP(11, 4) = 11! / (11 - 4)! = 11! / 7! = 11 * 10 * 9 * 8 = 7920\n```\n\nFinal Answer: $\\boxed{7920}$. I hope it is correct.",
+        "ground_truth": "Since there is no mention that a student cannot be picked twice, there are 11 possible victims every time the class meets. Therefore, our answer is $11 \\cdot 11 \\cdot 11 \\cdot 11 = 11^4 = \\boxed{14,\\!641}.$"
+    },
+    {
+        "question": "The number of different sequences of crabapple recipients in a week is equal to the number of permutations of 11 students taken 4 at a time. \n\nThe formula for the number of permutations of n objects taken r at a time is:\n\n```\nP(n, r) = n! / (n - r)!\n```\n\nwhere n! represents the factorial of n.\n\nIn this case, n = 11 and r = 4, so the number of different sequences of crabapple recipients in a week is:\n\n```\nP(11, 4) = 11! / (11 - 4)! = 11! / 7! = 11 * 10 * 9 * 8 = 7920\n```\n\nFinal Answer: $\\boxed{7920}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$7920$}",
+        "ground_truth": "Since there is no mention that a student cannot be picked twice, there are 11 possible victims every time the class meets. Therefore, our answer is $11 \\cdot 11 \\cdot 11 \\cdot 11 = 11^4 = \\boxed{14,\\!641}.$"
+    }
+]

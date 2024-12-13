@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe roots of $x^3 + Px^2 + Qx - 19 = 0$ are each one more than the roots of $x^3 - Ax^2 + Bx - C = 0.$  If $A,$ $B,$ $C,$ $P,$ and $Q$ are constants, compute $A + B + C.$",
+        "inference": "Final Answer: \\\\boxed{29}. I hope it is correct. \n",
+        "ground_truth": "Let $r,$ $s,$ $t$ be the roots of $x^3 + Px^2 + Qx - 19 = 0.$  Let $u = r - 1,$ $v = s - 1,$ and $w = t - 1,$ so $u,$ $v,$ $w$ are the roots of $x^3 - Ax^2 + Bx - C = 0.$  Thus,\n\\[x^3 - Ax^2 + Bx - C = (x - u)(x - v)(x - w).\\]Settting $x = -1,$ we get\n\\[-1 - A - B - C = (-1 - u)(-1 - v)(-1 - w) = -(u + 1)(v + 1)(w + 1) = -rst.\\]By Vieta's formulas, $rst = 19,$ so $-rst = -19.$  Hence,\n\\[-1 - A - B - C = -19.\\]Then $A + B + C = 19 - 1 = \\boxed{18}.$"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{29}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need that information to identify any potential errors and rewrite the solution correctly. \n",
+        "ground_truth": "Let $r,$ $s,$ $t$ be the roots of $x^3 + Px^2 + Qx - 19 = 0.$  Let $u = r - 1,$ $v = s - 1,$ and $w = t - 1,$ so $u,$ $v,$ $w$ are the roots of $x^3 - Ax^2 + Bx - C = 0.$  Thus,\n\\[x^3 - Ax^2 + Bx - C = (x - u)(x - v)(x - w).\\]Settting $x = -1,$ we get\n\\[-1 - A - B - C = (-1 - u)(-1 - v)(-1 - w) = -(u + 1)(v + 1)(w + 1) = -rst.\\]By Vieta's formulas, $rst = 19,$ so $-rst = -19.$  Hence,\n\\[-1 - A - B - C = -19.\\]Then $A + B + C = 19 - 1 = \\boxed{18}.$"
+    }
+]

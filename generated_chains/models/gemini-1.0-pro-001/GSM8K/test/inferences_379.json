@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRachel bought 23 cookies and Janet gave her 42 cookies. The other day her brother ate 44 of those cookies. How many cookies are left for Rachel?",
+        "inference": "1. Rachel has 23 + 42 = 65 cookies.\n2. Her brother eats 44 of these cookies, leaving her with 65 - 44 = 21 cookies.\n**I hope it is correct: 21**",
+        "ground_truth": "The number of Rachel's cookies is 23 + 42 = <<23+42=65>>65 cookies.\nAfter her brother\u2019s feast, she was left with 65 \u2013 44 = <<65-44=21>>21 cookies.\n#### 21"
+    },
+    {
+        "question": "1. Rachel has 23 + 42 = 65 cookies.\n2. Her brother eats 44 of these cookies, leaving her with 65 - 44 = 21 cookies.\n**I hope it is correct: 21**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 21",
+        "ground_truth": "The number of Rachel's cookies is 23 + 42 = <<23+42=65>>65 cookies.\nAfter her brother\u2019s feast, she was left with 65 \u2013 44 = <<65-44=21>>21 cookies.\n#### 21"
+    }
+]

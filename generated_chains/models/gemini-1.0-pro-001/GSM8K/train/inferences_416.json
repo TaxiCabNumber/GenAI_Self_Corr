@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIn mid-May, the river flowing through Moreland is five feet deep. By mid-June, the river is 10 feet deeper than mid-May. By mid-July, the river is three times deeper than mid-June. How many feet deep is the river by mid-July?",
+        "inference": "1. River depth in mid-May = 5 feet\n2. River depth increase from mid-May to mid-June = 10 feet\n3. River depth in mid-June = 5 + 10 = 15 feet\n4. River depth increase from June to July = 3 x 15 = 45 feet\n5. River depth in mid-July = 15 + 45 = 60 feet\nI hope it is correct: 60 feet",
+        "ground_truth": "In mid-June, the river is 5+10=<<5+10=15>>15 feet deep.\nIn mid-July, the river is 15*3=<<15*3=45>>45 feet deep.\n#### 45"
+    },
+    {
+        "question": "1. River depth in mid-May = 5 feet\n2. River depth increase from mid-May to mid-June = 10 feet\n3. River depth in mid-June = 5 + 10 = 15 feet\n4. River depth increase from June to July = 3 x 15 = 45 feet\n5. River depth in mid-July = 15 + 45 = 60 feet\nI hope it is correct: 60 feet\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ = 60",
+        "ground_truth": "In mid-June, the river is 5+10=<<5+10=15>>15 feet deep.\nIn mid-July, the river is 15*3=<<15*3=45>>45 feet deep.\n#### 45"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn $\\Delta ABC$, $\\overline{DE} \\parallel \\overline{AB}, CD = 4$ cm, $DA = 10$ cm, and $CE = 6$ cm. What is the number of centimeters in the length of $\\overline{CB}$?\n\n[asy]pair A,B,C,D,E;\nA = (-2,-4); B = (4,-4); C = (0,0); D = A/3; E = B/3;\ndraw(E--D--C--B--A--D);\nlabel(\"A\",A,W); label(\"B\",B,dir(0)); label(\"C\",C,N); label(\"D\",D,W);\n\nlabel(\"E\",E,dir(0));\n[/asy]",
+        "inference": "Since $\\overline{DE} \\parallel \\overline{AB}$, we have $\\frac{CD}{DA} = \\frac{CE}{EB}$.  Substituting the given values, we get $\\frac{4}{10} = \\frac{6}{EB}$, so $EB = 15$.  Therefore, $CB = CE + EB = 6 + 15 = 21$.\n\nFinal Answer: $\\boxed{21}$. I hope it is correct. \n",
+        "ground_truth": "Since $DE \\parallel AB,$ we know that $\\angle CDE = \\angle CAB$ and $\\angle CED = \\angle CBA.$ Therefore, by AA similarity, we have $\\triangle ABC \\sim DEC.$ Then, we find: \\begin{align*}\n\\frac{CB}{CE} &= \\frac{CA}{CD} = \\frac{CD + DA}{CD}\\\\\n\\frac{CB}{6\\text{ cm}} &= \\frac{4\\text{ cm} + 10\\text{ cm}}{4\\text{ cm}} = \\frac{7}{2}\\\\\nCB &= 6\\text{cm} \\cdot \\frac{7}{2} = \\boxed{21}\\text{ cm}.\n\\end{align*}"
+    },
+    {
+        "question": "Since $\\overline{DE} \\parallel \\overline{AB}$, we have $\\frac{CD}{DA} = \\frac{CE}{EB}$.  Substituting the given values, we get $\\frac{4}{10} = \\frac{6}{EB}$, so $EB = 15$.  Therefore, $CB = CE + EB = 6 + 15 = 21$.\n\nFinal Answer: $\\boxed{21}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{21}$. I hope it is correct. \n",
+        "ground_truth": "Since $DE \\parallel AB,$ we know that $\\angle CDE = \\angle CAB$ and $\\angle CED = \\angle CBA.$ Therefore, by AA similarity, we have $\\triangle ABC \\sim DEC.$ Then, we find: \\begin{align*}\n\\frac{CB}{CE} &= \\frac{CA}{CD} = \\frac{CD + DA}{CD}\\\\\n\\frac{CB}{6\\text{ cm}} &= \\frac{4\\text{ cm} + 10\\text{ cm}}{4\\text{ cm}} = \\frac{7}{2}\\\\\nCB &= 6\\text{cm} \\cdot \\frac{7}{2} = \\boxed{21}\\text{ cm}.\n\\end{align*}"
+    }
+]

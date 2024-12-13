@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn right triangle $ABC$, we have $AB = 10$, $BC = 24$, and $\\angle ABC = 90^\\circ$. If $M$ is on $\\overline{AC}$ such that $\\overline{BM}$ is an angle bisector of $\\triangle ABC$, then what is $\\cos \\angle ABM$?",
+        "inference": "Final Answer: $\\boxed{\\frac{4}{\\sqrt{13}}}$. I hope it is correct. \n",
+        "ground_truth": "Since $\\angle ABC = 90^\\circ$ and $\\overline{BM}$ bisects $\\angle ABC$, we have $\\angle ABM = 45^\\circ$, so $\\cos \\angle ABM = \\cos 45^\\circ = \\boxed{\\frac{\\sqrt{2}}{2}}$.\n\n[asy]\nunitsize(0.25 cm);\n\npair A, B, C, M;\n\nA = (0,10);\nB = (0,0);\nC = (24,0);\nM = extension(B, B + dir(45), A, C);\n\ndraw(A--B--C--cycle);\ndraw(B--M);\n\nlabel(\"$A$\", A, NW);\nlabel(\"$B$\", B, SW);\nlabel(\"$C$\", C, SE);\nlabel(\"$M$\", M, NE);\n[/asy]"
+    },
+    {
+        "question": "Final Answer: $\\boxed{\\frac{4}{\\sqrt{13}}}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the problem statement and the solution you attempted so I can help you find the error and rewrite the solution. \n",
+        "ground_truth": "Since $\\angle ABC = 90^\\circ$ and $\\overline{BM}$ bisects $\\angle ABC$, we have $\\angle ABM = 45^\\circ$, so $\\cos \\angle ABM = \\cos 45^\\circ = \\boxed{\\frac{\\sqrt{2}}{2}}$.\n\n[asy]\nunitsize(0.25 cm);\n\npair A, B, C, M;\n\nA = (0,10);\nB = (0,0);\nC = (24,0);\nM = extension(B, B + dir(45), A, C);\n\ndraw(A--B--C--cycle);\ndraw(B--M);\n\nlabel(\"$A$\", A, NW);\nlabel(\"$B$\", B, SW);\nlabel(\"$C$\", C, SE);\nlabel(\"$M$\", M, NE);\n[/asy]"
+    }
+]

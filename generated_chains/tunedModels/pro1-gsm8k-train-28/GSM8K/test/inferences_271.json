@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn has 2 houses with 3 bedrooms each.  Each bedroom has 2 windows each.  There are an additional 4 windows in each house not connected to bedrooms.  How many total windows are there between the houses?",
+        "inference": "1. John has 2 houses with 3 bedrooms each. So, the total number of bedrooms is 2 * 3 = 6.\n2. Each bedroom has 2 windows each. So, the total number of windows in the bedrooms is 6 * 2 = 12.\n3. There are an additional 4 windows in each house not connected to bedrooms. So, the total number of additional windows is 2 * 4 = 8.\n4. The total number of windows between the houses is the sum of the windows in the bedrooms and the additional windows. So, the total number of windows is 12 + 8 = 20.\nI hope it is correct: 20 $answer$",
+        "ground_truth": "Each house has 3*2=<<3*2=6>>6 windows for the bedrooms\nSo each house has 6+4=<<6+4=10>>10 windows\nSo the total number of windows is 10*2=<<10*2=20>>20 windows\n#### 20"
+    },
+    {
+        "question": "1. John has 2 houses with 3 bedrooms each. So, the total number of bedrooms is 2 * 3 = 6.\n2. Each bedroom has 2 windows each. So, the total number of windows in the bedrooms is 6 * 2 = 12.\n3. There are an additional 4 windows in each house not connected to bedrooms. So, the total number of additional windows is 2 * 4 = 8.\n4. The total number of windows between the houses is the sum of the windows in the bedrooms and the additional windows. So, the total number of windows is 12 + 8 = 20.\nI hope it is correct: 20 $answer$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 20",
+        "ground_truth": "Each house has 3*2=<<3*2=6>>6 windows for the bedrooms\nSo each house has 6+4=<<6+4=10>>10 windows\nSo the total number of windows is 10*2=<<10*2=20>>20 windows\n#### 20"
+    }
+]

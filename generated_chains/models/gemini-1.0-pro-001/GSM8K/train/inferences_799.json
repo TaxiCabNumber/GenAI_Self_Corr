@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere is a very large room that has 4 tables, 1 sofa and 2 chairs that have 4 legs each.  There are also 3 tables with 3 legs each, 1 table with 1 leg, and 1 rocking chair with 2 legs.  How many legs are there in the room?",
+        "inference": "4 x 4 = 16 legs from 4 tables\n1 x 3 = 3 legs from 1 sofa\n2 x 4 = 8 legs from 2 chairs\n3 x 3 = 9 legs from 3 tables\n1 x 1 = 1 leg from 1 table\n1 x 2 = 2 legs from 1 rocking chair\n\n16 + 3 + 8 + 9 + 1 + 2 = 39 legs\n\nI hope it is correct: 39 $legs$",
+        "ground_truth": "There are 4 tables, 1 sofa and 2 chairs that have 4 legs each so 4+1+2 =<<4+1+2=7>>7 pieces of furniture\nThese 7 pieces have 4 legs each so they have 7*4 = <<7*4=28>>28 legs\nThere are 3 tables with 3 legs each so they have 3*3 = <<3*3=9>>9 legs\nWe have 28 legs and 9 legs as well a 1 leg on a table and 2 on a rocking chair for a total of 28+9+1+2 = <<28+9+1+2=40>>40 legs\n#### 40"
+    },
+    {
+        "question": "4 x 4 = 16 legs from 4 tables\n1 x 3 = 3 legs from 1 sofa\n2 x 4 = 8 legs from 2 chairs\n3 x 3 = 9 legs from 3 tables\n1 x 1 = 1 leg from 1 table\n1 x 2 = 2 legs from 1 rocking chair\n\n16 + 3 + 8 + 9 + 1 + 2 = 39 legs\n\nI hope it is correct: 39 $legs$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 39 $answer$",
+        "ground_truth": "There are 4 tables, 1 sofa and 2 chairs that have 4 legs each so 4+1+2 =<<4+1+2=7>>7 pieces of furniture\nThese 7 pieces have 4 legs each so they have 7*4 = <<7*4=28>>28 legs\nThere are 3 tables with 3 legs each so they have 3*3 = <<3*3=9>>9 legs\nWe have 28 legs and 9 legs as well a 1 leg on a table and 2 on a rocking chair for a total of 28+9+1+2 = <<28+9+1+2=40>>40 legs\n#### 40"
+    }
+]

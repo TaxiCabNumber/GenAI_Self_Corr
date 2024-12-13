@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nNala found 5 seashells at the beach. The next day, she found another 7, and the following day, she found twice the number she got from the first two days. How many seashells does Nala have?",
+        "inference": "On the first day, she found 5 seashells. \nOn the second day, she found 7 more, so she now has 5 + 7 = 12 seashells \nOn the third day, she found twice the number she got from the first two days, which was 12, so she found 2 * 12 = 24 seashells. \nTherefore, Nala has a total of 12 + 24 = 36 seashells.\n\nI hope it is correct: 36",
+        "ground_truth": "On the first and second days, Nala found 5 + 7 = <<5+7=12>>12 seashells.\nOn the third day, she found 12 x 2 = <<12*2=24>>24 seashells.\nAltogether, she found 12 + 24 = <<12+24=36>>36 seashells.\n#### 36"
+    },
+    {
+        "question": "On the first day, she found 5 seashells. \nOn the second day, she found 7 more, so she now has 5 + 7 = 12 seashells \nOn the third day, she found twice the number she got from the first two days, which was 12, so she found 2 * 12 = 24 seashells. \nTherefore, Nala has a total of 12 + 24 = 36 seashells.\n\nI hope it is correct: 36\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$36",
+        "ground_truth": "On the first and second days, Nala found 5 + 7 = <<5+7=12>>12 seashells.\nOn the third day, she found 12 x 2 = <<12*2=24>>24 seashells.\nAltogether, she found 12 + 24 = <<12+24=36>>36 seashells.\n#### 36"
+    }
+]

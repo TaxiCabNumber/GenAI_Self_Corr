@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $x$ be a positive real number such that $x + \\frac{1}{x} = 98.$  Find\\[\\sqrt{x} + \\frac{1}{\\sqrt{x}}.\\]",
+        "inference": "Solution:\nSquaring both sides of $x + \\frac{1}{x} = 98$, we get \\[\\begin{aligned} x^2 + 2 + \\frac{1}{x^2} &= 98^2 \\\\\\  x^2 + 2 + \\frac{1}{x^2} &= 9604 \\\\\\  x^2 + \\frac{1}{x^2} &= 9602 \\\\\\  \\left(x + \\frac{1}{x}\\right)^2 - 2x\\frac{1}{x} &= 9602 \\\\\\  98^2 - 2 &= 9602 \\\\\\  2 &= 9602 - 98^2 \\\\\\  2 &= 2 \\end{aligned}\\] Therefore, \\[\\sqrt{x} + \\frac{1}{\\sqrt{x}} = x + \\frac{1}{x} = \\boxed{98}.\\]\nFinal Answer: $\\boxed{98}.$ I hope it is correct.",
+        "ground_truth": "Let\n\\[y = \\sqrt{x} + \\frac{1}{\\sqrt{x}}.\\]Then\n\\[y^2 = x + 2 + \\frac{1}{x} = 98 + 2 = 100.\\]Since $\\sqrt{x} \\ge 0$ and $\\frac{1}{\\sqrt{x}} \\ge 0,$ we must have $y \\ge 0.$  Therefore, $y = \\boxed{10}.$"
+    },
+    {
+        "question": "Solution:\nSquaring both sides of $x + \\frac{1}{x} = 98$, we get \\[\\begin{aligned} x^2 + 2 + \\frac{1}{x^2} &= 98^2 \\\\\\  x^2 + 2 + \\frac{1}{x^2} &= 9604 \\\\\\  x^2 + \\frac{1}{x^2} &= 9602 \\\\\\  \\left(x + \\frac{1}{x}\\right)^2 - 2x\\frac{1}{x} &= 9602 \\\\\\  98^2 - 2 &= 9602 \\\\\\  2 &= 9602 - 98^2 \\\\\\  2 &= 2 \\end{aligned}\\] Therefore, \\[\\sqrt{x} + \\frac{1}{\\sqrt{x}} = x + \\frac{1}{x} = \\boxed{98}.\\]\nFinal Answer: $\\boxed{98}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$98$}.",
+        "ground_truth": "Let\n\\[y = \\sqrt{x} + \\frac{1}{\\sqrt{x}}.\\]Then\n\\[y^2 = x + 2 + \\frac{1}{x} = 98 + 2 = 100.\\]Since $\\sqrt{x} \\ge 0$ and $\\frac{1}{\\sqrt{x}} \\ge 0,$ we must have $y \\ge 0.$  Therefore, $y = \\boxed{10}.$"
+    }
+]

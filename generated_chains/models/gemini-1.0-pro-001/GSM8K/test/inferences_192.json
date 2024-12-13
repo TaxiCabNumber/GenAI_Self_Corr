@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTom plants 10 trees a year.  Every year he also chops down 2 trees a year.  He starts with 50 trees.  After 10 years 30% of the trees die.  How many trees does he have left?",
+        "inference": "Tom begins with 50 trees and plants 10 trees a year, so in 10 years, he will have planted 100 trees ($50 + 10 * 10 = 150$). He also chops down two trees each year, so he will have chopped down 20 trees in 10 years ($2 * 10 = 20$). Thus, he will have a total of 130 trees ($150 - 20 = 130$) after 10 years.\n\n30% of the trees die, which means 30% of 130 trees will die ($0.30 * 130 = 39$). Thus, 39 trees will die, leaving Tom with 91 trees ($130 - 39 = 91$).\n\nI hope it is correct: 91",
+        "ground_truth": "He gets 10-2=<<10-2=8>>8 new trees a year\nAfter 10 years he has 8*10=<<8*10=80>>80 new trees\nSo he had 80+50=<<80+50=130>>130 trees\nHe lost 130*.3=<<130*.3=39>>39 trees\nThat means he had 130-39=<<130-39=91>>91 trees\n#### 91"
+    },
+    {
+        "question": "Tom begins with 50 trees and plants 10 trees a year, so in 10 years, he will have planted 100 trees ($50 + 10 * 10 = 150$). He also chops down two trees each year, so he will have chopped down 20 trees in 10 years ($2 * 10 = 20$). Thus, he will have a total of 130 trees ($150 - 20 = 130$) after 10 years.\n\n30% of the trees die, which means 30% of 130 trees will die ($0.30 * 130 = 39$). Thus, 39 trees will die, leaving Tom with 91 trees ($130 - 39 = 91$).\n\nI hope it is correct: 91\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$91",
+        "ground_truth": "He gets 10-2=<<10-2=8>>8 new trees a year\nAfter 10 years he has 8*10=<<8*10=80>>80 new trees\nSo he had 80+50=<<80+50=130>>130 trees\nHe lost 130*.3=<<130*.3=39>>39 trees\nThat means he had 130-39=<<130-39=91>>91 trees\n#### 91"
+    }
+]

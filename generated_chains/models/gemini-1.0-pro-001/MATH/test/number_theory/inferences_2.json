@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind $n$ if $\\gcd(n,40) = 10$ and $\\mathop{\\text{lcm}}[n,40] = 280$.",
+        "inference": "Since $\\gcd(n,40) = 10$, we know that $n$ and $40$ are relatively prime, meaning they have no common factors other than $1$.\nSince $\\mathop{\\text{lcm}}[n,40] = 280$, we know that $n \\times 40 = 280k$ for some integer $k$.\nSubstituting $n = 10m$ into the above equation, we get $10m \\times 40 = 280k$, which simplifies to $m = 7k$.\nTherefore, $n = 10m = 10(7k) = 70k$.\nSince $n$ and $40$ are relatively prime, $k$ must be $1$.\nTherefore, $n = 70k = 70(1) = \\boxed{70}.$\nFinal Answer: $\\boxed{70}.$ I hope it is correct.",
+        "ground_truth": "We know that $\\gcd(a,b) \\cdot \\mathop{\\text{lcm}}[a,b] = ab$ for all positive integers $a$ and $b$.  Hence, in this case, $10 \\cdot 280 = n \\cdot 40$, so $n = 10 \\cdot 280/40 = \\boxed{70}$."
+    },
+    {
+        "question": "Since $\\gcd(n,40) = 10$, we know that $n$ and $40$ are relatively prime, meaning they have no common factors other than $1$.\nSince $\\mathop{\\text{lcm}}[n,40] = 280$, we know that $n \\times 40 = 280k$ for some integer $k$.\nSubstituting $n = 10m$ into the above equation, we get $10m \\times 40 = 280k$, which simplifies to $m = 7k$.\nTherefore, $n = 10m = 10(7k) = 70k$.\nSince $n$ and $40$ are relatively prime, $k$ must be $1$.\nTherefore, $n = 70k = 70(1) = \\boxed{70}.$\nFinal Answer: $\\boxed{70}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{70}",
+        "ground_truth": "We know that $\\gcd(a,b) \\cdot \\mathop{\\text{lcm}}[a,b] = ab$ for all positive integers $a$ and $b$.  Hence, in this case, $10 \\cdot 280 = n \\cdot 40$, so $n = 10 \\cdot 280/40 = \\boxed{70}$."
+    }
+]

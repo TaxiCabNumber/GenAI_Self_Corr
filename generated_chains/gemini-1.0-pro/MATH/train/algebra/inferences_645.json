@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the fraction that equals $0.\\overline{4}$.",
+        "inference": "Let $x=0.\\overline{4}=0.444...$\n\nThen $100x=44.\\overline{4}$\n\nSubtracting the first equation from the second, we get\n\n$100x-x=44.\\overline{4}-0.\\overline{4}$\n\n$\\Rightarrow 99x=44$\n\n$\\Rightarrow x=\\frac{44}{99}=\\frac{4}{9}$\n\nFinal Answer: $\\boxed{\\frac{4}{9}}$. I hope it is correct.",
+        "ground_truth": "We have \\[0.\\overline{4} = \\frac{4}{10} + \\frac{4}{100} + \\frac{4}{1000} + \\cdots.\\]This infinite geometric series has first term $4/10=2/5$ and common ratio $1/10$, so we have \\[0.\\overline{4} = \\frac{2/5}{1-1/10} = \\boxed{\\frac{4}{9}}.\\]"
+    },
+    {
+        "question": "Let $x=0.\\overline{4}=0.444...$\n\nThen $100x=44.\\overline{4}$\n\nSubtracting the first equation from the second, we get\n\n$100x-x=44.\\overline{4}-0.\\overline{4}$\n\n$\\Rightarrow 99x=44$\n\n$\\Rightarrow x=\\frac{44}{99}=\\frac{4}{9}$\n\nFinal Answer: $\\boxed{\\frac{4}{9}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$\\frac{4}{9}$}",
+        "ground_truth": "We have \\[0.\\overline{4} = \\frac{4}{10} + \\frac{4}{100} + \\frac{4}{1000} + \\cdots.\\]This infinite geometric series has first term $4/10=2/5$ and common ratio $1/10$, so we have \\[0.\\overline{4} = \\frac{2/5}{1-1/10} = \\boxed{\\frac{4}{9}}.\\]"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAt Mario's barbershop haircuts are 50% more expensive during the weekends. If Mario paid $18 for his last haircut on Monday, how much he would have paid the day before?",
+        "inference": "1. Calculate 50% of $18: 18 * .5 = 9\n2. Add the 50% to the original price: $18 + $9 = $27\n3. Mario would have paid $27 for his haircut the day before.\n\nI hope it is correct: $27",
+        "ground_truth": "Mario's $18 cut on Monday would have been 50% more expensive on Sunday or $18*50% = $<<18*50*.01=9>>9 more expensive\nThat means he would have paid $9 more on Sunday than what he paid ($18) on Monday or $9+$18 = $<<9+18=27>>27\n#### 27"
+    },
+    {
+        "question": "1. Calculate 50% of $18: 18 * .5 = 9\n2. Add the 50% to the original price: $18 + $9 = $27\n3. Mario would have paid $27 for his haircut the day before.\n\nI hope it is correct: $27\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$27",
+        "ground_truth": "Mario's $18 cut on Monday would have been 50% more expensive on Sunday or $18*50% = $<<18*50*.01=9>>9 more expensive\nThat means he would have paid $9 more on Sunday than what he paid ($18) on Monday or $9+$18 = $<<9+18=27>>27\n#### 27"
+    }
+]

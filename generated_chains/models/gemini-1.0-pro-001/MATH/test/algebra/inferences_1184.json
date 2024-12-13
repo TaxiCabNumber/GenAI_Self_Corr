@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA line goes through point $A(9, 1)$, point $B(19, k)$ and point $C(7, 0)$. What is the value of $k$?",
+        "inference": "The slope of the line passing through points $A$ and $B$ is given by:\n$$\\text{Slope}=\\dfrac{k-1}{19-9}=\\dfrac{k-1}{10}\\tag1$$\n\nSimilarly, the slope of line passing through points $A$ and $C$ is given by:\n$$\\text{Slope}=\\dfrac{0-1}{7-9}=\\dfrac{-1}{-2}=\\dfrac{1}{2}\\tag2$$\n\nSince the line passing through points $A, B$ and $C$ is collinear, so the slopes of both the lines passing through point $A$ should be the same. Therefore, equating $(1)$ and $(2)$, we get:\n$$\\dfrac{k-1}{10}=\\dfrac{1}{2}$$\n$$\\Rightarrow\\qquad 2(k-1)=10$$\n$$\\Rightarrow\\qquad k-1=5$$\n$$\\Rightarrow\\qquad k=5+1=\\boxed{6}.$$\nFinal Answer: $\\boxed{6}.$ I hope it is correct.",
+        "ground_truth": "The slope of the line is $\\frac{1-0}{9-7}=\\frac12$, so $\\frac{k-1}{19-9}=\\frac12$, or $k-1=\\frac{10}{2}$ and $k=\\boxed{6}$."
+    },
+    {
+        "question": "The slope of the line passing through points $A$ and $B$ is given by:\n$$\\text{Slope}=\\dfrac{k-1}{19-9}=\\dfrac{k-1}{10}\\tag1$$\n\nSimilarly, the slope of line passing through points $A$ and $C$ is given by:\n$$\\text{Slope}=\\dfrac{0-1}{7-9}=\\dfrac{-1}{-2}=\\dfrac{1}{2}\\tag2$$\n\nSince the line passing through points $A, B$ and $C$ is collinear, so the slopes of both the lines passing through point $A$ should be the same. Therefore, equating $(1)$ and $(2)$, we get:\n$$\\dfrac{k-1}{10}=\\dfrac{1}{2}$$\n$$\\Rightarrow\\qquad 2(k-1)=10$$\n$$\\Rightarrow\\qquad k-1=5$$\n$$\\Rightarrow\\qquad k=5+1=\\boxed{6}.$$\nFinal Answer: $\\boxed{6}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{6}.",
+        "ground_truth": "The slope of the line is $\\frac{1-0}{9-7}=\\frac12$, so $\\frac{k-1}{19-9}=\\frac12$, or $k-1=\\frac{10}{2}$ and $k=\\boxed{6}$."
+    }
+]

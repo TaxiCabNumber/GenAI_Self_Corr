@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMaria was charging her power bank before going to the park when she disconnected it and noticed the power bank wasn\u2019t fully charged yet. Once at the park, her friends asked her if they could charge their phones. While charging her friends\u2019 phones, she noticed that her power bank was losing 9% of the total capacity each hour. 5 hours later the battery started to lose instead 7% of the total capacity each hour for about 3 hours. In the end, the charge remaining was 28%. What was the charge of the power bank when Maria went out to the park?",
+        "inference": "**Thinking step by step**\n\n- Assume the total capacity of the power bank is 100%.\n- After charging her friends' phones for 5 hours, the remaining charge is 100% - 9% * 5 = 55%.\n- After charging her friends' phones for another 3 hours, the remaining charge is 55% - 7% * 3 = 28%.\n- The charge of the power bank when Maria went out to the park is 100%.\n\nI hope it is correct: 100%",
+        "ground_truth": "At first, the power bank lost 9% per hour * 5 hours = 45%.\nLater on, the power bank lost 7% per hour * 3 hours = 21%.\nThe power bank charge remaining was 28%, so the power bank charge before going to the park was 45 + 21 +28 = 94%.\n#### 94"
+    },
+    {
+        "question": "**Thinking step by step**\n\n- Assume the total capacity of the power bank is 100%.\n- After charging her friends' phones for 5 hours, the remaining charge is 100% - 9% * 5 = 55%.\n- After charging her friends' phones for another 3 hours, the remaining charge is 55% - 7% * 3 = 28%.\n- The charge of the power bank when Maria went out to the park is 100%.\n\nI hope it is correct: 100%\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ 100",
+        "ground_truth": "At first, the power bank lost 9% per hour * 5 hours = 45%.\nLater on, the power bank lost 7% per hour * 3 hours = 21%.\nThe power bank charge remaining was 28%, so the power bank charge before going to the park was 45 + 21 +28 = 94%.\n#### 94"
+    }
+]

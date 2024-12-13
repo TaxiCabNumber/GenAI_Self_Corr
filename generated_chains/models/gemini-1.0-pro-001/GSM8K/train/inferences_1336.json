@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIt takes Jason 30 minutes to cut 1 lawn in his neighborhood.  If he cuts 8 yards on both Saturday and Sunday, how many hours does he spend cutting grass?",
+        "inference": "Jason spends 30 minutes to cut 1 lawn.\nFor 8 lawns, Jason spends 30 * 8 = 240 minutes cutting grass on Saturday.\nFor 8 lawns, Jason spends 30 * 8 = 240 minutes cutting grass on Sunday.\nThe total number of minutes Jason spends cutting grass in the weekend is 240 + 240 = 480 minutes.\nSince there are 60 minutes in an hour, the total number of hours is 480 / 60 = 8 hours.\nI hope it is correct: 8",
+        "ground_truth": "He cuts 8 yards on both Saturday and Sunday so that\u2019s 2*8 = <<8*2=16>>16 yards\nIt takes him 30 minutes to cut 1 yard so it takes him 30*16 = <<30*16=480>>480 minutes\nThere are 60 minutes in 1 hour and it takes him 480 minutes so that\u2019s a total of 480/60 = <<480/60=8>>8 hours\n#### 8"
+    },
+    {
+        "question": "Jason spends 30 minutes to cut 1 lawn.\nFor 8 lawns, Jason spends 30 * 8 = 240 minutes cutting grass on Saturday.\nFor 8 lawns, Jason spends 30 * 8 = 240 minutes cutting grass on Sunday.\nThe total number of minutes Jason spends cutting grass in the weekend is 240 + 240 = 480 minutes.\nSince there are 60 minutes in an hour, the total number of hours is 480 / 60 = 8 hours.\nI hope it is correct: 8\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$8",
+        "ground_truth": "He cuts 8 yards on both Saturday and Sunday so that\u2019s 2*8 = <<8*2=16>>16 yards\nIt takes him 30 minutes to cut 1 yard so it takes him 30*16 = <<30*16=480>>480 minutes\nThere are 60 minutes in 1 hour and it takes him 480 minutes so that\u2019s a total of 480/60 = <<480/60=8>>8 hours\n#### 8"
+    }
+]

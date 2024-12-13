@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $(2x+5)(x-3)=14$, find the sum of the possible values of $x$.",
+        "inference": "$$(2x+5)(x-3)=14$$\n\n$$2x^2-6x+5x-15=14$$\n\n$$2x^2-x-15=14$$\n\n$$2x^2-x-29=0$$\n\n$$(2x+4)(x-7)=0$$\n\n$$2x+4=0 \\quad \\text{or} \\quad x-7=0$$\n\n$$2x=-4 \\quad \\text{or} \\quad x=7$$\n\n$$x=-2 \\quad \\text{or} \\quad x=7$$\n\n$$-2+7=\\boxed{5}.$$\n\nFinal Answer: \\boxed{5}. I hope it is correct.",
+        "ground_truth": "Expanding the left side of the given equation, we have $2x^2-x-15=14 \\Rightarrow 2x^2-x-29=0$. Since in a quadratic with equation of the form $ax^2+bx+c=0$ the sum of the roots is $-b/a$, the sum of the roots of the given equation is $1/2=\\boxed{.5}$."
+    },
+    {
+        "question": "$$(2x+5)(x-3)=14$$\n\n$$2x^2-6x+5x-15=14$$\n\n$$2x^2-x-15=14$$\n\n$$2x^2-x-29=0$$\n\n$$(2x+4)(x-7)=0$$\n\n$$2x+4=0 \\quad \\text{or} \\quad x-7=0$$\n\n$$2x=-4 \\quad \\text{or} \\quad x=7$$\n\n$$x=-2 \\quad \\text{or} \\quad x=7$$\n\n$$-2+7=\\boxed{5}.$$\n\nFinal Answer: \\boxed{5}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{5}",
+        "ground_truth": "Expanding the left side of the given equation, we have $2x^2-x-15=14 \\Rightarrow 2x^2-x-29=0$. Since in a quadratic with equation of the form $ax^2+bx+c=0$ the sum of the roots is $-b/a$, the sum of the roots of the given equation is $1/2=\\boxed{.5}$."
+    }
+]

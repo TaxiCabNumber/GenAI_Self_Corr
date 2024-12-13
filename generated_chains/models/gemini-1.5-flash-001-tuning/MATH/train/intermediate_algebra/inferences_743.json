@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind all solutions to\n\\[x^2 + 4x + 4x \\sqrt{x + 3} = 13.\\]Enter all the solutions, separated by commas.",
+        "inference": "Final Answer: \\\\boxed{-3,1}. I hope it is correct.",
+        "ground_truth": "We can write the given equation as\n\\[x^2 + 4x \\sqrt{x + 3} + 4(x + 3) = 25.\\]Then\n\\[(x + 2 \\sqrt{x + 3})^2 = 25,\\]so $x + 2 \\sqrt{x + 3} = \\pm 5.$  Then\n\\[-x \\pm 5 = 2 \\sqrt{x + 3}.\\]Squaring both sides, we get $x^2 \\pm 10x + 25 = 4x + 12.$\n\nIn the $+$ case, we get\n\\[x^2 + 6x + 13 = 0,\\]which has no real solutions.\n\nIn the $-$ case, we get\n\\[x^2 - 14x + 13 = 0,\\]which leads to the solutions 1 and 13.  We check that only $\\boxed{1}$ works."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{-3,1}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need the context to identify any errors and provide a corrected solution. \n",
+        "ground_truth": "We can write the given equation as\n\\[x^2 + 4x \\sqrt{x + 3} + 4(x + 3) = 25.\\]Then\n\\[(x + 2 \\sqrt{x + 3})^2 = 25,\\]so $x + 2 \\sqrt{x + 3} = \\pm 5.$  Then\n\\[-x \\pm 5 = 2 \\sqrt{x + 3}.\\]Squaring both sides, we get $x^2 \\pm 10x + 25 = 4x + 12.$\n\nIn the $+$ case, we get\n\\[x^2 + 6x + 13 = 0,\\]which has no real solutions.\n\nIn the $-$ case, we get\n\\[x^2 - 14x + 13 = 0,\\]which leads to the solutions 1 and 13.  We check that only $\\boxed{1}$ works."
+    }
+]

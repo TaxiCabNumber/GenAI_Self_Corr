@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nHow many distinct diagonals of a convex pentagon can be drawn?",
+        "inference": "**Solution:**\nThe number of diagonals that can be drawn from one vertex is $n-3$, where $n$ is the number of vertices. In this case, $n=5$, so the number of diagonals that can be drawn from one vertex is $5-3=2$. Since there are $5$ vertices, the total number of diagonals is $5\\cdot2=\\boxed{10}$.\n**Final Answer: $$10$$. I hope it is correct.**",
+        "ground_truth": "From each vertex $V$, we can draw 2 diagonals: one to each vertex that is not $V$ and does not share an edge with $V$.  There are 5 vertices in a pentagon, so we might be tempted to say the answer is $5\\times 2 = 10$.  However, note that this counts each diagonal twice, one time for each vertex.  Hence there are $\\frac{10}{2} =\\boxed{ 5}$ distinct diagonals in a convex pentagon."
+    },
+    {
+        "question": "**Solution:**\nThe number of diagonals that can be drawn from one vertex is $n-3$, where $n$ is the number of vertices. In this case, $n=5$, so the number of diagonals that can be drawn from one vertex is $5-3=2$. Since there are $5$ vertices, the total number of diagonals is $5\\cdot2=\\boxed{10}$.\n**Final Answer: $$10$$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$5$}.",
+        "ground_truth": "From each vertex $V$, we can draw 2 diagonals: one to each vertex that is not $V$ and does not share an edge with $V$.  There are 5 vertices in a pentagon, so we might be tempted to say the answer is $5\\times 2 = 10$.  However, note that this counts each diagonal twice, one time for each vertex.  Hence there are $\\frac{10}{2} =\\boxed{ 5}$ distinct diagonals in a convex pentagon."
+    }
+]

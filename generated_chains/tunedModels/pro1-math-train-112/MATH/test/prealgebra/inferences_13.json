@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $\\angle ABC$ is a straight angle, give the number of degrees in the measure of $\\angle ABD$. [asy] pair A,B,C,D; A = dir(180); D = dir(60); C = dir(0);\ndraw(B--1.2*A,EndArrow); draw(B--1.2*D,EndArrow); label(\"A\",A,S); dot(A);\nlabel(\"B\",B,S); draw(B--1.2*C,EndArrow); label(\"C\",C,S); label(\"D\",D,dir(135));\nlabel(\"$6x^{\\circ}$\",B,NW); label(\"$3x^{\\circ}$\",B+.1,NE); dot(D); dot(C);\n[/asy]",
+        "inference": "Since $\\angle ABC$ is a straight angle, $m\\angle ABC = 180^{\\circ}$.\n\nSince $\\angle ABD$ is a straight angle, $m\\angle ABD = 180^{\\circ}$.\n\nTherefore, $m\\angle ABD = \\boxed{180^{\\circ}}$.\nFinal Answer: $\\boxed{180^{\\circ}}$. I hope it is correct.",
+        "ground_truth": "Since $\\angle ABC$ is a straight angle, we have $6x + 3x = 180^\\circ$, so $9x = 180^\\circ$ and $x = 20^\\circ$.  Therefore, $\\angle ABD = 6x = \\boxed{120^\\circ}$."
+    },
+    {
+        "question": "Since $\\angle ABC$ is a straight angle, $m\\angle ABC = 180^{\\circ}$.\n\nSince $\\angle ABD$ is a straight angle, $m\\angle ABD = 180^{\\circ}$.\n\nTherefore, $m\\angle ABD = \\boxed{180^{\\circ}}$.\nFinal Answer: $\\boxed{180^{\\circ}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{180^{\\circ}}",
+        "ground_truth": "Since $\\angle ABC$ is a straight angle, we have $6x + 3x = 180^\\circ$, so $9x = 180^\\circ$ and $x = 20^\\circ$.  Therefore, $\\angle ABD = 6x = \\boxed{120^\\circ}$."
+    }
+]

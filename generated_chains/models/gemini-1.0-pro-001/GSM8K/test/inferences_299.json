@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn hires a driving service to get him to work each day.  His work is 30 miles away and he has to go there and back each day.  He goes to work 5 days a week for 50 weeks a year.  He gets charged $2 per mile driven and he also gives his driver a $150 bonus per month.  How much does he pay a year for driving?",
+        "inference": "The total number of miles driven in a year is 30 x 2 x 5 x 50 = 7500 miles.\nThe total cost of the miles driven in a year is 7500 x $2 = $15,000.\nThe total cost of the bonuses in a year is 12 x $150 = $1800.\nThe total cost of driving in a year is $15,000 + $1800 = $16,800.\nI hope it is correct: $16800$",
+        "ground_truth": "He has to travel 30*2=<<30*2=60>>60 miles per day\nThat means he travels 60*5=<<60*5=300>>300 miles per week\nSo he pays 300*2=$<<300*2=600>>600 per week\nThat means he pays $600*50=$<<600*50=30000>>30000 a year for miles driven\nHe also gives $150*12=$<<150*12=1800>>1800 a year as a bonus to his driver\nSo he pays $30000+$1800=$<<30000+1800=31800>>31,800 a year\n#### 31800"
+    },
+    {
+        "question": "The total number of miles driven in a year is 30 x 2 x 5 x 50 = 7500 miles.\nThe total cost of the miles driven in a year is 7500 x $2 = $15,000.\nThe total cost of the bonuses in a year is 12 x $150 = $1800.\nThe total cost of driving in a year is $15,000 + $1800 = $16,800.\nI hope it is correct: $16800$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $16800$",
+        "ground_truth": "He has to travel 30*2=<<30*2=60>>60 miles per day\nThat means he travels 60*5=<<60*5=300>>300 miles per week\nSo he pays 300*2=$<<300*2=600>>600 per week\nThat means he pays $600*50=$<<600*50=30000>>30000 a year for miles driven\nHe also gives $150*12=$<<150*12=1800>>1800 a year as a bonus to his driver\nSo he pays $30000+$1800=$<<30000+1800=31800>>31,800 a year\n#### 31800"
+    }
+]

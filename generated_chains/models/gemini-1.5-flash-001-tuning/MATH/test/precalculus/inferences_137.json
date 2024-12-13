@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA $90^\\circ$ rotation around $-4 - 5i$ in the clockwise direction is applied to $3$ (as a complex number).  What is the resulting complex number?",
+        "inference": "Final Answer: \\\\boxed{ -7 - 5i}. I hope it is correct.",
+        "ground_truth": "A $90^\\circ$ rotation in the clockwise direction corresponds to multiplication by $\\operatorname{cis} (-90^\\circ) = -i.$\n\n[asy]\nunitsize(0.4 cm);\n\npair O = (-4,-5), A = (3,0), B = rotate(-90,O)*(A);\n\ndraw(O--A,dashed);\ndraw(O--B,dashed);\n\ndot(\"$3$\", A, NE);\ndot(\"$1 - 12i$\", B, SE);\ndot(\"$-4 - 5i$\", O, W);\n[/asy]\n\nLet $z$ be the image of $3$ under the rotation.  Since center of the rotation is $-4 - 5i,$\n\\[z - (-4 - 5i) = (-i)(3 - (-4 - 5i)).\\]Solving, we find $z = \\boxed{1 - 12i}.$"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{ -7 - 5i}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the original problem so I can check the solution and provide the corrected final answer. \n",
+        "ground_truth": "A $90^\\circ$ rotation in the clockwise direction corresponds to multiplication by $\\operatorname{cis} (-90^\\circ) = -i.$\n\n[asy]\nunitsize(0.4 cm);\n\npair O = (-4,-5), A = (3,0), B = rotate(-90,O)*(A);\n\ndraw(O--A,dashed);\ndraw(O--B,dashed);\n\ndot(\"$3$\", A, NE);\ndot(\"$1 - 12i$\", B, SE);\ndot(\"$-4 - 5i$\", O, W);\n[/asy]\n\nLet $z$ be the image of $3$ under the rotation.  Since center of the rotation is $-4 - 5i,$\n\\[z - (-4 - 5i) = (-i)(3 - (-4 - 5i)).\\]Solving, we find $z = \\boxed{1 - 12i}.$"
+    }
+]

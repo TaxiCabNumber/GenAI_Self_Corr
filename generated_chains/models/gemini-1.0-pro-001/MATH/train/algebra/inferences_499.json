@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nHow many whole numbers are between $\\sqrt[3]{10}$ and $\\sqrt[3]{200}$?",
+        "inference": "$\\sqrt[3]{10}\\approx2.154,\\quad \\sqrt[3]{200}\\approx5.848$\n\nSince the cube roots are approximately 2.154 and 5.848, there are approximately $5.848-2.154=3.694$ whole numbers between $\\sqrt[3]{10}$ and $\\sqrt[3]{200}$. Since whole numbers are discrete, there are actually $\\boxed{3}$ such numbers.\nFinal Answer: $\\boxed{3}$. I hope it is correct.",
+        "ground_truth": "Since $2^3=8$ and $3^3=27$, we know that $2<\\sqrt[3]{10}<3$. Then we find that $5^3=125$ and $6^3=216$, so $5<\\sqrt[3]{200}<6$. We have $\\sqrt[3]{10}<3$ and $5<\\sqrt[3]{200}$. The whole numbers between $\\sqrt[3]{10}$ and $\\sqrt[3]{200}$ are $3,4,5$, for a total of $\\boxed{3}$ whole numbers."
+    },
+    {
+        "question": "$\\sqrt[3]{10}\\approx2.154,\\quad \\sqrt[3]{200}\\approx5.848$\n\nSince the cube roots are approximately 2.154 and 5.848, there are approximately $5.848-2.154=3.694$ whole numbers between $\\sqrt[3]{10}$ and $\\sqrt[3]{200}$. Since whole numbers are discrete, there are actually $\\boxed{3}$ such numbers.\nFinal Answer: $\\boxed{3}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$4$}",
+        "ground_truth": "Since $2^3=8$ and $3^3=27$, we know that $2<\\sqrt[3]{10}<3$. Then we find that $5^3=125$ and $6^3=216$, so $5<\\sqrt[3]{200}<6$. We have $\\sqrt[3]{10}<3$ and $5<\\sqrt[3]{200}$. The whole numbers between $\\sqrt[3]{10}$ and $\\sqrt[3]{200}$ are $3,4,5$, for a total of $\\boxed{3}$ whole numbers."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $\\sqrt{\\frac{2}{x} + 2} = \\frac{3}{2}$, solve for $x$.",
+        "inference": "$$\\sqrt{\\frac{2}{x} + 2} = \\frac{3}{2}$$\n$$(\\sqrt{\\frac{2}{x} + 2})^2 = (\\frac{3}{2})^2$$\n$$\\frac{2}{x} + 2 = \\frac{9}{4}$$\n$$\\frac{2}{x} = \\frac{9}{4}-2=\\frac{1}{4}$$\n$$\\frac{1}{x} = \\frac{1}{8}$$\n$$x=8$$\n\nFinal Answer: $\\boxed{8}$. I hope it is correct.",
+        "ground_truth": "Squaring both sides of the equation yields $\\frac 2x + 2 = \\frac 94$. Subtracting $2$ from both sides gives $\\frac 2x = \\frac 14$, so $x = \\boxed{8}$."
+    },
+    {
+        "question": "$$\\sqrt{\\frac{2}{x} + 2} = \\frac{3}{2}$$\n$$(\\sqrt{\\frac{2}{x} + 2})^2 = (\\frac{3}{2})^2$$\n$$\\frac{2}{x} + 2 = \\frac{9}{4}$$\n$$\\frac{2}{x} = \\frac{9}{4}-2=\\frac{1}{4}$$\n$$\\frac{1}{x} = \\frac{1}{8}$$\n$$x=8$$\n\nFinal Answer: $\\boxed{8}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{8}$$",
+        "ground_truth": "Squaring both sides of the equation yields $\\frac 2x + 2 = \\frac 94$. Subtracting $2$ from both sides gives $\\frac 2x = \\frac 14$, so $x = \\boxed{8}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nLisa is part of a choir that has 52 members, 50% of which are boys and 50% of which are girls.  The choir decides to perform with just its female members.  On the day of the performance, however, half the people performing can't make it to the show because their bus breaks down.  The choir's 3 teachers then decide to sing with them. How many people sang in the performance?",
+        "inference": "1. 50% of 52 members means 26 members are boys and 26 members are girls.\n2. Half of 26 (13) members are girls who can't make it to the show.\n3. If 3 teachers sing with them, that means 13 + 3 = 16 people sang in the performance.\nI hope it is correct: 16\n$16$",
+        "ground_truth": "The 50 person choir is 50% female, so if the performance is just women there will be 52/2=26 people performing.\nIf half of those people can't make it to the performance, then there will be 26/2= <<26/2=13>>13 people performing.\nWhen the 3 teachers decide to participate, the performance now has 13+3=<<13+3=16>>16 people singing.\n#### 16"
+    },
+    {
+        "question": "1. 50% of 52 members means 26 members are boys and 26 members are girls.\n2. Half of 26 (13) members are girls who can't make it to the show.\n3. If 3 teachers sing with them, that means 13 + 3 = 16 people sang in the performance.\nI hope it is correct: 16\n$16$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$16",
+        "ground_truth": "The 50 person choir is 50% female, so if the performance is just women there will be 52/2=26 people performing.\nIf half of those people can't make it to the performance, then there will be 26/2= <<26/2=13>>13 people performing.\nWhen the 3 teachers decide to participate, the performance now has 13+3=<<13+3=16>>16 people singing.\n#### 16"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nPete thinks of a number. He doubles it, adds 10, multiplies by 4, and ends up with 120. What was his original number?",
+        "inference": "Let's call Pete's original number $x$.\n- Step 1: \"He doubles it.\" So, $2x$.\n- Step 2: \"Adds 10.\" So, $2x+10$.\n- Step 3: \"Multiplies by 4.\" So, $4(2x+10) = 8x+40$.\n\nWe know that this final result is equal to 120, so we can set up the equation:\n\n$8x + 40 = 120$\n\nSolving for $x$:\n\n$8x = 120 - 40$\n$8x = 80$\n$x = \\frac{80}{8}$\n$x = 10$\n\n**Final Answer: $\\boxed{10}$. I hope it is correct.**",
+        "ground_truth": "Let Pete's original number be $x$.  If he double it and adds 10, he will have $$2x+10.$$ After multiplying by 4, Pete ended up with 120.  From this information, we have the equation: $$4(2x+10)=120.$$ Expanding the left side and solving, we find:\n\n\\begin{align*}\n8x+40&=120\\\\\n\\Rightarrow\\qquad 8x&=80\\\\\n\\Rightarrow \\qquad x&=\\boxed{10}.\n\\end{align*}"
+    },
+    {
+        "question": "Let's call Pete's original number $x$.\n- Step 1: \"He doubles it.\" So, $2x$.\n- Step 2: \"Adds 10.\" So, $2x+10$.\n- Step 3: \"Multiplies by 4.\" So, $4(2x+10) = 8x+40$.\n\nWe know that this final result is equal to 120, so we can set up the equation:\n\n$8x + 40 = 120$\n\nSolving for $x$:\n\n$8x = 120 - 40$\n$8x = 80$\n$x = \\frac{80}{8}$\n$x = 10$\n\n**Final Answer: $\\boxed{10}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$10$}",
+        "ground_truth": "Let Pete's original number be $x$.  If he double it and adds 10, he will have $$2x+10.$$ After multiplying by 4, Pete ended up with 120.  From this information, we have the equation: $$4(2x+10)=120.$$ Expanding the left side and solving, we find:\n\n\\begin{align*}\n8x+40&=120\\\\\n\\Rightarrow\\qquad 8x&=80\\\\\n\\Rightarrow \\qquad x&=\\boxed{10}.\n\\end{align*}"
+    }
+]

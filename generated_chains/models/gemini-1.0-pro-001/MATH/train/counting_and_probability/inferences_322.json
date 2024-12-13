@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nDetermine the number of ways to arrange the letters of the word COMBINATION.",
+        "inference": "The word COMBINATION has 11 letters, and there are 11! ways to arrange them. However, the word contains 3 N's, 2 I's, and 2 O's. So, we must divide by 3! for the N's, 2! for the I's, and 2! for the O's.\n$$11! / (3!2!2!) = 11\\cdot10\\cdot9\\cdot8\\cdot7\\cdot6\\cdot5 = 34650$$\nFinal Answer: $\\boxed{34650}$. I hope it is correct.",
+        "ground_truth": "There are two O's, two I's, two N's and eleven total letters, so the answer is $\\dfrac{11!}{2! \\times 2! \\times 2!} = \\boxed{4,\\!989,\\!600}$."
+    },
+    {
+        "question": "The word COMBINATION has 11 letters, and there are 11! ways to arrange them. However, the word contains 3 N's, 2 I's, and 2 O's. So, we must divide by 3! for the N's, 2! for the I's, and 2! for the O's.\n$$11! / (3!2!2!) = 11\\cdot10\\cdot9\\cdot8\\cdot7\\cdot6\\cdot5 = 34650$$\nFinal Answer: $\\boxed{34650}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$34650$}.",
+        "ground_truth": "There are two O's, two I's, two N's and eleven total letters, so the answer is $\\dfrac{11!}{2! \\times 2! \\times 2!} = \\boxed{4,\\!989,\\!600}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSteve owns a lake shop that sells fish. He has a stock of 200 fish. He sells 50 fish and because his refrigerators stop working a third of the remaining fish become spoiled. A new stock of 200 more fish arrives. How many fish does he have in stock now?",
+        "inference": "- Steve starts with 200 fish.\n- He then sells 50 fish, leaving him with 150 fish.\n- A third of the remaining fish become spoiled, spoiled is approximately equal to 150 x 1/3 = 50 fish.\n- He is left with 150 - 50 = 100 fish.\n- A new stock of 200 more fish arrives.\n- He now has 100 + 200 = 300 fish in stock.\n\nI hope it is correct: 300",
+        "ground_truth": "If he had 200 fish and sells 50, he is left with 200 - 50 = <<200-50=150>>150 fish\nIf a third of them get spoiled 1/3 * 150 = <<150*1/3=50>>50 fish get spoiled\nThe remaining number of fish is now 150 - 50 = <<150-50=100>>100\nHe then gets 200 more to make 100 + 200 = <<100+200=300>>300 fish\n#### 300"
+    },
+    {
+        "question": "- Steve starts with 200 fish.\n- He then sells 50 fish, leaving him with 150 fish.\n- A third of the remaining fish become spoiled, spoiled is approximately equal to 150 x 1/3 = 50 fish.\n- He is left with 150 - 50 = 100 fish.\n- A new stock of 200 more fish arrives.\n- He now has 100 + 200 = 300 fish in stock.\n\nI hope it is correct: 300\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$300",
+        "ground_truth": "If he had 200 fish and sells 50, he is left with 200 - 50 = <<200-50=150>>150 fish\nIf a third of them get spoiled 1/3 * 150 = <<150*1/3=50>>50 fish get spoiled\nThe remaining number of fish is now 150 - 50 = <<150-50=100>>100\nHe then gets 200 more to make 100 + 200 = <<100+200=300>>300 fish\n#### 300"
+    }
+]

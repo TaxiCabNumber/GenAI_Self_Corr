@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the positive difference between the solutions to the equation $6t^2 + 30 = 41t$.",
+        "inference": "$$6t^2 + 30 = 41t \\newline 6t^2 - 41t + 30 =0 \\newline (2t - 5)(3t - 6) =0$$\n\n$$2t - 5 = 0 \\quad \\text{or} \\quad 3t - 6=0$$\n\n$$t = \\frac{5}{2} \\quad \\text{or} \\quad t = 2$$\n\nThe positive difference between these solutions is\n\n$$|\\frac{5}{2} - 2| = |-\\frac{1}{2}| = \\boxed{\\frac{1}{2}}$$\n\nFinal Answer: $\\boxed{\\frac{1}{2}}.$ I hope it is correct.",
+        "ground_truth": "Rearranging the equation gives $6t^2 -41t + 30 = 0$.  Factoring gives $(t-6)(6t-5)= 0$, so the solutions to the equation are $t=6$ and $t=\\frac{5}{6}$.  The positive difference between these solutions is $6 - \\frac56 = \\boxed{\\frac{31}{6}}.$"
+    },
+    {
+        "question": "$$6t^2 + 30 = 41t \\newline 6t^2 - 41t + 30 =0 \\newline (2t - 5)(3t - 6) =0$$\n\n$$2t - 5 = 0 \\quad \\text{or} \\quad 3t - 6=0$$\n\n$$t = \\frac{5}{2} \\quad \\text{or} \\quad t = 2$$\n\nThe positive difference between these solutions is\n\n$$|\\frac{5}{2} - 2| = |-\\frac{1}{2}| = \\boxed{\\frac{1}{2}}$$\n\nFinal Answer: $\\boxed{\\frac{1}{2}}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$|\\frac{5}{2} - 2| = |-\\frac{1}{2}| = \\boxed{\\frac{1}{2}}$$",
+        "ground_truth": "Rearranging the equation gives $6t^2 -41t + 30 = 0$.  Factoring gives $(t-6)(6t-5)= 0$, so the solutions to the equation are $t=6$ and $t=\\frac{5}{6}$.  The positive difference between these solutions is $6 - \\frac56 = \\boxed{\\frac{31}{6}}.$"
+    }
+]

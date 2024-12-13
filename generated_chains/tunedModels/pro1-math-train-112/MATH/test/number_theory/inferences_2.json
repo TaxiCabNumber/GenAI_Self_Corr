@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind $n$ if $\\gcd(n,40) = 10$ and $\\mathop{\\text{lcm}}[n,40] = 280$.",
+        "inference": "Since $\\gcd(n,40) = 10$, we can write $n = 10k$ and $40 = 10 \\cdot 4$ for some integer $k$.\n\nSince $\\mathop{\\text{lcm}}[n,40] = 280$, we have $280 = 10k \\cdot 4 = 40k$.\n\nTherefore, $k = 7$.\n\nHence, $n = 10k = 10 \\cdot 7 = \\boxed{70}$.\nFinal Answer: $\\boxed{70}$. I hope it is correct.",
+        "ground_truth": "We know that $\\gcd(a,b) \\cdot \\mathop{\\text{lcm}}[a,b] = ab$ for all positive integers $a$ and $b$.  Hence, in this case, $10 \\cdot 280 = n \\cdot 40$, so $n = 10 \\cdot 280/40 = \\boxed{70}$."
+    },
+    {
+        "question": "Since $\\gcd(n,40) = 10$, we can write $n = 10k$ and $40 = 10 \\cdot 4$ for some integer $k$.\n\nSince $\\mathop{\\text{lcm}}[n,40] = 280$, we have $280 = 10k \\cdot 4 = 40k$.\n\nTherefore, $k = 7$.\n\nHence, $n = 10k = 10 \\cdot 7 = \\boxed{70}$.\nFinal Answer: $\\boxed{70}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{70}",
+        "ground_truth": "We know that $\\gcd(a,b) \\cdot \\mathop{\\text{lcm}}[a,b] = ab$ for all positive integers $a$ and $b$.  Hence, in this case, $10 \\cdot 280 = n \\cdot 40$, so $n = 10 \\cdot 280/40 = \\boxed{70}$."
+    }
+]

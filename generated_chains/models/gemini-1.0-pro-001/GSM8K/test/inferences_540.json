@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\n$18 is shared among 3 boys. The eldest added $5 to his share and added another $10 the following day. He later needed some money and spent $8 from his total so far. After saving some more, he was able to triple the amount he had left after spending the $8. How much does he have now?",
+        "inference": "Initial share = 18 / 3 = $6\n\nAfter adding $5, he had $6 + $5 = $11\n\nAfter adding $10, he had $11 + $10 = $21\n\nAfter spending $8, he had $21 - $8 = $13\n\nAfter tripling the remaining amount, he had $13 * 3 = $39\nI hope it is correct: $39",
+        "ground_truth": "Each boy gets $18/3 = $<<18/3=6>>6.\nThe eldest had $5+$6=$<<5+6=11>>11 after adding $5 to his share.\nHe added another $10 so he had $11+$10=$<<11+10=21>>21.\nThen he had $21-$8=$<<21-8=13>>13 after spending $8.\nSo, he now has $13*3=$<<13*3=39>>39.\n#### 39"
+    },
+    {
+        "question": "Initial share = 18 / 3 = $6\n\nAfter adding $5, he had $6 + $5 = $11\n\nAfter adding $10, he had $11 + $10 = $21\n\nAfter spending $8, he had $21 - $8 = $13\n\nAfter tripling the remaining amount, he had $13 * 3 = $39\nI hope it is correct: $39\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$39",
+        "ground_truth": "Each boy gets $18/3 = $<<18/3=6>>6.\nThe eldest had $5+$6=$<<5+6=11>>11 after adding $5 to his share.\nHe added another $10 so he had $11+$10=$<<11+10=21>>21.\nThen he had $21-$8=$<<21-8=13>>13 after spending $8.\nSo, he now has $13*3=$<<13*3=39>>39.\n#### 39"
+    }
+]

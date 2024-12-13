@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nCarla's sheepdog rounded up 90% of her sheep, but the remaining 10% wandered off into the hills. If there are 81 sheep in the pen, how many are out in the wilderness?",
+        "inference": "90% of Carla's sheep are rounded up, which means only 10% are out in the hills. \n10% of Carla's sheep = 81 sheep (the number in the pen) \n1% of Carla's sheep = 81/10\n100% of Carla's sheep = 81/10 * 100 = 810\nTherefore, the number of sheep out in the wilderness is: \n810 - 81 = 729\nI hope it is correct: 729",
+        "ground_truth": "First find the total number of sheep by dividing the number rounded up by 90%: 81 sheep / .9 = <<81/.9=90>>90 sheep\nThen multiply that number by 10% to find the number that are in the hills: 90 sheep * 10% = <<90*10*.01=9>>9 sheep\n#### 9"
+    },
+    {
+        "question": "90% of Carla's sheep are rounded up, which means only 10% are out in the hills. \n10% of Carla's sheep = 81 sheep (the number in the pen) \n1% of Carla's sheep = 81/10\n100% of Carla's sheep = 81/10 * 100 = 810\nTherefore, the number of sheep out in the wilderness is: \n810 - 81 = 729\nI hope it is correct: 729\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 729",
+        "ground_truth": "First find the total number of sheep by dividing the number rounded up by 90%: 81 sheep / .9 = <<81/.9=90>>90 sheep\nThen multiply that number by 10% to find the number that are in the hills: 90 sheep * 10% = <<90*10*.01=9>>9 sheep\n#### 9"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nBob placed three regular pentagons together at a vertex, thinking he might be able to form a tessellation. However, they left a gap. What is the number of degrees in the measure indicated? [asy]size(100);\npath A = dir(0) -- dir(72) -- dir (144) -- dir(216) -- dir (288) -- cycle;\npath B = reflect ( dir(72), dir(144)) * A;\npath C = reflect( dir(72), dir(0))* A;\ndraw(rotate(18) *A);\ndraw(rotate(18) *B);\ndraw(rotate(18) *C);\nlabel(\"?\", (0,1.5), N);\n[/asy]",
+        "inference": "The three pentagons make 5 angles around the center point. Each pentagon has 5 interior angles of measure 108 degrees. So all 5 interior angles of all three pentagons measure 5 * 108 = 540 degrees. Since the sum of the angles in a full rotation is 360 degrees, the measure of the gap is 360 - 540 = -180 degrees.\nFinal Answer: $\\boxed{-180}$. I hope it is correct.",
+        "ground_truth": "The angles of a pentagon sum to $180(5-2) = 540$ degrees, so each angle of a regular pentagon is $540^\\circ/5 = 108^\\circ$.  Therefore, three of these angles sum to $3\\cdot 108^\\circ = 324^\\circ$, which means the indicated angle measures $360^\\circ - 324^\\circ = \\boxed{36^\\circ}$."
+    },
+    {
+        "question": "The three pentagons make 5 angles around the center point. Each pentagon has 5 interior angles of measure 108 degrees. So all 5 interior angles of all three pentagons measure 5 * 108 = 540 degrees. Since the sum of the angles in a full rotation is 360 degrees, the measure of the gap is 360 - 540 = -180 degrees.\nFinal Answer: $\\boxed{-180}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{180}",
+        "ground_truth": "The angles of a pentagon sum to $180(5-2) = 540$ degrees, so each angle of a regular pentagon is $540^\\circ/5 = 108^\\circ$.  Therefore, three of these angles sum to $3\\cdot 108^\\circ = 324^\\circ$, which means the indicated angle measures $360^\\circ - 324^\\circ = \\boxed{36^\\circ}$."
+    }
+]

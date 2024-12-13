@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf altitude $CD$ is $\\sqrt3$ centimeters, what is the number of square centimeters in the area of $\\Delta ABC$?\n\n[asy] import olympiad; pair A,B,C,D; A = (0,sqrt(3)); B = (1,0);\nC = foot(A,B,-B); D = foot(C,A,B); draw(A--B--C--A); draw(C--D,dashed);\nlabel(\"$30^{\\circ}$\",A-(0.05,0.4),E);\nlabel(\"$A$\",A,N);label(\"$B$\",B,E);label(\"$C$\",C,W);label(\"$D$\",D,NE);\ndraw((0,.1)--(.1,.1)--(.1,0)); draw(D + .1*dir(210)--D + sqrt(2)*.1*dir(165)--D+.1*dir(120));\n[/asy]",
+        "inference": "Final Answer: $\\boxed{3}$. I hope it is correct. \n",
+        "ground_truth": "From 30-60-90 right triangle $ACD$ with hypotenuse $\\overline{AC}$ and shorter leg $\\overline{CD}$, we have $AC = 2CD = 2\\sqrt{3}$.\n\nFrom 30-60-90 triangle $ABC$ with shorter leg $\\overline{BC}$ and longer leg $\\overline{AC}$, we have $AC = BC \\sqrt{3}$.  Since $AC = 2\\sqrt{3}$, we have $BC = 2$.  Therefore, the area of $\\triangle ABC$ is  \\[\\frac{(AC)(BC)}{2} = \\frac{(2\\sqrt{3})(2)}{2} = \\boxed{2\\sqrt{3}}.\\]"
+    },
+    {
+        "question": "Final Answer: $\\boxed{3}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the question and the solution you are referring to. I need context to identify any errors and provide a corrected solution. \n",
+        "ground_truth": "From 30-60-90 right triangle $ACD$ with hypotenuse $\\overline{AC}$ and shorter leg $\\overline{CD}$, we have $AC = 2CD = 2\\sqrt{3}$.\n\nFrom 30-60-90 triangle $ABC$ with shorter leg $\\overline{BC}$ and longer leg $\\overline{AC}$, we have $AC = BC \\sqrt{3}$.  Since $AC = 2\\sqrt{3}$, we have $BC = 2$.  Therefore, the area of $\\triangle ABC$ is  \\[\\frac{(AC)(BC)}{2} = \\frac{(2\\sqrt{3})(2)}{2} = \\boxed{2\\sqrt{3}}.\\]"
+    }
+]

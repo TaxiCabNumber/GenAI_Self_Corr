@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBen starts each day with $50, spends $15 every day and saves the rest. After a few days, his mom doubled his total savings and his dad gave him an additional $10. If he now has $500, How many days have elapsed?",
+        "inference": "1. Let's assume that Ben saved for x days. \n2. The total amount he saved after x days = $15x\n3. After his mom doubled his savings, he had $30x\n4. After his dad gave him $10, he had $30x + $10 = $500\n5. Solving for x, we get: $30x + $10 = $500\n6. $30x = $490\n7. x = $490 / $30\n8. x = 16.33 days.\nI hope it is correct: 16.33 days",
+        "ground_truth": "Let the number of days be x\nHe saves $50-$15=$<<50-15=35>>35 each day\nAfter x days he had saved $35*x=$35x\nHis mom doubled his savings to give $35x*2=$70x\nHis dad added $10 to give $70x+$10=$500\nSubtracting 10 from both sides of the equation formed gives $70x=490\nDividing both sides by $70 give x=7 days\n#### 7"
+    },
+    {
+        "question": "1. Let's assume that Ben saved for x days. \n2. The total amount he saved after x days = $15x\n3. After his mom doubled his savings, he had $30x\n4. After his dad gave him $10, he had $30x + $10 = $500\n5. Solving for x, we get: $30x + $10 = $500\n6. $30x = $490\n7. x = $490 / $30\n8. x = 16.33 days.\nI hope it is correct: 16.33 days\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 16",
+        "ground_truth": "Let the number of days be x\nHe saves $50-$15=$<<50-15=35>>35 each day\nAfter x days he had saved $35*x=$35x\nHis mom doubled his savings to give $35x*2=$70x\nHis dad added $10 to give $70x+$10=$500\nSubtracting 10 from both sides of the equation formed gives $70x=490\nDividing both sides by $70 give x=7 days\n#### 7"
+    }
+]

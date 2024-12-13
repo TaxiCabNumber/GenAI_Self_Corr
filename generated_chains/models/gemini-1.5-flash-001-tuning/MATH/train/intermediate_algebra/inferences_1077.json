@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $x$ and $y$ be real numbers, $y > x > 0,$ such that\n\\[\\frac{x}{y} + \\frac{y}{x} = 6.\\]Find the value of \\[\\frac{x + y}{x - y}.\\]",
+        "inference": "Final Answer: \\\\boxed{2}. I hope it is correct. \n",
+        "ground_truth": "From the given equation, $\\frac{x^2 + y^2}{xy} = 6,$ so $x^2 + y^2 = 6xy.$\n\nLet\n\\[a = \\frac{x + y}{x - y}.\\]Then\n\\[a^2 = \\frac{x^2 + 2xy + y^2}{x^2 - 2xy + y^2} = \\frac{8xy}{4xy} = 2.\\]Since $y > x > 0,$ $a = \\frac{x + y}{x - y}$ is negative.  Therefore, $a = \\boxed{-\\sqrt{2}}.$"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{2}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the original problem and the solution you are referring to. I need this information to identify any potential errors and rewrite the solution correctly. \n",
+        "ground_truth": "From the given equation, $\\frac{x^2 + y^2}{xy} = 6,$ so $x^2 + y^2 = 6xy.$\n\nLet\n\\[a = \\frac{x + y}{x - y}.\\]Then\n\\[a^2 = \\frac{x^2 + 2xy + y^2}{x^2 - 2xy + y^2} = \\frac{8xy}{4xy} = 2.\\]Since $y > x > 0,$ $a = \\frac{x + y}{x - y}$ is negative.  Therefore, $a = \\boxed{-\\sqrt{2}}.$"
+    }
+]

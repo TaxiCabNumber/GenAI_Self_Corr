@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA right hexagonal prism has a height of 3 feet and each edge of the hexagonal bases is 6 inches. What is the sum of the areas of the non-hexagonal faces of the prism, in square feet?\n\n[asy]import three;\n\ncurrentprojection=orthographic(1/2,-1,1/2);\n\ndraw((0,0,0)--(1,0,0)--(1.5,0.86,0)--(1,1.72,0)--(0,1.72,0)--(-0.5,0.86,0)--cycle);\n\ndraw((0,0,6)--(1,0,6)--(1.5,0.86,6)--(1,1.72,6)--(0,1.72,6)--(-0.5,0.86,6)--cycle);\n\ndraw((0,0,0)--(0,0,6));\n\ndraw((1,0,0)--(1,0,6));\n\ndraw((1.5,0.86,0)--(1.5,0.86,6));\n\ndraw((1,1.72,0)--(1,1.72,6));\n\ndraw((0,1.72,0)--(0,1.72,6));\n\ndraw((-0.5,0.86,0)--(-0.5,0.86,6));\n\n[/asy]",
+        "inference": "The area of each rectangular face is $1.5\\cdot3=4.5\\text{ ft}^2$. There are 6 such faces, so the total area of the non-hexagonal faces is $6\\cdot4.5=\\boxed{27}\\text{ ft}^2$.\nFinal Answer: $\\boxed{27}$. I hope it is correct.",
+        "ground_truth": "Since each non-hexagonal face is a rectangle with base 6 inches and height 3 feet, each face has an area of $6$ inches $\\times 3$ feet $= .5$ feet $\\times 3$ feet $= 1.5$ square feet per face.  Since there are 6 faces (6 edges to a hexagon), that makes for a total area of $\\boxed{9}$ square feet."
+    },
+    {
+        "question": "The area of each rectangular face is $1.5\\cdot3=4.5\\text{ ft}^2$. There are 6 such faces, so the total area of the non-hexagonal faces is $6\\cdot4.5=\\boxed{27}\\text{ ft}^2$.\nFinal Answer: $\\boxed{27}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{27}",
+        "ground_truth": "Since each non-hexagonal face is a rectangle with base 6 inches and height 3 feet, each face has an area of $6$ inches $\\times 3$ feet $= .5$ feet $\\times 3$ feet $= 1.5$ square feet per face.  Since there are 6 faces (6 edges to a hexagon), that makes for a total area of $\\boxed{9}$ square feet."
+    }
+]

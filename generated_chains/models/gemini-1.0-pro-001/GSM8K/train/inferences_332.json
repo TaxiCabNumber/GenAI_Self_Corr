@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nDorothy earns $60000 a year from her work. She needs to pay 18% of this amount in taxes. How much money will she have left after she pays the taxes?",
+        "inference": "Dorothy's annual income: $60000\nPercentage of taxes to be paid: 18%\nAmount of taxes to be paid: (18/100) * $60000 = $10800\nAmount of money left after taxes: $60000 - $10800 = $49200\nI hope it is correct: $49200",
+        "ground_truth": "The amount in taxes Dorothy needs to pay is 18/100 * 60000 = $<<18/100*60000=10800>>10800.\nSo she is going to be left with 60000 - 10800 = $<<60000-10800=49200>>49200.\n#### 49200"
+    },
+    {
+        "question": "Dorothy's annual income: $60000\nPercentage of taxes to be paid: 18%\nAmount of taxes to be paid: (18/100) * $60000 = $10800\nAmount of money left after taxes: $60000 - $10800 = $49200\nI hope it is correct: $49200\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $49,200",
+        "ground_truth": "The amount in taxes Dorothy needs to pay is 18/100 * 60000 = $<<18/100*60000=10800>>10800.\nSo she is going to be left with 60000 - 10800 = $<<60000-10800=49200>>49200.\n#### 49200"
+    }
+]

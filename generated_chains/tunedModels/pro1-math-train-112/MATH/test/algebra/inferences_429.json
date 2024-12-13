@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nNew York and Denver are in different time zones.  When it is noon in New York, it is 10 a.m. in Denver.  A train leaves New York at 2 p.m. (New York time) and arrives in Denver 45 hours later.  What time is it in Denver when the train arrives?",
+        "inference": "The train leaves New York at 2 p.m. (New York time), which is 12 p.m. (Denver time).  The train arrives in Denver 45 hours later, which is 45 hours after 12 p.m. (Denver time).  Therefore, the train arrives in Denver at 12 p.m. + 45 hours = 57 hours after 12 p.m. (Denver time).  Since there are 24 hours in a day, 57 hours after 12 p.m. is 57 hours - 24 hours = 33 hours after 12 p.m.  Therefore, the train arrives in Denver at 12 p.m. + 33 hours = 3 p.m. (Denver time).\nFinal Answer: \\boxed{3 p.m.} I hope it is correct.",
+        "ground_truth": "2 p.m. New York time is noon in Denver.  45 hours past noon is 21 hours past noon the next day, which is 9 a.m. the day after that.  Think about it this way - 48 hours would mean two full days, and 45 hours is 3 hours less than that, thus, 3 hours before noon is $\\boxed{9\\text{ a.m.}}$"
+    },
+    {
+        "question": "The train leaves New York at 2 p.m. (New York time), which is 12 p.m. (Denver time).  The train arrives in Denver 45 hours later, which is 45 hours after 12 p.m. (Denver time).  Therefore, the train arrives in Denver at 12 p.m. + 45 hours = 57 hours after 12 p.m. (Denver time).  Since there are 24 hours in a day, 57 hours after 12 p.m. is 57 hours - 24 hours = 33 hours after 12 p.m.  Therefore, the train arrives in Denver at 12 p.m. + 33 hours = 3 p.m. (Denver time).\nFinal Answer: \\boxed{3 p.m.} I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{3 p.m.}",
+        "ground_truth": "2 p.m. New York time is noon in Denver.  45 hours past noon is 21 hours past noon the next day, which is 9 a.m. the day after that.  Think about it this way - 48 hours would mean two full days, and 45 hours is 3 hours less than that, thus, 3 hours before noon is $\\boxed{9\\text{ a.m.}}$"
+    }
+]

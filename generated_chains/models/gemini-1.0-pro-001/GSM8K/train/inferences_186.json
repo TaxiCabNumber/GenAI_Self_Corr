@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nChristina has 3 snakes. 1 snake is 2 feet long. Another snake is 16 inches long. The last snake is 10 inches long. How many inches are all of her snakes combined?",
+        "inference": "1. Convert the 2 feet snake to inches: 2 feet x 12 inches/foot = 24 inches\n2. Add all the snake lengths together: 24 inches + 16 inches + 10 inches = 50 inches\nI hope it is correct: 50 inches",
+        "ground_truth": "The first snake is 24 inches because there are 12 inches in a foot.\nThe snakes are 24+16+10= <<24+16+10=50>>50 inches long.\n#### 50"
+    },
+    {
+        "question": "1. Convert the 2 feet snake to inches: 2 feet x 12 inches/foot = 24 inches\n2. Add all the snake lengths together: 24 inches + 16 inches + 10 inches = 50 inches\nI hope it is correct: 50 inches\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ 50 inches",
+        "ground_truth": "The first snake is 24 inches because there are 12 inches in a foot.\nThe snakes are 24+16+10= <<24+16+10=50>>50 inches long.\n#### 50"
+    }
+]

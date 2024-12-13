@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn invited 20 people to a birthday party.  Each guest will eat 2 hot dogs.  He already has 4 hot dogs left over from a previous party.  If a pack of hot dogs contains 6 hot dogs and costs $2, how much does he need to spend on hot dogs?",
+        "inference": "1. Calculate how many hot dogs John needs for his guests: 20 guests * 2 hot dogs/guest = 40 hot dogs.\n2. Subtract the hot dogs he already has: 40 hot dogs - 4 hot dogs = 36 hot dogs.\n3. Determine how many packs of hot dogs he needs: 36 hot dogs / 6 hot dogs/pack = 6 packs.\n4. Calculate the cost of the hot dogs: 6 packs * $2/pack = $12.\nI hope it is correct: $12$",
+        "ground_truth": "He needs 2*20=<<2*20=40>>40 hot dogs\nSo he needs another 40-4=<<40-4=36>>36 hot dogs\nSo he needs to buy 36/6=<<36/6=6>>6 packs of hotdogs\nThat means he needs to spend 6*2=$<<6*2=12>>12\n#### 12"
+    },
+    {
+        "question": "1. Calculate how many hot dogs John needs for his guests: 20 guests * 2 hot dogs/guest = 40 hot dogs.\n2. Subtract the hot dogs he already has: 40 hot dogs - 4 hot dogs = 36 hot dogs.\n3. Determine how many packs of hot dogs he needs: 36 hot dogs / 6 hot dogs/pack = 6 packs.\n4. Calculate the cost of the hot dogs: 6 packs * $2/pack = $12.\nI hope it is correct: $12$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $12$",
+        "ground_truth": "He needs 2*20=<<2*20=40>>40 hot dogs\nSo he needs another 40-4=<<40-4=36>>36 hot dogs\nSo he needs to buy 36/6=<<36/6=6>>6 packs of hotdogs\nThat means he needs to spend 6*2=$<<6*2=12>>12\n#### 12"
+    }
+]

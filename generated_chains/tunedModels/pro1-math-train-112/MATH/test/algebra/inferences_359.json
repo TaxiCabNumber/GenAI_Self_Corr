@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the sum of all integers $x$ for which $-30 \\leq x \\leq 26$ ?",
+        "inference": "The sum of all integers $x$ for which $-30 \\leq x \\leq 26$ is the sum of the arithmetic series $-30 + (-29) + (-28) + \\cdots + 25 + 26$. The sum of an arithmetic series is given by the formula $S = \\frac{n}{2}(a_1 + a_n)$, where $n$ is the number of terms, $a_1$ is the first term, and $a_n$ is the last term. In this case, $n = 57$ (since there are 57 integers between $-30$ and $26$), $a_1 = -30$, and $a_n = 26$. Plugging these values into the formula, we get:\n\n$$S = \\frac{57}{2}(-30 + 26) = \\frac{57}{2}(-4) = -114$$\n\nFinal Answer: \\boxed{-114}. I hope it is correct.",
+        "ground_truth": "The sum of all integers $y$ for which $-26\\le y\\le26$ is 0 since for every negative term there is a positive term of the same absolute value. Thus, the sum of all integers $x$ for which $-30\\le x\\le26$ is $-30-29-28-27=-30\\times4+1+2+3=-120+6=\\boxed{-114}$."
+    },
+    {
+        "question": "The sum of all integers $x$ for which $-30 \\leq x \\leq 26$ is the sum of the arithmetic series $-30 + (-29) + (-28) + \\cdots + 25 + 26$. The sum of an arithmetic series is given by the formula $S = \\frac{n}{2}(a_1 + a_n)$, where $n$ is the number of terms, $a_1$ is the first term, and $a_n$ is the last term. In this case, $n = 57$ (since there are 57 integers between $-30$ and $26$), $a_1 = -30$, and $a_n = 26$. Plugging these values into the formula, we get:\n\n$$S = \\frac{57}{2}(-30 + 26) = \\frac{57}{2}(-4) = -114$$\n\nFinal Answer: \\boxed{-114}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{-114}",
+        "ground_truth": "The sum of all integers $y$ for which $-26\\le y\\le26$ is 0 since for every negative term there is a positive term of the same absolute value. Thus, the sum of all integers $x$ for which $-30\\le x\\le26$ is $-30-29-28-27=-30\\times4+1+2+3=-120+6=\\boxed{-114}$."
+    }
+]

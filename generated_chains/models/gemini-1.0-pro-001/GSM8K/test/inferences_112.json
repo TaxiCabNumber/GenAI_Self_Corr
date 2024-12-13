@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA classroom has a whiteboard which is shared between the 4 teachers who take turns using the classroom. Each teacher has 2 lessons per day and uses the whiteboard in each lesson. If the whiteboard is cleaned 3 times per lesson, how many times is the whiteboard cleaned in a day?",
+        "inference": "4 teachers * 2 lessons per day = 8 daily lessons\n8 daily lessons * 3 whiteboard cleanings per lesson = 24 whiteboard cleanings per day\nI hope it is correct: 24",
+        "ground_truth": "In one day, there are a total of 4 teachers * 2 lessons each = <<4*2=8>>8 lessons.\nThe whiteboard is therefore cleaned 8 lessons * 3 cleans per lesson = <<8*3=24>>24 times.\n#### 24"
+    },
+    {
+        "question": "4 teachers * 2 lessons per day = 8 daily lessons\n8 daily lessons * 3 whiteboard cleanings per lesson = 24 whiteboard cleanings per day\nI hope it is correct: 24\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 24",
+        "ground_truth": "In one day, there are a total of 4 teachers * 2 lessons each = <<4*2=8>>8 lessons.\nThe whiteboard is therefore cleaned 8 lessons * 3 cleans per lesson = <<8*3=24>>24 times.\n#### 24"
+    }
+]

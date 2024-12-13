@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTom needs to lower a rope down 6 stories.   One story is 10 feet.  The only rope being sold is 20 feet long but you lose 25% when lashing them together.  How many pieces of rope will he need to buy?",
+        "inference": "1. Calculate length of 6 stories: 6 * 10 feet = 60 feet\n2. Calculate how much rope is lost when lashing: 20 feet * 0.25 = 5 feet\n3. Calculate how many 15-foot ropes he needs: 60 feet / 15 feet = 4 ropes\nI hope it is correct: 4 ropes",
+        "ground_truth": "He needs 10*6=<<10*6=60>>60 feet\nHe loses 20*.25=<<20*.25=5>>5 feet each time\nSo he gets 20-5=<<20-5=15>>15 feet from each piece\nThat means he needs 60/15=<<60/15=4>>4 pieces of rope\n#### 4"
+    },
+    {
+        "question": "1. Calculate length of 6 stories: 6 * 10 feet = 60 feet\n2. Calculate how much rope is lost when lashing: 20 feet * 0.25 = 5 feet\n3. Calculate how many 15-foot ropes he needs: 60 feet / 15 feet = 4 ropes\nI hope it is correct: 4 ropes\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$4",
+        "ground_truth": "He needs 10*6=<<10*6=60>>60 feet\nHe loses 20*.25=<<20*.25=5>>5 feet each time\nSo he gets 20-5=<<20-5=15>>15 feet from each piece\nThat means he needs 60/15=<<60/15=4>>4 pieces of rope\n#### 4"
+    }
+]

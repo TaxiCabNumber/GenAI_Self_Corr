@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $g(x) = 2x^2+2x-1$, what is the value of $g(g(2))$?",
+        "inference": "**Step 1:** Substitute $x = 2$ into the function $g(x)$ to get $g(2)$.\n\n$$\\begin{align*} g(2) &= 2(2)^2 + 2(2) - 1 \\\\ &= 2(4) + 4 - 1 \\\\ &= 8 + 4 - 1 \\\\ &= 11 \\end{align*}$$\n\n**Step 2:** Now substitute $x = 11$ into the function $g(x)$ again to get $g(g(2))$.\n\n$$\\begin{align*} g(g(2)) &= 2(11)^2 + 2(11) - 1 \\\\ &= 2(121) + 22 - 1 \\\\ &= 242 + 22 - 1 \\\\ &= 263 \\end{align*}$$\n\n**Final Answer: \\\\boxed{$263$}. I hope it is correct.**",
+        "ground_truth": "We have $g(2) = 2(2^2) + 2(2) - 1 = 8+4-1=11$, so \\[g(g(2)) = g(11) = 2(11)^2 +2(11) -1 = 242 +22 -1 =\\boxed{263}.\\]"
+    },
+    {
+        "question": "**Step 1:** Substitute $x = 2$ into the function $g(x)$ to get $g(2)$.\n\n$$\\begin{align*} g(2) &= 2(2)^2 + 2(2) - 1 \\\\ &= 2(4) + 4 - 1 \\\\ &= 8 + 4 - 1 \\\\ &= 11 \\end{align*}$$\n\n**Step 2:** Now substitute $x = 11$ into the function $g(x)$ again to get $g(g(2))$.\n\n$$\\begin{align*} g(g(2)) &= 2(11)^2 + 2(11) - 1 \\\\ &= 2(121) + 22 - 1 \\\\ &= 242 + 22 - 1 \\\\ &= 263 \\end{align*}$$\n\n**Final Answer: \\\\boxed{$263$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$263$}",
+        "ground_truth": "We have $g(2) = 2(2^2) + 2(2) - 1 = 8+4-1=11$, so \\[g(g(2)) = g(11) = 2(11)^2 +2(11) -1 = 242 +22 -1 =\\boxed{263}.\\]"
+    }
+]

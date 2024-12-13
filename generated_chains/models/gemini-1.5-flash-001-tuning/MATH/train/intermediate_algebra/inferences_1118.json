@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $z$ be a nonreal complex number such that $|z| = 1.$  Find the real part of $\\frac{1}{1 - z}.$",
+        "inference": "Let $z = a + bi,$ where $a$ and $b$ are real numbers.  Since $|z| = 1,$ $a^2 + b^2 = 1.$  Then\n\\[\\frac{1}{1 - z} = \\frac{1}{1 - (a + bi)} = \\frac{1 - a + bi}{(1 - a)^2 + b^2} = \\frac{1 - a + bi}{2 - 2a}.\\]Hence, the real part of $\\frac{1}{1 - z}$ is\n\\[\\frac{1 - a}{2 - 2a} = \\boxed{\\frac{1}{2}}.\\]",
+        "ground_truth": "Let $z = x + yi,$ where $x$ and $y$ are real numbers.  Then from the condition $|z| = 1,$ $\\sqrt{x^2 + y^2} = 1,$ so $x^2 + y^2 = 1.$\n\nNow,\n\\begin{align*}\n\\frac{1}{1 - z} &= \\frac{1}{1 - x - yi} \\\\\n&= \\frac{1 - x + yi}{(1 - x - yi)(1 - x + yi)} \\\\\n&= \\frac{1 - x + yi}{(1 - x)^2 + y^2} \\\\\n&= \\frac{1 - x + yi}{1 - 2x + x^2 + y^2} \\\\\n&= \\frac{1 - x + yi}{2 - 2x}.\n\\end{align*}The real part of this complex number is $\\frac{1 - x}{2 - 2x} = \\frac{1 - x}{2(1 - x)} = \\boxed{\\frac{1}{2}}.$"
+    },
+    {
+        "question": "Let $z = a + bi,$ where $a$ and $b$ are real numbers.  Since $|z| = 1,$ $a^2 + b^2 = 1.$  Then\n\\[\\frac{1}{1 - z} = \\frac{1}{1 - (a + bi)} = \\frac{1 - a + bi}{(1 - a)^2 + b^2} = \\frac{1 - a + bi}{2 - 2a}.\\]Hence, the real part of $\\frac{1}{1 - z}$ is\n\\[\\frac{1 - a}{2 - 2a} = \\boxed{\\frac{1}{2}}.\\]\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{\\frac{1}{2}}$ \n",
+        "ground_truth": "Let $z = x + yi,$ where $x$ and $y$ are real numbers.  Then from the condition $|z| = 1,$ $\\sqrt{x^2 + y^2} = 1,$ so $x^2 + y^2 = 1.$\n\nNow,\n\\begin{align*}\n\\frac{1}{1 - z} &= \\frac{1}{1 - x - yi} \\\\\n&= \\frac{1 - x + yi}{(1 - x - yi)(1 - x + yi)} \\\\\n&= \\frac{1 - x + yi}{(1 - x)^2 + y^2} \\\\\n&= \\frac{1 - x + yi}{1 - 2x + x^2 + y^2} \\\\\n&= \\frac{1 - x + yi}{2 - 2x}.\n\\end{align*}The real part of this complex number is $\\frac{1 - x}{2 - 2x} = \\frac{1 - x}{2(1 - x)} = \\boxed{\\frac{1}{2}}.$"
+    }
+]

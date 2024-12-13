@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat positive two-digit integer is exactly twice the sum of its digits?",
+        "inference": "Let the tens digit be $x$ and the units digit be $y$.  Then the number is $10x+y$, and we are given that $10x+y=2(x+y)$.  Simplifying, we get $8x=y$.  Since $x$ and $y$ are digits, the only possibility is $x=1$ and $y=8$.  Thus, the number is $\\boxed{18}$.  Final Answer: $\\boxed{18}$. I hope it is correct. \n",
+        "ground_truth": "Let the tens digit of the two-digit integer be $a$ and let its units digit be $b$.  The equation \\[\n10a+b=2(a+b)\n\\] is given.  Distributing on the right-hand side and subtracting $2a+b$ from both sides gives $8a=b$.  Since $8a>9$ for any digit $a>1$, we have $a=1$, $b=8$, and $10a+b=\\boxed{18}$."
+    },
+    {
+        "question": "Let the tens digit be $x$ and the units digit be $y$.  Then the number is $10x+y$, and we are given that $10x+y=2(x+y)$.  Simplifying, we get $8x=y$.  Since $x$ and $y$ are digits, the only possibility is $x=1$ and $y=8$.  Thus, the number is $\\boxed{18}$.  Final Answer: $\\boxed{18}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{18}$ \n",
+        "ground_truth": "Let the tens digit of the two-digit integer be $a$ and let its units digit be $b$.  The equation \\[\n10a+b=2(a+b)\n\\] is given.  Distributing on the right-hand side and subtracting $2a+b$ from both sides gives $8a=b$.  Since $8a>9$ for any digit $a>1$, we have $a=1$, $b=8$, and $10a+b=\\boxed{18}$."
+    }
+]

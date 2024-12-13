@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe gummy bear factory manufactures 300 gummy bears a minute. Each packet of gummy bears has 50 gummy bears inside. How long would it take for the factory to manufacture enough gummy bears to fill 240 packets, in minutes?",
+        "inference": "1) First we find the number of the gummy bears that go inside 240 packets:\n 240 x 50 = 12000 gummy bears.\n2) To find the number of minutes it takes to make 12000 gummy bears, we divide the total number of gummy bears by the number of gummy bears manufactured per minute: \n12000/300 = 40 minutes needed.\n\nI hope it is correct: 40 $minutes$",
+        "ground_truth": "The factory creates 300 gummy bears a minute, which means it produces 300 / 50 = <<300/50=6>>6 packets of gummy bears per minute.\nIt would take 240 / 6 = <<240/6=40>>40 minutes to manufacture enough gummy bears to fill 240 packets.\n#### 40"
+    },
+    {
+        "question": "1) First we find the number of the gummy bears that go inside 240 packets:\n 240 x 50 = 12000 gummy bears.\n2) To find the number of minutes it takes to make 12000 gummy bears, we divide the total number of gummy bears by the number of gummy bears manufactured per minute: \n12000/300 = 40 minutes needed.\n\nI hope it is correct: 40 $minutes$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 40",
+        "ground_truth": "The factory creates 300 gummy bears a minute, which means it produces 300 / 50 = <<300/50=6>>6 packets of gummy bears per minute.\nIt would take 240 / 6 = <<240/6=40>>40 minutes to manufacture enough gummy bears to fill 240 packets.\n#### 40"
+    }
+]

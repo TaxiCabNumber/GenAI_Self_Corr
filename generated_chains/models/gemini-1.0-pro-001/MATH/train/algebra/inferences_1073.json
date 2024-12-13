@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nReal numbers $a$ and $b$ satisfy the equations $3^a=81^{b+2}$ and $125^b=5^{a-3}$.  What is $ab$?",
+        "inference": "$$3^a=81^{b+2} \\Rightarrow 3^a=(3^4)^{b+2} \\Rightarrow 3^a=3^{4(b+2)} \\Rightarrow a=4(b+2)$$\n\n$$125^b=5^{a-3} \\Rightarrow (5^3)^b=5^{a-3} \\Rightarrow 5^{3b}=5^{a-3} \\Rightarrow 3b=a-3$$\n\n$$a=4(b+2) \\Rightarrow 3b=4(b+2)-3 \\Rightarrow 3b=4b+5 \\Rightarrow b=5$$\n\n$$a=4(b+2)=4(5+2)=4(7)=28$$\n\n$$ab=28 \\cdot 5 = \\boxed{140}. \\quad \\text{Final Answer: } \\boxed{140}. \\text{ I hope it is correct.}$$",
+        "ground_truth": "The given equations are equivalent, respectively, to \\[\n3^a=3^{4(b+2)}\\quad\\text{and}\\quad 5^{3b}=5^{a-3}.\n\\] Therefore $a=4(b+2)$ and $3b=a-3$.  The solution of this system is $a=-12$ and $b=-5$, so $ab=\\boxed{60}$."
+    },
+    {
+        "question": "$$3^a=81^{b+2} \\Rightarrow 3^a=(3^4)^{b+2} \\Rightarrow 3^a=3^{4(b+2)} \\Rightarrow a=4(b+2)$$\n\n$$125^b=5^{a-3} \\Rightarrow (5^3)^b=5^{a-3} \\Rightarrow 5^{3b}=5^{a-3} \\Rightarrow 3b=a-3$$\n\n$$a=4(b+2) \\Rightarrow 3b=4(b+2)-3 \\Rightarrow 3b=4b+5 \\Rightarrow b=5$$\n\n$$a=4(b+2)=4(5+2)=4(7)=28$$\n\n$$ab=28 \\cdot 5 = \\boxed{140}. \\quad \\text{Final Answer: } \\boxed{140}. \\text{ I hope it is correct.}$$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{140}$$",
+        "ground_truth": "The given equations are equivalent, respectively, to \\[\n3^a=3^{4(b+2)}\\quad\\text{and}\\quad 5^{3b}=5^{a-3}.\n\\] Therefore $a=4(b+2)$ and $3b=a-3$.  The solution of this system is $a=-12$ and $b=-5$, so $ab=\\boxed{60}$."
+    }
+]

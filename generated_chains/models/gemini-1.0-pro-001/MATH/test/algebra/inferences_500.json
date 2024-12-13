@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the sum of all numbers $a$ for which the graph of $y=x^2+a$ and the graph of $y=ax$ intersect one time?",
+        "inference": "The graphs of $y=x^2+a$ and $y=ax$ intersect if and only if $x^2+a=ax$, which simplifies to $x^2-(a-1)x-a=0$. This quadratic equation has one real solution if and only if its discriminant is zero:\n$$(a-1)^2+4a=0$$\n$$a^2-2a+1+4a=0$$\n$$a^2+2a+1=0$$\n$$(a+1)^2=0$$\n$$a+1=0$$\n$$a=-1$$\nTherefore, the sum of all numbers $a$ for which the graphs of $y=x^2+a$ and $y=ax$ intersect one time is $\\boxed{-1}$.\nFinal Answer: $\\boxed{-1}$. I hope it is correct.",
+        "ground_truth": "If these two graphs intersect then the point of intersection occur when  \\[x^2+a=ax,\\] or  \\[x^2-ax+a=0.\\] This quadratic has one solution exactly when the discriminant is equal to zero: \\[(-a)^2-4\\cdot1\\cdot a=0.\\] This simplifies to  \\[a(a-4)=0.\\]\n\nThere are exactly two values of $a$ for which the line and parabola intersect one time, namely $a=0$ and $a=4$.  The sum of these values is  \\[0+4=\\boxed{4}.\\]"
+    },
+    {
+        "question": "The graphs of $y=x^2+a$ and $y=ax$ intersect if and only if $x^2+a=ax$, which simplifies to $x^2-(a-1)x-a=0$. This quadratic equation has one real solution if and only if its discriminant is zero:\n$$(a-1)^2+4a=0$$\n$$a^2-2a+1+4a=0$$\n$$a^2+2a+1=0$$\n$$(a+1)^2=0$$\n$$a+1=0$$\n$$a=-1$$\nTherefore, the sum of all numbers $a$ for which the graphs of $y=x^2+a$ and $y=ax$ intersect one time is $\\boxed{-1}$.\nFinal Answer: $\\boxed{-1}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$-1$}",
+        "ground_truth": "If these two graphs intersect then the point of intersection occur when  \\[x^2+a=ax,\\] or  \\[x^2-ax+a=0.\\] This quadratic has one solution exactly when the discriminant is equal to zero: \\[(-a)^2-4\\cdot1\\cdot a=0.\\] This simplifies to  \\[a(a-4)=0.\\]\n\nThere are exactly two values of $a$ for which the line and parabola intersect one time, namely $a=0$ and $a=4$.  The sum of these values is  \\[0+4=\\boxed{4}.\\]"
+    }
+]

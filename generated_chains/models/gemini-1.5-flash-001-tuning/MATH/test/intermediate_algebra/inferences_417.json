@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThere exist constants $c_2,$ $c_1,$ and $c_0$ such that\n\\[x^3 + x^2 - 5 = (x - 3)^3 + c_2 (x - 3)^2 + c_1 (x - 3) + c_0.\\]Find $c_2^2 + c_1^2 + c_0^2.$",
+        "inference": "Expanding the right-hand side, we get\n\\[(x - 3)^3 + c_2 (x - 3)^2 + c_1 (x - 3) + c_0 = x^3 + (-9 + c_2) x^2 + (27 - 6c_2 + c_1) x + (-27 + 9c_2 - 3c_1 + c_0).\\]Matching coefficients, we get\n\\begin{align*}\n-9 + c_2 &= 1, \\\\\n27 - 6c_2 + c_1 &= 0, \\\\\n-27 + 9c_2 - 3c_1 + c_0 &= -5.\n\\end{align*}Solving, we find $c_2 = 10,$ $c_1 = 27,$ and $c_0 = 10.$  Hence, $c_2^2 + c_1^2 + c_0^2 = 10^2 + 27^2 + 10^2 = \\boxed{949}.$ \n",
+        "ground_truth": "Let $y = x - 3.$  Then $x = y + 3,$ and\n\\begin{align*}\nx^3 + x^2 - 5 &= (y + 3)^3 + (y + 3)^2 - 5 \\\\\n&= y^3 + 10y^2 + 33y + 31.\n\\end{align*}Thus, $c_2^2 + c_1^2 + c_0^2 = 10^2 + 33^2 + 31^2 = \\boxed{2150}.$"
+    },
+    {
+        "question": "Expanding the right-hand side, we get\n\\[(x - 3)^3 + c_2 (x - 3)^2 + c_1 (x - 3) + c_0 = x^3 + (-9 + c_2) x^2 + (27 - 6c_2 + c_1) x + (-27 + 9c_2 - 3c_1 + c_0).\\]Matching coefficients, we get\n\\begin{align*}\n-9 + c_2 &= 1, \\\\\n27 - 6c_2 + c_1 &= 0, \\\\\n-27 + 9c_2 - 3c_1 + c_0 &= -5.\n\\end{align*}Solving, we find $c_2 = 10,$ $c_1 = 27,$ and $c_0 = 10.$  Hence, $c_2^2 + c_1^2 + c_0^2 = 10^2 + 27^2 + 10^2 = \\boxed{949}.$ \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution appears to be correct. There's no obvious error in the process of expanding the right-hand side, matching coefficients, and solving for the constants.  The final answer is also calculated correctly. \n\nTherefore, the final answer is:  \\\\boxed{949}. \n",
+        "ground_truth": "Let $y = x - 3.$  Then $x = y + 3,$ and\n\\begin{align*}\nx^3 + x^2 - 5 &= (y + 3)^3 + (y + 3)^2 - 5 \\\\\n&= y^3 + 10y^2 + 33y + 31.\n\\end{align*}Thus, $c_2^2 + c_1^2 + c_0^2 = 10^2 + 33^2 + 31^2 = \\boxed{2150}.$"
+    }
+]

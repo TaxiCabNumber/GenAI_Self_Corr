@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nFarmer Brown has 60 animals on his farm, all either chickens or cows. He has twice as many chickens as cows. How many legs do the animals have, all together?",
+        "inference": "Let $c$ be the number of cows. Then there are $2c$ chickens. \nThe total number of animals is $c + 2c = 60$\nThis simplifies to $3c = 60$, so $c = 20$.\nThere are 20 cows and $2 \\cdot 20 = 40$ chickens.\nThe cows have $20 \\cdot 4 = 80$ legs.\nThe chickens have $40 \\cdot 2 = 80$ legs.\nIn total, the animals have $80 + 80 = 160$ legs.\nI hope it is correct: 160$ \n",
+        "ground_truth": "There are 60*(2/3)=<<60*(2/3)=40>>40 chickens.\nThere are 60-40=<<60-40=20>>20 cows.\nThe chickens have 40*2=<<40*2=80>>80 legs.\nThe cows have 20*4=<<20*4=80>>80 legs.\nThey have 80+80=<<80+80=160>>160 legs altogether.\n#### 160"
+    },
+    {
+        "question": "Let $c$ be the number of cows. Then there are $2c$ chickens. \nThe total number of animals is $c + 2c = 60$\nThis simplifies to $3c = 60$, so $c = 20$.\nThere are 20 cows and $2 \\cdot 20 = 40$ chickens.\nThe cows have $20 \\cdot 4 = 80$ legs.\nThe chickens have $40 \\cdot 2 = 80$ legs.\nIn total, the animals have $80 + 80 = 160$ legs.\nI hope it is correct: 160$ \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ 160 \n",
+        "ground_truth": "There are 60*(2/3)=<<60*(2/3)=40>>40 chickens.\nThere are 60-40=<<60-40=20>>20 cows.\nThe chickens have 40*2=<<40*2=80>>80 legs.\nThe cows have 20*4=<<20*4=80>>80 legs.\nThey have 80+80=<<80+80=160>>160 legs altogether.\n#### 160"
+    }
+]

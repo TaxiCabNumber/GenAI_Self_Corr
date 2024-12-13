@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the integer $n,$ $-90 \\le n \\le 90,$ such that $\\sin n^\\circ = \\cos 456^\\circ.$",
+        "inference": "Final Answer: \\\\boxed{-36}. I hope it is correct. \n",
+        "ground_truth": "Since the cosine function has period $360^\\circ,$\n\\[\\cos 456^\\circ = \\cos (456^\\circ - 360^\\circ) = \\cos 96^\\circ.\\]Since $\\cos x = \\sin (90^\\circ - x)$ for all angles $x,$\n\\[\\cos 96^\\circ = \\sin (90^\\circ - 96^\\circ) = \\sin (-6^\\circ),\\]so $n = \\boxed{-6}.$"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{-36}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need the context to be able to identify any errors and provide the correct final answer. \n",
+        "ground_truth": "Since the cosine function has period $360^\\circ,$\n\\[\\cos 456^\\circ = \\cos (456^\\circ - 360^\\circ) = \\cos 96^\\circ.\\]Since $\\cos x = \\sin (90^\\circ - x)$ for all angles $x,$\n\\[\\cos 96^\\circ = \\sin (90^\\circ - 96^\\circ) = \\sin (-6^\\circ),\\]so $n = \\boxed{-6}.$"
+    }
+]

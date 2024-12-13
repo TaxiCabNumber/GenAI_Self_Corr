@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe local theater has one ticket window. In how many ways can six people line up to buy a ticket?",
+        "inference": "There are 6 people, and the first person can be any of the 6. Once the first person is chosen, there are 5 people left, and the second person can be any of the 5. Once the second person is chosen, there are 4 people left, and the third person can be any of the 4. This continues until the last person is chosen.\n\nSo, the total number of ways that 6 people can line up to buy a ticket is:\n\n```\n6 * 5 * 4 * 3 * 2 * 1 = 720\n```\n\nFinal Answer: \\boxed{720}. I hope it is correct.",
+        "ground_truth": "We must count the number of permutations of 6 people.  There are 6 choices for the first person in line, 5 choices for the second person in line, etc.  So the answer is $6\\cdot5\\cdot 4\\cdot 3\\cdot2\\cdot 1=\\boxed{720}$."
+    },
+    {
+        "question": "There are 6 people, and the first person can be any of the 6. Once the first person is chosen, there are 5 people left, and the second person can be any of the 5. Once the second person is chosen, there are 4 people left, and the third person can be any of the 4. This continues until the last person is chosen.\n\nSo, the total number of ways that 6 people can line up to buy a ticket is:\n\n```\n6 * 5 * 4 * 3 * 2 * 1 = 720\n```\n\nFinal Answer: \\boxed{720}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{720}",
+        "ground_truth": "We must count the number of permutations of 6 people.  There are 6 choices for the first person in line, 5 choices for the second person in line, etc.  So the answer is $6\\cdot5\\cdot 4\\cdot 3\\cdot2\\cdot 1=\\boxed{720}$."
+    }
+]

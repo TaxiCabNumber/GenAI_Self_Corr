@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMark buys a fleet of 12 cars for his company.  Each car sells for $20,000.  He pays 10% tax on the cars and then another $1000 for registration on each of them.  How much does he pay for everything?",
+        "inference": "1. Calculate the total cost of the cars: 12 * $20,000 = $240,000\n2. Calculate the amount of tax: $240,000 * 0.10 = $24,000\n3. Calculate the total cost of the registration: 12 * $1000 = $12,000\n4. Add the cost of the cars, the tax, and the registration: $240,000 + $24,000 + $12,000 = $276,000\nI hope it is correct: $276,000$",
+        "ground_truth": "The cars cost 20000*12=$<<20000*12=240000>>240,000\nSo the tax came out to 240,000*.1=$<<240000*.1=24000>>24,000\nSo the cars cost 240,000+24,000=$<<240000+24000=264000>>264,000\nRegistration cost another 12*1000=<<12*1000=12000>>12,000\nSo his total cost is 264,000+12,000=$<<264000+12000=276000>>276,000\n#### 276,000"
+    },
+    {
+        "question": "1. Calculate the total cost of the cars: 12 * $20,000 = $240,000\n2. Calculate the amount of tax: $240,000 * 0.10 = $24,000\n3. Calculate the total cost of the registration: 12 * $1000 = $12,000\n4. Add the cost of the cars, the tax, and the registration: $240,000 + $24,000 + $12,000 = $276,000\nI hope it is correct: $276,000$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $276,000$",
+        "ground_truth": "The cars cost 20000*12=$<<20000*12=240000>>240,000\nSo the tax came out to 240,000*.1=$<<240000*.1=24000>>24,000\nSo the cars cost 240,000+24,000=$<<240000+24000=264000>>264,000\nRegistration cost another 12*1000=<<12*1000=12000>>12,000\nSo his total cost is 264,000+12,000=$<<264000+12000=276000>>276,000\n#### 276,000"
+    }
+]

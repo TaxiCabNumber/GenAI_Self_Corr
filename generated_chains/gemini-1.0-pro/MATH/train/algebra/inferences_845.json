@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $f(x) = \\displaystyle \\frac{1}{ax+b}$ where $a$ and $b$ are nonzero constants. Find all solutions to $f^{-1}(x) = 0$. Express your answer in terms of $a$ and/or $b$.",
+        "inference": "**Inverse Function**\n$$f(x) = \\dfrac{1}{ax+b}\\Rightarrow f^{-1}(x) = \\dfrac{1-bx}{a}$$\n\n**Solution**\n$$f^{-1}(x)=0$$\n\n$$\\Rightarrow\\qquad \\dfrac{1-bx}{a}=0$$\n\n$$\\Rightarrow\\qquad 1-bx=0$$\n\n$$\\Rightarrow\\qquad bx=1$$\n\n$$\\Rightarrow\\qquad x=\\dfrac{1}{b}$$\n\n**Final Answer: \\\\boxed{$x=\\frac{1}{b}$}. I hope it is correct.**",
+        "ground_truth": "The equation $f^{-1}(x)=0$ is equivalent to $x=f(0)$.  If we substitute this into the original definition of $f$ we get  \\[x=f(0)=\\frac1{a\\cdot0+b}=\\boxed{\\frac1b}.\\]"
+    },
+    {
+        "question": "**Inverse Function**\n$$f(x) = \\dfrac{1}{ax+b}\\Rightarrow f^{-1}(x) = \\dfrac{1-bx}{a}$$\n\n**Solution**\n$$f^{-1}(x)=0$$\n\n$$\\Rightarrow\\qquad \\dfrac{1-bx}{a}=0$$\n\n$$\\Rightarrow\\qquad 1-bx=0$$\n\n$$\\Rightarrow\\qquad bx=1$$\n\n$$\\Rightarrow\\qquad x=\\dfrac{1}{b}$$\n\n**Final Answer: \\\\boxed{$x=\\frac{1}{b}$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$x=\\dfrac{1}{b}$}.",
+        "ground_truth": "The equation $f^{-1}(x)=0$ is equivalent to $x=f(0)$.  If we substitute this into the original definition of $f$ we get  \\[x=f(0)=\\frac1{a\\cdot0+b}=\\boxed{\\frac1b}.\\]"
+    }
+]

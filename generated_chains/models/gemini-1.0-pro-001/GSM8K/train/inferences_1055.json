@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nNew York is two-thirds as populated as all of New England. If New England has 2100000 people, calculate the combined population of both states.",
+        "inference": "1. New York is 2/3 as populated as New England\n2. New England has 2100000 people\n3. So, New York has (2/3) * 2100000 = 1400000 people\n4. Therefore, the combined population of both states is 2100000 + 1400000 = 3500000 people\nI hope it is correct: 3500000",
+        "ground_truth": "New York is two-thirds as populated as all of New England, meaning there are 2/3*2100000 = <<2/3*2100000=1400000>>1400000 people living in New York.\nThe combined population of both states is 1400000+2100000 = <<1400000+2100000=3500000>>3500000\n#### 3500000"
+    },
+    {
+        "question": "1. New York is 2/3 as populated as New England\n2. New England has 2100000 people\n3. So, New York has (2/3) * 2100000 = 1400000 people\n4. Therefore, the combined population of both states is 2100000 + 1400000 = 3500000 people\nI hope it is correct: 3500000\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$3500000",
+        "ground_truth": "New York is two-thirds as populated as all of New England, meaning there are 2/3*2100000 = <<2/3*2100000=1400000>>1400000 people living in New York.\nThe combined population of both states is 1400000+2100000 = <<1400000+2100000=3500000>>3500000\n#### 3500000"
+    }
+]

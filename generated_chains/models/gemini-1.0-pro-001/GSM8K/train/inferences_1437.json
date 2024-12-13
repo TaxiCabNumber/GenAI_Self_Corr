@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMark constructed a deck that was 30 feet by 40 feet.  It cost $3 per square foot.  He then paid an extra $1 per square foot for sealant.  How much did he pay?",
+        "inference": "1. Find the area of the deck in square feet: 30 feet * 40 feet = 1200 square feet\n\n2. Find the cost of the deck in dollars: 1200 square feet * $3 per square foot = $3600\n\n3. Add the cost of the sealant in dollars: $3600 + (1200 square feet * $1 per square foot) = $3600 + $1200 = $4800\n\nI hope it is correct:  $4800$",
+        "ground_truth": "The deck is 30*40=<<30*40=1200>>1200 square feet\nHe pays 3+1=$<<3+1=4>>4 per square foot\nSo he paid 1200*4=$<<1200*4=4800>>4800\n#### 4800"
+    },
+    {
+        "question": "1. Find the area of the deck in square feet: 30 feet * 40 feet = 1200 square feet\n\n2. Find the cost of the deck in dollars: 1200 square feet * $3 per square foot = $3600\n\n3. Add the cost of the sealant in dollars: $3600 + (1200 square feet * $1 per square foot) = $3600 + $1200 = $4800\n\nI hope it is correct:  $4800$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$4800",
+        "ground_truth": "The deck is 30*40=<<30*40=1200>>1200 square feet\nHe pays 3+1=$<<3+1=4>>4 per square foot\nSo he paid 1200*4=$<<1200*4=4800>>4800\n#### 4800"
+    }
+]

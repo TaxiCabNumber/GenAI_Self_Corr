@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMarcus is having a water balloon party. He has 100 balloons. Each balloon holds 3 ounces of water. He can buy 50 ounces of water for $2.5 a bottle. If he walks into the store with 2 $10 bills, how much change will he have after he buys all the water he needs?",
+        "inference": "Marcus needs 300 ounces of water. Marcus can buy 12 bottles of water with 50 ounces per bottle for $2.5 a piece. So, Marcus would spend 12 bottles * $2.5 per bottle = $30. Marcus gave the cashier 2 * $10 = $20, so he would get back $20 - $30 = -$10 in change\nI hope it is correct: -$10",
+        "ground_truth": "He will need 300 ounces of water because 100 x 3 = <<100*3=300>>300\nHe will need 6 bottles because 300 / 50 = <<300/50=6>>6\nThis will cost $15 because 6 x 2.5 = <<6*2.5=15>>15\nHe has $20 because 2 x 10 = <<2*10=20>>20\nHe will get $5 in change because 20 - 15 = <<20-15=5>>5\n#### 5"
+    },
+    {
+        "question": "Marcus needs 300 ounces of water. Marcus can buy 12 bottles of water with 50 ounces per bottle for $2.5 a piece. So, Marcus would spend 12 bottles * $2.5 per bottle = $30. Marcus gave the cashier 2 * $10 = $20, so he would get back $20 - $30 = -$10 in change\nI hope it is correct: -$10\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $10",
+        "ground_truth": "He will need 300 ounces of water because 100 x 3 = <<100*3=300>>300\nHe will need 6 bottles because 300 / 50 = <<300/50=6>>6\nThis will cost $15 because 6 x 2.5 = <<6*2.5=15>>15\nHe has $20 because 2 x 10 = <<2*10=20>>20\nHe will get $5 in change because 20 - 15 = <<20-15=5>>5\n#### 5"
+    }
+]

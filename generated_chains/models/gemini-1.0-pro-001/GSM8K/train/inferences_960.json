@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nCindy was 5 years old.  Her sister Jan was 2 years older than Cindy.  Their oldest sister Marcia was twice as old as Jan.  Greg was two years older than Marcia.  How old was Greg?",
+        "inference": "Cindy was 5 years old.  \nHer sister Jan was 2 years older than Cindy.  Therefore, Jan was 5 + 2 = 7 years old.  \n\nTheir oldest sister Marcia was twice as old as Jan.  Therefore, Marcia was 2 x 7 = 14 years old.  \n\nGreg was two years older than Marcia.  Therefore, Greg was 14 + 2 = 16 years old.  \n\nI hope it is correct: 16",
+        "ground_truth": "Jan was 2 years older than Cindy who was 5 so 2+5 = <<2+5=7>>7 years old\nMarica was twice as old as Jan so 2*7 = <<2*7=14>>14 years old\nGreg was 2 years older than Marcia who was 14 so 2+14 = <<2+14=16>>16 years old\n#### 16"
+    },
+    {
+        "question": "Cindy was 5 years old.  \nHer sister Jan was 2 years older than Cindy.  Therefore, Jan was 5 + 2 = 7 years old.  \n\nTheir oldest sister Marcia was twice as old as Jan.  Therefore, Marcia was 2 x 7 = 14 years old.  \n\nGreg was two years older than Marcia.  Therefore, Greg was 14 + 2 = 16 years old.  \n\nI hope it is correct: 16\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "16",
+        "ground_truth": "Jan was 2 years older than Cindy who was 5 so 2+5 = <<2+5=7>>7 years old\nMarica was twice as old as Jan so 2*7 = <<2*7=14>>14 years old\nGreg was 2 years older than Marcia who was 14 so 2+14 = <<2+14=16>>16 years old\n#### 16"
+    }
+]

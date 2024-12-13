@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA trader made a profit of $960 after a week of sales. To raise $610 to pay for her next shipment of wares, she splits the profit in half and solicits donations from her family and friends. If she received a total donation of $310 and adds it to one-half of her profit, how much money did she make above her goal?",
+        "inference": "**Step 1**: She made a profit of $960.  She split it in half, so she has $960/2 = $480.\n\n**Step 2**: She received a donation of $310, so she now has $480 + $310 = $790.\n\n**Step 3**: Her goal was to raise $610, so she is $790 - $610 = $180 above her goal.\nI hope it is correct: $180$",
+        "ground_truth": "She splits her $960 profit in half to get $960 / 2 = $<<960/2=480>>480.\nShe receives a total donation of $310, so she now has $310 + $480 = $<<310+480=790>>790.\nShe needed only $610 so she has $790 - $610 = $180 more than she needs.\n#### 180"
+    },
+    {
+        "question": "**Step 1**: She made a profit of $960.  She split it in half, so she has $960/2 = $480.\n\n**Step 2**: She received a donation of $310, so she now has $480 + $310 = $790.\n\n**Step 3**: Her goal was to raise $610, so she is $790 - $610 = $180 above her goal.\nI hope it is correct: $180$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 180",
+        "ground_truth": "She splits her $960 profit in half to get $960 / 2 = $<<960/2=480>>480.\nShe receives a total donation of $310, so she now has $310 + $480 = $<<310+480=790>>790.\nShe needed only $610 so she has $790 - $610 = $180 more than she needs.\n#### 180"
+    }
+]

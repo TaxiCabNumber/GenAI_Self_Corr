@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nHow many integers $n$ satisfy the inequality $-8\\pi\\le n\\le10\\pi$?",
+        "inference": "**Solution**\n$$-8\\pi\\le n\\le10\\pi$$\n$$-\\frac{8\\pi}{2\\pi}\\le n\\le\\frac{10\\pi}{2\\pi}$$\n$$-4\\le n\\le5$$\n$$n\\in\\{-4,-3,-2,-1,0,1,2,3,4,5\\}$$\nThe number of integers n is 10.\n\n**Final Answer: \\\\boxed{$10$}. I hope it is correct.**",
+        "ground_truth": "The number $\\pi$ is between $3.14$ and $3.15$, so $-8\\pi$ is between $-8(3.15) = 25.2$ and $-8(3.14) = 25.12$. Likewise, $10\\pi$ is between $31.4$ and $31.5$. This suffices to establish that the integers $n$ between $-8\\pi$ and $10\\pi$ are precisely $$-25, -24, -23, -22, \\ldots, 28, 29, 30, 31.$$ There are $25$ negative integers in this list, $31$ positive integers, and one more integer ($0$), making $\\boxed{57}$ integers in total."
+    },
+    {
+        "question": "**Solution**\n$$-8\\pi\\le n\\le10\\pi$$\n$$-\\frac{8\\pi}{2\\pi}\\le n\\le\\frac{10\\pi}{2\\pi}$$\n$$-4\\le n\\le5$$\n$$n\\in\\{-4,-3,-2,-1,0,1,2,3,4,5\\}$$\nThe number of integers n is 10.\n\n**Final Answer: \\\\boxed{$10$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$10$}",
+        "ground_truth": "The number $\\pi$ is between $3.14$ and $3.15$, so $-8\\pi$ is between $-8(3.15) = 25.2$ and $-8(3.14) = 25.12$. Likewise, $10\\pi$ is between $31.4$ and $31.5$. This suffices to establish that the integers $n$ between $-8\\pi$ and $10\\pi$ are precisely $$-25, -24, -23, -22, \\ldots, 28, 29, 30, 31.$$ There are $25$ negative integers in this list, $31$ positive integers, and one more integer ($0$), making $\\boxed{57}$ integers in total."
+    }
+]

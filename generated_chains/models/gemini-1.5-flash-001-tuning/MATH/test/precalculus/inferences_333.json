@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nOne line is parameterized by\n\\[\\begin{pmatrix} 2 - 3t \\\\ -5 - 2t \\\\ 1 - 6t \\end{pmatrix}.\\]Another line is parameterized by\n\\[\\begin{pmatrix} -\\frac{3}{2} + s \\\\ 2s \\\\ -6 + 2s \\end{pmatrix}.\\]The two lines intersect at $P.$  If $\\theta$ is the acute angle formed by the two lines at $P,$ then find $\\cos \\theta.$",
+        "inference": "Final Answer: \\\\boxed{\\frac{2}{\\sqrt{49}}}. I hope it is correct. \n",
+        "ground_truth": "The direction vectors of the lines are $\\begin{pmatrix} -3 \\\\ -2  \\\\ -6 \\end{pmatrix}$ and $\\begin{pmatrix} 1 \\\\ 2 \\\\ 2 \\end{pmatrix}.$  The cosine of the angle between them is then\n\\[\\frac{\\begin{pmatrix} -3 \\\\ -2 \\\\ -6 \\end{pmatrix} \\cdot \\begin{pmatrix} 1 \\\\ 2 \\\\ 2 \\end{pmatrix}}{\\left\\| \\begin{pmatrix} -3 \\\\ -2 \\\\ -6 \\end{pmatrix} \\right\\| \\left\\| \\begin{pmatrix} 1 \\\\ 2 \\\\ 2 \\end{pmatrix} \\right\\|} = \\frac{-19}{7 \\cdot 3} = -\\frac{19}{21}.\\]Since $\\theta$ is acute, $\\cos \\theta = \\boxed{\\frac{19}{21}}.$"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{\\frac{2}{\\sqrt{49}}}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the original question and the steps you took to arrive at your answer. I need more context to identify any errors and provide a corrected solution. \n",
+        "ground_truth": "The direction vectors of the lines are $\\begin{pmatrix} -3 \\\\ -2  \\\\ -6 \\end{pmatrix}$ and $\\begin{pmatrix} 1 \\\\ 2 \\\\ 2 \\end{pmatrix}.$  The cosine of the angle between them is then\n\\[\\frac{\\begin{pmatrix} -3 \\\\ -2 \\\\ -6 \\end{pmatrix} \\cdot \\begin{pmatrix} 1 \\\\ 2 \\\\ 2 \\end{pmatrix}}{\\left\\| \\begin{pmatrix} -3 \\\\ -2 \\\\ -6 \\end{pmatrix} \\right\\| \\left\\| \\begin{pmatrix} 1 \\\\ 2 \\\\ 2 \\end{pmatrix} \\right\\|} = \\frac{-19}{7 \\cdot 3} = -\\frac{19}{21}.\\]Since $\\theta$ is acute, $\\cos \\theta = \\boxed{\\frac{19}{21}}.$"
+    }
+]

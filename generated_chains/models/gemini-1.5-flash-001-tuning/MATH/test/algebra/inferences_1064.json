@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA set of four consecutive integers has a sum of 22. If each integer of the set is increased by 2 and then multiplied by 20, what is the sum of the new set of integers?",
+        "inference": "Let the four consecutive integers be $x$, $x+1$, $x+2$, and $x+3$.  Their sum is $4x+6$, so $4x+6=22$.  Solving for $x$, we find $x=4$.  The four consecutive integers are 4, 5, 6, and 7.  Increasing each of these by 2 and then multiplying by 20 gives us 120, 140, 160, and 180, respectively.  The sum of these four integers is $120+140+160+180 = \\boxed{600}$.  I hope it is correct. \n",
+        "ground_truth": "Increasing each integer by 2 will increase their sum by $2\\cdot 4 = 8$, meaning the sum after this step is $22 + 8 = 30$.  Multiplying each integer by 20 will multiply the entire sum by 20, leading to a final sum of $30\\cdot 20 = \\boxed{600}$."
+    },
+    {
+        "question": "Let the four consecutive integers be $x$, $x+1$, $x+2$, and $x+3$.  Their sum is $4x+6$, so $4x+6=22$.  Solving for $x$, we find $x=4$.  The four consecutive integers are 4, 5, 6, and 7.  Increasing each of these by 2 and then multiplying by 20 gives us 120, 140, 160, and 180, respectively.  The sum of these four integers is $120+140+160+180 = \\boxed{600}$.  I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The error is that the solution incorrectly increases each of the consecutive integers by 2 *and then* multiplies by 20.  The problem asks for the sum of the integers *after* increasing each by 2 and multiplying by 20.  \n\nHere's the corrected solution:\n\nIncreasing each of the consecutive integers by 2, we get 6, 7, 8, and 9.  Multiplying each of these by 20, we get 120, 140, 160, and 180.  The sum of these four integers is $120+140+160+180 = \\boxed{600}$. \n",
+        "ground_truth": "Increasing each integer by 2 will increase their sum by $2\\cdot 4 = 8$, meaning the sum after this step is $22 + 8 = 30$.  Multiplying each integer by 20 will multiply the entire sum by 20, leading to a final sum of $30\\cdot 20 = \\boxed{600}$."
+    }
+]

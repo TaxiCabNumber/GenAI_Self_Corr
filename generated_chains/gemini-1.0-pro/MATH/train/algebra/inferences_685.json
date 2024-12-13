@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $(w+13)^2=(3w+7)(2w+4)$, find $w^2$. Express your answer as a decimal.",
+        "inference": "$$(w + 13)^2 = (3w + 7)(2w + 4)$$\n\n$$w^2 + 26w + 169 = 6w^2 + 28w + 14w + 28$$\n\n$$w^2 + 26w + 169 = 6w^2 + 42w + 28$$\n\n$$5w^2 + 16w + 141 = 0$$\n\n$$(5w + 21)(w + 7) = 0$$\n\n$$w = -\\frac{21}{5}, -7$$\n\n$$w^2 = \\left(-\\frac{21}{5}\\right)^2 = 44.1$$\n\n$$w^2 = (-7)^2 = 49$$\n\n\n**Final Answer: $$\\boxed{49}$$**",
+        "ground_truth": "We expand both sides to find\n\n\\begin{align*}\n(w+13)(w+13)&=(3w+7)(2w+4)\\\\\nw^2+26w+169&=3w(2w+4)+7(2w+4)\\\\\nw^2+26w+169&=6w^2+12w+14w+28\\\\\nw^2+26w+169&=6w^2+26w+28\\\\\nw^2+169&=6w^2+28\\\\\n141&=5w^2\\\\\n\\frac{141}{5}&=w^2.\\\\\n\\end{align*}\n\nSo, expressed as a decimal, our answer is $\\frac{141}{5}=\\boxed{28.2}$."
+    },
+    {
+        "question": "$$(w + 13)^2 = (3w + 7)(2w + 4)$$\n\n$$w^2 + 26w + 169 = 6w^2 + 28w + 14w + 28$$\n\n$$w^2 + 26w + 169 = 6w^2 + 42w + 28$$\n\n$$5w^2 + 16w + 141 = 0$$\n\n$$(5w + 21)(w + 7) = 0$$\n\n$$w = -\\frac{21}{5}, -7$$\n\n$$w^2 = \\left(-\\frac{21}{5}\\right)^2 = 44.1$$\n\n$$w^2 = (-7)^2 = 49$$\n\n\n**Final Answer: $$\\boxed{49}$$**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{49}$$",
+        "ground_truth": "We expand both sides to find\n\n\\begin{align*}\n(w+13)(w+13)&=(3w+7)(2w+4)\\\\\nw^2+26w+169&=3w(2w+4)+7(2w+4)\\\\\nw^2+26w+169&=6w^2+12w+14w+28\\\\\nw^2+26w+169&=6w^2+26w+28\\\\\nw^2+169&=6w^2+28\\\\\n141&=5w^2\\\\\n\\frac{141}{5}&=w^2.\\\\\n\\end{align*}\n\nSo, expressed as a decimal, our answer is $\\frac{141}{5}=\\boxed{28.2}$."
+    }
+]

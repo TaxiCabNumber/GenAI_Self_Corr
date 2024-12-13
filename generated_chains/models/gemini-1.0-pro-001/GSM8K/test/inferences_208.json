@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRose went to the store on Monday and bought 4 cakes. Tuesday she went to a different store and bought three times that number of cakes. On Wednesday she went to another store and bought 5 times the number of cakes she did on Tuesday. How many cakes did she buy after all three days?",
+        "inference": "1) On Monday Rose bought 4 cakes.\n2) On Tuesday, she bought three times that number of cakes. \n         Therefore, 4  x 3 = 12 cakes\n3) On Wednesday, she bought 5 times the number of cakes she did on Tuesday.\n         Therefore, 12 x 5 = 60 cakes\n4) In total, she bought 4 + 12 + 60 = 76 cakes\nI hope it is correct: 76",
+        "ground_truth": "On Monday she bought 4 cakes\nOn Tuesday she bought 4*3=<<4*3=12>>12 cakes\nOn Wednesday she bought 12*5=<<12*5=60>>60 cakes\nRose bought a total of 4+12+60= <<4+12+60=76>>76 cakes during the three days\n#### 76"
+    },
+    {
+        "question": "1) On Monday Rose bought 4 cakes.\n2) On Tuesday, she bought three times that number of cakes. \n         Therefore, 4  x 3 = 12 cakes\n3) On Wednesday, she bought 5 times the number of cakes she did on Tuesday.\n         Therefore, 12 x 5 = 60 cakes\n4) In total, she bought 4 + 12 + 60 = 76 cakes\nI hope it is correct: 76\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$76",
+        "ground_truth": "On Monday she bought 4 cakes\nOn Tuesday she bought 4*3=<<4*3=12>>12 cakes\nOn Wednesday she bought 12*5=<<12*5=60>>60 cakes\nRose bought a total of 4+12+60= <<4+12+60=76>>76 cakes during the three days\n#### 76"
+    }
+]

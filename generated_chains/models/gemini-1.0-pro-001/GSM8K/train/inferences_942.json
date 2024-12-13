@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nWhile Paul watches movies, he runs on his treadmill. He can run a mile in 12 minutes. He watches two movies, which are an average length of 1.5 hours. How many miles does he run?",
+        "inference": "**Step 1:** Convert movie time to minutes.\n\n1.5 hours * 60 minutes/hour = 90 minutes\n\n**Step 2:** Add up the total time spent on movies.\n\n90 minutes + 90 minutes = 180 minutes\n\n**Step 3:** Convert movie time to the number of miles run on the treadmill.\n\n180 minutes / 12 minutes/mile = 15 miles\n\n**Step 4:** Multiply the number of miles run by the number of movies watched.\n\n15 miles * 2 movies = 30 miles\n\n**Conclusion:** He runs 30 miles.\n\nI hope it is correct: 30 miles",
+        "ground_truth": "He runs for 3 hours because 2 x 1.5 = <<2*1.5=3>>3\nHe runs for 180 minutes because 3 x 60 = <<3*60=180>>180\nHe runs 15 miles because 180 / 12 = <<180/12=15>>15\n#### 15"
+    },
+    {
+        "question": "**Step 1:** Convert movie time to minutes.\n\n1.5 hours * 60 minutes/hour = 90 minutes\n\n**Step 2:** Add up the total time spent on movies.\n\n90 minutes + 90 minutes = 180 minutes\n\n**Step 3:** Convert movie time to the number of miles run on the treadmill.\n\n180 minutes / 12 minutes/mile = 15 miles\n\n**Step 4:** Multiply the number of miles run by the number of movies watched.\n\n15 miles * 2 movies = 30 miles\n\n**Conclusion:** He runs 30 miles.\n\nI hope it is correct: 30 miles\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$30 miles",
+        "ground_truth": "He runs for 3 hours because 2 x 1.5 = <<2*1.5=3>>3\nHe runs for 180 minutes because 3 x 60 = <<3*60=180>>180\nHe runs 15 miles because 180 / 12 = <<180/12=15>>15\n#### 15"
+    }
+]

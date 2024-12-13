@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the fraction that equals $0.\\overline{73}$.",
+        "inference": "Let $x = 0.\\overline{73}$. Then $100x = 73.\\overline{73}$. Subtracting these equations, we get $99x = 73$, so $x = \\frac{73}{99}$. \n\nFinal Answer: $\\boxed{\\frac{73}{99}}$. I hope it is correct. \n",
+        "ground_truth": "We have \\[0.\\overline{73} = \\frac{73}{100} + \\frac{73}{10000} + \\frac{73}{1000000} + \\cdots.\\]This infinite geometric series has first term $73/100$ and common ratio $1/100$, so we have \\[0.\\overline{73} = \\frac{73/100}{1-1/100} = \\boxed{\\frac{73}{99}}.\\]"
+    },
+    {
+        "question": "Let $x = 0.\\overline{73}$. Then $100x = 73.\\overline{73}$. Subtracting these equations, we get $99x = 73$, so $x = \\frac{73}{99}$. \n\nFinal Answer: $\\boxed{\\frac{73}{99}}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$\\frac{73}{99}$}  I hope it is correct. \n",
+        "ground_truth": "We have \\[0.\\overline{73} = \\frac{73}{100} + \\frac{73}{10000} + \\frac{73}{1000000} + \\cdots.\\]This infinite geometric series has first term $73/100$ and common ratio $1/100$, so we have \\[0.\\overline{73} = \\frac{73/100}{1-1/100} = \\boxed{\\frac{73}{99}}.\\]"
+    }
+]

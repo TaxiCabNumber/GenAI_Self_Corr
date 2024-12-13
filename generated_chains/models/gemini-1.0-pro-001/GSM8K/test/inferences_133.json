@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nOn Monday, Walt walked 4 miles. Tuesday, he walked 6 times as many miles as he walked on Monday. His total mileage Monday through Wednesday was 41 miles. How many miles did he walk on Wednesday?",
+        "inference": "4 miles on Monday\n24 miles on Tuesday\nTuesday plus Monday = 28 miles\n28 miles from 41 miles total = 13 miles\nI hope it is correct: 13 miles",
+        "ground_truth": "Walt\u2019s Tuesday walk was 4*6 = <<4*6=24>>24 miles.\nWalt\u2019s Monday and Tuesday walk were 4+24 = <<4+24=28>>28 miles combined.\nWalt\u2019s Wednesday walk was 41-28 = <<41-28=13>>13 miles.\n#### 13"
+    },
+    {
+        "question": "4 miles on Monday\n24 miles on Tuesday\nTuesday plus Monday = 28 miles\n28 miles from 41 miles total = 13 miles\nI hope it is correct: 13 miles\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 13",
+        "ground_truth": "Walt\u2019s Tuesday walk was 4*6 = <<4*6=24>>24 miles.\nWalt\u2019s Monday and Tuesday walk were 4+24 = <<4+24=28>>28 miles combined.\nWalt\u2019s Wednesday walk was 41-28 = <<41-28=13>>13 miles.\n#### 13"
+    }
+]

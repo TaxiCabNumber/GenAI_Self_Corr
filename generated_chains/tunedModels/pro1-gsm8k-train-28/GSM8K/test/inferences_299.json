@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn hires a driving service to get him to work each day.  His work is 30 miles away and he has to go there and back each day.  He goes to work 5 days a week for 50 weeks a year.  He gets charged $2 per mile driven and he also gives his driver a $150 bonus per month.  How much does he pay a year for driving?",
+        "inference": "1. Calculate the total number of miles driven in a year:\n30 miles * 2 (round trip) * 5 days * 50 weeks = 15,000 miles\n\n2. Calculate the total cost of mileage:\n15,000 miles * $2 per mile = $30,000\n\n3. Calculate the total cost of bonuses:\n$150 per month * 12 months = $1,800\n\n4. Add the cost of mileage and bonuses to get the total cost:\n$30,000 + $1,800 = $31,800\n\nI hope it is correct: $31,800$",
+        "ground_truth": "He has to travel 30*2=<<30*2=60>>60 miles per day\nThat means he travels 60*5=<<60*5=300>>300 miles per week\nSo he pays 300*2=$<<300*2=600>>600 per week\nThat means he pays $600*50=$<<600*50=30000>>30000 a year for miles driven\nHe also gives $150*12=$<<150*12=1800>>1800 a year as a bonus to his driver\nSo he pays $30000+$1800=$<<30000+1800=31800>>31,800 a year\n#### 31800"
+    },
+    {
+        "question": "1. Calculate the total number of miles driven in a year:\n30 miles * 2 (round trip) * 5 days * 50 weeks = 15,000 miles\n\n2. Calculate the total cost of mileage:\n15,000 miles * $2 per mile = $30,000\n\n3. Calculate the total cost of bonuses:\n$150 per month * 12 months = $1,800\n\n4. Add the cost of mileage and bonuses to get the total cost:\n$30,000 + $1,800 = $31,800\n\nI hope it is correct: $31,800$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$=31800",
+        "ground_truth": "He has to travel 30*2=<<30*2=60>>60 miles per day\nThat means he travels 60*5=<<60*5=300>>300 miles per week\nSo he pays 300*2=$<<300*2=600>>600 per week\nThat means he pays $600*50=$<<600*50=30000>>30000 a year for miles driven\nHe also gives $150*12=$<<150*12=1800>>1800 a year as a bonus to his driver\nSo he pays $30000+$1800=$<<30000+1800=31800>>31,800 a year\n#### 31800"
+    }
+]

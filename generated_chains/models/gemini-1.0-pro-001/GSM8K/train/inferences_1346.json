@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe central Texas countryside contains many toads that come out at night.  For every green toad, there are 25 brown toads, and one-quarter of the brown toads are spotted.  If there are 50 spotted brown toads per acre, how many green toads are there per acre?",
+        "inference": "1. There are 50 spotted brown toads per acre.\n2. One-quarter of the brown toads are spotted, so there are 50 x 4 = 200 brown toads per acre.\n3. For every green toad, there are 25 brown toads, so there are 200 / 25 = 8 green toads per acre.\n\nI hope it is correct: 8 toads per acre",
+        "ground_truth": "If there are 50 spotted brown toads per acre, and this represents one-quarter of the brown toads, then there are 50*4=<<50*4=200>>200 brown toads per acre.\nIf for every 25 brown toads there is one green toad, then there are 200/25=<<200/25=8>>8 green toads per acre.\n#### 8"
+    },
+    {
+        "question": "1. There are 50 spotted brown toads per acre.\n2. One-quarter of the brown toads are spotted, so there are 50 x 4 = 200 brown toads per acre.\n3. For every green toad, there are 25 brown toads, so there are 200 / 25 = 8 green toads per acre.\n\nI hope it is correct: 8 toads per acre\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$8",
+        "ground_truth": "If there are 50 spotted brown toads per acre, and this represents one-quarter of the brown toads, then there are 50*4=<<50*4=200>>200 brown toads per acre.\nIf for every 25 brown toads there is one green toad, then there are 200/25=<<200/25=8>>8 green toads per acre.\n#### 8"
+    }
+]

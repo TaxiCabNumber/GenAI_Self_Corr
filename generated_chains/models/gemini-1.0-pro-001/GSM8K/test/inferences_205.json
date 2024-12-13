@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBrinley is in Mr. Bert's math class. Mr. Bert gives six tests each semester. He allows the students to remove the lowest score from the average each semester. If Brinley has scores of 89, 71, 92, 100 and 86 on the first five tests, what score does she need on the sixth test to get an average of 93?",
+        "inference": "The average of 5 tests is (89 + 71 + 92 + 100 + 86) / 5 = 87.6.\n\nThe average of 6 tests including the 6th test that needs to be 93 is ( 87.6 * 5 + 93) / 6 = 90.5.\n\nI hope it is correct: 90.5",
+        "ground_truth": "First, identify the lowest score, which is 71, and remove it.\nSince Brinley wants a score of 93, we know her total score needs to be 93 (average) * 5 (tests) = <<93*5=465>>465 points\nSo far, Brinley has earned 89 + 92 +100 + 86 = <<89+92+100+86=367>>367 points\nThe final test must be 465 - 367 = <<465-367=98>>98 points.\n#### 98"
+    },
+    {
+        "question": "The average of 5 tests is (89 + 71 + 92 + 100 + 86) / 5 = 87.6.\n\nThe average of 6 tests including the 6th test that needs to be 93 is ( 87.6 * 5 + 93) / 6 = 90.5.\n\nI hope it is correct: 90.5\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 90.5",
+        "ground_truth": "First, identify the lowest score, which is 71, and remove it.\nSince Brinley wants a score of 93, we know her total score needs to be 93 (average) * 5 (tests) = <<93*5=465>>465 points\nSo far, Brinley has earned 89 + 92 +100 + 86 = <<89+92+100+86=367>>367 points\nThe final test must be 465 - 367 = <<465-367=98>>98 points.\n#### 98"
+    }
+]

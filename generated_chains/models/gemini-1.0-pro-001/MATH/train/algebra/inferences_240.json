@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFactor the following expression: $55z^{17}+121z^{34}$.",
+        "inference": "We can factor out a $z^{17}$ from both terms:\n\n$$55z^{17}+121z^{34}=z^{17}(55+121z^{17})$$\n\nNow we can factor the sum inside the parentheses:\n\n$$55+121z^{17}=55(1+z^{34})$$\n\nSo the final factorization is:\n\n$$55z^{17}+121z^{34}=z^{17}(55(1+z^{34}))\\Rightarrow$$ \n\n$$\\boxed{55z^{17}(1+z^{34}). \\text{ Final Answer: }\\boxed{55z^{17}(1+z^{34})}.}$$",
+        "ground_truth": "The greatest common factor of the two coefficients is $11$, and the greatest power of $z$ that divides both terms is $z^{17}$. So, we factor $11z^{17}$ out of both terms:\n\n\\begin{align*}\n55z^{17}+121z^{34} &= 11z^{17}\\cdot 5 +11z^{17}\\cdot 11z^{17}\\\\\n&= \\boxed{11z^{17}(5+11z^{17})}\n\\end{align*}"
+    },
+    {
+        "question": "We can factor out a $z^{17}$ from both terms:\n\n$$55z^{17}+121z^{34}=z^{17}(55+121z^{17})$$\n\nNow we can factor the sum inside the parentheses:\n\n$$55+121z^{17}=55(1+z^{34})$$\n\nSo the final factorization is:\n\n$$55z^{17}+121z^{34}=z^{17}(55(1+z^{34}))\\Rightarrow$$ \n\n$$\\boxed{55z^{17}(1+z^{34}). \\text{ Final Answer: }\\boxed{55z^{17}(1+z^{34})}.}$$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{55z^{17}(1+z^{17})}$$",
+        "ground_truth": "The greatest common factor of the two coefficients is $11$, and the greatest power of $z$ that divides both terms is $z^{17}$. So, we factor $11z^{17}$ out of both terms:\n\n\\begin{align*}\n55z^{17}+121z^{34} &= 11z^{17}\\cdot 5 +11z^{17}\\cdot 11z^{17}\\\\\n&= \\boxed{11z^{17}(5+11z^{17})}\n\\end{align*}"
+    }
+]

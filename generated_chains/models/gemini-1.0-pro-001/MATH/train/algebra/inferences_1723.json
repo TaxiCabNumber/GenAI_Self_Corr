@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the sum of the values of $x$ which satisfy $x^2 +1992x = 1993$.",
+        "inference": "**Step 1:** Subtract 1993 from both sides of the equation. \n$$x^2 +1992x-1993=0$$\n\n**Step 2:** The expression on the left has a common factor of $x+1$.\n$$(x+1)(x+1991)=0$$\n\n**Step 3:** Either $x+1=0$ or $x+1991=0$. Solving each of these gives two values of $x$.\n$$x=-1 \\quad \\text{or} \\quad x=-1991$$\n\n**Step 4**:  The sum of the values of $x$ is\n$$-1+(-1991)=\\boxed{-1992}.$$\n\n**Final Answer: -1992**",
+        "ground_truth": "This problem is immediate once you know the following fact:\n\nFor the equation $ax^2 + bx + c = 0$, the sum of the solutions of the equation is $-b/a$ and the product of the solutions is $c/a$.\n\nIn this case, $b = 1992$ and $a = 1$, so the sum of the solutions is $-b/a = \\boxed{-1992}$."
+    },
+    {
+        "question": "**Step 1:** Subtract 1993 from both sides of the equation. \n$$x^2 +1992x-1993=0$$\n\n**Step 2:** The expression on the left has a common factor of $x+1$.\n$$(x+1)(x+1991)=0$$\n\n**Step 3:** Either $x+1=0$ or $x+1991=0$. Solving each of these gives two values of $x$.\n$$x=-1 \\quad \\text{or} \\quad x=-1991$$\n\n**Step 4**:  The sum of the values of $x$ is\n$$-1+(-1991)=\\boxed{-1992}.$$\n\n**Final Answer: -1992**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{-1992}",
+        "ground_truth": "This problem is immediate once you know the following fact:\n\nFor the equation $ax^2 + bx + c = 0$, the sum of the solutions of the equation is $-b/a$ and the product of the solutions is $c/a$.\n\nIn this case, $b = 1992$ and $a = 1$, so the sum of the solutions is $-b/a = \\boxed{-1992}$."
+    }
+]

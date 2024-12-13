@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the largest $2$-digit prime factor of the integer $n = {200\\choose 100}$?\n",
+        "inference": "The largest $2$-digit prime factor of $n$ is ${n \\over 2^{100} \\cdot 50! \\cdot 50!}$. We can see that this is $2 \\cdot 3 \\cdot 5 \\cdot 7 \\cdot 11 \\cdot 13$, and the largest $2$-digit factor in this product is $13$.\nFinal Answer: $\\boxed{13}.$ I hope it is correct.",
+        "ground_truth": "Expanding the binomial coefficient, we get ${200 \\choose 100}=\\frac{200!}{100!100!}$. Let the required prime be $p$; then $10 \\le p < 100$. If $p > 50$, then the factor of $p$ appears twice in the denominator. Thus, we need $p$ to appear as a factor at least three times in the numerator, so $3p<200$. The largest such prime is $\\boxed{61}$, which is our answer."
+    },
+    {
+        "question": "The largest $2$-digit prime factor of $n$ is ${n \\over 2^{100} \\cdot 50! \\cdot 50!}$. We can see that this is $2 \\cdot 3 \\cdot 5 \\cdot 7 \\cdot 11 \\cdot 13$, and the largest $2$-digit factor in this product is $13$.\nFinal Answer: $\\boxed{13}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{11}",
+        "ground_truth": "Expanding the binomial coefficient, we get ${200 \\choose 100}=\\frac{200!}{100!100!}$. Let the required prime be $p$; then $10 \\le p < 100$. If $p > 50$, then the factor of $p$ appears twice in the denominator. Thus, we need $p$ to appear as a factor at least three times in the numerator, so $3p<200$. The largest such prime is $\\boxed{61}$, which is our answer."
+    }
+]

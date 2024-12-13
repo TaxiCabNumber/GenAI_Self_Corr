@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf the sum of the squares of nonnegative real numbers $a,b,$ and $c$ is $39$, and $ab + bc + ca = 21$, then what is the sum of $a,b,$ and $c$?",
+        "inference": "We know that $(a + b + c)^2 = a^2 + b^2 + c^2 + 2(ab + bc + ca)$.  Substituting in the given values, we find $(a + b + c)^2 = 39 + 2(21) = 81$.  Since $a$, $b$, and $c$ are nonnegative, $a + b + c = \\sqrt{81} = 9$.\n\nFinal Answer: $\\boxed{9}$. I hope it is correct. \n",
+        "ground_truth": "Since $$(a+b+c)^2 = a^2 + b^2 + c^2 + 2ab + 2bc + 2ca = (39) + 2(21) = 81,$$ it follows that $a+b+c = \\pm 9$. Since $a,b,c \\ge 0$ we find $a+b+c=\\boxed{9}$."
+    },
+    {
+        "question": "We know that $(a + b + c)^2 = a^2 + b^2 + c^2 + 2(ab + bc + ca)$.  Substituting in the given values, we find $(a + b + c)^2 = 39 + 2(21) = 81$.  Since $a$, $b$, and $c$ are nonnegative, $a + b + c = \\sqrt{81} = 9$.\n\nFinal Answer: $\\boxed{9}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct.  \n \n  \\\\boxed{9}. I hope it is correct. \n",
+        "ground_truth": "Since $$(a+b+c)^2 = a^2 + b^2 + c^2 + 2ab + 2bc + 2ca = (39) + 2(21) = 81,$$ it follows that $a+b+c = \\pm 9$. Since $a,b,c \\ge 0$ we find $a+b+c=\\boxed{9}$."
+    }
+]

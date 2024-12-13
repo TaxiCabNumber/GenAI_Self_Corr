@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe graphs of $y=x^4$ and $y=7x^2-10$ intersect at four points with $x$-coordinates $\\pm \\sqrt{m}$ and $\\pm \\sqrt{n}$, where $m > n$. What is $m-n$?",
+        "inference": "Solution: Setting the equations equal to each other, we have $x^4=7x^2-10$.  This simplifies to $x^4-7x^2+10=0$, which factors as $(x^2-2)(x^2-5)=0$.  The solutions to this equation are $x=\\pm \\sqrt{2}$ and $x=\\pm \\sqrt{5}$.  Since $m>n$, we have $m=5$ and $n=2$, so $m-n=5-2=\\boxed{3}$. \nFinal Answer: $\\boxed{3}$. I hope it is correct.",
+        "ground_truth": "At the intersection points, the $y$-coordinates of the two graphs must be equal, so we have the equation $x^4=y=7x^2-10$, or $x^4=7x^2-10$. Putting all the terms on one side, we get $x^4-7x^2+10=0$. Factoring, we get $(x^2-2)(x^2-5)=0$, so $x^2-2=0 \\Rightarrow x=\\pm \\sqrt{2}$ or $x^2-5=0 \\Rightarrow x=\\pm \\sqrt{5}$. Thus, $m=5$ and $n=2$ and $m-n=\\boxed{3}$."
+    },
+    {
+        "question": "Solution: Setting the equations equal to each other, we have $x^4=7x^2-10$.  This simplifies to $x^4-7x^2+10=0$, which factors as $(x^2-2)(x^2-5)=0$.  The solutions to this equation are $x=\\pm \\sqrt{2}$ and $x=\\pm \\sqrt{5}$.  Since $m>n$, we have $m=5$ and $n=2$, so $m-n=5-2=\\boxed{3}$. \nFinal Answer: $\\boxed{3}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct. \n\\\\boxed{3}  I hope it is correct. \n",
+        "ground_truth": "At the intersection points, the $y$-coordinates of the two graphs must be equal, so we have the equation $x^4=y=7x^2-10$, or $x^4=7x^2-10$. Putting all the terms on one side, we get $x^4-7x^2+10=0$. Factoring, we get $(x^2-2)(x^2-5)=0$, so $x^2-2=0 \\Rightarrow x=\\pm \\sqrt{2}$ or $x^2-5=0 \\Rightarrow x=\\pm \\sqrt{5}$. Thus, $m=5$ and $n=2$ and $m-n=\\boxed{3}$."
+    }
+]

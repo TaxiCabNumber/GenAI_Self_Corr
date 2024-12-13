@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTim decides to light off some fireworks for the fourth of July.  He buys a package of fireworks worth $400 and another pack worth twice that much.  He gets a 20% discount on them.  He also buys a finale firework that costs $150.  How much did he spend in total?",
+        "inference": "1. Calculate the cost of the second pack of fireworks.\n$400 x 2 = $800\n\n2. Calculate the total cost of the fireworks before the discount.\n$400 + $800 = $1,200\n\n3. Calculate the amount of the discount.\n$1,200 x 0.20 = $240\n\n4. Calculate the total cost of the fireworks after the discount.\n$1,200 - $240 = $960\n\n5. Add the cost of the finale firework.\n$960 + $150 = $1110\n\nI hope it is correct: $1110$",
+        "ground_truth": "The second package was worth 400*2=$<<400*2=800>>800\nSo the two packages were worth 400+800=$<<400+800=1200>>1200\nThat means he got a discount of 1200*.2=$<<1200*.2=240>>240\nSo the packages cost 1200-240=$<<1200-240=960>>960\nSo he spent a total of 960+150=$<<960+150=1110>>1110\n#### 1110"
+    },
+    {
+        "question": "1. Calculate the cost of the second pack of fireworks.\n$400 x 2 = $800\n\n2. Calculate the total cost of the fireworks before the discount.\n$400 + $800 = $1,200\n\n3. Calculate the amount of the discount.\n$1,200 x 0.20 = $240\n\n4. Calculate the total cost of the fireworks after the discount.\n$1,200 - $240 = $960\n\n5. Add the cost of the finale firework.\n$960 + $150 = $1110\n\nI hope it is correct: $1110$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $1110$",
+        "ground_truth": "The second package was worth 400*2=$<<400*2=800>>800\nSo the two packages were worth 400+800=$<<400+800=1200>>1200\nThat means he got a discount of 1200*.2=$<<1200*.2=240>>240\nSo the packages cost 1200-240=$<<1200-240=960>>960\nSo he spent a total of 960+150=$<<960+150=1110>>1110\n#### 1110"
+    }
+]

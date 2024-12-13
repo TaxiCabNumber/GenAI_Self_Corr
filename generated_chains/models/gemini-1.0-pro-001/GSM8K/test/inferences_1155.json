@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn buys a cassette with 2 songs.  The first song is 5 minutes and the second song is 60% longer.  How much time was the total cassette?",
+        "inference": "1. Convert 60% to a decimal: 60% = 60/100 = 0.6\n2. Calculate the length of the second song: 0.6 * 5 minutes = 3 minutes\n3. Add the lengths of the two songs to find the total time of the cassette: 5 minutes + 3 minutes = 8 minutes\nI hope it is correct: 8 minutes",
+        "ground_truth": "The second song is 5*.6=<<5*.6=3>>3 minutes longer than the first\nSo the second song was 5+3=<<5+3=8>>8 minutes\nThat means the total time was 5+8=<<5+8=13>>13 minutes\n#### 13"
+    },
+    {
+        "question": "1. Convert 60% to a decimal: 60% = 60/100 = 0.6\n2. Calculate the length of the second song: 0.6 * 5 minutes = 3 minutes\n3. Add the lengths of the two songs to find the total time of the cassette: 5 minutes + 3 minutes = 8 minutes\nI hope it is correct: 8 minutes\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ 8 minutes",
+        "ground_truth": "The second song is 5*.6=<<5*.6=3>>3 minutes longer than the first\nSo the second song was 5+3=<<5+3=8>>8 minutes\nThat means the total time was 5+8=<<5+8=13>>13 minutes\n#### 13"
+    }
+]

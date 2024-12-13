@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nHow many nonnegative solutions are there to the equation $x^2 = -4x$?",
+        "inference": "Since $x^2$ and $-4x$ are both nonnegative, we must have $x \\ge 0$. Then, we can rewrite the equation as $x^2 + 4x = 0$, which factors as $x(x + 4) = 0$. Thus, the only nonnegative solutions are $x = 0$ and $x = -4$. However, $-4$ is not a nonnegative number, so there is only one nonnegative solution: $x = 0$.\nFinal Answer: $\\boxed{1}$. I hope it is correct.",
+        "ground_truth": "We can rearrange the equation as $x^2 + 4x = 0$.  Factoring gives $x(x+4)=0$, which has solutions $x=0$ and $x=-4$.  Only $\\boxed{1}$ of these solutions is nonnegative."
+    },
+    {
+        "question": "Since $x^2$ and $-4x$ are both nonnegative, we must have $x \\ge 0$. Then, we can rewrite the equation as $x^2 + 4x = 0$, which factors as $x(x + 4) = 0$. Thus, the only nonnegative solutions are $x = 0$ and $x = -4$. However, $-4$ is not a nonnegative number, so there is only one nonnegative solution: $x = 0$.\nFinal Answer: $\\boxed{1}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$1$}",
+        "ground_truth": "We can rearrange the equation as $x^2 + 4x = 0$.  Factoring gives $x(x+4)=0$, which has solutions $x=0$ and $x=-4$.  Only $\\boxed{1}$ of these solutions is nonnegative."
+    }
+]

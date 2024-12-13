@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind: $\\frac{2}{7}+\\frac{8}{10}$",
+        "inference": "Final Answer: $\\boxed{\\frac{39}{35}}$. I hope it is correct. \n",
+        "ground_truth": "First we simplify $\\frac{8}{10}$, \\[\n\\frac{8}{10} = \\frac{2}{2}\\cdot\\frac{4}{5}=1\\cdot\\frac{4}{5} =\\frac{4}{5}.\n\\]Now make both terms have a common denominator, \\[\n\\frac{2}{7}+\\frac{4}{5}= \\frac{5}{5}\\cdot\\frac{2}{7}+\\frac{7}{7}\\cdot\\frac{4}{5} = \\frac{10}{35}+\\frac{28}{35}\n=\\boxed{\\frac{38}{35}}.\n\\]Note that we could have done the problem without simplifying $\\frac{8}{10}$ at the beginning and instead simplified at the end, but in this case simplifying first made things simpler as we didn't need to carry around the extra factor of two."
+    },
+    {
+        "question": "Final Answer: $\\boxed{\\frac{39}{35}}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the question and the solution you're referring to so I can help you find any errors and provide the correct final answer. \n",
+        "ground_truth": "First we simplify $\\frac{8}{10}$, \\[\n\\frac{8}{10} = \\frac{2}{2}\\cdot\\frac{4}{5}=1\\cdot\\frac{4}{5} =\\frac{4}{5}.\n\\]Now make both terms have a common denominator, \\[\n\\frac{2}{7}+\\frac{4}{5}= \\frac{5}{5}\\cdot\\frac{2}{7}+\\frac{7}{7}\\cdot\\frac{4}{5} = \\frac{10}{35}+\\frac{28}{35}\n=\\boxed{\\frac{38}{35}}.\n\\]Note that we could have done the problem without simplifying $\\frac{8}{10}$ at the beginning and instead simplified at the end, but in this case simplifying first made things simpler as we didn't need to carry around the extra factor of two."
+    }
+]

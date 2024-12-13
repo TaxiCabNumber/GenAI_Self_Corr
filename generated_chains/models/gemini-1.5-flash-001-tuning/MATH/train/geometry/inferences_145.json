@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the area of the triangle bounded by the lines $y=x,$ $y=-x,$ and $y=6$?",
+        "inference": "Final Answer: \\\\boxed{36}. I hope it is correct. \n",
+        "ground_truth": "[asy]\nsize(200); defaultpen(linewidth(0.8));\nxlimits(-8,8); ylimits(-1,10);\nxaxis(Label(\"$x$\"),-8,8,EndArrow(size=5));\nyaxis(Label(\"$y$\"),-2,8,EndArrow(size=5));\ndot(\"$A(6,6)$\",(6,6)); dot(\"$B(-6,6)$\",(-6,6),W); dot(\"$O$\",(0,0),SW);\ndraw((0,0) -- (6,6));\ndraw((0,0) -- (-6,6));\ndraw((-6,6)--(6,6));\n[/asy]\nLet $O = (0,0)$, and let $A$ and $B$ denote the points where $y=6$ intersects $y=x$ and $y=-x,$ respectively. The coordinates of $A$ and $B$ are $(6, 6)$ and $(-6, 6),$ respectively, so $AB = 6 - (-6) = 12.$ Also, the length of the altitude from $O$ to $AB$ is $6.$ Thus the area of $\\triangle OAB$ is\\[\\frac{1}{2} \\cdot 12 \\cdot 6 = \\boxed{36}.\\]"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{36}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the original question and the solution you are referring to so I can identify any errors and provide a corrected solution. \n",
+        "ground_truth": "[asy]\nsize(200); defaultpen(linewidth(0.8));\nxlimits(-8,8); ylimits(-1,10);\nxaxis(Label(\"$x$\"),-8,8,EndArrow(size=5));\nyaxis(Label(\"$y$\"),-2,8,EndArrow(size=5));\ndot(\"$A(6,6)$\",(6,6)); dot(\"$B(-6,6)$\",(-6,6),W); dot(\"$O$\",(0,0),SW);\ndraw((0,0) -- (6,6));\ndraw((0,0) -- (-6,6));\ndraw((-6,6)--(6,6));\n[/asy]\nLet $O = (0,0)$, and let $A$ and $B$ denote the points where $y=6$ intersects $y=x$ and $y=-x,$ respectively. The coordinates of $A$ and $B$ are $(6, 6)$ and $(-6, 6),$ respectively, so $AB = 6 - (-6) = 12.$ Also, the length of the altitude from $O$ to $AB$ is $6.$ Thus the area of $\\triangle OAB$ is\\[\\frac{1}{2} \\cdot 12 \\cdot 6 = \\boxed{36}.\\]"
+    }
+]

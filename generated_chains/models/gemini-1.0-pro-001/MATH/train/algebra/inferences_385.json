@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nGiven that $A = (\\sqrt{2008}+\\sqrt{2009}),$ $B = (-\\sqrt{2008}-\\sqrt{2009}),$ $C = (\\sqrt{2008}-\\sqrt{2009}),$ and $D = (\\sqrt{2009}-\\sqrt{2008}),$ find $ABCD.$",
+        "inference": "$$A = (\\sqrt{2008}+\\sqrt{2009})$$\n$$B = (-\\sqrt{2008}-\\sqrt{2009})$$\n$$C = (\\sqrt{2008}-\\sqrt{2009})$$\n$$D = (\\sqrt{2009}-\\sqrt{2008})$$\n$$ABCD = (A)(B)(C)(D)$$\n$$ABCD = [(\\sqrt{2008}+\\sqrt{2009})(-\\sqrt{2008}-\\sqrt{2009})]$$\n$$[(\\sqrt{2008}-\\sqrt{2009})(\\sqrt{2009}-\\sqrt{2008}))]$$\n$$ABCD = [-(2008-2009)][-(2009-2008)]$$\n$$ABCD = (-1)(+1)=$$\n$$ABCD = 1$$\nFinal Answer: \\boxed{$1$}. I hope it is correct.",
+        "ground_truth": "We can use difference of squares to see that  $$(\\sqrt{2009}+\\sqrt{2008})(\\sqrt{2009}-\\sqrt{2008})=2009-2008=1$$ Also,  $$(-\\sqrt{2009}+\\sqrt{2008})(-\\sqrt{2009}-\\sqrt{2008})=2009-2008=1$$ So the product is $\\boxed{1}$."
+    },
+    {
+        "question": "$$A = (\\sqrt{2008}+\\sqrt{2009})$$\n$$B = (-\\sqrt{2008}-\\sqrt{2009})$$\n$$C = (\\sqrt{2008}-\\sqrt{2009})$$\n$$D = (\\sqrt{2009}-\\sqrt{2008})$$\n$$ABCD = (A)(B)(C)(D)$$\n$$ABCD = [(\\sqrt{2008}+\\sqrt{2009})(-\\sqrt{2008}-\\sqrt{2009})]$$\n$$[(\\sqrt{2008}-\\sqrt{2009})(\\sqrt{2009}-\\sqrt{2008}))]$$\n$$ABCD = [-(2008-2009)][-(2009-2008)]$$\n$$ABCD = (-1)(+1)=$$\n$$ABCD = 1$$\nFinal Answer: \\boxed{$1$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$ABCD = 1$$\nFinal Answer: \\boxed{$1$}.",
+        "ground_truth": "We can use difference of squares to see that  $$(\\sqrt{2009}+\\sqrt{2008})(\\sqrt{2009}-\\sqrt{2008})=2009-2008=1$$ Also,  $$(-\\sqrt{2009}+\\sqrt{2008})(-\\sqrt{2009}-\\sqrt{2008})=2009-2008=1$$ So the product is $\\boxed{1}$."
+    }
+]

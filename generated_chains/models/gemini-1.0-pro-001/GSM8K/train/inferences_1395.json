@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMike bought a DVD of his favorite movie. He paid $5 for it at the store. A friend of Mike's, Steve, saw this and also decided to buy a DVD of the movie, but it was already sold out. He needed to order it online, which cost him twice as much. And in addition, he needed to pay the shipping costs which were 80% of the price of the film he ordered. How much did Steve pay to get the DVD in total?",
+        "inference": "Mike paid $5 for the DVD, Steve paid twice as much, so he paid $5 * 2 = $10\nIn addition, Steve had to pay 80% of the price of the DVD for shipping, so he paid $10 * 0.8 = $8\nIn total, Steve paid for the DVD and for shipping $10 + $8 = $18\nI hope it is correct: 18",
+        "ground_truth": "The cost of the movie online was twice what Mike paid, so 2 * 5 = $<<2*5=10>>10.\nThe shopping costs were standing at 80/100 * 10 = $<<80/100*10=8>>8.\nSo in total Steve paid 10 + 8 = $<<10+8=18>>18.\n#### 18"
+    },
+    {
+        "question": "Mike paid $5 for the DVD, Steve paid twice as much, so he paid $5 * 2 = $10\nIn addition, Steve had to pay 80% of the price of the DVD for shipping, so he paid $10 * 0.8 = $8\nIn total, Steve paid for the DVD and for shipping $10 + $8 = $18\nI hope it is correct: 18\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $18$",
+        "ground_truth": "The cost of the movie online was twice what Mike paid, so 2 * 5 = $<<2*5=10>>10.\nThe shopping costs were standing at 80/100 * 10 = $<<80/100*10=8>>8.\nSo in total Steve paid 10 + 8 = $<<10+8=18>>18.\n#### 18"
+    }
+]

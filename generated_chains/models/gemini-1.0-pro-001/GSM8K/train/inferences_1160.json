@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nOn a normal day, Julia can run a mile in 10 minutes. However, today she decided to wear her new shoes to run. They were uncomfortable and slowed her mile down to 13 minutes. How much longer would it take Julia to run 5 miles in her new shoes than if she wore her old ones?",
+        "inference": "Julia's speed in her old shoes: 1 mile / 10 minutes = 1/10 miles/minute\nJulia's speed in her new shoes: 1 mile / 13 minutes = 1/13 miles/minute\nTime it takes Julia to run 5 miles in her old shoes: 5 miles / (1/10 miles/minute) = 50 minutes\nTime it takes Julia to run 5 miles in her new shoes: 5 miles / (1/13 miles/minute) = 65 minutes\nDifference in time: 65 minutes - 50 minutes = 15 minutes\nI hope it is correct: 15 minutes",
+        "ground_truth": "With her regular shoes, it should take 5*10=<<5*10=50>>50 minutes to run five miles\nIf she wore her new shoes it would take 13*5=<<13*5=65>>65 minutes to run five miles\n65-50=<<65-50=15>>15 more minutes\n#### 15"
+    },
+    {
+        "question": "Julia's speed in her old shoes: 1 mile / 10 minutes = 1/10 miles/minute\nJulia's speed in her new shoes: 1 mile / 13 minutes = 1/13 miles/minute\nTime it takes Julia to run 5 miles in her old shoes: 5 miles / (1/10 miles/minute) = 50 minutes\nTime it takes Julia to run 5 miles in her new shoes: 5 miles / (1/13 miles/minute) = 65 minutes\nDifference in time: 65 minutes - 50 minutes = 15 minutes\nI hope it is correct: 15 minutes\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$15 minutes",
+        "ground_truth": "With her regular shoes, it should take 5*10=<<5*10=50>>50 minutes to run five miles\nIf she wore her new shoes it would take 13*5=<<13*5=65>>65 minutes to run five miles\n65-50=<<65-50=15>>15 more minutes\n#### 15"
+    }
+]

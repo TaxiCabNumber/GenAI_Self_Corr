@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nDaria wants to go to a concert by her favorite band. She wants to buy tickets for her and for three of her friends. One ticket cost is $90. How much money does Daria need to earn if she currently has only $189?",
+        "inference": "Daria needs to buy 4 tickets, so the total cost of the tickets is 4 * $90 = $360. \n\nIf Daria currently has $189, she needs to earn $360 - $189 = $171. \nI hope it is correct: $171",
+        "ground_truth": "Daria wants to buy tickets for four persons, so the cost will be 4 tickets * $90/ticket = $<<4*90=360>>360.\nDaria currently has $189, so she needs $360 - $189 = $<<360-189=171>>171 more.\n#### 171"
+    },
+    {
+        "question": "Daria needs to buy 4 tickets, so the total cost of the tickets is 4 * $90 = $360. \n\nIf Daria currently has $189, she needs to earn $360 - $189 = $171. \nI hope it is correct: $171\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $171$",
+        "ground_truth": "Daria wants to buy tickets for four persons, so the cost will be 4 tickets * $90/ticket = $<<4*90=360>>360.\nDaria currently has $189, so she needs $360 - $189 = $<<360-189=171>>171 more.\n#### 171"
+    }
+]

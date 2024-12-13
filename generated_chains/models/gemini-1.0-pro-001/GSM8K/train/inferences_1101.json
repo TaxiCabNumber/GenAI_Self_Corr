@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBeckett is 12 and is three years younger than Olaf, while Shannen is two years younger than Olaf.  If Jack is five more than twice as old as Shannen, what is the sum of the ages of all 4 people?",
+        "inference": "1.  Olaf is 12 + 3 = 15 years old.\n2. Shannen is 15 - 2 = 13 years old.\n3. Jack is 2 * 13 + 5 = 31 years old.\n4. The sum of their ages is 12 + 15 + 13 + 31 = 71.\n\nI hope it is correct: 71",
+        "ground_truth": "Olaf is 12 years + 3 years = <<12+3=15>>15 years old.\nShannen is 15 years old - 2 years = <<15-2=13>>13 years old.\nJack is 5 years + (2 * 13 years) = <<5+(2*13)=31>>31 years old.\nThe sum of all of their ages is 12 + 15 + 13 + 31 = <<12+15+13+31=71>>71 years old.\n#### 71"
+    },
+    {
+        "question": "1.  Olaf is 12 + 3 = 15 years old.\n2. Shannen is 15 - 2 = 13 years old.\n3. Jack is 2 * 13 + 5 = 31 years old.\n4. The sum of their ages is 12 + 15 + 13 + 31 = 71.\n\nI hope it is correct: 71\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$71",
+        "ground_truth": "Olaf is 12 years + 3 years = <<12+3=15>>15 years old.\nShannen is 15 years old - 2 years = <<15-2=13>>13 years old.\nJack is 5 years + (2 * 13 years) = <<5+(2*13)=31>>31 years old.\nThe sum of all of their ages is 12 + 15 + 13 + 31 = <<12+15+13+31=71>>71 years old.\n#### 71"
+    }
+]

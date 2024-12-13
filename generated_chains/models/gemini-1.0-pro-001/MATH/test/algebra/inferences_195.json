@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the domain of $\\sqrt{6-x-x^2}$.",
+        "inference": "1. Factor the expression inside the square root:\n\n$$\\sqrt{6-x-x^2} = \\sqrt{-(x^2 +x -6)} = \\sqrt{- (x+3)(x-2)}$$\n\n2. Set the expression inside the square root to be greater than or equal to zero:\n\n$$-(x+3)(x-2) \\geq 0 \\newline 2 \\leq x \\leq -3$$\n\n3. The domain is the set of all real numbers that satisfy the inequality:\n\n$$\\boxed{[-3, 2]}$$\n\nFinal Answer: $\\boxed{[-3, 2]}$. I hope it is correct.",
+        "ground_truth": "First, we simplify the expression: $$\\sqrt{6-x-x^2}=\\sqrt{(2-x)(3+x)}$$ The expression inside the square root must be non-negative. The quadratic changes signs at the roots $2$ and $-3$ and is positive between the two values. Therefore, the domain of the expression is $\\boxed{[-3,2]}$."
+    },
+    {
+        "question": "1. Factor the expression inside the square root:\n\n$$\\sqrt{6-x-x^2} = \\sqrt{-(x^2 +x -6)} = \\sqrt{- (x+3)(x-2)}$$\n\n2. Set the expression inside the square root to be greater than or equal to zero:\n\n$$-(x+3)(x-2) \\geq 0 \\newline 2 \\leq x \\leq -3$$\n\n3. The domain is the set of all real numbers that satisfy the inequality:\n\n$$\\boxed{[-3, 2]}$$\n\nFinal Answer: $\\boxed{[-3, 2]}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{[-3,2]}$$",
+        "ground_truth": "First, we simplify the expression: $$\\sqrt{6-x-x^2}=\\sqrt{(2-x)(3+x)}$$ The expression inside the square root must be non-negative. The quadratic changes signs at the roots $2$ and $-3$ and is positive between the two values. Therefore, the domain of the expression is $\\boxed{[-3,2]}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the solutions to $z^4 = -4.$  Enter the solutions, separated by commas.",
+        "inference": "Final Answer: \\\\boxed{\\sqrt{2} + \\sqrt{2}i, -\\sqrt{2} + \\sqrt{2}i, -\\sqrt{2} - \\sqrt{2}i, \\sqrt{2} - \\sqrt{2}i}. I hope it is correct. \n",
+        "ground_truth": "Let $z = x + yi,$ where $x$ and $y$ are real.  Then\n\\[(x + yi)^4 = x^4 + 4ix^3 y - 6x^2 y^2 - 4ixy^3 + y^4 = -4.\\]Equating real and imaginary parts, we get\n\\begin{align*}\nx^4 - 6x^2 y^2 + y^4 &= -4, \\\\\n4x^3 y - 4xy^3 &= 0.\n\\end{align*}From the equation $4x^3 y - 4xy^3 = 0,$ $4xy(x^2 - y^2) = 0.$  If $x = 0,$ then $y^4 = -4,$ which has no solutions.  If $y = 0,$ then $x^4 = -4,$ which has no solutions.  Otherwise, $x^2 = y^2.$\n\nThen the first equation becomes $-4x^4 = -4,$ so $x^4 = 1.$  Hence, $x = 1$ or $x = -1.$  In either case, $x^2 = 1,$ so $y^2 = 1,$ and $y = \\pm 1.$  Therefore, the solutions are $\\boxed{1 + i, 1 - i, -1 + i, -1 - i}.$"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{\\sqrt{2} + \\sqrt{2}i, -\\sqrt{2} + \\sqrt{2}i, -\\sqrt{2} - \\sqrt{2}i, \\sqrt{2} - \\sqrt{2}i}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the original question so I can review the solution and provide a corrected answer if necessary.  I need the context to understand the problem and determine if the solution is correct. \n",
+        "ground_truth": "Let $z = x + yi,$ where $x$ and $y$ are real.  Then\n\\[(x + yi)^4 = x^4 + 4ix^3 y - 6x^2 y^2 - 4ixy^3 + y^4 = -4.\\]Equating real and imaginary parts, we get\n\\begin{align*}\nx^4 - 6x^2 y^2 + y^4 &= -4, \\\\\n4x^3 y - 4xy^3 &= 0.\n\\end{align*}From the equation $4x^3 y - 4xy^3 = 0,$ $4xy(x^2 - y^2) = 0.$  If $x = 0,$ then $y^4 = -4,$ which has no solutions.  If $y = 0,$ then $x^4 = -4,$ which has no solutions.  Otherwise, $x^2 = y^2.$\n\nThen the first equation becomes $-4x^4 = -4,$ so $x^4 = 1.$  Hence, $x = 1$ or $x = -1.$  In either case, $x^2 = 1,$ so $y^2 = 1,$ and $y = \\pm 1.$  Therefore, the solutions are $\\boxed{1 + i, 1 - i, -1 + i, -1 - i}.$"
+    }
+]

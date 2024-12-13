@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nLori needed 1 whole egg to make 2 deviled egg halves.  She anticipates that each of her guests will eat 3 deviled egg halves.  If she is inviting 16 guests to her party, how many dozens of eggs will she need?",
+        "inference": "eggs per deviled egg half = 1 whole egg / 2 = 1/2 egg\neggs needed for 3 deviled egg halves (per guest) = 3 x 1/2 = 3/2 eggs\neggs needed for 16 guests = 16 x 3/2 = 24 eggs\ndozens of eggs needed = 24 eggs / 12 eggs per dozen = 2 dozens\nI hope it is correct: 2 dozens",
+        "ground_truth": "She is inviting 16 guests that will eat 3 deviled egg halves each so she needs 16*3 =<<16*3=48>>48 halves\n1 whole egg is needed to make 2 halves so 48 halves is 48/2 = <<48/2=24>>24 whole eggs\n1 dozen is equal to 12 and she needs 24 eggs so she needs 24/12 = <<24/12=2>>2 dozen eggs\n#### 2"
+    },
+    {
+        "question": "eggs per deviled egg half = 1 whole egg / 2 = 1/2 egg\neggs needed for 3 deviled egg halves (per guest) = 3 x 1/2 = 3/2 eggs\neggs needed for 16 guests = 16 x 3/2 = 24 eggs\ndozens of eggs needed = 24 eggs / 12 eggs per dozen = 2 dozens\nI hope it is correct: 2 dozens\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$2 dozens",
+        "ground_truth": "She is inviting 16 guests that will eat 3 deviled egg halves each so she needs 16*3 =<<16*3=48>>48 halves\n1 whole egg is needed to make 2 halves so 48 halves is 48/2 = <<48/2=24>>24 whole eggs\n1 dozen is equal to 12 and she needs 24 eggs so she needs 24/12 = <<24/12=2>>2 dozen eggs\n#### 2"
+    }
+]

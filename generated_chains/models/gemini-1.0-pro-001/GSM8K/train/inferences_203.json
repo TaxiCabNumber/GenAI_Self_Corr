@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBenny bought  2 soft drinks for$ 4 each and 5 candy bars. He spent a total of 28 dollars. How much did each candy bar cost?",
+        "inference": "**Solution:**\nLet's denote the cost of each candy bar as C.\n\nBenny spent $4 x 2 = $8 on the soft drinks.\n\nHe spent $C x 5 on the candy bars.\n\nTherefore, the total amount he spent is $8 + $5C = $28.\n\nSolving for C, we have:\n\n$5C = $28 - $8 = $20\n\nC = $20 / $5\n\n**I hope it is correct:** $C = $4$",
+        "ground_truth": "Benny spent 2 * $4 = $<<2*4=8>>8 on soft drinks.\nBenny spent a total of $28 - $8 on soft drinks = $<<28-8=20>>20 on candy bars.\nBenny spent $20 / 5 candy bars = $<<20/5=4>>4 for each candy bar.\n#### 4"
+    },
+    {
+        "question": "**Solution:**\nLet's denote the cost of each candy bar as C.\n\nBenny spent $4 x 2 = $8 on the soft drinks.\n\nHe spent $C x 5 on the candy bars.\n\nTherefore, the total amount he spent is $8 + $5C = $28.\n\nSolving for C, we have:\n\n$5C = $28 - $8 = $20\n\nC = $20 / $5\n\n**I hope it is correct:** $C = $4$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ = $4$",
+        "ground_truth": "Benny spent 2 * $4 = $<<2*4=8>>8 on soft drinks.\nBenny spent a total of $28 - $8 on soft drinks = $<<28-8=20>>20 on candy bars.\nBenny spent $20 / 5 candy bars = $<<20/5=4>>4 for each candy bar.\n#### 4"
+    }
+]

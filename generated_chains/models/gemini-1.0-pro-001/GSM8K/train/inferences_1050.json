@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTom, Tim, and Paul are collecting photos of cars. Paul has 10 photos more than Tim. Tim has one hundred photos less than the total amount of photos which is 152. How many photos does Tom have?",
+        "inference": "1. Tim has 152 - 100 = 52 photos.\n\n2. Paul has 52 + 10 = 62 photos.\n\n3. Tom has 152 - 52 - 62 = 38 photos.\n\nI hope it is correct: 38",
+        "ground_truth": "Tim has 152 photos - 100 photos = <<152-100=52>>52 photos.\nWhen Tim has 52 photos, then Paul has 52 + 10 photos = <<52+10=62>>62 photos.\nTim and Paul have together 52 photos + 62 photos = <<52+62=114>>114 photos.\nThat leaves Tom with 152 photos - 114 photos = <<152-114=38>>38 photos.\n#### 38"
+    },
+    {
+        "question": "1. Tim has 152 - 100 = 52 photos.\n\n2. Paul has 52 + 10 = 62 photos.\n\n3. Tom has 152 - 52 - 62 = 38 photos.\n\nI hope it is correct: 38\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$38",
+        "ground_truth": "Tim has 152 photos - 100 photos = <<152-100=52>>52 photos.\nWhen Tim has 52 photos, then Paul has 52 + 10 photos = <<52+10=62>>62 photos.\nTim and Paul have together 52 photos + 62 photos = <<52+62=114>>114 photos.\nThat leaves Tom with 152 photos - 114 photos = <<152-114=38>>38 photos.\n#### 38"
+    }
+]

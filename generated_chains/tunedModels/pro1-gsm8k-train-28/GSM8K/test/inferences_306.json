@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA bakery produces 60 loaves of bread each day. Two-thirds of the loaves are sold in the morning and half of what is left is sold equally in the afternoon and evening. How many loaves of bread are sold in the afternoon?",
+        "inference": "1. Two-thirds of 60 loaves are sold in the morning: 2/3 * 60 = 40 loaves\n2. Half of the remaining loaves are sold in the afternoon: 1/2 * (60 - 40) = 10 loaves\nI hope it is correct: 10 $loaves$",
+        "ground_truth": "60 x 2/3 = <<60*2/3=40>>40 loaves of bread are sold in the morning.\n60 - 40 = <<60-40=20>>20 loaves of bread are sold in the afternoon and evening.\nTherefore, 20/2 = <<20/2=10>>10 loaves of bread are sold in the afternoon.\n#### 10"
+    },
+    {
+        "question": "1. Two-thirds of 60 loaves are sold in the morning: 2/3 * 60 = 40 loaves\n2. Half of the remaining loaves are sold in the afternoon: 1/2 * (60 - 40) = 10 loaves\nI hope it is correct: 10 $loaves$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 10",
+        "ground_truth": "60 x 2/3 = <<60*2/3=40>>40 loaves of bread are sold in the morning.\n60 - 40 = <<60-40=20>>20 loaves of bread are sold in the afternoon and evening.\nTherefore, 20/2 = <<20/2=10>>10 loaves of bread are sold in the afternoon.\n#### 10"
+    }
+]

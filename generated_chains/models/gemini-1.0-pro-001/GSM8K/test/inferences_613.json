@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA Reddit group has 1000 members. If each member posts an average of 3 posts per day, what's the total number of posts that the group will have in March?",
+        "inference": "1. The number of posts per day: 1000 members x 3 posts/member/day = 3000 posts/day\n2. The number of days in March: 31 days\n3. The total number of posts in March: 3000 posts/day x 31 days = 93000 posts\nI hope it is correct: 93000 posts",
+        "ground_truth": "The total number of posts from all members in a day is 1000 members * 3 posts/member = <<1000*3=3000>>3000 posts.\nMarch has 31 days, so the total number of posts will be 31 days * 3000 posts/day = <<31*3000=93000>>93000 posts\n#### 93000"
+    },
+    {
+        "question": "1. The number of posts per day: 1000 members x 3 posts/member/day = 3000 posts/day\n2. The number of days in March: 31 days\n3. The total number of posts in March: 3000 posts/day x 31 days = 93000 posts\nI hope it is correct: 93000 posts\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ = 93000",
+        "ground_truth": "The total number of posts from all members in a day is 1000 members * 3 posts/member = <<1000*3=3000>>3000 posts.\nMarch has 31 days, so the total number of posts will be 31 days * 3000 posts/day = <<31*3000=93000>>93000 posts\n#### 93000"
+    }
+]

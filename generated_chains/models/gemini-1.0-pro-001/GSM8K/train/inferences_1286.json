@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nOlga has an aquarium with fish in 5 different colors. There are 12 yellow ones, half as many blue ones, and twice as many green ones as yellow ones. How many fish does Olga have in her aquarium?",
+        "inference": "Olga has 12 yellow fish.\nShe has half as many blue ones, so she has 12/2 = 6 blue fish.\nShe has twice as many green ones as yellow ones, so she has 12*2 = 24 green fish.\nThe total number of fish is 12 + 6 + 24 = 42.\nI hope it is correct: 42",
+        "ground_truth": "Olga has half as many blue fish as yellow ones, which means 12 * 0.5 = <<12*0.5=6>>6 blue fish.\nGreen fish are twice as many as yellow ones, so in total there are 12 * 2 = <<12*2=24>>24 green fish.\nSo all the fish sum up to 12 + 6 + 24 = <<12+6+24=42>>42.\n#### 42"
+    },
+    {
+        "question": "Olga has 12 yellow fish.\nShe has half as many blue ones, so she has 12/2 = 6 blue fish.\nShe has twice as many green ones as yellow ones, so she has 12*2 = 24 green fish.\nThe total number of fish is 12 + 6 + 24 = 42.\nI hope it is correct: 42\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$42",
+        "ground_truth": "Olga has half as many blue fish as yellow ones, which means 12 * 0.5 = <<12*0.5=6>>6 blue fish.\nGreen fish are twice as many as yellow ones, so in total there are 12 * 2 = <<12*2=24>>24 green fish.\nSo all the fish sum up to 12 + 6 + 24 = <<12+6+24=42>>42.\n#### 42"
+    }
+]

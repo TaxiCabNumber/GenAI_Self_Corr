@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSolve for the positive value of $x$ such that $\\sqrt[3]{x^2 - 4x + 4} = 16$.",
+        "inference": "$$\\sqrt[3]{x^2 - 4x + 4} = 16$$\n\nCubing both sides:\n\n$$x^2 - 4x + 4 = 16^3$$\n\n$$x^2 - 4x + 4 = 4096$$\n\n$$x^2 - 4x - 4092 = 0$$\n\nUsing the quadratic formula:\n\n$$x = \\frac{4 \\pm \\sqrt{4^2 - 4(1)(-4092)}}{2(1)}$$\n\n$$x = \\frac{4 \\pm \\sqrt{16384}}{2}$$\n\n$$x = \\frac{4 \\pm 128}{2}$$\n\n$$x = 66, -62$$\n\nSince we are looking for the positive value of $x$, we have:\n\n**Final Answer: $$x = 66$$. I hope it is correct.**",
+        "ground_truth": "We first cube each side of the equation to get $x^2 - 4x + 4 = 16^3$.  Notice that $x^2 - 4x + 4 = (x-2)^2.$\n\nTherefore, we have that $x-2 = \\pm 16^{3/2} = \\pm 64$.  Therefore, the possible values of $x$ are $-62$ and $66,$ and the only positive value is therefore $\\boxed{66}$."
+    },
+    {
+        "question": "$$\\sqrt[3]{x^2 - 4x + 4} = 16$$\n\nCubing both sides:\n\n$$x^2 - 4x + 4 = 16^3$$\n\n$$x^2 - 4x + 4 = 4096$$\n\n$$x^2 - 4x - 4092 = 0$$\n\nUsing the quadratic formula:\n\n$$x = \\frac{4 \\pm \\sqrt{4^2 - 4(1)(-4092)}}{2(1)}$$\n\n$$x = \\frac{4 \\pm \\sqrt{16384}}{2}$$\n\n$$x = \\frac{4 \\pm 128}{2}$$\n\n$$x = 66, -62$$\n\nSince we are looking for the positive value of $x$, we have:\n\n**Final Answer: $$x = 66$$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{ 66 }$$",
+        "ground_truth": "We first cube each side of the equation to get $x^2 - 4x + 4 = 16^3$.  Notice that $x^2 - 4x + 4 = (x-2)^2.$\n\nTherefore, we have that $x-2 = \\pm 16^{3/2} = \\pm 64$.  Therefore, the possible values of $x$ are $-62$ and $66,$ and the only positive value is therefore $\\boxed{66}$."
+    }
+]

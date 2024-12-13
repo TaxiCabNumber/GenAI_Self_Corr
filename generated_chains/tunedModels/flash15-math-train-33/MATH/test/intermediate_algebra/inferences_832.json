@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the solutions to\n\\[\\frac{x(x^2 - 56)}{4 - 7x} - \\frac{21x + 22}{x^3 + 2} = 4.\\]Enter all the solutions, separated by commas.",
+        "inference": "Final Answer: \\\\boxed{-1,2, \\frac{7}{2}}. I hope it is correct. \n",
+        "ground_truth": "Multiplying both sides by $(4 - 7x)(x^3 + 2),$ we get\n\\[x(x^2 - 56)(x^3 + 2) - (4 - 7x)(21x + 22) = 4(4 - 7x)(x^3 + 2).\\]This simplifies to\n\\[x^6 - 28x^4 - 14x^3 + 147x^2 + 14x - 120 = 0.\\]First, we try looking for nice roots.  Noting that both $x = 1$ and $x = -1$ are roots, we can factor out $x - 1$ and $x + 1,$ to get\n\\[(x - 1)(x + 1)(x^4 - 27x^2 - 14x + 120) = 0.\\]By the Integer Root Theorem, any integer roots must be factors of 120 (including negative factors).  Trying several factors, we notice that 2, 5, $-3,$ and $-4$ work, so the solutions are $\\boxed{-4, -3, -1, 1, 2, 5}.$"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{-1,2, \\frac{7}{2}}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need that information to identify any potential errors and rewrite the solution correctly. \n",
+        "ground_truth": "Multiplying both sides by $(4 - 7x)(x^3 + 2),$ we get\n\\[x(x^2 - 56)(x^3 + 2) - (4 - 7x)(21x + 22) = 4(4 - 7x)(x^3 + 2).\\]This simplifies to\n\\[x^6 - 28x^4 - 14x^3 + 147x^2 + 14x - 120 = 0.\\]First, we try looking for nice roots.  Noting that both $x = 1$ and $x = -1$ are roots, we can factor out $x - 1$ and $x + 1,$ to get\n\\[(x - 1)(x + 1)(x^4 - 27x^2 - 14x + 120) = 0.\\]By the Integer Root Theorem, any integer roots must be factors of 120 (including negative factors).  Trying several factors, we notice that 2, 5, $-3,$ and $-4$ work, so the solutions are $\\boxed{-4, -3, -1, 1, 2, 5}.$"
+    }
+]

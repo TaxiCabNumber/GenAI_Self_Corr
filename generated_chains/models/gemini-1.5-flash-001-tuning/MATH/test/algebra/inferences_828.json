@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet the roots of the polynomial $x^2 + 7x - 2$ be $\\alpha$ and $\\beta.$ Evaluate $\\alpha^2 + \\beta^2.$",
+        "inference": "We know that $\\alpha + \\beta = -7$ and $\\alpha \\beta = -2.$ Squaring the equation $\\alpha + \\beta = -7,$ we get\n\\[\\alpha^2 + 2 \\alpha \\beta + \\beta^2 = 49.\\]Then $\\alpha^2 + \\beta^2 = 49 - 2 \\alpha \\beta = 49 - 2(-2) = \\boxed{53}.$ Final Answer: $\\boxed{53}.$ I hope it is correct. \n",
+        "ground_truth": "We make use of the following fact:\n\n\"For a quadratic equation $ax^2 + bx + c,$ the sum of the roots is $-b/a$ while the product of the roots is $c/a.$'' Hence, $\\alpha + \\beta = -7$ and $\\alpha*\\beta = -2.$\n\nNow, we use the fact that $(\\alpha + \\beta)^2 - 2\\alpha\\beta =\\alpha^2 + \\beta^2.$ Or, $7^2 + 4 = \\alpha^2 + \\beta^2.$\n\nThus the answer is $\\boxed{53}.$"
+    },
+    {
+        "question": "We know that $\\alpha + \\beta = -7$ and $\\alpha \\beta = -2.$ Squaring the equation $\\alpha + \\beta = -7,$ we get\n\\[\\alpha^2 + 2 \\alpha \\beta + \\beta^2 = 49.\\]Then $\\alpha^2 + \\beta^2 = 49 - 2 \\alpha \\beta = 49 - 2(-2) = \\boxed{53}.$ Final Answer: $\\boxed{53}.$ I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{53}$  \n",
+        "ground_truth": "We make use of the following fact:\n\n\"For a quadratic equation $ax^2 + bx + c,$ the sum of the roots is $-b/a$ while the product of the roots is $c/a.$'' Hence, $\\alpha + \\beta = -7$ and $\\alpha*\\beta = -2.$\n\nNow, we use the fact that $(\\alpha + \\beta)^2 - 2\\alpha\\beta =\\alpha^2 + \\beta^2.$ Or, $7^2 + 4 = \\alpha^2 + \\beta^2.$\n\nThus the answer is $\\boxed{53}.$"
+    }
+]

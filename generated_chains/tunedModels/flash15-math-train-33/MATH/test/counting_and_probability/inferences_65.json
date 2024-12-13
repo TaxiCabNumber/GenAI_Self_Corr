@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA diagonal of a polyhedron is a line segment connecting two non-adjacent vertices. How many diagonals does a pentagonal prism have? [asy]\nimport three;\nsize(100);\ndefaultpen(linewidth(0.7));\ncurrentprojection = orthographic(-0.2,-1,2/3);\n\nvoid drawPentagon (real h)\n{\n\npath3 y;\n\ny=(0,0,h)--(3,0,h)--(5,3,h)--(3,6,h)--(0,5,h)--cycle;\n\ndraw(surface(y),white,nolight);\n\ndraw(y);\n}\n\nvoid drawRectangle(triple a, triple b, real h)\n{\n\npath3 y;\n\ny=a--b--b+(0,0,h)--a+(0,0,h)--cycle;\n\ndraw(surface(y),white,black,nolight);\n}\n\ndrawRectangle((0,0,0),(0,5,0),4);\ndrawRectangle((0,0,0),(3,0,0),4);\ndrawRectangle((3,0,0),(5,3,0),4);\ndrawPentagon(4);\n\n//import three; currentprojection = orthographic(25,150,100); //defaultpen(linewidth(0.8)); size(100);\n//void nGon(int numSides, real height){\n//real angle = 360/numSides;\n//for(int i = 0; i < numSides; ++i){\n//draw(dir(angle*i,0)--dir(angle*(i + 1),0));\n//draw((dir(angle*i,0) + (0,0,height))--(dir(angle*(i + 1),0) + (0,0,height)));\n//draw(dir(angle*i,0)--(dir(angle*i,0) + (0,0,height)));\n// }\n//}\n//nGon(5,2);\n[/asy]",
+        "inference": "Final Answer: \\\\boxed{20}. I hope it is correct. \n",
+        "ground_truth": "There are $5+5+5=15$ edges, so among the $\\binom{10}{2}=45$ pairs of vertices, $15$ of them are adjacent.  The other $45-15=\\boxed{30}$ pairs correspond to diagonals."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{20}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need that information to identify any potential errors and rewrite the solution correctly. \n",
+        "ground_truth": "There are $5+5+5=15$ edges, so among the $\\binom{10}{2}=45$ pairs of vertices, $15$ of them are adjacent.  The other $45-15=\\boxed{30}$ pairs correspond to diagonals."
+    }
+]

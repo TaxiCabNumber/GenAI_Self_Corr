@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the sum of all integer values $n$ for which $\\binom{20}{n}+\\binom{20}{10}=\\binom{21}{11}$?",
+        "inference": "Final Answer: \\\\boxed{20}. I hope it is correct. \n",
+        "ground_truth": "From Pascal's identity $\\binom{n-1}{k-1}+\\binom{n-1}{k}=\\binom{n}{k}$.\n\nTherefore, we have $\\binom{20}{11}+\\binom{20}{10}=\\binom{21}{11}$, so $n=11$.\n\nWe know that $\\binom{21}{11}=\\binom{21}{21-11}=\\binom{21}{10}$.\n\nWe use Pascal's identity again to get $\\binom{20}{9}+\\binom{20}{10}=\\binom{21}{10}$, so $n=9$.\n\nThere are two values for $n$, $9$ and $11$, so the sum is $9+11=\\boxed{20}$."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{20}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need the context to identify any errors and provide a corrected solution. \n",
+        "ground_truth": "From Pascal's identity $\\binom{n-1}{k-1}+\\binom{n-1}{k}=\\binom{n}{k}$.\n\nTherefore, we have $\\binom{20}{11}+\\binom{20}{10}=\\binom{21}{11}$, so $n=11$.\n\nWe know that $\\binom{21}{11}=\\binom{21}{21-11}=\\binom{21}{10}$.\n\nWe use Pascal's identity again to get $\\binom{20}{9}+\\binom{20}{10}=\\binom{21}{10}$, so $n=9$.\n\nThere are two values for $n$, $9$ and $11$, so the sum is $9+11=\\boxed{20}$."
+    }
+]

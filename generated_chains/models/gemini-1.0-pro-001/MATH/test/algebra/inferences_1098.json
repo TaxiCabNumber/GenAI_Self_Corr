@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe largest and smallest of three consecutive terms in an arithmetic sequence differ by 14. Half of the smallest term is added to each term and the sum of the resulting three numbers is 120. What is the value of the original smallest term?",
+        "inference": "Let the smallest term be x. Then the other two terms are x + 4 and x + 8.\nHalf of the smallest term is x/2.\nThe sum of the resulting three numbers is 120, so we have:\nx + x/2 + (x + 4) + (x + 8) = 120\nSimplifying:\n5x/2 + 12 = 120\n5x/2 = 108\nx = 43.2\nFinal Answer: $\\boxed{43.2}$. I hope it is correct.",
+        "ground_truth": "Call the three terms $a$, $a+d$, and $a+2d$, in increasing order. We are told that the largest and smallest terms differ by 14, so $(a+2d)-a=2d=14$ or $d=7$.\n\nAfter adding half the smallest term to each term, they become $\\frac32a$, $\\frac32a+7$, and $\\frac32a+14$. Their sum is $\\frac92a+21=120$, which gives $\\frac92a=99$ or $a=\\boxed{22}$."
+    },
+    {
+        "question": "Let the smallest term be x. Then the other two terms are x + 4 and x + 8.\nHalf of the smallest term is x/2.\nThe sum of the resulting three numbers is 120, so we have:\nx + x/2 + (x + 4) + (x + 8) = 120\nSimplifying:\n5x/2 + 12 = 120\n5x/2 = 108\nx = 43.2\nFinal Answer: $\\boxed{43.2}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$43.2$}",
+        "ground_truth": "Call the three terms $a$, $a+d$, and $a+2d$, in increasing order. We are told that the largest and smallest terms differ by 14, so $(a+2d)-a=2d=14$ or $d=7$.\n\nAfter adding half the smallest term to each term, they become $\\frac32a$, $\\frac32a+7$, and $\\frac32a+14$. Their sum is $\\frac92a+21=120$, which gives $\\frac92a=99$ or $a=\\boxed{22}$."
+    }
+]

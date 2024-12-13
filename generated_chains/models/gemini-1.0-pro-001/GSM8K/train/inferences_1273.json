@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn buys 2 packs of gum and 3 candy bars.  Each stick of gum cost half as much as the candy bar.  If the candy bar cost $1.5 each, how much did he pay in total?",
+        "inference": "1. **Cost of one piece of gum:**\nSince each stick of gum costs half as much as the candy bar, which costs $1.5,\nCost of one piece of gum = $1.5 / 2 = $0.75\n\n2. **Total cost of 2 packs of gum:**\nEach pack contains four pieces of gum. If he bought 2 packs, the total number of pieces of gum is 2 x 4 = 8.\nTotal cost of 8 pieces of gum = $0.75 x 8 = $6\n\n3. **Total cost of 3 candy bars:**\nIf each candy bar costs $1.5, the cost of 3 candy bars is 3 x $1.5 = $4.50\n\n4. **Total money spent by John:**\nTotal cost = Cost of gum + Cost of candy bars = $6 + $4.50 = $10.50\n\nI hope it is correct: $10.50$",
+        "ground_truth": "The gum cost $1.5/2=$<<1.5/2=.75>>.75 per pack\nSo he pays $.75*2=$<<.75*2=1.5>>1.5 for the gum\nHe pays $1.5*3=$<<1.5*3=4.5>>4.5 for the candy bars\nSo in total, he pays $1.5 + $4.5 = $<<1.5+4.5=6>>6\n#### 6"
+    },
+    {
+        "question": "1. **Cost of one piece of gum:**\nSince each stick of gum costs half as much as the candy bar, which costs $1.5,\nCost of one piece of gum = $1.5 / 2 = $0.75\n\n2. **Total cost of 2 packs of gum:**\nEach pack contains four pieces of gum. If he bought 2 packs, the total number of pieces of gum is 2 x 4 = 8.\nTotal cost of 8 pieces of gum = $0.75 x 8 = $6\n\n3. **Total cost of 3 candy bars:**\nIf each candy bar costs $1.5, the cost of 3 candy bars is 3 x $1.5 = $4.50\n\n4. **Total money spent by John:**\nTotal cost = Cost of gum + Cost of candy bars = $6 + $4.50 = $10.50\n\nI hope it is correct: $10.50$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$10.50",
+        "ground_truth": "The gum cost $1.5/2=$<<1.5/2=.75>>.75 per pack\nSo he pays $.75*2=$<<.75*2=1.5>>1.5 for the gum\nHe pays $1.5*3=$<<1.5*3=4.5>>4.5 for the candy bars\nSo in total, he pays $1.5 + $4.5 = $<<1.5+4.5=6>>6\n#### 6"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAt a restaurant, Juice Box A is 4 dollars. Juice Box B is 5 dollars more than Juice Box A. Juice Box C is 7 dollars more than Juice Box A. How much more is Juice box C than Juice Box B?",
+        "inference": "1) Juice Box B is 5 dollars more than Juice Box A. So, Juice Box B = 4 + 5 = 9 dollars.\n2) Juice Box C is 7 dollars more than Juice Box A. So, Juice Box C = 4 + 7 = 11 dollars.\n3) Juice Box C is 11 - 9 = 2 dollars more than Juice Box B.\n\nI hope it is correct: 2 dollars",
+        "ground_truth": "Juice Box B is 4+5 = <<4+5=9>>9 dollars.\nJuice box C is 4+7 = <<4+7=11>>11 dollars.\nJuice box C is 11-9 = <<11-9=2>>2 dollars more than Juice box B.\n#### 2"
+    },
+    {
+        "question": "1) Juice Box B is 5 dollars more than Juice Box A. So, Juice Box B = 4 + 5 = 9 dollars.\n2) Juice Box C is 7 dollars more than Juice Box A. So, Juice Box C = 4 + 7 = 11 dollars.\n3) Juice Box C is 11 - 9 = 2 dollars more than Juice Box B.\n\nI hope it is correct: 2 dollars\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$2",
+        "ground_truth": "Juice Box B is 4+5 = <<4+5=9>>9 dollars.\nJuice box C is 4+7 = <<4+7=11>>11 dollars.\nJuice box C is 11-9 = <<11-9=2>>2 dollars more than Juice box B.\n#### 2"
+    }
+]

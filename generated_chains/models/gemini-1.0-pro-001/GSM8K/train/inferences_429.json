@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIn the school's library, there are 2300 different books. 80% of all the books are in English, but only 60% of these books were published in the country. How many English-language books have been published outside the country?",
+        "inference": "- 80% of 2300 books are in English: 2300 x 80/100 = 1840 English books\n- 60% of 1840 English books were published in the country: 1840 x 60/100 = 1104 published in the country\n- Therefore, 1840 - 1104 = 736 English-language books have been published outside the country.\nI hope it is correct: 736",
+        "ground_truth": "There are 80/100 * 2300 = <<80/100*2300=1840>>1840 books in English at the library.\nOut of these books, only 60/100 * 1840 = <<60/100*1840=1104>>1104 were published inside the country.\nSo there are 1840 - 1104 = <<1840-1104=736>>736 books in English published outside of the country.\n#### 736"
+    },
+    {
+        "question": "- 80% of 2300 books are in English: 2300 x 80/100 = 1840 English books\n- 60% of 1840 English books were published in the country: 1840 x 60/100 = 1104 published in the country\n- Therefore, 1840 - 1104 = 736 English-language books have been published outside the country.\nI hope it is correct: 736\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$736",
+        "ground_truth": "There are 80/100 * 2300 = <<80/100*2300=1840>>1840 books in English at the library.\nOut of these books, only 60/100 * 1840 = <<60/100*1840=1104>>1104 were published inside the country.\nSo there are 1840 - 1104 = <<1840-1104=736>>736 books in English published outside of the country.\n#### 736"
+    }
+]

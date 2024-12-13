@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe math questions in a contest are divided into three rounds: easy, average, and hard. There are corresponding points given for each round. That is 2, 3, and 5 points for every correct answer in the easy, average, and hard rounds, respectively. Suppose Kim got 6 correct answers in the easy; 2 correct answers in the average; and 4 correct answers in the difficult round, what are her total points in the contest?",
+        "inference": "From the easy round, she would get $6 \\times 2 = 12$ points.\nFrom the average round, she would get $2 \\times 3 = 6$ points.\nFrom the hard round, she would get $4 \\times 5 = 20$ points.\nIn total, she would get $12 + 6 + 20 = 38$ points.\nI hope it is correct: 38 $points$",
+        "ground_truth": "Kim got 6 points/round x 2 round = <<6*2=12>>12 points in the easy round.\nShe got 2 points/round x 3 rounds = <<2*3=6>>6 points in the average round.\nShe got 4 points/round x 5 rounds = <<4*5=20>>20 points in the difficult round.\nSo her total points is 12 points + 6 points + 20 points = <<12+6+20=38>>38 points.\n#### 38"
+    },
+    {
+        "question": "From the easy round, she would get $6 \\times 2 = 12$ points.\nFrom the average round, she would get $2 \\times 3 = 6$ points.\nFrom the hard round, she would get $4 \\times 5 = 20$ points.\nIn total, she would get $12 + 6 + 20 = 38$ points.\nI hope it is correct: 38 $points$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 38",
+        "ground_truth": "Kim got 6 points/round x 2 round = <<6*2=12>>12 points in the easy round.\nShe got 2 points/round x 3 rounds = <<2*3=6>>6 points in the average round.\nShe got 4 points/round x 5 rounds = <<4*5=20>>20 points in the difficult round.\nSo her total points is 12 points + 6 points + 20 points = <<12+6+20=38>>38 points.\n#### 38"
+    }
+]

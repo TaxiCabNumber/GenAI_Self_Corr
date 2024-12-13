@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWithout looking at the labels, Adrien placed four CDs in four cases. What is the probability that exactly two of the CDs are in the wrong cases? Express your answer as a common fraction.",
+        "inference": "There are 24 possible ways to place the CDs in the cases. Of these, 12 have exactly two CDs in the wrong cases. So the probability is 12/24 = 1/2.\n\nFinal Answer: \\boxed{1/2}. I hope it is correct.",
+        "ground_truth": "Given any pair of the 4 CDs, there is exactly one arrangement with only these two CDs in the correct cases, because each of the remaining two CDs must be in the case of the other one.  Therefore, there are $\\binom{4}{2}=6$ arrangements of the CDs for which exactly two of the CDs are in the correct case.  The probability that one of these 6 arrangements will be chosen from among the $4!=24$ equally likely arrangements is $\\dfrac{6}{24}=\\boxed{\\dfrac{1}{4}}$."
+    },
+    {
+        "question": "There are 24 possible ways to place the CDs in the cases. Of these, 12 have exactly two CDs in the wrong cases. So the probability is 12/24 = 1/2.\n\nFinal Answer: \\boxed{1/2}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{1/2}",
+        "ground_truth": "Given any pair of the 4 CDs, there is exactly one arrangement with only these two CDs in the correct cases, because each of the remaining two CDs must be in the case of the other one.  Therefore, there are $\\binom{4}{2}=6$ arrangements of the CDs for which exactly two of the CDs are in the correct case.  The probability that one of these 6 arrangements will be chosen from among the $4!=24$ equally likely arrangements is $\\dfrac{6}{24}=\\boxed{\\dfrac{1}{4}}$."
+    }
+]

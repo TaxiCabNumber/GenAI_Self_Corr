@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJim starts with $80 in his investment portfolio. After 1 year it grows by 15%. He then adds another $28 to his portfolio. After 1 more year the combined portfolio grows by 10%. What is his final portfolio worth after 2 years from when he started?",
+        "inference": "1. Calculate the value of his portfolio after 1 year: $80 + 0.15 * 80 = $92\n\n2. Add the $28 to his portfolio: $92 + $28 = $120\n\n3. Calculate the value of his portfolio after 2 years: $120 + 0.10 * $120 = $132\n\nI hope it is correct: $132",
+        "ground_truth": "After 1 year Jim has gained $80 * 0.15 = $<<80*0.15=12>>12\nTherefore, after 1 year his portfolio has grown to $80 + $12 = $<<80+12=92>>92\nHe then adds $28 to this total, so his new portfolio total is $92 + $28 = $<<92+28=120>>120 at the beginning of year 2\nNext, this total grows by 10%, so he gains $120 * 0.10 = $<<120*0.10=12>>12 across year 2\nThus, after year 2, his portfolio is worth $120 + $12 = $<<120+12=132>>132\n#### 132"
+    },
+    {
+        "question": "1. Calculate the value of his portfolio after 1 year: $80 + 0.15 * 80 = $92\n\n2. Add the $28 to his portfolio: $92 + $28 = $120\n\n3. Calculate the value of his portfolio after 2 years: $120 + 0.10 * $120 = $132\n\nI hope it is correct: $132\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$132",
+        "ground_truth": "After 1 year Jim has gained $80 * 0.15 = $<<80*0.15=12>>12\nTherefore, after 1 year his portfolio has grown to $80 + $12 = $<<80+12=92>>92\nHe then adds $28 to this total, so his new portfolio total is $92 + $28 = $<<92+28=120>>120 at the beginning of year 2\nNext, this total grows by 10%, so he gains $120 * 0.10 = $<<120*0.10=12>>12 across year 2\nThus, after year 2, his portfolio is worth $120 + $12 = $<<120+12=132>>132\n#### 132"
+    }
+]

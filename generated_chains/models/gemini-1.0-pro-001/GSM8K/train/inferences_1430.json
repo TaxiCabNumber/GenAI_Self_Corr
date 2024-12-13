@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 14 girls, 11 boys, and their parents at a park. If they split into 3 equally sized playgroups, each group contains 25 people. How many parents were at the park?",
+        "inference": "1. Find the total number of people at the park: 14 + 11 + x = 25 * 3\n2. Solve for x: 14 + 11 + x = 75\n3. Simplify: 25 + x = 75\n4. Subtract 25 from both sides: x = 50\n\nI hope it is correct: 50",
+        "ground_truth": "There are 3 groups * 25 people/group = <<3*25=75>>75 people in total.\nThere are 14 girls + 11 boys = <<14+11=25>>25 children in total.\nThere are 75 people - 25 children = <<75-25=50>>50 parents.\n#### 50"
+    },
+    {
+        "question": "1. Find the total number of people at the park: 14 + 11 + x = 25 * 3\n2. Solve for x: 14 + 11 + x = 75\n3. Simplify: 25 + x = 75\n4. Subtract 25 from both sides: x = 50\n\nI hope it is correct: 50\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ 50",
+        "ground_truth": "There are 3 groups * 25 people/group = <<3*25=75>>75 people in total.\nThere are 14 girls + 11 boys = <<14+11=25>>25 children in total.\nThere are 75 people - 25 children = <<75-25=50>>50 parents.\n#### 50"
+    }
+]

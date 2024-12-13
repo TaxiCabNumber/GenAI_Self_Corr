@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the greatest product obtainable from two integers whose sum is 246?",
+        "inference": "Final Answer: \\\\boxed{15129}. I hope it is correct. \n",
+        "ground_truth": "Let the two integers be $x$ and $246-x$. The product which needs to be maximized is $(x)(246-x)=246x-x^2$. Now we complete the square: \\begin{align*}\n-(x^2-246x)&=-(x^2-246x+15129-15129)\\\\\n&=-(x-123)^2+15129\\\\\n\\end{align*}Since the square of a real number is always non-negative, $-(x-123)^2\\le 0$. Therefore, the expression is maximized when $x-123=0$, so $x=123$. Therefore, the greatest product obtainable is $-(123-123)^2+15129=\\boxed{15129}$."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{15129}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the question and the solution you are referring to. I need this information to identify any potential errors and rewrite the solution. \n",
+        "ground_truth": "Let the two integers be $x$ and $246-x$. The product which needs to be maximized is $(x)(246-x)=246x-x^2$. Now we complete the square: \\begin{align*}\n-(x^2-246x)&=-(x^2-246x+15129-15129)\\\\\n&=-(x-123)^2+15129\\\\\n\\end{align*}Since the square of a real number is always non-negative, $-(x-123)^2\\le 0$. Therefore, the expression is maximized when $x-123=0$, so $x=123$. Therefore, the greatest product obtainable is $-(123-123)^2+15129=\\boxed{15129}$."
+    }
+]

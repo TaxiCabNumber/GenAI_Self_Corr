@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSolve for $x$: $\\dfrac{1}{2} + \\dfrac{1}{x} = \\dfrac{5}{6}$.",
+        "inference": "$$\\dfrac{1}{2} + \\dfrac{1}{x} = \\dfrac{5}{6}$$\n\nMultiply both sides by $6x$.\n\n$$6x \\left( \\dfrac{1}{2} + \\dfrac{1}{x}  \\right) = 6x \\left( \\dfrac{5}{6} \\right)$$\n\n$$3x + 6 = 5x$$\n\nSubtract $3x$ from both sides.\n\n$$6 = 2x$$\n\nDivide both sides by $2$.\n\n$$3 = x$$\n\n**Final Answer: $\\boxed{3}$. I hope it is correct.**",
+        "ground_truth": "Subtracting $\\frac12$ from both sides gives $\\frac1x = \\frac56-\\frac12 = \\frac13$, so taking the reciprocal of both sides gives $x = \\boxed{3}$."
+    },
+    {
+        "question": "$$\\dfrac{1}{2} + \\dfrac{1}{x} = \\dfrac{5}{6}$$\n\nMultiply both sides by $6x$.\n\n$$6x \\left( \\dfrac{1}{2} + \\dfrac{1}{x}  \\right) = 6x \\left( \\dfrac{5}{6} \\right)$$\n\n$$3x + 6 = 5x$$\n\nSubtract $3x$ from both sides.\n\n$$6 = 2x$$\n\nDivide both sides by $2$.\n\n$$3 = x$$\n\n**Final Answer: $\\boxed{3}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{3}$$",
+        "ground_truth": "Subtracting $\\frac12$ from both sides gives $\\frac1x = \\frac56-\\frac12 = \\frac13$, so taking the reciprocal of both sides gives $x = \\boxed{3}$."
+    }
+]

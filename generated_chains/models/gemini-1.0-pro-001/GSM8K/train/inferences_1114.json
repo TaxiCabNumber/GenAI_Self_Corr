@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJeff makes 10 donuts each day for 12 days. Jeff eats one of the donuts each day. Chris then comes over and eats 8 donuts. If 10 donuts fit in each box, how many boxes can Jeff fill with his donuts?",
+        "inference": "1. Jeff makes 10 donuts each day for 12 days, so he has 12 * 10 = 120 donuts.\n2. Jeff eats one of the donuts each day, so he eats 12 donuts.\n3. Chris then comes over and eats 8 donuts.\n4. So, Jeff has 120 - 12 - 8 = 100 donuts left.\n5. If 10 donuts fit in each box, then Jeff can fill 100 / 10 = 10 boxes with his donuts.\n\nI hope it is correct: 10 $boxes$",
+        "ground_truth": "Jeff makes a total of 10 * 12 = <<10*12=120>>120 donuts.\nJeff eats 1 * 12 = <<1*12=12>>12 donuts.\nAfter Chris is done eating, there are 120 - 12 - 8 = <<120-12-8=100>>100 donuts remaining.\nJeff needs 100 / 10 = <<100/10=10>>10 boxes to store all of his donuts.\n#### 10"
+    },
+    {
+        "question": "1. Jeff makes 10 donuts each day for 12 days, so he has 12 * 10 = 120 donuts.\n2. Jeff eats one of the donuts each day, so he eats 12 donuts.\n3. Chris then comes over and eats 8 donuts.\n4. So, Jeff has 120 - 12 - 8 = 100 donuts left.\n5. If 10 donuts fit in each box, then Jeff can fill 100 / 10 = 10 boxes with his donuts.\n\nI hope it is correct: 10 $boxes$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 10",
+        "ground_truth": "Jeff makes a total of 10 * 12 = <<10*12=120>>120 donuts.\nJeff eats 1 * 12 = <<1*12=12>>12 donuts.\nAfter Chris is done eating, there are 120 - 12 - 8 = <<120-12-8=100>>100 donuts remaining.\nJeff needs 100 / 10 = <<100/10=10>>10 boxes to store all of his donuts.\n#### 10"
+    }
+]

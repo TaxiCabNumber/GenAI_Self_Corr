@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $p$, $q$, and $r$ be constants. One solution to the equation $(x-p)(x-q) = (r-p)(r-q)$ is $x=r$. Find the other solution in terms of $p$, $q$, and $r$.",
+        "inference": "**Solution:**\nSince $x=r$ is a solution, we have\n\n$$(r-p)(r-q) = (r-p)(r-q)$$\n\nwhich is true for all $p$, $q$, and $r$. Therefore, any value of $x$ will satisfy the equation.\n\n**Final Answer: \\\\boxed{$x$}. I hope it is correct.**",
+        "ground_truth": "If we expand the left side, we have  \\begin{align*}\n(x-p)(x-q) &=x(x-q) -p(x-q)\\\\\n& = x^2 - qx - px +pq \\\\\n&= x^2 -(p+q)x + pq.\n\\end{align*} The other side of the equation is a constant, since there isn't an $x$ term. So, if we view the equation as a quadratic in $x$, the sum of the roots is $-[-(p+q)] = p+q$.  We know that one of the roots is $r$, so if the other is $s$, we have $r+s = p+q$, so $s = \\boxed{p+q-r}$."
+    },
+    {
+        "question": "**Solution:**\nSince $x=r$ is a solution, we have\n\n$$(r-p)(r-q) = (r-p)(r-q)$$\n\nwhich is true for all $p$, $q$, and $r$. Therefore, any value of $x$ will satisfy the equation.\n\n**Final Answer: \\\\boxed{$x$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{all real numbers}",
+        "ground_truth": "If we expand the left side, we have  \\begin{align*}\n(x-p)(x-q) &=x(x-q) -p(x-q)\\\\\n& = x^2 - qx - px +pq \\\\\n&= x^2 -(p+q)x + pq.\n\\end{align*} The other side of the equation is a constant, since there isn't an $x$ term. So, if we view the equation as a quadratic in $x$, the sum of the roots is $-[-(p+q)] = p+q$.  We know that one of the roots is $r$, so if the other is $s$, we have $r+s = p+q$, so $s = \\boxed{p+q-r}$."
+    }
+]

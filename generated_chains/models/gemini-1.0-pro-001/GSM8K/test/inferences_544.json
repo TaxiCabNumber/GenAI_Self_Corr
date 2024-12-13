@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJeff and Brad are trying to divide 100 dollars between them. Jeff gets 4 times as much as Brad. How much does Jeff get in dollars?",
+        "inference": "Let's assume that Brad gets 'x' dollars. \nTherefore, Jeff gets '4x' dollars. \n\nGiven that, the total amount Jeff and Brad get is 100 dollars. \nThus, x + 4x = 100\n=> 5x = 100\n=> x = 100/5\n=> x = 20\n\nTherefore, Brad gets 20 dollars and Jeff gets 4 * 20 = 80 dollars.\n\nI hope it is correct: $80$",
+        "ground_truth": "Brad gets 100/5=<<100/5=20>>20 dollars.\nJeff gets 20*4=<<20*4=80>>80 dollars.\n#### 80"
+    },
+    {
+        "question": "Let's assume that Brad gets 'x' dollars. \nTherefore, Jeff gets '4x' dollars. \n\nGiven that, the total amount Jeff and Brad get is 100 dollars. \nThus, x + 4x = 100\n=> 5x = 100\n=> x = 100/5\n=> x = 20\n\nTherefore, Brad gets 20 dollars and Jeff gets 4 * 20 = 80 dollars.\n\nI hope it is correct: $80$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$80$",
+        "ground_truth": "Brad gets 100/5=<<100/5=20>>20 dollars.\nJeff gets 20*4=<<20*4=80>>80 dollars.\n#### 80"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nOn a particular map, $3$ inches on the map equates to $10$ miles in real life. If you know that the real life distance between two buildings on the map is $53.25$ miles, what would the distance between the buildings be (in inches) on the map, expressed as a fraction?",
+        "inference": "Since $3$ inches on the map equates to $10$ miles in real life, the scale is $$1\\text{ in}= \\frac{10\\text{ mi}}{3\\text{ in}}.$$\n\nWe can use this scale to find the distance between the buildings on the map: $$53.25 \\text{ mi}\\times \\frac{1\\text{ in}}{10\\text{ mi}}=\\frac{53.25}{10}\\text{ in}.$$\n\nFinal Answer: $\\boxed{\\frac{53.25}{10}\\text{ in.}}$ I hope it is correct.",
+        "ground_truth": "If we let the distance between the buildings on the map be $d$, then $\\frac{d}{53.25} = \\frac{3}{10}$. Cross-multiplying and solving for $d$, we obtain $10d = 159.75 \\Rightarrow d=15.975$ inches. Expressed as a fraction, $d = 15\\frac{975}{1000} = \\boxed{15\\frac{39}{40}},$ or $\\boxed{\\frac{639}{40}}$ inches."
+    },
+    {
+        "question": "Since $3$ inches on the map equates to $10$ miles in real life, the scale is $$1\\text{ in}= \\frac{10\\text{ mi}}{3\\text{ in}}.$$\n\nWe can use this scale to find the distance between the buildings on the map: $$53.25 \\text{ mi}\\times \\frac{1\\text{ in}}{10\\text{ mi}}=\\frac{53.25}{10}\\text{ in}.$$\n\nFinal Answer: $\\boxed{\\frac{53.25}{10}\\text{ in.}}$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$53.25 \\text{ mi}\\times \\frac{1\\text{ in}}{10\\text{ mi}}= 5.325 \\text{ in}.$$\n\nFinal Answer: $\\boxed{5.325\\text{ in.}}$",
+        "ground_truth": "If we let the distance between the buildings on the map be $d$, then $\\frac{d}{53.25} = \\frac{3}{10}$. Cross-multiplying and solving for $d$, we obtain $10d = 159.75 \\Rightarrow d=15.975$ inches. Expressed as a fraction, $d = 15\\frac{975}{1000} = \\boxed{15\\frac{39}{40}},$ or $\\boxed{\\frac{639}{40}}$ inches."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIn a room, there are various toys: 5 red cars, 3 action figures, and a doll. The doll cost as much as 3 action figures and one red car cost $4. How much are all toys worth, of an action figure costs $5?",
+        "inference": "The cost of the doll is 3 x $5 = $15.\n\nThe cost of 5 red cars is 5 x $4 = $20.\n\nThe cost of 3 action figures is 3 x $5 = $15.\n\nThe total cost of all toys is $15 + $20 + $15 = $50.\n\nI hope it is correct: $50",
+        "ground_truth": "Three actions figures are worth 3 * 5 = $<<3*5=15>>15, as much as the doll.\nThe red cars are worth 5 * 4 = $<<5*4=20>>20.\nSo all toys are worth 20 + 15 + 15 = $<<20+15+15=50>>50.\n#### 50"
+    },
+    {
+        "question": "The cost of the doll is 3 x $5 = $15.\n\nThe cost of 5 red cars is 5 x $4 = $20.\n\nThe cost of 3 action figures is 3 x $5 = $15.\n\nThe total cost of all toys is $15 + $20 + $15 = $50.\n\nI hope it is correct: $50\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$50",
+        "ground_truth": "Three actions figures are worth 3 * 5 = $<<3*5=15>>15, as much as the doll.\nThe red cars are worth 5 * 4 = $<<5*4=20>>20.\nSo all toys are worth 20 + 15 + 15 = $<<20+15+15=50>>50.\n#### 50"
+    }
+]

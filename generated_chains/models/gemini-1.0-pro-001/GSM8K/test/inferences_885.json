@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe Ben and Aggie Burrito Shop makes 125 chimichangas on Tuesdays, 125 chimichangas on Wednesdays and twice as many on Friday. How many chimichangas do they make on those three days?",
+        "inference": "Step 1: Find the number of chimichangas made on Friday.\nFriday's chimichangas = 2 * (Tuesday's chimichangas + Wednesday's chimichangas)\n= 2 * (125 + 125)\n= 2 * 250\n= 500\n\nStep 2: Add up the number of chimichangas made on Tuesday, Wednesday, and Friday.\nTotal chimichangas = Tuesday's chimichangas + Wednesday's chimichangas + Friday's chimichangas\n= 125 + 125 + 500\n= 750\nI hope it is correct: 750",
+        "ground_truth": "125*2 = <<125*2=250>>250 chimichangas are made on Friday.\nIn those three days 125+125+250 = <<125+125+250=500>>500 chimichangas are made.\n#### 500"
+    },
+    {
+        "question": "Step 1: Find the number of chimichangas made on Friday.\nFriday's chimichangas = 2 * (Tuesday's chimichangas + Wednesday's chimichangas)\n= 2 * (125 + 125)\n= 2 * 250\n= 500\n\nStep 2: Add up the number of chimichangas made on Tuesday, Wednesday, and Friday.\nTotal chimichangas = Tuesday's chimichangas + Wednesday's chimichangas + Friday's chimichangas\n= 125 + 125 + 500\n= 750\nI hope it is correct: 750\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 750",
+        "ground_truth": "125*2 = <<125*2=250>>250 chimichangas are made on Friday.\nIn those three days 125+125+250 = <<125+125+250=500>>500 chimichangas are made.\n#### 500"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe file, 90 megabytes in size, downloads at the rate of 5 megabytes per second for its first 60 megabytes, and then 10 megabytes per second thereafter. How long, in seconds, does it take to download entirely?",
+        "inference": "The file size is 90 megabytes.\nThe first 60 megabytes download at 5 megabytes per second, so it takes 60 / 5 = 12 seconds to download the first 60 megabytes.\nThe remaining 30 megabytes download at 10 megabytes per second, so it takes 30 / 10 = 3 seconds to download the remaining 30 megabytes.\nTherefore, the total time to download the file is 12 + 3 = 15 seconds.\nI hope it is correct: 15 seconds",
+        "ground_truth": "The first 60 megabytes take 60/5=<<60/5=12>>12 seconds.\nThere are 90-60=<<90-60=30>>30 remaining megabytes.\nThe remaining 30 megabytes take 30/10=<<30/10=3>>3 seconds.\nAnd 12+3=<<12+3=15>>15 seconds.\n#### 15"
+    },
+    {
+        "question": "The file size is 90 megabytes.\nThe first 60 megabytes download at 5 megabytes per second, so it takes 60 / 5 = 12 seconds to download the first 60 megabytes.\nThe remaining 30 megabytes download at 10 megabytes per second, so it takes 30 / 10 = 3 seconds to download the remaining 30 megabytes.\nTherefore, the total time to download the file is 12 + 3 = 15 seconds.\nI hope it is correct: 15 seconds\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 15 seconds",
+        "ground_truth": "The first 60 megabytes take 60/5=<<60/5=12>>12 seconds.\nThere are 90-60=<<90-60=30>>30 remaining megabytes.\nThe remaining 30 megabytes take 30/10=<<30/10=3>>3 seconds.\nAnd 12+3=<<12+3=15>>15 seconds.\n#### 15"
+    }
+]

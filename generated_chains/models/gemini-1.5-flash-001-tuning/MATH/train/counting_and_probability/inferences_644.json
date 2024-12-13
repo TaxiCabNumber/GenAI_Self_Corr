@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nJeff decides to play with a Magic 8 Ball. Each time he asks it a question, it has a 2/5 chance of giving him a positive answer. If he asks it 5 questions, what is the probability that it gives him exactly 2 positive answers?",
+        "inference": "Final Answer: \\\\boxed{\\frac{72}{625}}. I hope it is correct. \n",
+        "ground_truth": "There are $\\binom{5}{2}=10$ ways to choose 2 of 5 questions to give a positive response to. For each choice, there is a probability of $\\left( \\frac{2}{5} \\right)^2 \\left( \\frac{3}{5} \\right)^3$ that those 2 questions will yield a positive answer and the other 3 will not. Therefore, the total probability that exactly 2 of questions give a positve answer is $10 \\left( \\frac{2}{5} \\right)^2 \\left( \\frac{3}{5} \\right)^3 = \\boxed{\\frac{216}{625}}$."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{\\frac{72}{625}}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you have so I can identify any errors and provide the correct answer. \n",
+        "ground_truth": "There are $\\binom{5}{2}=10$ ways to choose 2 of 5 questions to give a positive response to. For each choice, there is a probability of $\\left( \\frac{2}{5} \\right)^2 \\left( \\frac{3}{5} \\right)^3$ that those 2 questions will yield a positive answer and the other 3 will not. Therefore, the total probability that exactly 2 of questions give a positve answer is $10 \\left( \\frac{2}{5} \\right)^2 \\left( \\frac{3}{5} \\right)^3 = \\boxed{\\frac{216}{625}}$."
+    }
+]

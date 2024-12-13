@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIvan has 20 dice. Jerry has twice as many dice as Ivan. How many dice do they have altogether?",
+        "inference": "1. Ivan has 20 dice\n2. Jerry has twice as many dice as Ivan => Jerry has 20 * 2 = 40 dice\n3. The total number of dice they have altogether is Ivan's dice + Jerry's dice = 20 + 40 = 60 dice\nI hope it is correct: 60",
+        "ground_truth": "Jerry has 2 x 20 = <<2*20=40>>40 dice.\nTherefore, they have 20 + 40 = <<20+40=60>>60 dice altogether.\n#### 60"
+    },
+    {
+        "question": "1. Ivan has 20 dice\n2. Jerry has twice as many dice as Ivan => Jerry has 20 * 2 = 40 dice\n3. The total number of dice they have altogether is Ivan's dice + Jerry's dice = 20 + 40 = 60 dice\nI hope it is correct: 60\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 60",
+        "ground_truth": "Jerry has 2 x 20 = <<2*20=40>>40 dice.\nTherefore, they have 20 + 40 = <<20+40=60>>60 dice altogether.\n#### 60"
+    }
+]

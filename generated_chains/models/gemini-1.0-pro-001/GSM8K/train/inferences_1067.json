@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere were 180 apples in each crate. 12 such crates of apples were delivered to a factory. 160 apples were rotten and had to be thrown away. The remaining apples were packed into boxes of 20 apples each. How many boxes of apples were there?",
+        "inference": "1. Determine the total number of apples:\n180 apples/crate * 12 crates = 2,160 apples\n\n2. Subtract the number of rotten apples:\n2,160 apples - 160 rotten apples = 2,000 apples remaining\n\n3. Determine the number of boxes needed:\n2,000 apples / 20 apples/box = 100 boxes\n\nI hope it is correct: 100",
+        "ground_truth": "The total number of apples delivered was: 180 apples x 12 crates = <<180*12=2160>>2160 apples\nSo, the number of remaining apples after throwing away the rotten ones was: 2160 apples \u2013 160 apples = <<2160-160=2000>>2000 apples\nAnd now, we can find the total number of boxes of apples by dividing the remaining number of apples by the number of apples per box: 2000 apples / 20 apples/box = <<2000/20=100>>100 boxes of apples.\n#### 100"
+    },
+    {
+        "question": "1. Determine the total number of apples:\n180 apples/crate * 12 crates = 2,160 apples\n\n2. Subtract the number of rotten apples:\n2,160 apples - 160 rotten apples = 2,000 apples remaining\n\n3. Determine the number of boxes needed:\n2,000 apples / 20 apples/box = 100 boxes\n\nI hope it is correct: 100\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 100",
+        "ground_truth": "The total number of apples delivered was: 180 apples x 12 crates = <<180*12=2160>>2160 apples\nSo, the number of remaining apples after throwing away the rotten ones was: 2160 apples \u2013 160 apples = <<2160-160=2000>>2000 apples\nAnd now, we can find the total number of boxes of apples by dividing the remaining number of apples by the number of apples per box: 2000 apples / 20 apples/box = <<2000/20=100>>100 boxes of apples.\n#### 100"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf the system of equations  \\begin{align*}\n4x-3y&=2a,\\\\\n2x+y&=3a,\n\\end{align*}has a solution $(x,y)$ when $x=3$, compute $a$.",
+        "inference": "**Solution**:\nSubstituting $x=3$ into the second equation gives\n\\begin{align*}\n2(3)+y&=3a,\\\\\n\\Rightarrow\\qquad y&=3a-6.\n\\end{align*}\nSubstituting this into the first equation gives\n\\begin{align*}\n4(3)-3(3a-6)&=2a,\\\\\n\\Rightarrow\\qquad 12-9a+18&=2a,\\\\\n\\Rightarrow\\qquad 2a&=30,\\\\\n\\Rightarrow\\qquad a&=15.\n\\end{align*}\n**Final Answer: $\\boxed{a=\\boxed{15}}$. I hope it is correct.**",
+        "ground_truth": "Substituting in $x=3$, we obtain the equations \\begin{align*}\n12-3y&=2a,\\\\\n6+y&=3a.\n\\end{align*}Multiplying the second equation by $3$ and adding it to the first equation, we find $$30=11a\\Rightarrow a=\\boxed{\\frac{30}{11}}.$$"
+    },
+    {
+        "question": "**Solution**:\nSubstituting $x=3$ into the second equation gives\n\\begin{align*}\n2(3)+y&=3a,\\\\\n\\Rightarrow\\qquad y&=3a-6.\n\\end{align*}\nSubstituting this into the first equation gives\n\\begin{align*}\n4(3)-3(3a-6)&=2a,\\\\\n\\Rightarrow\\qquad 12-9a+18&=2a,\\\\\n\\Rightarrow\\qquad 2a&=30,\\\\\n\\Rightarrow\\qquad a&=15.\n\\end{align*}\n**Final Answer: $\\boxed{a=\\boxed{15}}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$a=\\boxed{15}$}",
+        "ground_truth": "Substituting in $x=3$, we obtain the equations \\begin{align*}\n12-3y&=2a,\\\\\n6+y&=3a.\n\\end{align*}Multiplying the second equation by $3$ and adding it to the first equation, we find $$30=11a\\Rightarrow a=\\boxed{\\frac{30}{11}}.$$"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nFor a project, a builder purchased 7 boxes of bolts with each box containing 11 bolts.  He purchased 3 boxes of nuts with each box containing 15 nuts. He ended up finishing the project 6 days early and with 3 bolts and 6 nuts left over. How many bolts and nuts did he use for the project?",
+        "inference": "1. The number of bolts purchased is 7 * 11 = 77\n2. The number of nuts purchased is 3 * 15 = 45\n3. The number of bolts left over is 3\n4. Let x be the number of bolts used\n5. So, x = 77 - 3 = 74\n6. The number of nuts left over is 6\n7. Let y be the number of nuts used\n8. So, y = 45 - 6 = 39\n9. Hence, the number of bolts and nuts used for the project is 74 and 39 respectively.\nI hope it is correct: 74, 39",
+        "ground_truth": "The builder purchased 7 boxes * 11 bolts = <<7*11=77>>77 bolts.\nHe used 77 bolts - 3 left over = <<77-3=74>>74 bolts for the project.\nThe builder purchased 3 boxes * 15 nuts = <<3*15=45>>45 nuts.\nHe used 45 nuts - 6 left over = <<45-6=39>>39 nuts for the project.\nTotal for the project he used 74 bolts + 39 nuts = <<74+39=113>>113 nuts and bolts.\n#### 113"
+    },
+    {
+        "question": "1. The number of bolts purchased is 7 * 11 = 77\n2. The number of nuts purchased is 3 * 15 = 45\n3. The number of bolts left over is 3\n4. Let x be the number of bolts used\n5. So, x = 77 - 3 = 74\n6. The number of nuts left over is 6\n7. Let y be the number of nuts used\n8. So, y = 45 - 6 = 39\n9. Hence, the number of bolts and nuts used for the project is 74 and 39 respectively.\nI hope it is correct: 74, 39\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$74, 39",
+        "ground_truth": "The builder purchased 7 boxes * 11 bolts = <<7*11=77>>77 bolts.\nHe used 77 bolts - 3 left over = <<77-3=74>>74 bolts for the project.\nThe builder purchased 3 boxes * 15 nuts = <<3*15=45>>45 nuts.\nHe used 45 nuts - 6 left over = <<45-6=39>>39 nuts for the project.\nTotal for the project he used 74 bolts + 39 nuts = <<74+39=113>>113 nuts and bolts.\n#### 113"
+    }
+]

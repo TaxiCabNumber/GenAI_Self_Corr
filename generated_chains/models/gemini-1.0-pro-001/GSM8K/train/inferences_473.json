@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJames and Ali together own $250. If you know that James owns $40 more than Ali, then calculate the amount owned by James.",
+        "inference": "Let A be the amount owned by Ali\nJames owns $40 more than Ali, so James owns A + $40\nTogether they own $250, so A + (A + $40) = $250\n2A + $40 = $250\n2A = $250 - $40\n2A = $210\nA = $210 / 2\nA = $105\nSo, Ali owns $105\nJames owns $105 + $40\nJames owns $145\nI hope it is correct: James owns $145",
+        "ground_truth": "Let X be the amount owned by James. The amount owned by Ali is X - $40.\nThe total amount owned by both of them X + (X - $40) = $250.\nCombining like terms, we get X*2 - $40 = $250.\nAdding $40 to both sides, we get X*2 = $290.\nDividing both sides by 2, we get X = $145.\n#### 145"
+    },
+    {
+        "question": "Let A be the amount owned by Ali\nJames owns $40 more than Ali, so James owns A + $40\nTogether they own $250, so A + (A + $40) = $250\n2A + $40 = $250\n2A = $250 - $40\n2A = $210\nA = $210 / 2\nA = $105\nSo, Ali owns $105\nJames owns $105 + $40\nJames owns $145\nI hope it is correct: James owns $145\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$145",
+        "ground_truth": "Let X be the amount owned by James. The amount owned by Ali is X - $40.\nThe total amount owned by both of them X + (X - $40) = $250.\nCombining like terms, we get X*2 - $40 = $250.\nAdding $40 to both sides, we get X*2 = $290.\nDividing both sides by 2, we get X = $145.\n#### 145"
+    }
+]

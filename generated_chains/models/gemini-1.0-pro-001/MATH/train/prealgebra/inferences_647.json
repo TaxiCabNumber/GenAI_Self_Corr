@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFully simplify the following expression: $[(2+3+4+5)\\div2] + [(2\\cdot5+8)\\div3]$.",
+        "inference": "$$=[(2+3+4+5)\\div2] + [(2\\cdot5+8)\\div3]$$ $$=[(14)\\div2] + [(10+8)\\div3]$$ $$=[7] + [(18)\\div3]$$ $$=[7] + [6]$$ $$=[13]$$\nFinal Answer: \\boxed{$13$}. I hope it is correct.",
+        "ground_truth": "By the order of operations, first simplify the expressions inside of each of the brackets. The first one, $[(2+3+4+5)\\div2]$ is equal to $14\\div2$.\n\nThe second bracket can also be simplified through the use of the order of operations.   \\[\n(2\\cdot5+8)\\div3 = 18\\div3 = 6.\n\\]  Therefore,    \\[\n[(2+3+4+5)\\div2] + [(2\\cdot5+8)\\div3] = [7] + [6] = 7+6 = \\boxed{13}.\n\\]"
+    },
+    {
+        "question": "$$=[(2+3+4+5)\\div2] + [(2\\cdot5+8)\\div3]$$ $$=[(14)\\div2] + [(10+8)\\div3]$$ $$=[7] + [(18)\\div3]$$ $$=[7] + [6]$$ $$=[13]$$\nFinal Answer: \\boxed{$13$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$13$}",
+        "ground_truth": "By the order of operations, first simplify the expressions inside of each of the brackets. The first one, $[(2+3+4+5)\\div2]$ is equal to $14\\div2$.\n\nThe second bracket can also be simplified through the use of the order of operations.   \\[\n(2\\cdot5+8)\\div3 = 18\\div3 = 6.\n\\]  Therefore,    \\[\n[(2+3+4+5)\\div2] + [(2\\cdot5+8)\\div3] = [7] + [6] = 7+6 = \\boxed{13}.\n\\]"
+    }
+]

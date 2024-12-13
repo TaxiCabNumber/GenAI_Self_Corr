@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTerese thinks that running various distances throughout the week can make one healthy.  On Monday, she runs 4.2 miles;  Tuesday, 3.8 miles; Wednesday, 3.6 miles; and on Thursday, 4.4 miles.  Determine the average distance Terese runs on each of the days she runs.",
+        "inference": "1. Add the distances Terese runs on Monday, Tuesday, Wednesday, and Thursday.\n4.2 + 3.8 + 3.6 + 4.4 = 16.0 miles\n\n2. Divide the total distance by the number of days Terese runs.\n16.0 miles \u00f7 4 days = 4.0 miles\n\nI hope it is correct: 4.0 miles",
+        "ground_truth": "The total distance Terese runs is 4.2 + 3.8+4.4 +3.6 = <<4.2+3.8+4.4+3.6=16>>16 miles.\nTherefore, she runs with an average distance of 16 /4 = <<16/4=4>>4 miles.\n#### 4"
+    },
+    {
+        "question": "1. Add the distances Terese runs on Monday, Tuesday, Wednesday, and Thursday.\n4.2 + 3.8 + 3.6 + 4.4 = 16.0 miles\n\n2. Divide the total distance by the number of days Terese runs.\n16.0 miles \u00f7 4 days = 4.0 miles\n\nI hope it is correct: 4.0 miles\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$4.0 miles",
+        "ground_truth": "The total distance Terese runs is 4.2 + 3.8+4.4 +3.6 = <<4.2+3.8+4.4+3.6=16>>16 miles.\nTherefore, she runs with an average distance of 16 /4 = <<16/4=4>>4 miles.\n#### 4"
+    }
+]

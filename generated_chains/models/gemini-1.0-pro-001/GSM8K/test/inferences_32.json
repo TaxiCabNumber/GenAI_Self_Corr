@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn takes care of 10 dogs.  Each dog takes .5 hours a day to walk and take care of their business.  How many hours a week does he spend taking care of dogs?",
+        "inference": "10 dogs x .5 hours/dog/day = 5 hours/day\n5 hours/day x 7 days/week = 35 hours/week\nI hope it is correct: 35 hours",
+        "ground_truth": "He spends 10*.5=<<10*.5=5>>5 hours per day\nThat means he spends 5*7=<<5*7=35>>35 hours per week\n#### 35"
+    },
+    {
+        "question": "10 dogs x .5 hours/dog/day = 5 hours/day\n5 hours/day x 7 days/week = 35 hours/week\nI hope it is correct: 35 hours\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 35 hours",
+        "ground_truth": "He spends 10*.5=<<10*.5=5>>5 hours per day\nThat means he spends 5*7=<<5*7=35>>35 hours per week\n#### 35"
+    }
+]

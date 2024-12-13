@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nDuring one hour, Tom can read 12 pages of a book. How many pages would he be able to read during 2 hours if he could increase his reading speed by a factor of 3?",
+        "inference": "1. Tom can read 12 pages in 1 hour.\n2. In 2 hours, he can read 12 * 2 = 24 pages.\n3. If he increases his reading speed by a factor of 3, he can read 24 * 3 = 72 pages in 2 hours.\n\nI hope it is correct: 72",
+        "ground_truth": "If Tom could triple his reading speed, he could read 12 * 3 = <<12*3=36>>36 pages of a book in one hour.\nTherefore, during two hours he could read 36 * 2 = <<36*2=72>>72 pages.\n#### 72"
+    },
+    {
+        "question": "1. Tom can read 12 pages in 1 hour.\n2. In 2 hours, he can read 12 * 2 = 24 pages.\n3. If he increases his reading speed by a factor of 3, he can read 24 * 3 = 72 pages in 2 hours.\n\nI hope it is correct: 72\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$72",
+        "ground_truth": "If Tom could triple his reading speed, he could read 12 * 3 = <<12*3=36>>36 pages of a book in one hour.\nTherefore, during two hours he could read 36 * 2 = <<36*2=72>>72 pages.\n#### 72"
+    }
+]

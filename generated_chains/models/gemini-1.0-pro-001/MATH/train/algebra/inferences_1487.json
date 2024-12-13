@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nGiven that $a$ and $b$ are positive integers and that $a+b=24$, what is the value of $ab$ if $2ab + 10a = 3b + 222$?",
+        "inference": "$$2ab + 10a = 3b + 222$$\n\n$$2ab = 3b + 222 -10a$$\n\n$$2ab = -7a + 3b + 222$$\n\n$$ab = -\\frac{7a}{2} + \\frac{3b}{2} + 111$$\n\n$$ab = -\\frac{7(24-b)}{2} + \\frac{3b}{2} + 111$$\n\n$$ab = -84 + \\frac{7b}{2} + \\frac{3b}{2} + 111$$\n\n$$ab = 27 + 5b$$\n\n$$Final Answer: \\boxed{27 + 5b}. I hope it is correct.$$",
+        "ground_truth": "We begin by rewriting the equation as $2ab + 10a - 3b = 222$. We can then use Simon's Favorite Factoring Trick by subtracting 15 from both sides of the equation to get $2ab + 10a - 3b - 15 = 207$. This can be factored into $$(2a - 3)(b + 5) = 207$$We know that the prime factorization of $207 = 3^2 \\cdot 23$ and that both $a$ and $b$ are positive integers, so the only possible solutions $(a,b)$ are $$(a,b) = \\{(13,4),(6,18),(2,202),(3,64)\\}$$Out of these, only $(6,18)$ meets the requirement that $a+b=24$. Thus, $ab = \\boxed{108}$."
+    },
+    {
+        "question": "$$2ab + 10a = 3b + 222$$\n\n$$2ab = 3b + 222 -10a$$\n\n$$2ab = -7a + 3b + 222$$\n\n$$ab = -\\frac{7a}{2} + \\frac{3b}{2} + 111$$\n\n$$ab = -\\frac{7(24-b)}{2} + \\frac{3b}{2} + 111$$\n\n$$ab = -84 + \\frac{7b}{2} + \\frac{3b}{2} + 111$$\n\n$$ab = 27 + 5b$$\n\n$$Final Answer: \\boxed{27 + 5b}. I hope it is correct.$$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{-8(3 + b)}$$",
+        "ground_truth": "We begin by rewriting the equation as $2ab + 10a - 3b = 222$. We can then use Simon's Favorite Factoring Trick by subtracting 15 from both sides of the equation to get $2ab + 10a - 3b - 15 = 207$. This can be factored into $$(2a - 3)(b + 5) = 207$$We know that the prime factorization of $207 = 3^2 \\cdot 23$ and that both $a$ and $b$ are positive integers, so the only possible solutions $(a,b)$ are $$(a,b) = \\{(13,4),(6,18),(2,202),(3,64)\\}$$Out of these, only $(6,18)$ meets the requirement that $a+b=24$. Thus, $ab = \\boxed{108}$."
+    }
+]

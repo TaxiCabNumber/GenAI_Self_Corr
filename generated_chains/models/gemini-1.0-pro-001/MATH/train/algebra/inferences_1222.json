@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe values of $x$ and $y$ are always positive, and $x^2$ and $y$ vary inversely. If $y$ is 10 when $x$ is 2, then find $x$ when $y$ is 4000.",
+        "inference": "Since $x^2$ and $y$ vary inversely, we have\n$$x^2 = \\frac{k}{y}$$\nwhere $k$ is a constant.\n\nWhen $y$ is 10 and $x$ is 2, we have\n$$2^2 = \\frac{k}{10} \\Rightarrow k = 40$$\nSo, we have\n$$x^2 = \\frac{40}{y}$$\nWhen $y$ is 4000, we have\n$$x^2 = \\frac{40}{4000} = \\frac{1}{100} \\Rightarrow x = \\sqrt{\\frac{1}{100}} = \\boxed{\\frac{1}{10}}$$\nFinal Answer: $\\boxed{\\frac{1}{10}}.$ I hope it is correct.",
+        "ground_truth": "Since $x^2$ and $y$ are inversely proportional, their product is constant.  Thus $$2^2 \\cdot 10 = x^2 \\cdot 4000 \\qquad \\Rightarrow \\qquad x = \\boxed{\\frac{1}{10}}.$$"
+    },
+    {
+        "question": "Since $x^2$ and $y$ vary inversely, we have\n$$x^2 = \\frac{k}{y}$$\nwhere $k$ is a constant.\n\nWhen $y$ is 10 and $x$ is 2, we have\n$$2^2 = \\frac{k}{10} \\Rightarrow k = 40$$\nSo, we have\n$$x^2 = \\frac{40}{y}$$\nWhen $y$ is 4000, we have\n$$x^2 = \\frac{40}{4000} = \\frac{1}{100} \\Rightarrow x = \\sqrt{\\frac{1}{100}} = \\boxed{\\frac{1}{10}}$$\nFinal Answer: $\\boxed{\\frac{1}{10}}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{0.1}$$",
+        "ground_truth": "Since $x^2$ and $y$ are inversely proportional, their product is constant.  Thus $$2^2 \\cdot 10 = x^2 \\cdot 4000 \\qquad \\Rightarrow \\qquad x = \\boxed{\\frac{1}{10}}.$$"
+    }
+]

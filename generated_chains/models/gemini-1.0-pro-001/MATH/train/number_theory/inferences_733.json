@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the greatest common divisor of $2^{1001}-1$ and $2^{1012}-1$?",
+        "inference": "**Solution:**\nNote that $2^{1001}-1$ is odd and $2^{1012}-1$ is even. So, their GCD is 1.\nFinal Answer: $\\boxed{1}$. I hope it is correct.",
+        "ground_truth": "By the Euclidean algorithm, \\begin{align*}\n&\\text{gcd}\\,(2^{1012}-1, 2^{1001}-1) \\\\\n&\\qquad= \\text{gcd}\\, (2^{1012}-1 - 2^{11}(2^{1001}-1), 2^{1001}-1) \\\\\n&\\qquad= \\text{gcd}\\,(2^{11}-1, 2^{1001}-1)\n\\end{align*} Using the divisibility rule for $11$, we know that $11$ divides into $1001$. Writing $2^{1001}$ as $(2^{11})^{91}$ and $1$ as $1^{91}$, we use the difference of odd powers factorization to find that   \\[\n2^{1001} - 1 = (2^{11})^{91}-1^{91} = (2^{11}-1)((2^{11})^{90} + (2^{11})^{89}+\\cdots (2^{11})^1 + 1).\n\\] Thus $2^{1001}-1$ is divisible by $2^{11}-1$, so the greatest common divisor is $2^{11}-1 = \\boxed{2047}$."
+    },
+    {
+        "question": "**Solution:**\nNote that $2^{1001}-1$ is odd and $2^{1012}-1$ is even. So, their GCD is 1.\nFinal Answer: $\\boxed{1}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{1}$$",
+        "ground_truth": "By the Euclidean algorithm, \\begin{align*}\n&\\text{gcd}\\,(2^{1012}-1, 2^{1001}-1) \\\\\n&\\qquad= \\text{gcd}\\, (2^{1012}-1 - 2^{11}(2^{1001}-1), 2^{1001}-1) \\\\\n&\\qquad= \\text{gcd}\\,(2^{11}-1, 2^{1001}-1)\n\\end{align*} Using the divisibility rule for $11$, we know that $11$ divides into $1001$. Writing $2^{1001}$ as $(2^{11})^{91}$ and $1$ as $1^{91}$, we use the difference of odd powers factorization to find that   \\[\n2^{1001} - 1 = (2^{11})^{91}-1^{91} = (2^{11}-1)((2^{11})^{90} + (2^{11})^{89}+\\cdots (2^{11})^1 + 1).\n\\] Thus $2^{1001}-1$ is divisible by $2^{11}-1$, so the greatest common divisor is $2^{11}-1 = \\boxed{2047}$."
+    }
+]

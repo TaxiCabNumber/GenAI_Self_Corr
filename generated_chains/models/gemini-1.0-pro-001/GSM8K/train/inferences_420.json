@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMiriam spent 30 minutes doing laundry, 15 minutes cleaning the bathroom, a certain amount of time cleaning her room, and 40 minutes doing homework. If she spent a total of two hours on these tasks, how long, in minutes, did she spend cleaning her room?",
+        "inference": "1. Convert the total time spent on tasks from hours to minutes: \n2 hours = 2 x 60 = 120 minutes\n\n2. Subtract the time spent on laundry, cleaning the bathroom, and doing homework from the total time spent on tasks: \n120 minutes - 30 minutes - 15 minutes - 40 minutes = 35 minutes\n\n3. The remaining time represents the time spent cleaning Miriam's room.\nI hope it is correct: 35 $minutes$",
+        "ground_truth": "There are 30+15+40=<<30+15+40=85>>85 minutes accounted for.\nShe spent 2*60=<<2*60=120>>120 minutes.\nShe spent 120-85=<<120-85=35>>35 minutes cleaning her room.\n#### 35"
+    },
+    {
+        "question": "1. Convert the total time spent on tasks from hours to minutes: \n2 hours = 2 x 60 = 120 minutes\n\n2. Subtract the time spent on laundry, cleaning the bathroom, and doing homework from the total time spent on tasks: \n120 minutes - 30 minutes - 15 minutes - 40 minutes = 35 minutes\n\n3. The remaining time represents the time spent cleaning Miriam's room.\nI hope it is correct: 35 $minutes$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ 35 $minutes$",
+        "ground_truth": "There are 30+15+40=<<30+15+40=85>>85 minutes accounted for.\nShe spent 2*60=<<2*60=120>>120 minutes.\nShe spent 120-85=<<120-85=35>>35 minutes cleaning her room.\n#### 35"
+    }
+]

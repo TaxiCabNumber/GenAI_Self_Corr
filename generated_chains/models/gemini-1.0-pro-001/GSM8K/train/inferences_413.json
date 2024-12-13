@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRyan has 40 balls. There are twice as many red balls as blue while the rest are green. If there are 11 blue balls, how many green balls are there?",
+        "inference": "1. Suppose the number of blue balls is x.\n2. Then the number of red balls is 2x.\n3. The total number of balls is 40, so the number of green balls is 40 - x - 2x = 40 - 3x.\n4. We are given that the number of blue balls is 11, so x = 11.\n5. Therefore, the number of green balls is 40 - 3x = 40 - 3(11) = 17.\nI hope it is correct: 17",
+        "ground_truth": "There are 11 blue x 2 red/blue = <<11*2=22>>22 red balls.\nThe total number of blue and red balls is 11 blue + 22 red = <<11+22=33>>33 balls\nThere are 40 balls - 33 balls = <<40-33=7>>7 green balls.\n#### 7"
+    },
+    {
+        "question": "1. Suppose the number of blue balls is x.\n2. Then the number of red balls is 2x.\n3. The total number of balls is 40, so the number of green balls is 40 - x - 2x = 40 - 3x.\n4. We are given that the number of blue balls is 11, so x = 11.\n5. Therefore, the number of green balls is 40 - 3x = 40 - 3(11) = 17.\nI hope it is correct: 17\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$17",
+        "ground_truth": "There are 11 blue x 2 red/blue = <<11*2=22>>22 red balls.\nThe total number of blue and red balls is 11 blue + 22 red = <<11+22=33>>33 balls\nThere are 40 balls - 33 balls = <<40-33=7>>7 green balls.\n#### 7"
+    }
+]

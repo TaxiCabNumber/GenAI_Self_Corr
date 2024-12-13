@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA package of candy has 3 servings with 120 calories each.  John eats half the package.  How many calories did he eat?",
+        "inference": "1. Find half the package: 3 servings / 2 = 1.5 servings\n2. Multiply the number of servings by the calories per serving: 1.5 servings * 120 calories/serving = 180 calories\nI hope it is correct: $180$",
+        "ground_truth": "There were 3*120=<<3*120=360>>360 calories in the package\nSo he ate 360/2=<<360/2=180>>180 calories\n#### 180"
+    },
+    {
+        "question": "1. Find half the package: 3 servings / 2 = 1.5 servings\n2. Multiply the number of servings by the calories per serving: 1.5 servings * 120 calories/serving = 180 calories\nI hope it is correct: $180$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$180",
+        "ground_truth": "There were 3*120=<<3*120=360>>360 calories in the package\nSo he ate 360/2=<<360/2=180>>180 calories\n#### 180"
+    }
+]

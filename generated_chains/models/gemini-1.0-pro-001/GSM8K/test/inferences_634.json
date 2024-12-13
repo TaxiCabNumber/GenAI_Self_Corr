@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTommy caught 3 more fish than Darren and Darren caught 6 less than Naomi. If Naomi caught 17 fish, how many fish did Tommy catch?",
+        "inference": "1. Naomi caught 17 fish\n2. Darren caught 6 less than Naomi, so Darren caught 17 - 6 = 11 fish\n3. Tommy caught 3 more fish than Darren, so Tommy caught 11 + 3 = 14 fish\nI hope it is correct: 14",
+        "ground_truth": "Darren caught 17 - 6 = <<17-6=11>>11 fish\nTommy caught 11 + 3 = <<11+3=14>>14 fish\n#### 14"
+    },
+    {
+        "question": "1. Naomi caught 17 fish\n2. Darren caught 6 less than Naomi, so Darren caught 17 - 6 = 11 fish\n3. Tommy caught 3 more fish than Darren, so Tommy caught 11 + 3 = 14 fish\nI hope it is correct: 14\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 14",
+        "ground_truth": "Darren caught 17 - 6 = <<17-6=11>>11 fish\nTommy caught 11 + 3 = <<11+3=14>>14 fish\n#### 14"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nKiarra is twice as old as Bea. Job is 3 times older than Bea. Figaro is 7 years older than Job. Harry is half as old as Figaro. If Kiarra is 30, how old is Harry?",
+        "inference": "- Kiarra is twice as old as Bea, so if Kiarra is 30, Bea is 30/2 = 15 years old.\n- Job is 3 times older than Bea, so Job is 15 * 3 = 45 years old.\n- Figaro is 7 years older than Job, so Figaro is 45 + 7 = 52 years old.\n- Harry is half as old as Figaro, so Harry is 52 / 2 = 26 years old.\nI hope it is correct: 26",
+        "ground_truth": "Bea is 30 / 2 = <<30/2=15>>15 years old\nJob is 15 * 3 = <<15*3=45>>45 years old\nFigaro is 45 + 7 = <<45+7=52>>52 years old\nHarry is 52 / 2 = <<52/2=26>>26 years old\n#### 26"
+    },
+    {
+        "question": "- Kiarra is twice as old as Bea, so if Kiarra is 30, Bea is 30/2 = 15 years old.\n- Job is 3 times older than Bea, so Job is 15 * 3 = 45 years old.\n- Figaro is 7 years older than Job, so Figaro is 45 + 7 = 52 years old.\n- Harry is half as old as Figaro, so Harry is 52 / 2 = 26 years old.\nI hope it is correct: 26\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$30",
+        "ground_truth": "Bea is 30 / 2 = <<30/2=15>>15 years old\nJob is 15 * 3 = <<15*3=45>>45 years old\nFigaro is 45 + 7 = <<45+7=52>>52 years old\nHarry is 52 / 2 = <<52/2=26>>26 years old\n#### 26"
+    }
+]

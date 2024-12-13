@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn circle $J$, $HO$ and $HN$ are tangent to the circle at $O$ and $N$. Find the number of degrees in the sum of $m\\angle J$ and $m\\angle H$. [asy]\nsize(150);\nimport graph;\npair J = (0,0), H = (6,0), O, N;\npath circ = Circle(J,3);\npair M = midpoint(J--H);\npath secCirc = Circle(M,3);\npair[] tangentPoints = intersectionpoints(circ,secCirc);\nO = tangentPoints[0]; N = tangentPoints[1];\ndraw(J--N--H--O--cycle);\ndraw(circ);\nlabel(\"$H$\",H,E);\nlabel(\"$J$\",J,W);\nlabel(\"$N$\",N,S);\nlabel(\"$O$\",O,NE);\n[/asy]",
+        "inference": "Final Answer: \\\\boxed{180}. I hope it is correct. \n",
+        "ground_truth": "Since $\\overline{OH}$ and $\\overline{NH}$ are tangent to radii of the circle at $O$ and $N$, we have $\\angle O =\\angle N = 90^\\circ$.  The sum of the measures of the interior angles of quadrilateral $JOHN$ is $360^\\circ$, so $\\angle J + \\angle H = 360^\\circ - \\angle O - \\angle N = \\boxed{180^\\circ}$."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{180}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need that information to identify any potential errors and rewrite the solution correctly. \n",
+        "ground_truth": "Since $\\overline{OH}$ and $\\overline{NH}$ are tangent to radii of the circle at $O$ and $N$, we have $\\angle O =\\angle N = 90^\\circ$.  The sum of the measures of the interior angles of quadrilateral $JOHN$ is $360^\\circ$, so $\\angle J + \\angle H = 360^\\circ - \\angle O - \\angle N = \\boxed{180^\\circ}$."
+    }
+]

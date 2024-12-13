@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind all values of $x$ such that $\\displaystyle\\frac{1}{x-1} + \\frac{2x}{x - 1} = 5$.",
+        "inference": "$$\\frac{1}{x-1} + \\frac{2x}{x-1} = 5$$\n\n$$1 + 2x =  5(x-1)$$\n\n$$1 + 2x = 5x - 5$$\n\n$$5-1 = 5x -2x$$\n\n$$4=3x$$\n\n$$x=\\frac{4}{3} $$\n\nFinal Answer: \\boxed{$\\frac{4}{3}$} I hope it is correct.",
+        "ground_truth": "We can combine the two terms on the left side to get $\\dfrac{1+2x}{x-1} = 5$.  We then multiply both sides of this equation by $x-1$ to get rid of the fractions.   This gives us $1+2x = 5(x-1)$. Expanding the right side gives $1+2x = 5x -5$.  Subtracting $5x$ from both sides   gives $1-3x = -5$, and subtracting 1 from both sides of this equation yields $-3x = -6$.  Dividing both sides   of this equation by $-3$ gives us our answer, $x = \\boxed{2}$."
+    },
+    {
+        "question": "$$\\frac{1}{x-1} + \\frac{2x}{x-1} = 5$$\n\n$$1 + 2x =  5(x-1)$$\n\n$$1 + 2x = 5x - 5$$\n\n$$5-1 = 5x -2x$$\n\n$$4=3x$$\n\n$$x=\\frac{4}{3} $$\n\nFinal Answer: \\boxed{$\\frac{4}{3}$} I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{\\frac{4}{3}}$$",
+        "ground_truth": "We can combine the two terms on the left side to get $\\dfrac{1+2x}{x-1} = 5$.  We then multiply both sides of this equation by $x-1$ to get rid of the fractions.   This gives us $1+2x = 5(x-1)$. Expanding the right side gives $1+2x = 5x -5$.  Subtracting $5x$ from both sides   gives $1-3x = -5$, and subtracting 1 from both sides of this equation yields $-3x = -6$.  Dividing both sides   of this equation by $-3$ gives us our answer, $x = \\boxed{2}$."
+    }
+]

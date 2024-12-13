@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nAl, Betty, and Clare split $\\$1000$ among them to be invested in different ways. Each begins with a different amount. At the end of one year they have a total of $\\$1500$. Betty and Clare have both doubled their money, whereas Al has managed to lose $\\$100$. What was Al's original portion?",
+        "inference": "Let Al's original portion be $x$, Betty's be $y$, and Clare's be $z$. Then, we have:\n\n$$x + y + z = 1000 \\quad \\text{ and } \\quad 2y + 2z - (x - 100) = 1500$$\n\nSimplifying the second equation, we get:\n\n$$2y + 2z + x = 1600$$\n\nCombining this with the first equation, we get:\n\n$$x = 600$$\n\nFinal Answer: $\\boxed{600}$. I hope it is correct.",
+        "ground_truth": "Denote the original portions for Al, Betty, and Clare as $a$, $b$, and $c$, respectively.  Then \\[\na + b + c = 1000\\quad\\text{and}\\quad a-100 + 2(b+c) = 1500.\n\\] Substituting $b+c=1000-a$ in the second equation,   we have \\[\na -100 + 2(1000-a)=1500.\n\\] This yields $a=\\boxed{400}$, which is Al's original portion.\n\nNote that although we know that $b+c = 600$, we have no way of determining either $b$ or $c$."
+    },
+    {
+        "question": "Let Al's original portion be $x$, Betty's be $y$, and Clare's be $z$. Then, we have:\n\n$$x + y + z = 1000 \\quad \\text{ and } \\quad 2y + 2z - (x - 100) = 1500$$\n\nSimplifying the second equation, we get:\n\n$$2y + 2z + x = 1600$$\n\nCombining this with the first equation, we get:\n\n$$x = 600$$\n\nFinal Answer: $\\boxed{600}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{600}",
+        "ground_truth": "Denote the original portions for Al, Betty, and Clare as $a$, $b$, and $c$, respectively.  Then \\[\na + b + c = 1000\\quad\\text{and}\\quad a-100 + 2(b+c) = 1500.\n\\] Substituting $b+c=1000-a$ in the second equation,   we have \\[\na -100 + 2(1000-a)=1500.\n\\] This yields $a=\\boxed{400}$, which is Al's original portion.\n\nNote that although we know that $b+c = 600$, we have no way of determining either $b$ or $c$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAt the beginning of the party, there were 25 men and 15 women. After an hour, 1/4 of the total number of people left. How many women are left if 22 men stayed at the party?",
+        "inference": "- First, find the total number of people at the party when it began: 25 men + 15 women = 40 people\n- Then, calculate how many people left after an hour: 40 people * 1/4 = 10 people\n- Since 22 men stayed, that means 3 men left.\n- The number of women left = total women - women who left\n- Total women = 15 women\n- Women who left = 10 people * (15 women / 40 people) = 3.75 women\n- Number of women left = 15 women - 3.75 women = 11.25 women\n\nI hope it is correct: 11.25",
+        "ground_truth": "There were a total of 25 men + 15 women = <<25+15=40>>40 people who attended the party.\nAfter an hour, 40 people / 4 = <<40/4=10>>10 people left the party.\nThis means 40 people - 10 people = <<40-10=30>>30 people stayed.\nOut of the 30 who stayed, 30 people - 22 men = <<30-22=8>>8 were women.\n#### 8"
+    },
+    {
+        "question": "- First, find the total number of people at the party when it began: 25 men + 15 women = 40 people\n- Then, calculate how many people left after an hour: 40 people * 1/4 = 10 people\n- Since 22 men stayed, that means 3 men left.\n- The number of women left = total women - women who left\n- Total women = 15 women\n- Women who left = 10 people * (15 women / 40 people) = 3.75 women\n- Number of women left = 15 women - 3.75 women = 11.25 women\n\nI hope it is correct: 11.25\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ = 11.25",
+        "ground_truth": "There were a total of 25 men + 15 women = <<25+15=40>>40 people who attended the party.\nAfter an hour, 40 people / 4 = <<40/4=10>>10 people left the party.\nThis means 40 people - 10 people = <<40-10=30>>30 people stayed.\nOut of the 30 who stayed, 30 people - 22 men = <<30-22=8>>8 were women.\n#### 8"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRani is obsessed with sports cars. She wonders what the faster car ever made can go so she looks it up. What she finds out is that the fastest car was 1.25 times faster than the 2nd fastest car. The 2nd fastest car was 5 times faster than the average car. The average car can go 120 Miles per hour. How fast does the faster car go?",
+        "inference": "1.25 * 5 * 120 mph = 750 mph\nI hope it is correct: 750 mph",
+        "ground_truth": "The 2nd fastest car can go 600 MPH because 5 x 120 = <<5*120=600>>600\nThe faster car can go 750 MPH because 1.25 x 600 = <<1.25*600=750>>750\n#### 750"
+    },
+    {
+        "question": "1.25 * 5 * 120 mph = 750 mph\nI hope it is correct: 750 mph\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 750",
+        "ground_truth": "The 2nd fastest car can go 600 MPH because 5 x 120 = <<5*120=600>>600\nThe faster car can go 750 MPH because 1.25 x 600 = <<1.25*600=750>>750\n#### 750"
+    }
+]

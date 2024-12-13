@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nPauline is buying school supplies. The total amount of all the items she wants to buy add up to $150 before sales tax. Sales tax is 8% of the total amount purchased. How much will Pauline spend on all the items, including sales tax?",
+        "inference": "1. Calculate the amount of sales tax Pauline will pay:\n   $150 x 0.08 = $12.00\n2. Add the sales tax to the total amount of the items:\n   $150 + $12.00 = $162.00\n\nI hope it is correct: $162.00",
+        "ground_truth": "Sales tax is 8/100 x $150= $<<8/100*150=12>>12.\nTherefore, Pauline wil spend $150 + $12 = $<<150+12=162>>162, including sales tax.\n#### 162"
+    },
+    {
+        "question": "1. Calculate the amount of sales tax Pauline will pay:\n   $150 x 0.08 = $12.00\n2. Add the sales tax to the total amount of the items:\n   $150 + $12.00 = $162.00\n\nI hope it is correct: $162.00\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$162.00",
+        "ground_truth": "Sales tax is 8/100 x $150= $<<8/100*150=12>>12.\nTherefore, Pauline wil spend $150 + $12 = $<<150+12=162>>162, including sales tax.\n#### 162"
+    }
+]

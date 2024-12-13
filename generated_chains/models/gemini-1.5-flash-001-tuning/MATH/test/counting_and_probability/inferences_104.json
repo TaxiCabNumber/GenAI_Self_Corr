@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWe flip a fair coin 10 times.  What is the probability that we get heads in at least 6 of the 10 flips?",
+        "inference": "Final Answer: \\\\boxed{\\frac{193}{512}}. I hope it is correct. \n",
+        "ground_truth": "There are $2^{10} = 1024$ possible outcomes of the 10 coin flips. The probability that we flip at least 6 heads is equal to the probability that we flip at least 6 tails, by symmetry.  Let's call this probability $p$.  The only other possibility is that we flip exactly 5 heads and 5 tails, for which the probability is $\\dfrac{\\binom{10}{5}}{2^{10}} = \\dfrac{252}{1024} = \\dfrac{63}{256}$.  Therefore, $\\dfrac{63}{256} + 2p = 1$, giving $$ p=\\frac{1}{2}\\left(1-\\frac{63}{256}\\right)=\\boxed{\\frac{193}{512}} $$"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{\\frac{193}{512}}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the original problem and your solution so I can check for errors and provide the correct final answer. \n",
+        "ground_truth": "There are $2^{10} = 1024$ possible outcomes of the 10 coin flips. The probability that we flip at least 6 heads is equal to the probability that we flip at least 6 tails, by symmetry.  Let's call this probability $p$.  The only other possibility is that we flip exactly 5 heads and 5 tails, for which the probability is $\\dfrac{\\binom{10}{5}}{2^{10}} = \\dfrac{252}{1024} = \\dfrac{63}{256}$.  Therefore, $\\dfrac{63}{256} + 2p = 1$, giving $$ p=\\frac{1}{2}\\left(1-\\frac{63}{256}\\right)=\\boxed{\\frac{193}{512}} $$"
+    }
+]

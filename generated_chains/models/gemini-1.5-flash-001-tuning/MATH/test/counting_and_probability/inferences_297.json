@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThree cards are dealt at random from a standard deck (13 clubs, 13 diamonds, 13 hearts, and 13 spades) of 52 cards.  What is the probability that all three cards are $\\heartsuit$s?",
+        "inference": "Solution:\n\nThe probability of drawing a heart on the first draw is $\\dfrac{13}{52}$.  After a heart is drawn, there are only 12 hearts left and 51 cards total, so the probability of drawing another heart on the second draw is $\\dfrac{12}{51}$.  After two hearts are drawn, there are 11 hearts left and 50 cards total, so the probability of drawing a third heart is $\\dfrac{11}{50}$.  Therefore, the probability of drawing three hearts is $\\dfrac{13}{52}\\cdot\\dfrac{12}{51}\\cdot\\dfrac{11}{50} = \\boxed{\\dfrac{11}{850}}$.\n",
+        "ground_truth": "The probability is $\\dfrac{13}{52} \\times \\dfrac{12}{51} \\times \\dfrac{11}{50} = \\boxed{\\frac{11}{850}}$."
+    },
+    {
+        "question": "Solution:\n\nThe probability of drawing a heart on the first draw is $\\dfrac{13}{52}$.  After a heart is drawn, there are only 12 hearts left and 51 cards total, so the probability of drawing another heart on the second draw is $\\dfrac{12}{51}$.  After two hearts are drawn, there are 11 hearts left and 50 cards total, so the probability of drawing a third heart is $\\dfrac{11}{50}$.  Therefore, the probability of drawing three hearts is $\\dfrac{13}{52}\\cdot\\dfrac{12}{51}\\cdot\\dfrac{11}{50} = \\boxed{\\dfrac{11}{850}}$.\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$\\dfrac{11}{850}$} \n",
+        "ground_truth": "The probability is $\\dfrac{13}{52} \\times \\dfrac{12}{51} \\times \\dfrac{11}{50} = \\boxed{\\frac{11}{850}}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nOliver wonders how much water his bathtub can hold. So he takes a bucket that holds 120 ounces and starts filling the bathtub. When it reaches the top, he sees that he filled it 14 times. Then he wonders how much bathwater he uses, so he starts taking away buckets until it gets to the level he puts it at. He needs to take away 3 buckets to do this. Finally, he wonders how much water he uses in a week for his baths, which he takes every day. How much water does he use each week?",
+        "inference": "1. The bathtub can hold 14 * 120 ounces of water = 1680 ounces.\n\n2. Oliver takes out 3 buckets of water, each holding 120 ounces, so he uses 3 * 120 ounces of water = 360 ounces of water per bath.\n\n3. Oliver takes a bath every day, so in a week (7 days), he uses 7 * 360 ounces of water = 2520 ounces of water.\n\nI hope it is correct: 2520",
+        "ground_truth": "He uses 11 buckets to fill his bath normally because 14 - 3 = <<14-3=11>>11\nHe uses 1, 320 ounces a day for his baths because 11 x 120 = <<11*120=1320>>1,320\nHe uses 9, 240 ounces a week for his baths because 7 x 1,320 = <<7*1320=9240>>9,240\n#### 9,240"
+    },
+    {
+        "question": "1. The bathtub can hold 14 * 120 ounces of water = 1680 ounces.\n\n2. Oliver takes out 3 buckets of water, each holding 120 ounces, so he uses 3 * 120 ounces of water = 360 ounces of water per bath.\n\n3. Oliver takes a bath every day, so in a week (7 days), he uses 7 * 360 ounces of water = 2520 ounces of water.\n\nI hope it is correct: 2520\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 2520",
+        "ground_truth": "He uses 11 buckets to fill his bath normally because 14 - 3 = <<14-3=11>>11\nHe uses 1, 320 ounces a day for his baths because 11 x 120 = <<11*120=1320>>1,320\nHe uses 9, 240 ounces a week for his baths because 7 x 1,320 = <<7*1320=9240>>9,240\n#### 9,240"
+    }
+]

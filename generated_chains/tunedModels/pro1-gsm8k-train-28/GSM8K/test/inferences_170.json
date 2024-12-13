@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe marching band is ordering new uniforms. Each uniform comes with a hat that costs $25, a jacket that costs three times as much as the hat, and pants that cost the average of the costs of the hat and jacket. How much does each uniform cost total?",
+        "inference": "1. The jacket costs three times as much as the hat, so the jacket costs 3 * $25 = $75.\n2. The pants cost the average of the costs of the hat and jacket, so the pants cost ($25 + $75) / 2 = $50.\n3. The total cost of each uniform is the cost of the hat, jacket, and pants, so the total cost is $25 + $75 + $50 = $150.\nI hope it is correct: $150$",
+        "ground_truth": "First find the cost of the jacket: $25 * 3 = $<<25*3=75>>75\nThen add the cost of the jacket and hat: $25 + $75 = $<<25+75=100>>100\nThen divide that amount by 2 to find the average cost, which is the cost of the pants: $100 / 2 = $<<100/2=50>>50\nThen add the cost of each item of clothing to find the total cost of the uniform: $25 + $75 + $50 = $<<25+75+50=150>>150\n#### 150"
+    },
+    {
+        "question": "1. The jacket costs three times as much as the hat, so the jacket costs 3 * $25 = $75.\n2. The pants cost the average of the costs of the hat and jacket, so the pants cost ($25 + $75) / 2 = $50.\n3. The total cost of each uniform is the cost of the hat, jacket, and pants, so the total cost is $25 + $75 + $50 = $150.\nI hope it is correct: $150$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$=150",
+        "ground_truth": "First find the cost of the jacket: $25 * 3 = $<<25*3=75>>75\nThen add the cost of the jacket and hat: $25 + $75 = $<<25+75=100>>100\nThen divide that amount by 2 to find the average cost, which is the cost of the pants: $100 / 2 = $<<100/2=50>>50\nThen add the cost of each item of clothing to find the total cost of the uniform: $25 + $75 + $50 = $<<25+75+50=150>>150\n#### 150"
+    }
+]

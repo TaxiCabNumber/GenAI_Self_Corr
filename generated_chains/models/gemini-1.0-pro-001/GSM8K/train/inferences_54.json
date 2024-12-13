@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nLeah earned $28 working odd jobs around the neighborhood. She spent a seventh of it on a milkshake and put half of the rest in her savings account. She left the remaining money in her wallet. Her dog got ahold of her wallet and shredded all the money inside but $1. How many dollars did Leah lose?",
+        "inference": "1. She spent a seventh of $28 on a milkshake, which is $28/7 = $4.\n2. She put half of the rest in her savings account, which is ($28 - $4)/2 = $12.\n3. She left the remaining money in her wallet, which is $28 - $4 - $12 = $12.\n4. Her dog shredded all the money inside but $1, so she lost $12 - $1 = $11.\nI hope it is correct: $11$",
+        "ground_truth": "Leah spent 28 / 7 = $<<28/7=4>>4 on a milkshake.\nShe had 28 - 4 = $<<28-4=24>>24 left.\nShe put half in her savings account and half in her wallet, so she had 24 / 2 = $<<24/2=12>>12 in her wallet.\nHer dog shredded all the money in her wallet but $1, so Leah lost 12 - 1 = $<<12-1=11>>11.\n#### 11"
+    },
+    {
+        "question": "1. She spent a seventh of $28 on a milkshake, which is $28/7 = $4.\n2. She put half of the rest in her savings account, which is ($28 - $4)/2 = $12.\n3. She left the remaining money in her wallet, which is $28 - $4 - $12 = $12.\n4. Her dog shredded all the money inside but $1, so she lost $12 - $1 = $11.\nI hope it is correct: $11$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $11$",
+        "ground_truth": "Leah spent 28 / 7 = $<<28/7=4>>4 on a milkshake.\nShe had 28 - 4 = $<<28-4=24>>24 left.\nShe put half in her savings account and half in her wallet, so she had 24 / 2 = $<<24/2=12>>12 in her wallet.\nHer dog shredded all the money in her wallet but $1, so Leah lost 12 - 1 = $<<12-1=11>>11.\n#### 11"
+    }
+]

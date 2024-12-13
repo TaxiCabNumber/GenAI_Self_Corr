@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nStephen borrowed $300 from his sister and promised to return it with an additional 2% of the money he owed. For 11 months Stephen will give his sister $25 per month and the remaining amount, including the interest, will be paid on the twelfth month. How much will Stephen pay in the twelfth month?",
+        "inference": "**Step 1: Calculate the 2% additional interest**\n2% of $300 = $300 * 0.02 = $6\n\n**Step 2: Calculate the total amount Stephen owes**\n$300 (principal) + $6 (interest) = $306\n\n**Step 3: Calculate the total amount Stephen pays in 11 months**\n$25 * 11 = $275\n\n**Step 4: Calculate the remaining amount to be paid in the twelfth month**\n$306 (total amount owed) - $275 (amount paid in 11 months) = $31\n\nI hope it is correct: $31$",
+        "ground_truth": "Stephen will pay an additional $300 x 2/100 = $<<300*2/100=6>>6.\nHe should return a total of $300 + $6 = $<<300+6=306>>306.\nFor eleven months Stephen will pay a total of $25 x 11 = $<<25*11=275>>275.\nTherefore, Stephen will pay 306 - 275 = $<<306-275=31>>31 on the twelfth month.\n#### 31"
+    },
+    {
+        "question": "**Step 1: Calculate the 2% additional interest**\n2% of $300 = $300 * 0.02 = $6\n\n**Step 2: Calculate the total amount Stephen owes**\n$300 (principal) + $6 (interest) = $306\n\n**Step 3: Calculate the total amount Stephen pays in 11 months**\n$25 * 11 = $275\n\n**Step 4: Calculate the remaining amount to be paid in the twelfth month**\n$306 (total amount owed) - $275 (amount paid in 11 months) = $31\n\nI hope it is correct: $31$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$31",
+        "ground_truth": "Stephen will pay an additional $300 x 2/100 = $<<300*2/100=6>>6.\nHe should return a total of $300 + $6 = $<<300+6=306>>306.\nFor eleven months Stephen will pay a total of $25 x 11 = $<<25*11=275>>275.\nTherefore, Stephen will pay 306 - 275 = $<<306-275=31>>31 on the twelfth month.\n#### 31"
+    }
+]

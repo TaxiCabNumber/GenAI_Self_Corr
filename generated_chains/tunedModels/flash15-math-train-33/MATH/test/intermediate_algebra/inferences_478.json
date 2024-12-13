@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\n$A$ and $B$ are constants such that\n$$\\frac{4x+5}{x^2+x-2}= \\frac{A}{x+2} +\\frac{B}{x-1}. $$Find $$\\frac{B}{x+1} - \\frac{A}{x-2}.$$",
+        "inference": "Final Answer: \\\\boxed{\\frac{3x-1}{(x+1)(x-2)}}. I hope it is correct. \n",
+        "ground_truth": "We have that\n$$\\frac{4x+5}{x^2+x-2}= \\frac{4x+5}{(x+1)(x-2)}=\\frac{A}{x+2} +\\frac{B}{x-1}. $$Multiplying both sides by $(x+1)(x-2)$ gives\n$$4x+5=A(x+1)+B(x-2)$$which we can expand to get\n$$4x+5=(A+B)x+A-2B.$$By comparing coefficients, we see that $A+B=4$ and $A-2B=5$. We can solve these equations to get $A=1$ and $B=3$.\nThen\n$$\\begin{aligned} \\frac{B}{x+1} - \\frac{A}{x-2}&=\\frac{3}{x+1} - \\frac{1}{x-2}\\\\\n&=\\frac{3(x-2)-1(x+1)}{(x+1)(x-2)}\\\\\n&=\\boxed{\\frac{2x-7}{(x+1)(x-2)}}.\n\\end{aligned}$$"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{\\frac{3x-1}{(x+1)(x-2)}}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the original question and the steps you took to arrive at the solution. I need that information to identify any potential errors and rewrite the solution correctly. \n",
+        "ground_truth": "We have that\n$$\\frac{4x+5}{x^2+x-2}= \\frac{4x+5}{(x+1)(x-2)}=\\frac{A}{x+2} +\\frac{B}{x-1}. $$Multiplying both sides by $(x+1)(x-2)$ gives\n$$4x+5=A(x+1)+B(x-2)$$which we can expand to get\n$$4x+5=(A+B)x+A-2B.$$By comparing coefficients, we see that $A+B=4$ and $A-2B=5$. We can solve these equations to get $A=1$ and $B=3$.\nThen\n$$\\begin{aligned} \\frac{B}{x+1} - \\frac{A}{x-2}&=\\frac{3}{x+1} - \\frac{1}{x-2}\\\\\n&=\\frac{3(x-2)-1(x+1)}{(x+1)(x-2)}\\\\\n&=\\boxed{\\frac{2x-7}{(x+1)(x-2)}}.\n\\end{aligned}$$"
+    }
+]

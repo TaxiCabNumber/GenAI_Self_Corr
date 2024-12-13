@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 16 people at a dinner party. There are 40 dinner rolls available for them. Half the people eat 1 1/2 rolls each. The other half eat 1/2 a roll each. How many dinner rolls are leftover?",
+        "inference": "I hope it is correct: 20 $rolls$ \n",
+        "ground_truth": "Half the people at the party is 16 / 2 = <<16/2=8>>8 people.\n8 people at the party eat 1 1/2 rolls each, 8 x 1 1/2 = 12 dinner rolls eaten.\n8 people at the party eat 1/2 a roll each, 8 x 1/2 = <<8*1/2=4>>4 dinner rolls eaten.\nCombined, the people at the party ate 12 + 4 = <<12+4=16>>16 dinner rolls.\nThere were originally 40 dinner rolls - 16 that got eaten = <<40-16=24>>24 dinner rolls leftover.\n#### 24"
+    },
+    {
+        "question": "I hope it is correct: 20 $rolls$ \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ 20 rolls \n",
+        "ground_truth": "Half the people at the party is 16 / 2 = <<16/2=8>>8 people.\n8 people at the party eat 1 1/2 rolls each, 8 x 1 1/2 = 12 dinner rolls eaten.\n8 people at the party eat 1/2 a roll each, 8 x 1/2 = <<8*1/2=4>>4 dinner rolls eaten.\nCombined, the people at the party ate 12 + 4 = <<12+4=16>>16 dinner rolls.\nThere were originally 40 dinner rolls - 16 that got eaten = <<40-16=24>>24 dinner rolls leftover.\n#### 24"
+    }
+]

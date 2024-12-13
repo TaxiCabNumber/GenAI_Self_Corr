@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind all solutions to the equation $\\!\\sqrt{2-3z} = 9$.  Express your answer as a common fraction.",
+        "inference": "$$\\sqrt{2-3z} = 9$$\n\n$$2-3z = 81$$\n\n$$-3z = 79$$\n\n$$z = \\frac{-79}{3}$$\n\n$$z = -\\frac{79}{3}$$\n\n**Final Answer: $$\\boxed{-\\frac{79}{3}}$$. I hope it is correct.**",
+        "ground_truth": "We square both sides to get rid of the square root sign.  This gives us $2-3z = 81$.  Solving for $z$ gives $z = \\boxed{-\\frac{79}{3}}$.  We squared an equation, so we have to test our solution to make sure it isn't extraneous.  We have \\[\\sqrt{2 - 3\\left(-\\frac{79}{3}\\right)} =\\sqrt{2+79} = 9,\\]so our solution is valid."
+    },
+    {
+        "question": "$$\\sqrt{2-3z} = 9$$\n\n$$2-3z = 81$$\n\n$$-3z = 79$$\n\n$$z = \\frac{-79}{3}$$\n\n$$z = -\\frac{79}{3}$$\n\n**Final Answer: $$\\boxed{-\\frac{79}{3}}$$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{-\\frac{79}{3}}$$",
+        "ground_truth": "We square both sides to get rid of the square root sign.  This gives us $2-3z = 81$.  Solving for $z$ gives $z = \\boxed{-\\frac{79}{3}}$.  We squared an equation, so we have to test our solution to make sure it isn't extraneous.  We have \\[\\sqrt{2 - 3\\left(-\\frac{79}{3}\\right)} =\\sqrt{2+79} = 9,\\]so our solution is valid."
+    }
+]

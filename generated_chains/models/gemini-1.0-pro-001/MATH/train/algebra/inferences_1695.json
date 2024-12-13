@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the coefficient of $x^2$ when $3(x^2 - x^3) +2(x - 2x^2 + 3x^5) -(4x^3 - x^2)$ is simplified.",
+        "inference": "$$3(x^2 - x^3) +2(x - 2x^2 + 3x^5) -(4x^3 - x^2)$$ $$=3x^2 - 3x^3 +2x - 4x^2 + 6x^5 - 4x^3 + x^2$$ $$=6x^5 -7x^3 -4x^2 + 2x$$\n\nFinal Answer: $\\boxed{-4}$. I hope it is correct.",
+        "ground_truth": "When we expand we get  \\begin{align*}\n&3(x^2 - x^3) +2(x - 2x^2 + 3x^5) -(4x^3 - x^2) \\\\\n&\\qquad =3x^2 - 3x^3 +2x - 4x^2 + 6x^5 -4x^3 + x^2\\\\\n&\\qquad =6x^5-7x^3+2x.\n\\end{align*}The coefficient of $x^2$ is $3-4+1=\\boxed{0}$."
+    },
+    {
+        "question": "$$3(x^2 - x^3) +2(x - 2x^2 + 3x^5) -(4x^3 - x^2)$$ $$=3x^2 - 3x^3 +2x - 4x^2 + 6x^5 - 4x^3 + x^2$$ $$=6x^5 -7x^3 -4x^2 + 2x$$\n\nFinal Answer: $\\boxed{-4}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{-7}$$",
+        "ground_truth": "When we expand we get  \\begin{align*}\n&3(x^2 - x^3) +2(x - 2x^2 + 3x^5) -(4x^3 - x^2) \\\\\n&\\qquad =3x^2 - 3x^3 +2x - 4x^2 + 6x^5 -4x^3 + x^2\\\\\n&\\qquad =6x^5-7x^3+2x.\n\\end{align*}The coefficient of $x^2$ is $3-4+1=\\boxed{0}$."
+    }
+]

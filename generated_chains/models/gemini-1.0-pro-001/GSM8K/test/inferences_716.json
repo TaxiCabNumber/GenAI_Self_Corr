@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn makes himself a 6 egg omelet with 2 oz of cheese and an equal amount of ham.  Eggs are 75 calories each.  Cheese is 120 calories per ounce.  Ham is 40 calories per ounce.  How many calories is the omelet?",
+        "inference": "- Calories from eggs: 6 eggs * 75 calories/egg = 450 calories\n- Calories from cheese: 2 oz cheese * 120 calories/oz = 240 calories\n- Calories from ham: 2 oz ham * 40 calories/oz = 80 calories\n- Total calories: 450 calories + 240 calories + 80 calories = 770 calories\nI hope it is correct: 770 $answer$",
+        "ground_truth": "The eggs contributed 6*75=<<6*75=450>>450 calories\nHe eats 2*120=<<2*120=240>>240 calories of cheese\nHe eats 2*40=<<2*40=80>>80 calories of ham\nSo in total he eats 450+240+80=<<450+240+80=770>>770 calories\n#### 770"
+    },
+    {
+        "question": "- Calories from eggs: 6 eggs * 75 calories/egg = 450 calories\n- Calories from cheese: 2 oz cheese * 120 calories/oz = 240 calories\n- Calories from ham: 2 oz ham * 40 calories/oz = 80 calories\n- Total calories: 450 calories + 240 calories + 80 calories = 770 calories\nI hope it is correct: 770 $answer$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "770 calories",
+        "ground_truth": "The eggs contributed 6*75=<<6*75=450>>450 calories\nHe eats 2*120=<<2*120=240>>240 calories of cheese\nHe eats 2*40=<<2*40=80>>80 calories of ham\nSo in total he eats 450+240+80=<<450+240+80=770>>770 calories\n#### 770"
+    }
+]

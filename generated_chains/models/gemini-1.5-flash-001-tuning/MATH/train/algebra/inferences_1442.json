@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFor the graph of a certain quadratic $y = ax^2 + bx + c$, the vertex of the parabola is $(3,7)$ and one of the $x$-intercepts is $(-2,0)$.  What is the $x$-coordinate of the other $x$-intercept?",
+        "inference": "Since the vertex is $(3,7)$, the axis of symmetry is $x=3$. The other $x$-intercept must be the same distance from the axis of symmetry as $(-2,0)$ is. The distance from $(-2,0)$ to the line $x=3$ is 5 units, so the other $x$-intercept is 5 units to the right of the axis of symmetry, at $x=3+5=\\boxed{8}$. Final Answer: $\\boxed{8}$. I hope it is correct. \n",
+        "ground_truth": "Since the vertex of the parabola is $(3,7)$, the parabola is symmetric around the line $x = 3$.  Furthermore, the two $x$-intercepts of the parabola are also symmetric around this line.  One $x$-intercept is $(-2,0)$, whose distance from the line $x = 3$ is $3 - (-2) = 5$, so the other $x$-intercept is at $(3 + 5,0) = (8,0)$.  The $x$-coordinate of this $x$-intercept is $\\boxed{8}$."
+    },
+    {
+        "question": "Since the vertex is $(3,7)$, the axis of symmetry is $x=3$. The other $x$-intercept must be the same distance from the axis of symmetry as $(-2,0)$ is. The distance from $(-2,0)$ to the line $x=3$ is 5 units, so the other $x$-intercept is 5 units to the right of the axis of symmetry, at $x=3+5=\\boxed{8}$. Final Answer: $\\boxed{8}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{8}$ \n",
+        "ground_truth": "Since the vertex of the parabola is $(3,7)$, the parabola is symmetric around the line $x = 3$.  Furthermore, the two $x$-intercepts of the parabola are also symmetric around this line.  One $x$-intercept is $(-2,0)$, whose distance from the line $x = 3$ is $3 - (-2) = 5$, so the other $x$-intercept is at $(3 + 5,0) = (8,0)$.  The $x$-coordinate of this $x$-intercept is $\\boxed{8}$."
+    }
+]

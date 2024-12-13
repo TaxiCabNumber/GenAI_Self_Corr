@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAlice likes to count the puffs of clouds in the sky while she eats her lunch outside at school. On Monday she counts just 3 puffs of clouds. Each day after that through Friday, though, she sees double the number of clouds in the sky as the day before. At the end of the week, how many clouds will she have counted in the sky at lunch across all five days?",
+        "inference": "Monday: 3 clouds\nTuesday: 3 * 2 = 6 clouds\nWednesday: 6 * 2 = 12 clouds\nThursday: 12 * 2 = 24 clouds\nFriday: 24 * 2 = 48 clouds\n\nTotal: 3 + 6 + 12 + 24 + 48 = 93 clouds\n\nI hope it is correct: 93",
+        "ground_truth": "On Monday Alice counts 3 puffs of clouds in the sky, and double that on Tuesday, 3 x 2 = <<3*2=6>>6 puffs of clouds.\nOn Wednesday she sees twice that amount, 6 x 2 = <<6*2=12>>12 puffs of clouds.\nOn Thursday she sees twice that amount, 12 x 2 = <<12*2=24>>24 puffs of clouds.\nOn Friday she sees twice the amount of the day before, 24 x 2 = <<24*2=48>>48 puffs of clouds.\nIn total, across all five days, she sees 3 + 6 + 12 + 24 + 48 = <<3+6+12+24+48=93>>93 total cloud puffs.\n#### 93"
+    },
+    {
+        "question": "Monday: 3 clouds\nTuesday: 3 * 2 = 6 clouds\nWednesday: 6 * 2 = 12 clouds\nThursday: 12 * 2 = 24 clouds\nFriday: 24 * 2 = 48 clouds\n\nTotal: 3 + 6 + 12 + 24 + 48 = 93 clouds\n\nI hope it is correct: 93\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$93",
+        "ground_truth": "On Monday Alice counts 3 puffs of clouds in the sky, and double that on Tuesday, 3 x 2 = <<3*2=6>>6 puffs of clouds.\nOn Wednesday she sees twice that amount, 6 x 2 = <<6*2=12>>12 puffs of clouds.\nOn Thursday she sees twice that amount, 12 x 2 = <<12*2=24>>24 puffs of clouds.\nOn Friday she sees twice the amount of the day before, 24 x 2 = <<24*2=48>>48 puffs of clouds.\nIn total, across all five days, she sees 3 + 6 + 12 + 24 + 48 = <<3+6+12+24+48=93>>93 total cloud puffs.\n#### 93"
+    }
+]

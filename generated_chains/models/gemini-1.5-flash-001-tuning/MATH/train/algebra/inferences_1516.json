@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nHow many pairs of positive integers $(x,y)$ satisfy $x^2-y^2=51$?",
+        "inference": "Final Answer: \\\\boxed{12}. I hope it is correct. \n",
+        "ground_truth": "Factoring, we have $(x+y)(x-y)=51$.  Since $x,y$ are positive, we have $x+y>x-y>0$.  Note that $51=51*1=17*3$.  Thus either $x+y=51$, $x-y=1$ or $x+y=17$, $x-y=3$.  Solving in the first case gives $x=26,y=25$, and the second case gives $x=10,y=7$.  Thus there are $\\boxed{2}$ pairs $(x,y)$ that solve the equation."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{12}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need the context to identify any errors and rewrite the solution. \n",
+        "ground_truth": "Factoring, we have $(x+y)(x-y)=51$.  Since $x,y$ are positive, we have $x+y>x-y>0$.  Note that $51=51*1=17*3$.  Thus either $x+y=51$, $x-y=1$ or $x+y=17$, $x-y=3$.  Solving in the first case gives $x=26,y=25$, and the second case gives $x=10,y=7$.  Thus there are $\\boxed{2}$ pairs $(x,y)$ that solve the equation."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nOur school's girls volleyball team has 14 players, including a set of 3 triplets: Alicia, Amanda, and Anna.  In how many ways can we choose 6 starters if exactly two of the triplets are in the starting lineup?",
+        "inference": "To choose 6 starters with exactly 2 of the triplets, we have 2 cases:\n\nCase 1: We choose Alicia and Amanda as the 2 triplets.\n- We have 11 players left to choose 4 from.\n- Number of ways = 11C4 = 330\n\nCase 2: We choose Alicia and Anna as the 2 triplets.\n- We have 11 players left to choose 4 from.\n- Number of ways = 11C4 = 330\n\nTotal number of ways = 330 + 330 = 660\n\n**Final Answer: \\boxed{660}. I hope it is correct.**",
+        "ground_truth": "If exactly two of the triplets are in the lineup, we have 3 choices for which triplets to put in the starting lineup (we can see this by noting that we have 3 choices for which triplet to leave out), and then 11 people to choose from for the remaining 4 spots.  So the answer is $3 \\times \\binom{11}{4} = 3 \\times 330= \\boxed{990}$."
+    },
+    {
+        "question": "To choose 6 starters with exactly 2 of the triplets, we have 2 cases:\n\nCase 1: We choose Alicia and Amanda as the 2 triplets.\n- We have 11 players left to choose 4 from.\n- Number of ways = 11C4 = 330\n\nCase 2: We choose Alicia and Anna as the 2 triplets.\n- We have 11 players left to choose 4 from.\n- Number of ways = 11C4 = 330\n\nTotal number of ways = 330 + 330 = 660\n\n**Final Answer: \\boxed{660}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{660}$$",
+        "ground_truth": "If exactly two of the triplets are in the lineup, we have 3 choices for which triplets to put in the starting lineup (we can see this by noting that we have 3 choices for which triplet to leave out), and then 11 people to choose from for the remaining 4 spots.  So the answer is $3 \\times \\binom{11}{4} = 3 \\times 330= \\boxed{990}$."
+    }
+]

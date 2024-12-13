@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA used car lot has 24 cars and motorcycles (in total) for sale. A third of the vehicles are motorcycles, and a quarter of the cars have a spare tire included. How many tires are on the used car lot\u2019s vehicles in all?",
+        "inference": "1. There are 24 vehicles in total, and a third of them are motorcycles. This means there are $\\frac{1}{3} * 24 = 8$ motorcycles.\n2. There are $24 - 8 = 16$ cars. A quarter of them have a spare tire, so there are $\\frac{1}{4} * 16 = 4$ cars with a spare tire.\n3. Each motorcycle has 2 tires, and each car has 4 tires. Therefore, the total number of tires is $8 * 2 + (16 - 4) * 4 = 16 + 48 = 64$.\n\nI hope it is correct: 64",
+        "ground_truth": "The used car lot has 24 / 3 = <<24/3=8>>8 motorcycles with 2 tires each.\nThe lot has 24 - 8 = <<24-8=16>>16 cars for sale\nThere are 16 / 4 = 4 cars with a spare tire with 5 tires each.\nThe lot has 16 - 4 = <<16-4=12>>12 cars with 4 tires each.\nThus, the used car lot\u2019s vehicles have 8 * 2 + 4 * 5 + 12 * 4 = 16 + 20 + 48 = <<8*2+4*5+12*4=84>>84 tires in all.\n#### 84"
+    },
+    {
+        "question": "1. There are 24 vehicles in total, and a third of them are motorcycles. This means there are $\\frac{1}{3} * 24 = 8$ motorcycles.\n2. There are $24 - 8 = 16$ cars. A quarter of them have a spare tire, so there are $\\frac{1}{4} * 16 = 4$ cars with a spare tire.\n3. Each motorcycle has 2 tires, and each car has 4 tires. Therefore, the total number of tires is $8 * 2 + (16 - 4) * 4 = 16 + 48 = 64$.\n\nI hope it is correct: 64\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$64",
+        "ground_truth": "The used car lot has 24 / 3 = <<24/3=8>>8 motorcycles with 2 tires each.\nThe lot has 24 - 8 = <<24-8=16>>16 cars for sale\nThere are 16 / 4 = 4 cars with a spare tire with 5 tires each.\nThe lot has 16 - 4 = <<16-4=12>>12 cars with 4 tires each.\nThus, the used car lot\u2019s vehicles have 8 * 2 + 4 * 5 + 12 * 4 = 16 + 20 + 48 = <<8*2+4*5+12*4=84>>84 tires in all.\n#### 84"
+    }
+]

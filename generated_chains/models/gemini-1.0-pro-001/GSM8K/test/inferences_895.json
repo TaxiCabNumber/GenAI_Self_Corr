@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMartin's weight is 55 kg. Carl\u2019s weight is 16 kg more than Martin\u2019s weight. Christian\u2019s weight is 8 kg more than Carl\u2019s weight. Harry is 5 kg less than Christian\u2019s weight. What is the weight of Harry, in kg?",
+        "inference": "- Martin's weight: 55 kg\n- Carl's weight: 55 kg + 16 kg = 71 kg\n- Christian's weight: 71 kg + 8 kg = 79 kg\n- Harry's weight: 79 kg - 5 kg = 74 kg\n\n**I hope it is correct: 74**",
+        "ground_truth": "Carl\u2019s weight is 55 + 16 = <<55+16=71>>71 kg.\nChristian\u2019s weight is 71 + 8 = <<71+8=79>>79 kg.\nSo, Harry\u2019s weight is 79 - 5 = <<79-5=74>>74 kg.\n#### 74"
+    },
+    {
+        "question": "- Martin's weight: 55 kg\n- Carl's weight: 55 kg + 16 kg = 71 kg\n- Christian's weight: 71 kg + 8 kg = 79 kg\n- Harry's weight: 79 kg - 5 kg = 74 kg\n\n**I hope it is correct: 74**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ : 74",
+        "ground_truth": "Carl\u2019s weight is 55 + 16 = <<55+16=71>>71 kg.\nChristian\u2019s weight is 71 + 8 = <<71+8=79>>79 kg.\nSo, Harry\u2019s weight is 79 - 5 = <<79-5=74>>74 kg.\n#### 74"
+    }
+]

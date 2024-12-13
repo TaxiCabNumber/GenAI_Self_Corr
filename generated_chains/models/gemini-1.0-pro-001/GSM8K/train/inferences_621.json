@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 36 seagulls on the roof of the Taco Bell. Kids scare 1/4 of them away by throwing stones, and 1/3 of the remaining birds decide to fly to McDonald's parking lot. How many seagulls are left?",
+        "inference": "1/4 of 36 is 9. So, 9 seagulls are scared away.\nThat leaves 36 - 9 = 27 seagulls.\n1/3 of 27 is 9. So, 9 seagulls fly to McDonald's parking lot.\nThat leaves 27 - 9 = 18 seagulls.\nI hope it is correct: 18",
+        "ground_truth": "First find how many birds get scared away by kids: 36 seagulls / 4 = <<36/4=9>>9 seagulls\nThen subtract that number from the starting total: 36 seagulls - 9 seagulls = <<36-9=27>>27 seagulls\nThen divide that number by 3: 27 seagulls / 3 = <<27/3=9>>9 seagulls\nThen subtract that number from the 27 seagulls to find the final number of seagulls: 27 seagulls - 9 seagulls = <<27-9=18>>18 seagulls\n#### 18"
+    },
+    {
+        "question": "1/4 of 36 is 9. So, 9 seagulls are scared away.\nThat leaves 36 - 9 = 27 seagulls.\n1/3 of 27 is 9. So, 9 seagulls fly to McDonald's parking lot.\nThat leaves 27 - 9 = 18 seagulls.\nI hope it is correct: 18\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 18",
+        "ground_truth": "First find how many birds get scared away by kids: 36 seagulls / 4 = <<36/4=9>>9 seagulls\nThen subtract that number from the starting total: 36 seagulls - 9 seagulls = <<36-9=27>>27 seagulls\nThen divide that number by 3: 27 seagulls / 3 = <<27/3=9>>9 seagulls\nThen subtract that number from the 27 seagulls to find the final number of seagulls: 27 seagulls - 9 seagulls = <<27-9=18>>18 seagulls\n#### 18"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMilo is making a mosaic with chips of glass. It takes twelve glass chips to make every square inch of the mosaic. A bag of glass chips holds 72 chips. Milo wants his mosaic to be three inches tall. If he has two bags of glass chips, how many inches long can he make his mosaic?",
+        "inference": "1. Calculate the number of square inches in the mosaic: 3 inches (height) x ? inches (length) = ? square inches\n2. Multiply the number of square inches by 12 chips per square inch: ? square inches x 12 chips per square inch = ? chips\n3. Divide the number of chips by the number of chips in one bag: ? chips / 72 chips per bag = ? bags\n4. Determine if Milo has enough bags of chips: ? bags (needed) vs. 2 bags (available)\n5. If Milo has enough bags, calculate the length of the mosaic: ? square inches / 3 inches (height) = ? inches (length)\nI hope it is correct: 12 inches (length)",
+        "ground_truth": "Milo has two bags of glass chips, so he has 72 * 2 = <<72*2=144>>144 chips.\nWith those, he can make 144 / 12 = <<144/12=12>>12 square inches of mosaic.\nThus, Milo can make his 3 inch tall mosaic 12 / 3 = <<12/3=4>>4 inches long.\n#### 4"
+    },
+    {
+        "question": "1. Calculate the number of square inches in the mosaic: 3 inches (height) x ? inches (length) = ? square inches\n2. Multiply the number of square inches by 12 chips per square inch: ? square inches x 12 chips per square inch = ? chips\n3. Divide the number of chips by the number of chips in one bag: ? chips / 72 chips per bag = ? bags\n4. Determine if Milo has enough bags of chips: ? bags (needed) vs. 2 bags (available)\n5. If Milo has enough bags, calculate the length of the mosaic: ? square inches / 3 inches (height) = ? inches (length)\nI hope it is correct: 12 inches (length)\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$12",
+        "ground_truth": "Milo has two bags of glass chips, so he has 72 * 2 = <<72*2=144>>144 chips.\nWith those, he can make 144 / 12 = <<144/12=12>>12 square inches of mosaic.\nThus, Milo can make his 3 inch tall mosaic 12 / 3 = <<12/3=4>>4 inches long.\n#### 4"
+    }
+]

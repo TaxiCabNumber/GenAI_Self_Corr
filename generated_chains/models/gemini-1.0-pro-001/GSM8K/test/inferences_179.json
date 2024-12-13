@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nLloyd earns $10 an hour on Math tutoring.  He tutored 5 hours for the first week and 8 hours for the second week. How much did he earn for the first two weeks?",
+        "inference": "1. Multiply the number of hours he tutored in the first week by his hourly pay.  5 * $10 = $50\n2. Multiply the number of hours he tutored in the second week by his hourly pay.  8 * $10 = $80\n3. Add the amounts he earned in the first week and the second week  $50 + $80 = $130\nI hope it is correct: $130",
+        "ground_truth": "Lloyd tutored 5 + 8 = <<5+8=13>>13 hours for the first two weeks.\nTherefore, he earned 13 x $10 = $<<13*10=130>>130 for the first two weeks.\n#### 130"
+    },
+    {
+        "question": "1. Multiply the number of hours he tutored in the first week by his hourly pay.  5 * $10 = $50\n2. Multiply the number of hours he tutored in the second week by his hourly pay.  8 * $10 = $80\n3. Add the amounts he earned in the first week and the second week  $50 + $80 = $130\nI hope it is correct: $130\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $130$",
+        "ground_truth": "Lloyd tutored 5 + 8 = <<5+8=13>>13 hours for the first two weeks.\nTherefore, he earned 13 x $10 = $<<13*10=130>>130 for the first two weeks.\n#### 130"
+    }
+]

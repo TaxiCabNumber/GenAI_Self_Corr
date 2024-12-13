@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nExpress the sum as a common fraction: $.1 + .02 + .003 + .0004 + .00005.$",
+        "inference": "Final Answer: $\\boxed{\\frac{12345}{100000}}$. I hope it is correct. \n",
+        "ground_truth": "The five decimals sum to $0.12345$, which as a fraction is $\\frac{12,\\!345}{100,\\!000}$.  Since $100,\\!000=2^5\\cdot 5^5$, we only have to cancel factors of 2 or 5 from $12,\\!345$.  Since $12,\\!345$ is odd, it has no factors of 2.  Dividing by 5, we find that $\\dfrac{12,\\!345}{100,\\!000}=\\boxed{\\dfrac{2469}{20,\\!000}}$."
+    },
+    {
+        "question": "Final Answer: $\\boxed{\\frac{12345}{100000}}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the original question and the solution you provided so I can help you identify any errors and provide the correct final answer. \n",
+        "ground_truth": "The five decimals sum to $0.12345$, which as a fraction is $\\frac{12,\\!345}{100,\\!000}$.  Since $100,\\!000=2^5\\cdot 5^5$, we only have to cancel factors of 2 or 5 from $12,\\!345$.  Since $12,\\!345$ is odd, it has no factors of 2.  Dividing by 5, we find that $\\dfrac{12,\\!345}{100,\\!000}=\\boxed{\\dfrac{2469}{20,\\!000}}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA tower is made out of 4 blue blocks, twice as many yellow blocks, and an unknown number of red blocks. If there are 32 blocks in the tower in total, how many red blocks are there?",
+        "inference": "1. Suppose there are r red blocks.\n2. There are 4 blue blocks, so there are 4 + 2(4) = 12 yellow blocks.\n3. The total number of blocks is 4 + 12 + r = 32.\n4. Solving for r, we get r = 32 - 4 - 12 = 16.\n\nTherefore, there are 16 red blocks in the tower.\n\nI hope it is correct: 16",
+        "ground_truth": "There are 4*2 = <<4*2=8>>8 yellow blocks in the tower.\nThere are 32-4-8 = <<32-4-8=20>>20 red blocks in the tower.\n#### 20"
+    },
+    {
+        "question": "1. Suppose there are r red blocks.\n2. There are 4 blue blocks, so there are 4 + 2(4) = 12 yellow blocks.\n3. The total number of blocks is 4 + 12 + r = 32.\n4. Solving for r, we get r = 32 - 4 - 12 = 16.\n\nTherefore, there are 16 red blocks in the tower.\n\nI hope it is correct: 16\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$16",
+        "ground_truth": "There are 4*2 = <<4*2=8>>8 yellow blocks in the tower.\nThere are 32-4-8 = <<32-4-8=20>>20 red blocks in the tower.\n#### 20"
+    }
+]

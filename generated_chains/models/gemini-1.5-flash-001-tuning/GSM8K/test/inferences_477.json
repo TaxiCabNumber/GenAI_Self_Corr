@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nNine of the kids in Gina's class are allergic to dairy, 6 are allergic to peanuts and 3 are allergic to both. If there are 32 kids in her class, how many aren't allergic to anything?",
+        "inference": "I hope it is correct: #### $24$ \n",
+        "ground_truth": "First subtract the number of kids who are allergic to each item from the total number of kids: 32 kids - 6 kids - 9 kids = <<32-6-9=17>>17 kids\nThen add the number of kids who were double-counted because they're allergic to both things: 17 kids + 3 kids = <<17+3=20>>20 kids\n#### 20"
+    },
+    {
+        "question": "I hope it is correct: #### $24$ \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ \nPlease provide me with the question and the solution you're referring to. I need context to identify and correct any potential errors. \n",
+        "ground_truth": "First subtract the number of kids who are allergic to each item from the total number of kids: 32 kids - 6 kids - 9 kids = <<32-6-9=17>>17 kids\nThen add the number of kids who were double-counted because they're allergic to both things: 17 kids + 3 kids = <<17+3=20>>20 kids\n#### 20"
+    }
+]

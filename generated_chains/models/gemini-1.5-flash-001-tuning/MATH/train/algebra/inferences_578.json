@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe sum of two numbers is $12$ and their difference is $20$. What is the smaller number?",
+        "inference": "Let $x$ be the larger number and $y$ be the smaller number.  We are given the system of equations \n\\begin{align*}\nx + y &= 12 \\\\\nx - y &= 20.\n\\end{align*}Adding the equations, we get $2x = 32,$ so $x = 16.$  Substituting into the first equation, we get $16 + y = 12,$ so $y = -4.$  Therefore, the smaller number is $\\boxed{-4}.$ Final Answer: $\\boxed{-4}$. I hope it is correct. \n",
+        "ground_truth": "Let $x$ be the larger number and $y$ be the smaller number. Then we have $x+y=12$ and $x-y=20$. If we subtract the second equation from the first, we get $$x+y-(x-y)=12-20\\qquad\\Rightarrow 2y=-8\\qquad\\Rightarrow y=-4.$$ The smaller number is $\\boxed{-4}$."
+    },
+    {
+        "question": "Let $x$ be the larger number and $y$ be the smaller number.  We are given the system of equations \n\\begin{align*}\nx + y &= 12 \\\\\nx - y &= 20.\n\\end{align*}Adding the equations, we get $2x = 32,$ so $x = 16.$  Substituting into the first equation, we get $16 + y = 12,$ so $y = -4.$  Therefore, the smaller number is $\\boxed{-4}.$ Final Answer: $\\boxed{-4}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{-4}$ \n",
+        "ground_truth": "Let $x$ be the larger number and $y$ be the smaller number. Then we have $x+y=12$ and $x-y=20$. If we subtract the second equation from the first, we get $$x+y-(x-y)=12-20\\qquad\\Rightarrow 2y=-8\\qquad\\Rightarrow y=-4.$$ The smaller number is $\\boxed{-4}$."
+    }
+]

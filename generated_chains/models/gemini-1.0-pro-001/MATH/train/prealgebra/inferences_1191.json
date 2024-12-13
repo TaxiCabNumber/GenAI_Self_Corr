@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nDuring her birthday, her parents have decided to give Laura and her 2 younger brothers new cellphones. However, they are confused between the innumerable service providers. Assuming no child wants a provider that another sibling has, and that there are 20 service providers,  in how many ways can the parents grant the children their phones?",
+        "inference": "There are 20 service providers, and 3 children. The first child can choose from 20 providers, the second from 19 (since one provider is already taken), and the third from 18. Therefore, the number of ways the parents can choose the service providers is:\n\n$$20 \\times 19 \\times 18 = 6,840$$\n\nFinal Answer: \\boxed{$6,840$}. I hope it is correct.",
+        "ground_truth": "There are 20 different ways the parents can choose a provider for Laura.  For each choice, there are 19 providers remaining that could be the provider for the first brother, and then 18 providers that could be chosen for the second brother.  This gives $20 \\times 19 \\times 18 = \\boxed{6840}$ different ways that the parents can gift the cellphones."
+    },
+    {
+        "question": "There are 20 service providers, and 3 children. The first child can choose from 20 providers, the second from 19 (since one provider is already taken), and the third from 18. Therefore, the number of ways the parents can choose the service providers is:\n\n$$20 \\times 19 \\times 18 = 6,840$$\n\nFinal Answer: \\boxed{$6,840$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$6,840$}.",
+        "ground_truth": "There are 20 different ways the parents can choose a provider for Laura.  For each choice, there are 19 providers remaining that could be the provider for the first brother, and then 18 providers that could be chosen for the second brother.  This gives $20 \\times 19 \\times 18 = \\boxed{6840}$ different ways that the parents can gift the cellphones."
+    }
+]

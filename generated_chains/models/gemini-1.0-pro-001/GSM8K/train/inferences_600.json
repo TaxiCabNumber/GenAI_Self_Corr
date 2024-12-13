@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMike can type 65 words per minute. Due to a minor accident, Mike cannot use his right hand for a while so that his typing speed is now 20 words less per minute. If he is supposed to type a document with 810 words, how many minutes will it take him to finish typing the document?",
+        "inference": "1. Mike's typing speed without his right hand = 65 - 20 = 45 words per minute\n2. Number of minutes to type 810 words = 810 / 45 = 18 minutes\nI hope it is correct: 18",
+        "ground_truth": "After the accident, Mike can only type 65 words/minute - 20 words/minute = <<65-20=45>>45 words/minute.\nSo, he will be able to finish typing the document in 810 words / 45 words/minute = <<810/45=18>>18 minutes.\n#### 18"
+    },
+    {
+        "question": "1. Mike's typing speed without his right hand = 65 - 20 = 45 words per minute\n2. Number of minutes to type 810 words = 810 / 45 = 18 minutes\nI hope it is correct: 18\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 18",
+        "ground_truth": "After the accident, Mike can only type 65 words/minute - 20 words/minute = <<65-20=45>>45 words/minute.\nSo, he will be able to finish typing the document in 810 words / 45 words/minute = <<810/45=18>>18 minutes.\n#### 18"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $x + y = 16$ and $x-y = 2$, what is the value of $x^2 - y^2$?",
+        "inference": "$$x+y=16,\\space x-y=2$$\n\nAdding the two equations,\n\n$$x+y+x-y=16+2$$\n\n$$2x=18$$\n\n$$\\Rightarrow x=9$$\n\nSubstituting $x=9$ in $x+y=16$, we get\n\n$$9+y=16$$\n\n$$\\Rightarrow y=7$$\n\nTherefore, \n\n$$x^2-y^2=(9)^2-(7)^2=81-49=\\boxed{32}$$\n\nFinal Answer: \\(\\boxed{32}\\). I hope it is correct.",
+        "ground_truth": "$x^2 - y^2$ factors into $(x+y)(x-y)$, so, to obtain the value of $x^2 - y^2$, simply multiply $16 \\cdot 2$ to get $\\boxed{32}$."
+    },
+    {
+        "question": "$$x+y=16,\\space x-y=2$$\n\nAdding the two equations,\n\n$$x+y+x-y=16+2$$\n\n$$2x=18$$\n\n$$\\Rightarrow x=9$$\n\nSubstituting $x=9$ in $x+y=16$, we get\n\n$$9+y=16$$\n\n$$\\Rightarrow y=7$$\n\nTherefore, \n\n$$x^2-y^2=(9)^2-(7)^2=81-49=\\boxed{32}$$\n\nFinal Answer: \\(\\boxed{32}\\). I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{32}$$",
+        "ground_truth": "$x^2 - y^2$ factors into $(x+y)(x-y)$, so, to obtain the value of $x^2 - y^2$, simply multiply $16 \\cdot 2$ to get $\\boxed{32}$."
+    }
+]

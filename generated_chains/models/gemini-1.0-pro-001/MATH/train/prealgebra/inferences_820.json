@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the 125th digit beyond the decimal point in the decimal representation of $\\frac47$?",
+        "inference": "First, we find the decimal representation of $\\frac47$:\n$$\\frac47 = 0.\\overline{571428}$$\n\nSince the repeating block has length 6, the 125th digit beyond the decimal point is the 5th digit in the repeating block, which is 1.\n\nFinal Answer: \\boxed{$1$}. I hope it is correct.",
+        "ground_truth": "Manually dividing, we see that $4 \\div 7 = 0.57142857\\ldots$. Therefore, the decimal representation of $\\frac 47$ repeats after every $6$ digits. Since $125 = 20 \\times 6 + 5$, the $125$th digit beyond the decimal point is the same as the $5$th digit beyond the decimal point, which is $\\boxed{2}$."
+    },
+    {
+        "question": "First, we find the decimal representation of $\\frac47$:\n$$\\frac47 = 0.\\overline{571428}$$\n\nSince the repeating block has length 6, the 125th digit beyond the decimal point is the 5th digit in the repeating block, which is 1.\n\nFinal Answer: \\boxed{$1$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Final Answer: \\boxed{$1$}.",
+        "ground_truth": "Manually dividing, we see that $4 \\div 7 = 0.57142857\\ldots$. Therefore, the decimal representation of $\\frac 47$ repeats after every $6$ digits. Since $125 = 20 \\times 6 + 5$, the $125$th digit beyond the decimal point is the same as the $5$th digit beyond the decimal point, which is $\\boxed{2}$."
+    }
+]

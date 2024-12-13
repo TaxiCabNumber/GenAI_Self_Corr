@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCompute the product of the number $5+\\sqrt{3}$ and its radical conjugate.",
+        "inference": "$$(5+\\sqrt{3})\\times(5-\\sqrt{3})$$\n$$=5^2-(\\sqrt{3})^2 \\quad \\because (a+b)(a-b)=a^2-b^2$$\n$$=25-3$$\n$$=22$$\nFinal Answer: \\boxed{$22$}. I hope it is correct.",
+        "ground_truth": "The radical conjugate of this number is $5-\\sqrt{3},$ so the product of the two numbers is \\[(5+\\sqrt3)(5-\\sqrt3) = 5^2 - (\\sqrt3)^2 = 25 - 3 = \\boxed{22}.\\]"
+    },
+    {
+        "question": "$$(5+\\sqrt{3})\\times(5-\\sqrt{3})$$\n$$=5^2-(\\sqrt{3})^2 \\quad \\because (a+b)(a-b)=a^2-b^2$$\n$$=25-3$$\n$$=22$$\nFinal Answer: \\boxed{$22$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$22$}.",
+        "ground_truth": "The radical conjugate of this number is $5-\\sqrt{3},$ so the product of the two numbers is \\[(5+\\sqrt3)(5-\\sqrt3) = 5^2 - (\\sqrt3)^2 = 25 - 3 = \\boxed{22}.\\]"
+    }
+]

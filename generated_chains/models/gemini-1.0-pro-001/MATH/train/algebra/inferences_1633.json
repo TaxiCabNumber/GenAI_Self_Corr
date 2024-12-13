@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nAbby, Bart, Cindy and Damon weigh themselves in pairs. Together Abby and Bart weigh 260 pounds, Bart and Cindy weigh 245 pounds, and Cindy and Damon weigh 270 pounds. How many pounds do Abby and Damon weigh together?",
+        "inference": "Abby, Bart, Cindy, and Damon weigh **x**, **y**, **z**, and **w** pounds, respectively.\n\nFrom the three given values:\n\n$$x + y = 260$$\n\n$$y + z = 245$$\n\n$$z + w = 270$$\n\nAdding all three equations:\n\n$$x + y + y + z + z + w = 260 + 245 + 270$$\n\n$$x +2y +2z + w = 775$$\n\n$$x + w = 775 - 2y - 2z$$\n\nFinal Answer: $\\boxed{775 - 2y - 2z}.$ I hope it is correct.",
+        "ground_truth": "Let the weights of Abby, Bart, Cindy, and Damon be $a$, $b$, $c$, and $d$, respectively. We have the equations \\begin{align*}\na+b&=260\\\\\nb+c&=245\\\\\nc+d&=270\n\\end{align*} Subtracting the second equation from the first, we have $(a+b)-(b+c)=260-245 \\Rightarrow a-c=15$. Adding this last equation to the third given equation, we have $(a-c)+(c+d)=15+270 \\Rightarrow a+d=285$. Thus, Abby and Damon together weigh $\\boxed{285}$ pounds."
+    },
+    {
+        "question": "Abby, Bart, Cindy, and Damon weigh **x**, **y**, **z**, and **w** pounds, respectively.\n\nFrom the three given values:\n\n$$x + y = 260$$\n\n$$y + z = 245$$\n\n$$z + w = 270$$\n\nAdding all three equations:\n\n$$x + y + y + z + z + w = 260 + 245 + 270$$\n\n$$x +2y +2z + w = 775$$\n\n$$x + w = 775 - 2y - 2z$$\n\nFinal Answer: $\\boxed{775 - 2y - 2z}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{775 - 2y - 2z}$$",
+        "ground_truth": "Let the weights of Abby, Bart, Cindy, and Damon be $a$, $b$, $c$, and $d$, respectively. We have the equations \\begin{align*}\na+b&=260\\\\\nb+c&=245\\\\\nc+d&=270\n\\end{align*} Subtracting the second equation from the first, we have $(a+b)-(b+c)=260-245 \\Rightarrow a-c=15$. Adding this last equation to the third given equation, we have $(a-c)+(c+d)=15+270 \\Rightarrow a+d=285$. Thus, Abby and Damon together weigh $\\boxed{285}$ pounds."
+    }
+]

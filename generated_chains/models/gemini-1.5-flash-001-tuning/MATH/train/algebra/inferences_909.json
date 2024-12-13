@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the maximum value of $-4z^2+20z-6$?",
+        "inference": "Final Answer: \\\\boxed{19}. I hope it is correct. \n",
+        "ground_truth": "We begin by writing $-4z^2+20z-6$ as $-(4z^2-20z+6)$. We then complete the square for $4z^2-20z+6$.\n\nWe know that the binomial to be squared will be in terms of $2z+b$ because $(2z)^2=4z^2$. By expanding $(2z+b)^2$, we get $4z^2+4bz+b^2$. We get that $4bz=-20z$, so $b=-5$, which gives us $(2z-5)^2=4z^2-20z+25$.\n\nTherefore, $-(4z^2-20z+6)=-(4z^2-20z+25-19)=-[(2z-5)^2-19]=-(2z-5)^2+19$.\n\nSince $(2z-5)^2$ is at least zero because it is a square of a real number, $-(2z-5)^2$ is at most 0. Therefore, the maximum value of $-4z^2+20z-6$ is $\\boxed{19}$."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{19}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you have so I can identify any errors and provide the correct answer. \n",
+        "ground_truth": "We begin by writing $-4z^2+20z-6$ as $-(4z^2-20z+6)$. We then complete the square for $4z^2-20z+6$.\n\nWe know that the binomial to be squared will be in terms of $2z+b$ because $(2z)^2=4z^2$. By expanding $(2z+b)^2$, we get $4z^2+4bz+b^2$. We get that $4bz=-20z$, so $b=-5$, which gives us $(2z-5)^2=4z^2-20z+25$.\n\nTherefore, $-(4z^2-20z+6)=-(4z^2-20z+25-19)=-[(2z-5)^2-19]=-(2z-5)^2+19$.\n\nSince $(2z-5)^2$ is at least zero because it is a square of a real number, $-(2z-5)^2$ is at most 0. Therefore, the maximum value of $-4z^2+20z-6$ is $\\boxed{19}$."
+    }
+]

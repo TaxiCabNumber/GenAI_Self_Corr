@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAudrey's key lime pie calls for 1/4 cup of key lime juice but she likes to double this amount to make it extra tart.  Each key lime yields 1 tablespoon of juice.  There are 16 tablespoons in 1 cup.  How many key limes does Audrey need?",
+        "inference": "- 1/4 cup equals 4 tablespoons.\n- 2 x 4 T = 8 T\n- 8 T \u00f7 16 T/C = 1/2 C\n- 1/2 C x 2 C/16 T = 16 T\n\nI hope it is correct: 16",
+        "ground_truth": "Her recipe calls for 1/4 cup of juice but she wants to double that so she needs 1/4+1/4 = 1/2 cup of lime juice\n16 tablespoons are in 1 cup and she only needs 1/2 cup so she needs 16*.5 = <<16*.5=8>>8 tablespoons of juice\n1 key lime yields 1 tablespoon of juice and she needs 8 tablespoons so she needs 1*8 = <<1*8=8>>8 key limes\n#### 8"
+    },
+    {
+        "question": "- 1/4 cup equals 4 tablespoons.\n- 2 x 4 T = 8 T\n- 8 T \u00f7 16 T/C = 1/2 C\n- 1/2 C x 2 C/16 T = 16 T\n\nI hope it is correct: 16\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$16",
+        "ground_truth": "Her recipe calls for 1/4 cup of juice but she wants to double that so she needs 1/4+1/4 = 1/2 cup of lime juice\n16 tablespoons are in 1 cup and she only needs 1/2 cup so she needs 16*.5 = <<16*.5=8>>8 tablespoons of juice\n1 key lime yields 1 tablespoon of juice and she needs 8 tablespoons so she needs 1*8 = <<1*8=8>>8 key limes\n#### 8"
+    }
+]

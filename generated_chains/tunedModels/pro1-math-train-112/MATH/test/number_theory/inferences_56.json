@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $a\\equiv 62\\pmod{99}$ and $b\\equiv 75\\pmod{99}$, then for what integer $n$ in the set $\\{1000,1001,1002,\\ldots,1097,1098\\}$ is it true that $$a-b\\equiv n\\pmod{99}~?$$",
+        "inference": "$$a-b\\equiv 62-75\\equiv -13\\equiv 86\\pmod{99}.$$\n\nSo, $n=\\boxed{86}$.\nFinal Answer: $\\boxed{86}$. I hope it is correct.",
+        "ground_truth": "We have \\begin{align*}\na-b &\\equiv 62-75 \\\\\n&\\equiv -13 \\\\\n&\\equiv -13+99 \\\\\n&\\equiv 86\\pmod{99}.\n\\end{align*}This is not the answer since we want to find $n$ with $1000\\leq n<1099$.  Therefore we should add copies of 99 until we get into this range.  Since 1000 is slightly more than $990=99\\cdot10$, we begin by adding 990. \\[86\\equiv 86+990\\equiv1076\\pmod{99}.\\]That is in our range, so $n=\\boxed{1076}$."
+    },
+    {
+        "question": "$$a-b\\equiv 62-75\\equiv -13\\equiv 86\\pmod{99}.$$\n\nSo, $n=\\boxed{86}$.\nFinal Answer: $\\boxed{86}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{86}",
+        "ground_truth": "We have \\begin{align*}\na-b &\\equiv 62-75 \\\\\n&\\equiv -13 \\\\\n&\\equiv -13+99 \\\\\n&\\equiv 86\\pmod{99}.\n\\end{align*}This is not the answer since we want to find $n$ with $1000\\leq n<1099$.  Therefore we should add copies of 99 until we get into this range.  Since 1000 is slightly more than $990=99\\cdot10$, we begin by adding 990. \\[86\\equiv 86+990\\equiv1076\\pmod{99}.\\]That is in our range, so $n=\\boxed{1076}$."
+    }
+]

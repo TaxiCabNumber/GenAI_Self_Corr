@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nPaul is driving a car twice a day: in the morning, and in the afternoon. He did that for 14 days. Each morning ride cost him about $6, and each afternoon ride, about $2. How much money did he spend on driving his car during these two weeks?",
+        "inference": "- 14 days * 2 rides/day = 28 rides total\n- 28 rides * $6/ride (morning rides) = $168 spent on morning rides\n- 28 rides * $2/ride (afternoon rides) = $56 spent on afternoon rides\n- $168 + $56 = $224 total spent on driving\n\nI hope it is correct: $224$",
+        "ground_truth": "Paul's morning rides cost him 14 * 6 = $<<14*6=84>>84.\nDriving in the afternoon, on the other hand, was a cost of 14 * 2 = $<<14*2=28>>28.\nSo in total Paul spend on driving 84 + 28 = $<<84+28=112>>112.\n#### 112"
+    },
+    {
+        "question": "- 14 days * 2 rides/day = 28 rides total\n- 28 rides * $6/ride (morning rides) = $168 spent on morning rides\n- 28 rides * $2/ride (afternoon rides) = $56 spent on afternoon rides\n- $168 + $56 = $224 total spent on driving\n\nI hope it is correct: $224$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $224$",
+        "ground_truth": "Paul's morning rides cost him 14 * 6 = $<<14*6=84>>84.\nDriving in the afternoon, on the other hand, was a cost of 14 * 2 = $<<14*2=28>>28.\nSo in total Paul spend on driving 84 + 28 = $<<84+28=112>>112.\n#### 112"
+    }
+]

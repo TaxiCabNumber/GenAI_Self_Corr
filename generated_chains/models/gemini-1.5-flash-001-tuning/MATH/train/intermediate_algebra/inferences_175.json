@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the solutions to $z^3 = -8.$  Enter the solutions, separated by commas.",
+        "inference": "Final Answer: \\\\boxed{-2, 1 + \\sqrt{3} i, 1 - \\sqrt{3} i}. I hope it is correct.",
+        "ground_truth": "From the equation $z^3 = -8,$ $z^3 + 8 = 0.$   We see that $z = -2$ is one solution, so we can take out a factor of $z + 2 = 0,$ which gives us\n\\[(z + 2)(z^2 - 2z + 4) = 0.\\]By the quadratic formula, the roots of $z^2 - 2z + 4 = 0$ are\n\\[z = \\frac{2 \\pm \\sqrt{2^2 - 4 \\cdot 4}}{2} = \\frac{2 \\pm 2i \\sqrt{3}}{2} = 1 \\pm i \\sqrt{3}.\\]Thus, the solutions are $\\boxed{-2, 1 + i \\sqrt{3}, 1 - i \\sqrt{3}}.$"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{-2, 1 + \\sqrt{3} i, 1 - \\sqrt{3} i}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question you are referring to. I need the context to understand the solution and identify any potential errors.  \n",
+        "ground_truth": "From the equation $z^3 = -8,$ $z^3 + 8 = 0.$   We see that $z = -2$ is one solution, so we can take out a factor of $z + 2 = 0,$ which gives us\n\\[(z + 2)(z^2 - 2z + 4) = 0.\\]By the quadratic formula, the roots of $z^2 - 2z + 4 = 0$ are\n\\[z = \\frac{2 \\pm \\sqrt{2^2 - 4 \\cdot 4}}{2} = \\frac{2 \\pm 2i \\sqrt{3}}{2} = 1 \\pm i \\sqrt{3}.\\]Thus, the solutions are $\\boxed{-2, 1 + i \\sqrt{3}, 1 - i \\sqrt{3}}.$"
+    }
+]

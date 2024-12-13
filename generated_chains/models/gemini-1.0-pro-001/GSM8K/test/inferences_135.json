@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBrian's friend Bobby has 5 fewer than 3 times as many video games as Brian does.  If Brian has 20 video games but lost 5 right before the comparison was made, how many does Bobby have?",
+        "inference": "1. Brian originally had 20 video games, but lost 5, so now he has 20 - 5 = 15 video games.\n2. Bobby has 3 times as many video games as Brian, minus 5. So, Bobby has 3 * 15 - 5 = 45 - 5 = 40 video games.\nI hope it is correct: 40",
+        "ground_truth": "If Brian previously had 20 video games but lost 5, that means he now has 20-5=<<20-5=15>>15 video games\nBrian has 15 video games, so if Bobby has 5 fewer than 3 times as many as Brian does we must first perform 15*3=45\nWe then subtract 5 from the previous total for 45-5=40 games in total.\n#### 40"
+    },
+    {
+        "question": "1. Brian originally had 20 video games, but lost 5, so now he has 20 - 5 = 15 video games.\n2. Bobby has 3 times as many video games as Brian, minus 5. So, Bobby has 3 * 15 - 5 = 45 - 5 = 40 video games.\nI hope it is correct: 40\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$40",
+        "ground_truth": "If Brian previously had 20 video games but lost 5, that means he now has 20-5=<<20-5=15>>15 video games\nBrian has 15 video games, so if Bobby has 5 fewer than 3 times as many as Brian does we must first perform 15*3=45\nWe then subtract 5 from the previous total for 45-5=40 games in total.\n#### 40"
+    }
+]

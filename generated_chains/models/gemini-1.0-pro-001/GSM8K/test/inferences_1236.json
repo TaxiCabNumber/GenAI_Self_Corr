@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMadeline ate 6 grapes. Her brother wanted to make grape juice and used up 5 times as many grapes then Madeline to make a full glass. Their mother then used the remaining grapes to make 4 pies. How many grapes were there at the beginning if the pie recipe calls for 12 grapes per pie?",
+        "inference": "1. Madeline ate 6 grapes\n2. The brother used 5 times as many as Madeline, so he used (5*6 = 30) grapes\n3. The mother used the remaining grapes to make 4 pies so we need to figure out how many grapes she used\n4. Each pie calls for 12 grapes, so she used (12*4 = 48) grapes\n5. To find the total number of grapes, we add the number of grapes Madeline ate, the number of grapes the brother used, and the number of grapes the mother used (6+30+48 = 84)\n\nI hope it is correct: 84",
+        "ground_truth": "Madeline's brother used 6 x 5 = <<6*5=30>>30 grapes\nTheir mother used 12 x 4 = <<12*4=48>>48 grapes\nThere were 30 + 48 + 6 = <<30+48+6=84>>84 grapes at the beginning\n#### 84"
+    },
+    {
+        "question": "1. Madeline ate 6 grapes\n2. The brother used 5 times as many as Madeline, so he used (5*6 = 30) grapes\n3. The mother used the remaining grapes to make 4 pies so we need to figure out how many grapes she used\n4. Each pie calls for 12 grapes, so she used (12*4 = 48) grapes\n5. To find the total number of grapes, we add the number of grapes Madeline ate, the number of grapes the brother used, and the number of grapes the mother used (6+30+48 = 84)\n\nI hope it is correct: 84\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$84",
+        "ground_truth": "Madeline's brother used 6 x 5 = <<6*5=30>>30 grapes\nTheir mother used 12 x 4 = <<12*4=48>>48 grapes\nThere were 30 + 48 + 6 = <<30+48+6=84>>84 grapes at the beginning\n#### 84"
+    }
+]

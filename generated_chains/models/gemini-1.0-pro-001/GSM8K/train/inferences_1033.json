@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJames takes up dancing for fitness.  He loses twice as many calories per hour as he did when he was walking.  He dances twice a day for .5 hours each time and he does this 4 times a week.  He burned 300 calories an hour walking.  How many calories does he lose a week from dancing?",
+        "inference": "1. James burns 300 calories walking an hour.\n2. He burns twice as many calories dancing, so 300 x 2 = 600 calories per hour dancing.\n3. He dances for 0.5 hour twice a day, so 0.5 x 2 = 1 hour a day.\n4. He dances 4 times a week, so 1 hour x 4 days = 4 hours a week.\n5. He burns 600 calories per hour dancing, so 4 hours x 600 calories/hour = 2,400 calories a week.\n\nI hope it is correct: 2,400",
+        "ground_truth": "He burns 2*300=<<2*300=600>>600 calories an hour\nHe dances for .5*2=<<.5*2=1>>1 hour per day\nSo he burns 600*1=<<600=600>>600 calories per day\nSo he burns 600*4=<<600*4=2400>>2400 calories per week\n#### 2400"
+    },
+    {
+        "question": "1. James burns 300 calories walking an hour.\n2. He burns twice as many calories dancing, so 300 x 2 = 600 calories per hour dancing.\n3. He dances for 0.5 hour twice a day, so 0.5 x 2 = 1 hour a day.\n4. He dances 4 times a week, so 1 hour x 4 days = 4 hours a week.\n5. He burns 600 calories per hour dancing, so 4 hours x 600 calories/hour = 2,400 calories a week.\n\nI hope it is correct: 2,400\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$2,400",
+        "ground_truth": "He burns 2*300=<<2*300=600>>600 calories an hour\nHe dances for .5*2=<<.5*2=1>>1 hour per day\nSo he burns 600*1=<<600=600>>600 calories per day\nSo he burns 600*4=<<600*4=2400>>2400 calories per week\n#### 2400"
+    }
+]

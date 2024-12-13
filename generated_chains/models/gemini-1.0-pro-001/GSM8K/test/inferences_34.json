@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSiobhan has 2 fewer jewels than Aaron. Aaron has 5 more jewels than half of Raymond's jewels. If Raymond has 40 jewels, how many jewels does Siobhan have?",
+        "inference": "1. Raymond has 40 jewels.\n2. Half of Raymond's jewels is 40 / 2 = 20 jewels.\n3. Aaron has 5 more jewels than half of Raymond's jewels, so Aaron has 20 + 5 = 25 jewels.\n4. Siobhan has 2 fewer jewels than Aaron, so Siobhan has 25 - 2 = 23 jewels.\n**I hope it is correct: 23**",
+        "ground_truth": "Half of Raymond's jewels is 40/2 = <<40/2=20>>20\nSince Aaron has 5 more jewels than half of Raymond's jewels, he has 20+5 = <<5+20=25>>25 jewels.\nIf Siobhan has 2 fewer jewels than Aaron, he has 25-2 = 23 jewels.\n#### 23"
+    },
+    {
+        "question": "1. Raymond has 40 jewels.\n2. Half of Raymond's jewels is 40 / 2 = 20 jewels.\n3. Aaron has 5 more jewels than half of Raymond's jewels, so Aaron has 20 + 5 = 25 jewels.\n4. Siobhan has 2 fewer jewels than Aaron, so Siobhan has 25 - 2 = 23 jewels.\n**I hope it is correct: 23**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ = 23",
+        "ground_truth": "Half of Raymond's jewels is 40/2 = <<40/2=20>>20\nSince Aaron has 5 more jewels than half of Raymond's jewels, he has 20+5 = <<5+20=25>>25 jewels.\nIf Siobhan has 2 fewer jewels than Aaron, he has 25-2 = 23 jewels.\n#### 23"
+    }
+]

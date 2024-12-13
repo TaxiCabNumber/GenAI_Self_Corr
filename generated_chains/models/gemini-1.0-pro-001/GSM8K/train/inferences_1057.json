@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTwenty gallons of tea were poured into 80 containers. Geraldo drank 3.5 containers. How many pints of tea did Geraldo drink?",
+        "inference": "1 gallon = 8 pints\n20 gallons = 8 x 20 = 160 pints\n160 pints / 80 containers = 2 pints per container\nGeraldo drank 3.5 containers = 3.5 x 2 pints = 7 pints\nI hope it is correct: $7$",
+        "ground_truth": "20 gallons = 160 pints\n160/80 = <<160/80=2>>2 pints\n3.5 * 2 pints = <<3.5*2=7>>7 pints\nGeraldo drank 7 pints of tea.\n#### 7"
+    },
+    {
+        "question": "1 gallon = 8 pints\n20 gallons = 8 x 20 = 160 pints\n160 pints / 80 containers = 2 pints per container\nGeraldo drank 3.5 containers = 3.5 x 2 pints = 7 pints\nI hope it is correct: $7$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $7$",
+        "ground_truth": "20 gallons = 160 pints\n160/80 = <<160/80=2>>2 pints\n3.5 * 2 pints = <<3.5*2=7>>7 pints\nGeraldo drank 7 pints of tea.\n#### 7"
+    }
+]

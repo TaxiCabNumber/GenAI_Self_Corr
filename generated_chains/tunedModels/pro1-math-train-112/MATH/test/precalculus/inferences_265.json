@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFor real numbers $t \\neq 0,$ the point\n\\[(x,y) = \\left( t + \\frac{1}{t}, t - \\frac{1}{t} \\right)\\]is plotted.  All the plotted points lie on what kind of curve?\n\n(A) Line\n(B) Circle\n(C) Parabola\n(D) Ellipse\n(E) Hyperbola\n\nEnter the letter of the correct option.",
+        "inference": "**Solution:**\n$$x = t + \\frac{1}{t} \\quad \\Rightarrow \\quad x^2 = t^2 + 2 + \\frac{1}{t^2}$$\n\n$$y = t - \\frac{1}{t} \\quad \\Rightarrow \\quad y^2 = t^2 - 2 + \\frac{1}{t^2}$$\n\n$$x^2 - y^2 = 4 \\quad \\Rightarrow \\quad \\frac{x^2}{4} - \\frac{y^2}{4} = 1$$\n\n**Final Answer: \\\\boxed{(A)}. I hope it is correct.**",
+        "ground_truth": "Note that\n\\[x^2 - y^2 = \\left( t + \\frac{1}{t} \\right)^2 - \\left( t - \\frac{1}{t} \\right)^2 = \\left( t^2 + 2 + \\frac{1}{t^2} \\right) - \\left( t^2 - 2 + \\frac{1}{t^2} \\right) = 4,\\]so\n\\[\\frac{x^2}{4} - \\frac{y^2}{4} = 1.\\]Thus, all the plotted points lie on a hyperbola.  The answer is $\\boxed{\\text{(E)}}.$"
+    },
+    {
+        "question": "**Solution:**\n$$x = t + \\frac{1}{t} \\quad \\Rightarrow \\quad x^2 = t^2 + 2 + \\frac{1}{t^2}$$\n\n$$y = t - \\frac{1}{t} \\quad \\Rightarrow \\quad y^2 = t^2 - 2 + \\frac{1}{t^2}$$\n\n$$x^2 - y^2 = 4 \\quad \\Rightarrow \\quad \\frac{x^2}{4} - \\frac{y^2}{4} = 1$$\n\n**Final Answer: \\\\boxed{(A)}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{(A)}",
+        "ground_truth": "Note that\n\\[x^2 - y^2 = \\left( t + \\frac{1}{t} \\right)^2 - \\left( t - \\frac{1}{t} \\right)^2 = \\left( t^2 + 2 + \\frac{1}{t^2} \\right) - \\left( t^2 - 2 + \\frac{1}{t^2} \\right) = 4,\\]so\n\\[\\frac{x^2}{4} - \\frac{y^2}{4} = 1.\\]Thus, all the plotted points lie on a hyperbola.  The answer is $\\boxed{\\text{(E)}}.$"
+    }
+]

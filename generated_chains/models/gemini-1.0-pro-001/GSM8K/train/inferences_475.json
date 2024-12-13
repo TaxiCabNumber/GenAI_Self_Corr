@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMaggie picked 40 apples. Kelsey picked 28 apples. Layla picked some apples, too. The three averaged 30 apples picked. How many did Layla pick?",
+        "inference": "1. Find the total number of apples picked:\n40 + 28 + x = 68 + x\n\n2. Divide the total number of apples by the number of people:\n(68 + x) / 3 = 30\n\n3. Solve for x:\n68 + x = 90\nx = 22\n\n**I hope it is correct: 22**",
+        "ground_truth": "Together, they picked 30*3=<<30*3=90>>90.\nThere are 40+28=<<40+28=68>>68 accounted for.\nThen Layla picked 90-68=<<90-68=22>>22.\n#### 22"
+    },
+    {
+        "question": "1. Find the total number of apples picked:\n40 + 28 + x = 68 + x\n\n2. Divide the total number of apples by the number of people:\n(68 + x) / 3 = 30\n\n3. Solve for x:\n68 + x = 90\nx = 22\n\n**I hope it is correct: 22**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$22",
+        "ground_truth": "Together, they picked 30*3=<<30*3=90>>90.\nThere are 40+28=<<40+28=68>>68 accounted for.\nThen Layla picked 90-68=<<90-68=22>>22.\n#### 22"
+    }
+]

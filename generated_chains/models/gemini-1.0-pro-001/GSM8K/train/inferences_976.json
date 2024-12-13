@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nLudwig works 7 days a week and he usually works half of the day during Friday, Saturday, and Sunday. If his daily salary is $10, how much does he earn every week?",
+        "inference": "1. Ludwig works half a day on Friday, Saturday, and Sunday. That is 1.5 days.\n2. Ludwig works the full day the rest of the week. That is 5.5 days.\n3. Ludwig's total days worked in a week is 1.5 + 5.5 = 7 days.\n4. Ludwig's weekly salary is 10 * 7 = $70.\nI hope it is correct: 1 $70$",
+        "ground_truth": "Ludwig earns a total of $10 x 4 = $<<10*4=40>>40 from Monday to Thursday.\nHe earns $10/2= $<<10/2=5>>5 per day on Friday, Saturday, and Sunday.\nSo, his total salary for Friday, Saturday, Sunday is $5 x 3 = $<<5*3=15>>15.\nTherefore, his total weekly salary is $40 + $15 = $<<40+15=55>>55.\n#### 55"
+    },
+    {
+        "question": "1. Ludwig works half a day on Friday, Saturday, and Sunday. That is 1.5 days.\n2. Ludwig works the full day the rest of the week. That is 5.5 days.\n3. Ludwig's total days worked in a week is 1.5 + 5.5 = 7 days.\n4. Ludwig's weekly salary is 10 * 7 = $70.\nI hope it is correct: 1 $70$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "1. Ludwig works half a day on Friday, Saturday, and Sunday. That is 1.5 days.\n2. Ludwig works the full day the rest of the week. That is 5 days.\n3. Ludwig's total days worked in a week is 1.5 + 5 = 6.5 days.\n4. Ludwig's weekly salary is 10 * 6.5 = $65. #### $answer$65$",
+        "ground_truth": "Ludwig earns a total of $10 x 4 = $<<10*4=40>>40 from Monday to Thursday.\nHe earns $10/2= $<<10/2=5>>5 per day on Friday, Saturday, and Sunday.\nSo, his total salary for Friday, Saturday, Sunday is $5 x 3 = $<<5*3=15>>15.\nTherefore, his total weekly salary is $40 + $15 = $<<40+15=55>>55.\n#### 55"
+    }
+]

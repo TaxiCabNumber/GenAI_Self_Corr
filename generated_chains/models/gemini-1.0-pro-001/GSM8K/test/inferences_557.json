@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA bag of buttons had 21 buttons in it. Seven buttons had two holes and the rest had four holes. How many holes were in all the buttons in the bag?",
+        "inference": "- 7 buttons with 2 holes, so the total number of holes is 7*2 = 14\n- 21 - 7 = 14 buttons with 4 holes, so the total number of holes is 14*4 = 56\n- The total number of holes is 14 + 56 = 70\nI hope it is correct: 70",
+        "ground_truth": "There were 21 - 7 = <<21-7=14>>14 buttons with four holes.\nThe four-holed buttons had 14 * 4 = <<14*4=56>>56 holes.\nThe two-holed buttons had 7 * 2 = <<7*2=14>>14 holes.\nThus, there were 56 + 14 = <<56+14=70>>70 holes in all the buttons in the bag.\n#### 70"
+    },
+    {
+        "question": "- 7 buttons with 2 holes, so the total number of holes is 7*2 = 14\n- 21 - 7 = 14 buttons with 4 holes, so the total number of holes is 14*4 = 56\n- The total number of holes is 14 + 56 = 70\nI hope it is correct: 70\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$70",
+        "ground_truth": "There were 21 - 7 = <<21-7=14>>14 buttons with four holes.\nThe four-holed buttons had 14 * 4 = <<14*4=56>>56 holes.\nThe two-holed buttons had 7 * 2 = <<7*2=14>>14 holes.\nThus, there were 56 + 14 = <<56+14=70>>70 holes in all the buttons in the bag.\n#### 70"
+    }
+]

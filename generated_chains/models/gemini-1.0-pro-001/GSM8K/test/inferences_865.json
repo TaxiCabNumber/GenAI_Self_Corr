@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA bumper car rink has 12 red cars. They have 2 fewer green cars than they have red cars. They have 3 times the number of blue cars as they have green cars. The rink also has yellow cars.  If the rink has 75 cars in total how many yellow cars do they have?",
+        "inference": "12 red cars\n\n12-2 = 10 green cars\n\n10 x 3 = 30 blue cars\n\n12+10+30+x = 75 cars\n\n52+x = 75 cars\n\nx = 75-52\n\nx = 23 yellow cars\n\nI hope it is correct: 23",
+        "ground_truth": "The rink has 12-2= <<12-2=10>>10 green cars.\nThe rink has 10*3= <<10*3=30>>30 blue cars.\nThe rink has 12+10+30= <<12+10+30=52>>52 cars that are not yellow.\nThe rink has 75-52= <<75-52=23>>23 yellow cars.\n#### 23"
+    },
+    {
+        "question": "12 red cars\n\n12-2 = 10 green cars\n\n10 x 3 = 30 blue cars\n\n12+10+30+x = 75 cars\n\n52+x = 75 cars\n\nx = 75-52\n\nx = 23 yellow cars\n\nI hope it is correct: 23\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$23",
+        "ground_truth": "The rink has 12-2= <<12-2=10>>10 green cars.\nThe rink has 10*3= <<10*3=30>>30 blue cars.\nThe rink has 12+10+30= <<12+10+30=52>>52 cars that are not yellow.\nThe rink has 75-52= <<75-52=23>>23 yellow cars.\n#### 23"
+    }
+]

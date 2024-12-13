@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nKevin has been for a run and wants to calculate how far he traveled. He ran at 10 miles per hour for half an hour, 20 miles per hour for half an hour, then ran at 8 miles per hour for 15 minutes. How many miles has Kevin run?",
+        "inference": "1. Kevin ran at 10 miles per hour for half an hour, so he traveled 10 * 0.5 = 5 miles.\n2. Kevin then ran at 20 miles per hour for half an hour, so he traveled 20 * 0.5 = 10 miles.\n3. Finally, Kevin ran at 8 miles per hour for 15 minutes, which is 0.25 hours, so he traveled 8 * 0.25 = 2 miles.\n4. In total, Kevin traveled 5 + 10 + 2 = 17 miles.\nI hope it is correct: 17 $miles$",
+        "ground_truth": "At his first speed, Kevin ran 10 miles per hour * 0.5 hours = <<10*0.5=5>>5 miles.\nAt his second speed, he ran 20 miles per hour * 0.5 hours = <<20*0.5=10>>10 miles.\n15 minutes is a quarter of an hour so at his third speed, he ran 8 miles per hour * 0.25 hours = <<8*0.25=2>>2 miles.\nTherefore, Kevin ran a total of 5 miles + 10 miles + 2 miles = <<5+10+2=17>>17 miles.\n#### 17"
+    },
+    {
+        "question": "1. Kevin ran at 10 miles per hour for half an hour, so he traveled 10 * 0.5 = 5 miles.\n2. Kevin then ran at 20 miles per hour for half an hour, so he traveled 20 * 0.5 = 10 miles.\n3. Finally, Kevin ran at 8 miles per hour for 15 minutes, which is 0.25 hours, so he traveled 8 * 0.25 = 2 miles.\n4. In total, Kevin traveled 5 + 10 + 2 = 17 miles.\nI hope it is correct: 17 $miles$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 17 $miles$",
+        "ground_truth": "At his first speed, Kevin ran 10 miles per hour * 0.5 hours = <<10*0.5=5>>5 miles.\nAt his second speed, he ran 20 miles per hour * 0.5 hours = <<20*0.5=10>>10 miles.\n15 minutes is a quarter of an hour so at his third speed, he ran 8 miles per hour * 0.25 hours = <<8*0.25=2>>2 miles.\nTherefore, Kevin ran a total of 5 miles + 10 miles + 2 miles = <<5+10+2=17>>17 miles.\n#### 17"
+    }
+]

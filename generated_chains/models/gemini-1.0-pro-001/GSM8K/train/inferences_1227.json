@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nFrancine has five full boxes of crayons and 5 loose crayons, and her friend has 27 loose crayons. They need to put all of their loose crayons in a box. How many more boxes do they need if Francine has a total of 85 crayons?",
+        "inference": "5 full boxes of crayons = 5 * 12 = 60 crayons\nFrancine has 5 loose crayons, so she has 60 + 5 = 65 crayons in total\nHer friend has 27 loose crayons, so they have 65 + 27 = 92 loose crayons in total\nThey need to put all of these loose crayons in a box, so they will need 92 / 12 = 7.67 boxes\nSince they can't have a fraction of a box, they will need 8 boxes\nThey have 5 full boxes, so they need 8 - 5 = 3 more boxes\nI hope it is correct: 3",
+        "ground_truth": "Francine has 85 - 5 = <<85-5=80>>80 crayons in total that are in the boxes.\nThus, each box of crayons is filled with 80/5 = <<80/5=16>>16 crayons.\nA total of 5 + 27 = <<5+27=32>>32 crayons need to be placed in the boxes.\nTherefore, they still need 32/16 = <<32/16=2>>2 boxes for the loose crayons.\n#### 2"
+    },
+    {
+        "question": "5 full boxes of crayons = 5 * 12 = 60 crayons\nFrancine has 5 loose crayons, so she has 60 + 5 = 65 crayons in total\nHer friend has 27 loose crayons, so they have 65 + 27 = 92 loose crayons in total\nThey need to put all of these loose crayons in a box, so they will need 92 / 12 = 7.67 boxes\nSince they can't have a fraction of a box, they will need 8 boxes\nThey have 5 full boxes, so they need 8 - 5 = 3 more boxes\nI hope it is correct: 3\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$3",
+        "ground_truth": "Francine has 85 - 5 = <<85-5=80>>80 crayons in total that are in the boxes.\nThus, each box of crayons is filled with 80/5 = <<80/5=16>>16 crayons.\nA total of 5 + 27 = <<5+27=32>>32 crayons need to be placed in the boxes.\nTherefore, they still need 32/16 = <<32/16=2>>2 boxes for the loose crayons.\n#### 2"
+    }
+]

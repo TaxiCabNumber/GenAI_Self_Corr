@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nGreat Grandma Jones has three children.  And each of her children has three children of their own, who are Great Grandma Jones' grandchildren.  And each of these grandchildren has three babies of their own, who are Great Grandma Jones' great grand-babies.  If all of the family show up at the family reunion, how many great grand-babies will be there for Great Grandma Jones to kiss?",
+        "inference": "1. Great Grandma Jones has three children, so there are 3 grandchildren.\n2. Each grandchild has three babies, so there are 3 x 3 = 9 great grand-babies.\n3. In total, there are 9 great grand-babies at the family reunion.\n\nI hope it is correct: 9",
+        "ground_truth": "Three children each have three children, for a total of 3*3=<<3*3=9>>9 grandchildren.\n9 grandchildren each have 3 babies, for a total of 9*3=<<9*3=27>>27 great grand-babies\n#### 27"
+    },
+    {
+        "question": "1. Great Grandma Jones has three children, so there are 3 grandchildren.\n2. Each grandchild has three babies, so there are 3 x 3 = 9 great grand-babies.\n3. In total, there are 9 great grand-babies at the family reunion.\n\nI hope it is correct: 9\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$9",
+        "ground_truth": "Three children each have three children, for a total of 3*3=<<3*3=9>>9 grandchildren.\n9 grandchildren each have 3 babies, for a total of 9*3=<<9*3=27>>27 great grand-babies\n#### 27"
+    }
+]

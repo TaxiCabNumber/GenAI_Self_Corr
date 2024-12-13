@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nOn Sunday Trey is going to do some chores at home. First, he wants to make a To Do list and count up how many things he has to do that day and how long it should take. He has several items under 'clean the house,' 'take a shower' and then 'make dinner.' In total there are 7 things to do to clean the house; 1 thing to do to take a shower; and 4 things to do to make dinner. If everything on Trey's list takes 10 minutes to do, how many hours total will it take to complete Trey's list?",
+        "inference": "1. Find the total number of things Trey has to do: 7 + 1 + 4 = 12\n2. Find the total number of minutes it will take to complete Trey's list: 12 * 10 = 120 minutes\n3. Convert the total number of minutes to hours: 120 minutes / 60 minutes/hour = 2 hours\nI hope it is correct: 2 hours",
+        "ground_truth": "On Trey's list there are 7 + 1 + 4 things to do = <<7+1+4=12>>12 things to do in total.\nEach thing takes 10 minutes to do, so 10 minutes x 12 things = <<10*12=120>>120 minutes.\nAn hour has 60 minutes in it, so 120 minutes / 60 minutes in an hour = <<120/60=2>>2 total hours it will take Trey to complete his list.\n#### 2"
+    },
+    {
+        "question": "1. Find the total number of things Trey has to do: 7 + 1 + 4 = 12\n2. Find the total number of minutes it will take to complete Trey's list: 12 * 10 = 120 minutes\n3. Convert the total number of minutes to hours: 120 minutes / 60 minutes/hour = 2 hours\nI hope it is correct: 2 hours\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$2 hours",
+        "ground_truth": "On Trey's list there are 7 + 1 + 4 things to do = <<7+1+4=12>>12 things to do in total.\nEach thing takes 10 minutes to do, so 10 minutes x 12 things = <<10*12=120>>120 minutes.\nAn hour has 60 minutes in it, so 120 minutes / 60 minutes in an hour = <<120/60=2>>2 total hours it will take Trey to complete his list.\n#### 2"
+    }
+]

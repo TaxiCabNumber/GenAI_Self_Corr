@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBronson decides to collect Oak Leaves from around his Neighborhood. He collects 12 on Thursday and 13 on Friday. 20% are Brown and 20% are Green. The rest are yellow. How many yellow leaves does he collect?",
+        "inference": "**1- How many leaves did Bronson collect in total?:**\n12 + 13 = 25\n\n**2- How many leaves are Brown?:**\n20% of 25 = 0.20 * 25 = 5\n\n**3- How many leaves are Green?:**\n20% of 25 = 0.20 * 25 = 5\n\n**4- How many yellow leaves does Bronson collect?:**\n25 - 5 - 5 = 15\nI hope it is correct: 15",
+        "ground_truth": "He collects 25 leaves because 12 + 13 = <<12+13=25>>25\n60% of them are yellow because 100 - 20 - 20 = <<100-20-20=60>>60\nHe collects 15 yellow leaves because 25 x .6 = <<25*.6=15>>15\n#### 15"
+    },
+    {
+        "question": "**1- How many leaves did Bronson collect in total?:**\n12 + 13 = 25\n\n**2- How many leaves are Brown?:**\n20% of 25 = 0.20 * 25 = 5\n\n**3- How many leaves are Green?:**\n20% of 25 = 0.20 * 25 = 5\n\n**4- How many yellow leaves does Bronson collect?:**\n25 - 5 - 5 = 15\nI hope it is correct: 15\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$15",
+        "ground_truth": "He collects 25 leaves because 12 + 13 = <<12+13=25>>25\n60% of them are yellow because 100 - 20 - 20 = <<100-20-20=60>>60\nHe collects 15 yellow leaves because 25 x .6 = <<25*.6=15>>15\n#### 15"
+    }
+]

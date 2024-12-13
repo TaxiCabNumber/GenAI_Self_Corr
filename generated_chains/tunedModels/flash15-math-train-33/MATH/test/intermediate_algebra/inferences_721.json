@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $z_1$ and $z_2$ be complex numbers such that $\\frac{z_2}{z_1}$ is pure imaginary and $2z_1 \\neq 7z_2.$  Compute\n\\[\\left| \\frac{2z_1 + 7z_2}{2z_1 - 7z_2} \\right|.\\]",
+        "inference": "Final Answer: \\\\boxed{1}. I hope it is correct. \n",
+        "ground_truth": "Let $w = \\frac{z_2}{z_1}.$  Then $w$ is pure imaginary, so $\\overline{w} = -w.$\n\nWe can write\n\\[\\left| \\frac{2z_1 + 7z_2}{2z_1 - 7z_2} \\right| = \\left| \\frac{2 + 7 \\cdot \\frac{z_2}{z_1}}{2 - 7 \\cdot \\frac{z_2}{z_1}} \\right| = \\left| \\frac{2 + 7w}{2 - 7w} \\right|.\\]The conjugate of $2 + 7w$ is $\\overline{2 + 7w} = 2 + 7 \\overline{w} = 2 - 7w.$  Thus, the denominator $2 - 7w$ is the conjugate of the numerator $2 + 7w,$ which means they have the same absolute value.  Therefore,\n\\[\\left| \\frac{2 + 7w}{2 - 7w} \\right| = \\boxed{1}.\\]"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{1}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need that information to identify any potential errors and rewrite the final solution correctly. \n",
+        "ground_truth": "Let $w = \\frac{z_2}{z_1}.$  Then $w$ is pure imaginary, so $\\overline{w} = -w.$\n\nWe can write\n\\[\\left| \\frac{2z_1 + 7z_2}{2z_1 - 7z_2} \\right| = \\left| \\frac{2 + 7 \\cdot \\frac{z_2}{z_1}}{2 - 7 \\cdot \\frac{z_2}{z_1}} \\right| = \\left| \\frac{2 + 7w}{2 - 7w} \\right|.\\]The conjugate of $2 + 7w$ is $\\overline{2 + 7w} = 2 + 7 \\overline{w} = 2 - 7w.$  Thus, the denominator $2 - 7w$ is the conjugate of the numerator $2 + 7w,$ which means they have the same absolute value.  Therefore,\n\\[\\left| \\frac{2 + 7w}{2 - 7w} \\right| = \\boxed{1}.\\]"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe perimeter of a square-shaped piece of paper is 20 cm shorter than the height of a computer screen. How many cm is the height of the screen if the side of the square paper is 20 cm?",
+        "inference": "The perimeter of a square with side length 20 cm is 4 * 20 = 80 cm. The height of the screen is 80 cm shorter than the perimeter of the square, so the height of the screen is 80 cm - 20 cm = 60 cm.\nI hope it is correct: 60 cm",
+        "ground_truth": "The perimeter of a square is found by 4*side, which means the square paper has a perimeter of 4*20 = <<4*20=80>>80\nSince the perimeter of the square is 20 cm shorter than the height of the computer screen, the height of the computer screen is 20+80 = <<20+80=100>>100cm.\n#### 100"
+    },
+    {
+        "question": "The perimeter of a square with side length 20 cm is 4 * 20 = 80 cm. The height of the screen is 80 cm shorter than the perimeter of the square, so the height of the screen is 80 cm - 20 cm = 60 cm.\nI hope it is correct: 60 cm\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$60cm",
+        "ground_truth": "The perimeter of a square is found by 4*side, which means the square paper has a perimeter of 4*20 = <<4*20=80>>80\nSince the perimeter of the square is 20 cm shorter than the height of the computer screen, the height of the computer screen is 20+80 = <<20+80=100>>100cm.\n#### 100"
+    }
+]

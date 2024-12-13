@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nPatricia has 30 roses. She gave 24 roses to her mother. She bought 15 more roses.  How many roses did she have now?",
+        "inference": "1. Patricia had 30 roses.\n2. She gave 24 roses to her mother, so she had 30 - 24 = 6 roses left.\n3. She bought 15 more roses, so she had 6 + 15 = 21 roses in total.\nI hope it is correct: 21",
+        "ground_truth": "Patricia had 30 - 24 = <<30-24=6>>6 roses left after she gave 24 roses to her mother.\nTherefore, she has 6 + 15 = <<6+15=21>>21 roses now.\n#### 21"
+    },
+    {
+        "question": "1. Patricia had 30 roses.\n2. She gave 24 roses to her mother, so she had 30 - 24 = 6 roses left.\n3. She bought 15 more roses, so she had 6 + 15 = 21 roses in total.\nI hope it is correct: 21\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$21",
+        "ground_truth": "Patricia had 30 - 24 = <<30-24=6>>6 roses left after she gave 24 roses to her mother.\nTherefore, she has 6 + 15 = <<6+15=21>>21 roses now.\n#### 21"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRandy has 9 oatmeal cookies, 4 chocolate chip cookies, and 5 sugar cookies. He ate 3 cookies for an early day snack, one of each flavor. He ate 2 oatmeal cookies for lunch. He gives 2 sugar cookies to his friends. Then, he bakes 4 of each flavor for dinner. How many cookies does he have now?",
+        "inference": "1- Randy has 9 oatmeal cookies, 4 chocolate chip cookies, and 5 sugar cookies.\n9+4+5=18 cookies.\n\n2- He ate 3 cookies for an early snack, one of each flavor.\n18-3=15 cookies.\n\n3- He ate 2 oatmeal cookies for lunch.\n15-2=13 cookies.\n\n4- He gives 2 sugar cookies to his friends.\n13-2=11 cookies.\n\n5- Then, he bakes 4 of each flavor for dinner.\n11+4+4+4=23 cookies.\n\nI hope it is correct: 23 cookies$",
+        "ground_truth": "Randy originally has 9+4+5 = <<9+4+5=18>>18 cookies in total.\nHe has 18-3 = <<18-3=15>>15 cookies left.\nHe has 15-2 = <<15-2=13>>13 cookies left.\nHe has 13-2 = <<13-2=11>>11 cookies left.\nRandy bakes 4*3 = <<4*3=12>>12 cookies.\nRandy has 11+12 = <<11+12=23>>23 cookies.\n#### 23"
+    },
+    {
+        "question": "1- Randy has 9 oatmeal cookies, 4 chocolate chip cookies, and 5 sugar cookies.\n9+4+5=18 cookies.\n\n2- He ate 3 cookies for an early snack, one of each flavor.\n18-3=15 cookies.\n\n3- He ate 2 oatmeal cookies for lunch.\n15-2=13 cookies.\n\n4- He gives 2 sugar cookies to his friends.\n13-2=11 cookies.\n\n5- Then, he bakes 4 of each flavor for dinner.\n11+4+4+4=23 cookies.\n\nI hope it is correct: 23 cookies$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer23$",
+        "ground_truth": "Randy originally has 9+4+5 = <<9+4+5=18>>18 cookies in total.\nHe has 18-3 = <<18-3=15>>15 cookies left.\nHe has 15-2 = <<15-2=13>>13 cookies left.\nHe has 13-2 = <<13-2=11>>11 cookies left.\nRandy bakes 4*3 = <<4*3=12>>12 cookies.\nRandy has 11+12 = <<11+12=23>>23 cookies.\n#### 23"
+    }
+]

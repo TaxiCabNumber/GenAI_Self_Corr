@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $f(x)=x+3$ and $g(x)=3x+5$.  Find $f(g(4))-g(f(4))$.",
+        "inference": "$$f(g(4))=f(3(4)+5)=f(17)=17+3=20$$ $$g(f(4))=g(4+3)=g(7)=3(7)+5=26$$ $$f(g(4))-g(f(4))=20-26=-6$$\nFinal Answer: \\boxed{-6}. I hope it is correct.",
+        "ground_truth": "We have $g(4) = 3\\cdot 4 + 5= 17$, so $f(g(4)) = f(17) = 17 + 3 = 20$. We also have $f(4) = 4+3 = 7$, so $g(f(4)) = g(7)=3\\cdot 7 + 5 = 26$.  Therefore, $f(g(4)) - g(f(4)) = 20 - 26 = \\boxed{-6}$."
+    },
+    {
+        "question": "$$f(g(4))=f(3(4)+5)=f(17)=17+3=20$$ $$g(f(4))=g(4+3)=g(7)=3(7)+5=26$$ $$f(g(4))-g(f(4))=20-26=-6$$\nFinal Answer: \\boxed{-6}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{-6}",
+        "ground_truth": "We have $g(4) = 3\\cdot 4 + 5= 17$, so $f(g(4)) = f(17) = 17 + 3 = 20$. We also have $f(4) = 4+3 = 7$, so $g(f(4)) = g(7)=3\\cdot 7 + 5 = 26$.  Therefore, $f(g(4)) - g(f(4)) = 20 - 26 = \\boxed{-6}$."
+    }
+]

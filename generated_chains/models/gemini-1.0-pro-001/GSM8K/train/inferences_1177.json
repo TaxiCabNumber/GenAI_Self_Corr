@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJames rents his car out for $20 an hour.  He rents it for 8 hours a day 4 days a week.  How much does he make a week?",
+        "inference": "1. Calculate the amount James earns per day by multiplying the hourly rate by the number of hours worked per day: $20/hr x 8 hr/day = $160/day\n2. Calculate the amount James earns in a week by multiplying the daily earnings by the number of days worked per week: $160/day x 4 days/week = $640/week\nI hope it is correct: 640$",
+        "ground_truth": "He rents it out for 8*4=<<8*4=32>>32 hours\nThat means he makes 32*20=$<<32*20=640>>640\n#### 640"
+    },
+    {
+        "question": "1. Calculate the amount James earns per day by multiplying the hourly rate by the number of hours worked per day: $20/hr x 8 hr/day = $160/day\n2. Calculate the amount James earns in a week by multiplying the daily earnings by the number of days worked per week: $160/day x 4 days/week = $640/week\nI hope it is correct: 640$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$640",
+        "ground_truth": "He rents it out for 8*4=<<8*4=32>>32 hours\nThat means he makes 32*20=$<<32*20=640>>640\n#### 640"
+    }
+]

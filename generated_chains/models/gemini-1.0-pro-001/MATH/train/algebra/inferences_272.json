@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the fraction that equals $0.\\overline{73}$.",
+        "inference": "Let $x = 0.\\overline{73} = 0.737373...$.\n\nThen $100x = 73.\\overline{73}$\n\nSubtracting the first equation from the second equation gives,\n\n$$100x - x = 73.\\overline{73} - 0.\\overline{73}$$ $$99x = 73$$\n\nDividing both sides by $99$,\n$$x = \\frac{73}{99}$$\n\nSimplifying the fraction,\n$$x = \\frac{73}{99} = \\frac{73 \\div 11}{99 \\div 11}$$ $$x = \\frac{7}{9}$$\n\n**Final Answer: $\\boxed{\\frac{7}{9}}$. I hope it is correct.**",
+        "ground_truth": "We have \\[0.\\overline{73} = \\frac{73}{100} + \\frac{73}{10000} + \\frac{73}{1000000} + \\cdots.\\]This infinite geometric series has first term $73/100$ and common ratio $1/100$, so we have \\[0.\\overline{73} = \\frac{73/100}{1-1/100} = \\boxed{\\frac{73}{99}}.\\]"
+    },
+    {
+        "question": "Let $x = 0.\\overline{73} = 0.737373...$.\n\nThen $100x = 73.\\overline{73}$\n\nSubtracting the first equation from the second equation gives,\n\n$$100x - x = 73.\\overline{73} - 0.\\overline{73}$$ $$99x = 73$$\n\nDividing both sides by $99$,\n$$x = \\frac{73}{99}$$\n\nSimplifying the fraction,\n$$x = \\frac{73}{99} = \\frac{73 \\div 11}{99 \\div 11}$$ $$x = \\frac{7}{9}$$\n\n**Final Answer: $\\boxed{\\frac{7}{9}}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$\\frac{7}{9}$}",
+        "ground_truth": "We have \\[0.\\overline{73} = \\frac{73}{100} + \\frac{73}{10000} + \\frac{73}{1000000} + \\cdots.\\]This infinite geometric series has first term $73/100$ and common ratio $1/100$, so we have \\[0.\\overline{73} = \\frac{73/100}{1-1/100} = \\boxed{\\frac{73}{99}}.\\]"
+    }
+]

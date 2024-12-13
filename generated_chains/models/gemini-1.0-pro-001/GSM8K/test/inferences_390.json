@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMonica is wrapping Christmas gifts. She has 6 gifts to wrap for her family, 4 gifts to wrap for her friends and 2 gifts to wrap for her teachers. She has 144 inches of ribbon and wants to make a bow for each gift with it. How many inches of ribbon can she use for each gift bow?",
+        "inference": "- 6 gifts for her family means 6 * 1 bow = 6 bows.\n- 4 gifts for her friends means 4 * 1 bow = 4 bows.\n- 2 gifts for her teachers means 2 * 1 bow = 2 bows.\n\n- Total number of bows = 6 + 4 + 2 = 12 bows.\n\n- Inches of ribbon per bow = 144 inches / 12 bows = 12 inches.\n\nI hope it is correct: 12 inches",
+        "ground_truth": "Monica is has 6 gifts for family + 4 gifts for friends + 2 gifts for teachers = <<6+4+2=12>>12 gifts to wrap.\nHer ribbon can be divided equally 144 inches of ribbon / 12 gifts = <<144/12=12>>12 inches of ribbon per gift.\n#### 12"
+    },
+    {
+        "question": "- 6 gifts for her family means 6 * 1 bow = 6 bows.\n- 4 gifts for her friends means 4 * 1 bow = 4 bows.\n- 2 gifts for her teachers means 2 * 1 bow = 2 bows.\n\n- Total number of bows = 6 + 4 + 2 = 12 bows.\n\n- Inches of ribbon per bow = 144 inches / 12 bows = 12 inches.\n\nI hope it is correct: 12 inches\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$12",
+        "ground_truth": "Monica is has 6 gifts for family + 4 gifts for friends + 2 gifts for teachers = <<6+4+2=12>>12 gifts to wrap.\nHer ribbon can be divided equally 144 inches of ribbon / 12 gifts = <<144/12=12>>12 inches of ribbon per gift.\n#### 12"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA company has 200 employees.  60% of the employees drive to work.  Of the employees who don't drive to work, half take public transportation. How many more employees drive to work than take public transportation?",
+        "inference": "**Step 1:**\n60% of 200 employees drive to work, so 0.6 x 200 = 120 employees drive to work.\n**Step 2:**\n40% of 200 employees don't drive to work, so 0.4 x 200 = 80 employees don't drive to work.\n**Step 3:**\nHalf of the 80 employees who don't drive to work take public transportation, so 0.5 x 80 = 40 employees take public transportation.\n**Step 4:**\nThere are 120 employees who drive to work and 40 employees who take public transportation, so there are 120 - 40 = 80 more employees who drive to work than take public transportation.\nI hope it is correct: 80 $employees$",
+        "ground_truth": "Drive to work:200(.60)=<<200*.60=120>>120\nDon't Drive to work:200-120=<<200-120=80>>80\nPublic Transportation:80(.50)=40 employees\n80-40=<<80-40=40>>40 employees\n#### 40"
+    },
+    {
+        "question": "**Step 1:**\n60% of 200 employees drive to work, so 0.6 x 200 = 120 employees drive to work.\n**Step 2:**\n40% of 200 employees don't drive to work, so 0.4 x 200 = 80 employees don't drive to work.\n**Step 3:**\nHalf of the 80 employees who don't drive to work take public transportation, so 0.5 x 80 = 40 employees take public transportation.\n**Step 4:**\nThere are 120 employees who drive to work and 40 employees who take public transportation, so there are 120 - 40 = 80 more employees who drive to work than take public transportation.\nI hope it is correct: 80 $employees$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 80",
+        "ground_truth": "Drive to work:200(.60)=<<200*.60=120>>120\nDon't Drive to work:200-120=<<200-120=80>>80\nPublic Transportation:80(.50)=40 employees\n80-40=<<80-40=40>>40 employees\n#### 40"
+    }
+]

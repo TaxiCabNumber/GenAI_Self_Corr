@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\n20% of 50 people think horse #2 will win the big race.  60% of the remaining people think horse #7 will win.  The rest of the people think horse #12 will win the big race.  How many people think that horse #12 will win?",
+        "inference": "20% of 50 people think horse #2 will win. That is 10 people.\n60% of the remaining people think horse #7 will win. That is 60% of 40 people, which is 24 people.\nThe rest of the people think horse #12 will win the big race. That means that 16 people think that horse #12 will win.\nI hope it is correct: 16",
+        "ground_truth": "20% of 50 people are pulling for horse #2 so that's .20*50 = <<.20*50=10>>10 people\n10 out of 50 people think horse #2 will win which leaves 50-10 = <<50-10=40>>40 people\n60% of 40 people think horse #7 will win so that's .60*40 = <<60*.01*40=24>>24 people\nThat leaves 40-24 = <<40-24=16>>16 people that think horse #12 will win\n#### 16"
+    },
+    {
+        "question": "20% of 50 people think horse #2 will win. That is 10 people.\n60% of the remaining people think horse #7 will win. That is 60% of 40 people, which is 24 people.\nThe rest of the people think horse #12 will win the big race. That means that 16 people think that horse #12 will win.\nI hope it is correct: 16\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 16",
+        "ground_truth": "20% of 50 people are pulling for horse #2 so that's .20*50 = <<.20*50=10>>10 people\n10 out of 50 people think horse #2 will win which leaves 50-10 = <<50-10=40>>40 people\n60% of 40 people think horse #7 will win so that's .60*40 = <<60*.01*40=24>>24 people\nThat leaves 40-24 = <<40-24=16>>16 people that think horse #12 will win\n#### 16"
+    }
+]

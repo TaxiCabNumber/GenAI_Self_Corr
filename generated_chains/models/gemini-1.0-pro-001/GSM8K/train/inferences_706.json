@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA pool has 48 blue tiles and 32 red tiles. If the pool needs 100 tiles to be completed, how many more tiles are needed?",
+        "inference": "1. Find the total number of tiles in the pool: 48 + 32 = 80\n2. Subtract the total number of tiles in the pool from the number of tiles needed to complete the pool: 100 - 80 = 20\n3. The pool needs 20 more tiles to be completed.\nI hope it is correct: 20",
+        "ground_truth": "The pool currently has 48+32 = <<48+32=80>>80 tiles.\nThe pool needs 100-80 = <<100-80=20>>20 more tiles to be completed.\n#### 20"
+    },
+    {
+        "question": "1. Find the total number of tiles in the pool: 48 + 32 = 80\n2. Subtract the total number of tiles in the pool from the number of tiles needed to complete the pool: 100 - 80 = 20\n3. The pool needs 20 more tiles to be completed.\nI hope it is correct: 20\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$20",
+        "ground_truth": "The pool currently has 48+32 = <<48+32=80>>80 tiles.\nThe pool needs 100-80 = <<100-80=20>>20 more tiles to be completed.\n#### 20"
+    }
+]

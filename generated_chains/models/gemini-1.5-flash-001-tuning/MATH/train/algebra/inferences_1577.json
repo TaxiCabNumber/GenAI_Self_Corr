@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the sum of $1+2+4+8+16+ \\cdots + 1024$?",
+        "inference": "Final Answer: $\\boxed{2047}$. I hope it is correct. \n",
+        "ground_truth": "This is a finite geometric series with first term 1, common ratio 2 and 11 terms. Thus the sum is: $$\\frac{1(1-2^{11})}{1-2} = \\frac{1-2^{11}}{-1} = 2^{11}-1 = 2048-1 = \\boxed{2047}.$$"
+    },
+    {
+        "question": "Final Answer: $\\boxed{2047}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the original problem and the solution you mentioned so I can help you find the error and provide the correct solution. \n",
+        "ground_truth": "This is a finite geometric series with first term 1, common ratio 2 and 11 terms. Thus the sum is: $$\\frac{1(1-2^{11})}{1-2} = \\frac{1-2^{11}}{-1} = 2^{11}-1 = 2048-1 = \\boxed{2047}.$$"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the largest value of $t$ such that \\[\\frac{13t^2 - 34t + 12}{3t - 2 } + 5t = 6t - 1.\\]",
+        "inference": "Solution:\n\\[\\frac{13t^2-34t+12}{3t-2}+5t=6t-1\\]\n\\(13t^2-34t+12+15t(3t-2)=18t(3t-2)-6(3t-2)\\)\n\\(13t^2+31t+12+45t^2-60t=54t^2-108t+12\\)\n\\(9t^2+9t=0\\)\n\\(9t(t+1)=0\\)\n\\(t=0,\\space t=-1\\)\nSince $t$ must be positive, the largest value of $t$ is $t=\\boxed{0}$.\nFinal Answer: $\\boxed{0}$. I hope it is correct.",
+        "ground_truth": "We might try to factor the quadratic, but unfortunately that doesn't get us anywhere.  Instead, we start by subtracting $5t$ from both sides so as to isolate the fraction. This gives us  \\[\\frac{13t^2 -34t + 12}{3t-2 } = t-1.\\]Multiplying both sides by $3t-2$ gives  \\[13t^ 2-34t + 12 = (t-1)(3t-2).\\]Expanding the right side gives $13t^2 - 34t + 12 = 3t^2 -5t+2$, so  $10t^2 -29t +10 = 0$. Factoring gives $(2t - 5)(5t-2)=0$, which has solutions $t=2/5$ and $t=5/2$.  The largest of these is $\\boxed{\\frac{5}{2}}$."
+    },
+    {
+        "question": "Solution:\n\\[\\frac{13t^2-34t+12}{3t-2}+5t=6t-1\\]\n\\(13t^2-34t+12+15t(3t-2)=18t(3t-2)-6(3t-2)\\)\n\\(13t^2+31t+12+45t^2-60t=54t^2-108t+12\\)\n\\(9t^2+9t=0\\)\n\\(9t(t+1)=0\\)\n\\(t=0,\\space t=-1\\)\nSince $t$ must be positive, the largest value of $t$ is $t=\\boxed{0}$.\nFinal Answer: $\\boxed{0}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{0}",
+        "ground_truth": "We might try to factor the quadratic, but unfortunately that doesn't get us anywhere.  Instead, we start by subtracting $5t$ from both sides so as to isolate the fraction. This gives us  \\[\\frac{13t^2 -34t + 12}{3t-2 } = t-1.\\]Multiplying both sides by $3t-2$ gives  \\[13t^ 2-34t + 12 = (t-1)(3t-2).\\]Expanding the right side gives $13t^2 - 34t + 12 = 3t^2 -5t+2$, so  $10t^2 -29t +10 = 0$. Factoring gives $(2t - 5)(5t-2)=0$, which has solutions $t=2/5$ and $t=5/2$.  The largest of these is $\\boxed{\\frac{5}{2}}$."
+    }
+]

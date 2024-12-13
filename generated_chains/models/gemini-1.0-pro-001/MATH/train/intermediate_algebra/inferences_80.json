@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSimplify\n\\[\\left( \\frac{1 + i}{1 - i} \\right)^{1000}.\\]",
+        "inference": "We have\n\\begin{align*}\n\\left( \\frac{1 + i}{1 - i} \\right)^{1000} &= \\left( \\frac{1 + i}{1 - i} \\cdot \\frac{1 + i}{1 + i} \\right)^{1000}\\\\\n&= \\left( \\frac{1 + 2i + i^2}{1 - i^2} \\right)^{1000}\\\\\n&= \\left( \\frac{2i}{2} \\right)^{1000}\\\\\n&= \\left( i \\right)^{1000}\\\\\n&= i^{4\\cdot 250}\\\\\n&= (i^4)^{250}\\\\\n&= 1^{250}\\\\\n&= \\boxed{1}.\n\\end{align*}\nFinal Answer: \\boxed{$1$}. I hope it is correct.",
+        "ground_truth": "First,\n\\[\\frac{1 + i}{1 - i} = \\frac{(1 + i)(1 + i)}{(1 - i)(1 + i)} = \\frac{1 + 2i + i^2}{1 - i^2} = \\frac{1 + 2i - 1}{1 + 1} = \\frac{2i}{2} = i.\\]So,\n\\[\\left( \\frac{1 + i}{1 - i} \\right)^{1000} = i^{1000} = (i^2)^{500} = (-1)^{500} = \\boxed{1}.\\]"
+    },
+    {
+        "question": "We have\n\\begin{align*}\n\\left( \\frac{1 + i}{1 - i} \\right)^{1000} &= \\left( \\frac{1 + i}{1 - i} \\cdot \\frac{1 + i}{1 + i} \\right)^{1000}\\\\\n&= \\left( \\frac{1 + 2i + i^2}{1 - i^2} \\right)^{1000}\\\\\n&= \\left( \\frac{2i}{2} \\right)^{1000}\\\\\n&= \\left( i \\right)^{1000}\\\\\n&= i^{4\\cdot 250}\\\\\n&= (i^4)^{250}\\\\\n&= 1^{250}\\\\\n&= \\boxed{1}.\n\\end{align*}\nFinal Answer: \\boxed{$1$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$1$}.",
+        "ground_truth": "First,\n\\[\\frac{1 + i}{1 - i} = \\frac{(1 + i)(1 + i)}{(1 - i)(1 + i)} = \\frac{1 + 2i + i^2}{1 - i^2} = \\frac{1 + 2i - 1}{1 + 1} = \\frac{2i}{2} = i.\\]So,\n\\[\\left( \\frac{1 + i}{1 - i} \\right)^{1000} = i^{1000} = (i^2)^{500} = (-1)^{500} = \\boxed{1}.\\]"
+    }
+]

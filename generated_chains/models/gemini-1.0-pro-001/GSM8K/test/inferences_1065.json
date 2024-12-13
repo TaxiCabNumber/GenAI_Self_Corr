@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIf John scored 100 on his first 3 tests and an 80 on his 4th, what was his average score across the 4 tests?",
+        "inference": "1) To get the average, we sum the scores and divide by the number of values.\n2) So, we have (100 + 100 + 100 + 80) / 4 = 480 / 4 = 120\nI hope it is correct: 120",
+        "ground_truth": "100+100+100+80=<<100+100+100+80=380>>380 total score across 4 tests\n380 total score / 4 tests = <<380/4=95>>95 average score\n#### 95"
+    },
+    {
+        "question": "1) To get the average, we sum the scores and divide by the number of values.\n2) So, we have (100 + 100 + 100 + 80) / 4 = 480 / 4 = 120\nI hope it is correct: 120\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 120",
+        "ground_truth": "100+100+100+80=<<100+100+100+80=380>>380 total score across 4 tests\n380 total score / 4 tests = <<380/4=95>>95 average score\n#### 95"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMy wife wants to evenly split the check but wants me to pay an additional 20% tip on our $50 dinner bill. How much did I end up paying?",
+        "inference": "I hope it is correct: $60.00 \n",
+        "ground_truth": "If the total bill is $50, the total tip of 20% would be $50*20% = $<<50*20*.01=10>>10\nSimilarly, if the bill was $50 an even split (1/2) would be $50 * 1/2 = $<<50*1/2=25>>25 to be paid by each person\nThat means I paid $25 for the bill + $10 for the tip = $<<25+10=35>>35\n#### 35"
+    },
+    {
+        "question": "I hope it is correct: $60.00 \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $60.00 \n",
+        "ground_truth": "If the total bill is $50, the total tip of 20% would be $50*20% = $<<50*20*.01=10>>10\nSimilarly, if the bill was $50 an even split (1/2) would be $50 * 1/2 = $<<50*1/2=25>>25 to be paid by each person\nThat means I paid $25 for the bill + $10 for the tip = $<<25+10=35>>35\n#### 35"
+    }
+]

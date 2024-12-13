@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nHenry wants to buy a t-shirt, a pair of jeans and a pair of socks. The jeans are twice the price of the t-shirt, and the t-shirt is $10 more expensive than the socks. The socks cost $5. How much does Henry need to pay for the pair of jeans?",
+        "inference": "- The socks cost $5\n- The t-shirt is $10 more expensive than the socks, so the t-shirt costs $5 + 10 = $15\n- The jeans are twice the price of the t-shirt, so the jeans cost $15 x 2 = $30\n\nI hope it is correct: $30",
+        "ground_truth": "The t-shirt costs $10 more than the socks, so it costs $5 + $10 = $15.\nThe jeans are twice the price of the shirt, so they cost 2 * $15 = $<<2*15=30>>30.\n#### 30"
+    },
+    {
+        "question": "- The socks cost $5\n- The t-shirt is $10 more expensive than the socks, so the t-shirt costs $5 + 10 = $15\n- The jeans are twice the price of the t-shirt, so the jeans cost $15 x 2 = $30\n\nI hope it is correct: $30\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$30",
+        "ground_truth": "The t-shirt costs $10 more than the socks, so it costs $5 + $10 = $15.\nThe jeans are twice the price of the shirt, so they cost 2 * $15 = $<<2*15=30>>30.\n#### 30"
+    }
+]

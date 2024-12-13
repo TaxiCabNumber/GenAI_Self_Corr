@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are some lions in Londolozi at first. Lion cubs are born at the rate of 5 per month and lions die at the rate of 1 per month. If there are 148 lions in Londolozi after 1 year, how many lions were there in Londolozi at first?",
+        "inference": "Number of lions in the beginning = x\n\nNumber of cubs born in 1 year = (5 per month)*(12 months) = 60\n\nNumber of lions died in 1 year = (1 per month)*(12 months) = 12\n\nNumber of lions in the end = x + 60 - 12 = 148\n\nTherefore, the number of lions in the beginning was: x = 148 - 60 + 12 = 100\n\nI hope it is correct: 100",
+        "ground_truth": "There are 5-1=<<5-1=4>>4 more lions each month.\nThere will be 4*12=<<4*12=48>>48 more lions after 1 year.\nThere were 148-48=<<148-48=100>>100 lions in Londolozi at first.\n#### 100"
+    },
+    {
+        "question": "Number of lions in the beginning = x\n\nNumber of cubs born in 1 year = (5 per month)*(12 months) = 60\n\nNumber of lions died in 1 year = (1 per month)*(12 months) = 12\n\nNumber of lions in the end = x + 60 - 12 = 148\n\nTherefore, the number of lions in the beginning was: x = 148 - 60 + 12 = 100\n\nI hope it is correct: 100\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 100",
+        "ground_truth": "There are 5-1=<<5-1=4>>4 more lions each month.\nThere will be 4*12=<<4*12=48>>48 more lions after 1 year.\nThere were 148-48=<<148-48=100>>100 lions in Londolozi at first.\n#### 100"
+    }
+]

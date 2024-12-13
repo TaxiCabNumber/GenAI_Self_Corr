@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAt the beginning of the party, there were 25 men and 15 women. After an hour, 1/4 of the total number of people left. How many women are left if 22 men stayed at the party?",
+        "inference": "1. Find the total number of people at the beginning of the party: 25 men + 15 women = 40 people.\n2. Find the number of people who left after an hour: 1/4 of 40 people = 10 people.\n3. Find the number of people who stayed at the party: 40 people - 10 people = 30 people.\n4. Find the number of women who stayed at the party: 30 people - 22 men = 8 women.\nI hope it is correct: 8 $women$",
+        "ground_truth": "There were a total of 25 men + 15 women = <<25+15=40>>40 people who attended the party.\nAfter an hour, 40 people / 4 = <<40/4=10>>10 people left the party.\nThis means 40 people - 10 people = <<40-10=30>>30 people stayed.\nOut of the 30 who stayed, 30 people - 22 men = <<30-22=8>>8 were women.\n#### 8"
+    },
+    {
+        "question": "1. Find the total number of people at the beginning of the party: 25 men + 15 women = 40 people.\n2. Find the number of people who left after an hour: 1/4 of 40 people = 10 people.\n3. Find the number of people who stayed at the party: 40 people - 10 people = 30 people.\n4. Find the number of women who stayed at the party: 30 people - 22 men = 8 women.\nI hope it is correct: 8 $women$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 8",
+        "ground_truth": "There were a total of 25 men + 15 women = <<25+15=40>>40 people who attended the party.\nAfter an hour, 40 people / 4 = <<40/4=10>>10 people left the party.\nThis means 40 people - 10 people = <<40-10=30>>30 people stayed.\nOut of the 30 who stayed, 30 people - 22 men = <<30-22=8>>8 were women.\n#### 8"
+    }
+]

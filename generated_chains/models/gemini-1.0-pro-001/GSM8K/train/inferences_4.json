@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJames writes a 3-page letter to 2 different friends twice a week.  How many pages does he write a year?",
+        "inference": "1. Figure out how many letters James writes in a week: \n2 * 2 = 4 letters per week\n\n2. Figure out how many letters James writes in a year:\n4 * 52 = 208 letters per year\n\n3. Figure out how many pages James writes in a year:\n208 * 3 = 624 pages per year\n\nI hope it is correct: 624",
+        "ground_truth": "He writes each friend 3*2=<<3*2=6>>6 pages a week\nSo he writes 6*2=<<6*2=12>>12 pages every week\nThat means he writes 12*52=<<12*52=624>>624 pages a year\n#### 624"
+    },
+    {
+        "question": "1. Figure out how many letters James writes in a week: \n2 * 2 = 4 letters per week\n\n2. Figure out how many letters James writes in a year:\n4 * 52 = 208 letters per year\n\n3. Figure out how many pages James writes in a year:\n208 * 3 = 624 pages per year\n\nI hope it is correct: 624\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 624",
+        "ground_truth": "He writes each friend 3*2=<<3*2=6>>6 pages a week\nSo he writes 6*2=<<6*2=12>>12 pages every week\nThat means he writes 12*52=<<12*52=624>>624 pages a year\n#### 624"
+    }
+]

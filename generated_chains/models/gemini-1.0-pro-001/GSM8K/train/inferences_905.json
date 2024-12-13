@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSue works in a factory and every 30 minutes, a machine she oversees produces 30 cans of soda. How many cans of soda can one machine produce in 8 hours?",
+        "inference": "1. Convert 8 hours to minutes: 8 hours \u22c5 60 minutes/hour = 480 minutes \n\n\n2. Determine the number of 30-minute intervals in 480 minutes: 480 minutes / 30 minutes/interval = 16 intervals\n\n\n3. Calculate the total number of cans produced in 16 intervals: 16 intervals \u22c5 30 cans/interval = 480 cans\n\n\nI hope it is correct: 480 cans",
+        "ground_truth": "Since there are 2 sets of 30 minutes in an hour, then in 8 hours there are 8 x 2 = <<8*2=16>>16 sets of 30 minutes.\nHence, a machine that Sue oversees can produce 30 cans x 16 = <<30*16=480>>480 cans of soda in 8 hours.\n#### 480"
+    },
+    {
+        "question": "1. Convert 8 hours to minutes: 8 hours \u22c5 60 minutes/hour = 480 minutes \n\n\n2. Determine the number of 30-minute intervals in 480 minutes: 480 minutes / 30 minutes/interval = 16 intervals\n\n\n3. Calculate the total number of cans produced in 16 intervals: 16 intervals \u22c5 30 cans/interval = 480 cans\n\n\nI hope it is correct: 480 cans\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 480",
+        "ground_truth": "Since there are 2 sets of 30 minutes in an hour, then in 8 hours there are 8 x 2 = <<8*2=16>>16 sets of 30 minutes.\nHence, a machine that Sue oversees can produce 30 cans x 16 = <<30*16=480>>480 cans of soda in 8 hours.\n#### 480"
+    }
+]

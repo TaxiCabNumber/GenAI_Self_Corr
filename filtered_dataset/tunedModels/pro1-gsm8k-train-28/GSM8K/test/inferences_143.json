@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn buys milk for 2 dollars, eggs for 3 dollars, light bulbs for 3 dollars, cups for 3 dollars, and roach traps for 4 dollars.  If there is a 10% tax on all nonfood items how much did everything cost.",
+        "inference": "**Solution:**\n1. Identify the nonfood items: light bulbs, cups, and roach traps.\n2. Calculate the total cost of the nonfood items: $3 + $3 + $4 = $10.\n3. Calculate the amount of tax on the nonfood items: $10 * 0.10 = $1.\n4. Add the tax to the cost of the nonfood items: $10 + $1 = $11.\n5. Add the cost of the food items: $2 + $3 = $5.\n6. Add the cost of the nonfood items and the food items: $11 + $5 = $16.\n\n**I hope it is correct: $16$**",
+        "ground_truth": "The foodstuff cost 2+3=$<<2+3=5>>5\nThe nonfood stuff comes out to 3+3+4=$<<3+3+4=10>>10\nTax on the nonfood stuff comes out to 10*.1=$<<10*.1=1>>1\nSo the total cost is 5+10+1=$<<5+10+1=16>>16\n#### 16"
+    },
+    {
+        "question": "**Solution:**\n1. Identify the nonfood items: light bulbs, cups, and roach traps.\n2. Calculate the total cost of the nonfood items: $3 + $3 + $4 = $10.\n3. Calculate the amount of tax on the nonfood items: $10 * 0.10 = $1.\n4. Add the tax to the cost of the nonfood items: $10 + $1 = $11.\n5. Add the cost of the food items: $2 + $3 = $5.\n6. Add the cost of the nonfood items and the food items: $11 + $5 = $16.\n\n**I hope it is correct: $16$**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$=16",
+        "ground_truth": "The foodstuff cost 2+3=$<<2+3=5>>5\nThe nonfood stuff comes out to 3+3+4=$<<3+3+4=10>>10\nTax on the nonfood stuff comes out to 10*.1=$<<10*.1=1>>1\nSo the total cost is 5+10+1=$<<5+10+1=16>>16\n#### 16"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWe roll a fair 6-sided die 5 times.  What is the probability that we get a 6 in at most 2 of the rolls?",
+        "inference": "Final Answer: \\\\boxed{\\frac{325}{3888}}. I hope it is correct. \n",
+        "ground_truth": "The number of ways to roll exactly 2 6's is $\\binom{5}{2}5^3$, since there are $\\binom{5}{2}$ choices for which of the two dice are 6, and there are 5 choices for each of the other 3 dice. Similarly, the number of ways to roll exactly 1 6 is $\\binom{5}{1}5^4$, and the number of ways to roll no 6's is $\\binom{5}{0}5^5$. So the probability is \\[\\frac{\\binom{5}{2}5^3+\\binom{5}{1}5^4+\\binom{5}{0}5^5}{6^5}=\\boxed{\\frac{625}{648}}.\\]"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{\\frac{325}{3888}}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the question and the solution so I can check for errors and provide the correct final answer. \n",
+        "ground_truth": "The number of ways to roll exactly 2 6's is $\\binom{5}{2}5^3$, since there are $\\binom{5}{2}$ choices for which of the two dice are 6, and there are 5 choices for each of the other 3 dice. Similarly, the number of ways to roll exactly 1 6 is $\\binom{5}{1}5^4$, and the number of ways to roll no 6's is $\\binom{5}{0}5^5$. So the probability is \\[\\frac{\\binom{5}{2}5^3+\\binom{5}{1}5^4+\\binom{5}{0}5^5}{6^5}=\\boxed{\\frac{625}{648}}.\\]"
+    }
+]

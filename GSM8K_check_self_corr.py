@@ -119,6 +119,20 @@ def plot_correctness_one_round(first_results, next_results, folder_path="./proce
     # Find indices where first_results == 0 and next_results == 1
     improvement_indices = [i for i, (first, next_) in enumerate(zip(first_results, next_results)) if first == 0 and 1 in next_]
 
+    # Return the ratio of improvement
+    print("Pairwise generation statistics")
+    incorrect_indices = [i for i, (first, next_) in enumerate(zip(first_results, next_results)) if first == 0 and 0 in next_]
+    degradation_indices = [i for i, (first, next_) in enumerate(zip(first_results, next_results)) if first == 1 and 0 in next_]
+    correct_indices = [i for i, (first, next_) in enumerate(zip(first_results, next_results)) if first == 1 and 1 in next_]
+    
+    divisor = len(first_results)
+    print(f'GSM8K {mode} split STaR generation for {model_name}')
+    print(f"(1,1) Correct: {100*len(correct_indices) / divisor}%")
+    print(f"(0,0) Incorrect: {100*len(incorrect_indices) / divisor}%")
+    print(f"(1,0) Degradation: {100*len(degradation_indices) / divisor}%")
+    print(f"(0,1) Improvement: {100*len(improvement_indices) / divisor}%")
+
+
     # Plotting
     plt.figure(figsize=(10, 6))
 
@@ -172,9 +186,9 @@ Manual run with F5
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Evaluate model accuracy and plot results.")
-    parser.add_argument("--folder_path", type=str, required=True, help="Path to the folder containing JSON files.")
-    parser.add_argument("--model_name", type=str, required=True, help="Path to the folder containing JSON files.")
-    parser.add_argument("--mode", type=str, required=True, help="Path to the folder containing JSON files.")
+    parser.add_argument("--folder_path", type=str, default="./generated_chains/models/gemini-1.5-flash-001-tuning/GSM8K/test", required=False, help="Path to the folder containing JSON files.")
+    parser.add_argument("--model_name", type=str, default="models/gemini-1.5-flash-001-tuning", required=False, help="Path to the folder containing JSON files.")
+    parser.add_argument("--mode", type=str, default="test", required=False, help="Path to the folder containing JSON files.")
     args = parser.parse_args()
 
     folder_path = args.folder_path

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nOn Tuesday, Peter wants to exercise for twice the amount of time he did on Monday and Sunday combined. On Sunday he exercised for 23 minutes. On Monday he exercised for 16 minutes. How many minutes does he have to exercise on Tuesday to reach his goal?",
+        "inference": "1. Calculate the total time Peter exercised on Sunday and Monday: 23 + 16 = 39 minutes.\n2. Determine the amount of time Peter needs to exercise on Tuesday: 39 x 2 = 78 minutes.\nI hope it is correct: 78 $minutes$",
+        "ground_truth": "On Sunday and Monday he exercised a total of 39 minutes because 23 + 16 = <<23+16=39>>39\nOn Tuesday he has to exercise for 78 minutes because 39 x 2 = <<39*2=78>>78\n#### 78"
+    },
+    {
+        "question": "1. Calculate the total time Peter exercised on Sunday and Monday: 23 + 16 = 39 minutes.\n2. Determine the amount of time Peter needs to exercise on Tuesday: 39 x 2 = 78 minutes.\nI hope it is correct: 78 $minutes$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 78",
+        "ground_truth": "On Sunday and Monday he exercised a total of 39 minutes because 23 + 16 = <<23+16=39>>39\nOn Tuesday he has to exercise for 78 minutes because 39 x 2 = <<39*2=78>>78\n#### 78"
+    }
+]

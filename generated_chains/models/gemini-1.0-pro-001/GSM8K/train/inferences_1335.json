@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nLexie and Tom went apple picking. Lexie picked 12 apples and Tom picked twice as many apples. How many apples did they collect altogether?",
+        "inference": "1. Lexie picked 12 apples.\n2. Tom picked twice as many apples as Lexie, so Tom picked 12 x 2 = 24 apples.\n3. Lexie and Tom picked 12 + 24 = 36 apples altogether.\n\nI hope it is correct: 36",
+        "ground_truth": "Tom picked 12 x 2 = <<12*2=24>>24 apples\nAltogether, they picked 12 + 24 = <<12+24=36>>36 apples\n#### 36"
+    },
+    {
+        "question": "1. Lexie picked 12 apples.\n2. Tom picked twice as many apples as Lexie, so Tom picked 12 x 2 = 24 apples.\n3. Lexie and Tom picked 12 + 24 = 36 apples altogether.\n\nI hope it is correct: 36\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$36",
+        "ground_truth": "Tom picked 12 x 2 = <<12*2=24>>24 apples\nAltogether, they picked 12 + 24 = <<12+24=36>>36 apples\n#### 36"
+    }
+]

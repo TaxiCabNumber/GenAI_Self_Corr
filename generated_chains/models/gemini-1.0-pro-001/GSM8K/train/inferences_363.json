@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTony paid $7 for 2 dozen apples and 1 bunch of bananas. Arnold paid $5 for 1 dozen apples and 1 bunch of bananas. How much does a bunch of bananas cost?",
+        "inference": "**Solution**\nLet x be the cost of a dozen apples and y be the cost of a bunch of bananas.\n\nFrom Tony's purchase, we have 2x + y = 7\n\nFrom Arnold's purchase, we have x + y = 5\n\nSubtracting the second equation from the first, we get x = 2\n\nSubstituting x = 2 into the second equation, we get y = 3\n\n**Final Answer**: I hope it is correct: $3",
+        "ground_truth": "Tony paid $7-$5= $<<7-5=2>>2 more than Arnold\nWe know he bought the same number of bananas as Arnold but that he bought 2-1=1 dozen apples more than Arnold\nTherefore a dozen apples should cost $2\nIf Arnold paid $5 and $2 for a dozen apples then the bunch of bananas cost $5-$2=$<<5-2=3>>3\n#### 3"
+    },
+    {
+        "question": "**Solution**\nLet x be the cost of a dozen apples and y be the cost of a bunch of bananas.\n\nFrom Tony's purchase, we have 2x + y = 7\n\nFrom Arnold's purchase, we have x + y = 5\n\nSubtracting the second equation from the first, we get x = 2\n\nSubstituting x = 2 into the second equation, we get y = 3\n\n**Final Answer**: I hope it is correct: $3\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$3",
+        "ground_truth": "Tony paid $7-$5= $<<7-5=2>>2 more than Arnold\nWe know he bought the same number of bananas as Arnold but that he bought 2-1=1 dozen apples more than Arnold\nTherefore a dozen apples should cost $2\nIf Arnold paid $5 and $2 for a dozen apples then the bunch of bananas cost $5-$2=$<<5-2=3>>3\n#### 3"
+    }
+]

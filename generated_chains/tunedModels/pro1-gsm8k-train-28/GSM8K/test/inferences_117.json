@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn buys 2 pairs of shoes for each of his 3 children.  They cost $60 each.  How much did he pay?",
+        "inference": "1. Find the total number of shoes John bought: 2 pairs x 3 children = 6 shoes\n2. Find the total cost of the shoes: 6 shoes x $60 per pair = $360\nI hope it is correct: 360 $",
+        "ground_truth": "He bought 3*2=<<3*2=6>>6 pairs of shoes\nSo he spent 60*6=$<<60*6=360>>360\n#### 360"
+    },
+    {
+        "question": "1. Find the total number of shoes John bought: 2 pairs x 3 children = 6 shoes\n2. Find the total cost of the shoes: 6 shoes x $60 per pair = $360\nI hope it is correct: 360 $\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $360$",
+        "ground_truth": "He bought 3*2=<<3*2=6>>6 pairs of shoes\nSo he spent 60*6=$<<60*6=360>>360\n#### 360"
+    }
+]

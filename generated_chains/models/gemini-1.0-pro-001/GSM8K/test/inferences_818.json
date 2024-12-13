@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJoe has twice as many cars as Robert. He sells 20% of them and gives away twice as many cars as the number he sold to his mother. If Robert has 20 cars, how many cars does joe remain with after selling and giving some to his mother?",
+        "inference": "1. Robert has 20 cars. \n2. Joe has twice as many as Robert, so Joe has 2 * 20 = 40 cars. \n3. Joe sells 20% of his cars. 20% of 40 is 0.2 * 40 = 8 cars. So Joe has 40 - 8 = 32 cars left. \n4. Joe gives away twice as many cars as he sold to his mother. He sold 8 cars to his mother, so he gives away 2 * 8 = 16 cars. \n5. So Joe has 32 - 16 = 16 cars left.\nI hope it is correct: 16",
+        "ground_truth": "If Robert has 20 cars, and Joe has twice as many cars as Robert, Joe has 2*20 = 40 cars.\nHe then sells 20/100*40=<<20/100*40=8>>8 cars from his car collection.\nAfter selling 8 cars, Joe remains with 40-8=<<40-8=32>>32 cars.\nJoe then gives away twice as many cars as the number he sold to his mother, a total of 2*8=<<2*8=16>>16 cars.\nThe number of cars that Joe has remaining after giving 16 cars to his mother is 32-16=<<32-16=16>>16\n#### 16"
+    },
+    {
+        "question": "1. Robert has 20 cars. \n2. Joe has twice as many as Robert, so Joe has 2 * 20 = 40 cars. \n3. Joe sells 20% of his cars. 20% of 40 is 0.2 * 40 = 8 cars. So Joe has 40 - 8 = 32 cars left. \n4. Joe gives away twice as many cars as he sold to his mother. He sold 8 cars to his mother, so he gives away 2 * 8 = 16 cars. \n5. So Joe has 32 - 16 = 16 cars left.\nI hope it is correct: 16\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$16",
+        "ground_truth": "If Robert has 20 cars, and Joe has twice as many cars as Robert, Joe has 2*20 = 40 cars.\nHe then sells 20/100*40=<<20/100*40=8>>8 cars from his car collection.\nAfter selling 8 cars, Joe remains with 40-8=<<40-8=32>>32 cars.\nJoe then gives away twice as many cars as the number he sold to his mother, a total of 2*8=<<2*8=16>>16 cars.\nThe number of cars that Joe has remaining after giving 16 cars to his mother is 32-16=<<32-16=16>>16\n#### 16"
+    }
+]

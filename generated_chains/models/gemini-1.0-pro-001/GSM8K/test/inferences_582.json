@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJuan asked his neighbor, Herb, how much his house was worth. Herb answered that he paid $76,000 for the house. If Juan's house is 30% less expensive than Herb's, calculate the value of the two houses combined.",
+        "inference": "1) Calculate the price of Juan's house.  \n$76,000 - (30% x $76,000) = $76,000 - $22,800 = $53,200\n\n2) Calculate the combined value of the two houses. \n$76,000 + $53,200 = $129,200\nI hope it is correct: $129,200$",
+        "ground_truth": "Juan's house is 30% less expensive than Herb's house, meaning Juan's house is 30/100*$76000= $<<30/100*76000=22800>>22800 less expensive than Herb's house.\nJuan's house is worth $76000-$22800 = $<<76000-22800=53200>>53200\nThe combined total value of Juan's and Herb's house is $76000+$53200 = $<<76000+53200=129200>>129200\n#### 129200"
+    },
+    {
+        "question": "1) Calculate the price of Juan's house.  \n$76,000 - (30% x $76,000) = $76,000 - $22,800 = $53,200\n\n2) Calculate the combined value of the two houses. \n$76,000 + $53,200 = $129,200\nI hope it is correct: $129,200$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$129200",
+        "ground_truth": "Juan's house is 30% less expensive than Herb's house, meaning Juan's house is 30/100*$76000= $<<30/100*76000=22800>>22800 less expensive than Herb's house.\nJuan's house is worth $76000-$22800 = $<<76000-22800=53200>>53200\nThe combined total value of Juan's and Herb's house is $76000+$53200 = $<<76000+53200=129200>>129200\n#### 129200"
+    }
+]

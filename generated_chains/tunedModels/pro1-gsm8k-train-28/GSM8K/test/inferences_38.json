@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn runs 60 miles a week. He runs 3 days a week.  He runs 3 hours the first day and half as much the other two days he runs.  How fast does he run?",
+        "inference": "1. John runs 60 miles a week, so he runs 60/3 = 20 miles each day.\n2. He runs 3 hours the first day, so he runs 20/3 = 6.67 miles per hour the first day.\n3. He runs half as much the other two days, so he runs 20/6 = 3.33 miles per hour the other two days.\n4. His average speed is (6.67 + 3.33 + 3.33) / 3 = 4.44 miles per hour.\nI hope it is correct: 4.44 $miles/hour$",
+        "ground_truth": "He has 7-1=<<7-1=6>>6 possible running days.\nHe runs half of those so he runs 6/2=<<6/2=3>>3 days.\nSo for two days, he runs 3/2=<<3/2=1.5>>1.5 hours.\nSo in total, he runs 3+1.5+1.5=<<3+1.5+1.5=6>>6 hours.\nSo he runs 60/6=<<60/6=10>>10 mph.\n#### 10"
+    },
+    {
+        "question": "1. John runs 60 miles a week, so he runs 60/3 = 20 miles each day.\n2. He runs 3 hours the first day, so he runs 20/3 = 6.67 miles per hour the first day.\n3. He runs half as much the other two days, so he runs 20/6 = 3.33 miles per hour the other two days.\n4. His average speed is (6.67 + 3.33 + 3.33) / 3 = 4.44 miles per hour.\nI hope it is correct: 4.44 $miles/hour$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 4.44",
+        "ground_truth": "He has 7-1=<<7-1=6>>6 possible running days.\nHe runs half of those so he runs 6/2=<<6/2=3>>3 days.\nSo for two days, he runs 3/2=<<3/2=1.5>>1.5 hours.\nSo in total, he runs 3+1.5+1.5=<<3+1.5+1.5=6>>6 hours.\nSo he runs 60/6=<<60/6=10>>10 mph.\n#### 10"
+    }
+]

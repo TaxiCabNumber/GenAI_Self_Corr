@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA line contains the points $(-1, 6)$, $(6, k)$ and $(20, 3)$. What is the value of $k$?",
+        "inference": "**Step 1:** Find the slope of the line using the points $(-1, 6)$ and $(6, k)$.\n\n$$m = \\frac{k - 6}{6 - (-1)} = \\frac{k - 6}{7}$$\n\n**Step 2:** Find the slope of the line using the points $(6, k)$ and $(20, 3)$.\n\n$$m = \\frac{3 - k}{20 - 6} = \\frac{3 - k}{14}$$\n\n**Step 3:** Since the line is the same, the slopes from Steps 1 and 2 must be equal.\n\n$$\\frac{k - 6}{7} = \\frac{3 - k}{14}$$\n\n**Step 4:** Cross-multiply and solve for $k$.\n\n$$14(k - 6) = 7(3 - k)$$\n$$14k - 84 = 21 - 7k$$\n$$21k = 105$$\n$$k = \\frac{105}{21}$$\n$$k = 5$$\n\n**Final Answer: $\\boxed{k = 5}$. I hope it is correct.**",
+        "ground_truth": "The slope between the first two points must be the same as the slope between the second two points, because all three points lie on the same line. We thus have the equation $\\frac{k-6}{6-(-1)}=\\frac{3-k}{20-6}$. Solving for $k$ yields $k=\\boxed{5}$."
+    },
+    {
+        "question": "**Step 1:** Find the slope of the line using the points $(-1, 6)$ and $(6, k)$.\n\n$$m = \\frac{k - 6}{6 - (-1)} = \\frac{k - 6}{7}$$\n\n**Step 2:** Find the slope of the line using the points $(6, k)$ and $(20, 3)$.\n\n$$m = \\frac{3 - k}{20 - 6} = \\frac{3 - k}{14}$$\n\n**Step 3:** Since the line is the same, the slopes from Steps 1 and 2 must be equal.\n\n$$\\frac{k - 6}{7} = \\frac{3 - k}{14}$$\n\n**Step 4:** Cross-multiply and solve for $k$.\n\n$$14(k - 6) = 7(3 - k)$$\n$$14k - 84 = 21 - 7k$$\n$$21k = 105$$\n$$k = \\frac{105}{21}$$\n$$k = 5$$\n\n**Final Answer: $\\boxed{k = 5}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{k = 5}$$",
+        "ground_truth": "The slope between the first two points must be the same as the slope between the second two points, because all three points lie on the same line. We thus have the equation $\\frac{k-6}{6-(-1)}=\\frac{3-k}{20-6}$. Solving for $k$ yields $k=\\boxed{5}$."
+    }
+]

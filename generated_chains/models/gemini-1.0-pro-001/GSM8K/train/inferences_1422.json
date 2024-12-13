@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nEvery 10 seconds, there is a car collision, and every 20 seconds there is a big crash. How many accidents overall will happen in 4 minutes?",
+        "inference": "A minute equals 60 seconds.\nIn 4 minutes, there will be 4*60 = 240 seconds.\n\nThere is one collision in 10 seconds, and there are 240 seconds in 4 minutes, so there will be 240/10 = 24 collisions.\n\nThere is one big crash in 20 seconds, and there are 240 seconds in 4 minutes, so there will be 240/20 = 12 big crashes.\n\nThere will be a total of 24 + 12 = 36 accidents in 4 minutes.\nI hope it is correct: 36",
+        "ground_truth": "1 minute is 60 seconds, so 4 minutes is 4 * 60 = <<4*60=240>>240 seconds.\nDuring this time there would be 240 / 20 = <<240/20=12>>12 big crashes.\nAnd also 240 / 10 = <<240/10=24>>24 car collisions.\nSo in total during 4 minutes there would be 12 + 24 = <<12+24=36>>36 accidents.\n#### 36"
+    },
+    {
+        "question": "A minute equals 60 seconds.\nIn 4 minutes, there will be 4*60 = 240 seconds.\n\nThere is one collision in 10 seconds, and there are 240 seconds in 4 minutes, so there will be 240/10 = 24 collisions.\n\nThere is one big crash in 20 seconds, and there are 240 seconds in 4 minutes, so there will be 240/20 = 12 big crashes.\n\nThere will be a total of 24 + 12 = 36 accidents in 4 minutes.\nI hope it is correct: 36\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$36",
+        "ground_truth": "1 minute is 60 seconds, so 4 minutes is 4 * 60 = <<4*60=240>>240 seconds.\nDuring this time there would be 240 / 20 = <<240/20=12>>12 big crashes.\nAnd also 240 / 10 = <<240/10=24>>24 car collisions.\nSo in total during 4 minutes there would be 12 + 24 = <<12+24=36>>36 accidents.\n#### 36"
+    }
+]

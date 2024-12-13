@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThomas withdraws $1000 in 20 dollar bills from the bank account.  He loses 10 bills while getting home.  After that, he uses half of the remaining bills to pay for a bill.  Thomas then triples his money.  He then converts all his bills to 5 dollar bills.  How many 5 dollar bills does he have?",
+        "inference": "Thomas initially has 1000/20 = 50 bills.  He loses 10 bills, so he has 40 bills left.  He uses half of the remaining bills, so he has 20 bills left.  He then triples his money, so he has 60 bills.  He then converts all his bills to 5 dollar bills, so he has 60 * 20/5 = 240 bills.\nI hope it is correct: 240 $answer$",
+        "ground_truth": "He withdrew 1000/20=<<1000/20=50>>50 bills\nSo he has 50-10=<<50-10=40>>40 bills left over\nHe uses half the bills to pay for something, so he has 40/2=<<40/2=20>>20 bills\nHe triples his money which gives him 20*3=<<20*3=60>>60 bills\nSo he has 60*20=$<<60*20=1200>>1200\nConverting to 5s means he has 1200/5=<<1200/5=240>>240 bills\n#### 240"
+    },
+    {
+        "question": "Thomas initially has 1000/20 = 50 bills.  He loses 10 bills, so he has 40 bills left.  He uses half of the remaining bills, so he has 20 bills left.  He then triples his money, so he has 60 bills.  He then converts all his bills to 5 dollar bills, so he has 60 * 20/5 = 240 bills.\nI hope it is correct: 240 $answer$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "240 $answer$",
+        "ground_truth": "He withdrew 1000/20=<<1000/20=50>>50 bills\nSo he has 50-10=<<50-10=40>>40 bills left over\nHe uses half the bills to pay for something, so he has 40/2=<<40/2=20>>20 bills\nHe triples his money which gives him 20*3=<<20*3=60>>60 bills\nSo he has 60*20=$<<60*20=1200>>1200\nConverting to 5s means he has 1200/5=<<1200/5=240>>240 bills\n#### 240"
+    }
+]

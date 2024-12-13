@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSimplify the fraction by rationalizing the denominator: $$\\frac{4}{\\sqrt{108}+2\\sqrt{12}+2\\sqrt{27}}.$$",
+        "inference": "$$\\frac{4}{\\sqrt{108}+2\\sqrt{12}+2\\sqrt{27}}$$\n$$=\\frac{4}{\\sqrt{108+2\\cdot2\\sqrt{108\\cdot12}+4\\cdot12}}$$\n$$=\\frac{4}{\\sqrt{(2\\sqrt{108})^2+2\\cdot2\\sqrt{108}\\cdot2\\sqrt{12}+(2\\sqrt{12})^2}}$$\n$$=\\frac{4}{2\\sqrt{108}\\cdot2\\sqrt{12}+(2\\sqrt{12})^2}$$\n$$=\\frac{4}{4\\sqrt{108\\cdot12}+4\\cdot12}$$\n$$=\\frac{4}{4\\sqrt{1296}+48}$$\n$$=\\frac{4}{4\\cdot36+48}$$\n$$=\\frac{4}{144+48}$$\n$$=\\frac{4}{192}$$\n$$=\\frac{1}{48}$$\nFinal Answer: \\boxed{$\\frac{1}{48}$} I hope it is correct.",
+        "ground_truth": "First, we can write $\\sqrt{108}=6\\sqrt{3}$, $2\\sqrt{12}=4\\sqrt{3}$ and $2\\sqrt{27}=6\\sqrt{3}$.  Substituting these, the expression becomes: $$\\frac{4}{6\\sqrt{3}+4\\sqrt{3}+6\\sqrt3}=\\frac{4}{16\\sqrt{3}}=\\frac{1}{4\\sqrt{3}}=\\boxed{\\frac{\\sqrt{3}}{12}}$$"
+    },
+    {
+        "question": "$$\\frac{4}{\\sqrt{108}+2\\sqrt{12}+2\\sqrt{27}}$$\n$$=\\frac{4}{\\sqrt{108+2\\cdot2\\sqrt{108\\cdot12}+4\\cdot12}}$$\n$$=\\frac{4}{\\sqrt{(2\\sqrt{108})^2+2\\cdot2\\sqrt{108}\\cdot2\\sqrt{12}+(2\\sqrt{12})^2}}$$\n$$=\\frac{4}{2\\sqrt{108}\\cdot2\\sqrt{12}+(2\\sqrt{12})^2}$$\n$$=\\frac{4}{4\\sqrt{108\\cdot12}+4\\cdot12}$$\n$$=\\frac{4}{4\\sqrt{1296}+48}$$\n$$=\\frac{4}{4\\cdot36+48}$$\n$$=\\frac{4}{144+48}$$\n$$=\\frac{4}{192}$$\n$$=\\frac{1}{48}$$\nFinal Answer: \\boxed{$\\frac{1}{48}$} I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$\\frac{1}{48}$}",
+        "ground_truth": "First, we can write $\\sqrt{108}=6\\sqrt{3}$, $2\\sqrt{12}=4\\sqrt{3}$ and $2\\sqrt{27}=6\\sqrt{3}$.  Substituting these, the expression becomes: $$\\frac{4}{6\\sqrt{3}+4\\sqrt{3}+6\\sqrt3}=\\frac{4}{16\\sqrt{3}}=\\frac{1}{4\\sqrt{3}}=\\boxed{\\frac{\\sqrt{3}}{12}}$$"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA magazine costs half as much as a book. The book costs $4. A pen costs $1 less than a magazine. How much is the pen?",
+        "inference": "1. The book costs $4.\n2. The magazine costs half as much as the book, so it costs $4 / 2 = $2.\n3. The pen costs $1 less than the magazine, so it costs $2 - $1 = $1.\nI hope it is correct: $1$",
+        "ground_truth": "The cost of a magazine is $4/2 = $<<4/2=2>>2.\nThe cost of a pen is $2 - $1 = $<<2-1=1>>1.\n#### 1"
+    },
+    {
+        "question": "1. The book costs $4.\n2. The magazine costs half as much as the book, so it costs $4 / 2 = $2.\n3. The pen costs $1 less than the magazine, so it costs $2 - $1 = $1.\nI hope it is correct: $1$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 1",
+        "ground_truth": "The cost of a magazine is $4/2 = $<<4/2=2>>2.\nThe cost of a pen is $2 - $1 = $<<2-1=1>>1.\n#### 1"
+    }
+]

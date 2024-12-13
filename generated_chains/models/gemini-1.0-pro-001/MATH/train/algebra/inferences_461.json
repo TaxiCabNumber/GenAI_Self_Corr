@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the ordered pair $(x,y)$ if\n\n\\begin{align*}\nx+y&=(5-x)+(5-y),\\\\\nx-y&=(x-1)+(y-1).\n\\end{align*}",
+        "inference": "**Solution:**\n\n\\begin{align*}\nx+y&=(5-x)+(5-y),\\\\\n\\Rightarrow\\qquad 2x+2y&=10,\\\\\n\\Rightarrow\\qquad x+y&=5\\tag 1.\n\\end{align*}\n\n\\begin{align*}\nx-y&=(x-1)+(y-1),\\\\\n\\Rightarrow\\qquad x-y&=x-1+y-1,\\\\\n\\Rightarrow\\qquad x-y&=x+y-2,\\\\\n\\Rightarrow\\qquad y&=-1\\tag 2.\n\\end{align*}\n\nSubstituting $(2)$ into $(1)$, we get\n\n\\begin{align*}\nx+(-1)&=5,\\\\\n\\Rightarrow\\qquad x&=6.\n\\end{align*}\n\nTherefore, the ordered pair is $(x,y)=(6,-1)$.\n\n**Final Answer: $\\boxed{(6,-1)}$. I hope it is correct.**",
+        "ground_truth": "Adding the equations, we get\n\n$$2x=8\\Rightarrow x=4.$$Substituting this into the first equation, we get\n\n$$4+y=1+5-y\\Rightarrow y=1.$$Thus the ordered pair is $\\boxed{(4,1)}$."
+    },
+    {
+        "question": "**Solution:**\n\n\\begin{align*}\nx+y&=(5-x)+(5-y),\\\\\n\\Rightarrow\\qquad 2x+2y&=10,\\\\\n\\Rightarrow\\qquad x+y&=5\\tag 1.\n\\end{align*}\n\n\\begin{align*}\nx-y&=(x-1)+(y-1),\\\\\n\\Rightarrow\\qquad x-y&=x-1+y-1,\\\\\n\\Rightarrow\\qquad x-y&=x+y-2,\\\\\n\\Rightarrow\\qquad y&=-1\\tag 2.\n\\end{align*}\n\nSubstituting $(2)$ into $(1)$, we get\n\n\\begin{align*}\nx+(-1)&=5,\\\\\n\\Rightarrow\\qquad x&=6.\n\\end{align*}\n\nTherefore, the ordered pair is $(x,y)=(6,-1)$.\n\n**Final Answer: $\\boxed{(6,-1)}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "**Final Answer: $\\boxed{(6,-1)}$**",
+        "ground_truth": "Adding the equations, we get\n\n$$2x=8\\Rightarrow x=4.$$Substituting this into the first equation, we get\n\n$$4+y=1+5-y\\Rightarrow y=1.$$Thus the ordered pair is $\\boxed{(4,1)}$."
+    }
+]

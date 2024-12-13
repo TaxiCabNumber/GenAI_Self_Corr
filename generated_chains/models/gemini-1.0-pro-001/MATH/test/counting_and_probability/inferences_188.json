@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn how many ways can we seat 6 people at a round table if John and Sam insist on sitting next to each other? (Two seatings are equivalent if one is a rotation of the other.)",
+        "inference": "1. We can consider John and Sam as one unit, so we have 5 units to arrange.\n2. There are 5! ways to arrange these units.\n3. For each of these arrangements, there are 2 ways to arrange John and Sam within their unit.\n4. Therefore, the total number of ways is 5! * 2 = 240.\nFinal Answer: $\\boxed{240}.$ I hope it is correct.",
+        "ground_truth": "To take care of rotations, we can fix John at the topmost seat.  We then have two choices for Sam: either side of John. The other four may sit anywhere in the other four seats. Thus there are $2\\times 4! = \\boxed{48}$ ways."
+    },
+    {
+        "question": "1. We can consider John and Sam as one unit, so we have 5 units to arrange.\n2. There are 5! ways to arrange these units.\n3. For each of these arrangements, there are 2 ways to arrange John and Sam within their unit.\n4. Therefore, the total number of ways is 5! * 2 = 240.\nFinal Answer: $\\boxed{240}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Final Answer: $\\boxed{120}.$",
+        "ground_truth": "To take care of rotations, we can fix John at the topmost seat.  We then have two choices for Sam: either side of John. The other four may sit anywhere in the other four seats. Thus there are $2\\times 4! = \\boxed{48}$ ways."
+    }
+]

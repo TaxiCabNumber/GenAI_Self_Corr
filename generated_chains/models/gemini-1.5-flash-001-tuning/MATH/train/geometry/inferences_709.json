@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn triangle $\\triangle JKL$ shown, $\\tan K = \\frac{3}{2}$. What is $KL$?\n\n[asy]\npair J,K,L;\nL = (0,0);\nJ = (0,3);\nK = (2,3);\ndraw(L--J--K--L);\ndraw(rightanglemark(L,J,K,7));\nlabel(\"$L$\",L,SW);\nlabel(\"$J$\",J,NW);\nlabel(\"$K$\",K,NE);\nlabel(\"$2$\",(J+K)/2,N);\n[/asy]",
+        "inference": "Final Answer: \\\\boxed{2\\sqrt{13}}. I hope it is correct.",
+        "ground_truth": "Because $\\triangle JKL$ is a right triangle, $\\tan K = \\frac{JL}{JK}$. So $\\tan K = \\frac{3}{2} = \\frac{JL}{2}$. Then $JL = 3$.\n\nBy the Pythagorean Theorem, $KL = \\sqrt{JL^2 + JK^2} = \\sqrt{3^2 + 2^2} = \\boxed{\\sqrt{13}}$."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{2\\sqrt{13}}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and your solution so I can check for errors and provide the correct final answer. \n",
+        "ground_truth": "Because $\\triangle JKL$ is a right triangle, $\\tan K = \\frac{JL}{JK}$. So $\\tan K = \\frac{3}{2} = \\frac{JL}{2}$. Then $JL = 3$.\n\nBy the Pythagorean Theorem, $KL = \\sqrt{JL^2 + JK^2} = \\sqrt{3^2 + 2^2} = \\boxed{\\sqrt{13}}$."
+    }
+]

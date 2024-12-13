@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFor some positive integers $m$ and $n,$\n\\[\\sqrt{23 + \\sqrt{28}} + \\sqrt{23 - \\sqrt{28}} = \\sqrt{m + \\sqrt{n}}.\\]Enter the ordered pair $(m,n).$",
+        "inference": "Final Answer: \\\\boxed{(46, 576)}. I hope it is correct. \n",
+        "ground_truth": "Let $x = \\sqrt{23 + \\sqrt{28}} + \\sqrt{23 - \\sqrt{28}}.$  Then\n\\begin{align*}\nx^2 &= 23 + \\sqrt{28} + 2 \\sqrt{23 + \\sqrt{28}} \\sqrt{23 - \\sqrt{28}} + 23 - \\sqrt{28} \\\\\n&= 46 + 2 \\sqrt{23^2 - 28} \\\\\n&= 46 + 2 \\sqrt{501} \\\\\n&= 46 + \\sqrt{2004}.\n\\end{align*}Hence, $(m,n) = \\boxed{(46,2004)}.$"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{(46, 576)}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the problem and the solution you have so I can identify the error and rewrite the solution. I need more context to help you. \n",
+        "ground_truth": "Let $x = \\sqrt{23 + \\sqrt{28}} + \\sqrt{23 - \\sqrt{28}}.$  Then\n\\begin{align*}\nx^2 &= 23 + \\sqrt{28} + 2 \\sqrt{23 + \\sqrt{28}} \\sqrt{23 - \\sqrt{28}} + 23 - \\sqrt{28} \\\\\n&= 46 + 2 \\sqrt{23^2 - 28} \\\\\n&= 46 + 2 \\sqrt{501} \\\\\n&= 46 + \\sqrt{2004}.\n\\end{align*}Hence, $(m,n) = \\boxed{(46,2004)}.$"
+    }
+]

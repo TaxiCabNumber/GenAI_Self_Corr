@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nReggie's father gave him $48. Reggie bought 5 books, each of which cost $2. How much money does Reggie have left?",
+        "inference": "Reggie spent 5 * $2 = $10 on books.\nSo, he has $48 - $10 = $38 left.\nI hope it is correct: $38",
+        "ground_truth": "The cost of the books is 5 \u00d7 $2 = $<<5*2=10>>10.\nReggie has $48 \u2212 $10 = $38 left.\n#### 38"
+    },
+    {
+        "question": "Reggie spent 5 * $2 = $10 on books.\nSo, he has $48 - $10 = $38 left.\nI hope it is correct: $38\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$38",
+        "ground_truth": "The cost of the books is 5 \u00d7 $2 = $<<5*2=10>>10.\nReggie has $48 \u2212 $10 = $38 left.\n#### 38"
+    }
+]

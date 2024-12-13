@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nElodie is putting on a fashion show and has five fabulous outfits for her five fabulous fashion models. However, on the day of the show, two of the outfits were ruined in an unfortunate permanent marker incident. Regardless, the show must go on and the remaining outfits will be presented. If each outfit can only be worn by one model and there is no time for any model to wear more than one dress, how many different shows can Elodie put on? (Note: Two shows are considered the same if they contain the same models wearing the same dresses.)",
+        "inference": "There are 5! ways to arrange the models in the show. For each of these arrangements, there are 3! ways to arrange the outfits. Therefore, there are 5! * 3! = 120 different shows that Elodie can put on.\nFinal Answer: \\boxed{120}. I hope it is correct.",
+        "ground_truth": "Since two of the outfits are ruined, we only have three outfits. There are five models available for the first outfit, four models available for the second outfit, and three models available for the third outfit. Therefore, there are $5 \\cdot 4 \\cdot 3 = \\boxed{60}$ ways in which the models can be matched to the outfits."
+    },
+    {
+        "question": "There are 5! ways to arrange the models in the show. For each of these arrangements, there are 3! ways to arrange the outfits. Therefore, there are 5! * 3! = 120 different shows that Elodie can put on.\nFinal Answer: \\boxed{120}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{120}",
+        "ground_truth": "Since two of the outfits are ruined, we only have three outfits. There are five models available for the first outfit, four models available for the second outfit, and three models available for the third outfit. Therefore, there are $5 \\cdot 4 \\cdot 3 = \\boxed{60}$ ways in which the models can be matched to the outfits."
+    }
+]

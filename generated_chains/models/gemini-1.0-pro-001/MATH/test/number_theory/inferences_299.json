@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCompute $58_9 - 18_9.$ Express your answer in base $9.$",
+        "inference": "$58_9 - 18_9 = 5 \\cdot 9 + 8 - 1 \\cdot 9 - 8 = 4 \\cdot 9 + 0 = 36_9$\nFinal Answer: $\\boxed{36_9}$. I hope it is correct.",
+        "ground_truth": "This subtraction is fairly straightforward: we just subtract the respective digits. No borrowing occurs: $$ \\begin{array}{c@{}c@{\\;}c@{}c} & & 5 & 8_9 \\\\ &- & 1 & 8_9 \\\\ \\cline{2-4} & & 4 & 0_9 \\\\ \\end{array} $$ Thus, the answer is $\\boxed{40_9}.$"
+    },
+    {
+        "question": "$58_9 - 18_9 = 5 \\cdot 9 + 8 - 1 \\cdot 9 - 8 = 4 \\cdot 9 + 0 = 36_9$\nFinal Answer: $\\boxed{36_9}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$40_9$}",
+        "ground_truth": "This subtraction is fairly straightforward: we just subtract the respective digits. No borrowing occurs: $$ \\begin{array}{c@{}c@{\\;}c@{}c} & & 5 & 8_9 \\\\ &- & 1 & 8_9 \\\\ \\cline{2-4} & & 4 & 0_9 \\\\ \\end{array} $$ Thus, the answer is $\\boxed{40_9}.$"
+    }
+]

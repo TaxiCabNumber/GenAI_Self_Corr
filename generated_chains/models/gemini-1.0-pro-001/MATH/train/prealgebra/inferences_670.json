@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nMy three friends and I have dinner together every weekend. Each weekend, two of us cook and the other two clean up afterwards. How many different ways are there for us to choose who cooks and who cleans?",
+        "inference": "There are 4 people and 2 cooks, so there are 4 ways to choose the first cook. Once the first cook is chosen, there are 3 people left, so there are 3 ways to choose the second cook. Therefore, there are 4*3 = 12 different ways to choose the cooks.\n\nOnce the cooks are chosen, the remaining 2 people will clean up.\n\nTherefore, the final answer is 12.\n\nFinal Answer: $\\boxed{12}.$ I hope it is correct.",
+        "ground_truth": "There are four ways to choose the first cook and three ways to choose the second cook, but this counts every pair of cooks twice since order doesn't matter. Once the cooks are chosen, the two people left over are the cleaners. So, there are $(4\\cdot 3)/2=\\boxed{6}$ ways for us to choose who cooks and who cleans."
+    },
+    {
+        "question": "There are 4 people and 2 cooks, so there are 4 ways to choose the first cook. Once the first cook is chosen, there are 3 people left, so there are 3 ways to choose the second cook. Therefore, there are 4*3 = 12 different ways to choose the cooks.\n\nOnce the cooks are chosen, the remaining 2 people will clean up.\n\nTherefore, the final answer is 12.\n\nFinal Answer: $\\boxed{12}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{12}",
+        "ground_truth": "There are four ways to choose the first cook and three ways to choose the second cook, but this counts every pair of cooks twice since order doesn't matter. Once the cooks are chosen, the two people left over are the cleaners. So, there are $(4\\cdot 3)/2=\\boxed{6}$ ways for us to choose who cooks and who cleans."
+    }
+]

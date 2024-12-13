@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn the figure shown, segment $AB$ is parallel to segment $YZ$. If $AZ = 42$ units, $BQ = 12$ units, and $QY = 24$ units, what is the length of segment $QZ$? [asy]\nimport olympiad; import geometry; size(150); defaultpen(linewidth(0.8));\npair Y = (0,0), Z = (16,0), A = (0,8), B = (6,8);\ndraw(A--B--Y--Z--cycle);\nlabel(\"$A$\",A,W); label(\"$B$\",B,E); label(\"$Y$\",Y,W); label(\"$Z$\",Z,E);\npair Q = intersectionpoint(A--Z,B--Y);\nlabel(\"$Q$\",Q,E);\n[/asy]",
+        "inference": "Final Answer: $\\boxed{36}$. I hope it is correct. \n",
+        "ground_truth": "Since $AB \\parallel YZ,$ we know that $\\angle A = \\angle Z$ and $\\angle B = \\angle Y.$ That works out nicely, since that means $\\triangle ABQ \\sim ZYQ.$ If $BQ = 12$ and $QY = 24,$ that means the ratio of sides in $ABQ$ to $ZYQ$ is $1:2.$\n\nSince $AZ = 42 = AQ + QZ$ and $AQ = \\dfrac{QZ}{2},$ that means $\\dfrac{3 \\cdot QZ}{2} = 42$ and thus $QZ = \\boxed{28}.$"
+    },
+    {
+        "question": "Final Answer: $\\boxed{36}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the question and the solution you are referring to. I need more context to identify any errors and provide a corrected solution. \n",
+        "ground_truth": "Since $AB \\parallel YZ,$ we know that $\\angle A = \\angle Z$ and $\\angle B = \\angle Y.$ That works out nicely, since that means $\\triangle ABQ \\sim ZYQ.$ If $BQ = 12$ and $QY = 24,$ that means the ratio of sides in $ABQ$ to $ZYQ$ is $1:2.$\n\nSince $AZ = 42 = AQ + QZ$ and $AQ = \\dfrac{QZ}{2},$ that means $\\dfrac{3 \\cdot QZ}{2} = 42$ and thus $QZ = \\boxed{28}.$"
+    }
+]

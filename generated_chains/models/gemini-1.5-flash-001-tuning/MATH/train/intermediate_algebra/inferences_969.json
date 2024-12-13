@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the quadratic polynomial $p(x)$ such that $p(-7) = 0,$ $p(4) = 0,$ and $p(5) = -36.$",
+        "inference": "Since $p(-7) = 0$ and $p(4) = 0,$ $x + 7$ and $x - 4$ are factors of $p(x).$  Therefore,\n\\[p(x) = a(x + 7)(x - 4)\\]for some constant $a.$  Then $p(5) = a(5 + 7)(5 - 4) = 12a,$ so $12a = -36.$  Hence, $a = -3,$ so\n\\[p(x) = \\boxed{-3(x + 7)(x - 4)}.\\]Final Answer: $\\boxed{-3(x + 7)(x - 4)}.$ I hope it is correct. \n",
+        "ground_truth": "Since $p(-7) = p(4) = 0,$ the quadratic polynomial $p(x)$ is of the form\n\\[p(x) = c(x + 7)(x - 4),\\]for some constant $c.$  To find $c,$ we set $x = 5,$ and use the fact that $p(5) = -36$:\n\\[-36 = c(12)(1),\\]so $c = -3.$  Hence, $p(x) = -3(x + 7)(x - 4) = \\boxed{-3x^2 - 9x + 84}.$"
+    },
+    {
+        "question": "Since $p(-7) = 0$ and $p(4) = 0,$ $x + 7$ and $x - 4$ are factors of $p(x).$  Therefore,\n\\[p(x) = a(x + 7)(x - 4)\\]for some constant $a.$  Then $p(5) = a(5 + 7)(5 - 4) = 12a,$ so $12a = -36.$  Hence, $a = -3,$ so\n\\[p(x) = \\boxed{-3(x + 7)(x - 4)}.\\]Final Answer: $\\boxed{-3(x + 7)(x - 4)}.$ I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct.  \n\n$\\boxed{-3(x + 7)(x - 4)}$ \n",
+        "ground_truth": "Since $p(-7) = p(4) = 0,$ the quadratic polynomial $p(x)$ is of the form\n\\[p(x) = c(x + 7)(x - 4),\\]for some constant $c.$  To find $c,$ we set $x = 5,$ and use the fact that $p(5) = -36$:\n\\[-36 = c(12)(1),\\]so $c = -3.$  Hence, $p(x) = -3(x + 7)(x - 4) = \\boxed{-3x^2 - 9x + 84}.$"
+    }
+]

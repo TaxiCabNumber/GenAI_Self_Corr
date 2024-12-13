@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 8 loads of laundry that need to be washed. Each load of laundry takes around 45 minutes to complete in the wash cycle and 1 hour in the dry cycle. How long, in hours, will it take to complete the entire set of laundry?",
+        "inference": "**SOLUTION**\n\n1. There are 8 loads of laundry.\n2. Each load takes 45 minutes to wash and 1 hour to dry.\n3. 45 minutes = 3/4 hour\n4. 8 loads * (3/4 + 1) hour/load = 11 hours\n\nI hope it is correct: 11 hours",
+        "ground_truth": "Each load takes 60 + 45 = <<60+45=105>>105 minutes\nThere are 8 loads that take 8*105=<<8*105=840>>840 minutes\nIt takes 840/60=<<840/60=14>>14 hours\n#### 14"
+    },
+    {
+        "question": "**SOLUTION**\n\n1. There are 8 loads of laundry.\n2. Each load takes 45 minutes to wash and 1 hour to dry.\n3. 45 minutes = 3/4 hour\n4. 8 loads * (3/4 + 1) hour/load = 11 hours\n\nI hope it is correct: 11 hours\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$11 hours",
+        "ground_truth": "Each load takes 60 + 45 = <<60+45=105>>105 minutes\nThere are 8 loads that take 8*105=<<8*105=840>>840 minutes\nIt takes 840/60=<<840/60=14>>14 hours\n#### 14"
+    }
+]

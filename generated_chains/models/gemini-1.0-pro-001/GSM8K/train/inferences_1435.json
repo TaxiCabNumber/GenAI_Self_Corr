@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nWhen Harriett vacuumed the sofa and chair she found 10 quarters, 3 dimes, 3 nickels, and 5 pennies.  How much money did Harriett find?",
+        "inference": "1 quarter = 25 cents\n1 dime = 10 cents\n1 nickel = 5 cents\n1 penny = 1 cent  \n10 quarters = 10 * 25 cents = 250 cents\n3 dimes = 3 * 10 cents = 30 cents\n3 nickels = 3 * 5 cents = 15 cents\n5 pennies = 5 * 1 cent = 5 cents  \nTotal cents = 250 + 30 + 15 + 5 = 300 cents\n300 cents = 300 / 100 dollars = 3 dollars  \nI hope it is correct: $3",
+        "ground_truth": "She found 10 quarters that are $0.25 each so she found 10*.25 = $<<10*.25=2.50>>2.50\nShe found 3 dimes that are $0.10 each so she found 3*.10 = $<<3*.10=0.30>>0.30\nShe found 3 nickels that are $0.05 each so she found 3*.05 = $<<3*.05=0.15>>0.15\nShe found 5 pennies that are $0.01 each so she found 5*.01 = $<<5*.01=0.05>>0.05\nAll total she found 2.50+.30+.15+.05 = $3.00 in change\n#### 3"
+    },
+    {
+        "question": "1 quarter = 25 cents\n1 dime = 10 cents\n1 nickel = 5 cents\n1 penny = 1 cent  \n10 quarters = 10 * 25 cents = 250 cents\n3 dimes = 3 * 10 cents = 30 cents\n3 nickels = 3 * 5 cents = 15 cents\n5 pennies = 5 * 1 cent = 5 cents  \nTotal cents = 250 + 30 + 15 + 5 = 300 cents\n300 cents = 300 / 100 dollars = 3 dollars  \nI hope it is correct: $3\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$3",
+        "ground_truth": "She found 10 quarters that are $0.25 each so she found 10*.25 = $<<10*.25=2.50>>2.50\nShe found 3 dimes that are $0.10 each so she found 3*.10 = $<<3*.10=0.30>>0.30\nShe found 3 nickels that are $0.05 each so she found 3*.05 = $<<3*.05=0.15>>0.15\nShe found 5 pennies that are $0.01 each so she found 5*.01 = $<<5*.01=0.05>>0.05\nAll total she found 2.50+.30+.15+.05 = $3.00 in change\n#### 3"
+    }
+]

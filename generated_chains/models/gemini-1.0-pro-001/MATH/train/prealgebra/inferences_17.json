@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn the diagram, $PQR$ is a straight line.  What is the value of $x$?\n\n[asy]\ndraw((-2,0)--(8,0),linewidth(0.7)); draw((8,0)--(5,-5.5)--(0,0),linewidth(0.7));\nlabel(\"$P$\",(-2,0),W); label(\"$Q$\",(0,0),N); label(\"$R$\",(8,0),E); label(\"$S$\",(5,-5.5),S);\n\nlabel(\"$136^\\circ$\",(0,0),SW); label(\"$64^\\circ$\",(7,0),S);\n\nlabel(\"$x^\\circ$\",(5,-4.5));\n\n[/asy]",
+        "inference": "The sum of the angles in a triangle is $180^\\circ$. Therefore, in $\\triangle PQS$, we have:\n\n$$136^\\circ+64^\\circ+x^\\circ=180^\\circ$$\n\nSimplifying, we get:\n\n$$x^\\circ=180^\\circ-136^\\circ-64^\\circ$$\n\n$$x^\\circ=180^\\circ-200^\\circ$$\n\n$$x^\\circ=-20^\\circ$$\n\nSince $x^\\circ$ is negative, it means that the angle is in the clockwise direction. Therefore, we have:\n\n$$x^\\circ=360^\\circ-20^\\circ$$\n\n$$x^\\circ=\\boxed{340^\\circ}$$\n\n**Final Answer: $$\\boxed{340^\\circ}$$**",
+        "ground_truth": "Since $\\angle PQS$ is an exterior angle of $\\triangle QRS$, then $\\angle PQS=\\angle QRS+\\angle QSR$, so $136^\\circ = x^\\circ + 64^\\circ$ or $x = 136-64=\\boxed{72}$."
+    },
+    {
+        "question": "The sum of the angles in a triangle is $180^\\circ$. Therefore, in $\\triangle PQS$, we have:\n\n$$136^\\circ+64^\\circ+x^\\circ=180^\\circ$$\n\nSimplifying, we get:\n\n$$x^\\circ=180^\\circ-136^\\circ-64^\\circ$$\n\n$$x^\\circ=180^\\circ-200^\\circ$$\n\n$$x^\\circ=-20^\\circ$$\n\nSince $x^\\circ$ is negative, it means that the angle is in the clockwise direction. Therefore, we have:\n\n$$x^\\circ=360^\\circ-20^\\circ$$\n\n$$x^\\circ=\\boxed{340^\\circ}$$\n\n**Final Answer: $$\\boxed{340^\\circ}$$**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{340^\\circ}$$",
+        "ground_truth": "Since $\\angle PQS$ is an exterior angle of $\\triangle QRS$, then $\\angle PQS=\\angle QRS+\\angle QSR$, so $136^\\circ = x^\\circ + 64^\\circ$ or $x = 136-64=\\boxed{72}$."
+    }
+]

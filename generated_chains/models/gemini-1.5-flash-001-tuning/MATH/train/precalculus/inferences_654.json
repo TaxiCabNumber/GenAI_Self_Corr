@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $\\tan x+\\tan y=25$ and $\\cot x + \\cot y=30$, what is $\\tan(x+y)$?",
+        "inference": "Final Answer: \\\\boxed{15}. I hope it is correct. \n",
+        "ground_truth": "The second equation is equivalent to $\\frac1{\\tan x} + \\frac1{\\tan y} = 30,$ or $\\frac{\\tan x + \\tan y}{\\tan x \\tan y} = 30.$ Thus, $\\frac{25}{\\tan x \\tan y} = 30,$ so $\\tan x \\tan y = \\frac{25}{30} = \\frac{5}{6}.$ Then from the angle addition formula,\n\\[\\tan(x+y) = \\frac{\\tan x+ \\tan y}{1 - \\tan x \\tan y} = \\frac{25}{1 - \\frac{5}{6}} = \\boxed{150}.\\]"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{15}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the question and the solution you're referring to so I can help you find any errors and provide the correct final answer. \n",
+        "ground_truth": "The second equation is equivalent to $\\frac1{\\tan x} + \\frac1{\\tan y} = 30,$ or $\\frac{\\tan x + \\tan y}{\\tan x \\tan y} = 30.$ Thus, $\\frac{25}{\\tan x \\tan y} = 30,$ so $\\tan x \\tan y = \\frac{25}{30} = \\frac{5}{6}.$ Then from the angle addition formula,\n\\[\\tan(x+y) = \\frac{\\tan x+ \\tan y}{1 - \\tan x \\tan y} = \\frac{25}{1 - \\frac{5}{6}} = \\boxed{150}.\\]"
+    }
+]

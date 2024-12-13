@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $(x + y)^2 = 25$ and $xy = 6$, what is the value of $x^2 + y^2$?",
+        "inference": "$$(x + y)^2 = 25 \\Rightarrow x^2 + 2xy + y^2 = 25 \\Rightarrow x^2 + y^2 = 25 - 2xy \\Rightarrow x^2 + y^2 = 25 - 2(6) \\Rightarrow x^2 + y^2 = 13.$$\nFinal Answer: \\boxed{$13$}. I hope it is correct.",
+        "ground_truth": "We know that $(x + y)^2 = (x^2 + y^2) + 2xy = 25$. We are given that $xy = 6$. So, by substitution, $x^2 + y^2 + 2xy = x^2 + y^2 + 2(6) = 25$. It follows that $x^2 + y^2 = 25 - 12 = \\boxed{13}$."
+    },
+    {
+        "question": "$$(x + y)^2 = 25 \\Rightarrow x^2 + 2xy + y^2 = 25 \\Rightarrow x^2 + y^2 = 25 - 2xy \\Rightarrow x^2 + y^2 = 25 - 2(6) \\Rightarrow x^2 + y^2 = 13.$$\nFinal Answer: \\boxed{$13$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{13}$$",
+        "ground_truth": "We know that $(x + y)^2 = (x^2 + y^2) + 2xy = 25$. We are given that $xy = 6$. So, by substitution, $x^2 + y^2 + 2xy = x^2 + y^2 + 2(6) = 25$. It follows that $x^2 + y^2 = 25 - 12 = \\boxed{13}$."
+    }
+]

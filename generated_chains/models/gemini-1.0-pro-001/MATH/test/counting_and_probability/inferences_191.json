@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn how many ways can a 3-person committee be chosen from a group of 8 people?",
+        "inference": "The number of ways to choose a 3-person committee from a group of 8 people is given by the combination formula:\n\n$$C(n,r) = \\frac{n!}{r!(n-r)!}$$\n\nwhere n is the total number of people and r is the number of people to be chosen.\n\nIn this case, n = 8 and r = 3, so the number of ways to choose a 3-person committee is:\n\n$$C(8,3) = \\frac{8!}{3!(8-3)!} = \\frac{8!}{3!5!} = \\frac{8\\times7\\times6}{3\\times2\\times1} = 56$$\n\nFinal Answer: $\\boxed{56}.$ I hope it is correct.",
+        "ground_truth": "There are $\\binom{8}{3} = \\frac{8 \\times 7 \\times 6}{3!}=\\boxed{56}$ to choose 3 people from a group of 8 without regard to order."
+    },
+    {
+        "question": "The number of ways to choose a 3-person committee from a group of 8 people is given by the combination formula:\n\n$$C(n,r) = \\frac{n!}{r!(n-r)!}$$\n\nwhere n is the total number of people and r is the number of people to be chosen.\n\nIn this case, n = 8 and r = 3, so the number of ways to choose a 3-person committee is:\n\n$$C(8,3) = \\frac{8!}{3!(8-3)!} = \\frac{8!}{3!5!} = \\frac{8\\times7\\times6}{3\\times2\\times1} = 56$$\n\nFinal Answer: $\\boxed{56}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{56}$$",
+        "ground_truth": "There are $\\binom{8}{3} = \\frac{8 \\times 7 \\times 6}{3!}=\\boxed{56}$ to choose 3 people from a group of 8 without regard to order."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA teacher teaches 5 periods a day and works 24 days a month. He is paid $5 per period. if he has been working for 6 months now how much has he earned in total?",
+        "inference": "**Step 1: Calculate the number of periods he teaches in a month.**\n5 periods/day x 24 days/month = 120 periods/month\n\n**Step 2: Calculate the amount he earns in a month.**\n120 periods/month x $5/period = $600/month\n\n**Step 3: Calculate the total amount he has earned in 6 months.**\n$600/month x 6 months = $3,600\n\nI hope it is correct: $3,600$",
+        "ground_truth": "The amount paid to the teacher per day is 5 periods * $5 / period = $<<5*5=25>>25 per day.\nThe amount paid for 24 days is $25 / day * 24 days = $<<25*24=600>>600.\nThe total amount for 6 months is $600 * 6 = $<<600*6=3600>>3600.\n#### 3600"
+    },
+    {
+        "question": "**Step 1: Calculate the number of periods he teaches in a month.**\n5 periods/day x 24 days/month = 120 periods/month\n\n**Step 2: Calculate the amount he earns in a month.**\n120 periods/month x $5/period = $600/month\n\n**Step 3: Calculate the total amount he has earned in 6 months.**\n$600/month x 6 months = $3,600\n\nI hope it is correct: $3,600$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$3,600$",
+        "ground_truth": "The amount paid to the teacher per day is 5 periods * $5 / period = $<<5*5=25>>25 per day.\nThe amount paid for 24 days is $25 / day * 24 days = $<<25*24=600>>600.\nThe total amount for 6 months is $600 * 6 = $<<600*6=3600>>3600.\n#### 3600"
+    }
+]

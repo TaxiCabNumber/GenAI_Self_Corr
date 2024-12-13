@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind $3 \\cdot 5 \\cdot 7 + 15 \\div 3.$",
+        "inference": "First, we will solve the division:\n\n$$15 \\div 3 = 5$$\n\nNow, we have:\n\n$$3 \\cdot 5 \\cdot 7 + 5 = 105 + 5 = 110$$\n\nFinal Answer: \\boxed{$110$}. I hope it is correct.",
+        "ground_truth": "Recall that multiplications and divisions should be done before addition. So \\begin{align*}3 \\cdot 5 \\cdot 7 + 15 \\div 3 &= (3 \\cdot 5 \\cdot 7) + (15 \\div 3) \\\\ &= 105 + 5 = \\boxed{110}.\\end{align*}"
+    },
+    {
+        "question": "First, we will solve the division:\n\n$$15 \\div 3 = 5$$\n\nNow, we have:\n\n$$3 \\cdot 5 \\cdot 7 + 5 = 105 + 5 = 110$$\n\nFinal Answer: \\boxed{$110$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{110}$$",
+        "ground_truth": "Recall that multiplications and divisions should be done before addition. So \\begin{align*}3 \\cdot 5 \\cdot 7 + 15 \\div 3 &= (3 \\cdot 5 \\cdot 7) + (15 \\div 3) \\\\ &= 105 + 5 = \\boxed{110}.\\end{align*}"
+    }
+]

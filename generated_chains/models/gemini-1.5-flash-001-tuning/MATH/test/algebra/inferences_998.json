@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat are the coordinates of the point on the line $5x-9y=42$ such that the $x$ and $y$ coordinates are the additive inverses of each other? Express your answer as an ordered pair.",
+        "inference": "If the $x$ and $y$ coordinates are additive inverses of each other, then $y=-x$. Substituting this into the equation of the line gives $5x-9(-x)=42$. Combining like terms gives $14x=42$, so $x=3$. Since $y=-x$, we have $y=-3$. \n\nFinal Answer: $\\boxed{(3,-3)}$. I hope it is correct. \n",
+        "ground_truth": "Our point lies on $5x-9y=42$ with the condition that $x=-y$. Thus, we have the system of equations \\begin{align*}\n5x-9y &= 42\\\\\nx &= -y.\n\\end{align*} Substituting $x= -y$ into the first equation gives  \\begin{align*}\n5(-y) -9y &=42\\\\\n\\Rightarrow -14y &= 42\\\\\n\\Rightarrow y &=-3.\n\\end{align*} Thus $x = -y = -(-3) = 3$, so our desired point is $\\boxed{(3,-3)}$."
+    },
+    {
+        "question": "If the $x$ and $y$ coordinates are additive inverses of each other, then $y=-x$. Substituting this into the equation of the line gives $5x-9(-x)=42$. Combining like terms gives $14x=42$, so $x=3$. Since $y=-x$, we have $y=-3$. \n\nFinal Answer: $\\boxed{(3,-3)}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct. \n\\\\boxed{(3,-3)}  I hope it is correct. \n",
+        "ground_truth": "Our point lies on $5x-9y=42$ with the condition that $x=-y$. Thus, we have the system of equations \\begin{align*}\n5x-9y &= 42\\\\\nx &= -y.\n\\end{align*} Substituting $x= -y$ into the first equation gives  \\begin{align*}\n5(-y) -9y &=42\\\\\n\\Rightarrow -14y &= 42\\\\\n\\Rightarrow y &=-3.\n\\end{align*} Thus $x = -y = -(-3) = 3$, so our desired point is $\\boxed{(3,-3)}$."
+    }
+]

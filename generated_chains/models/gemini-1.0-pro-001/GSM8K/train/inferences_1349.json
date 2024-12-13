@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nEmerson and his friends love rowing and don't miss the sport on weekends. Starting in the morning, Emerson rowed and was 6 miles away from his starting point on a particular weekend. He continued for another 15 miles at a constant speed, only stopping for a while for rest before covering the remaining 18 miles. What's the total distance covered by Emerson on his trip?",
+        "inference": "1. He rowed and was 6 miles away from his starting point.\n2. He continued for another 15 miles, so until this moment he covered 6 + 15 = 21 miles\n3. He covered the remaining 18 miles, so until this moment he covered 21 + 18 = 39 miles\nI hope it is correct: 39 $miles$",
+        "ground_truth": "After the first 6 miles, he rowed 15 miles more, reaching 6+15 = <<6+15=21>>21 miles.\nAfter resting, he adds 18 miles more, which is 18+21 = <<18+21=39>>39 miles\n#### 39"
+    },
+    {
+        "question": "1. He rowed and was 6 miles away from his starting point.\n2. He continued for another 15 miles, so until this moment he covered 6 + 15 = 21 miles\n3. He covered the remaining 18 miles, so until this moment he covered 21 + 18 = 39 miles\nI hope it is correct: 39 $miles$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 39 miles",
+        "ground_truth": "After the first 6 miles, he rowed 15 miles more, reaching 6+15 = <<6+15=21>>21 miles.\nAfter resting, he adds 18 miles more, which is 18+21 = <<18+21=39>>39 miles\n#### 39"
+    }
+]

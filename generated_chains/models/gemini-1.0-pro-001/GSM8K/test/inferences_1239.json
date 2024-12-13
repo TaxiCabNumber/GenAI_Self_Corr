@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA custodian has to clean a school with 80 classrooms. They have 5 days to get it done. It takes them 15 minutes per classroom. If they work an 8 hour day, what percentage of their day, on average, is spent cleaning classrooms?",
+        "inference": "Solution:\nThe custodian has to clean a total of $80$ classrooms. They have $5$ days to get it done, which is $5\\cdot 8 = 40$ hours. It takes them $15$ minutes per classroom, which is $\\frac{15}{60} = 0.25$ hours per classroom. Therefore, the custodian will spend $80\\cdot 0.25 = 20$ hours cleaning classrooms. This means that they will spend $\\frac{20}{40}\\cdot 100 = \\boxed{50}$% of their day, on average, cleaning classrooms.\nI hope it is correct: 50 $%$",
+        "ground_truth": "They have to clean 16 classrooms a day because 80 / 5 = <<80/5=16>>16\nThey spend 240 minutes cleaning per day because 16 x 15 = <<16*15=240>>240\nThey spend 4 hours a day because 240 / 60 = <<240/60=4>>4\nThey spend half their day cleaning classrooms because 4 / 8 = <<4/8=.5>>.5\nThey spend 50% of their day cleaning classrooms because .5 x 100 = <<.5*100=50>>50\n#### 50"
+    },
+    {
+        "question": "Solution:\nThe custodian has to clean a total of $80$ classrooms. They have $5$ days to get it done, which is $5\\cdot 8 = 40$ hours. It takes them $15$ minutes per classroom, which is $\\frac{15}{60} = 0.25$ hours per classroom. Therefore, the custodian will spend $80\\cdot 0.25 = 20$ hours cleaning classrooms. This means that they will spend $\\frac{20}{40}\\cdot 100 = \\boxed{50}$% of their day, on average, cleaning classrooms.\nI hope it is correct: 50 $%$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$50$%$",
+        "ground_truth": "They have to clean 16 classrooms a day because 80 / 5 = <<80/5=16>>16\nThey spend 240 minutes cleaning per day because 16 x 15 = <<16*15=240>>240\nThey spend 4 hours a day because 240 / 60 = <<240/60=4>>4\nThey spend half their day cleaning classrooms because 4 / 8 = <<4/8=.5>>.5\nThey spend 50% of their day cleaning classrooms because .5 x 100 = <<.5*100=50>>50\n#### 50"
+    }
+]

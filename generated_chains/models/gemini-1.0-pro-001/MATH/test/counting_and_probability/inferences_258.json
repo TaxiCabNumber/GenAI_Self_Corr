@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn how many ways can 4 distinct beads be placed on a bracelet that has a knot in it?  (Beads cannot slide past the knot.  Two ways are considered the same if one is a reflection of the other, since we can flip the bracelet over.)",
+        "inference": "There are 3 beads on one side of the knot and 1 bead on the other side.  There are 3! = 6 ways to place the 3 beads on one side, and 2 ways to place the remaining bead on the other side.  Therefore, there are 6 * 2 = 12 ways to place the beads on the bracelet.\n\nFinal Answer: $\\boxed{12}.$ I hope it is correct.",
+        "ground_truth": "We can just treat the knot as another bead. There are $5!$ ways to place the beads and the knot on the bracelet, but we must divide by 5 for rotational symmetry (5 rotations for each arrangement), and by 2 for reflectional symmetry (we can flip the bracelet to get the same arrangement).  The answer is $\\dfrac{5!}{5 \\times 2} = \\boxed{12}$."
+    },
+    {
+        "question": "There are 3 beads on one side of the knot and 1 bead on the other side.  There are 3! = 6 ways to place the 3 beads on one side, and 2 ways to place the remaining bead on the other side.  Therefore, there are 6 * 2 = 12 ways to place the beads on the bracelet.\n\nFinal Answer: $\\boxed{12}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$6$}.",
+        "ground_truth": "We can just treat the knot as another bead. There are $5!$ ways to place the beads and the knot on the bracelet, but we must divide by 5 for rotational symmetry (5 rotations for each arrangement), and by 2 for reflectional symmetry (we can flip the bracelet to get the same arrangement).  The answer is $\\dfrac{5!}{5 \\times 2} = \\boxed{12}$."
+    }
+]

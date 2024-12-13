@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nHannah comes home from work to find her older son taped her younger son to a chair with 22 strands of duct tape. If Hannah can cut 8 strands per minute and her son can cut 3 strands per minute, how long will it take them to free her younger son?",
+        "inference": "**Hannah's rate:**  8 strands per minute\n**Son's rate:** 3 strands per minute\n\n**Combined rate:** 8 + 3 = 11 strands per minute\n\n**Number of strands to cut:** 22 strands\n\n**Time to cut:** 22 strands / 11 strands per minute = 2 minutes\n\nI hope it is correct: 2 minutes",
+        "ground_truth": "First find the total number of strands the two of them can cut per minute: 8 strands + 3 strands = <<8+3=11>>11 strands\nThen divide the total number of strands by the number of strands they cut per minute to find the number of minutes it takes to cut all the strands: 22 strands / 11 strands/minute = <<22/11=2>>2 minutes\n#### 2"
+    },
+    {
+        "question": "**Hannah's rate:**  8 strands per minute\n**Son's rate:** 3 strands per minute\n\n**Combined rate:** 8 + 3 = 11 strands per minute\n\n**Number of strands to cut:** 22 strands\n\n**Time to cut:** 22 strands / 11 strands per minute = 2 minutes\n\nI hope it is correct: 2 minutes\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$2 minutes",
+        "ground_truth": "First find the total number of strands the two of them can cut per minute: 8 strands + 3 strands = <<8+3=11>>11 strands\nThen divide the total number of strands by the number of strands they cut per minute to find the number of minutes it takes to cut all the strands: 22 strands / 11 strands/minute = <<22/11=2>>2 minutes\n#### 2"
+    }
+]

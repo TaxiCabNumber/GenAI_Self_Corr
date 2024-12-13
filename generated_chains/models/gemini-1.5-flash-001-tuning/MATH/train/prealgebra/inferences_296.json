@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nAcme T-Shirt Company charges a $\\$50$ set-up fee plus $\\$9$ for  each shirt printed. Beta T-shirt Company has no set up fee, but charges $\\$14$ per shirt. What is the minimum number of shirts for which a customer saves money by using Acme?",
+        "inference": "Let $x$ be the number of shirts.  We want to find the smallest $x$ such that the cost at Acme is less than the cost at Beta.  This gives us the inequality:\n\n$$50 + 9x < 14x$$\n\nSubtracting $9x$ from both sides gives $50<5x$. Dividing both sides by 5 gives $10<x$.\n\nFinal Answer: $\\boxed{11}$. I hope it is correct. \n",
+        "ground_truth": "We want to find the lowest integer $x$ such that: \\begin{align*}\n50+9x&<14x \\quad \\Rightarrow \\\\\n50&<5x \\quad \\Rightarrow \\\\\n10&<x.\n\\end{align*}The least integer greater than 10 is $\\boxed{11}$."
+    },
+    {
+        "question": "Let $x$ be the number of shirts.  We want to find the smallest $x$ such that the cost at Acme is less than the cost at Beta.  This gives us the inequality:\n\n$$50 + 9x < 14x$$\n\nSubtracting $9x$ from both sides gives $50<5x$. Dividing both sides by 5 gives $10<x$.\n\nFinal Answer: $\\boxed{11}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{11}  I hope it is correct. \n",
+        "ground_truth": "We want to find the lowest integer $x$ such that: \\begin{align*}\n50+9x&<14x \\quad \\Rightarrow \\\\\n50&<5x \\quad \\Rightarrow \\\\\n10&<x.\n\\end{align*}The least integer greater than 10 is $\\boxed{11}$."
+    }
+]

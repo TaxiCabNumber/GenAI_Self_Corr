@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA bag of flour is divided into 8 portions of 2 kilograms each. How much flour (in kilograms) was in three bags in total, before it was divided into portions?",
+        "inference": "1 bag = 8 portions of 2 kilograms each\n1 bag = 8 x 2 = 16 kilograms\n3 bags = 3 x 16 = 48 kilograms\nI hope it is correct: 48",
+        "ground_truth": "A bag of flour has 8 x 2 = <<8*2=16>>16 kilograms.\nSo, there are 16 x 3 = <<16*3=48>>48 kilograms of flour in 3 bags.\n#### 48"
+    },
+    {
+        "question": "1 bag = 8 portions of 2 kilograms each\n1 bag = 8 x 2 = 16 kilograms\n3 bags = 3 x 16 = 48 kilograms\nI hope it is correct: 48\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$48",
+        "ground_truth": "A bag of flour has 8 x 2 = <<8*2=16>>16 kilograms.\nSo, there are 16 x 3 = <<16*3=48>>48 kilograms of flour in 3 bags.\n#### 48"
+    }
+]

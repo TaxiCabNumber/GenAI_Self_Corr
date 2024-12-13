@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nWhen Freda cooks canned tomatoes into sauce, they lose half their volume. Each 16 ounce can of tomatoes that she uses contains three tomatoes. Freda\u2019s last batch of tomato sauce made 32 ounces of sauce. How many tomatoes did Freda use?",
+        "inference": "Since each tomato loses half its volume when cooked into sauce, the 32 ounces of sauce represent the original volume of 64 ounces of tomatoes.\n\nSince each 16 ounce can contains three tomatoes, she used 64/16=4 cans of tomatoes.\n\nSince each can contains three tomatoes, she used 4*3 = 12 tomatoes in all.\nI hope it is correct: 12",
+        "ground_truth": "Tomatoes lose half their volume when made into sauce, so Freda started with 32 * 2 = <<32*2=64>>64 ounces of tomatoes.\nAt 16 ounces per can, she used 64 / 16 = <<64/16=4>>4 cans of tomatoes.\nAt 3 tomatoes a can, Freda used 3 * 4 = <<3*4=12>>12 tomatoes.\n#### 12"
+    },
+    {
+        "question": "Since each tomato loses half its volume when cooked into sauce, the 32 ounces of sauce represent the original volume of 64 ounces of tomatoes.\n\nSince each 16 ounce can contains three tomatoes, she used 64/16=4 cans of tomatoes.\n\nSince each can contains three tomatoes, she used 4*3 = 12 tomatoes in all.\nI hope it is correct: 12\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 12",
+        "ground_truth": "Tomatoes lose half their volume when made into sauce, so Freda started with 32 * 2 = <<32*2=64>>64 ounces of tomatoes.\nAt 16 ounces per can, she used 64 / 16 = <<64/16=4>>4 cans of tomatoes.\nAt 3 tomatoes a can, Freda used 3 * 4 = <<3*4=12>>12 tomatoes.\n#### 12"
+    }
+]

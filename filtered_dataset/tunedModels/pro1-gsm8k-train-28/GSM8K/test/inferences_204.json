@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJanet had 22 green pens and 10 yellow pens. Then she bought 6 bags of blue pens and 2 bags of red pens. There were 9 pens in each bag of blue and 6 pens in each bag of red. How many pens does Janet have now?",
+        "inference": "Janet had 22 green pens and 10 yellow pens. So, she had 22 + 10 = 32 pens.\nThen she bought 6 bags of blue pens and 2 bags of red pens. So, she bought 6 * 9 = 54 blue pens and 2 * 6 = 12 red pens.\nTherefore, she now has 32 + 54 + 12 = 98 pens.\nI hope it is correct: 98 $answer$",
+        "ground_truth": "Janet previously had 22 + 10 = <<22+10=32>>32 pens.\nThe number of blue pens is 6 \u00d7 9 = <<6*9=54>>54.\nThe number of red pens is 2 \u00d7 6 = <<2*6=12>>12.\nJanet has 32 + 54 + 12 = <<32+54+12=98>>98 pens now.\n#### 98"
+    },
+    {
+        "question": "Janet had 22 green pens and 10 yellow pens. So, she had 22 + 10 = 32 pens.\nThen she bought 6 bags of blue pens and 2 bags of red pens. So, she bought 6 * 9 = 54 blue pens and 2 * 6 = 12 red pens.\nTherefore, she now has 32 + 54 + 12 = 98 pens.\nI hope it is correct: 98 $answer$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 98",
+        "ground_truth": "Janet previously had 22 + 10 = <<22+10=32>>32 pens.\nThe number of blue pens is 6 \u00d7 9 = <<6*9=54>>54.\nThe number of red pens is 2 \u00d7 6 = <<2*6=12>>12.\nJanet has 32 + 54 + 12 = <<32+54+12=98>>98 pens now.\n#### 98"
+    }
+]

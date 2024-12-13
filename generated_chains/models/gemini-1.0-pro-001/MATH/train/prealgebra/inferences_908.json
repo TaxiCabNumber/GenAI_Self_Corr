@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nMy date tonight made reservations for us at his favorite Italian restaurant.  He didn't know that I am a vegetarian with a gluten allergy.  There are four dishes here without meat in them.  That's just one fifth of the menu.  And three of those meatless dishes are made with pasta, which contains gluten.  What fraction of the items on the menu at this restaurant can I eat?",
+        "inference": "- Four out of twenty dishes are meatless, or 4/20.\n- Three of those four meatless dishes contain gluten, or 3/4.\n- Only one dish is both meatless and gluten-free, or 1/4 * 1/4 = 1/16.\n- The fraction of the menu I can eat is 1/16.\nFinal Answer: \\boxed{1/16}. I hope it is correct.",
+        "ground_truth": "If there are 4 vegetarian dishes on the menu and 3 of them contain gluten, then $4-3=1$ vegetarian dish does not contain gluten.  This means that $\\frac{1}{4}$ of the vegetarian dishes are gluten-free.  We know that $\\frac{1}{5}$ of all the dishes on the menu are vegetarian, so $\\frac{1}{4}\\times\\frac{1}{5}=\\boxed{\\frac{1}{20}}$ of the menu items are both vegetarian and gluten-free."
+    },
+    {
+        "question": "- Four out of twenty dishes are meatless, or 4/20.\n- Three of those four meatless dishes contain gluten, or 3/4.\n- Only one dish is both meatless and gluten-free, or 1/4 * 1/4 = 1/16.\n- The fraction of the menu I can eat is 1/16.\nFinal Answer: \\boxed{1/16}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{\\frac{1}{16}}",
+        "ground_truth": "If there are 4 vegetarian dishes on the menu and 3 of them contain gluten, then $4-3=1$ vegetarian dish does not contain gluten.  This means that $\\frac{1}{4}$ of the vegetarian dishes are gluten-free.  We know that $\\frac{1}{5}$ of all the dishes on the menu are vegetarian, so $\\frac{1}{4}\\times\\frac{1}{5}=\\boxed{\\frac{1}{20}}$ of the menu items are both vegetarian and gluten-free."
+    }
+]

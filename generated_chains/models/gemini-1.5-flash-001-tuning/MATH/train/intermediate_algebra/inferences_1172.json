@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind all values of $k$ so that\n\\[x^2 - (k - 3) x - k + 6 > 0\\]for all $x.$",
+        "inference": "Final Answer: \\\\boxed{k < 2}. I hope it is correct. \n",
+        "ground_truth": "If we graph $y = x^2 - (k - 3) x - k + 6,$ then we obtain an upward-facing parabola.  Thus, the inequality\n\\[x^2 - (k - 3) x - k + 6 > 0\\]holds as long as the discriminant of the quadratic is negative.\n\nThis gives us\n\\[(k - 3)^2 - 4(-k + 6) < 0.\\]This simplifies to $k^2 - 2k - 15 < 0,$ which factors as $(k + 3)(k - 5) < 0.$  Thus, $k \\in \\boxed{(-3,5)}.$"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{k < 2}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the original question and solution so I can review it and provide the corrected answer. \n",
+        "ground_truth": "If we graph $y = x^2 - (k - 3) x - k + 6,$ then we obtain an upward-facing parabola.  Thus, the inequality\n\\[x^2 - (k - 3) x - k + 6 > 0\\]holds as long as the discriminant of the quadratic is negative.\n\nThis gives us\n\\[(k - 3)^2 - 4(-k + 6) < 0.\\]This simplifies to $k^2 - 2k - 15 < 0,$ which factors as $(k + 3)(k - 5) < 0.$  Thus, $k \\in \\boxed{(-3,5)}.$"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThere are positive integers that have these properties:\n\n$\\bullet$ I. The sum of the squares of their digits is $50,$ and\n\n$\\bullet$ II. Each digit is larger than the one on its left.\n\nWhat is the product of the digits of the largest integer with both properties?",
+        "inference": "List all 2-digit numbers whose digits sum to 50. \n\n$19,28,37,46,$\n\nSince each digit must be greater than the one on its left, that eliminates 19, 28, and 46. That leaves only $37$\n\nAnd so the product of the digits is $3 \\times 7 = \\boxed{21}$.\n\nFinal Answer: $\\boxed{21}$. I hope it is correct.",
+        "ground_truth": "To meet the first condition, numbers which sum to $50$ must be chosen from the set of squares $\\{1, 4, 9, 16, 25, 36, 49\\}.$ To meet the second condition, the squares selected must be different. Consequently, there are three possibilities: $1+49,$ $1+4+9+36,$ and $9+16+25.$ These correspond to the integers $17,$ $1236,$ and $345,$ respectively. The largest is $1236,$ and the product of its digits is $1\\cdot2\\cdot3\\cdot6=\\boxed{36}.$"
+    },
+    {
+        "question": "List all 2-digit numbers whose digits sum to 50. \n\n$19,28,37,46,$\n\nSince each digit must be greater than the one on its left, that eliminates 19, 28, and 46. That leaves only $37$\n\nAnd so the product of the digits is $3 \\times 7 = \\boxed{21}$.\n\nFinal Answer: $\\boxed{21}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{96}$",
+        "ground_truth": "To meet the first condition, numbers which sum to $50$ must be chosen from the set of squares $\\{1, 4, 9, 16, 25, 36, 49\\}.$ To meet the second condition, the squares selected must be different. Consequently, there are three possibilities: $1+49,$ $1+4+9+36,$ and $9+16+25.$ These correspond to the integers $17,$ $1236,$ and $345,$ respectively. The largest is $1236,$ and the product of its digits is $1\\cdot2\\cdot3\\cdot6=\\boxed{36}.$"
+    }
+]

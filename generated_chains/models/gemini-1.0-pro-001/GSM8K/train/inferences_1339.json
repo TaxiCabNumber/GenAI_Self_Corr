@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA plumber bought 10 meters of copper and 5 more meters of plastic pipe. If each meter cost $4, how much did the plumber spent on the copper and plastic pipe?",
+        "inference": "1. Calculate the total cost of the copper pipe:\n\nCost of copper pipe = Length of copper pipe \u00d7 Cost per meter\nCost of copper pipe = 10 meters \u00d7 $4\nCost of copper pipe = $40\n\n2. Calculate the total cost of the plastic pipe:\n\nCost of plastic pipe = Length of plastic pipe \u00d7 Cost per meter\nCost of plastic pipe = 5 meters \u00d7 $4\nCost of plastic pipe = $20\n\n3. Calculate the total cost of the copper and plastic pipe:\n\nTotal cost = Cost of copper pipe + Cost of plastic pipe\nTotal cost = $40 + $20\nTotal cost = $60\nI hope it is correct: $60$",
+        "ground_truth": "He bought 10 + 5 = <<10+5=15>>15 meters of plastic pipe.\nThe total meters of the copper and plastic pipe is 10 + 15 = <<10+15=25>>25.\nThe plumber spent $4 x 25 = $<<4*25=100>>100 on copper and plastic pipe.\n#### 100"
+    },
+    {
+        "question": "1. Calculate the total cost of the copper pipe:\n\nCost of copper pipe = Length of copper pipe \u00d7 Cost per meter\nCost of copper pipe = 10 meters \u00d7 $4\nCost of copper pipe = $40\n\n2. Calculate the total cost of the plastic pipe:\n\nCost of plastic pipe = Length of plastic pipe \u00d7 Cost per meter\nCost of plastic pipe = 5 meters \u00d7 $4\nCost of plastic pipe = $20\n\n3. Calculate the total cost of the copper and plastic pipe:\n\nTotal cost = Cost of copper pipe + Cost of plastic pipe\nTotal cost = $40 + $20\nTotal cost = $60\nI hope it is correct: $60$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $60$",
+        "ground_truth": "He bought 10 + 5 = <<10+5=15>>15 meters of plastic pipe.\nThe total meters of the copper and plastic pipe is 10 + 15 = <<10+15=25>>25.\nThe plumber spent $4 x 25 = $<<4*25=100>>100 on copper and plastic pipe.\n#### 100"
+    }
+]

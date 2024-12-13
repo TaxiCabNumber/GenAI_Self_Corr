@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA pet store owner had 12 birds, 9 puppies, 5 cats, and 15 spiders. Half the birds were sold and 3 puppies were adopted. Then, someone left the spider enclosure open and 7 of them went loose. How many animals does the pet store owner have left?",
+        "inference": "1. 12 birds - 6 sold = 6 birds left\n2. 9 puppies - 3 adopted = 6 puppies left\n3. 15 spiders - 7 loose = 8 spiders left\n4. 6 birds + 6 puppies + 5 cats + 8 spiders = 25 animals left\n\nI hope it is correct: 25",
+        "ground_truth": "There are 12/2 = <<12/2=6>>6 birds left.\nThere are 9-3= <<9-3=6>>6 puppies left.\nThere are 15 - 7 = <<15-7=8>>8 spiders left.\nThe pet store owner has 5+6 + 6 + 8 = <<5+6+6+8=25>>25 animals left\n#### 25"
+    },
+    {
+        "question": "1. 12 birds - 6 sold = 6 birds left\n2. 9 puppies - 3 adopted = 6 puppies left\n3. 15 spiders - 7 loose = 8 spiders left\n4. 6 birds + 6 puppies + 5 cats + 8 spiders = 25 animals left\n\nI hope it is correct: 25\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 25",
+        "ground_truth": "There are 12/2 = <<12/2=6>>6 birds left.\nThere are 9-3= <<9-3=6>>6 puppies left.\nThere are 15 - 7 = <<15-7=8>>8 spiders left.\nThe pet store owner has 5+6 + 6 + 8 = <<5+6+6+8=25>>25 animals left\n#### 25"
+    }
+]

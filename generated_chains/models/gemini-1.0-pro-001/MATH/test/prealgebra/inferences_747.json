@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn the diagram, the perimeter of the rectangle is 56. What is its area?\n\n[asy]\nunitsize(1inch);\n\npair A, B,C,D;\nA =(0,0);\nB= (1,0);\nD = (0,0.8);\nC = B+D;\ndraw(A--B--C--D--A);\nlabel(\"$x+2$\",B/2,S);\nlabel(\"$x-2$\",D/2,W);\n[/asy]",
+        "inference": "Let the length of the rectangle be $x$.\n\nThe width of the rectangle is $x-2$.\n\nThe perimeter of the rectangle is $56$.\n\nTherefore, \\begin{align*}\n2(x+(x-2))&=56\\\\\n2(2x-2)&=56\\\\\n4x-4&=56\\\\\n4x&=60\\\\\nx&=15\n\\end{align*}\n\nTherefore, the length of the rectangle is $15$ and the width of the rectangle is $15-2=13$.\n\nThe area of the rectangle is $15\\times13=\\boxed{195}$.\n\nFinal Answer: $\\boxed{195}$. I hope it is correct.",
+        "ground_truth": "Since the perimeter of the rectangle is 56, then \\begin{align*}\n2(x+2)+2(x-2)&=56\\\\\n2x+4+2x-4&=56\\\\\n4x& = 56 \\\\\nx & = 14\n\\end{align*}Therefore the rectangle has area \\[(14-2)(14+2)=14^2-2^2=196-4=\\boxed{192}.\\]"
+    },
+    {
+        "question": "Let the length of the rectangle be $x$.\n\nThe width of the rectangle is $x-2$.\n\nThe perimeter of the rectangle is $56$.\n\nTherefore, \\begin{align*}\n2(x+(x-2))&=56\\\\\n2(2x-2)&=56\\\\\n4x-4&=56\\\\\n4x&=60\\\\\nx&=15\n\\end{align*}\n\nTherefore, the length of the rectangle is $15$ and the width of the rectangle is $15-2=13$.\n\nThe area of the rectangle is $15\\times13=\\boxed{195}$.\n\nFinal Answer: $\\boxed{195}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{195}",
+        "ground_truth": "Since the perimeter of the rectangle is 56, then \\begin{align*}\n2(x+2)+2(x-2)&=56\\\\\n2x+4+2x-4&=56\\\\\n4x& = 56 \\\\\nx & = 14\n\\end{align*}Therefore the rectangle has area \\[(14-2)(14+2)=14^2-2^2=196-4=\\boxed{192}.\\]"
+    }
+]

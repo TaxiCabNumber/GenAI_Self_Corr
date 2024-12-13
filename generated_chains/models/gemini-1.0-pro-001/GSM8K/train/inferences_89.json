@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nKrystian works in the library. He borrows an average of 40 books every day. Every Friday, his number of borrowed books is about 40% higher than the daily average. How many books does he borrow in a week if the library is open from Monday to Friday?",
+        "inference": "1. Krystian borrows 40 books on average every day from Monday to Thursday.\n2. On Fridays, he borrows 40% more books than the daily average, which is 40 * 1.4 = 56 books.\n3. In total, Krystian borrows books for 5 days a week (from Monday to Friday).\n4. So, the total number of books he borrows in a week is (40 * 4) + 56 = 216 books.\nI hope it is correct: 216 $books$",
+        "ground_truth": "The number of books borrowed on Friday is higher by 40 * 40/100 = <<40*40/100=16>>16 books.\nThere are 5 days from Monday to Friday inclusive, so Krystian borrows an average of 5 * 40 = <<5*40=200>>200 books during that time.\nWith Friday's increase in borrowings, during one week Krystian borrows 200 + 16 = <<200+16=216>>216 books.\n#### 216"
+    },
+    {
+        "question": "1. Krystian borrows 40 books on average every day from Monday to Thursday.\n2. On Fridays, he borrows 40% more books than the daily average, which is 40 * 1.4 = 56 books.\n3. In total, Krystian borrows books for 5 days a week (from Monday to Friday).\n4. So, the total number of books he borrows in a week is (40 * 4) + 56 = 216 books.\nI hope it is correct: 216 $books$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$216",
+        "ground_truth": "The number of books borrowed on Friday is higher by 40 * 40/100 = <<40*40/100=16>>16 books.\nThere are 5 days from Monday to Friday inclusive, so Krystian borrows an average of 5 * 40 = <<5*40=200>>200 books during that time.\nWith Friday's increase in borrowings, during one week Krystian borrows 200 + 16 = <<200+16=216>>216 books.\n#### 216"
+    }
+]

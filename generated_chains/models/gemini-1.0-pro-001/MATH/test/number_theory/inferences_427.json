@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhen the single digit $D$ is written at the end of the positive two-digit integer $XY$, with tens digit $X$ and ones digit $Y$, the resulting positive three-digit integer $XYD$ is 619 more than the original integer $XY$. What is the value of the three-digit integer $XYD$?",
+        "inference": "Let the tens digit be x and the units digit be y.\n\nThen, the number is 10x + y\n\nAdding the digit d at the unit's place gives 10x + y + d\n\nThe number 619 more than the original number, that is, 10x + y + 619 \n\nTherefore, \n10x + y + d = 10x + y + 619\n\nd = 619\n\n**Hence, the three-digit number is: 10x + y + d = 10x + y + 619**\n \nFinal Answer: $\\boxed{10x + y + 619}$. I hope it is correct.",
+        "ground_truth": "We are given $XYD = 619+XY$.  Examining hundreds digits, we know that $X$ is  $6$ or $7$.  Examining tens digits, on the right side we cannot have carrying into the hundreds digit, so $X = 6$, and thus $Y$ is  $7$ or $8$.  However, we see that the sum on the right side must have carrying into the tens digit, so $Y = 8$.  Finally, $D = 7$ is trivial.  Thus $XYD =\\boxed{687}$."
+    },
+    {
+        "question": "Let the tens digit be x and the units digit be y.\n\nThen, the number is 10x + y\n\nAdding the digit d at the unit's place gives 10x + y + d\n\nThe number 619 more than the original number, that is, 10x + y + 619 \n\nTherefore, \n10x + y + d = 10x + y + 619\n\nd = 619\n\n**Hence, the three-digit number is: 10x + y + d = 10x + y + 619**\n \nFinal Answer: $\\boxed{10x + y + 619}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{619}$",
+        "ground_truth": "We are given $XYD = 619+XY$.  Examining hundreds digits, we know that $X$ is  $6$ or $7$.  Examining tens digits, on the right side we cannot have carrying into the hundreds digit, so $X = 6$, and thus $Y$ is  $7$ or $8$.  However, we see that the sum on the right side must have carrying into the tens digit, so $Y = 8$.  Finally, $D = 7$ is trivial.  Thus $XYD =\\boxed{687}$."
+    }
+]

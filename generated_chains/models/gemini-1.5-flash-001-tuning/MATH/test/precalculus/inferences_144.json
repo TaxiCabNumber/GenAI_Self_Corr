@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFor $\\bold{v} = \\begin{pmatrix} 2 \\\\ 3 \\\\ -1 \\end{pmatrix}$ and $\\bold{w} = \\begin{pmatrix} 2 \\\\ -1 \\\\ 0 \\end{pmatrix}$, compute $\\text{proj}_{\\bold{w}} \\bold{v}$.",
+        "inference": "Final Answer: $\\boxed{\\begin{pmatrix} \\frac{4}{5} \\\\ -\\frac{2}{5} \\\\ 0 \\end{pmatrix}}$. I hope it is correct. \n",
+        "ground_truth": "We have that\n\\begin{align*}\n\\text{proj}_{\\bold{w}} \\bold{v} &= \\frac{\\bold{v} \\cdot \\bold{w}}{\\bold{w} \\cdot \\bold{w}} \\bold{w} \\\\\n&= \\frac{\\begin{pmatrix} 2 \\\\ 3 \\\\ -1 \\end{pmatrix} \\cdot \\begin{pmatrix} 2 \\\\ -1 \\\\ 0 \\end{pmatrix}}{\\begin{pmatrix} 2 \\\\ -1 \\\\ 0 \\end{pmatrix} \\cdot \\begin{pmatrix} 2 \\\\ -1 \\\\ 0 \\end{pmatrix}} \\begin{pmatrix} 2 \\\\ -1 \\\\ 0 \\end{pmatrix} \\\\\n&= \\frac{1}{5} \\begin{pmatrix} 2 \\\\ -1 \\\\ 0 \\end{pmatrix} \\\\\n&= \\boxed{\\begin{pmatrix} 2/5 \\\\ -1/5 \\\\ 0 \\end{pmatrix}}.\n\\end{align*}"
+    },
+    {
+        "question": "Final Answer: $\\boxed{\\begin{pmatrix} \\frac{4}{5} \\\\ -\\frac{2}{5} \\\\ 0 \\end{pmatrix}}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the original question and the steps you took to arrive at your answer. I need more information to understand the context and identify any potential errors. \n",
+        "ground_truth": "We have that\n\\begin{align*}\n\\text{proj}_{\\bold{w}} \\bold{v} &= \\frac{\\bold{v} \\cdot \\bold{w}}{\\bold{w} \\cdot \\bold{w}} \\bold{w} \\\\\n&= \\frac{\\begin{pmatrix} 2 \\\\ 3 \\\\ -1 \\end{pmatrix} \\cdot \\begin{pmatrix} 2 \\\\ -1 \\\\ 0 \\end{pmatrix}}{\\begin{pmatrix} 2 \\\\ -1 \\\\ 0 \\end{pmatrix} \\cdot \\begin{pmatrix} 2 \\\\ -1 \\\\ 0 \\end{pmatrix}} \\begin{pmatrix} 2 \\\\ -1 \\\\ 0 \\end{pmatrix} \\\\\n&= \\frac{1}{5} \\begin{pmatrix} 2 \\\\ -1 \\\\ 0 \\end{pmatrix} \\\\\n&= \\boxed{\\begin{pmatrix} 2/5 \\\\ -1/5 \\\\ 0 \\end{pmatrix}}.\n\\end{align*}"
+    }
+]

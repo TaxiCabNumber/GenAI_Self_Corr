@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nZachary paid for a $\\$1$ burger with 32 coins and received no change. Each coin was either a penny or a nickel. What was the number of nickels Zachary used?",
+        "inference": "Let $n$ be the number of nickels Zachary used. Then, $32 - n$ is the number of pennies he used. The total value of the nickels is $5n$ cents, and the total value of the pennies is $32-n$ cents. Since the total value of the coins is 100 cents, we have the equation: $5n + (32 - n) = 100$ \nSolving for $n$ we get $n = 17$.\nFinal Answer: $\\boxed{17}$. I hope it is correct. \n",
+        "ground_truth": "If $p$ is the number of pennies and $n$ is the number of nickels that Zachary used, then we are given \\begin{align*}\np+n&=32\\text{, and} \\\\\np+5n&=100.\n\\end{align*} Subtracting the first equation from the second, we find $4n=68$ which implies $n=\\boxed{17}$."
+    },
+    {
+        "question": "Let $n$ be the number of nickels Zachary used. Then, $32 - n$ is the number of pennies he used. The total value of the nickels is $5n$ cents, and the total value of the pennies is $32-n$ cents. Since the total value of the coins is 100 cents, we have the equation: $5n + (32 - n) = 100$ \nSolving for $n$ we get $n = 17$.\nFinal Answer: $\\boxed{17}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{16}  I hope it is correct. \n",
+        "ground_truth": "If $p$ is the number of pennies and $n$ is the number of nickels that Zachary used, then we are given \\begin{align*}\np+n&=32\\text{, and} \\\\\np+5n&=100.\n\\end{align*} Subtracting the first equation from the second, we find $4n=68$ which implies $n=\\boxed{17}$."
+    }
+]

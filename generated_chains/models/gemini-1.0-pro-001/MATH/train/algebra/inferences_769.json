@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the largest value of $n$ such that $5x^2+nx+48$ can be factored as the product of two linear factors with integer coefficients.",
+        "inference": "The polynomial $5x^2+nx+48$ can be factored as the product of two linear factors with integer coefficients if and only if its discriminant is a perfect square.  The discriminant of the polynomial $5x^2+nx+48$ is $n^2-4(5)(48)=n^2-960$.  The largest integer $n$ such that $n^2-960$ is a perfect square is $n=28$.\nFinal Answer: $\\boxed{28}$. I hope it is correct.",
+        "ground_truth": "The two factors of $5x^2+nx+48$ must be in the form $(5x+A)(x+B)$. $A$ and $B$ must be positive integers to form the largest value of $n$. Therefore, $AB=48$ and $5B+A=n$. To form the largest value of $n$, $B$ must equal $48$. Therefore, $A=1$. \\[5B+A=5(48)+1=\\boxed{241}\\]"
+    },
+    {
+        "question": "The polynomial $5x^2+nx+48$ can be factored as the product of two linear factors with integer coefficients if and only if its discriminant is a perfect square.  The discriminant of the polynomial $5x^2+nx+48$ is $n^2-4(5)(48)=n^2-960$.  The largest integer $n$ such that $n^2-960$ is a perfect square is $n=28$.\nFinal Answer: $\\boxed{28}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{28}.",
+        "ground_truth": "The two factors of $5x^2+nx+48$ must be in the form $(5x+A)(x+B)$. $A$ and $B$ must be positive integers to form the largest value of $n$. Therefore, $AB=48$ and $5B+A=n$. To form the largest value of $n$, $B$ must equal $48$. Therefore, $A=1$. \\[5B+A=5(48)+1=\\boxed{241}\\]"
+    }
+]

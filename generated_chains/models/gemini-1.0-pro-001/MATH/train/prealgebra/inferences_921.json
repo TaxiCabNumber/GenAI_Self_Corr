@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe arithmetic mean of 12 scores is 82. When the highest and lowest scores are  removed, the new mean becomes 84. If the highest of the 12 scores is 98, what is the lowest score?",
+        "inference": "Let x be the lowest score. The sum of the 12 scores is 12 * 82 = 984. The sum of the 10 scores without the highest and lowest scores is 10 * 84 = 840. Therefore, the sum of the highest and lowest scores is 984 - 840 = 144. Since the highest score is 98, the lowest score must be 144 - 98 = 46.\nFinal Answer: $\\boxed{46}$. I hope it is correct.",
+        "ground_truth": "If the mean of the $12$ scores is $82$, then the sum of the $12$ scores is $82\\times12$. After the two scores are removed, the sum of the $10$ remaining scores is $84\\times10=840$. The sum of the two removed scores is $$82\\times12-840=4(41\\times6-210)=4(246-210)=4(36)=144.$$ Since one of the removed scores is $98$, the other removed score is $144-98=\\boxed{46}$."
+    },
+    {
+        "question": "Let x be the lowest score. The sum of the 12 scores is 12 * 82 = 984. The sum of the 10 scores without the highest and lowest scores is 10 * 84 = 840. Therefore, the sum of the highest and lowest scores is 984 - 840 = 144. Since the highest score is 98, the lowest score must be 144 - 98 = 46.\nFinal Answer: $\\boxed{46}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$46$}",
+        "ground_truth": "If the mean of the $12$ scores is $82$, then the sum of the $12$ scores is $82\\times12$. After the two scores are removed, the sum of the $10$ remaining scores is $84\\times10=840$. The sum of the two removed scores is $$82\\times12-840=4(41\\times6-210)=4(246-210)=4(36)=144.$$ Since one of the removed scores is $98$, the other removed score is $144-98=\\boxed{46}$."
+    }
+]

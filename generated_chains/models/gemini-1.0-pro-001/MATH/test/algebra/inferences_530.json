@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $a,b,c,d$ are positive real numbers such that $a,b,c,d$ form an increasing arithmetic sequence and $a,b,d$ form a geometric sequence, then find the value of $\\dfrac{a}{d}.$",
+        "inference": "Let $d=a+x$ and $b=a+2x$ \n\nThen $d=ar^2$ ...(i) and $a(r+1)=b$ ...(ii)\n\nDivide (i) by (ii) $\\dfrac{d}{a(r+1)}=\\dfrac{ar^2}{a(r+1)}$\n\n$\\dfrac{d}{a}=r$\n\n$\\dfrac{a}{d}=\\dfrac{1}{r}$\n\nFinal Answer: $\\boxed{\\frac{1}{r}}$. I hope it is correct.",
+        "ground_truth": "We have $b=a + r$, $c=a + 2r$, and $d=a + 3r$, where $r$ is a positive real number. Also, $b^2 = ad$ yields $(a+r)^2 =\na(a+3r)$, or $r^2=ar$. It follows that $r=a$ and $d = a + 3a =\n4a$. Hence $\\displaystyle{\\frac{a}{d}} = \\boxed{\\frac{1}{4}}$."
+    },
+    {
+        "question": "Let $d=a+x$ and $b=a+2x$ \n\nThen $d=ar^2$ ...(i) and $a(r+1)=b$ ...(ii)\n\nDivide (i) by (ii) $\\dfrac{d}{a(r+1)}=\\dfrac{ar^2}{a(r+1)}$\n\n$\\dfrac{d}{a}=r$\n\n$\\dfrac{a}{d}=\\dfrac{1}{r}$\n\nFinal Answer: $\\boxed{\\frac{1}{r}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Final Answer: $\\boxed{\\frac{1}{r}}$",
+        "ground_truth": "We have $b=a + r$, $c=a + 2r$, and $d=a + 3r$, where $r$ is a positive real number. Also, $b^2 = ad$ yields $(a+r)^2 =\na(a+3r)$, or $r^2=ar$. It follows that $r=a$ and $d = a + 3a =\n4a$. Hence $\\displaystyle{\\frac{a}{d}} = \\boxed{\\frac{1}{4}}$."
+    }
+]

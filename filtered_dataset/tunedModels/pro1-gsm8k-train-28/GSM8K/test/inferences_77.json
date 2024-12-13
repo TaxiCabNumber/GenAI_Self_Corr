@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIf Raymond does half as much laundry as Sarah, and Sarah does 4 times as much laundry as David, calculate the difference in the amount of laundry Raymond and David do if Sarah does 400 pounds of laundry.",
+        "inference": "1. Sarah does 4 times as much laundry as David, so if Sarah does 400 pounds of laundry, David does 400 / 4 = 100 pounds of laundry.\n2. Raymond does half as much laundry as Sarah, so if Sarah does 400 pounds of laundry, Raymond does 400 / 2 = 200 pounds of laundry.\n3. The difference in the amount of laundry Raymond and David do is 200 - 100 = 100 pounds.\nI hope it is correct: 100 $answer$",
+        "ground_truth": "If Sarah does 400 pounds of laundry, and Raymond does half as much laundry as Sarah, Raymond does 1/2*400 = 200 pounds of laundry.\nSara also does 4 times as much laundry as David, meaning David does 400/4 = <<400/4=100>>100 pounds of laundry.\nThe difference in the amount of laundry Raymond and David do is 200-100 = <<200-100=100>>100 pounds\n#### 100"
+    },
+    {
+        "question": "1. Sarah does 4 times as much laundry as David, so if Sarah does 400 pounds of laundry, David does 400 / 4 = 100 pounds of laundry.\n2. Raymond does half as much laundry as Sarah, so if Sarah does 400 pounds of laundry, Raymond does 400 / 2 = 200 pounds of laundry.\n3. The difference in the amount of laundry Raymond and David do is 200 - 100 = 100 pounds.\nI hope it is correct: 100 $answer$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 100",
+        "ground_truth": "If Sarah does 400 pounds of laundry, and Raymond does half as much laundry as Sarah, Raymond does 1/2*400 = 200 pounds of laundry.\nSara also does 4 times as much laundry as David, meaning David does 400/4 = <<400/4=100>>100 pounds of laundry.\nThe difference in the amount of laundry Raymond and David do is 200-100 = <<200-100=100>>100 pounds\n#### 100"
+    }
+]

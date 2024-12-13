@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the last two digits of the following sum: $$5! + 10! + 15! + \\cdots + 100!$$",
+        "inference": "The last two digits of $n!$ are 00 if n is greater than or equal to 20, and is n if n is less than or equal to 19.  Therefore, we need to consider only the last two digits of $5!, 10!, and 15!$.  The last two digits of $5!$ are 00, the last two digits of $10!$ are 00, and the last two digits of $15!$ are 00.\n\nTherefore, the last two digits of the sum are **00**.\n\nFinal Answer: \\boxed{$00$}. I hope it is correct.",
+        "ground_truth": "Since for all $n \\ge 10$, $n!$ has (at least) two factors of 5, we know that $n!$ will end in two zeros.  Therefore, if $n\\ge 10$, then $n!$ contributes nothing to the last two digits of the sum. So we need only compute $5! = 120$, and hence our answer is $\\boxed{20}$."
+    },
+    {
+        "question": "The last two digits of $n!$ are 00 if n is greater than or equal to 20, and is n if n is less than or equal to 19.  Therefore, we need to consider only the last two digits of $5!, 10!, and 15!$.  The last two digits of $5!$ are 00, the last two digits of $10!$ are 00, and the last two digits of $15!$ are 00.\n\nTherefore, the last two digits of the sum are **00**.\n\nFinal Answer: \\boxed{$00$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$00$}",
+        "ground_truth": "Since for all $n \\ge 10$, $n!$ has (at least) two factors of 5, we know that $n!$ will end in two zeros.  Therefore, if $n\\ge 10$, then $n!$ contributes nothing to the last two digits of the sum. So we need only compute $5! = 120$, and hence our answer is $\\boxed{20}$."
+    }
+]

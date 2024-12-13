@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAn unusual bicycle has 20 spokes on the front wheel and twice as many spokes on the back wheel. How many spokes does the bicycle have?",
+        "inference": "The back wheel has 2 x 20 = 40 spokes.\nThe bicycle has 20 + 40 = 60 spokes.\nI hope it is correct: $60$",
+        "ground_truth": "The back wheel has double the spokes the front wheel has, which means the back wheel has 20*2=<<20*2=40>>40 spokes.\nIn total, the bicycle has 20+40=<<20+40=60>>60 spokes.\n#### 60"
+    },
+    {
+        "question": "The back wheel has 2 x 20 = 40 spokes.\nThe bicycle has 20 + 40 = 60 spokes.\nI hope it is correct: $60$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$60",
+        "ground_truth": "The back wheel has double the spokes the front wheel has, which means the back wheel has 20*2=<<20*2=40>>40 spokes.\nIn total, the bicycle has 20+40=<<20+40=60>>60 spokes.\n#### 60"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRussell orders his favorite bagels online.  Each pack of bagels costs $10.00 and has 9 bagels in the pack.  If he orders 4 packs of bagels, he will receive a 10% discount.  After ordering 4 bags, how much will each single bagel cost?",
+        "inference": "- Step 1: Calculate the total cost of the bagels without the discount.\n4 packs x $10.00 = $40.00\n- Step 2: Calculate the discount.\n10% of $40.00 = $4.00\n- Step 3: Calculate the total cost of the bagels after the discount.\n$40.00 - $4.00 = $36.00\n- Step 4: Calculate the cost of each single bagel.\n$36.00 / 36 bagels = $1.00\nI hope it is correct: $1.00$",
+        "ground_truth": "He orders 4 packs of bagels and each pack costs $10.00 so that's 4*10 = $<<4*10=40.00>>40.00\nHe orders 4 packs at $40.00 and receives a 10% discount so his discount is 40*.10 = $4.00\nThe bagels cost $40.00 and he has a $4.00 discount making his total 40-4 = $<<40-4=36.00>>36.00\nEach pack of bagels has 9 bagels per pack and he orders 4 packs so that's 9*4 = <<9*4=36>>36 bagels\nHis order total was $36.00 and there are 36 bagels so each bagel costs 36/36 = $<<36/36=1.00>>1.00\n#### 1"
+    },
+    {
+        "question": "- Step 1: Calculate the total cost of the bagels without the discount.\n4 packs x $10.00 = $40.00\n- Step 2: Calculate the discount.\n10% of $40.00 = $4.00\n- Step 3: Calculate the total cost of the bagels after the discount.\n$40.00 - $4.00 = $36.00\n- Step 4: Calculate the cost of each single bagel.\n$36.00 / 36 bagels = $1.00\nI hope it is correct: $1.00$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $1.00$",
+        "ground_truth": "He orders 4 packs of bagels and each pack costs $10.00 so that's 4*10 = $<<4*10=40.00>>40.00\nHe orders 4 packs at $40.00 and receives a 10% discount so his discount is 40*.10 = $4.00\nThe bagels cost $40.00 and he has a $4.00 discount making his total 40-4 = $<<40-4=36.00>>36.00\nEach pack of bagels has 9 bagels per pack and he orders 4 packs so that's 9*4 = <<9*4=36>>36 bagels\nHis order total was $36.00 and there are 36 bagels so each bagel costs 36/36 = $<<36/36=1.00>>1.00\n#### 1"
+    }
+]

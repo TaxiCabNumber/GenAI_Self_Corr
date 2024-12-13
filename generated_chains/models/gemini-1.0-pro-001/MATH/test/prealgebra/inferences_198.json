@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nEvery student in the senior class is taking history or science and 85 of them are taking both. If there are 106 seniors taking history and 109 seniors taking science, how many students are in the senior class?",
+        "inference": "Let x be the number of students taking only history, y be the number of students taking only science and z be the total number of students in the senior class. We can set up the following equations:\n\nx + 85 + y = z\nx + 85 = 106\ny + 85 = 109\n\nSolving for x, we get:\nx = 106 - 85\nx = 21\n\nSolving for y, we get:\ny = 109 - 85\ny = 24\n\nSolving for z, we get:\nz = 21 + 85 + 24\nz = 130\nFinal Answer: $\\boxed{130}$. I hope it is correct.",
+        "ground_truth": "We see 106 seniors are taking history and 109 seniors are taking science. If we add those numbers of seniors up, we still have to subtract the number of seniors that are taking both history and science because we counted them twice. So there is a total of $106+109-85=\\boxed{130}$ students in the senior class."
+    },
+    {
+        "question": "Let x be the number of students taking only history, y be the number of students taking only science and z be the total number of students in the senior class. We can set up the following equations:\n\nx + 85 + y = z\nx + 85 = 106\ny + 85 = 109\n\nSolving for x, we get:\nx = 106 - 85\nx = 21\n\nSolving for y, we get:\ny = 109 - 85\ny = 24\n\nSolving for z, we get:\nz = 21 + 85 + 24\nz = 130\nFinal Answer: $\\boxed{130}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$130$}",
+        "ground_truth": "We see 106 seniors are taking history and 109 seniors are taking science. If we add those numbers of seniors up, we still have to subtract the number of seniors that are taking both history and science because we counted them twice. So there is a total of $106+109-85=\\boxed{130}$ students in the senior class."
+    }
+]

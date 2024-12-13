@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the sum\n\\[0.1 + 0.02 + 0.003 + 0.0004 + \\dots + \\frac{n}{10^n} + \\dotsb.\\]",
+        "inference": "Final Answer: \\\\boxed{\\frac{10}{81}}. I hope it is correct.",
+        "ground_truth": "Let\n\\[S = \\frac{1}{10} + \\frac{2}{10^2} + \\frac{3}{10^3} + \\dotsb.\\]Then\n\\[\\frac{1}{10} S = \\frac{1}{10^2} + \\frac{2}{10^3} + \\frac{3}{10^4} + \\dotsb.\\]Subtracting these equations, get\n\\[\\frac{9}{10} S = \\frac{1}{10} + \\frac{1}{10^2} + \\frac{1}{10^3} + \\dots = \\frac{1/10}{1 - 1/10} = \\frac{1}{9}.\\]Therefore,\n\\[S = \\boxed{\\frac{10}{81}}.\\]"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{\\frac{10}{81}}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the original problem and the solution you attempted. I need this context to identify any errors and provide the correct answer. \n",
+        "ground_truth": "Let\n\\[S = \\frac{1}{10} + \\frac{2}{10^2} + \\frac{3}{10^3} + \\dotsb.\\]Then\n\\[\\frac{1}{10} S = \\frac{1}{10^2} + \\frac{2}{10^3} + \\frac{3}{10^4} + \\dotsb.\\]Subtracting these equations, get\n\\[\\frac{9}{10} S = \\frac{1}{10} + \\frac{1}{10^2} + \\frac{1}{10^3} + \\dots = \\frac{1/10}{1 - 1/10} = \\frac{1}{9}.\\]Therefore,\n\\[S = \\boxed{\\frac{10}{81}}.\\]"
+    }
+]

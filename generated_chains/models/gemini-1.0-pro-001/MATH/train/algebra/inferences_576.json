@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe sum of three numbers $a$, $b$, and $c$ is 99. If we increase $a$ by 6, decrease $b$ by 6 and multiply $c$ by 5, the three resulting numbers are equal. What is the value of $b$?",
+        "inference": "Solution:\nLet $a+6=b-6=5c$.  Then $a=b-12$ and $b=5c+12$.  We have\n\\begin{align*}\na+b+c&=99\\\\\n\\Rightarrow\\qquad b-12+b+5c&=99\\\\\n\\Rightarrow\\qquad 2b+5c&=111\\\\\n\\Rightarrow\\qquad 2(5c+12)+5c&=111\\\\\n\\Rightarrow\\qquad 15c&=75\\\\\n\\Rightarrow\\qquad c&=5.\n\\end{align*}\nThus, $b=5c+12=5\\cdot5+12=\\boxed{37}$.\nFinal Answer: $\\boxed{37}$. I hope it is correct.",
+        "ground_truth": "We are given the equations $a+b+c=99$ and $a+6=b-6=5c$.  Solve $b-6=5c$ for $b$ to find $b=5c+6$, and solve $5c=a+6$ for $a$ to find $a=5c-6$.  Substituting both of these equations into $a+b+c=99$, we have $(5c-6)+(5c+6)+c=99$.  Simplifying the left hand side, we get $11c=99$ which implies $c=9$.  Substituting into $b=5c+6$, we have $b=5(9)+6=\\boxed{51}$."
+    },
+    {
+        "question": "Solution:\nLet $a+6=b-6=5c$.  Then $a=b-12$ and $b=5c+12$.  We have\n\\begin{align*}\na+b+c&=99\\\\\n\\Rightarrow\\qquad b-12+b+5c&=99\\\\\n\\Rightarrow\\qquad 2b+5c&=111\\\\\n\\Rightarrow\\qquad 2(5c+12)+5c&=111\\\\\n\\Rightarrow\\qquad 15c&=75\\\\\n\\Rightarrow\\qquad c&=5.\n\\end{align*}\nThus, $b=5c+12=5\\cdot5+12=\\boxed{37}$.\nFinal Answer: $\\boxed{37}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{37}",
+        "ground_truth": "We are given the equations $a+b+c=99$ and $a+6=b-6=5c$.  Solve $b-6=5c$ for $b$ to find $b=5c+6$, and solve $5c=a+6$ for $a$ to find $a=5c-6$.  Substituting both of these equations into $a+b+c=99$, we have $(5c-6)+(5c+6)+c=99$.  Simplifying the left hand side, we get $11c=99$ which implies $c=9$.  Substituting into $b=5c+6$, we have $b=5(9)+6=\\boxed{51}$."
+    }
+]

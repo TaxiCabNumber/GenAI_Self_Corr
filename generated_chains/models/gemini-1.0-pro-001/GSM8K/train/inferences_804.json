@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA zoo has 16 pandas, paired into mates (in the same zoo). Only 25% of the panda couples get pregnant after mating. If they each have one baby, how many panda babies are born?",
+        "inference": "1. Pandas in one pair: 2\n2. Number of pairs: 8\n3. 25% of 8 = 2\n4. Each pair has one baby: 2\n5. Total babies: 2 * 2 = 4\n\nI hope it is correct: 4 $babies$",
+        "ground_truth": "First divide the number of pandas by 2 to find the number of couples: 16 pandas / 2 = <<16/2=8>>8 panda couples\nThen multiply that number by 25% to find the number of babies: 8 panda couples * 25% = <<8*25*.01=2>>2 panda babies\n#### 2"
+    },
+    {
+        "question": "1. Pandas in one pair: 2\n2. Number of pairs: 8\n3. 25% of 8 = 2\n4. Each pair has one baby: 2\n5. Total babies: 2 * 2 = 4\n\nI hope it is correct: 4 $babies$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 4",
+        "ground_truth": "First divide the number of pandas by 2 to find the number of couples: 16 pandas / 2 = <<16/2=8>>8 panda couples\nThen multiply that number by 25% to find the number of babies: 8 panda couples * 25% = <<8*25*.01=2>>2 panda babies\n#### 2"
+    }
+]

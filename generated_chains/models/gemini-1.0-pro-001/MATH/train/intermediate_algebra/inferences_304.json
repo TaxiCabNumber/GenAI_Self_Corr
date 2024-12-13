@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $a$ and $b$ be real numbers.  Consider the following five statements:\n\n$\\frac{1}{a} < \\frac{1}{b}$\n$a^2 > b^2$\n$a < b$\n$a < 0$\n$b < 0$\n\nWhat is the maximum number of these statements that can be true for any values of $a$ and $b$?",
+        "inference": "Statement 1 and 3 are equivalent since $\\frac{1}{a} < \\frac{1}{b}$ is the same as $\\frac{b}{a} > 1$, which in turn is the same as $b > a$.  Similarly, statement 4 and 5 are equivalent.  Thus, at most 3 of the statements can be true for any values of $a$ and $b$.  For instance, if we let $a = 1$ and $b = 2$, then statements 1, 2, and 3 are true.\nFinal Answer: $\\boxed{3}$. I hope it is correct.",
+        "ground_truth": "Suppose $a < 0,$ $b < 0,$ and $a < b.$  Then\n\\[\\frac{1}{a} - \\frac{1}{b} = \\frac{b - a}{ab} > 0,\\]so $\\frac{1}{a} > \\frac{1}{b}.$  Thus, not all five statements can be true.\n\nIf we take $a = -2$ and $b = -1,$ then all the statements are true except the first statement.  Hence, the maximum number of statements that can be true is $\\boxed{4}.$"
+    },
+    {
+        "question": "Statement 1 and 3 are equivalent since $\\frac{1}{a} < \\frac{1}{b}$ is the same as $\\frac{b}{a} > 1$, which in turn is the same as $b > a$.  Similarly, statement 4 and 5 are equivalent.  Thus, at most 3 of the statements can be true for any values of $a$ and $b$.  For instance, if we let $a = 1$ and $b = 2$, then statements 1, 2, and 3 are true.\nFinal Answer: $\\boxed{3}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$3$}",
+        "ground_truth": "Suppose $a < 0,$ $b < 0,$ and $a < b.$  Then\n\\[\\frac{1}{a} - \\frac{1}{b} = \\frac{b - a}{ab} > 0,\\]so $\\frac{1}{a} > \\frac{1}{b}.$  Thus, not all five statements can be true.\n\nIf we take $a = -2$ and $b = -1,$ then all the statements are true except the first statement.  Hence, the maximum number of statements that can be true is $\\boxed{4}.$"
+    }
+]

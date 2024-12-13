@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nCaroline has 4 children.  The first child is 6 feet tall.  The second child is two inches taller than the first child.  The third child is 5 inches shorter than the second child.  And the fourth child is three inches taller than the third child.  How tall is the fourth child, in inches?",
+        "inference": "**Step 1:** Convert the first child's height to inches: 6 feet = 6 x 12 = 72 inches.\n\n**Step 2:** Find the second child's height: 72 inches + 2 inches = 74 inches.\n\n**Step 3:** Find the third child's height: 74 inches - 5 inches = 69 inches.\n\n**Step 4:** Find the fourth child's height: 69 inches + 3 inches = 72 inches.\n\nI hope it is correct: 72 inches $answer$",
+        "ground_truth": "The six-foot-tall first child is 12*6=<<6*12=72>>72 inches tall.\nThe second child is two inches taller than the first child, or 72+2=<<72+2=74>>74 inches tall.\nThe third child is 5 inches shorter than the second child, or 74-5=<<74-5=69>>69 inches tall.\nAnd the fourth child is three inches taller than the third child, or 69+3=<<69+3=72>>72 inches tall.\n#### 72"
+    },
+    {
+        "question": "**Step 1:** Convert the first child's height to inches: 6 feet = 6 x 12 = 72 inches.\n\n**Step 2:** Find the second child's height: 72 inches + 2 inches = 74 inches.\n\n**Step 3:** Find the third child's height: 74 inches - 5 inches = 69 inches.\n\n**Step 4:** Find the fourth child's height: 69 inches + 3 inches = 72 inches.\n\nI hope it is correct: 72 inches $answer$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "72 inches",
+        "ground_truth": "The six-foot-tall first child is 12*6=<<6*12=72>>72 inches tall.\nThe second child is two inches taller than the first child, or 72+2=<<72+2=74>>74 inches tall.\nThe third child is 5 inches shorter than the second child, or 74-5=<<74-5=69>>69 inches tall.\nAnd the fourth child is three inches taller than the third child, or 69+3=<<69+3=72>>72 inches tall.\n#### 72"
+    }
+]

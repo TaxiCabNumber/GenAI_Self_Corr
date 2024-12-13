@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $a$ and $b$ be nonzero complex numbers such that $a^2 + ab + b^2 = 0.$  Evaluate\n\\[\\frac{a^9 + b^9}{(a + b)^9}.\\]",
+        "inference": "Final Answer: \\\\boxed{1}. I hope it is correct. \n",
+        "ground_truth": "Since $a^2 + ab + b^2 = 0,$ $(a - b)(a^2 + ab + b^2) = 0.$  This simplifies to $a^3 - b^3 = 0,$ so $a^3 = b^3.$\n\nThen $b^9 = a^9.$  Also,\n\\[(a + b)^2 = a^2 + 2ab + b^2 = (a^2 + ab + b^2) + ab = ab,\\]so\n\\[(a + b)^3 = ab(a + b) = a(ab + b^2) = a(-a^2) = -a^3.\\]Then $(a + b)^9 = (-a^3)^3 = -a^9,$ so\n\\[\\frac{a^9 + b^9}{(a + b)^9} = \\frac{2a^9}{-a^9} = \\boxed{-2}.\\]"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{1}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the original question and the solution you are referring to. I need this information to identify any errors and provide a corrected solution. \n",
+        "ground_truth": "Since $a^2 + ab + b^2 = 0,$ $(a - b)(a^2 + ab + b^2) = 0.$  This simplifies to $a^3 - b^3 = 0,$ so $a^3 = b^3.$\n\nThen $b^9 = a^9.$  Also,\n\\[(a + b)^2 = a^2 + 2ab + b^2 = (a^2 + ab + b^2) + ab = ab,\\]so\n\\[(a + b)^3 = ab(a + b) = a(ab + b^2) = a(-a^2) = -a^3.\\]Then $(a + b)^9 = (-a^3)^3 = -a^9,$ so\n\\[\\frac{a^9 + b^9}{(a + b)^9} = \\frac{2a^9}{-a^9} = \\boxed{-2}.\\]"
+    }
+]

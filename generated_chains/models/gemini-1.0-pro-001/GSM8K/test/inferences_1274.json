@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA family of parents and a child go to the cinema. The cost of an adult ticket is $12 and a child ticket is $8. Then they buy 2 popcorns for $3 each. How many dollars do they pay in total?",
+        "inference": "$2 \u00b7 12 + 8 + 2 \u00b7 3 = 24 + 8 + 6 = 38$\n\nI hope it is correct: 38",
+        "ground_truth": "Adult tickets cost 12*2=$<<12*2=24>>24\nPopcorns cost 2*3=$<<2*3=6>>6\nThey pay 24+8+6=$<<24+8+6=38>>38 in total.\n#### 38"
+    },
+    {
+        "question": "$2 \u00b7 12 + 8 + 2 \u00b7 3 = 24 + 8 + 6 = 38$\n\nI hope it is correct: 38\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$38",
+        "ground_truth": "Adult tickets cost 12*2=$<<12*2=24>>24\nPopcorns cost 2*3=$<<2*3=6>>6\nThey pay 24+8+6=$<<24+8+6=38>>38 in total.\n#### 38"
+    }
+]

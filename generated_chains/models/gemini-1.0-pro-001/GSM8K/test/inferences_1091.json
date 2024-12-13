@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAn apple orchard sells apples in bags of 10. The orchard sold a total of 2000 apples one day. How much did an orchard earn for selling this at $5 per bag?",
+        "inference": "Since there are 10 apples in each bag, we can find the total number of bags sold by dividing the total number of apples sold by 10.\n\nNumber of bags sold = 2000 / 10 = 200\n\nThe orchard earned $5 for each bag sold, so we can find the total earnings by multiplying the number of bags sold by $5.\n\nTotal earnings = 200 * $5 = $1000\n\nI hope it is correct: $1000$",
+        "ground_truth": "There were 2000/10 = <<2000/10=200>>200 bags of apples sold.\nTherefore, the orchard earned 200 x $5 = $<<200*5=1000>>1000.\n#### 1000"
+    },
+    {
+        "question": "Since there are 10 apples in each bag, we can find the total number of bags sold by dividing the total number of apples sold by 10.\n\nNumber of bags sold = 2000 / 10 = 200\n\nThe orchard earned $5 for each bag sold, so we can find the total earnings by multiplying the number of bags sold by $5.\n\nTotal earnings = 200 * $5 = $1000\n\nI hope it is correct: $1000$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $1000$",
+        "ground_truth": "There were 2000/10 = <<2000/10=200>>200 bags of apples sold.\nTherefore, the orchard earned 200 x $5 = $<<200*5=1000>>1000.\n#### 1000"
+    }
+]

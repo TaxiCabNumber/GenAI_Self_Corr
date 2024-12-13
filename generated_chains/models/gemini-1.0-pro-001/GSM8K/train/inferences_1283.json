@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nDan spent an hour doing 400 work tasks at $0.25 each. Then Dan spent an hour doing 5 work tasks at $2.00 each. How much more did Dan make doing the good work compared to the lower-paid work?",
+        "inference": "- Dan earned $0.25 x 400 = $100 doing the lower-paid work.\n- Dan earned $2.00 x 5 = $10 doing the higher-paid work.\n- Dan made $100 - $10 = $90 more doing the higher-paid work compared to the lower-paid work.\nI hope it is correct: $90$",
+        "ground_truth": "Dan spent an hour doing 400 tasks * $.25 = $100.\nDan spent an hour doing 5 tasks * $2.00 each = $<<5*2=10.00>>10.00.\nDan made $100 - $10 = $<<100-10=90.00>>90.00 per hour more doing the higher paid work.\n#### 90"
+    },
+    {
+        "question": "- Dan earned $0.25 x 400 = $100 doing the lower-paid work.\n- Dan earned $2.00 x 5 = $10 doing the higher-paid work.\n- Dan made $100 - $10 = $90 more doing the higher-paid work compared to the lower-paid work.\nI hope it is correct: $90$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$90",
+        "ground_truth": "Dan spent an hour doing 400 tasks * $.25 = $100.\nDan spent an hour doing 5 tasks * $2.00 each = $<<5*2=10.00>>10.00.\nDan made $100 - $10 = $<<100-10=90.00>>90.00 per hour more doing the higher paid work.\n#### 90"
+    }
+]

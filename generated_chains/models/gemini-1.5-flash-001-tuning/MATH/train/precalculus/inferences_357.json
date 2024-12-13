@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSimplify $\\cos 36^\\circ - \\cos 72^\\circ.$",
+        "inference": "Final Answer: $\\boxed{\\frac{1}{2}}$. I hope it is correct. \n",
+        "ground_truth": "Let $a = \\cos 36^\\circ$ and $b = \\cos 72^\\circ.$  Then\n\\[b = \\cos 72^\\circ = 2 \\cos^2 36^\\circ - 1 = 2a^2 - 1.\\]Also,\n\\[a = \\cos 36^\\circ = 1 - 2 \\sin^2 18^\\circ = 1 - 2 \\cos^2 72^\\circ = 1 - 2b^2.\\]Adding these equations, we get\n\\[a + b = 2a^2 - 2b^2 = 2(a + b)(a - b).\\]Since $a$ and $b$ are positive, $a + b \\neq 0.$  We can then divide both sides by $2(a + b),$ to get\n\\[a - b = \\boxed{\\frac{1}{2}}.\\]"
+    },
+    {
+        "question": "Final Answer: $\\boxed{\\frac{1}{2}}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the original problem and the solution you are referring to. I need context to identify any errors and provide a corrected solution. \n",
+        "ground_truth": "Let $a = \\cos 36^\\circ$ and $b = \\cos 72^\\circ.$  Then\n\\[b = \\cos 72^\\circ = 2 \\cos^2 36^\\circ - 1 = 2a^2 - 1.\\]Also,\n\\[a = \\cos 36^\\circ = 1 - 2 \\sin^2 18^\\circ = 1 - 2 \\cos^2 72^\\circ = 1 - 2b^2.\\]Adding these equations, we get\n\\[a + b = 2a^2 - 2b^2 = 2(a + b)(a - b).\\]Since $a$ and $b$ are positive, $a + b \\neq 0.$  We can then divide both sides by $2(a + b),$ to get\n\\[a - b = \\boxed{\\frac{1}{2}}.\\]"
+    }
+]

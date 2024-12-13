@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nHow many positive integers $n$ satisfy $200 < n^2 < 900$?",
+        "inference": "We have $200 < n^2 < 900$, so $14.142 < n < 30$. Since $n$ is an integer, $n \\in \\{15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29\\}$. Thus, there are 15 integers $n$ satisfying the inequality.\nFinal Answer: $\\boxed{15}.$ I hope it is correct.",
+        "ground_truth": "Since $f(n)=n^2$ is a monotonically increasing function (on the set of positive integers), we can find the least and greatest integer solutions and count the integers between them.  Since $14^2=196$ and $15^2=225$, $n=15$ is the smallest solution.  Since $30^2=900$, $n=29$ is the largest solution.  There are $29-15+1=\\boxed{15}$ integers between 15 and 29 inclusive."
+    },
+    {
+        "question": "We have $200 < n^2 < 900$, so $14.142 < n < 30$. Since $n$ is an integer, $n \\in \\{15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29\\}$. Thus, there are 15 integers $n$ satisfying the inequality.\nFinal Answer: $\\boxed{15}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{15}",
+        "ground_truth": "Since $f(n)=n^2$ is a monotonically increasing function (on the set of positive integers), we can find the least and greatest integer solutions and count the integers between them.  Since $14^2=196$ and $15^2=225$, $n=15$ is the smallest solution.  Since $30^2=900$, $n=29$ is the largest solution.  There are $29-15+1=\\boxed{15}$ integers between 15 and 29 inclusive."
+    }
+]

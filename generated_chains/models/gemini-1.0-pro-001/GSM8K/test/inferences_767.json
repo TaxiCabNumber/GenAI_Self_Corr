@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTo make 1 liter of juice, Sam needs 5 kilograms of oranges. Each kilogram of oranges costs $3. How much money would Sam have to spend to make 4 liters of juice?",
+        "inference": "1 liter of juice = 5 kg oranges = $ 3 * 5 = $15\n4 liters of juice = 4 * 5 = 20 kg oranges = $ 3 * 20 = $60\nI hope it is correct: $60",
+        "ground_truth": "To make 4 liters of juice, Sam needs 4 * 5 = <<4*5=20>>20 kilograms of oranges.\nIf one kilogram of oranges costs $3, then 20 kilograms would cost 20 * 3 = $<<20*3=60>>60.\n#### 60"
+    },
+    {
+        "question": "1 liter of juice = 5 kg oranges = $ 3 * 5 = $15\n4 liters of juice = 4 * 5 = 20 kg oranges = $ 3 * 20 = $60\nI hope it is correct: $60\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $60",
+        "ground_truth": "To make 4 liters of juice, Sam needs 4 * 5 = <<4*5=20>>20 kilograms of oranges.\nIf one kilogram of oranges costs $3, then 20 kilograms would cost 20 * 3 = $<<20*3=60>>60.\n#### 60"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTom found 214 seashells, Nancy found 432 seashells, and Benny found 86 seashells on the beach. When they cleaned them, they discovered that 67 were cracked. How many good seashells did they find together?",
+        "inference": "214 seashells + 432 seashells + 86 seashells = 732 seashells\n732 seashells - 67 cracked seashells = 665 good seashells\nI hope it is correct: 665 good seashells",
+        "ground_truth": "Together they found 214 + 432 + 86 = <<214+432+86=732>>732 seashells before cleaning.\nAfter cleaning, their final seashell is 732 - 67 = <<732-67=665>>665.\n#### 665"
+    },
+    {
+        "question": "214 seashells + 432 seashells + 86 seashells = 732 seashells\n732 seashells - 67 cracked seashells = 665 good seashells\nI hope it is correct: 665 good seashells\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 665",
+        "ground_truth": "Together they found 214 + 432 + 86 = <<214+432+86=732>>732 seashells before cleaning.\nAfter cleaning, their final seashell is 732 - 67 = <<732-67=665>>665.\n#### 665"
+    }
+]

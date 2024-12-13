@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA $180^\\circ$ rotation around the origin in the counter-clockwise direction is applied to $-6 - 3i.$  What is the resulting complex number?",
+        "inference": "Final Answer: \\\\boxed{6 + 3i}. I hope it is correct.",
+        "ground_truth": "A $180^\\circ$ rotation in the counter-clockwise direction corresponds to multiplication by $\\operatorname{cis} 180^\\circ = -1.$\n\n[asy]\nunitsize(0.5 cm);\n\npair A = (-6,-3), B = (6,3);\n\ndraw((-8,0)--(8,0));\ndraw((0,-4)--(0,4));\ndraw((0,0)--A,dashed);\ndraw((0,0)--B,dashed);\n\ndot(\"$-6 - 3i$\", A, SW);\ndot(\"$6 + 3i$\", B,  NE);\n[/asy]\n\nHence, the image of $-6 - 3i$ is $(-1)(-6 - 3i) = \\boxed{6 + 3i}.$"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{6 + 3i}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the question and your solution so I can help you find the correct answer and format it properly. \n",
+        "ground_truth": "A $180^\\circ$ rotation in the counter-clockwise direction corresponds to multiplication by $\\operatorname{cis} 180^\\circ = -1.$\n\n[asy]\nunitsize(0.5 cm);\n\npair A = (-6,-3), B = (6,3);\n\ndraw((-8,0)--(8,0));\ndraw((0,-4)--(0,4));\ndraw((0,0)--A,dashed);\ndraw((0,0)--B,dashed);\n\ndot(\"$-6 - 3i$\", A, SW);\ndot(\"$6 + 3i$\", B,  NE);\n[/asy]\n\nHence, the image of $-6 - 3i$ is $(-1)(-6 - 3i) = \\boxed{6 + 3i}.$"
+    }
+]

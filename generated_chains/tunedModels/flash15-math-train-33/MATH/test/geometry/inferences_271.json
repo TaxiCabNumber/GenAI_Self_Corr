@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nDetermine the coordinates of the point $P$ on the line $y=-x+6$ such that $P$ is equidistant from the points $A(10,-10)$ and $O(0,0)$ (that is, so that $PA=PO$).  Express your answer as an ordered pair $(a,b)$.",
+        "inference": "Final Answer: \\\\boxed{(3,3)}. I hope it is correct. \n",
+        "ground_truth": "If $P$ is equidistant from $A$ and $O$, it must lie on the perpendicular bisector of $AO$. Since $A$ has coordinates $(10,-10)$ and $O$ has coordinates $(0,0)$, $AO$ has slope $\\frac{-10-0}{10-0}=-1$.  The perpendicular bisector of $AO$ must have slope $-\\frac{1}{-1}=1$, and must also pass through the midpoint of $AO$, which is $(5,-5)$. Therefore, the perpendicular bisector has equation $y-(-5)=x-5$ or $y=x-10$.\n\n$P$ is the point of intersection of the lines $y=x-10$ and the line $y=-x+6$.  Setting these equations equal and solving for $x$ yields $-x+6=x-10 \\Rightarrow x=8$.  It follows that $y=-8+6=-2$ and $P=(x,y)=\\boxed{(8,-2)}$."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{(3,3)}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need that information to identify any potential errors and rewrite the solution. \n",
+        "ground_truth": "If $P$ is equidistant from $A$ and $O$, it must lie on the perpendicular bisector of $AO$. Since $A$ has coordinates $(10,-10)$ and $O$ has coordinates $(0,0)$, $AO$ has slope $\\frac{-10-0}{10-0}=-1$.  The perpendicular bisector of $AO$ must have slope $-\\frac{1}{-1}=1$, and must also pass through the midpoint of $AO$, which is $(5,-5)$. Therefore, the perpendicular bisector has equation $y-(-5)=x-5$ or $y=x-10$.\n\n$P$ is the point of intersection of the lines $y=x-10$ and the line $y=-x+6$.  Setting these equations equal and solving for $x$ yields $-x+6=x-10 \\Rightarrow x=8$.  It follows that $y=-8+6=-2$ and $P=(x,y)=\\boxed{(8,-2)}$."
+    }
+]

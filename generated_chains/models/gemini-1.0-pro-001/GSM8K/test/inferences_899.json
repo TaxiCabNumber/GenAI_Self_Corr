@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSusan made 100 cookies for Christmas and was going to equally divide them between her 6 nephews. Before Susan could package them, her husband snuck 4 cookies for himself. How many cookies will each of Susan\u2019s nephews get?",
+        "inference": "1. Susan made 100 cookies.\n2. Her husband took 4 cookies.\n3. So there are 100 - 4 = 96 cookies left.\n4. She will divide them between her 6 nephews.\n5. So each nephew will get 96 / 6 = 16 cookies.\nI hope it is correct: 16",
+        "ground_truth": "Subtract 4 from 100 to see how many cookies are left. 100 cookies - 4 cookies = <<100-4=96>>96 cookies\nDivide 96 cookies between her 6 nephews = 96 cookies/6 people = <<96/6=16>>16 cookies/person\n#### 16"
+    },
+    {
+        "question": "1. Susan made 100 cookies.\n2. Her husband took 4 cookies.\n3. So there are 100 - 4 = 96 cookies left.\n4. She will divide them between her 6 nephews.\n5. So each nephew will get 96 / 6 = 16 cookies.\nI hope it is correct: 16\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$16",
+        "ground_truth": "Subtract 4 from 100 to see how many cookies are left. 100 cookies - 4 cookies = <<100-4=96>>96 cookies\nDivide 96 cookies between her 6 nephews = 96 cookies/6 people = <<96/6=16>>16 cookies/person\n#### 16"
+    }
+]

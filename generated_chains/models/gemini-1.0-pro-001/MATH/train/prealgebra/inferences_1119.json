@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA burger at Ricky C's weighs 120 grams, of which 30 grams are filler.  What percent of the burger is not filler?",
+        "inference": "Let x be the percent of the burger that is not filler.\nThen, 100 - x is the percent of the burger that is filler.\nSince 30 grams are filler, we have:\n30 = 120 * (100 - x) / 100\nMultiplying both sides by 100:\n3000 = 12000 - 120x\nSubtracting 12000 from both sides:\n-9000 = -120x\nDividing both sides by -120:\nx = 75\n**Final Answer: \\boxed{$75$}. I hope it is correct.**",
+        "ground_truth": "There are $120 - 30 = 90$ grams that are not filler.  So $\\frac{90}{120} = \\boxed{75\\%}$ is not filler."
+    },
+    {
+        "question": "Let x be the percent of the burger that is not filler.\nThen, 100 - x is the percent of the burger that is filler.\nSince 30 grams are filler, we have:\n30 = 120 * (100 - x) / 100\nMultiplying both sides by 100:\n3000 = 12000 - 120x\nSubtracting 12000 from both sides:\n-9000 = -120x\nDividing both sides by -120:\nx = 75\n**Final Answer: \\boxed{$75$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$75$}",
+        "ground_truth": "There are $120 - 30 = 90$ grams that are not filler.  So $\\frac{90}{120} = \\boxed{75\\%}$ is not filler."
+    }
+]

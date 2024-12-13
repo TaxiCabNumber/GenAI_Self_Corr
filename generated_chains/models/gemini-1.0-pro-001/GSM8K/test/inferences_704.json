@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nGerald and Julia divided $100 in the ratio 3:2. If Gerald spent $10 on a book, how much money did he have left?",
+        "inference": "**1. Find the total amount of money Gerald and Julia have:**\n\n$$100 \\div (3 + 2) = 20$$\n\n**2. Find the amount of money Gerald has:**\n\n$$20 \\times 3 = 60$$\n\n**3. Subtract the amount of money Gerald spent on the book from the total amount he has:**\n\n$$60 - 10 = 50$$\n\nI hope it is correct: 50",
+        "ground_truth": "The $100 was divided into 3 + 2 = <<3+2=5>>5 parts.\nSo each part is $100/5 = $<<100/5=20>>20.\nSo Gerald received $20 x 3 = $<<20*3=60>>60.\nGerald bought a book at $<<10=10>>10.\nTherefore, Gerald was left with $60 - $10 = $<<60-10=50>>50.\n#### 50"
+    },
+    {
+        "question": "**1. Find the total amount of money Gerald and Julia have:**\n\n$$100 \\div (3 + 2) = 20$$\n\n**2. Find the amount of money Gerald has:**\n\n$$20 \\times 3 = 60$$\n\n**3. Subtract the amount of money Gerald spent on the book from the total amount he has:**\n\n$$60 - 10 = 50$$\n\nI hope it is correct: 50\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$50",
+        "ground_truth": "The $100 was divided into 3 + 2 = <<3+2=5>>5 parts.\nSo each part is $100/5 = $<<100/5=20>>20.\nSo Gerald received $20 x 3 = $<<20*3=60>>60.\nGerald bought a book at $<<10=10>>10.\nTherefore, Gerald was left with $60 - $10 = $<<60-10=50>>50.\n#### 50"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA merchant bought 15 keyboards and 25 printers for a total of $2050. If a keyboard costs $20, how much does a printer cost?",
+        "inference": "Let x be the cost of a printer.\nThe total cost of the keyboards is 15 * 20 = 300\nThe total cost of the printers is 25 * x.\nThe total cost of the keyboards and printers is 300 + 25 * x = 2050.\nSolving for x, we get:\n25 * x = 1750\nx = 70.\nI hope it is correct: 70",
+        "ground_truth": "15 keyboards at $20 per keyboard cost a total of 15*$20=$<<15*20=300>>300\nThe total cost of printers and keyboards is $2050 so 25 printers cost $2050-$300=$<<2050-300=1750>>1750\n1 printer cost $1750/25=$<<1750/25=70>>70\n#### 70"
+    },
+    {
+        "question": "Let x be the cost of a printer.\nThe total cost of the keyboards is 15 * 20 = 300\nThe total cost of the printers is 25 * x.\nThe total cost of the keyboards and printers is 300 + 25 * x = 2050.\nSolving for x, we get:\n25 * x = 1750\nx = 70.\nI hope it is correct: 70\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$70",
+        "ground_truth": "15 keyboards at $20 per keyboard cost a total of 15*$20=$<<15*20=300>>300\nThe total cost of printers and keyboards is $2050 so 25 printers cost $2050-$300=$<<2050-300=1750>>1750\n1 printer cost $1750/25=$<<1750/25=70>>70\n#### 70"
+    }
+]

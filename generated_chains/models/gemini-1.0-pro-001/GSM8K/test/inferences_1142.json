@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJess is trying to guess the number of blue jellybeans in a jar. She can see that there are 17 green jelly beans and twice as many red jelly beans. The rest of the jellybeans are blue jelly beans. If there are a total of 60 jelly beans in total, how many blue jellybeans are there?",
+        "inference": "Since there are 17 green jellybeans, there are 17 * 2 = 34 red jellybeans.\nThere are a total of 60 jellybeans, so there are 60 - 17 - 34 = 9 blue jellybeans.\nI hope it is correct: 9",
+        "ground_truth": "There are 17 green jelly beans * 2 = <<17*2=34>>34 red jelly beans.\nSo in the green and red jelly beans, there are a total of 17 + 34 = <<17+34=51>>51 jellybeans.\nAs the rest are blue, there must be 60 total jellybeans \u2013 51 red and green jelly beans = <<60-51=9>>9 blue jelly beans.\n#### 9"
+    },
+    {
+        "question": "Since there are 17 green jellybeans, there are 17 * 2 = 34 red jellybeans.\nThere are a total of 60 jellybeans, so there are 60 - 17 - 34 = 9 blue jellybeans.\nI hope it is correct: 9\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 9",
+        "ground_truth": "There are 17 green jelly beans * 2 = <<17*2=34>>34 red jelly beans.\nSo in the green and red jelly beans, there are a total of 17 + 34 = <<17+34=51>>51 jellybeans.\nAs the rest are blue, there must be 60 total jellybeans \u2013 51 red and green jelly beans = <<60-51=9>>9 blue jelly beans.\n#### 9"
+    }
+]

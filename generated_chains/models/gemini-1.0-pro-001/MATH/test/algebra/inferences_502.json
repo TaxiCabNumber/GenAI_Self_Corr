@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the value of the arithmetic series $28 + 30 + 32 + \\cdots + 86$?",
+        "inference": "$n = \\frac{a_L - a_1}{d}+1 = \\frac{86-28}{2}+1 = 30$\n\n$S_n = \\frac{n(a_1 + a_L)}{2} = \\frac{30(28+86)}{2} = 1710$\n\nFinal Answer: $\\boxed{1710}.$ I hope it is correct.",
+        "ground_truth": "The common difference is 2, so the $n^{\\text{th}}$ term in the sequence is $28 + 2(n - 1) = 2n + 26$.  If $2n + 26 = 86$, then $n = 30$, so the sequence contains 30 terms.\n\nThe sum of an arithmetic series is equal to the average of the first and last term, multiplied by the number of terms, so the sum is $\\frac{(28 + 86)}{2} \\cdot 30 = \\boxed{1710}$."
+    },
+    {
+        "question": "$n = \\frac{a_L - a_1}{d}+1 = \\frac{86-28}{2}+1 = 30$\n\n$S_n = \\frac{n(a_1 + a_L)}{2} = \\frac{30(28+86)}{2} = 1710$\n\nFinal Answer: $\\boxed{1710}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Final Answer: $\\boxed{1710}$",
+        "ground_truth": "The common difference is 2, so the $n^{\\text{th}}$ term in the sequence is $28 + 2(n - 1) = 2n + 26$.  If $2n + 26 = 86$, then $n = 30$, so the sequence contains 30 terms.\n\nThe sum of an arithmetic series is equal to the average of the first and last term, multiplied by the number of terms, so the sum is $\\frac{(28 + 86)}{2} \\cdot 30 = \\boxed{1710}$."
+    }
+]

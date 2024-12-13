@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe polynomials $(x - 2)^4 - (x - 2) = 0$ and $x^2 - kx + k = 0$ have two roots in common.  Find the value of $k.$",
+        "inference": "Since the polynomials have two roots in common, we can say that \n$$(x - 2)^4 - (x - 2) = (x - 2) (x^3 - 6x^2 + 12x - 9) = x^2 - kx + k$$\nwhich implies that\n$$x^3 - 6x^2 + 12x - 9 = x^2 - kx + k.$$ \n\nEquating coefficients, we get \n$$\\begin{align} -6 &= -k, \\\\\\ 12 &= k \\\\\\ -9 &= k. \\end{align} $$\n\nThe only value of $k$ that satisfies all three equations is $k = -6$.\nFinal Answer: \\boxed{k=-6}. I hope it is correct.",
+        "ground_truth": "We can take a factor of $x - 2$ out of $(x - 2)^4 - (x - 2) = 0,$ to get\n\\[(x - 2)[(x - 2)^3 - 1] = 0.\\]Then by difference of cubes, $(x - 2) - 1 = x - 3$ is also a factor, so\n\\[(x - 2)(x - 3)[(x - 2)^2 + (x - 2) + 1] = 0.\\]This simplifies to $(x - 2)(x - 3)(x^2 - 3x + 3) = 0.$  Hence, $k = \\boxed{3}.$"
+    },
+    {
+        "question": "Since the polynomials have two roots in common, we can say that \n$$(x - 2)^4 - (x - 2) = (x - 2) (x^3 - 6x^2 + 12x - 9) = x^2 - kx + k$$\nwhich implies that\n$$x^3 - 6x^2 + 12x - 9 = x^2 - kx + k.$$ \n\nEquating coefficients, we get \n$$\\begin{align} -6 &= -k, \\\\\\ 12 &= k \\\\\\ -9 &= k. \\end{align} $$\n\nThe only value of $k$ that satisfies all three equations is $k = -6$.\nFinal Answer: \\boxed{k=-6}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{k=-6}",
+        "ground_truth": "We can take a factor of $x - 2$ out of $(x - 2)^4 - (x - 2) = 0,$ to get\n\\[(x - 2)[(x - 2)^3 - 1] = 0.\\]Then by difference of cubes, $(x - 2) - 1 = x - 3$ is also a factor, so\n\\[(x - 2)(x - 3)[(x - 2)^2 + (x - 2) + 1] = 0.\\]This simplifies to $(x - 2)(x - 3)(x^2 - 3x + 3) = 0.$  Hence, $k = \\boxed{3}.$"
+    }
+]

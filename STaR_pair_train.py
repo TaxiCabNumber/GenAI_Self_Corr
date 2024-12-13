@@ -9,7 +9,8 @@ import matplotlib.pyplot as plt
 
 
 base_name = "models/gemini-1.5-flash-001-tuning"
-tuned_name = "math-train"
+tuned_name = "flash15-math-train"
+# tuned_name = f"{dataset}-{id}"
 id = 1 # increment this number for each new model
 
 from key import google_api_key 
@@ -33,6 +34,7 @@ def process_directory(input_directory, output_directory):
     global id
     global tuned_name
     global base_name 
+    global dataset
     if not os.path.exists(output_directory):
         os.makedirs(output_directory)
 
@@ -47,7 +49,7 @@ def process_directory(input_directory, output_directory):
 
                     if extracted_data and initialize_model:
                         operation = genai.create_tuned_model(
-                        display_name="Flash 1.5 8B MATH",
+                        display_name="Flash 1.5 MATH",
                         source_model=base_name,
                         id=f"{tuned_name}-{id}",
                         epoch_count=5,
@@ -62,7 +64,7 @@ def process_directory(input_directory, output_directory):
 
                     elif extracted_data: # use your new model
                         operation = genai.create_tuned_model(
-                        display_name="Flash 1.5 8B MATH",
+                        display_name="Flash 1.5 MATH",
                         source_model=f"tunedModels/{tuned_name}-{id}",
                         id=f"{tuned_name}-{id+1}",
                         epoch_count=5,
@@ -99,8 +101,17 @@ def main(input_directory, output_directory):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Process a directory of folders containing JSON files.")
-    parser.add_argument("--input_directory", type=str, default="filtered_dataset/gemini-1.5-flash-8b/MATH/train", help="Path to the directory containing folders with JSON files.")
-    parser.add_argument("--output_directory", type=str, default=f"./training/{base_name}/{id}", help="Path to the directory to save figure.")
+    # parser.add_argument("--base_name", type=str, default=f"./models/gemini-1.5-flash-001-tuning", help="Path to the directory to save figure.")
+    # parser.add_argument("--dataset", type=str, default=f"math", help="Path to the directory to save figure.")
+    # parser.add_argument("--base_name", type=str, default=f"./training/{base_name}/{id}", help="Path to the directory to save figure.")
+    parser.add_argument("--input_directory", type=str, default="./filtered_dataset/models/gemini-1.5-flash-001-tuning/MATH/train", help="Path to the directory containing folders with JSON files.")
+    parser.add_argument("--output_directory", type=str, default=f"./training/{base_name}-{tuned_name}/{id}", help="Path to the directory to save figure.")
+    
+    #base_name is %MODEL%
+    
+
+# "C:\Users\joncc\Documents\GitHub\GenAI_Self_Corr\filtered_dataset\models\gemini-1.0-pro-001\MATH\train"
+
     args = parser.parse_args()
     
     if not os.path.isdir(args.input_directory):

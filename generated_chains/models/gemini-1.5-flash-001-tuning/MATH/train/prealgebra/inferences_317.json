@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind $XY$ in the triangle below.\n\n\n[asy]\nunitsize(1inch);\npair P,Q,R;\nP = (0,0);\nQ= (1,0);\nR = (0,1);\ndraw (P--Q--R--P,linewidth(0.9));\ndraw(rightanglemark(Q,P,R,3));\nlabel(\"$X$\",P,S);\nlabel(\"$Y$\",Q,S);\nlabel(\"$Z$\",R,N);\nlabel(\"$12\\sqrt{2}$\",(Q+R)/2,NE);\nlabel(\"$45^\\circ$\",(0.7,0),N);\n[/asy]",
+        "inference": "Final Answer: \\\\boxed{12}. I hope it is correct. \n",
+        "ground_truth": "Triangle $XYZ$ is a 45-45-90 triangle, so $ZY = XY\\sqrt{2}$, which means $XY = \\boxed{12}$."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{12}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you're referring to. I need the context to identify any errors and provide the correct solution. \n",
+        "ground_truth": "Triangle $XYZ$ is a 45-45-90 triangle, so $ZY = XY\\sqrt{2}$, which means $XY = \\boxed{12}$."
+    }
+]

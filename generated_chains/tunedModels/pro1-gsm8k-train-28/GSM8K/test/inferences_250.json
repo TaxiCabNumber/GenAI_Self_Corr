@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nEach class in a school has 20 students. There are 3 classes. The school as a whole is 50% boys and 50% girls. The first class has 15 girls. The second class has 12 girls. How many boys are in the third class?",
+        "inference": "1. The total number of students in the school is 20 * 3 = 60.\n2. Since the school is 50% boys and 50% girls, there are 60 / 2 = 30 boys and 30 girls in the school.\n3. The first class has 15 girls, so it has 20 - 15 = 5 boys.\n4. The second class has 12 girls, so it has 20 - 12 = 8 boys.\n5. Therefore, the third class has 30 - 5 - 8 = 17 boys.\nI hope it is correct: 17",
+        "ground_truth": "The school has 60 students because 3 x 20 = <<3*20=60>>60\nThe school has 30 girls because 60 x .5 = <<60*.5=30>>30\nThe third class has 3 girls because 30 - 15 - 12 = <<30-15-12=3>>3\nThe third class has 17 boys because 20 - 3 = <<20-3=17>>17\n#### 17"
+    },
+    {
+        "question": "1. The total number of students in the school is 20 * 3 = 60.\n2. Since the school is 50% boys and 50% girls, there are 60 / 2 = 30 boys and 30 girls in the school.\n3. The first class has 15 girls, so it has 20 - 15 = 5 boys.\n4. The second class has 12 girls, so it has 20 - 12 = 8 boys.\n5. Therefore, the third class has 30 - 5 - 8 = 17 boys.\nI hope it is correct: 17\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 17",
+        "ground_truth": "The school has 60 students because 3 x 20 = <<3*20=60>>60\nThe school has 30 girls because 60 x .5 = <<60*.5=30>>30\nThe third class has 3 girls because 30 - 15 - 12 = <<30-15-12=3>>3\nThe third class has 17 boys because 20 - 3 = <<20-3=17>>17\n#### 17"
+    }
+]

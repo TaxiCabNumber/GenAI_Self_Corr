@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nHenrietta is repainting her house. The walls in the living room take up 600 square feet. She has three bedrooms. The walls in each bedroom take up 400 square feet. If one gallon of paint can cover 600 square feet, how many gallons of paint does Henrietta need to paint her house?",
+        "inference": "1. Henrietta needs to paint 600 square feet of walls in the living room and 400 square feet of walls in each of the three bedrooms. So, the total area she needs to paint is 600 + 3 * 400 = 600 + 1200 = 1800 square feet.\n2. Since one gallon of paint can cover 600 square feet, Henrietta needs 1800/600 = 3 gallons of paint.\nI hope it is correct: 3 gallons",
+        "ground_truth": "The total square footage from the three bedrooms is 3 * 400 = <<3*400=1200>>1200 square feet.\nThe total square footage of the house is 1200 + 600 = <<1200+600=1800>>1800 square feet\nHenrietta needs 1800 / 600 = <<1800/600=3>>3 gallons of paint\n#### 3"
+    },
+    {
+        "question": "1. Henrietta needs to paint 600 square feet of walls in the living room and 400 square feet of walls in each of the three bedrooms. So, the total area she needs to paint is 600 + 3 * 400 = 600 + 1200 = 1800 square feet.\n2. Since one gallon of paint can cover 600 square feet, Henrietta needs 1800/600 = 3 gallons of paint.\nI hope it is correct: 3 gallons\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$3",
+        "ground_truth": "The total square footage from the three bedrooms is 3 * 400 = <<3*400=1200>>1200 square feet.\nThe total square footage of the house is 1200 + 600 = <<1200+600=1800>>1800 square feet\nHenrietta needs 1800 / 600 = <<1800/600=3>>3 gallons of paint\n#### 3"
+    }
+]

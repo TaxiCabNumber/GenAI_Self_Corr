@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMazie has 52 marbles and gives them to twins, Dallas and Darla.  If Dallas has a total of 21 marbles after dropping 4 of them in the playground, how many did Mazie give to Darla?",
+        "inference": "1. Dallas has 21 marbles.\n2. Dallas dropped 4 marbles.\n3. Dallas had 21 + 4 = 25 marbles before dropping them.\n4. Mazie gave Dallas and Darla a total of 52 marbles.\n5. Mazie gave Darla 52 - 25 = 27 marbles.\n\nI hope it is correct: 27",
+        "ground_truth": "Mazie gave Dallas 21 + 4 = <<21+4=25>>25 marbles.\nDarla has 52 - 25 = <<52-25=27>>27 marbles.\n#### 27"
+    },
+    {
+        "question": "1. Dallas has 21 marbles.\n2. Dallas dropped 4 marbles.\n3. Dallas had 21 + 4 = 25 marbles before dropping them.\n4. Mazie gave Dallas and Darla a total of 52 marbles.\n5. Mazie gave Darla 52 - 25 = 27 marbles.\n\nI hope it is correct: 27\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$27",
+        "ground_truth": "Mazie gave Dallas 21 + 4 = <<21+4=25>>25 marbles.\nDarla has 52 - 25 = <<52-25=27>>27 marbles.\n#### 27"
+    }
+]

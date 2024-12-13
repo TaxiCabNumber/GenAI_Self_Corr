@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nExpress the quotient $1023_4 \\div 11_4$ in base 4.",
+        "inference": "**Solution:**\n$$\\begin{array}{c|cc} & 3 & 3 & 2 \\\\\\ \\cline{2-4} 11\\big) & 1 & 0 & 2 & 3 \\\\\\ & \\underline{11} & \\\\\\ & 0 & 1 \\\\\\ & \\underline{11} \\\\\\ & 0 & 0 \\\\\\ & \\underline{0} \\\\\\ & 0 \\end{array}$$\n**Final Answer: \\\\boxed{$332_4$}. I hope it is correct.**",
+        "ground_truth": "We may carry out long division in base 4 just as in base 10. We have  \\[\n\\begin{array}{cc|cccc}\n\\multicolumn{2}{r}{} & & & 3 & 3 \\\\\n\\cline{3-6}\n1 & 1 & 1 & 0 & 2 & 3 \\\\\n\\multicolumn{2}{r}{} && 3&3& \\downarrow \\\\ \\cline{4-5}\n\\multicolumn{2}{r}{} && 0&3&3 \\\\\n\\multicolumn{2}{r}{} && & 3&3 \\\\ \\cline{5-6}\n\\multicolumn{2}{r}{} && & & 0 \\\\\n\\end{array}\n\\]for a quotient of $\\boxed{33_4}$. Note that in the above calculation we have used that $11_4\\cdot3_4=5_{10}\\cdot3_{10}=15_{10}=33_4$. Then, for the second step we used $33_4$ divided by $11_4$ is $3_4$."
+    },
+    {
+        "question": "**Solution:**\n$$\\begin{array}{c|cc} & 3 & 3 & 2 \\\\\\ \\cline{2-4} 11\\big) & 1 & 0 & 2 & 3 \\\\\\ & \\underline{11} & \\\\\\ & 0 & 1 \\\\\\ & \\underline{11} \\\\\\ & 0 & 0 \\\\\\ & \\underline{0} \\\\\\ & 0 \\end{array}$$\n**Final Answer: \\\\boxed{$332_4$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{332_4}$$",
+        "ground_truth": "We may carry out long division in base 4 just as in base 10. We have  \\[\n\\begin{array}{cc|cccc}\n\\multicolumn{2}{r}{} & & & 3 & 3 \\\\\n\\cline{3-6}\n1 & 1 & 1 & 0 & 2 & 3 \\\\\n\\multicolumn{2}{r}{} && 3&3& \\downarrow \\\\ \\cline{4-5}\n\\multicolumn{2}{r}{} && 0&3&3 \\\\\n\\multicolumn{2}{r}{} && & 3&3 \\\\ \\cline{5-6}\n\\multicolumn{2}{r}{} && & & 0 \\\\\n\\end{array}\n\\]for a quotient of $\\boxed{33_4}$. Note that in the above calculation we have used that $11_4\\cdot3_4=5_{10}\\cdot3_{10}=15_{10}=33_4$. Then, for the second step we used $33_4$ divided by $11_4$ is $3_4$."
+    }
+]

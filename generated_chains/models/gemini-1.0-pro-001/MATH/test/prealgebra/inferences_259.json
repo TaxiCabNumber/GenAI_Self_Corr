@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nHow many positive integers less than 500 are equal to 5 times an even integer?",
+        "inference": "The even multiples of 5 up to 500 are 10, 20, 30, 40, ..., 490. \nThere are (490 - 10) / 10 + 1 = 50 even multiples of 5 up to 500. \n\nSince each of these even multiples is equal to 5 times an even integer, there are 50 positive integers less than 500 that are equal to 5 times an even integer.\n\nFinal Answer: \\boxed{50}. I hope it is correct.",
+        "ground_truth": "An even integer is a multiple of 2. The integers we are looking for are multiples of 2 and 5, so they are multiples of 10. The largest multiple of 10 less than 500 is $490 = 49 \\cdot 10$, and the smallest positive multiple of 10 is $10 = 1 \\cdot 10$. Our list also includes every multiple of 10 between 10 and 490, so there are a total of $\\boxed{49}$ positive integers less than 500 that are equal to 5 times an even integer."
+    },
+    {
+        "question": "The even multiples of 5 up to 500 are 10, 20, 30, 40, ..., 490. \nThere are (490 - 10) / 10 + 1 = 50 even multiples of 5 up to 500. \n\nSince each of these even multiples is equal to 5 times an even integer, there are 50 positive integers less than 500 that are equal to 5 times an even integer.\n\nFinal Answer: \\boxed{50}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{50}",
+        "ground_truth": "An even integer is a multiple of 2. The integers we are looking for are multiples of 2 and 5, so they are multiples of 10. The largest multiple of 10 less than 500 is $490 = 49 \\cdot 10$, and the smallest positive multiple of 10 is $10 = 1 \\cdot 10$. Our list also includes every multiple of 10 between 10 and 490, so there are a total of $\\boxed{49}$ positive integers less than 500 that are equal to 5 times an even integer."
+    }
+]

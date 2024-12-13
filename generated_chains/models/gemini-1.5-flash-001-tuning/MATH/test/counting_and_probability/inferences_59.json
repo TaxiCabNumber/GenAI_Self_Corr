@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nTen people are sitting around a round table.  Three of them are chosen at random to give a presentation.  What is the probability that the three chosen people were sitting in consecutive seats?",
+        "inference": "Final Answer: \\\\boxed{\\frac{3}{10 \\cdot 9 \\cdot 8}}. I hope it is correct.",
+        "ground_truth": "Let's count as our outcomes the ways to select 3 people without regard to order.  There are $\\binom{10}{3} = 120$ ways to select any 3 people.  The number of successful outcomes is the number of ways to select 3 consecutive people.  There are only 10 ways to do this -- think of first selecting the middle person, then we take his or her two neighbors.  Therefore, the probability is $\\frac{10}{120} = \\boxed{\\frac{1}{12}}$."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{\\frac{3}{10 \\cdot 9 \\cdot 8}}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question you are referring to so I can help you find the correct solution.  I need the context of the problem to understand what the answer should be. \n",
+        "ground_truth": "Let's count as our outcomes the ways to select 3 people without regard to order.  There are $\\binom{10}{3} = 120$ ways to select any 3 people.  The number of successful outcomes is the number of ways to select 3 consecutive people.  There are only 10 ways to do this -- think of first selecting the middle person, then we take his or her two neighbors.  Therefore, the probability is $\\frac{10}{120} = \\boxed{\\frac{1}{12}}$."
+    }
+]

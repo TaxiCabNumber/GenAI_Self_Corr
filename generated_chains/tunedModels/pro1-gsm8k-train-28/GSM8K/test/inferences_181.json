@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSandra, the florist around the corner, is very unhappy with Fred's incomplete order delivery. Sandra had ordered four times as many red roses as white carnations. She also ordered 200 pink calla lilies, which were five times the number of white carnations. Sandra has threatened to switch suppliers if the missing red roses are not delivered by 5 pm. To keep Sandra's business, how many red roses must Fred deliver by 5 pm?",
+        "inference": "Let the number of white carnations be x.\nThen, the number of red roses = 4x\nAnd, the number of pink calla lilies = 5x = 200\n=> x = 200/5 = 40\nTherefore, the number of red roses = 4x = 4 * 40 = 160\nI hope it is correct: 160 $answer$",
+        "ground_truth": "Sandra ordered 200 pink calla lilies / 5 = <<200/5=40>>40 white carnations.\nSandra therefore ordered 4 * 40 = <<4*40=160>>160 red roses.\n#### 160"
+    },
+    {
+        "question": "Let the number of white carnations be x.\nThen, the number of red roses = 4x\nAnd, the number of pink calla lilies = 5x = 200\n=> x = 200/5 = 40\nTherefore, the number of red roses = 4x = 4 * 40 = 160\nI hope it is correct: 160 $answer$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 160",
+        "ground_truth": "Sandra ordered 200 pink calla lilies / 5 = <<200/5=40>>40 white carnations.\nSandra therefore ordered 4 * 40 = <<4*40=160>>160 red roses.\n#### 160"
+    }
+]

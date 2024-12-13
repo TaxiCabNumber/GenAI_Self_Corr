@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAt football tryouts, the coach wanted to see who could throw the ball the farthest.  Parker threw the ball 16 yards.  Grant threw the ball 25 percent farther than Parker and Kyle threw the ball 2 times farther than Grant.  Compared to Parker, how much farther did Kyle throw the ball?",
+        "inference": "Parker threw the ball 16 yards. Grant threw the ball 25% farther than Parker, so Grant threw the ball 16 + (0.25 * 16) = 20 yards. Kyle threw the ball twice as far as Grant, so Kyle threw the ball 2 * 20 = 40 yards. Kyle threw the ball 40 - 16 = 24 yards farther than Parker.\n\nI hope it is correct: 24 yards",
+        "ground_truth": "Grant threw the ball 25% farther than Parker. If Parker threw the ball 16 yards, then Grant threw it 16*.25 = <<16*.25=4>>4 farther\nIn total, Grant threw the ball 16+4 = <<16+4=20>>20 yards\nKyle threw 2 times farther than Grant so Kyle threw the ball 2*20 = <<2*20=40>>40 yards\nIf Kyle threw the ball for 40 yards and Parker threw for 16 then Kyle threw the ball 40-16 = <<24=24>>24 yards farther\n#### 24"
+    },
+    {
+        "question": "Parker threw the ball 16 yards. Grant threw the ball 25% farther than Parker, so Grant threw the ball 16 + (0.25 * 16) = 20 yards. Kyle threw the ball twice as far as Grant, so Kyle threw the ball 2 * 20 = 40 yards. Kyle threw the ball 40 - 16 = 24 yards farther than Parker.\n\nI hope it is correct: 24 yards\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ = 24",
+        "ground_truth": "Grant threw the ball 25% farther than Parker. If Parker threw the ball 16 yards, then Grant threw it 16*.25 = <<16*.25=4>>4 farther\nIn total, Grant threw the ball 16+4 = <<16+4=20>>20 yards\nKyle threw 2 times farther than Grant so Kyle threw the ball 2*20 = <<2*20=40>>40 yards\nIf Kyle threw the ball for 40 yards and Parker threw for 16 then Kyle threw the ball 40-16 = <<24=24>>24 yards farther\n#### 24"
+    }
+]

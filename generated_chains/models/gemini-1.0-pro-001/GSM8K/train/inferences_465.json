@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA man is returning home from work and trying to decide which route to take.  His first route option includes 3 stoplights.  This route will take him 10 minutes if all three lights are green, but each light that is red will add 3 minutes to the trip.  The second route does not include any stoplights and takes 14 minutes.  If the man chooses the first route, how much longer will his trip be if all 3 stoplights are red?",
+        "inference": "Calculate the trip time with all three stoplights red:\n\n10 minutes (base time) + 3 minutes (1st red light) + 3 minutes (2nd red light) + 3 minutes (3rd red light) = 19 minutes\n\nCalculate the difference in trip time between the two routes:\n\n19 minutes (all red lights) - 14 minutes (no stoplights) = 5 minutes\n\nI hope it is correct: 5 minutes",
+        "ground_truth": "If all 3 stoplights are red, the first route will take 10 + 3*3 = <<10+3*3=19>>19 minutes.\nThus, the first route will take 19-14 = <<19-14=5>>5 minutes longer than the second route.\n#### 5"
+    },
+    {
+        "question": "Calculate the trip time with all three stoplights red:\n\n10 minutes (base time) + 3 minutes (1st red light) + 3 minutes (2nd red light) + 3 minutes (3rd red light) = 19 minutes\n\nCalculate the difference in trip time between the two routes:\n\n19 minutes (all red lights) - 14 minutes (no stoplights) = 5 minutes\n\nI hope it is correct: 5 minutes\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 5",
+        "ground_truth": "If all 3 stoplights are red, the first route will take 10 + 3*3 = <<10+3*3=19>>19 minutes.\nThus, the first route will take 19-14 = <<19-14=5>>5 minutes longer than the second route.\n#### 5"
+    }
+]

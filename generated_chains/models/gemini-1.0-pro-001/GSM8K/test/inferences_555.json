@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn plans to save money from working.  He gets paid $2 per hour and works 5 hours a day for 4 days a week.  If he wants to save $80 how many weeks will it take him?",
+        "inference": "1. Calculate how much John earns in a day: $2 per hour x 5 hours = $10 per day\n2. Calculate how much John earns in a week: $10 per day x 4 days = $40 per week\n3. Calculate how many weeks it will take John to save $80: $80 / $40 per week = 2 weeks\nI hope it is correct: 2$",
+        "ground_truth": "He gets paid 2*5=$<<2*5=10>>10 a day.\nSo he gets paid 10*4=$<<10*4=40>>40 a week.\nThat means it would take 80/40=<<80/40=2>>2 weeks to save up the money.\n#### 2"
+    },
+    {
+        "question": "1. Calculate how much John earns in a day: $2 per hour x 5 hours = $10 per day\n2. Calculate how much John earns in a week: $10 per day x 4 days = $40 per week\n3. Calculate how many weeks it will take John to save $80: $80 / $40 per week = 2 weeks\nI hope it is correct: 2$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $2$",
+        "ground_truth": "He gets paid 2*5=$<<2*5=10>>10 a day.\nSo he gets paid 10*4=$<<10*4=40>>40 a week.\nThat means it would take 80/40=<<80/40=2>>2 weeks to save up the money.\n#### 2"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSandi had $600. She spent half of it at a farmer\u2019s market. Gillian spent $150 more than three times Sandi's total. What is the total that Gillian spent at the farmer\u2019s market?",
+        "inference": "1. Sandi had $600. She spent half of it at a farmer\u2019s market, which is 600/2=$300. \n2. Gillian spent $150 more than three times Sandi's total, which is 3*$300+$150=$1050.\nI hope it is correct: $1050$",
+        "ground_truth": "Sandi spent 600/2 = <<600/2=300>>300 dollars at the farmer\u2019s market.\nGillian spent 300*3+150 = <<300*3+150=1050>>1050 dollars at the farmer\u2019s market.\n#### 1050"
+    },
+    {
+        "question": "1. Sandi had $600. She spent half of it at a farmer\u2019s market, which is 600/2=$300. \n2. Gillian spent $150 more than three times Sandi's total, which is 3*$300+$150=$1050.\nI hope it is correct: $1050$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $900$",
+        "ground_truth": "Sandi spent 600/2 = <<600/2=300>>300 dollars at the farmer\u2019s market.\nGillian spent 300*3+150 = <<300*3+150=1050>>1050 dollars at the farmer\u2019s market.\n#### 1050"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the greatest prime factor of $3^7+6^6$?",
+        "inference": "Solution:\n$$3^7+6^6=(3^2)^3+(2^3 \\cdot 3)^6=3^6+3^6 \\cdot 4^6$$\n\n$$=3^6(1+4^6)=3^6(1+4^2 \\cdot 4^4)$$\n\n$$=3^6(1+4^2 \\cdot 2^8)=3^6(1+16 \\cdot 256)$$\n\n$$=3^6(1+4096)=3^6 \\cdot 4105=3^6 \\cdot 5 \\cdot 821$$\n\nThe greatest prime factor of $3^7+6^6$ is $821$.\n\nFinal Answer: $\\boxed{821}.$ I hope it is correct.",
+        "ground_truth": "$3^7+6^6 = 3^6\\cdot3+3^6\\cdot 2^6 = 3^6(3+2^6) = 3^6\\cdot 67.$ Thus the greatest prime factor is $\\boxed{67}$."
+    },
+    {
+        "question": "Solution:\n$$3^7+6^6=(3^2)^3+(2^3 \\cdot 3)^6=3^6+3^6 \\cdot 4^6$$\n\n$$=3^6(1+4^6)=3^6(1+4^2 \\cdot 4^4)$$\n\n$$=3^6(1+4^2 \\cdot 2^8)=3^6(1+16 \\cdot 256)$$\n\n$$=3^6(1+4096)=3^6 \\cdot 4105=3^6 \\cdot 5 \\cdot 821$$\n\nThe greatest prime factor of $3^7+6^6$ is $821$.\n\nFinal Answer: $\\boxed{821}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{821}",
+        "ground_truth": "$3^7+6^6 = 3^6\\cdot3+3^6\\cdot 2^6 = 3^6(3+2^6) = 3^6\\cdot 67.$ Thus the greatest prime factor is $\\boxed{67}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nReal numbers $x$ and $y$ have an arithmetic mean of 18 and a geometric mean of $\\sqrt{92}$. Find $x^2+y^2$.",
+        "inference": "The arithmetic mean of two numbers is the average of the two numbers. So, $\\frac{x+y}{2}=18$. Solving for $x+y$, we get $x+y=36$.\n\nThe geometric mean of two numbers is the square root of the product of the two numbers. So, $\\sqrt{xy}=\\sqrt{92}$. Solving for $xy$, we get $xy=92$.\n\nWe can use $x+y=36$ and $xy=92$ to solve for $x^2+y^2$.\n\n$$x^2+y^2=(x+y)^2-2xy=36^2-2(92)=1296-184=\\boxed{1112}.$$\nFinal Answer: $\\boxed{1112}.$ I hope it is correct.",
+        "ground_truth": "The givens tell us that $\\frac{x+y}{2}=18$ and $\\sqrt{xy}=\\sqrt{92}$, or $x+y=36$ and $xy=92$. $(x+y)^2=x^2+2xy+y^2$, so  \\[\nx^2+y^2=(x+y)^2-2xy=36^2-2\\cdot92=1296-184=\\boxed{1112}\n\\]"
+    },
+    {
+        "question": "The arithmetic mean of two numbers is the average of the two numbers. So, $\\frac{x+y}{2}=18$. Solving for $x+y$, we get $x+y=36$.\n\nThe geometric mean of two numbers is the square root of the product of the two numbers. So, $\\sqrt{xy}=\\sqrt{92}$. Solving for $xy$, we get $xy=92$.\n\nWe can use $x+y=36$ and $xy=92$ to solve for $x^2+y^2$.\n\n$$x^2+y^2=(x+y)^2-2xy=36^2-2(92)=1296-184=\\boxed{1112}.$$\nFinal Answer: $\\boxed{1112}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{1112}",
+        "ground_truth": "The givens tell us that $\\frac{x+y}{2}=18$ and $\\sqrt{xy}=\\sqrt{92}$, or $x+y=36$ and $xy=92$. $(x+y)^2=x^2+2xy+y^2$, so  \\[\nx^2+y^2=(x+y)^2-2xy=36^2-2\\cdot92=1296-184=\\boxed{1112}\n\\]"
+    }
+]

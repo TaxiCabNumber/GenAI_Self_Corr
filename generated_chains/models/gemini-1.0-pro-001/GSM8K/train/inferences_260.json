@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nEvery hour past noon shadows from a building stretch an extra 5 feet, starting at zero at noon.  How long are the shadows from the building 6 hours past noon in inches?",
+        "inference": "1. There are 60 minutes in an hour, and 5 feet are added to the length of the shadow each hour.\n2. Thus, the length of the shadow increases by 5 feet/60 minutes = 1/12 feet per minute.\n3. In 6 hours, there are 6 * 60 = 360 minutes.\n4. The length of the shadow after 6 hours is thus 0 feet + (1/12 feet/minute) * 360 minutes = 30 feet.\n5. 1 feet = 12 inches.\n6. The length of the shadow after 6 hours in inches is thus 30 feet * 12 inches/feet = 360 inches.\nI hope it is correct: 360",
+        "ground_truth": "If the shadows lengthen by 5 feet per hour, this means that in 6 hours the shadows would have lengthened from zero to 5*6=<<5*6=30>>30 feet.\nSince there are 12 inches in every foot, this means the building's shadow would be 30*12= <<30*12=360>>360 inches in length.\n#### 360"
+    },
+    {
+        "question": "1. There are 60 minutes in an hour, and 5 feet are added to the length of the shadow each hour.\n2. Thus, the length of the shadow increases by 5 feet/60 minutes = 1/12 feet per minute.\n3. In 6 hours, there are 6 * 60 = 360 minutes.\n4. The length of the shadow after 6 hours is thus 0 feet + (1/12 feet/minute) * 360 minutes = 30 feet.\n5. 1 feet = 12 inches.\n6. The length of the shadow after 6 hours in inches is thus 30 feet * 12 inches/feet = 360 inches.\nI hope it is correct: 360\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$360",
+        "ground_truth": "If the shadows lengthen by 5 feet per hour, this means that in 6 hours the shadows would have lengthened from zero to 5*6=<<5*6=30>>30 feet.\nSince there are 12 inches in every foot, this means the building's shadow would be 30*12= <<30*12=360>>360 inches in length.\n#### 360"
+    }
+]

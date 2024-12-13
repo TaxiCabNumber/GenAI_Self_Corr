@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nBen rolls four fair 10-sided dice, each numbered with numbers from 1 to 10. What is the probability that exactly two of the dice show a prime number?",
+        "inference": "Final Answer: \\\\boxed{\\frac{162}{625}}. I hope it is correct. \n",
+        "ground_truth": "The probability that a 10-sided die rolls a prime number is $\\frac{4}{10}=\\frac{2}{5}$ since the primes it can roll are 2, 3, 5, and 7. We can choose which dice show a prime number in $\\binom{4}{2}=6$ ways. Then, there is a $\\frac{2}{5}\\cdot \\frac{2}{5} \\cdot \\frac{3}{5} \\cdot \\frac{3}{5}=\\frac{36}{625}$ chance that the chosen dice will actually roll a prime number and the other dice won't. Therefore, the total probability that exactly two dice show a prime number is $6 \\cdot \\frac{36}{625}=\\boxed{\\frac{216}{625}}$."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{\\frac{162}{625}}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to so I can review it and provide the corrected final answer. \n",
+        "ground_truth": "The probability that a 10-sided die rolls a prime number is $\\frac{4}{10}=\\frac{2}{5}$ since the primes it can roll are 2, 3, 5, and 7. We can choose which dice show a prime number in $\\binom{4}{2}=6$ ways. Then, there is a $\\frac{2}{5}\\cdot \\frac{2}{5} \\cdot \\frac{3}{5} \\cdot \\frac{3}{5}=\\frac{36}{625}$ chance that the chosen dice will actually roll a prime number and the other dice won't. Therefore, the total probability that exactly two dice show a prime number is $6 \\cdot \\frac{36}{625}=\\boxed{\\frac{216}{625}}$."
+    }
+]

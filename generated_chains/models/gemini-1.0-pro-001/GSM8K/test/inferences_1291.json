@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTimothy has three times the number of pens that George owns. Sarah has half as many pens as Timothy. If George has 18 pens, how many pens does Sarah have?",
+        "inference": "1. George has 18 pens.\n2. Timothy has three times the number of pens that George owns. 18 x 3 = 54 pens.\n3. Sarah has half as many pens as Timothy. 54 / 2 = 27 pens.\nI hope it is correct: 27 pens.",
+        "ground_truth": "Timothy has 18 * 3 = <<18*3=54>>54 pens.\nThis means that Sarah has 54 /2 = <<54/2=27>>27 pens.\n#### 27"
+    },
+    {
+        "question": "1. George has 18 pens.\n2. Timothy has three times the number of pens that George owns. 18 x 3 = 54 pens.\n3. Sarah has half as many pens as Timothy. 54 / 2 = 27 pens.\nI hope it is correct: 27 pens.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 27",
+        "ground_truth": "Timothy has 18 * 3 = <<18*3=54>>54 pens.\nThis means that Sarah has 54 /2 = <<54/2=27>>27 pens.\n#### 27"
+    }
+]

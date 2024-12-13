@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $x+y = 6$ and $x^2-y^2 = 12$, then what is $x-y$?",
+        "inference": "$(x+y)^2 = x^2+y^2+2xy$\n\nSubstituting $x+y = 6$, we get:\n\n$6^2 = x^2+y^2+2xy$\n\n$36 = x^2+y^2+2xy$\n\nGiven $x^2-y^2 = 12$, we can rewrite the above equation as:\n\n$36 = 12+2xy$\n\n$24 = 2xy$\n\n$12 = xy$\n\n$(x-y)^2 = x^2+y^2-2xy$\n\nSubstituting $x^2+y^2 = 36$ and $xy = 12$, we get:\n\n$(x-y)^2 = 36-24$\n\n$(x-y)^2 = 12$\n\n$x-y = \\pm\\sqrt{12}$\n\n$x-y = \\pm2\\sqrt{3}$\n\nFinal Answer: $\\boxed{\\pm2\\sqrt{3}}$ I hope it is correct.",
+        "ground_truth": "Since we may write $12 = x^2 - y^2 = (x+y)(x-y) = 6(x-y)$, we see that $x-y = \\boxed{2}$."
+    },
+    {
+        "question": "$(x+y)^2 = x^2+y^2+2xy$\n\nSubstituting $x+y = 6$, we get:\n\n$6^2 = x^2+y^2+2xy$\n\n$36 = x^2+y^2+2xy$\n\nGiven $x^2-y^2 = 12$, we can rewrite the above equation as:\n\n$36 = 12+2xy$\n\n$24 = 2xy$\n\n$12 = xy$\n\n$(x-y)^2 = x^2+y^2-2xy$\n\nSubstituting $x^2+y^2 = 36$ and $xy = 12$, we get:\n\n$(x-y)^2 = 36-24$\n\n$(x-y)^2 = 12$\n\n$x-y = \\pm\\sqrt{12}$\n\n$x-y = \\pm2\\sqrt{3}$\n\nFinal Answer: $\\boxed{\\pm2\\sqrt{3}}$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{\\pm2\\sqrt{3}}$",
+        "ground_truth": "Since we may write $12 = x^2 - y^2 = (x+y)(x-y) = 6(x-y)$, we see that $x-y = \\boxed{2}$."
+    }
+]

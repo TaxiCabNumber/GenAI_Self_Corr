@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJeans makeup artist charges her $250 an hour.  She requires very expensive makeup for a movie she is in and it takes 6 hours to do each day and she needs it done 4 times a week.  The movie takes 5 weeks to finish.  After the movie is done the makeup artist gives Jean a 10% discount because of the amount of work done.  How much did Jean pay?",
+        "inference": "1. Calculate the total number of hours the makeup artist worked: 6 hours/day x 4 days/week x 5 weeks = 120 hours\n2. Calculate the total cost of the makeup artist's services before the discount: 120 hours x $250/hour = $30,000\n3. Calculate the amount of the discount: $30,000 x 10% = $3,000\n4. Calculate the total cost of the makeup artist's services after the discount: $30,000 - $3,000 = $27,000\nI hope it is correct: $27,000$",
+        "ground_truth": "Jean pays 250*6=$<<250*6=1500>>1500 a day\nSo he pays 1500*4=$<<1500*4=6000>>6000 a week\nSo the work cost 6000*5=$<<6000*5=30000>>30,000\nThey give a discount of 30,000*.1=$<<30000*.1=3000>>3000\nSo the total cost paid is 30,000-3000=$<<30000-3000=27000>>27,000\n#### 27000"
+    },
+    {
+        "question": "1. Calculate the total number of hours the makeup artist worked: 6 hours/day x 4 days/week x 5 weeks = 120 hours\n2. Calculate the total cost of the makeup artist's services before the discount: 120 hours x $250/hour = $30,000\n3. Calculate the amount of the discount: $30,000 x 10% = $3,000\n4. Calculate the total cost of the makeup artist's services after the discount: $30,000 - $3,000 = $27,000\nI hope it is correct: $27,000$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$=27000",
+        "ground_truth": "Jean pays 250*6=$<<250*6=1500>>1500 a day\nSo he pays 1500*4=$<<1500*4=6000>>6000 a week\nSo the work cost 6000*5=$<<6000*5=30000>>30,000\nThey give a discount of 30,000*.1=$<<30000*.1=3000>>3000\nSo the total cost paid is 30,000-3000=$<<30000-3000=27000>>27,000\n#### 27000"
+    }
+]

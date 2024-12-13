@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind constants $A$, $B$, and $C$, such that\n$$\\frac{-x^2+3x-4}{x^3+x}= \\frac{A}{x} +\\frac{Bx+C}{x^2+1} $$Enter your answer as the ordered triplet $(A,B,C)$.",
+        "inference": "Get a common denominator on the right side.\n$$\\frac{-x^2+3x-4}{x^3+x}=\\frac{(x-1)(x-4)}{x^3+x}=\\frac{(x-1)(x-4)}{x(x^2+1)}$$$$ = \\frac{(x-1)(x-4)}{x(x^2+1)}=\\frac{A}{x} +\\frac{Bx+C}{x^2+1}=\\frac{Ax^2+A+Bx^2+Cx}{x(x^2+1)}$$$$Ax^2+A+Bx^2+Cx= (x-1)(x-4)$$$Ax^2+Bx^2+Cx+A= x^2-5x+4$$Equating the coefficients gives:\n$$A+B=1$$$$C=-5$$$$A=4$$\n\nFinal Answer: $\\boxed{(4,-1,-5)}.$ I hope it is correct.",
+        "ground_truth": "By partial fractions,\n$$\\frac{-x^2+3x-4}{x^3+x}=\\frac{-x^2+3x-4}{x(x^2+1)} = \\frac{A}{x} +\\frac{Bx+C}{x^2+1} $$Multiplying by $x(x^2+1)$ gives\n$$-x^2+3x-4 = (A+B)x^2 +Cx + A.$$By comparing coefficients, we can see that $A=-4$ and $C=3.$ Then, $-4+B=-1$ which means $B=3$.\nThus,\n$$\\frac{-x^2+3x-4}{x^3+x} = \\frac{-4}{x}+\\frac{3x+3}{x^2+1}.$$and $(A,B,C) = \\boxed{(-4,3,3)}.$"
+    },
+    {
+        "question": "Get a common denominator on the right side.\n$$\\frac{-x^2+3x-4}{x^3+x}=\\frac{(x-1)(x-4)}{x^3+x}=\\frac{(x-1)(x-4)}{x(x^2+1)}$$$$ = \\frac{(x-1)(x-4)}{x(x^2+1)}=\\frac{A}{x} +\\frac{Bx+C}{x^2+1}=\\frac{Ax^2+A+Bx^2+Cx}{x(x^2+1)}$$$$Ax^2+A+Bx^2+Cx= (x-1)(x-4)$$$Ax^2+Bx^2+Cx+A= x^2-5x+4$$Equating the coefficients gives:\n$$A+B=1$$$$C=-5$$$$A=4$$\n\nFinal Answer: $\\boxed{(4,-1,-5)}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{(4,-1,-5)}.$$",
+        "ground_truth": "By partial fractions,\n$$\\frac{-x^2+3x-4}{x^3+x}=\\frac{-x^2+3x-4}{x(x^2+1)} = \\frac{A}{x} +\\frac{Bx+C}{x^2+1} $$Multiplying by $x(x^2+1)$ gives\n$$-x^2+3x-4 = (A+B)x^2 +Cx + A.$$By comparing coefficients, we can see that $A=-4$ and $C=3.$ Then, $-4+B=-1$ which means $B=3$.\nThus,\n$$\\frac{-x^2+3x-4}{x^3+x} = \\frac{-4}{x}+\\frac{3x+3}{x^2+1}.$$and $(A,B,C) = \\boxed{(-4,3,3)}.$"
+    }
+]

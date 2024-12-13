@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\n3 people run for president.  John manages to capture 150 votes. James captures 70% of the remaining vote.  If there were 1150 people voting, how many more votes did the third guy get than John?",
+        "inference": "The total number of votes is 1150. \n- John got 150 votes.\n- James got 70% of the remaining votes after John's votes.\n- Remaining votes = 1150 - 150 = 1000.\n- James got 70% of 1000 votes = 1000 x 70 / 100 = 700 votes.\n- The third guy got the remaining votes = 1150 - 150 - 700 = 300 votes.\n- The third guy got 300 - 150 = 150 more votes than John.\n\nI hope it is correct: 150",
+        "ground_truth": "There were 1150-150=<<1150-150=1000>>1000 people who didn't vote for John\nThat means James got 1000*.7=<<1000*.7=700>>700 votes\nSo the other candidate got 1000-700=<<1000-700=300>>300 votes\nThis means he got 300-150=<<300-150=150>>150 more votes than John.\n#### 150"
+    },
+    {
+        "question": "The total number of votes is 1150. \n- John got 150 votes.\n- James got 70% of the remaining votes after John's votes.\n- Remaining votes = 1150 - 150 = 1000.\n- James got 70% of 1000 votes = 1000 x 70 / 100 = 700 votes.\n- The third guy got the remaining votes = 1150 - 150 - 700 = 300 votes.\n- The third guy got 300 - 150 = 150 more votes than John.\n\nI hope it is correct: 150\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$150",
+        "ground_truth": "There were 1150-150=<<1150-150=1000>>1000 people who didn't vote for John\nThat means James got 1000*.7=<<1000*.7=700>>700 votes\nSo the other candidate got 1000-700=<<1000-700=300>>300 votes\nThis means he got 300-150=<<300-150=150>>150 more votes than John.\n#### 150"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nMedians $\\overline{DP}$ and $\\overline{EQ}$ of $\\triangle DEF$ are perpendicular.  If $DP= 18$ and $EQ = 24$, then what is ${DE}$?",
+        "inference": "Final Answer: $\\boxed{30}$. I hope it is correct. \n",
+        "ground_truth": "[asy]\npair D,EE,F,P,Q,G;\n\nG = (0,0);\nD = (1.2,0);\nP= (-0.6,0);\nEE = (0,1.6);\nQ = (0,-0.8);\nF = 2*Q - D;\ndraw(P--D--EE--F--D);\ndraw(EE--Q);\nlabel(\"$D$\",D,E);\nlabel(\"$P$\",P,NW);\nlabel(\"$Q$\",Q,SE);\nlabel(\"$E$\",EE,N);\nlabel(\"$F$\",F,SW);\ndraw(rightanglemark(Q,G,D,3.5));\nlabel(\"$G$\",G,SW);\n[/asy]\n\nPoint $G$ is the centroid of $\\triangle DEF$, so $DG:GP = EG:GQ = 2:1$.  Therefore, $DG = \\frac23(DP) = 12$ and $EG = \\frac23(EQ) =16$, so applying the Pythagorean Theorem to $\\triangle EGD$ gives us $DE = \\sqrt{EG^2 + GD^2} = \\boxed{20}$."
+    },
+    {
+        "question": "Final Answer: $\\boxed{30}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the problem you are trying to solve. I need the problem statement to understand the solution and identify any potential errors. \n",
+        "ground_truth": "[asy]\npair D,EE,F,P,Q,G;\n\nG = (0,0);\nD = (1.2,0);\nP= (-0.6,0);\nEE = (0,1.6);\nQ = (0,-0.8);\nF = 2*Q - D;\ndraw(P--D--EE--F--D);\ndraw(EE--Q);\nlabel(\"$D$\",D,E);\nlabel(\"$P$\",P,NW);\nlabel(\"$Q$\",Q,SE);\nlabel(\"$E$\",EE,N);\nlabel(\"$F$\",F,SW);\ndraw(rightanglemark(Q,G,D,3.5));\nlabel(\"$G$\",G,SW);\n[/asy]\n\nPoint $G$ is the centroid of $\\triangle DEF$, so $DG:GP = EG:GQ = 2:1$.  Therefore, $DG = \\frac23(DP) = 12$ and $EG = \\frac23(EQ) =16$, so applying the Pythagorean Theorem to $\\triangle EGD$ gives us $DE = \\sqrt{EG^2 + GD^2} = \\boxed{20}$."
+    }
+]

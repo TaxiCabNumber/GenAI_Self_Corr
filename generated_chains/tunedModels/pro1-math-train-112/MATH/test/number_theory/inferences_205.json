@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nEvaluate $3210_{7}-2401_{7}$. Express your answer in base 7.",
+        "inference": "$$3210_{7}-2401_{7}$$ $$=(3\\times7^3)+(2\\times7^2)+(1\\times7^1)+(0\\times7^0)-(2\\times7^3)-(4\\times7^2)-(0\\times7^1)-(1\\times7^0)$$ $$=(3-2)\\times7^3+(2-4)\\times7^2+(1-0)\\times7^1+(0-1)\\times7^0$$ $$=1\\times7^3+(-2)\\times7^2+1\\times7^1+(-1)\\times7^0$$ $$=7^3-2\\times7^2+7^1-7^0$$ $$=343-98+7-1$$ $$=251$$\nFinal Answer: \\boxed{251}. I hope it is correct.",
+        "ground_truth": "We have\n\n$\\begin{array}{@{}c@{\\;}c@{}c@{}c@{}c@{}c}& & 3 & 2 & 1 & 0_{7}\\\\ -& & 2& 4 & 0 & 1_{7}\\\\ \\cline{1-6}&& & 5 & 0 & 6 _{7}\\\\ \\end{array}$\n\nSo, our final answer is $\\boxed{506_7}$."
+    },
+    {
+        "question": "$$3210_{7}-2401_{7}$$ $$=(3\\times7^3)+(2\\times7^2)+(1\\times7^1)+(0\\times7^0)-(2\\times7^3)-(4\\times7^2)-(0\\times7^1)-(1\\times7^0)$$ $$=(3-2)\\times7^3+(2-4)\\times7^2+(1-0)\\times7^1+(0-1)\\times7^0$$ $$=1\\times7^3+(-2)\\times7^2+1\\times7^1+(-1)\\times7^0$$ $$=7^3-2\\times7^2+7^1-7^0$$ $$=343-98+7-1$$ $$=251$$\nFinal Answer: \\boxed{251}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{251}",
+        "ground_truth": "We have\n\n$\\begin{array}{@{}c@{\\;}c@{}c@{}c@{}c@{}c}& & 3 & 2 & 1 & 0_{7}\\\\ -& & 2& 4 & 0 & 1_{7}\\\\ \\cline{1-6}&& & 5 & 0 & 6 _{7}\\\\ \\end{array}$\n\nSo, our final answer is $\\boxed{506_7}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe Smith family has 4 sons and 3 daughters.  In how many ways can they be seated in a row of 7 chairs such that all 3 girls sit next to each other?",
+        "inference": "Final Answer: \\\\boxed{1440}. I hope it is correct. \n",
+        "ground_truth": "We want to deal with the restriction first.\n\nWithout worrying about which specific boys and girls go in which seats, in how many ways can the girls sit together?\n\nThere are 5 basic configurations of boys and girls:  $$GGGBBBB, BGGGBBB, BBGGGBB,$$ $$BBBGGGB, BBBBGGG$$ where $B$ is a boy and $G$ is a girl.  Then, within each configuration, there are $4!$ ways in which we can assign the 4 sons to seats, and $3!$ ways in which we can assign the 3 daughters to seats.\n\nTherefore the number of possible seatings is $5 \\times 4! \\times 3! = \\boxed{720}$."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{1440}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you have so I can identify any errors and rewrite it correctly. \n",
+        "ground_truth": "We want to deal with the restriction first.\n\nWithout worrying about which specific boys and girls go in which seats, in how many ways can the girls sit together?\n\nThere are 5 basic configurations of boys and girls:  $$GGGBBBB, BGGGBBB, BBGGGBB,$$ $$BBBGGGB, BBBBGGG$$ where $B$ is a boy and $G$ is a girl.  Then, within each configuration, there are $4!$ ways in which we can assign the 4 sons to seats, and $3!$ ways in which we can assign the 3 daughters to seats.\n\nTherefore the number of possible seatings is $5 \\times 4! \\times 3! = \\boxed{720}$."
+    }
+]

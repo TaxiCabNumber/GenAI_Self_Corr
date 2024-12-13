@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\n$A$, $B$, $C$, and $D$ are points on a circle, and segments $\\overline{AC}$ and $\\overline{BD}$ intersect at $P$, such that $AP=8$, $PC=1$, and $BD=6$. Find $BP$, given that $BP < DP.$\n\n[asy]\n\nunitsize(0.6 inch);\n\ndraw(circle((0,0),1));\ndraw((-0.3,0.94)--(0.3,-0.94));\ndraw((-0.7,-0.7)--(0.7,-0.7));\n\nlabel(\"$A$\",(-0.3,0.94),NW);\ndot((-0.3,0.94));\nlabel(\"$B$\",(0.7,-0.7),SE);\ndot((0.7,-0.7));\nlabel(\"$C$\",(0.3,-0.94),SSE);\ndot((0.3,-0.94));\nlabel(\"$D$\",(-0.7,-0.7),SW);\ndot((-0.7,-0.7));\ndot((0.23,-0.7));\nlabel(\"$P$\",(0.23,-0.7),NE);\n\n[/asy]",
+        "inference": "By Power of a Point, $AP \\cdot PC = BP \\cdot DP$. We know $AP = 8$, $PC = 1$, and $BD = 6 = BP + DP$.  Let $BP = x$, so $DP = 6-x$.  Substituting, we have $8 \\cdot 1 = x(6-x)$.  Expanding, we have $8 = 6x - x^2$, or $x^2 - 6x + 8 = 0$.  This factors as $(x-2)(x-4) = 0$, so $x=2$ or $x=4$.  Since $BP < DP$, we have $BP = \\boxed{2}$.  Final Answer: $\\boxed{2}$. I hope it is correct. \n",
+        "ground_truth": "Writing $BP=x$ and $PD=6-x$, we have that $BP < 3$. Power of a point at $P$ gives $AP \\cdot PC = BP \\cdot PD$ or $8=x(6-x)$. This can be solved for $x=2$ and $x=4$, and we discard the latter, leaving $BP = \\boxed{2}$."
+    },
+    {
+        "question": "By Power of a Point, $AP \\cdot PC = BP \\cdot DP$. We know $AP = 8$, $PC = 1$, and $BD = 6 = BP + DP$.  Let $BP = x$, so $DP = 6-x$.  Substituting, we have $8 \\cdot 1 = x(6-x)$.  Expanding, we have $8 = 6x - x^2$, or $x^2 - 6x + 8 = 0$.  This factors as $(x-2)(x-4) = 0$, so $x=2$ or $x=4$.  Since $BP < DP$, we have $BP = \\boxed{2}$.  Final Answer: $\\boxed{2}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct. \n\n**Final Answer: $\\boxed{2}$** \n",
+        "ground_truth": "Writing $BP=x$ and $PD=6-x$, we have that $BP < 3$. Power of a point at $P$ gives $AP \\cdot PC = BP \\cdot PD$ or $8=x(6-x)$. This can be solved for $x=2$ and $x=4$, and we discard the latter, leaving $BP = \\boxed{2}$."
+    }
+]

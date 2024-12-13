@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $\\displaystyle\\frac{m}{n} = 15$, $\\displaystyle\\frac{p}{n} = 3$, and $\\displaystyle \\frac{p}{q} = \\frac{1}{10}$, then what is $\\displaystyle\\frac{m}{q}$?",
+        "inference": "$\\displaystyle\\frac{m}{q}=\\frac{m}{n}\\cdot\\frac{n}{p}\\cdot\\frac{p}{q}=\\frac{m}{n}\\cdot15\\cdot\\frac{1}{10}$\n$$=\\frac{m}{n}\\cdot\\frac{3}{2}=15\\cdot\\frac{3}{2}=\\frac{45}{2}.$$\nFinal Answer: $\\boxed{\\frac{45}{2}}$. I hope it is correct.",
+        "ground_truth": "If we multiply the first equation, the third equation, and the reciprocal of the second equation, we get \\[\\frac{m}{n}\\cdot\\frac{p}{q}\\cdot \\frac{n}{p} = 15\\cdot \\frac{1}{10}\\cdot\\frac{1}{3}\\Rightarrow \\frac{m}{q}= \\boxed{\\frac{1}{2}}.\\]"
+    },
+    {
+        "question": "$\\displaystyle\\frac{m}{q}=\\frac{m}{n}\\cdot\\frac{n}{p}\\cdot\\frac{p}{q}=\\frac{m}{n}\\cdot15\\cdot\\frac{1}{10}$\n$$=\\frac{m}{n}\\cdot\\frac{3}{2}=15\\cdot\\frac{3}{2}=\\frac{45}{2}.$$\nFinal Answer: $\\boxed{\\frac{45}{2}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{\\frac{45}{2}}$$",
+        "ground_truth": "If we multiply the first equation, the third equation, and the reciprocal of the second equation, we get \\[\\frac{m}{n}\\cdot\\frac{p}{q}\\cdot \\frac{n}{p} = 15\\cdot \\frac{1}{10}\\cdot\\frac{1}{3}\\Rightarrow \\frac{m}{q}= \\boxed{\\frac{1}{2}}.\\]"
+    }
+]

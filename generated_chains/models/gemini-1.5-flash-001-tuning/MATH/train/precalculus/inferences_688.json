@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the phase shift of the graph of $y = 2 \\sin \\left( 2x + \\frac{\\pi}{3} \\right).$",
+        "inference": "Final Answer: \\\\boxed{-\\frac{\\pi}{6}}. I hope it is correct. \n",
+        "ground_truth": "Since the graph of $y = 2 \\sin \\left( 2x + \\frac{\\pi}{3} \\right)$ is the same as the graph of $y = 2 \\sin 2x$ shifted $\\frac{\\pi}{6}$ units to the left, the phase shift is $\\boxed{-\\frac{\\pi}{6}}.$\n\n[asy]import TrigMacros;\n\nsize(400);\n\nreal g(real x)\n{\n\treturn 2*sin(2*x + pi/3);\n}\n\nreal f(real x)\n{\n\treturn 2*sin(2*x);\n}\n\ndraw(graph(g,-2*pi,2*pi,n=700,join=operator ..),red);\ndraw(graph(f,-2*pi,2*pi,n=700,join=operator ..));\ntrig_axes(-2*pi,2*pi,-3,3,pi/2,1);\nlayer();\nrm_trig_labels(-4,4, 2);\n[/asy]"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{-\\frac{\\pi}{6}}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need this information to identify any errors and provide a corrected solution. \n",
+        "ground_truth": "Since the graph of $y = 2 \\sin \\left( 2x + \\frac{\\pi}{3} \\right)$ is the same as the graph of $y = 2 \\sin 2x$ shifted $\\frac{\\pi}{6}$ units to the left, the phase shift is $\\boxed{-\\frac{\\pi}{6}}.$\n\n[asy]import TrigMacros;\n\nsize(400);\n\nreal g(real x)\n{\n\treturn 2*sin(2*x + pi/3);\n}\n\nreal f(real x)\n{\n\treturn 2*sin(2*x);\n}\n\ndraw(graph(g,-2*pi,2*pi,n=700,join=operator ..),red);\ndraw(graph(f,-2*pi,2*pi,n=700,join=operator ..));\ntrig_axes(-2*pi,2*pi,-3,3,pi/2,1);\nlayer();\nrm_trig_labels(-4,4, 2);\n[/asy]"
+    }
+]

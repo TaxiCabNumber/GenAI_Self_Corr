@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nEvaluate the expression \\[(751 - 745) + (748 - 742) + (745 - 739) + (742 - 736) + \\cdots + (499 - 493) + (496 - 490).\\]",
+        "inference": "Grouping the terms as follows:\n$$[(751 - 745) + (748 - 742)] + [(745 - 739) + (742 - 736)] + \\cdots + [(499 - 493) + (496 - 490)]$$\n\n$$= 6 + 6 + \\cdots + 6$$\n\n$$= 6\\times 51$$\n\n$$= 306$$\n\nFinal Answer: \\boxed{$306$}. I hope it is correct.",
+        "ground_truth": "We could view the sum as the sum of a bunch of 6's, but a closer look simplifies the sum considerably.  Both $-745$ and $+745$ appear in the expression, as do both $-742$ and $+742$, and both $-739$ and $+739$, and so on down to $-496$ and $+496$.  These all cancel out, leaving $751 + 748 - 493 - 490 = \\boxed{516}$."
+    },
+    {
+        "question": "Grouping the terms as follows:\n$$[(751 - 745) + (748 - 742)] + [(745 - 739) + (742 - 736)] + \\cdots + [(499 - 493) + (496 - 490)]$$\n\n$$= 6 + 6 + \\cdots + 6$$\n\n$$= 6\\times 51$$\n\n$$= 306$$\n\nFinal Answer: \\boxed{$306$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$ 306 $}",
+        "ground_truth": "We could view the sum as the sum of a bunch of 6's, but a closer look simplifies the sum considerably.  Both $-745$ and $+745$ appear in the expression, as do both $-742$ and $+742$, and both $-739$ and $+739$, and so on down to $-496$ and $+496$.  These all cancel out, leaving $751 + 748 - 493 - 490 = \\boxed{516}$."
+    }
+]

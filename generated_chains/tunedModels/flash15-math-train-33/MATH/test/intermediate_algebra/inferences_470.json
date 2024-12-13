@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\n$P(x)$ is a polynomial such that when $P(x)$ is divided by $x-13$ the remainder is $19$, and when $P(x)$ is divided by $x+17$ the remainder is $-11$. What is the remainder when $P(x)$ is divided by $(x-13)(x+17)$?",
+        "inference": "Final Answer: \\\\boxed{19(x+17) - 11(x-13)}. I hope it is correct. \n",
+        "ground_truth": "Since we are dividing by a quadratic, the remainder will have degree less than 2. So the remainder $r(x)=ax+b$ for some constants $a$ and $b$. We have,\n$$P(x) = (x-13)(x+17)Q(x) +ax+b$$where $Q(x)$ is the quotient of the division.\n\nThen, using the Remainder Theorem,\n$$\\begin{aligned} P(13) &= 13a+b = 19 \\\\\nP(-17) &= -17a+b = -11 \\end{aligned}$$.\nSolving this system of equations gives us $a=1$ and $b=6$. So the remainder is $\\boxed{x+6}$."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{19(x+17) - 11(x-13)}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the original question and the steps you took to arrive at the solution \\\\boxed{19(x+17) - 11(x-13)}.  I need that information to identify any potential errors and rewrite the solution correctly. \n",
+        "ground_truth": "Since we are dividing by a quadratic, the remainder will have degree less than 2. So the remainder $r(x)=ax+b$ for some constants $a$ and $b$. We have,\n$$P(x) = (x-13)(x+17)Q(x) +ax+b$$where $Q(x)$ is the quotient of the division.\n\nThen, using the Remainder Theorem,\n$$\\begin{aligned} P(13) &= 13a+b = 19 \\\\\nP(-17) &= -17a+b = -11 \\end{aligned}$$.\nSolving this system of equations gives us $a=1$ and $b=6$. So the remainder is $\\boxed{x+6}$."
+    }
+]

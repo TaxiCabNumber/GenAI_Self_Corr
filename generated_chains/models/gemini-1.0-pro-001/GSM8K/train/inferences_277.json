@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nArven bought five puppies for a total cost of $800. Three puppies are on sale for $150 each. How much does each of those two other puppies cost if they cost the same?",
+        "inference": "**Solution:**\n\n1. Calculate the total cost of the three puppies on sale: 150 * 3 = $450\n2. Subtract the cost of the three puppies on sale from the total cost: 800 - 450 = $350\n3. Divide the remaining cost by the number of puppies not on sale: 350 / 2 = $175\n\n**Answer:** $175\nI hope it is correct: $175$",
+        "ground_truth": "Three puppies on sale cost $150 x 3 = $<<150*3=450>>450.\nThe other two puppies cost $800 - $450 = $<<800-450=350>>350.\nSo, each of those two other puppies cost $350/2 = $<<350/2=175>>175.\n#### 175"
+    },
+    {
+        "question": "**Solution:**\n\n1. Calculate the total cost of the three puppies on sale: 150 * 3 = $450\n2. Subtract the cost of the three puppies on sale from the total cost: 800 - 450 = $350\n3. Divide the remaining cost by the number of puppies not on sale: 350 / 2 = $175\n\n**Answer:** $175\nI hope it is correct: $175$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 175",
+        "ground_truth": "Three puppies on sale cost $150 x 3 = $<<150*3=450>>450.\nThe other two puppies cost $800 - $450 = $<<800-450=350>>350.\nSo, each of those two other puppies cost $350/2 = $<<350/2=175>>175.\n#### 175"
+    }
+]

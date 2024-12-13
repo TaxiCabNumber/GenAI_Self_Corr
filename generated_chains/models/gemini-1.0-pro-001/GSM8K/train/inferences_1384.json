@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBill is stocking the kitchenware section of the Walmart. He needs to stack 60 pots. On each shelf, he can stack five pots vertically and three sets of vertically stacked pots side-by-side. How many shelves does he need to stock all the pots?",
+        "inference": "1. Each shelf can hold 5 x 3 = 15 pots.\n2. To stack 60 pots, Bill needs 60 / 15 = 4 shelves.\n\nI hope it is correct: 4 $shelves$.",
+        "ground_truth": "First find how many pots fit on one shelf: 5 pots/set * 3 sets = <<5*3=15>>15 pots\nThen divide the number of pots Bill has by the number that fit on each shelf: 60 pots / 15 pots/shelf = <<60/15=4>>4 shelves\n#### 4"
+    },
+    {
+        "question": "1. Each shelf can hold 5 x 3 = 15 pots.\n2. To stack 60 pots, Bill needs 60 / 15 = 4 shelves.\n\nI hope it is correct: 4 $shelves$.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 4",
+        "ground_truth": "First find how many pots fit on one shelf: 5 pots/set * 3 sets = <<5*3=15>>15 pots\nThen divide the number of pots Bill has by the number that fit on each shelf: 60 pots / 15 pots/shelf = <<60/15=4>>4 shelves\n#### 4"
+    }
+]

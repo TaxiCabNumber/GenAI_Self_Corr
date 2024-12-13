@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA paper company decides to operate their business more sustainably. They decide that for every tree they chop down, they want to plant three more. If the company chops down 200 trees in the first half of the year and 300 more trees in the second half of the year, how many more trees does the company need to plant?",
+        "inference": "First we should find the total number of trees chopped down in the year. The company chopped down 200 trees in the first half of the year and 300 more trees in the second half of the year, for a total of $200 + 300 = 500$ trees.\nNow we need to find how many trees the company needs to plant. The company wants to plant three more trees for every tree they chop down. So, for the 500 trees they chopped down, they need to plant $3 \\times 500 = 1500$ more trees.\nI hope it is correct: 1500",
+        "ground_truth": "The company has chopped down a total of 200 + 300 = <<200+300=500>>500 trees throughout the year.\nThey plant 3 trees for every tree they chop so they need to plant 500 trees * 3 = <<500*3=1500>>1500 trees.\n#### 1500"
+    },
+    {
+        "question": "First we should find the total number of trees chopped down in the year. The company chopped down 200 trees in the first half of the year and 300 more trees in the second half of the year, for a total of $200 + 300 = 500$ trees.\nNow we need to find how many trees the company needs to plant. The company wants to plant three more trees for every tree they chop down. So, for the 500 trees they chopped down, they need to plant $3 \\times 500 = 1500$ more trees.\nI hope it is correct: 1500\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$1500",
+        "ground_truth": "The company has chopped down a total of 200 + 300 = <<200+300=500>>500 trees throughout the year.\nThey plant 3 trees for every tree they chop so they need to plant 500 trees * 3 = <<500*3=1500>>1500 trees.\n#### 1500"
+    }
+]

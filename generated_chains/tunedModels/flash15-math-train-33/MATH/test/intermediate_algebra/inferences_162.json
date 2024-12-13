@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe $n$th term of a sequence is $a_n = (-1)^{n+1}(3n + 2)$. What is the value of $a_1 + a_2 + \\dots + a_{100}$?",
+        "inference": "Final Answer: \\\\boxed{100}. I hope it is correct. \n",
+        "ground_truth": "$a_n$ is positive when $n$ is odd and negative when $n$ is even. Consider an arbitrary odd number $j.$ It follows that  \\[a_j + a_{j+1} = (3j+2)-(3(j+1)+2)=-3.\\] In $a_1+a_2+\\cdots+a_{100},$ there are $50$ such pairings, so the sum is $(-3)(50)=\\boxed{-150}.$"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{100}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need that information to identify any potential errors and rewrite the solution correctly. \n",
+        "ground_truth": "$a_n$ is positive when $n$ is odd and negative when $n$ is even. Consider an arbitrary odd number $j.$ It follows that  \\[a_j + a_{j+1} = (3j+2)-(3(j+1)+2)=-3.\\] In $a_1+a_2+\\cdots+a_{100},$ there are $50$ such pairings, so the sum is $(-3)(50)=\\boxed{-150}.$"
+    }
+]

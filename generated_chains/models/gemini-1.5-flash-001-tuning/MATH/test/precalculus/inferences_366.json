@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nEvaluate $\\tan 10^\\circ \\tan 20^\\circ \\tan 30^\\circ \\tan 40^\\circ \\tan 50^\\circ \\tan 60^\\circ \\tan 70^\\circ \\tan 80^\\circ.$",
+        "inference": "Final Answer: $\\boxed{1}$. I hope it is correct. \n",
+        "ground_truth": "Note that\n\\[\\tan (90^\\circ - x) \\tan x = \\frac{\\sin (90^\\circ - x)}{\\cos (90^\\circ - x)} \\cdot \\frac{\\sin x}{\\cos x} = \\frac{\\cos x}{\\sin x} \\cdot \\frac{\\sin x}{\\cos x} = 1,\\]so\n\\begin{align*}\n&\\tan 10^\\circ \\tan 20^\\circ \\tan 30^\\circ \\tan 40^\\circ \\tan 50^\\circ \\tan 60^\\circ \\tan 70^\\circ \\tan 80^\\circ \\\\\n&= (\\tan 10^\\circ \\tan 80^\\circ) (\\tan 20^\\circ \\tan 70^\\circ) (\\tan 30^\\circ \\tan 60^\\circ) (\\tan 40^\\circ \\tan 50^\\circ) \\\\\n&= \\boxed{1}.\n\\end{align*}"
+    },
+    {
+        "question": "Final Answer: $\\boxed{1}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the problem and your solution so I can review it and provide a corrected solution if necessary.  I need the context to understand your approach and identify any potential errors. \n",
+        "ground_truth": "Note that\n\\[\\tan (90^\\circ - x) \\tan x = \\frac{\\sin (90^\\circ - x)}{\\cos (90^\\circ - x)} \\cdot \\frac{\\sin x}{\\cos x} = \\frac{\\cos x}{\\sin x} \\cdot \\frac{\\sin x}{\\cos x} = 1,\\]so\n\\begin{align*}\n&\\tan 10^\\circ \\tan 20^\\circ \\tan 30^\\circ \\tan 40^\\circ \\tan 50^\\circ \\tan 60^\\circ \\tan 70^\\circ \\tan 80^\\circ \\\\\n&= (\\tan 10^\\circ \\tan 80^\\circ) (\\tan 20^\\circ \\tan 70^\\circ) (\\tan 30^\\circ \\tan 60^\\circ) (\\tan 40^\\circ \\tan 50^\\circ) \\\\\n&= \\boxed{1}.\n\\end{align*}"
+    }
+]

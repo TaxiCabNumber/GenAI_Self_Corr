@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIn ten years, I'll be twice my brother's age. The sum of our ages will then be 45 years old. How old am I now?",
+        "inference": "I hope it is correct:  **20 years old** \n",
+        "ground_truth": "Let X be my age now.\nIn ten years, I'll be X+<<+10=10>>10 years old.\nIn ten years, my brother will be (X+10)*1/2 years old.\nIn ten years, (X+10) + (X+10)*1/2 = 45.\nSo (X+10)*3/2 = 45.\nX+10 = 45 * 2/3 = 30.\nX = 30 - 10 = <<30-10=20>>20 years old.\n#### 20"
+    },
+    {
+        "question": "I hope it is correct:  **20 years old** \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$20 years old \n",
+        "ground_truth": "Let X be my age now.\nIn ten years, I'll be X+<<+10=10>>10 years old.\nIn ten years, my brother will be (X+10)*1/2 years old.\nIn ten years, (X+10) + (X+10)*1/2 = 45.\nSo (X+10)*3/2 = 45.\nX+10 = 45 * 2/3 = 30.\nX = 30 - 10 = <<30-10=20>>20 years old.\n#### 20"
+    }
+]

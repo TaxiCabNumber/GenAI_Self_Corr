@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSolve for $x$:\n\n$$x^2 + 4x + 3 = -(x + 3)(x + 5).$$",
+        "inference": "$$x^2 + 4x + 3 = -(x + 3)(x + 5)$$\n\n$$x^2 + 4x + 3 = -x^2 - 5x -3x -15$$\n\n$$x^2 + 4x + 3 = -x^2 - 8x -15$$\n\n$$x^2 + x^2 + 4x + 8x + 3 +15 = 0$$\n\n$$2x^2 + 12x + 18 = 0$$\n\n$$2(x^2 + 6x + 9) = 0$$\n\n$$x^2 + 6x + 9 = 0$$\n\n$$(x + 3)^2 = 0$$\n\n$$x + 3 = 0 \\quad \\Rightarrow \\quad x = -3$$\n\nor\n\n$$x + 3 = 0 \\quad \\Rightarrow \\quad x = -3$$\n\n**Final Answer: \\\\boxed{$x = -3$}. I hope it is correct.**",
+        "ground_truth": "Expanding the product on the right, we have $x^2 + 4x + 3 = -(x^2 + 8x + 15),$ so $x^2 + 4x + 3 + (x^2 + 8x + 15) = 0$.  Simplifying the left side gives $2x^2 + 12x + 18 = 0.$ Dividing by 2, we have $x^2 + 6x + 9 = 0$, so $(x + 3)(x + 3) = 0.$ The only solution for $x$ is $\\boxed{-3}.$"
+    },
+    {
+        "question": "$$x^2 + 4x + 3 = -(x + 3)(x + 5)$$\n\n$$x^2 + 4x + 3 = -x^2 - 5x -3x -15$$\n\n$$x^2 + 4x + 3 = -x^2 - 8x -15$$\n\n$$x^2 + x^2 + 4x + 8x + 3 +15 = 0$$\n\n$$2x^2 + 12x + 18 = 0$$\n\n$$2(x^2 + 6x + 9) = 0$$\n\n$$x^2 + 6x + 9 = 0$$\n\n$$(x + 3)^2 = 0$$\n\n$$x + 3 = 0 \\quad \\Rightarrow \\quad x = -3$$\n\nor\n\n$$x + 3 = 0 \\quad \\Rightarrow \\quad x = -3$$\n\n**Final Answer: \\\\boxed{$x = -3$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{x = -3}$$",
+        "ground_truth": "Expanding the product on the right, we have $x^2 + 4x + 3 = -(x^2 + 8x + 15),$ so $x^2 + 4x + 3 + (x^2 + 8x + 15) = 0$.  Simplifying the left side gives $2x^2 + 12x + 18 = 0.$ Dividing by 2, we have $x^2 + 6x + 9 = 0$, so $(x + 3)(x + 3) = 0.$ The only solution for $x$ is $\\boxed{-3}.$"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nStan weighs 5 more pounds than Steve. Steve is eight pounds lighter than Jim. If Jim weighs 110 pounds and the three of them crowd onto a scale at the same time, what is their total weight?",
+        "inference": "1. Stan weighs 5 more pounds than Steve. \n **Steve weighs= 110 - 8 = 102 pounds**\n\n\n2. Steve is eight pounds lighter than Jim. \n **Stan weighs= 102 + 5 = 107 pounds**\n\n\n3. Jim weighs 110 pounds.\n\n\n4. Total weight= 110 + 107 + 102 = 319 pounds.\nI hope it is correct: $319$",
+        "ground_truth": "Steve weighs 110 - 8 = <<110-8=102>>102 pounds.\nStan weighs 102 + 5 = <<102+5=107>>107 pounds.\nTheir total weight is 102 + 107 + 110 = <<102+107+110=319>>319 pounds.\n#### 319"
+    },
+    {
+        "question": "1. Stan weighs 5 more pounds than Steve. \n **Steve weighs= 110 - 8 = 102 pounds**\n\n\n2. Steve is eight pounds lighter than Jim. \n **Stan weighs= 102 + 5 = 107 pounds**\n\n\n3. Jim weighs 110 pounds.\n\n\n4. Total weight= 110 + 107 + 102 = 319 pounds.\nI hope it is correct: $319$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ 319",
+        "ground_truth": "Steve weighs 110 - 8 = <<110-8=102>>102 pounds.\nStan weighs 102 + 5 = <<102+5=107>>107 pounds.\nTheir total weight is 102 + 107 + 110 = <<102+107+110=319>>319 pounds.\n#### 319"
+    }
+]

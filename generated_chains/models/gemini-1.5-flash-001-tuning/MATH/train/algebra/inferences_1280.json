@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $\\sqrt{5 + x} + \\sqrt{20 - x} = 7$, what is the value of $(5 + x)(20 - x)$?",
+        "inference": "Solution:\n\n1.  Square both sides of the equation:\n    $(\\sqrt{5+x}+\\sqrt{20-x})^2 = 7^2$\n    $5+x + 2\\sqrt{(5+x)(20-x)} + 20-x = 49$\n\n2.  Simplify:\n    $2\\sqrt{(5+x)(20-x)} = 24$\n    $\\sqrt{(5+x)(20-x)} = 12$\n\n3.  Square both sides again:\n    $(5+x)(20-x) = 12^2$\n\n4.  Calculate:\n    $(5+x)(20-x) = 144$\n\nFinal Answer: $\\boxed{144}$. I hope it is correct. \n",
+        "ground_truth": "Square both sides of the equation to obtain \\[\n(5+x)+2\\sqrt{5+x}\\sqrt{20-x}+(20-x)=49.\n\\]This equation simplifies to \\[\n2\\sqrt{(5+x)(20-x)}=24,\n\\]so $(5+x)(20-x)=(24/2)^2=\\boxed{144}$."
+    },
+    {
+        "question": "Solution:\n\n1.  Square both sides of the equation:\n    $(\\sqrt{5+x}+\\sqrt{20-x})^2 = 7^2$\n    $5+x + 2\\sqrt{(5+x)(20-x)} + 20-x = 49$\n\n2.  Simplify:\n    $2\\sqrt{(5+x)(20-x)} = 24$\n    $\\sqrt{(5+x)(20-x)} = 12$\n\n3.  Square both sides again:\n    $(5+x)(20-x) = 12^2$\n\n4.  Calculate:\n    $(5+x)(20-x) = 144$\n\nFinal Answer: $\\boxed{144}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The error in the solution is that it stops at the equation $(5+x)(20-x) = 144$. The question is likely asking for the value of $(5+x)(20-x)$, which is already found to be $\\boxed{144}$. \n",
+        "ground_truth": "Square both sides of the equation to obtain \\[\n(5+x)+2\\sqrt{5+x}\\sqrt{20-x}+(20-x)=49.\n\\]This equation simplifies to \\[\n2\\sqrt{(5+x)(20-x)}=24,\n\\]so $(5+x)(20-x)=(24/2)^2=\\boxed{144}$."
+    }
+]

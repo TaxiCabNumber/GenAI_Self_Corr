@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe equation of the hyperbola shown below can be written as\n\\[\\frac{(x - h)^2}{a^2} - \\frac{(y - k)^2}{b^2} = 1.\\]Find $h + k + a + b.$\n\n[asy]\nunitsize(0.3 cm);\n\nreal upperhyper (real x) {\n  return (3*sqrt((x + 1)^2/4 - 1) + 3);\n}\n\nreal lowerhyper (real x) {\n  return (-3*sqrt((x + 1)^2/4 - 1) + 3);\n}\n\nint i, n = 10;\n\nfor (i = -n; i <= n; ++i) {\n  draw((i,-n)--(i,n),gray(0.7));\n  draw((-n,i)--(n,i),gray(0.7));\n}\n\ndraw((0,-n)--(0,n));\ndraw((-n,0)--(n,0));\n\ndraw(graph(upperhyper,-6,-3 - 0.01)--(-3,3),red);\ndraw(graph(lowerhyper,-9.9,-3 - 0.01)--(-3,3),red);\ndraw((1,3)--graph(upperhyper,1 + 0.01,4),red);\ndraw((1,3)--graph(lowerhyper,1 + 0.01,7.9),red);\ndraw(extension((-10,-10),(10,-10),(-1,3),(-1,3) + (2,3))--extension((-10,10),(10,10),(-1,3),(-1,3) + (2,3)),dashed);\ndraw(extension((-10,-10),(10,-10),(-1,3),(-1,3) + (2,-3))--extension((-10,10),(10,10),(-1,3),(-1,3) + (2,-3)),dashed);\n\ndot((-1,3));\n[/asy]",
+        "inference": "The coordinates of the centre are $(-1, 3)$. So, $h = -1$ and $k = 3$. From the graph, we can see that $a = 2$ and $b = 3$. Therefore,\n$$h + k + a + b = -1 + 3 + 2 + 3 = \\boxed{7}.$$\nFinal Answer: \\boxed{$7$}. I hope it is correct.",
+        "ground_truth": "The center of the hyperbola is $(-1,3).$  The distance from the center to a vertex is $a = 2.$  The slope of the asymptotes are $\\pm \\frac{3}{2},$ so $b = 3.$  Thus, $h + k + a + b = (-1) + 3 + 2 + 3 = \\boxed{7}.$"
+    },
+    {
+        "question": "The coordinates of the centre are $(-1, 3)$. So, $h = -1$ and $k = 3$. From the graph, we can see that $a = 2$ and $b = 3$. Therefore,\n$$h + k + a + b = -1 + 3 + 2 + 3 = \\boxed{7}.$$\nFinal Answer: \\boxed{$7$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$7$}",
+        "ground_truth": "The center of the hyperbola is $(-1,3).$  The distance from the center to a vertex is $a = 2.$  The slope of the asymptotes are $\\pm \\frac{3}{2},$ so $b = 3.$  Thus, $h + k + a + b = (-1) + 3 + 2 + 3 = \\boxed{7}.$"
+    }
+]

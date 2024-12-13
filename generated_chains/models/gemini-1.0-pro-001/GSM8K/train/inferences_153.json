@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTim's cat bit him.  He decided to get himself and the cat checked out.  His doctor's visits $300 and insurance covered 75%.  His cat's visit cost $120 and his pet insurance covered $60.  How much did he pay?",
+        "inference": "1. Tim's doctor's visit cost $300. \n2. His insurance covered 75%, so he paid 25% of $300, which is 0.25 * $300 = $75. \n3. His cat's visit cost $120. \n4. His pet insurance covered $60, so he paid $120 - $60 = $60 for his cat's visit. \n5. Therefore, Tim paid a total of $75 + $60 = $135.\n\nI hope it is correct: $135",
+        "ground_truth": "The insurance covers 300*.75=$<<300*.75=225>>225\nSo he had to pay 300-225=$<<300-225=75>>75\nThe cats visit cost 120-60=$<<120-60=60>>60\nSo in total he paid 75+60=$<<75+60=135>>135\n#### 135"
+    },
+    {
+        "question": "1. Tim's doctor's visit cost $300. \n2. His insurance covered 75%, so he paid 25% of $300, which is 0.25 * $300 = $75. \n3. His cat's visit cost $120. \n4. His pet insurance covered $60, so he paid $120 - $60 = $60 for his cat's visit. \n5. Therefore, Tim paid a total of $75 + $60 = $135.\n\nI hope it is correct: $135\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$135",
+        "ground_truth": "The insurance covers 300*.75=$<<300*.75=225>>225\nSo he had to pay 300-225=$<<300-225=75>>75\nThe cats visit cost 120-60=$<<120-60=60>>60\nSo in total he paid 75+60=$<<75+60=135>>135\n#### 135"
+    }
+]

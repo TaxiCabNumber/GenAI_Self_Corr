@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA circle is circumscribed around $ABCD$ as follows: [asy]\npair pA, pB, pC, pD, pO;\npO = (0, 0);\npA = pO + dir(-40);\npB = pO + dir(40);\npC = pO + dir(130);\npD = pO + dir(190);\ndraw(pA--pB--pC--pA);\ndraw(pA--pD--pC--pA);\nlabel(\"$A$\", pA, SE);\nlabel(\"$B$\", pB, NE);\nlabel(\"$C$\", pC, NW);\nlabel(\"$D$\", pD, SW);\ndraw(circle(pO, 1));\nlabel(\"$30^\\circ$\", pA + dir(150) * .45);\nlabel(\"$40^\\circ$\", pC + dir(-20) * .35);\n[/asy] How many degrees are in $\\angle CAB + \\angle ACD$?",
+        "inference": "Final Answer: $\\boxed{170^\\circ}$. I hope it is correct. \n",
+        "ground_truth": "We can see that $\\angle ACB = 40^\\circ$ must be half of the central angle formed by the arc ${AB},$ or $80^\\circ.$ Likewise, $\\angle CAD = 30^\\circ$ must be half of the central angle formed by the arc ${CD},$ or $60^\\circ.$ Then, we can see that the angles formed by arcs ${BC}$ and ${DA}$ must sum to $360^\\circ - (80^\\circ + 60^\\circ) = 220^\\circ.$ That means the sum $\\angle CAB + \\angle ACD$ must be half of that, or $\\boxed{110^\\circ}.$"
+    },
+    {
+        "question": "Final Answer: $\\boxed{170^\\circ}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the question and the solution you're referring to. I need the context to identify any potential errors and provide a corrected solution. \n",
+        "ground_truth": "We can see that $\\angle ACB = 40^\\circ$ must be half of the central angle formed by the arc ${AB},$ or $80^\\circ.$ Likewise, $\\angle CAD = 30^\\circ$ must be half of the central angle formed by the arc ${CD},$ or $60^\\circ.$ Then, we can see that the angles formed by arcs ${BC}$ and ${DA}$ must sum to $360^\\circ - (80^\\circ + 60^\\circ) = 220^\\circ.$ That means the sum $\\angle CAB + \\angle ACD$ must be half of that, or $\\boxed{110^\\circ}.$"
+    }
+]

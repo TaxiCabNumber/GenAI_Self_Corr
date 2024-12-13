@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nRobin bought a four-scoop ice cream cone having a scoop each of vanilla, chocolate, strawberry and cherry. In how many orders can the four scoops be stacked on the cone if they are stacked one on top of the other and chocolate cannot be on the bottom?",
+        "inference": "There are 3 choices for the first scoop. (vanilla, strawberry, cherry)\nFor the second scoop, there are 2 choices left that are not the first scoop. (vanilla, strawberry, cherry)\nFor the third scoop, there are 2 choices left that are not the first two scoops. (vanilla, strawberry, cherry)\nFor the fourth scoop, there is only 1 choice left since we know that the chocolate cannot be the first scoop. (chocolate)\nSo, the number of orders is 3 * 2 * 2 * 1 = 12\nFinal Answer: \\boxed{12}. I hope it is correct.",
+        "ground_truth": "There are 3 choices for the bottom scoop. Then there are only 3 choices for the scoop above that (since one flavor has already been used), then 2 choices for the next scoop, and 1 choice for the final scoop.  This gives a total of $3\\cdot 3\\cdot 2\\cdot 1 = \\boxed{18}$ possible cones."
+    },
+    {
+        "question": "There are 3 choices for the first scoop. (vanilla, strawberry, cherry)\nFor the second scoop, there are 2 choices left that are not the first scoop. (vanilla, strawberry, cherry)\nFor the third scoop, there are 2 choices left that are not the first two scoops. (vanilla, strawberry, cherry)\nFor the fourth scoop, there is only 1 choice left since we know that the chocolate cannot be the first scoop. (chocolate)\nSo, the number of orders is 3 * 2 * 2 * 1 = 12\nFinal Answer: \\boxed{12}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{24}",
+        "ground_truth": "There are 3 choices for the bottom scoop. Then there are only 3 choices for the scoop above that (since one flavor has already been used), then 2 choices for the next scoop, and 1 choice for the final scoop.  This gives a total of $3\\cdot 3\\cdot 2\\cdot 1 = \\boxed{18}$ possible cones."
+    }
+]

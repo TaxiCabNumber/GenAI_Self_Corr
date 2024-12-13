@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe height of a right cylinder is 2.5 times its radius. If the surface area of the cylinder is $112\\pi\\text{ cm}^2$, what is the radius of the cylinder in centimeters?",
+        "inference": "Let $r$ be the radius of the cylinder and $h$ be the height.  We are given that $h = 2.5r$.  The surface area of the cylinder is $2\\pi rh + 2\\pi r^2 = 112\\pi$.  Substituting $h = 2.5r$, we get $2\\pi r(2.5r) + 2\\pi r^2 = 112\\pi$.  Simplifying, we get $7\\pi r^2 = 112\\pi$, so $r^2 = 16$.  Therefore, $r = 4$.\n\nFinal Answer: $\\boxed{4}$. I hope it is correct. \n",
+        "ground_truth": "The surface area of a cylinder with radius $r$ and height $h$ is $2\\pi r^2+2\\pi rh$.  Setting this expression equal to $112\\pi$ and substituting $h=2.5r$ gives  \\begin{align*}\n2\\pi r(r+2.5r) &= 112\\pi \\\\\n7\\pi r^2 &= 112\\pi \\\\\nr^2 &= 16 \\\\\nr&=\\boxed{4} \\text{ cm}.\n\\end{align*}"
+    },
+    {
+        "question": "Let $r$ be the radius of the cylinder and $h$ be the height.  We are given that $h = 2.5r$.  The surface area of the cylinder is $2\\pi rh + 2\\pi r^2 = 112\\pi$.  Substituting $h = 2.5r$, we get $2\\pi r(2.5r) + 2\\pi r^2 = 112\\pi$.  Simplifying, we get $7\\pi r^2 = 112\\pi$, so $r^2 = 16$.  Therefore, $r = 4$.\n\nFinal Answer: $\\boxed{4}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct.  \n\nFinal Answer: $\\boxed{4}$. I hope it is correct. \n",
+        "ground_truth": "The surface area of a cylinder with radius $r$ and height $h$ is $2\\pi r^2+2\\pi rh$.  Setting this expression equal to $112\\pi$ and substituting $h=2.5r$ gives  \\begin{align*}\n2\\pi r(r+2.5r) &= 112\\pi \\\\\n7\\pi r^2 &= 112\\pi \\\\\nr^2 &= 16 \\\\\nr&=\\boxed{4} \\text{ cm}.\n\\end{align*}"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn buys a gaming PC for $1200.  He decides to replace the video card in it. He sells the old card for $300 and buys a new one for $500.  How much money did he spend on his computer, counting the savings from selling the old card?",
+        "inference": "He spent 1200$ to buy the computer.\nHe sold the old video card for 300$.\nHe bought a new card for 500$.\nHe spent 1200$-300$+500$ on the computer, counting the savings from selling the old card.\n\nI hope it is correct: 1400$",
+        "ground_truth": "He spent an extra 500-300=$<<500-300=200>>200 on the video card\nThat means the total cost was 1200+200=$<<1200+200=1400>>1400\n#### 1400"
+    },
+    {
+        "question": "He spent 1200$ to buy the computer.\nHe sold the old video card for 300$.\nHe bought a new card for 500$.\nHe spent 1200$-300$+500$ on the computer, counting the savings from selling the old card.\n\nI hope it is correct: 1400$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$1400",
+        "ground_truth": "He spent an extra 500-300=$<<500-300=200>>200 on the video card\nThat means the total cost was 1200+200=$<<1200+200=1400>>1400\n#### 1400"
+    }
+]

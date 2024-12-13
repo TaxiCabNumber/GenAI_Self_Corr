@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 50 books in a small library. Half of them are written in English, and 10% in German. All others are written in Spanish. How many Spanish books are there?",
+        "inference": "**1.** Half of 50 is 25, so there are 25 English books.\n**2.** 10% of 50 is 5, so there are 5 German books.\n**3.** 25 + 5 = 30, so there are 30 English and German books.\n**4.** 50 - 30 = 20, so there are 20 Spanish books.\n\nI hope it is correct: 20",
+        "ground_truth": "Half of the books are in English, which means 50 * 0.5 = <<50*0.5=25>>25 books.\nGerman books make up to 10%, which means there are 10/100 * 50 = <<10/100*50=5>>5 of them.\nSo as a result there are 50 - 25 - 5 = <<50-25-5=20>>20 Spanish books in the library.\n#### 20"
+    },
+    {
+        "question": "**1.** Half of 50 is 25, so there are 25 English books.\n**2.** 10% of 50 is 5, so there are 5 German books.\n**3.** 25 + 5 = 30, so there are 30 English and German books.\n**4.** 50 - 30 = 20, so there are 20 Spanish books.\n\nI hope it is correct: 20\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ = 20",
+        "ground_truth": "Half of the books are in English, which means 50 * 0.5 = <<50*0.5=25>>25 books.\nGerman books make up to 10%, which means there are 10/100 * 50 = <<10/100*50=5>>5 of them.\nSo as a result there are 50 - 25 - 5 = <<50-25-5=20>>20 Spanish books in the library.\n#### 20"
+    }
+]

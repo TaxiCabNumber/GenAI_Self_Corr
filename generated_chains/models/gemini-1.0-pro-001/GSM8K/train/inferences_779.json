@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe flowers cost $9, the clay pot costs $20 more than the flower, and the bag of soil costs $2 less than the flower.  How much does it cost to plant the flowers?",
+        "inference": "1. The clay pot costs $20 more than the flower, so the clay pot costs $9 + $20 = $29\n2. The bag of soil costs $2 less than the flower, so the bag of soil costs $9 - $2 = $7\n3. The total cost to plant the flowers is $9 + $29 + $7 = $45\nI hope it is correct: $45",
+        "ground_truth": "The clay pot costs $20 + $9 = $<<20+9=29>>29.\nThe bag of soil costs $9 - $2 = $<<9-2=7>>7.\nThe cost to plant the flowers is $9 + $29 + $7 = $<<9+29+7=45>>45.\n#### 45"
+    },
+    {
+        "question": "1. The clay pot costs $20 more than the flower, so the clay pot costs $9 + $20 = $29\n2. The bag of soil costs $2 less than the flower, so the bag of soil costs $9 - $2 = $7\n3. The total cost to plant the flowers is $9 + $29 + $7 = $45\nI hope it is correct: $45\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $45",
+        "ground_truth": "The clay pot costs $20 + $9 = $<<20+9=29>>29.\nThe bag of soil costs $9 - $2 = $<<9-2=7>>7.\nThe cost to plant the flowers is $9 + $29 + $7 = $<<9+29+7=45>>45.\n#### 45"
+    }
+]

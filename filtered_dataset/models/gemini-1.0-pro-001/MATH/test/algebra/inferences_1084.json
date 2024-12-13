@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the least value of $b$ such that $b^2+2b-15 \\le 0$.",
+        "inference": "**Solution**:\nWe have \n$$b^2+2b-15 \\le 0$$ $$\\Rightarrow (b+5)(b-3) \\le 0$$ $$\\Rightarrow -5 \\le b \\le 3$$\n\nSince $b$ is an integer, the least value of $b$ is $\\boxed{-5}$.\n**Final Answer: $-5$. I hope it is correct.**",
+        "ground_truth": "We factor the quadratic, getting $(b+5)(b-3) \\le 0$. The expression is equal to $0$ when $b=3 \\text{ or } -5$.  When $b \\le -5$ or $b \\ge 3$, the quadratic is positive. When $-5 \\le b \\le 3$, the quadratic is non-positive. Therefore, $b=\\boxed{-5}$ is the least value of $b$ for which $b^2 +2b - 15 \\le 0$."
+    },
+    {
+        "question": "**Solution**:\nWe have \n$$b^2+2b-15 \\le 0$$ $$\\Rightarrow (b+5)(b-3) \\le 0$$ $$\\Rightarrow -5 \\le b \\le 3$$\n\nSince $b$ is an integer, the least value of $b$ is $\\boxed{-5}$.\n**Final Answer: $-5$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{-5}$$",
+        "ground_truth": "We factor the quadratic, getting $(b+5)(b-3) \\le 0$. The expression is equal to $0$ when $b=3 \\text{ or } -5$.  When $b \\le -5$ or $b \\ge 3$, the quadratic is positive. When $-5 \\le b \\le 3$, the quadratic is non-positive. Therefore, $b=\\boxed{-5}$ is the least value of $b$ for which $b^2 +2b - 15 \\le 0$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe ratio of boys to girls in a family is 5:7. The total number of children in the family is 180. If the boys are given $3900 to share, how much money does each boy receive?",
+        "inference": "1. We can use the ratio 5:7 to find the number of boys and girls in the family.\n2. Let's say the number of boys is 5x and the number of girls is 7x.\n3. We know that the total number of children is 180, so 5x + 7x = 180.\n4. Solving for x, we get x = 12.\n5. So, the number of boys is 5x = 5 * 12 = 60, and the number of girls is 7x = 7 * 12 = 84.\n6. Each boy receives $3900/60 = $65.\nI hope it is correct: $65$",
+        "ground_truth": "The total ratio representing the number of children in the family is 5+7 = <<5+7=12>>12\nFrom the total ratio of children in the family, 5/12 represent the number of boys, meaning that the number of boys in the family is 5/12*180 = <<5/12*180=75>>75\nIf the boys are given $3900 to share, each boy receives $3900/75 = $<<3900/75=52>>52\n#### 52"
+    },
+    {
+        "question": "1. We can use the ratio 5:7 to find the number of boys and girls in the family.\n2. Let's say the number of boys is 5x and the number of girls is 7x.\n3. We know that the total number of children is 180, so 5x + 7x = 180.\n4. Solving for x, we get x = 12.\n5. So, the number of boys is 5x = 5 * 12 = 60, and the number of girls is 7x = 7 * 12 = 84.\n6. Each boy receives $3900/60 = $65.\nI hope it is correct: $65$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$65",
+        "ground_truth": "The total ratio representing the number of children in the family is 5+7 = <<5+7=12>>12\nFrom the total ratio of children in the family, 5/12 represent the number of boys, meaning that the number of boys in the family is 5/12*180 = <<5/12*180=75>>75\nIf the boys are given $3900 to share, each boy receives $3900/75 = $<<3900/75=52>>52\n#### 52"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nObserve that $45x^2 + 119x + 58$ can be factored as $(45x + 29)(x + 2).$  How does $45x^2 + 118x + 56$ factor?",
+        "inference": "Since $45x^2 + 119x + 58$ factors as $(45x + 29)(x + 2)$, we know that $45x^2 + 118x + 56$ is either $(45x + 28)(x + 2)$ or $(45x + 29)(x + 1).$  But since $45x^2 + 118x + 56$ has no integer factors other than $\\pm1$, we must have $(45x + 28)(x + 2)$.\n\nFinal Answer: $\\boxed{(45x + 28)(x+2)}.$ I hope it is correct.",
+        "ground_truth": "We can write\n\\begin{align*}\n45x^2 + 118x + 56 &= (45x^2 + 119x + 58) - (x + 2) \\\\\n&= (45x + 29)(x + 2) - (x + 2) \\\\\n&= \\boxed{(45x + 28)(x + 2)}.\n\\end{align*}"
+    },
+    {
+        "question": "Since $45x^2 + 119x + 58$ factors as $(45x + 29)(x + 2)$, we know that $45x^2 + 118x + 56$ is either $(45x + 28)(x + 2)$ or $(45x + 29)(x + 1).$  But since $45x^2 + 118x + 56$ has no integer factors other than $\\pm1$, we must have $(45x + 28)(x + 2)$.\n\nFinal Answer: $\\boxed{(45x + 28)(x+2)}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$(45x + 29)(x + 2)$}",
+        "ground_truth": "We can write\n\\begin{align*}\n45x^2 + 118x + 56 &= (45x^2 + 119x + 58) - (x + 2) \\\\\n&= (45x + 29)(x + 2) - (x + 2) \\\\\n&= \\boxed{(45x + 28)(x + 2)}.\n\\end{align*}"
+    }
+]

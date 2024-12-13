@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA builder works for 4 weeks every month and for 6 days every week. If he gets paid $50 every day, how much does he earn if he works for a year?",
+        "inference": "The builder works for 4 weeks every month, so he works for 4 * 12 = 48 weeks in a year.\nHe works for 6 days every week, so he works for 6 * 48 = 288 days in a year.\nHe gets paid $50 every day, so he earns 50 * 288 = $14,400 in a year.\nI hope it is correct: $14,400$",
+        "ground_truth": "The builder works for 6 days every week and works for 4 weeks every month so he works for 6 days/week * 4 weeks/month = <<6*4=24>>24 days/month\nIf he earns $50 every day he then earns $50/day * 24 days/month = $<<50*24=1200>>1200/month\nA year is equal to 12 months so every year he earns $1200/month * 12 months/year = $<<1200*12=14400>>14400\n#### 14400"
+    },
+    {
+        "question": "The builder works for 4 weeks every month, so he works for 4 * 12 = 48 weeks in a year.\nHe works for 6 days every week, so he works for 6 * 48 = 288 days in a year.\nHe gets paid $50 every day, so he earns 50 * 288 = $14,400 in a year.\nI hope it is correct: $14,400$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 14400",
+        "ground_truth": "The builder works for 6 days every week and works for 4 weeks every month so he works for 6 days/week * 4 weeks/month = <<6*4=24>>24 days/month\nIf he earns $50 every day he then earns $50/day * 24 days/month = $<<50*24=1200>>1200/month\nA year is equal to 12 months so every year he earns $1200/month * 12 months/year = $<<1200*12=14400>>14400\n#### 14400"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA rhombus has sides of length 51 units each and a shorter diagonal of length 48 units. What is the length, in units, of the longer diagonal?",
+        "inference": "Let $d$ be the length of the longer diagonal.\nArea of rhombus = $\\frac{1}{2}$(product of diagonals)\nArea using diagonals = $\\frac{1}{2}(48)(d) = 24d$\nArea using sides = $(4)(51)^2 = 10404$\nEquating the two areas:\n$$24d = 10404$$\nDividing both sides by 24:\n$$d = \\frac{10404}{24}$$\n$$d = 433.5$$\nFinal Answer: $\\boxed{433.5}$. I hope it is correct.",
+        "ground_truth": "The diagonals of a rhombus divide the rhombus into four congruent right triangles.  The legs of these right triangles are half as long as the diagonals of the rhombus.  Therefore, the sum of the squares of the half-diagonals of a rhombus is equal to the square of the side length.  Since one of the half-diagonals is $24$, the other half-diagonal is $\\sqrt{51^2-24^2}=3\\sqrt{17^2-8^2}=3\\cdot15=45$.  Therefore, the length of the missing diagonal is $45\\cdot 2=\\boxed{90}$ units."
+    },
+    {
+        "question": "Let $d$ be the length of the longer diagonal.\nArea of rhombus = $\\frac{1}{2}$(product of diagonals)\nArea using diagonals = $\\frac{1}{2}(48)(d) = 24d$\nArea using sides = $(4)(51)^2 = 10404$\nEquating the two areas:\n$$24d = 10404$$\nDividing both sides by 24:\n$$d = \\frac{10404}{24}$$\n$$d = 433.5$$\nFinal Answer: $\\boxed{433.5}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{433.5}$$",
+        "ground_truth": "The diagonals of a rhombus divide the rhombus into four congruent right triangles.  The legs of these right triangles are half as long as the diagonals of the rhombus.  Therefore, the sum of the squares of the half-diagonals of a rhombus is equal to the square of the side length.  Since one of the half-diagonals is $24$, the other half-diagonal is $\\sqrt{51^2-24^2}=3\\sqrt{17^2-8^2}=3\\cdot15=45$.  Therefore, the length of the missing diagonal is $45\\cdot 2=\\boxed{90}$ units."
+    }
+]

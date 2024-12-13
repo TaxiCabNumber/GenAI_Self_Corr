@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nMarina solved the quadratic equation $9x^2-18x-720=0$ by completing the square. In the process, she came up with the equivalent equation $$(x+r)^2 = s,$$where $r$ and $s$ are constants.\n\nWhat is $s$?",
+        "inference": "We complete the square to get \n\n$$9x^2-18x-720=0$$\n\n$$9(x^2-2x+1)-9-720=0$$\n\n$$9(x-1)^2-729=0$$\n\n$$(x-1)^2=81$$\n\n$$x-1=\\pm9$$\n\n$$x=10, -8$$\n\nSolution\n\n$$(x+r)^2=s$$\n\n$$(-8+r)^2=s$$\n\n$$(-8)^2+2(-8)r+r^2=s$$\n\n$$64-16r+r^2=s$$\n\n$$s=\\boxed{64}.$$\n\nFinal Answer: $$\\boxed{64}.$$ I hope it is correct.",
+        "ground_truth": "Dividing both sides of the equation $9x^2-18x-720=0$ by $9$, we have $$x^2-2x-80 = 0.$$The square which agrees with $x^2-2x-80$ except for the constant term is $(x-1)^2$, which is equal to $x^2-2x+1$ and thus to $(x^2-2x-80)+81$.\n\nTherefore, by adding $81$ to each side, Marina rewrote the equation $x^2-2x-80 = 0$ as $$(x-1)^2 = 81.$$We have $r=-1$ and $s=\\boxed{81}$."
+    },
+    {
+        "question": "We complete the square to get \n\n$$9x^2-18x-720=0$$\n\n$$9(x^2-2x+1)-9-720=0$$\n\n$$9(x-1)^2-729=0$$\n\n$$(x-1)^2=81$$\n\n$$x-1=\\pm9$$\n\n$$x=10, -8$$\n\nSolution\n\n$$(x+r)^2=s$$\n\n$$(-8+r)^2=s$$\n\n$$(-8)^2+2(-8)r+r^2=s$$\n\n$$64-16r+r^2=s$$\n\n$$s=\\boxed{64}.$$\n\nFinal Answer: $$\\boxed{64}.$$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{64}$$",
+        "ground_truth": "Dividing both sides of the equation $9x^2-18x-720=0$ by $9$, we have $$x^2-2x-80 = 0.$$The square which agrees with $x^2-2x-80$ except for the constant term is $(x-1)^2$, which is equal to $x^2-2x+1$ and thus to $(x^2-2x-80)+81$.\n\nTherefore, by adding $81$ to each side, Marina rewrote the equation $x^2-2x-80 = 0$ as $$(x-1)^2 = 81.$$We have $r=-1$ and $s=\\boxed{81}$."
+    }
+]

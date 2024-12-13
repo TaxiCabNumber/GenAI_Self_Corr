@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMario needs to buy snowshoes for his 6 sled dogs.  Assuming his dogs each has four legs and each pair of snowshoes costs $12.00, how much will it cost him to buy snowshoes for all of his dogs?",
+        "inference": "1) 6 dogs x 4 legs = 24 legs\n2) 24 legs / 2 = 12 pairs of snowshoes\n3) 12 pairs of snowshoes x $12.00 = $144.00\n\nI hope it is correct: $144.00$",
+        "ground_truth": "Dogs have 4 legs and a pair is 2 legs so each dog has 4/2 = <<4/2=2>>2 pair of legs\nThere are 6 dogs and they each have 2 pair of legs so they have 6*2 = <<6*2=12>>12 pair of legs\nThe snowshoes cost $12 per pair and he needs to buy 12 pairs so he will spend 12*12 = $<<12*12=144>>144 on snowshoes\n#### 144"
+    },
+    {
+        "question": "1) 6 dogs x 4 legs = 24 legs\n2) 24 legs / 2 = 12 pairs of snowshoes\n3) 12 pairs of snowshoes x $12.00 = $144.00\n\nI hope it is correct: $144.00$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $144.00$",
+        "ground_truth": "Dogs have 4 legs and a pair is 2 legs so each dog has 4/2 = <<4/2=2>>2 pair of legs\nThere are 6 dogs and they each have 2 pair of legs so they have 6*2 = <<6*2=12>>12 pair of legs\nThe snowshoes cost $12 per pair and he needs to buy 12 pairs so he will spend 12*12 = $<<12*12=144>>144 on snowshoes\n#### 144"
+    }
+]

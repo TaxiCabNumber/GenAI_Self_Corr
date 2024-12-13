@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe midpoint of the line segment between $(x,y)$ and $(2,4)$ is $(-7,0)$. Find $(x,y)$.",
+        "inference": "The midpoint of a line segment with endpoints $(x_1, y_1)$ and $(x_2, y_2)$ is $(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2})$.\n\nSince the midpoint of the line segment is $(-7,0)$, we have\n\n$$\\left(\\frac{x+2}{2}, \\frac{y+4}{2}\\right)=(-7,0).$$\n\nThis gives us two equations:\n\n$$\\frac{x+2}{2}=-7\\Rightarrow x+2=-14\\Rightarrow x=\\boxed{-16}$$\n\n$$\\frac{y+4}{2}=0\\Rightarrow y+4=0\\Rightarrow y=\\boxed{-4}$$\n\nFinal Answer: $\\boxed{(-16,-4)}$. I hope it is correct.",
+        "ground_truth": "Applying the midpoint formula gives  $$\\left(\\frac{2+x}{2},\\frac{4+y}{2}\\right)=(-7,0).$$Solving $\\frac{2+x}{2}=-7$ for $x$ and $\\frac{4+y}{2} = 0$ for $y$ we find $(x,y)$ to be $\\boxed{(-16,-4)}$."
+    },
+    {
+        "question": "The midpoint of a line segment with endpoints $(x_1, y_1)$ and $(x_2, y_2)$ is $(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2})$.\n\nSince the midpoint of the line segment is $(-7,0)$, we have\n\n$$\\left(\\frac{x+2}{2}, \\frac{y+4}{2}\\right)=(-7,0).$$\n\nThis gives us two equations:\n\n$$\\frac{x+2}{2}=-7\\Rightarrow x+2=-14\\Rightarrow x=\\boxed{-16}$$\n\n$$\\frac{y+4}{2}=0\\Rightarrow y+4=0\\Rightarrow y=\\boxed{-4}$$\n\nFinal Answer: $\\boxed{(-16,-4)}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{(-16,-4)}",
+        "ground_truth": "Applying the midpoint formula gives  $$\\left(\\frac{2+x}{2},\\frac{4+y}{2}\\right)=(-7,0).$$Solving $\\frac{2+x}{2}=-7$ for $x$ and $\\frac{4+y}{2} = 0$ for $y$ we find $(x,y)$ to be $\\boxed{(-16,-4)}$."
+    }
+]

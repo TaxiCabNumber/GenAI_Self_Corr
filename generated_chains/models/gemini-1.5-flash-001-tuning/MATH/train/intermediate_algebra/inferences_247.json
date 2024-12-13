@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $f(x) = ax^6 + bx^4 - cx^2 + 3.$  If $f(91) = 1$, find $f(91) + f(-91)$.",
+        "inference": "Solution:  We have that  \\[f(-x) = a(-x)^6 + b(-x)^4 - c(-x)^2 + 3 = ax^6 + bx^4 - cx^2 + 3 = f(x).\\]Hence, $f(-91) = f(91) = 1,$ so $f(91) + f(-91) = \\boxed{2}$.",
+        "ground_truth": "Since only the even exponents have non-zero coefficients, $f$ is an even function, and we know that $f(-x) = f(x)$. Hence $f(-91) = f(91) = 1$ and $f(91) + f(-91) = 1+1 = \\boxed{2}.$"
+    },
+    {
+        "question": "Solution:  We have that  \\[f(-x) = a(-x)^6 + b(-x)^4 - c(-x)^2 + 3 = ax^6 + bx^4 - cx^2 + 3 = f(x).\\]Hence, $f(-91) = f(91) = 1,$ so $f(91) + f(-91) = \\boxed{2}$.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct. \n\n**The final answer is:**  \\\\boxed{2} \n",
+        "ground_truth": "Since only the even exponents have non-zero coefficients, $f$ is an even function, and we know that $f(-x) = f(x)$. Hence $f(-91) = f(91) = 1$ and $f(91) + f(-91) = 1+1 = \\boxed{2}.$"
+    }
+]

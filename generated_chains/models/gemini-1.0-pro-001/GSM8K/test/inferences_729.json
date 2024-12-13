@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAt 8:00, 5000 people lined up at a polling station to cast their vote on election day. By midday 2/5 of the people had voted and by 16:00 2/3 of the remaining people had voted. What's the number of those who had not voted by 16:00?",
+        "inference": "- At midday, 2/5 of the 5000 people had voted, so 5000 x 2/5 = 2000 people had voted.\n\n- At 16:00, 2/3 of the remaining people had voted, so 2/3 x (5000 - 2000) = 2/3 x 3000 = 2000 people had voted.\n\n- Therefore, the number of people who had not voted by 16:00 is 5000 - (2000 + 2000) = 1000.\n\nI hope it is correct: 1000",
+        "ground_truth": "If the number of people who turned up to vote was 5000, by midday 2/5*5000 = <<2/5*5000=2000>>2000 had voted.\nThe number of voters who had not cast their vote is 5000-2000 = <<5000-2000=3000>>3000\nBy 16:00, the additional number of voters who had cast their vote is 2/3*3000 = <<2/3*3000=2000>>2000\nThe number of people who had not cast their votes by 16:00 is 3000-2000 = <<3000-2000=1000>>1000 voters.\n#### 1000"
+    },
+    {
+        "question": "- At midday, 2/5 of the 5000 people had voted, so 5000 x 2/5 = 2000 people had voted.\n\n- At 16:00, 2/3 of the remaining people had voted, so 2/3 x (5000 - 2000) = 2/3 x 3000 = 2000 people had voted.\n\n- Therefore, the number of people who had not voted by 16:00 is 5000 - (2000 + 2000) = 1000.\n\nI hope it is correct: 1000\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 1000",
+        "ground_truth": "If the number of people who turned up to vote was 5000, by midday 2/5*5000 = <<2/5*5000=2000>>2000 had voted.\nThe number of voters who had not cast their vote is 5000-2000 = <<5000-2000=3000>>3000\nBy 16:00, the additional number of voters who had cast their vote is 2/3*3000 = <<2/3*3000=2000>>2000\nThe number of people who had not cast their votes by 16:00 is 3000-2000 = <<3000-2000=1000>>1000 voters.\n#### 1000"
+    }
+]

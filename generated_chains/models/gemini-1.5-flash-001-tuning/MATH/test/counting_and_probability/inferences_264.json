@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA cook has 10 red peppers and 5 green peppers. If the cook selects 6 peppers at random, what is the probability that he selects at least 4 green peppers? Express your answer as a common fraction.",
+        "inference": "Final Answer: $\\boxed{\\frac{1}{143}}$. I hope it is correct.",
+        "ground_truth": "We can count the number of ways to choose a group of 4 green and 2 red peppers and the number of ways to choose 5 green and 1 red peppers. These are $\\binom{5}{4}\\binom{10}{2}=5\\cdot45=225$ and $\\binom{5}{5}\\binom{10}{1}=10$. The total number of ways the cook can choose peppers is $\\binom{15}{6}=5005$. Therefore, the probability that out of six randomly chosen peppers at least four will be green is $\\frac{235}{5005}=\\boxed{\\frac{47}{1001}}$."
+    },
+    {
+        "question": "Final Answer: $\\boxed{\\frac{1}{143}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the question and solution so I can review it and provide the correct final answer. \n",
+        "ground_truth": "We can count the number of ways to choose a group of 4 green and 2 red peppers and the number of ways to choose 5 green and 1 red peppers. These are $\\binom{5}{4}\\binom{10}{2}=5\\cdot45=225$ and $\\binom{5}{5}\\binom{10}{1}=10$. The total number of ways the cook can choose peppers is $\\binom{15}{6}=5005$. Therefore, the probability that out of six randomly chosen peppers at least four will be green is $\\frac{235}{5005}=\\boxed{\\frac{47}{1001}}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA triangle has side lengths of 8, 15 and 17 units. What is the area of the triangle, in square units?",
+        "inference": "1. First, find the semiperimeter of the triangle: s = (8 + 15 + 17) / 2 = 20.\n2. Then, use Heron's formula to find the area of the triangle: Area = sqrt(s(s-a)(s-b)(s-c)), where a, b, and c are the side lengths of the triangle.\n3. Substituting the values of s, a, b, and c into Heron's formula, we get: Area = sqrt(20(20-8)(20-15)(20-17)) = 60.\nFinal Answer: \\boxed{60}. I hope it is correct.",
+        "ground_truth": "We see that $8^2+15^2=64+225=289=17^2$.  So the triangle is a right triangle with legs $8$ and $15$, and thus its area is\n\n$$\\frac{8(15)}{2}=\\boxed{60}$$"
+    },
+    {
+        "question": "1. First, find the semiperimeter of the triangle: s = (8 + 15 + 17) / 2 = 20.\n2. Then, use Heron's formula to find the area of the triangle: Area = sqrt(s(s-a)(s-b)(s-c)), where a, b, and c are the side lengths of the triangle.\n3. Substituting the values of s, a, b, and c into Heron's formula, we get: Area = sqrt(20(20-8)(20-15)(20-17)) = 60.\nFinal Answer: \\boxed{60}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{60}",
+        "ground_truth": "We see that $8^2+15^2=64+225=289=17^2$.  So the triangle is a right triangle with legs $8$ and $15$, and thus its area is\n\n$$\\frac{8(15)}{2}=\\boxed{60}$$"
+    }
+]

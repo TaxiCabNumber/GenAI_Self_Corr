@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe product of two consecutive negative integers is 2550. What is the sum of the two integers?",
+        "inference": "Let x be the first negative integer. Then the second negative integer is x + 1.\nThe product of two consecutive negative integers is 2550.\nSo,\n\n$$x(x+1) = 2550$$\n\n$$x^2 + x - 2550 = 0$$\n\n$$(x+51)(x-50) = 0$$\n\n$$x = -51, 50$$\n\nThe sum of the two integers is:\n\n$$x + (x + 1) = -51 + (-50) = -101$$\n\nFinal Answer: $\\boxed{-101}$. I hope it is correct.",
+        "ground_truth": "We start out with the equation $n(n + 1) = 2550$. Expanding, we find $n^2 + n - 2550 = 0$. This factors to $(n - 50)(n + 51) = 0$, so $n = 50\\text{ or }-51.$ Since $n$ must be negative, we have $n = -51$, hence our two integers are $n = -51$ and $n + 1= -50$, which add up to $\\boxed{-101}$."
+    },
+    {
+        "question": "Let x be the first negative integer. Then the second negative integer is x + 1.\nThe product of two consecutive negative integers is 2550.\nSo,\n\n$$x(x+1) = 2550$$\n\n$$x^2 + x - 2550 = 0$$\n\n$$(x+51)(x-50) = 0$$\n\n$$x = -51, 50$$\n\nThe sum of the two integers is:\n\n$$x + (x + 1) = -51 + (-50) = -101$$\n\nFinal Answer: $\\boxed{-101}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{1}",
+        "ground_truth": "We start out with the equation $n(n + 1) = 2550$. Expanding, we find $n^2 + n - 2550 = 0$. This factors to $(n - 50)(n + 51) = 0$, so $n = 50\\text{ or }-51.$ Since $n$ must be negative, we have $n = -51$, hence our two integers are $n = -51$ and $n + 1= -50$, which add up to $\\boxed{-101}$."
+    }
+]

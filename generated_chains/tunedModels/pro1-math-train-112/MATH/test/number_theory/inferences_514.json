@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nEvaluate $1234_5+2341_5$. Express your answer in base 5.",
+        "inference": "$$1234_5+2341_5$$\n$$=(1\\times5^3)+(2\\times5^2)+(3\\times5^1)+(4\\times5^0)+(2\\times5^3)+(3\\times5^2)+(4\\times5^1)+(1\\times5^0)$$\n$$=(1\\times125)+(2\\times25)+(3\\times5)+(4\\times1)+(2\\times125)+(3\\times25)+(4\\times5)+(1\\times1)$$\n$$=125+50+15+4+250+75+20+1$$\n$$=540$$\n$$=540_5$$\nFinal Answer: \\boxed{$540_5$}. I hope it is correct.",
+        "ground_truth": "We have\n\n$\\begin{array}{@{}c@{\\;}c@{}c@{}c@{}c@{}c}& & 1 & 2 & 3 & 4_{5}\\\\ +& & 2& 3 & 4 & 1_{5}\\\\ \\cline{1-6}&& 4 & 1 & 3 & 0 _{5}\\\\ \\end{array}$\n\nSo, the final answer is $\\boxed{4130_5}$."
+    },
+    {
+        "question": "$$1234_5+2341_5$$\n$$=(1\\times5^3)+(2\\times5^2)+(3\\times5^1)+(4\\times5^0)+(2\\times5^3)+(3\\times5^2)+(4\\times5^1)+(1\\times5^0)$$\n$$=(1\\times125)+(2\\times25)+(3\\times5)+(4\\times1)+(2\\times125)+(3\\times25)+(4\\times5)+(1\\times1)$$\n$$=125+50+15+4+250+75+20+1$$\n$$=540$$\n$$=540_5$$\nFinal Answer: \\boxed{$540_5$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$540_5$}",
+        "ground_truth": "We have\n\n$\\begin{array}{@{}c@{\\;}c@{}c@{}c@{}c@{}c}& & 1 & 2 & 3 & 4_{5}\\\\ +& & 2& 3 & 4 & 1_{5}\\\\ \\cline{1-6}&& 4 & 1 & 3 & 0 _{5}\\\\ \\end{array}$\n\nSo, the final answer is $\\boxed{4130_5}$."
+    }
+]

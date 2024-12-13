@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nQuadrilateral $ABCD$ is a parallelogram.  What is the degree measure of angle $A$? [asy]\nsize(100);\ndraw((0,0)--(5,2)--(6,7)--(1,5)--cycle);\ndraw((5,2)--(7.5,3));\ndraw(Arc((5,2),1,20,80));\nlabel(\"$D$\",(0,0),SW); label(\"$C$\",(5,2),SE); label(\"$B$\",(6,7),NE); label(\"$A$\",(1,5),NW);\n\nlabel(\"$60^\\circ$\",(6.3,2.8), N);\n[/asy]",
+        "inference": "Since $ABCD$ is a parallelogram, angle $A$ is supplementary to the $60^\\circ$ angle. Therefore, angle $A$ measures $180^\\circ - 60^\\circ = \\boxed{120^\\circ}$.\nFinal Answer: $\\boxed{120^\\circ}$. I hope it is correct.",
+        "ground_truth": "All angle measures will be in degrees. $\\angle DCB = 180 - 60 = 120$, and since opposite angles in a parallelogram are equal, we have $\\angle A = \\angle DCB = 120$.  Hence the degree measure of $\\angle A$ is $\\boxed{120}$."
+    },
+    {
+        "question": "Since $ABCD$ is a parallelogram, angle $A$ is supplementary to the $60^\\circ$ angle. Therefore, angle $A$ measures $180^\\circ - 60^\\circ = \\boxed{120^\\circ}$.\nFinal Answer: $\\boxed{120^\\circ}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{120^\\circ}",
+        "ground_truth": "All angle measures will be in degrees. $\\angle DCB = 180 - 60 = 120$, and since opposite angles in a parallelogram are equal, we have $\\angle A = \\angle DCB = 120$.  Hence the degree measure of $\\angle A$ is $\\boxed{120}$."
+    }
+]

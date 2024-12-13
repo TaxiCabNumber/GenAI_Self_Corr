@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind constants $A,$ $B,$ and $C$ so that\n\\[\\frac{4x}{(x - 5)(x - 3)^2} = \\frac{A}{x - 5} + \\frac{B}{x - 3} + \\frac{C}{(x - 3)^2}.\\]Enter the ordered triple $(A,B,C).$",
+        "inference": "Multiplying both sides by $(x - 5)(x - 3)^2,$ we get\n\\[4x = A(x - 3)^2 + B(x - 5)(x - 3) + C(x - 5).\\]Setting $x = 5,$ we get $20 = 4A,$ so $A = 5.$  Setting $x = 3,$ we get $12 = -2C,$ so $C = -6.$  Setting $x = 0,$ we get $0 = 9A - 15B - 5C = 45 - 15B + 30,$ so $B = 5.$  Thus, $(A,B,C) = \\boxed{(5,5,-6)}.$",
+        "ground_truth": "Multiplying both sides by $(x - 5)(x - 3)^2,$ we get\n\\[4x = A (x - 3)^2 + B(x - 5)(x - 3) + C (x - 5).\\]Setting $x = 5,$ we get $4A = 20,$ so $A = 5.$\n\nSetting $x = 3,$ we get $-2C = 12,$ so $C = -6.$  Hence,\n\\[4x = 5(x - 3)^2 + B(x - 5)(x - 3) - 6(x - 5).\\]Then\n\\[B(x - 5)(x - 3) = -5x^2 + 40x - 75 = -5(x - 3)(x - 5),\\]so $B = -5.$  Therefore, $(A,B,C) = \\boxed{(5,-5,-6)}.$"
+    },
+    {
+        "question": "Multiplying both sides by $(x - 5)(x - 3)^2,$ we get\n\\[4x = A(x - 3)^2 + B(x - 5)(x - 3) + C(x - 5).\\]Setting $x = 5,$ we get $20 = 4A,$ so $A = 5.$  Setting $x = 3,$ we get $12 = -2C,$ so $C = -6.$  Setting $x = 0,$ we get $0 = 9A - 15B - 5C = 45 - 15B + 30,$ so $B = 5.$  Thus, $(A,B,C) = \\boxed{(5,5,-6)}.$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The error in the solution is that it doesn't specify what the equation is that we're trying to decompose into partial fractions.  We need to know the original equation to solve for $A$, $B$, and $C$. \n\nPlease provide the original equation so I can give you the correct solution! \n",
+        "ground_truth": "Multiplying both sides by $(x - 5)(x - 3)^2,$ we get\n\\[4x = A (x - 3)^2 + B(x - 5)(x - 3) + C (x - 5).\\]Setting $x = 5,$ we get $4A = 20,$ so $A = 5.$\n\nSetting $x = 3,$ we get $-2C = 12,$ so $C = -6.$  Hence,\n\\[4x = 5(x - 3)^2 + B(x - 5)(x - 3) - 6(x - 5).\\]Then\n\\[B(x - 5)(x - 3) = -5x^2 + 40x - 75 = -5(x - 3)(x - 5),\\]so $B = -5.$  Therefore, $(A,B,C) = \\boxed{(5,-5,-6)}.$"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $\\sin x,$ $\\cos x,$ $\\tan x$ form a geometric sequence, in this order, then find $\\cot^6 x - \\cot^2 x.$",
+        "inference": "Final Answer: \\\\boxed{3}. I hope it is correct. \n",
+        "ground_truth": "Since $\\sin x,$ $\\cos x,$ $\\tan x$ is a geometric sequence,\n\\[\\cos^2 x = \\sin x \\tan x.\\]Then\n\\[\\cot^2 x = \\frac{\\cos^2 x}{\\sin ^2 x} = \\frac{\\sin x \\tan x}{\\sin^2 x} = \\frac{1}{\\cos x},\\]so\n\\[\\cot^4 x = \\frac{1}{\\cos^2 x} = \\frac{\\sin^2 x + \\cos^2 x}{\\cos^2 x} = \\tan^2 x + 1.\\]Therefore,\n\\begin{align*}\n\\cot^6 x - \\cot^2 x &= \\cot^2 x (\\cot^4 x - 1) \\\\\n&= \\cot^2 x \\tan^2 x = \\boxed{1}.\n\\end{align*}"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{3}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the original question and the solution you have so I can analyze it and provide a corrected final answer. \n",
+        "ground_truth": "Since $\\sin x,$ $\\cos x,$ $\\tan x$ is a geometric sequence,\n\\[\\cos^2 x = \\sin x \\tan x.\\]Then\n\\[\\cot^2 x = \\frac{\\cos^2 x}{\\sin ^2 x} = \\frac{\\sin x \\tan x}{\\sin^2 x} = \\frac{1}{\\cos x},\\]so\n\\[\\cot^4 x = \\frac{1}{\\cos^2 x} = \\frac{\\sin^2 x + \\cos^2 x}{\\cos^2 x} = \\tan^2 x + 1.\\]Therefore,\n\\begin{align*}\n\\cot^6 x - \\cot^2 x &= \\cot^2 x (\\cot^4 x - 1) \\\\\n&= \\cot^2 x \\tan^2 x = \\boxed{1}.\n\\end{align*}"
+    }
+]

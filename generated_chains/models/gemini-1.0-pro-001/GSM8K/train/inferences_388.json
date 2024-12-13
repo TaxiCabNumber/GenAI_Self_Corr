@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn sublets his apartment to 3 people who each pay $400 per month.  He rents the apartment for $900 a month.  How much profit does he make in a year?",
+        "inference": "1. First, we need to find the total amount John receives in rent from the 3 subletters.  3 * $400 = $1200.  \n2. Next, we need to subtract the amount John pays in rent for the year.  12 * $900 = $10,800.  \n3. Finally, we can find the profit John makes by subtracting the rent he pays from the rent he receives.  $1200 - $10,800 = -$9600.  \nI hope it is correct: -$9600",
+        "ground_truth": "He gets 3*$400=$<<3*400=1200>>1200 per month\nSo he gets 1200*12=$<<1200*12=14400>>14,400 per year\nSo he pays 12*900=$<<12*900=10800>>10800 a year\nThat means his profit is 14400-10800=$<<14400-10800=3600>>3600 per year\n#### 3600"
+    },
+    {
+        "question": "1. First, we need to find the total amount John receives in rent from the 3 subletters.  3 * $400 = $1200.  \n2. Next, we need to subtract the amount John pays in rent for the year.  12 * $900 = $10,800.  \n3. Finally, we can find the profit John makes by subtracting the rent he pays from the rent he receives.  $1200 - $10,800 = -$9600.  \nI hope it is correct: -$9600\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### -$9600",
+        "ground_truth": "He gets 3*$400=$<<3*400=1200>>1200 per month\nSo he gets 1200*12=$<<1200*12=14400>>14,400 per year\nSo he pays 12*900=$<<12*900=10800>>10800 a year\nThat means his profit is 14400-10800=$<<14400-10800=3600>>3600 per year\n#### 3600"
+    }
+]

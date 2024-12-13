@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nTriangle $ABC$, $ADE$, and $EFG$ are all equilateral. Points $D$ and $G$ are midpoints of $\\overline{AC}$ and $\\overline{AE}$, respectively. If $AB=4$, what is the perimeter of figure $ABCDEFG$? [asy]\n/* AMC8 2000 #15 Problem */\ndraw((0,0)--(4,0)--(5,2)--(5.5,1)--(4.5,1));\ndraw((0,0)--(2,4)--(4,0));\ndraw((3,2)--(5,2));\nlabel(\"$A$\", (3.7,0), SE);\nlabel(\"$B$\", (0,0), SW);\nlabel(\"$C$\", (2,4), N);\nlabel(\"$D$\", (2.8,2), NE);\nlabel(\"$E$\", (4.8,2), NE);\nlabel(\"$F$\", (5.3,1.05), SE);\nlabel(\"$G$\", (4.3, 1.05), SE);\n[/asy]",
+        "inference": "The base of the figure is $AB+EF$, which is $4+4=8$.\n\nThe height of the figure is the altitude of triangle $ABC$, which is $\\frac{\\sqrt{3}}{2}AB=\\frac{\\sqrt{3}}{2} \\cdot 4=2\\sqrt{3}$.\n\nThe perimeter of the figure is $8+2(2\\sqrt{3})=8+4\\sqrt{3}$.\nFinal Answer: $\\boxed{8+4\\sqrt{3}}$. I hope it is correct.",
+        "ground_truth": "We have \\begin{align*}\nAB+BC+CD+DE+EF+FG+GA&=\\\\\n4+4+2+2+1+1+1&=\\boxed{15}\\\\\n\\end{align*}"
+    },
+    {
+        "question": "The base of the figure is $AB+EF$, which is $4+4=8$.\n\nThe height of the figure is the altitude of triangle $ABC$, which is $\\frac{\\sqrt{3}}{2}AB=\\frac{\\sqrt{3}}{2} \\cdot 4=2\\sqrt{3}$.\n\nThe perimeter of the figure is $8+2(2\\sqrt{3})=8+4\\sqrt{3}$.\nFinal Answer: $\\boxed{8+4\\sqrt{3}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$8+4\\sqrt{3}$}",
+        "ground_truth": "We have \\begin{align*}\nAB+BC+CD+DE+EF+FG+GA&=\\\\\n4+4+2+2+1+1+1&=\\boxed{15}\\\\\n\\end{align*}"
+    }
+]

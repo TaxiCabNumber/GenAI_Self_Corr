@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA boy has 5 cards. His brother has 3 fewer cards than he has. How many cards do they have together?",
+        "inference": "1) I need to find how many cards my brother has:\n5 - 3 = 2\n2) Then I need to add my brother's cards to mine:\n5 + 2 = 7\nI hope it is correct: 7",
+        "ground_truth": "His brother has 5 - 3 = <<5-3=2>>2 cards.\nTogether, they have 5 + 2 = <<5+2=7>>7 cards.\n#### 7"
+    },
+    {
+        "question": "1) I need to find how many cards my brother has:\n5 - 3 = 2\n2) Then I need to add my brother's cards to mine:\n5 + 2 = 7\nI hope it is correct: 7\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$7",
+        "ground_truth": "His brother has 5 - 3 = <<5-3=2>>2 cards.\nTogether, they have 5 + 2 = <<5+2=7>>7 cards.\n#### 7"
+    }
+]

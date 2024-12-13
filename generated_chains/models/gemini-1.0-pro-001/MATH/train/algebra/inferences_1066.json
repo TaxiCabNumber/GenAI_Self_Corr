@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCompute the sum of all the roots of $(2x+3)(x-4)+(2x+3)(x-6)=0$.",
+        "inference": "Solve the equation to find the roots.\n\n$$(2x+3)(x-4)+(2x+3)(x-6)=0$$\n\n$$(2x+3)(x-4+x-6)=0$$\n\n$$(2x+3)(2x-10)=0$$\n\n$$2x+3=0 \\quad \\text{or} \\quad 2x-10=0$$\n\n$$2x=-3 \\quad \\text{or} \\quad 2x=10$$\n\n$$x=-\\frac{3}{2} \\quad \\text{or} \\quad x=5$$\n\nThe sum of the roots is:\n\n$$-\\frac{3}{2}+5=\\boxed{\\frac{7}{2}}$$\n\nFinal Answer: $\\boxed{\\frac{7}{2}}$. I hope it is correct.",
+        "ground_truth": "The quadratic factors as $(2x + 3)(x - 4 + x - 6) = (2x + 3)(2x - 10) = 2(2x + 3)(x - 5).$  Thus, the roots are $-\\frac{3}{2}$ and 5, and their sum is $\\boxed{\\frac{7}{2}}.$"
+    },
+    {
+        "question": "Solve the equation to find the roots.\n\n$$(2x+3)(x-4)+(2x+3)(x-6)=0$$\n\n$$(2x+3)(x-4+x-6)=0$$\n\n$$(2x+3)(2x-10)=0$$\n\n$$2x+3=0 \\quad \\text{or} \\quad 2x-10=0$$\n\n$$2x=-3 \\quad \\text{or} \\quad 2x=10$$\n\n$$x=-\\frac{3}{2} \\quad \\text{or} \\quad x=5$$\n\nThe sum of the roots is:\n\n$$-\\frac{3}{2}+5=\\boxed{\\frac{7}{2}}$$\n\nFinal Answer: $\\boxed{\\frac{7}{2}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{\\frac{7}{2}}$$",
+        "ground_truth": "The quadratic factors as $(2x + 3)(x - 4 + x - 6) = (2x + 3)(2x - 10) = 2(2x + 3)(x - 5).$  Thus, the roots are $-\\frac{3}{2}$ and 5, and their sum is $\\boxed{\\frac{7}{2}}.$"
+    }
+]

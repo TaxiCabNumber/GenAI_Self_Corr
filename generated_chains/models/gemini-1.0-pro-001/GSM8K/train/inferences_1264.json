@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA monitor is 21 inches by 12 inches.  There are 100 dots per inch.  How many total pixels are there?",
+        "inference": "1.  Find the area of the monitor in square inches.\nArea = length * width\nArea = 21 inches * 12 inches\nArea = 252 square inches\n\n2.  Find the number of dots per square inch.\n100 dots per inch\n\n3.  Find the total number of pixels.\nTotal pixels = area of the monitor * number of dots per square inch\nTotal pixels = 252 square inches * 100 dots per square inch\nTotal pixels = 25,200 dots\nI hope it is correct: 25,200 dots",
+        "ground_truth": "The display is 21*100=<<21*100=2100>>2100 pixels across\nThe display is 12*100=<<12*100=1200>>1200 pixels tall\nThat means there is a total of 2100*1200=<<2100*1200=2520000>>2,520,000 pixels\n#### 2,520,000"
+    },
+    {
+        "question": "1.  Find the area of the monitor in square inches.\nArea = length * width\nArea = 21 inches * 12 inches\nArea = 252 square inches\n\n2.  Find the number of dots per square inch.\n100 dots per inch\n\n3.  Find the total number of pixels.\nTotal pixels = area of the monitor * number of dots per square inch\nTotal pixels = 252 square inches * 100 dots per square inch\nTotal pixels = 25,200 dots\nI hope it is correct: 25,200 dots\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$25,200",
+        "ground_truth": "The display is 21*100=<<21*100=2100>>2100 pixels across\nThe display is 12*100=<<12*100=1200>>1200 pixels tall\nThat means there is a total of 2100*1200=<<2100*1200=2520000>>2,520,000 pixels\n#### 2,520,000"
+    }
+]

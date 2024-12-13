@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nRon is part of a book club that allows each member to take a turn picking a new book every week. The club is made up of three couples and five single people along with Ron and his wife. How many times a year does Ron get to pick a new book?",
+        "inference": "Ron and his wife get two turns per year.\nThe three couples each get one turn per year, for a total of three turns.\nThe five single people each get one turn per year, for a total of five turns.\n\nSo, Ron gets to pick a new book a total of 2 + 3 + 5 = 10 times a year.\n\nI hope it is correct: $10$",
+        "ground_truth": "There are 3 couples in the club, so there are 3 * 2 = <<3*2=6>>6 people in couples in the club.\nAlong with the singles and Ron and his wife, there are 6 + 5 + 2 = <<6+5+2=13>>13 people in the book club.\nThere are 52 weeks in a year, so Ron gets to pick a new book 52 / 13 = <<52/13=4>>4 times a year.\n#### 4"
+    },
+    {
+        "question": "Ron and his wife get two turns per year.\nThe three couples each get one turn per year, for a total of three turns.\nThe five single people each get one turn per year, for a total of five turns.\n\nSo, Ron gets to pick a new book a total of 2 + 3 + 5 = 10 times a year.\n\nI hope it is correct: $10$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 10",
+        "ground_truth": "There are 3 couples in the club, so there are 3 * 2 = <<3*2=6>>6 people in couples in the club.\nAlong with the singles and Ron and his wife, there are 6 + 5 + 2 = <<6+5+2=13>>13 people in the book club.\nThere are 52 weeks in a year, so Ron gets to pick a new book 52 / 13 = <<52/13=4>>4 times a year.\n#### 4"
+    }
+]

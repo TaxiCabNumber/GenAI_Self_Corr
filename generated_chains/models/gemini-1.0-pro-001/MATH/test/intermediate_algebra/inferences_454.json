@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $e(x)$ be an even function and let $o(x)$ be an odd function, such that\n\\[e(x) + x^2 = o(x)\\]for all $x.$  Let $f(x) = e(x) + o(x).$  Find $f(2).$",
+        "inference": "Since $e(x)$ is even, $e(-x) = e(x)$ for all $x$.  Since $o(x)$ is odd, $o(-x) = -o(x)$ for all $x$.  Therefore,\n\\begin{align*}\nf(-x) &= e(-x) + o(-x)\\\\\n&= e(x) - o(x)\\\\\n&= -f(x).\n\\end{align*}\n\nThus, $f(x)$ is odd, so $f(2) = -f(-2)$.  Since $f(-x) = -f(x)$, we have $f(-2) = -f(2)$.  Therefore, $f(2) = -f(2)$, so $f(2) = 0$.\n\nFinal Answer: $\\boxed{0}.$ I hope it is correct.",
+        "ground_truth": "Setting $x = -2,$ we get\n\\[e(-2) + 4 = o(-2).\\]Since $e(x)$ is even and $o(x)$ is odd, $e(-2) = e(2)$ and $o(-2) = -o(2),$ so\n\\[e(2) + 4 = -o(2).\\]Then $f(2)  = e(2) + o(2) = \\boxed{-4}.$"
+    },
+    {
+        "question": "Since $e(x)$ is even, $e(-x) = e(x)$ for all $x$.  Since $o(x)$ is odd, $o(-x) = -o(x)$ for all $x$.  Therefore,\n\\begin{align*}\nf(-x) &= e(-x) + o(-x)\\\\\n&= e(x) - o(x)\\\\\n&= -f(x).\n\\end{align*}\n\nThus, $f(x)$ is odd, so $f(2) = -f(-2)$.  Since $f(-x) = -f(x)$, we have $f(-2) = -f(2)$.  Therefore, $f(2) = -f(2)$, so $f(2) = 0$.\n\nFinal Answer: $\\boxed{0}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{0}",
+        "ground_truth": "Setting $x = -2,$ we get\n\\[e(-2) + 4 = o(-2).\\]Since $e(x)$ is even and $o(x)$ is odd, $e(-2) = e(2)$ and $o(-2) = -o(2),$ so\n\\[e(2) + 4 = -o(2).\\]Then $f(2)  = e(2) + o(2) = \\boxed{-4}.$"
+    }
+]

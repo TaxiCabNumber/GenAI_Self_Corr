@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $\\frac{\\sin (2A + B)}{\\sin B} = 5,$ then find $\\frac{\\tan (A + B)}{\\tan A}.$",
+        "inference": "Final Answer: \\\\boxed{6}. I hope it is correct. \n",
+        "ground_truth": "From $\\frac{\\sin (2A + B)}{\\sin B} = 5,$\n\\[\\sin (2A + B) = 5 \\sin B.\\]We can write this as $\\sin (A + (A + B)) = 5 \\sin ((A + B) - A),$ so from the angle addition and subtraction formula,\n\\[\\sin A \\cos (A + B) + \\cos A \\sin (A + B) = 5 \\sin (A + B) \\cos A - 5 \\cos (A + B) \\sin A.\\]Then\n\\[6 \\sin A \\cos (A + B) = 4 \\sin (A + B) \\cos A,\\]so\n\\[\\frac{\\sin (A + B) \\cos A}{\\cos (A + B) \\sin A} = \\frac{3}{2}.\\]In other words,\n\\[\\frac{\\tan (A + B)}{\\tan A} = \\boxed{\\frac{3}{2}}.\\]"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{6}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need that information to identify any potential errors and rewrite the solution correctly. \n",
+        "ground_truth": "From $\\frac{\\sin (2A + B)}{\\sin B} = 5,$\n\\[\\sin (2A + B) = 5 \\sin B.\\]We can write this as $\\sin (A + (A + B)) = 5 \\sin ((A + B) - A),$ so from the angle addition and subtraction formula,\n\\[\\sin A \\cos (A + B) + \\cos A \\sin (A + B) = 5 \\sin (A + B) \\cos A - 5 \\cos (A + B) \\sin A.\\]Then\n\\[6 \\sin A \\cos (A + B) = 4 \\sin (A + B) \\cos A,\\]so\n\\[\\frac{\\sin (A + B) \\cos A}{\\cos (A + B) \\sin A} = \\frac{3}{2}.\\]In other words,\n\\[\\frac{\\tan (A + B)}{\\tan A} = \\boxed{\\frac{3}{2}}.\\]"
+    }
+]

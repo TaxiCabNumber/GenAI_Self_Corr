@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nFour students scored a total of 251 points in a board game. Naomi scored 68 of the points. Yuri scored 10 more than half as many points as Naomi and Brianna scored 17 points more than Naomi. How many points did Jojo score?",
+        "inference": "1. Naomi scored 68 points.\n2. Yuri scored 10 more than half as many points as Naomi, which means Yuri scored (68/2) + 10 = 44 points.\n3. Brianna scored 17 points more than Naomi, which means Brianna scored 68 + 17 = 85 points.\n4. The total number of points scored by the four students is 251, and we know that Naomi, Yuri, and Brianna scored a total of 68 + 44 + 85 = 197 points.\n5. Therefore, Jojo must have scored 251 - 197 = 54 points.\nI hope it is correct: 54",
+        "ground_truth": "Naomi scored 68 points.\nYuri scored 1/2 (68) + 10 = 44 points\nBrianna scored 68 + 17 = <<68+17=85>>85 points\nNaomi, Yuri + Brianna scored = 68 + 44 + 85 = <<68+44+85=197>>197 points\nJojo scored the rest 251 - 197 = <<251-197=54>>54 points\nJojo scored 54 points.\n#### 54"
+    },
+    {
+        "question": "1. Naomi scored 68 points.\n2. Yuri scored 10 more than half as many points as Naomi, which means Yuri scored (68/2) + 10 = 44 points.\n3. Brianna scored 17 points more than Naomi, which means Brianna scored 68 + 17 = 85 points.\n4. The total number of points scored by the four students is 251, and we know that Naomi, Yuri, and Brianna scored a total of 68 + 44 + 85 = 197 points.\n5. Therefore, Jojo must have scored 251 - 197 = 54 points.\nI hope it is correct: 54\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 54",
+        "ground_truth": "Naomi scored 68 points.\nYuri scored 1/2 (68) + 10 = 44 points\nBrianna scored 68 + 17 = <<68+17=85>>85 points\nNaomi, Yuri + Brianna scored = 68 + 44 + 85 = <<68+44+85=197>>197 points\nJojo scored the rest 251 - 197 = <<251-197=54>>54 points\nJojo scored 54 points.\n#### 54"
+    }
+]

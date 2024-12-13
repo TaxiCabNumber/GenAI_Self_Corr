@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMaisie and Donna dropped off flyers for a neighborhood clean-up day at houses around their neighborhood. Maisie walked down the shorter left street and dropped off 33 flyers. Donna took the long right street on her bicycle and dropped off five more than twice as many flyers as Maisie. How many flyers did Donna drop off?",
+        "inference": "1. Maisie dropped off 33 flyers\n2. Donna dropped off five more than twice as many flyers as Maisie, so she dropped off 2*33+5=66+5=71 flyers.\nI hope it is correct: Donna dropped off 71 flyers.",
+        "ground_truth": "Twice as many flyers as Maisie is 33 * 2 = <<33*2=66>>66 flyers.\nDonna dropped off five more than that, so she dropped off 66 + 5 = <<66+5=71>>71 flyers.\n#### 71"
+    },
+    {
+        "question": "1. Maisie dropped off 33 flyers\n2. Donna dropped off five more than twice as many flyers as Maisie, so she dropped off 2*33+5=66+5=71 flyers.\nI hope it is correct: Donna dropped off 71 flyers.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ Donna dropped off 71 flyers.",
+        "ground_truth": "Twice as many flyers as Maisie is 33 * 2 = <<33*2=66>>66 flyers.\nDonna dropped off five more than that, so she dropped off 66 + 5 = <<66+5=71>>71 flyers.\n#### 71"
+    }
+]

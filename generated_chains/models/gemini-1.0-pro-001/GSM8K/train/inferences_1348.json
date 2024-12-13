@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA single kabob stick has 4 cubes of beef. A slab of beef that costs $25 can be cut into 80 cubes. How much must Simon spend to make 40 kabob sticks?",
+        "inference": "1 kabob stick = 4 cubes of beef\n40 kabob sticks = 160 cubes of beef\n1 slab of beef = 80 cubes of beef\nSo, 2 slabs of beef are needed to make 160 cubes of beef\nCost of 1 slab of beef = $25\nSo, cost of 2 slabs of beef = $50\nI hope it is correct: $50",
+        "ground_truth": "One slab of beef can make 80/4 = <<80/4=20>>20 kabob sticks.\nTo make 40 kabob sticks, Simon needs 40/20 = <<40/20=2>>2 slabs of beef.\nSimon must spend $25 x 2 = $<<25*2=50>>50\n#### 50"
+    },
+    {
+        "question": "1 kabob stick = 4 cubes of beef\n40 kabob sticks = 160 cubes of beef\n1 slab of beef = 80 cubes of beef\nSo, 2 slabs of beef are needed to make 160 cubes of beef\nCost of 1 slab of beef = $25\nSo, cost of 2 slabs of beef = $50\nI hope it is correct: $50\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $50$",
+        "ground_truth": "One slab of beef can make 80/4 = <<80/4=20>>20 kabob sticks.\nTo make 40 kabob sticks, Simon needs 40/20 = <<40/20=2>>2 slabs of beef.\nSimon must spend $25 x 2 = $<<25*2=50>>50\n#### 50"
+    }
+]

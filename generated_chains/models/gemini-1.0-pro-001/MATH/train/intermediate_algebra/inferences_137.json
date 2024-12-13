@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind all values of $k$ so that the domain of\n\\[b(x) = \\frac{kx^2 + 2x - 5}{-5x^2 + 2x + k}\\]is the set of all real numbers.",
+        "inference": "The denominator of $b(x)$ must be nonzero for all real numbers, so we solve $-5x^2 + 2x + k = 0$.\n$$-5x^2 + 2x + k = 0$$\n$$5x^2 - 2x - k = 0$$\n$$x = \\frac{2 \\pm \\sqrt{4 + 20k}}{10} = \\frac{1 \\pm \\sqrt{1 + 5k}}{5}$$\nFor the domain to be all real numbers, the discriminant must be negative, so $1 + 5k < 0$. Solving this inequality, we get $k < -1/5$.\nFinal Answer: $\\boxed{k < -1/5}$. I hope it is correct.",
+        "ground_truth": "The domain of the function is the set of all real numbers if and only if the denominator $-5x^2 + 2x + k$ is nonzero for all $x.$  In other words, the quadratic\n\\[-5x^2 + 2x + k = 0\\]should not have any real solutions.  This means that the discriminant is negative, i.e.\n\\[4 - 4(-5)(k) = 4 + 20k < 0.\\]Solving, we find $k < -\\frac{1}{5}.$  Therefore, the set of all possible $k$ is $\\boxed{\\left( -\\infty, -\\frac{1}{5} \\right)}.$"
+    },
+    {
+        "question": "The denominator of $b(x)$ must be nonzero for all real numbers, so we solve $-5x^2 + 2x + k = 0$.\n$$-5x^2 + 2x + k = 0$$\n$$5x^2 - 2x - k = 0$$\n$$x = \\frac{2 \\pm \\sqrt{4 + 20k}}{10} = \\frac{1 \\pm \\sqrt{1 + 5k}}{5}$$\nFor the domain to be all real numbers, the discriminant must be negative, so $1 + 5k < 0$. Solving this inequality, we get $k < -1/5$.\nFinal Answer: $\\boxed{k < -1/5}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{k < -1/5}$$",
+        "ground_truth": "The domain of the function is the set of all real numbers if and only if the denominator $-5x^2 + 2x + k$ is nonzero for all $x.$  In other words, the quadratic\n\\[-5x^2 + 2x + k = 0\\]should not have any real solutions.  This means that the discriminant is negative, i.e.\n\\[4 - 4(-5)(k) = 4 + 20k < 0.\\]Solving, we find $k < -\\frac{1}{5}.$  Therefore, the set of all possible $k$ is $\\boxed{\\left( -\\infty, -\\frac{1}{5} \\right)}.$"
+    }
+]

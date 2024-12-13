@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the maximum value of $-x^2- 8x + 12$?",
+        "inference": "Solution:\nSolving the quadratic equation $-x^2 - 8x + 12 = 0$ gives\n$$x = \\frac{-(-8) \\pm \\sqrt{(-8)^2 - 4(-1)(12)}}{2(-1)} = \\frac{8 \\pm \\sqrt{64 + 48}}{2(-1)} = \\frac{8 \\pm \\sqrt{112}}{-2}.$$\n\nThe maximum value of a quadratic equation $ax^2 + bx + c$ occurs at $x = -\\frac{b}{2a}$, so in this case, the maximum value occurs at\n\n$$x = -\\frac{-8}{2(-1)} = \\boxed{4}.$$\n\nFinal Answer: $\\boxed{4}.$ I hope it is correct.",
+        "ground_truth": "We start by completing the square: \\begin{align*}\n-x^2 -8x +12 &= -(x^2 + 8x) + 12\\\\\n& = -(x^2 + 8x + (8/2)^2 - (8/2)^2) + 12\\\\\n& = -((x+4)^2 -4^2) + 12 \\\\\n&= -(x+4)^2 +4^2 + 12 \\\\\n&= -(x+4)^2 + 28.\\end{align*} Since the square of a real number is at least 0, we have $(x+4)^2\\ge 0$, so $-(x+4)^2 \\le 0$.  Therefore, $-(x+4)^2 + 28$ is at most 28.  Since $(x+4)^2 =0$ when $x=-4$, this maximum of $\\boxed{28}$ is achieved when $x= -4$."
+    },
+    {
+        "question": "Solution:\nSolving the quadratic equation $-x^2 - 8x + 12 = 0$ gives\n$$x = \\frac{-(-8) \\pm \\sqrt{(-8)^2 - 4(-1)(12)}}{2(-1)} = \\frac{8 \\pm \\sqrt{64 + 48}}{2(-1)} = \\frac{8 \\pm \\sqrt{112}}{-2}.$$\n\nThe maximum value of a quadratic equation $ax^2 + bx + c$ occurs at $x = -\\frac{b}{2a}$, so in this case, the maximum value occurs at\n\n$$x = -\\frac{-8}{2(-1)} = \\boxed{4}.$$\n\nFinal Answer: $\\boxed{4}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{4}",
+        "ground_truth": "We start by completing the square: \\begin{align*}\n-x^2 -8x +12 &= -(x^2 + 8x) + 12\\\\\n& = -(x^2 + 8x + (8/2)^2 - (8/2)^2) + 12\\\\\n& = -((x+4)^2 -4^2) + 12 \\\\\n&= -(x+4)^2 +4^2 + 12 \\\\\n&= -(x+4)^2 + 28.\\end{align*} Since the square of a real number is at least 0, we have $(x+4)^2\\ge 0$, so $-(x+4)^2 \\le 0$.  Therefore, $-(x+4)^2 + 28$ is at most 28.  Since $(x+4)^2 =0$ when $x=-4$, this maximum of $\\boxed{28}$ is achieved when $x= -4$."
+    }
+]

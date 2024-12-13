@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the sum of all positive integer values of $n$ such that $\\frac{n+18}{n}$ is an integer?",
+        "inference": "We can write \n$$\\frac{n+18}{n}=1+\\frac{18}{n}.$$\n\nThe quantity $\\frac{18}{n}$ is an integer if and only if $n$ is a divisor of $18$. The positive divisors of $18$ are $1,2,3,6,9$ and $18$. \n\nThe sum of all these numbers is $1+2+3+6+9+18=\\boxed{39}$.\n\nFinal Answer: $\\boxed{39}$. I hope it is correct.",
+        "ground_truth": "$\\frac{n+18}{n}=1+\\frac{18}{n}$. Thus, $\\frac{n+18}{n}$ is an integer if and only if $n|18$. The positive factors of 18 are 1, 18, 2, 9, 3, and 6. Their sum is $\\boxed{39}$."
+    },
+    {
+        "question": "We can write \n$$\\frac{n+18}{n}=1+\\frac{18}{n}.$$\n\nThe quantity $\\frac{18}{n}$ is an integer if and only if $n$ is a divisor of $18$. The positive divisors of $18$ are $1,2,3,6,9$ and $18$. \n\nThe sum of all these numbers is $1+2+3+6+9+18=\\boxed{39}$.\n\nFinal Answer: $\\boxed{39}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$39$}",
+        "ground_truth": "$\\frac{n+18}{n}=1+\\frac{18}{n}$. Thus, $\\frac{n+18}{n}$ is an integer if and only if $n|18$. The positive factors of 18 are 1, 18, 2, 9, 3, and 6. Their sum is $\\boxed{39}$."
+    }
+]

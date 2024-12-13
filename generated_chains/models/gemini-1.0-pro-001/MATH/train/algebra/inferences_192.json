@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe solutions of $x(3x-7)=-3$ may be expressed in the form $\\frac{m+\\sqrt{n}}{p}$ and $\\frac{m-\\sqrt{n}}{p}$, where $m$, $n$, and $p$ have a greatest common divisor of 1.  Find $m+n+p$.",
+        "inference": "$$x(3x-7)=-3$$\n$$3x^2-7x+3=0$$\n$$3x^2-9x+2x+3=0$$\n$$3x(x-3)+2(x-3)=0$$\n$$(3x+2)(x-3)=0$$\n$$\\Rightarrow x=-\\frac{2}{3},3$$\nSo, $$m=3,\\space n=9, \\space p=1$$\n$$\\Rightarrow m+n+p=15$$\n**Final Answer: $\\boxed{15}$. I hope it is correct.**",
+        "ground_truth": "Distribute on the left-hand side and add 3 to both sides to obtain $3x^2-7x+3=0$.  Since it doesn't factor easily, we use the quadratic formula:  \\[\n\\frac{-b\\pm\\sqrt{b^{2}-4ac}}{2a} = \\frac{7\\pm\\sqrt{7^{2}-4 \\cdot 3 \\cdot 3}}{2\\cdot 3} = \\frac{7 \\pm\\sqrt{13}}{6}.\n\\] Since $7$, $13$, and $6$ are relatively prime, $m=7$, $n=13$, and $p=6$, so $m+n+p=7+13+6=\\boxed{26}$."
+    },
+    {
+        "question": "$$x(3x-7)=-3$$\n$$3x^2-7x+3=0$$\n$$3x^2-9x+2x+3=0$$\n$$3x(x-3)+2(x-3)=0$$\n$$(3x+2)(x-3)=0$$\n$$\\Rightarrow x=-\\frac{2}{3},3$$\nSo, $$m=3,\\space n=9, \\space p=1$$\n$$\\Rightarrow m+n+p=15$$\n**Final Answer: $\\boxed{15}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{13}$$",
+        "ground_truth": "Distribute on the left-hand side and add 3 to both sides to obtain $3x^2-7x+3=0$.  Since it doesn't factor easily, we use the quadratic formula:  \\[\n\\frac{-b\\pm\\sqrt{b^{2}-4ac}}{2a} = \\frac{7\\pm\\sqrt{7^{2}-4 \\cdot 3 \\cdot 3}}{2\\cdot 3} = \\frac{7 \\pm\\sqrt{13}}{6}.\n\\] Since $7$, $13$, and $6$ are relatively prime, $m=7$, $n=13$, and $p=6$, so $m+n+p=7+13+6=\\boxed{26}$."
+    }
+]

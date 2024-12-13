@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn right triangle $ABC$ with $\\angle B = 90^\\circ$, we have $2\\sin A = 3\\cos A$.  What is $\\tan A$?",
+        "inference": "Final Answer: \\\\boxed{\\frac{3}{2}}. I hope it is correct. \n",
+        "ground_truth": "The triangle is shown below:\n\n[asy]\npair A,B,C;\nA = (0,0);\nB = (10,0);\nC = (10,15);\ndraw(A--B--C--A);\ndraw(rightanglemark(C,B,A,26));\nlabel(\"$A$\",A,SW);\nlabel(\"$B$\",B,SE);\nlabel(\"$C$\",C,N);\n[/asy]\n\nWe have $\\sin A = \\frac{BC}{AC}$ and $\\cos A = \\frac{AB}{AC}$, so $2\\sin A = 3\\cos B$ gives us $2\\cdot \\frac{BC}{AC} = 3\\cdot\\frac{AB}{AC}$.  Multiplying both sides by $AC$ gives $2BC = 3AB$, so $\\frac{BC}{AB} = \\frac{3}{2}$.  Finally, we have $\\tan A = \\frac{BC}{AB} = \\boxed{\\frac{3}{2}}$.\n\nWe also could have noted that $2\\sin A = 3\\cos A$ gives us $\\sin A = \\frac32\\cos A$, so $\\tan A = \\frac{\\sin A}{\\cos A} = \\frac{(3/2)\\cos A}{\\cos A } =\\boxed{\\frac32}$."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{\\frac{3}{2}}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the original question and solution so I can help you find any errors and rewrite it. I need context to understand the problem and provide the correct answer. \n",
+        "ground_truth": "The triangle is shown below:\n\n[asy]\npair A,B,C;\nA = (0,0);\nB = (10,0);\nC = (10,15);\ndraw(A--B--C--A);\ndraw(rightanglemark(C,B,A,26));\nlabel(\"$A$\",A,SW);\nlabel(\"$B$\",B,SE);\nlabel(\"$C$\",C,N);\n[/asy]\n\nWe have $\\sin A = \\frac{BC}{AC}$ and $\\cos A = \\frac{AB}{AC}$, so $2\\sin A = 3\\cos B$ gives us $2\\cdot \\frac{BC}{AC} = 3\\cdot\\frac{AB}{AC}$.  Multiplying both sides by $AC$ gives $2BC = 3AB$, so $\\frac{BC}{AB} = \\frac{3}{2}$.  Finally, we have $\\tan A = \\frac{BC}{AB} = \\boxed{\\frac{3}{2}}$.\n\nWe also could have noted that $2\\sin A = 3\\cos A$ gives us $\\sin A = \\frac32\\cos A$, so $\\tan A = \\frac{\\sin A}{\\cos A} = \\frac{(3/2)\\cos A}{\\cos A } =\\boxed{\\frac32}$."
+    }
+]

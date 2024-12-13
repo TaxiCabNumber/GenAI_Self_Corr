@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe quadratic $x^2 + \\frac{3}{2} x - 1$ has the following property: the roots, which are $\\frac{1}{2}$ and $-2,$ are one less than the final two coefficients.  Find a quadratic with leading term $x^2$ such that the final two coefficients are both non-zero, and the roots are one more than these coefficients.  Enter the roots of this quadratic.",
+        "inference": "Final Answer: \\\\boxed{-1, -\\frac{1}{2}}. I hope it is correct. \n",
+        "ground_truth": "Let the quadratic be\n\\[x^2 + ax + b.\\]Then the roots are $a + 1$ and $b + 1.$  By Vieta's formulas,\n\\begin{align*}\n(a + 1) + (b + 1) &= -a, \\\\\n(a + 1)(b + 1) &= b.\n\\end{align*}From the first equation, $a + 1 = -\\frac{b}{2}.$  Substituting into the second equation, we get\n\\[-\\frac{b}{2} (b + 1) = b.\\]Since $b$ is non-zero, we can divide both sides by $b,$ to get $-\\frac{1}{2} (b + 1) = 1.$  This leads to $b = -3.$  Then $a = \\frac{1}{2},$ so the roots are $\\boxed{-2,\\frac{3}{2}}.$"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{-1, -\\frac{1}{2}}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need that information to identify any potential errors and rewrite the solution correctly. \n",
+        "ground_truth": "Let the quadratic be\n\\[x^2 + ax + b.\\]Then the roots are $a + 1$ and $b + 1.$  By Vieta's formulas,\n\\begin{align*}\n(a + 1) + (b + 1) &= -a, \\\\\n(a + 1)(b + 1) &= b.\n\\end{align*}From the first equation, $a + 1 = -\\frac{b}{2}.$  Substituting into the second equation, we get\n\\[-\\frac{b}{2} (b + 1) = b.\\]Since $b$ is non-zero, we can divide both sides by $b,$ to get $-\\frac{1}{2} (b + 1) = 1.$  This leads to $b = -3.$  Then $a = \\frac{1}{2},$ so the roots are $\\boxed{-2,\\frac{3}{2}}.$"
+    }
+]

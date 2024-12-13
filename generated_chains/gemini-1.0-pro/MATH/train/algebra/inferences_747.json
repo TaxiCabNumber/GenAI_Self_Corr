@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the inverse of $f(x)=4-5x$?",
+        "inference": "**Step 1: Replace f(x) with y.**\n\n```\ny = 4 - 5x\n```\n\n**Step 2: Swap x and y.**\n\n```\nx = 4 - 5y\n```\n\n**Step 3: Solve for y.**\n\n```\nx - 4 = -5y\ny = (x - 4) / -5\n```\n\n**Step 4: Replace y with f^-1(x).**\n\n```\nf^-1(x) = (x - 4) / -5\n```\n\n**Final Answer: \\\\boxed{$f^-1(x) = (x - 4) / -5$}. I hope it is correct.**",
+        "ground_truth": "If we let $g(x)$ denote the inverse to $f$ then we can evaluate $f$ at $g(x)$ to get  \\[f(g(x))=4-5g(x).\\]Since $g$ is the inverse to $f$, the left side is $x$ and  \\[x=4-5g(x).\\]Solving for $g(x)$, we find $g(x) = \\boxed{\\frac{4-x}{5}}$."
+    },
+    {
+        "question": "**Step 1: Replace f(x) with y.**\n\n```\ny = 4 - 5x\n```\n\n**Step 2: Swap x and y.**\n\n```\nx = 4 - 5y\n```\n\n**Step 3: Solve for y.**\n\n```\nx - 4 = -5y\ny = (x - 4) / -5\n```\n\n**Step 4: Replace y with f^-1(x).**\n\n```\nf^-1(x) = (x - 4) / -5\n```\n\n**Final Answer: \\\\boxed{$f^-1(x) = (x - 4) / -5$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$f^-1(x) = (x - 4) / -5$}",
+        "ground_truth": "If we let $g(x)$ denote the inverse to $f$ then we can evaluate $f$ at $g(x)$ to get  \\[f(g(x))=4-5g(x).\\]Since $g$ is the inverse to $f$, the left side is $x$ and  \\[x=4-5g(x).\\]Solving for $g(x)$, we find $g(x) = \\boxed{\\frac{4-x}{5}}$."
+    }
+]

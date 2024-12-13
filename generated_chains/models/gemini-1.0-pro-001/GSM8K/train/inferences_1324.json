@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAfter working out for 3 hours, three friends go out for lunch. Adam spends two-thirds as much money on lunch as Rick. Rick and Jose eat lunch of the same price. If Jose ate lunch worth $45, what is the cost of lunch for all three?",
+        "inference": "1. Jose's lunch costs $45\n2. Rick's lunch costs the same as Jose's, which is $45\n3. Adam's lunch costs 2/3 of Rick's lunch, which is 2/3 * $45 = $30\n4. The total cost of lunch for all three friends is Jose's lunch + Rick's lunch + Adam's lunch = $45 + $45 + $30 = $120\nI hope it is correct: $120$",
+        "ground_truth": "Since Rick and Jose's lunch cost was the same, Adam spent 2/3*45 = $<<2/3*45=30>>30 on his lunch.\nThe three friends ate food worth 30+45+45 = $<<30+45+45=120>>120\n#### 120"
+    },
+    {
+        "question": "1. Jose's lunch costs $45\n2. Rick's lunch costs the same as Jose's, which is $45\n3. Adam's lunch costs 2/3 of Rick's lunch, which is 2/3 * $45 = $30\n4. The total cost of lunch for all three friends is Jose's lunch + Rick's lunch + Adam's lunch = $45 + $45 + $30 = $120\nI hope it is correct: $120$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $120$",
+        "ground_truth": "Since Rick and Jose's lunch cost was the same, Adam spent 2/3*45 = $<<2/3*45=30>>30 on his lunch.\nThe three friends ate food worth 30+45+45 = $<<30+45+45=120>>120\n#### 120"
+    }
+]

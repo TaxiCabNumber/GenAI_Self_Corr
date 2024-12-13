@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nGinger and Amy both start with 100 pieces of Halloween candy. Ginger eats 4 pieces a day and Amy eats 3 pieces a day. How much more candy does Amy have after two weeks?",
+        "inference": "Solution:\n- Ginger eats 4 pieces a day, so in two weeks, she eats $4 \\times 14 = 56$ pieces of candy.\n- Amy eats 3 pieces a day, so in two weeks, she eats $3 \\times 14 = 42$ pieces of candy.\n\n- After two weeks, Ginger has $100 - 56 = 44$ pieces of candy left.\n- After two weeks, Amy has $100 - 42 = 58$ pieces of candy left.\n\n- Amy has $58 - 44 = 14$ more pieces of candy than Ginger after two weeks.\n\nI hope it is correct: $14$",
+        "ground_truth": "First find the the difference in the number of pieces of candy the two people each per day: 4 pieces/day - 3 pieces/day = <<4-3=1>>1 piece/day\nThen find the number of days in 2 weeks: 2 weeks * 7 days/week = <<2*7=14>>14 days\nThen multiply the difference per day by the number of days to find the total difference after 14 days: 1 piece/day * 14 days = <<1*14=14>>14 pieces\n#### 14"
+    },
+    {
+        "question": "Solution:\n- Ginger eats 4 pieces a day, so in two weeks, she eats $4 \\times 14 = 56$ pieces of candy.\n- Amy eats 3 pieces a day, so in two weeks, she eats $3 \\times 14 = 42$ pieces of candy.\n\n- After two weeks, Ginger has $100 - 56 = 44$ pieces of candy left.\n- After two weeks, Amy has $100 - 42 = 58$ pieces of candy left.\n\n- Amy has $58 - 44 = 14$ more pieces of candy than Ginger after two weeks.\n\nI hope it is correct: $14$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$14",
+        "ground_truth": "First find the the difference in the number of pieces of candy the two people each per day: 4 pieces/day - 3 pieces/day = <<4-3=1>>1 piece/day\nThen find the number of days in 2 weeks: 2 weeks * 7 days/week = <<2*7=14>>14 days\nThen multiply the difference per day by the number of days to find the total difference after 14 days: 1 piece/day * 14 days = <<1*14=14>>14 pieces\n#### 14"
+    }
+]

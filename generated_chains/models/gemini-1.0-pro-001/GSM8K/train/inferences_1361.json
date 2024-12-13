@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAnnie has some money. The restaurant next door sells hamburgers for $4 each. The restaurant across the street sells milkshakes for $5 each. Annie buys 8 hamburgers and 6 milkshakes. She has $70 left. How much money, in dollars, did Annie have at first?",
+        "inference": "Annie spends 8*4 = $32 on hamburgers and 6*5 = $30 on milkshakes, for a total of $32 + $30 = $62. If she has $70 left, then she must have had $62 + $70 = $132 at first.\nI hope it is correct: $132$",
+        "ground_truth": "Annie spends 4*8=<<4*8=32>>32 dollars on hamburgers.\nAnnie spends 5*6=<<5*6=30>>30 dollars on milkshakes.\nAnnie spends 32+30=<<32+30=62>>62 dollars on hamburgers and milkshakes.\nAnnie had 62+70=<<62+70=132>>132 dollars at first.\n#### 132"
+    },
+    {
+        "question": "Annie spends 8*4 = $32 on hamburgers and 6*5 = $30 on milkshakes, for a total of $32 + $30 = $62. If she has $70 left, then she must have had $62 + $70 = $132 at first.\nI hope it is correct: $132$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ 132",
+        "ground_truth": "Annie spends 4*8=<<4*8=32>>32 dollars on hamburgers.\nAnnie spends 5*6=<<5*6=30>>30 dollars on milkshakes.\nAnnie spends 32+30=<<32+30=62>>62 dollars on hamburgers and milkshakes.\nAnnie had 62+70=<<62+70=132>>132 dollars at first.\n#### 132"
+    }
+]

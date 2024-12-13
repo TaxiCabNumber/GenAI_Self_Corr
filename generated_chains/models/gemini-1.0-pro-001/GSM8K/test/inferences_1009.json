@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBrook Hills High School currently enrolls 3000 students. Half of these students are over 16 years old, and one-fourth of the students over 16 years old are male. The remaining half of the students are under 16 years old, and one-half of the students under 16 are male. In total, how many female students are enrolled at this school?",
+        "inference": "- 1500 (50% of 3000) students are over 16\n- 1500 / 4 = 375 are male over 16 \n- 1125 (1500 - 375) are female over 16\n- 1500 (50% of 3000) students are under 16\n- 1500 / 2 = 750 are male under 16\n- 750 (1500 - 750) are female under 16\n- 750 + 1125 = 1875 are total female\nI hope it is correct: 1875",
+        "ground_truth": "3000-1500=<<3000-1500=1500>>1500 students are over 16 years old.\n1500*0.25=<<1500*0.25=375>>375 students of this age are male.\n1500/2=<<1500/2=750>>750 students under 16 years of age are male.\nIn total there are 750+375=<<750+375=1125>>1125 male students enrolled.\nSo, there are 3000-1125=<<3000-1125=1875>>1875 female students enrolled.\n#### 1,875"
+    },
+    {
+        "question": "- 1500 (50% of 3000) students are over 16\n- 1500 / 4 = 375 are male over 16 \n- 1125 (1500 - 375) are female over 16\n- 1500 (50% of 3000) students are under 16\n- 1500 / 2 = 750 are male under 16\n- 750 (1500 - 750) are female under 16\n- 750 + 1125 = 1875 are total female\nI hope it is correct: 1875\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$1875",
+        "ground_truth": "3000-1500=<<3000-1500=1500>>1500 students are over 16 years old.\n1500*0.25=<<1500*0.25=375>>375 students of this age are male.\n1500/2=<<1500/2=750>>750 students under 16 years of age are male.\nIn total there are 750+375=<<750+375=1125>>1125 male students enrolled.\nSo, there are 3000-1125=<<3000-1125=1875>>1875 female students enrolled.\n#### 1,875"
+    }
+]

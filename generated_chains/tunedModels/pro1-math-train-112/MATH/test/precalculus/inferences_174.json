@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFor real numbers $t,$ the point\n\\[(x,y) = (\\cos t, \\cos 2t)\\]is plotted.  All the plotted points lie on what kind of curve?\n\n(A) Line\n(B) Circle\n(C) Parabola\n(D) Ellipse\n(E) Hyperbola\n\nEnter the letter of the correct option.",
+        "inference": "The parametric equations of the curve are\n$$x = \\cos t, \\quad y = \\cos 2t.$$\n\nUsing the double-angle formula for cosine, we have\n$$\\begin{split} y & = \\cos 2t \\\\\\ & = \\cos^2 t - \\sin^2 t \\\\\\ & = (x^2 - y^2) \\\\\\ & = x^2 - y^2. \\end{split}$$\n\nThis is the equation of a hyperbola.\n\nFinal Answer: \\\\boxed{(E)}. I hope it is correct.",
+        "ground_truth": "Note that\n\\[y = \\cos 2t = 2 \\cos^2 t - 1 = 2x^2 - 1,\\]so all the plotted points lie on a parabola.  The answer is $\\boxed{\\text{(C)}}.$"
+    },
+    {
+        "question": "The parametric equations of the curve are\n$$x = \\cos t, \\quad y = \\cos 2t.$$\n\nUsing the double-angle formula for cosine, we have\n$$\\begin{split} y & = \\cos 2t \\\\\\ & = \\cos^2 t - \\sin^2 t \\\\\\ & = (x^2 - y^2) \\\\\\ & = x^2 - y^2. \\end{split}$$\n\nThis is the equation of a hyperbola.\n\nFinal Answer: \\\\boxed{(E)}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{(E)}",
+        "ground_truth": "Note that\n\\[y = \\cos 2t = 2 \\cos^2 t - 1 = 2x^2 - 1,\\]so all the plotted points lie on a parabola.  The answer is $\\boxed{\\text{(C)}}.$"
+    }
+]

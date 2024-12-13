@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $f$ be the function defined by $f(x) = x^3 - 49x^2 + 623x - 2015,$ and let $g(x) = f(x + 5).$  Compute the sum of the roots of $g.$",
+        "inference": "Since $g(x) = f(x + 5),$ we have\n\\begin{align*}\ng(x) &= (x+5)^3 - 49(x+5)^2 + 623(x+5) - 2015\\\\\n&= x^3 + 15x^2 + 75x + 125 - 49x^2 - 490x - 1225 + 623x + 3115 - 2015\\\\\n&= x^3 - 32x^2 - 16x + 200.\n\\end{align*}\n\nThus, we are to find the sum of the roots of $g(x) = x^3 - 32x^2 - 16x + 200.$  Since the sum of the roots of a polynomial $ax^3 + bx^2 + cx + d$ is $-\\frac{b}{a}$, we have\n$$\\text{Sum of the roots of }g(x) = -\\frac{(-32)}{1} = \\boxed{32}.$$\n\nFinal Answer: $\\boxed{32}.$ I hope it is correct.",
+        "ground_truth": "Let $a,$ $b,$ $c$ be the roots of $x^3 - 49x^2 + 623x - 2015.$  Then by Vieta's formulas, $a + b + c = 49.$\n\nThe roots of $g(x) = f(x + 5)$ are $a - 5,$ $b - 5,$ and $c - 5,$ and their sum is $a + b + c - 15 = 49 - 15 = \\boxed{34}.$"
+    },
+    {
+        "question": "Since $g(x) = f(x + 5),$ we have\n\\begin{align*}\ng(x) &= (x+5)^3 - 49(x+5)^2 + 623(x+5) - 2015\\\\\n&= x^3 + 15x^2 + 75x + 125 - 49x^2 - 490x - 1225 + 623x + 3115 - 2015\\\\\n&= x^3 - 32x^2 - 16x + 200.\n\\end{align*}\n\nThus, we are to find the sum of the roots of $g(x) = x^3 - 32x^2 - 16x + 200.$  Since the sum of the roots of a polynomial $ax^3 + bx^2 + cx + d$ is $-\\frac{b}{a}$, we have\n$$\\text{Sum of the roots of }g(x) = -\\frac{(-32)}{1} = \\boxed{32}.$$\n\nFinal Answer: $\\boxed{32}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{32}",
+        "ground_truth": "Let $a,$ $b,$ $c$ be the roots of $x^3 - 49x^2 + 623x - 2015.$  Then by Vieta's formulas, $a + b + c = 49.$\n\nThe roots of $g(x) = f(x + 5)$ are $a - 5,$ $b - 5,$ and $c - 5,$ and their sum is $a + b + c - 15 = 49 - 15 = \\boxed{34}.$"
+    }
+]

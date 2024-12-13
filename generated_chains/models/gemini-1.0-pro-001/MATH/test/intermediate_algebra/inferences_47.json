@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFor how many positive integers $m,$ $1 \\le m \\le 1000,$ does there exist at least one positive integer $n$ such that $m \\cdot n \\le m + n$?",
+        "inference": "Solution:\nWe have that $m \\cdot n \\le m + n \\Leftrightarrow m \\cdot n - m \\le n \\Leftrightarrow m(n - 1) \\le n \\Leftrightarrow n - 1 \\le \\frac{n}{m} = \\frac{m+n}{m} - 1$.\n\nSince $1 \\leq m \\leq 1000$, we have that $\\frac{m+n}{m} - 1 \\leq \\frac{1000+1000}{1} - 1 = 1999$.\n\nThus, we have that $n-1 \\leq 1999 \\Rightarrow n \\leq 2000$.\n\nTherefore, for each $m$ from $1$ to $1000$, there are at most $2000$ integers $n$ such that $m \\cdot n \\le m + n$.\n\nThus, there are at most $1000 \\cdot 2000 = 2,000,000$ pairs $(m, n)$ such that $m \\cdot n \\le m + n$.\n\nFinal Answer: $\\boxed{2,000,000}$. I hope it is correct.",
+        "ground_truth": "If we set $n = 1,$ then the given inequality becomes $m \\le m + 1,$ which is satisfied by any integer $m.$  Thus, the answer is $\\boxed{1000}.$"
+    },
+    {
+        "question": "Solution:\nWe have that $m \\cdot n \\le m + n \\Leftrightarrow m \\cdot n - m \\le n \\Leftrightarrow m(n - 1) \\le n \\Leftrightarrow n - 1 \\le \\frac{n}{m} = \\frac{m+n}{m} - 1$.\n\nSince $1 \\leq m \\leq 1000$, we have that $\\frac{m+n}{m} - 1 \\leq \\frac{1000+1000}{1} - 1 = 1999$.\n\nThus, we have that $n-1 \\leq 1999 \\Rightarrow n \\leq 2000$.\n\nTherefore, for each $m$ from $1$ to $1000$, there are at most $2000$ integers $n$ such that $m \\cdot n \\le m + n$.\n\nThus, there are at most $1000 \\cdot 2000 = 2,000,000$ pairs $(m, n)$ such that $m \\cdot n \\le m + n$.\n\nFinal Answer: $\\boxed{2,000,000}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Final Answer: $\\boxed{2,000,000}$",
+        "ground_truth": "If we set $n = 1,$ then the given inequality becomes $m \\le m + 1,$ which is satisfied by any integer $m.$  Thus, the answer is $\\boxed{1000}.$"
+    }
+]

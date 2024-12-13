@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSolve the following equation for $x$: \\[ \\ \\frac{2}{3} = \\frac{4}{x-5}.\\]",
+        "inference": "$$\\frac{2}{3} = \\frac{4}{x-5}$$ $$2(x-5) = 4 \\cdot 3$$ $$2x-10 = 12$$ $$2x = 22$$ $$x = 11$$\n\nFinal Answer: \\boxed{$11$}. I hope it is correct.",
+        "ground_truth": "Multiplying both sides by $x-5$ and by 3 gives $2(x-5) = 4(3)$.  Expanding the left side gives $2x-10 = 12$.  Adding 10 to both sides gives $2x = 22$ and dividing by 2 gives $x = \\boxed{11}$."
+    },
+    {
+        "question": "$$\\frac{2}{3} = \\frac{4}{x-5}$$ $$2(x-5) = 4 \\cdot 3$$ $$2x-10 = 12$$ $$2x = 22$$ $$x = 11$$\n\nFinal Answer: \\boxed{$11$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\frac{2}{3} = \\frac{4}{x-5}$$ $$\\frac{2(x-5)}{3} = 4$$ $$2(x-5) = 12$$ $$x - 5 = 6$$ $$x = 11$$\n\nFinal Answer: \\boxed{$11$}",
+        "ground_truth": "Multiplying both sides by $x-5$ and by 3 gives $2(x-5) = 4(3)$.  Expanding the left side gives $2x-10 = 12$.  Adding 10 to both sides gives $2x = 22$ and dividing by 2 gives $x = \\boxed{11}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the sum of the $x$-coordinates of all possible positive integer solutions to $\\frac1x+\\frac1y=\\frac17$.",
+        "inference": "$$x,y\\ge 1\\implies \\frac1x\\le 1\\wedge \\frac1y\\le 1$$\n\n$$1=\\frac1x+\\frac1y\\le 1+1=2\\implies 1\\le x\\le 2$$\n\n$$x=1\\implies \\frac1y=0\\text{ (contradiction)}$$\n\n$$x=2\\implies \\frac1y=1\\implies y=1\\text{ (contradiction)}$$\n\n$$x\\notin \\mathbb Z^+$$\n\nFinal Answer: $\\boxed{0}.$ I hope it is correct.",
+        "ground_truth": "Multiplying both sides of the equation by $7xy$ yields $7y + 7x = xy$. Re-arranging and applying Simon's Favorite Factoring Trick, it follows that $$xy - 7x - 7y + 49 = (x - 7)(y - 7) = 49.$$ Since $x$ and $y$ are positive integers, then $x-7$ is a positive integer factor of $49$. These factors are $1,7,49$, so $x = 8,14,56$, and their sum is $8 + 14 + 56 = \\boxed{78}$."
+    },
+    {
+        "question": "$$x,y\\ge 1\\implies \\frac1x\\le 1\\wedge \\frac1y\\le 1$$\n\n$$1=\\frac1x+\\frac1y\\le 1+1=2\\implies 1\\le x\\le 2$$\n\n$$x=1\\implies \\frac1y=0\\text{ (contradiction)}$$\n\n$$x=2\\implies \\frac1y=1\\implies y=1\\text{ (contradiction)}$$\n\n$$x\\notin \\mathbb Z^+$$\n\nFinal Answer: $\\boxed{0}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{-1}.",
+        "ground_truth": "Multiplying both sides of the equation by $7xy$ yields $7y + 7x = xy$. Re-arranging and applying Simon's Favorite Factoring Trick, it follows that $$xy - 7x - 7y + 49 = (x - 7)(y - 7) = 49.$$ Since $x$ and $y$ are positive integers, then $x-7$ is a positive integer factor of $49$. These factors are $1,7,49$, so $x = 8,14,56$, and their sum is $8 + 14 + 56 = \\boxed{78}$."
+    }
+]

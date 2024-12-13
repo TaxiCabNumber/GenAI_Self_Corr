@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA driver travels 30 miles per hour for 3 hours and 25 miles per hour for 4 hours to deliver goods to a town every day from Monday to Saturday. How many miles does the driver travel in a week?",
+        "inference": "1. The driver travels 30 miles per hour for 3 hours, so the distance covered is 30 * 3 = 90 miles.\n\n2. The driver travels 25 miles per hour for 4 hours, so the distance covered is 25 * 4 = 100 miles.\n\n3. The driver travels from Monday to Saturday, so the total number of days is 7 days.\n\n4. The driver travels 90 miles on Monday, Tuesday, and Wednesday, and 100 miles on Thursday, Friday, and Saturday. So, the total distance covered in a week is (90 * 3) + (100 * 3) = 270 + 300 = 570 miles.\n\nI hope it is correct: 570 miles",
+        "ground_truth": "The driver travels (3 hours * 30 mph) + (25 mph * 4 hours) = <<(3*30)+(25*4)=190>>190 miles per day\nFrom Monday to Saturday he travels in total 190 miles/day * 6 days = <<190*6=1140>>1,140 miles in a week\n#### 1140"
+    },
+    {
+        "question": "1. The driver travels 30 miles per hour for 3 hours, so the distance covered is 30 * 3 = 90 miles.\n\n2. The driver travels 25 miles per hour for 4 hours, so the distance covered is 25 * 4 = 100 miles.\n\n3. The driver travels from Monday to Saturday, so the total number of days is 7 days.\n\n4. The driver travels 90 miles on Monday, Tuesday, and Wednesday, and 100 miles on Thursday, Friday, and Saturday. So, the total distance covered in a week is (90 * 3) + (100 * 3) = 270 + 300 = 570 miles.\n\nI hope it is correct: 570 miles\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 570",
+        "ground_truth": "The driver travels (3 hours * 30 mph) + (25 mph * 4 hours) = <<(3*30)+(25*4)=190>>190 miles per day\nFrom Monday to Saturday he travels in total 190 miles/day * 6 days = <<190*6=1140>>1,140 miles in a week\n#### 1140"
+    }
+]

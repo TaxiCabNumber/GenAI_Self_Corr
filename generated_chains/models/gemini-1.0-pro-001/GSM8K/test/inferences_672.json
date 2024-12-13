@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nChristina records her mood every day on a calendar. Over the past thirty days of moods, she had twelve good days and eight bad days and the rest were neutral. Her first eight days were good, her second eight days were bad, and her third eight days were neutral. If the next three days were good, neutral, and good, how many good days were left in the month?",
+        "inference": "1. Christina had 12 good days, 8 bad days, and 10 neutral days in the past 30 days.\n2. If her first 8 days were good, her second 8 days were bad, and her third 8 days were neutral, then her last 8 days were good.\n3. If the next 3 days were good, neutral, and good, then she had 15 good days in the month.\n4. Therefore, there are **2 good days** left in the month.\n\nI hope it is correct: 2",
+        "ground_truth": "Christina had 30 - 12 - 8 = <<30-12-8=10>>10 neutral days in the month.\nAfter the first three 8-day periods, she had 30 - 8 * 3 = 30 - 24 = <<30-8*3=6>>6 days of moods left.\nOf those days, 12 - 8 = <<12-8=4>>4 days were good.\nAfter the next 3 days with 2 good days, Christina had 4 - 2 = <<4-2=2>>2 good days left.\n#### 2"
+    },
+    {
+        "question": "1. Christina had 12 good days, 8 bad days, and 10 neutral days in the past 30 days.\n2. If her first 8 days were good, her second 8 days were bad, and her third 8 days were neutral, then her last 8 days were good.\n3. If the next 3 days were good, neutral, and good, then she had 15 good days in the month.\n4. Therefore, there are **2 good days** left in the month.\n\nI hope it is correct: 2\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ 3",
+        "ground_truth": "Christina had 30 - 12 - 8 = <<30-12-8=10>>10 neutral days in the month.\nAfter the first three 8-day periods, she had 30 - 8 * 3 = 30 - 24 = <<30-8*3=6>>6 days of moods left.\nOf those days, 12 - 8 = <<12-8=4>>4 days were good.\nAfter the next 3 days with 2 good days, Christina had 4 - 2 = <<4-2=2>>2 good days left.\n#### 2"
+    }
+]

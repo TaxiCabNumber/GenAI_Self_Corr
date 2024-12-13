@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe town\u2019s annual budget totals $32 million. If half of the budget goes towards policing and $12 million goes towards education. How much money is left for managing public spaces?",
+        "inference": "- Half of the budget is $32 million / 2 = $16 million.\n- $16 million is allocated to policing.\n- $12 million is allocated to education.\n- Therefore, $32 million - $16 million - $12 million = $4 million is left for managing public spaces.\n\nI hope it is correct: $4 million$",
+        "ground_truth": "The annual budget for policing is 32 / 2 = $<<32/2=16>>16 million.\nThe combined budget for education and policing is 16 + 12 = $<<16+12=28>>28 million.\nThere is 32 - 28 = $<<32-28=4>>4 million to manage public spaces.\n#### 4"
+    },
+    {
+        "question": "- Half of the budget is $32 million / 2 = $16 million.\n- $16 million is allocated to policing.\n- $12 million is allocated to education.\n- Therefore, $32 million - $16 million - $12 million = $4 million is left for managing public spaces.\n\nI hope it is correct: $4 million$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $4 million$",
+        "ground_truth": "The annual budget for policing is 32 / 2 = $<<32/2=16>>16 million.\nThe combined budget for education and policing is 16 + 12 = $<<16+12=28>>28 million.\nThere is 32 - 28 = $<<32-28=4>>4 million to manage public spaces.\n#### 4"
+    }
+]

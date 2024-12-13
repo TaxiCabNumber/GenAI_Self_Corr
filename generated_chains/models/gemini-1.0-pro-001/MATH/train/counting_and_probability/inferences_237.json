@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nMarius is entering a wildlife photo contest, and wishes to arrange his seven snow leopards of different heights in a row. If the shortest two leopards have inferiority complexes and demand to be placed at the ends of the row, how many ways can he line up the leopards?",
+        "inference": "The shortest leopards must be at the ends of the row, so there are 7 possibilities for the shortest leopard on the left end and 6 possibilities for the shortest leopard on the right end. There are then 5 remaining leopards to fill the 5 remaining positions in the row, which can be done in 5!. Therefore, the total number of ways to line up the leopards is:\n\n7 * 6 * 5! = 7 * 6 * 120 = 5040\n\nFinal Answer: $\\boxed{5040}$. I hope it is correct.",
+        "ground_truth": "There are two ways to arrange the shortest two leopards. For the five remaining leopards, there are $5!$ ways to arrange them.\n\nTherefore, the answer is $2\\times5!=\\boxed{240\\text{ ways.}}$"
+    },
+    {
+        "question": "The shortest leopards must be at the ends of the row, so there are 7 possibilities for the shortest leopard on the left end and 6 possibilities for the shortest leopard on the right end. There are then 5 remaining leopards to fill the 5 remaining positions in the row, which can be done in 5!. Therefore, the total number of ways to line up the leopards is:\n\n7 * 6 * 5! = 7 * 6 * 120 = 5040\n\nFinal Answer: $\\boxed{5040}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{20160}$",
+        "ground_truth": "There are two ways to arrange the shortest two leopards. For the five remaining leopards, there are $5!$ ways to arrange them.\n\nTherefore, the answer is $2\\times5!=\\boxed{240\\text{ ways.}}$"
+    }
+]

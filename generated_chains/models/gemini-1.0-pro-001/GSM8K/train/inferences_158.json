@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJerome is taking a 150-mile bicycle trip. He wants to ride 12 miles for 12 days. How long will he ride on the 13th day to finish his goal?",
+        "inference": "- He wants to ride 12 miles for 12 days.\n$$12\\times 12 = 144$$\n\n- He is taking a 150-mile bicycle trip.\n$$150 - 144 = 6$$\n\n- So, he will ride on the 13th day to finish his goal.\nI hope it is correct: 6 miles",
+        "ground_truth": "Jerome rides a total of 12 x 12 = <<12*12=144>>144 miles in 12 days.\nSo, he will ride 150 - 144 = <<150-144=6>>6 miles on the 13th day to finish his goal.\n#### 6"
+    },
+    {
+        "question": "- He wants to ride 12 miles for 12 days.\n$$12\\times 12 = 144$$\n\n- He is taking a 150-mile bicycle trip.\n$$150 - 144 = 6$$\n\n- So, he will ride on the 13th day to finish his goal.\nI hope it is correct: 6 miles\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### answer$6$",
+        "ground_truth": "Jerome rides a total of 12 x 12 = <<12*12=144>>144 miles in 12 days.\nSo, he will ride 150 - 144 = <<150-144=6>>6 miles on the 13th day to finish his goal.\n#### 6"
+    }
+]

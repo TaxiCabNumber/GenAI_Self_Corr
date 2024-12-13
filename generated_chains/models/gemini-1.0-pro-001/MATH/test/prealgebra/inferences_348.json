@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nTriangle $ABC$ is a right triangle. If the measure of angle $PAB$ is $x^\\circ$ and the measure of angle $ACB$ is expressed in the form $(Mx+N)^\\circ$ with $M=1$, what is the value of $M+N$?\n\n[asy]\ndraw((-10,0)--(20,0),linewidth(1),Arrows);\ndraw((0,0)--(10,10/sqrt(3))--(10+10/3,0),linewidth(1));\n\ndraw((10,10/sqrt(3))+dir(-150)--(10,10/sqrt(3))+dir(-150)+dir(-60)--(10,10/sqrt(3))+dir(-60),linewidth(1));\n\ndot((-3,0));\n\ndraw(dir(180)..dir(105)..dir(30),linewidth(1));\n\nlabel(\"P\",(-3,0),NW);\nlabel(\"A\",(0,0),S);\nlabel(\"$x^\\circ$\",(-1,1),N);\nlabel(\"B\",(10,10/sqrt(3)),N);\nlabel(\"C\",(10+10/3,0),NE);\n\n[/asy]",
+        "inference": "Given that $M=1$. We have the equation:\n$(Mx+N)^\\circ=(1x+N)^\\circ=(x+N)^\\circ$.\n\nFrom the diagram, we also know that:\n$(x+N)^\\circ=90^\\circ-x^\\circ$.\n\nThus, $M+N=1+N=N+1$.\n\n**Final Answer: \\boxed{$N+1$}. I hope it is correct.**",
+        "ground_truth": "Since $\\angle PAB$ and $\\angle BAC$ are supplementary, $\\angle BAC = 180^{\\circ} - x^\\circ$.  Since the three angles of a triangle add up to $ 180^{\\circ} $, we have $\\angle ACB = 180^{\\circ} - 90^{\\circ} - (180^{\\circ} - x^\\circ) = x^\\circ - 90^{\\circ}$.  Thus, $M + N = \\boxed{-89}$."
+    },
+    {
+        "question": "Given that $M=1$. We have the equation:\n$(Mx+N)^\\circ=(1x+N)^\\circ=(x+N)^\\circ$.\n\nFrom the diagram, we also know that:\n$(x+N)^\\circ=90^\\circ-x^\\circ$.\n\nThus, $M+N=1+N=N+1$.\n\n**Final Answer: \\boxed{$N+1$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$90^\\circ - x^\\circ$}.",
+        "ground_truth": "Since $\\angle PAB$ and $\\angle BAC$ are supplementary, $\\angle BAC = 180^{\\circ} - x^\\circ$.  Since the three angles of a triangle add up to $ 180^{\\circ} $, we have $\\angle ACB = 180^{\\circ} - 90^{\\circ} - (180^{\\circ} - x^\\circ) = x^\\circ - 90^{\\circ}$.  Thus, $M + N = \\boxed{-89}$."
+    }
+]

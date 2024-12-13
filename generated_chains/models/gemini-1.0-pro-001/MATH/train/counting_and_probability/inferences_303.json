@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nGiven that $\\binom{17}{10}=19448$, $\\binom{17}{11}=12376$ and $\\binom{19}{12}=50388$, find $\\binom{18}{12}$.",
+        "inference": "$$\\binom{18}{12}=\\frac{18!}{12!(18-12)!}$$ $$=\\frac{18!}{12!6!}$$ $$=\\frac{13\\cdot14\\cdot15\\cdot16\\cdot17\\cdot18}{(1\\cdot2\\cdot3\\cdot4\\cdot5\\cdot6)(1\\cdot2\\cdot3\\cdot4\\cdot5\\cdot6)}$$ $$=\\frac{13\\cdot14\\cdot15\\cdot16\\cdot17\\cdot18}{1}$$ $$=35960$$ \nFinal Answer: $\\boxed{35960}$. I hope it is correct.",
+        "ground_truth": "We know that $\\binom{19}{12}=\\binom{18}{11}+\\binom{18}{12}$ from Pascal's identity. Solving for $\\binom{18}{12}$ and substituting the value that we have for $\\binom{19}{12}$ gives us $\\binom{18}{12}=50388-\\binom{18}{11}$. Once again using Pascal's identity, we know that $\\binom{18}{11}=\\binom{17}{11}+\\binom{17}{10}$. Substituting the values that we have for the terms on the right side gives us $\\binom{18}{11}=31824$ and substituting that into our expression for $\\binom{18}{12}$ gives us $\\binom{18}{12}=50388-31824=\\boxed{18564}$."
+    },
+    {
+        "question": "$$\\binom{18}{12}=\\frac{18!}{12!(18-12)!}$$ $$=\\frac{18!}{12!6!}$$ $$=\\frac{13\\cdot14\\cdot15\\cdot16\\cdot17\\cdot18}{(1\\cdot2\\cdot3\\cdot4\\cdot5\\cdot6)(1\\cdot2\\cdot3\\cdot4\\cdot5\\cdot6)}$$ $$=\\frac{13\\cdot14\\cdot15\\cdot16\\cdot17\\cdot18}{1}$$ $$=35960$$ \nFinal Answer: $\\boxed{35960}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{35960}$$",
+        "ground_truth": "We know that $\\binom{19}{12}=\\binom{18}{11}+\\binom{18}{12}$ from Pascal's identity. Solving for $\\binom{18}{12}$ and substituting the value that we have for $\\binom{19}{12}$ gives us $\\binom{18}{12}=50388-\\binom{18}{11}$. Once again using Pascal's identity, we know that $\\binom{18}{11}=\\binom{17}{11}+\\binom{17}{10}$. Substituting the values that we have for the terms on the right side gives us $\\binom{18}{11}=31824$ and substituting that into our expression for $\\binom{18}{12}$ gives us $\\binom{18}{12}=50388-31824=\\boxed{18564}$."
+    }
+]

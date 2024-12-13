@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 66 fish in the fish tank. One-third of the fish have red stripes, and 5/11 of the remaining fish have blue stripes. Altogether, how many fish have red stripes and blue stripes?",
+        "inference": "1. One-third of the fish have red stripes, so 66 / 3 = 22 fish have red stripes.\n2. Two-thirds of the fish have no red stripes, so 66 - 22 = 44 fish have no red stripes.\n3. 5/11 of the fish with no red stripes have blue stripes, so 44 / 11 * 5 = 20 fish have blue stripes.\n4. 22 fish have red stripes and 20 fish have blue stripes, so a total of 22 + 20 = 42 fish have red stripes and blue stripes.\nI hope it is correct: 42",
+        "ground_truth": "One-third of the fish in the fish tank have red stripes, a total of 1/3*66 = <<1/3*66=22>>22 fish\nThe number of fish in the fish tank with no red stripes is 66-22 =<<66-22=44>>44\n5/11 of the remaining fish have blue stripes, a total of 5/11*44 = <<5/11*44=20>>20 fish\nAltogether, the number of fish that have red stripes and blue stripes is 20+22 = <<20+22=42>>42 fish\n#### 42"
+    },
+    {
+        "question": "1. One-third of the fish have red stripes, so 66 / 3 = 22 fish have red stripes.\n2. Two-thirds of the fish have no red stripes, so 66 - 22 = 44 fish have no red stripes.\n3. 5/11 of the fish with no red stripes have blue stripes, so 44 / 11 * 5 = 20 fish have blue stripes.\n4. 22 fish have red stripes and 20 fish have blue stripes, so a total of 22 + 20 = 42 fish have red stripes and blue stripes.\nI hope it is correct: 42\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 42",
+        "ground_truth": "One-third of the fish in the fish tank have red stripes, a total of 1/3*66 = <<1/3*66=22>>22 fish\nThe number of fish in the fish tank with no red stripes is 66-22 =<<66-22=44>>44\n5/11 of the remaining fish have blue stripes, a total of 5/11*44 = <<5/11*44=20>>20 fish\nAltogether, the number of fish that have red stripes and blue stripes is 20+22 = <<20+22=42>>42 fish\n#### 42"
+    }
+]

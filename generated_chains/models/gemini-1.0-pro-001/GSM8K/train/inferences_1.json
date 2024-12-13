@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nWeng earns $12 an hour for babysitting. Yesterday, she just did 50 minutes of babysitting. How much did she earn?",
+        "inference": "1. Convert 50 minutes to hours: 50 minutes = 50/60 = 5/6 hours.\n\n2. Multiply Weng's hourly rate by the number of hours she worked: $12/hour * 5/6 hours = $10.\n\n I hope it is correct: $10$",
+        "ground_truth": "Weng earns 12/60 = $<<12/60=0.2>>0.2 per minute.\nWorking 50 minutes, she earned 0.2 x 50 = $<<0.2*50=10>>10.\n#### 10"
+    },
+    {
+        "question": "1. Convert 50 minutes to hours: 50 minutes = 50/60 = 5/6 hours.\n\n2. Multiply Weng's hourly rate by the number of hours she worked: $12/hour * 5/6 hours = $10.\n\n I hope it is correct: $10$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$10",
+        "ground_truth": "Weng earns 12/60 = $<<12/60=0.2>>0.2 per minute.\nWorking 50 minutes, she earned 0.2 x 50 = $<<0.2*50=10>>10.\n#### 10"
+    }
+]

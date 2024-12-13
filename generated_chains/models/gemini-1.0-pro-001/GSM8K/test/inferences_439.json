@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nWayne and Bernadette are movie stars heading to the premiere of their latest film. Bernadette wants to arrive 5 minutes before Wayne. Wayne is staying at a hotel close to the premiere theater, and Bernadette is staying at her high-rise apartment in the same city. The drive from Bernadette\u2019s apartment takes four times as long as the drive from Wayne\u2019s hotel. If it takes Wayne four minutes to be driven to the theater, how much earlier should Bernadette leave than Wayne to get to the theater first?",
+        "inference": "1. Bernadette takes 4 times longer than Wayne to reach the theater.\n2. If it takes Wayne 4 minutes, Bernadette will take 4 x 4 = 16 minutes.\n3. Bernadette wants to arrive 5 minutes earlier than Wayne.\n4. So, she must leave (16 - 5) = 11 minutes before Wayne.\n\nI hope it is correct: 11 minutes",
+        "ground_truth": "Bernadette takes 4 * 4 = <<4*4=16>>16 minutes to get to the theater.\nHer ride takes 16 - 4 = <<16-4=12>>12 minutes longer than Wayne\u2019s to get to the theater.\nThus, she should leave 12 + 5 = <<12+5=17>>17 minutes before Wayne to get to the theater 5 minutes sooner than he does.\n#### 17"
+    },
+    {
+        "question": "1. Bernadette takes 4 times longer than Wayne to reach the theater.\n2. If it takes Wayne 4 minutes, Bernadette will take 4 x 4 = 16 minutes.\n3. Bernadette wants to arrive 5 minutes earlier than Wayne.\n4. So, she must leave (16 - 5) = 11 minutes before Wayne.\n\nI hope it is correct: 11 minutes\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 11",
+        "ground_truth": "Bernadette takes 4 * 4 = <<4*4=16>>16 minutes to get to the theater.\nHer ride takes 16 - 4 = <<16-4=12>>12 minutes longer than Wayne\u2019s to get to the theater.\nThus, she should leave 12 + 5 = <<12+5=17>>17 minutes before Wayne to get to the theater 5 minutes sooner than he does.\n#### 17"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJustin has a box that is 12 inches in height. The length of the box is 3 times its height and 4 times its width. What is the volume of the box?",
+        "inference": "The width of the box is 12/4 = 3 inches. The length of the box is 12 * 3 = 36 inches.\n\nThe volume of the box is 12 * 3 * 36 = 1296 cubic inches.\n\nI hope it is correct: 1296",
+        "ground_truth": "The length of the box is 3 x the height of 12 inches = <<3*12=36>>36 inches.\nThe width of the box is 36 inches / 4 = <<36/4=9>>9 inches.\nThe volume of the box is the height of 12 inches x the length of 36 inches x the width of 9 inches = <<12*36*9=3888>>3,888 cubic inches.\n#### 3,888"
+    },
+    {
+        "question": "The width of the box is 12/4 = 3 inches. The length of the box is 12 * 3 = 36 inches.\n\nThe volume of the box is 12 * 3 * 36 = 1296 cubic inches.\n\nI hope it is correct: 1296\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$1296",
+        "ground_truth": "The length of the box is 3 x the height of 12 inches = <<3*12=36>>36 inches.\nThe width of the box is 36 inches / 4 = <<36/4=9>>9 inches.\nThe volume of the box is the height of 12 inches x the length of 36 inches x the width of 9 inches = <<12*36*9=3888>>3,888 cubic inches.\n#### 3,888"
+    }
+]

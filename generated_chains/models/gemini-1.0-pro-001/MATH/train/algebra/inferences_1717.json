@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the greatest possible sum of two consecutive integers whose product is less than 400?",
+        "inference": "Let the two consecutive integers be n and n+1.\nThen, n(n+1) < 400\n\u21d2 n^2 + n < 400\n\u21d2 n^2 + n - 400 < 0\n\u21d2 (n - 20)(n + 20) < 0\n\u21d2 -20 < n < 20\nThus, the possible values of n are -19, -18, ..., 18, 19.\nAmong these, the maximum value is 19.\nTherefore, the two consecutive integers are 19 and 20.\nAnd, their sum is 19 + 20 = 39.\n**Final Answer: \\boxed{$39$}. I hope it is correct.**",
+        "ground_truth": "Let the two integers be $n$ and $n + 1,$ so $n(n + 1) < 400.$  Then the largest possible value of $n$ will be close to the square root of 400, which is $\\sqrt{400} = 20.$  For $n = 19,$ $n(n + 1) = 19 \\cdot 20 = 380,$ and for $n = 20,$ $n(n + 1) = 20 \\cdot 21 = 420,$ so the largest possible sum of two consecutive integers whose product is less than 400 is $19 + 20 = \\boxed{39}.$"
+    },
+    {
+        "question": "Let the two consecutive integers be n and n+1.\nThen, n(n+1) < 400\n\u21d2 n^2 + n < 400\n\u21d2 n^2 + n - 400 < 0\n\u21d2 (n - 20)(n + 20) < 0\n\u21d2 -20 < n < 20\nThus, the possible values of n are -19, -18, ..., 18, 19.\nAmong these, the maximum value is 19.\nTherefore, the two consecutive integers are 19 and 20.\nAnd, their sum is 19 + 20 = 39.\n**Final Answer: \\boxed{$39$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$39$}",
+        "ground_truth": "Let the two integers be $n$ and $n + 1,$ so $n(n + 1) < 400.$  Then the largest possible value of $n$ will be close to the square root of 400, which is $\\sqrt{400} = 20.$  For $n = 19,$ $n(n + 1) = 19 \\cdot 20 = 380,$ and for $n = 20,$ $n(n + 1) = 20 \\cdot 21 = 420,$ so the largest possible sum of two consecutive integers whose product is less than 400 is $19 + 20 = \\boxed{39}.$"
+    }
+]

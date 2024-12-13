@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe amount of algae covering the Smith's backyard pond doubled every day until it was completely covered in algae on day $30$ of the month. On what day of that month was $75\\%$ of the pond algae-free?",
+        "inference": "**Solution:**\nLet $d$ be the day when 75% of the pond is algae-free. If the amount of algae doubles every day, then the fraction of the pond that is algae-free on day $d$ is $\\frac{1}{2}^{30-d}$. Since the pond is 75% algae-free on day $d$, we have the equation\n\n$$\\frac{1}{2}^{30-d} = 0.75.$$Solving for $d$, we get $$30-d = \\log_2{0.75} = -1 \\Rightarrow d = \\boxed{31}.$$**Final Answer: $\\boxed{31}$. I hope it is correct.**",
+        "ground_truth": "We are trying to find the day of the month on which the pond was $75\\%$ algae-free, or the day when the pond was $25\\%$ covered. On day $30$ of the month the pond was completely covered, and the amount of algae doubled every day. This means that on day $29$, the pond was half covered in algae, and therefore on day $\\boxed{28}$ the pond was $25\\%$ covered in algae."
+    },
+    {
+        "question": "**Solution:**\nLet $d$ be the day when 75% of the pond is algae-free. If the amount of algae doubles every day, then the fraction of the pond that is algae-free on day $d$ is $\\frac{1}{2}^{30-d}$. Since the pond is 75% algae-free on day $d$, we have the equation\n\n$$\\frac{1}{2}^{30-d} = 0.75.$$Solving for $d$, we get $$30-d = \\log_2{0.75} = -1 \\Rightarrow d = \\boxed{31}.$$**Final Answer: $\\boxed{31}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$31$}",
+        "ground_truth": "We are trying to find the day of the month on which the pond was $75\\%$ algae-free, or the day when the pond was $25\\%$ covered. On day $30$ of the month the pond was completely covered, and the amount of algae doubled every day. This means that on day $29$, the pond was half covered in algae, and therefore on day $\\boxed{28}$ the pond was $25\\%$ covered in algae."
+    }
+]

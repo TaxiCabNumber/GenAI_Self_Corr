@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWrite the expression \\[\\frac{4+6a}{5}-\\frac{1+3a}{4}\\] as a single fraction.",
+        "inference": "Final Answer: $\\boxed{\\frac{11+9a}{20}}$. I hope it is correct.",
+        "ground_truth": "The common denominator of $5$ and $4$ is $20$, so we multiply top and bottom of the first fraction by $4$ and multiply top and bottom of the second fraction by $5$. We get \\[\\frac{4(4+6a)}{4 \\cdot 5} - \\frac{5(1+3a)}{4 \\cdot 5} = \\frac{16+24a}{20}-\\frac{5+15a}{20}.\\] We combine the fractions, being careful to put the numerator of the second fraction in parentheses (as we are subtracting the entire numerator), yielding \\[\\frac{16+24a-(5+15a)}{20} = \\frac{16+24a-5-15a}{20}=\\boxed{\\frac{11+9a}{20}}.\\]"
+    },
+    {
+        "question": "Final Answer: $\\boxed{\\frac{11+9a}{20}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the original problem and your solution so I can check for errors and provide the corrected answer. \n",
+        "ground_truth": "The common denominator of $5$ and $4$ is $20$, so we multiply top and bottom of the first fraction by $4$ and multiply top and bottom of the second fraction by $5$. We get \\[\\frac{4(4+6a)}{4 \\cdot 5} - \\frac{5(1+3a)}{4 \\cdot 5} = \\frac{16+24a}{20}-\\frac{5+15a}{20}.\\] We combine the fractions, being careful to put the numerator of the second fraction in parentheses (as we are subtracting the entire numerator), yielding \\[\\frac{16+24a-(5+15a)}{20} = \\frac{16+24a-5-15a}{20}=\\boxed{\\frac{11+9a}{20}}.\\]"
+    }
+]

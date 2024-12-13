@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSam ran 3 miles on Monday, Wednesday and Friday.  On Tuesday and Thursday, Sam ran 5 miles.  How many miles did Sam run this week?",
+        "inference": "1) Sam ran 3 miles on Monday, Wednesday and Friday, so the total distance ran on these three days is 3 + 3 + 3 = 9 miles.\n\n2) Sam ran 5 miles on Tuesday and Thursday, so the total distance ran on these two days is 5 + 5 = 10 miles.\n\n3) The total distance Sam ran this week is the sum of the distances ran on the three days (9 miles) and the two days (10 miles), which is 9 + 10 = 19 miles.\nI hope it is correct: 19 $miles$",
+        "ground_truth": "On Monday, Wednesday and Friday, Mike ran 3 * 3 = <<3*3=9>>9 miles\nOn Tuesday and Thursday, he ran 5 * 2 = <<5*2=10>>10 miles\nDuring the 5 days together, he ran a total of 10 + 9 = <<10+9=19>>19 miles\n#### 19"
+    },
+    {
+        "question": "1) Sam ran 3 miles on Monday, Wednesday and Friday, so the total distance ran on these three days is 3 + 3 + 3 = 9 miles.\n\n2) Sam ran 5 miles on Tuesday and Thursday, so the total distance ran on these two days is 5 + 5 = 10 miles.\n\n3) The total distance Sam ran this week is the sum of the distances ran on the three days (9 miles) and the two days (10 miles), which is 9 + 10 = 19 miles.\nI hope it is correct: 19 $miles$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### answer$\n19 miles",
+        "ground_truth": "On Monday, Wednesday and Friday, Mike ran 3 * 3 = <<3*3=9>>9 miles\nOn Tuesday and Thursday, he ran 5 * 2 = <<5*2=10>>10 miles\nDuring the 5 days together, he ran a total of 10 + 9 = <<10+9=19>>19 miles\n#### 19"
+    }
+]

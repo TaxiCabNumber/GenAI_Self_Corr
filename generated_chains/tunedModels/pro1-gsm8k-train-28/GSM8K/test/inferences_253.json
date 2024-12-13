@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBill starts on the 3rd floor. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6. What floor is Bill on now?",
+        "inference": "1. Bill starts on the 3rd floor.\n2. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6.\n3. 4 times his starting floor is 4 * 3 = 12.\n4. 12 plus 6 is 12 + 6 = 18.\n5. Bill is now on the 18th floor.\n\nI hope it is correct: 18",
+        "ground_truth": "First multiply Bill's starting floor number by 4: 3 * 4 = <<3*4=12>>12\nThen add six to find the ending floor Bill is on: 12 + 6 = <<12+6=18>>18\n#### 18"
+    },
+    {
+        "question": "1. Bill starts on the 3rd floor.\n2. He rides the elevator up to the floor that's equal to 4 times his starting floor plus 6.\n3. 4 times his starting floor is 4 * 3 = 12.\n4. 12 plus 6 is 12 + 6 = 18.\n5. Bill is now on the 18th floor.\n\nI hope it is correct: 18\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 18",
+        "ground_truth": "First multiply Bill's starting floor number by 4: 3 * 4 = <<3*4=12>>12\nThen add six to find the ending floor Bill is on: 12 + 6 = <<12+6=18>>18\n#### 18"
+    }
+]

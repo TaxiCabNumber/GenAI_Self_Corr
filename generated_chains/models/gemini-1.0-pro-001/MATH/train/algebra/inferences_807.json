@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nExpand $-(3-c)(c+2(3-c))$. What is the sum of the coefficients of the expanded form?",
+        "inference": "$-(3-c)(c+2(3-c))=-(3-c)(c+6-2c)=-(-3c+c^2+6-2c^2)=-c^2+3c-6+2c^2=c^2-3c+6$\nFinal Answer: $\\boxed{0}.$ I hope it is correct.",
+        "ground_truth": "Simplifying the term $(c+2(3-c))$ gives $c+6-2c=6-c$. Distributing the negative sign over the first term gives $-(3-c)=c-3$. So our product is $$(c-3)(6-c)=6c-c^2-18+3c=-c^2+9c-18.$$ The sum of the coefficients is $(-1)+(9)+(-18)=\\boxed{-10}$."
+    },
+    {
+        "question": "$-(3-c)(c+2(3-c))=-(3-c)(c+6-2c)=-(-3c+c^2+6-2c^2)=-c^2+3c-6+2c^2=c^2-3c+6$\nFinal Answer: $\\boxed{0}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{-c^2+3c-6}.$",
+        "ground_truth": "Simplifying the term $(c+2(3-c))$ gives $c+6-2c=6-c$. Distributing the negative sign over the first term gives $-(3-c)=c-3$. So our product is $$(c-3)(6-c)=6c-c^2-18+3c=-c^2+9c-18.$$ The sum of the coefficients is $(-1)+(9)+(-18)=\\boxed{-10}$."
+    }
+]

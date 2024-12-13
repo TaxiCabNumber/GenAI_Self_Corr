@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe points $A\\, (5,-5)$ and $B\\, (-1,-1)$ are the endpoints of the hypotenuse of an isosceles right triangle $\\triangle ABC$. What is the area of $ABC$?",
+        "inference": "Since $\\triangle ABC$ is isosceles $(AB=BC)$, we have $AB=AC$, so its area is $$\\frac{1}{2} \\times AB \\times AC=\\frac{1}{2} \\times AB \\times AB=\\frac{1}{2}(AB)^2$$ We already have that $A(5,-5)$ and $B(-1,-1)$, so $AB=\\sqrt{(5-(-1))^2+(-5-(-1))^2}=\\sqrt{6^2+4^2}=\\sqrt{52}$ Therefore, the area of $\\triangle ABC$ is $$\\frac{1}{2}(AB)^2=\\frac{1}{2}(\\sqrt{52})^2=\\frac{1}{2}(52)=\\boxed{26}.$$\nFinal Answer: $\\boxed{26}.$ I hope it is correct.",
+        "ground_truth": "The length of the hypotenuse is given by the distance formula to be $\\sqrt{(5-(-1))^2 + (-5-(-1))^2} = \\sqrt{6^2+4^2} = \\sqrt{52}$. The length of the leg is then given by $\\sqrt{52}/\\sqrt{2} = \\sqrt{26}$ (alternatively, the Pythagorean Theorem can be applied), and the area of the isosceles right triangle is then equal to $\\frac 12 \\cdot \\sqrt{26} \\cdot \\sqrt{26} = \\boxed{13}.$"
+    },
+    {
+        "question": "Since $\\triangle ABC$ is isosceles $(AB=BC)$, we have $AB=AC$, so its area is $$\\frac{1}{2} \\times AB \\times AC=\\frac{1}{2} \\times AB \\times AB=\\frac{1}{2}(AB)^2$$ We already have that $A(5,-5)$ and $B(-1,-1)$, so $AB=\\sqrt{(5-(-1))^2+(-5-(-1))^2}=\\sqrt{6^2+4^2}=\\sqrt{52}$ Therefore, the area of $\\triangle ABC$ is $$\\frac{1}{2}(AB)^2=\\frac{1}{2}(\\sqrt{52})^2=\\frac{1}{2}(52)=\\boxed{26}.$$\nFinal Answer: $\\boxed{26}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{26}.",
+        "ground_truth": "The length of the hypotenuse is given by the distance formula to be $\\sqrt{(5-(-1))^2 + (-5-(-1))^2} = \\sqrt{6^2+4^2} = \\sqrt{52}$. The length of the leg is then given by $\\sqrt{52}/\\sqrt{2} = \\sqrt{26}$ (alternatively, the Pythagorean Theorem can be applied), and the area of the isosceles right triangle is then equal to $\\frac 12 \\cdot \\sqrt{26} \\cdot \\sqrt{26} = \\boxed{13}.$"
+    }
+]

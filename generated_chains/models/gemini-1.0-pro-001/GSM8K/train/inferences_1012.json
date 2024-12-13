@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBrian is a real estate agent. He makes a 2% commission on each sale. During June, he sold three houses. The houses sold for $157,000, $499,000, and $125,000. What was Brian\u2019s total commission on these three sales?",
+        "inference": "1) Calculate 2% of the price of the first house:\n2% of $157,000 = 0.02 x $157,000 = $3,140\n\n2) Calculate 2% of the price of the second house:\n2% of $499,000 = 0.02 x $499,000 = $9,980\n\n3) Calculate 2% of the price of the third house:\n2% of $125,000 = 0.02 x $125,000 = $2,500\n\n4) Add the commissions from each sale to find the total commission:\n$3,140 + $9,980 + $2,500 = $15,620\n\nI hope it is correct: $15,620$",
+        "ground_truth": "Brian sold houses for 157,000 + 499,000 + 125,000 = $<<157000+499000+125000=781000>>781,000 in total.\nBrian's commission was 781,000 * 0.02 = $<<781000*0.02=15620>>15,620\n#### 15,620"
+    },
+    {
+        "question": "1) Calculate 2% of the price of the first house:\n2% of $157,000 = 0.02 x $157,000 = $3,140\n\n2) Calculate 2% of the price of the second house:\n2% of $499,000 = 0.02 x $499,000 = $9,980\n\n3) Calculate 2% of the price of the third house:\n2% of $125,000 = 0.02 x $125,000 = $2,500\n\n4) Add the commissions from each sale to find the total commission:\n$3,140 + $9,980 + $2,500 = $15,620\n\nI hope it is correct: $15,620$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $15,620$",
+        "ground_truth": "Brian sold houses for 157,000 + 499,000 + 125,000 = $<<157000+499000+125000=781000>>781,000 in total.\nBrian's commission was 781,000 * 0.02 = $<<781000*0.02=15620>>15,620\n#### 15,620"
+    }
+]

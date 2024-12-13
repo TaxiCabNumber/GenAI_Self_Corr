@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat percent of square $ABCD$ is shaded?  All angles in the diagram are right angles. [asy]\nimport graph;\ndefaultpen(linewidth(0.7));\n\nxaxis(0,5,Ticks(1.0,NoZero));\nyaxis(0,5,Ticks(1.0,NoZero));\n\nfill((0,0)--(1,0)--(1,1)--(0,1)--cycle);\nfill((2,0)--(3,0)--(3,3)--(0,3)--(0,2)--(2,2)--cycle);\nfill((4,0)--(5,0)--(5,5)--(0,5)--(0,4)--(4,4)--cycle);\n\nlabel(\"$A$\",(0,0),SW);\nlabel(\"$B$\",(0,5),N);\nlabel(\"$C$\",(5,5),NE);\nlabel(\"$D$\",(5,0),E);[/asy]",
+        "inference": "The shaded area is a square with side length 1, and the total area is a square with side length 5. So the shaded area is $\\frac{1^2}{5^2} = \\frac{1}{25}$ of the total area.\nFinal Answer: \\boxed{4}%. I hope it is correct.",
+        "ground_truth": "The area of the square is $5^2=25$ square units, and the shaded area is $(1^2-0^2)+(3^2-2^2)+(5^2-4^2)=15$ square units.  Therefore, $\\frac{15}{25}=\\boxed{60}$ percent of the region is shaded."
+    },
+    {
+        "question": "The shaded area is a square with side length 1, and the total area is a square with side length 5. So the shaded area is $\\frac{1^2}{5^2} = \\frac{1}{25}$ of the total area.\nFinal Answer: \\boxed{4}%. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{4}%.",
+        "ground_truth": "The area of the square is $5^2=25$ square units, and the shaded area is $(1^2-0^2)+(3^2-2^2)+(5^2-4^2)=15$ square units.  Therefore, $\\frac{15}{25}=\\boxed{60}$ percent of the region is shaded."
+    }
+]

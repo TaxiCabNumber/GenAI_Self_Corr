@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCompute $\\dbinom{31}{28}$.",
+        "inference": "We can use the formula for combinations to compute this value:\n\n$$\\dbinom{n}{r} = \\frac{n!}{r!(n-r)!}.$$\n\nPlugging in $n=31$ and $r=28$, we get:\n\n$$\\dbinom{31}{28} = \\frac{31!}{28!(31-28)!} = \\frac{31!}{28!3!} = \\frac{31\\cdot30\\cdot29}{3\\cdot2\\cdot1} = 30\\cdot29.$$\n\n**Final Answer: $$\\boxed{870}$$. I hope it is correct.**",
+        "ground_truth": "\\begin{align*}\n\\dbinom{31}{28} &= \\dbinom{31}{3} \\\\\n&= \\dfrac{31!}{28!3!} \\\\\n&= \\dfrac{31\\times 30\\times 29}{3\\times 2\\times 1} \\\\\n&= 31 \\times \\dfrac{30}{3\\times 2\\times 1} \\times 29 \\\\\n&= 31\\times 5\\times 29 \\\\\n&= \\boxed{4495}.\n\\end{align*}"
+    },
+    {
+        "question": "We can use the formula for combinations to compute this value:\n\n$$\\dbinom{n}{r} = \\frac{n!}{r!(n-r)!}.$$\n\nPlugging in $n=31$ and $r=28$, we get:\n\n$$\\dbinom{31}{28} = \\frac{31!}{28!(31-28)!} = \\frac{31!}{28!3!} = \\frac{31\\cdot30\\cdot29}{3\\cdot2\\cdot1} = 30\\cdot29.$$\n\n**Final Answer: $$\\boxed{870}$$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{870}$$",
+        "ground_truth": "\\begin{align*}\n\\dbinom{31}{28} &= \\dbinom{31}{3} \\\\\n&= \\dfrac{31!}{28!3!} \\\\\n&= \\dfrac{31\\times 30\\times 29}{3\\times 2\\times 1} \\\\\n&= 31 \\times \\dfrac{30}{3\\times 2\\times 1} \\times 29 \\\\\n&= 31\\times 5\\times 29 \\\\\n&= \\boxed{4495}.\n\\end{align*}"
+    }
+]

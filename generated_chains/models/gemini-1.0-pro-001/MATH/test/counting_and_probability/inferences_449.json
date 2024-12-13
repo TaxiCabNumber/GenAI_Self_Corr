@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA Senate committee consists of 5 Republicans, 6 Democrats, and 2 Independents.  A subcommittee of 3 members is randomly chosen.  What is the probability that the subcommittee consists of three Republicans?",
+        "inference": "Total number of ways to choose a subcommittee of 3 members from 13 members = C(13,3) = 13! / (3! * 10!) = 286\n\nNumber of ways to choose a subcommittee of 3 Republicans from 5 Republicans = C(5,3) = 5! / (3! * 2!) = 10\n\nProbability of choosing a subcommittee of 3 Republicans = Number of ways to choose a subcommittee of 3 Republicans / Total number of ways to choose a subcommittee of 3 members = 10/286\n\nFinal Answer: $\\boxed{10/286}$. I hope it is correct.",
+        "ground_truth": "There are $\\binom{13}{3} = 286$ ways to choose a subcommittee from the committee, and $\\binom{5}{3} = 10$ ways to choose a subcommittee of all Republicans.  The chance that a random subcommittee is all Republican is $\\dfrac{10}{286} = \\boxed{\\dfrac{5}{143}}$."
+    },
+    {
+        "question": "Total number of ways to choose a subcommittee of 3 members from 13 members = C(13,3) = 13! / (3! * 10!) = 286\n\nNumber of ways to choose a subcommittee of 3 Republicans from 5 Republicans = C(5,3) = 5! / (3! * 2!) = 10\n\nProbability of choosing a subcommittee of 3 Republicans = Number of ways to choose a subcommittee of 3 Republicans / Total number of ways to choose a subcommittee of 3 members = 10/286\n\nFinal Answer: $\\boxed{10/286}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{10/286}$",
+        "ground_truth": "There are $\\binom{13}{3} = 286$ ways to choose a subcommittee from the committee, and $\\binom{5}{3} = 10$ ways to choose a subcommittee of all Republicans.  The chance that a random subcommittee is all Republican is $\\dfrac{10}{286} = \\boxed{\\dfrac{5}{143}}$."
+    }
+]

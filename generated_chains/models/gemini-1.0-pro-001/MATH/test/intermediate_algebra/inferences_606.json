@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nMatt and Marie are choosing numbers on the complex plane. Matt chooses the point $1-4i$. Marie chooses $-4+2i$. How far apart are Marie and Matt's points?",
+        "inference": "The distance formula for the complex plane is $|z_1 - z_2| = \\sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}$, where $z_1 = x_1 + y_1i$ and $z_2 = x_2 + y_2i$.\n\nSo, the distance between Matt and Marie's points is:\n$|1-4i - (-4+2i)| = \\sqrt{(1 - (-4))^2 + (-4 - 2)^2}$\n$= \\sqrt{(5)^2 + (-6)^2}$\n$= \\sqrt{25 + 36}$\n$= \\sqrt{61}$\n\nFinal Answer: $\\boxed{\\sqrt{61}}$. I hope it is correct.",
+        "ground_truth": "To find the distance between two complex numbers, we find the magnitude of their difference. We calculate $(1-4i)-(-4+2i)$ to be $5-6i$. Now, $|5-6i|=\\sqrt{5^2+6^2}=\\sqrt{61}$, thus the distance between the points is $\\boxed{\\sqrt{61}}$."
+    },
+    {
+        "question": "The distance formula for the complex plane is $|z_1 - z_2| = \\sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}$, where $z_1 = x_1 + y_1i$ and $z_2 = x_2 + y_2i$.\n\nSo, the distance between Matt and Marie's points is:\n$|1-4i - (-4+2i)| = \\sqrt{(1 - (-4))^2 + (-4 - 2)^2}$\n$= \\sqrt{(5)^2 + (-6)^2}$\n$= \\sqrt{25 + 36}$\n$= \\sqrt{61}$\n\nFinal Answer: $\\boxed{\\sqrt{61}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$\\sqrt{61}$}. I hope it is correct.",
+        "ground_truth": "To find the distance between two complex numbers, we find the magnitude of their difference. We calculate $(1-4i)-(-4+2i)$ to be $5-6i$. Now, $|5-6i|=\\sqrt{5^2+6^2}=\\sqrt{61}$, thus the distance between the points is $\\boxed{\\sqrt{61}}$."
+    }
+]

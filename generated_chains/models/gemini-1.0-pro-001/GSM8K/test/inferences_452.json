@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA car is on a road trip and drives 60 mph for 2 hours, and then 30 mph for 1 hour. What is the car's average speed in mph during this trip?",
+        "inference": "1) Convert the speed of 60 mph to miles per hour: 60 mph * 2 hours = 120 miles\n2) Convert the speed of 30 mph to miles per hour: 30 mph * 1 hour = 30 miles\n3) Add the number of miles traveled: 120 miles + 30 miles = 150 miles\n4) Divide the number of miles traveled by the number of hours traveled: 150 miles / 3 hours = 50 mph\nI hope it is correct: 50",
+        "ground_truth": "The car drives 60*2=<<60*2=120>>120 miles for 2 hours.\nThe car drives 30*1=<<30*1=30>>30 miles for 1 hour.\nIt drives a total of 120+30=<<120+30=150>>150 miles.\nLet S be the average speed, M be the number of miles, and H the number of hours spent driving.\nThen we have, S=M/H, so, S=150 miles/3 hours = <<150/3=50>>50 mph\n#### 50"
+    },
+    {
+        "question": "1) Convert the speed of 60 mph to miles per hour: 60 mph * 2 hours = 120 miles\n2) Convert the speed of 30 mph to miles per hour: 30 mph * 1 hour = 30 miles\n3) Add the number of miles traveled: 120 miles + 30 miles = 150 miles\n4) Divide the number of miles traveled by the number of hours traveled: 150 miles / 3 hours = 50 mph\nI hope it is correct: 50\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$50",
+        "ground_truth": "The car drives 60*2=<<60*2=120>>120 miles for 2 hours.\nThe car drives 30*1=<<30*1=30>>30 miles for 1 hour.\nIt drives a total of 120+30=<<120+30=150>>150 miles.\nLet S be the average speed, M be the number of miles, and H the number of hours spent driving.\nThen we have, S=M/H, so, S=150 miles/3 hours = <<150/3=50>>50 mph\n#### 50"
+    }
+]

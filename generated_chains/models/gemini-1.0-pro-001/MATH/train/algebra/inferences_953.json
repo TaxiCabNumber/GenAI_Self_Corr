@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nJoann ate a total of 100 lollipops in five days. Each day after the first day she ate six more than she had eaten on the previous day. How many lollipops did she eat on the third day?",
+        "inference": "**Solution:**\nOn the first day, she ate $x$ lollipops.\nOn the second day, she ate $x+6$ lollipops.\nOn the third day, she ate $x+2(6)=x+12$ lollipops.\n\n**Final Answer: $\\boxed{x+12}$. I hope it is correct.**",
+        "ground_truth": "Let the number of lollipops Joann ate on the first day be $a-12$, so she ate $a-6$ lollipops on the second day, $a$ on the third, and so on, eating $(a-12)+(5-1)\\cdot 6=a+12$ lollipops on the last day. The total number of lollipops is $5a$, which we are told is 100. Thus, $5a=100$ and $a=20$. Since $a$ is the number of lollipops Joann ate on the third day, our answer is $\\boxed{20}$ lollipops."
+    },
+    {
+        "question": "**Solution:**\nOn the first day, she ate $x$ lollipops.\nOn the second day, she ate $x+6$ lollipops.\nOn the third day, she ate $x+2(6)=x+12$ lollipops.\n\n**Final Answer: $\\boxed{x+12}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$x+12$}",
+        "ground_truth": "Let the number of lollipops Joann ate on the first day be $a-12$, so she ate $a-6$ lollipops on the second day, $a$ on the third, and so on, eating $(a-12)+(5-1)\\cdot 6=a+12$ lollipops on the last day. The total number of lollipops is $5a$, which we are told is 100. Thus, $5a=100$ and $a=20$. Since $a$ is the number of lollipops Joann ate on the third day, our answer is $\\boxed{20}$ lollipops."
+    }
+]

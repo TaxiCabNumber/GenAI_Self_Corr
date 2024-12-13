@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTwenty tourists discovered 700 shells in a strip mall parking lot. They had divided into three groups, Alphas, The finders, and Gogetters to find as many shells as possible. If team Alphas found 40% of the shells, and team The finders found 60% of the remaining shells, how many shells did team Gogetters find?",
+        "inference": "Alphas found - 700 x 40% = 280\nRemaining shells - 700 - 280 = 420\nThe finders found - 420 x 60% = 252\n\nHence,\nGogetters found = Total shells - (shells found by Alphas + shells found by The finders)\n= 700-(280+252) = 700-532 = 168.\n\nI hope it is correct: 168 $shells$",
+        "ground_truth": "Team Alphas found 40/100*700 = <<40/100*700=280>>280 shells.\nIf team Alphas found 280 shells, the other teams found 700-280 = 420 shells.\nTeam The Finders found 60% of the remaining shells, a total of 60/100*420 = <<60/100*420=252>>252 shells.\nIf The finders found 252 shells, team Gogetters found 420-252 = 168 shells.\n#### 168"
+    },
+    {
+        "question": "Alphas found - 700 x 40% = 280\nRemaining shells - 700 - 280 = 420\nThe finders found - 420 x 60% = 252\n\nHence,\nGogetters found = Total shells - (shells found by Alphas + shells found by The finders)\n= 700-(280+252) = 700-532 = 168.\n\nI hope it is correct: 168 $shells$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ = 168",
+        "ground_truth": "Team Alphas found 40/100*700 = <<40/100*700=280>>280 shells.\nIf team Alphas found 280 shells, the other teams found 700-280 = 420 shells.\nTeam The Finders found 60% of the remaining shells, a total of 60/100*420 = <<60/100*420=252>>252 shells.\nIf The finders found 252 shells, team Gogetters found 420-252 = 168 shells.\n#### 168"
+    }
+]

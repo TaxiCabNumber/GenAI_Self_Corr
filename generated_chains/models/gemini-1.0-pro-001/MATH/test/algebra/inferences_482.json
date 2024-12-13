@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nJanaina is trying to solve the following equation by completing the square: $$x^2+18x-9 = 0.$$She successfully rewrites the above equation in the following form: $$(x + b)^2 = c,$$where $b$ and $c$ are integers. What is the value of $c$?",
+        "inference": "$$x^2+18x-9 = 0$$\n$$x^2 + 18x = 9$$ $$\\left(x + \\frac{18}{2}\\right)^2 = 9 + \\frac{18}{2}^2$$ $$\\left(x+9\\right)^2 = 81$$\n$$c = 81$$\n$$Final Answer: \\boxed{81}. I hope it is correct.$$",
+        "ground_truth": "We rewrite the equation as follows, trying to create a square of a binomial on the left side: \\begin{align*}\nx^2 + 18x - 9 &= 0\\\\\nx^2 + 18x + 81 &= 90\\\\\n(x + 9)^2 &= 90.\n\\end{align*}We see that this clearly works, and $c = \\boxed{90}.$"
+    },
+    {
+        "question": "$$x^2+18x-9 = 0$$\n$$x^2 + 18x = 9$$ $$\\left(x + \\frac{18}{2}\\right)^2 = 9 + \\frac{18}{2}^2$$ $$\\left(x+9\\right)^2 = 81$$\n$$c = 81$$\n$$Final Answer: \\boxed{81}. I hope it is correct.$$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{9}$$",
+        "ground_truth": "We rewrite the equation as follows, trying to create a square of a binomial on the left side: \\begin{align*}\nx^2 + 18x - 9 &= 0\\\\\nx^2 + 18x + 81 &= 90\\\\\n(x + 9)^2 &= 90.\n\\end{align*}We see that this clearly works, and $c = \\boxed{90}.$"
+    }
+]

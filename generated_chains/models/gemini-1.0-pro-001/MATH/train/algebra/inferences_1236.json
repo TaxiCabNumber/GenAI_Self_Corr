@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $f(x) = -7x^4 + 3x^3 + x - 5$, and $g(x)$ is a polynomial such that the degree of $f(x) + g(x)$ is 1, then what is the degree of $g(x)$?",
+        "inference": "The degree of $f(x) + g(x)$ is the larger of the degrees of $f(x)$ and $g(x)$. Since the degree of $f(x)$ is 4, the degree of $g(x)$ must be $1 - 4 = \\boxed{-3}$.\nFinal Answer: $\\boxed{-3}$. I hope it is correct.",
+        "ground_truth": "The degree of $f(x) + g(x)$ is 1, and the only way that $g(x)$ can cancel the term of $-7x^4$ in $f(x)$ is if $g(x)$ contains the term $7x^4$.  Therefore, the degree of $g(x)$ is $\\boxed{4}$."
+    },
+    {
+        "question": "The degree of $f(x) + g(x)$ is the larger of the degrees of $f(x)$ and $g(x)$. Since the degree of $f(x)$ is 4, the degree of $g(x)$ must be $1 - 4 = \\boxed{-3}$.\nFinal Answer: $\\boxed{-3}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$3$}",
+        "ground_truth": "The degree of $f(x) + g(x)$ is 1, and the only way that $g(x)$ can cancel the term of $-7x^4$ in $f(x)$ is if $g(x)$ contains the term $7x^4$.  Therefore, the degree of $g(x)$ is $\\boxed{4}$."
+    }
+]

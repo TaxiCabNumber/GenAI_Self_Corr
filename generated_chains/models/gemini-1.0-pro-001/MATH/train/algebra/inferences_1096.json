@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $c$ is a constant such that $x^2+100x+c$ is equal to the square of a binomial, then what is $c$?",
+        "inference": "**Solution:**\nWe can write $x^2+100x+c$ as\n\n$$(x+a)^2=x^2+2ax+a^2$$\n\nComparing coefficients, we get \n$$2a=100\\Rightarrow a=50$$\n\nand $a^2=c\\Rightarrow c=50^2=\\boxed{2500}.$\n**Final Answer: $2500$. I hope it is correct.**",
+        "ground_truth": "If $x^2+100x+c$ is the square of a binomial, then because the coefficient of $x^2$ is $1$, the binomial must be of the form $x+a$ for some $a$.\n\nExpanding, we have $(x+a)^2 = x^2 + 2ax + a^2$. For this to be equal to $x^2+100x+c$, the coefficients of $x$ must agree, so $2a$ must be equal to $100$. This gives $a=50$, and so the constant term $a^2$ is $\\boxed{2500}$."
+    },
+    {
+        "question": "**Solution:**\nWe can write $x^2+100x+c$ as\n\n$$(x+a)^2=x^2+2ax+a^2$$\n\nComparing coefficients, we get \n$$2a=100\\Rightarrow a=50$$\n\nand $a^2=c\\Rightarrow c=50^2=\\boxed{2500}.$\n**Final Answer: $2500$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{2500}$$",
+        "ground_truth": "If $x^2+100x+c$ is the square of a binomial, then because the coefficient of $x^2$ is $1$, the binomial must be of the form $x+a$ for some $a$.\n\nExpanding, we have $(x+a)^2 = x^2 + 2ax + a^2$. For this to be equal to $x^2+100x+c$, the coefficients of $x$ must agree, so $2a$ must be equal to $100$. This gives $a=50$, and so the constant term $a^2$ is $\\boxed{2500}$."
+    }
+]

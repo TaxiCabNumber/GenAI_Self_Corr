@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nGiven that $3x^2-2(x^2+4)=42$, what is the value of $x^4$?",
+        "inference": "$$3x^2-2(x^2+4)=42$$\n\n$$3x^2-2x^2-8=42$$\n\n$$x^2-8=42$$\n\n$$x^2=50$$\n\n$$x=\\pm\\sqrt{50}=\\pm5\\sqrt{2}$$\n\n$$x^4=(\\pm5\\sqrt{2})^4=625\\cdot32=\\boxed{20000}.$$\n\nFinal Answer: $\\boxed{20000}.$ I hope it is correct.",
+        "ground_truth": "Begin by simplifying the left side: $$3x^2-2x^2-8=42$$ We can combine terms and solve for $x^2$: \\begin{align*}\n3x^2-2x^2&=42+8\\\\\n\\Rightarrow\\qquad x^2&=50\n\\end{align*} Squaring both sides, we find: \\begin{align*}\n(x^2)^2&=50^2\\\\\n\\Rightarrow\\qquad x^4&=\\boxed{2500}\n\\end{align*}"
+    },
+    {
+        "question": "$$3x^2-2(x^2+4)=42$$\n\n$$3x^2-2x^2-8=42$$\n\n$$x^2-8=42$$\n\n$$x^2=50$$\n\n$$x=\\pm\\sqrt{50}=\\pm5\\sqrt{2}$$\n\n$$x^4=(\\pm5\\sqrt{2})^4=625\\cdot32=\\boxed{20000}.$$\n\nFinal Answer: $\\boxed{20000}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{20000}",
+        "ground_truth": "Begin by simplifying the left side: $$3x^2-2x^2-8=42$$ We can combine terms and solve for $x^2$: \\begin{align*}\n3x^2-2x^2&=42+8\\\\\n\\Rightarrow\\qquad x^2&=50\n\\end{align*} Squaring both sides, we find: \\begin{align*}\n(x^2)^2&=50^2\\\\\n\\Rightarrow\\qquad x^4&=\\boxed{2500}\n\\end{align*}"
+    }
+]

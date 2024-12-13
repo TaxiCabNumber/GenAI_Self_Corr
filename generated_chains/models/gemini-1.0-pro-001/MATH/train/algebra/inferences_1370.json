@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA super ball is dropped from 100 feet and rebounds half the distance it falls each time it bounces. How many feet will the ball have traveled when it hits the ground the fourth time?",
+        "inference": "100 + \\frac{100}{2} + \\frac{100}{4} + \\frac{100}{8} = 150 + 50 + 25 = 225\nFinal Answer: \\boxed{225}. I hope it is correct.",
+        "ground_truth": "The ball traveled $100+50+25+12.5 = 187.5$ feet on its four descents. The ball also traveled $50+25+12.5 = 87.5$ feet on its three ascents. Thus, the ball traveled $187.5+87.5 = \\boxed{275}$ feet total."
+    },
+    {
+        "question": "100 + \\frac{100}{2} + \\frac{100}{4} + \\frac{100}{8} = 150 + 50 + 25 = 225\nFinal Answer: \\boxed{225}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{225}",
+        "ground_truth": "The ball traveled $100+50+25+12.5 = 187.5$ feet on its four descents. The ball also traveled $50+25+12.5 = 87.5$ feet on its three ascents. Thus, the ball traveled $187.5+87.5 = \\boxed{275}$ feet total."
+    }
+]

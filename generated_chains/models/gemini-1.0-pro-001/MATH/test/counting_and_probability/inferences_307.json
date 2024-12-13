@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCompute $\\binom{15}{7}$. You are told that $\\binom{14}{8} = 3003$ and $\\binom{14}{7} = 3432$.",
+        "inference": "Solution:\n\\begin{align*}\n\\binom{15}{7}&=\\cfrac{15!}{7!8!}\\\\\n&=\\cfrac{15\\cdot14\\cdot13\\cdot12\\cdot11\\cdot10\\cdot9\\cdot8!}{7!8!}\\\\\n&=\\cfrac{15\\cdot14\\cdot13\\cdot12\\cdot11\\cdot10\\cdot9}{1}\\\\\n&=15\\cdot14\\cdot13\\cdot12\\cdot11\\cdot10\\cdot9\\\\\n&=3003\\cdot\\cfrac{15\\cdot13\\cdot11\\cdot9}{3432}\\\\\n&=3003\\cdot5\\cdot13\\\\\n&=195195\\\\\n\\end{align*}\nFinal Answer: $\\boxed{195195}.$ I hope it is correct.",
+        "ground_truth": "By Pascal's Rule, \\begin{align*}\n\\binom{15}{7} &= \\binom{14}{6} + \\binom{14}{7} \\\\\n\\binom{15}{7} &= \\binom{14}{14-6} + \\binom{14}{7} \\\\\n\\binom{15}{7} &= \\binom{14}{8} + \\binom{14}{7} \\\\\n\\binom{15}{7} &= 3003 + 3432 \\\\\n\\binom{15}{7} &= \\boxed{6435}\n\\end{align*}"
+    },
+    {
+        "question": "Solution:\n\\begin{align*}\n\\binom{15}{7}&=\\cfrac{15!}{7!8!}\\\\\n&=\\cfrac{15\\cdot14\\cdot13\\cdot12\\cdot11\\cdot10\\cdot9\\cdot8!}{7!8!}\\\\\n&=\\cfrac{15\\cdot14\\cdot13\\cdot12\\cdot11\\cdot10\\cdot9}{1}\\\\\n&=15\\cdot14\\cdot13\\cdot12\\cdot11\\cdot10\\cdot9\\\\\n&=3003\\cdot\\cfrac{15\\cdot13\\cdot11\\cdot9}{3432}\\\\\n&=3003\\cdot5\\cdot13\\\\\n&=195195\\\\\n\\end{align*}\nFinal Answer: $\\boxed{195195}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{195195}",
+        "ground_truth": "By Pascal's Rule, \\begin{align*}\n\\binom{15}{7} &= \\binom{14}{6} + \\binom{14}{7} \\\\\n\\binom{15}{7} &= \\binom{14}{14-6} + \\binom{14}{7} \\\\\n\\binom{15}{7} &= \\binom{14}{8} + \\binom{14}{7} \\\\\n\\binom{15}{7} &= 3003 + 3432 \\\\\n\\binom{15}{7} &= \\boxed{6435}\n\\end{align*}"
+    }
+]

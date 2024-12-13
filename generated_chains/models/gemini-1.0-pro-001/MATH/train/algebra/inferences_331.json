@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind $A$ and $B$ such that\n\\[\\frac{3x+5}{x^2-x-42}=\\frac{A}{x-7}+\\frac{B}{x+6}.\\]Write your answer in the form $(A,B)$.",
+        "inference": "**Solution:**\n\nMultiply both sides by $(x-7)(x+6)$:\n\n$$3x+5=A(x+6)+B(x-7)$$\n\n$$3x+5=Ax+6A+Bx-7B$$\n\n$$3x+5=(A+B)x+(6A-7B)$$\n\nEquating coefficients:\n\n$$A+B=3\\Rightarrow B=3-A$$\n\n$$6A-7B=5\\Rightarrow 6A-7(3-A)=5$$\n\n$$6A-21+7A=5$$\n\n$$13A=26\\Rightarrow A=2$$\n\nSubstituting $A=2$ into $B=3-A$:\n\n$$B=3-2=\\boxed{1}$$\n\n**Final Answer:** $(2,1)$",
+        "ground_truth": "We factor the denominator in the left-hand side to get \\[\\frac{3x+5}{(x-7)(x+6)}= \\frac{A}{x - 7} + \\frac{B}{x + 6}.\\]We then multiply both sides by $(x - 7)(x + 6)$, to get \\[3x + 5 = A(x + 6) + B(x - 7).\\]We can solve for $A$ and $B$ by substituting suitable values of $x$.  For example, setting $x = 7$, the equation becomes $26 = 13A$, so $A = 2$.  Setting $x = -6$, the equation becomes $-13 = -13B$, so $B = 1$.  Therefore, $(A,B) = \\boxed{(2,1)}$."
+    },
+    {
+        "question": "**Solution:**\n\nMultiply both sides by $(x-7)(x+6)$:\n\n$$3x+5=A(x+6)+B(x-7)$$\n\n$$3x+5=Ax+6A+Bx-7B$$\n\n$$3x+5=(A+B)x+(6A-7B)$$\n\nEquating coefficients:\n\n$$A+B=3\\Rightarrow B=3-A$$\n\n$$6A-7B=5\\Rightarrow 6A-7(3-A)=5$$\n\n$$6A-21+7A=5$$\n\n$$13A=26\\Rightarrow A=2$$\n\nSubstituting $A=2$ into $B=3-A$:\n\n$$B=3-2=\\boxed{1}$$\n\n**Final Answer:** $(2,1)$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{(2,1)}$$",
+        "ground_truth": "We factor the denominator in the left-hand side to get \\[\\frac{3x+5}{(x-7)(x+6)}= \\frac{A}{x - 7} + \\frac{B}{x + 6}.\\]We then multiply both sides by $(x - 7)(x + 6)$, to get \\[3x + 5 = A(x + 6) + B(x - 7).\\]We can solve for $A$ and $B$ by substituting suitable values of $x$.  For example, setting $x = 7$, the equation becomes $26 = 13A$, so $A = 2$.  Setting $x = -6$, the equation becomes $-13 = -13B$, so $B = 1$.  Therefore, $(A,B) = \\boxed{(2,1)}$."
+    }
+]

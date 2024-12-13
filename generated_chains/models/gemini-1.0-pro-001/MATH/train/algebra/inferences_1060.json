@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $x + 2y= 4$ and $xy = -8$, what is the value of $x^2 + 4y^2$?",
+        "inference": "**Solution:**\n\n$$x + 2y= 4 \\Rightarrow x= 4-2y$$\n\n$$xy = -8 \\Rightarrow (4-2y)y = -8$$\n\n$$\\Rightarrow 4y - 2y^2 = -8$$\n\n$$\\Rightarrow 2y^2 - 4y -8=0$$\n\n$$\\Rightarrow y^2 - 2y - 4=0$$\n\n$$\\Rightarrow y^2 - 4y + 2y - 4=0$$\n\n$$\\Rightarrow y(y - 4) + 2(y - 4)=0$$\n\n$$\\Rightarrow (y - 4)(y + 2)=0$$\n\n$$\\Rightarrow y=4 \\ \\text{or} \\ y=-2$$\n\nIf $y=4$, then $x= 4-2(4) = -4$.\n\nIf $y=-2$, then $x= 4-2(-2) = 8$.\n\nTherefore, $x^2 + 4y^2 = (-4)^2 + 4(4)^2 = 16 + 64 = 80$ or $x^2 + 4y^2 = (8)^2 + 4(-2)^2 = 64 + 16 = 80$.\n\n$$Final Answer: \\boxed{80}. I hope it is correct.$$",
+        "ground_truth": "We see that $(x + 2y)^2 = (x^2 + 4y^2) + 4xy = 4^2 = 16$. We want to find $x^2 + 4y^2$ and are given $xy = -8$. So, $x^2 + 4y^2 + 4xy = x^2 + 4y^2 + 4(-8) = 16$. It follows that $x^2 + 4y^2 = \\boxed{48}$."
+    },
+    {
+        "question": "**Solution:**\n\n$$x + 2y= 4 \\Rightarrow x= 4-2y$$\n\n$$xy = -8 \\Rightarrow (4-2y)y = -8$$\n\n$$\\Rightarrow 4y - 2y^2 = -8$$\n\n$$\\Rightarrow 2y^2 - 4y -8=0$$\n\n$$\\Rightarrow y^2 - 2y - 4=0$$\n\n$$\\Rightarrow y^2 - 4y + 2y - 4=0$$\n\n$$\\Rightarrow y(y - 4) + 2(y - 4)=0$$\n\n$$\\Rightarrow (y - 4)(y + 2)=0$$\n\n$$\\Rightarrow y=4 \\ \\text{or} \\ y=-2$$\n\nIf $y=4$, then $x= 4-2(4) = -4$.\n\nIf $y=-2$, then $x= 4-2(-2) = 8$.\n\nTherefore, $x^2 + 4y^2 = (-4)^2 + 4(4)^2 = 16 + 64 = 80$ or $x^2 + 4y^2 = (8)^2 + 4(-2)^2 = 64 + 16 = 80$.\n\n$$Final Answer: \\boxed{80}. I hope it is correct.$$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{80}$$",
+        "ground_truth": "We see that $(x + 2y)^2 = (x^2 + 4y^2) + 4xy = 4^2 = 16$. We want to find $x^2 + 4y^2$ and are given $xy = -8$. So, $x^2 + 4y^2 + 4xy = x^2 + 4y^2 + 4(-8) = 16$. It follows that $x^2 + 4y^2 = \\boxed{48}$."
+    }
+]

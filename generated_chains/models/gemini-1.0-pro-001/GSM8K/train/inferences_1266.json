@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAida has twice as many dolls as Sophie, and Sophie has twice as many dolls as Vera. How many dolls do Aida, Sophie, and Vera have combined if Vera has 20 dolls?",
+        "inference": "1. Vera has 20 dolls.\n2. Sophie has twice as many dolls as Vera, so Sophie has $20*2=40$ dolls.\n3. Aida has twice as many dolls as Sophie, so Aida has $40*2=80$ dolls.\n4. Combined, the girls have a total of 20+40+80=140 dolls.\n\nI hope it is correct: $140$",
+        "ground_truth": "If Sophie has twice as many dolls as Vera, then she has 2 * 20 dolls = <<2*20=40>>40 dolls\nAida has 2 * 40 dolls = <<2*40=80>>80 dolls, twice the number Sophie has.\nIn total, they have 80 dolls + 40 dolls + 20 dolls = <<80+40+20=140>>140 dolls\n#### 140"
+    },
+    {
+        "question": "1. Vera has 20 dolls.\n2. Sophie has twice as many dolls as Vera, so Sophie has $20*2=40$ dolls.\n3. Aida has twice as many dolls as Sophie, so Aida has $40*2=80$ dolls.\n4. Combined, the girls have a total of 20+40+80=140 dolls.\n\nI hope it is correct: $140$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$140$",
+        "ground_truth": "If Sophie has twice as many dolls as Vera, then she has 2 * 20 dolls = <<2*20=40>>40 dolls\nAida has 2 * 40 dolls = <<2*40=80>>80 dolls, twice the number Sophie has.\nIn total, they have 80 dolls + 40 dolls + 20 dolls = <<80+40+20=140>>140 dolls\n#### 140"
+    }
+]

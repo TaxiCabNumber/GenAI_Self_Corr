@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nOn Monday at work, David produces $w$ widgets per hour, and works for $t$ hours. Exhausted by this work, on Tuesday, he decides to work for $2$ fewer hours, but manages to produce $4$ additional widgets per hour. If $w = 2t$, how many more widgets did David produce on Monday than on Tuesday?",
+        "inference": "Final Answer: \\\\boxed{12t - 8}. I hope it is correct. \n",
+        "ground_truth": "On Monday, David produces $w\\ \\frac{\\text{widgets}}{\\text{hour}} \\cdot t\\ \\text{hours} = wt\\ \\text{widgets}$.\n\nOn Tuesday, David produces $(w+4)\\ \\frac{\\text{widgets}}{\\text{hour}} \\cdot (t-2)\\ \\text{hours} = (w+4)(t-2)\\ \\text{widgets}$.\n\nSubstituting $w = 2t$, the difference in output between Monday and Tuesday is  \\begin{align*}wt - (w+4)(t-2) &= (2t)t - ((2t) + 4)(t-2) \\\\ &= 2t^2 - (2t^2 + 4t - 4t - 8) \\\\&= \\boxed{8}\n\\end{align*}widgets."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{12t - 8}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the original problem or question so I can assess the solution and provide a corrected final answer. \n",
+        "ground_truth": "On Monday, David produces $w\\ \\frac{\\text{widgets}}{\\text{hour}} \\cdot t\\ \\text{hours} = wt\\ \\text{widgets}$.\n\nOn Tuesday, David produces $(w+4)\\ \\frac{\\text{widgets}}{\\text{hour}} \\cdot (t-2)\\ \\text{hours} = (w+4)(t-2)\\ \\text{widgets}$.\n\nSubstituting $w = 2t$, the difference in output between Monday and Tuesday is  \\begin{align*}wt - (w+4)(t-2) &= (2t)t - ((2t) + 4)(t-2) \\\\ &= 2t^2 - (2t^2 + 4t - 4t - 8) \\\\&= \\boxed{8}\n\\end{align*}widgets."
+    }
+]

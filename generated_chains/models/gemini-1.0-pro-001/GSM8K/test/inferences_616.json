@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJane planted a beanstalk in her backyard. After the first week, it was 3 inches tall. It doubled in height the second week. It grew another 4 inches in the third week. How tall was the beanstalk after 3 weeks?",
+        "inference": "Week 1: 3 inches\nWeek 2: 3 * 2 = 6 inches\nWeek 3: 6 + 4 = 10 inches\nTotal Height: 3 + 6 + 10 = 19 inches\nI hope it is correct: 19 Inches",
+        "ground_truth": "It was 3 inches tall after the first week.\nAfter the second week, it was 2 * 3 inches = <<2*3=6>>6 inches tall.\nAfter the third week, it was 6 inches + 4 inches = <<6+4=10>>10 inches tall.\n#### 10"
+    },
+    {
+        "question": "Week 1: 3 inches\nWeek 2: 3 * 2 = 6 inches\nWeek 3: 6 + 4 = 10 inches\nTotal Height: 3 + 6 + 10 = 19 inches\nI hope it is correct: 19 Inches\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$19 Inches",
+        "ground_truth": "It was 3 inches tall after the first week.\nAfter the second week, it was 2 * 3 inches = <<2*3=6>>6 inches tall.\nAfter the third week, it was 6 inches + 4 inches = <<6+4=10>>10 inches tall.\n#### 10"
+    }
+]

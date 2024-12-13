@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nDiane bought twenty more apples than Cecile. If Cecile bought 15 apples, how many apples did they buy altogether?",
+        "inference": "Cecile bought 15 apples.\nDiane bought 20 more apples than Cecile.\nSo, Diane bought 15 + 20 = 35 apples.\nTherefore, they bought altogether 15 + 35 = 50 apples.\nI hope it is correct: 50",
+        "ground_truth": "Diane bought 15 + 20 = <<15+20=35>>35 apples.\nTherefore, they bought 15 + 35 = <<15+35=50>>50 apples altogether.\n#### 50"
+    },
+    {
+        "question": "Cecile bought 15 apples.\nDiane bought 20 more apples than Cecile.\nSo, Diane bought 15 + 20 = 35 apples.\nTherefore, they bought altogether 15 + 35 = 50 apples.\nI hope it is correct: 50\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 50",
+        "ground_truth": "Diane bought 15 + 20 = <<15+20=35>>35 apples.\nTherefore, they bought 15 + 35 = <<15+35=50>>50 apples altogether.\n#### 50"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind all real numbers $x$ such that $\\left(\\dfrac{x}{3}\\right)^3-3x^2+81x-729=25+2(5)(3)+9.$",
+        "inference": "$$\\left(\\dfrac{x}{3}\\right)^3-3x^2+81x-729=34$$\n\n$$\\dfrac{x^3}{27}-3x^2+81x-755=0$$\n\n$$x^3-27x^2+2187x-20415=0$$\n\n$$(x-3)(x^2-3x-6805)=0$$\n\n$$x=3\\quad\\text{or}\\quad x=\\dfrac{3\\pm\\sqrt{3^2-4(1)(-6805)}}{2(1)}$$\n\n$$x=3\\quad\\text{or}\\quad x=\\dfrac{3\\pm\\sqrt{27221}}{2}$$\n\n$$x=3\\quad\\text{or}\\quad x=\\dfrac{3\\pm161.75}{2}$$\n\n$$x=3\\quad\\text{or}\\quad x\\approx164.75\\quad\\text{or}\\quad x\\approx-80.75$$\n\n$$\\text{Final Answer: }\\boxed{x=-80.75, 3, and 164.75}. \\ \\text{I hope it is correct.}$$",
+        "ground_truth": "Both sides of this equation can be simplified using the Binomial Theorem. Note that $-729=(-9)^3$, $25=5^2$, and $9=3^2$. This gives us $\\left(\\dfrac{x}{3}-9\\right)^3=(5+3)^2=8^2=64$, so $\\dfrac{x}{3}-9=4$. Therefore, $x=3(4+9)=\\boxed{39}$."
+    },
+    {
+        "question": "$$\\left(\\dfrac{x}{3}\\right)^3-3x^2+81x-729=34$$\n\n$$\\dfrac{x^3}{27}-3x^2+81x-755=0$$\n\n$$x^3-27x^2+2187x-20415=0$$\n\n$$(x-3)(x^2-3x-6805)=0$$\n\n$$x=3\\quad\\text{or}\\quad x=\\dfrac{3\\pm\\sqrt{3^2-4(1)(-6805)}}{2(1)}$$\n\n$$x=3\\quad\\text{or}\\quad x=\\dfrac{3\\pm\\sqrt{27221}}{2}$$\n\n$$x=3\\quad\\text{or}\\quad x=\\dfrac{3\\pm161.75}{2}$$\n\n$$x=3\\quad\\text{or}\\quad x\\approx164.75\\quad\\text{or}\\quad x\\approx-80.75$$\n\n$$\\text{Final Answer: }\\boxed{x=-80.75, 3, and 164.75}. \\ \\text{I hope it is correct.}$$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{x=-80.75, 3, and 164.75}.$$",
+        "ground_truth": "Both sides of this equation can be simplified using the Binomial Theorem. Note that $-729=(-9)^3$, $25=5^2$, and $9=3^2$. This gives us $\\left(\\dfrac{x}{3}-9\\right)^3=(5+3)^2=8^2=64$, so $\\dfrac{x}{3}-9=4$. Therefore, $x=3(4+9)=\\boxed{39}$."
+    }
+]

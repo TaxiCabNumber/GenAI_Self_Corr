@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the largest value of $n$ such that $5x^2+nx+48$ can be factored as the product of two linear factors with integer coefficients.",
+        "inference": "$$5x^2+nx+48=(5x+a)(x+b) = 5x^2+(a+5)x+ab$$\nEquating coefficients, we get\n$$a+b=n \\text{ and } ab=48.$$\nSince $n$ is an integer, $a$ and $b$ must also be integers. The only pair of integers whose product is 48 and whose sum is less than 48 is $a=8, b=6$. Therefore, $n=a+b=8+6=\\boxed{14}$.\nFinal Answer: $\\boxed{14}$. I hope it is correct.",
+        "ground_truth": "The two factors of $5x^2+nx+48$ must be in the form $(5x+A)(x+B)$. $A$ and $B$ must be positive integers to form the largest value of $n$. Therefore, $AB=48$ and $5B+A=n$. To form the largest value of $n$, $B$ must equal $48$. Therefore, $A=1$. \\[5B+A=5(48)+1=\\boxed{241}\\]"
+    },
+    {
+        "question": "$$5x^2+nx+48=(5x+a)(x+b) = 5x^2+(a+5)x+ab$$\nEquating coefficients, we get\n$$a+b=n \\text{ and } ab=48.$$\nSince $n$ is an integer, $a$ and $b$ must also be integers. The only pair of integers whose product is 48 and whose sum is less than 48 is $a=8, b=6$. Therefore, $n=a+b=8+6=\\boxed{14}$.\nFinal Answer: $\\boxed{14}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$14$}",
+        "ground_truth": "The two factors of $5x^2+nx+48$ must be in the form $(5x+A)(x+B)$. $A$ and $B$ must be positive integers to form the largest value of $n$. Therefore, $AB=48$ and $5B+A=n$. To form the largest value of $n$, $B$ must equal $48$. Therefore, $A=1$. \\[5B+A=5(48)+1=\\boxed{241}\\]"
+    }
+]

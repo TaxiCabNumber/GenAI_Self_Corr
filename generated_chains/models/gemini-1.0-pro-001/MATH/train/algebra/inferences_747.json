@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the inverse of $f(x)=4-5x$?",
+        "inference": "To find the inverse of $f(x)$, we need to switch the roles of $x$ and $y$ and solve for $y$.\n\n$$y=4-5x$$\n$$x=4-5y$$\n$$5y=4-x$$\n$$y=\\frac{4-x}{5}$$\n$$f^{-1}(x)=\\frac{4-x}{5}$$\n\nFinal Answer: $\\boxed{f^{-1}(x)=\\frac{4-x}{5}}$. I hope it is correct",
+        "ground_truth": "If we let $g(x)$ denote the inverse to $f$ then we can evaluate $f$ at $g(x)$ to get  \\[f(g(x))=4-5g(x).\\]Since $g$ is the inverse to $f$, the left side is $x$ and  \\[x=4-5g(x).\\]Solving for $g(x)$, we find $g(x) = \\boxed{\\frac{4-x}{5}}$."
+    },
+    {
+        "question": "To find the inverse of $f(x)$, we need to switch the roles of $x$ and $y$ and solve for $y$.\n\n$$y=4-5x$$\n$$x=4-5y$$\n$$5y=4-x$$\n$$y=\\frac{4-x}{5}$$\n$$f^{-1}(x)=\\frac{4-x}{5}$$\n\nFinal Answer: $\\boxed{f^{-1}(x)=\\frac{4-x}{5}}$. I hope it is correct\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$f^{-1}(x)=\\frac{4-x}{5}$$",
+        "ground_truth": "If we let $g(x)$ denote the inverse to $f$ then we can evaluate $f$ at $g(x)$ to get  \\[f(g(x))=4-5g(x).\\]Since $g$ is the inverse to $f$, the left side is $x$ and  \\[x=4-5g(x).\\]Solving for $g(x)$, we find $g(x) = \\boxed{\\frac{4-x}{5}}$."
+    }
+]

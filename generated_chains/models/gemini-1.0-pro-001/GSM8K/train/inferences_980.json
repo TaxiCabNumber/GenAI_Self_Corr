@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA farm is growing corn in 2 fields. One of the fields has 13 full rows of corn cobs, and the other field has 16 full rows of corn cobs. If each row contains 4 corn cobs, how many corn cobs has the farm grown?",
+        "inference": "1 row has 4 corn cobs, so:\n13 rows have 13 * 4 = 52 cobs\n16 rows have 16 * 4 = 64 cobs\n\n52 cobs + 64 cobs = 116 cobs\n\nI hope it is correct: 116 $cobs$",
+        "ground_truth": "In the first field, there are 13 rows * 4 corn cobs/row = <<13*4=52>>52 corn cobs.\nIn the second field, there are 16 rows * 4 corn cobs/row = <<16*4=64>>64 corn cobs.\nSo the farm has grown a total of 52 corn cobs + 64 corn cobs = <<52+64=116>>116 corn cobs.\n#### 116"
+    },
+    {
+        "question": "1 row has 4 corn cobs, so:\n13 rows have 13 * 4 = 52 cobs\n16 rows have 16 * 4 = 64 cobs\n\n52 cobs + 64 cobs = 116 cobs\n\nI hope it is correct: 116 $cobs$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 116",
+        "ground_truth": "In the first field, there are 13 rows * 4 corn cobs/row = <<13*4=52>>52 corn cobs.\nIn the second field, there are 16 rows * 4 corn cobs/row = <<16*4=64>>64 corn cobs.\nSo the farm has grown a total of 52 corn cobs + 64 corn cobs = <<52+64=116>>116 corn cobs.\n#### 116"
+    }
+]

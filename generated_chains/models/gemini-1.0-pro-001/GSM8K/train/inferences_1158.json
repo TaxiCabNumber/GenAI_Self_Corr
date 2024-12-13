@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJames took a job delivering groceries in his neighborhood. He can carry 10 bags on each trip. If he takes 20 trips a day, how many bags does he deliver in 5 days?",
+        "inference": "1. Calculate the number of bags James can carry in one day: 10 bags/trip x 20 trips/day = 200 bags/day\n2. Multiply the number of bags per day by the number of days: 200 bags/day x 5 days = 1000 bags\nI hope it is correct: 1000 bags",
+        "ground_truth": "James delivers 10 x 20 = <<10*20=200>>200 bags a day.\nSo, he can deliver 200 x 5 = <<200*5=1000>>1000 bags in 5 days.\n#### 1000"
+    },
+    {
+        "question": "1. Calculate the number of bags James can carry in one day: 10 bags/trip x 20 trips/day = 200 bags/day\n2. Multiply the number of bags per day by the number of days: 200 bags/day x 5 days = 1000 bags\nI hope it is correct: 1000 bags\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 1000",
+        "ground_truth": "James delivers 10 x 20 = <<10*20=200>>200 bags a day.\nSo, he can deliver 200 x 5 = <<200*5=1000>>1000 bags in 5 days.\n#### 1000"
+    }
+]

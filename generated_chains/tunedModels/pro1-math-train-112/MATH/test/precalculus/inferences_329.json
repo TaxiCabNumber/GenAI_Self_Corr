@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the integer $n,$ $-90 \\le n \\le 90,$ such that $\\sin n^\\circ = \\sin 1021^\\circ.$",
+        "inference": "Since $\\sin (x+360^\\circ) = \\sin x$ for any angle $x,$ we have\n\n$$\\sin n^\\circ = \\sin (n+360^\\circ) = \\sin (n+3\\cdot 360^\\circ) = \\sin (n+3\\cdot 360^\\circ +360^\\circ) = \\sin (n+1080^\\circ).$$\n\nSince $1021^\\circ = 1080^\\circ + (-59)^\\circ,$ we have\n\n$$\\sin n^\\circ = \\sin (n+1080^\\circ) = \\sin (n+(-59)^\\circ).$$\n\nTherefore, $n+(-59)^\\circ = 1021^\\circ,$ so $n = 1021^\\circ - (-59)^\\circ = 1080^\\circ.$\n\nFinal Answer: $\\boxed{1080}.$ I hope it is correct.",
+        "ground_truth": "Since the sine function has period $360^\\circ,$\n\\[\\sin 1021^\\circ = \\sin (1021^\\circ - 3 \\cdot 360^\\circ) = \\sin (-59^\\circ),\\]so $n = \\boxed{-59}.$"
+    },
+    {
+        "question": "Since $\\sin (x+360^\\circ) = \\sin x$ for any angle $x,$ we have\n\n$$\\sin n^\\circ = \\sin (n+360^\\circ) = \\sin (n+3\\cdot 360^\\circ) = \\sin (n+3\\cdot 360^\\circ +360^\\circ) = \\sin (n+1080^\\circ).$$\n\nSince $1021^\\circ = 1080^\\circ + (-59)^\\circ,$ we have\n\n$$\\sin n^\\circ = \\sin (n+1080^\\circ) = \\sin (n+(-59)^\\circ).$$\n\nTherefore, $n+(-59)^\\circ = 1021^\\circ,$ so $n = 1021^\\circ - (-59)^\\circ = 1080^\\circ.$\n\nFinal Answer: $\\boxed{1080}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{1080}",
+        "ground_truth": "Since the sine function has period $360^\\circ,$\n\\[\\sin 1021^\\circ = \\sin (1021^\\circ - 3 \\cdot 360^\\circ) = \\sin (-59^\\circ),\\]so $n = \\boxed{-59}.$"
+    }
+]

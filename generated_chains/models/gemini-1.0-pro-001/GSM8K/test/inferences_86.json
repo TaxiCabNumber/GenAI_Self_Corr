@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nGreg has an alarm set to ring three times a day as a reminder. When the alarm goes off, it continues to ring until Greg turns it off. The first time it went off today, it rang four times. The second time it went off, it rang for three times as long as the first time. The third time, it rang for half as long as the second time. How many times did the alarm ring in all?",
+        "inference": "4 + 12 + 6 = 22\nI hope it is correct: 22",
+        "ground_truth": "The second time Greg\u2019s alarm went off, it rang three times as long as the first, so it rang 3 * 4 = <<3*4=12>>12 times the second time.\nThe third time it went off, it rang half as long as the second, so it rang 12 / 2 = <<12/2=6>>6 times the third time.\nIn all, Greg\u2019s alarm rang 4 + 12 + 6 = <<4+12+6=22>>22 times.\n#### 22"
+    },
+    {
+        "question": "4 + 12 + 6 = 22\nI hope it is correct: 22\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$22",
+        "ground_truth": "The second time Greg\u2019s alarm went off, it rang three times as long as the first, so it rang 3 * 4 = <<3*4=12>>12 times the second time.\nThe third time it went off, it rang half as long as the second, so it rang 12 / 2 = <<12/2=6>>6 times the third time.\nIn all, Greg\u2019s alarm rang 4 + 12 + 6 = <<4+12+6=22>>22 times.\n#### 22"
+    }
+]

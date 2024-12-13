@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nRationalize the denominator of $\\frac{\\sqrt{8}+\\sqrt{3}}{\\sqrt{2}+\\sqrt{3}}$. Express your answer in simplest form.",
+        "inference": "Solution:\n$$\\begin{align*}\\frac{\\sqrt{8}+\\sqrt{3}}{\\sqrt{2}+\\sqrt{3}}&=\\frac{(\\sqrt{8}+\\sqrt{3})(\\sqrt{8}-\\sqrt{3})}{(\\sqrt{2}+\\sqrt{3})(\\sqrt{8}-\\sqrt{3})}\\\\&=\\frac{\\sqrt{64}-\\sqrt{24}}{8-3}\\\\&=\\frac{8-2\\sqrt{6}}{5}\\\\&=\\frac{2(4-\\sqrt{6})}{5}\\\\&=\\frac{4-\\sqrt{6}}{5} \\end{align*}$$\nFinal Answer: $\\boxed{\\frac{4-\\sqrt{6}}{5}}.$ I hope it is correct.",
+        "ground_truth": "Multiplying top and bottom by the conjugate, we have $\\frac{\\sqrt{8}+\\sqrt{3}}{\\sqrt{2}+\\sqrt{3}} = \\frac{(\\sqrt{8}+\\sqrt{3})(\\sqrt{2}-\\sqrt{3})}{(\\sqrt{2}+\\sqrt{3})(\\sqrt{2}-\\sqrt{3})}$. Simplifying, we obtain $\\frac{\\sqrt{16}-\\sqrt{24}+\\sqrt{6}-\\sqrt{9}}{\\sqrt{4}-\\sqrt{9}} = \\frac{1-\\sqrt{6}}{-1} = \\boxed{\\sqrt{6}-1}$."
+    },
+    {
+        "question": "Solution:\n$$\\begin{align*}\\frac{\\sqrt{8}+\\sqrt{3}}{\\sqrt{2}+\\sqrt{3}}&=\\frac{(\\sqrt{8}+\\sqrt{3})(\\sqrt{8}-\\sqrt{3})}{(\\sqrt{2}+\\sqrt{3})(\\sqrt{8}-\\sqrt{3})}\\\\&=\\frac{\\sqrt{64}-\\sqrt{24}}{8-3}\\\\&=\\frac{8-2\\sqrt{6}}{5}\\\\&=\\frac{2(4-\\sqrt{6})}{5}\\\\&=\\frac{4-\\sqrt{6}}{5} \\end{align*}$$\nFinal Answer: $\\boxed{\\frac{4-\\sqrt{6}}{5}}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{\\frac{4-\\sqrt{6}}{5}}$$",
+        "ground_truth": "Multiplying top and bottom by the conjugate, we have $\\frac{\\sqrt{8}+\\sqrt{3}}{\\sqrt{2}+\\sqrt{3}} = \\frac{(\\sqrt{8}+\\sqrt{3})(\\sqrt{2}-\\sqrt{3})}{(\\sqrt{2}+\\sqrt{3})(\\sqrt{2}-\\sqrt{3})}$. Simplifying, we obtain $\\frac{\\sqrt{16}-\\sqrt{24}+\\sqrt{6}-\\sqrt{9}}{\\sqrt{4}-\\sqrt{9}} = \\frac{1-\\sqrt{6}}{-1} = \\boxed{\\sqrt{6}-1}$."
+    }
+]

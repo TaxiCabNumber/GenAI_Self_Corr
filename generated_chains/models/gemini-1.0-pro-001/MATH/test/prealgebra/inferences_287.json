@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSolve for $x$: $\\frac{x}{3}+\\frac{x}{4}=14$.",
+        "inference": "$$\\frac{x}{3}+\\frac{x}{4}=14$$\n$$4x+3x=14\\cdot12$$\n$$7x=168$$\n$$x=\\frac{168}{7}$$\n$$x=24$$\nFinal Answer: $\\boxed{24}$. I hope it is correct.",
+        "ground_truth": "To start, find a common denominator on the left side.  The lowest common multiple of 3 and 4 is 12, so this is the common denominator.  Rewrite the equation as: $$\\frac{4x}{12}+\\frac{3x}{12}=14$$$$\\frac{4x+3x}{12}=14$$$$\\frac{7x}{12}=14$$Now, multiply both sides of the equation by $\\frac{12}{7}$ to solve for $x$: $$\\frac{7x}{12}\\cdot\\frac{12}{7}=14\\cdot \\frac{12}{7}$$$$x=2\\cdot 12=\\boxed{24}$$"
+    },
+    {
+        "question": "$$\\frac{x}{3}+\\frac{x}{4}=14$$\n$$4x+3x=14\\cdot12$$\n$$7x=168$$\n$$x=\\frac{168}{7}$$\n$$x=24$$\nFinal Answer: $\\boxed{24}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{24}$$",
+        "ground_truth": "To start, find a common denominator on the left side.  The lowest common multiple of 3 and 4 is 12, so this is the common denominator.  Rewrite the equation as: $$\\frac{4x}{12}+\\frac{3x}{12}=14$$$$\\frac{4x+3x}{12}=14$$$$\\frac{7x}{12}=14$$Now, multiply both sides of the equation by $\\frac{12}{7}$ to solve for $x$: $$\\frac{7x}{12}\\cdot\\frac{12}{7}=14\\cdot \\frac{12}{7}$$$$x=2\\cdot 12=\\boxed{24}$$"
+    }
+]

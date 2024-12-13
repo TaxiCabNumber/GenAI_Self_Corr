@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind all real numbers $x$ satisfying \\[\\frac{2x-5}{x+3} \\ge 2.\\](Give your answer in interval notation.)",
+        "inference": "$$\\begin{split} \\frac{2x-5}{x+3} &\\ge 2   \\\\\\ 2x-5 &\\ge 2x+6   \\\\\\ -5 &\\ge 6 \\quad \\text{(This is not true.)}   \\end{split}$$\n\nFinal Answer: \\\\boxed{ \\varnothing }. I hope it is correct.",
+        "ground_truth": "Subtracting $2$ from both sides, we get\n\\begin{align*}\n \\frac{2x-5}{x+3} - 2 &\\ge 0 \\\\\n \\frac{2x-5 - 2(x+3)}{x+3} &\\geq 0 \\\\\n \\frac{-11}{x+3} &\\ge 0.\n\\end{align*}Therefore, we must have $x+3 < 0,$ so $x < -3.$ Therefore, the solution set is $\\boxed{ (-\\infty, -3) }.$"
+    },
+    {
+        "question": "$$\\begin{split} \\frac{2x-5}{x+3} &\\ge 2   \\\\\\ 2x-5 &\\ge 2x+6   \\\\\\ -5 &\\ge 6 \\quad \\text{(This is not true.)}   \\end{split}$$\n\nFinal Answer: \\\\boxed{ \\varnothing }. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{ \\varnothing }.$$",
+        "ground_truth": "Subtracting $2$ from both sides, we get\n\\begin{align*}\n \\frac{2x-5}{x+3} - 2 &\\ge 0 \\\\\n \\frac{2x-5 - 2(x+3)}{x+3} &\\geq 0 \\\\\n \\frac{-11}{x+3} &\\ge 0.\n\\end{align*}Therefore, we must have $x+3 < 0,$ so $x < -3.$ Therefore, the solution set is $\\boxed{ (-\\infty, -3) }.$"
+    }
+]

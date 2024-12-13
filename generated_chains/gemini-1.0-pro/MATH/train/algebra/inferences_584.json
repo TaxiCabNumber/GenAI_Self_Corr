@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind all values of $r$ such that $\\lfloor r \\rfloor + r = 12.2$.",
+        "inference": "The floor function $\\lfloor x \\rfloor$ gives the greatest integer less than or equal to $x$.  So $\\lfloor r \\rfloor + r = 12.2$ if and only if $r$ is between $\\lfloor 12.2$ and $12.2$.  Since $\\lfloor 12.2$ is $12$ by definition, the solution is those $r$ between $12$ and $12.2$.\nFinal Answer: $12 \\le r < 12.2$. I hope it is correct.",
+        "ground_truth": "First, we note that $r$ must be positive, since otherwise $\\lfloor r \\rfloor + r$ is nonpositive. Next, because $\\lfloor r \\rfloor$ is an integer and $\\lfloor r \\rfloor + r=12.2$, the decimal part of $r$ must be $0.2$.  Therefore, $r=n+0.2$ for some integer $n$, so that $\\lfloor r\\rfloor =n$ and $\\lfloor r \\rfloor + r = 2n+0.2 =12.2$. Therefore, $n=6$, and the only value of $r$ that satisfies the equation is $\\boxed{r=6.2}$."
+    },
+    {
+        "question": "The floor function $\\lfloor x \\rfloor$ gives the greatest integer less than or equal to $x$.  So $\\lfloor r \\rfloor + r = 12.2$ if and only if $r$ is between $\\lfloor 12.2$ and $12.2$.  Since $\\lfloor 12.2$ is $12$ by definition, the solution is those $r$ between $12$ and $12.2$.\nFinal Answer: $12 \\le r < 12.2$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{ 12 \\le r < 12.2 }$$",
+        "ground_truth": "First, we note that $r$ must be positive, since otherwise $\\lfloor r \\rfloor + r$ is nonpositive. Next, because $\\lfloor r \\rfloor$ is an integer and $\\lfloor r \\rfloor + r=12.2$, the decimal part of $r$ must be $0.2$.  Therefore, $r=n+0.2$ for some integer $n$, so that $\\lfloor r\\rfloor =n$ and $\\lfloor r \\rfloor + r = 2n+0.2 =12.2$. Therefore, $n=6$, and the only value of $r$ that satisfies the equation is $\\boxed{r=6.2}$."
+    }
+]

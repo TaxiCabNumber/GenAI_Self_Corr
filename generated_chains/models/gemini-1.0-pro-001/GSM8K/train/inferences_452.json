@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nEmily has 6 marbles. Megan gives Emily double the number she has. Emily then gives Megan back half of her new total plus 1. How many marbles does Emily have now?",
+        "inference": "6 + (6*2) = 18\n18 - ((18/2) + 1) = 6\n\nI hope it is correct: 6",
+        "ground_truth": "Megan gives Emily 6*2=<<6*2=12>>12 marbles.\nEmily then has 6+12=<<6+12=18>>18 marbles.\nEmily gives Megan 18/2+1=<<18/2+1=10>>10 marbles.\nEmily has 18-10=<<18-10=8>>8 marbles now.\n#### 8"
+    },
+    {
+        "question": "6 + (6*2) = 18\n18 - ((18/2) + 1) = 6\n\nI hope it is correct: 6\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$6",
+        "ground_truth": "Megan gives Emily 6*2=<<6*2=12>>12 marbles.\nEmily then has 6+12=<<6+12=18>>18 marbles.\nEmily gives Megan 18/2+1=<<18/2+1=10>>10 marbles.\nEmily has 18-10=<<18-10=8>>8 marbles now.\n#### 8"
+    }
+]

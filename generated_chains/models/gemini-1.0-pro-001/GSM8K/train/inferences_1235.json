@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nPenny has $20. Penny buys 4 pairs of socks for $2 a pair and a hat for $7. How much money does Penny have left?",
+        "inference": "1. Penny spends $4 x $2 = $8 on socks.\n2. Penny spends $7 on a hat.\n3. Penny spends a total of $8 + $7 = $15.\n4. Penny has $20 - $15 = $5 left.\nI hope it is correct: $5",
+        "ground_truth": "Penny buys 4 pairs of socks for $2 x 4 = $<<4*2=8>>8.\nIn total, Penny spent $8 + $7 = $<<8+7=15>>15 on 4 pairs of socks and a hat.\nPenny has $20 -$15 = $<<20-15=5>>5 left after buying 4 pairs of socks and a hat.\n#### 5"
+    },
+    {
+        "question": "1. Penny spends $4 x $2 = $8 on socks.\n2. Penny spends $7 on a hat.\n3. Penny spends a total of $8 + $7 = $15.\n4. Penny has $20 - $15 = $5 left.\nI hope it is correct: $5\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $5$",
+        "ground_truth": "Penny buys 4 pairs of socks for $2 x 4 = $<<4*2=8>>8.\nIn total, Penny spent $8 + $7 = $<<8+7=15>>15 on 4 pairs of socks and a hat.\nPenny has $20 -$15 = $<<20-15=5>>5 left after buying 4 pairs of socks and a hat.\n#### 5"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMarilyn wants to buy a pair of boots online. On Amazon.com, the boots cost $16 and shipping costs $4. On eBay, those same pair of shoes are only $13, but shipping costs twice as much as it does on Amazon. How much more expensive do the boots work out to be on eBay?",
+        "inference": "1. To find the total cost of the boots on Amazon, we add the price of the boots to the shipping cost: $16 + $4 = $20.\n2. To find the total cost of the boots on eBay, we add the price of the boots to twice the shipping cost on Amazon: $13 + 2 x $4 = $21.\n3. To find how much more expensive the boots are on eBay, we subtract the cost on Amazon from the cost on eBay: $21 - $20 = $1.\n\nI hope it is correct: $1$",
+        "ground_truth": "The total cost on Amazon.com is $16 + $4 = $<<16+4=20>>20\nShipping on eBay costs $4 x 2 = $<<4*2=8>>8\nThe total cost on eBay is $13 + $8 = $<<13+8=21>>21\nThe boots cost $21 - $20 = $<<21-20=1>>1 more on eBay\n#### 1"
+    },
+    {
+        "question": "1. To find the total cost of the boots on Amazon, we add the price of the boots to the shipping cost: $16 + $4 = $20.\n2. To find the total cost of the boots on eBay, we add the price of the boots to twice the shipping cost on Amazon: $13 + 2 x $4 = $21.\n3. To find how much more expensive the boots are on eBay, we subtract the cost on Amazon from the cost on eBay: $21 - $20 = $1.\n\nI hope it is correct: $1$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$1",
+        "ground_truth": "The total cost on Amazon.com is $16 + $4 = $<<16+4=20>>20\nShipping on eBay costs $4 x 2 = $<<4*2=8>>8\nThe total cost on eBay is $13 + $8 = $<<13+8=21>>21\nThe boots cost $21 - $20 = $<<21-20=1>>1 more on eBay\n#### 1"
+    }
+]

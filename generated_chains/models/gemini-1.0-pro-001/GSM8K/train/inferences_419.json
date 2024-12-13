@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nKenny played 10 hours of basketball last week. He ran for twice as long as he played basketball, and he practiced on the trumpet for twice as long as he ran. How many hours did Kenny practice on the trumpet last week?",
+        "inference": "Kenny played 10 hours of basketball.\nHe ran for twice as long as he played basketball, so he ran for 10 x 2 = 20 hours.\nHe practiced on the trumpet for twice as long as he ran, so he practiced on the trumpet for 20 x 2 = 40 hours.\nI hope it is correct: 40 hours",
+        "ground_truth": "Kenny ran for 10*2=<<10*2=20>>20 hours.\nKenny practiced the trumpet for 20*2=<<20*2=40>>40 hours.\n#### 40"
+    },
+    {
+        "question": "Kenny played 10 hours of basketball.\nHe ran for twice as long as he played basketball, so he ran for 10 x 2 = 20 hours.\nHe practiced on the trumpet for twice as long as he ran, so he practiced on the trumpet for 20 x 2 = 40 hours.\nI hope it is correct: 40 hours\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 40",
+        "ground_truth": "Kenny ran for 10*2=<<10*2=20>>20 hours.\nKenny practiced the trumpet for 20*2=<<20*2=40>>40 hours.\n#### 40"
+    }
+]

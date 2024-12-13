@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $f(x) = x - \\lfloor \\sqrt{x} \\rfloor^2$. What is $f(101) + f(102) + f(103) + \\cdots + f(110)$?",
+        "inference": "Final Answer: \\\\boxed{60}. I hope it is correct.",
+        "ground_truth": "If $101 \\le x \\le 110$, then notice that $10 = \\sqrt{100} < \\sqrt{x}< 11 = \\sqrt{121}$. Thus, $\\lfloor \\sqrt{x} \\rfloor^2 = 10^2 = 100$. The desired sum is then $(101 - 100) + (102 - 100) + \\cdots + (110 - 100) = 1 + 2 + \\cdots + 10 = \\frac{10 \\cdot 11}{2} = \\boxed{55}$."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{60}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need the context to identify any errors and provide the correct final answer. \n",
+        "ground_truth": "If $101 \\le x \\le 110$, then notice that $10 = \\sqrt{100} < \\sqrt{x}< 11 = \\sqrt{121}$. Thus, $\\lfloor \\sqrt{x} \\rfloor^2 = 10^2 = 100$. The desired sum is then $(101 - 100) + (102 - 100) + \\cdots + (110 - 100) = 1 + 2 + \\cdots + 10 = \\frac{10 \\cdot 11}{2} = \\boxed{55}$."
+    }
+]

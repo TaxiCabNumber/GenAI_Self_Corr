@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFor what real values of $a$ is the expression $\\frac{a+3}{a^2-4}$ undefined? List your answers in increasing order separated by commas.",
+        "inference": "The denominator, $a^2-4$, must be zero for the expression to be undefined. Therefore, $a^2-4=0$. Solving for $a$, we get $a=\\pm2$. In increasing order, the values are $-2$ and $2$.\n\nFinal Answer: $\\boxed{-2,2}.$ I hope it is correct.",
+        "ground_truth": "When the denominator is 0, the expression is undefined. Therefore, we set the denominator to 0 and solve: $$a^2-4=(a-2)(a+2)=0.$$ Therefore, the expression is undefined when $a=\\boxed{-2, 2}.$"
+    },
+    {
+        "question": "The denominator, $a^2-4$, must be zero for the expression to be undefined. Therefore, $a^2-4=0$. Solving for $a$, we get $a=\\pm2$. In increasing order, the values are $-2$ and $2$.\n\nFinal Answer: $\\boxed{-2,2}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{-2,2}$$",
+        "ground_truth": "When the denominator is 0, the expression is undefined. Therefore, we set the denominator to 0 and solve: $$a^2-4=(a-2)(a+2)=0.$$ Therefore, the expression is undefined when $a=\\boxed{-2, 2}.$"
+    }
+]

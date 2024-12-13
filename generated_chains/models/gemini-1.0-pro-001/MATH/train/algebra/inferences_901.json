@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nHow many real solutions are there for $x$ in the following equation: $$(x - 5x + 12)^2 + 1 = -|x|$$",
+        "inference": "$$(x - 5x + 12)^2 + 1 = -|x|$$\n$$(x - 5x + 12)^2 = -(|x| + 1)$$\n$$(x - 5x + 12)^2 \\le 0$$\n$$x - 5x + 12 = 0$$\n$$-4x = -12$$\n$$\\boxed{x = 3.} \\quad \\text{Final Answer}$$",
+        "ground_truth": "We can see that $(x - 5x + 12)^2$ must be nonnegative.  Thus $(x - 5x + 12)^2 + 1 > 0$.  But clearly, $-|x|$ is nonpositive. Thus there are $\\boxed{0}$ solutions to the given equation."
+    },
+    {
+        "question": "$$(x - 5x + 12)^2 + 1 = -|x|$$\n$$(x - 5x + 12)^2 = -(|x| + 1)$$\n$$(x - 5x + 12)^2 \\le 0$$\n$$x - 5x + 12 = 0$$\n$$-4x = -12$$\n$$\\boxed{x = 3.} \\quad \\text{Final Answer}$$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{\\text{No Solution}}$$",
+        "ground_truth": "We can see that $(x - 5x + 12)^2$ must be nonnegative.  Thus $(x - 5x + 12)^2 + 1 > 0$.  But clearly, $-|x|$ is nonpositive. Thus there are $\\boxed{0}$ solutions to the given equation."
+    }
+]

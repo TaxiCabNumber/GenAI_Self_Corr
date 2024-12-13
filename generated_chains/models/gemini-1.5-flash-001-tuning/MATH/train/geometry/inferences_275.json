@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn $\\triangle XYZ$, we have $\\angle X = 90^\\circ$ and $\\tan Z = 7$.  If $YZ = 100$, then what is $XY$?",
+        "inference": "Final Answer: $\\boxed{\\frac{100}{7}}$. I hope it is correct. \n",
+        "ground_truth": "[asy]\n\npair X,Y,Z;\n\nX = (0,0);\n\nY = (14,0);\n\nZ = (0,2);\n\ndraw(X--Y--Z--X);\n\ndraw(rightanglemark(Y,X,Z,23));\n\nlabel(\"$X$\",X,SW);\n\nlabel(\"$Y$\",Y,SE);\n\nlabel(\"$Z$\",Z,N);\n\nlabel(\"$100$\",(Y+Z)/2,NE);\n\nlabel(\"$k$\",(Z)/2,W);\n\nlabel(\"$7k$\",Y/2,S);\n\n[/asy]\n\nSince $\\triangle XYZ$ is a right triangle with $\\angle X = 90^\\circ$, we have $\\tan Z = \\frac{XY}{XZ}$.  Since $\\tan Z = 7$, we have $XY = 7k$ and $XZ = k$ for some value of $k$, as shown in the diagram.  Applying the Pythagorean Theorem gives $(7k)^2 + k^2 = 100^2$, so $50k^2 = 100^2$, which gives $k^2 = 100^2/50 = 200$.  Since $k$ must be positive, we have $k = \\sqrt{200} = 10\\sqrt{2}$, so $XY = 7k = \\boxed{70\\sqrt{2}}$."
+    },
+    {
+        "question": "Final Answer: $\\boxed{\\frac{100}{7}}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the original question and solution so I can identify any errors and provide the correct answer. \n",
+        "ground_truth": "[asy]\n\npair X,Y,Z;\n\nX = (0,0);\n\nY = (14,0);\n\nZ = (0,2);\n\ndraw(X--Y--Z--X);\n\ndraw(rightanglemark(Y,X,Z,23));\n\nlabel(\"$X$\",X,SW);\n\nlabel(\"$Y$\",Y,SE);\n\nlabel(\"$Z$\",Z,N);\n\nlabel(\"$100$\",(Y+Z)/2,NE);\n\nlabel(\"$k$\",(Z)/2,W);\n\nlabel(\"$7k$\",Y/2,S);\n\n[/asy]\n\nSince $\\triangle XYZ$ is a right triangle with $\\angle X = 90^\\circ$, we have $\\tan Z = \\frac{XY}{XZ}$.  Since $\\tan Z = 7$, we have $XY = 7k$ and $XZ = k$ for some value of $k$, as shown in the diagram.  Applying the Pythagorean Theorem gives $(7k)^2 + k^2 = 100^2$, so $50k^2 = 100^2$, which gives $k^2 = 100^2/50 = 200$.  Since $k$ must be positive, we have $k = \\sqrt{200} = 10\\sqrt{2}$, so $XY = 7k = \\boxed{70\\sqrt{2}}$."
+    }
+]

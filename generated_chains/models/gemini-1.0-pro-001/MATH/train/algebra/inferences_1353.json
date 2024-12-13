@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nDefine $a * b$ as $2a - b^2$. If $a * 5 = 9$, what is the value of $a$?",
+        "inference": "$$a * 5 = 9$$ \n\n$$2a - 5^2 = 9$$\n\n$$2a - 25 = 9$$\n\n$$2a = 34$$\n\n$$a = 17$$\n\nFinal Answer: \\boxed{$17$}. I hope it is correct.",
+        "ground_truth": "Substitute 5 for $b$ in the expression defining $a*b$ to find that $a*5=2a-25$.  Setting this equal to 9, we find  \\begin{align*}\n2a-25&=9 \\implies \\\\\n2a&=34 \\implies \\\\\na&=\\boxed{17}.\n\\end{align*}"
+    },
+    {
+        "question": "$$a * 5 = 9$$ \n\n$$2a - 5^2 = 9$$\n\n$$2a - 25 = 9$$\n\n$$2a = 34$$\n\n$$a = 17$$\n\nFinal Answer: \\boxed{$17$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{17}$$",
+        "ground_truth": "Substitute 5 for $b$ in the expression defining $a*b$ to find that $a*5=2a-25$.  Setting this equal to 9, we find  \\begin{align*}\n2a-25&=9 \\implies \\\\\n2a&=34 \\implies \\\\\na&=\\boxed{17}.\n\\end{align*}"
+    }
+]

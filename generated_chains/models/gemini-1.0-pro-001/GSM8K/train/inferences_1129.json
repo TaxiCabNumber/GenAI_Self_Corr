@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMartin is casting three bells for the church's belfry. The first bell takes 50 pounds of bronze, the second bell is twice the size of the first bell, and the third bell is four times the size of the second bell. How much bronze does he need total?",
+        "inference": "50lb + (2*50lb) + (4*(2*50lb)) = 50lb + 100lb + 400lb = 550lb\nI hope it is correct: 550",
+        "ground_truth": "First find the size of the second bell: 50 pounds * 2 = <<50*2=100>>100 pounds\nThen find the size of the third bell: 100 pounds * 4 = <<100*4=400>>400 pounds\nThen add the amount of bronze used for each bell to find the total: 100 pounds + 400 pounds + 50 pounds = <<100+400+50=550>>550 pounds\n#### 550"
+    },
+    {
+        "question": "50lb + (2*50lb) + (4*(2*50lb)) = 50lb + 100lb + 400lb = 550lb\nI hope it is correct: 550\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$550",
+        "ground_truth": "First find the size of the second bell: 50 pounds * 2 = <<50*2=100>>100 pounds\nThen find the size of the third bell: 100 pounds * 4 = <<100*4=400>>400 pounds\nThen add the amount of bronze used for each bell to find the total: 100 pounds + 400 pounds + 50 pounds = <<100+400+50=550>>550 pounds\n#### 550"
+    }
+]

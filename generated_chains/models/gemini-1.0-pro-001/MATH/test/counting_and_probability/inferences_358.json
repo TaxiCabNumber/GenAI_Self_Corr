@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA $4\\times 4\\times 4$ open cubical box contains 64 identical small cubes that exactly fill the box. How many of these small cubes touch the bottom or one of the four lateral sides of the box?",
+        "inference": "The cubes that touch the bottom are 16.\nThe cubes that touch one of the four lateral sides are 12 on each side, so 48 in total.\nIn total, 16 + 48 = 64 cubes touch the bottom or one of the four lateral sides of the box.\nFinal Answer: $\\boxed{64}$. I hope it is correct.",
+        "ground_truth": "We count the complement. A cube that does not touch the bottom or a lateral side either touches only the top side or no sides at all. These cubes form a $2\\times2\\times3$ prism, giving 12 cubes. These 12 cubes are subtracted from 64 to leave $\\boxed{52}$."
+    },
+    {
+        "question": "The cubes that touch the bottom are 16.\nThe cubes that touch one of the four lateral sides are 12 on each side, so 48 in total.\nIn total, 16 + 48 = 64 cubes touch the bottom or one of the four lateral sides of the box.\nFinal Answer: $\\boxed{64}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{64}. I hope it is correct.",
+        "ground_truth": "We count the complement. A cube that does not touch the bottom or a lateral side either touches only the top side or no sides at all. These cubes form a $2\\times2\\times3$ prism, giving 12 cubes. These 12 cubes are subtracted from 64 to leave $\\boxed{52}$."
+    }
+]

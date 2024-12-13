@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe ratio of boys to girls in a family is 5:7. The total number of children in the family is 180. If the boys are given $3900 to share, how much money does each boy receive?",
+        "inference": "The ratio of boys to girls is 5:7. This means that for every 5 boys, there are 7 girls.\nThe ratio's total parts are 5 + 7 = 12 parts\nSince there are 12 parts and the total number of children in the family is 180, each part represents 180/12 = 15 children.\nThe number of boys is 5 parts * 15 children/part = 75 boys\nEach boy receives $3900/75 boys = $52\nI hope it is correct: $52$ \n",
+        "ground_truth": "The total ratio representing the number of children in the family is 5+7 = <<5+7=12>>12\nFrom the total ratio of children in the family, 5/12 represent the number of boys, meaning that the number of boys in the family is 5/12*180 = <<5/12*180=75>>75\nIf the boys are given $3900 to share, each boy receives $3900/75 = $<<3900/75=52>>52\n#### 52"
+    },
+    {
+        "question": "The ratio of boys to girls is 5:7. This means that for every 5 boys, there are 7 girls.\nThe ratio's total parts are 5 + 7 = 12 parts\nSince there are 12 parts and the total number of children in the family is 180, each part represents 180/12 = 15 children.\nThe number of boys is 5 parts * 15 children/part = 75 boys\nEach boy receives $3900/75 boys = $52\nI hope it is correct: $52$ \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $52$ \n",
+        "ground_truth": "The total ratio representing the number of children in the family is 5+7 = <<5+7=12>>12\nFrom the total ratio of children in the family, 5/12 represent the number of boys, meaning that the number of boys in the family is 5/12*180 = <<5/12*180=75>>75\nIf the boys are given $3900 to share, each boy receives $3900/75 = $<<3900/75=52>>52\n#### 52"
+    }
+]

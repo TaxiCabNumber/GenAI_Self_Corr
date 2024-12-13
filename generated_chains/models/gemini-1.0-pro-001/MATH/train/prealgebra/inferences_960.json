@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind $PQ$ in the triangle below.\n\n\n[asy]\nunitsize(1inch);\npair P,Q,R;\nP = (0,0);\nQ= (sqrt(3),0);\nR = (0,1);\ndraw (P--Q--R--P,linewidth(0.9));\ndraw(rightanglemark(Q,P,R,3));\nlabel(\"$P$\",P,S);\nlabel(\"$Q$\",Q,S);\nlabel(\"$R$\",R,N);\nlabel(\"$9\\sqrt{3}$\",R/2,W);\nlabel(\"$30^\\circ$\",(1.25,0),N);\n[/asy]",
+        "inference": "Let $R$ be the midpoint of $PQ$. Then $RQ = PQ/2 = x$.\n\nIn the right triangle $RQP$, we have\n\n$$\\tan 30^\\circ = \\frac{RQ}{RP} = \\frac{x}{9\\sqrt{3}}.$$Solving for $x$, we get\n\n$$x = 9\\sqrt{3} \\tan 30^\\circ = 9.$$Therefore,\n\n$$PQ = 2RQ = 2x = \\boxed{18}.$$\nFinal Answer: $\\boxed{18}.$ I hope it is correct.",
+        "ground_truth": "Since $PQR$ is a 30-60-90 triangle, we have $PQ = PR\\sqrt{3} = 9\\sqrt{3}\\cdot \\sqrt{3} = 9\\cdot 3 = \\boxed{27}$."
+    },
+    {
+        "question": "Let $R$ be the midpoint of $PQ$. Then $RQ = PQ/2 = x$.\n\nIn the right triangle $RQP$, we have\n\n$$\\tan 30^\\circ = \\frac{RQ}{RP} = \\frac{x}{9\\sqrt{3}}.$$Solving for $x$, we get\n\n$$x = 9\\sqrt{3} \\tan 30^\\circ = 9.$$Therefore,\n\n$$PQ = 2RQ = 2x = \\boxed{18}.$$\nFinal Answer: $\\boxed{18}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$18$}.",
+        "ground_truth": "Since $PQR$ is a 30-60-90 triangle, we have $PQ = PR\\sqrt{3} = 9\\sqrt{3}\\cdot \\sqrt{3} = 9\\cdot 3 = \\boxed{27}$."
+    }
+]

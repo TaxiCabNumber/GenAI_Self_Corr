@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nLast year, the school library purchased 50 new books. This year, it purchased 3 times as many books. If the library had 100 books before it purchased new books last year, how many books are in the library now?",
+        "inference": "- Last year, the library purchased 50 new books, so it now has 100 + 50 = 150 books.\n- This year, the library purchased 3 times as many books as last year, so it purchased 50 * 3 = 150 books.\n- The library now has 150 + 150 = 300 books.\nI hope it is correct: 300 books",
+        "ground_truth": "Last year, there were a total of 100 + 50 = <<100+50=150>>150 books in the library.\nThe library purchased 50 x 3 = <<50*3=150>>150 books this year.\nTherefore, the library now has a total of 150 + 150 = <<150+150=300>>300 books.\n#### 300"
+    },
+    {
+        "question": "- Last year, the library purchased 50 new books, so it now has 100 + 50 = 150 books.\n- This year, the library purchased 3 times as many books as last year, so it purchased 50 * 3 = 150 books.\n- The library now has 150 + 150 = 300 books.\nI hope it is correct: 300 books\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$300",
+        "ground_truth": "Last year, there were a total of 100 + 50 = <<100+50=150>>150 books in the library.\nThe library purchased 50 x 3 = <<50*3=150>>150 books this year.\nTherefore, the library now has a total of 150 + 150 = <<150+150=300>>300 books.\n#### 300"
+    }
+]

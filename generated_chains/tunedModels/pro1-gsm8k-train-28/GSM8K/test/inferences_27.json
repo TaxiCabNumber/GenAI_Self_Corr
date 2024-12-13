@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nCynthia eats one serving of ice cream every night.  She buys cartons of ice cream with 15 servings of ice cream per carton at a cost of $4.00 per carton.  After 60 days, how much will she spend on ice cream?",
+        "inference": "1. Determine the number of cartons of ice cream Cynthia will need:\n60 days / 15 servings per carton = 4 cartons\n\n2. Calculate the total cost of the ice cream:\n4 cartons * $4.00 per carton = $16.00\n\nI hope it is correct: $16.00$",
+        "ground_truth": "Each container of ice cream has 15 servings and she eats 1 serving a night so after 60 days she will need 60/15 = 4 containers of ice cream\nIf each carton costs $4.00 and she needs 4 containers then it will cost her 4*4 = $<<4*4=16.00>>16.00\n#### 16"
+    },
+    {
+        "question": "1. Determine the number of cartons of ice cream Cynthia will need:\n60 days / 15 servings per carton = 4 cartons\n\n2. Calculate the total cost of the ice cream:\n4 cartons * $4.00 per carton = $16.00\n\nI hope it is correct: $16.00$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$=16",
+        "ground_truth": "Each container of ice cream has 15 servings and she eats 1 serving a night so after 60 days she will need 60/15 = 4 containers of ice cream\nIf each carton costs $4.00 and she needs 4 containers then it will cost her 4*4 = $<<4*4=16.00>>16.00\n#### 16"
+    }
+]

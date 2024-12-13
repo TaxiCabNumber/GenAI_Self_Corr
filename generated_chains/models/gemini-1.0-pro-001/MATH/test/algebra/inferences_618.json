@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhile watching a parade I saw some clowns and horses. I counted 30 legs and 10 heads. How many horses did I see in the parade?",
+        "inference": "Let clowns be $x$ and horses be $y$.\nAccording to the question, $2x + 4y = 30$ and $x + y = 10$.\nSolving these equations, we get $x = 5$ and $y = 5$.\n**Final Answer: \\boxed{$5$}. I hope it is correct.**",
+        "ground_truth": "Let the number of clowns in the parade be $c$ and the number of horses be $h$. We are looking for the value of $h$. Assuming that each clown has 2 legs and 1 head, and that each horse has 4 legs and 1 head, we can set up the following system of equations:\n\n\\begin{align*}\n2c+4h &= 30 \\\\\nc + h &= 10 \\\\\n\\end{align*}\n\nTo solve for $h$, we need to eliminate $c$ from the equations above. We can rewrite the second equation above as $c=10-h$, and substituting this into the first equation to eliminate $c$ gives $2(10-h)+4h = 30$, or $h=5$. Thus, there are $\\boxed{5}$ horses in the parade."
+    },
+    {
+        "question": "Let clowns be $x$ and horses be $y$.\nAccording to the question, $2x + 4y = 30$ and $x + y = 10$.\nSolving these equations, we get $x = 5$ and $y = 5$.\n**Final Answer: \\boxed{$5$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "**Final Answer: \\boxed{$5$}.**",
+        "ground_truth": "Let the number of clowns in the parade be $c$ and the number of horses be $h$. We are looking for the value of $h$. Assuming that each clown has 2 legs and 1 head, and that each horse has 4 legs and 1 head, we can set up the following system of equations:\n\n\\begin{align*}\n2c+4h &= 30 \\\\\nc + h &= 10 \\\\\n\\end{align*}\n\nTo solve for $h$, we need to eliminate $c$ from the equations above. We can rewrite the second equation above as $c=10-h$, and substituting this into the first equation to eliminate $c$ gives $2(10-h)+4h = 30$, or $h=5$. Thus, there are $\\boxed{5}$ horses in the parade."
+    }
+]

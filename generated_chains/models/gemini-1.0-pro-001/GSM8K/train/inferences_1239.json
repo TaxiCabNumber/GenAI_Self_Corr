@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTom decides to get a new floor for his room.  It cost $50 to remove the floor.  The new floor costs $1.25 per square foot and Tom's room is 8*7 feet.  How much did it cost to replace the floor?",
+        "inference": "First, we need to calculate the area of the room in square feet: Area = length * width = 8 ft * 7 ft = 56 sq ft.\n\nNext, we need to calculate the cost of the new floor: Cost of new floor = area * cost per square foot = 56 sq ft * $1.25/sq ft = $70.\n\nFinally, we need to add the cost of removing the old floor: Total cost = cost of new floor + cost of removing old floor = $70 + $50 = $120.\nI hope it is correct: $120$",
+        "ground_truth": "The room is 8*7=<<8*7=56>>56 square feet\nSo the new carpet cost 56*1.25=$<<56*1.25=70>>70\nSo the total cost was 50+70=$<<50+70=120>>120\n#### 120"
+    },
+    {
+        "question": "First, we need to calculate the area of the room in square feet: Area = length * width = 8 ft * 7 ft = 56 sq ft.\n\nNext, we need to calculate the cost of the new floor: Cost of new floor = area * cost per square foot = 56 sq ft * $1.25/sq ft = $70.\n\nFinally, we need to add the cost of removing the old floor: Total cost = cost of new floor + cost of removing old floor = $70 + $50 = $120.\nI hope it is correct: $120$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $120$",
+        "ground_truth": "The room is 8*7=<<8*7=56>>56 square feet\nSo the new carpet cost 56*1.25=$<<56*1.25=70>>70\nSo the total cost was 50+70=$<<50+70=120>>120\n#### 120"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nTwo fair 6-sided dice are rolled.  What is the probability at least one of the dice shows a 1?",
+        "inference": "Total number of outcomes = 36 (6 * 6)\nNumber of outcomes in which neither dice shows a 1 = 30 (5 * 6)\nNumber of outcomes in which at least one dice shows a 1 = 36 - 30 = 6\nProbability at least one of the dice shows a 1 = 6/36 = 1/6\n**Final Answer: \\boxed{1/6}. I hope it is correct.**",
+        "ground_truth": "There are 5 ways in which the first roll is not 1, and 5 ways in which the second roll is not 1, so there are $5 \\times 5 = 25$ ways in which neither die shows 1.  Therefore there are $36-25=11$ ways in which one or both dice show 1.  So the probability of this is $\\boxed{\\dfrac{11}{36}}$."
+    },
+    {
+        "question": "Total number of outcomes = 36 (6 * 6)\nNumber of outcomes in which neither dice shows a 1 = 30 (5 * 6)\nNumber of outcomes in which at least one dice shows a 1 = 36 - 30 = 6\nProbability at least one of the dice shows a 1 = 6/36 = 1/6\n**Final Answer: \\boxed{1/6}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{1/6}",
+        "ground_truth": "There are 5 ways in which the first roll is not 1, and 5 ways in which the second roll is not 1, so there are $5 \\times 5 = 25$ ways in which neither die shows 1.  Therefore there are $36-25=11$ ways in which one or both dice show 1.  So the probability of this is $\\boxed{\\dfrac{11}{36}}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhen the decimal $0.1\\overline{23}$ is written as a fraction $\\frac{a}{b}$ with $a$ and $b$ being positive integers with a greatest common divisor of 1, what is $a+b$?",
+        "inference": "Let $x = 0.1\\overline{23}$. Then $100x = 12.3\\overline{23}$. Subtracting the first equation from the second, we get $99x = 12.2$. Dividing both sides by $11$, we get $9x = 1.1$. Dividing both sides by $9$, we get $x = 0.1\\overline{23} = \\frac{1}{9}$. Therefore, $a = 1$ and $b = 9$, so $a + b = 1 + 9 = \\boxed{10}$.\nFinal Answer: $\\boxed{10}$. I hope it is correct.",
+        "ground_truth": "We can rewrite $0.1\\overline{23}$ as $0.1$ + $0.0\\overline{23}$. The first decimal is simply $\\frac{1}{10}$. Let the second decimal be $x$. Multiplying by 100, we have $100x = 2.3\\overline{23}$, which gives $99x = 2.3 \\implies x = \\frac{23}{990}$. Therefore, $0.1\\overline{23} = \\frac{1}{10} + \\frac{23}{990} = \\frac{61}{495}$. Thus $a+b=61+495 = \\boxed{556}$."
+    },
+    {
+        "question": "Let $x = 0.1\\overline{23}$. Then $100x = 12.3\\overline{23}$. Subtracting the first equation from the second, we get $99x = 12.2$. Dividing both sides by $11$, we get $9x = 1.1$. Dividing both sides by $9$, we get $x = 0.1\\overline{23} = \\frac{1}{9}$. Therefore, $a = 1$ and $b = 9$, so $a + b = 1 + 9 = \\boxed{10}$.\nFinal Answer: $\\boxed{10}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{10}",
+        "ground_truth": "We can rewrite $0.1\\overline{23}$ as $0.1$ + $0.0\\overline{23}$. The first decimal is simply $\\frac{1}{10}$. Let the second decimal be $x$. Multiplying by 100, we have $100x = 2.3\\overline{23}$, which gives $99x = 2.3 \\implies x = \\frac{23}{990}$. Therefore, $0.1\\overline{23} = \\frac{1}{10} + \\frac{23}{990} = \\frac{61}{495}$. Thus $a+b=61+495 = \\boxed{556}$."
+    }
+]

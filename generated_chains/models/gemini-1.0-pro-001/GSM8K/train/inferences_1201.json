@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTwice Betty's age is the cost of a pack of nuts. Doug, Betty's friend, is 40 years old. If the sum of their ages is 90, and Betty wants to buy 20 packs of the nuts, calculate the amount of money she'll pay for the packs of nuts.",
+        "inference": "1) Betty is 90 - 40 = 50 years old.\n2) The cost of a pack of nuts is 2 * 50 = 100.\n3) The total cost of 20 packs of nuts is 100 * 20 = 2000.\n\nI hope it is correct: $2000$",
+        "ground_truth": "If Doug, Betty's friend, is 40 years old, and the sum of their ages is 90, Betty is 90-40 = <<90-40=50>>50 years old.\nSince twice Betty's age is the cost of a pack of nuts, a pack of nuts is sold at 2*$50 = $<<2*50=100>>100\nIf Betty wants to buy 20 packs of the nuts, she'll have to pay 20*$100 = $<<20*100=2000>>2000\n#### 2000"
+    },
+    {
+        "question": "1) Betty is 90 - 40 = 50 years old.\n2) The cost of a pack of nuts is 2 * 50 = 100.\n3) The total cost of 20 packs of nuts is 100 * 20 = 2000.\n\nI hope it is correct: $2000$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $2000$",
+        "ground_truth": "If Doug, Betty's friend, is 40 years old, and the sum of their ages is 90, Betty is 90-40 = <<90-40=50>>50 years old.\nSince twice Betty's age is the cost of a pack of nuts, a pack of nuts is sold at 2*$50 = $<<2*50=100>>100\nIf Betty wants to buy 20 packs of the nuts, she'll have to pay 20*$100 = $<<20*100=2000>>2000\n#### 2000"
+    }
+]

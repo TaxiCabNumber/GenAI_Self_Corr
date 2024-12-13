@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nOur school's girls volleyball team has 14 players, including a set of 3 triplets: Alicia, Amanda, and Anna.  In how many ways can we choose 6 starters if all three triplets are in the starting lineup?",
+        "inference": "We can treat the triplets as a single unit, so we have 12 players to choose from. \n$$_{12}C_6=\\frac{12!}{6!(12-6)!}=\\frac{12!}{6!6!}=\\frac{12\\cdot11\\cdot10\\cdot9\\cdot8\\cdot7}{6\\cdot5\\cdot4\\cdot3\\cdot2\\cdot1}=924$$\n\nFinal Answer: \\boxed{924}. I hope it is correct.",
+        "ground_truth": "If all triplets are in the starting lineup, we are choosing the 3 remaining starters from 11 players, which can be done in  $\\binom{11}{3} = \\boxed{165}$ ways."
+    },
+    {
+        "question": "We can treat the triplets as a single unit, so we have 12 players to choose from. \n$$_{12}C_6=\\frac{12!}{6!(12-6)!}=\\frac{12!}{6!6!}=\\frac{12\\cdot11\\cdot10\\cdot9\\cdot8\\cdot7}{6\\cdot5\\cdot4\\cdot3\\cdot2\\cdot1}=924$$\n\nFinal Answer: \\boxed{924}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{924}",
+        "ground_truth": "If all triplets are in the starting lineup, we are choosing the 3 remaining starters from 11 players, which can be done in  $\\binom{11}{3} = \\boxed{165}$ ways."
+    }
+]

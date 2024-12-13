@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBill is trying to count the toddlers at his daycare, but they keep running around. He double-counts 8 toddlers and misses 3 who are hiding. If Bill thinks he counted 26 toddlers, how many are there really?",
+        "inference": "1. Add the number of toddlers that were double- counted to the number of toddlers that were missed: 8 + 3 = 11\n2. Subtract the sum from the number of toddlers Bill thinks he counted: 26 - 11 = 15\nI hope it is correct: 15",
+        "ground_truth": "First subtract the 8 toddlers Bill double-counted from his count: 26 toddlers - 8 toddlers = <<26-8=18>>18 toddlers\nThen add the 3 toddlers he missed to find the real count: 18 toddlers + 3 toddlers = <<18+3=21>>21 toddlers\n#### 21"
+    },
+    {
+        "question": "1. Add the number of toddlers that were double- counted to the number of toddlers that were missed: 8 + 3 = 11\n2. Subtract the sum from the number of toddlers Bill thinks he counted: 26 - 11 = 15\nI hope it is correct: 15\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$15",
+        "ground_truth": "First subtract the 8 toddlers Bill double-counted from his count: 26 toddlers - 8 toddlers = <<26-8=18>>18 toddlers\nThen add the 3 toddlers he missed to find the real count: 18 toddlers + 3 toddlers = <<18+3=21>>21 toddlers\n#### 21"
+    }
+]

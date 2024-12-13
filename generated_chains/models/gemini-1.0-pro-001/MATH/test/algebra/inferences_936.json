@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the slope of a line perpendicular to the line containing the points $(-1,2)$ and $(1,-2)$? Express your answer as a common fraction.",
+        "inference": "The slope of a line perpendicular to another line is the negative reciprocal of the slope of the given line. \nFind the slope of the given line using the slope formula:\n$$ m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{-2 - 2}{1 - (-1)} = \\frac{-4}{2} = -2 $$\nThe slope of a line perpendicular to the given line is the negative reciprocal of -2, which is 1/2.\n$$ \\boxed{\\text{Final Answer: }\\frac{1}{2}} $$",
+        "ground_truth": "The slope of the line containing $(-1, 2)$ and $(1, -2)$ is $\\frac{2 - (-2)}{(-1) - 1} = -2$.  Since the other line is perpendicular to this one its slope is the negative reciprocal of $-2$ giving $\\boxed{\\frac{1}{2}}$."
+    },
+    {
+        "question": "The slope of a line perpendicular to another line is the negative reciprocal of the slope of the given line. \nFind the slope of the given line using the slope formula:\n$$ m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{-2 - 2}{1 - (-1)} = \\frac{-4}{2} = -2 $$\nThe slope of a line perpendicular to the given line is the negative reciprocal of -2, which is 1/2.\n$$ \\boxed{\\text{Final Answer: }\\frac{1}{2}} $$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$ \\boxed{\\text{Final Answer: }-\\frac{1}{2}} $$",
+        "ground_truth": "The slope of the line containing $(-1, 2)$ and $(1, -2)$ is $\\frac{2 - (-2)}{(-1) - 1} = -2$.  Since the other line is perpendicular to this one its slope is the negative reciprocal of $-2$ giving $\\boxed{\\frac{1}{2}}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nFinley went to the grocery store and bought rice, beans, and pork for use in their home. It took her 20 more minutes to cook pork than rice, while beans took half the combined cooking time of pork and rice. If it took her 30 minutes to cook rice, how long in minutes did it take to cook all the food?",
+        "inference": "Rice took 30 minutes to cook.\nPork took 20 minutes longer than rice, so it took 30 + 20 = 50 minutes to cook pork.\nBeans took half the combined cooking time of pork and rice, so it took (50 + 30) / 2 = 40 minutes to cook beans.\nTotal cooking time = 30 + 50 + 40 = 120 minutes.\nI hope it is correct: 120 minutes",
+        "ground_truth": "If rice took thirty minutes to cook, pork took 20+30 = <<20+30=50>>50 minutes.\nThe total cooking time for pork and rice is 50+30 = <<50+30=80>>80 minutes.\nThe beans cooked 1/2*80 = <<80*1/2=40>>40 minutes to cook.\nThe total amount of time taken to cook all the food is 40+50+30 = <<40+50+30=120>>120 minutes.\n#### 120"
+    },
+    {
+        "question": "Rice took 30 minutes to cook.\nPork took 20 minutes longer than rice, so it took 30 + 20 = 50 minutes to cook pork.\nBeans took half the combined cooking time of pork and rice, so it took (50 + 30) / 2 = 40 minutes to cook beans.\nTotal cooking time = 30 + 50 + 40 = 120 minutes.\nI hope it is correct: 120 minutes\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$120",
+        "ground_truth": "If rice took thirty minutes to cook, pork took 20+30 = <<20+30=50>>50 minutes.\nThe total cooking time for pork and rice is 50+30 = <<50+30=80>>80 minutes.\nThe beans cooked 1/2*80 = <<80*1/2=40>>40 minutes to cook.\nThe total amount of time taken to cook all the food is 40+50+30 = <<40+50+30=120>>120 minutes.\n#### 120"
+    }
+]

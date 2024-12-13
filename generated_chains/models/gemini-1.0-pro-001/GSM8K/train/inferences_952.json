@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThis week, the fishmonger sold 50 kg of salmon. He sold three times more the following week. What was the total amount of fish sold in two weeks?",
+        "inference": "50 kg of salmon were sold during the first week.\nThree times more were sold the following week.\nSo, 3 * 50 = 150 kg were sold the second week.\n150 kg + 50 kg = 200 kg\nTotal = 200 kg\nI hope it is correct: 200 kg",
+        "ground_truth": "The following week, he sold 50 x 3 = <<50*3=150>>150 kg of salmon.\nSo he sold 50 + 150 = <<50+150=200>>200 kg of fish.\n#### 200"
+    },
+    {
+        "question": "50 kg of salmon were sold during the first week.\nThree times more were sold the following week.\nSo, 3 * 50 = 150 kg were sold the second week.\n150 kg + 50 kg = 200 kg\nTotal = 200 kg\nI hope it is correct: 200 kg\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$150",
+        "ground_truth": "The following week, he sold 50 x 3 = <<50*3=150>>150 kg of salmon.\nSo he sold 50 + 150 = <<50+150=200>>200 kg of fish.\n#### 200"
+    }
+]

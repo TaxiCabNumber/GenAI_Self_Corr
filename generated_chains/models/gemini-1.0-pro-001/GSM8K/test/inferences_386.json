@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTo have the car for the weekend, Wilson's report card needs to show that he received 80 or higher in his math class.  His math grade is calculated by the average of 5 test scores.  On those tests, he received: 65, 94, 81, 86 and 74.  What is his current math grade?",
+        "inference": "1. Add the test scores together: 65 + 94 + 81 + 86 + 74 = 390\n2. Divide the sum by the number of tests: 390 / 5 = 78\n3. His current math grade is 78\nI hope it is correct: I am currently at 78",
+        "ground_truth": "He received 65, 94, 81, 86 and a 74 on his 5 math tests so that's 65+94+81+86+74 = <<400=400>>400\nHis math grade is calculated by the average test grade on his 5 tests so his math grade is 400/5 = <<400/5=80>>80\n#### 80"
+    },
+    {
+        "question": "1. Add the test scores together: 65 + 94 + 81 + 86 + 74 = 390\n2. Divide the sum by the number of tests: 390 / 5 = 78\n3. His current math grade is 78\nI hope it is correct: I am currently at 78\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$78",
+        "ground_truth": "He received 65, 94, 81, 86 and a 74 on his 5 math tests so that's 65+94+81+86+74 = <<400=400>>400\nHis math grade is calculated by the average test grade on his 5 tests so his math grade is 400/5 = <<400/5=80>>80\n#### 80"
+    }
+]

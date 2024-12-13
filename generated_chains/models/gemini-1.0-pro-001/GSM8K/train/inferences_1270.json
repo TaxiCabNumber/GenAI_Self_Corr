@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nDanielle bought a new house for $280k. She paid a $40k deposit on the house, and pays the rest using a mortgage that is spread out over 10 years. Danielle makes equal payments every month and at the end of the 10 years, the entire balance will be paid off. How much, in thousands of dollars, does Danielle pay each month?",
+        "inference": "1. Figure out how much Danielle borrowed.\n2. Convert the 10-year period into months.\n3. Divide the amount borrowed by the number of months to get the monthly payment.\n\n1. Danielle borrowed $240k ($280k - $40k).\n2. 10 years = 10 * 12 = 120 months.\n3. Monthly payment = $240k / 120 = $2k.\n\nI hope it is correct: 2 $",
+        "ground_truth": "After paying the deposit, Danielle still has to pay a total of $280k purchase price - $40k deposit = $<<280-40=240>>240k via her mortgage.\nAs the mortgage is over 10 years, Danielle\u2019s payments need to total $240k mortgage balance / 10 years = $<<240/10=24>>24k per year.\nSo each month, Danielle has to pay $24k per year / 12 months in a year = $2k per month.\n#### 2"
+    },
+    {
+        "question": "1. Figure out how much Danielle borrowed.\n2. Convert the 10-year period into months.\n3. Divide the amount borrowed by the number of months to get the monthly payment.\n\n1. Danielle borrowed $240k ($280k - $40k).\n2. 10 years = 10 * 12 = 120 months.\n3. Monthly payment = $240k / 120 = $2k.\n\nI hope it is correct: 2 $\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "2000 $",
+        "ground_truth": "After paying the deposit, Danielle still has to pay a total of $280k purchase price - $40k deposit = $<<280-40=240>>240k via her mortgage.\nAs the mortgage is over 10 years, Danielle\u2019s payments need to total $240k mortgage balance / 10 years = $<<240/10=24>>24k per year.\nSo each month, Danielle has to pay $24k per year / 12 months in a year = $2k per month.\n#### 2"
+    }
+]

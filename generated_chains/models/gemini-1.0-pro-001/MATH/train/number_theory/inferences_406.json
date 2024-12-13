@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nGiven that $a$ is a multiple of $456$, find the greatest common divisor of $3a^3+a^2+4a+57$ and $a$.",
+        "inference": "$$3a^3+a^2+4a+57=a(3a^2+a+4)+57$$ \nSince $a$ is a multiple of $456$, $a=456k$ for some integer $k$. Substituting this into the expression, we get:\n$$3a^3+a^2+4a+57=3(456k)^3+(456k)^2+4(456k)+57$$ \n$$=3(92256k^3)+20736k^2+1824k+57$$\n$$=276768k^3+20736k^2+1824k+57$$ \nSince $276768k^3+20736k^2+1824k+57$ is a multiple of $456$, it follows that $\\gcd(3a^3+a^2+4a+57,a)=\\boxed{456}$.\nFinal Answer: $\\boxed{456}$. I hope it is correct.",
+        "ground_truth": "We use the Euclidean Algorithm.  \\begin{align*}\n\\text{gcd}\\,(3a^3+a^2+4a+57,a)\n&=\\text{gcd}\\,(3a^3+a^2+4a+57-(3a^2+a+4)a,a)\\\\\n&=\\text{gcd}\\,(57,a).\n\\end{align*}Since $57$ is a divisor of $456$, and $a$ is a multiple of $456$, the greatest common divisor is $\\boxed{57}$."
+    },
+    {
+        "question": "$$3a^3+a^2+4a+57=a(3a^2+a+4)+57$$ \nSince $a$ is a multiple of $456$, $a=456k$ for some integer $k$. Substituting this into the expression, we get:\n$$3a^3+a^2+4a+57=3(456k)^3+(456k)^2+4(456k)+57$$ \n$$=3(92256k^3)+20736k^2+1824k+57$$\n$$=276768k^3+20736k^2+1824k+57$$ \nSince $276768k^3+20736k^2+1824k+57$ is a multiple of $456$, it follows that $\\gcd(3a^3+a^2+4a+57,a)=\\boxed{456}$.\nFinal Answer: $\\boxed{456}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{1}$$",
+        "ground_truth": "We use the Euclidean Algorithm.  \\begin{align*}\n\\text{gcd}\\,(3a^3+a^2+4a+57,a)\n&=\\text{gcd}\\,(3a^3+a^2+4a+57-(3a^2+a+4)a,a)\\\\\n&=\\text{gcd}\\,(57,a).\n\\end{align*}Since $57$ is a divisor of $456$, and $a$ is a multiple of $456$, the greatest common divisor is $\\boxed{57}$."
+    }
+]

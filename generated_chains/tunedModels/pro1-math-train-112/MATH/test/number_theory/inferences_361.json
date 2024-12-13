@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nConvert $\\frac{21}{2^2 \\cdot 5^7}$ to a terminating decimal.",
+        "inference": "$$\\frac{21}{2^2 \\cdot 5^7} = \\frac{21}{4 \\cdot 78125} = \\frac{21}{312500} = 0.0000672$$\n\nFinal Answer: \\boxed{0.0000672}. I hope it is correct.",
+        "ground_truth": "A terminating decimal can be written in the form $\\frac{a}{10^b}$, where $a$ and $b$ are integers. So we try to get a denominator of the form $10^b$: $$\\frac{21}{2^2\\cdot5^7}\\cdot\\frac{2^5}{2^5}=\\frac{21\\cdot32}{10^7}=\\frac{672}{10^7}=\\boxed{.0000672}.$$"
+    },
+    {
+        "question": "$$\\frac{21}{2^2 \\cdot 5^7} = \\frac{21}{4 \\cdot 78125} = \\frac{21}{312500} = 0.0000672$$\n\nFinal Answer: \\boxed{0.0000672}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{0.0000672}",
+        "ground_truth": "A terminating decimal can be written in the form $\\frac{a}{10^b}$, where $a$ and $b$ are integers. So we try to get a denominator of the form $10^b$: $$\\frac{21}{2^2\\cdot5^7}\\cdot\\frac{2^5}{2^5}=\\frac{21\\cdot32}{10^7}=\\frac{672}{10^7}=\\boxed{.0000672}.$$"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBernie has 4 dogs. They each need a certain amount of exercise per day. The first needs to walk 1 mile. The second needs to walk 4 miles. The third needs to walk 3 miles. On average, they need to walk 3 miles per day. How many miles does the last dog need?",
+        "inference": "1. Find the total mileage needed for the 3 dogs. 1 + 4 + 3 = 8\n2. Multiply the daily average by the number of dogs. 3 * 4 = 12 \n3. Find the remaining miles needed. 12 - 8 = 4\nI hope it is correct: 4",
+        "ground_truth": "The total walk distance must be 12 miles because 4 x 3 = <<4*3=12>>12\nThe first three walk a total of 8 miles because 1 + 4 + 3 = <<1+4+3=8>>8\nThe last one needs 4 miles because 12 - 8 = <<12-8=4>>4\n#### 4"
+    },
+    {
+        "question": "1. Find the total mileage needed for the 3 dogs. 1 + 4 + 3 = 8\n2. Multiply the daily average by the number of dogs. 3 * 4 = 12 \n3. Find the remaining miles needed. 12 - 8 = 4\nI hope it is correct: 4\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "4",
+        "ground_truth": "The total walk distance must be 12 miles because 4 x 3 = <<4*3=12>>12\nThe first three walk a total of 8 miles because 1 + 4 + 3 = <<1+4+3=8>>8\nThe last one needs 4 miles because 12 - 8 = <<12-8=4>>4\n#### 4"
+    }
+]

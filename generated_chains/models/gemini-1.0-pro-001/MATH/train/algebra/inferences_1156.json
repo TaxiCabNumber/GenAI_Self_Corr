@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nExpand $(x+10)(2y+10)$.",
+        "inference": "First, multiply $x$ by $2y$: $2xy$.\nNext, multiply $x$ by $10$: $10x$.\nThen, multiply $10$ by $2y$: $20y$.\nFinally, multiply $10$ by $10$: $100$.\nSo, the final answer is: $2xy+10x+20y+100$.\n\nFinal Answer: $\\boxed{2xy+10x+20y+100}$. I hope it is correct.",
+        "ground_truth": "We apply the distributive property repeatedly:\n\n\\begin{align*}\n(x+10)(2y+10) &= x(2y+10) + 10(2y+10)\\\\\n&= x\\cdot 2y + x\\cdot 10 + 10\\cdot 2y + 10\\cdot 10\\\\\n&= \\boxed{2xy + 10x + 20y + 100}.\n\\end{align*}"
+    },
+    {
+        "question": "First, multiply $x$ by $2y$: $2xy$.\nNext, multiply $x$ by $10$: $10x$.\nThen, multiply $10$ by $2y$: $20y$.\nFinally, multiply $10$ by $10$: $100$.\nSo, the final answer is: $2xy+10x+20y+100$.\n\nFinal Answer: $\\boxed{2xy+10x+20y+100}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$2xy+10x+20y+100$}",
+        "ground_truth": "We apply the distributive property repeatedly:\n\n\\begin{align*}\n(x+10)(2y+10) &= x(2y+10) + 10(2y+10)\\\\\n&= x\\cdot 2y + x\\cdot 10 + 10\\cdot 2y + 10\\cdot 10\\\\\n&= \\boxed{2xy + 10x + 20y + 100}.\n\\end{align*}"
+    }
+]

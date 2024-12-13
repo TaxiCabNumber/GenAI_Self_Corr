@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe sides of triangle $PQR$ are tangent to a circle with center $C$ as shown. Given that $\\angle PQR = 63^\\circ$ and $\\angle QPR = 59^\\circ$, find $\\angle QRC$, in degrees.\n\n[asy]\n\nunitsize(1.0 cm);\n\npair Q, P, R, C;\n\nQ = (2.43,3.46);\n\nP = (0,0);\n\nR = (4.43,0);\n\nC = incenter(Q,P,R);\n\ndraw(Q--P--R--cycle);\n\ndraw(incircle(Q,P,R));\n\ndraw(R--C);\n\nlabel(\"$Q$\", Q, N);\n\nlabel(\"$P$\", P, SW);\n\nlabel(\"$R$\", R, SE);\n\nlabel(\"$C$\", C, N);\n\n[/asy]",
+        "inference": "Final Answer: $\\boxed{109^\\circ}$. I hope it is correct.",
+        "ground_truth": "The circle with center $C$ is the incircle of $\\triangle PQR$. So, any segment from a vertex of the triangle to $C$ is an angle bisector.\n\nThe sum of the measures of the internal angles of a triangle is $180^\\circ$, so\n\n\\begin{align*}\n\\angle QRP &= 180^\\circ - \\angle PQR - \\angle QPR \\\\\n&= 180^\\circ - 63^\\circ - 59^\\circ\\\\\n&= 58^\\circ.\n\\end{align*}Since $\\overline{RC}$ bisects $\\angle QRP$, we have $\\angle QRC = \\frac{58^\\circ}{2} = \\boxed{29^\\circ}$."
+    },
+    {
+        "question": "Final Answer: $\\boxed{109^\\circ}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the problem you are referring to so I can help you find the correct solution. I need the context of the problem to understand what you are asking. \n",
+        "ground_truth": "The circle with center $C$ is the incircle of $\\triangle PQR$. So, any segment from a vertex of the triangle to $C$ is an angle bisector.\n\nThe sum of the measures of the internal angles of a triangle is $180^\\circ$, so\n\n\\begin{align*}\n\\angle QRP &= 180^\\circ - \\angle PQR - \\angle QPR \\\\\n&= 180^\\circ - 63^\\circ - 59^\\circ\\\\\n&= 58^\\circ.\n\\end{align*}Since $\\overline{RC}$ bisects $\\angle QRP$, we have $\\angle QRC = \\frac{58^\\circ}{2} = \\boxed{29^\\circ}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFor real numbers $t,$ the point\n\\[(x,y) = (5 \\cos 2t, 3 \\sin 2t)\\]is plotted.  All the plotted points lie on what kind of curve?\n\n(A) Line\n(B) Circle\n(C) Parabola\n(D) Ellipse\n(E) Hyperbola\n\nEnter the letter of the correct option.",
+        "inference": "The parametric equations of the curve are\n$$x=5\\cos 2t, \\quad y=3\\sin 2t.$$\n\nSquaring and adding, we get\n$$x^2+y^2=25\\cos^2 2t+9\\sin^2 2t=25\\left(\\frac{1+\\cos 4t}{2}\\right)+9\\left(\\frac{1-\\cos 4t}{2}\\right)$$\n\n$$=12+8\\cos 4t.$$\n\nThus, the curve is an ellipse.\n\nFinal Answer: \\\\boxed{D}. I hope it is correct.",
+        "ground_truth": "Let $x = 5 \\cos 2t$ and $y = 3 \\sin 2t.$  Then\n\\[\\frac{x^2}{25} + \\frac{y^2}{9} = \\cos^2 2t + \\sin^2 2t = 1,\\]so all the plotted points lie on an ellipse.  The answer is $\\boxed{\\text{(D)}}.$"
+    },
+    {
+        "question": "The parametric equations of the curve are\n$$x=5\\cos 2t, \\quad y=3\\sin 2t.$$\n\nSquaring and adding, we get\n$$x^2+y^2=25\\cos^2 2t+9\\sin^2 2t=25\\left(\\frac{1+\\cos 4t}{2}\\right)+9\\left(\\frac{1-\\cos 4t}{2}\\right)$$\n\n$$=12+8\\cos 4t.$$\n\nThus, the curve is an ellipse.\n\nFinal Answer: \\\\boxed{D}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{D}",
+        "ground_truth": "Let $x = 5 \\cos 2t$ and $y = 3 \\sin 2t.$  Then\n\\[\\frac{x^2}{25} + \\frac{y^2}{9} = \\cos^2 2t + \\sin^2 2t = 1,\\]so all the plotted points lie on an ellipse.  The answer is $\\boxed{\\text{(D)}}.$"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the equation of the oblique asymptote of the graph of\n\\[y = \\frac{4x^2 - 10x + 7}{2x - 5}.\\]Enter your equation in the form \"$y = mx + b$\".",
+        "inference": "Solution:\nFirst, we divide the numerator by the denominator using polynomial long division:\n\\[\\begin{array}{c|ccccc}\n2x & 4x^2 & -10x & +7 & = & 2x^2-5x-\\frac{5}{2}\\\\\n\\cline{2-6}\n2x-5 & 4x^2 & -10x & +7 \\\\\\\n\\multicolumn{4}{r}{\\qquad-4x^2+10x}\\\\\n\\multicolumn{4}{r}{\\qquad\\qquad\\qquad-\\frac{5}{2}}\n\\end{array}.\\]\nSo,\n\\[y = 2x^2-5x-\\frac{5}{2} + \\frac{\\frac{5}{2}}{2x-5}.\\]\nThe oblique asymptote is the graph of the quotient, so the desired equation is $y = 2x - 5$.\nFinal Answer: $\\boxed{y = 2x - 5}.$ I hope it is correct.",
+        "ground_truth": "We can write\n\\[y = \\frac{4x^2 - 10x + 7}{2x - 5} = \\frac{2x(2x - 5) + 7}{2x - 5} = 2x + \\frac{7}{2x - 5}.\\]Thus, the equation of the oblique asymptote is $\\boxed{y = 2x}.$"
+    },
+    {
+        "question": "Solution:\nFirst, we divide the numerator by the denominator using polynomial long division:\n\\[\\begin{array}{c|ccccc}\n2x & 4x^2 & -10x & +7 & = & 2x^2-5x-\\frac{5}{2}\\\\\n\\cline{2-6}\n2x-5 & 4x^2 & -10x & +7 \\\\\\\n\\multicolumn{4}{r}{\\qquad-4x^2+10x}\\\\\n\\multicolumn{4}{r}{\\qquad\\qquad\\qquad-\\frac{5}{2}}\n\\end{array}.\\]\nSo,\n\\[y = 2x^2-5x-\\frac{5}{2} + \\frac{\\frac{5}{2}}{2x-5}.\\]\nThe oblique asymptote is the graph of the quotient, so the desired equation is $y = 2x - 5$.\nFinal Answer: $\\boxed{y = 2x - 5}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$y = 2x - 5$}",
+        "ground_truth": "We can write\n\\[y = \\frac{4x^2 - 10x + 7}{2x - 5} = \\frac{2x(2x - 5) + 7}{2x - 5} = 2x + \\frac{7}{2x - 5}.\\]Thus, the equation of the oblique asymptote is $\\boxed{y = 2x}.$"
+    }
+]

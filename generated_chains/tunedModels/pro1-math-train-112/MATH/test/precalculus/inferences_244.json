@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $\\tan x+\\tan y=4$ and $\\cot x+\\cot y=5$, compute $\\tan (x+y)$.",
+        "inference": "$$\\tan (x+y)=\\frac{\\tan x+\\tan y}{1-\\tan x\\tan y}=\\frac{4}{1-4}=-1$$\n\nFinal Answer: $\\boxed{-1}$. I hope it is correct.",
+        "ground_truth": "We have\n\\[\\cot x+\\cot y= \\frac{1}{\\tan x} + \\frac{1}{\\tan y} = \\frac{\\tan x+\\tan y}{\\tan x\\tan y},\\]so $\\frac{4}{\\tan x \\tan y} = 5,$ or $\\tan x\\tan y=\\frac45$.\n\nThus, by the tangent addition formula,\n\\[\\tan (x+y)=\\frac{\\tan x+\\tan y}{1-\\tan x\\tan y}=\\boxed{20}.\\]"
+    },
+    {
+        "question": "$$\\tan (x+y)=\\frac{\\tan x+\\tan y}{1-\\tan x\\tan y}=\\frac{4}{1-4}=-1$$\n\nFinal Answer: $\\boxed{-1}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{-1}",
+        "ground_truth": "We have\n\\[\\cot x+\\cot y= \\frac{1}{\\tan x} + \\frac{1}{\\tan y} = \\frac{\\tan x+\\tan y}{\\tan x\\tan y},\\]so $\\frac{4}{\\tan x \\tan y} = 5,$ or $\\tan x\\tan y=\\frac45$.\n\nThus, by the tangent addition formula,\n\\[\\tan (x+y)=\\frac{\\tan x+\\tan y}{1-\\tan x\\tan y}=\\boxed{20}.\\]"
+    }
+]

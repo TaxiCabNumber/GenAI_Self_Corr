@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe average (mean) of 20 numbers is 30, and the average of 30 other numbers is 20. What is the average of all 50 numbers?",
+        "inference": "Let $$x_1, x_2, \\cdots x_{20}$$ be the 20 numbers with a mean of 30, and let $$y_1, y_2, \\cdots y_{30}$$ be the 30 numbers with a mean of 20. Then the mean of all 50 numbers is\n$$\\frac{x_1 + x_2 + \\cdots + x_{20} + y_1 + y_2 + \\cdots + y_{30}}{50}.$$\n\nBy definition of mean, we have\n$$\\frac{x_1 + x_2 + \\cdots + x_{20}}{20} = 30 \\quad \\Rightarrow \\quad x_1 + x_2 + \\cdots + x_{20} = 20 \\cdot 30 = 600,$$\n\nand\n$$\\frac{y_1 + y_2 + \\cdots + y_{30}}{30} = 20 \\quad \\Rightarrow \\quad y_1 + y_2 + \\cdots + y_{30} = 30 \\cdot 20 = 600.$$\n\nThus, the mean of all 50 numbers is\n$$\\frac{600 + 600}{50} = \\frac{1200}{50} = \\boxed{24}.$$\n\nFinal Answer: $\\boxed{24}$. I hope it is correct.",
+        "ground_truth": "The sum of the 50 numbers is $20\\cdot 30+30\\cdot 20=1200$. Their average is $1200/50=\\boxed{24}$."
+    },
+    {
+        "question": "Let $$x_1, x_2, \\cdots x_{20}$$ be the 20 numbers with a mean of 30, and let $$y_1, y_2, \\cdots y_{30}$$ be the 30 numbers with a mean of 20. Then the mean of all 50 numbers is\n$$\\frac{x_1 + x_2 + \\cdots + x_{20} + y_1 + y_2 + \\cdots + y_{30}}{50}.$$\n\nBy definition of mean, we have\n$$\\frac{x_1 + x_2 + \\cdots + x_{20}}{20} = 30 \\quad \\Rightarrow \\quad x_1 + x_2 + \\cdots + x_{20} = 20 \\cdot 30 = 600,$$\n\nand\n$$\\frac{y_1 + y_2 + \\cdots + y_{30}}{30} = 20 \\quad \\Rightarrow \\quad y_1 + y_2 + \\cdots + y_{30} = 30 \\cdot 20 = 600.$$\n\nThus, the mean of all 50 numbers is\n$$\\frac{600 + 600}{50} = \\frac{1200}{50} = \\boxed{24}.$$\n\nFinal Answer: $\\boxed{24}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{24}",
+        "ground_truth": "The sum of the 50 numbers is $20\\cdot 30+30\\cdot 20=1200$. Their average is $1200/50=\\boxed{24}$."
+    }
+]

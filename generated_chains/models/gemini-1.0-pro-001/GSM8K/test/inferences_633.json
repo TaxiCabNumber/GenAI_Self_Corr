@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBob is 75 miles ahead of Tom, driving 55 miles per hour. Tom is driving 70 miles per hour. How long will it take Tom to catch up with Bob?",
+        "inference": "1) Let \"t\" be the time in hours it takes Tom to catch up with Bob.\n2) In \"t\" hours, Bob will travel 55t miles.\n3) In \"t\" hours, Tom will travel 70t miles.\n4) To catch up with Bob, Tom must travel 75 miles more than Bob.\n5) So, we have the equation: 70t = 55t + 75\n6) Solving for \"t\":\n    a) 70t - 55t = 75\n    b) 15t = 75\n    c) t = 75/15\n    d) t = 5\nI hope it is correct: 5 hours",
+        "ground_truth": "Tom is driving at 70 miles per hour to Bob's 55 miles per hour, meaning Tom is gaining at a rate of 70 mph - 55 mph = <<70-55=15>>15 mph.\nBob is 75 miles ahead of Tom, and if Tom is gaining 15 mph on him, it will take Tom 75 miles / 15 mph = <<75/15=5>>5 hours to catch up with Bob.\n#### 5"
+    },
+    {
+        "question": "1) Let \"t\" be the time in hours it takes Tom to catch up with Bob.\n2) In \"t\" hours, Bob will travel 55t miles.\n3) In \"t\" hours, Tom will travel 70t miles.\n4) To catch up with Bob, Tom must travel 75 miles more than Bob.\n5) So, we have the equation: 70t = 55t + 75\n6) Solving for \"t\":\n    a) 70t - 55t = 75\n    b) 15t = 75\n    c) t = 75/15\n    d) t = 5\nI hope it is correct: 5 hours\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 5",
+        "ground_truth": "Tom is driving at 70 miles per hour to Bob's 55 miles per hour, meaning Tom is gaining at a rate of 70 mph - 55 mph = <<70-55=15>>15 mph.\nBob is 75 miles ahead of Tom, and if Tom is gaining 15 mph on him, it will take Tom 75 miles / 15 mph = <<75/15=5>>5 hours to catch up with Bob.\n#### 5"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nOur school's girls volleyball team has 14 players, including a set of 3 triplets: Alicia, Amanda, and Anna.  In how many ways can we choose 6 starters if exactly one of the triplets is in the starting lineup?",
+        "inference": "First, choose which triplet will be in the starting lineup. There are 3 choices: Alicia, Amanda, or Anna.  Once one triplet is chosen, there are 13 players left to choose from.  To choose 5 starters from the remaining 13 players, there are 13 choose 5 ways.  The total number of ways to choose 6 starters with exactly one triplet in the lineup is 3 * 13 choose 5 = 3 * 1287 = 3861.\nFinal Answer: \\boxed{3861}. I hope it is correct.",
+        "ground_truth": "If exactly one of the triplets is in the lineup, we have 3 choices for which triplet to put in the starting lineup, and then 11 people to choose from for the remaining 5 spots.  So the answer is $3 \\times \\binom{11}{5} = 3 \\times 462 = \\boxed{1386}$."
+    },
+    {
+        "question": "First, choose which triplet will be in the starting lineup. There are 3 choices: Alicia, Amanda, or Anna.  Once one triplet is chosen, there are 13 players left to choose from.  To choose 5 starters from the remaining 13 players, there are 13 choose 5 ways.  The total number of ways to choose 6 starters with exactly one triplet in the lineup is 3 * 13 choose 5 = 3 * 1287 = 3861.\nFinal Answer: \\boxed{3861}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{3861}",
+        "ground_truth": "If exactly one of the triplets is in the lineup, we have 3 choices for which triplet to put in the starting lineup, and then 11 people to choose from for the remaining 5 spots.  So the answer is $3 \\times \\binom{11}{5} = 3 \\times 462 = \\boxed{1386}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nPoint $D$ is on side $AC$ of triangle $ABC$, $\\angle ABD=15^{\\circ}$ and  $\\angle DBC=50^{\\circ}$. What is the measure of angle $BAD$, in degrees?\n\n[asy]draw((-43,0)--(43,0)--(43,40)--cycle);\ndraw((-4,0)--(43,40));\ndraw((39,4)--(39,0));\ndraw((39,4)--(43,4));\ndraw((-1,36)--(22.5,26),Arrow);\nlabel(\"$15^{\\circ}$\",(-1,36),W);\nlabel(\"$50^{\\circ}$\",(36,30),S);\nlabel(\"D\",(-4,0),S);\nlabel(\"A\",(-43,0),W);\nlabel(\"B\",(43,40),N);\nlabel(\"C\",(43,0),E);\n[/asy]",
+        "inference": "In triangle $ABD$, we have:\n\n$$\\angle ABD=15^{\\circ}$$\n$$\\angle BAD+?+50^{\\circ}=180^{\\circ} \\quad \\Rightarrow$$\n\n$$?+50^{\\circ}=180^{\\circ}-15^{\\circ}$$\n$$?\\boxed{=115^{\\circ}}$$\n\nFinal Answer: $\\boxed{115^{\\circ}}$. I hope it is correct.",
+        "ground_truth": "From triangle $ABC$, we have $\\angle A = 180^\\circ - \\angle C - \\angle ABC = 180^\\circ - 90^\\circ - (50^\\circ + 15^\\circ) = 90^\\circ - 65^\\circ = \\boxed{25^\\circ}$."
+    },
+    {
+        "question": "In triangle $ABD$, we have:\n\n$$\\angle ABD=15^{\\circ}$$\n$$\\angle BAD+?+50^{\\circ}=180^{\\circ} \\quad \\Rightarrow$$\n\n$$?+50^{\\circ}=180^{\\circ}-15^{\\circ}$$\n$$?\\boxed{=115^{\\circ}}$$\n\nFinal Answer: $\\boxed{115^{\\circ}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$115^{\\circ}$}",
+        "ground_truth": "From triangle $ABC$, we have $\\angle A = 180^\\circ - \\angle C - \\angle ABC = 180^\\circ - 90^\\circ - (50^\\circ + 15^\\circ) = 90^\\circ - 65^\\circ = \\boxed{25^\\circ}$."
+    }
+]

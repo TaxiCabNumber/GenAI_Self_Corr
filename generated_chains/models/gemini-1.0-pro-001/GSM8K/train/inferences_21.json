@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nEach bird eats 12 beetles per day, each snake eats 3 birds per day, and each jaguar eats 5 snakes per day. If there are 6 jaguars in a forest, how many beetles are eaten each day?",
+        "inference": "- Jaguar eats 5 snakes per day, so 6 jaguars will eat 6 * 5 = 30 snakes per day.\n- Each snake eats 3 birds per day, so 30 snakes will eat 30 * 3 = 90 birds per day.\n- Each bird eats 12 beetles per day, so 90 birds will eat 90 * 12 =1080 beetles per day.\nI hope it is correct: 1080",
+        "ground_truth": "First find the total number of snakes eaten: 5 snakes/jaguar * 6 jaguars = <<5*6=30>>30 snakes\nThen find the total number of birds eaten per day: 30 snakes * 3 birds/snake = <<30*3=90>>90 snakes\nThen multiply the number of snakes by the number of beetles per snake to find the total number of beetles eaten per day: 90 snakes * 12 beetles/snake = <<90*12=1080>>1080 beetles\n#### 1080"
+    },
+    {
+        "question": "- Jaguar eats 5 snakes per day, so 6 jaguars will eat 6 * 5 = 30 snakes per day.\n- Each snake eats 3 birds per day, so 30 snakes will eat 30 * 3 = 90 birds per day.\n- Each bird eats 12 beetles per day, so 90 birds will eat 90 * 12 =1080 beetles per day.\nI hope it is correct: 1080\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$1080",
+        "ground_truth": "First find the total number of snakes eaten: 5 snakes/jaguar * 6 jaguars = <<5*6=30>>30 snakes\nThen find the total number of birds eaten per day: 30 snakes * 3 birds/snake = <<30*3=90>>90 snakes\nThen multiply the number of snakes by the number of beetles per snake to find the total number of beetles eaten per day: 90 snakes * 12 beetles/snake = <<90*12=1080>>1080 beetles\n#### 1080"
+    }
+]

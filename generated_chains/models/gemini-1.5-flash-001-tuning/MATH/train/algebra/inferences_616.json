@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe sum of three consecutive one-digit, positive, odd integers is one-seventh of the product of the same three integers. What is the middle integer when the three integers are listed in ascending order?",
+        "inference": "Let the three integers be $x-2$, $x$, and $x+2$.  We are given that\n\\[(x - 2) + x + (x + 2) = \\frac{1}{7} (x - 2)(x)(x + 2).\\]This simplifies to $3x = \\frac{1}{7} (x^3 - 4x)$.  Multiplying both sides by 7 gives $21x = x^3 - 4x$, or $x^3 - 25x = 0$.  Factoring, we get $x(x - 5)(x + 5) = 0$, so $x = 0$, 5, or $-5$.  Since the integers are positive, $x = 5$, and the middle integer is $\\boxed{5}$. Final Answer: $\\boxed{5}$. I hope it is correct. \n",
+        "ground_truth": "Represent the three integers as $n-2$, $n$, and $n+2$, where $n$ is the middle integer.  The problem states that  \\[\nn(n-2)(n+2)=7(n+(n+2)+(n-2)),\n\\] which simplifies to $(n-2)(n+2)=21$.  Since $7\\cdot3$ and $21\\cdot1$ are the only representations of 21 as a product of two positive integers, we see that $n-2=3$ and $n+2=7$ which implies $n=\\boxed{5}$."
+    },
+    {
+        "question": "Let the three integers be $x-2$, $x$, and $x+2$.  We are given that\n\\[(x - 2) + x + (x + 2) = \\frac{1}{7} (x - 2)(x)(x + 2).\\]This simplifies to $3x = \\frac{1}{7} (x^3 - 4x)$.  Multiplying both sides by 7 gives $21x = x^3 - 4x$, or $x^3 - 25x = 0$.  Factoring, we get $x(x - 5)(x + 5) = 0$, so $x = 0$, 5, or $-5$.  Since the integers are positive, $x = 5$, and the middle integer is $\\boxed{5}$. Final Answer: $\\boxed{5}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct.  The middle integer is $\\boxed{5}$. \n",
+        "ground_truth": "Represent the three integers as $n-2$, $n$, and $n+2$, where $n$ is the middle integer.  The problem states that  \\[\nn(n-2)(n+2)=7(n+(n+2)+(n-2)),\n\\] which simplifies to $(n-2)(n+2)=21$.  Since $7\\cdot3$ and $21\\cdot1$ are the only representations of 21 as a product of two positive integers, we see that $n-2=3$ and $n+2=7$ which implies $n=\\boxed{5}$."
+    }
+]

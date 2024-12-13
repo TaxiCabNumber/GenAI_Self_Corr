@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nOur basketball team has 10 players, including Steve and Danny.  We need to divide into two teams of 5 for an intra-squad scrimmage.  In how many ways can we do this if Steve and Danny insist on playing on opposing teams?",
+        "inference": "We can first form one team with Steve, which has $C(9,4)=126$ ways.  No matter how we did this, there is only one way to form the opposing team with Danny.  Thus, the total number of ways to divide the teams is $126 \\cdot 1$.  \nFinal Answer: \\boxed{126}. I hope it is correct.",
+        "ground_truth": "If Steve and Danny are on opposite teams, there are 8 other players to choose from for the other 4 spots on Steve's team, so there are $\\binom{8}{4} = \\boxed{70}$ choices."
+    },
+    {
+        "question": "We can first form one team with Steve, which has $C(9,4)=126$ ways.  No matter how we did this, there is only one way to form the opposing team with Danny.  Thus, the total number of ways to divide the teams is $126 \\cdot 1$.  \nFinal Answer: \\boxed{126}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{126}",
+        "ground_truth": "If Steve and Danny are on opposite teams, there are 8 other players to choose from for the other 4 spots on Steve's team, so there are $\\binom{8}{4} = \\boxed{70}$ choices."
+    }
+]

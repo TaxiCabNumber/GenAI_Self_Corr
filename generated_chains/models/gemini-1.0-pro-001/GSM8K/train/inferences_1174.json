@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMartha has 11 butterflies in her collection. She has twice as many blue butterflies as yellow butterflies. The rest of her butterflies are black. If Martha has 5 black butterflies, how many blue butterflies does she have?",
+        "inference": "1. Martha has 11 butterflies in her collection.\n2. She has twice as many blue butterflies as yellow butterflies. Let y be the number of yellow butterflies. Then the number of blue butterflies is 2y.\n3. The rest of her butterflies are black. So, the number of black butterflies is 11 - y - 2y = 11 - 3y.\n4. If Martha has 5 black butterflies, then:\n>11 - 3y = 5\n>3y = 6\n>y = 2\n\n**So, Martha has 2 yellow butterflies and 2*2 = 4 blue butterflies.**\nI hope it is correct: 4",
+        "ground_truth": "Martha has 11-5=<<11-5=6>>6 blue and yellow butterflies.\nMartha has 6/3=<<6/3=2>>2 yellow butterflies.\nMartha has 2*2=<<2*2=4>>4 blue butterflies.\n#### 4"
+    },
+    {
+        "question": "1. Martha has 11 butterflies in her collection.\n2. She has twice as many blue butterflies as yellow butterflies. Let y be the number of yellow butterflies. Then the number of blue butterflies is 2y.\n3. The rest of her butterflies are black. So, the number of black butterflies is 11 - y - 2y = 11 - 3y.\n4. If Martha has 5 black butterflies, then:\n>11 - 3y = 5\n>3y = 6\n>y = 2\n\n**So, Martha has 2 yellow butterflies and 2*2 = 4 blue butterflies.**\nI hope it is correct: 4\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ = 4",
+        "ground_truth": "Martha has 11-5=<<11-5=6>>6 blue and yellow butterflies.\nMartha has 6/3=<<6/3=2>>2 yellow butterflies.\nMartha has 2*2=<<2*2=4>>4 blue butterflies.\n#### 4"
+    }
+]

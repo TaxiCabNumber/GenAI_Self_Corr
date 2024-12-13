@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nI bought a TV for $1700 excluding tax. What is the price of the television when calculating 15% of the value-added tax?",
+        "inference": "* The value-added tax (VAT) is 15% of the price excluding VAT.\n* The price including VAT is the price excluding VAT plus the VAT.\n* We can calculate the VAT by multiplying the price excluding VAT by 15%.\n* We can then add the VAT to the price excluding VAT to get the price including VAT.\n\n**Step 1: Calculate the VAT.**\n\n```\nVAT = 15% * $1700 = $255\n```\n\n**Step 2: Calculate the price including VAT.**\n\n```\nPrice including VAT = $1700 + $255 = $1955\n```\n\n**I hope it is correct: $1955$**",
+        "ground_truth": "The value-added tax is 1700*15% = <<1700*15*.01=255>>255.\nThe price of the television including tax 1700+255 = $<<1700+255=1955>>1955.\n#### 1955"
+    },
+    {
+        "question": "* The value-added tax (VAT) is 15% of the price excluding VAT.\n* The price including VAT is the price excluding VAT plus the VAT.\n* We can calculate the VAT by multiplying the price excluding VAT by 15%.\n* We can then add the VAT to the price excluding VAT to get the price including VAT.\n\n**Step 1: Calculate the VAT.**\n\n```\nVAT = 15% * $1700 = $255\n```\n\n**Step 2: Calculate the price including VAT.**\n\n```\nPrice including VAT = $1700 + $255 = $1955\n```\n\n**I hope it is correct: $1955$**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $1955$",
+        "ground_truth": "The value-added tax is 1700*15% = <<1700*15*.01=255>>255.\nThe price of the television including tax 1700+255 = $<<1700+255=1955>>1955.\n#### 1955"
+    }
+]

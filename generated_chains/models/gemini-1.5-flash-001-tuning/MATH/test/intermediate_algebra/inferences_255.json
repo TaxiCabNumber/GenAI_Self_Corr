@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $a,$ $b,$ $c,$ $d$ be nonnegative real numbers such that $a + b + c + d = 1.$  Find the maximum value of\n\\[a^2 + b^2 + c^2 + d^2.\\]",
+        "inference": "By QM-AM,\n\\[\\sqrt{\\frac{a^2 + b^2 + c^2 + d^2}{4}} \\ge \\frac{a + b + c + d}{4} = \\frac{1}{4}.\\]Then $a^2 + b^2 + c^2 + d^2 \\ge \\frac{1}{4}.$\n\nEquality occurs when $a = b = c = d = \\frac{1}{4},$ so the maximum value is $\\boxed{\\frac{1}{4}}.$\n",
+        "ground_truth": "It is clear that $0 \\le a \\le 1,$ so $a(1 - a) \\ge 0.$  Then $a - a^2 \\ge 0,$ or $a^2 \\le a.$  Similarly, $b^2 \\le b,$ $c^2 \\le c,$ and $d^2 \\le d,$ so\n\\[a^2 + b^2 + c^2 + d^2 \\le a + b + c + d = 1.\\]Equality occurs when $a = 1$ and $b = c = d = 0,$ so the maximum value is $\\boxed{1}.$"
+    },
+    {
+        "question": "By QM-AM,\n\\[\\sqrt{\\frac{a^2 + b^2 + c^2 + d^2}{4}} \\ge \\frac{a + b + c + d}{4} = \\frac{1}{4}.\\]Then $a^2 + b^2 + c^2 + d^2 \\ge \\frac{1}{4}.$\n\nEquality occurs when $a = b = c = d = \\frac{1}{4},$ so the maximum value is $\\boxed{\\frac{1}{4}}.$\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The error is that the solution finds the minimum value of $a^2 + b^2 + c^2 + d^2$, not the maximum.\n\nHere's the correct solution:\n\nSince $a,b,c,d$ are positive real numbers, we know that $a^2, b^2, c^2, d^2$ are all non-negative.  Therefore, $a^2 + b^2 + c^2 + d^2$ is maximized when one of the variables is as large as possible and the others are 0.  Since $a + b + c + d = 1$, the maximum value of $a^2 + b^2 + c^2 + d^2$ is $\\boxed{1}$.",
+        "ground_truth": "It is clear that $0 \\le a \\le 1,$ so $a(1 - a) \\ge 0.$  Then $a - a^2 \\ge 0,$ or $a^2 \\le a.$  Similarly, $b^2 \\le b,$ $c^2 \\le c,$ and $d^2 \\le d,$ so\n\\[a^2 + b^2 + c^2 + d^2 \\le a + b + c + d = 1.\\]Equality occurs when $a = 1$ and $b = c = d = 0,$ so the maximum value is $\\boxed{1}.$"
+    }
+]

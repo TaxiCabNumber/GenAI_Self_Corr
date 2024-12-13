@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSam bought a heavy safe with a combination lock. There were four rows with twenty gold bars per row arranged in the safe. If each gold bar is worth $20000, calculate the total worth of the gold bars in the safe.",
+        "inference": "1. Calculate the total number of gold bars in the safe: 4 rows x 20 gold bars per row = 80 gold bars\n\n2. Multiply the number of gold bars by the value of each gold bar: 80 gold bars x $20000 per gold bar = $1600000\n\nI hope it is correct: $1600000$",
+        "ground_truth": "If there were four rows of twenty gold bars arranged in the safe, the total number of bars in the safe is 4*20 = <<4*20=80>>80 bars.\nSince each gold bar is worth $20000, the 80 bars are worth 80*$20000 = $<<80*20000=1600000>>1,600,000\n#### 1600000"
+    },
+    {
+        "question": "1. Calculate the total number of gold bars in the safe: 4 rows x 20 gold bars per row = 80 gold bars\n\n2. Multiply the number of gold bars by the value of each gold bar: 80 gold bars x $20000 per gold bar = $1600000\n\nI hope it is correct: $1600000$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $1600000$",
+        "ground_truth": "If there were four rows of twenty gold bars arranged in the safe, the total number of bars in the safe is 4*20 = <<4*20=80>>80 bars.\nSince each gold bar is worth $20000, the 80 bars are worth 80*$20000 = $<<80*20000=1600000>>1,600,000\n#### 1600000"
+    }
+]

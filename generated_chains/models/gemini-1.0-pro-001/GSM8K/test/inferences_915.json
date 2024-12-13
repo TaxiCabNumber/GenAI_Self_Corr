@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nBruce works for 5 hours on Tuesday. On Wednesday he works twice the time he works on Tuesday. On Thursday he works 2 hours less than the time he works on Wednesday. How many hours does Bruce work in all these three days?",
+        "inference": "Let the number of hours Bruce works on Tuesday be \"t\".\nOn Wednesday, he works twice the number of hours he works on Tuesday, so he works 2t hours on Wednesday.\nOn Thursday, he works 2 hours less than the time he works on Wednesday, so he works 2t - 2 hours on Thursday.\nIn all these three days, Bruce works a total of t + 2t + (2t - 2) = 5t - 2 hours.\n\nI hope it is correct: 5t - 2 $hours$",
+        "ground_truth": "On Wednesday, Bruce works for 2 * 5 = <<2*5=10>>10 hours.\nOn Thursday, Bruce works for 10 \u2013 2 = <<10-2=8>>8 hours.\nOn these three days, Bruce works for 5 + 10 + 8 = <<5+10+8=23>>23 hours.\n#### 23"
+    },
+    {
+        "question": "Let the number of hours Bruce works on Tuesday be \"t\".\nOn Wednesday, he works twice the number of hours he works on Tuesday, so he works 2t hours on Wednesday.\nOn Thursday, he works 2 hours less than the time he works on Wednesday, so he works 2t - 2 hours on Thursday.\nIn all these three days, Bruce works a total of t + 2t + (2t - 2) = 5t - 2 hours.\n\nI hope it is correct: 5t - 2 $hours$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 5t - 2 hours",
+        "ground_truth": "On Wednesday, Bruce works for 2 * 5 = <<2*5=10>>10 hours.\nOn Thursday, Bruce works for 10 \u2013 2 = <<10-2=8>>8 hours.\nOn these three days, Bruce works for 5 + 10 + 8 = <<5+10+8=23>>23 hours.\n#### 23"
+    }
+]

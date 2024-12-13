@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA rectangular cow pasture is enclosed on three sides by a fence and the fourth side is part of the side of a barn that is $400$ feet long. The fence costs $\\$5$ per foot, and $\\$1,\\!200$ altogether. To the nearest foot, find the length of the side parallel to the barn that will maximize the area of the pasture.",
+        "inference": "Let $x$ be the length of the side parallel to the barn.\n\nThe other side of the pasture is $400-x$.\n\nThe area of the pasture is $A=x(400-x)=400x-x^2$.\n\nTo find the maximum area, we take the derivative of $A$ with respect to $x$ and set it equal to $0$:\n\n$$\\frac{dA}{dx}=400-2x=0$$ \n\n$$2x=400$$\n\n$$x=\\boxed{200}.$$\n\nFinal Answer: $\\boxed{200}$. I hope it is correct.",
+        "ground_truth": "Let the sides perpendicular to the barn be of length $x$. Notice that there are a total of $1200/5=240$ feet of fencing. Therefore, the side parallel to the barn has length $240-2x$, so the area to be maximized is $240x-2x^2$. Completing the square results in $-2(x-60)^2+7200$, which is maximized when $x=60$. Therefore, the side parallel to the barn has length $240-2(60)=\\boxed{120}$ feet."
+    },
+    {
+        "question": "Let $x$ be the length of the side parallel to the barn.\n\nThe other side of the pasture is $400-x$.\n\nThe area of the pasture is $A=x(400-x)=400x-x^2$.\n\nTo find the maximum area, we take the derivative of $A$ with respect to $x$ and set it equal to $0$:\n\n$$\\frac{dA}{dx}=400-2x=0$$ \n\n$$2x=400$$\n\n$$x=\\boxed{200}.$$\n\nFinal Answer: $\\boxed{200}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{200}",
+        "ground_truth": "Let the sides perpendicular to the barn be of length $x$. Notice that there are a total of $1200/5=240$ feet of fencing. Therefore, the side parallel to the barn has length $240-2x$, so the area to be maximized is $240x-2x^2$. Completing the square results in $-2(x-60)^2+7200$, which is maximized when $x=60$. Therefore, the side parallel to the barn has length $240-2(60)=\\boxed{120}$ feet."
+    }
+]

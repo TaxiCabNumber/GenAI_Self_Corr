@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nEmilia needs 42 cartons of berries to make a berry cobbler. She already has 2 cartons of strawberries and 7 cartons of blueberries in her cupboard. She decides to go to the supermarket to get more cartons. How many more cartons of berries should Emilia buy?",
+        "inference": "Emilia needs 42 cartons of berries.\nShe already has 2 cartons of strawberries and 7 cartons of blueberries in her cupboard.\nSo, she has 2 + 7 = 9 cartons of berries.\nShe still needs 42 - 9 = 33 cartons of berries.\nI hope it is correct: 33 $cartons$",
+        "ground_truth": "She previously had 2 cartons + 7 cartons = <<2+7=9>>9 cartons of berries.\nEmilia needs to buy 42 cartons - 9 cartons = <<42-9=33>>33 cartons of berries.\n#### 33"
+    },
+    {
+        "question": "Emilia needs 42 cartons of berries.\nShe already has 2 cartons of strawberries and 7 cartons of blueberries in her cupboard.\nSo, she has 2 + 7 = 9 cartons of berries.\nShe still needs 42 - 9 = 33 cartons of berries.\nI hope it is correct: 33 $cartons$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ 33",
+        "ground_truth": "She previously had 2 cartons + 7 cartons = <<2+7=9>>9 cartons of berries.\nEmilia needs to buy 42 cartons - 9 cartons = <<42-9=33>>33 cartons of berries.\n#### 33"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn and Jack have 30 minutes to walk to school together. It takes them 6 minutes to get to the corner where the library is. It takes them another 13 minutes to get to the fire station. How much longer do they have to get to school without being late?",
+        "inference": "- The total time they have is 30 minutes.\n- It takes 6 minutes to get to the library.\n- It takes 13 minutes to get to the fire station.\n- They have spent 6 + 13 = 19 minutes so far.\n- They have 30 - 19 = 11 minutes left.\nI hope it is correct: 11 minutes",
+        "ground_truth": "John and Jack arrive at the library with 30 - 6 = <<30-6=24>>24 minutes left to reach the fire station.\nThey then arrive at the fire station and have 24 - 13 = <<24-13=11>>11 minutes left to get to school without being late.\n#### 11"
+    },
+    {
+        "question": "- The total time they have is 30 minutes.\n- It takes 6 minutes to get to the library.\n- It takes 13 minutes to get to the fire station.\n- They have spent 6 + 13 = 19 minutes so far.\n- They have 30 - 19 = 11 minutes left.\nI hope it is correct: 11 minutes\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$11",
+        "ground_truth": "John and Jack arrive at the library with 30 - 6 = <<30-6=24>>24 minutes left to reach the fire station.\nThey then arrive at the fire station and have 24 - 13 = <<24-13=11>>11 minutes left to get to school without being late.\n#### 11"
+    }
+]

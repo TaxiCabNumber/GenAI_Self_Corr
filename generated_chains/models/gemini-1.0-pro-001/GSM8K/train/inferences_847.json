@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nWhile cultivating a small farm, a farmer spent $50 on corn seeds, $35 on fertilizers and pesticides, and $15 on labor. After a successful harvest, he was able to gather 10 bags of corn. How much should he sell each bag, if he wants to make a profit of 10%?",
+        "inference": "To determine the profit, we first need to calculate the total cost of production:\nCost of seeds + Cost of fertilizers and pesticides + Cost of labor = Total cost\n$50 + $35 + $15 = $100\n\nTo achieve a 10% profit, we need to multiply the cost by 1.10:\nTotal cost * (1 + profit percentage) = Selling price\n$100 * (1 + 0.10) = $110\n\nTo determine the selling price per bag, we divide the total selling price by the number of bags:\nSelling price / Number of bags = Selling price per bag\n$110 / 10 = $11\n\nI hope it is correct: $11$",
+        "ground_truth": "His total expenditure so far is $50+$35+$15 = $<<50+35+15=100>>100\nTo make a profit of 10%, he has to make a total of $100+($100*(10/100) = $<<100+(100*(10/100))=110>>110 from sales\nTo make $110 from the sales of 10 bags, each bag should cost $110/10 = $<<110/10=11>>11\n#### 11"
+    },
+    {
+        "question": "To determine the profit, we first need to calculate the total cost of production:\nCost of seeds + Cost of fertilizers and pesticides + Cost of labor = Total cost\n$50 + $35 + $15 = $100\n\nTo achieve a 10% profit, we need to multiply the cost by 1.10:\nTotal cost * (1 + profit percentage) = Selling price\n$100 * (1 + 0.10) = $110\n\nTo determine the selling price per bag, we divide the total selling price by the number of bags:\nSelling price / Number of bags = Selling price per bag\n$110 / 10 = $11\n\nI hope it is correct: $11$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "### $11$",
+        "ground_truth": "His total expenditure so far is $50+$35+$15 = $<<50+35+15=100>>100\nTo make a profit of 10%, he has to make a total of $100+($100*(10/100) = $<<100+(100*(10/100))=110>>110 from sales\nTo make $110 from the sales of 10 bags, each bag should cost $110/10 = $<<110/10=11>>11\n#### 11"
+    }
+]

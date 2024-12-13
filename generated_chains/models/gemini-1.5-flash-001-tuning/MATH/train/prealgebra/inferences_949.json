@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn parallelogram $ABCD$, angle $B$ measures $110^\\circ$. What is the number of degrees in the measure of angle $C$?",
+        "inference": "Final Answer: \\\\boxed{$110^\\circ$}. I hope it is correct. \n",
+        "ground_truth": "[asy]\nunitsize(1inch);\npair A,B,C,D;\nB = (0,0);\nC = (1,0);\nA = rotate(100)*(0.6,0);\nD = A+C;\ndraw(A--B--C--D--A);\nlabel(\"$A$\",A,N);\nlabel(\"$D$\",D,N);\nlabel(\"$B$\",B,S);\nlabel(\"$C$\",C,S);\n[/asy] Because $\\overline{AB}\\parallel\\overline{CD}$, we have $\\angle B + \\angle C = 180^\\circ$.  Therefore, $\\angle C = 180^\\circ - \\angle B = \\boxed{70^\\circ}$."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{$110^\\circ$}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the question and the solution you are referring to. I need the context to understand the error and provide a corrected solution. \n",
+        "ground_truth": "[asy]\nunitsize(1inch);\npair A,B,C,D;\nB = (0,0);\nC = (1,0);\nA = rotate(100)*(0.6,0);\nD = A+C;\ndraw(A--B--C--D--A);\nlabel(\"$A$\",A,N);\nlabel(\"$D$\",D,N);\nlabel(\"$B$\",B,S);\nlabel(\"$C$\",C,S);\n[/asy] Because $\\overline{AB}\\parallel\\overline{CD}$, we have $\\angle B + \\angle C = 180^\\circ$.  Therefore, $\\angle C = 180^\\circ - \\angle B = \\boxed{70^\\circ}$."
+    }
+]

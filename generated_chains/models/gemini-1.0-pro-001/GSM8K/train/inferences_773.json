@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAmoli and Anayet must travel 369 miles together. Amoli drove 42 miles an hour for 3 hours and Anayet drove at 61 miles an hour for 2 hours. How many miles do they still need to travel?",
+        "inference": "- Amoli drove  42 miles an hour for 3 hours, so he drove 42 * 3 = 126 miles\n- Anayet drove 61 miles an hour for 2 hours, so he drove 61 * 2 = 122 miles\n\n\n- Together they drove a total of  126 + 122 = 248 miles\n\n\n- They still need to travel 369 - 248 = 121 miles.\n\n\nI hope it is correct: 121",
+        "ground_truth": "Amoli = 42 * 3 = <<42*3=126>>126 miles\nAnayet = 61 * 2 = <<61*2=122>>122\nTogether = 126 + 122 = <<126+122=248>>248 miles\n369 - 248 = <<369-248=121>>121 miles\nThey still have 121 miles to travel.\n#### 121"
+    },
+    {
+        "question": "- Amoli drove  42 miles an hour for 3 hours, so he drove 42 * 3 = 126 miles\n- Anayet drove 61 miles an hour for 2 hours, so he drove 61 * 2 = 122 miles\n\n\n- Together they drove a total of  126 + 122 = 248 miles\n\n\n- They still need to travel 369 - 248 = 121 miles.\n\n\nI hope it is correct: 121\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 121$",
+        "ground_truth": "Amoli = 42 * 3 = <<42*3=126>>126 miles\nAnayet = 61 * 2 = <<61*2=122>>122\nTogether = 126 + 122 = <<126+122=248>>248 miles\n369 - 248 = <<369-248=121>>121 miles\nThey still have 121 miles to travel.\n#### 121"
+    }
+]

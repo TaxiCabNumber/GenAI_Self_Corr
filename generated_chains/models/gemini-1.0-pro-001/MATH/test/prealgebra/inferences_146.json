@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind $(2^{20} + 2^{20} + 2^{20} +2^{21}) \\div 2^{17}$.",
+        "inference": "$$(2^{20} + 2^{20} + 2^{20} + 2^{21}) \\div 2^{17} = (3\\cdot 2^{20} + 2^{21}) \\div 2^{17}$$\n\n$$(3\\cdot 2^{20} + 2^{21}) \\div 2^{17} = 3\\cdot 2^{20} \\div 2^{17} + 2^{21} \\div 2^{17}$$\n\n$$3\\cdot 2^{20} \\div 2^{17} + 2^{21} \\div 2^{17} = 3\\cdot 2^{3} + 2^{4}$$\n\n$$3\\cdot 2^{3} + 2^{4} = 3\\cdot 8 + 16 = 24 + 16$$\n\n$$24 + 16 = 40$$\n\n**Final Answer: \\\\boxed{$40$}. I hope it is correct.**",
+        "ground_truth": "As is often the case, calculating $2^{20}$ by brute force is not practical.  Instead, we will try simplifying the expression and combining some terms.  First, note that $2^{21} = 2 \\cdot 2^{20}$, because of the definition of an exponent.  So, we can rewrite the expression as $(2^{20} + 2^{20} + 2^{20} + 2 \\cdot 2^{20}) \\div 2^{17} = 5 \\cdot 2^{20} \\div 2^{17}$.\n\nUsing the division of powers rule, that equals $5 \\cdot 2^{20-17} = 5 \\cdot 2^3 = 5 \\cdot 8 = \\boxed{40}$."
+    },
+    {
+        "question": "$$(2^{20} + 2^{20} + 2^{20} + 2^{21}) \\div 2^{17} = (3\\cdot 2^{20} + 2^{21}) \\div 2^{17}$$\n\n$$(3\\cdot 2^{20} + 2^{21}) \\div 2^{17} = 3\\cdot 2^{20} \\div 2^{17} + 2^{21} \\div 2^{17}$$\n\n$$3\\cdot 2^{20} \\div 2^{17} + 2^{21} \\div 2^{17} = 3\\cdot 2^{3} + 2^{4}$$\n\n$$3\\cdot 2^{3} + 2^{4} = 3\\cdot 8 + 16 = 24 + 16$$\n\n$$24 + 16 = 40$$\n\n**Final Answer: \\\\boxed{$40$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{40}$$",
+        "ground_truth": "As is often the case, calculating $2^{20}$ by brute force is not practical.  Instead, we will try simplifying the expression and combining some terms.  First, note that $2^{21} = 2 \\cdot 2^{20}$, because of the definition of an exponent.  So, we can rewrite the expression as $(2^{20} + 2^{20} + 2^{20} + 2 \\cdot 2^{20}) \\div 2^{17} = 5 \\cdot 2^{20} \\div 2^{17}$.\n\nUsing the division of powers rule, that equals $5 \\cdot 2^{20-17} = 5 \\cdot 2^3 = 5 \\cdot 8 = \\boxed{40}$."
+    }
+]

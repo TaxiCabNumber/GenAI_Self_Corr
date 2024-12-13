@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind all solutions to $x(x+10) = 10(-10-x)$.",
+        "inference": "$$x(x+10) = 10(-10-x)$$\n\n$$x^2+10x = -100-10x$$\n\n$$x^2+10x+10x+100 = 0$$\n\n$$x^2+20x+100 = 0$$\n\n$$(x+10)^2 = 0$$\n\n$$x+10 = 0$$\n\n$$x = -10$$\n\nFinal Answer: \\boxed{-10}. I hope it is correct.",
+        "ground_truth": "Expanding both sides gives $x^2 + 10x = -100-10x$, rearranging gives  $x^2 +20x +100 =0$, and factoring gives $(x+10)(x+10)=0$. So, our only solution is $\\boxed{x=-10}$."
+    },
+    {
+        "question": "$$x(x+10) = 10(-10-x)$$\n\n$$x^2+10x = -100-10x$$\n\n$$x^2+10x+10x+100 = 0$$\n\n$$x^2+20x+100 = 0$$\n\n$$(x+10)^2 = 0$$\n\n$$x+10 = 0$$\n\n$$x = -10$$\n\nFinal Answer: \\boxed{-10}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{-10}",
+        "ground_truth": "Expanding both sides gives $x^2 + 10x = -100-10x$, rearranging gives  $x^2 +20x +100 =0$, and factoring gives $(x+10)(x+10)=0$. So, our only solution is $\\boxed{x=-10}$."
+    }
+]

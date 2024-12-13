@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nConsider the polynomials  \\[f(x)=4x^3+3x^2+2x+1\\]and \\[g(x)=3-4x+5x^2-6x^3.\\]Find $c$ such that the polynomial $f(x)+cg(x)$ has degree 2.",
+        "inference": "**SOLUTION**\n\nWe have\n\n$$f(x)+cg(x)=4x^3+3x^2+2x+1+c(3-4x+5x^2-6x^3)$$\n\n$$=4x^3+3x^2+2x+1+3c-4cx+5cx^2-6cx^3$$\n\n$$=(-6c+4)x^3+(3+5c)x^2+(2-4c)x+(1+3c)$$\n\nFor the polynomial to have degree 2, the coefficient of $x^3$ must be zero:\n\n$$-6c+4=0$$\n\n$$-6c=-4$$\n\n$$c=\\frac{4}{6}=\\frac{2}{3}$$\n\n**Final Answer: $$\\boxed{c=\\frac{2}{3}}$$. I hope it is correct.**",
+        "ground_truth": "The polynomial $f(x)+cg(x)$ will have degree 2 exactly when the $x^3$ terms cancel and the $x^2$ terms do not.  The $x^3$ term of $f(x)+cg(x)$ is \\[4x^3+c(-6x^3)=(4-6c)x^3.\\]This is zero when $c=4/6=2/3$.\n\nIf $c=2/3$, the $x^2$ term is  \\[3x^2+c(5x^2)=(3+5\\cdot 2/3)x^2=\\frac{19}{3}x^2\\neq0.\\]Therefore there is only one solution $c=\\boxed{\\frac{2}{3}}$."
+    },
+    {
+        "question": "**SOLUTION**\n\nWe have\n\n$$f(x)+cg(x)=4x^3+3x^2+2x+1+c(3-4x+5x^2-6x^3)$$\n\n$$=4x^3+3x^2+2x+1+3c-4cx+5cx^2-6cx^3$$\n\n$$=(-6c+4)x^3+(3+5c)x^2+(2-4c)x+(1+3c)$$\n\nFor the polynomial to have degree 2, the coefficient of $x^3$ must be zero:\n\n$$-6c+4=0$$\n\n$$-6c=-4$$\n\n$$c=\\frac{4}{6}=\\frac{2}{3}$$\n\n**Final Answer: $$\\boxed{c=\\frac{2}{3}}$$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{c=\\frac{2}{3}}$$",
+        "ground_truth": "The polynomial $f(x)+cg(x)$ will have degree 2 exactly when the $x^3$ terms cancel and the $x^2$ terms do not.  The $x^3$ term of $f(x)+cg(x)$ is \\[4x^3+c(-6x^3)=(4-6c)x^3.\\]This is zero when $c=4/6=2/3$.\n\nIf $c=2/3$, the $x^2$ term is  \\[3x^2+c(5x^2)=(3+5\\cdot 2/3)x^2=\\frac{19}{3}x^2\\neq0.\\]Therefore there is only one solution $c=\\boxed{\\frac{2}{3}}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA pen costs as much as a pencil and eraser combined. A pencil costs $1.20 and an eraser costs $0.30. How much will 8 pens cost?",
+        "inference": "1. The cost of a pencil and eraser combined is $1.20 + $0.30 = $1.50.\n2. Since a pen costs as much as a pencil and eraser combined, one pen also costs $1.50.\n3. The cost of 8 pens is 8 * $1.50 = $12.\n\n**Answer:** I hope it is correct: 12 $",
+        "ground_truth": "A pen costs $1.20 + $0.30 = $<<1.20+0.30=1.50>>1.50.\nSo, 8 pens cost $1.50 x 8 = $<<8*1.5=12>>12.\n#### 12"
+    },
+    {
+        "question": "1. The cost of a pencil and eraser combined is $1.20 + $0.30 = $1.50.\n2. Since a pen costs as much as a pencil and eraser combined, one pen also costs $1.50.\n3. The cost of 8 pens is 8 * $1.50 = $12.\n\n**Answer:** I hope it is correct: 12 $\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$12",
+        "ground_truth": "A pen costs $1.20 + $0.30 = $<<1.20+0.30=1.50>>1.50.\nSo, 8 pens cost $1.50 x 8 = $<<8*1.5=12>>12.\n#### 12"
+    }
+]

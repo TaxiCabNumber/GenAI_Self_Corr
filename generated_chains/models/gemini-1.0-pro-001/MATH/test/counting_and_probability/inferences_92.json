@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\n200 points are equally spaced on the circumference of a circle.  How many squares can be formed with 4 of the 200 points as vertices?",
+        "inference": "The number of squares that can be formed is $200 \\times 199 \\times 198 \\times 197 / 24 = 392,040,400$.\nFinal Answer: $\\boxed{392,040,400}$. I hope it is correct.",
+        "ground_truth": "For any given one of the 200 points, we can find exactly one square with that point as one of the vertices---that point, the point diametrically opposite it, and the endpoints of the diameter that is perpendicular to the diameter formed by connecting the first two points.  Each square then accounts for 4 vertices, so there are $200/4=\\boxed{50}$ squares."
+    },
+    {
+        "question": "The number of squares that can be formed is $200 \\times 199 \\times 198 \\times 197 / 24 = 392,040,400$.\nFinal Answer: $\\boxed{392,040,400}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{392040400}",
+        "ground_truth": "For any given one of the 200 points, we can find exactly one square with that point as one of the vertices---that point, the point diametrically opposite it, and the endpoints of the diameter that is perpendicular to the diameter formed by connecting the first two points.  Each square then accounts for 4 vertices, so there are $200/4=\\boxed{50}$ squares."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe vending machines sell chips for 40 cents and candy bars for 75 cents. George spent $5 and got 3 bags of chips and had 1% of his money left. How many candy bars did he buy?",
+        "inference": "1. **Solve for the cost of 3 bags of chips**\n> $3 x 40 cents = 120 cents = $1.20$\n2. **Subtract the cost of 3 bags of chips from the total amount George spent:**\n> $5.00 - $1.20 = $3.80$\n3. **This remaining amount is 1% of George's initial amount ($5.00)**\n> $1% of $5.00 = 0.01 x $5.00 = $0.05$\n4. **Divide the remaining amount by the cost of a candy bar (75 cents)**\n> $3.80 / 75 cents = 5  candy bars$\n\nI hope it is correct: 5",
+        "ground_truth": "George got $.05 in change because 5 x .01 = <<5*.01=.05>>.05\nGeorge spent $4.95 because 5 - .05 = <<5-.05=4.95>>4.95\nGeorge spent $1.2 on chips because 3 x .4 = <<3*.4=1.2>>1.2\nGeorge spent 3.75 on candy bars because 4.95 - 1.2 = <<4.95-1.2=3.75>>3.75\nGeorge bought 5 candy bars because 3.75 / .75 = <<5=5>>5\n#### 5"
+    },
+    {
+        "question": "1. **Solve for the cost of 3 bags of chips**\n> $3 x 40 cents = 120 cents = $1.20$\n2. **Subtract the cost of 3 bags of chips from the total amount George spent:**\n> $5.00 - $1.20 = $3.80$\n3. **This remaining amount is 1% of George's initial amount ($5.00)**\n> $1% of $5.00 = 0.01 x $5.00 = $0.05$\n4. **Divide the remaining amount by the cost of a candy bar (75 cents)**\n> $3.80 / 75 cents = 5  candy bars$\n\nI hope it is correct: 5\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ = 5",
+        "ground_truth": "George got $.05 in change because 5 x .01 = <<5*.01=.05>>.05\nGeorge spent $4.95 because 5 - .05 = <<5-.05=4.95>>4.95\nGeorge spent $1.2 on chips because 3 x .4 = <<3*.4=1.2>>1.2\nGeorge spent 3.75 on candy bars because 4.95 - 1.2 = <<4.95-1.2=3.75>>3.75\nGeorge bought 5 candy bars because 3.75 / .75 = <<5=5>>5\n#### 5"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIn a student council election, candidate A got 20% of the votes while candidate B got 50% more than candidate A's votes. The rest of the votes was given to candidate C. If there were 100 voters, how many votes did candidate C get?",
+        "inference": "1. Candidate A got 20% of the votes, which is 100 * 0.20 = 20 votes.\n2. Candidate B got 50% more than candidate A's votes, which is 20 * 1.50 = 30 votes.\n3. The total number of votes for candidate A and candidate B is 20 + 30 = 50 votes.\n4. The number of votes for candidate C is 100 - 50 = 50 votes.\nI hope it is correct: 50 $votes$.",
+        "ground_truth": "Candidate A got 100 x 20/100 = <<100*20/100=20>>20 votes.\nCandidate B got 20 x 50/100 = <<20*50/100=10>>10 more votes than candidate A.\nThus, candidate B got 20 + 10 = <<20+10=30>>30 votes.\nCandidate A and B have 20 + 30 = <<20+30=50>>50 votes together.\nTherefore, candidate C got 100 - 50 = <<100-50=50>>50 votes.\n#### 50"
+    },
+    {
+        "question": "1. Candidate A got 20% of the votes, which is 100 * 0.20 = 20 votes.\n2. Candidate B got 50% more than candidate A's votes, which is 20 * 1.50 = 30 votes.\n3. The total number of votes for candidate A and candidate B is 20 + 30 = 50 votes.\n4. The number of votes for candidate C is 100 - 50 = 50 votes.\nI hope it is correct: 50 $votes$.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 50",
+        "ground_truth": "Candidate A got 100 x 20/100 = <<100*20/100=20>>20 votes.\nCandidate B got 20 x 50/100 = <<20*50/100=10>>10 more votes than candidate A.\nThus, candidate B got 20 + 10 = <<20+10=30>>30 votes.\nCandidate A and B have 20 + 30 = <<20+30=50>>50 votes together.\nTherefore, candidate C got 100 - 50 = <<100-50=50>>50 votes.\n#### 50"
+    }
+]

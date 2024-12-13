@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nDucks need to eat 3.5 pounds of insects each week to survive. If there is a flock of ten ducks, how many pounds of insects do they need per day?",
+        "inference": "1. Find the total amount of insects needed per week: 10 ducks x 3.5 pounds/duck = 35 pounds/week\n2. Convert weeks to days: 35 pounds/week / 7 days/week = 5 pounds/day\nI hope it is correct: 5",
+        "ground_truth": "The flock needs 35 pounds per week because 10 x 3.5 = <<10*3.5=35>>35\nThey need 5 pounds per day because 35 / 7 = <<35/7=5>>5\n#### 5"
+    },
+    {
+        "question": "1. Find the total amount of insects needed per week: 10 ducks x 3.5 pounds/duck = 35 pounds/week\n2. Convert weeks to days: 35 pounds/week / 7 days/week = 5 pounds/day\nI hope it is correct: 5\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 5",
+        "ground_truth": "The flock needs 35 pounds per week because 10 x 3.5 = <<10*3.5=35>>35\nThey need 5 pounds per day because 35 / 7 = <<35/7=5>>5\n#### 5"
+    }
+]

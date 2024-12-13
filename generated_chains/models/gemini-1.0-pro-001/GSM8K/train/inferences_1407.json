@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nNina has two pairs of shoes. She bought one of them for $22, and the second one was 50% more expensive. How much did Nina pay for both pairs of shoes?",
+        "inference": "The second pair of shoes cost 22 + (22 * 50/100) = 33\nNina paid 22 + 33 = 55 for both pairs of shoes.\nI hope it is correct: $55$",
+        "ground_truth": "The second pair of shoes was 50/100 * 22 = $<<50/100*22=11>>11 more expensive.\nThat means that the second pair's price was 22 + 11 = $<<22+11=33>>33.\nSo for both pairs of shoes, Nina paid 33 + 22 = $<<33+22=55>>55.\n#### 55"
+    },
+    {
+        "question": "The second pair of shoes cost 22 + (22 * 50/100) = 33\nNina paid 22 + 33 = 55 for both pairs of shoes.\nI hope it is correct: $55$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$55",
+        "ground_truth": "The second pair of shoes was 50/100 * 22 = $<<50/100*22=11>>11 more expensive.\nThat means that the second pair's price was 22 + 11 = $<<22+11=33>>33.\nSo for both pairs of shoes, Nina paid 33 + 22 = $<<33+22=55>>55.\n#### 55"
+    }
+]

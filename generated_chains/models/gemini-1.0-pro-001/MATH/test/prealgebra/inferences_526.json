@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the sum of all the positive two-digit integers where one of the digits is four times the other?",
+        "inference": "Let x be the smaller digit and 4x be the larger digit. Then the two-digit integer is 10x + 4x = 14x. Since x is a positive integer, 14x must be a positive two-digit integer. The smallest positive two-digit integer is 10, so x must be at least 1. The largest positive two-digit integer is 99, so x must be at most 7. Therefore, the possible values of x are 1, 2, 3, 4, 5, 6, and 7. The sum of all the positive two-digit integers where one of the digits is four times the other is:\n$$14(1 + 2 + 3 + 4 + 5 + 6 + 7) = 14(28) = 392.$$\nFinal Answer: $\\boxed{392}.$ I hope it is correct.",
+        "ground_truth": "The only such possible two-digit integers will be composed with either a 1 and a 4 or a 2 and an 8. So, we simply want to compute $14+41+28+82$. Adding the first two and the last two in pairs gives $55 + 110$, which is easily computed to be $\\boxed{165}$."
+    },
+    {
+        "question": "Let x be the smaller digit and 4x be the larger digit. Then the two-digit integer is 10x + 4x = 14x. Since x is a positive integer, 14x must be a positive two-digit integer. The smallest positive two-digit integer is 10, so x must be at least 1. The largest positive two-digit integer is 99, so x must be at most 7. Therefore, the possible values of x are 1, 2, 3, 4, 5, 6, and 7. The sum of all the positive two-digit integers where one of the digits is four times the other is:\n$$14(1 + 2 + 3 + 4 + 5 + 6 + 7) = 14(28) = 392.$$\nFinal Answer: $\\boxed{392}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{392}$$",
+        "ground_truth": "The only such possible two-digit integers will be composed with either a 1 and a 4 or a 2 and an 8. So, we simply want to compute $14+41+28+82$. Adding the first two and the last two in pairs gives $55 + 110$, which is easily computed to be $\\boxed{165}$."
+    }
+]

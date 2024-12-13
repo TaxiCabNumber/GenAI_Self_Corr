@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCompute $\\tan \\left (\\operatorname{arccot} \\frac{4}{7} \\right).$",
+        "inference": "Let $\\theta = \\operatorname{arccot} \\frac{4}{7},$ so $\\cot \\theta = \\frac{4}{7}.$  Then $\\tan \\theta = \\frac{1}{\\cot \\theta} = \\boxed{\\frac{7}{4}}.$ Final Answer: $\\boxed{\\frac{7}{4}}.$ I hope it is correct. \n",
+        "ground_truth": "Consider a right triangle where the adjacent side is 4 and the opposite side is 7.\n\n[asy]\nunitsize (0.5 cm);\n\ndraw((0,0)--(4,0)--(4,7)--cycle);\n\nlabel(\"$4$\", (2,0), S);\nlabel(\"$7$\", (4,7/2), E);\nlabel(\"$\\theta$\", (0.8,0.5));\n[/asy]\n\nThen $\\cot \\theta = \\frac{4}{7},$ so $\\theta = \\operatorname{arccot} \\frac{4}{7}.$  Hence, $\\tan \\theta = \\frac{1}{\\cot \\theta} = \\boxed{\\frac{7}{4}}.$"
+    },
+    {
+        "question": "Let $\\theta = \\operatorname{arccot} \\frac{4}{7},$ so $\\cot \\theta = \\frac{4}{7}.$  Then $\\tan \\theta = \\frac{1}{\\cot \\theta} = \\boxed{\\frac{7}{4}}.$ Final Answer: $\\boxed{\\frac{7}{4}}.$ I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{\\frac{7}{4}}$  \n",
+        "ground_truth": "Consider a right triangle where the adjacent side is 4 and the opposite side is 7.\n\n[asy]\nunitsize (0.5 cm);\n\ndraw((0,0)--(4,0)--(4,7)--cycle);\n\nlabel(\"$4$\", (2,0), S);\nlabel(\"$7$\", (4,7/2), E);\nlabel(\"$\\theta$\", (0.8,0.5));\n[/asy]\n\nThen $\\cot \\theta = \\frac{4}{7},$ so $\\theta = \\operatorname{arccot} \\frac{4}{7}.$  Hence, $\\tan \\theta = \\frac{1}{\\cot \\theta} = \\boxed{\\frac{7}{4}}.$"
+    }
+]

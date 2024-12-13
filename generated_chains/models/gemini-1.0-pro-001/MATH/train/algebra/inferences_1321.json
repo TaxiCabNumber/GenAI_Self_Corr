@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCompletely factor the following expression: \\[(15x^3+80x-5)-(-4x^3+4x-5).\\]",
+        "inference": "```\n(15x^3+80x-5)-(-4x^3+4x-5)\n\n=15x^3+80x-5+4x^3-4x+5\n\n=(15x^3+4x^3)+(80x-4x)+(5-5)\n\n=19x^3+76x\n\n=19x(x^2+4)\n\n**Final Answer: $19x(x^2+4)$**. I hope it is correct.\n```",
+        "ground_truth": "First, we combine like terms in the expression: \\begin{align*}\n(15x^3+80x-5)&-(-4x^3+4x-5)\\\\\n&=15x^3+80x-5+4x^3-4x+5\\\\\n&=19x^3+76x.\\end{align*}We can factor out a $19x$ from the expression, to get $$19x^3+76x=\\boxed{19x(x^2+4)}.$$"
+    },
+    {
+        "question": "```\n(15x^3+80x-5)-(-4x^3+4x-5)\n\n=15x^3+80x-5+4x^3-4x+5\n\n=(15x^3+4x^3)+(80x-4x)+(5-5)\n\n=19x^3+76x\n\n=19x(x^2+4)\n\n**Final Answer: $19x(x^2+4)$**. I hope it is correct.\n```\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{19x(x^2+4)}$$",
+        "ground_truth": "First, we combine like terms in the expression: \\begin{align*}\n(15x^3+80x-5)&-(-4x^3+4x-5)\\\\\n&=15x^3+80x-5+4x^3-4x+5\\\\\n&=19x^3+76x.\\end{align*}We can factor out a $19x$ from the expression, to get $$19x^3+76x=\\boxed{19x(x^2+4)}.$$"
+    }
+]

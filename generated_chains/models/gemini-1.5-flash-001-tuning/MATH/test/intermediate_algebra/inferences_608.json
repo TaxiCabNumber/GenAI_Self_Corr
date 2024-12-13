@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCompute $$1\\cdot 2^2+2\\cdot 3^2+3\\cdot4^2+\\cdots+19\\cdot 20^2.$$",
+        "inference": "Final Answer: \\\\boxed{25,\\!330}. I hope it is correct. \n",
+        "ground_truth": "We can write the sum as\n\\begin{align*}\n0 \\cdot 1^2 + 1 \\cdot 2^2 + 3 \\cdot 4^2 + \\dots + 19 \\cdot 20^2 &= \\sum_{n = 1}^{20} (n - 1) n^2 \\\\\n&= \\sum_{n = 1}^{20} (n^3 - n^2) \\\\\n&= \\sum_{n = 1}^{20} n^3 - \\sum_{n = 1}^{20} n^2 \\\\\n&= \\frac{20^2 \\cdot 21^2}{4} - \\frac{20 \\cdot 21 \\cdot 41}{6} \\\\\n&= 20 \\cdot 21 \\cdot \\left( \\frac{20 \\cdot 21}{4} - \\frac{41}{6} \\right) \\\\\n&= \\boxed{41230}.\n\\end{align*}"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{25,\\!330}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the original question and the solution you mentioned. I need context to identify any errors and provide a corrected solution. \n",
+        "ground_truth": "We can write the sum as\n\\begin{align*}\n0 \\cdot 1^2 + 1 \\cdot 2^2 + 3 \\cdot 4^2 + \\dots + 19 \\cdot 20^2 &= \\sum_{n = 1}^{20} (n - 1) n^2 \\\\\n&= \\sum_{n = 1}^{20} (n^3 - n^2) \\\\\n&= \\sum_{n = 1}^{20} n^3 - \\sum_{n = 1}^{20} n^2 \\\\\n&= \\frac{20^2 \\cdot 21^2}{4} - \\frac{20 \\cdot 21 \\cdot 41}{6} \\\\\n&= 20 \\cdot 21 \\cdot \\left( \\frac{20 \\cdot 21}{4} - \\frac{41}{6} \\right) \\\\\n&= \\boxed{41230}.\n\\end{align*}"
+    }
+]

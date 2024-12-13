@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMax bought stamps at the post office. Some of the stamps had a snowflake design, some had a truck design, and some had a rose design. Max bought 16 snowflake stamps. He bought 3 more truck stamps than snowflake stamps, and 9 fewer rose stamps than truck stamps. How many stamps did Max buy in all?",
+        "inference": "1. Max bought 16 snowflake stamps.\n2. He bought 3 more truck stamps than snowflakes => 16 + 3 = 19 truck stamps\n3. He bought 9 fewer rose stamps than truck stamps => 19 - 9 = 10 rose stamps\n4. Total stamps = snowflake stamps + truck stamps + rose stamps = 16 + 19 + 10 = 45\n\nI hope it is correct: 45",
+        "ground_truth": "Max bought 16 + 3 = <<16+3=19>>19 truck stamps.\nMax bought 19 \u2013 9 = <<19-9=10>>10 rose stamps.\nIn total Max bought 16 snowflake + 19 truck + 10 rose stamps = <<16+19+10=45>>45 stamps.\n#### 45"
+    },
+    {
+        "question": "1. Max bought 16 snowflake stamps.\n2. He bought 3 more truck stamps than snowflakes => 16 + 3 = 19 truck stamps\n3. He bought 9 fewer rose stamps than truck stamps => 19 - 9 = 10 rose stamps\n4. Total stamps = snowflake stamps + truck stamps + rose stamps = 16 + 19 + 10 = 45\n\nI hope it is correct: 45\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$45",
+        "ground_truth": "Max bought 16 + 3 = <<16+3=19>>19 truck stamps.\nMax bought 19 \u2013 9 = <<19-9=10>>10 rose stamps.\nIn total Max bought 16 snowflake + 19 truck + 10 rose stamps = <<16+19+10=45>>45 stamps.\n#### 45"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe toothpaste in Anne's family's bathroom contains 105 grams. Anne's dad uses 3 grams at each brushing, her mom uses 2 grams, Anne and her brother use 1 gram each. Each member of the family brushes their teeth three times a day. How many days will it take for the toothpaste to run out?",
+        "inference": "1. Calculate the total amount of toothpaste used per day:\n3 grams (dad) + 2 grams (mom) + 1 gram (Anne) + 1 gram (brother) = 7 grams per day\n\n2. Calculate the total number of days the toothpaste will last:\n105 grams (toothpaste) / 7 grams per day = 15 days\n\nI hope it is correct: 15",
+        "ground_truth": "Anne and her brother use 1 gram + 1 gram = <<1+1=2>>2 grams.\nAnne's dad uses 3 grams and Anne's mom uses 2 grams so together they use 2 grams + 3 grams + 2 grams = <<3+2+2=7>>7 grams/wash\nEach day, the family uses 7 grams/wash * 3 washes/day = <<7*3=21>>21 grams.\nUsing that amount daily, the toothpaste will last 105 grams / 21 grams/day = <<105/21=5>>5 days.\n#### 5"
+    },
+    {
+        "question": "1. Calculate the total amount of toothpaste used per day:\n3 grams (dad) + 2 grams (mom) + 1 gram (Anne) + 1 gram (brother) = 7 grams per day\n\n2. Calculate the total number of days the toothpaste will last:\n105 grams (toothpaste) / 7 grams per day = 15 days\n\nI hope it is correct: 15\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$15",
+        "ground_truth": "Anne and her brother use 1 gram + 1 gram = <<1+1=2>>2 grams.\nAnne's dad uses 3 grams and Anne's mom uses 2 grams so together they use 2 grams + 3 grams + 2 grams = <<3+2+2=7>>7 grams/wash\nEach day, the family uses 7 grams/wash * 3 washes/day = <<7*3=21>>21 grams.\nUsing that amount daily, the toothpaste will last 105 grams / 21 grams/day = <<105/21=5>>5 days.\n#### 5"
+    }
+]

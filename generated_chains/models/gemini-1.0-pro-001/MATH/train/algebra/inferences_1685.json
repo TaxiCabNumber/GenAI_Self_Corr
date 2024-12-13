@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe difference between two numbers is 9, and the sum of the squares of each number is 153. What is the value of the product of the two numbers?",
+        "inference": "Let $x$ and $y$ be the numbers \nGiven,\n$x - y = 9$ and $x^2 + y^2 = 153$\nSquaring $x - y = 9$, we get \n$(x - y)^2 = 9^2$\n$\\Rightarrow x^2 + y^2 - 2xy = 81$\n$\\Rightarrow 153 - 2xy = 81$\n$\\Rightarrow 2xy = 72$\n$\\Rightarrow xy = 36$\nFinal Answer: $\\boxed{36}.$ I hope it is correct.",
+        "ground_truth": "Call the first number $x$ and the second number $y$. Without loss of generality, assume $x > y$. We can represent the information given in the problem with the following system of linear equations:\n\\begin{align*}\nx - y &= 9\\\\\nx^2 + y^2 &= 153\n\\end{align*} Solving for $x$ in the first equation and substituting into the second yields $(9+y)^2 + y^2 = 153$, or $2y^2 + 18y - 72 = 0$. Canceling a $2$ gives $y^2 + 9y - 36 = 0$, which factors into $(y+12)(y-3)$. Thus, $y = 3$ and $x = 12$. So, $x \\cdot y = \\boxed{36}$."
+    },
+    {
+        "question": "Let $x$ and $y$ be the numbers \nGiven,\n$x - y = 9$ and $x^2 + y^2 = 153$\nSquaring $x - y = 9$, we get \n$(x - y)^2 = 9^2$\n$\\Rightarrow x^2 + y^2 - 2xy = 81$\n$\\Rightarrow 153 - 2xy = 81$\n$\\Rightarrow 2xy = 72$\n$\\Rightarrow xy = 36$\nFinal Answer: $\\boxed{36}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{36}.",
+        "ground_truth": "Call the first number $x$ and the second number $y$. Without loss of generality, assume $x > y$. We can represent the information given in the problem with the following system of linear equations:\n\\begin{align*}\nx - y &= 9\\\\\nx^2 + y^2 &= 153\n\\end{align*} Solving for $x$ in the first equation and substituting into the second yields $(9+y)^2 + y^2 = 153$, or $2y^2 + 18y - 72 = 0$. Canceling a $2$ gives $y^2 + 9y - 36 = 0$, which factors into $(y+12)(y-3)$. Thus, $y = 3$ and $x = 12$. So, $x \\cdot y = \\boxed{36}$."
+    }
+]

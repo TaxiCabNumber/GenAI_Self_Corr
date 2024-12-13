@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the inverse of the function\n\\[f(x) = \\frac{2x + 5}{x - 11}.\\]",
+        "inference": "Let $y = f(x).$  Then\n\\[y = \\frac{2x + 5}{x - 11}.\\]Solving for $x,$ we find\n\\begin{align*}\ny(x - 11) &= 2x + 5, \\\\\nxy - 11y &= 2x + 5, \\\\\nxy - 2x &= 11y + 5, \\\\\nx(y - 2) &= 11y + 5, \\\\\nx &= \\frac{11y + 5}{y - 2}.\n\\end{align*}Thus, $f^{-1}(x) = \\boxed{\\frac{11x + 5}{x - 2}}.$  I hope it is correct. \n",
+        "ground_truth": "Let $y = \\frac{2x + 5}{x - 11}.$  Then\n\\[xy - 11y = 2x + 5,\\]so $xy - 2x = 11y + 5.$  Then $x = \\frac{11y + 5}{y - 2}.$\n\nHence, the inverse function is given by\n\\[f^{-1}(x) = \\boxed{\\frac{11x + 5}{x - 2}}.\\]"
+    },
+    {
+        "question": "Let $y = f(x).$  Then\n\\[y = \\frac{2x + 5}{x - 11}.\\]Solving for $x,$ we find\n\\begin{align*}\ny(x - 11) &= 2x + 5, \\\\\nxy - 11y &= 2x + 5, \\\\\nxy - 2x &= 11y + 5, \\\\\nx(y - 2) &= 11y + 5, \\\\\nx &= \\frac{11y + 5}{y - 2}.\n\\end{align*}Thus, $f^{-1}(x) = \\boxed{\\frac{11x + 5}{x - 2}}.$  I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{\\frac{11x + 5}{x - 2}}$  I hope it is correct. \n",
+        "ground_truth": "Let $y = \\frac{2x + 5}{x - 11}.$  Then\n\\[xy - 11y = 2x + 5,\\]so $xy - 2x = 11y + 5.$  Then $x = \\frac{11y + 5}{y - 2}.$\n\nHence, the inverse function is given by\n\\[f^{-1}(x) = \\boxed{\\frac{11x + 5}{x - 2}}.\\]"
+    }
+]

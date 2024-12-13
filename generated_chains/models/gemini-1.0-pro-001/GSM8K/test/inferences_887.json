@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJerry counts six birds nesting in the bushes, 2/3rd of that number of birds flying overhead, and 3 groups of eight birds each feeding. How many birds does he count in total?",
+        "inference": "1. Calculate the number of birds flying overhead: 2/3 x 6 = 4\n2. Add the number of birds nesting in the bushes: 6 + 4 = 10\n3. Multiply the number of groups by the number of birds in each group: 3 x 8 = 24\n4. Add the number of birds feeding to the total number of birds: 10 + 24 = 34\nI hope it is correct: 34",
+        "ground_truth": "First find how many birds are flying overhead: 6 birds * 2/3 = <<6*2/3=4>>4 birds\nThen find how many birds are feeding: 3 groups * 8 birds/group = <<3*8=24>>24 birds\nThen add the number of nesting birds and flying birds to find the total number of birds: 4 birds + 24 birds + 6 birds = <<4+24+6=34>>34 birds\n#### 34"
+    },
+    {
+        "question": "1. Calculate the number of birds flying overhead: 2/3 x 6 = 4\n2. Add the number of birds nesting in the bushes: 6 + 4 = 10\n3. Multiply the number of groups by the number of birds in each group: 3 x 8 = 24\n4. Add the number of birds feeding to the total number of birds: 10 + 24 = 34\nI hope it is correct: 34\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$34",
+        "ground_truth": "First find how many birds are flying overhead: 6 birds * 2/3 = <<6*2/3=4>>4 birds\nThen find how many birds are feeding: 3 groups * 8 birds/group = <<3*8=24>>24 birds\nThen add the number of nesting birds and flying birds to find the total number of birds: 4 birds + 24 birds + 6 birds = <<4+24+6=34>>34 birds\n#### 34"
+    }
+]

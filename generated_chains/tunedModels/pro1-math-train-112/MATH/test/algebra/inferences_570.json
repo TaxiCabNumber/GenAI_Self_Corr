@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCompute the square of 989 without a calculator.",
+        "inference": "**Step 1:** Split 989 into two parts: 900 and 89.\n\n**Step 2:** Use the formula (a + b)^2 = a^2 + 2ab + b^2, where a = 900 and b = 89.\n\n**Step 3:** Calculate a^2 = 900^2 = 810,000.\n\n**Step 4:** Calculate b^2 = 89^2 = 7,921.\n\n**Step 5:** Calculate 2ab = 2 * 900 * 89 = 160,200.\n\n**Step 6:** Add the three terms: 810,000 + 160,200 + 7,921 = 978,121.\n\n**Final Answer: \\boxed{978,121}. I hope it is correct.**",
+        "ground_truth": "\\[989^2=(10^3-11)^2=10^6-2\\cdot11\\cdot10^3+121.\\]We can factor out $10^3$ from the first two terms to make the computation easier: \\[989^2=10^3(10^3-22)+121=10^3\\cdot978+121=\\boxed{978121}.\\]"
+    },
+    {
+        "question": "**Step 1:** Split 989 into two parts: 900 and 89.\n\n**Step 2:** Use the formula (a + b)^2 = a^2 + 2ab + b^2, where a = 900 and b = 89.\n\n**Step 3:** Calculate a^2 = 900^2 = 810,000.\n\n**Step 4:** Calculate b^2 = 89^2 = 7,921.\n\n**Step 5:** Calculate 2ab = 2 * 900 * 89 = 160,200.\n\n**Step 6:** Add the three terms: 810,000 + 160,200 + 7,921 = 978,121.\n\n**Final Answer: \\boxed{978,121}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{978,121}",
+        "ground_truth": "\\[989^2=(10^3-11)^2=10^6-2\\cdot11\\cdot10^3+121.\\]We can factor out $10^3$ from the first two terms to make the computation easier: \\[989^2=10^3(10^3-22)+121=10^3\\cdot978+121=\\boxed{978121}.\\]"
+    }
+]

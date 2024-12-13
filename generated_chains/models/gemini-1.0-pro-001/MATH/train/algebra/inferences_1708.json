@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the domain of the expression $\\frac{\\sqrt{x-2}}{\\sqrt{5-x}}$.",
+        "inference": "The expression is defined whenever the denominators are not zero.\n$$x-2\\ge0\\text{ and }5-x\\ge0$$\n\n$$x\\ge2\\text{ and }x\\le5$$\n\nThe solution is the intersection of these two intervals, which is the interval $[2, 5]$.\nFinal Answer: \\boxed{$[2, 5]$}. I hope it is correct.",
+        "ground_truth": "The expressions inside each square root must be non-negative. Therefore, $x-2 \\ge 0$, so $x\\ge2$, and $5 - x \\ge 0$, so $x \\le 5$. Also, the denominator cannot be equal to zero, so $5-x>0$, which gives $x<5$. Therefore, the domain of the expression is $\\boxed{[2,5)}$."
+    },
+    {
+        "question": "The expression is defined whenever the denominators are not zero.\n$$x-2\\ge0\\text{ and }5-x\\ge0$$\n\n$$x\\ge2\\text{ and }x\\le5$$\n\nThe solution is the intersection of these two intervals, which is the interval $[2, 5]$.\nFinal Answer: \\boxed{$[2, 5]$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$[2, 5]$}.",
+        "ground_truth": "The expressions inside each square root must be non-negative. Therefore, $x-2 \\ge 0$, so $x\\ge2$, and $5 - x \\ge 0$, so $x \\le 5$. Also, the denominator cannot be equal to zero, so $5-x>0$, which gives $x<5$. Therefore, the domain of the expression is $\\boxed{[2,5)}$."
+    }
+]

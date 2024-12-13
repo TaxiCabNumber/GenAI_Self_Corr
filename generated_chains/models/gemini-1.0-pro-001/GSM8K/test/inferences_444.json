@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMovie A was one-fourth the length of Movie B. Movie B was 5 minutes longer than Movie C. Movie C was 1.25 hours. How many minutes long was Movie A?",
+        "inference": "1. Convert Movie C's length to minutes: 1.25 hours = 1.25 * 60 = 75 minutes\n\n\n2. Determine Movie B's length: 75 minutes + 5 minutes = 80 minutes\n\n\n3. Determine Movie A's length: 80 minutes * 1/4 = 20 minutes\n\nI hope it is correct: 20 minutes",
+        "ground_truth": "Movie C = 1.25 hours = 75 minutes\nMovie B = 75 + 5 = <<75+5=80>>80 minutes\nMovie A = (1/4) * 80 = <<(1/4)*80=20>>20 minutes\nMovie A was <<20=20>>20 minutes long.\n#### 20"
+    },
+    {
+        "question": "1. Convert Movie C's length to minutes: 1.25 hours = 1.25 * 60 = 75 minutes\n\n\n2. Determine Movie B's length: 75 minutes + 5 minutes = 80 minutes\n\n\n3. Determine Movie A's length: 80 minutes * 1/4 = 20 minutes\n\nI hope it is correct: 20 minutes\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 20 minutes",
+        "ground_truth": "Movie C = 1.25 hours = 75 minutes\nMovie B = 75 + 5 = <<75+5=80>>80 minutes\nMovie A = (1/4) * 80 = <<(1/4)*80=20>>20 minutes\nMovie A was <<20=20>>20 minutes long.\n#### 20"
+    }
+]

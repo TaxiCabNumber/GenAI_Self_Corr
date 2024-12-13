@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nKyle is 5 years older than Julian. Julian is 20 years younger than Frederick. Frederick is 2 times older than Tyson. If Tyson is 20, how old is Kyle?",
+        "inference": "- Tyson is 20 years old.\n- Frederick is 2 times older than Tyson, so Frederick is 20 * 2 = 40 years old.\n- Julian is 20 years younger than Frederick, so Julian is 40 - 20 = 20 years old.\n- Kyle is 5 years older than Julian, so Kyle is 20 + 5 = 25 years old.\n\nI hope it is correct: 25",
+        "ground_truth": "Frederick is 20 * 2 = <<20*2=40>>40 years old\nJulian is 40 - 20 = <<40-20=20>>20 years old\nKyle is 20 + 5 = <<20+5=25>>25 years old\n#### 25"
+    },
+    {
+        "question": "- Tyson is 20 years old.\n- Frederick is 2 times older than Tyson, so Frederick is 20 * 2 = 40 years old.\n- Julian is 20 years younger than Frederick, so Julian is 40 - 20 = 20 years old.\n- Kyle is 5 years older than Julian, so Kyle is 20 + 5 = 25 years old.\n\nI hope it is correct: 25\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 25",
+        "ground_truth": "Frederick is 20 * 2 = <<20*2=40>>40 years old\nJulian is 40 - 20 = <<40-20=20>>20 years old\nKyle is 20 + 5 = <<20+5=25>>25 years old\n#### 25"
+    }
+]

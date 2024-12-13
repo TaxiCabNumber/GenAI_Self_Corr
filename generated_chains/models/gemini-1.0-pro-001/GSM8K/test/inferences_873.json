@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nDavid has $12.48 and wants to buy 16 bolts from a bin at the hardware store. Each bolt costs $0.03. How much money does David have left after paying for the bolts?",
+        "inference": "1. Multiply the number of bolts by the cost of each bolt.\n16 x $0.03 = $0.48\n2. Subtract the cost of the bolts from the amount of money David has.\n$12.48 - $0.48 = \nI hope it is correct: 12 $",
+        "ground_truth": "David paid 16 * 0.03 = $<<16*0.03=0.48>>0.48 for the bolts.\nDavid has $12.48 - $0.48 = $12 left.\n#### 12"
+    },
+    {
+        "question": "1. Multiply the number of bolts by the cost of each bolt.\n16 x $0.03 = $0.48\n2. Subtract the cost of the bolts from the amount of money David has.\n$12.48 - $0.48 = \nI hope it is correct: 12 $\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$12",
+        "ground_truth": "David paid 16 * 0.03 = $<<16*0.03=0.48>>0.48 for the bolts.\nDavid has $12.48 - $0.48 = $12 left.\n#### 12"
+    }
+]

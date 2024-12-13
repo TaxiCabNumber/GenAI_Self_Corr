@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe sum of two odd functions is always odd, even, or neither?\n\nEnter \"odd\", \"even\", or \"neither\".",
+        "inference": "The sum of two odd functions is always **odd**.\n\n**Thinking step by step:**\n\n- An odd function is a function that satisfies the property f(-x) = -f(x) for all x in the domain of the function.\n- The sum of two odd functions is a function that satisfies the property g(x) = f(x) + h(x), where f(x) and h(x) are odd functions.\n- For any x in the domain of g(x), we have g(-x) = f(-x) + h(-x) = -f(x) + (-h(x)) = -g(x).\n- Therefore, g(x) is an odd function.\n\n**Final Answer: \\\\boxed{odd}. I hope it is correct.**",
+        "ground_truth": "Let $f(x)$ and $g(x)$ be odd functions, so $f(-x) = -f(x)$ and $g(-x) = -g(x).$  Let $h(x) = f(x) + g(x).$  Then\n\\[h(-x) = f(-x) + g(-x) = -f(x) - g(x) = -h(x),\\]so $h(x)$ is $\\boxed{\\text{odd}}.$"
+    },
+    {
+        "question": "The sum of two odd functions is always **odd**.\n\n**Thinking step by step:**\n\n- An odd function is a function that satisfies the property f(-x) = -f(x) for all x in the domain of the function.\n- The sum of two odd functions is a function that satisfies the property g(x) = f(x) + h(x), where f(x) and h(x) are odd functions.\n- For any x in the domain of g(x), we have g(-x) = f(-x) + h(-x) = -f(x) + (-h(x)) = -g(x).\n- Therefore, g(x) is an odd function.\n\n**Final Answer: \\\\boxed{odd}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{odd}",
+        "ground_truth": "Let $f(x)$ and $g(x)$ be odd functions, so $f(-x) = -f(x)$ and $g(-x) = -g(x).$  Let $h(x) = f(x) + g(x).$  Then\n\\[h(-x) = f(-x) + g(-x) = -f(x) - g(x) = -h(x),\\]so $h(x)$ is $\\boxed{\\text{odd}}.$"
+    }
+]

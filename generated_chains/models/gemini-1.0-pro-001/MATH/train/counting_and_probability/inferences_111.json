@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCompute without using a calculator: $42!/40!$",
+        "inference": "$$42!/40!=\\frac{42 \\cdot 41 \\cdot 40!}{40!}=42 \\cdot 41 = \\boxed{ 1722. }$$\nFinal Answer: $\\boxed{1722}.$ I hope it is correct.",
+        "ground_truth": "${42!}/{40!} = \\dfrac{42 \\times 41 \\times 40 \\times 39 \\times \\cdots \\times 1}{40 \\times 39 \\times \\cdots \\times 1} = 42 \\times 41 = \\boxed{1,\\!722}$."
+    },
+    {
+        "question": "$$42!/40!=\\frac{42 \\cdot 41 \\cdot 40!}{40!}=42 \\cdot 41 = \\boxed{ 1722. }$$\nFinal Answer: $\\boxed{1722}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{ 1722}.$$",
+        "ground_truth": "${42!}/{40!} = \\dfrac{42 \\times 41 \\times 40 \\times 39 \\times \\cdots \\times 1}{40 \\times 39 \\times \\cdots \\times 1} = 42 \\times 41 = \\boxed{1,\\!722}$."
+    }
+]

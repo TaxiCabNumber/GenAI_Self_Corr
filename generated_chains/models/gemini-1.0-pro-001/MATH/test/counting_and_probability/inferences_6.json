@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe inhabitants of the island of Jumble use the standard Roman alphabet (26 letters, A through Z).  Each word in their language is 3 letters, and for some reason, they insist that all words contain the letter A at least once.  How many 3-letter words are possible?",
+        "inference": "**Roman Alphabet:** 26 letters\n**Letters with A:** 5 (A, B, C, D, E)\n\n**First Letter:** 5 choices\n**Second Letter:** 25 choices (excluding first letter)\n**Third Letter:** 24 choices (excluding first and second letter)\n\n**Number of Words:** 5 * 25 * 24 = 30,000\n\n**Final Answer: $\\boxed{30,000}$. I hope it is correct.**",
+        "ground_truth": "There are $26^3$ possible words that can be formed. Of those words, $25^3$ have no A. Thus, our answer is $26^3 - 25^3 = \\boxed{1951}$."
+    },
+    {
+        "question": "**Roman Alphabet:** 26 letters\n**Letters with A:** 5 (A, B, C, D, E)\n\n**First Letter:** 5 choices\n**Second Letter:** 25 choices (excluding first letter)\n**Third Letter:** 24 choices (excluding first and second letter)\n\n**Number of Words:** 5 * 25 * 24 = 30,000\n\n**Final Answer: $\\boxed{30,000}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$15,000$}",
+        "ground_truth": "There are $26^3$ possible words that can be formed. Of those words, $25^3$ have no A. Thus, our answer is $26^3 - 25^3 = \\boxed{1951}$."
+    }
+]

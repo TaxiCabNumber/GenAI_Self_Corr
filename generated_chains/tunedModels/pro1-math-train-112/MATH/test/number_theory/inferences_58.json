@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $a$ and $b$ are integers such that $ab\\equiv 17\\pmod{20}$, then what is the remainder when $(a+10)(b+10)$ is divided by $20$?",
+        "inference": "$$(a+10)(b+10)\\equiv a(b+10)+10(b+10)\\equiv ab+10a+10b+100\\equiv 17+10a+10b+100\\equiv 117+10a+10b\\equiv 117+10(a+b)\\equiv 117+10(17)\\equiv 117+170\\equiv 287\\equiv 7\\pmod{20}$$\n\nFinal Answer: \\boxed{$7$}. I hope it is correct.",
+        "ground_truth": "We begin by expanding $(a+10)(b+10)$ out: \\begin{align*}\n(a+10)(b+10) &= a(b+10) + 10(b+10) \\\\\n&= ab+10a + 10b+100 \\\\\n&= ab+10(a+b)+100.\n\\end{align*}This is congruent modulo $20$ to $ab+10(a+b)$.\n\nNow we observe that $ab$ is $17$ more than a multiple of $20$, so $ab$ is odd, which means $a$ and $b$ must each be odd. Therefore, $a+b$ is even, so $10(a+b)$ is a multiple of $20$. It follows that $$ab+10(a+b) \\equiv ab \\equiv \\boxed{17}\\pmod{20}.$$"
+    },
+    {
+        "question": "$$(a+10)(b+10)\\equiv a(b+10)+10(b+10)\\equiv ab+10a+10b+100\\equiv 17+10a+10b+100\\equiv 117+10a+10b\\equiv 117+10(a+b)\\equiv 117+10(17)\\equiv 117+170\\equiv 287\\equiv 7\\pmod{20}$$\n\nFinal Answer: \\boxed{$7$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$7$}",
+        "ground_truth": "We begin by expanding $(a+10)(b+10)$ out: \\begin{align*}\n(a+10)(b+10) &= a(b+10) + 10(b+10) \\\\\n&= ab+10a + 10b+100 \\\\\n&= ab+10(a+b)+100.\n\\end{align*}This is congruent modulo $20$ to $ab+10(a+b)$.\n\nNow we observe that $ab$ is $17$ more than a multiple of $20$, so $ab$ is odd, which means $a$ and $b$ must each be odd. Therefore, $a+b$ is even, so $10(a+b)$ is a multiple of $20$. It follows that $$ab+10(a+b) \\equiv ab \\equiv \\boxed{17}\\pmod{20}.$$"
+    }
+]

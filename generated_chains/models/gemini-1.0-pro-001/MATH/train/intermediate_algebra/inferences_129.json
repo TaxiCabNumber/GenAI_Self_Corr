@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn a certain hyperbola, the center is at $(2,0),$ one focus is at $(2,6),$ and one vertex is at $(2,-3).$  The equation of this hyperbola can be written as\n\\[\\frac{(y - k)^2}{a^2} - \\frac{(x - h)^2}{b^2} = 1.\\]Find $h + k + a + b.$",
+        "inference": "The distance from the center to a vertex is $a$.  Therefore, $a = 3.$\n\nThe distance from the center to a focus is $c$.  Therefore, $c = 6.$\n\nThe relationship between $a, b,$ and $c$ is $c^2 = a^2 + b^2.$  Substituting, we have $6^2 = 3^2 + b^2.$  Solving for $b$, we have $b = \\sqrt{27} = 3\\sqrt{3}.$\n\nThe center is at $(2,0)$, so $h = 2$ and $k = 0$.\n\nTherefore, $h + k + a + b = 2 + 0 + 3 + 3\\sqrt{3} = \\boxed{5 + 3\\sqrt{3}}.$\n\nFinal Answer: $\\boxed{5 + 3\\sqrt{3}}.$ I hope it is correct.",
+        "ground_truth": "The center of the hyperbola is $(h,k) = (2,0).$  The distance between the center and one vertex is $a = 3,$ and the distance between the center and one focus is $c = 6.$  Then $b^2 = c^2 - a^2 = 6^2 - 3^2 = 27,$ so $b = 3 \\sqrt{3}.$\n\nTherefore, $h + k + a + b = 2 + 0 + 3 + 3 \\sqrt{3} = \\boxed{3 \\sqrt{3} + 5}.$"
+    },
+    {
+        "question": "The distance from the center to a vertex is $a$.  Therefore, $a = 3.$\n\nThe distance from the center to a focus is $c$.  Therefore, $c = 6.$\n\nThe relationship between $a, b,$ and $c$ is $c^2 = a^2 + b^2.$  Substituting, we have $6^2 = 3^2 + b^2.$  Solving for $b$, we have $b = \\sqrt{27} = 3\\sqrt{3}.$\n\nThe center is at $(2,0)$, so $h = 2$ and $k = 0$.\n\nTherefore, $h + k + a + b = 2 + 0 + 3 + 3\\sqrt{3} = \\boxed{5 + 3\\sqrt{3}}.$\n\nFinal Answer: $\\boxed{5 + 3\\sqrt{3}}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{13}",
+        "ground_truth": "The center of the hyperbola is $(h,k) = (2,0).$  The distance between the center and one vertex is $a = 3,$ and the distance between the center and one focus is $c = 6.$  Then $b^2 = c^2 - a^2 = 6^2 - 3^2 = 27,$ so $b = 3 \\sqrt{3}.$\n\nTherefore, $h + k + a + b = 2 + 0 + 3 + 3 \\sqrt{3} = \\boxed{3 \\sqrt{3} + 5}.$"
+    }
+]

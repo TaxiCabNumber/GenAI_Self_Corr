@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJames has 6 more candies than Robert. John has twice as many candies as Robert. If John has 54 candies, how many more candies does John have than James?",
+        "inference": "1. John has twice as many candies as Robert, so if John has 54 candies, Robert has 54/2 = 27 candies.\n2. James has 6 more candies than Robert, so James has 27 + 6 = 33 candies.\n3. John has 54 candies, and James has 33 candies, so John has 54 - 33 = 21 more candies than James.\nI hope it is correct: 21 $answer$",
+        "ground_truth": "Robert has 54/2 = <<54/2=27>>27 candies.\nJames has 27+6 = <<27+6=33>>33 candies.\nJohn has 54-33= <<54-33=21>>21 more candies than James.\n#### 21"
+    },
+    {
+        "question": "1. John has twice as many candies as Robert, so if John has 54 candies, Robert has 54/2 = 27 candies.\n2. James has 6 more candies than Robert, so James has 27 + 6 = 33 candies.\n3. John has 54 candies, and James has 33 candies, so John has 54 - 33 = 21 more candies than James.\nI hope it is correct: 21 $answer$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 21",
+        "ground_truth": "Robert has 54/2 = <<54/2=27>>27 candies.\nJames has 27+6 = <<27+6=33>>33 candies.\nJohn has 54-33= <<54-33=21>>21 more candies than James.\n#### 21"
+    }
+]

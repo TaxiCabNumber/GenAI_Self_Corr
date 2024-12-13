@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $f(x) = x^4 + x^2 + 5x$, evaluate $f(5) - f(-5)$.",
+        "inference": "Final Answer: $\\boxed{100}$. I hope it is correct.",
+        "ground_truth": "Recall that if a function $f$ satisfies $f(x)=f(-x)$ for all real numbers $x$, then it is called an even function.  Similarly, if $f(x)=-f(-x)$ for all real numbers $x$, then $f$ is called an odd function.  Let's define $g(x)=x^4+x^2$ and $h(x)=5x$.  Observe that $g(x)$ is even, $h(x)$ is odd, and $f(x)=g(x)+h(x)$.  We have  \\begin{align*}\nf(5)-f(-5)&=g(5)+h(5)-g(-5)-h(-5) \\\\\n&= (g(5)-g(-5)) + h(5)-h(-5) \\\\\n&= 0 + 2h(5) \\\\\n&= 2(5(5)) \\\\\n&=\\boxed{50}.\n\\end{align*}"
+    },
+    {
+        "question": "Final Answer: $\\boxed{100}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "I need the original question and solution to identify any errors and provide a corrected solution. Please provide the original problem and your solution. \n",
+        "ground_truth": "Recall that if a function $f$ satisfies $f(x)=f(-x)$ for all real numbers $x$, then it is called an even function.  Similarly, if $f(x)=-f(-x)$ for all real numbers $x$, then $f$ is called an odd function.  Let's define $g(x)=x^4+x^2$ and $h(x)=5x$.  Observe that $g(x)$ is even, $h(x)$ is odd, and $f(x)=g(x)+h(x)$.  We have  \\begin{align*}\nf(5)-f(-5)&=g(5)+h(5)-g(-5)-h(-5) \\\\\n&= (g(5)-g(-5)) + h(5)-h(-5) \\\\\n&= 0 + 2h(5) \\\\\n&= 2(5(5)) \\\\\n&=\\boxed{50}.\n\\end{align*}"
+    }
+]

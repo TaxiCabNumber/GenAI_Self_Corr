@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTom plants 10 trees a year.  Every year he also chops down 2 trees a year.  He starts with 50 trees.  After 10 years 30% of the trees die.  How many trees does he have left?",
+        "inference": "1. Tom plants 10 trees a year, so after 10 years, he has planted 10 * 10 = 100 trees.\n2. Tom chops down 2 trees a year, so after 10 years, he has chopped down 2 * 10 = 20 trees.\n3. Tom starts with 50 trees, so after 10 years, he has 50 + 100 - 20 = 130 trees.\n4. 30% of 130 trees die, so 0.3 * 130 = 39 trees die.\n5. Tom has 130 - 39 = 91 trees left.\nI hope it is correct: 91 $answer$",
+        "ground_truth": "He gets 10-2=<<10-2=8>>8 new trees a year\nAfter 10 years he has 8*10=<<8*10=80>>80 new trees\nSo he had 80+50=<<80+50=130>>130 trees\nHe lost 130*.3=<<130*.3=39>>39 trees\nThat means he had 130-39=<<130-39=91>>91 trees\n#### 91"
+    },
+    {
+        "question": "1. Tom plants 10 trees a year, so after 10 years, he has planted 10 * 10 = 100 trees.\n2. Tom chops down 2 trees a year, so after 10 years, he has chopped down 2 * 10 = 20 trees.\n3. Tom starts with 50 trees, so after 10 years, he has 50 + 100 - 20 = 130 trees.\n4. 30% of 130 trees die, so 0.3 * 130 = 39 trees die.\n5. Tom has 130 - 39 = 91 trees left.\nI hope it is correct: 91 $answer$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 91",
+        "ground_truth": "He gets 10-2=<<10-2=8>>8 new trees a year\nAfter 10 years he has 8*10=<<8*10=80>>80 new trees\nSo he had 80+50=<<80+50=130>>130 trees\nHe lost 130*.3=<<130*.3=39>>39 trees\nThat means he had 130-39=<<130-39=91>>91 trees\n#### 91"
+    }
+]

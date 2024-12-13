@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThere are seven wombats in a council. Three of them are hairy-nosed wombats, while the rest are all different species. If the hairy-nosed wombats are indistinguishable but the other wombats are, how many ways can the wombats seat themselves in a row?",
+        "inference": "**Solution:**\nThere are three identical hairy-nosed wombats and four distinguishable wombats, so the number of ways to arrange the wombats is:\n\n$$3!\\times4! = 6\\times24 = 144.$$\n\n**Final Answer: \\boxed{$144$}. I hope it is correct.**",
+        "ground_truth": "There are $7!$ ways to arrange all the wombats. However, because the order of the hairy-nosed wombats does not matter, we've overcounted by the number of ways to arrange those three wombats, or $3!$.\n\nThe answer is $\\dfrac{7!}{3!}=\\boxed{840}$ ways."
+    },
+    {
+        "question": "**Solution:**\nThere are three identical hairy-nosed wombats and four distinguishable wombats, so the number of ways to arrange the wombats is:\n\n$$3!\\times4! = 6\\times24 = 144.$$\n\n**Final Answer: \\boxed{$144$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$144$}",
+        "ground_truth": "There are $7!$ ways to arrange all the wombats. However, because the order of the hairy-nosed wombats does not matter, we've overcounted by the number of ways to arrange those three wombats, or $3!$.\n\nThe answer is $\\dfrac{7!}{3!}=\\boxed{840}$ ways."
+    }
+]

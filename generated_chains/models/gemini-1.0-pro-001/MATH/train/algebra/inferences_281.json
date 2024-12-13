@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFor how many positive integers $x$ is $100 \\leq x^2 \\leq 200$?",
+        "inference": "**Solution:**  The only integers whose squares lie between $100$ and $200$ are $10$ and $11$.  \n\n**Final Answer: $\\boxed{2}$. I hope it is correct.**",
+        "ground_truth": "We have $10^2=100$, so $10$ is the smallest positive integer which satisfies the inequalities. From here, we can compute the next few perfect squares: \\begin{align*}\n11^2 &= 121, \\\\\n12^2 &= 144, \\\\\n13^2 &= 169, \\\\\n14^2 &= 196, \\\\\n15^2 &= 225.\n\\end{align*} The last $x$ for which $x^2\\le 200$ is $x=14$. In all, our solutions in positive integers are $$x=10,11,12,13,14,$$ so there are $\\boxed{5}$ such $x$."
+    },
+    {
+        "question": "**Solution:**  The only integers whose squares lie between $100$ and $200$ are $10$ and $11$.  \n\n**Final Answer: $\\boxed{2}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "**Solution:**  The only integers whose squares lie between $100$ and $200$ are $10$ and $11$.  \n\n**Final Answer: $\\boxed{2}$**",
+        "ground_truth": "We have $10^2=100$, so $10$ is the smallest positive integer which satisfies the inequalities. From here, we can compute the next few perfect squares: \\begin{align*}\n11^2 &= 121, \\\\\n12^2 &= 144, \\\\\n13^2 &= 169, \\\\\n14^2 &= 196, \\\\\n15^2 &= 225.\n\\end{align*} The last $x$ for which $x^2\\le 200$ is $x=14$. In all, our solutions in positive integers are $$x=10,11,12,13,14,$$ so there are $\\boxed{5}$ such $x$."
+    }
+]

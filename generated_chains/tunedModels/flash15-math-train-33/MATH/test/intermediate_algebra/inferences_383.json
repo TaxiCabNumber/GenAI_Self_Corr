@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $x$ and $y$ be nonnegative real numbers such that $x + y = 1.$  Find the maximum value of\n\\[x^4 y + xy^4.\\]",
+        "inference": "Final Answer: \\\\boxed{\\frac{1}{27}}. I hope it is correct. \n",
+        "ground_truth": "We can write\n\\begin{align*}\nx^4 y + xy^4 &= xy(x^3 + y^3) \\\\\n&= xy (x + y)(x^2 - xy + y^2) \\\\\n&= xy [(x + y)^2 - 3xy] \\\\\n&= xy (1 - 3xy) \\\\\n&= \\frac{3xy (1 - 3xy)}{3}.\n\\end{align*}By AM-GM,\n\\[3xy (1 - 3xy) \\le \\left( \\frac{3xy + (1 - 3xy)}{2} \\right)^2 = \\frac{1}{4},\\]so\n\\[x^4 y + xy^4 \\le \\frac{1}{12}.\\]Equality occurs when $x + y = 1$ and $3xy = \\frac{1}{2}.$  By Vieta's formulas, $x$ and $y$ are the roots of $t^2 - t + \\frac{1}{6} = 0.$  These roots are\n\\[\\frac{3 \\pm \\sqrt{3}}{6}.\\]Hence, the maximum value is $\\boxed{\\frac{1}{12}}.$"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{\\frac{1}{27}}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need that information to identify any potential errors and rewrite the solution correctly. \n",
+        "ground_truth": "We can write\n\\begin{align*}\nx^4 y + xy^4 &= xy(x^3 + y^3) \\\\\n&= xy (x + y)(x^2 - xy + y^2) \\\\\n&= xy [(x + y)^2 - 3xy] \\\\\n&= xy (1 - 3xy) \\\\\n&= \\frac{3xy (1 - 3xy)}{3}.\n\\end{align*}By AM-GM,\n\\[3xy (1 - 3xy) \\le \\left( \\frac{3xy + (1 - 3xy)}{2} \\right)^2 = \\frac{1}{4},\\]so\n\\[x^4 y + xy^4 \\le \\frac{1}{12}.\\]Equality occurs when $x + y = 1$ and $3xy = \\frac{1}{2}.$  By Vieta's formulas, $x$ and $y$ are the roots of $t^2 - t + \\frac{1}{6} = 0.$  These roots are\n\\[\\frac{3 \\pm \\sqrt{3}}{6}.\\]Hence, the maximum value is $\\boxed{\\frac{1}{12}}.$"
+    }
+]

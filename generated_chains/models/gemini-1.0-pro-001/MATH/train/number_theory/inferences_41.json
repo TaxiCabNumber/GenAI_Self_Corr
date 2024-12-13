@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the modulo $13$ residue of $247+5 \\cdot 39 + 7 \\cdot 143 +4 \\cdot 15?$",
+        "inference": "$247+5 \\cdot 39 + 7 \\cdot 143 +4 \\cdot 15 = 247 + 195 + 991 + 60 \\equiv 12 + 3 + 11 + 1 \\equiv 5 \\pmod{13}.$\nFinal Answer: $\\boxed{5}.$ I hope it is correct.",
+        "ground_truth": "Since $247, 39,$ and $143$ are all divisible by $13$, the residues for $247+ 5 \\cdot 39 + 7 \\cdot 143$ is just $0$.\n\nTherefore, $247+5 \\cdot 39 + 7 \\cdot 143 +4 \\cdot 15 \\equiv 4 \\cdot 15 \\equiv 60 \\equiv \\boxed{8} \\pmod{13}$."
+    },
+    {
+        "question": "$247+5 \\cdot 39 + 7 \\cdot 143 +4 \\cdot 15 = 247 + 195 + 991 + 60 \\equiv 12 + 3 + 11 + 1 \\equiv 5 \\pmod{13}.$\nFinal Answer: $\\boxed{5}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$5$}.",
+        "ground_truth": "Since $247, 39,$ and $143$ are all divisible by $13$, the residues for $247+ 5 \\cdot 39 + 7 \\cdot 143$ is just $0$.\n\nTherefore, $247+5 \\cdot 39 + 7 \\cdot 143 +4 \\cdot 15 \\equiv 4 \\cdot 15 \\equiv 60 \\equiv \\boxed{8} \\pmod{13}$."
+    }
+]

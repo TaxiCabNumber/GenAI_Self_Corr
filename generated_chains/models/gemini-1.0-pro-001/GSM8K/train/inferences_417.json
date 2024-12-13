@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJim buys a package of 20 car washes.  Since He bought a package he only has to pay 60%.  A carwash normally costs 15 dollars.  How much did he pay for the package?",
+        "inference": "1. Calculate the cost of one single car wash by 15 dollars. \n2. Multiply the value of the single car wash by 0.60 to get the value of the car wash with the discount. \n3. Multiply the value of the car wash with the discount package by 20 to get the final cost of the package. \n\nCost of one single car wash: $15\n\nCost of one car wash with discount= $15 x 0.60 = $9\n\nCost of 20 car washes with discount: $9 x 20 = $180\n\nI hope it is correct: $180$",
+        "ground_truth": "He had to pay for 20*.6=<<20*.6=12>>12 car washes\nThat means he had to pay 12*15=$<<12*15=180>>180\n#### 180"
+    },
+    {
+        "question": "1. Calculate the cost of one single car wash by 15 dollars. \n2. Multiply the value of the single car wash by 0.60 to get the value of the car wash with the discount. \n3. Multiply the value of the car wash with the discount package by 20 to get the final cost of the package. \n\nCost of one single car wash: $15\n\nCost of one car wash with discount= $15 x 0.60 = $9\n\nCost of 20 car washes with discount: $9 x 20 = $180\n\nI hope it is correct: $180$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $180$",
+        "ground_truth": "He had to pay for 20*.6=<<20*.6=12>>12 car washes\nThat means he had to pay 12*15=$<<12*15=180>>180\n#### 180"
+    }
+]

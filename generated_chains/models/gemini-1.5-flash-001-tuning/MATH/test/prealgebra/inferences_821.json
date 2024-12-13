@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn the diagram below, we have $\\overline{ST}\\parallel\\overline{QR}$, $\\angle P= 40^\\circ$, and $\\angle Q =35^\\circ$. Find the measure of $\\angle STR$ in degrees.\n\n[asy]\npair P,Q,R,SS,T;\nQ = (0,0);\nR = (1,0);\nP = (1.1,0.5);\nSS = 0.6*P;\nT = R + 0.6*(P-R);\ndraw(T--SS--P--R--Q--SS);\nlabel(\"$P$\",P,N);\nlabel(\"$S$\",SS,NW);\nlabel(\"$Q$\",Q,S);\nlabel(\"$R$\",R,S);\nlabel(\"$T$\",T,ENE);\n[/asy]",
+        "inference": "Since $\\overline{ST} \\parallel \\overline{QR}$, we know that $\\angle STR$ and $\\angle QRS$ are corresponding angles and thus congruent.  Since $\\angle PQR$ and $\\angle QRS$ are supplementary, $\\angle QRS = 180^\\circ - \\angle PQR = 180^\\circ - 35^\\circ = 145^\\circ$.  Therefore, $\\angle STR = \\angle QRS = \\boxed{145^\\circ}$. Final Answer: $\\boxed{145^\\circ}$. I hope it is correct. \n",
+        "ground_truth": "From $\\triangle PQR$, we have $\\angle R = 180^\\circ - \\angle Q - \\angle P = 105^\\circ$.  Since $\\overline{ST}\\parallel \\overline{QR}$, we have $\\angle STR = 180^\\circ - \\angle R = \\boxed{75^\\circ}$."
+    },
+    {
+        "question": "Since $\\overline{ST} \\parallel \\overline{QR}$, we know that $\\angle STR$ and $\\angle QRS$ are corresponding angles and thus congruent.  Since $\\angle PQR$ and $\\angle QRS$ are supplementary, $\\angle QRS = 180^\\circ - \\angle PQR = 180^\\circ - 35^\\circ = 145^\\circ$.  Therefore, $\\angle STR = \\angle QRS = \\boxed{145^\\circ}$. Final Answer: $\\boxed{145^\\circ}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{145^\\circ}$ \n",
+        "ground_truth": "From $\\triangle PQR$, we have $\\angle R = 180^\\circ - \\angle Q - \\angle P = 105^\\circ$.  Since $\\overline{ST}\\parallel \\overline{QR}$, we have $\\angle STR = 180^\\circ - \\angle R = \\boxed{75^\\circ}$."
+    }
+]

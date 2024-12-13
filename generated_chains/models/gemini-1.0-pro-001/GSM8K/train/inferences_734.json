@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nChang's Garden has two kinds of apples. Sweet ones and sour ones. He can sell the sweet ones for $.5 an apple. The sour ones sell for $.1 an apple. 75% of the apples he gets are sweet and the rest are sour. If he earns $40, how many apples did his trees give him?",
+        "inference": "**SOLUTION:**\nLet's assume that Chang has a total of x apples.\n75% of x are sweet apples, which is 0.75x.\n25% of x are sour apples, which is 0.25x.\nThe total amount of money Chang earns from selling sweet apples is 0.75x * $0.5 = $0.375x.\nThe total amount of money Chang earns from selling sour apples is 0.25x * $0.1 = $0.025x.\nTherefore, the total amount of money Chang earns is $0.375x + $0.025x = $0.4x.\nSince Chang earns $40, we have $0.4x = $40.\nSolving for x, we get x = 100.\n**Therefore, Chang's trees gave him 100 apples.**\nI hope it is correct: 100",
+        "ground_truth": "25% of the apples are sour because 100 - 75 = <<100-75=25>>25\nThe average price of an apple sold is $.4 because .75(.5) + .25(.1)= .4\nHe got 100 apples because 40 / .4 = <<40/.4=100>>100\n#### 100"
+    },
+    {
+        "question": "**SOLUTION:**\nLet's assume that Chang has a total of x apples.\n75% of x are sweet apples, which is 0.75x.\n25% of x are sour apples, which is 0.25x.\nThe total amount of money Chang earns from selling sweet apples is 0.75x * $0.5 = $0.375x.\nThe total amount of money Chang earns from selling sour apples is 0.25x * $0.1 = $0.025x.\nTherefore, the total amount of money Chang earns is $0.375x + $0.025x = $0.4x.\nSince Chang earns $40, we have $0.4x = $40.\nSolving for x, we get x = 100.\n**Therefore, Chang's trees gave him 100 apples.**\nI hope it is correct: 100\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "100",
+        "ground_truth": "25% of the apples are sour because 100 - 75 = <<100-75=25>>25\nThe average price of an apple sold is $.4 because .75(.5) + .25(.1)= .4\nHe got 100 apples because 40 / .4 = <<40/.4=100>>100\n#### 100"
+    }
+]

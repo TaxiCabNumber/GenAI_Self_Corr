@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nGloria is shoe shopping when she comes across a pair of boots that fit her shoe budget. However, she has to choose between the boots and two pairs of high heels that together cost five dollars less than the boots. If one pair of heels costs $33 and the other costs twice as much, how many dollars are the boots?",
+        "inference": "Let x be the cost of the boots.\nThe cost of the two pairs of high heels is x - 5.\nOne pair of heels costs $33, so the other pair costs 2 * $33 = $66.\nTherefore, x - 5 = $33 + $66 = $99.\nSolving for x, we get x = $99 + $5 = $104.\nI hope it is correct: $104$",
+        "ground_truth": "The second pair of heels costs 33 * 2 = $<<33*2=66>>66.\nThe heels together cost 66 + 33 = $<<66+33=99>>99.\nThe boots cost $5 more than both pairs of heels together, so the boots cost 99 + 5 = $104.\n#### 104"
+    },
+    {
+        "question": "Let x be the cost of the boots.\nThe cost of the two pairs of high heels is x - 5.\nOne pair of heels costs $33, so the other pair costs 2 * $33 = $66.\nTherefore, x - 5 = $33 + $66 = $99.\nSolving for x, we get x = $99 + $5 = $104.\nI hope it is correct: $104$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$=104",
+        "ground_truth": "The second pair of heels costs 33 * 2 = $<<33*2=66>>66.\nThe heels together cost 66 + 33 = $<<66+33=99>>99.\nThe boots cost $5 more than both pairs of heels together, so the boots cost 99 + 5 = $104.\n#### 104"
+    }
+]

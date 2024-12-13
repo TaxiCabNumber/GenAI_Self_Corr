@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe function $f(x)$ satisfies\n\\[3f(x) - 2 f \\left( \\frac{1}{x} \\right) = x\\]for all $x \\neq 0.$  Find $f(4).$",
+        "inference": "Setting $x = 4,$ we get\n\\[3f(4) - 2 f \\left( \\frac{1}{4} \\right) = 4.\\]Setting $x = \\frac{1}{4},$ we get\n\\[3f \\left( \\frac{1}{4} \\right) - 2f(4) = \\frac{1}{4}.\\]Multiplying the second equation by 2, we get\n\\[6f \\left( \\frac{1}{4} \\right) - 4f(4) = \\frac{1}{2}.\\]Adding this equation to the first equation, we get\n\\[-f(4) = \\frac{9}{2},\\]so $f(4) = \\boxed{-\\frac{9}{2}}.$ \n",
+        "ground_truth": "Setting $x = 4,$ we get\n\\[3f(4) - 2 f \\left( \\frac{1}{4} \\right) = 4.\\]Setting $x = \\frac{1}{4},$ we get\n\\[3 f \\left( \\frac{1}{4} \\right) - 2f(4) = \\frac{1}{4}.\\]We can view these equations as a system in $f(4)$ and $f \\left( \\frac{1}{4} \\right).$  Solving this system, we find $f(4) = \\boxed{\\frac{5}{2}}.$"
+    },
+    {
+        "question": "Setting $x = 4,$ we get\n\\[3f(4) - 2 f \\left( \\frac{1}{4} \\right) = 4.\\]Setting $x = \\frac{1}{4},$ we get\n\\[3f \\left( \\frac{1}{4} \\right) - 2f(4) = \\frac{1}{4}.\\]Multiplying the second equation by 2, we get\n\\[6f \\left( \\frac{1}{4} \\right) - 4f(4) = \\frac{1}{2}.\\]Adding this equation to the first equation, we get\n\\[-f(4) = \\frac{9}{2},\\]so $f(4) = \\boxed{-\\frac{9}{2}}.$ \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct. There is no error.  \n\n$\\boxed{-\\frac{9}{2}}$ \n",
+        "ground_truth": "Setting $x = 4,$ we get\n\\[3f(4) - 2 f \\left( \\frac{1}{4} \\right) = 4.\\]Setting $x = \\frac{1}{4},$ we get\n\\[3 f \\left( \\frac{1}{4} \\right) - 2f(4) = \\frac{1}{4}.\\]We can view these equations as a system in $f(4)$ and $f \\left( \\frac{1}{4} \\right).$  Solving this system, we find $f(4) = \\boxed{\\frac{5}{2}}.$"
+    }
+]

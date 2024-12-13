@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA gecko eats 70 crickets every three days.  The first day she eats 30% of the crickets.  The second day she eats 6 less than the first, and the third day she finishes up the remaining crickets.  How many crickets does she eat on the third day?",
+        "inference": "30% of 70 = 30 x 0.30 = 21\n\nShe eats 21 crickets on the first day.\n\nShe eats 6 less than the first = 21 - 6 = 15\n\nShe eats 15 crickets on the second day.\n\nTotal eaten after first two days = 21 + 15 = 36\n\nShe eats the remaining crickets on the third day = 70 - 36 = 34\n\n**I hope it is correct: 34**",
+        "ground_truth": "Day 1:70(.30)=21 crickets\nDay 2:21-6=<<21-6=15>>15 crickets\nDay 3:70-21-15=<<70-21-15=34>>34 crickets\n#### 34"
+    },
+    {
+        "question": "30% of 70 = 30 x 0.30 = 21\n\nShe eats 21 crickets on the first day.\n\nShe eats 6 less than the first = 21 - 6 = 15\n\nShe eats 15 crickets on the second day.\n\nTotal eaten after first two days = 21 + 15 = 36\n\nShe eats the remaining crickets on the third day = 70 - 36 = 34\n\n**I hope it is correct: 34**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 34",
+        "ground_truth": "Day 1:70(.30)=21 crickets\nDay 2:21-6=<<21-6=15>>15 crickets\nDay 3:70-21-15=<<70-21-15=34>>34 crickets\n#### 34"
+    }
+]

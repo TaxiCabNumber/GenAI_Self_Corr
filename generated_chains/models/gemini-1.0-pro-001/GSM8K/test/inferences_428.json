@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA food caterer was told to prepare gourmet hot dogs for 36 guests. While most people would only eat one hotdog, he prepared enough for half of the guests to be able to have two hotdogs. However, 40 guests showed up, and everyone wanted a second hotdog. How many guests did not get a second hotdog?",
+        "inference": "36 guests were expected, and half of them would have eaten 2 hotdogs, which is 18 guests. So, a total of 18 * 2 = 36 hotdogs would have been needed for the expected 36 guests.\n\nHowever, 40 guests showed up, so the caterer was short 4 hotdogs (40 - 36 = 4).\n\nSince everyone wanted a second hotdog, 4 guests did not get a second hotdog.\nI hope it is correct: 4",
+        "ground_truth": "The food caterer prepared an additional 36/2 = <<36/2=18>>18 hot dogs.\nAltogether, he prepared 36 + 18 = <<36+18=54>>54 hotdogs.\nIf 40 people wanted seconds, he would have needed 40 x 2 = <<40*2=80>>80 hot dogs.\n80 - 54 = <<80-54=26>>26 people did not get second hotdogs.\n#### 26"
+    },
+    {
+        "question": "36 guests were expected, and half of them would have eaten 2 hotdogs, which is 18 guests. So, a total of 18 * 2 = 36 hotdogs would have been needed for the expected 36 guests.\n\nHowever, 40 guests showed up, so the caterer was short 4 hotdogs (40 - 36 = 4).\n\nSince everyone wanted a second hotdog, 4 guests did not get a second hotdog.\nI hope it is correct: 4\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 4",
+        "ground_truth": "The food caterer prepared an additional 36/2 = <<36/2=18>>18 hot dogs.\nAltogether, he prepared 36 + 18 = <<36+18=54>>54 hotdogs.\nIf 40 people wanted seconds, he would have needed 40 x 2 = <<40*2=80>>80 hot dogs.\n80 - 54 = <<80-54=26>>26 people did not get second hotdogs.\n#### 26"
+    }
+]

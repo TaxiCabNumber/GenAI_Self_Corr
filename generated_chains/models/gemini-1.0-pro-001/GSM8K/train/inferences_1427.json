@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe total number of dogs at an animal rescue center is 200. Mr. Tanner, the manager at the rescue center, gets a call that 100 dogs at another rescue center are to be moved because of weather problems. He agrees to bring the dogs to his rescue center, and after one week, gives out 40  animals for adoption. After a month, 60 more dogs were adopted by dog lovers. What's the total number of remaining animals in the adoption center after the last adoptions?",
+        "inference": "1-  Dogs at the center initially = 200 2- Dogs added after center called = +100 3- Dogs for adoption taken = -40 4- Remaining after 1st adoption = 200+100-40 = 260 5- Dogs for adoption taken after a month = -60 6- Remaining animals now = 260 - 60 = 200 I hope it's correct: #### 200",
+        "ground_truth": "After taking in 100 more dogs, the number of dogs in the rescue center increased to 200+100 = 300.\nAfter a week, the number of dogs was reduced to 300 - 40 = <<300-40=260>>260 after the adoptions.\nSo, there are 260 - 60 = 200 dogs left after 60 more dogs were adopted.\n#### 200"
+    },
+    {
+        "question": "1-  Dogs at the center initially = 200 2- Dogs added after center called = +100 3- Dogs for adoption taken = -40 4- Remaining after 1st adoption = 200+100-40 = 260 5- Dogs for adoption taken after a month = -60 6- Remaining animals now = 260 - 60 = 200 I hope it's correct: #### 200\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 200",
+        "ground_truth": "After taking in 100 more dogs, the number of dogs in the rescue center increased to 200+100 = 300.\nAfter a week, the number of dogs was reduced to 300 - 40 = <<300-40=260>>260 after the adoptions.\nSo, there are 260 - 60 = 200 dogs left after 60 more dogs were adopted.\n#### 200"
+    }
+]

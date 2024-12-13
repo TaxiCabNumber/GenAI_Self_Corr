@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe line $ax+(a+1)y=a+2$ passes through the point $(4,-8)$. Find $a$.",
+        "inference": "The line $ax+(a+1)y=a+2$ passes through $(4,-8)$, so\n$$a(4)+(a+1)(-8)=a+2$$\n\n$$4a-8a-8=a+2$$\n\n$$4a-8a-a=2+8$$\n\n$$-5a=10$$\n\nDividing both sides by $-5$,\n\n$$a=\\frac{10}{-5}=-2$$\n\nFinal Answer: $\\boxed{-2}$. I hope it is correct.",
+        "ground_truth": "Since the line passes through $(4,-8)$, we know the equation will be satisfied when we plug in $x=4$ and $y=-8$. This gives\n\n\\begin{align*}\na(4)+(a+1)(-8)&=a+2\\\\\n4a-8a-8&=a+2\\\\\n-4a-8&=a+2\\\\\n-10&=5a\\\\\n-2&=a.\n\\end{align*}Thus $a=\\boxed{-2}$. The equation is $-2x-y=0$, or $y=-2x$, and we can see that $(4,-8)$ lies along this line."
+    },
+    {
+        "question": "The line $ax+(a+1)y=a+2$ passes through $(4,-8)$, so\n$$a(4)+(a+1)(-8)=a+2$$\n\n$$4a-8a-8=a+2$$\n\n$$4a-8a-a=2+8$$\n\n$$-5a=10$$\n\nDividing both sides by $-5$,\n\n$$a=\\frac{10}{-5}=-2$$\n\nFinal Answer: $\\boxed{-2}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{-2}$$",
+        "ground_truth": "Since the line passes through $(4,-8)$, we know the equation will be satisfied when we plug in $x=4$ and $y=-8$. This gives\n\n\\begin{align*}\na(4)+(a+1)(-8)&=a+2\\\\\n4a-8a-8&=a+2\\\\\n-4a-8&=a+2\\\\\n-10&=5a\\\\\n-2&=a.\n\\end{align*}Thus $a=\\boxed{-2}$. The equation is $-2x-y=0$, or $y=-2x$, and we can see that $(4,-8)$ lies along this line."
+    }
+]

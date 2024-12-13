@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat prime is 4 greater than a perfect square and 7 less than the next perfect square?",
+        "inference": "Let the perfect square be x^2. Then, the next perfect square is (x+1)^2. The prime between is x^2 + 4 = (x+1)^2 - 7 = x^2 + 2x - 3. This must be prime. The only prime of that form is 5. The perfect square is 4, so the prime is 5 + 4 = \\boxed{9}.\nFinal Answer: \\boxed{9}. I hope it is correct.",
+        "ground_truth": "Let the prime be $n$.  We are given that $n-4$ and $n+7$ are consecutive perfect squares, and they differ by $(n+7)-(n-4)=11$.  Writing out the first few perfect squares, we see that 25 and 36 differ by 11.  Hence, $n-4=25$ and $n+7=36$, so $n=\\boxed{29}$."
+    },
+    {
+        "question": "Let the perfect square be x^2. Then, the next perfect square is (x+1)^2. The prime between is x^2 + 4 = (x+1)^2 - 7 = x^2 + 2x - 3. This must be prime. The only prime of that form is 5. The perfect square is 4, so the prime is 5 + 4 = \\boxed{9}.\nFinal Answer: \\boxed{9}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{9}",
+        "ground_truth": "Let the prime be $n$.  We are given that $n-4$ and $n+7$ are consecutive perfect squares, and they differ by $(n+7)-(n-4)=11$.  Writing out the first few perfect squares, we see that 25 and 36 differ by 11.  Hence, $n-4=25$ and $n+7=36$, so $n=\\boxed{29}$."
+    }
+]

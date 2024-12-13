@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nVince can staple 30 reports every 15 minutes.  If he was stapling reports from 8:00 AM until 11:00 PM, how many reports did he staple altogether?",
+        "inference": "**1.** Calculate the total time: 11:00 PM - 8:00 AM = 15 hours \n\n**2.** Convert hours to minutes: 15 hours * 60 minutes per hour = 900 minutes \n\n**3.** Determine how many 15-minute intervals are in 900 minutes: 900 minutes / 15 minutes per interval = 60 intervals \n\n**4.** Multiply the number of intervals by the number of reports stapled in each interval: 60 intervals * 30 reports per interval = 1800 reports \n\nI hope it is correct: 1800",
+        "ground_truth": "In one hour, there are 60 / 15 = <<60/15=4>>4 (15 minutes).\nFrom 8am - 11am, there are 11 - 8 = <<11-8=3>>3 hours.\nIn 3 hours, there are 3 x 4 = <<3*4=12>>12 (15 minutes).\nIn those 3 hours, Vince stapled 12 x 30 = <<12*30=360>>360 reports.\n#### 360"
+    },
+    {
+        "question": "**1.** Calculate the total time: 11:00 PM - 8:00 AM = 15 hours \n\n**2.** Convert hours to minutes: 15 hours * 60 minutes per hour = 900 minutes \n\n**3.** Determine how many 15-minute intervals are in 900 minutes: 900 minutes / 15 minutes per interval = 60 intervals \n\n**4.** Multiply the number of intervals by the number of reports stapled in each interval: 60 intervals * 30 reports per interval = 1800 reports \n\nI hope it is correct: 1800\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$1800",
+        "ground_truth": "In one hour, there are 60 / 15 = <<60/15=4>>4 (15 minutes).\nFrom 8am - 11am, there are 11 - 8 = <<11-8=3>>3 hours.\nIn 3 hours, there are 3 x 4 = <<3*4=12>>12 (15 minutes).\nIn those 3 hours, Vince stapled 12 x 30 = <<12*30=360>>360 reports.\n#### 360"
+    }
+]

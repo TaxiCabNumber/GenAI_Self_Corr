@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf the first day of a month is Monday, what day of the week is the twenty-third day?",
+        "inference": "The first week of the month has 7 days, so the 8th day is in the second week. The second week also has 7 days, so the 15th day is in the third week. The third week also has 7 days, so the 22nd day is in the fourth week. The fourth week also has 7 days, so the 23rd day is in the fifth week. The fifth week also has 7 days, so the 23rd day is the fifth day of the fifth week. The first day of the fifth week is Monday, so the fifth day of the fifth week is Friday.\n\nFinal Answer: \\boxed{Friday}. I hope it is correct.",
+        "ground_truth": "The days of the week repeat every $7$ days. So days $1, 1+7, 1+14, \\ldots$ are all on Mondays. Since day $22=1+21$ is a Monday, the twenty-third day is a $\\boxed{\\text{Tuesday}}$. In other words, if the remainder when $n$ is divided by $7$ is $1$, the $n$th day is a Monday. The remainder when $23$ is divided by $7$ is $2$, so the day is one day after Monday. That's Tuesday."
+    },
+    {
+        "question": "The first week of the month has 7 days, so the 8th day is in the second week. The second week also has 7 days, so the 15th day is in the third week. The third week also has 7 days, so the 22nd day is in the fourth week. The fourth week also has 7 days, so the 23rd day is in the fifth week. The fifth week also has 7 days, so the 23rd day is the fifth day of the fifth week. The first day of the fifth week is Monday, so the fifth day of the fifth week is Friday.\n\nFinal Answer: \\boxed{Friday}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{Friday}",
+        "ground_truth": "The days of the week repeat every $7$ days. So days $1, 1+7, 1+14, \\ldots$ are all on Mondays. Since day $22=1+21$ is a Monday, the twenty-third day is a $\\boxed{\\text{Tuesday}}$. In other words, if the remainder when $n$ is divided by $7$ is $1$, the $n$th day is a Monday. The remainder when $23$ is divided by $7$ is $2$, so the day is one day after Monday. That's Tuesday."
+    }
+]

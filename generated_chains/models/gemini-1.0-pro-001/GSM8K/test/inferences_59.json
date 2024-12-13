@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA raspberry bush has 6 clusters of 20 fruit each and 67 individual fruit scattered across the bush. How many raspberries are there total?",
+        "inference": "1) First multiply the number of clusters with the number of fruit in each cluster.\n6 * 20 = 120\n\n2) Then add the number of individual fruit\n120 + 67= 187\n\nI hope it is correct: 187 $answer$",
+        "ground_truth": "First find the number of fruit in clusters: 20 fruit/cluster * 6 clusters = <<20*6=120>>120 fruit\nThen add the number of individual fruit to find the total number of fruit: 120 fruit + 67 fruit = <<120+67=187>>187 fruit\n#### 187"
+    },
+    {
+        "question": "1) First multiply the number of clusters with the number of fruit in each cluster.\n6 * 20 = 120\n\n2) Then add the number of individual fruit\n120 + 67= 187\n\nI hope it is correct: 187 $answer$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "187 $answer$",
+        "ground_truth": "First find the number of fruit in clusters: 20 fruit/cluster * 6 clusters = <<20*6=120>>120 fruit\nThen add the number of individual fruit to find the total number of fruit: 120 fruit + 67 fruit = <<120+67=187>>187 fruit\n#### 187"
+    }
+]

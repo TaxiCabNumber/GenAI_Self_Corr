@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nIndia has 4 more than half the number of states in the USA. What's the total number of states in both countries together?",
+        "inference": "1) Let the number of states in the USA be x.\n2) Then, the number of states in India is x/2 + 4.\n3) The total number of states in both countries is x + x/2 + 4 = 3x/2 + 4.\n\nI hope it is correct: 2x + 8",
+        "ground_truth": "Since the number of states in the USA is 50, half that number is 1/2*50 = 25\nSince there are 4 more than half the number of states in the USA in India, there are 25+4 = <<4+25=29>>29 states in India.\nTogether, the two countries have 50+29 = <<50+29=79>>79 states.\n#### 79"
+    },
+    {
+        "question": "1) Let the number of states in the USA be x.\n2) Then, the number of states in India is x/2 + 4.\n3) The total number of states in both countries is x + x/2 + 4 = 3x/2 + 4.\n\nI hope it is correct: 2x + 8\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 3x/2 + 4",
+        "ground_truth": "Since the number of states in the USA is 50, half that number is 1/2*50 = 25\nSince there are 4 more than half the number of states in the USA in India, there are 25+4 = <<4+25=29>>29 states in India.\nTogether, the two countries have 50+29 = <<50+29=79>>79 states.\n#### 79"
+    }
+]

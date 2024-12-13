@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $e^{i \\alpha} + e^{i \\beta} = \\frac{1}{4} + \\frac{3}{7} i,$ then find $e^{-i \\alpha} + e^{-i \\beta}.$",
+        "inference": "Final Answer: \\\\boxed{\\frac{1}{4} - \\frac{3}{7} i}. I hope it is correct. \n",
+        "ground_truth": "We can write\n\\[\\cos \\alpha + i \\sin \\alpha + \\cos \\beta + i \\sin \\beta = \\frac{1}{4} + \\frac{3}{7} i,\\]so $\\cos \\alpha + \\cos \\beta = \\frac{1}{4}$ and $\\sin \\alpha + \\sin \\beta = \\frac{3}{7}.$  Therefore,\n\\begin{align*}\ne^{-i \\alpha} + e^{-i \\beta} &= \\cos (-\\alpha) + i \\sin (-\\alpha) + \\cos (-\\beta) + i \\sin (-\\beta) \\\\\n&= \\cos \\alpha - i \\sin \\alpha + \\cos \\beta - i \\sin \\beta \\\\\n&= \\boxed{\\frac{1}{4} - \\frac{3}{7} i}.\n\\end{align*}"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{\\frac{1}{4} - \\frac{3}{7} i}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide the original question so I can check the solution and provide the correct answer. \n",
+        "ground_truth": "We can write\n\\[\\cos \\alpha + i \\sin \\alpha + \\cos \\beta + i \\sin \\beta = \\frac{1}{4} + \\frac{3}{7} i,\\]so $\\cos \\alpha + \\cos \\beta = \\frac{1}{4}$ and $\\sin \\alpha + \\sin \\beta = \\frac{3}{7}.$  Therefore,\n\\begin{align*}\ne^{-i \\alpha} + e^{-i \\beta} &= \\cos (-\\alpha) + i \\sin (-\\alpha) + \\cos (-\\beta) + i \\sin (-\\beta) \\\\\n&= \\cos \\alpha - i \\sin \\alpha + \\cos \\beta - i \\sin \\beta \\\\\n&= \\boxed{\\frac{1}{4} - \\frac{3}{7} i}.\n\\end{align*}"
+    }
+]

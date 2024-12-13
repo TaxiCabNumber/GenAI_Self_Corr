@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $(w+13)^2=(3w+7)(2w+4)$, find $w^2$. Express your answer as a decimal.",
+        "inference": "Solution:\n\\begin{align*}\n(w+13)^2&=(3w+7)(2w+4)\\\\\nw^2+26w+169&=6w^2+21w+14w+28\\\\\n5w^2+5w+141&=0\\\\\nw&=\\frac{-5\\pm\\sqrt{5^2-4(5)(141)}}{2(5)}\\\\\n&=\\frac{-5\\pm\\sqrt{25-2820}}{10}\\\\\n&=\\frac{-5\\pm\\sqrt{-2795}}{10}\\\\\n&=\\frac{-5\\pm i\\sqrt{2795}}{10}\\\\\nw^2&=\\left(\\frac{-5}{10}\\right)^2+\\left(\\frac{i\\sqrt{2795}}{10}\\right)^2\\\\\n&=\\frac{1}{4}+\\frac{-2795}{100}\\\\\n&=\\frac{25}{100}-27.95\\\\\n&=-0.54\\\\\n\\end{align*}\nFinal Answer: $\\boxed{-0.54}$. I hope it is correct.",
+        "ground_truth": "We expand both sides to find\n\n\\begin{align*}\n(w+13)(w+13)&=(3w+7)(2w+4)\\\\\nw^2+26w+169&=3w(2w+4)+7(2w+4)\\\\\nw^2+26w+169&=6w^2+12w+14w+28\\\\\nw^2+26w+169&=6w^2+26w+28\\\\\nw^2+169&=6w^2+28\\\\\n141&=5w^2\\\\\n\\frac{141}{5}&=w^2.\\\\\n\\end{align*}\n\nSo, expressed as a decimal, our answer is $\\frac{141}{5}=\\boxed{28.2}$."
+    },
+    {
+        "question": "Solution:\n\\begin{align*}\n(w+13)^2&=(3w+7)(2w+4)\\\\\nw^2+26w+169&=6w^2+21w+14w+28\\\\\n5w^2+5w+141&=0\\\\\nw&=\\frac{-5\\pm\\sqrt{5^2-4(5)(141)}}{2(5)}\\\\\n&=\\frac{-5\\pm\\sqrt{25-2820}}{10}\\\\\n&=\\frac{-5\\pm\\sqrt{-2795}}{10}\\\\\n&=\\frac{-5\\pm i\\sqrt{2795}}{10}\\\\\nw^2&=\\left(\\frac{-5}{10}\\right)^2+\\left(\\frac{i\\sqrt{2795}}{10}\\right)^2\\\\\n&=\\frac{1}{4}+\\frac{-2795}{100}\\\\\n&=\\frac{25}{100}-27.95\\\\\n&=-0.54\\\\\n\\end{align*}\nFinal Answer: $\\boxed{-0.54}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{-0.54}$$",
+        "ground_truth": "We expand both sides to find\n\n\\begin{align*}\n(w+13)(w+13)&=(3w+7)(2w+4)\\\\\nw^2+26w+169&=3w(2w+4)+7(2w+4)\\\\\nw^2+26w+169&=6w^2+12w+14w+28\\\\\nw^2+26w+169&=6w^2+26w+28\\\\\nw^2+169&=6w^2+28\\\\\n141&=5w^2\\\\\n\\frac{141}{5}&=w^2.\\\\\n\\end{align*}\n\nSo, expressed as a decimal, our answer is $\\frac{141}{5}=\\boxed{28.2}$."
+    }
+]

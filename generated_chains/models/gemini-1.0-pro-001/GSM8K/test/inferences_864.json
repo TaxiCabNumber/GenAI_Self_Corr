@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nGeorge, a grade six teacher, ordered 600 burritos for the sixth-grade class picnic. If there were 50 students at the picnic, and each student was given ten burritos, with Mr. George eating 20 of them, calculate the total number of leftover burritos from the picnic?",
+        "inference": "1. Determine the total number of burritos consumed by the students:\n50 students x 10 burritos per student = 500 burritos\n\n2. Subtract the burritos consumed by the students from the total number of burritos ordered:\n600 burritos - 500 burritos = 100 burritos\n\n3. Subtract the burritos consumed by Mr. George:\n100 burritos - 20 burritos = 80 burritos\n\nI hope it is correct: 80",
+        "ground_truth": "The total number of burritos eaten by the students is 50*10 = <<50*10=500>>500\nIf Mr George also ate 20, the total number of burritos eaten at the picnic is 500+20 = <<500+20=520>>520\nThere were 600-520 = <<600-520=80>>80 leftover burritos.\n#### 80"
+    },
+    {
+        "question": "1. Determine the total number of burritos consumed by the students:\n50 students x 10 burritos per student = 500 burritos\n\n2. Subtract the burritos consumed by the students from the total number of burritos ordered:\n600 burritos - 500 burritos = 100 burritos\n\n3. Subtract the burritos consumed by Mr. George:\n100 burritos - 20 burritos = 80 burritos\n\nI hope it is correct: 80\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$80",
+        "ground_truth": "The total number of burritos eaten by the students is 50*10 = <<50*10=500>>500\nIf Mr George also ate 20, the total number of burritos eaten at the picnic is 500+20 = <<500+20=520>>520\nThere were 600-520 = <<600-520=80>>80 leftover burritos.\n#### 80"
+    }
+]

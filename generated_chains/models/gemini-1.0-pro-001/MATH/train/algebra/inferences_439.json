@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nGiven that $3x + y = 10$ and $x + 3y = 14$, find $10x^2 + 12xy + 10y^2$.",
+        "inference": "$$10x^2 + 12xy + 10y^2 =$$\n$$= (3x + y)^2 + 2(3x + y)(x + 3y) + (x + 3y)^2 \\newline= 10^2 + 2(10)(14) + 14^2$$\n$$= 100 + 280 + 196 = 576$$\nFinal Answer: $\\boxed{576}$. I hope it is correct.",
+        "ground_truth": "Note that \\begin{align*}\n10x^2 + 12xy + 10y^2 &= (9x^2 + 6xy + y^2) + (x^2 + 6xy + 9y^2) \\\\\n&= (3x + y)^2 + (x + 3y)^2 \\\\\n&= 10^2 + 14^2 = \\boxed{296}\\end{align*}."
+    },
+    {
+        "question": "$$10x^2 + 12xy + 10y^2 =$$\n$$= (3x + y)^2 + 2(3x + y)(x + 3y) + (x + 3y)^2 \\newline= 10^2 + 2(10)(14) + 14^2$$\n$$= 100 + 280 + 196 = 576$$\nFinal Answer: $\\boxed{576}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{576}$$",
+        "ground_truth": "Note that \\begin{align*}\n10x^2 + 12xy + 10y^2 &= (9x^2 + 6xy + y^2) + (x^2 + 6xy + 9y^2) \\\\\n&= (3x + y)^2 + (x + 3y)^2 \\\\\n&= 10^2 + 14^2 = \\boxed{296}\\end{align*}."
+    }
+]

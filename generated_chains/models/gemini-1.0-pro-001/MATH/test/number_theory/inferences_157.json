@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $n$ be a positive integer.  What is the greatest possible value of $\\gcd(n + 7, 2n + 1)$?",
+        "inference": "Since $\\gcd(n + 7, 2n + 1) = \\gcd(n + 7, (2n + 1) - (n + 7)) = \\gcd(n + 7, n - 6)$, the greatest possible value of $\\gcd(n + 7, 2n + 1)$ occurs when $n + 7$ and $n - 6$ have the greatest common divisor of $1$.  This occurs when $n + 7$ and $n - 6$ are relatively prime, which occurs when $n$ is odd.  Thus, the greatest possible value of $\\gcd(n + 7, 2n + 1)$ is $1$.\nFinal Answer: $\\boxed{1}.$ I hope it is correct.",
+        "ground_truth": "Let $d = \\gcd(n + 7, 2n + 1)$, so $d$ divides both $n + 7$ and $2n + 1$.  Then $d$ divides $2(n + 7) - (2n + 1) = 13$, so $d$ is at most 13.\n\nIf $n = 6$, then $\\gcd(n + 7, 2n + 1) = \\gcd(13,13) = 13$, which shows that the value of 13 is attainable.  Therefore, the greatest possible value of $\\gcd(n + 7, 2n + 1)$ is $\\boxed{13}$."
+    },
+    {
+        "question": "Since $\\gcd(n + 7, 2n + 1) = \\gcd(n + 7, (2n + 1) - (n + 7)) = \\gcd(n + 7, n - 6)$, the greatest possible value of $\\gcd(n + 7, 2n + 1)$ occurs when $n + 7$ and $n - 6$ have the greatest common divisor of $1$.  This occurs when $n + 7$ and $n - 6$ are relatively prime, which occurs when $n$ is odd.  Thus, the greatest possible value of $\\gcd(n + 7, 2n + 1)$ is $1$.\nFinal Answer: $\\boxed{1}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Final Answer: $\\boxed{1}.$",
+        "ground_truth": "Let $d = \\gcd(n + 7, 2n + 1)$, so $d$ divides both $n + 7$ and $2n + 1$.  Then $d$ divides $2(n + 7) - (2n + 1) = 13$, so $d$ is at most 13.\n\nIf $n = 6$, then $\\gcd(n + 7, 2n + 1) = \\gcd(13,13) = 13$, which shows that the value of 13 is attainable.  Therefore, the greatest possible value of $\\gcd(n + 7, 2n + 1)$ is $\\boxed{13}$."
+    }
+]

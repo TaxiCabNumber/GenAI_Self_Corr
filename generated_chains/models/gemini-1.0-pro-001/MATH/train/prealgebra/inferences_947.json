@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThere are 6 married couples at a party. At the start of the party, every person shakes hands once with every other person except his or her spouse. How many handshakes are there?",
+        "inference": "6 couples = 12 people\nEach person shakes hands with 11 others\n12 x 11 = 132 handshakes\nFinal Answer: \\boxed{$132$}. I hope it is correct.",
+        "ground_truth": "All 12 people shake hands with 10 other people (everyone except themselves and their spouse).  In multiplying $12 \\times 10$, each handshake is counted twice, so we divide by two to get the answer of $\\dfrac{12 \\times 10}{2} = \\boxed{60}$ handshakes."
+    },
+    {
+        "question": "6 couples = 12 people\nEach person shakes hands with 11 others\n12 x 11 = 132 handshakes\nFinal Answer: \\boxed{$132$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$66$}.",
+        "ground_truth": "All 12 people shake hands with 10 other people (everyone except themselves and their spouse).  In multiplying $12 \\times 10$, each handshake is counted twice, so we divide by two to get the answer of $\\dfrac{12 \\times 10}{2} = \\boxed{60}$ handshakes."
+    }
+]

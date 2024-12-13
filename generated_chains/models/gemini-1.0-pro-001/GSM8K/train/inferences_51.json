@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAnn is cutting fabric to make curtains. She cuts a 4 foot by 6 foot rectangle for the living room, and a 2 foot by 4 foot rectangle for the bedroom. If the bolt of fabric is 16 feet by 12 feet, how much fabric is left in square feet?",
+        "inference": "The area of the fabric for the living room is 4 x 6 = 24 square feet.\nThe area of the fabric for the bedroom is 2 x 4 = 8 square feet.\nThe total area of the fabric used is 24 + 8 = 32 square feet.\nThe area of the bolt of fabric is 16 x 12 = 192 square feet.\nThe amount of fabric left is 192 - 32 = 160 square feet.\n\nI hope it is correct: 160",
+        "ground_truth": "First figure out how many square feet the original bolt of fabric was: 16 feet * 12 feet = <<16*12=192>>192 square feet\nThen figure out how much fabric Ann took for the living room curtains: 4 feet * 6 feet = <<4*6=24>>24 square feet\nThen figure out how much fabric Ann took for the bathroom curtains: 2 feet * 4 feet = <<2*4=8>>8 square feet\nFinally, subtract the square footage of both sets of curtains from the total square footage: 192 - 24 - 8 = <<192-24-8=160>>160 square feet\n#### 160"
+    },
+    {
+        "question": "The area of the fabric for the living room is 4 x 6 = 24 square feet.\nThe area of the fabric for the bedroom is 2 x 4 = 8 square feet.\nThe total area of the fabric used is 24 + 8 = 32 square feet.\nThe area of the bolt of fabric is 16 x 12 = 192 square feet.\nThe amount of fabric left is 192 - 32 = 160 square feet.\n\nI hope it is correct: 160\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$160",
+        "ground_truth": "First figure out how many square feet the original bolt of fabric was: 16 feet * 12 feet = <<16*12=192>>192 square feet\nThen figure out how much fabric Ann took for the living room curtains: 4 feet * 6 feet = <<4*6=24>>24 square feet\nThen figure out how much fabric Ann took for the bathroom curtains: 2 feet * 4 feet = <<2*4=8>>8 square feet\nFinally, subtract the square footage of both sets of curtains from the total square footage: 192 - 24 - 8 = <<192-24-8=160>>160 square feet\n#### 160"
+    }
+]

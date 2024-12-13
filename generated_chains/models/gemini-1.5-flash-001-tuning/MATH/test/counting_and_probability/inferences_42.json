@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA European train compartment has six seats.  Four of the seats are broken.  Wilhelm needs to fill out a form like the one here to indicate that there are broken seats.  If he randomly checks off four of the seats in the diagram, what is the probability that he marked the correct seats?  Express your answer as a common fraction.\n\n[asy]\n\ndraw((0,0)--(24,0)--(24,18)--(0,18)--(0,0));\n\nlabel(\"$\\textbf{Maintenance Report}$\",(12,16));\n\ndraw((2,2)--(22,2)--(22,14)--(2,14)--(2,2));\n\ndraw((4,4)--(8,4)--(8,6)--(4,6)--(4,4));\n\ndraw((10,4)--(14,4)--(14,6)--(10,6)--(10,4));\nlabel(\"$\\surd$\",(12,5));\n\ndraw((16,4)--(20,4)--(20,6)--(16,6)--(16,4));\nlabel(\"$\\surd$\",(18,5));\n\ndraw((4,10)--(8,10)--(8,12)--(4,12)--(4,10));\nlabel(\"$\\surd$\",(6,11));\n\ndraw((10,10)--(14,10)--(14,12)--(10,12)--(10,10));\nlabel(\"$\\surd$\",(12,11));\n\ndraw((16,10)--(20,10)--(20,12)--(16,12)--(16,10));\n\n[/asy]",
+        "inference": "There are $\\binom{6}{4} = 15$ ways to choose 4 seats out of 6. There is only 1 way to choose the correct 4 seats. Thus, the probability is $\\boxed{\\frac{1}{15}}$. Final Answer: $\\boxed{\\frac{1}{15}}$. I hope it is correct. \n",
+        "ground_truth": "There are $\\binom{6}{4} = 15$ ways to mark any four seats. Of these 15 ways, only one is correct, so the answer is $\\boxed{\\frac{1}{15}}$."
+    },
+    {
+        "question": "There are $\\binom{6}{4} = 15$ ways to choose 4 seats out of 6. There is only 1 way to choose the correct 4 seats. Thus, the probability is $\\boxed{\\frac{1}{15}}$. Final Answer: $\\boxed{\\frac{1}{15}}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct.  \\\\boxed{$\\frac{1}{15}$} \n",
+        "ground_truth": "There are $\\binom{6}{4} = 15$ ways to mark any four seats. Of these 15 ways, only one is correct, so the answer is $\\boxed{\\frac{1}{15}}$."
+    }
+]

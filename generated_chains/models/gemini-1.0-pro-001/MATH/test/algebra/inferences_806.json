@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nBilly shoots an arrow from 10 feet above the ground. The height of this arrow can be expressed by the equation $h=10-23t-10t^2$, where $t$ is time in seconds since the arrow was shot. If the center of a target is raised 5 feet off the ground, in how many seconds must the arrow reach the target in order for Billy to hit the bulls eye?",
+        "inference": "$10-23t-10t^2=5$\n$-10t^2-23t+5=0$\n$t=\\frac{-(-23) \\pm \\sqrt{(-23)^2-4(-10)(5)}}{2(-10)}$\n$t=\\frac{23 \\pm \\sqrt{529+200}}{-20}$\n$t=\\frac{23 \\pm \\sqrt{729}}{-20}$\n$t=\\frac{23 \\pm 27}{-20}$\n$t=-\\frac{1}{2}$ or $t=2 \\frac{3}{5}$\n$t=2 \\frac{3}{5}$\nFinal Answer: $\\boxed{2 \\frac{3}{5}.}$ I hope it is correct.",
+        "ground_truth": "Since the center of the target is 5 feet above the ground, $h=5$. So we get the quadratic: \\begin{align*}5& =10-23t-10t^{2}\n\\\\ \\Rightarrow\\qquad 0& =10t^{2}+23t-5\n\\\\ \\Rightarrow\\qquad 0&=(2t+5)(5t-1).\n\\end{align*}Thus, the values of $t$ that satisfy the equation are $-\\frac52$ and $\\frac15$. However, since time can never be a negative number, the answer must be $\\boxed{\\dfrac{1}{5}}$."
+    },
+    {
+        "question": "$10-23t-10t^2=5$\n$-10t^2-23t+5=0$\n$t=\\frac{-(-23) \\pm \\sqrt{(-23)^2-4(-10)(5)}}{2(-10)}$\n$t=\\frac{23 \\pm \\sqrt{529+200}}{-20}$\n$t=\\frac{23 \\pm \\sqrt{729}}{-20}$\n$t=\\frac{23 \\pm 27}{-20}$\n$t=-\\frac{1}{2}$ or $t=2 \\frac{3}{5}$\n$t=2 \\frac{3}{5}$\nFinal Answer: $\\boxed{2 \\frac{3}{5}.}$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$2 \\frac{3}{5}$}",
+        "ground_truth": "Since the center of the target is 5 feet above the ground, $h=5$. So we get the quadratic: \\begin{align*}5& =10-23t-10t^{2}\n\\\\ \\Rightarrow\\qquad 0& =10t^{2}+23t-5\n\\\\ \\Rightarrow\\qquad 0&=(2t+5)(5t-1).\n\\end{align*}Thus, the values of $t$ that satisfy the equation are $-\\frac52$ and $\\frac15$. However, since time can never be a negative number, the answer must be $\\boxed{\\dfrac{1}{5}}$."
+    }
+]

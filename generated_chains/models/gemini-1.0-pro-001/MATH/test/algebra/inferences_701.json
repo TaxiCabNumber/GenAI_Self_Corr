@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFor how many positive integers $x$ is $x^2 + 4x + 4$ between 10 and 50?",
+        "inference": "Since $x^2+4x+4 = (x+2)^2$, we want to find the values of $x$ such that $10 < (x+2)^2 < 50$.\n$$\n\\begin{aligned}\n10 &< (x+2)^2 < 50 \\\\\n\\sqrt{10} &< x+2 < \\sqrt{50} \\\\\n\\sqrt{10} - 2 &< x < \\sqrt{50} - 2 \\\\\n-0.618 &< x < 4.828\n\\end{aligned}\n$$\nSince $x$ is an integer, the only possible values are $x = 0, 1, 2, 3, 4$.\nFinal Answer: \\boxed{$5$}. I hope it is correct.",
+        "ground_truth": "We see that $x^2 + 4x + 4 = (x + 2)^2$. If $x$ must be positive, we can see that this expression can take on the value of any perfect square that is greater than or equal to $(1+2)^2=9$. The possible values between 10 and 50 are thus 16, 25, 36, and 49, achieved when $x=2,3,4,5$ respectively. So, there are $\\boxed{4}$ positive integers $x$ for which $x^2+4x+4$ is between 10 and 50."
+    },
+    {
+        "question": "Since $x^2+4x+4 = (x+2)^2$, we want to find the values of $x$ such that $10 < (x+2)^2 < 50$.\n$$\n\\begin{aligned}\n10 &< (x+2)^2 < 50 \\\\\n\\sqrt{10} &< x+2 < \\sqrt{50} \\\\\n\\sqrt{10} - 2 &< x < \\sqrt{50} - 2 \\\\\n-0.618 &< x < 4.828\n\\end{aligned}\n$$\nSince $x$ is an integer, the only possible values are $x = 0, 1, 2, 3, 4$.\nFinal Answer: \\boxed{$5$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$5$}.",
+        "ground_truth": "We see that $x^2 + 4x + 4 = (x + 2)^2$. If $x$ must be positive, we can see that this expression can take on the value of any perfect square that is greater than or equal to $(1+2)^2=9$. The possible values between 10 and 50 are thus 16, 25, 36, and 49, achieved when $x=2,3,4,5$ respectively. So, there are $\\boxed{4}$ positive integers $x$ for which $x^2+4x+4$ is between 10 and 50."
+    }
+]

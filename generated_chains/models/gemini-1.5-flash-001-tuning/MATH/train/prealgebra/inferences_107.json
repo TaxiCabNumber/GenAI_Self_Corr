@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA running track is the ring formed by two concentric circles. If the circumferences of the two circles differ by $10\\pi $ feet, how wide is the track in feet?\n\n[asy]size(100); path g=scale(2)*unitcircle;\nfilldraw(unitcircle^^g,evenodd+grey,black);\n[/asy]",
+        "inference": "Let the radius of the inner circle be $r$ feet and the radius of the outer circle be $R$ feet. Then $2\\pi R - 2\\pi r = 10\\pi$ and $R-r = 5$. The width of the track is $R-r$, so the width is $\\boxed{5}$ feet. Final Answer: $\\boxed{5}$. I hope it is correct. \n",
+        "ground_truth": "Call the radius of the outer circle $r_1$ and that of the inner circle $r_2$. The width of the track is $r_1-r_2$. The circumference of a circle is $2\\pi$ times the radius, so the difference in circumferences is $2\\pi r_1-2\\pi r_2=10\\pi$ feet. If we divide each side by $2\\pi$, we get $r_1-r_2=\\boxed{5}$ feet."
+    },
+    {
+        "question": "Let the radius of the inner circle be $r$ feet and the radius of the outer circle be $R$ feet. Then $2\\pi R - 2\\pi r = 10\\pi$ and $R-r = 5$. The width of the track is $R-r$, so the width is $\\boxed{5}$ feet. Final Answer: $\\boxed{5}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{5}$ I hope it is correct. \n",
+        "ground_truth": "Call the radius of the outer circle $r_1$ and that of the inner circle $r_2$. The width of the track is $r_1-r_2$. The circumference of a circle is $2\\pi$ times the radius, so the difference in circumferences is $2\\pi r_1-2\\pi r_2=10\\pi$ feet. If we divide each side by $2\\pi$, we get $r_1-r_2=\\boxed{5}$ feet."
+    }
+]

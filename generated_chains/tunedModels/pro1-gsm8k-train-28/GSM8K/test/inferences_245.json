@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 4 snails in one aquarium and 32 snails in another aquarium. The difference between the number of snails in the two aquariums is twice the amount of fish in both aquariums. If both aquariums have the same number of fish in them, how many fish are there in each aquarium?",
+        "inference": "Let x be the number of fish in each aquarium.\nThe difference between the number of snails in the two aquariums is 32 - 4 = 28.\nTwice the amount of fish in both aquariums is 2x * 2 = 4x.\nSo, we have the equation 28 = 4x.\nSolving for x, we get x = 7.\nTherefore, there are 7 fish in each aquarium.\nI hope it is correct: 7",
+        "ground_truth": "The difference between the number of snails is 32 - 4 = <<32-4=28>>28 snails.\nThere are 28/2 = <<28/2=14>>14 fish in both aquariums.\nThere are 14/2 = <<14/2=7>>7 fish in each aquarium.\n#### 7"
+    },
+    {
+        "question": "Let x be the number of fish in each aquarium.\nThe difference between the number of snails in the two aquariums is 32 - 4 = 28.\nTwice the amount of fish in both aquariums is 2x * 2 = 4x.\nSo, we have the equation 28 = 4x.\nSolving for x, we get x = 7.\nTherefore, there are 7 fish in each aquarium.\nI hope it is correct: 7\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 7",
+        "ground_truth": "The difference between the number of snails is 32 - 4 = <<32-4=28>>28 snails.\nThere are 28/2 = <<28/2=14>>14 fish in both aquariums.\nThere are 14/2 = <<14/2=7>>7 fish in each aquarium.\n#### 7"
+    }
+]

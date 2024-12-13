@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJame is trying to learn to tear playing cards.  He can tear 30 cards at a time.  A new deck of cards has 55 cards if you include the jokers and blank cards.  He tears cards 3 times a week.  If he buys 18 decks how many weeks can he go?",
+        "inference": "18 decks = 18 * 55 = 990 cards\n990 / 30 = 33\n33 / 3 = 11\nI hope it is correct: 11 weeks",
+        "ground_truth": "He tears 30*3=<<30*3=90>>90 cards a week\nHe bought 55*18=<<55*18=990>>990 cards\nSo he can tear for 990/90=<<990/90=11>>11 weeks\n#### 11"
+    },
+    {
+        "question": "18 decks = 18 * 55 = 990 cards\n990 / 30 = 33\n33 / 3 = 11\nI hope it is correct: 11 weeks\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 11",
+        "ground_truth": "He tears 30*3=<<30*3=90>>90 cards a week\nHe bought 55*18=<<55*18=990>>990 cards\nSo he can tear for 990/90=<<990/90=11>>11 weeks\n#### 11"
+    }
+]

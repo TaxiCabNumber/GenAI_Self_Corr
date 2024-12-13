@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the largest negative integer $x$ which satisfies the congruence $34x+6\\equiv 2\\pmod {20}$.",
+        "inference": "Solve the congruence $34x+6\\equiv 2\\pmod {20}$.\n$$\\begin{split} 34x+6&\\equiv 2\\pmod {20} \\\\\\ 34x&\\equiv -4\\pmod {20}   \\\\\\ 17\\cdot 2x&\\equiv -4\\pmod {20}  \\\\\\ 2x&\\equiv 12\\pmod {20}  \\\\\\ 2x&\\equiv 2\\pmod {20}  \\\\\\ x&\\equiv 1\\pmod {20}  \\\\\\ x&\\equiv -19\\pmod {20}  \\end{split}$$\n\n**Final Answer: $\\boxed{-19}$. I hope it is correct.**",
+        "ground_truth": "We can simplify the congruence as follows (all of the following congruences are equivalent):\n\\begin{align*}\n34x+6&\\equiv 2\\pmod {20}\\\\\n14x+6&\\equiv 2\\pmod {20}\\\\\n14x&\\equiv 16\\pmod {20}\\\\\n7x&\\equiv 8\\pmod {10}\\\\\n21x&\\equiv 8\\cdot 3\\pmod {10}\\\\\nx&\\equiv 24\\pmod{10}\\\\\nx&\\equiv 4\\pmod{10}\\\\\nx&\\equiv \\boxed{-6}\\pmod{10}.\n\\end{align*}"
+    },
+    {
+        "question": "Solve the congruence $34x+6\\equiv 2\\pmod {20}$.\n$$\\begin{split} 34x+6&\\equiv 2\\pmod {20} \\\\\\ 34x&\\equiv -4\\pmod {20}   \\\\\\ 17\\cdot 2x&\\equiv -4\\pmod {20}  \\\\\\ 2x&\\equiv 12\\pmod {20}  \\\\\\ 2x&\\equiv 2\\pmod {20}  \\\\\\ x&\\equiv 1\\pmod {20}  \\\\\\ x&\\equiv -19\\pmod {20}  \\end{split}$$\n\n**Final Answer: $\\boxed{-19}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{1}$$",
+        "ground_truth": "We can simplify the congruence as follows (all of the following congruences are equivalent):\n\\begin{align*}\n34x+6&\\equiv 2\\pmod {20}\\\\\n14x+6&\\equiv 2\\pmod {20}\\\\\n14x&\\equiv 16\\pmod {20}\\\\\n7x&\\equiv 8\\pmod {10}\\\\\n21x&\\equiv 8\\cdot 3\\pmod {10}\\\\\nx&\\equiv 24\\pmod{10}\\\\\nx&\\equiv 4\\pmod{10}\\\\\nx&\\equiv \\boxed{-6}\\pmod{10}.\n\\end{align*}"
+    }
+]

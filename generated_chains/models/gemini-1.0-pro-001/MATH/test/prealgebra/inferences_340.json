@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nCompute: $0.\\overline{7}-0.\\overline{4}+0.\\overline{2}$. Express your answer as a common fraction.",
+        "inference": "$$0.\\overline{7}-0.\\overline{4}+0.\\overline{2}=0.777\\ldots-0.444\\ldots+0.222\\ldots$$\n\n$$=0.777+0.222-0.444$$\n\n$$=0.999-0.444$$\n\n$$=0.555$$\n\n$$=\\frac{555}{1000}$$\n\n$$=\\frac{55}{100}=\\frac{11}{20}$$\n\n**Final Answer: $\\boxed{-\\frac{11}{20}}$. I hope it is correct.**",
+        "ground_truth": "In general, to express the number $0.\\overline{n}$ as a fraction, we call it $x$ and subtract it from $10x$: $$\\begin{array}{r r c r@{}l}\n&10x &=& n&.nnnnn\\ldots \\\\\n- &x &=& 0&.nnnnn\\ldots \\\\\n\\hline\n&9x &=& n &\n\\end{array}$$ This shows that $0.\\overline{n} = \\frac{n}{9}$.\n\nHence, our original problem reduces to computing $\\frac 79 - \\frac 49 + \\frac 29 = \\boxed{\\frac 59}$."
+    },
+    {
+        "question": "$$0.\\overline{7}-0.\\overline{4}+0.\\overline{2}=0.777\\ldots-0.444\\ldots+0.222\\ldots$$\n\n$$=0.777+0.222-0.444$$\n\n$$=0.999-0.444$$\n\n$$=0.555$$\n\n$$=\\frac{555}{1000}$$\n\n$$=\\frac{55}{100}=\\frac{11}{20}$$\n\n**Final Answer: $\\boxed{-\\frac{11}{20}}$. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$0.\\overline{7}-0.\\overline{4}+0.\\overline{2}=0.777\\ldots-0.444\\ldots+0.222\\ldots$$\n\n$$0.777\\ldots=0.7+0.07+0.007+...$$\n$$0.444\\ldots=0.4+0.04+0.004+...$$\n$$0.222\\ldots=0.2+0.02+0.002+...$$\n\n$$0.777\\ldots-0.444\\ldots+0.222\\ldots=(0.7+0.07+0.007+...)-(0.4+0.04+0.004+...)+(0.2+0.02+0.002+...)$$\n\n$$=(0.7-0.4+0.2)+(0.07-0.04+0.02)+(0.007-0.004+0.002)+...$$\n\n**Final Answer: $\\boxed{-\\frac{11}{20}}$**",
+        "ground_truth": "In general, to express the number $0.\\overline{n}$ as a fraction, we call it $x$ and subtract it from $10x$: $$\\begin{array}{r r c r@{}l}\n&10x &=& n&.nnnnn\\ldots \\\\\n- &x &=& 0&.nnnnn\\ldots \\\\\n\\hline\n&9x &=& n &\n\\end{array}$$ This shows that $0.\\overline{n} = \\frac{n}{9}$.\n\nHence, our original problem reduces to computing $\\frac 79 - \\frac 49 + \\frac 29 = \\boxed{\\frac 59}$."
+    }
+]

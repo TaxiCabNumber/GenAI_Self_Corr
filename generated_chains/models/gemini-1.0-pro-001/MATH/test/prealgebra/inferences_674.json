@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the value of $x$ if $-\\frac23(x-5) = \\frac32(x+1)$?",
+        "inference": "$$-\\frac23(x-5) = \\frac32(x+1)$$\n\nMultiply both sides by 6 to get rid of the fractions:\n\n$$-6(x-5) = 9(x+1)$$\n\nDistribute the -6 and 9:\n\n$$-6x + 30 = 9x + 9$$\n\nCombine like terms:\n\n$$-15x = -21$$\n\nDivide both sides by -15:\n\n$$x = \\frac{-21}{-15}$$\n\n$$x = \\frac75$$\n\n**Final Answer: \\boxed{$\\frac75$}. I hope it is correct.**",
+        "ground_truth": "First we get rid of the fractions by multiplying both sides by 6.  This gives us  \\[6\\left(-\\frac{2}{3}(x-5)\\right) = 6\\left(\\frac32(x+1)\\right),\\] so  \\[-4(x-5) = 9(x+1).\\] Expanding both sides gives $-4x + 20 = 9x + 9$.  Adding $4x$ to both sides and subtracting 9 from both sides gives $11 = 13x$, so $x = \\boxed{\\frac{11}{13}}$."
+    },
+    {
+        "question": "$$-\\frac23(x-5) = \\frac32(x+1)$$\n\nMultiply both sides by 6 to get rid of the fractions:\n\n$$-6(x-5) = 9(x+1)$$\n\nDistribute the -6 and 9:\n\n$$-6x + 30 = 9x + 9$$\n\nCombine like terms:\n\n$$-15x = -21$$\n\nDivide both sides by -15:\n\n$$x = \\frac{-21}{-15}$$\n\n$$x = \\frac75$$\n\n**Final Answer: \\boxed{$\\frac75$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{\\frac75}$$",
+        "ground_truth": "First we get rid of the fractions by multiplying both sides by 6.  This gives us  \\[6\\left(-\\frac{2}{3}(x-5)\\right) = 6\\left(\\frac32(x+1)\\right),\\] so  \\[-4(x-5) = 9(x+1).\\] Expanding both sides gives $-4x + 20 = 9x + 9$.  Adding $4x$ to both sides and subtracting 9 from both sides gives $11 = 13x$, so $x = \\boxed{\\frac{11}{13}}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nMiss Grayson's class raised $50 for their field trip. Aside from that, each of her students contributed $5 each. There are 20 students in her class, and the cost of the trip is $7 for each student. After all the field trip costs were paid, how much is left in Miss Grayson's class fund?",
+        "inference": "1. Find the total amount contributed by the students: $5 * 20 = $100\n2. Add the amount raised by the class: $100 + $50 = $150\n3. Find the total cost of the field trip: $7 * 20 = $140\n4. Subtract the cost of the field trip from the total amount raised: $150 - $140 = $10\nI hope it is correct: $10$",
+        "ground_truth": "The contribution of the students amounted to $5 x 20 = $<<5*20=100>>100.\nSo Miss Grayson's class had $100 + $50 = $<<100+50=150>>150 in all.\nThe cost of the field trip amounted to $7 x 20 = $<<7*20=140>>140.\nTherefore, the class of Miss Grayson is left with $150 - $140 = $<<150-140=10>>10.\n#### 10"
+    },
+    {
+        "question": "1. Find the total amount contributed by the students: $5 * 20 = $100\n2. Add the amount raised by the class: $100 + $50 = $150\n3. Find the total cost of the field trip: $7 * 20 = $140\n4. Subtract the cost of the field trip from the total amount raised: $150 - $140 = $10\nI hope it is correct: $10$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = $10",
+        "ground_truth": "The contribution of the students amounted to $5 x 20 = $<<5*20=100>>100.\nSo Miss Grayson's class had $100 + $50 = $<<100+50=150>>150 in all.\nThe cost of the field trip amounted to $7 x 20 = $<<7*20=140>>140.\nTherefore, the class of Miss Grayson is left with $150 - $140 = $<<150-140=10>>10.\n#### 10"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nSix years ago, when Noah was half as old as Cera, the population of Chile was half what it is now. Currently, Cera is 46 years old. If the population of Chile six years ago was 3000 times the age of Noah, calculate the population of Chile now.",
+        "inference": "* Six years ago, Noah was half as old as Cera, so Noah is 46 \u2013 6 = 40 years old now.\n* Six years ago, the population of Chile was half what it is now, so the population of Chile six years ago was 3000 * (40 / 2) = 60000.\n* The population of Chile now is 60000 * 2 = 120000.\n\nI hope it is correct: Population of Chile now $120000$",
+        "ground_truth": "If Cera is 46 years old now, she was 46-6 = <<46-6=40>>40 years old six years ago.\nSix years ago, Noah was half as old as Cera, meaning Noah was 1/2*40 = 20 years.\nIf the population of Chile six years ago was 3000 times the age of Noah, there were 3000*20 = <<3000*20=60000>>60000 people living in chile.\nSince the population of Chile was half what it was now six years ago, currently Chile has 60000*2 = <<60000*2=120000>>120000 people\n#### 120000"
+    },
+    {
+        "question": "* Six years ago, Noah was half as old as Cera, so Noah is 46 \u2013 6 = 40 years old now.\n* Six years ago, the population of Chile was half what it is now, so the population of Chile six years ago was 3000 * (40 / 2) = 60000.\n* The population of Chile now is 60000 * 2 = 120000.\n\nI hope it is correct: Population of Chile now $120000$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$120000",
+        "ground_truth": "If Cera is 46 years old now, she was 46-6 = <<46-6=40>>40 years old six years ago.\nSix years ago, Noah was half as old as Cera, meaning Noah was 1/2*40 = 20 years.\nIf the population of Chile six years ago was 3000 times the age of Noah, there were 3000*20 = <<3000*20=60000>>60000 people living in chile.\nSince the population of Chile was half what it was now six years ago, currently Chile has 60000*2 = <<60000*2=120000>>120000 people\n#### 120000"
+    }
+]

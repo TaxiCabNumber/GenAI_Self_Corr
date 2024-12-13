@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $a + b = c$ and $b+ c = 5$ and $c = 3$, what is the value of $a$?",
+        "inference": "We are given that:\na + b = c\nb + c = 5\nc = 3\n\nSubstituting c = 3 into the second equation, we get:\nb + 3 = 5\nb = 2\n\nSubstituting b = 2 into the first equation, we get:\na + 2 = 3\na = 1\n\nFinal Answer: $\\boxed{a = 1}$. I hope it is correct.",
+        "ground_truth": "Since $b+c=5$ and $c=3$, we have $b=2$.\n\nSo $a+b=c$ becomes\n\n$$a+2=3\\Rightarrow a=\\boxed{1}$$"
+    },
+    {
+        "question": "We are given that:\na + b = c\nb + c = 5\nc = 3\n\nSubstituting c = 3 into the second equation, we get:\nb + 3 = 5\nb = 2\n\nSubstituting b = 2 into the first equation, we get:\na + 2 = 3\na = 1\n\nFinal Answer: $\\boxed{a = 1}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$a = 1$}.",
+        "ground_truth": "Since $b+c=5$ and $c=3$, we have $b=2$.\n\nSo $a+b=c$ becomes\n\n$$a+2=3\\Rightarrow a=\\boxed{1}$$"
+    }
+]

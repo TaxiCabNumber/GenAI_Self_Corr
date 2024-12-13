@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJames gets 80 emails a day.  20% of those emails don't require any response.  He responds to the rest of them.  How many emails does he respond to in a 5 day work week?",
+        "inference": "1. Convert the percentage to a decimal: 20% = 0.20\n2. Calculate the number of emails that don't require a response: 80 emails * 0.20 = 16 emails\n3. Calculate the number of emails that require a response: 80 emails - 16 emails = 64 emails\n4. Multiply the number of emails that require a response by the number of days in a work week: 64 emails * 5 days = 320 emails\n\nI hope it is correct: 320 emails",
+        "ground_truth": "He gets 80*.2=<<80*.2=16>>16 emails he doesn't need to respond to\nSo he responds to 80-16=<<80-16=64>>64 emails\nSo he responds to 64*5=<<64*5=320>>320 emails a week\n#### 320"
+    },
+    {
+        "question": "1. Convert the percentage to a decimal: 20% = 0.20\n2. Calculate the number of emails that don't require a response: 80 emails * 0.20 = 16 emails\n3. Calculate the number of emails that require a response: 80 emails - 16 emails = 64 emails\n4. Multiply the number of emails that require a response by the number of days in a work week: 64 emails * 5 days = 320 emails\n\nI hope it is correct: 320 emails\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 320$",
+        "ground_truth": "He gets 80*.2=<<80*.2=16>>16 emails he doesn't need to respond to\nSo he responds to 80-16=<<80-16=64>>64 emails\nSo he responds to 64*5=<<64*5=320>>320 emails a week\n#### 320"
+    }
+]

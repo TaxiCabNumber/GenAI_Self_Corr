@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA basket contains 25 oranges among which 1 is bad, 20% are unripe, 2 are sour and the rest are good. How many oranges are good?",
+        "inference": "1. Find the number of unripe oranges: 25 * 20% = 5 oranges.\n2. Deduct the number of bad and sour oranges from the total: 25 - 1 - 2 = 22 oranges.\n3. Deduct the number of unripe oranges from the remaining oranges: 22 - 5 = 17 oranges.\n\nI hope it is correct: 17 $oranges$",
+        "ground_truth": "20% of 25 oranges is (20/100)*25 = <<(20/100)*25=5>>5 oranges\nThe total number of bad, unripe and sour oranges is therefore 1+5+2 = <<1+5+2=8>>8 oranges\nThe rest which is 25-8 = <<25-8=17>>17 oranges are good\n#### 17"
+    },
+    {
+        "question": "1. Find the number of unripe oranges: 25 * 20% = 5 oranges.\n2. Deduct the number of bad and sour oranges from the total: 25 - 1 - 2 = 22 oranges.\n3. Deduct the number of unripe oranges from the remaining oranges: 22 - 5 = 17 oranges.\n\nI hope it is correct: 17 $oranges$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 17 $oranges$",
+        "ground_truth": "20% of 25 oranges is (20/100)*25 = <<(20/100)*25=5>>5 oranges\nThe total number of bad, unripe and sour oranges is therefore 1+5+2 = <<1+5+2=8>>8 oranges\nThe rest which is 25-8 = <<25-8=17>>17 oranges are good\n#### 17"
+    }
+]

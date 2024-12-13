@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $a + b + c = 11$ and $ab + ac + bc = 25,$ then find\n\\[a^3 + b^3 + c^3 - 3abc.\\]",
+        "inference": "We can factor the expression $a^3 + b^3 + c^3 - 3abc$ as\n\\[a^3 + b^3 + c^3 - 3abc = (a + b + c)(a^2 + b^2 + c^2 - ab - ac - bc).\\]We can find $a^2 + b^2 + c^2$ by squaring the equation $a + b + c = 11,$ to get\n\\[a^2 + b^2 + c^2 + 2ab + 2ac + 2bc = 121.\\]Then $a^2 + b^2 + c^2 = 121 - 2(ab + ac + bc) = 121 - 2 \\cdot 25 = 71.$  Hence,\n\\[a^3 + b^3 + c^3 - 3abc = (a + b + c)(a^2 + b^2 + c^2 - ab - ac - bc) = 11(71 - 25) = \\boxed{506}.\\]\n",
+        "ground_truth": "We have the factorization\n\\[a^3 + b^3 + c^3 - 3abc = (a + b + c)(a^2 + b^2 + c^2 - ab - ac - bc).\\]Squaring the equation $a + b + c = 11,$ we get\n\\[a^2 + b^2 + c^2 + 2ab + 2ac + 2bc = 121.\\]Then $a^2 + b^2 + c^2 - ab - ac - bc = 121 - 3(ab + ac + bc) = 121 - 75 = 46,$ so\n\\[a^3 + b^3 + c^3 - 3abc = 11 \\cdot 46 = \\boxed{506}.\\]"
+    },
+    {
+        "question": "We can factor the expression $a^3 + b^3 + c^3 - 3abc$ as\n\\[a^3 + b^3 + c^3 - 3abc = (a + b + c)(a^2 + b^2 + c^2 - ab - ac - bc).\\]We can find $a^2 + b^2 + c^2$ by squaring the equation $a + b + c = 11,$ to get\n\\[a^2 + b^2 + c^2 + 2ab + 2ac + 2bc = 121.\\]Then $a^2 + b^2 + c^2 = 121 - 2(ab + ac + bc) = 121 - 2 \\cdot 25 = 71.$  Hence,\n\\[a^3 + b^3 + c^3 - 3abc = (a + b + c)(a^2 + b^2 + c^2 - ab - ac - bc) = 11(71 - 25) = \\boxed{506}.\\]\n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct. \n\n**Therefore, the final answer is  \\\\boxed{506}.** \n",
+        "ground_truth": "We have the factorization\n\\[a^3 + b^3 + c^3 - 3abc = (a + b + c)(a^2 + b^2 + c^2 - ab - ac - bc).\\]Squaring the equation $a + b + c = 11,$ we get\n\\[a^2 + b^2 + c^2 + 2ab + 2ac + 2bc = 121.\\]Then $a^2 + b^2 + c^2 - ab - ac - bc = 121 - 3(ab + ac + bc) = 121 - 75 = 46,$ so\n\\[a^3 + b^3 + c^3 - 3abc = 11 \\cdot 46 = \\boxed{506}.\\]"
+    }
+]

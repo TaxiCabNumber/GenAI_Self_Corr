@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 480 grains of rice in one cup. If half a cup is 8 tablespoons and one tablespoon is 3 teaspoons, how many grains of rice are in a teaspoon?",
+        "inference": "1 cup = 480 grains\n1/2 cup = 8 tablespoons\n1 tablespoon = 3 teaspoons\n\nSo, 1 cup = 8 x 3 = 24 tablespoons\n\n1 teaspoon = 480 / 24 = 20 grains\n\nI hope it is correct: 20 $grains$",
+        "ground_truth": "First find the number of tablespoons in a full cup: 8 tablespoons/half-cup * 2 half-cups/cup = <<8*2=16>>16 tablespoons\nThen find the total number of teaspoons in a cup: 16 tablespoons/cup * 3 teaspoons/tablespoon = <<16*3=48>>48 teaspoons\nThen find the number of grains of rice per teaspoon: 480 grains / 48 teaspoons = <<480/48=10>>10 grains/teaspoon\n#### 10"
+    },
+    {
+        "question": "1 cup = 480 grains\n1/2 cup = 8 tablespoons\n1 tablespoon = 3 teaspoons\n\nSo, 1 cup = 8 x 3 = 24 tablespoons\n\n1 teaspoon = 480 / 24 = 20 grains\n\nI hope it is correct: 20 $grains$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 20",
+        "ground_truth": "First find the number of tablespoons in a full cup: 8 tablespoons/half-cup * 2 half-cups/cup = <<8*2=16>>16 tablespoons\nThen find the total number of teaspoons in a cup: 16 tablespoons/cup * 3 teaspoons/tablespoon = <<16*3=48>>48 teaspoons\nThen find the number of grains of rice per teaspoon: 480 grains / 48 teaspoons = <<480/48=10>>10 grains/teaspoon\n#### 10"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTire repair for each tire costs $7, plus another 50 cents for sales tax. If Juan needs all 4 tires repaired, how much is the final cost?",
+        "inference": "Cost of repairing one tire = $7 + $0.50 = $7.50\nCost of repairing 4 tires = $7.50 x 4 = $30\nI hope it is correct: 30",
+        "ground_truth": "Juan pays 4*7 = <<4*7=28>>28 dollars for all four tire repairs.\nJuan pays 0.50*4 = <<0.50*4=2>>2 dollars in sales tax for all four tire repairs.\nJuan pays a total of 28+2 = <<28+2=30>>30 dollars.\n#### 30"
+    },
+    {
+        "question": "Cost of repairing one tire = $7 + $0.50 = $7.50\nCost of repairing 4 tires = $7.50 x 4 = $30\nI hope it is correct: 30\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $30$",
+        "ground_truth": "Juan pays 4*7 = <<4*7=28>>28 dollars for all four tire repairs.\nJuan pays 0.50*4 = <<0.50*4=2>>2 dollars in sales tax for all four tire repairs.\nJuan pays a total of 28+2 = <<28+2=30>>30 dollars.\n#### 30"
+    }
+]

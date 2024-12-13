@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the equation of the oblique asymptote of the graph of\n\\[y = \\frac{4x^2 - 10x + 7}{2x - 5}.\\]Enter your equation in the form \"$y = mx + b$\".",
+        "inference": "We can find the oblique asymptote by performing polynomial long division:\n\n```\n        2x - 1 \n2x-5 | 4x^2 - 10x + 7\n        -(4x^2 - 10x)\n                7\n```\n\nSince the degree of the numerator is one more than the degree of the denominator, we have an oblique asymptote.  The quotient we obtained, $2x - 1,$ is the equation of the oblique asymptote.\n\nFinal Answer: $\\boxed{y = 2x - 1}$. I hope it is correct.",
+        "ground_truth": "We can write\n\\[y = \\frac{4x^2 - 10x + 7}{2x - 5} = \\frac{2x(2x - 5) + 7}{2x - 5} = 2x + \\frac{7}{2x - 5}.\\]Thus, the equation of the oblique asymptote is $\\boxed{y = 2x}.$"
+    },
+    {
+        "question": "We can find the oblique asymptote by performing polynomial long division:\n\n```\n        2x - 1 \n2x-5 | 4x^2 - 10x + 7\n        -(4x^2 - 10x)\n                7\n```\n\nSince the degree of the numerator is one more than the degree of the denominator, we have an oblique asymptote.  The quotient we obtained, $2x - 1,$ is the equation of the oblique asymptote.\n\nFinal Answer: $\\boxed{y = 2x - 1}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct. \n\n$\\boxed{y = 2x - 1}$. I hope it is correct. \n",
+        "ground_truth": "We can write\n\\[y = \\frac{4x^2 - 10x + 7}{2x - 5} = \\frac{2x(2x - 5) + 7}{2x - 5} = 2x + \\frac{7}{2x - 5}.\\]Thus, the equation of the oblique asymptote is $\\boxed{y = 2x}.$"
+    }
+]

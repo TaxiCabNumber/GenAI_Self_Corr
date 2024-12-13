@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $x+y=12$ and $x-y=8$, what is the value of $2x-xy$?",
+        "inference": "$x+y=12$ and $x-y=8$ \n\nAdd the two equations: $2x=20\\Rightarrow x=10$\n\nSubstitute $x=10$ into one of the equations: $10+y=12\\Rightarrow y=2$\n\nSubstitute $x=10$ and $y=2$ into $2x-xy$: $2(10)-10(2)=20-20=0$\n\nFinal Answer: \\boxed{$0$}. I hope it is correct.",
+        "ground_truth": "First, notice $2x - xy = x(2 - y)$. So this problem reduces to finding the values of $x$ and $y$.\n\nAdd the two equations together to find $x$: \\begin{align*}\n2x &= 20, \\\\\nx &= 10.\n\\end{align*}\nSubtract the two equations to find $y$: \\begin{align*}\n2y &= 4, \\\\\ny &= 2.\n\\end{align*}\nSince $y = 2$ and $x = 10$, $x(2 - y) = 10(2 - 2) = \\boxed{0}$."
+    },
+    {
+        "question": "$x+y=12$ and $x-y=8$ \n\nAdd the two equations: $2x=20\\Rightarrow x=10$\n\nSubstitute $x=10$ into one of the equations: $10+y=12\\Rightarrow y=2$\n\nSubstitute $x=10$ and $y=2$ into $2x-xy$: $2(10)-10(2)=20-20=0$\n\nFinal Answer: \\boxed{$0$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$0$}.",
+        "ground_truth": "First, notice $2x - xy = x(2 - y)$. So this problem reduces to finding the values of $x$ and $y$.\n\nAdd the two equations together to find $x$: \\begin{align*}\n2x &= 20, \\\\\nx &= 10.\n\\end{align*}\nSubtract the two equations to find $y$: \\begin{align*}\n2y &= 4, \\\\\ny &= 2.\n\\end{align*}\nSince $y = 2$ and $x = 10$, $x(2 - y) = 10(2 - 2) = \\boxed{0}$."
+    }
+]

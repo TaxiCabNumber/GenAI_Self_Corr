@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA year ago, the total cost of buying a lawnmower was 2/5 times less than the cost it goes for now. If the cost was $1800 a year ago, calculate how much it would cost Mr. Lucian to buy 4 such lawnmowers.",
+        "inference": "* If the previous price of a lawnmower was 1800 a year ago, then the current price of a lawnmower is x = 1800 + 2/5 * 1800 = 1800 + 360 = 2160\n* The cost of 4 such lawnmowers = 4 * 2160 = 8640\nI hope it is correct: 8640",
+        "ground_truth": "If the price of a lawnmower was $1800 a year ago, 2/5 less than the cost right now, then it now costs 2/5*1800 = $720 more to buy one lawnmower.\nThe total cost of buying one lawnmower right now is $1800+$720 = $<<1800+720=2520>>2520\nTo purchase 4 such lawnmowers, Mr. Lucian will have to pay $2520*4 = $<<2520*4=10080>>10080\n#### 10080"
+    },
+    {
+        "question": "* If the previous price of a lawnmower was 1800 a year ago, then the current price of a lawnmower is x = 1800 + 2/5 * 1800 = 1800 + 360 = 2160\n* The cost of 4 such lawnmowers = 4 * 2160 = 8640\nI hope it is correct: 8640\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$8640",
+        "ground_truth": "If the price of a lawnmower was $1800 a year ago, 2/5 less than the cost right now, then it now costs 2/5*1800 = $720 more to buy one lawnmower.\nThe total cost of buying one lawnmower right now is $1800+$720 = $<<1800+720=2520>>2520\nTo purchase 4 such lawnmowers, Mr. Lucian will have to pay $2520*4 = $<<2520*4=10080>>10080\n#### 10080"
+    }
+]

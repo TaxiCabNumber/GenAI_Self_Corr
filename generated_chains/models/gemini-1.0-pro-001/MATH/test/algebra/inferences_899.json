@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSolve for $a$: $\\frac15|9+2a|<1$.  Express your answer in interval notation.",
+        "inference": "$$\\frac15|9+2a|<1$$\n\n$$|9+2a|<5$$\n\n$$-5<9+2a<5$$\n\n$$-14<2a<4$$\n\n$$-7<a<2$$\n\n$$Final Answer: \\boxed{( -7,2 )}. I hope it is correct.$$",
+        "ground_truth": "Multiplying by 5 gives $|9+2a|<5$, so we must have  $$-5 < 9+2a < 5.$$Subtracting 9 from all three parts of this inequality chain gives  $$-14 < 2a < -4,$$and dividing by 2 gives $-7 < a < -2,$ or $a \\in \\boxed{(-7, -2)}$ in interval notation."
+    },
+    {
+        "question": "$$\\frac15|9+2a|<1$$\n\n$$|9+2a|<5$$\n\n$$-5<9+2a<5$$\n\n$$-14<2a<4$$\n\n$$-7<a<2$$\n\n$$Final Answer: \\boxed{( -7,2 )}. I hope it is correct.$$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{(-7, 2)}$$",
+        "ground_truth": "Multiplying by 5 gives $|9+2a|<5$, so we must have  $$-5 < 9+2a < 5.$$Subtracting 9 from all three parts of this inequality chain gives  $$-14 < 2a < -4,$$and dividing by 2 gives $-7 < a < -2,$ or $a \\in \\boxed{(-7, -2)}$ in interval notation."
+    }
+]

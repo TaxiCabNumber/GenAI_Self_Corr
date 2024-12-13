@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThere are 20 students in Miss Susan's class. 5 of them are good at math only, 8 of them perform well in English only, and the rest are good at both math and English. How many are good at math?",
+        "inference": "The total number of students that are good in math is the sum of the students that are only good in math and the students that are good in both math and English.\nTotal = Only Math + Both\n20 = 5 + (x - 8)\n20 - 5 = x - 8\n15 = x - 8\n15 + 8 = x\n23 = x\nI hope it is correct: 23",
+        "ground_truth": "The number of students who are good at math includes those who are only good at math and those who are good at both math and English. The only group that isn't included is the students who are only good at English.\nThere are 20 - 8 = <<20-8=12>>12 students who are good at math.\n#### 12"
+    },
+    {
+        "question": "The total number of students that are good in math is the sum of the students that are only good in math and the students that are good in both math and English.\nTotal = Only Math + Both\n20 = 5 + (x - 8)\n20 - 5 = x - 8\n15 = x - 8\n15 + 8 = x\n23 = x\nI hope it is correct: 23\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$23",
+        "ground_truth": "The number of students who are good at math includes those who are only good at math and those who are good at both math and English. The only group that isn't included is the students who are only good at English.\nThere are 20 - 8 = <<20-8=12>>12 students who are good at math.\n#### 12"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTrent is 5 years older than Jane, and Jane is 3 years younger than Quinn. If Quinn is 30, how old is Trent?",
+        "inference": "1. Jane is 3 years younger than Quinn, so Jane is 30 - 3 = 27 years old.\n2. Trent is 5 years older than Jane, so Trent is 27 + 5 = 32 years old.\nI hope it is correct: 32 $answer$",
+        "ground_truth": "Jane is 30-3=<<30-3=27>>27 years old\nTrent is 27+5=<<27+5=32>>32 years old\n#### 32"
+    },
+    {
+        "question": "1. Jane is 3 years younger than Quinn, so Jane is 30 - 3 = 27 years old.\n2. Trent is 5 years older than Jane, so Trent is 27 + 5 = 32 years old.\nI hope it is correct: 32 $answer$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 32",
+        "ground_truth": "Jane is 30-3=<<30-3=27>>27 years old\nTrent is 27+5=<<27+5=32>>32 years old\n#### 32"
+    }
+]

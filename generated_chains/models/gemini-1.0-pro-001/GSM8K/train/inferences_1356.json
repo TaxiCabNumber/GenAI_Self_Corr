@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohan has a ten-bedroom house with 8 walls in each room. He paints 3/5 of the rooms in the house green and paints the rest of the rooms with purple color. How many walls in the house did he paint purple?",
+        "inference": "1. Find the number of rooms Johan painted green.\n$$\\frac{3}{5} \\times 10 = 6$$\n2. Determine the number of rooms Johan painted purple.\n$$10-6=4$$\n3. Calculate the number of walls Johan painted green.\n$$6 \\times 8 = 48$$\n4. Find the number of walls Johan painted purple.\n$$4 \\times 8 = 32$$\nI hope it is correct: 32",
+        "ground_truth": "Since Cristian's house has ten rooms, he painted 3/5*10 = <<3/5*10=6>>6 rooms with green color.\nThe number of rooms he painted with purple is 10-6 = <<10-6=4>>4 rooms.\nSince each room in the house has eight walls, the number of walls painted purple is 8*4= <<8*4=32>>32.\n#### 32"
+    },
+    {
+        "question": "1. Find the number of rooms Johan painted green.\n$$\\frac{3}{5} \\times 10 = 6$$\n2. Determine the number of rooms Johan painted purple.\n$$10-6=4$$\n3. Calculate the number of walls Johan painted green.\n$$6 \\times 8 = 48$$\n4. Find the number of walls Johan painted purple.\n$$4 \\times 8 = 32$$\nI hope it is correct: 32\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ 32",
+        "ground_truth": "Since Cristian's house has ten rooms, he painted 3/5*10 = <<3/5*10=6>>6 rooms with green color.\nThe number of rooms he painted with purple is 10-6 = <<10-6=4>>4 rooms.\nSince each room in the house has eight walls, the number of walls painted purple is 8*4= <<8*4=32>>32.\n#### 32"
+    }
+]

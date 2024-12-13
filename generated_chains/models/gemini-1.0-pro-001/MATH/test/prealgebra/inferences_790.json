@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIn my neighborhood, there are six streets. There are 10 houses on each side of each street. No house faces two different streets. How many houses are in my neighborhood?",
+        "inference": "There are a total of six streets with 10 houses on each side of each street, so the total number of houses on one side of all six streets: $6 \\cdot 10 = 60$ houses.\n\nSince each house has two sides, so the total number of houses: $60 / 2 = \\boxed{30}.$\n\nFinal Answer: $\\boxed{30}.$ I hope it is correct.",
+        "ground_truth": "There are 2 sides to each street with 10 houses on each side, so there are $2\\times 10 = 20$ houses on each street. There are 6 streets in the neighborhood each with 20 houses, so there are $6 \\times 20 = \\boxed{120}$ houses in the neighborhood."
+    },
+    {
+        "question": "There are a total of six streets with 10 houses on each side of each street, so the total number of houses on one side of all six streets: $6 \\cdot 10 = 60$ houses.\n\nSince each house has two sides, so the total number of houses: $60 / 2 = \\boxed{30}.$\n\nFinal Answer: $\\boxed{30}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$30$}",
+        "ground_truth": "There are 2 sides to each street with 10 houses on each side, so there are $2\\times 10 = 20$ houses on each street. There are 6 streets in the neighborhood each with 20 houses, so there are $6 \\times 20 = \\boxed{120}$ houses in the neighborhood."
+    }
+]

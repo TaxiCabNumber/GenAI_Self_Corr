@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind $x,$ given that \\[\\sqrt{x+7} - \\sqrt{x} = \\sqrt{3}.\\]",
+        "inference": "Solution: \n$$\\begin{aligned}\n\\sqrt{x+7} - \\sqrt{x} &= \\sqrt{3} \\\\\n\\Rightarrow \\qquad \\sqrt{x+7} &= \\sqrt{x} + \\sqrt{3} \\\\\n\\Rightarrow \\qquad (\\sqrt{x+7})^2 &= (\\sqrt{x} + \\sqrt{3})^2 \\\\\n\\Rightarrow \\qquad x + 7 &= x + 2\\sqrt{3x} + 3 \\\\\n\\Rightarrow \\qquad 4 &= 2\\sqrt{3x} \\\\\n\\Rightarrow \\qquad 2 &= \\sqrt{3x} \\\\\n\\Rightarrow \\qquad 4 &= 3x \\\\\n\\Rightarrow \\qquad x &= \\boxed{\\frac{4}{3}}.\n\\end{aligned}$$ \nFinal Answer: $\\boxed{\\frac{4}{3}}$. I hope it is correct. \n",
+        "ground_truth": "Adding $\\sqrt{x}$ to both sides, we get \\[\\sqrt{x+7} = \\sqrt{x} + \\sqrt{3}.\\]Then, squaring both sides gives \\[x + 7 = x + 3 + 2\\sqrt{3x},\\]or \\[4 = 2\\sqrt{3x}.\\]Hence, $2 = \\sqrt{3x},$ so $4 = 3x$ and $x = \\boxed{\\frac{4}{3}}.$"
+    },
+    {
+        "question": "Solution: \n$$\\begin{aligned}\n\\sqrt{x+7} - \\sqrt{x} &= \\sqrt{3} \\\\\n\\Rightarrow \\qquad \\sqrt{x+7} &= \\sqrt{x} + \\sqrt{3} \\\\\n\\Rightarrow \\qquad (\\sqrt{x+7})^2 &= (\\sqrt{x} + \\sqrt{3})^2 \\\\\n\\Rightarrow \\qquad x + 7 &= x + 2\\sqrt{3x} + 3 \\\\\n\\Rightarrow \\qquad 4 &= 2\\sqrt{3x} \\\\\n\\Rightarrow \\qquad 2 &= \\sqrt{3x} \\\\\n\\Rightarrow \\qquad 4 &= 3x \\\\\n\\Rightarrow \\qquad x &= \\boxed{\\frac{4}{3}}.\n\\end{aligned}$$ \nFinal Answer: $\\boxed{\\frac{4}{3}}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct.  \n \n $\\boxed{\\frac{4}{3}}$ . I hope it is correct. \n",
+        "ground_truth": "Adding $\\sqrt{x}$ to both sides, we get \\[\\sqrt{x+7} = \\sqrt{x} + \\sqrt{3}.\\]Then, squaring both sides gives \\[x + 7 = x + 3 + 2\\sqrt{3x},\\]or \\[4 = 2\\sqrt{3x}.\\]Hence, $2 = \\sqrt{3x},$ so $4 = 3x$ and $x = \\boxed{\\frac{4}{3}}.$"
+    }
+]

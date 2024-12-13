@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA line containing the points $(2, 16)$ and $(-8, -4)$ intersects the $y$-axis at what point?",
+        "inference": "Slope of the line containing the points $(2, 16)$ and $(-8, -4)$:\n\n$$m = \\frac{-4 - 16}{-8 - 2} = \\frac{-20}{-10} = 2$$\n\nThe equation of the line:\n$$y - 16 = 2(x - 2)$$\n\n$$y - 16 = 2x - 4$$\n\n$$y = 2x + 12$$\n\nThe line intersects the $y$-axis at $x = 0$. So, the $y$-coordinate of the point of intersection is:\n$$y = 2(0) + 12 = 12$$\n\nFinal Answer: \\boxed{$12$}. I hope it is correct.",
+        "ground_truth": "The $y$-axis has equation $x = 0$.  Thus we need to find out what $y$ is when $x = 0$.  We notice that the slope of the line is $\\frac{16 - (-4)}{2 - (-8)} = 2$.  So to get to $x = 0$ we can start at $(2, 16)$ and go left two in the $x$ direction.  Since the slope of the line is $2$ we know that going left in $x$ by one results in going down in $y$ by two (i.e. $y$ will be 12).  Thus the line intercepts the $y$-axis at $\\boxed{(0, 12)}$."
+    },
+    {
+        "question": "Slope of the line containing the points $(2, 16)$ and $(-8, -4)$:\n\n$$m = \\frac{-4 - 16}{-8 - 2} = \\frac{-20}{-10} = 2$$\n\nThe equation of the line:\n$$y - 16 = 2(x - 2)$$\n\n$$y - 16 = 2x - 4$$\n\n$$y = 2x + 12$$\n\nThe line intersects the $y$-axis at $x = 0$. So, the $y$-coordinate of the point of intersection is:\n$$y = 2(0) + 12 = 12$$\n\nFinal Answer: \\boxed{$12$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{12}$$",
+        "ground_truth": "The $y$-axis has equation $x = 0$.  Thus we need to find out what $y$ is when $x = 0$.  We notice that the slope of the line is $\\frac{16 - (-4)}{2 - (-8)} = 2$.  So to get to $x = 0$ we can start at $(2, 16)$ and go left two in the $x$ direction.  Since the slope of the line is $2$ we know that going left in $x$ by one results in going down in $y$ by two (i.e. $y$ will be 12).  Thus the line intercepts the $y$-axis at $\\boxed{(0, 12)}$."
+    }
+]

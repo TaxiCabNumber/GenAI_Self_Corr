@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $f(x)$ be an even function, and let $g(x)$ be an odd function.  Is $f(x) g(x)$ even, odd, or neither?\n\nEnter \"odd\", \"even\", or \"neither\".",
+        "inference": "Since $f(x)$ is even, $f(-x)=f(x)$.  Since $g(x)$ is odd, $g(-x)=-g(x)$.  So\n$$f(x)g(x)=f(x)[-g(-x)]=-[f(x)g(-x)].$$\n\nHence $f(x)g(x)$ is odd.\n\nFinal Answer: $\\boxed{\\text{odd}}.$ I hope it is correct.",
+        "ground_truth": "Since $f(x)$ is even and $g(x)$ is odd,\n\\[f(-x)g(-x) = f(x)(-g(x)) = -f(x)g(x),\\]so $f(x) g(x)$ is an $\\boxed{\\text{odd}}$ function."
+    },
+    {
+        "question": "Since $f(x)$ is even, $f(-x)=f(x)$.  Since $g(x)$ is odd, $g(-x)=-g(x)$.  So\n$$f(x)g(x)=f(x)[-g(-x)]=-[f(x)g(-x)].$$\n\nHence $f(x)g(x)$ is odd.\n\nFinal Answer: $\\boxed{\\text{odd}}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Final Answer: $\\boxed{\\text{odd}}.$",
+        "ground_truth": "Since $f(x)$ is even and $g(x)$ is odd,\n\\[f(-x)g(-x) = f(x)(-g(x)) = -f(x)g(x),\\]so $f(x) g(x)$ is an $\\boxed{\\text{odd}}$ function."
+    }
+]

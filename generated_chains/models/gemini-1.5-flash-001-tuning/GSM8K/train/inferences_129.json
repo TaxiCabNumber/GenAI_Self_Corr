@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nDan owns an ice cream shop and every sixth customer gets a free ice cream cone. Cones cost $2 each. If he sold $100 worth of cones, how many free ones did he give away?",
+        "inference": "He sold $100 worth of cones at $2 each, so he sold 100/2 = 50 cones.\nEvery sixth customer gets a free cone, so he gave away 50/6 = 8.33 free cones.\nSince he can't give away a fraction of a cone, he gave away 8 free cones.\n\nI hope it is correct: 8 free cones. \n",
+        "ground_truth": "He sold 50 cones because 100 / 2 = <<100/2=50>>50\nHe gave away 10 cones because 50 / 5 = <<50/5=10>>10\n#### 10"
+    },
+    {
+        "question": "He sold $100 worth of cones at $2 each, so he sold 100/2 = 50 cones.\nEvery sixth customer gets a free cone, so he gave away 50/6 = 8.33 free cones.\nSince he can't give away a fraction of a cone, he gave away 8 free cones.\n\nI hope it is correct: 8 free cones. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$ 8 free cones. \n",
+        "ground_truth": "He sold 50 cones because 100 / 2 = <<100/2=50>>50\nHe gave away 10 cones because 50 / 5 = <<50/5=10>>10\n#### 10"
+    }
+]

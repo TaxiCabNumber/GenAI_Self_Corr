@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAt Penny\u2019s bakery, her famous blueberry cheesecakes are $7 a slice.  Each cheesecake pie is cut into 6 thick slices.  If she sells 7 cheesecake pies, how much money does she make?",
+        "inference": "1. Find the total number of slices in 7 pies: 7 pies * 6 slices/pie = 42 slices\n2. Multiply the number of slices by the price per slice: 42 slices * $7/slice = $294\nI hope it is correct: $294",
+        "ground_truth": "There are a total of 7 x 6 = <<7*6=42>>42 cheesecake slices.\nShe makes a total of 42 x $7 = $<<42*7=294>>294.\n#### 294"
+    },
+    {
+        "question": "1. Find the total number of slices in 7 pies: 7 pies * 6 slices/pie = 42 slices\n2. Multiply the number of slices by the price per slice: 42 slices * $7/slice = $294\nI hope it is correct: $294\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $294$",
+        "ground_truth": "There are a total of 7 x 6 = <<7*6=42>>42 cheesecake slices.\nShe makes a total of 42 x $7 = $<<42*7=294>>294.\n#### 294"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nCandy has a chair rental business. During the weekdays, 60 chairs are rented each day; but during weekends, 100 chairs are rented each day. If this continues, how many chairs in total will Candy be able to rent out in two 4-week months?",
+        "inference": "1 weekday = 60 x 1 = 60 chairs\n1 weekend = 100 x 2 = 200 chairs\n2 4-week months = 56 days (4 weeks x 7 days/week x 2 months)\nTotal weekday rentals = 56 days x 60 chairs/day = 3,360 chairs\nTotal weekend rentals = 56 days / 7 days/week x 2 days/week x 200 chairs/day = 3,920 chairs\nTotal chairs rented out = 3,360 chairs + 3,920 chairs = 7,280 chairs\nI hope it is correct: 7,280",
+        "ground_truth": "During weekdays, a total of 60 x 5 = <<60*5=300>>300 chairs are rented.\nDuring the weekends, a total of 100 x 2 = <<100*2=200>>200 chairs are rented.\nIn a week, 300 + 200 = <<300+200=500>>500 chairs are rented.\nSince there are 4 weeks in a month, 500 x 4 = <<500*4=2000>>2000 chairs are rented in a month.\nThus, a total of 2000 x 2 = <<2000*2=4000>>4000 chairs are rented in two months.\n#### 4000"
+    },
+    {
+        "question": "1 weekday = 60 x 1 = 60 chairs\n1 weekend = 100 x 2 = 200 chairs\n2 4-week months = 56 days (4 weeks x 7 days/week x 2 months)\nTotal weekday rentals = 56 days x 60 chairs/day = 3,360 chairs\nTotal weekend rentals = 56 days / 7 days/week x 2 days/week x 200 chairs/day = 3,920 chairs\nTotal chairs rented out = 3,360 chairs + 3,920 chairs = 7,280 chairs\nI hope it is correct: 7,280\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 7280",
+        "ground_truth": "During weekdays, a total of 60 x 5 = <<60*5=300>>300 chairs are rented.\nDuring the weekends, a total of 100 x 2 = <<100*2=200>>200 chairs are rented.\nIn a week, 300 + 200 = <<300+200=500>>500 chairs are rented.\nSince there are 4 weeks in a month, 500 x 4 = <<500*4=2000>>2000 chairs are rented in a month.\nThus, a total of 2000 x 2 = <<2000*2=4000>>4000 chairs are rented in two months.\n#### 4000"
+    }
+]

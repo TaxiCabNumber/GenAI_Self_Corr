@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $2x = 5y$ and $7y = 10z$, what is the value of $\\frac{z}{x}$ expressed as a common fraction?",
+        "inference": "$$\\frac{2x}{5y} = \\frac{5y}{7y} = \\frac{7y}{10z}$$ $$\\Rightarrow \\frac{2x}{5y} = \\frac{1}{7} = \\frac{7y}{10z}$$ $$\\Rightarrow \\frac{2x}{5y} = \\frac{1}{7} = \\frac{y}{10z}$$ $$\\Rightarrow \\frac{2x}{y} = \\frac{5}{7} \\text{ and } \\frac{y}{10z} = \\frac{1}{7}$$ $$\\Rightarrow \\frac{2x}{y} \\times \\frac{y}{10z} = \\frac{5}{7} \\times \\frac{1}{7}$$ $$\\Rightarrow \\frac{2x}{10z} = \\frac{5}{49}$$ $$\\Rightarrow \\frac{z}{x} = \\frac{10z}{2x} = \\frac{10}{2} \\times \\frac{z}{x} = 5 \\times \\frac{z}{x}$$ $$\\Rightarrow \\frac{z}{x} = 5$$\n\nFinal Answer: \\boxed{$5$}. I hope it is correct.",
+        "ground_truth": "$\\frac{y}{x}=\\frac25$ and $\\frac{z}{y}=\\frac{7}{10}$. Multiplying these, \\[\n\\frac25\\cdot\\frac{7}{10}=\\frac y x\\cdot\\frac z y=\\frac z x=\\boxed{\\frac{7}{25}}\n\\]"
+    },
+    {
+        "question": "$$\\frac{2x}{5y} = \\frac{5y}{7y} = \\frac{7y}{10z}$$ $$\\Rightarrow \\frac{2x}{5y} = \\frac{1}{7} = \\frac{7y}{10z}$$ $$\\Rightarrow \\frac{2x}{5y} = \\frac{1}{7} = \\frac{y}{10z}$$ $$\\Rightarrow \\frac{2x}{y} = \\frac{5}{7} \\text{ and } \\frac{y}{10z} = \\frac{1}{7}$$ $$\\Rightarrow \\frac{2x}{y} \\times \\frac{y}{10z} = \\frac{5}{7} \\times \\frac{1}{7}$$ $$\\Rightarrow \\frac{2x}{10z} = \\frac{5}{49}$$ $$\\Rightarrow \\frac{z}{x} = \\frac{10z}{2x} = \\frac{10}{2} \\times \\frac{z}{x} = 5 \\times \\frac{z}{x}$$ $$\\Rightarrow \\frac{z}{x} = 5$$\n\nFinal Answer: \\boxed{$5$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{5}$$",
+        "ground_truth": "$\\frac{y}{x}=\\frac25$ and $\\frac{z}{y}=\\frac{7}{10}$. Multiplying these, \\[\n\\frac25\\cdot\\frac{7}{10}=\\frac y x\\cdot\\frac z y=\\frac z x=\\boxed{\\frac{7}{25}}\n\\]"
+    }
+]

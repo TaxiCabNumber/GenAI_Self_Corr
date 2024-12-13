@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nA train travels between 3 different cities.  It goes 75 miles from the first city to the second city, 100 miles from the second city to the third city, and 50 miles less than that combined distance to go from the third city to the first city.  It does this trip 3 times a day.  The train needs service every 18,000 miles so how many days does it go between services?",
+        "inference": "1. Calculate the total distance for one trip by adding the distance between the 3 cities: 75 + 100 + (100 - 50) = 225 miles\n2. Multiply this value by 3 to account for 3 trips: 225 * 3 = 675 miles\n3. Divide the total distance in one trip by the distance between services: 675 / 18,000 = 0.0375\n4. Take the reciprocal to find the number of days between services: 1 / 0.0375 = 26.666...\n5 Round to the nearest whole number of days: 27 days\nI hope it is correct: 27 days",
+        "ground_truth": "It takes 100+75=<<100+75=175>>175 miles for the first two legs of the trip\nThe third leg is 175-50=<<175-50=125>>125 miles\nSo the total trip is 175+125=<<175+125=300>>300 miles\nSo it goes 3*300=<<3*300=900>>900 miles per day\nSo it can go 18000/900=<<18000/900=20>>20 days between services.\n#### 20"
+    },
+    {
+        "question": "1. Calculate the total distance for one trip by adding the distance between the 3 cities: 75 + 100 + (100 - 50) = 225 miles\n2. Multiply this value by 3 to account for 3 trips: 225 * 3 = 675 miles\n3. Divide the total distance in one trip by the distance between services: 675 / 18,000 = 0.0375\n4. Take the reciprocal to find the number of days between services: 1 / 0.0375 = 26.666...\n5 Round to the nearest whole number of days: 27 days\nI hope it is correct: 27 days\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 27",
+        "ground_truth": "It takes 100+75=<<100+75=175>>175 miles for the first two legs of the trip\nThe third leg is 175-50=<<175-50=125>>125 miles\nSo the total trip is 175+125=<<175+125=300>>300 miles\nSo it goes 3*300=<<3*300=900>>900 miles per day\nSo it can go 18000/900=<<18000/900=20>>20 days between services.\n#### 20"
+    }
+]

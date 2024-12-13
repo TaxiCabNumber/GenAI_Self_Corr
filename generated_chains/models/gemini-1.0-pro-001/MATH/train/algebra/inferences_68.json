@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFor how many integers $n$ is it true that $\\sqrt{n} \\le \\sqrt{4n - 6} < \\sqrt{2n + 5}$?",
+        "inference": "**Solution:**\n\nSquaring the inequalities, we get\n\n$$n \\le 4n - 6 < 2n + 5$$\n\n$$-3n \\le -6 < n + 5$$\n\n$$n \\le 2 < n + 5$$\n\nSince $n$ is an integer, the only value of $n$ that satisfies these inequalities is $n = 2$.\n\n**Final Answer:** $\\boxed{1}$. I hope it is correct.",
+        "ground_truth": "Squaring both sides of the left-hand inequality yields $n < 4n-6 \\Longrightarrow 6 \\le 3n \\Longrightarrow 2 \\le n$.\n\nSquaring both sides of the right-hand inequality yields $4n-6 < 2n+5 \\Longrightarrow 2n < 11 \\Longrightarrow n < 5.5$. Thus, $n$ must be one of $\\{2,3,4,5\\}$, of which we can check all work. As such, the answer is $\\boxed{4}$."
+    },
+    {
+        "question": "**Solution:**\n\nSquaring the inequalities, we get\n\n$$n \\le 4n - 6 < 2n + 5$$\n\n$$-3n \\le -6 < n + 5$$\n\n$$n \\le 2 < n + 5$$\n\nSince $n$ is an integer, the only value of $n$ that satisfies these inequalities is $n = 2$.\n\n**Final Answer:** $\\boxed{1}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{2}",
+        "ground_truth": "Squaring both sides of the left-hand inequality yields $n < 4n-6 \\Longrightarrow 6 \\le 3n \\Longrightarrow 2 \\le n$.\n\nSquaring both sides of the right-hand inequality yields $4n-6 < 2n+5 \\Longrightarrow 2n < 11 \\Longrightarrow n < 5.5$. Thus, $n$ must be one of $\\{2,3,4,5\\}$, of which we can check all work. As such, the answer is $\\boxed{4}$."
+    }
+]

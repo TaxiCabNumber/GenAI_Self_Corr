@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the least integer value of $x$ for which $2|x| + 7 < 17$.",
+        "inference": "We have \n\n$$2|x| + 7 < 17$$\n\n$$2|x| < 10$$\n\n$$|x| < 5$$\n\n$$-5 < x < 5 \\quad \\text{and} \\quad x \\in \\mathbb{Z}$$\n\nThe least integer value of $x$ is $-4$.\n\nFinal Answer: $\\boxed{-4}.$ I hope it is correct.",
+        "ground_truth": "First, solve the inequality so that only the absolute value quantity is on the left and the constant value is on the right.\n\n\\begin{align*}\n2|x| + 7&< 17\\\\\n2|x|&<10\\\\\n|x|&<5\n\\end{align*}To solve the inequality which has an absolute value in it, we must turn this into two different inequalities, one as normal, one with a reversed sign and opposite resulting value.  Both will have the absolute value removed.\n\n\\begin{align*}\nx &< 5 \\\\\nx &> -5\n\\end{align*}Since we need the least integer value of $x$, and $x$ has to be $\\textbf{greater than }$ -5, the next smallest integer is $\\boxed{-4}$."
+    },
+    {
+        "question": "We have \n\n$$2|x| + 7 < 17$$\n\n$$2|x| < 10$$\n\n$$|x| < 5$$\n\n$$-5 < x < 5 \\quad \\text{and} \\quad x \\in \\mathbb{Z}$$\n\nThe least integer value of $x$ is $-4$.\n\nFinal Answer: $\\boxed{-4}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Final Answer: $\\boxed{-4}$",
+        "ground_truth": "First, solve the inequality so that only the absolute value quantity is on the left and the constant value is on the right.\n\n\\begin{align*}\n2|x| + 7&< 17\\\\\n2|x|&<10\\\\\n|x|&<5\n\\end{align*}To solve the inequality which has an absolute value in it, we must turn this into two different inequalities, one as normal, one with a reversed sign and opposite resulting value.  Both will have the absolute value removed.\n\n\\begin{align*}\nx &< 5 \\\\\nx &> -5\n\\end{align*}Since we need the least integer value of $x$, and $x$ has to be $\\textbf{greater than }$ -5, the next smallest integer is $\\boxed{-4}$."
+    }
+]

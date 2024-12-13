@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind all values of $b$ for which the equations $1988x^2 + bx + 8891 = 0$ and $8891x^2 + bx + 1988 = 0$ have a common root.\n\nEnter all the possible values of $b,$ separated by commas.",
+        "inference": "Final Answer: \\\\boxed{-1988\\sqrt{8891}, 1988\\sqrt{8891}}. I hope it is correct. \n",
+        "ground_truth": "Let $r$ be a common root, so\n\\begin{align*}\n1988r^2 + br + 8891 &= 0, \\\\\n8891r^2 + br + 1988 &= 0.\n\\end{align*}Subtracting these equations, we get $6903r^2 - 6903 = 6903 (r^2 - 1) = 0,$ so $r = \\pm 1.$\n\nIf $r = 1,$ then $1988 + b + 8891 = 0,$ so $b = \\boxed{-10879}.$  If $r = -1,$ then $1988 - b + 8891 = 0,$ so $b = \\boxed{10879}.$"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{-1988\\sqrt{8891}, 1988\\sqrt{8891}}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the original question and the solution you are referring to. I need that information to identify any potential errors and rewrite the final solution correctly. \n",
+        "ground_truth": "Let $r$ be a common root, so\n\\begin{align*}\n1988r^2 + br + 8891 &= 0, \\\\\n8891r^2 + br + 1988 &= 0.\n\\end{align*}Subtracting these equations, we get $6903r^2 - 6903 = 6903 (r^2 - 1) = 0,$ so $r = \\pm 1.$\n\nIf $r = 1,$ then $1988 + b + 8891 = 0,$ so $b = \\boxed{-10879}.$  If $r = -1,$ then $1988 - b + 8891 = 0,$ so $b = \\boxed{10879}.$"
+    }
+]

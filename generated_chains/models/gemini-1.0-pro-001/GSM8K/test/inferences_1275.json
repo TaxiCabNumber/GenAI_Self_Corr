@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJohn's car breaks down.  The car weighs 1200 pounds and he has luggage in it weighing 250 pounds.  He also has his two young children who weigh 75 pounds each in it.  If the force to move the car is 1% of the weight how much force does he need to push the car?",
+        "inference": "- The luggage weighs 250 pounds\n- His two young children weigh 75 pounds each\n- So the total weight of the luggage and the children is 250 + 2(75) = 400 pounds\n- The car, with the luggage and children,  weighs 1,200 pounds + 400 pounds = 1,600 pounds\n- If the force to move the car is 1% of the weight, then he needs to push with a force of 1% * 1,600 pounds = 16 pounds\nI hope it is correct: 16 pounds",
+        "ground_truth": "His two children weigh 75*2=<<75*2=150>>150 pounds\nSo the total weight of the car and everything is 1200+250+150=<<1200+250+150=1600>>1600 pounds\nSo he needs to generate 1600*.01=<<1600*.01=16>>16 pounds\n#### 16"
+    },
+    {
+        "question": "- The luggage weighs 250 pounds\n- His two young children weigh 75 pounds each\n- So the total weight of the luggage and the children is 250 + 2(75) = 400 pounds\n- The car, with the luggage and children,  weighs 1,200 pounds + 400 pounds = 1,600 pounds\n- If the force to move the car is 1% of the weight, then he needs to push with a force of 1% * 1,600 pounds = 16 pounds\nI hope it is correct: 16 pounds\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 16",
+        "ground_truth": "His two children weigh 75*2=<<75*2=150>>150 pounds\nSo the total weight of the car and everything is 1200+250+150=<<1200+250+150=1600>>1600 pounds\nSo he needs to generate 1600*.01=<<1600*.01=16>>16 pounds\n#### 16"
+    }
+]

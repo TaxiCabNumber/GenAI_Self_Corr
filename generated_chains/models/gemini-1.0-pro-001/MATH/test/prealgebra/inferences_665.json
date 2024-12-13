@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $-3\\le x+5 \\le 8$ and $x$ is an integer, what is the sum of all the possible solutions?",
+        "inference": "$-3\\le x+5 \\le 8$\n$-8\\le x \\le 3$\nThe possible solutions are $-8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, and 3.\nThe sum of all the possible solutions is $-8+(-7)+(-6)+(-5)+(-4)+(-3)+(-2)+(-1)+0+1+2+3=\\boxed{0}$.\nFinal Answer: \\boxed{$0$}. I hope it is correct.",
+        "ground_truth": "We simplify the inequality by subtracting $5$ from all 3 values to yield \\[-8\\le x\\le 3.\\]  The integers in this range are the possible solutions, and to find their sum, notice that we can group certain numbers with their opposite to sum to 0, namely \\[(-3+3)+(-2+2)+(-1+1)+0=0.\\]  Since these numbers contribute a sum of $0$, we now only need to find the sum of the integers from $-8$ to $-4$.  Their sum is $-8-7-6-5-4=-30$, and hence our answer is $\\boxed{-30}$."
+    },
+    {
+        "question": "$-3\\le x+5 \\le 8$\n$-8\\le x \\le 3$\nThe possible solutions are $-8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, and 3.\nThe sum of all the possible solutions is $-8+(-7)+(-6)+(-5)+(-4)+(-3)+(-2)+(-1)+0+1+2+3=\\boxed{0}$.\nFinal Answer: \\boxed{$0$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$0$}.",
+        "ground_truth": "We simplify the inequality by subtracting $5$ from all 3 values to yield \\[-8\\le x\\le 3.\\]  The integers in this range are the possible solutions, and to find their sum, notice that we can group certain numbers with their opposite to sum to 0, namely \\[(-3+3)+(-2+2)+(-1+1)+0=0.\\]  Since these numbers contribute a sum of $0$, we now only need to find the sum of the integers from $-8$ to $-4$.  Their sum is $-8-7-6-5-4=-30$, and hence our answer is $\\boxed{-30}$."
+    }
+]

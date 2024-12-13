@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA zoo has a menagerie containing four pairs of different animals, one male and one female for each. The zookeeper wishes to feed the animals in a specific pattern: each time he feeds a single animal, the next one he feeds must be a different gender. If he starts by feeding the male giraffe, how many ways can he feed all the animals?",
+        "inference": "List the possibilities following the two requirements.\n\n1. Start by feeding the male giraffe.\n2. Feed the female giraffe.\n3. Start by feeding the female giraffe.\n4. Feed the male giraffe.\n\n**Final Answer: \\\\boxed{$4$}. I hope it is correct.**",
+        "ground_truth": "If the zookeeper starts with the male giraffe, there are 4 females which he can feed next. Once one is selected, there are 3 males he can feed next, then 3 females, 2 males, 2 females, 1 male, and 1 female.\n\nThe total number of possibilities is $4\\times3\\times3\\times2\\times2 = \\boxed{144}$ ways."
+    },
+    {
+        "question": "List the possibilities following the two requirements.\n\n1. Start by feeding the male giraffe.\n2. Feed the female giraffe.\n3. Start by feeding the female giraffe.\n4. Feed the male giraffe.\n\n**Final Answer: \\\\boxed{$4$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$1$}.",
+        "ground_truth": "If the zookeeper starts with the male giraffe, there are 4 females which he can feed next. Once one is selected, there are 3 males he can feed next, then 3 females, 2 males, 2 females, 1 male, and 1 female.\n\nThe total number of possibilities is $4\\times3\\times3\\times2\\times2 = \\boxed{144}$ ways."
+    }
+]

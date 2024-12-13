@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe parabola $y=ax^2+bx+c$ has vertex $(p,p)$ and $y$-intercept $(0,-p)$, where $p\\ne 0$. What is $b$?",
+        "inference": "Final Answer: $\\boxed{2p}$. I hope it is correct. \n",
+        "ground_truth": "Since the vertex is $(p,p),$ the parabola is of the form\n\\[y = a(x - p)^2 + p.\\]Setting $x = 0,$ we get $y = ap^2 + p = -p,$ so $a = -\\frac{2}{p}.$  Then\n\\[y = -\\frac{2}{p} (x^2 - 2px + p^2) + p = -\\frac{2}{p} x^2 + 4x - p,\\]so $b = \\boxed{4}.$"
+    },
+    {
+        "question": "Final Answer: $\\boxed{2p}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need this information to identify any errors and provide the correct solution. \n",
+        "ground_truth": "Since the vertex is $(p,p),$ the parabola is of the form\n\\[y = a(x - p)^2 + p.\\]Setting $x = 0,$ we get $y = ap^2 + p = -p,$ so $a = -\\frac{2}{p}.$  Then\n\\[y = -\\frac{2}{p} (x^2 - 2px + p^2) + p = -\\frac{2}{p} x^2 + 4x - p,\\]so $b = \\boxed{4}.$"
+    }
+]

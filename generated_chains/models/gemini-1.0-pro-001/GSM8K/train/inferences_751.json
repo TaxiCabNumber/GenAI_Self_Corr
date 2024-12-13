@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nHarry is joining a marathon that's why he practices and varies his workouts from day to day. He ran 10 meters per hour on Monday. From Tuesday to Thursday he ran 50% faster than on Monday. Then on Friday, he ran 60% faster than he ran on Thursday. How fast did Harry run on Friday?",
+        "inference": "1. Harry ran 10 meters per hour on Monday.\n2. From Tuesday to Thursday he ran 50% faster than on Monday. So he ran 10 * 1.5 = 15 meters per hour from Tuesday to Thursday.\n3. Then on Friday, he ran 60% faster than he ran on Thursday. So he ran 15 * 1.6 = 24 meters per hour on Friday.\n\nI hope it is correct: 24",
+        "ground_truth": "Harry ran 10 x 50/100 = <<10*50/100=5>>5 meters per hour faster on Tuesday to Wednesday.\nSo he ran 10 + 5 = <<10+5=15>>15 meters per hour from Tuesday to Thursday.\nThen on Friday, he ran 15 x 60/100 = <<15*60/100=9>>9 meters per hour more.\nTherefore, he ran 15 + 9 = <<15+9=24>>24 meters per hour on Friday.\n#### 24"
+    },
+    {
+        "question": "1. Harry ran 10 meters per hour on Monday.\n2. From Tuesday to Thursday he ran 50% faster than on Monday. So he ran 10 * 1.5 = 15 meters per hour from Tuesday to Thursday.\n3. Then on Friday, he ran 60% faster than he ran on Thursday. So he ran 15 * 1.6 = 24 meters per hour on Friday.\n\nI hope it is correct: 24\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$ = 24",
+        "ground_truth": "Harry ran 10 x 50/100 = <<10*50/100=5>>5 meters per hour faster on Tuesday to Wednesday.\nSo he ran 10 + 5 = <<10+5=15>>15 meters per hour from Tuesday to Thursday.\nThen on Friday, he ran 15 x 60/100 = <<15*60/100=9>>9 meters per hour more.\nTherefore, he ran 15 + 9 = <<15+9=24>>24 meters per hour on Friday.\n#### 24"
+    }
+]

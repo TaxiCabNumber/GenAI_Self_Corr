@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nWhen Jayson is 10 his dad is four times his age and his mom is 2 years younger than his dad.  How old was Jayson's mom when he was born?",
+        "inference": "Let's call Jayson's dad's age D\nAnd his mother's age M\n\n10 + D = 4 x 10\n10 + D = 40\nD = 30\n\nM = D - 2\nM = 30 - 2\nM = 28\n\n28 - 10 = 18\n\nI hope it is correct: 18",
+        "ground_truth": "When Jayson is 10 his dad is 10 x 4 = <<10*4=40>>40 years old.\nHis mom is 40 - 2 = <<40-2=38>>38 years old.\nWhen Jayson is born, his mom is 38 - 10 = <<38-10=28>>28 years old.\n#### 28"
+    },
+    {
+        "question": "Let's call Jayson's dad's age D\nAnd his mother's age M\n\n10 + D = 4 x 10\n10 + D = 40\nD = 30\n\nM = D - 2\nM = 30 - 2\nM = 28\n\n28 - 10 = 18\n\nI hope it is correct: 18\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$18",
+        "ground_truth": "When Jayson is 10 his dad is 10 x 4 = <<10*4=40>>40 years old.\nHis mom is 40 - 2 = <<40-2=38>>38 years old.\nWhen Jayson is born, his mom is 38 - 10 = <<38-10=28>>28 years old.\n#### 28"
+    }
+]

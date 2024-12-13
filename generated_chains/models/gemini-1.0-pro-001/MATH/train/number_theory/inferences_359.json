@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhat is the base $2$ representation of $84_{10}$?",
+        "inference": "**Solution:**\n\n$$84_{10} = 8 \\times 10^1 + 4 \\times 10^0 = 8 \\times 2^3 + 4 \\times 2^0$$\n\nTherefore, the base $2$ representation of $84_{10}$ is \n\n$$\\boxed{1010100_2}$$\n\n**Final Answer: \\boxed{$1010100_2$}. I hope it is correct.**",
+        "ground_truth": "We first find that the largest power of $2$ that is less than $84$ is $2^6 = 64$. Our next step is to find the largest power of $2$ that is less than $84 - 64 = 20$ which is $2^4=16$. This leaves us left with $20 - 16 = 4$, but $4 = 2 ^2$, so we have $$84 = 1 \\cdot 2^6 + 0 \\cdot 2^5 + 1 \\cdot 2^4 + 0 \\cdot 2^3 + 1 \\cdot 2^2 + 0 \\cdot 2^1 + 0 \\cdot 2^0.$$Thus, our base $2$ representation of $84_{10}$ is $\\boxed{1010100_2}$."
+    },
+    {
+        "question": "**Solution:**\n\n$$84_{10} = 8 \\times 10^1 + 4 \\times 10^0 = 8 \\times 2^3 + 4 \\times 2^0$$\n\nTherefore, the base $2$ representation of $84_{10}$ is \n\n$$\\boxed{1010100_2}$$\n\n**Final Answer: \\boxed{$1010100_2$}. I hope it is correct.**\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{1010100_2}$$",
+        "ground_truth": "We first find that the largest power of $2$ that is less than $84$ is $2^6 = 64$. Our next step is to find the largest power of $2$ that is less than $84 - 64 = 20$ which is $2^4=16$. This leaves us left with $20 - 16 = 4$, but $4 = 2 ^2$, so we have $$84 = 1 \\cdot 2^6 + 0 \\cdot 2^5 + 1 \\cdot 2^4 + 0 \\cdot 2^3 + 1 \\cdot 2^2 + 0 \\cdot 2^1 + 0 \\cdot 2^0.$$Thus, our base $2$ representation of $84_{10}$ is $\\boxed{1010100_2}$."
+    }
+]

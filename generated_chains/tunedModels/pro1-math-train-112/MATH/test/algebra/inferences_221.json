@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nSolve for $x$: $$\\left(\\frac{1}{25}\\right)^{x + 2} = 125^{-x}.$$",
+        "inference": "$$\\left(\\frac{1}{25}\\right)^{x + 2} = 125^{-x}$$\n\n$$25^{-(x + 2)} = 125^{-x}$$\n\n$$-(x + 2) = -x$$\n\n$$-x - 2 = -x$$\n\n$$-2 = 0$$\n\nThis is a contradiction, so there is no solution.\n\nFinal Answer: \\boxed{No solution}. I hope it is correct.",
+        "ground_truth": "Rewriting both sides with $5$ as the base, we have $\\left(\\frac{1}{25}\\right)^{x + 2} = (5^{-2})^{x+2} = 5^{-2x - 4}$, and $125^{-x} = (5^3)^{-x} = 5^{-3x}$, which means our equation is: $$5^{-2x - 4} = 5^{-3x}.$$Then, by setting the exponents equal to each other, we obtain $$-2x - 4 = -3x.$$This yields our solution $\\boxed{x = 4}$"
+    },
+    {
+        "question": "$$\\left(\\frac{1}{25}\\right)^{x + 2} = 125^{-x}$$\n\n$$25^{-(x + 2)} = 125^{-x}$$\n\n$$-(x + 2) = -x$$\n\n$$-x - 2 = -x$$\n\n$$-2 = 0$$\n\nThis is a contradiction, so there is no solution.\n\nFinal Answer: \\boxed{No solution}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{No solution}",
+        "ground_truth": "Rewriting both sides with $5$ as the base, we have $\\left(\\frac{1}{25}\\right)^{x + 2} = (5^{-2})^{x+2} = 5^{-2x - 4}$, and $125^{-x} = (5^3)^{-x} = 5^{-3x}$, which means our equation is: $$5^{-2x - 4} = 5^{-3x}.$$Then, by setting the exponents equal to each other, we obtain $$-2x - 4 = -3x.$$This yields our solution $\\boxed{x = 4}$"
+    }
+]

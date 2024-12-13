@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nDavid found $12 on the street. He then gave it to his friend Evan who has $1 and needed to buy a watch worth $20. How much does Evan still need?",
+        "inference": "David found $12 and gave it to Evan, so Evan now has $1 + $12 = $13.\nEvan needs to buy a watch worth $20, so he still needs $20 - $13 = $7.\n\nI hope it is correct: $7",
+        "ground_truth": "The total amount Evan has is $1 + $12 = $<<1+12=13>>13.\nSo Evan still needs $20 - $13 = $<<20-13=7>>7.\n#### 7"
+    },
+    {
+        "question": "David found $12 and gave it to Evan, so Evan now has $1 + $12 = $13.\nEvan needs to buy a watch worth $20, so he still needs $20 - $13 = $7.\n\nI hope it is correct: $7\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$7",
+        "ground_truth": "The total amount Evan has is $1 + $12 = $<<1+12=13>>13.\nSo Evan still needs $20 - $13 = $<<20-13=7>>7.\n#### 7"
+    }
+]

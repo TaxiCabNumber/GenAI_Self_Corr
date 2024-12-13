@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nThe GooGoo brand of clothing manufactures two types of shirts, one with 3 buttons and the other with 5 buttons.  A large department store ordered GooGoo to manufacture 200 of each type of shirt.  How many buttons will the GooGoo brand use to manufacturer all of the shirts for this order?",
+        "inference": "1) Determine the number of buttons for each type and multiply by the number of shirts of each type:\n3 buttons/shirt x 200 shirts = 600 buttons\n5 buttons/shirt x 200 shirts = 1000 buttons\n2) Add the number of buttons for each type:\n600 buttons + 1000 buttons = 1600 buttons\nI hope it is correct: 1600 buttons",
+        "ground_truth": "To make 200 of the first type of shirt, they will need 200*3=<<200*3=600>>600 buttons.\nTo make 200 of the second type of shirt, they will need 200*5=<<200*5=1000>>1000 buttons.\nTo manufacture 200 each of both types of shirts, they will need to use 600+1000=1600 buttons.\n#### 1600"
+    },
+    {
+        "question": "1) Determine the number of buttons for each type and multiply by the number of shirts of each type:\n3 buttons/shirt x 200 shirts = 600 buttons\n5 buttons/shirt x 200 shirts = 1000 buttons\n2) Add the number of buttons for each type:\n600 buttons + 1000 buttons = 1600 buttons\nI hope it is correct: 1600 buttons\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$1600",
+        "ground_truth": "To make 200 of the first type of shirt, they will need 200*3=<<200*3=600>>600 buttons.\nTo make 200 of the second type of shirt, they will need 200*5=<<200*5=1000>>1000 buttons.\nTo manufacture 200 each of both types of shirts, they will need to use 600+1000=1600 buttons.\n#### 1600"
+    }
+]

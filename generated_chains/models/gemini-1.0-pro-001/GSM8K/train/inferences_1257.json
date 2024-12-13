@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nAlice and Bob are each given $2000 to invest. Alice puts all of her money in the stock market and doubles her money. Bob invests in real estate and makes five times more money than he invested. How much more money does Bob have now than Alice?",
+        "inference": "1. Alice doubled her money, so she now has $2000 x 2 = $4000.\n2. Bob made five times more money than he invested, so he made $2000 x 5 = $10000.\n3. Bob has $10000 - $4000 = $6000 more money than Alice.\nI hope it is correct: $6000$",
+        "ground_truth": "When Alice invested her money in the stock market, her money doubled to $2000*2 = $<<2000*2=4000>>4000\nBob, after investing in real estate, increased his money by 2000*5 = <<2000*5=10000>>10000\nThe total amount of money that Bob made after investing in real estate is $10000+$2000 = $<<10000+2000=12000>>12000\nBob made $12000-$4000 = $<<12000-4000=8000>>8000 more than Alice after investing his money.\n#### 8000"
+    },
+    {
+        "question": "1. Alice doubled her money, so she now has $2000 x 2 = $4000.\n2. Bob made five times more money than he invested, so he made $2000 x 5 = $10000.\n3. Bob has $10000 - $4000 = $6000 more money than Alice.\nI hope it is correct: $6000$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $6000$",
+        "ground_truth": "When Alice invested her money in the stock market, her money doubled to $2000*2 = $<<2000*2=4000>>4000\nBob, after investing in real estate, increased his money by 2000*5 = <<2000*5=10000>>10000\nThe total amount of money that Bob made after investing in real estate is $10000+$2000 = $<<10000+2000=12000>>12000\nBob made $12000-$4000 = $<<12000-4000=8000>>8000 more than Alice after investing his money.\n#### 8000"
+    }
+]

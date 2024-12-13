@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nWhen three positive integers are divided by $12$, the remainders are $7,$ $9,$ and $10,$ respectively.\n\nWhen the sum of the three integers is divided by $12$, what is the remainder?",
+        "inference": "Let the three integers be $12a + 7$, $12b + 9$, and $12c + 10$.  Their sum is $12(a + b + c) + 26$, which is equal to $12(a + b + c + 2) + 2$.  Since $12(a + b + c + 2)$ is a multiple of 12, the remainder when the sum is divided by 12 is $\\boxed{2}$. \nFinal Answer: $\\boxed{2}$. I hope it is correct. \n",
+        "ground_truth": "We can call the three integers in this problem $a,$ $b,$ and $c$. Then we have \\begin{align*}\na &\\equiv 7\\pmod{12}, \\\\\nb &\\equiv 9\\pmod{12}, \\\\\nc &\\equiv 10\\pmod{12}.\n\\end{align*}Adding these congruences, we have \\begin{align*}\na+b+c &\\equiv 7+9+10 \\\\\n&= 26\\pmod{12}.\n\\end{align*}Therefore, $a+b+c$ has the same remainder as $26$ upon division by $12$. This remainder is $\\boxed{2}$."
+    },
+    {
+        "question": "Let the three integers be $12a + 7$, $12b + 9$, and $12c + 10$.  Their sum is $12(a + b + c) + 26$, which is equal to $12(a + b + c + 2) + 2$.  Since $12(a + b + c + 2)$ is a multiple of 12, the remainder when the sum is divided by 12 is $\\boxed{2}$. \nFinal Answer: $\\boxed{2}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$\\boxed{2}$.  I hope it is correct. \n",
+        "ground_truth": "We can call the three integers in this problem $a,$ $b,$ and $c$. Then we have \\begin{align*}\na &\\equiv 7\\pmod{12}, \\\\\nb &\\equiv 9\\pmod{12}, \\\\\nc &\\equiv 10\\pmod{12}.\n\\end{align*}Adding these congruences, we have \\begin{align*}\na+b+c &\\equiv 7+9+10 \\\\\n&= 26\\pmod{12}.\n\\end{align*}Therefore, $a+b+c$ has the same remainder as $26$ upon division by $12$. This remainder is $\\boxed{2}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nA Senate committee has 5 Democrats and 5 Republicans.  In how many ways can they sit around a circular table if each member sits next to two members of the other party? (Two seatings are the same if one is a rotation of the other.)",
+        "inference": "Final Answer: \\\\boxed{288}. I hope it is correct. \n",
+        "ground_truth": "The only way that the Senators can be seated is if the seats alternate by party.  Fix the rotation by placing the youngest Democrat in the top seat, so that we have removed the overcounting of rotations of the same arrangement.  Now there are $4!$ ways to place the remaining Democrats in the other Democratic seats, and $5!$ ways to place the Republicans in the Republican seats, for a total of $5! \\times 4! = \\boxed{2,\\!880}$ arrangements."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{288}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the original question and solution so I can identify any errors and provide the correct final answer. \n",
+        "ground_truth": "The only way that the Senators can be seated is if the seats alternate by party.  Fix the rotation by placing the youngest Democrat in the top seat, so that we have removed the overcounting of rotations of the same arrangement.  Now there are $4!$ ways to place the remaining Democrats in the other Democratic seats, and $5!$ ways to place the Republicans in the Republican seats, for a total of $5! \\times 4! = \\boxed{2,\\!880}$ arrangements."
+    }
+]

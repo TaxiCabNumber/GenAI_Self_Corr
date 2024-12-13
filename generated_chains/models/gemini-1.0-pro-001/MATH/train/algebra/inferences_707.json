@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFour years ago you invested some money at $10\\%$ interest. You now have $\\$439.23$ in the account. If the interest was compounded yearly, how much did you invest 4 years ago?",
+        "inference": "Let $P$ be the amount invested 4 years ago.\nThen, the amount after 4 years is $P(1 + 0.1)^4$.\nSo, we have:\n$$P(1 + 0.1)^4 = 439.23$$\nDividing both sides by $(1 + 0.1)^4$, we get\n$$P = \\frac{439.23}{(1 + 0.1)^4}$$\nSimplifying, we get\n$$P = \\frac{439.23}{1.4641}$$\n$$P \\approx 300$$\nFinal Answer: \\boxed{$300$}. I hope it is correct.",
+        "ground_truth": "Let $x$ be the initial amount.  After four years, at a ten percent annual interest rate, the investment will have grown to $x \\cdot 1.1^4$, so $x \\cdot 1.1^4 = 439.23$.  Then $x = 439.23/1.1^4 = \\boxed{300}$."
+    },
+    {
+        "question": "Let $P$ be the amount invested 4 years ago.\nThen, the amount after 4 years is $P(1 + 0.1)^4$.\nSo, we have:\n$$P(1 + 0.1)^4 = 439.23$$\nDividing both sides by $(1 + 0.1)^4$, we get\n$$P = \\frac{439.23}{(1 + 0.1)^4}$$\nSimplifying, we get\n$$P = \\frac{439.23}{1.4641}$$\n$$P \\approx 300$$\nFinal Answer: \\boxed{$300$}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{$300$}",
+        "ground_truth": "Let $x$ be the initial amount.  After four years, at a ten percent annual interest rate, the investment will have grown to $x \\cdot 1.1^4$, so $x \\cdot 1.1^4 = 439.23$.  Then $x = 439.23/1.1^4 = \\boxed{300}$."
+    }
+]

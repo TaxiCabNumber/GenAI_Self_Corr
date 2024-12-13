@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nTerry spent 6$ for breakfast on Monday, twice as much on Tuesday, and on Wednesday Terry spent double what he did the previous two days combined.  How much did Terry spend total?",
+        "inference": "Terry spent 6$ on Monday.\nOn Tuesday he spent twice as much as Monday, so 6*2=12$.\nOn Wednesday he spent double what he did the previous two days combined, so 12+6=18$\nSo he spent 6+12+18=36$ in total.\nI hope it is correct: $36$",
+        "ground_truth": "Monday: <<6=6>>6$\nTuesday:6(2)=12$\nWednesday:2(6+12)=36$\nTotal:6+12+36=<<6+12+36=54>>54$\n#### 54"
+    },
+    {
+        "question": "Terry spent 6$ on Monday.\nOn Tuesday he spent twice as much as Monday, so 6*2=12$.\nOn Wednesday he spent double what he did the previous two days combined, so 12+6=18$\nSo he spent 6+12+18=36$ in total.\nI hope it is correct: $36$\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "$answer$36",
+        "ground_truth": "Monday: <<6=6>>6$\nTuesday:6(2)=12$\nWednesday:2(6+12)=36$\nTotal:6+12+36=<<6+12+36=54>>54$\n#### 54"
+    }
+]

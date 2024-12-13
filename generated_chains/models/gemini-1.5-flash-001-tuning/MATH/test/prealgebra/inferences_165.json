@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nJohn meant to divide a number by $2$, but he was careless and subtracted $2$ from the number instead.  He got an answer of $22$.  What would his answer have been had he actually divided by $2$ instead of subtracting $2$?",
+        "inference": "Let the number be $x$.\n\nHe subtracted $2$ from the number, so $x-2=22$\n\nSolving for $x$, we have $x = 24$.\n\nHe was supposed to divide the number by $2$, so we have $24/2 = 12$.\n\nFinal Answer: $\\boxed{12}$. I hope it is correct. \n",
+        "ground_truth": "Let the number John was supposed to divide by 2 be $x$. We have the equation $x-2=22$, from which we find that $x=24$. Had John divided by 2, he would have gotten $x/2=24/2=12$. Thus, the answer John should have gotten is $\\boxed{12}$."
+    },
+    {
+        "question": "Let the number be $x$.\n\nHe subtracted $2$ from the number, so $x-2=22$\n\nSolving for $x$, we have $x = 24$.\n\nHe was supposed to divide the number by $2$, so we have $24/2 = 12$.\n\nFinal Answer: $\\boxed{12}$. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\boxed{11} I hope it is correct. \n",
+        "ground_truth": "Let the number John was supposed to divide by 2 be $x$. We have the equation $x-2=22$, from which we find that $x=24$. Had John divided by 2, he would have gotten $x/2=24/2=12$. Thus, the answer John should have gotten is $\\boxed{12}$."
+    }
+]

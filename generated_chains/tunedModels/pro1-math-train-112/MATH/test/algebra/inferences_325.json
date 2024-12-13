@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $d-6c=4$ and $2d-9c=20$, find the value of $\\frac{d}{c}$.",
+        "inference": "$$d-6c=4$$ $$2d-9c=20$$\n\nMultiply the first equation by 2:\n\n$$2d-12c=8$$\n\nSubtract the second equation from this:\n\n$$-3c=12$$\n\nDivide both sides by -3:\n\n$$c=-4$$\n\nSubstitute this into the first equation:\n\n$$d-6(-4)=4$$\n\n$$d+24=4$$\n\nSubtract 24 from both sides:\n\n$$d=-20$$\n\nTherefore,\n\n$$\\frac{d}{c}=\\frac{-20}{-4}=\\boxed{5}.$$\n\nFinal Answer: \\boxed{5}. I hope it is correct.",
+        "ground_truth": "We begin by multiplying the first equation by 2, giving us a system of two equations \\begin{align*} 2d-12c&=8\n\\\\ 2d-9c&=20\n\\end{align*}From here, we can subtract the second equation from the first. This gives us $(2d-12c)-(2d-9c)=8-20$, which simplifies to $-3c=-12$ or $c=4$. Since we now know the value of $c$, we can plug this back into the first equation to solve for $d$. This gives us $2d-12(4)=8$, or $2d=56$ and $d=28$. Since $d=28$ and $c=4$, $\\frac{d}{c}=\\frac{28}{4}=\\boxed{7}$."
+    },
+    {
+        "question": "$$d-6c=4$$ $$2d-9c=20$$\n\nMultiply the first equation by 2:\n\n$$2d-12c=8$$\n\nSubtract the second equation from this:\n\n$$-3c=12$$\n\nDivide both sides by -3:\n\n$$c=-4$$\n\nSubstitute this into the first equation:\n\n$$d-6(-4)=4$$\n\n$$d+24=4$$\n\nSubtract 24 from both sides:\n\n$$d=-20$$\n\nTherefore,\n\n$$\\frac{d}{c}=\\frac{-20}{-4}=\\boxed{5}.$$\n\nFinal Answer: \\boxed{5}. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{5}",
+        "ground_truth": "We begin by multiplying the first equation by 2, giving us a system of two equations \\begin{align*} 2d-12c&=8\n\\\\ 2d-9c&=20\n\\end{align*}From here, we can subtract the second equation from the first. This gives us $(2d-12c)-(2d-9c)=8-20$, which simplifies to $-3c=-12$ or $c=4$. Since we now know the value of $c$, we can plug this back into the first equation to solve for $d$. This gives us $2d-12(4)=8$, or $2d=56$ and $d=28$. Since $d=28$ and $c=4$, $\\frac{d}{c}=\\frac{28}{4}=\\boxed{7}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $a,$ $b,$ $c$ be positive real numbers.  Find the minimum value of\n\\[\\frac{(a + b)(a + c)(b + c)}{abc}.\\]",
+        "inference": "Solution:\nUsing AM-GM, we have\n\\begin{align*}\n\\frac{(a + b)(a + c)(b + c)}{abc} &= \\frac{(a + b + c)^2 - 3abc}{abc}\\\\\n&= \\frac{a^2 + b^2 + c^2 + 2(ab + bc + ca)}{abc}\\\\\n&\\geq \\frac{3(ab + bc + ca)}{abc}\\\\\n&= \\frac{3}{a} + \\frac{3}{b} + \\frac{3}{c}\\\\\n&\\geq \\frac{9}{\\sqrt[3]{abc}}\\\\\n&= \\frac{9}{\\sqrt[3]{a^2b^2c^2}}\\\\\n&= \\frac{9}{abc}.\n\\end{align*}\n\nTherefore, the minimum value of $\\frac{(a + b)(a + c)(b + c)}{abc}$ is $\\boxed{9}$.\nFinal Answer: $\\boxed{9}$. I hope it is correct.",
+        "ground_truth": "By AM-GM,\n\\begin{align*}\na + b \\ge 2 \\sqrt{ab}, \\\\\na + c \\ge 2 \\sqrt{ac}, \\\\\nb + c \\ge 2 \\sqrt{bc},\n\\end{align*}so\n\\[\\frac{(a + b)(a + c)(b + c)}{abc} \\ge \\frac{2 \\sqrt{ab} \\cdot 2 \\sqrt{ac} \\cdot 2 \\sqrt{bc}}{abc} = 8.\\]Equality occurs when $a = b = c,$ so the minimum value is $\\boxed{8}.$"
+    },
+    {
+        "question": "Solution:\nUsing AM-GM, we have\n\\begin{align*}\n\\frac{(a + b)(a + c)(b + c)}{abc} &= \\frac{(a + b + c)^2 - 3abc}{abc}\\\\\n&= \\frac{a^2 + b^2 + c^2 + 2(ab + bc + ca)}{abc}\\\\\n&\\geq \\frac{3(ab + bc + ca)}{abc}\\\\\n&= \\frac{3}{a} + \\frac{3}{b} + \\frac{3}{c}\\\\\n&\\geq \\frac{9}{\\sqrt[3]{abc}}\\\\\n&= \\frac{9}{\\sqrt[3]{a^2b^2c^2}}\\\\\n&= \\frac{9}{abc}.\n\\end{align*}\n\nTherefore, the minimum value of $\\frac{(a + b)(a + c)(b + c)}{abc}$ is $\\boxed{9}$.\nFinal Answer: $\\boxed{9}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{$9$}",
+        "ground_truth": "By AM-GM,\n\\begin{align*}\na + b \\ge 2 \\sqrt{ab}, \\\\\na + c \\ge 2 \\sqrt{ac}, \\\\\nb + c \\ge 2 \\sqrt{bc},\n\\end{align*}so\n\\[\\frac{(a + b)(a + c)(b + c)}{abc} \\ge \\frac{2 \\sqrt{ab} \\cdot 2 \\sqrt{ac} \\cdot 2 \\sqrt{bc}}{abc} = 8.\\]Equality occurs when $a = b = c,$ so the minimum value is $\\boxed{8}.$"
+    }
+]

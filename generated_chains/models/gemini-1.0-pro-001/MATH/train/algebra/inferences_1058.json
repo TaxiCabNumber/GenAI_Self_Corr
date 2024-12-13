@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $5a+2b=0$ and $a$ is two less than $b$, what is $7b$?",
+        "inference": "$$5a+2b=0$$\n$$a=2-b$$\n$$5(2-b)+2b=0$$\n$$10-5b+2b=0$$\n$$10-3b=0$$\n$$-3b=-10$$\n$$b=\\frac{10}{3}$$\n$$7b=7\\cdot\\frac{10}{3}=\\frac{70}{3}$$\n\nFinal Answer: $\\boxed{\\frac{70}{3}}$. I hope it is correct.",
+        "ground_truth": "First we begin by solving the system of equations \\begin{align*}\n5a+2b&=0, \\\\\nb-2&=a.\n\\end{align*}Making the substitution for $a$ from the second equation to the first, we get $5(b-2)+2b=0$, which simplifies to $7b-10=0$. Solving for $b$, we find that $b=\\frac{10}{7}$. Hence $7b=7\\cdot \\frac{10}{7}=\\boxed{10}$."
+    },
+    {
+        "question": "$$5a+2b=0$$\n$$a=2-b$$\n$$5(2-b)+2b=0$$\n$$10-5b+2b=0$$\n$$10-3b=0$$\n$$-3b=-10$$\n$$b=\\frac{10}{3}$$\n$$7b=7\\cdot\\frac{10}{3}=\\frac{70}{3}$$\n\nFinal Answer: $\\boxed{\\frac{70}{3}}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "$$\\boxed{\\frac{70}{3}}$$",
+        "ground_truth": "First we begin by solving the system of equations \\begin{align*}\n5a+2b&=0, \\\\\nb-2&=a.\n\\end{align*}Making the substitution for $a$ from the second equation to the first, we get $5(b-2)+2b=0$, which simplifies to $7b-10=0$. Solving for $b$, we find that $b=\\frac{10}{7}$. Hence $7b=7\\cdot \\frac{10}{7}=\\boxed{10}$."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $n = 2^{10} \\cdot 3^{14} \\cdot 5^{8}$, how many of the natural-number factors of $n$ are multiples of 150?",
+        "inference": "The prime factorization of 150 is $2 \\cdot 3 \\cdot 5^2$.\n\n* Since $n$ is a multiple of $2^{10}$, every factor of $n$ is a multiple of $2^2$.\n* Since $n$ is a multiple of $3^{14}$, every factor of $n$ is a multiple of $3^2$.\n* Since $n$ is a multiple of $5^8$, every factor of $n$ is a multiple of $5^2$.\n\nTherefore every factor of $n$ is a multiple of $2^2 \\cdot 3^2 \\cdot 5^2 = 150$.\n\nFinal Answer: $\\boxed{1}$. I hope it is correct.",
+        "ground_truth": "$150=2^13^15^2$.  Thus the coefficient of $2$ must be between $1$ and $10$, the coefficient of $3$ must be between $1$ and $14$, and the coefficient of $5$ must be between $2$ and $8$.  So the number of possible factors is\n\n$$(10)(14)(7)=\\boxed{980}$$"
+    },
+    {
+        "question": "The prime factorization of 150 is $2 \\cdot 3 \\cdot 5^2$.\n\n* Since $n$ is a multiple of $2^{10}$, every factor of $n$ is a multiple of $2^2$.\n* Since $n$ is a multiple of $3^{14}$, every factor of $n$ is a multiple of $3^2$.\n* Since $n$ is a multiple of $5^8$, every factor of $n$ is a multiple of $5^2$.\n\nTherefore every factor of $n$ is a multiple of $2^2 \\cdot 3^2 \\cdot 5^2 = 150$.\n\nFinal Answer: $\\boxed{1}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Final Answer: $\\boxed{150}$.",
+        "ground_truth": "$150=2^13^15^2$.  Thus the coefficient of $2$ must be between $1$ and $10$, the coefficient of $3$ must be between $1$ and $14$, and the coefficient of $5$ must be between $2$ and $8$.  So the number of possible factors is\n\n$$(10)(14)(7)=\\boxed{980}$$"
+    }
+]

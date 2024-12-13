@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nLet $a,$ $b,$ $c,$ and $d$ be real numbers such that $a^2 + b^2 = 8$ and $c^2 + d^2 = 13.$  Find\n\\[(ad - bc)^2 + (ac + bd)^2.\\]",
+        "inference": "Solution:\n\\begin{align*}\n(ad - bc)^2 + (ac + bd)^2 &= a^2d^2 - 2abcd + b^2c^2 + a^2c^2 + 2abcd + b^2d^2\\\\\n&= a^2(d^2 + c^2) + b^2(c^2 + d^2)\\\\\n&= a^2(13) + b^2(8)\\\\\n&= 13a^2 + 8b^2\\\\\n&= 13(a^2 + b^2)\\\\\n&= 13(8)\\\\\n&= \\boxed{104}.\n\\end{align*}\nFinal Answer: $\\boxed{104}.$ I hope it is correct.",
+        "ground_truth": "Expanding, we get\n\\[(ad - bc)^2 + (ac + bd)^2 = a^2 d^2 + b^2 c^2 + a^2 c^2 + b^2 d^2 = (a^2 + b^2)(c^2 + d^2) = 8 \\cdot 13 = \\boxed{104}.\\]This identity comes up when verifying that $|zw| = |z||w|$ for all complex numbers $z$ and $w.$"
+    },
+    {
+        "question": "Solution:\n\\begin{align*}\n(ad - bc)^2 + (ac + bd)^2 &= a^2d^2 - 2abcd + b^2c^2 + a^2c^2 + 2abcd + b^2d^2\\\\\n&= a^2(d^2 + c^2) + b^2(c^2 + d^2)\\\\\n&= a^2(13) + b^2(8)\\\\\n&= 13a^2 + 8b^2\\\\\n&= 13(a^2 + b^2)\\\\\n&= 13(8)\\\\\n&= \\boxed{104}.\n\\end{align*}\nFinal Answer: $\\boxed{104}.$ I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{104}",
+        "ground_truth": "Expanding, we get\n\\[(ad - bc)^2 + (ac + bd)^2 = a^2 d^2 + b^2 c^2 + a^2 c^2 + b^2 d^2 = (a^2 + b^2)(c^2 + d^2) = 8 \\cdot 13 = \\boxed{104}.\\]This identity comes up when verifying that $|zw| = |z||w|$ for all complex numbers $z$ and $w.$"
+    }
+]

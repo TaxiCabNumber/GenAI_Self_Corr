@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind the imaginary part of \\[(\\cos12^\\circ+i\\sin12^\\circ+\\cos48^\\circ+i\\sin48^\\circ)^6.\\]",
+        "inference": "Final Answer: \\\\boxed{0}. I hope it is correct. \n",
+        "ground_truth": "Using the sum-to-product formula, we have\n\\begin{align*}\n\\cos 12^{\\circ} + \\cos 48^{\\circ} &= 2 \\cos 30^{\\circ} \\cos 18^{\\circ}, \\\\\n\\sin 12^{\\circ} + \\sin 48^{\\circ} &= 2 \\sin 30^{\\circ} \\cos 18^{\\circ}. \\\\\n\\end{align*}Therefore,\n\\begin{align*}\n(\\cos 12^{\\circ} + i \\sin 12^{\\circ} + \\cos 48^{\\circ} + i \\sin 48^{\\circ})^6 &= [2\\cos 18^{\\circ} (\\cos 30^{\\circ} + i \\sin 30^{\\circ})]^6 \\\\\n&= 64\\cos^6 18^{\\circ} (\\cos 180^{\\circ} + i \\sin 180^{\\circ}) \\\\\n&= -64\\cos^6 18^{\\circ},\n\\end{align*}which is real. Hence, the imaginary part is $\\boxed{0}$.\n\n(See if you can also find a geometric solution!)"
+    },
+    {
+        "question": "Final Answer: \\\\boxed{0}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the question and the solution you are referring to. I need that information to identify any potential errors and rewrite the solution correctly. \n",
+        "ground_truth": "Using the sum-to-product formula, we have\n\\begin{align*}\n\\cos 12^{\\circ} + \\cos 48^{\\circ} &= 2 \\cos 30^{\\circ} \\cos 18^{\\circ}, \\\\\n\\sin 12^{\\circ} + \\sin 48^{\\circ} &= 2 \\sin 30^{\\circ} \\cos 18^{\\circ}. \\\\\n\\end{align*}Therefore,\n\\begin{align*}\n(\\cos 12^{\\circ} + i \\sin 12^{\\circ} + \\cos 48^{\\circ} + i \\sin 48^{\\circ})^6 &= [2\\cos 18^{\\circ} (\\cos 30^{\\circ} + i \\sin 30^{\\circ})]^6 \\\\\n&= 64\\cos^6 18^{\\circ} (\\cos 180^{\\circ} + i \\sin 180^{\\circ}) \\\\\n&= -64\\cos^6 18^{\\circ},\n\\end{align*}which is real. Hence, the imaginary part is $\\boxed{0}$.\n\n(See if you can also find a geometric solution!)"
+    }
+]

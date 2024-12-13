@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nEach person in a certain household consumes 0.2 kg of rice every meal. Supposing 5 members of the household eat rice every lunch and dinner, how many weeks will a 42 kg bag of rice last?",
+        "inference": "1. Calculate the total amount of rice consumed per day:\n0.2 kg/meal x 5 members x 2 meals/day = 2 kg/day\n\n2. Calculate the number of days the bag of rice will last:\n42 kg / 2 kg/day = 21 days\n\n3. Convert days to weeks:\n21 days / 7 days/week = 3 weeks\n\nI hope it is correct: 3 weeks",
+        "ground_truth": "Each person eats 0.2 kg/meal x 2 meals/day = <<0.2*2=0.4>>0.4 kg of rice per day.\nSo, the 5 members consume 0.4 kg/day/person x 5 people = <<0.4*5=2>>2 kg of rice per day.\nIn a week, the household consumes 2 kg/day x 7 days/week = <<2*7=14>>14kg of rice.\nThus, 42 kg of rice will last 42 kg / 14 kg/week = <<42/14=3>>3 weeks.\n#### 3"
+    },
+    {
+        "question": "1. Calculate the total amount of rice consumed per day:\n0.2 kg/meal x 5 members x 2 meals/day = 2 kg/day\n\n2. Calculate the number of days the bag of rice will last:\n42 kg / 2 kg/day = 21 days\n\n3. Convert days to weeks:\n21 days / 7 days/week = 3 weeks\n\nI hope it is correct: 3 weeks\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### $answer$= 3 weeks",
+        "ground_truth": "Each person eats 0.2 kg/meal x 2 meals/day = <<0.2*2=0.4>>0.4 kg of rice per day.\nSo, the 5 members consume 0.4 kg/day/person x 5 people = <<0.4*5=2>>2 kg of rice per day.\nIn a week, the household consumes 2 kg/day x 7 days/week = <<2*7=14>>14kg of rice.\nThus, 42 kg of rice will last 42 kg / 14 kg/week = <<42/14=3>>3 weeks.\n#### 3"
+    }
+]

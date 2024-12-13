@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nThe measure of angle $ACB$ is 40 degrees. If ray $CA$ is rotated 480 degrees about point $C$ in a clockwise direction, what will be the positive measure of the new acute angle $ACB$, in degrees?\n\n[asy]\ndraw((0,0)--dir(40),linewidth(1),Arrow);\ndraw((0,0)--dir(0),linewidth(1),Arrow);\ndot(.8dir(40));\ndot(.8dir(0));\ndot((0,0));\nlabel(\"A\",.8dir(40),NW);\nlabel(\"B\",.8dir(0),S);\nlabel(\"C\",(0,0),W);\n[/asy]",
+        "inference": "Final Answer: \\\\boxed{40}. I hope it is correct. \n",
+        "ground_truth": "A rotation by 480 degrees is the same as one by $480 - 360 = 120$.  The first $40$ degrees of this rotation will be used to decrease the angle $ACB$ to $0$ degrees, leaving $80$ unused degrees, so our answer is $\\boxed{80}$ degrees."
+    },
+    {
+        "question": "Final Answer: \\\\boxed{40}. I hope it is correct. \n\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "Please provide me with the original question and the solution you have written. I need that context to identify any errors and provide a corrected solution. \n",
+        "ground_truth": "A rotation by 480 degrees is the same as one by $480 - 360 = 120$.  The first $40$ degrees of this rotation will be used to decrease the angle $ACB$ to $0$ degrees, leaving $80$ unused degrees, so our answer is $\\boxed{80}$ degrees."
+    }
+]

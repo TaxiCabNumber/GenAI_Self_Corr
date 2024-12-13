@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'I hope it is correct: #### $answer$'\nJames paves a new parking lot.  It is 400 feet by 500 feet.  Only 80% of that is useable for parking.  It takes 10 square feet to park a car.  How many cars can be parked?",
+        "inference": "1. Calculate the total area of the parking lot: 400 feet x 500 feet = 200,000 square feet\n2. Calculate the useable area for parking: 200,000 square feet x 0.80 = 160,000 square feet\n3. Divide the useable area by the area required to park a car: 160,000 square feet / 10 square feet per car = 16,000 cars\nI hope it is correct: 16,000",
+        "ground_truth": "The parking lot is 400*500=<<400*500=200000>>200,000\nThere are 200,000*.8=<<200000*.8=160000>>160,000 square feet of parking space\nThat means he can park 16,0000/10=16000 cars\n#### 16000"
+    },
+    {
+        "question": "1. Calculate the total area of the parking lot: 400 feet x 500 feet = 200,000 square feet\n2. Calculate the useable area for parking: 200,000 square feet x 0.80 = 160,000 square feet\n3. Divide the useable area by the area required to park a car: 160,000 square feet / 10 square feet per car = 16,000 cars\nI hope it is correct: 16,000\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution #### $answer$'",
+        "inference": "#### 16,000",
+        "ground_truth": "The parking lot is 400*500=<<400*500=200000>>200,000\nThere are 200,000*.8=<<200000*.8=160000>>160,000 square feet of parking space\nThat means he can park 16,0000/10=16000 cars\n#### 16000"
+    }
+]

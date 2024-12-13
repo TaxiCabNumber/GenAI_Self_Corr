@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nFind an integer $n$ such that $0\\leq n<398$ and $n$ is a multiplicative inverse to 7 modulo 398.",
+        "inference": "We can use the extended Euclidean algorithm to find the multiplicative inverse of 7 modulo 398.\n\n```\n398 = 7 * 56 + 2\n56 = 2 * 28 + 0\n28 = 2 * 14 + 0\n14 = 2 * 7 + 0\n7 = 2 * 3 + 1\n3 = 3 * 1 + 0\n```\n\nSo, $1 = 7 - 2 * 3 = 7 - 2 * (398 - 7 * 56) = 7 - 2 * 398 + 2 * 7 * 56 = 7 * (2 * 56 - 2 * 398 + 1) = 7 * 112$.\n\nTherefore, $n = 112$.\n\nFinal Answer: $\\boxed{112}$. I hope it is correct.",
+        "ground_truth": "We notice that 399 is a multiple of 7: \\[399=57\\cdot7.\\]Considering this equation modulo 398 gives \\[1\\equiv57\\cdot7\\pmod{398}\\]so the answer is $\\boxed{57}$."
+    },
+    {
+        "question": "We can use the extended Euclidean algorithm to find the multiplicative inverse of 7 modulo 398.\n\n```\n398 = 7 * 56 + 2\n56 = 2 * 28 + 0\n28 = 2 * 14 + 0\n14 = 2 * 7 + 0\n7 = 2 * 3 + 1\n3 = 3 * 1 + 0\n```\n\nSo, $1 = 7 - 2 * 3 = 7 - 2 * (398 - 7 * 56) = 7 - 2 * 398 + 2 * 7 * 56 = 7 * (2 * 56 - 2 * 398 + 1) = 7 * 112$.\n\nTherefore, $n = 112$.\n\nFinal Answer: $\\boxed{112}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "\\\\boxed{112}",
+        "ground_truth": "We notice that 399 is a multiple of 7: \\[399=57\\cdot7.\\]Considering this equation modulo 398 gives \\[1\\equiv57\\cdot7\\pmod{398}\\]so the answer is $\\boxed{57}$."
+    }
+]

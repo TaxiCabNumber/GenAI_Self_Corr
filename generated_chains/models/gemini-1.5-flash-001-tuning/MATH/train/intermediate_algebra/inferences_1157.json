@@ -1,0 +1,12 @@
+[
+    {
+        "question": "You are a math expert. When you respond, respond only with the Solution of the final Problem, thinking step by step. At the end of the Solution, when you give your final answer, write it in the form 'Final Answer: \\\\boxed{$answer$}. I hope it is correct.'\nIf $x+7$ is a factor of $cx^3 + 19x^2 - 3cx + 35$, find the constant $c$.",
+        "inference": "If $x+7$ is a factor of the polynomial, then the polynomial must equal zero when $x = -7$.  Substituting $x = -7$ into the polynomial, we get  \\[c(-7)^3 + 19(-7)^2 - 3c(-7) + 35 = 0.\\]Simplifying, we have  \\[-343c + 931 + 21c + 35 = 0.\\]Combining like terms, we have $-322c + 966 = 0$.  Solving for $c$, we find $c = \\boxed{3}$.\nFinal Answer: $\\boxed{3}$. I hope it is correct.",
+        "ground_truth": "Though it is possible to solve this problem using polynomial long division, it is quicker to use the Factor Theorem.\n\nLet $f(x) = cx^3 + 19x^2 - 3cx + 35$. If $x+7$ is a factor of $f(x)$, the factor theorem tells us that $f(-7) = 0.$  Then\n\\[c(-7)^3 + 19(-7)^2 - 3c(-7) + 35 = 0,\\]which simplifies to $-322c + 966 = 0.$  We can solve for $c$ to get $c = \\boxed{3}$."
+    },
+    {
+        "question": "If $x+7$ is a factor of the polynomial, then the polynomial must equal zero when $x = -7$.  Substituting $x = -7$ into the polynomial, we get  \\[c(-7)^3 + 19(-7)^2 - 3c(-7) + 35 = 0.\\]Simplifying, we have  \\[-343c + 931 + 21c + 35 = 0.\\]Combining like terms, we have $-322c + 966 = 0$.  Solving for $c$, we find $c = \\boxed{3}$.\nFinal Answer: $\\boxed{3}$. I hope it is correct.\nThere might be an error in the solution above because of lack of understanding of the question. Please correct the error, if any, and rewrite the solution. Only output the final solution \\\\boxed{$answer$}. I hope it is correct.'",
+        "inference": "The solution is correct.  \n\n**Final Answer: $\\boxed{3}$.** \n",
+        "ground_truth": "Though it is possible to solve this problem using polynomial long division, it is quicker to use the Factor Theorem.\n\nLet $f(x) = cx^3 + 19x^2 - 3cx + 35$. If $x+7$ is a factor of $f(x)$, the factor theorem tells us that $f(-7) = 0.$  Then\n\\[c(-7)^3 + 19(-7)^2 - 3c(-7) + 35 = 0,\\]which simplifies to $-322c + 966 = 0.$  We can solve for $c$ to get $c = \\boxed{3}$."
+    }
+]
